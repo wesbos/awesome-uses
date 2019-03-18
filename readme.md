@@ -37,5 +37,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jonathan Suh](https://jonsuh.com/uses) - Designer, Developer
 * [Manuel Wildauer](https://wildauer.io/uses) - Developer
 * [Elliot Forbes](https://tutorialedge.net/uses/) - All-round Developer
+* [Dr. Abstract](https://zimjs.com/uses/) - Founder of ZIM JavaScript Canvas Framework
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
