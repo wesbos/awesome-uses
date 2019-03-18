@@ -41,5 +41,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jay Collett](https://www.jaycollett.co/uses/) - Freelance web designer and front end developer with CraftCMS
 * [Amit Merchant](https://www.amitmerchant.com/uses/) - Fullstack web developer, blogger. 
 * [Adam Greenough](https://adamgreenough.me/uses/) - Freelance Digital Designer & Web Developer
+* [Kumar Abhirup](https://kumar.now.sh/uses/) - A 15yo Jnr. developer with a passion for learning 👋🏻
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
