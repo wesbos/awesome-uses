@@ -45,5 +45,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Kumar Abhirup](https://kumar.now.sh/uses) - A 15yo Jnr. developer with a passion for learning 👋🏻
 * [Chris Enns](https://chrisenns.com/uses/) - Podcast Editor & WordPress Wannabe
 * [David Llop](https://davidllop.com/uses/) - Laravel & ChatBots Developer
+* [Łukasz Ostrowski](https://ostrowski.ninja/uses/) - Frontend developer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
