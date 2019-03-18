@@ -19,7 +19,7 @@
 
 ```
 
-# Awesome Uses [![Awesome][awesome-badge]][awesome-link]
+# Awesome Uses ![Awesome][awesome-badge]
 
 A list of /uses pages that detail apps and gear used by professional web developers.
 
