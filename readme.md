@@ -32,6 +32,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Thibault Maekelbergh](https://thibmaek.com/uses) - All-round developer, DIY enthousiast, record collector.
 * [Kent C. Dodds](https://kentcdodds.com/uses) - Web Developer, Educator, Live Streamer, Open Sourcerer.
 * [Randy Oest, aka amazingrando](https://randyoest.com/uses/) - Lead Design and Frontend Engineer, Four Kitchens
+* [Elijah Manor](https://elijahmanor.com/uses) - Front-End Developer and Educator
 * [Dave Kiss](https://davekiss.com/uses) - Web Developer, Solopreneur, Adventurer
 * [Jonathan Suh](https://jonsuh.com/uses) - Designer, Developer
 
