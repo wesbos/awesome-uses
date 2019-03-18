@@ -29,5 +29,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
 * [Eric L. Barnes](https://ericlbarnes.com/uses/) - Laravel Developer, Maker, Writer
 * [Benjamin Lannon](https://lannonbr.com/uses/) - Web Developer, Open Source Contributor.
+* [Kent C. Dodds](https://kentcdodds.com/uses) - Web Developer, Educator, Live Streamer, Open Sourcerer.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
