@@ -45,6 +45,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Kumar Abhirup](https://kumar.now.sh/uses) - A 15yo Jnr. developer with a passion for learning 👋🏻
 * [Chris Enns](https://chrisenns.com/uses/) - Podcast Editor & WordPress Wannabe
 * [David Llop](https://davidllop.com/uses/) - Laravel & ChatBots Developer
+* [Med Ben hartouz](https://benhartouz.com/uses/) - Fullstack Javascript Developer.
 * [Łukasz Ostrowski](https://ostrowski.ninja/uses/) - Frontend developer
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
