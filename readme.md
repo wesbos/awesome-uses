@@ -25,6 +25,7 @@ A list of /uses pages that detail apps and gear used by professional web develop
 
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
 
+* [Wang Junxiao](http://www.feng0207.site/uses/) — Java Web Developer, Student.
 * [Wes Bos](https://wesbos.com/uses) — Web Developer, Tutorial Maker, Podcaster.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
 * [Eric L. Barnes](https://ericlbarnes.com/uses/) - Laravel Developer, Maker, Writer
