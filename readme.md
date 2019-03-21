@@ -50,6 +50,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
+* [Nick Janetakis](https://nickjanetakis.com/uses) - Web developer, Sysadmin, Teacher
 * [Andrew Healey](https://healeycodes.github.io/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
 * [Alex Carpenter](https://alexcarpenter.me/uses/) - Front-end Web Developer and Screencaster.
 * [Wang Junxiao](http://www.feng0207.site/uses/) — Java Web Developer, Student.
