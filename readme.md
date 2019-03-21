@@ -49,6 +49,8 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Łukasz Ostrowski](https://ostrowski.ninja/uses/) - Frontend developer
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
+* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
+* [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 
