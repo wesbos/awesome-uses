@@ -51,5 +51,11 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
 * [Nick Janetakis](https://nickjanetakis.com/uses) - Web developer, Sysadmin, Teacher
+* [Andrew Healey](https://healeycodes.github.io/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
+* [Alex Carpenter](https://alexcarpenter.me/uses/) - Front-end Web Developer and Screencaster.
+* [Wang Junxiao](http://www.feng0207.site/uses/) — Java Web Developer, Student.
+* [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
+* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
+* [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
