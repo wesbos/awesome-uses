@@ -49,6 +49,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Łukasz Ostrowski](https://ostrowski.ninja/uses/) - Frontend developer
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
-* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
+* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
+* [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist. 
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
