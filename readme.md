@@ -58,6 +58,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
-* [Khalil Stemmler](https://khalilstemmler.com/uses/) - Fullstack Javascript Developer / Designer, Musician
+* [Khalil Stemmler](https://khalilstemmler.com/uses/) - Fullstack Javascript Developer / Designer, Musician 🇨🇦
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
