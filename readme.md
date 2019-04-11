@@ -58,6 +58,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
+* [François Rabanel aka Pesko](https://peskoo.github.io/lasalledutemps/articles/2019-04/uses) - Fullstack Software Engineer
 * [Jesse Burton](https://burtonmediainc.com/uses) - Web Developer, Freelancer, Blogger
 * [Philipp John](https://www.jplace.de/uses) - Fullstack Web Developer
 
