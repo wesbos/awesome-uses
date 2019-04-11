@@ -60,5 +60,11 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 * [Harry Roberts](https://csswizardry.com/uses/) - Consultant Front-end Architect, designer, developer, writer and speaker.
 * [Matt D. Smith](http://mds.is/using-stuff/) - Owner and Design Director at Studio Mds.
+* [Ash Hitchcock](https://www.ashleyhitchcock.com/uses) - Front-end Developer 🇬🇧
+* [Oscar te Giffel](https://oscartegiffel.com/uses/) - Fullstack Software engineer
+* [John Michael Ferraris](https://jhnferraris.dev/uses/) - Fullstack Developer (that is still eager to learn), Runner
+* [François Rabanel aka Pesko](https://peskoo.github.io/lasalledutemps/articles/2019-04/uses) - Fullstack Software Engineer
+* [Jesse Burton](https://burtonmediainc.com/uses) - Web Developer, Freelancer, Blogger
+* [Philipp John](https://www.jplace.de/uses) - Fullstack Web Developer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
