@@ -60,6 +60,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
+* [Josiah Wiebe](https://jwie.be/uses/) - Full Stack Developer & Designer
 * [Khalil Stemmler](https://khalilstemmler.com/uses/) - Fullstack Javascript Developer / Designer, Musician 🇨🇦
 * [Pierre-Antoine _Leny_ Delnatte](https://leny.me/uses/) - Fullstack Web Developer, Bootcamp coach 🇧🇪
 * [Harry Roberts](https://csswizardry.com/uses/) - Consultant Front-end Architect, designer, developer, writer and speaker.
