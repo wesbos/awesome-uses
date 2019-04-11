@@ -58,6 +58,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
+* [Pierre-Antoine _Leny_ Delnatte](https://leny.me/uses/) - Fullstack Web Developer, Bootcamp coach 🇧🇪
 * [Harry Roberts](https://csswizardry.com/uses/) - Consultant Front-end Architect, designer, developer, writer and speaker.
 * [Matt D. Smith](http://mds.is/using-stuff/) - Owner and Design Director at Studio Mds.
 * [Ash Hitchcock](https://www.ashleyhitchcock.com/uses) - Front-end Developer 🇬🇧
