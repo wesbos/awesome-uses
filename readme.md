@@ -58,6 +58,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
+* [Ash Hitchcock](https://www.ashleyhitchcock.com/uses) - Front-end Developer 🇬🇧
 * [Oscar te Giffel](https://oscartegiffel.com/uses/) - Fullstack Software engineer
 * [John Michael Ferraris](https://jhnferraris.dev/uses/) - Fullstack Developer (that is still eager to learn), Runner
 * [François Rabanel aka Pesko](https://peskoo.github.io/lasalledutemps/articles/2019-04/uses) - Fullstack Software Engineer
