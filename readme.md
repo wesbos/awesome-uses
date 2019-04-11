@@ -59,5 +59,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 * [Jesse Burton](https://burtonmediainc.com/uses) - Web Developer, Freelancer, Blogger
+* [Philipp John](https://www.jplace.de/uses) - Fullstack Web Developer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
