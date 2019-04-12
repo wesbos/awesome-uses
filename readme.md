@@ -75,5 +75,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jesse Burton](https://burtonmediainc.com/uses) - Web Developer, Freelancer, Blogger
 * [Philipp John](https://www.jplace.de/uses) - Fullstack Web Developer
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
+* [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
