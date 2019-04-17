@@ -77,6 +77,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
 * [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
-* [Zack Eaton] (https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
+* [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
