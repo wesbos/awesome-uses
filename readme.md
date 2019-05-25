@@ -78,5 +78,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
+* [Brad Garropy](https://bradgarropy.com/uses) - self taught ⚛ frontender @ [Adobe](https://www.adobe.com/). blogger, streamer, tweeter. 📝📺🐦
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
