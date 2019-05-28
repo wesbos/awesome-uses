@@ -60,9 +60,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
-<<<<<<< HEAD
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer 
-=======
 * [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger. 
 * [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
 * [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
@@ -82,6 +80,5 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
->>>>>>> wesbos-master
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
