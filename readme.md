@@ -51,7 +51,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist. 
-* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
 * [Aurel Tyson](https://aureltyson.info/uses) - iOS and backend developer
 * [Nick Janetakis](https://nickjanetakis.com/uses) - Web developer, Sysadmin, Teacher
 * [Andrew Healey](https://healeycodes.github.io/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
