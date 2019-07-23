@@ -79,5 +79,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
+* [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
