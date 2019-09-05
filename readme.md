@@ -79,6 +79,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
+* [Brad Garropy](https://bradgarropy.com/uses) - self taught ⚛ frontender @ [adobe](https://www.adobe.com/). [blogger](https://bradgarropy.com), [streamer](https://youtube.com/bradgarropy), [tweeter](https://twitter.com/bradgarropy). 📝📺🐦
 * [Stefan Zweifel](https://stefanzweifel.io/uses/) - Fullstack Web Developer
 * [Ignacio Villanueva](https://ignaciodenuevo.com/uses) - Frontend Developer 🇪🇸
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
