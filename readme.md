@@ -39,7 +39,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Elliot Forbes](https://tutorialedge.net/uses/) - All-round Developer
 * [Dr. Abstract](https://zimjs.com/uses/) - Founder of ZIM JavaScript Canvas Framework
 * [Jay Collett](https://www.jaycollett.co/uses/) - Freelance web designer and front end developer with CraftCMS
-* [Amit Merchant](https://www.amitmerchant.com/uses/) - Fullstack web developer, blogger. 
+* [Amit Merchant](https://www.amitmerchant.com/uses/) - Fullstack web developer, blogger.
 * [Adam Greenough](https://adamgreenough.me/uses/) - Freelance Digital Designer & Web Developer
 * [Georgi Yanev](https://gyanev.com/uses/) - Web Developer, FPV drone pilot
 * [Kumar Abhirup](https://kumar.now.sh/uses) - A 15yo Jnr. developer with a passion for learning 👋🏻
@@ -50,16 +50,17 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
-* [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist. 
-* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd 
+* [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist.
+* [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Aurel Tyson](https://aureltyson.info/uses) - iOS and backend developer
 * [Nick Janetakis](https://nickjanetakis.com/uses) - Web developer, Sysadmin, Teacher
-* [Andrew Healey](https://healeycodes.github.io/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
+* [Andrew Healey](https://healeycodes.com/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
 * [Alex Carpenter](https://alexcarpenter.me/uses/) - Front-end Web Developer and Screencaster.
 * [Wang Junxiao](http://www.feng0207.site/uses/) — Java Web Developer, Student.
 * [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
+* [Lemon 🍋](https://ahoylemon.xyz/uses/) - Web Developer, Podcaster, Human Who Makes Dumb Shit
 * [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger. 
 * [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
 * [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
@@ -78,7 +79,20 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
+* [Brad Garropy](https://bradgarropy.com/uses) - self taught ⚛ frontender @ [adobe](https://www.adobe.com/). [blogger](https://bradgarropy.com), [streamer](https://youtube.com/bradgarropy), [tweeter](https://twitter.com/bradgarropy). 📝📺🐦
+* [Stefan Zweifel](https://stefanzweifel.io/uses/) - Fullstack Web Developer
+* [Ignacio Villanueva](https://ignaciodenuevo.com/uses) - Frontend Developer 🇪🇸
+* [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
 * [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
+* [Jonathan Speek](https://speek.design/uses/) - Fullstack Developer, Designer, Musician
+* [Nervewax](https://nervewax.com/uses/) - Designer / Developer
+* [Niko Heikkilä](https://nikoheikkila.fi/uses/) - Backend Developer & DevOps Engineer at Paytrail
+* [Sil van Diepen](https://silvandiepen.nl/uses/) - Creative Front-end Developer
+* [Matthias Hampel](https://dev.to/fullstack_to/tools-services-i-use-je9) - Fullstack Software Engineer / DevOps Enthusiast
+* [Ste Grainer](https://stegrainer.com/uses) - Product designer, front-end developer, and writer
+* [Scott Tolinski](https://kit.com/leveluptutorials/podcasting-screencasting-gear) -  Web Developer, Tutorial Maker, Podcaster.
+* [Ben Hong](https://www.bencodezen.io/uses/) - Senior Frontend Engineer @ Meltano GitLab
+* [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
