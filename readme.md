@@ -79,10 +79,10 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Daniel Kim](https://www.danielkim.io/uses) — Software Engineer
 * [Sam Baldwin](https://sambaldwin.info/uses) — Designer and front-end developer
 * [Zack Eaton](https://zackeaton.com/uses/) - Student, Developer, Caffiene Enthusiast
+* [Stefan Zweifel](https://stefanzweifel.io/uses/) - Fullstack Web Developer
 * [Ignacio Villanueva](https://ignaciodenuevo.com/uses) - Frontend Developer 🇪🇸
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
 * [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
-
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
