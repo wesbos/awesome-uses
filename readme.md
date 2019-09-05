@@ -84,6 +84,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
 * [Sil van Diepen](https://silvandiepen.nl/uses/) - Creative Front-end Developer
+* [Ben Hong](https://www.bencodezen.io/uses/) - Senior Frontend Engineer @ Meltano GitLab
 * [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
