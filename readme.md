@@ -84,6 +84,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Ignacio Villanueva](https://ignaciodenuevo.com/uses) - Frontend Developer 🇪🇸
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
+* [Niko Heikkilä](https://nikoheikkila.fi/uses/) - Backend Developer & DevOps Engineer at Paytrail
 * [Sil van Diepen](https://silvandiepen.nl/uses/) - Creative Front-end Developer
 * [Matthias Hampel](https://dev.to/fullstack_to/tools-services-i-use-je9) - Fullstack Software Engineer / DevOps Enthusiast
 * [Ste Grainer](https://stegrainer.com/uses) - Product designer, front-end developer, and writer
