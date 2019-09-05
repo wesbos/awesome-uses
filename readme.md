@@ -83,6 +83,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Ignacio Villanueva](https://ignaciodenuevo.com/uses) - Frontend Developer 🇪🇸
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
+* [Jessica Dembe](https://www.jessicadembe.tech/uses/) - Software Engineer
 * [Keziah Moselle](https://blog.keziahmoselle.fr/uses/) - Front-end developer
 * [Scott Zirkel](https://scottzirkel.com/uses) - Developer, Designer, Artist, Writer
 * [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
