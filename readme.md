@@ -85,6 +85,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Sheree Peña](https://smariapena.com/uses) - Front Ender, Tester.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
 * [Matthias Hampel](https://dev.to/fullstack_to/tools-services-i-use-je9) - Fullstack Software Engineer / DevOps Enthusiast
+* [Ste Grainer](https://stegrainer.com/uses) - Product designer, front-end developer, and writer
 * [Scott Tolinski](https://kit.com/leveluptutorials/podcasting-screencasting-gear) -  Web Developer, Tutorial Maker, Podcaster.
 * [Ben Hong](https://www.bencodezen.io/uses/) - Senior Frontend Engineer @ Meltano GitLab
 * [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
