@@ -50,7 +50,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Tim Smith](https://www.iamtimsmith.com/uses) - Web developer, Blogger, and Freelancer
 * [Jon Quach](https://jonquach.com/uses/) - Design Engineer
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
-* [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist. 
+* [Daniel Van Cuylenburg](https://dvanc.co/uses/) - Web Designer, Front-end Developer, Guitarist.
 * [Aurel Tyson](https://aureltyson.info/uses) - iOS and backend developer
 * [Nick Janetakis](https://nickjanetakis.com/uses) - Web developer, Sysadmin, Teacher
 * [Andrew Healey](https://healeycodes.com/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
@@ -60,7 +60,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 * [Lemon 🍋](https://ahoylemon.xyz/uses/) - Web Developer, Podcaster, Human Who Makes Dumb Shit
-* [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger. 
+* [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger.
 * [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
 * [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
 * [Josiah Wiebe](https://jwie.be/uses/) - Full Stack Developer & Designer
@@ -98,5 +98,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
 * [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
 * [Stephen Senkomago Musoke](https://ssmusoke.com/uses/) - Software Engineer [METS](https://mets.or.ug/), [UCSF Informatics Hub](https://globalhealthsciences.ucsf.edu/resources/informatics-hub) & PHP lover by night 🇺🇬
+* [Gideon Bamuleseyo](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) - Software Engineer [Andela](https://andela.com/), JavaScript junkie 🇺🇬
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
