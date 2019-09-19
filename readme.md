@@ -99,5 +99,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
 * [Stephen Senkomago Musoke](https://ssmusoke.com/uses/) - Software Engineer [METS](https://mets.or.ug/), [UCSF Informatics Hub](https://globalhealthsciences.ucsf.edu/resources/informatics-hub) & PHP lover by night 🇺🇬
 * [Gideon Bamuleseyo](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) - Software Engineer [Andela](https://andela.com/), JavaScript junkie 🇺🇬
+* [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses/) - Fullstack Web Developer, Freelancer, Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
