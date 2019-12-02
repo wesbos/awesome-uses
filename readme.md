@@ -104,6 +104,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Adam Wathan](https://adamwathan.me/uses/) - Fullstack Web Developer, Entrepeneur, Maker of courses, Speaker, Blogger, Podcaster 🇨🇦
 * [Josh Manders](https://joshmanders.com/uses/) - Full Snack Developer and Indie Maker 🌯
 * [Daniel Wirtz](https://danielwirtz.com/uses/) - Designer who codes @Crisp Studio
+* [Harry Wolff](https://hswolff.com/uses/) - Front-end engineer and YouTouber
 
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
