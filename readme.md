@@ -106,6 +106,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Daniel Wirtz](https://danielwirtz.com/uses/) - Designer who codes @Crisp Studio
 * [Harry Wolff](https://hswolff.com/uses/) - Front-end engineer and YouTouber
 * [Pouria Ezzati](https://pouria.dev/uses/) - Web developer
+* [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
 
 
