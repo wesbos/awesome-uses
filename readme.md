@@ -109,6 +109,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
 * [Terry Godier](https://terrygodier.com/uses/) - Developer and Marketer
+* [David O'Trakoun](https://www.davidosomething.com/uses/) - Software Engineer
 
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
