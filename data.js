@@ -84,4 +84,32 @@ const pages = [
       'JavaScript',
       'GraphQL'
     ],
+  },
+    {
+    name: 'Nuno Maduro',
+    // Short description
+    description: 'Software engineer, Open Source contributor, Speaker',
+    // URL to your /uses page
+    url: 'https://nunomaduro.com/uses/',
+    // An emoji that describes you
+    emoji: '🏄‍♂️',
+    // emoji of your country's flag
+    country: '🇵🇹',
+    // apple, windows or linux
+    computer: 'apple',
+    // apple or android
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Engineer',
+      'Developer',
+      'Speaker',
+      'PHP',
+      'JavaScript',
+      'TypeScript',
+    ],
+  },
 ];
