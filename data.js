@@ -58,4 +58,30 @@ const pages = [
     // Language Tags: JavaScript, PHP, Rails, Ruby
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
+  {
+    name: 'Benjamin Lannon',
+    // Short description
+    description: 'Web Developer, Open Source Contributor, Livestreamer',
+    // URL to your /uses page
+    url: 'https://lannonbr.com/uses/',
+    // An emoji that describes you
+    emoji: '🎤',
+    // emoji of your country's flag
+    country: '🇺🇸',
+    // apple, windows or linux
+    computer: 'apple',
+    // apple or android
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'Teacher',
+      'JavaScript',
+      'GraphQL'
+    ],
 ];
