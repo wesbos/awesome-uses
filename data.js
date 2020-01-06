@@ -29,9 +29,9 @@ const pages = [
   },
   {
     name: 'Kent C. Dodds',
-    description: 'JavaScript Software Engineer, speaker, and trainer',
+    description: 'JavaScript Software Engineer, Educator, Live Streamer, Open Sourcerer',
     url: 'https://kentcdodds.com/uses',
-    emoji: '🙌',
+    emoji: '😃',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
@@ -46,6 +46,7 @@ const pages = [
       'React',
       'Speaker',
       'Blogger',
+      'Swell Guy',
     ],
   },
   {
