@@ -40,7 +40,7 @@ const pages = [
     // emoji of your country's flag
     country: '🇨🇦',
     // apple, windows or linux
-    computer: 'windows and linux via wsl2',
+    computer: 'windows',
     // apple or android
     phone: 'android',
     // Tags
