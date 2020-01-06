@@ -28,7 +28,7 @@ const pages = [
     ],
   },
   {
-    name: 'Wes Bos',
+    name: 'Scott Tolinski',
     // Short description
     description: 'Web Developer, Tutorial Maker, Podcaster, Bboy',
     // URL to your /uses page
