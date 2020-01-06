@@ -6,6 +6,7 @@ const pages = [
     description: 'Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
     // URL to your /uses page
     url: 'https://wesbos.com/uses',
+    twitter: '@wesbos',
     // An emoji that describes you
     emoji: '🔥',
     // emoji of your country's flag
@@ -67,79 +68,43 @@ const pages = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'apple',
-    tags: [
-      'Software Engineer',
-      'Full Stack',
-      'JavaScript',
-      'Python',
-      'Writer',
-    ],
+    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer'],
   },
   {
     name: 'Scott Tolinski',
-    // Short description
     description: 'Web Developer, Tutorial Maker, Podcaster, Bboy',
-    // URL to your /uses page
     url: 'https://kit.com/leveluptutorials/podcasting-screencasting-gear',
-    // An emoji that describes you
     emoji: '💪🏻',
-    // emoji of your country's flag
     country: '🇺🇸',
-    // apple, windows or linux
     computer: 'apple',
-    // apple or android
     phone: 'apple',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
     name: 'Benjamin Lannon',
-    // Short description
     description: 'Web Developer, Open Source Contributor, Livestreamer',
-    // URL to your /uses page
     url: 'https://lannonbr.com/uses/',
-    // An emoji that describes you
     emoji: '🎤',
-    // emoji of your country's flag
     country: '🇺🇸',
-    // apple, windows or linux
     computer: 'apple',
-    // apple or android
     phone: 'apple',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Developer',
       'Full Stack',
       'Blogger',
       'Teacher',
       'JavaScript',
-      'GraphQL'
+      'GraphQL',
     ],
   },
-    {
+  {
     name: 'Nuno Maduro',
-    // Short description
     description: 'Software engineer, Open Source contributor, Speaker',
-    // URL to your /uses page
     url: 'https://nunomaduro.com/uses/',
-    // An emoji that describes you
     emoji: '🏄‍♂️',
-    // emoji of your country's flag
     country: '🇵🇹',
-    // apple, windows or linux
     computer: 'apple',
-    // apple or android
     phone: 'apple',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Engineer',
       'Developer',
