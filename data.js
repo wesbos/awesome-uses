@@ -28,6 +28,27 @@ const pages = [
     ],
   },
   {
+    name: 'Kent C. Dodds',
+    description: 'JavaScript Software Engineer, speaker, and trainer',
+    url: 'https://kentcdodds.com/uses',
+    emoji: '🙌',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber,',
+      'JavaScript',
+      'Testing',
+      'React',
+      'Speaker',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Adam Jahnke',
     description:
       'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
