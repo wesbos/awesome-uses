@@ -29,7 +29,8 @@ const pages = [
   },
   {
     name: 'Adam Jahnke',
-    description: 'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
+    description:
+      'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
     url: 'https://adamyonk.com/uses',
     emoji: '⤫',
     country: '🇺🇸',
@@ -38,7 +39,7 @@ const pages = [
     tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby'],
   },
   {
-    name: 'Wes Bos',
+    name: 'Scott Tolinski',
     // Short description
     description: 'Web Developer, Tutorial Maker, Podcaster, Bboy',
     // URL to your /uses page
