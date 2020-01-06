@@ -60,6 +60,22 @@ const pages = [
     tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby'],
   },
   {
+    name: 'Andrew Healey',
+    description: 'Software Engineer, Writer, Learner!',
+    url: 'https://healeycodes.com/uses',
+    emoji: '🦉',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Software Engineer',
+      'Full Stack',
+      'JavaScript',
+      'Python',
+      'Writer',
+    ],
+  },
+  {
     name: 'Scott Tolinski',
     // Short description
     description: 'Web Developer, Tutorial Maker, Podcaster, Bboy',
