@@ -1,9 +1,12 @@
 // Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.
+
+// please remove the comments before You PR
 const pages = [
   {
     name: 'Wes Bos',
     // Short description
-    description: 'Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+    description:
+      'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
     // URL to your /uses page
     url: 'https://wesbos.com/uses',
     twitter: '@wesbos',
@@ -11,11 +14,12 @@ const pages = [
     emoji: '🔥',
     // emoji of your country's flag
     country: '🇨🇦',
-    // apple, windows or linux
+    // ONE of: apple, windows or linux
     computer: 'apple',
     // iphone or android
     phone: 'iphone',
-    // Tags
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
     // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
     // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
     // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
@@ -241,23 +245,13 @@ const pages = [
   },
   {
     name: 'Aaron Dunphy',
-    // Short description
     description: 'Full Stack Developer, Coffee Lover and Photo Taker',
-    // URL to your /uses page
     url: 'https://aarondunphy.com/uses',
     twitter: '@aaronjohndunphy',
-    // An emoji that describes you
     emoji: '📷',
-    // emoji of your country's flag
     country: '🇬🇧',
-    // apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'iphone',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Developer',
       'Full Stack',
@@ -269,23 +263,13 @@ const pages = [
   },
   {
     name: 'Mohamed Benhida',
-    // Short description
     description: 'Web Developer, Open source contributor.',
-    // URL to your /uses page
     url: 'http://mohamedbenhida.com/uses',
     twitter: '@simo_benhida',
-    // An emoji that describes you
     emoji: '🔥',
-    // emoji of your country's flag
     country: '🇲🇦',
-    // apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'iphone',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Developer',
       'Full Stack',
@@ -304,21 +288,12 @@ const pages = [
     // Short description
     description:
       'Experienced full stack web developer with a passion for testing.',
-    // URL to your /uses page
     url: 'https://www.euperia.com/uses',
     twitter: '@euperia',
-    // An emoji that describes you
     emoji: '🏁',
-    // emoji of your country's flag
     country: '🇬🇧',
-    // apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'android',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Developer',
       'Full Stack',
@@ -327,8 +302,8 @@ const pages = [
       'PHP',
       'JavaScript',
       'Vue',
-      'LAMP / LEMP',
-      'ElasticSearch / Solr',
+      'LAMP',
+      'ElasticSearch',
       'AWS',
     ],
   },
@@ -341,10 +316,6 @@ const pages = [
     country: '🇲🇦',
     computer: 'apple',
     phone: 'android & iphone',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
 ];
