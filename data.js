@@ -189,6 +189,34 @@ const pages = [
     ],
   },
   {
+    name: 'Adrian Marin',
+    // Short description
+    description: 'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
+    // URL to your /uses page
+    url: 'https://adrianthedev.com/uses',
+    twitter: '@adrianthedev',
+    // An emoji that describes you
+    emoji: '🥑',
+    // emoji of your country's flag
+    country: '🇷🇴',
+    // apple, windows or linux
+    computer: 'apple',
+    // apple or android
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur wanna-be',
+      'Early-adopter',
+      'Rails lover',
+      'TypeScript enthusiast',
+    ],
+  },
+  {
     name: 'Jahir Fiquitiva',
     description: 'Passionate and Creative Full Stack Developer',
     url: 'https://jahir.dev/uses',
