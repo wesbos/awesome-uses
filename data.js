@@ -203,6 +203,23 @@ const pages = [
       'Python',
       ],
   },
+  {
+    name: 'Stefan Zweifel',
+    description: 'Full Stack Web Developer',
+    url: 'https://stefanzweifel.io/uses/',
+    emoji: '🏋️‍♂️',
+    country: '🇨🇭',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'PHP',
+      'JavaScript',
+    ],
+  }, 
 ];
 
 export default pages;
