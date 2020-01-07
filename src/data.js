@@ -22,7 +22,7 @@ const pages = [
 
     // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
     // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: [
       'Developer',
       'Full Stack',
@@ -30,6 +30,8 @@ const pages = [
       'Teacher',
       'YouTuber',
       'JavaScript',
+      'React',
+      'Node',
     ],
   },
   {

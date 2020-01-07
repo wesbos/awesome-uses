@@ -12,16 +12,18 @@ export default function Person({ person, currentTag }) {
   return (
     <div className="person">
       <div className="personInner">
-        <img width="50" src={img} alt={person.name} />
-        <h3>
-          <a href={person.url} target="_blank" rel="noopener noreferrer">
-            {person.name} {person.emoji}
-          </a>
-        </h3>
-        <a
-          className="displayLink"
-          href={person.url}
-        >{`${url.host}${url.pathname}`}</a>
+        <header className="personHeader">
+          <img width="50" height="50" src={img} alt={person.name} />
+          <h3>
+            <a href={person.url} target="_blank" rel="noopener noreferrer">
+              {person.name} {person.emoji}
+            </a>
+          </h3>
+          <a
+            className="displayLink"
+            href={person.url}
+          >{`${url.host}${url.pathname}`}</a>
+        </header>
         <p>{person.description}</p>
 
         <ul className="tags">

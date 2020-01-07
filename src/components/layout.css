@@ -38,6 +38,10 @@ a {
   font-style: italic;
 }
 
+code {
+  background: var(--lightblue);
+}
+
 .site {
   max-width: 1900px;
   margin: 5rem;
@@ -61,7 +65,7 @@ main {
 
 .people {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 5rem;
 }
 
@@ -83,6 +87,19 @@ main {
 
 .person .tag {
   font-size: 1.2rem;
+}
+
+.personHeader {
+  display: grid;
+  grid-template-rows:auto auto;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 1rem;
+}
+
+.personHeader img {
+  grid-row: 1 / -1;
+  background: var(--lightblue);
+  font-size: 1rem;
 }
 
 .name {
