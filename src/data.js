@@ -121,7 +121,7 @@ const pages = [
   {
     name: 'Scott Tolinski',
     description: 'Web Developer, Tutorial Maker, Podcaster, Bboy',
-    url: 'https://kit.com/leveluptutorials/podcasting-screencasting-gear',
+    url: 'https://scotttolinski.com/uses',
     emoji: '💪🏻',
     country: '🇺🇸',
     computer: 'apple',
