@@ -147,6 +147,51 @@ const pages = [
       'TypeScript',
     ],
   },
+  {
+    name: 'Adrian Marin',
+    // Short description
+    description: 'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
+    // URL to your /uses page
+    url: 'https://adrianthedev.com/uses',
+    twitter: '@adrianthedev',
+    // An emoji that describes you
+    emoji: '🥑',
+    // emoji of your country's flag
+    country: '🇷🇴',
+    // apple, windows or linux
+    computer: 'apple',
+    // apple or android
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur wanna-be',
+      'Early-adopter',
+      'Rails lover',
+      'TypeScript enthusiast',
+    ],
+    uses: {
+      computer: '2018 15inch MacBook Pro',
+      software: {
+        editor: ['VScode', 'vim'],
+        programmingLanguages: ['ruby', 'typescript', 'php'],
+        browser: 'Chrome',
+        communication: ['Slack', 'Telegram'],
+        terminal: 'iTerm2',
+        productivity: ['Better Touch Tool', 'Alfred', 'RescueTime', 'Notion', 'Memory Diag', 'HapticKey', 'Karabiner'],
+        security: ['1Password', 'Sophos'],
+      },
+      leisure: {
+        apps: ['twitter', 'TikTok', 'Swarm'],
+        games: ['Factorio', 'Two Dots'],
+        misc: ['Kindle']
+      }
+    }
+  }
 ];
 
 export default pages;
