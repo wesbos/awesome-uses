@@ -182,6 +182,24 @@ const pages = [
     ],
   },
   {
+    name: 'Lauro Silva',
+    description: 'Software Engineer and Technical Writer',
+    url: 'https://laurosilva.com/uses',
+    emoji: '😄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'JavaScript',
+      'React',
+      'Full Stack',
+      'Writer',
+      'Independent',
+      'Speaker',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Nuno Maduro',
     description: 'Software engineer, Open Source contributor, Speaker',
     url: 'https://nunomaduro.com/uses/',
@@ -346,6 +364,17 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React'],
+  },
+  {
+    name: 'Jonathan Speek',
+    description: 'Developer & Musician',
+    url: 'https://speek.design/uses',
+    twitter: '@jonspeek',
+    emoji: '🦄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
   },
 ];
 
