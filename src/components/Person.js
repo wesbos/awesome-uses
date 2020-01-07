@@ -56,7 +56,11 @@ export default function Person({ person, currentTag }) {
 
         {person.twitter && (
           <span>
-            <a href={`https://twitter.com/${person.twitter}`}>
+            <a
+              href={`https://twitter.com/${person.twitter}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="at">@</span>
               {person.twitter.replace('@', '')}
             </a>
