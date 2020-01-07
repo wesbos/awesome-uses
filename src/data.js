@@ -376,6 +376,17 @@ const pages = [
     phone: 'iphone',
     tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
   },
+  {
+    name: 'Béla Varga',
+    description: 'Developer & Designer',
+    url: 'http://ecmanauten.de/',
+    twitter: '@netzzwerg',
+    emoji: '🍺',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['JavaScript', 'Developer', 'Event Organizer', 'Teacher', 'Vue'],
+  },
 ];
 
 export default pages;
