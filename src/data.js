@@ -318,6 +318,23 @@ const pages = [
     phone: 'android & iphone',
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
+  {
+    name: 'Jonathan Suh',
+    description: 'Designer, Developer, Sneakerhead',
+    url: 'https://jonsuh.com/uses',
+    twitter: '@jonsuh',
+    emoji: '👟',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+    ],
+  },
 ];
 
 export default pages;
