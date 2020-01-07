@@ -83,6 +83,30 @@ const pages = [
     ],
   },
   {
+    name: 'Glenn Reyes',
+    description: 'Independent Software Engineer, trainer & speaker. Into sports & music.',
+    url: 'https://glennreyes.com/uses',
+    emoji: '💃',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Front End',
+      'Entrepreneur',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'GraphQL',
+      'TypeScript',
+      'Speaker'
+    ],
+  },
+  {
     name: 'Adam Jahnke',
     description:
       'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
@@ -202,40 +226,6 @@ const pages = [
       'JavaScript',
       'Python',
       ],
-  },
-  {
-    name: 'Stefan Zweifel',
-    description: 'Full Stack Web Developer',
-    url: 'https://stefanzweifel.io/uses/',
-    emoji: '🏋️‍♂️',
-    country: '🇨🇭',
-    computer: 'apple',
-    phone: 'apple',
-    tags: [
-      'Developer',
-      'Front End',
-      'Back End',
-      'Full Stack',
-      'PHP',
-      'JavaScript',
-    ],
-  },
-  {
-    name: 'Marc Backes',
-    description: 'Full-stack web developer, Freelancer, Blogger',
-    url: 'https://marc.dev/uses/',
-    emoji: '🍕',
-    country: '🇱🇺',
-    computer: 'apple',
-    phone: 'apple',
-    tags: [
-      'Full-Stack',
-      'Web Developer',
-      'Freelancer',
-      'JavaScript',
-      'Node.js',
-      'Vue.js',
-    ],
   },
 ];
 
