@@ -114,6 +114,23 @@ const pages = [
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
+    name: 'Josiah Wiebe',
+    description: 'Designer & developer, lifelong learner.',
+    url: 'https://jwie.be/uses/',
+    emoji: '🚴',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Designer',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'Benjamin Lannon',
     description: 'Web Developer, Open Source Contributor, Livestreamer',
     url: 'https://lannonbr.com/uses/',
@@ -148,6 +165,45 @@ const pages = [
     ],
   },
   {
+    name: 'Jahir Fiquitiva',
+    description: 'Passionate and Creative Full Stack Developer',
+    url: 'https://jahir.dev/uses',
+    twitter: '@jahirfiquitiva',
+    emoji: '💎',
+    country: '🇨🇴',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Kotlin',
+      'Python',
+      'Kotlin',
+      'React'
+    ],
+  },
+  {
+    name: 'Brad Garropy',
+    description: 'Self taught frontender at Adobe, into lifting and country music.',
+    url: 'https://bradgarropy.com/uses',
+    twitter: '@bradgarropy',
+    emoji: '🤠',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'Streamer',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'Python',
+      ],
+  },
+  {
     name: 'Stefan Zweifel',
     description: 'Full Stack Web Developer',
     url: 'https://stefanzweifel.io/uses/',
@@ -163,7 +219,7 @@ const pages = [
       'PHP',
       'JavaScript',
     ],
-  },  
+  }, 
 ];
 
 export default pages;
