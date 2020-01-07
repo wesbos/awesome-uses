@@ -19,7 +19,7 @@ When done, check that person off.
 * [ ] [Randy Oest, aka amazingrando](https://randyoest.com/uses/) - Lead Design and Frontend Engineer, Four Kitchens
 * [ ] [Elijah Manor](https://elijahmanor.com/uses) - Front-End Developer and Educator
 * [ ] [Dave Kiss](https://davekiss.com/uses) - Web Developer, Solopreneur, Adventurer
-* [ ] [Jonathan Suh](https://jonsuh.com/uses) - Designer, Developer
+* [x] [Jonathan Suh](https://jonsuh.com/uses) - Designer, Developer
 * [ ] [Manuel Wildauer](https://wildauer.io/uses) - Developer
 * [ ] [Elliot Forbes](https://tutorialedge.net/uses/) - All-round Developer
 * [ ] [Dr. Abstract](https://zimjs.com/uses/) - Founder of ZIM JavaScript Canvas Framework
