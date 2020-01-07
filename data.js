@@ -249,7 +249,7 @@ const pages = [
     // An emoji that describes you
     emoji: '📷',
     // emoji of your country's flag
-    country: '🇬🇧🇦',
+    country: '🇬🇧',
     // apple, windows or linux
     computer: 'apple',
     // iphone or android
@@ -267,7 +267,7 @@ const pages = [
       'JavaScript',
     ],
   },
-   {
+  {
     name: 'Mohamed Benhida',
     // Short description
     description: 'Web Developer, Open source contributor.',
@@ -302,7 +302,8 @@ const pages = [
   {
     name: 'Andrew McCombe',
     // Short description
-    description: 'Experienced full stack web developer with a passion for testing.',
+    description:
+      'Experienced full stack web developer with a passion for testing.',
     // URL to your /uses page
     url: 'https://www.euperia.com/uses',
     twitter: '@euperia',
@@ -344,13 +345,7 @@ const pages = [
     // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
     // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
     // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'Blogger',
-      'JavaScript',
-    ],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
 ];
 
