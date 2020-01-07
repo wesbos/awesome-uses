@@ -77,6 +77,7 @@ const pages = [
     description:
       'Independent Software Engineer, trainer & speaker. Into sports & music.',
     url: 'https://glennreyes.com/uses',
+    twitter: '@glnnrys',
     emoji: '💃',
     country: '🇺🇸',
     computer: 'apple',
