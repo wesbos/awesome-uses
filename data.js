@@ -239,6 +239,34 @@ const pages = [
     phone: 'iphone',
     tags: ['Developer', 'Front End', 'JavaScript'],
   },
+  {
+    name: 'Aaron Dunphy',
+    // Short description
+    description: 'Full Stack Developer, Coffee Lover and Photo Taker',
+    // URL to your /uses page
+    url: 'https://aarondunphy.com/uses',
+    twitter: '@aaronjohndunphy',
+    // An emoji that describes you
+    emoji: '📷',
+    // emoji of your country's flag
+    country: '🇬🇧🇦',
+    // apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'iphone',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Back End',
+      'Laravel',
+      'PHP',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
