@@ -331,7 +331,7 @@ const pages = [
     emoji: '👌',
     country: '🇲🇦',
     computer: 'apple',
-    phone: 'android & iphone',
+    phone: 'android',
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
   {
