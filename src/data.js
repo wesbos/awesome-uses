@@ -363,6 +363,17 @@ const pages = [
     phone: 'iphone',
     tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React'],
   },
+  {
+    name: 'Jonathan Speek',
+    description: 'Developer & Musician',
+    url: 'https://speek.design/uses',
+    twitter: '@jonspeek',
+    emoji: '🦄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
+  },
 ];
 
 export default pages;
