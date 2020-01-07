@@ -147,6 +147,23 @@ const pages = [
       'TypeScript',
     ],
   },
+  {
+    name: 'Marc Backes',
+    description: 'Full-stack web developer, Freelancer, Blogger',
+    url: 'https://marc.dev/uses/',
+    emoji: '🍕',
+    country: '🇱🇺',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Full-Stack',
+      'Web Developer',
+      'Freelancer',
+      'JavaScript',
+      'Node.js',
+      'Vue.js',
+    ],
+  },
 ];
 
 export default pages;
