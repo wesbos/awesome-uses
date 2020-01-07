@@ -83,6 +83,30 @@ const pages = [
     ],
   },
   {
+    name: 'Glenn Reyes',
+    description: 'Independent Software Engineer, trainer & speaker. Into sports & music.',
+    url: 'https://glennreyes.com/uses',
+    emoji: '💃',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'apple',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Front End',
+      'Entrepreneur',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'GraphQL',
+      'TypeScript',
+      'Speaker'
+    ],
+  },
+  {
     name: 'Adam Jahnke',
     description:
       'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
@@ -112,6 +136,23 @@ const pages = [
     computer: 'apple',
     phone: 'apple',
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
+  },
+  {
+    name: 'Josiah Wiebe',
+    description: 'Designer & developer, lifelong learner.',
+    url: 'https://jwie.be/uses/',
+    emoji: '🚴',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Designer',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+    ],
   },
   {
     name: 'Benjamin Lannon',
@@ -174,24 +215,46 @@ const pages = [
       'Rails lover',
       'TypeScript enthusiast',
     ],
-    uses: {
-      hardware: ['2018 15inch MacBook Pro', 'AirPods', 'iPhone 7', 'Moft Stand'],
-      software: {
-        editor: ['VScode', 'vim'],
-        programmingLanguages: ['ruby', 'typescript', 'php'],
-        browser: 'Chrome',
-        communication: ['Slack', 'Telegram'],
-        terminal: 'iTerm2',
-        productivity: ['Better Touch Tool', 'Alfred', 'RescueTime', 'Notion', 'Memory Diag', 'HapticKey', 'Karabiner'],
-        security: ['1Password', 'Sophos'],
-      },
-      leisure: {
-        apps: ['twitter', 'TikTok', 'Swarm'],
-        games: ['Factorio', 'Two Dots'],
-        misc: ['Kindle']
-      }
-    }
-  }
+  },
+  {
+    name: 'Jahir Fiquitiva',
+    description: 'Passionate and Creative Full Stack Developer',
+    url: 'https://jahir.dev/uses',
+    twitter: '@jahirfiquitiva',
+    emoji: '💎',
+    country: '🇨🇴',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Kotlin',
+      'Python',
+      'Kotlin',
+      'React'
+    ],
+  },
+  {
+    name: 'Brad Garropy',
+    description: 'Self taught frontender at Adobe, into lifting and country music.',
+    url: 'https://bradgarropy.com/uses',
+    twitter: '@bradgarropy',
+    emoji: '🤠',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'Streamer',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'Python',
+      ],
+  },
 ];
 
 export default pages;
