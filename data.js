@@ -185,14 +185,7 @@ const pages = [
     country: '🇷🇴',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur wanna-be',
-      'Early-adopter',
-      'Rails lover',
-      'TypeScript enthusiast',
-    ],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Rails', 'TypeScript'],
   },
   {
     name: 'Jahir Fiquitiva',
@@ -244,11 +237,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'JavaScript',
-    ],
+    tags: ['Developer', 'Front End', 'JavaScript'],
   },
 ];
 
