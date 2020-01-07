@@ -114,6 +114,23 @@ const pages = [
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
+    name: 'Josiah Wiebe',
+    description: 'Designer & developer, lifelong learner.',
+    url: 'https://jwie.be/uses/',
+    emoji: '🚴',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Designer',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'Benjamin Lannon',
     description: 'Web Developer, Open Source Contributor, Livestreamer',
     url: 'https://lannonbr.com/uses/',
