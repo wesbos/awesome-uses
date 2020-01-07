@@ -1,9 +1,9 @@
 import React from 'react';
 import { name } from 'country-emoji';
-import iphone from '../../public/icons/iphone.png';
-import android from '../../public/icons/android.png';
-import windows from '../../public/icons/windows.svg';
-import apple from '../../public/icons/apple.svg';
+import iphone from '../images/iphone.png';
+import android from '../images/android.png';
+import windows from '../images/windows.svg';
+import apple from '../images/apple.svg';
 
 const icons = { iphone, android, windows, apple };
 export default function Person({ person, currentTag }) {
