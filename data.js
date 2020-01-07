@@ -183,6 +183,26 @@ const pages = [
       'React'
     ],
   },
+  {
+    name: 'Brad Garropy',
+    description: 'Self taught frontender at Adobe, into lifting and country music.',
+    url: 'https://bradgarropy.com/uses',
+    twitter: '@bradgarropy',
+    emoji: '🤠',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'Streamer',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'Python',
+      ],
+  },
 ];
 
 export default pages;
