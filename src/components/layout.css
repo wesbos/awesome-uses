@@ -8,7 +8,7 @@ html {
   --vape: #d7d7d7;
   background: var(--blue);
   color: var(--vape);
-  font-family: 'Fira Mono';
+  font-family: 'Fira Mono', monospace;
   font-weight: 100;
   font-size: 10px;
 }
