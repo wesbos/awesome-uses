@@ -177,7 +177,7 @@ const pages = [
       'JavaScript',
       'Python',
       'Golang',
-    ]
+    ],
   },
   {
     name: 'Nuno Maduro',
@@ -221,7 +221,6 @@ const pages = [
       'Developer',
       'Full Stack',
       'JavaScript',
-      'Kotlin',
       'Python',
       'Kotlin',
       'React',
@@ -344,13 +343,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Designer',
-      'Developer',
-      'Front End',
-      'JavaScript',
-      'React',
-    ],
+    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React'],
   },
 ];
 
