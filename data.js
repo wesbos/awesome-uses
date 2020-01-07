@@ -331,6 +331,27 @@ const pages = [
       'AWS',
     ],
   },
+  {
+    name: 'Smakosh',
+    description: 'Full stack JavaScript Developer, blogger and speaker.',
+    url: 'https://smakosh.com/the-tech-tools-I-use',
+    twitter: '@smakosh',
+    emoji: '👌',
+    country: '🇲🇦',
+    computer: 'apple',
+    phone: 'android & iphone',
+    // Tags
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Blogger',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
