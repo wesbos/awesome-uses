@@ -397,7 +397,25 @@ const pages = [
     computer: 'linux',
     phone: 'android',
     tags: [ 'Developer' ],
-  }
+  },
+  {
+    name: 'Dean Harris',
+    description: 'Front End Developer. Husband. Skateboarder. Occasional blogger',
+    url: 'https://deanacus.com/uses/',
+    twitter: '@deanacus',
+    emoji: '🛹',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Font End',
+      'JavaScript',
+      'React',
+      'Node',
+      'PHP',
+    ],
+  },
 ];
 
 export default pages;
