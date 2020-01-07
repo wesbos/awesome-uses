@@ -416,6 +416,17 @@ const pages = [
       'PHP',
     ],
   },
+  {
+    name: 'Michael Hoffmann',
+    description: 'Freelance Software Engineer',
+    url: 'https://www.mokkapps.de/blog/my-development-setup/',
+    twitter: '@mokkapps',
+    emoji: '🍺',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [ 'Developer', 'Blogger', 'Angular' ],
+  }
 ];
 
 export default pages;
