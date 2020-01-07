@@ -175,7 +175,7 @@ const pages = [
       'TypeScript enthusiast',
     ],
     uses: {
-      computer: '2018 15inch MacBook Pro',
+      hardware: ['2018 15inch MacBook Pro', 'AirPods', 'iPhone 7', 'Moft Stand'],
       software: {
         editor: ['VScode', 'vim'],
         programmingLanguages: ['ruby', 'typescript', 'php'],
