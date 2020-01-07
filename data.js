@@ -234,6 +234,22 @@ const pages = [
       'Python',
     ],
   },
+  {
+    name: 'Josh Barker',
+    description:
+      'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
+    url: 'https://joshuabarker.com/uses',
+    twitter: '@joshuafbarker',
+    emoji: '⚽️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
