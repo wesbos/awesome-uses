@@ -147,6 +147,25 @@ const pages = [
       'TypeScript',
     ],
   },
+  {
+    name: 'Jahir Fiquitiva',
+    description: 'Passionate and Creative Full Stack Developer',
+    url: 'https://jahir.dev/uses',
+    twitter: '@jahirfiquitiva',
+    emoji: '💎',
+    country: '🇨🇴',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Kotlin',
+      'Python',
+      'Kotlin',
+      'React'
+    ],
+  },
 ];
 
 export default pages;
