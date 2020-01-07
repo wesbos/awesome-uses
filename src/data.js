@@ -387,6 +387,17 @@ const pages = [
     phone: 'android',
     tags: ['JavaScript', 'Developer', 'Event Organizer', 'Teacher', 'Vue'],
   },
+  {
+    name: 'David O\'Trakoun',
+    description: 'Software Engineer',
+    url: 'https://www.davidosomething.com/uses/',
+    twitter: '@davidosomething',
+    emoji: '⛄',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [ 'Developer' ],
+  }
 ];
 
 export default pages;
