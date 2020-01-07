@@ -2,9 +2,10 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
 
 const Header = ({ siteTitle }) => (
-  <header className="header">
+  <HeaderWrapper className="header">
     <Helmet>
       <title>{siteTitle}</title>
     </Helmet>
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
         software and configs.
       </p>
     </div>
-  </header>
+  </HeaderWrapper>
 );
 
 Header.propTypes = {
@@ -29,3 +30,11 @@ Header.defaultProps = {
 };
 
 export default Header;
+
+// Component Styles
+const HeaderWrapper = styled.header`
+  text-align: center;
+  h1 {
+    font-size: 6rem;
+  }
+`;

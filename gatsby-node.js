@@ -1,4 +1,4 @@
-import people from './src/data.js';
+import people from './src/data';
 import { tags, countries } from './src/util/stats';
 
 function sourceNodes({ actions, createNodeId, createContentDigest }) {
