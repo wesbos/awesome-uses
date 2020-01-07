@@ -13,8 +13,8 @@ const pages = [
     country: '🇨🇦',
     // apple, windows or linux
     computer: 'apple',
-    // apple or android
-    phone: 'apple',
+    // iphone or android
+    phone: 'iphone',
     // Tags
     // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
     // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
@@ -30,23 +30,13 @@ const pages = [
   },
   {
     name: 'Troy Forster',
-    // Short description
     description: 'Consulting Technology Director and CTO for Hire',
-    // URL to your /uses page
     url: 'https://tforster.com/uses',
     twitter: '@tforster',
-    // An emoji that describes you
     emoji: '',
-    // emoji of your country's flag
     country: '🇨🇦',
-    // apple, windows or linux
     computer: 'windows',
-    // apple or android
     phone: 'android',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
     tags: [
       'Engineer',
       'Back End',
@@ -84,16 +74,13 @@ const pages = [
   },
   {
     name: 'Glenn Reyes',
-    description: 'Independent Software Engineer, trainer & speaker. Into sports & music.',
+    description:
+      'Independent Software Engineer, trainer & speaker. Into sports & music.',
     url: 'https://glennreyes.com/uses',
     emoji: '💃',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    phone: 'iphone',
     tags: [
       'Developer',
       'Front End',
@@ -103,7 +90,7 @@ const pages = [
       'React',
       'GraphQL',
       'TypeScript',
-      'Speaker'
+      'Speaker',
     ],
   },
   {
@@ -114,7 +101,7 @@ const pages = [
     emoji: '⤫',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby'],
   },
   {
@@ -124,7 +111,7 @@ const pages = [
     emoji: '🦉',
     country: '🇬🇧',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer'],
   },
   {
@@ -134,7 +121,7 @@ const pages = [
     emoji: '💪🏻',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
@@ -144,7 +131,7 @@ const pages = [
     emoji: '🚴',
     country: '🇨🇦',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Full Stack',
       'Developer',
@@ -161,7 +148,7 @@ const pages = [
     emoji: '🎤',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
@@ -178,7 +165,7 @@ const pages = [
     emoji: '🏄‍♂️',
     country: '🇵🇹',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Engineer',
       'Developer',
@@ -190,23 +177,14 @@ const pages = [
   },
   {
     name: 'Adrian Marin',
-    // Short description
-    description: 'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
-    // URL to your /uses page
+    description:
+      'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
     url: 'https://adrianthedev.com/uses',
     twitter: '@adrianthedev',
-    // An emoji that describes you
     emoji: '🥑',
-    // emoji of your country's flag
     country: '🇷🇴',
-    // apple, windows or linux
     computer: 'apple',
-    // apple or android
-    phone: 'apple',
-    // Tags
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript...
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
@@ -224,7 +202,7 @@ const pages = [
     emoji: '💎',
     country: '🇨🇴',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
@@ -232,12 +210,13 @@ const pages = [
       'Kotlin',
       'Python',
       'Kotlin',
-      'React'
+      'React',
     ],
   },
   {
     name: 'Brad Garropy',
-    description: 'Self taught frontender at Adobe, into lifting and country music.',
+    description:
+      'Self taught frontender at Adobe, into lifting and country music.',
     url: 'https://bradgarropy.com/uses',
     twitter: '@bradgarropy',
     emoji: '🤠',
@@ -253,7 +232,7 @@ const pages = [
       'Blogger',
       'JavaScript',
       'Python',
-      ],
+    ],
   },
 ];
 
