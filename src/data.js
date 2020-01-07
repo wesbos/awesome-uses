@@ -163,6 +163,23 @@ const pages = [
     ],
   },
   {
+    name: 'Braden Watkins',
+    description: 'Student, Full Stack Developer, Lover of all things analog',
+    url: 'https://bradenwatkins.dev/uses',
+    emoji: '🐐',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Web Developer',
+      'JavaScript',
+      'Python',
+      'Golang',
+    ]
+  },
+  {
     name: 'Nuno Maduro',
     description: 'Software engineer, Open Source contributor, Speaker',
     url: 'https://nunomaduro.com/uses/',
