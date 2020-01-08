@@ -1,26 +1,29 @@
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import FavIcon from './FavIcon';
 
-const Header = ({ siteTitle }) => (
-  <HeaderWrapper className="header">
-    <Helmet>
-      <title>{siteTitle}</title>
-    </Helmet>
-    <div>
-      <h1>
-        <Link to="/">/uses</Link>
-      </h1>
-      <p>
-        A list of <code>/uses</code> pages detailing developer setups, gear,
-        software and configs.
-      </p>
-    </div>
-  </HeaderWrapper>
-);
-
+function Header({ siteTitle }) {
+  return (
+    <HeaderWrapper className="header">
+      <FavIcon />
+      <Helmet>
+        <title>{siteTitle}</title>
+      </Helmet>
+      <div>
+        <h1>
+          <Link to="/">/uses</Link>
+        </h1>
+        <p>
+          A list of <code>/uses</code> pages detailing developer setups, gear,
+          software and configs.
+        </p>
+      </div>
+    </HeaderWrapper>
+  );
+}
 Header.propTypes = {
   siteTitle: PropTypes.string,
 };
