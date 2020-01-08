@@ -447,6 +447,23 @@ const pages = [
       'Node',
       'Vue'
     ],
+  },
+  {
+    name: 'Noman Gul',
+    description:
+      'Jr Software Engineer, Tutorial Maker, Biryani Lover',
+    url: 'https://howivscode.com/NomanGul',
+    twitter: '@NomanGulKhan',
+    emoji: '🚀',
+    country: '🇵🇰',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Muslim',
+      'Developer',
+      'JavaScript',
+      'React'
+    ],
   }
 ];
 
