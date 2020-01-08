@@ -447,6 +447,29 @@ const pages = [
       'Node',
       'Vue'
     ],
+  },
+  {
+    name: 'Kilian Valkhof',
+    description: 'User experience developer',
+    url: 'https://kilianvalkhof.com/using/',
+    twitter: '@kilianvalkhof',
+    emoji: '🐧',
+    country: '🇳🇱',
+    computer: 'ubuntu',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Full stack',
+      'Front-end',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'Electron',
+      'Polypane',
+      'Devtools',
+    ],
   }
 ];
 
