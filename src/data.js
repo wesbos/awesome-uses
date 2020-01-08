@@ -464,6 +464,29 @@ const pages = [
       'Sass',
       'Design Systems'
     ],
+  },
+  {
+    name: 'Timothy Miller',
+    description:
+      'Web Designer/Developer for hire. Wears lots of hats.',
+    url: 'https://timothymiller.dev/uses',
+    twitter: '@WebInspectInc',
+    emoji: '🥓',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Front End',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'CSS',
+      'PHP',
+      'Blogger'
+    ],
   }
 ];
 
