@@ -6,7 +6,7 @@ const FilterContext = createContext();
 const FilterProvider = function({ children }) {
   const [currentTag, setCurrentTag] = useState('all');
 
-  const { allTag, allCountry, allComputer, allPhone } = useStaticQuery(graphql`
+  const { allTag, allCountry, allDevice } = useStaticQuery(graphql`
     query FilterQuery {
       allTag {
         nodes {
@@ -21,13 +21,7 @@ const FilterProvider = function({ children }) {
           name
         }
       }
-      allComputer {
-        nodes {
-          count
-          name
-        }
-      }
-      allPhone {
+      allDevice {
         nodes {
           count
           name
@@ -40,8 +34,7 @@ const FilterProvider = function({ children }) {
       value={{
         tags: allTag.nodes,
         countries: allCountry.nodes,
-        computers: allComputer.nodes,
-        phones: allPhone.nodes,
+        devices: allDevice.nodes,
         currentTag,
         setCurrentTag,
       }}
