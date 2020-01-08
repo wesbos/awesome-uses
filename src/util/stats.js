@@ -49,3 +49,53 @@ export function tags() {
 
   return [{ name: 'all', count: people.length }, ...tags];
 }
+
+export function computers() {
+  const data = people
+    .map(person => ({
+      name: person.computer,
+    }))
+    .reduce((acc, computer) => {
+      if (acc[computer.name]) {
+        // exists, update
+        acc[computer.name].count += 1;
+      } else {
+        acc[computer.name] = {
+          ...computer,
+          count: 1,
+        };
+      }
+      return acc;
+    }, {});
+
+  const sorted = Object.entries(data)
+    .map(([, computer]) => computer)
+    .sort((a, b) => b.count - a.count);
+
+  return sorted;
+}
+
+export function phones() {
+  const data = people
+    .map(person => ({
+      name: person.phone,
+    }))
+    .reduce((acc, phone) => {
+      if (acc[phone.name]) {
+        // exists, update
+        acc[phone.name].count = acc[phone.name].count + 1;
+      } else {
+        acc[phone.name] = {
+          ...phone,
+          count: 1,
+        };
+      }
+      return acc;
+    }, {});
+
+  const sorted = Object.entries(data)
+    .map(([, phone]) => phone)
+    .sort((a, b) => b.count - a.count);
+
+  return sorted;
+}

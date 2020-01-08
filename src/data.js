@@ -188,7 +188,7 @@ const pages = [
     emoji: '😄',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'JavaScript',
       'React',
@@ -388,7 +388,7 @@ const pages = [
     tags: ['JavaScript', 'Developer', 'Event Organizer', 'Teacher', 'Vue'],
   },
   {
-    name: 'David O\'Trakoun',
+    name: "David O'Trakoun",
     description: 'Software Engineer',
     url: 'https://www.davidosomething.com/uses/',
     twitter: '@davidosomething',
@@ -396,25 +396,19 @@ const pages = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [ 'Developer' ],
+    tags: ['Developer'],
   },
   {
     name: 'Dean Harris',
-    description: 'Front End Developer. Husband. Skateboarder. Occasional blogger',
+    description:
+      'Front End Developer. Husband. Skateboarder. Occasional blogger',
     url: 'https://deanacus.com/uses/',
     twitter: '@deanacus',
     emoji: '🛹',
     country: '🇦🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Font End',
-      'JavaScript',
-      'React',
-      'Node',
-      'PHP',
-    ],
+    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP'],
   },
   {
     name: 'Michael Hoffmann',
@@ -425,7 +419,7 @@ const pages = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: [ 'Developer', 'Blogger', 'Angular' ],
+    tags: ['Developer', 'Blogger', 'Angular'],
   },
   {
     name: 'Michael Le',
@@ -445,7 +439,7 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'Vue'
+      'Vue',
     ],
   },
   {
