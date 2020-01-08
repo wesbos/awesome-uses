@@ -3,14 +3,9 @@ import styled from 'styled-components';
 import FilterContext from '../context/FilterContext';
 
 export default function Topics() {
-  const {
-    countries,
-    tags,
-    phones,
-    computers,
-    currentTag,
-    setCurrentTag,
-  } = useContext(FilterContext);
+  const { countries, tags, devices, currentTag, setCurrentTag } = useContext(
+    FilterContext
+  );
 
   return (
     <Tags>
@@ -53,9 +48,9 @@ export default function Topics() {
         </Tag>
       ))}
 
-      {computers.map(tag => (
-        <label
-          className={`tag ${tag.name === currentTag ? 'currentTag' : ''}`}
+      {devices.map(tag => (
+        <Tag
+          currentTag={tag.name === currentTag}
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
           title={tag.name}
@@ -69,27 +64,8 @@ export default function Topics() {
             onChange={e => setCurrentTag(e.currentTarget.value)}
           />
           {tag.name}
-          <span className="count">{tag.count}</span>
-        </label>
-      ))}
-      {phones.map(tag => (
-        <label
-          className={`tag ${tag.name === currentTag ? 'currentTag' : ''}`}
-          htmlFor={`filter-${tag.name}`}
-          key={`filter-${tag.name}`}
-          title={tag.name}
-        >
-          <input
-            type="radio"
-            name="tag"
-            id={`filter-${tag.name}`}
-            value={tag.name}
-            checked={tag.name === currentTag}
-            onChange={e => setCurrentTag(e.currentTarget.value)}
-          />
-          {tag.name}
-          <span className="count">{tag.count}</span>
-        </label>
+          <TagCount>{tag.count}</TagCount>
+        </Tag>
       ))}
     </Tags>
   );

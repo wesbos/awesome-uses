@@ -1,5 +1,5 @@
 import people from './src/data.js';
-import { tags, countries, computers, phones } from './src/util/stats';
+import { tags, countries, devices } from './src/util/stats';
 
 function sourceNodes({ actions, createNodeId, createContentDigest }) {
   // Add People to the GraphQL API, we randomize the data on each build so no one gets their feelings hurt
@@ -55,36 +55,21 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     actions.createNode({ ...country, ...nodeMeta });
   });
 
-  // Add Computers to GraphQL API
-  computers().forEach(computer => {
+  // Add Devices to GraphQL API
+  console.log(devices());
+  devices().forEach(device => {
     const nodeMeta = {
-      id: createNodeId(`computer-${computer.name}`),
+      id: createNodeId(`device-${device.name}`),
       parent: null,
       children: [],
       internal: {
-        type: `Computer`,
+        type: `device`,
         mediaType: `text/html`,
-        content: JSON.stringify(computer),
-        contentDigest: createContentDigest(computer),
+        content: JSON.stringify(device),
+        contentDigest: createContentDigest(device),
       },
     };
-    actions.createNode({ ...computer, ...nodeMeta });
-  });
-
-  // Add Phones to GraphQL API
-  phones().forEach(phone => {
-    const nodeMeta = {
-      id: createNodeId(`phone-${phone.name}`),
-      parent: null,
-      children: [],
-      internal: {
-        type: `Phone`,
-        mediaType: `text/html`,
-        content: JSON.stringify(phone),
-        contentDigest: createContentDigest(phone),
-      },
-    };
-    actions.createNode({ ...phone, ...nodeMeta });
+    actions.createNode({ ...device, ...nodeMeta });
   });
 }
 
