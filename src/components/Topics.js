@@ -10,8 +10,8 @@ export default function Topics() {
   return (
     <Tags>
       {tags.map(tag => (
-        <TagLabel
-          className={`tag ${tag.name === currentTag ? 'currentTag' : ''}`}
+        <Tag
+          currentTag={tag.name === currentTag}
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
         >
@@ -25,12 +25,12 @@ export default function Topics() {
           />
           {tag.name}
           <TagCount>{tag.count}</TagCount>
-        </TagLabel>
+        </Tag>
       ))}
 
       {countries.map(tag => (
-        <TagLabel
-          className={`tag ${tag.emoji === currentTag ? 'currentTag' : ''}`}
+        <Tag
+          currentTag={tag.emoji === currentTag}
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
           title={tag.name}
@@ -45,7 +45,7 @@ export default function Topics() {
           />
           <TagEmoji>{tag.emoji}</TagEmoji>
           <TagCount>{tag.count}</TagCount>
-        </TagLabel>
+        </Tag>
       ))}
     </Tags>
   );
@@ -60,11 +60,12 @@ const Tags = styled.div`
   flex-wrap: wrap;
 `;
 
-const TagLabel = styled.label`
+const Tag = styled.label`
   background: var(--pink);
   margin: 2px;
   border-radius: 3px;
-  font-size: 1.7rem;
+  font-size: ${props => (props.small ? `1.2rem;` : `1.7rem;`)}
+
   padding: 5px;
   color: hsla(0, 100%, 100%, 0.8);
   transition: background-color 0.2s;
@@ -75,10 +76,12 @@ const TagLabel = styled.label`
   input {
     display: none;
   }
-  &.currentTag {
+  ${props =>
+    props.currentTag &&
+    `
     background: var(--yellow);
     color: hsla(0, 100%, 0%, 0.8);
-  }
+  `}
 `;
 
 const TagEmoji = styled.span`
@@ -93,3 +96,5 @@ const TagCount = styled.span`
   border-radius: 2px;
   margin-left: 5px;
 `;
+
+export { Tag, Tags };

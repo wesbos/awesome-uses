@@ -1,6 +1,7 @@
 import React from 'react';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
+import { Tag, Tags } from './Topics';
 import iphone from '../images/iphone.png';
 import android from '../images/android.png';
 import windows from '../images/windows.svg';
@@ -26,16 +27,13 @@ export default function Person({ person, currentTag }) {
           >{`${url.host}${url.pathname}`}</a>
         </header>
         <p>{person.description}</p>
-        <ul>
+        <Tags>
           {person.tags.map(tag => (
-            <li
-              key={tag}
-              className={`tag ${tag === currentTag ? 'currentTag' : ''}`}
-            >
+            <Tag key={tag} as="li" currentTag={tag === currentTag} small>
               {tag}
-            </li>
+            </Tag>
           ))}
-        </ul>
+        </Tags>
       </PersonInner>
       <PersonDeets>
         <span className="country" title={name(person.country)}>
@@ -88,29 +86,24 @@ const PersonInner = styled.div`
   h3 {
     margin: 0;
   }
-  ul li {
-    font-size: 1.2rem;
-    &.currentTag {
-      color: var(--yellow);
-    }
-  }
   header {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto 1fr;
     grid-gap: 0 1rem;
-  img {
-    grid-row: 1 / -1;
-    background: var(--lightblue);
-    font-size: 1rem;
-  }
-  .displayLink {
-    text-decoration: none;
-    color: var(--vape);
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-    :hover {
-      color: var(--pink);
+    img {
+      grid-row: 1 / -1;
+      background: var(--lightblue);
+      font-size: 1rem;
+    }
+    .displayLink {
+      text-decoration: none;
+      color: var(--vape);
+      letter-spacing: 1px;
+      font-size: 1.2rem;
+      :hover {
+        color: var(--pink);
+      }
     }
   }
 `;
