@@ -408,6 +408,27 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     tags: [ 'Developer', 'Blogger', 'Angular' ],
+  },
+  {
+    name: 'Michael Le',
+    description: 'Software Engineer',
+    url: 'https://www.michael1e.com/uses/',
+    twitter: '@michaelnle',
+    emoji: '🤣',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Developer',
+      'Full Stack',
+      'Front End',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'Vue'
+    ],
   }
 ];
 
