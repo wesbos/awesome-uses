@@ -33,7 +33,10 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear() - Math.floor(Math.random() * 777)} Made by{' '}
           <a href="https://wesbos.com">Wes Bos</a> with{' '}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>. Icons from icons8.com.
+          <a href="https://www.gatsbyjs.org">Gatsby</a>. Source on{' '}
+          <a href="https://github.com/wesbos/awesome-uses/">GitHub</a>. Icons
+          from <a href="icons8.com">icons8.com</a>. Domain provided by{' '}
+          <a href="https://get.tech/">.Tech</a>
         </footer>
       </Main>
     </>
