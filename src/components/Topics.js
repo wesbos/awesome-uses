@@ -10,7 +10,7 @@ export default function Topics() {
     currentTag,
     setCurrentTag,
   } = useContext(FilterContext);
-  console.log(countries);
+
   return (
     <div className="tags">
       {tags.map(tag => (

@@ -38,7 +38,6 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     actions.createNode({ ...tag, ...nodeMeta });
   });
 
-  console.log(countries());
   // Add Countries to GraphQL API
   countries().forEach(country => {
     const nodeMeta = {
@@ -56,9 +55,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     actions.createNode({ ...country, ...nodeMeta });
   });
 
-  console.log(computers());
-
-  // Add Phones to GraphQL API
+  // Add Computers to GraphQL API
   computers().forEach(computer => {
     const nodeMeta = {
       id: createNodeId(`computer-${computer.name}`),
@@ -73,8 +70,6 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     };
     actions.createNode({ ...computer, ...nodeMeta });
   });
-
-  console.log(phones());
 
   // Add Phones to GraphQL API
   phones().forEach(phone => {
