@@ -489,6 +489,28 @@ const pages = [
     ],
   },
   {
+    name: 'Timothy Miller',
+    description: 'Web Designer/Developer for hire. Wears lots of hats.',
+    url: 'https://timothymiller.dev/uses',
+    twitter: '@WebInspectInc',
+    emoji: '🥓',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Front End',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'CSS',
+      'PHP',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Tim Dorr',
     description: 'Founder of Spaceship and SalesLoft. Maintainer of Redux and React Router. Dad, husband, and all-around nerd.',
     url: 'https://timdorr.com/',
