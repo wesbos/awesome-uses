@@ -355,6 +355,25 @@ const pages = [
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
   {
+    name: 'Pouria Ezzati',
+    description: 'Web developer. Digs music, football and a e s t h e t i c s',
+    url: 'https://pouria.dev/uses',
+    twitter: '@poeti8',
+    emoji: '🐬',
+    country: '🇮🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Designer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+    ],
+  },
+  {
     name: 'Jonathan Suh',
     description: 'Designer, Developer, Sneakerhead',
     url: 'https://jonsuh.com/uses',
@@ -507,12 +526,13 @@ const pages = [
       'JavaScript',
       'CSS',
       'PHP',
-      'Blogger'
+      'Blogger',
     ],
   },
   {
     name: 'Tim Dorr',
-    description: 'Founder of Spaceship and SalesLoft. Maintainer of Redux and React Router. Dad, husband, and all-around nerd.',
+    description:
+      'Founder of Spaceship and SalesLoft. Maintainer of Redux and React Router. Dad, husband, and all-around nerd.',
     url: 'https://timdorr.com/',
     twitter: '@timdorr',
     emoji: '🤘',
