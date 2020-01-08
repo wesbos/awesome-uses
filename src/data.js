@@ -447,6 +447,29 @@ const pages = [
       'Node',
       'Vue'
     ],
+  },
+  {
+    name: 'Sil van Diepen',
+    description: 'Creative Developer',
+    url: 'https://www.silvandiepen.nl/uses/',
+    twitter: '@silvandiepen',
+    emoji: '🐯',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Illustrator',
+      'Photography',
+      'Front End',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+      'Sass',
+      'Design Systems'
+    ],
   }
 ];
 
