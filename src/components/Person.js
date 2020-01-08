@@ -131,22 +131,22 @@ const PersonInner = styled.div`
 
 const PersonDeets = styled.div`
   display: flex;
-  border-block-start: 1px solid var(--vape);
+  border-top: 1px solid var(--vape);
   > * {
     flex: 1;
-    border-inline-start: 1px solid var(--vape);
+    border-left: 1px solid var(--vape);
     text-align: center;
     padding: 1rem;
     display: grid;
     align-items: center;
     justify-content: center;
     grid-template-columns: auto auto;
+    &:first-child {
+      border-left: 0;
+    }
   }
   a {
     color: var(--vape);
-  }
-  :first-child {
-    border-inline-start: none;
   }
   .country {
     font-size: 3rem;
@@ -159,7 +159,7 @@ const PersonDeets = styled.div`
     grid-template-columns: 1fr 1fr;
     > *:nth-child(2) ~ * {
       /* lol */
-      border-block-start: 1px solid var(--vape);
+      border-left: 1px solid var(--vape);
     }
   }
 `;
