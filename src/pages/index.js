@@ -30,7 +30,9 @@ function IndexPage() {
     person =>
       currentTag === 'all' ||
       person.tags.includes(currentTag) ||
-      currentTag === person.country
+      currentTag === person.country ||
+      currentTag === person.computer ||
+      currentTag === person.phone
   );
   return (
     <Layout>
