@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
@@ -67,6 +68,28 @@ export default function Person({ person, currentTag }) {
     </PersonWrapper>
   );
 }
+
+Person.propTypes = {
+  currentTag: PropTypes.string,
+  person: PropTypes.shape({
+    github: PropTypes.string,
+    name: PropTypes.string,
+    url: PropTypes.string,
+    emoji: PropTypes.string,
+    description: PropTypes.string,
+    tags: PropTypes.arrayOf(PropTypes.string),
+    computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
+    phone: PropTypes.oneOf(['iphone', 'android']),
+    twitter(props, propName, componentName) {
+      if (!/^@?(\w){1,15}$/.test(props[propName])) {
+        return new Error(
+          `Invalid prop \`${propName}\` supplied to` +
+            ` \`${componentName}\`. This isn't a legit twitter handle.`
+        );
+      }
+    },
+  }),
+};
 
 // Component Styles
 const PersonWrapper = styled.div`
