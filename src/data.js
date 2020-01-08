@@ -447,8 +447,7 @@ const pages = [
       'Node',
       'Vue'
     ],
-  }
-,
+  },
   {
     name: 'Sil van Diepen',
     description: 'Creative Developer',
