@@ -553,6 +553,24 @@ const pages = [
       'React',
     ],
   },
+  {
+    name: 'Christopher Hranj',
+    description:
+      'Software Engineer, Blogger, Musician, Ultimate player.',
+    url: 'https://brodan.biz/uses',
+    twitter: '@brodan_',
+    emoji: '🍁',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Back End',
+      'Blogger',
+      'Python',
+      'Crystal',
+    ],
+  },
 ];
 
 export default pages;
