@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 import FilterContext from '../context/FilterContext';
 
 import Layout from '../components/layout';
@@ -37,13 +38,20 @@ function IndexPage() {
   return (
     <Layout>
       <Topics />
-      <div className="people">
+      <People>
         {people.map(person => (
           <Person key={person.name} person={person} currentTag={currentTag} />
         ))}
-      </div>
+      </People>
     </Layout>
   );
 }
 
 export default IndexPage;
+
+// Component Styles
+const People = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 5rem;
+`;
