@@ -65,12 +65,10 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 100;
     font-size: 10px;
   }
-  ::selection {
-    background: var(--yellow);
-    color: var(--blue);
-  }
   body {
     font-size: 2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
@@ -83,6 +81,27 @@ const GlobalStyle = createGlobalStyle`
   code {
     background: var(--lightblue);
   }
+  ::selection {
+    background: var(--yellow);
+    color: var(--blue);
+  }
+
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--yellow) var(--blue);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--blue);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--yellow) ;
+    border-radius: 6px;
+    border: 3px solid var(--blue);
+  }
+
 `;
 
 // Component Styles

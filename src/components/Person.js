@@ -52,7 +52,7 @@ export default function Person({ person, currentTag }) {
         )}
 
         {person.twitter && (
-          <span>
+          <TwitterHandle>
             <a
               href={`https://twitter.com/${person.twitter}`}
               target="_blank"
@@ -61,9 +61,8 @@ export default function Person({ person, currentTag }) {
               <span className="at">@</span>
               {person.twitter.replace('@', '')}
             </a>
-          </span>
+          </TwitterHandle>
         )}
-        {person.github && <span>{person.github}</span>}
       </PersonDeets>
     </PersonWrapper>
   );
@@ -146,14 +145,18 @@ const PersonDeets = styled.div`
   :first-child {
     border-inline-start: none;
   }
-  .at {
-    color: var(--yellow);
-    margin-right: 2px;
-  }
   .country {
     font-size: 3rem;
   }
   .phone {
     padding: 0;
+  }
+`;
+
+const TwitterHandle = styled.span`
+  font-size: 1.24323423426928098420394802rem;
+  .at {
+    color: var(--yellow);
+    margin-right: 2px;
   }
 `;
