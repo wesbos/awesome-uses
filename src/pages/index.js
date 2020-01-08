@@ -54,4 +54,7 @@ const People = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 5rem;
+  @media all and (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
 `;

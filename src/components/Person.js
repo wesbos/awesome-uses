@@ -109,6 +109,9 @@ const PersonInner = styled.div`
     grid-template-rows: auto auto;
     grid-template-columns: auto 1fr;
     grid-gap: 0 1rem;
+    @media all and (max-width: 400px) {
+      grid-template-columns: 1fr;
+    }
     img {
       grid-row: 1 / -1;
       background: var(--lightblue);
@@ -150,6 +153,14 @@ const PersonDeets = styled.div`
   }
   .phone {
     padding: 0;
+  }
+  @media all and (max-width: 400px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    > *:nth-child(2) ~ * {
+      /* lol */
+      border-block-start: 1px solid var(--vape);
+    }
   }
 `;
 

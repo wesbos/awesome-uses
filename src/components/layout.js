@@ -27,16 +27,28 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header siteTitle={data.site.siteMetadata.title} />
       <Main>
+        <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <footer>
-          © {new Date().getFullYear() - Math.floor(Math.random() * 777)} Made by{' '}
-          <a href="https://wesbos.com">Wes Bos</a> with{' '}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>. Source on{' '}
-          <a href="https://github.com/wesbos/awesome-uses/">GitHub</a>. Icons
-          from <a href="icons8.com">icons8.com</a>. Domain provided by{' '}
-          <a href="https://get.tech/">.Tech</a>
+          <center ya-i-used-a-center-tag="sue me">
+            <p>
+              Made by <a href="https://wesbos.com">Wes Bos</a> with{' '}
+              <a href="https://www.gatsbyjs.org">Gatsby</a> ©{' '}
+              {new Date().getFullYear() - Math.floor(Math.random() * 777)}
+            </p>
+            <p>
+              Source on{' '}
+              <a href="https://github.com/wesbos/awesome-uses/">GitHub</a>. Add
+              yourself!
+            </p>
+            <p>
+              Icons from <a href="icons8.com">icons8.com</a>
+            </p>
+            <p>
+              Domain provided by <a href="https://get.tech/">.Tech</a>
+            </p>
+          </center>
         </footer>
       </Main>
     </>
@@ -68,7 +80,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-size: 2rem;
     overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
