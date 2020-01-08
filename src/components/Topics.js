@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import FilterContext from '../context/FilterContext';
+import * as icons from '../util/icons';
 
 export default function Topics() {
   const { countries, tags, devices, currentTag, setCurrentTag } = useContext(
@@ -63,7 +64,7 @@ export default function Topics() {
             checked={tag.name === currentTag}
             onChange={e => setCurrentTag(e.currentTarget.value)}
           />
-          {tag.name}
+          <img height="20px" src={icons[tag.name]} alt={tag.name} />
           <TagCount>{tag.count}</TagCount>
         </Tag>
       ))}

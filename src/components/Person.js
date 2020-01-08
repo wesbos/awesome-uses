@@ -2,13 +2,8 @@ import React from 'react';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
-import iphone from '../images/iphone.png';
-import android from '../images/android.png';
-import windows from '../images/windows.svg';
-import apple from '../images/apple.svg';
-import linux from '../images/linux.svg';
+import * as icons from '../util/icons';
 
-const icons = { iphone, android, windows, apple, linux };
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
   const img = `https://logo.clearbit.com/${url.host}`;
