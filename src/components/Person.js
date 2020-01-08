@@ -6,8 +6,9 @@ import iphone from '../images/iphone.png';
 import android from '../images/android.png';
 import windows from '../images/windows.svg';
 import apple from '../images/apple.svg';
+import ubuntu from '../images/ubuntu.svg';
 
-const icons = { iphone, android, windows, apple };
+const icons = { iphone, android, windows, apple, ubuntu };
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
   const img = `https://logo.clearbit.com/${url.host}`;
