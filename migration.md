@@ -94,7 +94,7 @@ When done, check that person off.
 * [ ] [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
 * [ ] [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
 * [ ] [Terry Godier](https://terrygodier.com/uses/) - Developer and Marketer
-* [ ] [David O'Trakoun](https://www.davidosomething.com/uses/) - Software Engineer
+* [x] [David O'Trakoun](https://www.davidosomething.com/uses/) - Software Engineer
 * [x] [Nuno Maduro](https://nunomaduro.com/uses/) - Software engineer, Open Source contributor, Speaker
 * [ ] [Erno Salo](https://endormi.io/uses/) - Full Stack Developer and Open Source Contributor
 * [ ] [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
