@@ -488,6 +488,29 @@ const pages = [
       'Devtools',
     ],
   },
+  {
+    name: 'Tim Dorr',
+    description: 'Founder of Spaceship and SalesLoft. Maintainer of Redux and React Router. Dad, husband, and all-around nerd.',
+    url: 'https://timdorr.com/',
+    twitter: '@timdorr',
+    emoji: '🤘',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Investor',
+      'JavaScript',
+      'TypeScript',
+      'Ruby',
+      'Go',
+      'Elixir',
+      'Swift',
+      'React',
+    ],
+  },
 ];
 
 export default pages;
