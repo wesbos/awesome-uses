@@ -90,7 +90,7 @@ When done, check that person off.
 * [ ] [Josh Manders](https://joshmanders.com/uses/) - Full Snack Developer and Indie Maker 🌯
 * [ ] [Daniel Wirtz](https://danielwirtz.com/uses/) - Designer who codes @Crisp Studio
 * [ ] [Harry Wolff](https://hswolff.com/uses/) - Front-end engineer and YouTouber
-* [ ] [Pouria Ezzati](https://pouria.dev/uses/) - Web developer
+* [x] [Pouria Ezzati](https://pouria.dev/uses/) - Web developer
 * [ ] [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
 * [ ] [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
 * [ ] [Terry Godier](https://terrygodier.com/uses/) - Developer and Marketer
