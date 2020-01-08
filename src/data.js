@@ -462,7 +462,7 @@ const pages = [
       'Node',
       'CSS',
       'Sass',
-      'Design Systems'
+      'Design Systems',
     ],
   },
   {
@@ -472,7 +472,7 @@ const pages = [
     twitter: '@kilianvalkhof',
     emoji: '🐧',
     country: '🇳🇱',
-    computer: 'ubuntu',
+    computer: 'linux',
     phone: 'iphone',
     tags: [
       'Developer',
@@ -487,7 +487,7 @@ const pages = [
       'Polypane',
       'Devtools',
     ],
-  }
+  },
 ];
 
 export default pages;
