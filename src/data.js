@@ -447,7 +447,26 @@ const pages = [
       'Node',
       'Vue'
     ],
-  }
+  },
+  {
+    name: 'Pouria Ezzati',
+    description: 'Web developer. Digs music, football and a e s t h e t i c s',
+    url: 'https://pouria.dev/uses',
+    twitter: '@poeti8',
+    emoji: '🐬',
+    country: '🇮🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Designer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node'
+    ],
+  },
 ];
 
 export default pages;
