@@ -15,6 +15,7 @@ export default function Topics() {
           currentTag={tag.name === currentTag}
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
+          clickable
         >
           <input
             type="radio"
@@ -35,6 +36,7 @@ export default function Topics() {
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
           title={tag.name}
+          clickable
         >
           <input
             type="radio"
@@ -55,6 +57,7 @@ export default function Topics() {
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
           title={tag.name}
+          clickable
         >
           <input
             type="radio"
@@ -85,12 +88,11 @@ const Tag = styled.label`
   background: var(--pink);
   margin: 2px;
   border-radius: 3px;
-  font-size: ${props => (props.small ? `1.2rem;` : `1.7rem;`)}
-
+  font-size: ${props => (props.small ? `1.2rem;` : `1.7rem;`)};
   padding: 5px;
   color: hsla(0, 100%, 100%, 0.8);
   transition: background-color 0.2s;
-  cursor: pointer;
+  cursor: ${props => (props.clickable? "pointer" : "default")};
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
