@@ -769,7 +769,7 @@ const pages = [
   {
     name: 'Terry Godier',
     description: 'A developer and marketer of fine internet products.',
-    url: 'https://laracasts.com/blog/laracasts-uses',
+    url: 'https://terrygodier.com/uses',
     twitter: '@terrygodier',
     emoji: '🇺🇸',
     country: '🇺🇸',
@@ -822,7 +822,16 @@ const pages = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Back End', 'PHP', 'Blogger', 'Full Stack', 'Podcaster', 'Vue', 'JavaScript'],
+    tags: [
+      'Developer',
+      'Back End',
+      'PHP',
+      'Blogger',
+      'Full Stack',
+      'Podcaster',
+      'Vue',
+      'JavaScript',
+    ],
   },
   {
     name: 'Douglas Andreani',
@@ -857,20 +866,29 @@ const pages = [
   },
   {
     name: 'Richard Palacios G.',
-    description: 'Web Developer, passionate apprentice, Community co-organizer [Javascript Ecuador](https://t.me/javascriptecuador) ',
+    description:
+      'Web Developer, passionate apprentice, Community co-organizer [Javascript Ecuador](https://t.me/javascriptecuador) ',
     url: 'https://www.richardpalaciosg.dev/uses',
     twitter: '@rpalaciosg_',
     emoji: '⚡',
     country: '🇪🇨',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer', 'Javascript','FrontEnd','BackEnd','Community','Node','React'],
+    tags: [
+      'Developer',
+      'Javascript',
+      'FrontEnd',
+      'BackEnd',
+      'Community',
+      'Node',
+      'React',
+    ],
   },
   {
     name: 'Mike Barkmin',
     // Short description
     description:
-      'I\'m a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.',
+      "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
     // URL to your /uses page
     url: 'https://www.barkmin.eu/uses/',
     twitter: '@mikebarkmin',
