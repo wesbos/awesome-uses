@@ -1158,6 +1158,26 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Tom Hazledine',
+    description:
+      'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
+    url: 'https://tomhazledine.com/uses',
+    twitter: '@thomashazledine',
+    emoji: '🥩',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'Podcaster'
+    ],
+  },
 ];
 
 export default pages;
