@@ -709,7 +709,7 @@ const pages = [
       'Full Stack',
       'PHP',
       'Laravel',
-      'AWS'
+      'AWS',
       'JavaScript',
       'React',
       'Node',
