@@ -42,7 +42,7 @@ const pages = [
     url: 'https://www.weibenfalk.com/uses/',
     twitter: '@weibenfalk',
     emoji: '💾',
-    country: 'SE',
+    country: '🇸🇪',
     computer: 'apple',
     phone: 'iphone',
     tags: [
