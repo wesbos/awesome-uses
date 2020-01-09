@@ -637,7 +637,7 @@ const pages = [
             'Developer',
             'Designer',
             'Back End',
-            'Front End'
+            'Front End',
             'PHP',
             'JavaScript',
         ],
