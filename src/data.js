@@ -1106,6 +1106,23 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Bruno Paz',
+    description: 'Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.',
+    url: 'https://stackshare.io/brpaz/personal',
+    twitter: '@brunopaz88',
+    emoji: '💻',
+    country: '🇵🇹',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Golang',
+      'PHP',
+      'Symfony'
+    ],
+  },
 ];
 
 export default pages;
