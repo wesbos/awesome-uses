@@ -200,6 +200,7 @@ const pages = [
     name: 'Benjamin Lannon',
     description: 'Web Developer, Open Source Contributor, Livestreamer',
     url: 'https://lannonbr.com/uses/',
+    twitter: '@lannonbr',
     emoji: '🎤',
     country: '🇺🇸',
     computer: 'apple',
