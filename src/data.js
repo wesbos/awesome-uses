@@ -85,7 +85,7 @@ const pages = [
     url: 'https://glennreyes.com/uses',
     twitter: '@glnnrys',
     emoji: '💃',
-    country: '🇺🇸',
+    country: '🇦🇹',
     computer: 'apple',
     phone: 'iphone',
     tags: [
