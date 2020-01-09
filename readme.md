@@ -25,7 +25,9 @@ A site for this repo is currently being built. Please check out the [website](ht
 A list of /uses pages that detail apps and gear used by professional web developers.
 
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
+
 * [Lina  Maria Montaño Ramirez - calypsobronte](https://calypsobronte.me/uses) — Web Developer, Mentor and Organizer 🇨🇴
+* [Gant Laborde](http://gantlaborde.com/uses) - Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author
 * [Wes Bos](https://wesbos.com/uses) — Web Developer, Tutorial Maker, Podcaster.
 * [Glenn Reyes](https://glennreyes.com/uses) - Independent Software Engineer, Trainer & Speaker.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
@@ -116,5 +118,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Erno Salo](https://endormi.io/uses/) - Full Stack Developer and Open Source Contributor
 * [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
 * [Miguel Ángel Durán](https://midu.dev/uses/) - Front end passionate, Web Performance freak, ocasional speaker, [WTFront! podcast](https://midu.dev/what-the-front-podcast) host, [blogger](https://midu.dev/) and gamer.
+* [Carlos Andrés Charris S](https://www.carloscharris.com/uses/) - Software Engineer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
