@@ -966,7 +966,7 @@ const pages = [
     name: 'Diego Vazquez',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
-    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
+    url: 'https://github.com/diurivj/uses/',
     twitter: '@diurivj',
     emoji: '🌚',
     country: '🇲🇽',
