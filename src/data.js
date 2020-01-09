@@ -817,7 +817,8 @@ const pages = [
       'GDE',
       'Front End'
     ],
-  },{
+  },
+  {
     name: 'James Brooks',
     description: 'Software Developer at Laravel and Podcaster',
     url: 'https://james.brooks.page/uses/',
@@ -827,6 +828,26 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     tags: ['Developer', 'Back End', 'PHP'],
+  },
+  {
+    name: 'Byurhan Beyzat',
+    description: 'Front-End Developer. Engineer. Occasional blogger.',
+    url: 'https://byurhanbeyzat.com/uses',
+    twitter: '@byurhanbeyzat',
+    emoji: '🙌',
+    country: '🇧🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Blogger',
+      'Engineer',
+      'Developer',
+      'JavaScript',
+      'Full Stack',
+      'Front End',
+      'Back End',
+      'React',
+    ],
   },
 ];
 
