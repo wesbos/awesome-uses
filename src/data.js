@@ -296,6 +296,25 @@ const pages = [
     ],
   },
   {
+    name: 'Lina María Montaño Ramírez',
+    description: 'Software Engineer at @holbertonschool, Web Developer and passionate',
+    url: 'https://calypsobronte.me/uses',
+    twitter: '@calypsobronte',
+    emoji: '🦄',
+    country: '🇨🇴',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Python',
+      'C',
+      'Mentor',
+      'Organizer',
+    ],
+  },
+  {
     name: 'Brad Garropy',
     description:
       'Self taught frontender at Adobe, into lifting and country music.',
