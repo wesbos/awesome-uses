@@ -828,6 +828,17 @@ const pages = [
     phone: 'iphone',
     tags: ['Developer', 'Back End', 'PHP'],
   },
+  {
+    name: 'Douglas Andreani'
+    description: 'Software Engineer and Tinkerer',
+    url: 'https://andreanidr.com',
+    twitter: '@andreanidouglas',
+    emoji: '🐱‍🐉',
+    country: 'BR',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Developer', 'Back End', 'C', 'Go', 'Rust', 'C#'],
+  },
 ];
 
 export default pages;
