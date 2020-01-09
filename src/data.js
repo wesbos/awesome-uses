@@ -856,6 +856,17 @@ const pages = [
     ],
   },
   {
+    name: 'Richard Palacios G.',
+    description: 'Web Developer, passionate apprentice, Community co-organizer [Javascript Ecuador](https://t.me/javascriptecuador) ',
+    url: 'https://www.richardpalaciosg.dev/uses',
+    twitter: '@rpalaciosg_',
+    emoji: '⚡',
+    country: '🇪🇨',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Developer', 'Javascript','FrontEnd','BackEnd','Community','Node','React'],
+  },
+  {
     name: 'Mike Barkmin',
     // Short description
     description:
