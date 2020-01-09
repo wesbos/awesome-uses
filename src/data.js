@@ -1158,6 +1158,24 @@ const pages = [
       'Node',
     ],
   },
+  {
+     name : 'Rahul P. Shahare',
+     description : 'Software Engineer,Entrepreneur, Foundation @ Oceangreen Technologies',
+     url : 'https://github.com/rahulshahare',
+     twitter : '@rahulshahare',
+     emoji: '🤩',
+     country: '🇮🇳',
+     computer: 'apple',
+     phone: 'iphone',
+     tags: [
+      'Web Developer',
+      'Open Source contributor',
+      'Speaker',
+      'Php',
+      'Front End',
+      'react',
+     ],
+},
 ];
 
 export default pages;
