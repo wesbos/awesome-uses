@@ -611,6 +611,26 @@ const pages = [
       'Python',
     ],
   },
+  {
+    name: 'Amir R Muntasser',
+    description: 'Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol\' razzle dazzle.',
+    url: 'https://arkm.xyz/uses/',
+    twitter: '@arkmuntasser',
+    emoji: '⚡️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'JavaScript',
+      'CSS',
+      'HTML',
+      'a11y',
+      'Vue',
+      'React',
+      'Developer',
+    ],
+  },
 ];
 
 export default pages;
