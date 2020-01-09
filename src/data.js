@@ -183,6 +183,25 @@ const pages = [
     ],
   },
   {
+    name: 'Rick Calder',
+    description: 'Full Stack Developer, Amateur Writer mostly hockey and development, Hack Musician',
+    url: 'https://calder.io',
+    twitter: '@calder12',
+    emoji: '🤷🏾‍♂️',
+    country: 'ca',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Web Developer',
+      'JavaScript',
+      'PHP',
+      'Elixir',
+      'Go',
+    ],
+  },
+  {
     name: 'Lauro Silva',
     description: 'Software Engineer and Technical Writer',
     url: 'https://laurosilva.com/uses',
@@ -724,7 +743,7 @@ const pages = [
   {
     name: 'Pouria Ezzati',
     description: 'Web Developer',
-    url: 'https://hswolff.com/uses/',
+    url: 'https://pouria.dev/uses',
     twitter: '@poeti8',
     emoji: '🇮🇷',
     country: '🇮🇷',
@@ -743,7 +762,7 @@ const pages = [
     name: 'James Mills',
     description:
       'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
-    url: 'https://hswolff.com/uses/',
+    url: 'https://jamesmills.co.uk/uses',
     twitter: '@jamesmills',
     emoji: '🖱',
     country: '🇦🇪',
@@ -802,8 +821,7 @@ const pages = [
   },
   {
     name: 'Gokulakrishnan Kalaikovan',
-    description:
-      'Web Developer, GDE, Open Source contributor, Speaker',
+    description: 'Web Developer, GDE, Open Source contributor, Speaker',
     url: 'https://gokul.site/uses',
     twitter: '@gokul_i',
     emoji: '🤩',
@@ -815,9 +833,10 @@ const pages = [
       'Open Source contributor',
       'Speaker',
       'GDE',
-      'Front End'
+      'Front End',
     ],
-  },{
+  },
+  {
     name: 'James Brooks',
     description: 'Software Developer at Laravel and Podcaster',
     url: 'https://james.brooks.page/uses/',
@@ -846,6 +865,26 @@ const pages = [
       'Open source',
       'Blogger',
       'Speaker'
+    ]
+  },
+  {
+    name: 'Byurhan Beyzat',
+    description: 'Front-End Developer. Engineer. Occasional blogger.',
+    url: 'https://byurhanbeyzat.com/uses',
+    twitter: '@byurhanbeyzat',
+    emoji: '🙌',
+    country: '🇧🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Blogger',
+      'Engineer',
+      'Developer',
+      'JavaScript',
+      'Full Stack',
+      'Front End',
+      'Back End',
+      'React',
     ],
   },
 ];
