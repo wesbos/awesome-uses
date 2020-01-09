@@ -855,6 +855,38 @@ const pages = [
       'React',
     ],
   },
+  {
+    name: 'Sanket Gandhi',
+    // Short description
+    description:
+      'Software Engineer',
+    // URL to your /uses page
+    url: 'https://sanketgandhi.com/uses',
+    twitter: '@sanketgandhi876',
+    // An emoji that describes you
+    emoji: '🔥',
+    // emoji of your country's flag
+    country: '🇮🇳',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'android',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'Laravel',
+      'AWS'
+      'JavaScript',
+      'React',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
