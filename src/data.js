@@ -1,14 +1,28 @@
+// Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.	
+
+// please remove the comments before You PR
 const pages = [
   {
     name: 'Wes Bos',
+    // Short description
     description:
       'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+    // URL to your /uses page
     url: 'https://wesbos.com/uses',
     twitter: '@wesbos',
+    // An emoji that describes you
     emoji: '🔥',
+    // emoji of your country's flag
     country: '🇨🇦',
+    // ONE of: apple, windows or linux
     computer: 'apple',
+    // iphone or android
     phone: 'iphone',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.	
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,	
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,	
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: [
       'Developer',
       'Full Stack',
