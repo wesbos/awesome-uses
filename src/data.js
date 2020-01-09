@@ -35,6 +35,32 @@ const pages = [
     ],
   },
   {
+    name: 'Gant Laborde',
+    description: 'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
+    url: 'http://gantlaborde.com/uses/',
+    twitter: '@gantlaborde',
+    emoji: '🔥',
+    country: 'US',
+    computer: 'windows',
+    phone: 'ios',
+    tags: [
+      'Engineer',
+      'JavaScript',
+      'Developer',
+      'Consultant',
+      'Entrepreneur',
+      'React',
+      'Blogger',
+      'Teacher',
+      'Speaker',
+      'TypeScript',
+      'Web Developer',
+      'Writer',
+      'Podcaster',
+      'Machine Learning',
+    ],
+  },
+  {
     name: 'Troy Forster',
     description: 'Consulting Technology Director and CTO for Hire',
     url: 'https://tforster.com/uses',
@@ -618,7 +644,7 @@ const pages = [
     url: 'https://pavel.dev/uses',
     twitter: '@theopract',
     emoji: '🤟',
-    country: '🇷🇺',
+    country: 'RU',
     computer: 'windows',
     phone: 'android',
     tags: [
@@ -975,7 +1001,7 @@ const pages = [
       'Node',
       'Blogger',
     ],
-  },
+  },  
 ];
 
 export default pages;
