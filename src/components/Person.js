@@ -122,6 +122,7 @@ const PersonInner = styled.div`
       color: var(--vape);
       letter-spacing: 1px;
       font-size: 1.2rem;
+      word-break: break-word;
       :hover {
         color: var(--pink);
       }
@@ -150,6 +151,7 @@ const PersonDeets = styled.div`
   }
   .country {
     font-size: 3rem;
+    padding-top: 2rem;
   }
   .phone {
     padding: 0;
