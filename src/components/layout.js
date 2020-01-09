@@ -113,7 +113,6 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 6px;
     border: 3px solid var(--blue);
   }
-
 `;
 
 // Component Styles
