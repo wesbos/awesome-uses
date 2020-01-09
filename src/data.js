@@ -186,6 +186,7 @@ const pages = [
     name: 'Rick Calder',
     description: 'Full Stack Developer, Amateur Writer mostly hockey and development, Hack Musician',
     url: 'https://calder.io',
+    twitter: '@calder12',
     emoji: '🤷🏾‍♂️',
     country: 'ca',
     computer: 'windows',
