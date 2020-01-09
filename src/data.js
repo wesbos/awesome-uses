@@ -1106,6 +1106,27 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Arjan Kruithof',
+    description: 'Development Team Lead at Born05',
+    url: 'http://arjankruithof.nl/',
+    twitter: '@arjankruithof',
+    emoji: '📚',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Web Developer',
+      'React',
+      'CSS',
+      'Vue',
+      'GraphQL',
+      'Docker',
+      'Front End',
+    ],
+  },
 ];
 
 export default pages;
