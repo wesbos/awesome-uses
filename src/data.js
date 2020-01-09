@@ -1106,6 +1106,26 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Jérémy Mouzin',
+    description: 'Software Engineer, Tutorial Maker, Entrepreneur, Blogger',
+    url: 'https://jeremymouzin.com/uses',
+    twitter: '@jeremymouzin',
+    emoji: '🐓',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
