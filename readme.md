@@ -115,5 +115,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [Nuno Maduro](https://nunomaduro.com/uses/) - Software engineer, Open Source contributor, Speaker
 * [Erno Salo](https://endormi.io/uses/) - Full Stack Developer and Open Source Contributor
 * [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
+* [Miguel Ángel Durán](https://midu.dev/uses/) - Front end passionate, Web Performance freak, ocasional speaker, [WTFront! podcast](https://midu.dev/what-the-front-podcast) host, [blogger](https://midu.dev/) and gamer.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
