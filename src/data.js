@@ -32,6 +32,7 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
+      'CSS',
     ],
   },
   {
