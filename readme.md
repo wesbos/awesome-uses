@@ -118,6 +118,6 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
 * [Miguel Ángel Durán](https://midu.dev/uses/) - Front end passionate, Web Performance freak, ocasional speaker, [WTFront! podcast](https://midu.dev/what-the-front-podcast) host, [blogger](https://midu.dev/) and gamer.
 * [Carlos Andrés Charris S](https://www.carloscharris.com/uses/) - Software Engineer
-* [Thomas Weibenfalk] (https://www.weibenfalk.com/uses/) - Developer, Tutorial maker, Youtuber and Designer
+* [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) - Developer, Tutorial maker, Youtuber and Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
