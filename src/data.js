@@ -106,6 +106,26 @@ const pages = [
       'Blogger',
     ],
   },
+   {
+    name: 'Hussain Aminu',
+    description: 'Web Developer, Data Scientist',
+    url: 'https://hussain4real.github.io/Portfolio/uses',
+    twitter: '@hussain4real',
+    emoji: '🔥',
+    country: 'NG',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Data Science',
+      'JavaScript',
+      'Python',
+      'Vue',
+      'Node',
+      'Django',
+    ],
+  },
   {
     name: 'Glenn Reyes',
     description:
