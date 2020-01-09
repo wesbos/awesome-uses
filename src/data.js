@@ -1106,6 +1106,23 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Ayoub Sousali',
+    description: 'web developer',
+    url: 'https://ayoubsousali.com',
+    twitter: '',
+    emoji: '⚡',
+    country: 'MA',
+    computer: 'windows',
+    phone: 'samsung',
+    tags: [
+      'Web Developer',
+      'PHP',
+      'React',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
