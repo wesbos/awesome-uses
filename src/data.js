@@ -940,6 +940,7 @@ const pages = [
       'React',
       'Vue',
       'Node',
+    ],
   },
   {
     name: 'Steve Heyes',
