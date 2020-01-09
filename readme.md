@@ -26,6 +26,7 @@ A list of /uses pages that detail apps and gear used by professional web develop
 
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
 
+* [Gant Laborde](http://gantlaborde.com/uses) - Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author
 * [Wes Bos](https://wesbos.com/uses) — Web Developer, Tutorial Maker, Podcaster.
 * [Glenn Reyes](https://glennreyes.com/uses) - Independent Software Engineer, Trainer & Speaker.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
