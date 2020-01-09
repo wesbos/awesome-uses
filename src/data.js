@@ -35,6 +35,26 @@ const pages = [
       'CSS',
     ],
   },
+   {
+    name: 'Thomas Weibenfalk',
+    description:
+      'Passionate developer, course creator, youtuber, designer and musician from Sweden',
+    url: 'https://www.weibenfalk.com/uses/',
+    twitter: '@weibenfalk',
+    emoji: '💾',
+    country: 'SE',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Entrepreneur',
+      'React',
+      'Teacher',
+      'Writer',
+      'YouTuber',
+    ],
+  },
   {
     name: 'Gant Laborde',
     description:
