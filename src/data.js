@@ -1158,6 +1158,28 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: "Carlos Junod",
+    description:
+      "Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer",
+    url: "http://carlosjunod.me/uses/",
+    twitter: "@carlosjunod",
+    emoji: "🥑",
+    country: "🇨🇱",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "Full Stack",
+      "React",
+      "Designer",
+      "Entrepreneur",
+      "JavaScript",
+      "Node",
+      "CSS",
+      "HTML"
+    ]
+  },
 ];
 
 export default pages;
