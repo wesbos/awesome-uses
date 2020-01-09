@@ -1138,6 +1138,28 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Mihai Serban',
+    description:
+      'Software engineer in constant search for new and exciting technologies',
+    url: 'https://www.mihaiserban.dev/uses',
+    twitter: '@MihaiSerban',
+    emoji: '✌️',
+    country: '🇷🇴',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'Vue',
+      'iOS'
+    ],
+  },
 ];
 
 export default pages;
