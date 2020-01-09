@@ -655,7 +655,169 @@ const pages = [
       'Accessibility',
       'Performance'
     ],
-  }
+  },
+    {
+        name: 'Josh Manders',
+        description:
+            'Full Snack Developer and Indie Maker',
+        url: 'https://joshmanders.com/uses/',
+        twitter: '@joshmanders',
+        emoji: '🌯',
+        country: '🇺🇸',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Full Stack',
+            'Front End',
+            'Back End',
+            'Node',
+            'React',
+            'GraphQL',
+        ],
+    },
+    {
+        name: 'Daniel Wirtz',
+        description:
+            'Designer who codes @Crisp Studio',
+        url: 'https://danielwirtz.com/uses/',
+        twitter: '@wirtzdan',
+        emoji: '🎨',
+        country: '🇩🇪',
+        computer: 'apple',
+        phone: 'android',
+        tags: [
+            'Designer',
+            'Entrepreneur'
+        ],
+    },
+    {
+        name: 'Harry Wolff',
+        description:
+            'Front-end engineer and YouTuber ',
+        url: 'https://hswolff.com/uses/',
+        twitter: '@hswolff',
+        emoji: '👨‍🎤',
+        country: '🇺🇸',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Engineer',
+            'YouTuber',
+            'Blogger',
+            'Front End'
+        ],
+    },
+    {
+        name: 'Pouria Ezzati',
+        description:
+            'Web Developer',
+        url: 'https://hswolff.com/uses/',
+        twitter: '@poeti8',
+        emoji: '🇮🇷',
+        country: '🇮🇷',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Designer',
+            'Back End',
+            'Front End'
+            'PHP',
+            'JavaScript',
+        ],
+    },
+    {
+        name: 'James Mills',
+        description:
+            'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
+        url: 'https://hswolff.com/uses/',
+        twitter: '@jamesmills',
+        emoji: '🖱',
+        country: '🇦🇪',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Designer',
+            'YouTuber',
+            'Blogger',
+            'Back End',
+            'PHP',
+            'JavaScript',
+        ],
+    },
+    {
+        name: 'Jeffrey Way',
+        description:
+            'Laracasts Author',
+        url: 'https://laracasts.com/blog/laracasts-uses',
+        twitter: '@jeffrey_way',
+        emoji: '💻',
+        country: '🇺🇸',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Designer',
+            'Back End',
+            'PHP',
+        ],
+    },
+    {
+        name: 'Terry Godier',
+        description:
+            'A developer and marketer of fine internet products.',
+        url: 'https://laracasts.com/blog/laracasts-uses',
+        twitter: '@terrygodier',
+        emoji: '🇺🇸',
+        country: '🇺🇸',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Marketer',
+            'Writer',
+            'PHP',
+            'Laravel'
+        ],
+    },
+    {
+        name: 'Erno Salo',
+        description:
+            'Full Stack Developer and Open Source Contributor',
+        url: 'https://endormi.io/uses/',
+        twitter: '@terrygodier',
+        emoji: '🎮',
+        country: '🇫🇮',
+        computer: 'windows',
+        phone: 'android',
+        tags: [
+            'Developer',
+            'Designer',
+            'Front End',
+            'Back End',
+            'JavaScript',
+            'Python',
+            'Node',
+        ],
+    },
+    {
+        name: 'James Brooks',
+        description:
+            'Software Developer at Laravel and Podcaster',
+        url: 'https://james.brooks.page/uses/',
+        twitter: '@terrygodier',
+        emoji: '👩‍💻',
+        country: '🇬🇧',
+        computer: 'apple',
+        phone: 'iphone',
+        tags: [
+            'Developer',
+            'Back End',
+            'PHP',
+        ],
+    }
 ];
 
 export default pages;
