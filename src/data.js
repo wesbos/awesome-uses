@@ -655,6 +655,33 @@ const pages = [
       'Accessibility',
       'Performance'
     ],
+  },
+    {
+    name: 'Miguel Ángel Durán',
+    description: 'Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.',
+    url: 'https://midu.dev/uses',
+    twitter: '@midudev',
+    emoji: '👾',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'Engineer',
+      'JavaScript',
+      'Typescript',
+      'React',
+      'Accessibility',
+      'Performance',
+      'Teacher',
+      'YouTuber',
+      'Node',
+      'Speaker',
+      'Podcaster',
+      'Blogger'
+    ],
   }
 ];
 
