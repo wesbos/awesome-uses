@@ -3,6 +3,7 @@
   "description": "What do you uses",
   "version": "7.7.7",
   "author": "Wes Bos",
+  "type": "module",
   "eslintConfig": {
     "extends": [
       "wesbos"
