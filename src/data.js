@@ -269,7 +269,7 @@ const pages = [
   },
   {
     name: 'Lina María Montaño Ramírez',
-    description: 'Software Engineer at @holbertonschool, Web Developer and passionate',
+    description: 'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
     url: 'https://calypsobronte.me/uses',
     twitter: '@calypsobronte',
     emoji: '🦄',
