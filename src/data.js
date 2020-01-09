@@ -1106,6 +1106,31 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Carlos Andres Charris Sandoval',
+    description:
+      'Software Engineer',
+    url: 'https://carloscharris.com/uses',
+    twitter: '@Darkklitos',
+    emoji: '🔥',
+    country: 'co',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'Angular',
+      'Vue',
+      'React',
+      'Node',
+      'Java',
+      'Docker',
+      'Serverless'
+    ],
+  },
+
 ];
 
 export default pages;
