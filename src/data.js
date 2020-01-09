@@ -106,13 +106,13 @@ const pages = [
       'Blogger',
     ],
   },
-   {
+  {
     name: 'Hussain Aminu',
     description: 'Web Developer, Data Scientist',
     url: 'https://hussain4real.github.io/Portfolio/uses',
     twitter: '@hussain4real',
     emoji: '🔥',
-    country: 'NG',
+    country: '🇳🇬',
     computer: 'windows',
     phone: 'android',
     tags: [
@@ -317,7 +317,8 @@ const pages = [
   },
   {
     name: 'Lina María Montaño Ramírez',
-    description: 'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
+    description:
+      'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
     url: 'https://calypsobronte.me/uses',
     twitter: '@calypsobronte',
     emoji: '🦄',
@@ -1068,8 +1069,7 @@ const pages = [
   },
   {
     name: 'Ben Leivian',
-    description:
-      'A “seasoned” full-stack developer & visual designer 🍔',
+    description: 'A “seasoned” full-stack developer & visual designer 🍔',
     url: 'https://benleivian.com/uses',
     twitter: '@benleivian',
     emoji: '🍔',
@@ -1090,8 +1090,7 @@ const pages = [
   },
   {
     name: 'Mike Williamson',
-    description:
-      'Into IoT, BLE, node.js, Android and iOS native apps',
+    description: 'Into IoT, BLE, node.js, Android and iOS native apps',
     url: 'http://dikuw.com/',
     twitter: '@dikuw',
     emoji: '💻',
