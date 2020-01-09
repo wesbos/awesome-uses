@@ -1158,6 +1158,23 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Juan Manuel Incaurgarat',
+    description: 'Front end developer',
+    url: 'https://kilinkis.me/uses',
+    twitter: '@kilinkis',
+    emoji: '🏀',
+    country: '🇦🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'React',
+      'WordPress',
+      'Gatsby',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
