@@ -254,6 +254,7 @@ const pages = [
     name: 'Lauro Silva',
     description: 'Software Engineer and Technical Writer',
     url: 'https://laurosilva.com/uses',
+    twitter: '@laurosilvacom',
     emoji: '😄',
     country: '🇺🇸',
     computer: 'apple',
