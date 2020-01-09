@@ -899,6 +899,26 @@ const pages = [
       'React',
     ],
   },
+  {
+    name: 'Cam Farquharson',
+    description: 'Full-Stack Developer .',
+    url: 'https://cameronfarquharson.ca',
+    twitter: '@CamFarquharson',
+    emoji: '',
+    country: 'CA',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Full Stack',
+      'Front End',
+      'Back End',
+      'React',
+      'PHP',
+      'WordPress'
+    ],
+  },
 ];
 
 export default pages;
