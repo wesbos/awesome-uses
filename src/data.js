@@ -274,8 +274,8 @@ const pages = [
     twitter: '@calypsobronte',
     emoji: '🦄',
     country: '🇨🇴',
-    computer: 'asus',
-    phone: 'asus',
+    computer: 'linux',
+    phone: 'android',
     tags: [
       'Developer',
       'Full Stack',
