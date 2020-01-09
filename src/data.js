@@ -574,7 +574,7 @@ const pages = [
   {
     name: 'Amir R Muntasser',
     description:
-      'Web Developer, #vuenicorn wizard, Oxfordcomma enthusiast, and inventor of the ol\' razzle dazzle.',
+      'Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol\' razzle dazzle.',
     url: 'https://arkm.xyz/uses/',
     twitter: '@arkmuntasser',
     emoji: '⚡️',
