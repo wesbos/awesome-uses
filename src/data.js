@@ -1005,6 +1005,28 @@ const pages = [
       'Blogger',
     ],
   },
+  {
+    name: 'Ben Leivian',
+    description:
+      'A “seasoned” full-stack developer & visual designer 🍔',
+    url: 'https://benleivian.com/uses',
+    twitter: '@benleivian',
+    emoji: '🍔',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Designer',
+      'PHP',
+      'JavaScript',
+      'Laravel',
+      'Vue',
+      'Node',
+      'Docker',
+    ],
+  },
 ];
 
 export default pages;
