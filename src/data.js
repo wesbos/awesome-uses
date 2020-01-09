@@ -1158,6 +1158,23 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Marais Rossouw',
+    description: 'Software Engineer, Open Sourcer and passionate coffee drinker',
+    url: 'https://marais.io',
+    twitter: '@codervandal',
+    emoji: '🦄',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'TypeScript',
+      'Rust',
+      'React',
+      'Design Systems',
+      'Node',
+    ]
+  }
 ];
 
 export default pages;
