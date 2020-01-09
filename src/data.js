@@ -927,6 +927,26 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Steve Heyes',
+    description:
+      ' I like to use tech to build awesome things that makes peoples lives better',
+    url: 'https://steveheyes.co.uk/uses',
+    twitter: '@mrsteveheyes',
+    emoji: '👋',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Ruby',
+      'Rails',
+      'JavaScript',
+      'React',
+      'React Native',
+    ],
+  },
 ];
 
 export default pages;
