@@ -927,6 +927,43 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Hugo Di Francesco',
+    // Short description
+    description:
+      "JavaScript developer, blogger at codewithhugo.com, author of 'Professional JavaScript' with Packt.",
+    // URL to your /uses page
+    url: 'https://codewithhugo.com/uses/',
+    twitter: '@hugo__df',
+    // An emoji that describes you
+    emoji: '👓',
+    // emoji of your country's flag
+    country: '🇬🇧',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'android',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Blogger',
+      'Author',
+      'Python',
+      'Docker',
+      'Kubernetes',
+      'Serverless',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Vue',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
