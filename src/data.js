@@ -1158,6 +1158,29 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Jared Clifton-Lee',
+    description: 'Engineer of code; manager of people; trainer of cats',
+    url: 'https://jared.clifton-lee.com/uses',
+    twitter: '@jaredcliftonlee',
+    emoji: '☕',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Entrepreneur',
+      'Manager',
+      'Full Stack',
+      'Engineer',
+      'Ruby',
+      'Rails',
+      'Elixir',
+      'Phoenix',
+      'JavaScript',
+      'React',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
