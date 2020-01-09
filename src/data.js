@@ -1138,6 +1138,39 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Alan Brande Rozenblum',
+    // Short description
+    description:
+      'Founder @ Light-it, Software Engineer, Product Developer, Passionate About DATA',
+    // URL to your /uses page
+    url: 'https://lightit.io/',
+    twitter: '@alanbrande',
+    // An emoji that describes you
+    emoji: '🚀',
+    // emoji of your country's flag
+    country: '🇺🇾',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'iphone',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'Engineer',
+      'PHP',
+      'Laravel',
+      'Vue',
+      'Speaker',
+      'TypeScript',
+      'DataScience',
+
+    ],
+  },
 ];
 
 export default pages;
