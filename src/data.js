@@ -36,6 +36,28 @@ const pages = [
     ],
   },
   {
+    name: 'Nick Janetakis',
+    description:
+      'Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast',
+    url: 'https://nickjanetakis.com/uses',
+    twitter: '@nickjanetakis',
+    emoji: '👀',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Freelancer',
+      'Teacher',
+      'YouTuber',
+      'Flask',
+      'Phoenix',
+      'Docker',
+      'DevOps',
+    ],
+  },
+  {
     name: 'Gant Laborde',
     description:
       'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
