@@ -268,6 +268,26 @@ const pages = [
     ],
   },
   {
+    name: 'Abdisalan Mohamud',
+    description: 'Software Engineer, blogger, lifetime learner',
+    url: 'https://abdisalan.com/uses',
+    twitter: '@abdisalan_js',
+    emoji: '🤷🏾‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'ReasonML',
+      'Go',
+      'AWS'
+    ],
+  },
+  {
     name: 'Josh Barker',
     description:
       'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
@@ -572,9 +592,28 @@ const pages = [
     ],
   },
   {
+    name: 'Vincent Ramdhanie',
+    description: 'Software Developer, Lecturer, Technical Writer and Mentor',
+    url: 'https://vincentramdhanie.com/uses',
+    emoji: '',
+    country: '🇹🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Lecturer',
+      'Mentor',
+      'React',
+      'Node',
+      'Testing',
+      'Machine Learning',
+      'Python',
+    ],
+  },
+  {
     name: 'Amir R Muntasser',
-    description:
-      'Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol\' razzle dazzle.',
+    description: 'Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol\' razzle dazzle.',
     url: 'https://arkm.xyz/uses/',
     twitter: '@arkmuntasser',
     emoji: '⚡️',
