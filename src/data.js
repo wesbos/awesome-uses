@@ -827,7 +827,27 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     tags: ['Developer', 'Back End', 'PHP'],
-  },
+  },{
+    name: 'Osvaldo Perez',
+    description:
+      'Full Stack Developer and passionate taco eater.',
+    url: 'https://osvaldo.app',
+    twitter: '@xiosman',
+    emoji: '😎',
+    country: 'USA',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Vue',
+      'C#',
+      '.Net',
+      'Full Stack',
+      'Netlify',
+      'Firebase',
+      'Node Js'
+    ],
+  }
 ];
 
 export default pages;
