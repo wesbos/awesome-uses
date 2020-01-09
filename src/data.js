@@ -36,7 +36,8 @@ const pages = [
   },
   {
     name: 'Gant Laborde',
-    description: 'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
+    description:
+      'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
     url: 'http://gantlaborde.com/uses/',
     twitter: '@gantlaborde',
     emoji: '🔥',
@@ -644,7 +645,7 @@ const pages = [
     url: 'https://pavel.dev/uses',
     twitter: '@theopract',
     emoji: '🤟',
-    country: 'RU',
+    country: '🇷🇺',
     computer: 'windows',
     phone: 'android',
     tags: [
@@ -985,7 +986,8 @@ const pages = [
   },
   {
     name: 'Rafael Quintanilha',
-    description: 'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
+    description:
+      'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
     url: 'https://rafaelquintanilha.com/about#uses',
     twitter: '@webquintanilha',
     emoji: '⚔️',
@@ -1001,7 +1003,7 @@ const pages = [
       'Node',
       'Blogger',
     ],
-  },  
+  },
 ];
 
 export default pages;
