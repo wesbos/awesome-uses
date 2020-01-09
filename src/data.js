@@ -800,6 +800,23 @@ const pages = [
     ],
   },
   {
+    name: 'Gokulakrishnan Kalaikovan',
+    description:
+      'Web Developer, GDE, Open Source contributor, Speaker',
+    url: 'https://gokul.site/uses',
+    twitter: '@gokul_i',
+    emoji: '🤩',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Open Source contributor',
+      'Speaker',
+      'GDE',
+      'Front End'
+    ],
+  },{
     name: 'James Brooks',
     description: 'Software Developer at Laravel and Podcaster',
     url: 'https://james.brooks.page/uses/',
