@@ -34,7 +34,7 @@ function IndexPage() {
       currentTag === person.country ||
       currentTag === person.computer ||
       currentTag === person.phone
-  );
+  ).sort((a, b) => a.name.localeCompare(b.name, 'en', {sensitivity: 'base'}));
   return (
     <Layout>
       <Topics />
