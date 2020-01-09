@@ -1158,6 +1158,25 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'James Kemp',
+    description: 'Web Developer, Blogger, Freelancer',
+    url: 'https://www.jameskemp.dev/uses/',
+    twitter: '@jkempdev',
+    emoji: '💻',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Blogger',
+      'React',
+      'Rails',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
