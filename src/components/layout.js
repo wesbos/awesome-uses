@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
               yourself!
             </p>
             <p>
-              Icons from <a href="icons8.com">icons8.com</a>
+              Icons from <a href="https://icons8.com">icons8.com</a>
             </p>
             <p>
               Domain provided by <a href="https://get.tech/">.Tech</a>
