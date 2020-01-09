@@ -834,7 +834,7 @@ const pages = [
     url: 'https://andreanidr.com',
     twitter: '@andreanidouglas',
     emoji: '🐱‍🐉',
-    country: 'BR',
+    country: '🇧🇷',
     computer: 'linux',
     phone: 'android',
     tags: ['Developer', 'Back End', 'C', 'Go', 'Rust', 'C#'],
