@@ -849,7 +849,7 @@ const pages = [
     tags: ['Developer', 'Back End', 'PHP'],
   },
   {
-    name: 'Douglas Andreani'
+    name: 'Douglas Andreani',
     description: 'Software Engineer and Tinkerer',
     url: 'https://andreanidr.com',
     twitter: '@andreanidouglas',
@@ -869,15 +869,15 @@ const pages = [
     computer: 'windows',
     phone: 'android',
     tags: [
-      'Developer', 
-      'Back End', 
+      'Developer',
+      'Back End',
       '.NET',
       'C#',
       'F#',
       'Open source',
       'Blogger',
-      'Speaker'
-    ]
+      'Speaker',
+    ],
   },
   {
     name: 'Byurhan Beyzat',
