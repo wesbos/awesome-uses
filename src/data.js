@@ -1,4 +1,4 @@
-// Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.
+  // Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.
 
 // please remove the comments before You PR
 const pages = [
@@ -1104,6 +1104,21 @@ const pages = [
       'JavaScript',
       'Node',
       'CSS',
+    ],
+  },
+  {
+    name: 'Juanito Fatas',
+    description:
+      'Program Tinker 🧙🏼‍♂️',
+    url: 'https://juanitofatas.com/uses',
+    twitter: '@juanitofatas',
+    emoji: '🐻',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Think',
+      'Apply',
     ],
   },
 ];
