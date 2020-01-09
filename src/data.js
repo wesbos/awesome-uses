@@ -1106,6 +1106,37 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Stephen Senkomago Musoke',
+    // Short description
+    description:
+      'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
+    // URL to your /uses page
+    url: 'https://ssmusoke.com/uses',
+    twitter: '@ssmusoke',
+    // An emoji that describes you
+    emoji: '🔥',
+    // emoji of your country's flag
+    country: '🇺🇬',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'android',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'Engineer',
+      'PHP',
+      'Java',
+      'OpenMRS',
+      'HTML',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
