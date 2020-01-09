@@ -917,6 +917,31 @@ const pages = [
     ],
   },
   {
+    name: 'Hugo Di Francesco',
+    description:
+      "JavaScript developer, blogger at codewithhugo.com, author of 'Professional JavaScript' with Packt.",
+    url: 'https://codewithhugo.com/uses/',
+    twitter: '@hugo__df',
+    emoji: '👓',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Blogger',
+      'Author',
+      'Python',
+      'Docker',
+      'Kubernetes',
+      'Serverless',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Vue',
+      'Node',
+  },
+  {
     name: 'Steve Heyes',
     description:
       'I like to use tech to build awesome things that makes peoples lives better',
