@@ -849,6 +849,26 @@ const pages = [
     tags: ['Developer', 'Back End', 'PHP'],
   },
   {
+    name: 'Alexey Golub',
+    description: 'Open source software developer',
+    url: 'https://tyrrrz.me',
+    twitter: '@tyrrrz',
+    emoji: '👾',
+    country: '🇺🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer', 
+      'Back End', 
+      '.NET',
+      'C#',
+      'F#',
+      'Open source',
+      'Blogger',
+      'Speaker'
+    ]
+  },
+  {
     name: 'Byurhan Beyzat',
     description: 'Front-End Developer. Engineer. Occasional blogger.',
     url: 'https://byurhanbeyzat.com/uses',
