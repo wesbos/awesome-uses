@@ -48,6 +48,9 @@ const Layout = ({ children }) => {
             <p>
               Domain provided by <a href="https://get.tech/">.Tech</a>
             </p>
+            <p>
+              Hosted on <a href="https://netlify.com">Netlify</a>
+            </p>
           </center>
         </footer>
       </Main>

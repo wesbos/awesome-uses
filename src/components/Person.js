@@ -159,7 +159,7 @@ const PersonDeets = styled.div`
     grid-template-columns: 1fr 1fr;
     > *:nth-child(2) ~ * {
       /* lol */
-      border-left: 1px solid var(--vape);
+      border-top: 1px solid var(--vape);
     }
   }
 `;
