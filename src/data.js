@@ -1106,6 +1106,24 @@ const pages = [
       'CSS',
     ],
   },
+    {
+    name: 'Roman Husar',
+    description: 'Tinkering, all the time.',
+    url: 'https://seemslikelegit.com/uses',
+    twitter: '@seemslikelegit',
+    emoji: '➰',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Engineer',
+      'Full Stack',
+      'JavaScript',
+      'PostgreSQL',
+      'React',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
