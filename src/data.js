@@ -1,34 +1,28 @@
+// Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.
+
+// please remove the comments before You PR
 const pages = [
   {
-    name: 'Diego Vazquez',
-    description:
-      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
-    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
-    twitter: '@diurivj',
-    emoji: '🌚',
-    country: '🇲🇽',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Teacher',
-      'JavaScript',
-      'React',
-      'Node',
-      'Mongo DB',
-    ],
-  },
-  {
     name: 'Wes Bos',
+    // Short description
     description:
       'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+    // URL to your /uses page
     url: 'https://wesbos.com/uses',
     twitter: '@wesbos',
+    // An emoji that describes you
     emoji: '🔥',
+    // emoji of your country's flag
     country: '🇨🇦',
+    // ONE of: apple, windows or linux
     computer: 'apple',
+    // iphone or android
     phone: 'iphone',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: [
       'Developer',
       'Full Stack',
@@ -966,6 +960,26 @@ const pages = [
       'JavaScript',
       'React',
       'React Native',
+    ],
+  },
+  {
+    name: 'Diego Vazquez',
+    description:
+      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
+    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
+    twitter: '@diurivj',
+    emoji: '🌚',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'Node',
+      'Mongo DB',
     ],
   },
 ];
