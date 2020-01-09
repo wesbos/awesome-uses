@@ -1106,6 +1106,27 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Kaleigh Scruggs',
+    description:
+      'Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom',
+    url: 'https://kaleighscruggs.com/uses',
+    twitter: '@kaleighscruggs',
+    emoji: '🐞',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'WordPress',
+      'CSS',
+      'Full Stack',
+    ],
+  },
 ];
 
 export default pages;
