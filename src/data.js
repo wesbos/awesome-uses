@@ -1106,6 +1106,25 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Thomas Hunter II',
+    description:
+      'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
+    url: 'https://thomashunter.name/uses',
+    twitter: '@tlhunter',
+    emoji: '⏻',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Back End',
+      'Speaker',
+      'Writer',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
