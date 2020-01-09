@@ -1007,6 +1007,26 @@ const pages = [
     ],
   },
   {
+    name: 'Diego Vazquez',
+    description:
+      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
+    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
+    twitter: '@diurivj',
+    emoji: '🌚',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'Node',
+      'Mongo DB',
+    ],
+  },
+  {
     name: 'Rafael Quintanilha',
     description:
       'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
