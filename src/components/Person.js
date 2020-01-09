@@ -157,9 +157,10 @@ const PersonDeets = styled.div`
   @media all and (max-width: 400px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    > *:nth-child(2) ~ * {
+    > *:nth-child(1),
+    > *:nth-child(2) {
       /* lol */
-      border-top: 1px solid var(--vape);
+      border-bottom: 1px solid var(--vape);
     }
   }
 `;
