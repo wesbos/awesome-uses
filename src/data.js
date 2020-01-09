@@ -899,6 +899,25 @@ const pages = [
       'React',
     ],
   },
+  {
+    name: 'Rafael Quintanilha',
+    description: 'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
+    url: 'https://rafaelquintanilha.com/about#uses',
+    twitter: '@webquintanilha',
+    emoji: '⚔️',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Entrepreneur',
+      'Front End',
+      'JavaScript',
+      'React',
+      'Node',
+      'Blogger',
+    ],
+  },
 ];
 
 export default pages;
