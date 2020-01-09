@@ -571,6 +571,26 @@ const pages = [
       'Crystal',
     ],
   },
+  {
+    name: 'Vincent Ramdhanie',
+    description: 'Software Developer, Lecturer, Technical Writer and Mentor',
+    url: 'https://vincentramdhanie.com/uses',
+    emoji: '',
+    country: '🇹🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Lecturer',
+      'Mentor',
+      'React',
+      'Node',
+      'Testing',
+      'Machine Learning',
+      'Python',
+    ],
+  },
 ];
 
 export default pages;
