@@ -707,6 +707,26 @@ const pages = [
     tags: ['Designer', 'Entrepreneur'],
   },
   {
+    name: 'Sanket Gandhi',
+    description: 'Software Engineer',
+    url: 'https://sanketgandhi.com/uses',
+    twitter: '@sanketgandhi876',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'Laravel',
+      'AWS'
+      'JavaScript',
+      'React',
+      'Node',
+    ],
+  },
+  {
     name: 'Harry Wolff',
     description: 'Front-end engineer and YouTuber ',
     url: 'https://hswolff.com/uses/',
