@@ -268,6 +268,26 @@ const pages = [
     ],
   },
   {
+    name: 'Abdisalan Mohamud',
+    description: 'Software Engineer, blogger, lifetime learner',
+    url: 'https://abdisalan.com/uses',
+    twitter: '@abdisalan_js',
+    emoji: '🤷🏾‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'ReasonML',
+      'Go',
+      'AWS'
+    ],
+  },
+  {
     name: 'Josh Barker',
     description:
       'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
