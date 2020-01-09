@@ -1048,6 +1048,25 @@ const pages = [
       'Docker',
     ],
   },
+  {
+    name: 'Mike Williamson',
+    description:
+      'Into IoT, BLE, node.js, Android and iOS native apps',
+    url: 'http://dikuw.com/',
+    twitter: '@dikuw',
+    emoji: '💻',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'Node',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
