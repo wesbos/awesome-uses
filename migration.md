@@ -87,17 +87,17 @@ When done, check that person off.
 * [ ] [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses/) - Fullstack Web Developer, Freelancer, Designer
 * [ ] [Freek Van der Herten](https://freek.dev/uses/) - Developer, Package Creator, Conference Speaker, Blogger 🇧🇪
 * [ ] [Adam Wathan](https://adamwathan.me/uses/) - Fullstack Web Developer, Entrepeneur, Maker of courses, Speaker, Blogger, Podcaster 🇨🇦
-* [ ] [Josh Manders](https://joshmanders.com/uses/) - Full Snack Developer and Indie Maker 🌯
-* [ ] [Daniel Wirtz](https://danielwirtz.com/uses/) - Designer who codes @Crisp Studio
-* [ ] [Harry Wolff](https://hswolff.com/uses/) - Front-end engineer and YouTouber
-* [ ] [Pouria Ezzati](https://pouria.dev/uses/) - Web developer
-* [ ] [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
-* [ ] [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
-* [ ] [Terry Godier](https://terrygodier.com/uses/) - Developer and Marketer
+* [x] [Josh Manders](https://joshmanders.com/uses/) - Full Snack Developer and Indie Maker 🌯
+* [x] [Daniel Wirtz](https://danielwirtz.com/uses/) - Designer who codes @Crisp Studio
+* [x] [Harry Wolff](https://hswolff.com/uses/) - Front-end engineer and YouTouber
+* [x] [Pouria Ezzati](https://pouria.dev/uses/) - Web developer
+* [x] [James Mills](https://jamesmills.co.uk/uses/) - Web Consultant
+* [x] [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) - Laracasts author
+* [x] [Terry Godier](https://terrygodier.com/uses/) - Developer and Marketer
 * [x] [David O'Trakoun](https://www.davidosomething.com/uses/) - Software Engineer
 * [x] [Nuno Maduro](https://nunomaduro.com/uses/) - Software engineer, Open Source contributor, Speaker
-* [ ] [Erno Salo](https://endormi.io/uses/) - Full Stack Developer and Open Source Contributor
-* [ ] [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
+* [x] [Erno Salo](https://endormi.io/uses/) - Full Stack Developer and Open Source Contributor
+* [x] [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
 * [x] [Béla Varga](http://ecmanauten.de/uses/) - Front-end Developer, Meetup & Event Organizer and UX/UI Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
