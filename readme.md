@@ -25,7 +25,7 @@ A site for this repo is currently being built. Please check out the [website](ht
 A list of /uses pages that detail apps and gear used by professional web developers.
 
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
-
+* [Lina  Maria Montaño Ramirez - calypsobronte](https://calypsobronte.me/uses) — Web Developer, Mentor and Organizer 🇨🇴
 * [Wes Bos](https://wesbos.com/uses) — Web Developer, Tutorial Maker, Podcaster.
 * [Glenn Reyes](https://glennreyes.com/uses) - Independent Software Engineer, Trainer & Speaker.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
