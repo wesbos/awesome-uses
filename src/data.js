@@ -1106,6 +1106,27 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Erv Walter',
+    description:
+      'Father, Husband, Web Developer, Board Game Addict',
+    url: 'https://blog.ewal.net/uses/',
+    twitter: '@ervwalter',
+    emoji: '🎲',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'TypeScript',
+      'React',
+      'C#',
+      '.NET Core',
+      'Azure',
+      'SCSS',
+    ],
+  },
 ];
 
 export default pages;
