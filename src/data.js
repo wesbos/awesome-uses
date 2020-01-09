@@ -1106,6 +1106,27 @@ const pages = [
       'CSS',
     ],
   },
+   {
+    name: 'Yuri Yakovlev',
+    description:
+      'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+    url: 'https://mynameisyuri.com/uses',
+    twitter: '@yakovlevyuri',
+    emoji: '🧙‍♂️',
+    country: '🇨🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Serverless',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'GraphQL',
+    ],
+  },
 ];
 
 export default pages;
