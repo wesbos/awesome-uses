@@ -1106,6 +1106,27 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Ste Grainer',
+    description: 'Designer, Developer',
+    url: 'https://stegrainer.com/uses',
+    twitter: '@stegrainer',
+    emoji: '🐉',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Developer',
+      'Front End',
+      'Accessibility',
+      'CSS',
+      'Craft CMS',
+      'Blogger',
+      'Design Systems',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
