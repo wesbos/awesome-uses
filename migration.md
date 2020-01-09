@@ -47,7 +47,7 @@ When done, check that person off.
 * [ ] [Lemon 🍋](https://ahoylemon.xyz/uses/) - Web Developer, Podcaster, Human Who Makes Dumb Shit
 * [ ] [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger.
 * [ ] [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
-* [ ] [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
+* [x] [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
 * [x] [Josiah Wiebe](https://jwie.be/uses/) - Full Stack Developer & Designer
 * [ ] [Khalil Stemmler](https://khalilstemmler.com/uses/) - Fullstack Javascript Developer / Designer, Musician 🇨🇦
 * [ ] [Pierre-Antoine _Leny_ Delnatte](https://leny.me/uses/) - Fullstack Web Developer, Bootcamp coach 🇧🇪
