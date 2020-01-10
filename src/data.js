@@ -1890,6 +1890,27 @@ const pages = [
     phone: 'iphone',
     tags: ['Think', 'Apply'],
   },
+  {
+    name: 'John Garrett',
+    description: 'Arch Duke of Computering, Full Stack Instructor',
+    url: 'https://johngarrett.dev',
+    twitter: '@jhgarrett',
+    emoji: '👨🏻‍🚀',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'React',
+      'Teacher',
+      'Linux',
+      'JavaScript',
+      'PHP',
+      'C',
+      'DevOps',
+    ],
+  },
 ];
 
 export default pages;
