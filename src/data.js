@@ -1158,6 +1158,23 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Rémi Fortier',
+    description: 'Frontend Developer at Novatize, Shopify tinkering, Magento tamer. Candies & Cats lover',
+    twitter: '@remifortier',
+    emoji: '🍬',
+    country: 'CA',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'Vue'
+    ],
+  },  
 ];
 
 export default pages;
