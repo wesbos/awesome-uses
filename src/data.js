@@ -1158,6 +1158,26 @@ const pages = [
       'Node',
     ],
   },
+    {
+    name: 'Martin Chammah',
+    description: 'Full Stack Gatsby Developer @ ecomerciar',
+    url: 'https://martinchammah.dev/uses',
+    emoji: '🇦🇷',
+    country: 'ar',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'Gatsby',
+      'React',
+      'Wordpress',
+      'Thinkpad',
+    ],
+  },
 ];
 
 export default pages;
