@@ -1151,6 +1151,30 @@ const pages = [
     ],
   },
   {
+    name: 'Georgi Yanev',
+    description: 'Software Engineer, FPV Drone Pilot, Blogger, YouTuber',
+    url: 'https://gyanev.com/uses/',
+    twitter: '@jumpalottahigh',
+    emoji: '🚁',
+    country: '🇫🇮',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'Electron',
+      'Python',
+      'FPVtips',
+      'Developer'
+     ]
+  },
+  {
     name: 'Karl Horky',
     description: 'Founder, Teacher at https://upleveled.io',
     url: 'https://github.com/karlhorky/uses/blob/master/readme.md',
