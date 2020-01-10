@@ -19,9 +19,14 @@ export default function Person({ person, currentTag }) {
             </a>
           </h3>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="displayLink"
             href={person.url}
-          >{`${url.host}${url.pathname}`}</a>
+          >{`${url.host}${url.pathname.slice(
+            0,
+            url.pathname.lastIndexOf('/')
+          )}`}</a>
         </header>
         <p>{person.description}</p>
         <Tags>
@@ -77,6 +82,7 @@ Person.propTypes = {
     emoji: PropTypes.string,
     description: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
+    country: PropTypes.string,
     computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
     phone: PropTypes.oneOf(['iphone', 'android']),
     twitter(props, propName, componentName) {
@@ -118,11 +124,16 @@ const PersonInner = styled.div`
       font-size: 1rem;
     }
     .displayLink {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       text-decoration: none;
       color: var(--vape);
       letter-spacing: 1px;
       font-size: 1.2rem;
-      word-break: break-word;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      overflow: hidden;
       :hover {
         color: var(--pink);
       }
