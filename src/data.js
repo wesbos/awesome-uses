@@ -1935,8 +1935,8 @@ const pages = [
       'React',
       'Node',
       'CSS',
-   ]
-      },
+    ],
+  },
   {
     name: 'John Garrett',
     description: 'Arch Duke of Computering, Full Stack Instructor',
