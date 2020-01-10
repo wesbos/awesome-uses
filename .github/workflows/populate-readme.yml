@@ -3,7 +3,9 @@ name: Populate README.md from master
 on:
   push:
     branches: master
-    paths: src/data.js
+    paths:
+    - src/data.js
+    - scripts/readme-template.md
 
 env:
   CI: true
