@@ -2064,6 +2064,31 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Alejandro G. Anglada',
+    description:
+      'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌',
+    url: 'https://aganglada.com/uses/',
+    twitter: '@aganglada',
+    emoji: '🔥',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Front End',
+      'Mentor',
+      'YouTuber',
+      'Writer',
+      'JavaScript',
+      'TypeScript',
+      'Performance',
+      'PWA',
+      'React',
+      'Node',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
