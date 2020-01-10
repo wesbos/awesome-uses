@@ -1158,6 +1158,27 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Francis Sunday',
+    description: 'Software Engineer | Gopher | Hacker',
+    url: 'https://hakaselogs.me/2020-01-10/what-i-use',
+    twitter: '@codehakase',
+    emoji: '🔥',
+    country: '🇳🇬',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Full Stack',
+      'JavaScript',
+      'PHP',
+      'Go',
+      'React',
+      'Node',
+      'Golang',
+    ],
+  },
 ];
 
 export default pages;
