@@ -1161,6 +1161,7 @@ const pages = [
   {
     name: 'Rémi Fortier',
     description: 'Frontend Developer at Novatize, Shopify tinkering, Magento tamer. Candies & Cats lover',
+    url: 'https://gist.github.com/mizujin/38caba6d9dcdde81afba7f8c2a607558',
     twitter: '@remifortier',
     emoji: '🍬',
     country: 'CA',
