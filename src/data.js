@@ -59,6 +59,26 @@ const pages = [
     ],
   },
   {
+    name: 'Alessia Bellisario',
+    description:
+      'Web engineer, mechanical keyboard builder, plotter art maker.',
+    url: 'https://aless.co/uses',
+    emoji: '😎',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Rust',
+      'WebAssembly',
+      'Gatsby',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
