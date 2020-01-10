@@ -35,6 +35,26 @@ const pages = [
       'CSS',
     ],
   },
+   {
+    name: 'Thomas Weibenfalk',
+    description:
+      'Passionate developer, course creator, youtuber, designer and musician from Sweden',
+    url: 'https://www.weibenfalk.com/uses/',
+    twitter: '@weibenfalk',
+    emoji: '💾',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Entrepreneur',
+      'React',
+      'Teacher',
+      'Writer',
+      'YouTuber',
+    ],
+  },
   {
     name: 'Rene Pot',
     // Short description
