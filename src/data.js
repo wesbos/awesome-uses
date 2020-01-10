@@ -1161,7 +1161,7 @@ const pages = [
   {
     name: 'Richard Zilahi',
     description: 'Full stack developer, pug enthusiast, dying for pizza',
-    url: 'https://richardzilahi.hu',
+    url: 'https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f',
     twitter: '@zilahy',
     emoji: '🐶',
     country: '🇫🇮| 🇭🇺',
@@ -1180,7 +1180,7 @@ const pages = [
       'GraphQl'
       'GatsbyJs'
     ]
-    }
+  }
 ];
 
 export default pages;
