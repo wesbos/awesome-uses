@@ -99,7 +99,7 @@ const pages = [
     url: 'http://gantlaborde.com/uses/',
     twitter: '@gantlaborde',
     emoji: '🔥',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
     tags: [
@@ -236,6 +236,28 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript'],
+  },
+  {
+    name: 'Anton Andrésen',
+    description: 'Software Engineer, Tutorial Maker, Youtuber, Tea Drinker',
+    url: 'https://anton.best/uses/',
+    twitter: '@antonosuyt',
+    emoji: '💻',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'GraphQL',
+      'CSS',
+    ],
   },
   {
     name: 'Josiah Wiebe',
@@ -1472,7 +1494,7 @@ const pages = [
     url: 'https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f',
     twitter: '@zilahy',
     emoji: '🐶',
-    country: '🇫🇮| 🇭🇺',
+    country: '🇫🇮',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -1862,7 +1884,7 @@ const pages = [
     url: 'https://carloscharris.com/uses',
     twitter: '@Darkklitos',
     emoji: '🔥',
-    country: 'co',
+    country: '🇨🇴',
     computer: 'apple',
     phone: 'android',
     tags: [
@@ -1891,27 +1913,15 @@ const pages = [
     tags: ['Think', 'Apply'],
   },
   {
-    // Your name
     name: 'Elliot Bonneville',
-    // Short description
     description:
       'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
-    // URL to your /uses page
     url: 'https://elliotbonneville.com/uses',
     twitter: '@elliotbnvl',
-    // An emoji that describes you
     emoji: '💀',
-    // emoji of your country's flag
     country: '🇺🇸',
-    // ONE of: apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'iphone',
-    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
-
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: [
       'Developer',
       'Full Stack',
@@ -1925,6 +1935,27 @@ const pages = [
       'React',
       'Node',
       'CSS',
+   ]
+      },
+  {
+    name: 'John Garrett',
+    description: 'Arch Duke of Computering, Full Stack Instructor',
+    url: 'https://johngarrett.dev/uses',
+    twitter: '@jhgarrett',
+    emoji: '👨🏻‍🚀',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'React',
+      'Teacher',
+      'Linux',
+      'JavaScript',
+      'PHP',
+      'C',
+      'DevOps',
     ],
   },
 ];

@@ -1,6 +1,7 @@
 import Joi from '@hapi/joi';
 import core from '@actions/core';
 import data from '../src/data.js';
+import flags from './flags.js';
 
 const schema = Joi.object({
   name: Joi.string().required(),
@@ -8,11 +9,13 @@ const schema = Joi.object({
   url: Joi.string()
     .uri()
     .required(),
-  country: Joi.string().required(),
-  twitter: Joi.string(),
-  emoji: Joi.string(),
+  country: Joi.string()
+    .valid(...flags)
+    .required(),
+  twitter: Joi.string().pattern(new RegExp(/^@?(\w){1,15}$/)),
+  emoji: Joi.string().allow(''),
   computer: Joi.string().valid('apple', 'windows', 'linux'),
-  phone: Joi.string().valid('iphone', 'ios', 'android'),
+  phone: Joi.string().valid('iphone', 'android'),
   tags: Joi.array().items(Joi.string()),
 });
 

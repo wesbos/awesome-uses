@@ -1,3 +1,5 @@
+# → Visit [uses.tech](https://uses.tech) for a good time
+
 A list of `/uses` pages detailing developer setups, gear, software and configs.
 
 Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/blob/master/src/data.js).
@@ -38,6 +40,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adam Jahnke](https://adamyonk.com/uses) — Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.
 * [Andrew Healey](https://healeycodes.com/uses) — Software Engineer, Writer, Learner!
 * [Scott Tolinski](https://scotttolinski.com/uses) — Web Developer, Tutorial Maker, Podcaster, Bboy
+* [Anton Andrésen](https://anton.best/uses/) — Software Engineer, Tutorial Maker, Youtuber, Tea Drinker
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
@@ -125,5 +128,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erv Walter](https://blog.ewal.net/uses/) — Father, Husband, Web Developer, Board Game Addict
 * [Carlos Andres Charris Sandoval](https://carloscharris.com/uses) — Software Engineer
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
+* [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg

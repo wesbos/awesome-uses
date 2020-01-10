@@ -10,6 +10,8 @@
     ]
   },
   "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@hapi/joi": "^17.0.2",
     "country-emoji": "^1.5.0",
     "esm": "^3.2.25",
     "gatsby": "^2.18.12",
