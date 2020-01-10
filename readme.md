@@ -133,5 +133,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ændrew Rininsland](https://aendrew.com/uses) — Developer-Journalist
 * [Elliot Bonneville](https://elliotbonneville.com/uses) — Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
+* [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
