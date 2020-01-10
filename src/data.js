@@ -1976,7 +1976,7 @@ const pages = [
       'Front-End',
       'React',
       'D3',
-  ]
+    ],
   },
   {
     name: 'Elliot Bonneville',
@@ -2042,6 +2042,26 @@ const pages = [
       'Node',
       'Vue',
       'Full Stack',
+    ],
+  },
+  {
+    name: 'Thomas Weibenfalk',
+    description:
+      'Passionate developer, course creator, youtuber, designer and musician from Sweden',
+    url: 'https://www.weibenfalk.com/uses/',
+    twitter: '@weibenfalk',
+    emoji: '💾',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Entrepreneur',
+      'React',
+      'Teacher',
+      'Writer',
+      'YouTuber',
     ],
   },
 ];
