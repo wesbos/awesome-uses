@@ -1158,6 +1158,26 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Josh Farrant',
+    description: 'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
+    url: 'https://farrant.me/uses',
+    twitter: '@joshfarrant',
+    emoji: '🎉',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'UX',
+      'Open Source',
+    ],
+  },
 ];
 
 export default pages;
