@@ -18,10 +18,9 @@ export default function Person({ person, currentTag }) {
               {person.name} {person.emoji}
             </a>
           </h3>
-          <a
-            className="displayLink"
-            href={person.url}
-          >{`${url.host}${url.pathname}`}</a>
+          <a className="displayLink" href={person.url}>{`${
+            url.host
+          }${url.pathname.slice(0, url.pathname.lastIndexOf('/'))}`}</a>
         </header>
         <p>{person.description}</p>
         <Tags>
@@ -77,6 +76,7 @@ Person.propTypes = {
     emoji: PropTypes.string,
     description: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
+    country: PropTypes.string,
     computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
     phone: PropTypes.oneOf(['iphone', 'android']),
     twitter(props, propName, componentName) {
@@ -118,6 +118,9 @@ const PersonInner = styled.div`
       font-size: 1rem;
     }
     .displayLink {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       text-decoration: none;
       color: var(--vape);
       letter-spacing: 1px;
