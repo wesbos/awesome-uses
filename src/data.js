@@ -1158,6 +1158,33 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Luca Iaconelli',
+    description: 'Mobile and web specialist',
+    url: 'https://lucaiaconelli.it',
+    twitter: '@luxdamore',
+    emoji: '🦊',
+    country: 'IT',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Designer',
+      'Creative technologist',
+      'Google',
+      'Mobile and web specialist',
+      'Full Stack',
+      'Front End',
+      'Back End',
+      'VueJs',
+      'NuxtJs',
+      'VanillaJs',
+      'Accessibility',
+      'Performance',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
