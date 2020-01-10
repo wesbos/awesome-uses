@@ -2064,6 +2064,29 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Andrew Baisden',
+    description:
+      'Full Stack Developer. Creative, anime and gamer.',
+    url: 'https://andrewbaisden.com/',
+    twitter: '@andrewbaisden',
+    emoji: '🔥',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Full Stack',
+      'React',
+      'Node',
+      'Front End',
+      'CSS',
+      'Vue',
+      'HTML',
+      'Web Developer'
+    ],
+  },
 ];
 
 export default pages;
