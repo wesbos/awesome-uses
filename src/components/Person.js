@@ -18,9 +18,15 @@ export default function Person({ person, currentTag }) {
               {person.name} {person.emoji}
             </a>
           </h3>
-          <a className="displayLink" href={person.url}>{`${
-            url.host
-          }${url.pathname.slice(0, url.pathname.lastIndexOf('/'))}`}</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="displayLink"
+            href={person.url}
+          >{`${url.host}${url.pathname.slice(
+            0,
+            url.pathname.lastIndexOf('/')
+          )}`}</a>
         </header>
         <p>{person.description}</p>
         <Tags>
