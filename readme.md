@@ -1,4 +1,9 @@
-A site for this repo is currently being build. Please check out the [website](https://github.com/wesbos/awesome-uses/tree/website) branch and add yourself in there!
+A list of `/uses` pages detailing developer setups, gear, software and configs.
+
+Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/blob/master/src/data.js).
+
+This readme is auto-generated from the data.js file, so please don't PR this file.
+
 ```
    ▄████████  ▄█     █▄     ▄████████    ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████
   ███    ███ ███     ███   ███    ███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███
@@ -21,10 +26,6 @@ A site for this repo is currently being build. Please check out the [website](ht
 ```
 
 # Awesome Uses ![Awesome][awesome-badge]
-
-A list of /uses pages that detail apps and gear used by professional web developers.
-
-Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
