@@ -598,7 +598,7 @@ const pages = [
       'Developer',
       'Designer',
       'Full stack',
-      'Front-end',
+      'Front end',
       'Entrepreneur',
       'JavaScript',
       'React',
