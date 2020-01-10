@@ -2064,6 +2064,27 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Cesar Casanova',
+    description:
+      'Funniest developer',
+    url: 'www.linkedin.com/in/ccasanovab',
+    twitter: '@CesarWolf92',
+    emoji: '👾',
+    country: '🇵🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'PHP',
+      'Java',
+      'Python',
+      'DevOps',
+      'Javascript',
+      'Docker',
+      'AWS',
+      'GraphQL'
+    ],
+  }
 ];
 
 export default pages;
