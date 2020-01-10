@@ -1913,6 +1913,31 @@ const pages = [
     tags: ['Think', 'Apply'],
   },
   {
+    name: 'Elliot Bonneville',
+    description:
+      'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
+    url: 'https://elliotbonneville.com/uses',
+    twitter: '@elliotbnvl',
+    emoji: '💀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'Blogger',
+      'YouTuber',
+      'JavaScript',
+      'TypeScript',
+      'Node',
+      'React',
+      'Node',
+      'CSS',
+   ]
+      },
+  {
     name: 'John Garrett',
     description: 'Arch Duke of Computering, Full Stack Instructor',
     url: 'https://johngarrett.dev/uses',
