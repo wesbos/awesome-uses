@@ -2011,7 +2011,7 @@ const pages = [
     twitter: '@twitter',
     emoji: '🎲',
     country: '🇧🇪',
-    computer: 'macos',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Developer',
