@@ -1910,27 +1910,6 @@ const pages = [
       'Sass',
       'Storyblok'
     ],
-  },
-  {
-    name: 'Clint Robinson',
-    description: 'Software Devloper at Dotdash working on investopedia.com and thebalance.com',
-    url: 'http://clintrobinson.net',
-    twitter: '@clintrobinson',
-    emoji: '🤑',
-    country: '🇨🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Speaker',
-      'JavaScript',
-      'Vue',
-      'Nuxt',
-      'Node',
-      'CSS',
-      'Sass',
-      'Storyblok'
-    ],
   }
 ];
 
