@@ -1158,6 +1158,24 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Adam Laycock',
+    description: 'IT Engineer, Web Developer & Blogger',
+    url: 'https://www.arcath.net/uses',
+    twitter: '@arcathwhitefall',
+    emoji: '⚙',
+    country: 'GB',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'TypeScript'
+      'Blogger',
+      'JavaScript',
+      'Node',
+    ],
+  },
 ];
 
 export default pages;
