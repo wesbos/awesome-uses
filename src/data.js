@@ -2064,6 +2064,23 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Irvin León',
+    description:
+      'Software Engineer who loves learn continuously , passionate about football and sci-fi movies. from Perú',
+    url: 'https://github.com/irvinstone',
+    twitter: '@irvinstone',
+    emoji: '🍺',
+    country: '🇵🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'iOS',
+      'Swift',
+      'Node',
+      'Engineer',
+    ],
+  },
 ];
 
 export default pages;
