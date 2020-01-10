@@ -27,6 +27,7 @@ A list of /uses pages that detail apps and gear used by professional web develop
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover
+* [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Rene Pot](https://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
 * [Troy Forster](https://tforster.com/uses) — Consulting Technology Director and CTO for Hire
