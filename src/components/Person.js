@@ -23,10 +23,11 @@ export default function Person({ person, currentTag }) {
             rel="noopener noreferrer"
             className="displayLink"
             href={person.url}
-          >{`${url.host}${url.pathname.slice(
-            0,
-            url.pathname.lastIndexOf('/')
-          )}`}</a>
+          >{`${url.host}${
+            url.pathname.endsWith('/')
+              ? url.pathname.substr(0, url.pathname.length - 1)
+              : url.pathname
+          }`}</a>
         </header>
         <p>{person.description}</p>
         <Tags>
