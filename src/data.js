@@ -2080,7 +2080,7 @@ const pages = [
       'CSS',
       'Vue
     ],
-  },
+  }
 ];
 
 export default pages;
