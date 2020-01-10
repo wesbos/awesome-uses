@@ -239,9 +239,8 @@ const pages = [
   },
   {
     name: 'Anton Andrésen',
-    description:
-      'Software Engineer, Tutorial Maker, Youtuber, Tea Drinker',
-    url: 'https://anton.best/uses',
+    description: 'Software Engineer, Tutorial Maker, Youtuber, Tea Drinker',
+    url: 'https://anton.best/uses/',
     twitter: '@antonosuyt',
     emoji: '💻',
     country: '🇸🇪',
