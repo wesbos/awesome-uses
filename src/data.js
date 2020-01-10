@@ -2068,7 +2068,7 @@ const pages = [
     name: 'Cesar Casanova',
     description:
       'Funniest developer',
-    url: 'www.linkedin.com/in/ccasanovab',
+    url: 'https://www.linkedin.com/in/ccasanovab',
     twitter: '@CesarWolf92',
     emoji: '👾',
     country: '🇵🇪',
