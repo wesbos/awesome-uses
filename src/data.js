@@ -1158,6 +1158,33 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Karl Horky',
+    description:
+      'Founder, Teacher at https://upleveled.io',
+    url: 'https://github.com/karlhorky/uses/blob/master/readme.md',
+    twitter: '@karlhorky',
+    emoji: '🚀',
+    country: '🇦🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Back End',
+      'Front End',
+      'Entrepreneur',
+      'Teacher',
+      'Speaker',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'CSS',
+      'HTML',
+      'GraphQL',
+    ],
+  },
 ];
 
 export default pages;
