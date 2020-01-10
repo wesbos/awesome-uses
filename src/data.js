@@ -855,12 +855,11 @@ const pages = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'Designer',
-      'YouTuber',
       'Blogger',
       'Back End',
       'PHP',
-      'JavaScript',
+      'Laravel',
+      'Treeware',
     ],
   },
   {
