@@ -3,6 +3,7 @@
 // please remove the comments before You PR
 const pages = [
   {
+    // Your name
     name: 'Wes Bos',
     // Short description
     description:
