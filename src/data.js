@@ -63,10 +63,9 @@ const pages = [
       'Gamer',
       'Streamer',
       'Titanium',
-      'Cross-platform'
       'Node',
       'Speaker',
-      'Twitch'
+      'Twitch',
     ],
   },
   {
@@ -1214,7 +1213,7 @@ const pages = [
       'Sloths',
       'Blogger',
       'Speaker',
-]
+    ],
   },
   {
     name: 'Georgi Yanev',
@@ -1419,7 +1418,7 @@ const pages = [
       'React',
       'GraphQl',
       'GatsbyJs',
-    ]
+    ],
   },
   {
     name: 'Bezael Pérez',
@@ -1438,13 +1437,12 @@ const pages = [
       'Javascript',
       'CSS',
       'Node',
-      'Teacher'
+      'Teacher',
     ],
   },
   {
     name: 'Zander Martineau',
-    description:
-      'Independent front-end-full-stack-UI-UX-engineer coder',
+    description: 'Independent front-end-full-stack-UI-UX-engineer coder',
     url: 'https://zander.wtf/writing/my-setup',
     twitter: '@mrmartineau',
     emoji: '👨‍🔬',
