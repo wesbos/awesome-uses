@@ -35,26 +35,6 @@ const pages = [
       'CSS',
     ],
   },
-   {
-    name: 'Thomas Weibenfalk',
-    description:
-      'Passionate developer, course creator, youtuber, designer and musician from Sweden',
-    url: 'https://www.weibenfalk.com/uses/',
-    twitter: '@weibenfalk',
-    emoji: '💾',
-    country: '🇸🇪',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'Developer',
-      'Entrepreneur',
-      'React',
-      'Teacher',
-      'Writer',
-      'YouTuber',
-    ],
-  },
   {
     name: 'Rene Pot',
     // Short description
@@ -309,7 +289,6 @@ const pages = [
     name: 'Lauro Silva',
     description: 'Software Engineer and Technical Writer',
     url: 'https://laurosilva.com/uses',
-    twitter: '@laurosilvacom',
     emoji: '😄',
     country: '🇺🇸',
     computer: 'apple',
@@ -1085,7 +1064,7 @@ const pages = [
     name: 'Diego Vazquez',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
-    url: 'https://github.com/diurivj/uses/',
+    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
     twitter: '@diurivj',
     emoji: '🌚',
     country: '🇲🇽',
@@ -1227,7 +1206,7 @@ const pages = [
     url: 'https://www.arcath.net/uses',
     twitter: '@arcathwhitefall',
     emoji: '⚙',
-    country: 'GB',
+    country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
     tags: [
