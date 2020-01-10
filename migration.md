@@ -26,7 +26,7 @@ When done, check that person off.
 * [ ] [Jay Collett](https://www.jaycollett.co/uses/) - Freelance web designer and front end developer with CraftCMS
 * [ ] [Amit Merchant](https://www.amitmerchant.com/uses/) - Fullstack web developer, blogger.
 * [ ] [Adam Greenough](https://adamgreenough.me/uses/) - Freelance Digital Designer & Web Developer
-* [ ] [Georgi Yanev](https://gyanev.com/uses/) - Web Developer, FPV drone pilot
+* [x] [Georgi Yanev](https://gyanev.com/uses/) - Web Developer, FPV drone pilot
 * [ ] [Kumar Abhirup](https://kumar.now.sh/uses) - A 15yo Jnr. developer with a passion for learning 👋🏻
 * [ ] [Chris Enns](https://chrisenns.com/uses/) - Podcast Editor & WordPress Wannabe
 * [ ] [David Llop](https://davidllop.com/uses/) - Laravel & ChatBots Developer
@@ -81,7 +81,7 @@ When done, check that person off.
 * [x] [Scott Tolinski](https://kit.com/leveluptutorials/podcasting-screencasting-gear) -  Web Developer, Tutorial Maker, Podcaster.
 * [ ] [Ben Hong](https://www.bencodezen.io/uses/) - Senior Frontend Engineer @ Meltano GitLab
 * [ ] [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
-* [ ] [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
+* [x] [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
 * [ ] [Stephen Senkomago Musoke](https://ssmusoke.com/uses/) - Software Engineer [METS](https://mets.or.ug/), [UCSF Informatics Hub](https://globalhealthsciences.ucsf.edu/resources/informatics-hub) & PHP lover by night 🇺🇬
 * [ ] [Gideon Bamuleseyo](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) - Software Engineer [Andela](https://andela.com/), JavaScript junkie 🇺🇬
 * [ ] [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses/) - Fullstack Web Developer, Freelancer, Designer
