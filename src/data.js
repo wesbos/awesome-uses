@@ -1158,6 +1158,27 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Andrej Jovanovic',
+    description:
+      'DevOps System Engineer, Coder, Hardworker',
+    url: 'https://blog.andrejjovanovic.com/uses',
+    twitter: '@andrejovanovic1',
+    emoji: '💡',
+    country: '🇭🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'DevOps',
+      'Engineer',
+      'Designer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Python',
+      'Go',
+    ],
+  },
 ];
 
 export default pages;
