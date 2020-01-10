@@ -1158,6 +1158,24 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Chiamaka Ikeanyi',
+    description: 'Software Engineer, Technical Writer', 'Poet',
+    url: 'https://chiamakaikeanyi.dev/uses',
+    twitter: '@chiamakaikeanyi',
+    emoji: '👩🏽‍💻',
+    country: '🇳🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Front End',
+      'Blogger',
+      'JavaScript',
+      'Accessibility',
+      'Performance'
+    ],
+  },
 ];
 
 export default pages;
