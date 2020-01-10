@@ -5,12 +5,20 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import FavIcon from './FavIcon';
 
-function Header({ siteTitle }) {
+function Header({ siteTitle, siteDescription,siteUrl }) {
   return (
     <HeaderWrapper className="header">
       <FavIcon />
       <Helmet>
+        <html lang="en" amp />
         <title>{siteTitle}</title>
+        <meta name="description" content={siteDescription} />
+        <link rel="canonical" href={siteUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@wesbos" />
+        <meta name="twitter:title" content={siteTitle} />
+        <meta name="twitter:description" content={siteDescription} />
+        <meta name="twitter:image" content={`${siteUrl}/twitter-card.png`} />
       </Helmet>
       <div>
         <h1>

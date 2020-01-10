@@ -19,6 +19,8 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
+          siteUrl
         }
       }
     }
@@ -28,7 +30,11 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyle />
       <Main>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          siteDescription={data.site.siteMetadata.description}
+          siteUrl={data.site.siteMetadata.siteUrl}
+        />
         {children}
         <footer>
           <center ya-i-used-a-center-tag="sue me">
