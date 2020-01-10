@@ -2008,7 +2008,7 @@ const pages = [
     name: 'Dieter Stinglhamber',
     description: 'Developer, human, nerd.',
     url: 'https://www.dieterstinglhamber.me/uses/',
-    twitter: '@twitter',
+    twitter: '@elhebert',
     emoji: '🎲',
     country: '🇧🇪',
     computer: 'apple',
