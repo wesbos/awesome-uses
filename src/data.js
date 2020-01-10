@@ -1161,7 +1161,7 @@ const pages = [
   {
     name: 'Dany Paredes',
     description: 'Software Engineer and  Blogger',
-    url: 'https://danywalls.com',
+    url: 'https://danywalls.com/uses',
     twitter: '@danywalls',
     emoji: '🇩🇴',
     country: 'DO',
