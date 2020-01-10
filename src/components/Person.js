@@ -162,6 +162,7 @@ const PersonDeets = styled.div`
   }
   .country {
     font-size: 3rem;
+    padding-top: 2rem;
   }
   .phone {
     padding: 0;
