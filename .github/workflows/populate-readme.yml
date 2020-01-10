@@ -2,7 +2,7 @@ name: Populate README.md from master
 
 on:
   push:
-    branches: website
+    branches: master
     paths: src/data.js
 
 env:
