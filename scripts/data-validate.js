@@ -9,8 +9,13 @@ const schema = Joi.object({
     .uri()
     .required(),
   country: Joi.string().required(),
-  twitter: Joi.string(),
-  emoji: Joi.string(),
+  twitter: Joi.string()
+    .optional()
+    .allow('')
+    .pattern(/^@/),
+  emoji: Joi.string()
+    .optional()
+    .allow(''),
   computer: Joi.string().valid('apple', 'windows', 'linux'),
   phone: Joi.string().valid('iphone', 'ios', 'android'),
   tags: Joi.array().items(Joi.string()),
