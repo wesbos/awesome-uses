@@ -1158,6 +1158,26 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Daniel Van Cuylenburg',
+    description:
+      'Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design',
+    url: 'https://danielvanc.com/uses',
+    twitter: '@danielvanc',
+    emoji: '🚀',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'CSS',
+      'Guitarist',
+      'JavaScript',
+      'React',
+      'Gatsby',
+    ],
+  },
 ];
 
 export default pages;
