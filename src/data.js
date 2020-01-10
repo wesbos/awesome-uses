@@ -1935,6 +1935,30 @@ const pages = [
     tags: ['Think', 'Apply'],
   },
   {
+    name: 'Ændrew Rininsland',
+    description: 'Developer-Journalist',
+    url: 'https://aendrew.com/uses',
+    twitter: '@aendrew',
+    emoji: '💚',
+    country: '🏳️‍🌈',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'DataViz',
+      'JavaScript',
+      'TypeScript',
+      'Node',
+      'Python',
+      'Author',
+      'Journalist',
+      'Speaker',
+      'Front-End',
+      'React',
+      'D3',
+  ]
+  },
+  {
     name: 'Elliot Bonneville',
     description:
       'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
