@@ -1161,6 +1161,7 @@ const pages = [
     {
     name: 'Martin Chammah',
     description: 'Full Stack Gatsby Developer @ ecomerciar',
+    twitter: '@codigomate',
     url: 'https://martinchammah.dev/uses',
     emoji: '🇦🇷',
     country: 'ar',
