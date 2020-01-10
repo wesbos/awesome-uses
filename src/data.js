@@ -2078,7 +2078,7 @@ const pages = [
       'PHP',
       'JavaScript',
       'CSS',
-      'Vue
+      'Vue'
     ],
   }
 ];
