@@ -1158,6 +1158,29 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Richard Zilahi',
+    description: 'Full stack developer, pug enthusiast, dying for pizza',
+    url: 'https://richardzilahi.hu',
+    twitter: '@zilahy',
+    emoji: '🐶',
+    country: '🇫🇮| 🇭🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Engineer',
+      'Teacher',
+      'Blogger',
+      'Javascript',
+      'Node',
+      'Typescript',
+      'PHP',
+      'React',
+      'GraphQl'
+      'GatsbyJs'
+    ]
+    }
 ];
 
 export default pages;
