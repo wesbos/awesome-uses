@@ -118,6 +118,7 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
 * [Miguel Ángel Durán](https://midu.dev/uses/) - Front end passionate, Web Performance freak, ocasional speaker, [WTFront! podcast](https://midu.dev/what-the-front-podcast) host, [blogger](https://midu.dev/) and gamer.
 * [Carlos Andrés Charris S](https://www.carloscharris.com/uses/) - Software Engineer
+* [Jérémy Mouzin](https://jeremymouzin.com/uses/) - Software Engineer, Teacher, YouTuber, Entrepreneur, Blogger 🇫🇷
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) - Developer, Tutorial maker, Youtuber and Designer
 * [Johnson Awah Alfred](https://codemon.surge.sh/uses/) - Software Engineer, I have no life out this.
 * [Bezael Pérez](https://www.dominicode.com/uses/) - Front-end Developer passionate. Trainer & speaker [Youtube](https://www.youtube.com/c/dominicode) 🇩🇴
