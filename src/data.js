@@ -1184,6 +1184,24 @@ const pages = [
     ],
   },
   {
+    name: 'Adam Laycock',
+    description: 'IT Engineer, Web Developer & Blogger',
+    url: 'https://www.arcath.net/uses',
+    twitter: '@arcathwhitefall',
+    emoji: '⚙',
+    country: 'GB',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'TypeScript'
+      'Blogger',
+      'JavaScript',
+      'Node',
+    ]
+     },
+  {
     name: 'Scott Spence',
     // Short description
     description:
