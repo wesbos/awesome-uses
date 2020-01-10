@@ -256,7 +256,7 @@ const pages = [
       'TypeScript'
       'React',
       'Node',
-      'GraphQL'
+      'GraphQL',
       'CSS',
     ],
   },
