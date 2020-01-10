@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import FavIcon from './FavIcon';
 
-function Header({ siteTitle, siteDescription,siteUrl }) {
+function Header({ siteTitle, siteDescription, siteUrl }) {
   return (
     <HeaderWrapper className="header">
       <FavIcon />
