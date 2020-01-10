@@ -129,6 +129,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erv Walter](https://blog.ewal.net/uses/) — Father, Husband, Web Developer, Board Game Addict
 * [Carlos Andres Charris Sandoval](https://carloscharris.com/uses) — Software Engineer
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
+* [Ændrew Rininsland](https://aendrew.com/uses) — Developer-Journalist
 * [Elliot Bonneville](https://elliotbonneville.com/uses) — Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 
