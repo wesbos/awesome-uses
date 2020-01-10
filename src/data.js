@@ -1158,6 +1158,30 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Pedro Assunção',
+    description: 'Senior Fullstack Software Developer, Tutorial Maker, Blogger',
+    url: 'https://pedroassuncao.com/pages/uses',
+    twitter: '@nocivus',
+    emoji: '💻',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Developer',
+      'Teacher',
+      'YouTuber',
+      'Blogger',
+      'Ruby on Rails',
+      'Elixir',
+      'Phoenix',
+      'Erlang',
+      'React',
+      'AWS',
+    ],
+  },
 ];
 
 export default pages;
