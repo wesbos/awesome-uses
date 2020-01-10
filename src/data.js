@@ -78,7 +78,7 @@ const pages = [
     emoji: '🔥',
     country: 'US',
     computer: 'windows',
-    phone: 'ios',
+    phone: 'iphone',
     tags: [
       'Engineer',
       'JavaScript',
