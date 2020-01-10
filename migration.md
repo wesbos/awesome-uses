@@ -81,7 +81,7 @@ When done, check that person off.
 * [x] [Scott Tolinski](https://kit.com/leveluptutorials/podcasting-screencasting-gear) -  Web Developer, Tutorial Maker, Podcaster.
 * [ ] [Ben Hong](https://www.bencodezen.io/uses/) - Senior Frontend Engineer @ Meltano GitLab
 * [ ] [Danny de Vries](https://dandevri.es/uses/) - Indie Maker and Lecturer
-* [ ] [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
+* [x] [Scott Spence](https://scottspence.me/uses) - Web Engineer @ Karmarama
 * [ ] [Stephen Senkomago Musoke](https://ssmusoke.com/uses/) - Software Engineer [METS](https://mets.or.ug/), [UCSF Informatics Hub](https://globalhealthsciences.ucsf.edu/resources/informatics-hub) & PHP lover by night 🇺🇬
 * [ ] [Gideon Bamuleseyo](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) - Software Engineer [Andela](https://andela.com/), JavaScript junkie 🇺🇬
 * [ ] [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses/) - Fullstack Web Developer, Freelancer, Designer

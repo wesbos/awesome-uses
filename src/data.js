@@ -1185,6 +1185,38 @@ const pages = [
     ],
   },
   {
+    name: 'Scott Spence',
+    // Short description
+    description:
+      'Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he',
+    // URL to your /uses page
+    url: 'https://scottspence.me#uses',
+    twitter: '@spences10',
+    // An emoji that describes you
+    emoji: '🙃',
+    // emoji of your country's flag
+    country: '🇬🇧',
+    // ONE of: apple, windows or linux
+    computer: 'linux',
+    // iphone or android
+    phone: 'android',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'YouTuber',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Sloths',
+      'Blogger',
+      'Speaker',
+]
+  },
+  {
     name: 'Georgi Yanev',
     description: 'Software Engineer, FPV Drone Pilot, Blogger, YouTuber',
     url: 'https://gyanev.com/uses/',
