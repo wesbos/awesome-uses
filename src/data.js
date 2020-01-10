@@ -42,7 +42,7 @@ const pages = [
     url: 'https://blog.praveen.science/my-personal-development-environment/',
     twitter: '@praveenscience',
     emoji: '😻',
-    country: '🇬🇧🇮🇳',
+    country: '🇬🇧',
     computer: 'apple',
     phone: 'android',
     tags: [
