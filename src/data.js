@@ -1158,6 +1158,24 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Dany Paredes',
+    description: 'Software Engineer and  Blogger',
+    url: 'https://danywalls.com',
+    twitter: '@danywalls',
+    emoji: '🇩🇴',
+    country: 'DO',
+    computer: 'thinkpad',
+    phone: 'iphone',
+    tags: [
+      'C#',
+      'Typescript'
+      'Javascript',
+      'Sass',
+      'Blogger',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
