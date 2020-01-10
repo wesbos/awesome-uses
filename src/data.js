@@ -32,8 +32,8 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'CSS'
-    ]
+      'CSS',
+    ],
   },
   {
     name: 'Gant Laborde',
@@ -59,8 +59,8 @@ const pages = [
       'Web Developer',
       'Writer',
       'Podcaster',
-      'Machine Learning'
-    ]
+      'Machine Learning',
+    ],
   },
   {
     name: 'Troy Forster',
@@ -125,6 +125,26 @@ const pages = [
       'Node',
       'Django'
     ]
+  },
+  {
+    name: 'Hussain Aminu',
+    description: 'Web Developer, Data Scientist',
+    url: 'https://hussain4real.github.io/Portfolio/uses',
+    twitter: '@hussain4real',
+    emoji: '🔥',
+    country: '🇳🇬',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Data Science',
+      'JavaScript',
+      'Python',
+      'Vue',
+      'Node',
+      'Django',
+    ],
   },
   {
     name: 'Glenn Reyes',
@@ -330,6 +350,28 @@ const pages = [
       'YouTuber',
       'Back End'
     ]
+  },
+  {
+    name: 'Lina María Montaño Ramírez',
+    description:
+      'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
+    url: 'https://calypsobronte.me/uses',
+    twitter: '@calypsobronte',
+    emoji: '🦄',
+    country: '🇨🇴',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Python',
+      'C',
+      'Mentor',
+      'Organizer',
+      'YouTuber',
+      'Back End',
+    ],
   },
   {
     name: 'Brad Garropy',
@@ -1042,6 +1084,26 @@ const pages = [
     ]
   },
   {
+    name: 'Diego Vazquez',
+    description:
+      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
+    url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
+    twitter: '@diurivj',
+    emoji: '🌚',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'Node',
+      'Mongo DB',
+    ],
+  },
+  {
     name: 'Rafael Quintanilha',
     description:
       'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
@@ -1206,6 +1268,96 @@ const pages = [
       "Blogger",
       "Speaker"
     ]
+  },
+  {
+    name: 'Ben Leivian',
+    description: 'A “seasoned” full-stack developer & visual designer 🍔',
+    url: 'https://benleivian.com/uses',
+    twitter: '@benleivian',
+    emoji: '🍔',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Designer',
+      'PHP',
+      'JavaScript',
+      'Laravel',
+      'Vue',
+      'Node',
+      'Docker',
+    ],
+  },
+  {
+    name: 'Mike Williamson',
+    description: 'Into IoT, BLE, node.js, Android and iOS native apps',
+    url: 'http://dikuw.com/',
+    twitter: '@dikuw',
+    emoji: '💻',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
+    name: 'Stephen Senkomago Musoke',
+    // Short description
+    description:
+      'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
+    // URL to your /uses page
+    url: 'https://ssmusoke.com/uses',
+    twitter: '@ssmusoke',
+    // An emoji that describes you
+    emoji: '🔥',
+    // emoji of your country's flag
+    country: '🇺🇬',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'android',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'Engineer',
+      'PHP',
+      'Java',
+      'OpenMRS',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
+    name: 'Jérémy Mouzin',
+    description: 'Software Engineer, Tutorial Maker, Entrepreneur, Blogger',
+    url: 'https://jeremymouzin.com/uses',
+    twitter: '@jeremymouzin',
+    emoji: '🐓',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'Node',
+    ],
   },
 ];
 

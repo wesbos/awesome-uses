@@ -44,7 +44,8 @@ export function tags() {
   // sort and filter for any tags that only have 1
   const tags = Object.entries(counts)
     .sort(([, countA], [, countB]) => countB - countA)
-    .filter(([, count]) => count > 1)
+    // Only show the tag if this topic has 3 or more people in it
+    .filter(([, count]) => count >= 3)
     .map(([name, count]) => ({ name, count }));
 
   return [{ name: 'all', count: people.length }, ...tags];
