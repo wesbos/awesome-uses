@@ -1177,8 +1177,8 @@ const pages = [
       'Typescript',
       'PHP',
       'React',
-      'GraphQl'
-      'GatsbyJs'
+      'GraphQl',
+      'GatsbyJs',
     ]
   }
 ];
