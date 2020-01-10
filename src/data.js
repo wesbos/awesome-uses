@@ -1158,6 +1158,30 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'SOURAV DUTTA',
+    description: 'A contributor to the first know Technologically Advanced Civilization.',
+    url: 'https://i-am-souravdutta.firebaseapp.com/',
+    twitter: '@souravbpd',
+    emoji: '🤖',
+    country: '🇮🇳',
+    computer: 'Lenovo Thinkpad, HP Probook',
+    phone: 'Android',
+    tags: [
+      'Engineer',
+      'Photographer',
+      'Artist',
+      'Full Stack',
+      'Front-end',
+      'Back-end',
+      'JavaScript',
+      'Node',
+      'Angular',
+      'React',
+      'Firebase',
+      '.Net'
+    ],
+  },
 ];
 
 export default pages;
