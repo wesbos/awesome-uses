@@ -253,7 +253,7 @@ const pages = [
       'Entrepreneur',
       'YouTuber',
       'JavaScript',
-      'TypeScript'
+      'TypeScript',
       'React',
       'Node',
       'GraphQL',
