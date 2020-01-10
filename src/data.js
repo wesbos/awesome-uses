@@ -238,6 +238,29 @@ const pages = [
     tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
+    name: 'Anton Andrésen',
+    description:
+      'Software Engineer, Tutorial Maker, Youtuber, Tea Drinker',
+    url: 'https://anton.best/uses',
+    twitter: '@antonosuyt',
+    emoji: '💻',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'TypeScript'
+      'React',
+      'Node',
+      'GraphQL'
+      'CSS',
+    ],
+  },
+  {
     name: 'Josiah Wiebe',
     description: 'Designer & developer, lifelong learner.',
     url: 'https://jwie.be/uses/',
