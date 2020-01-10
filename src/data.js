@@ -793,24 +793,6 @@ const pages = [
     tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End'],
   },
   {
-    name: 'Pouria Ezzati',
-    description: 'Web Developer',
-    url: 'https://pouria.dev/uses',
-    twitter: '@poeti8',
-    emoji: '🇮🇷',
-    country: '🇮🇷',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Designer',
-      'Back End',
-      'Front End',
-      'PHP',
-      'JavaScript',
-    ],
-  },
-  {
     name: 'James Mills',
     description:
       'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
