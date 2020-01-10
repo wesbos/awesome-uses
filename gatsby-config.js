@@ -3,6 +3,7 @@ module.exports = {
     title: `/uses`,
     description: `A list of /uses pages detailing developer setups.`,
     author: `@wesbos`,
+    siteUrl: "https://uses.tech",
   },
   plugins: [
     {
@@ -26,6 +27,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
   ],
 };
