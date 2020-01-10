@@ -37,6 +37,28 @@ const pages = [
     ],
   },
   {
+    name: 'Jason Cory Alvernaz',
+    description:
+      'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
+    url: 'https://jasoncoryalvernaz.com/uses',
+    emoji: '👽',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber',
+      'JavaScript',
+      'React',
+      'CSS',
+      'Gatsby',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
