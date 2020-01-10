@@ -1158,6 +1158,26 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Bezael Pérez',
+    description: 'Front-end Developer passionate. Trainer & speaker',
+    url: 'https://dominicode.com/uses',
+    twitter: '@bezael_dev',
+    emoji: '👨🏻‍🚀',
+    country: '🇩🇴',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Angular',
+      'YouTuber',
+      'Typescript',
+      'Javascript',
+      'CSS',
+      'Node',
+      'Teacher'
+    ],
+  },
 ];
 
 export default pages;
