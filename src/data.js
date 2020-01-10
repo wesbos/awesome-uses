@@ -2024,6 +2024,26 @@ const pages = [
       'DevOps',
     ],
   },
+  {
+    name: 'Dieter Stinglhamber',
+    description: 'Developer, human, nerd.',
+    url: 'https://www.dieterstinglhamber.me/uses/',
+    twitter: '@elhebert',
+    emoji: '🎲',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'PHP',
+      'Laravel',
+      'TypeScript',
+      'Node',
+      'Vue',
+      'Full Stack',
+    ],
+  },
 ];
 
 export default pages;
