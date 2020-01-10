@@ -973,8 +973,7 @@ const pages = [
   },
   {
     name: 'Richard Palacios G.',
-    description:
-      'Web Developer, passionate apprentice, Community co-organizer [Javascript Ecuador](https://t.me/javascriptecuador) ',
+    description: 'Web Developer, passionate apprentice, Community co-organizer',
     url: 'https://www.richardpalaciosg.dev/uses',
     twitter: '@rpalaciosg_',
     emoji: '⚡',
