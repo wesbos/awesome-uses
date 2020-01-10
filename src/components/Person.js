@@ -118,6 +118,9 @@ const PersonInner = styled.div`
       font-size: 1rem;
     }
     .displayLink {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       text-decoration: none;
       color: var(--vape);
       letter-spacing: 1px;
