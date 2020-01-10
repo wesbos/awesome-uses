@@ -187,6 +187,7 @@ const pages = [
       'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
     url: 'https://adamyonk.com/uses',
     emoji: '⤫',
+    twitter: '@adamyonk',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
