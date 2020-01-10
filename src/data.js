@@ -1158,6 +1158,30 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Georgi Yanev',
+    description: 'Software Engineer, FPV Drone Pilot, Blogger, YouTuber',
+    url: 'https://gyanev.com/uses/',
+    twitter: '@jumpalottahigh',
+    emoji: '🚁',
+    country: '🇫🇮',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'YouTuber',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'Electron',
+      'Python',
+      'FPVtips',
+      'Developer'
+    ],
+  },
 ];
 
 export default pages;
