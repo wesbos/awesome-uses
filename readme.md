@@ -1,4 +1,4 @@
-A site for this repo is currently being build. Please check out the [website](https://github.com/wesbos/awesome-uses/tree/website) branch and add yourself in there! 
+A site for this repo is currently being built. Please check out the [website](https://github.com/wesbos/awesome-uses/tree/website) branch and add yourself in there! 
 ```
    ▄████████  ▄█     █▄     ▄████████    ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████
   ███    ███ ███     ███   ███    ███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███
@@ -26,6 +26,8 @@ A list of /uses pages that detail apps and gear used by professional web develop
 
 Submit your own. URL must be /uses. Link your name along with a few words that describes what you do.
 
+* [Lina  Maria Montaño Ramirez - calypsobronte](https://calypsobronte.me/uses) — Web Developer, Mentor and Organizer 🇨🇴
+* [Gant Laborde](http://gantlaborde.com/uses) - Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author
 * [Wes Bos](https://wesbos.com/uses) — Web Developer, Tutorial Maker, Podcaster.
 * [Glenn Reyes](https://glennreyes.com/uses) - Independent Software Engineer, Trainer & Speaker.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) - JavaScript Developer, indie maker.
@@ -117,5 +119,12 @@ Submit your own. URL must be /uses. Link your name along with a few words that d
 * [James Brooks](https://james.brooks.page/uses/) - Software Developer at Laravel and Podcaster
 * [Miguel Ángel Durán](https://midu.dev/uses/) - Front end passionate, Web Performance freak, ocasional speaker, [WTFront! podcast](https://midu.dev/what-the-front-podcast) host, [blogger](https://midu.dev/) and gamer.
 * [Rene Pot](https://renepot.com/uses/) - Developer Evangelist, JavaScript Developer, Software engineer, Open Source contributor, Speaker, Gamer, Streamer
+* [Carlos Andrés Charris S](https://www.carloscharris.com/uses/) - Software Engineer
+* [Jérémy Mouzin](https://jeremymouzin.com/uses/) - Software Engineer, Teacher, YouTuber, Entrepreneur, Blogger 🇫🇷
+* [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) - Developer, Tutorial maker, Youtuber and Designer
+* [Johnson Awah Alfred](https://codemon.surge.sh/uses/) - Software Engineer, I have no life out this.
+* [Bezael Pérez](https://www.dominicode.com/uses/) - Front-end Developer passionate. Trainer & speaker [Youtube](https://www.youtube.com/c/dominicode) 🇩🇴
+* [Pedro Assunção](https://www.pedroassuncao.com/pages/uses/) - Senior Fullstack Software Developer
+* [Karl Horky](https://github.com/karlhorky/uses) - Founder and Teacher at [UpLeveled Coding Bootcamp](https://upleveled.io) in Vienna, Austria.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
