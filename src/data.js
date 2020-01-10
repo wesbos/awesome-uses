@@ -1158,6 +1158,27 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Marek Racík',
+    description: 'Full Stack Developer',
+    url: 'https://racik.info/uses',
+    twitter: '@marek_racik',
+    emoji: '🍍',
+    country: '🇸🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Full Stack',
+      'Laravel',
+      'Vue',
+      'Tailwind',
+      'Django',
+      'Python',
+      'PHP',
+      'JavaScript',
+    ],
+  },
 ];
 
 export default pages;
