@@ -1158,6 +1158,32 @@ const pages = [
       'Node',
     ],
   },
+  {
+    name: 'Steven van Loef',
+    description:
+      'Web Developer, App Developer',
+    url: 'https://steven.vanloef.com/uses',
+    twitter: '@ludolphus',
+    emoji: '🎲',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'PHP',
+      'C',
+      'JavaScript',
+      'CakePHP',
+      'MySQL',
+      'Node',
+      'Front End',
+      'Back End',
+      'HTML',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
