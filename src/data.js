@@ -351,6 +351,28 @@ const pages = [
     ],
   },
   {
+    name: 'Christophe Querton',
+    description:
+      'Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.',
+    url: 'https://kertof.com/what-i-use',
+    twitter: '@kertof',
+    emoji: '🍉',
+    country: '🇧🇪',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'Angular',
+      'Node',
+      'TypeScript',
+      'NestJS',
+      'CSS',
+    ],
+  },
+  {
     name: 'Lina María Montaño Ramírez',
     description:
       'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
