@@ -6,7 +6,7 @@ const pages = [
     name: 'Wes Bos',
     // Short description
     description:
-      'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+      'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
     // URL to your /uses page
     url: 'https://wesbos.com/uses',
     twitter: '@wesbos',
@@ -55,8 +55,8 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'CSS'
-    ]
+      'CSS',
+    ],
   },
   {
     name: 'Rene Pot',
