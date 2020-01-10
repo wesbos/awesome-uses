@@ -1890,6 +1890,30 @@ const pages = [
     phone: 'iphone',
     tags: ['Think', 'Apply'],
   },
+  {
+    name: 'Ændrew Rininsland',
+    description: 'Developer-Journalist',
+    url: 'https://aendrew.com/uses',
+    twitter: '@aendrew',
+    emoji: '💚',
+    country: '🏳️‍🌈',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'DataViz',
+      'JavaScript',
+      'TypeScript',
+      'Node',
+      'Python',
+      'Author',
+      'Journalist',
+      'Speaker',
+      'Front-End',
+      'React',
+      'D3'
+    ],
+  },
 ];
 
 export default pages;
