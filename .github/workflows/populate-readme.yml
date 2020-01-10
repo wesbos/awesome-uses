@@ -19,11 +19,6 @@ jobs:
     - name: Populate README.md from master
       run: |
         node ./scripts/populate-readme.js
-        git add generated-readme.md
-        git stash -- generated-readme.md
-        git checkout master
-        git stash pop
-        git reset
         mv generated-readme.md readme.md
         git add readme.md
         git config --local user.email "action@github.com"
