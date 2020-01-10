@@ -2064,6 +2064,23 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Marcus Obst',
+    description: 'Webdeveloper, Music Lover',
+    url: 'https://marcus-obst.de/uses',
+    emoji: '🍊',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'JavaScript',
+      'CSS',
+      'Vue
+    ],
+  },
 ];
 
 export default pages;
