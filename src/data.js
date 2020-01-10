@@ -2064,6 +2064,28 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Eric McCormick',
+    description:
+      'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
+    url: 'https://edm00se.codes/uses/',
+    twitter: '@edm00se',
+    emoji: '🤔',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'Speaker',
+      'YouTuber',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS'
+    ],
+  },
 ];
 
 export default pages;
