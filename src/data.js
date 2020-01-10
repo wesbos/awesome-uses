@@ -1160,7 +1160,7 @@ const pages = [
   },
   {
     name: 'Chiamaka Ikeanyi',
-    description: 'Software Engineer, Technical Writer', 'Poet',
+    description: 'Software Engineer', 'Technical Writer', 'Poet',
     url: 'https://chiamakaikeanyi.dev/uses',
     twitter: '@chiamakaikeanyi',
     emoji: '👩🏽‍💻',
