@@ -211,7 +211,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'FrontEnd', 'Entrepreneur', 'Teacher', 'JavaScript'],
+    tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript'],
   },
   {
     name: 'Josiah Wiebe',
@@ -983,7 +983,7 @@ const pages = [
     tags: [
       'Developer',
       'Javascript',
-      'FrontEnd',
+      'Front End',
       'BackEnd',
       'Community',
       'Node',
@@ -1651,7 +1651,7 @@ const pages = [
       'Developer',
       'JavaScript',
       'React',
-      'FrontEnd',
+      'Front End',
       'React',
       'Blogger',
       'Speaker',
