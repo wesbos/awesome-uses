@@ -1409,6 +1409,27 @@ const pages = [
       'Teacher'
     ],
   },
+  {
+    name: 'Zander Martineau',
+    description:
+      'Independent front-end-full-stack-UI-UX-engineer coder',
+    url: 'https://zander.wtf/writing/my-setup',
+    twitter: '@mrmartineau',
+    emoji: '👨‍🔬',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Front End',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
