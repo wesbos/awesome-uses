@@ -1173,7 +1173,7 @@ const pages = [
       'Blogger',
       'JavaScript',
       'Accessibility',
-      'Performance'
+      'Performance',
     ],
   },
 ];
