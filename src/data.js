@@ -99,7 +99,7 @@ const pages = [
     url: 'http://gantlaborde.com/uses/',
     twitter: '@gantlaborde',
     emoji: '🔥',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
     tags: [
@@ -1472,7 +1472,7 @@ const pages = [
     url: 'https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f',
     twitter: '@zilahy',
     emoji: '🐶',
-    country: '🇫🇮| 🇭🇺',
+    country: '🇫🇮',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -1862,7 +1862,7 @@ const pages = [
     url: 'https://carloscharris.com/uses',
     twitter: '@Darkklitos',
     emoji: '🔥',
-    country: 'co',
+    country: '🇨🇴',
     computer: 'apple',
     phone: 'android',
     tags: [
