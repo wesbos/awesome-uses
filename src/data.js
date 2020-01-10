@@ -1893,7 +1893,7 @@ const pages = [
   {
     name: 'John Garrett',
     description: 'Arch Duke of Computering, Full Stack Instructor',
-    url: 'https://johngarrett.dev',
+    url: 'https://johngarrett.dev/uses',
     twitter: '@jhgarrett',
     emoji: '👨🏻‍🚀',
     country: '🇺🇸',
