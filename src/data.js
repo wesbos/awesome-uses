@@ -36,6 +36,29 @@ const pages = [
     ],
   },
   {
+    name: 'Praveen Kumar Purushothaman',
+    description:
+      'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
+    url: 'https://blog.praveen.science/my-personal-development-environment/',
+    twitter: '@praveenscience',
+    emoji: '😻',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Mentor',
+      'Blogger',
+      'PHP',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS'
+    ]
+  },
+  {
     name: 'Rene Pot',
     // Short description
     description:
