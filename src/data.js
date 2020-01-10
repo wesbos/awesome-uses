@@ -734,7 +734,7 @@ const pages = [
   {
     name: 'David Llop',
     description: 'Full stack developer from Girona. Open Source contributor. Always Learning.',
-    url: 'https://davidllop.com',
+    url: 'https://davidllop.com/uses',
     twitter: '@lloople',
     emoji: '🤨',
     country: '🇪🇸',
