@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Antoni Kepinski',
+    description:
+      'Node Fetch maintainer // Into Node.js and Rust',
+    url: 'https://kepinski.me/uses/',
+    twitter: '@dokwadratu',
+    emoji: '⚡',
+    country: '🇵🇱',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'TypeScript',
+      'React',
+      'Rust',
+      'Node'
+    ],
+  },
 ];
 
 export default pages;
