@@ -2064,6 +2064,26 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Dmitry Yv',
+    description: 'Eclectic frontend engineering',
+    url: 'https://github.com/dy',
+    twitter: '@dimayv',
+    emoji: '▲',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Frontend',
+      'Engineer',
+      'Designer',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'Hooks'
+    ],
+  },
 ];
 
 export default pages;
