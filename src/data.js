@@ -2064,6 +2064,17 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Thomas Maximini',
+    description: 'Freelance software developer from Germany.',
+    url: 'https://www.maxi.io/uses/',
+    twitter: '@tmaximini',
+    emoji: '🐍',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['JavaScript', 'React', 'Blogger', 'GraphQL', 'serverless', 'Node', 'Full Stack']
+  }
 ];
 
 export default pages;
