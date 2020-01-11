@@ -2064,6 +2064,26 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Tony Mamedbekov',
+    description:
+      'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
+    url: 'https://www.tmamedbekov.dev',
+    twitter: '@tmamedbekov',
+    emoji: '🌍',
+    country: '🇦🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Architect',
+      'Developer',
+      'SitecoreJSS',
+      'Sitecore',
+      'React',
+      'Developer',
+      'Angular',
+    ],
+  },
 ];
 
 export default pages;
