@@ -1,45 +1,30 @@
-// Add yourself. Insert an object at any point - it doesn't matter if you go before someone else as results are randomized.
-
-// please remove the comments before You PR
 const pages = [
   {
-    // Your name
-    name: 'Wes Bos',
-    // Short description
+    name: 'Ryan Harris',
     description:
-      'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
-    // URL to your /uses page
-    url: 'https://wesbos.com/uses',
-    twitter: '@wesbos',
-    // An emoji that describes you
-    emoji: '🔥',
-    // emoji of your country's flag
-    country: '🇨🇦',
-    // ONE of: apple, windows or linux
+      'Engineer at Fauna. Co-organizer of Reactadelphia. Streaming on Mixer (http://mixer.com/ryanharris ). Write for LogRocket.',
+    url: 'https://ryanharris.dev/uses',
+    twitter: '@ryan_c_harris',
+    emoji: '👨‍🎤',
+    country: '🇺🇸',
     computer: 'apple',
-    // iphone or android
-    phone: 'iphone',
-    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
-
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    phone: 'android',
     tags: [
+      'Engineer',
       'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'Teacher',
-      'YouTuber',
+      'Front End',
+      'Streamer',
+      'Blogger',
       'JavaScript',
       'React',
+      'Vue',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Jason Cory Alvernaz',
-    description:
-      'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
+    description: 'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
     url: 'https://jasoncoryalvernaz.com/uses',
     emoji: '👽',
     country: '🇺🇸',
@@ -55,13 +40,12 @@ const pages = [
       'React',
       'CSS',
       'Gatsby',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Alessia Bellisario',
-    description:
-      'Web engineer, mechanical keyboard builder, plotter art maker.',
+    description: 'Web engineer, mechanical keyboard builder, plotter art maker.',
     url: 'https://aless.co/uses',
     emoji: '😎',
     country: '🇨🇦',
@@ -75,8 +59,8 @@ const pages = [
       'Rust',
       'WebAssembly',
       'Gatsby',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Praveen Kumar Purushothaman',
@@ -98,8 +82,8 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Rene Pot',
@@ -131,13 +115,12 @@ const pages = [
       'Titanium',
       'Node',
       'Speaker',
-      'Twitch',
-    ],
+      'Twitch'
+    ]
   },
   {
     name: 'Gant Laborde',
-    description:
-      'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
+    description: 'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
     url: 'http://gantlaborde.com/uses/',
     twitter: '@gantlaborde',
     emoji: '🔥',
@@ -158,8 +141,8 @@ const pages = [
       'Web Developer',
       'Writer',
       'Podcaster',
-      'Machine Learning',
-    ],
+      'Machine Learning'
+    ]
   },
   {
     name: 'Troy Forster',
@@ -181,8 +164,8 @@ const pages = [
       'PHP',
       'Serverless',
       'SOA',
-      'Enterprise',
-    ],
+      'Enterprise'
+    ]
   },
   {
     name: 'Kent C. Dodds',
@@ -202,8 +185,8 @@ const pages = [
       'Testing',
       'React',
       'Speaker',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Hussain Aminu',
@@ -222,13 +205,12 @@ const pages = [
       'Python',
       'Vue',
       'Node',
-      'Django',
-    ],
+      'Django'
+    ]
   },
   {
     name: 'Glenn Reyes',
-    description:
-      'Independent Software Engineer, trainer & speaker. Into sports & music.',
+    description: 'Independent Software Engineer, trainer & speaker. Into sports & music.',
     url: 'https://glennreyes.com/uses',
     twitter: '@glnnrys',
     emoji: '💃',
@@ -244,8 +226,8 @@ const pages = [
       'React',
       'GraphQL',
       'TypeScript',
-      'Speaker',
-    ],
+      'Speaker'
+    ]
   },
   {
     name: 'Adam Jahnke',
@@ -257,7 +239,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby'],
+    tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby']
   },
   {
     name: 'Andrew Healey',
@@ -267,7 +249,7 @@ const pages = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer'],
+    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer']
   },
   {
     name: 'Scott Tolinski',
@@ -277,7 +259,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript'],
+    tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript']
   },
   {
     name: 'Anton Andrésen',
@@ -298,8 +280,8 @@ const pages = [
       'React',
       'Node',
       'GraphQL',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Josiah Wiebe',
@@ -309,14 +291,7 @@ const pages = [
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Full Stack',
-      'Developer',
-      'Designer',
-      'Python',
-      'JavaScript',
-      'TypeScript',
-    ],
+    tags: ['Full Stack', 'Developer', 'Designer', 'Python', 'JavaScript', 'TypeScript']
   },
   {
     name: 'Benjamin Lannon',
@@ -327,14 +302,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Blogger',
-      'Teacher',
-      'JavaScript',
-      'GraphQL',
-    ],
+    tags: ['Developer', 'Full Stack', 'Blogger', 'Teacher', 'JavaScript', 'GraphQL']
   },
   {
     name: 'Braden Watkins',
@@ -344,14 +312,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Full Stack',
-      'Developer',
-      'Web Developer',
-      'JavaScript',
-      'Python',
-      'Golang',
-    ],
+    tags: ['Full Stack', 'Developer', 'Web Developer', 'JavaScript', 'Python', 'Golang']
   },
   {
     name: 'Rick Calder',
@@ -363,15 +324,7 @@ const pages = [
     country: '🇨🇦',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Full Stack',
-      'Developer',
-      'Web Developer',
-      'JavaScript',
-      'PHP',
-      'Elixir',
-      'Go',
-    ],
+    tags: ['Full Stack', 'Developer', 'Web Developer', 'JavaScript', 'PHP', 'Elixir', 'Go']
   },
   {
     name: 'Lauro Silva',
@@ -381,15 +334,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'React',
-      'Full Stack',
-      'Writer',
-      'Independent',
-      'Speaker',
-      'Blogger',
-    ],
+    tags: ['JavaScript', 'React', 'Full Stack', 'Writer', 'Independent', 'Speaker', 'Blogger']
   },
   {
     name: 'Nuno Maduro',
@@ -399,14 +344,7 @@ const pages = [
     country: '🇵🇹',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Developer',
-      'Speaker',
-      'PHP',
-      'JavaScript',
-      'TypeScript',
-    ],
+    tags: ['Engineer', 'Developer', 'Speaker', 'PHP', 'JavaScript', 'TypeScript']
   },
   {
     name: 'Adrian Marin',
@@ -418,7 +356,7 @@ const pages = [
     country: '🇷🇴',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Rails', 'TypeScript'],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Rails', 'TypeScript']
   },
   {
     name: 'Jahir Fiquitiva',
@@ -429,14 +367,7 @@ const pages = [
     country: '🇨🇴',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'Python',
-      'Kotlin',
-      'React',
-    ],
+    tags: ['Developer', 'Full Stack', 'JavaScript', 'Python', 'Kotlin', 'React']
   },
   {
     name: 'Christophe Querton',
@@ -457,8 +388,8 @@ const pages = [
       'Node',
       'TypeScript',
       'NestJS',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Lina María Montaño Ramírez',
@@ -479,13 +410,12 @@ const pages = [
       'Mentor',
       'Organizer',
       'YouTuber',
-      'Back End',
-    ],
+      'Back End'
+    ]
   },
   {
     name: 'Brad Garropy',
-    description:
-      'Self taught frontender at Adobe, into lifting and country music.',
+    description: 'Self taught frontender at Adobe, into lifting and country music.',
     url: 'https://bradgarropy.com/uses',
     twitter: '@bradgarropy',
     emoji: '🤠',
@@ -500,8 +430,8 @@ const pages = [
       'YouTuber',
       'Blogger',
       'JavaScript',
-      'Python',
-    ],
+      'Python'
+    ]
   },
   {
     name: 'Abdisalan Mohamud',
@@ -512,28 +442,18 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Blogger',
-      'JavaScript',
-      'React',
-      'ReasonML',
-      'Go',
-      'AWS',
-    ],
+    tags: ['Developer', 'Full Stack', 'Blogger', 'JavaScript', 'React', 'ReasonML', 'Go', 'AWS']
   },
   {
     name: 'Josh Barker',
-    description:
-      'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
+    description: 'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
     url: 'https://joshuabarker.com/uses',
     twitter: '@joshuafbarker',
     emoji: '⚽️',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Front End', 'JavaScript'],
+    tags: ['Developer', 'Front End', 'JavaScript']
   },
   {
     name: 'Aaron Dunphy',
@@ -544,14 +464,7 @@ const pages = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Back End',
-      'Laravel',
-      'PHP',
-      'JavaScript',
-    ],
+    tags: ['Developer', 'Full Stack', 'Back End', 'Laravel', 'PHP', 'JavaScript']
   },
   {
     name: 'Mohamed Benhida',
@@ -572,14 +485,13 @@ const pages = [
       'Vuejs',
       'Tailwindcss',
       'PHP',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Andrew McCombe',
     // Short description
-    description:
-      'Experienced full stack web developer with a passion for testing.',
+    description: 'Experienced full stack web developer with a passion for testing.',
     url: 'https://www.euperia.com/uses',
     twitter: '@euperia',
     emoji: '🏁',
@@ -596,8 +508,8 @@ const pages = [
       'Vue',
       'LAMP',
       'ElasticSearch',
-      'AWS',
-    ],
+      'AWS'
+    ]
   },
   {
     name: 'Smakosh',
@@ -608,7 +520,7 @@ const pages = [
     country: '🇲🇦',
     computer: 'apple',
     phone: 'android',
-    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript']
   },
   {
     name: 'Pouria Ezzati',
@@ -619,15 +531,7 @@ const pages = [
     country: '🇮🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Designer',
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'Node',
-    ],
+    tags: ['Developer', 'Full Stack', 'Designer', 'JavaScript', 'TypeScript', 'React', 'Node']
   },
   {
     name: 'Jonathan Suh',
@@ -638,7 +542,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React'],
+    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React']
   },
   {
     name: 'Jonathan Speek',
@@ -649,7 +553,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
+    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React']
   },
   {
     name: "David O'Trakoun",
@@ -660,19 +564,18 @@ const pages = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer'],
+    tags: ['Developer']
   },
   {
     name: 'Dean Harris',
-    description:
-      'Front End Developer. Husband. Skateboarder. Occasional blogger',
+    description: 'Front End Developer. Husband. Skateboarder. Occasional blogger',
     url: 'https://deanacus.com/uses/',
     twitter: '@deanacus',
     emoji: '🛹',
     country: '🇦🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP'],
+    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP']
   },
   {
     name: 'Michael Hoffmann',
@@ -683,7 +586,7 @@ const pages = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Angular'],
+    tags: ['Developer', 'Blogger', 'Angular']
   },
   {
     name: 'Michael Le',
@@ -703,8 +606,8 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'Vue',
-    ],
+      'Vue'
+    ]
   },
   {
     name: 'Sil van Diepen',
@@ -726,8 +629,8 @@ const pages = [
       'Node',
       'CSS',
       'Sass',
-      'Design Systems',
-    ],
+      'Design Systems'
+    ]
   },
   {
     name: 'Kilian Valkhof',
@@ -749,8 +652,8 @@ const pages = [
       'Node',
       'Electron',
       'Polypane',
-      'Devtools',
-    ],
+      'Devtools'
+    ]
   },
   {
     name: 'Timothy Miller',
@@ -771,8 +674,8 @@ const pages = [
       'JavaScript',
       'CSS',
       'PHP',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Christopher Hranj',
@@ -783,7 +686,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: ['Engineer', 'Back End', 'Blogger', 'Python', 'Crystal'],
+    tags: ['Engineer', 'Back End', 'Blogger', 'Python', 'Crystal']
   },
   {
     name: 'Vincent Ramdhanie',
@@ -802,8 +705,8 @@ const pages = [
       'Node',
       'Testing',
       'Machine Learning',
-      'Python',
-    ],
+      'Python'
+    ]
   },
   {
     name: 'Amir R Muntasser',
@@ -815,21 +718,11 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'JavaScript',
-      'CSS',
-      'HTML',
-      'a11y',
-      'Vue',
-      'React',
-      'Developer',
-    ],
+    tags: ['Front End', 'JavaScript', 'CSS', 'HTML', 'a11y', 'Vue', 'React', 'Developer']
   },
   {
     name: 'Pavel Melnik',
-    description:
-      'Web developer, Technology enthusiast, Energy Management System expert',
+    description: 'Web developer, Technology enthusiast, Energy Management System expert',
     url: 'https://pavel.dev/uses',
     twitter: '@theopract',
     emoji: '🤟',
@@ -844,8 +737,8 @@ const pages = [
       'Vue',
       'SQL',
       'Accessibility',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Miguel Ángel Durán',
@@ -872,13 +765,12 @@ const pages = [
       'Node',
       'Speaker',
       'Podcaster',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'David Llop',
-    description:
-      'Full stack developer from Girona. Open Source contributor. Always Learning.',
+    description: 'Full stack developer from Girona. Open Source contributor. Always Learning.',
     url: 'https://davidllop.com/uses',
     twitter: '@lloople',
     emoji: '🤨',
@@ -896,8 +788,8 @@ const pages = [
       'Vue',
       'Chatbots',
       'API',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Josh Manders',
@@ -908,15 +800,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Front End',
-      'Back End',
-      'Node',
-      'React',
-      'GraphQL',
-    ],
+    tags: ['Developer', 'Full Stack', 'Front End', 'Back End', 'Node', 'React', 'GraphQL']
   },
   {
     name: 'Daniel Wirtz',
@@ -927,7 +811,7 @@ const pages = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'android',
-    tags: ['Designer', 'Entrepreneur'],
+    tags: ['Designer', 'Entrepreneur']
   },
   {
     name: 'Sanket Gandhi',
@@ -938,16 +822,7 @@ const pages = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'PHP',
-      'Laravel',
-      'AWS',
-      'JavaScript',
-      'React',
-      'Node',
-    ],
+    tags: ['Developer', 'Full Stack', 'PHP', 'Laravel', 'AWS', 'JavaScript', 'React', 'Node']
   },
   {
     name: 'Harry Wolff',
@@ -958,7 +833,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End'],
+    tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End']
   },
   {
     name: 'James Mills',
@@ -970,7 +845,7 @@ const pages = [
     country: '🇦🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware'],
+    tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware']
   },
   {
     name: 'Jeffrey Way',
@@ -981,7 +856,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Designer', 'Back End', 'PHP'],
+    tags: ['Developer', 'Designer', 'Back End', 'PHP']
   },
   {
     name: 'Terry Godier',
@@ -992,7 +867,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Marketer', 'Writer', 'PHP', 'Laravel'],
+    tags: ['Developer', 'Marketer', 'Writer', 'PHP', 'Laravel']
   },
   {
     name: 'Erno Salo',
@@ -1003,15 +878,7 @@ const pages = [
     country: '🇫🇮',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Designer',
-      'Front End',
-      'Back End',
-      'JavaScript',
-      'Python',
-      'Node',
-    ],
+    tags: ['Developer', 'Designer', 'Front End', 'Back End', 'JavaScript', 'Python', 'Node']
   },
   {
     name: 'Gokulakrishnan Kalaikovan',
@@ -1022,13 +889,7 @@ const pages = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Web Developer',
-      'Open Source contributor',
-      'Speaker',
-      'GDE',
-      'Front End',
-    ],
+    tags: ['Web Developer', 'Open Source contributor', 'Speaker', 'GDE', 'Front End']
   },
   {
     name: 'James Brooks',
@@ -1047,8 +908,8 @@ const pages = [
       'Full Stack',
       'Podcaster',
       'Vue',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Douglas Andreani',
@@ -1059,7 +920,7 @@ const pages = [
     country: '🇧🇷',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer', 'Back End', 'C', 'Go', 'Rust', 'C#'],
+    tags: ['Developer', 'Back End', 'C', 'Go', 'Rust', 'C#']
   },
   {
     name: 'Byurhan Beyzat',
@@ -1078,8 +939,8 @@ const pages = [
       'Full Stack',
       'Front End',
       'Back End',
-      'React',
-    ],
+      'React'
+    ]
   },
   {
     name: 'Richard Palacios G.',
@@ -1090,15 +951,7 @@ const pages = [
     country: '🇪🇨',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Javascript',
-      'Front End',
-      'BackEnd',
-      'Community',
-      'Node',
-      'React',
-    ],
+    tags: ['Developer', 'Javascript', 'Front End', 'BackEnd', 'Community', 'Node', 'React']
   },
   {
     name: 'Mike Barkmin',
@@ -1120,8 +973,8 @@ const pages = [
       'Docker',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Hugo Di Francesco',
@@ -1146,48 +999,30 @@ const pages = [
       'TypeScript',
       'React',
       'Vue',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Steve Heyes',
-    description:
-      'I like to use tech to build awesome things that makes peoples lives better',
+    description: 'I like to use tech to build awesome things that makes peoples lives better',
     url: 'https://steveheyes.co.uk/uses',
     twitter: '@mrsteveheyes',
     emoji: '👋',
     country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Ruby',
-      'Rails',
-      'JavaScript',
-      'React',
-      'React Native',
-    ],
+    tags: ['Developer', 'Full Stack', 'Ruby', 'Rails', 'JavaScript', 'React', 'React Native']
   },
   {
     name: 'Diego Vazquez',
-    description:
-      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
+    description: 'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
     url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
     twitter: '@diurivj',
     emoji: '🌚',
     country: '🇲🇽',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Teacher',
-      'JavaScript',
-      'React',
-      'Node',
-      'Mongo DB',
-    ],
+    tags: ['Developer', 'Full Stack', 'Teacher', 'JavaScript', 'React', 'Node', 'Mongo DB']
   },
   {
     name: 'Rafael Quintanilha',
@@ -1199,15 +1034,7 @@ const pages = [
     country: '🇧🇷',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Entrepreneur',
-      'Front End',
-      'JavaScript',
-      'React',
-      'Node',
-      'Blogger',
-    ],
+    tags: ['Engineer', 'Entrepreneur', 'Front End', 'JavaScript', 'React', 'Node', 'Blogger']
   },
   {
     name: 'Ben Leivian',
@@ -1227,8 +1054,8 @@ const pages = [
       'Laravel',
       'Vue',
       'Node',
-      'Docker',
-    ],
+      'Docker'
+    ]
   },
   {
     name: 'Mike Williamson',
@@ -1239,14 +1066,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'JavaScript',
-      'Node',
-      'CSS',
-    ],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'JavaScript', 'Node', 'CSS']
   },
   {
     name: 'Roman Husar',
@@ -1257,14 +1077,7 @@ const pages = [
     country: '🇺🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Software Engineer',
-      'Full Stack',
-      'JavaScript',
-      'PostgreSQL',
-      'React',
-      'Node',
-    ],
+    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'PostgreSQL', 'React', 'Node']
   },
   {
     name: 'Stephen Senkomago Musoke',
@@ -1287,7 +1100,7 @@ const pages = [
     // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
     // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
     // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
-    tags: ['Developer', 'Engineer', 'PHP', 'Java', 'OpenMRS', 'HTML', 'CSS'],
+    tags: ['Developer', 'Engineer', 'PHP', 'Java', 'OpenMRS', 'HTML', 'CSS']
   },
   {
     name: 'Jérémy Mouzin',
@@ -1306,8 +1119,8 @@ const pages = [
       'YouTuber',
       'Blogger',
       'JavaScript',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Adam Laycock',
@@ -1318,14 +1131,7 @@ const pages = [
     country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Full Stack',
-      'TypeScript',
-      'Blogger',
-      'JavaScript',
-      'Node',
-    ],
+    tags: ['Engineer', 'Full Stack', 'TypeScript', 'Blogger', 'JavaScript', 'Node']
   },
   {
     name: 'Scott Spence',
@@ -1337,16 +1143,7 @@ const pages = [
     country: '🇬🇧',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'YouTuber',
-      'JavaScript',
-      'React',
-      'Gatsby',
-      'Sloths',
-      'Blogger',
-      'Speaker',
-    ],
+    tags: ['Developer', 'YouTuber', 'JavaScript', 'React', 'Gatsby', 'Sloths', 'Blogger', 'Speaker']
   },
   {
     name: 'Georgi Yanev',
@@ -1369,8 +1166,8 @@ const pages = [
       'Electron',
       'Python',
       'FPVtips',
-      'Developer',
-    ],
+      'Developer'
+    ]
   },
   {
     name: 'Karl Horky',
@@ -1395,8 +1192,8 @@ const pages = [
       'Node',
       'CSS',
       'HTML',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Andrej Jovanovic',
@@ -1407,16 +1204,7 @@ const pages = [
     country: '🇭🇷',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'DevOps',
-      'Engineer',
-      'Designer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Python',
-      'Go',
-    ],
+    tags: ['DevOps', 'Engineer', 'Designer', 'Full Stack', 'JavaScript', 'React', 'Python', 'Go']
   },
   {
     name: 'Josh Farrant',
@@ -1436,8 +1224,8 @@ const pages = [
       'React',
       'Node',
       'UX',
-      'Open Source',
-    ],
+      'Open Source'
+    ]
   },
   {
     name: 'Martin Chammah',
@@ -1457,8 +1245,8 @@ const pages = [
       'Gatsby',
       'React',
       'Wordpress',
-      'Thinkpad',
-    ],
+      'Thinkpad'
+    ]
   },
   {
     name: 'Pedro Assunção',
@@ -1481,8 +1269,8 @@ const pages = [
       'Phoenix',
       'Erlang',
       'React',
-      'AWS',
-    ],
+      'AWS'
+    ]
   },
   {
     name: 'Marek Racík',
@@ -1502,8 +1290,8 @@ const pages = [
       'Django',
       'Python',
       'PHP',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Steven van Loef',
@@ -1527,8 +1315,8 @@ const pages = [
       'Front End',
       'Back End',
       'HTML',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Richard Zilahi',
@@ -1550,8 +1338,8 @@ const pages = [
       'PHP',
       'React',
       'GraphQl',
-      'GatsbyJs',
-    ],
+      'GatsbyJs'
+    ]
   },
   {
     name: 'Bezael Pérez',
@@ -1562,16 +1350,7 @@ const pages = [
     country: '🇩🇴',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Angular',
-      'YouTuber',
-      'Typescript',
-      'Javascript',
-      'CSS',
-      'Node',
-      'Teacher',
-    ],
+    tags: ['Developer', 'Angular', 'YouTuber', 'Typescript', 'Javascript', 'CSS', 'Node', 'Teacher']
   },
   {
     name: 'Zander Martineau',
@@ -1590,8 +1369,8 @@ const pages = [
       'TypeScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Daniel Van Cuylenburg',
@@ -1603,15 +1382,7 @@ const pages = [
     country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'CSS',
-      'Guitarist',
-      'JavaScript',
-      'React',
-      'Gatsby',
-    ],
+    tags: ['Developer', 'Full Stack', 'CSS', 'Guitarist', 'JavaScript', 'React', 'Gatsby']
   },
   {
     name: 'Chiamaka Ikeanyi',
@@ -1622,14 +1393,7 @@ const pages = [
     country: '🇳🇬',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Front End',
-      'Blogger',
-      'JavaScript',
-      'Accessibility',
-      'Performance',
-    ],
+    tags: ['Engineer', 'Front End', 'Blogger', 'JavaScript', 'Accessibility', 'Performance']
   },
   {
     name: 'Francis Sunday',
@@ -1649,8 +1413,8 @@ const pages = [
       'Go',
       'React',
       'Node',
-      'Golang',
-    ],
+      'Golang'
+    ]
   },
   {
     name: 'Juan Manuel Incaurgarat',
@@ -1661,7 +1425,7 @@ const pages = [
     country: '🇦🇷',
     computer: 'apple',
     phone: 'android',
-    tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node'],
+    tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node']
   },
   {
     name: 'Jared Clifton-Lee',
@@ -1683,13 +1447,12 @@ const pages = [
       'Phoenix',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Carlos Junod',
-    description:
-      'Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer',
+    description: 'Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer',
     url: 'http://carlosjunod.me/uses/',
     twitter: '@carlosjunod',
     emoji: '🥑',
@@ -1705,8 +1468,8 @@ const pages = [
       'JavaScript',
       'Node',
       'CSS',
-      'HTML',
-    ],
+      'HTML'
+    ]
   },
   {
     name: 'James Kemp',
@@ -1717,35 +1480,18 @@ const pages = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Full Stack',
-      'Blogger',
-      'React',
-      'Rails',
-      'JavaScript',
-      'Node',
-    ],
+    tags: ['Engineer', 'Full Stack', 'Blogger', 'React', 'Rails', 'JavaScript', 'Node']
   },
   {
     name: 'Tom Hazledine',
-    description:
-      'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
+    description: 'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
     url: 'https://tomhazledine.com/uses',
     twitter: '@thomashazledine',
     emoji: '🥩',
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'JavaScript',
-      'React',
-      'Node',
-      'CSS',
-      'Podcaster',
-    ],
+    tags: ['Developer', 'Front End', 'JavaScript', 'React', 'Node', 'CSS', 'Podcaster']
   },
   {
     name: 'Khriztian Moreno',
@@ -1768,13 +1514,12 @@ const pages = [
       'Podcaster',
       'Community',
       'JAMstack',
-      'YouTuber',
-    ],
+      'YouTuber'
+    ]
   },
   {
     name: 'Mihai Serban',
-    description:
-      'Software engineer in constant search for new and exciting technologies',
+    description: 'Software engineer in constant search for new and exciting technologies',
     url: 'https://www.mihaiserban.dev/uses',
     twitter: '@MihaiSerban',
     emoji: '✌️',
@@ -1790,8 +1535,8 @@ const pages = [
       'Node',
       'CSS',
       'Vue',
-      'iOS',
-    ],
+      'iOS'
+    ]
   },
   {
     name: 'Nick Janetakis',
@@ -1812,8 +1557,8 @@ const pages = [
       'Flask',
       'Phoenix',
       'Docker',
-      'DevOps',
-    ],
+      'DevOps'
+    ]
   },
   {
     name: 'Kaleigh Scruggs',
@@ -1833,8 +1578,8 @@ const pages = [
       'React',
       'WordPress',
       'CSS',
-      'Full Stack',
-    ],
+      'Full Stack'
+    ]
   },
   {
     name: 'Ste Grainer',
@@ -1854,13 +1599,12 @@ const pages = [
       'Craft CMS',
       'Blogger',
       'Design Systems',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Yuri Yakovlev',
-    description:
-      'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
+    description: 'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
     url: 'https://mynameisyuri.com/uses',
     twitter: '@yakovlevyuri',
     emoji: '🧙‍♂️',
@@ -1875,8 +1619,8 @@ const pages = [
       'TypeScript',
       'React',
       'Node',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'José Carlos Correa',
@@ -1898,8 +1642,8 @@ const pages = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Erv Walter',
@@ -1910,15 +1654,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'TypeScript',
-      'React',
-      'C#',
-      '.NET Core',
-      'Azure',
-    ],
+    tags: ['Developer', 'Full Stack', 'TypeScript', 'React', 'C#', '.NET Core', 'Azure']
   },
   {
     name: 'Carlos Andres Charris Sandoval',
@@ -1940,8 +1676,8 @@ const pages = [
       'Node',
       'Java',
       'Docker',
-      'Serverless',
-    ],
+      'Serverless'
+    ]
   },
   {
     name: 'Juanito Fatas',
@@ -1952,7 +1688,7 @@ const pages = [
     country: '🇯🇵',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Think', 'Apply'],
+    tags: ['Think', 'Apply']
   },
   {
     name: 'Ændrew Rininsland',
@@ -1975,8 +1711,8 @@ const pages = [
       'Speaker',
       'Front-End',
       'React',
-      'D3',
-    ],
+      'D3'
+    ]
   },
   {
     name: 'Elliot Bonneville',
@@ -2000,8 +1736,8 @@ const pages = [
       'Node',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'John Garrett',
@@ -2021,8 +1757,8 @@ const pages = [
       'JavaScript',
       'PHP',
       'C',
-      'DevOps',
-    ],
+      'DevOps'
+    ]
   },
   {
     name: 'Dieter Stinglhamber',
@@ -2033,16 +1769,7 @@ const pages = [
     country: '🇧🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'PHP',
-      'Laravel',
-      'TypeScript',
-      'Node',
-      'Vue',
-      'Full Stack',
-    ],
+    tags: ['Developer', 'JavaScript', 'PHP', 'Laravel', 'TypeScript', 'Node', 'Vue', 'Full Stack']
   },
   {
     name: 'Thomas Weibenfalk',
@@ -2054,16 +1781,8 @@ const pages = [
     country: '🇸🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'Developer',
-      'Entrepreneur',
-      'React',
-      'Teacher',
-      'Writer',
-      'YouTuber',
-    ],
-  },
+    tags: ['JavaScript', 'Developer', 'Entrepreneur', 'React', 'Teacher', 'Writer', 'YouTuber']
+  }
 ];
 
 export default pages;
