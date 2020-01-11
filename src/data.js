@@ -79,6 +79,25 @@ const pages = [
     ],
   },
   {
+    name: 'Conrad Mugisha',
+    description:
+      'Software Developer. Lover of challenges',
+    url: 'https://aless.co/uses',
+    twitter: '@conradmugisha',
+    emoji: '😎',
+    country: 'UG',
+    computer: 'DELL',
+    phone: 'ROYALE',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript/JQuery/React/ElectronJS/Node',      
+      'PHP/Codeigniter',
+      'Flutter/Dart',
+      'CSS'
+    ],
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
