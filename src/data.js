@@ -2064,6 +2064,22 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Philip Theobald',
+    description: 'Guitar player, motorcyclist, software engineer, entreprenuer',
+    url: 'https://www.philiptheobald.com/uses/',
+    twitter: '@fylzero',
+    emoji: '🤑',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Laravel',
+      'Vue',
+      'WordPress'
+    ],
+  },
 ];
 
 export default pages;
