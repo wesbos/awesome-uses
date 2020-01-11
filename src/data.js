@@ -37,6 +37,27 @@ const pages = [
     ],
   },
   {
+    name: 'Habbat Adnan',
+    description:
+      'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
+    url: 'https://adncodez.com/uses',
+    twitter: '@adncodez',
+    emoji: '🐍',
+    country: '🇲🇦',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Freelancer',
+      'Python',
+      'Django',
+      'JavaScript',
+      'CSS',
+      'Docker',
+    ],
+  },
+  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
