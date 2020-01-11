@@ -2064,6 +2064,27 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Muhammad Umair',
+    description:
+      'Fullstack front-end developer and designer, passionate in everything #JavaScript',
+    url: 'https://www.linkedin.com/in/mumairofficial',
+    twitter: '@imumare',
+    emoji: '💻',
+    country: 'PK',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Developer',
+      'React',
+      'Angular',
+      'Node',
+      'CSS',
+      'Electron',
+    ],
+  },
 ];
 
 export default pages;
