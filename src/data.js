@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Carlos Sandoval',
+    description: 'Full Stack Developer',
+    url: 'https://carlossandoval.me/',
+    twitter: '@cdsandovaI',
+    emoji: '🔥',
+    country: '🇵🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Javascript',
+      'React',
+      'Firebase',
+      'Ruby on Rails',
+      'Typescript',
+      'Python',
+      'Full Stack Developer'
+    ]
+  }
 ];
 
 export default pages;
