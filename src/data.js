@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Ali Ahsan',
+    description: 'Masters student, full-stack developer, ☕ all day',
+    url: 'https://aliahsan.tech',
+    twitter: '@aliahsan07',
+    emoji: '🦉',
+    country: '🇵🇰',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Student',
+      'Developer',
+      'JavaScript',
+      'Python',
+      'React',
+      'Node',
+      'Full Stack',
+    ],
+  },
 ];
 
 export default pages;
