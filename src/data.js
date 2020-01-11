@@ -2064,6 +2064,27 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Amit Merchant',
+    description: 'Maker of things. Open-source enthusiast. Blogger. ',
+    url: 'https://www.amitmerchant.com/uses',
+    twitter: '@amit_merchant',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Blogger',
+      'JavaScript',
+      'React',
+      'PHP',
+      'Laravel',
+      'CSS',
+    ],
+  }
 ];
 
 export default pages;
