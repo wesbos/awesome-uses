@@ -37,6 +37,30 @@ const pages = [
     ],
   },
   {
+    name: 'Carter McAlister',
+    description:
+      'Software Engineer, Digital Nomad, Lover of the Outdoors',
+    url: 'https://cartermcalister.dev/uses',
+    twitter: '@_CarterMc_',
+    emoji: '🏔️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Front End',
+      'Remote',
+      'Nomad',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'CSS',
+      'Java'
+    ]
+  },
+  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
