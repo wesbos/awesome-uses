@@ -2064,6 +2064,36 @@ const pages = [
       'YouTuber',
     ],
   },
+    {
+    // Your name
+    name: 'Yurui Zhang',
+    // Short description
+    description:
+      'Full-stack developer. Dark mode enthusiast. Quality software devotee.',
+    // URL to your /uses page
+    url: 'https://www.linkedin.com/in/yuruiology/',
+    twitter: '@yuruiology',
+    // An emoji that describes you
+    emoji: '🐙',
+    // emoji of your country's flag
+    country: '🇨🇳',
+    // ONE of: apple, windows or linux
+    computer: 'apple',
+    // iphone or android
+    phone: 'iphone',
+    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'CSS',
+      'Ruby',
+      'Testing'
+    ],
+  },
 ];
 
 export default pages;
