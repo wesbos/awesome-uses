@@ -2075,7 +2075,7 @@ const pages = [
     // An emoji that describes you
     emoji: '💸',
     // emoji of your country's flag
-    country: 'ar',
+    country: '🇦🇷',
     // ONE of: apple, windows or linux
     computer: 'windows',
     // iphone or android
