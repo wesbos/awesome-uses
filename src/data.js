@@ -2064,6 +2064,31 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Chris Burgin',
+    description:
+      'Frontend Software Engineer',
+    url: 'https://chrisburgin.me/uses',
+    twitter: '@chrisburgin95',
+    emoji: '🧙🏼‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
+    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
+    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Teacher',
+      'Node',
+      'JavaScript',
+      'React',
+      'Vue',
+      'CSS',
+      'Go',
+    ],
+  },
 ];
 
 export default pages;
