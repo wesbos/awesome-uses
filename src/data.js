@@ -79,6 +79,23 @@ const pages = [
     ],
   },
   {
+  	name: 'Sam Cross',
+  	description: '"Developer", IT student, frequent traveller by coach, addicted to music.',
+  	url: 'https://sam-cross.github.io/uses',
+  	twitter: '@samcrxss',
+  	emoji: '🎵',
+  	country: '🇬🇧',
+  	computer: 'windows',
+  	phone: 'android',
+  	tags: [
+  		'Developer',
+  		'JavaScript',
+  		'React',
+  		'Node',
+  		'CSS',
+  	]
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
