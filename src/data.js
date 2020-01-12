@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Usman Khwaja',
+    description:
+      'Front end engineer, Jamstack developer',
+    url: 'https://usmankhwaja.com/uses',
+    twitter: '@numbfall',
+    emoji: '⛵',
+    country: '🇵🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Jamstack',
+      'JavaScript',
+      'AMP',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
