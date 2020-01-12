@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
@@ -34,6 +34,8 @@ function Header({ siteTitle, siteDescription, siteUrl }) {
 }
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  siteDescription: PropTypes.string,
+  siteUrl: PropTypes.string,
 };
 
 Header.defaultProps = {

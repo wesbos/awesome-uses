@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
+
+const Avatar = ({ src, alt }) => {
+  const [actualSrc, setActualSrc] = useState(src);
+  const showMissingAvatar = () => {
+    setActualSrc(`/missing_avatar.svg`);
+  };
+
+  return (
+    <img
+      width="50"
+      height="50"
+      src={actualSrc}
+      alt={alt}
+      onError={showMissingAvatar}
+    />
+  );
+};
+Avatar.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
@@ -12,7 +33,7 @@ export default function Person({ person, currentTag }) {
     <PersonWrapper>
       <PersonInner>
         <header>
-          <img width="50" height="50" src={img} alt={person.name} />
+          <Avatar src={img} alt={person.name} />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
               {person.name} {person.emoji}
