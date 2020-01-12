@@ -1,4 +1,4 @@
-import React, { useEffect, useState, forwardRef, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 function useInterval(callback, delay) {
   const savedCallback = useRef();
