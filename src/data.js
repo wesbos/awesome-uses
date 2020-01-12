@@ -37,6 +37,26 @@ const pages = [
     ],
   },
   {
+    name: 'Vishwasa Navada K',
+    description:
+      'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
+    url: 'https://vishwas.tech/uses',
+    twitter: '@vishwasnavadak',
+    emoji: '🤓',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'AWS',
+      'GraphQL',
+      'Serverless',
+      'Blogger',
+      'Traveler',
+    ]
+  },
+  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
