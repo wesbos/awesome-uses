@@ -2064,6 +2064,26 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Seyhun Akyürek',
+    description:
+      'Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails',
+    url: 'https://www.seyhunakyurek.com/uses/',
+    twitter: '@seyhunak',
+    emoji: '🚀',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Entrepreneur',
+      'Swift',
+      'Objective-C',
+      'Ruby On Rails',
+      'Open Source',
+      'Blogger',
+    ],
+  }
 ];
 
 export default pages;
