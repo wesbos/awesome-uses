@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Eric Oyanadel',
+    description:
+      'Artist - Developer - Musician',
+    url: 'https://www.oyanadel.com/uses/',
+    twitter: '@EricOyanadel',
+    emoji: '🌻',
+    country: '🇨🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Javascript',
+      'React',
+      'Node',
+      'Design',
+      'Full Stack',
+      'Writer',
+    ],
+  },
 ];
 
 export default pages;
