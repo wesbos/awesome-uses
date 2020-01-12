@@ -2064,6 +2064,29 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: "Thomas Large",
+    description:
+      "I like to use tech to build awesome things that makes peoples lives better",
+    url: "https://tomlarge.dev/uses",
+    emoji: " 👨‍💻",
+    country: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "Full Stack",
+      "Ruby on Rails",
+      "JavaScript",
+      "React",
+      "React Native",
+      "TypeScript",
+      "Wordpress",
+      "DevOps",
+      "Node",
+      "GraphQL"
+    ]
+  },
 ];
 
 export default pages;
