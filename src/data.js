@@ -2067,7 +2067,7 @@ const pages = [
   {
     name: "Thomas Large",
     description:
-      "I like to use tech to build awesome things that makes peoples lives better",
+      "My name is Tom! I write code",
     url: "https://tomlarge.dev/uses",
     emoji: " 👨‍💻",
     country: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
