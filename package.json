@@ -12,6 +12,7 @@
   "dependencies": {
     "@actions/core": "^1.2.0",
     "@hapi/joi": "^17.0.2",
+    "algoliasearch": "^3.35.1",
     "country-emoji": "^1.5.0",
     "esm": "^3.2.25",
     "gatsby": "^2.18.12",
@@ -29,6 +30,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "react-instantsearch-dom": "^6.1.0",
     "styled-components": "5.0.0-rc.3"
   },
   "scripts": {
@@ -40,6 +42,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
+    "dotenv": "^8.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",

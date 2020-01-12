@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 const FilterContext = createContext();
 
 const FilterProvider = function({ children }) {
-  const [currentTag, setCurrentTag] = useState('all');
+  const [currentTag, setCurrentTag] = useState('');
 
   const { allTag, allCountry, allDevice } = useStaticQuery(graphql`
     query FilterQuery {

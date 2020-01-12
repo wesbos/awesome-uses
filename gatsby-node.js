@@ -1,5 +1,12 @@
+require('dotenv').config();
+import algoliasearch from 'algoliasearch';
+
 import people from './src/data.js';
 import { tags, countries, devices } from './src/util/stats';
+
+const client = algoliasearch('64JKWG60NQ', process.env.ALGOLIA_ADMIN_KEY);
+const peopleIndex = client.initIndex('people');
+const tempIndex = client.initIndex('temp');
 
 function sourceNodes({ actions, createNodeId, createContentDigest }) {
   // Add People to the GraphQL API, we randomize the data on each build so no one gets their feelings hurt
@@ -71,6 +78,30 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     };
     actions.createNode({ ...device, ...nodeMeta });
   });
+
+  // Algolia reindex data
+  client
+    .copyIndex(peopleIndex.indexName, tempIndex.indexName, [
+      'settings',
+      'synonyms',
+      'rules',
+    ])
+    .then(({ taskID }) => tempIndex.waitTask(taskID))
+    .then(() => {
+      const objects = people.map(person => ({
+        ...person,
+        filterAttributes: [
+          ...person.tags,
+          person.country,
+          person.phone,
+          person.computer,
+        ],
+      }));
+      return tempIndex.addObjects(objects);
+    })
+    .then(({ taskID }) => tempIndex.waitTask(taskID))
+    .then(() => client.moveIndex(tempIndex.indexName, peopleIndex.indexName))
+    .catch(err => console.error(err));
 }
 
 export { sourceNodes };

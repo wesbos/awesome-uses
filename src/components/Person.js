@@ -2,70 +2,67 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
+
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
 
-export default function Person({ person, currentTag }) {
-  const url = new URL(person.url);
+function Person({ hit, currentTag }) {
+  const url = new URL(hit.url);
   const img = `https://logo.clearbit.com/${url.host}`;
   return (
     <PersonWrapper>
       <PersonInner>
         <header>
-          <img width="50" height="50" src={img} alt={person.name} />
+          <img width={50} height={50} src={img} alt={hit.name} />
           <h3>
-            <a href={person.url} target="_blank" rel="noopener noreferrer">
-              {person.name} {person.emoji}
+            <a href={hit.url} target="_blank" rel="noopener noreferrer">
+              {hit.name} {hit.emoji}
             </a>
           </h3>
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="displayLink"
-            href={person.url}
+            href={hit.url}
           >{`${url.host}${
             url.pathname.endsWith('/')
               ? url.pathname.substr(0, url.pathname.length - 1)
               : url.pathname
           }`}</a>
         </header>
-        <p>{person.description}</p>
+        <p>{hit.description}</p>
         <Tags>
-          {person.tags.map(tag => (
-            <Tag key={tag} as="li" currentTag={tag === currentTag} small>
+          {hit.tags.map(tag => (
+            <Tag key={`${hit.name}-${tag}`} as="li" currentTag={tag === currentTag} small>
               {tag}
             </Tag>
           ))}
         </Tags>
       </PersonInner>
       <PersonDeets>
-        <span className="country" title={name(person.country)}>
-          {person.country}
+        <span className="country" title={name(hit.country)}>
+          {hit.country}
         </span>
-        {person.computer && (
-          <span title={`Computer: ${person.computer}`}>
-            <img
-              height="40"
-              src={icons[person.computer]}
-              alt={person.computer}
-            />
+        {hit.computer && (
+          <span title={`Computer: ${hit.computer}`}>
+            <img height={40} src={icons[hit.computer]} alt={hit.computer} />
           </span>
         )}
-        {person.phone && (
-          <span title={`Uses an ${person.phone}`}>
-            <img height="50" src={icons[person.phone]} alt={person.phone} />
+        {hit.phone && (
+          <span title={`Uses an ${hit.phone}`}>
+            <img height={50} src={icons[hit.phone]} alt={hit.phone} />
           </span>
         )}
 
-        {person.twitter && (
+        {hit.twitter && (
           <TwitterHandle>
             <a
-              href={`https://twitter.com/${person.twitter}`}
+              href={`https://twitter.com/${hit.twitter}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="at">@</span>
-              {person.twitter.replace('@', '')}
+              {hit.twitter.replace('@', '')}
             </a>
           </TwitterHandle>
         )}
@@ -76,7 +73,7 @@ export default function Person({ person, currentTag }) {
 
 Person.propTypes = {
   currentTag: PropTypes.string,
-  person: PropTypes.shape({
+  hit: PropTypes.shape({
     github: PropTypes.string,
     name: PropTypes.string,
     url: PropTypes.string,
@@ -96,6 +93,8 @@ Person.propTypes = {
     },
   }),
 };
+
+export default Person;
 
 // Component Styles
 const PersonWrapper = styled.div`

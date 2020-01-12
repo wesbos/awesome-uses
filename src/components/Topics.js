@@ -1,16 +1,18 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { connectMenu } from 'react-instantsearch-dom';
+
 import FilterContext from '../context/FilterContext';
 import * as icons from '../util/icons';
 
-export default function Topics() {
+const Topics = ({ refine }) => {
   const { countries, tags, devices, currentTag, setCurrentTag } = useContext(
     FilterContext
   );
-
   return (
     <Tags>
-      {tags.map(tag => (
+      {tags.map((tag, index) => (
         <Tag
           currentTag={tag.name === currentTag}
           htmlFor={`filter-${tag.name}`}
@@ -23,7 +25,14 @@ export default function Topics() {
             id={`filter-${tag.name}`}
             value={tag.name}
             checked={tag.name === currentTag}
-            onChange={e => setCurrentTag(e.currentTarget.value)}
+            onChange={e => {
+              if (index <= 0) {
+                refine('');
+              } else {
+                refine(e.currentTarget.value);
+              }
+              setCurrentTag(e.currentTarget.value);
+            }}
           />
           {tag.name}
           <TagCount>{tag.count}</TagCount>
@@ -44,7 +53,10 @@ export default function Topics() {
             id={`filter-${tag.name}`}
             value={tag.emoji}
             checked={tag.emoji === currentTag}
-            onChange={e => setCurrentTag(e.currentTarget.value)}
+            onChange={e => {
+              refine(e.currentTarget.value);
+              setCurrentTag(e.currentTarget.value);
+            }}
           />
           <TagEmoji>{tag.emoji}</TagEmoji>
           <TagCount>{tag.count}</TagCount>
@@ -65,7 +77,10 @@ export default function Topics() {
             id={`filter-${tag.name}`}
             value={tag.name}
             checked={tag.name === currentTag}
-            onChange={e => setCurrentTag(e.currentTarget.value)}
+            onChange={e => {
+              refine(e.currentTarget.value);
+              setCurrentTag(e.currentTarget.value);
+            }}
           />
           <img height="20px" src={icons[tag.name]} alt={tag.name} />
           <TagCount>{tag.count}</TagCount>
@@ -73,10 +88,16 @@ export default function Topics() {
       ))}
     </Tags>
   );
-}
+};
+
+Topics.propTypes = {
+  refine: PropTypes.func.isRequired,
+};
+
+export default connectMenu(Topics);
 
 // Component Styles
-const Tags = styled.div`
+export const Tags = styled.div`
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -84,15 +105,15 @@ const Tags = styled.div`
   flex-wrap: wrap;
 `;
 
-const Tag = styled.label`
+export const Tag = styled.label`
   background: var(--pink);
   margin: 2px;
   border-radius: 3px;
-  font-size: ${props => (props.small ? `1.2rem;` : `1.7rem;`)};
+  font-size: ${props => (props.small ? '1.2rem' : '1.7rem')};
   padding: 5px;
   color: hsla(0, 100%, 100%, 0.8);
   transition: background-color 0.2s;
-  cursor: ${props => (props.clickable? "pointer" : "default")};
+  cursor: ${props => (props.clickable ? 'pointer' : 'default')};
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
@@ -119,5 +140,3 @@ const TagCount = styled.span`
   border-radius: 2px;
   margin-left: 5px;
 `;
-
-export { Tag, Tags };
