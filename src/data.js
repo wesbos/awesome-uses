@@ -2064,6 +2064,22 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Jan-Lukas Else',
+    description:
+      'Computer Science Student, Developer & Blogger from Germany',
+    url: 'https://jlelse.dev/uses/',
+    twitter: '@jlelse',
+    emoji: '🤓',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Student',
+      'Developer',
+      'Blogger',
+    ],
+  },
 ];
 
 export default pages;
