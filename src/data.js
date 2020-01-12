@@ -2294,6 +2294,26 @@ const pages = [
       'UX',
       'Blogger',
       'Designer',
+    ]
+  },
+  {
+    name: 'Florian Kapfenberger',
+    description:
+      'Frontend developer from Austria who likes to create modern applications with React (Native)',
+    url: 'https://phiilu.com/uses',
+    twitter: '@phiilu',
+    emoji: '🐢',
+    country: '🇦🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'JavaScript',
+      'Blogger',
+      'React',
+      'Gatsby'
     ],
   },
 ];
