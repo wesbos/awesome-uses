@@ -2064,6 +2064,25 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Shiveen Pandita',
+    description:
+      'Fullstack developer and blogger from Sydney',
+    url: 'https://shiveenp.com/uses/',
+    twitter: '@shavzer',
+    emoji: '🧙🏽',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Kotlin',
+      'Full Stack Developer',
+      'VueJS',
+      'React',
+      'Writer'
+    ],
+  },
 ];
 
 export default pages;
