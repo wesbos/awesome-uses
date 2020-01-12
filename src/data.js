@@ -2064,6 +2064,32 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Michał Miszczyszyn',
+    description:
+      'Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.',
+    url: 'https://typeofweb.com/wspolpraca/',
+    twitter: '@mmiszy',
+    emoji: '🙅‍♂️',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'Blogger',
+      'Speaker',
+      'Mentor',
+      'JavaScript',
+      'React',
+      'Node',
+      'TypeScript',
+      'Rust',
+      'ReasonML'
+    ],
+  },
 ];
 
 export default pages;
