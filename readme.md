@@ -36,11 +36,9 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
 * [Sam Cross](https://sam-cross.github.io/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
-* [Rene Pot](https://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
+* [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
-* [Troy Forster](https://tforster.com/uses) — Consulting Technology Director and CTO for Hire
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
-* [Hussain Aminu](https://hussain4real.github.io/Portfolio/uses) — Web Developer, Data Scientist
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
 * [Adam Jahnke](https://adamyonk.com/uses) — Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.
 * [Andrew Healey](https://healeycodes.com/uses) — Software Engineer, Writer, Learner!
@@ -80,7 +78,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Llop](https://davidllop.com/uses) — Full stack developer from Girona. Open Source contributor. Always Learning.
 * [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
-* [Sanket Gandhi](https://sanketgandhi.com/uses) — Software Engineer
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
@@ -89,7 +86,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gokulakrishnan Kalaikovan](https://gokul.site/uses) — Web Developer, GDE, Open Source contributor, Speaker
 * [James Brooks](https://james.brooks.page/uses/) — Software Developer at Laravel and Podcaster
 * [Byurhan Beyzat](https://byurhanbeyzat.com/uses) — Front-End Developer. Engineer. Occasional blogger.
-* [Richard Palacios G.](https://www.richardpalaciosg.dev/uses) — Web Developer, passionate apprentice, Community co-organizer
 * [Mike Barkmin](https://www.barkmin.eu/uses/) — I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.
 * [Hugo Di Francesco](https://codewithhugo.com/uses/) — JavaScript developer, blogger at codewithhugo.com, author of 'Professional JavaScript' with Packt.
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
@@ -104,9 +100,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
-* [Martin Chammah](https://martinchammah.dev/uses) — Full Stack Gatsby Developer @ ecomerciar
 * [Pedro Assunção](https://pedroassuncao.com/pages/uses) — Senior Fullstack Software Developer, Tutorial Maker, Blogger
-* [Marek Racík](https://racik.info/uses) — Full Stack Developer
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
@@ -114,22 +108,16 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
 * [Chiamaka Ikeanyi](https://chiamakaikeanyi.dev/uses) — Software Engineer, Technical Writer, Poet
 * [Francis Sunday](https://hakaselogs.me/2020-01-10/what-i-use) — Software Engineer | Gopher | Hacker
-* [Juan Manuel Incaurgarat](https://kilinkis.me/uses) — Front end developer
 * [Jared Clifton-Lee](https://jared.clifton-lee.com/uses) — Engineer of code; manager of people; trainer of cats
-* [Carlos Junod](http://carlosjunod.me/uses/) — Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer
 * [James Kemp](https://www.jameskemp.dev/uses/) — Web Developer, Blogger, Freelancer
 * [Tom Hazledine](https://tomhazledine.com/uses) — Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.
-* [Khriztian Moreno](https://khriztianmoreno.dev/uses) — #Javascript Developer 🥑& Community builder 👨🏻‍💻♥️👨🏻‍🏫 | #MDE at @cloudinary | Producer @commitfm 🎙📻 | Co-Organize of @MedellinJS @avanetr
 * [Mihai Serban](https://www.mihaiserban.dev/uses) — Software engineer in constant search for new and exciting technologies
 * [Nick Janetakis](https://nickjanetakis.com/uses) — Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast
 * [Kaleigh Scruggs](https://kaleighscruggs.com/uses) — Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom
 * [Ste Grainer](https://stegrainer.com/uses) — Designer, Developer
-* [Yuri Yakovlev](https://mynameisyuri.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover
 * [José Carlos Correa](https://jossdz.com/uses) — Fullstack developer and speaker. Lead teacher @ironhack and gatsby teacher @platzi. Learning all the time.
 * [Erv Walter](https://blog.ewal.net/uses/) — Father, Husband, Web Developer, Board Game Addict
-* [Carlos Andres Charris Sandoval](https://carloscharris.com/uses) — Software Engineer
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
-* [Ændrew Rininsland](https://aendrew.com/uses) — Developer-Journalist
 * [Elliot Bonneville](https://elliotbonneville.com/uses) — Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
