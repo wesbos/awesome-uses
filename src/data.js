@@ -2013,6 +2013,22 @@ const pages = [
     ],
   },
   {
+    name: 'Philip Theobald',
+    description: 'Guitar player, motorcyclist, software engineer, entreprenuer',
+    url: 'https://www.philiptheobald.com/uses/',
+    twitter: '@fylzero',
+    emoji: '🤑',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Laravel',
+      'Vue',
+      'WordPress'
+    ],
+  },
+  {
     name: 'Alejandro G. Anglada',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌',
