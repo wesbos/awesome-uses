@@ -2064,6 +2064,27 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Pawel Grzybek',
+    description: 'Software Engineer',
+    url: 'https://pawelgrzybek.com/uses/',
+    twitter: '@pawelgrzybek',
+    emoji: '🥑',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Node',
+      'Software Engineer',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'Blogger',
+    ],
+  },
 ];
 
 export default pages;
