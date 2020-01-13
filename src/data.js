@@ -82,7 +82,7 @@ const pages = [
     name: 'Conrad Mugisha',
     description:
       'Software Developer. Lover of challenges',
-    url: 'https://aless.co/uses',
+    url: 'https://github.com/conrad96',
     twitter: '@conradmugisha',
     emoji: '😎',
     country: 'UG',
