@@ -79,6 +79,23 @@ const pages = [
     ],
   },
   {
+  	name: 'Sam Cross',
+  	description: '"Developer", IT student, frequent traveller by coach, addicted to music.',
+  	url: 'https://sam-cross.github.io/uses',
+  	twitter: '@samcrxss',
+  	emoji: '🎵',
+  	country: '🇬🇧',
+  	computer: 'windows',
+  	phone: 'android',
+  	tags: [
+  		'Developer',
+  		'JavaScript',
+  		'React',
+  		'Node',
+  		'CSS',
+  	]
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
@@ -351,26 +368,6 @@ const pages = [
       'JavaScript',
       'Python',
       'Golang',
-    ],
-  },
-  {
-    name: 'Rick Calder',
-    description:
-      'Full Stack Developer, Amateur Writer mostly hockey and development, Hack Musician',
-    url: 'https://calder.io',
-    twitter: '@calder12',
-    emoji: '🤷🏾‍♂️',
-    country: '🇨🇦',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Full Stack',
-      'Developer',
-      'Web Developer',
-      'JavaScript',
-      'PHP',
-      'Elixir',
-      'Go',
     ],
   },
   {
@@ -1051,17 +1048,6 @@ const pages = [
     ],
   },
   {
-    name: 'Douglas Andreani',
-    description: 'Software Engineer and Tinkerer',
-    url: 'https://andreanidr.com',
-    twitter: '@andreanidouglas',
-    emoji: '🐱‍🐉',
-    country: '🇧🇷',
-    computer: 'linux',
-    phone: 'android',
-    tags: ['Developer', 'Back End', 'C', 'Go', 'Rust', 'C#'],
-  },
-  {
     name: 'Byurhan Beyzat',
     description: 'Front-End Developer. Engineer. Occasional blogger.',
     url: 'https://byurhanbeyzat.com/uses',
@@ -1228,24 +1214,6 @@ const pages = [
       'Vue',
       'Node',
       'Docker',
-    ],
-  },
-  {
-    name: 'Mike Williamson',
-    description: 'Into IoT, BLE, node.js, Android and iOS native apps',
-    url: 'http://dikuw.com/',
-    twitter: '@dikuw',
-    emoji: '💻',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'JavaScript',
-      'Node',
-      'CSS',
     ],
   },
   {
