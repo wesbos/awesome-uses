@@ -132,6 +132,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
+* [Alejandro G. Anglada](https://aganglada.com/uses) - Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
