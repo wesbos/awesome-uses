@@ -2297,6 +2297,17 @@ const pages = [
     ]
   },
   {
+    name: 'Christopher Wavrin',
+    description: 'Full Stack Developer',
+    url: 'https://wavrin.com/uses',
+    twitter: '@wavrin',
+    emoji: '🤨',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Ruby On Rails', 'Vue.js', 'Web Development', 'Full Stack', 'AWS']
+  },
+  {
     name: 'Florian Kapfenberger',
     description:
       'Frontend developer from Austria who likes to create modern applications with React (Native)',
