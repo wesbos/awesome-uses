@@ -116,7 +116,7 @@ const pages = [
     name: 'Sam Cross',
     description:
       '"Developer", IT student, frequent traveller by coach, addicted to music.',
-    url: 'https://sam-cross.github.io/uses',
+    url: 'http://sam-cross.github.io/uses',
     twitter: '@samcrxss',
     emoji: '🎵',
     country: '🇬🇧',
