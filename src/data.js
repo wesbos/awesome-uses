@@ -2064,6 +2064,31 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Sergey Lysenko',
+    description: 'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
+    url: 'https://soulwish.info/uses/',
+    twitter: '@Soul_Wish',
+    emoji: '🔥',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Full Stack',
+      'Front End',
+      'Teacher',
+      'Speaker',
+      'JavaScript',
+      'React',
+      'AngularJS',
+      'Node',
+      'CSS',
+      'HTML',
+      'Performance',
+    ],
+  },
 ];
 
 export default pages;
