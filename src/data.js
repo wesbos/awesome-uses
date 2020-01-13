@@ -1817,6 +1817,25 @@ const pages = [
     ],
   },
   {
+    name: 'Dave Berning',
+    description: 'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
+    url: 'https://daveberning.io/uses/',
+    twitter: '@daveberning',
+    emoji: '🦄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Typescript',
+      'HTML',
+      'CSS',
+      'Vue',
+      'Developer',
+      'Writer',
+    ],
+  },
+  {
     name: 'Jan-Lukas Else',
     description:
       'Computer Science Student, Developer & Blogger from Germany',
