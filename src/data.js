@@ -2031,6 +2031,24 @@ const pages = [
     ],
   },
   {
+    name: 'Eduardo Reveles',
+    description: 'Web Engineer, Husband, Gamer.',
+    url: 'https://www.osiux.ws/about/uses',
+    twitter: '@osiux',
+    emoji: '🐈',
+    country: '🇲🇽',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'JavaScript',
+      'Laravel',
+      'React',
+    ],
+  },
+  {
     name: 'Oscar Sánchez',
     description:
       'Passionate developer, traveler and drummer from Perú',
