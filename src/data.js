@@ -1817,6 +1817,22 @@ const pages = [
     ],
   },
   {
+    name: 'Jan-Lukas Else',
+    description:
+      'Computer Science Student, Developer & Blogger from Germany',
+    url: 'https://jlelse.dev/uses/',
+    twitter: '@jlelse',
+    emoji: '🤓',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Student',
+      'Developer',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Seyhun Akyürek',
     description:
       'Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails',
