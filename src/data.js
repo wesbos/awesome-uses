@@ -2064,6 +2064,28 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'Anatoliy Kirsantov',
+    description:
+      'Frontend Developer. UI/UX designer. Mobile. Startups Founder.',
+    url: 'https://kirsantov.com/uses/',
+    twitter: '@kirsantov',
+    emoji: '🤖',
+    country: '🇷🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Front End',
+      'React',
+      'React Native',
+      'Node',
+      'Full Stack',
+      'Entrepreneur',
+      'Founder',
+    ],
+  },
 ];
 
 export default pages;
