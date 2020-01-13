@@ -1399,26 +1399,6 @@ const pages = [
     ],
   },
   {
-    name: 'Andrej Jovanovic',
-    description: 'DevOps System Engineer, Coder, Hardworker',
-    url: 'https://blog.andrejjovanovic.com/uses',
-    twitter: '@andrejovanovic1',
-    emoji: '💡',
-    country: '🇭🇷',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'DevOps',
-      'Engineer',
-      'Designer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Python',
-      'Go',
-    ],
-  },
-  {
     name: 'Josh Farrant',
     description:
       'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
