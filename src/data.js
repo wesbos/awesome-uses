@@ -37,6 +37,24 @@ const pages = [
     ],
   },
   {
+    name: 'Matt Jennings',
+    description:
+      'web dev, hockey | tradebreaker.io',
+    url: 'https://mattjennings.io/uses',
+    twitter: '@mattjennings44',
+    emoji: '🏒',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Hockey'
+    ],
+  },
+  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
