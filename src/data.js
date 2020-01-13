@@ -2013,6 +2013,27 @@ const pages = [
     ],
   },
   {
+    name: 'Oscar Sánchez',
+    description:
+      'Passionate developer, traveler and drummer from Perú',
+    url: 'https://devlusaja.com',
+    twitter: '@dev_lusaja',
+    emoji: '💻🛩💪',
+    country: '🇵🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Software Architect',
+      'Python',
+      'PHP',
+      'Docker',
+      'Graphql',
+      'AWS',
+      'Open Source'
+    ],
+  },
+  {
     name: 'Thomas Maximini',
     description: 'Freelance software developer from Germany.',
     url: 'https://www.maxi.io/uses/',
