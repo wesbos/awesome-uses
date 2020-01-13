@@ -2064,6 +2064,29 @@ const pages = [
       'YouTuber',
     ],
   },
+  {
+    name: 'David Leuliette',
+    description: 'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
+    url: 'https://davidl.fr/uses',
+    twitter: '@flexbox_',
+    emoji: '⚡',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Designer',
+      'Front End',
+      'Entrepreneur',
+      'Teacher',
+      'Speaker',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'CSS',
+      'GraphQL',
+    ],
+  }  
 ];
 
 export default pages;
