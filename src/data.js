@@ -37,6 +37,28 @@ const pages = [
     ],
   },
   {
+    name: 'Habbat Adnan',
+    description:
+      'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
+    url: 'https://adncodez.com/uses',
+    twitter: '@adncodez',
+    emoji: '🐍',
+    country: '🇲🇦',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Freelancer',
+      'Python',
+      'Django',
+      'JavaScript',
+      'CSS',
+      'Docker',
+    ],
+  },
+  {
+
     name: 'Carter McAlister',
     description: 'Software Engineer, Digital Nomad, Lover of the Outdoors',
     url: 'https://cartermcalister.dev/uses',
