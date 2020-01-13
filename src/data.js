@@ -2095,6 +2095,29 @@ const pages = [
       'CSS',
     ],
   },
+  
+  {
+    name: 'Adam Urban',
+    description:
+      "coder, father, left-handed",
+    url: 'https://urbanisierung.dev/uses/',
+    twitter: '@urbanisierung',
+    emoji: '🚀',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Full Stack',
+      'Designer',
+      'TypeScript',
+      'Angular',
+      'Node',
+      'i3',
+      'Serverless',
+      'GCP',
+    ],
+  },
 ];
 
 export default pages;
