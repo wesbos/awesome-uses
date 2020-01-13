@@ -2013,6 +2013,23 @@ const pages = [
     ],
   },
   {
+    name: 'Marcus Obst',
+    description: 'Webdeveloper, Music Lover',
+    url: 'https://marcus-obst.de/uses',
+    emoji: '🍊',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'JavaScript',
+      'CSS',
+      'Vue'
+    ],
+  },
+  {
     name: 'Pawel Grzybek',
     description: 'Software Engineer',
     url: 'https://pawelgrzybek.com/uses/',
