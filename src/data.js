@@ -1817,6 +1817,29 @@ const pages = [
     ],
   },
   {
+    name: "Thomas Large",
+    description:
+      "My name is Tom! I write code",
+    url: "https://tomlarge.dev/uses",
+    emoji: " 👨‍💻",
+    country: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "Full Stack",
+      "Ruby on Rails",
+      "JavaScript",
+      "React",
+      "React Native",
+      "TypeScript",
+      "Wordpress",
+      "DevOps",
+      "Node",
+      "GraphQL"
+    ]
+  },
+  {
     name: 'Amit Merchant',
     description: 'Maker of things. Open-source enthusiast. Blogger. ',
     url: 'https://www.amitmerchant.com/uses',
