@@ -1804,26 +1804,6 @@ const pages = [
     tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'Laravel', 'React'],
   },
   {
-    name: 'Oscar Sánchez',
-    description: 'Passionate developer, traveler and drummer from Perú',
-    url: 'https://devlusaja.com',
-    twitter: '@dev_lusaja',
-    emoji: '💻🛩💪',
-    country: '🇵🇪',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Software Architect',
-      'Python',
-      'PHP',
-      'Docker',
-      'Graphql',
-      'AWS',
-      'Open Source',
-    ],
-  },
-  {
     name: 'Thomas Maximini',
     description: 'Freelance software developer from Germany.',
     url: 'https://www.maxi.io/uses/',
@@ -1990,7 +1970,56 @@ export default pages;
 //   ],
 // },
 
-// No /uses page (404)
+// Times out
+// {
+//   name: 'Carlos Andres Charris Sandoval',
+//   description: 'Software Engineer',
+//   url: 'https://carloscharris.com/uses',
+//   twitter: '@Darkklitos',
+//   emoji: '🔥',
+//   country: '🇨🇴',
+//   computer: 'apple',
+//   phone: 'android',
+//   tags: [
+//     'Developer',
+//     'Full Stack',
+//     'JavaScript',
+//     'TypeScript',
+//     'Angular',
+//     'Vue',
+//     'React',
+//     'Node',
+//     'Java',
+//     'Docker',
+//     'Serverless',
+//   ],
+// },
+
+// Times out
+// {
+//   name: 'Carlos Junod',
+//   description:
+//     'Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer',
+//   url: 'http://carlosjunod.me/uses/',
+//   twitter: '@carlosjunod',
+//   emoji: '🥑',
+//   country: '🇨🇱',
+//   computer: 'apple',
+//   phone: 'iphone',
+//   tags: [
+//     'Developer',
+//     'Full Stack',
+//     'React',
+//     'Designer',
+//     'Entrepreneur',
+//     'JavaScript',
+//     'Node',
+//     'CSS',
+//     'HTML',
+//   ],
+// },
+
+// No /uses page
 // {
 //   name: 'Hussain Aminu',
 //   description: 'Web Developer, Data Scientist',
@@ -2101,40 +2130,25 @@ export default pages;
 //   ],
 // },
 
-// Weird redirect to YouTube Video
+// No /uses page
 // {
-//   name: 'Juan Manuel Incaurgarat',
-//   description: 'Front end developer',
-//   url: 'https://kilinkis.me/uses',
-//   twitter: '@kilinkis',
-//   emoji: '🏀',
-//   country: '🇦🇷',
-//   computer: 'apple',
+//   name: 'Oscar Sánchez',
+//   description: 'Passionate developer, traveler and drummer from Perú',
+//   url: 'https://devlusaja.com',
+//   twitter: '@dev_lusaja',
+//   emoji: '💻🛩💪',
+//   country: '🇵🇪',
+//   computer: 'linux',
 //   phone: 'android',
-//   tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node'],
-// },
-
-// DEAD site
-// {
-//   name: 'Carlos Junod',
-//   description:
-//     'Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer',
-//   url: 'http://carlosjunod.me/uses/',
-//   twitter: '@carlosjunod',
-//   emoji: '🥑',
-//   country: '🇨🇱',
-//   computer: 'apple',
-//   phone: 'iphone',
 //   tags: [
 //     'Developer',
-//     'Full Stack',
-//     'React',
-//     'Designer',
-//     'Entrepreneur',
-//     'JavaScript',
-//     'Node',
-//     'CSS',
-//     'HTML',
+//     'Software Architect',
+//     'Python',
+//     'PHP',
+//     'Docker',
+//     'Graphql',
+//     'AWS',
+//     'Open Source',
 //   ],
 // },
 
@@ -2187,31 +2201,6 @@ export default pages;
 //   ],
 // },
 
-// Times out
-// {
-//   name: 'Carlos Andres Charris Sandoval',
-//   description: 'Software Engineer',
-//   url: 'https://carloscharris.com/uses',
-//   twitter: '@Darkklitos',
-//   emoji: '🔥',
-//   country: '🇨🇴',
-//   computer: 'apple',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'JavaScript',
-//     'TypeScript',
-//     'Angular',
-//     'Vue',
-//     'React',
-//     'Node',
-//     'Java',
-//     'Docker',
-//     'Serverless',
-//   ],
-// },
-
 // Empty /uses page
 // {
 //   name: 'Ændrew Rininsland',
@@ -2236,4 +2225,17 @@ export default pages;
 //     'React',
 //     'D3',
 //   ],
+// },
+
+// Weird redirect to YouTube Video
+// {
+//   name: 'Juan Manuel Incaurgarat',
+//   description: 'Front end developer',
+//   url: 'https://kilinkis.me/uses',
+//   twitter: '@kilinkis',
+//   emoji: '🏀',
+//   country: '🇦🇷',
+//   computer: 'apple',
+//   phone: 'android',
+//   tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node'],
 // },
