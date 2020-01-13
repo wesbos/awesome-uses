@@ -124,6 +124,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Dany Paredes](https://danywalls.com/uses) — I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
+* [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
 * [Thomas Large](https://tomlarge.dev/uses) — My name is Tom! I write code
 * [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
