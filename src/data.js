@@ -22,6 +22,26 @@ const pages = [
     ],
   },
   {
+    name: 'Adam Schwartz',
+    description: 'Software developer, designer, film music composer',
+    url: 'https://adamschwartz.co/uses/',
+    twitter: '@adamfschwartz',
+    emoji: '♫',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Composer',
+      'CSS',
+      'Designer',
+      'Developer',
+      'Engineer',
+      'Front End',
+      'JavaScript',
+      'Musician',
+    ],
+  },
+  {
     name: 'Habbat Adnan',
     description:
       'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
