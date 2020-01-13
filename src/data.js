@@ -2075,6 +2075,26 @@ const pages = [
       'Entrepreneur',
     ],
   },
+  {
+    name: 'Ryan Warner',
+    description: 'Software Engineer and Interface Designer. Leader and Mentor.',
+    url: 'https://ryan.warner.codes/uses',
+    emoji: '😄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Designer',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Firebase',
+      'Node',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
