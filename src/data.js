@@ -2030,6 +2030,30 @@ const pages = [
       'React',
     ],
   },
+  {
+    name: 'Jens van Wijhe',
+    description: 'Creative web developer and entrepreneur',
+    url: 'https://jens.ai/uses',
+    twitter: '@jvanwijhe',
+    emoji: '👨🏻‍🚀',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Vue',
+      'Angular',
+      'Ionic',
+      'Firebase',
+      'PHP',
+      'Laravel',
+      'Wordpress',
+      'CSS',
+      'Tailwind',
+    ],
+  },
 ];
 
 export default pages;
