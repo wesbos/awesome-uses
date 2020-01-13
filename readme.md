@@ -34,7 +34,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
-* [Sam Cross](https://sam-cross.github.io/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
+* [Sam Cross](http://sam-cross.github.io/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
@@ -123,7 +123,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
 * [Eduardo Reveles](https://www.osiux.ws/about/uses) — Web Engineer, Husband, Gamer.
-* [Oscar Sánchez](https://devlusaja.com) — Passionate developer, traveler and drummer from Perú
 * [Thomas Maximini](https://www.maxi.io/uses/) — Freelance software developer from Germany.
 * [Philip Theobald](https://www.philiptheobald.com/uses/) — Guitar player, motorcyclist, software engineer, entreprenuer
 * [Alejandro G. Anglada](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌
