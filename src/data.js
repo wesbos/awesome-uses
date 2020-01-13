@@ -2035,8 +2035,7 @@ const pages = [
   },
   {
     name: 'Eric McCormick',
-    description:
-      'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
+    description: 'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
     url: 'https://edm00se.codes/uses/',
     twitter: '@edm00se',
     emoji: '🤔',
@@ -2052,8 +2051,9 @@ const pages = [
       'JavaScript',
       'Vue',
       'Node',
-      'CSS'
-  }
+      'CSS',
+    ]
+  },
 ];
 
 export default pages;
