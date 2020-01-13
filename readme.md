@@ -123,6 +123,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
+* [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
 * [Junaid Qadir](https://junaidqadir.com/uses) — A Full Stack #Laravel Developer
 * [Yurui Zhang](https://gist.github.com/pallymore/6e12133b5c2fa2856a8a6b288e579c01) — Full-stack developer. Dark mode enthusiast. Quality software devotee.
 * [Eduardo Reveles](https://www.osiux.ws/about/uses) — Web Engineer, Husband, Gamer.
