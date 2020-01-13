@@ -2033,6 +2033,28 @@ const pages = [
       'Blogger',
     ],
   },
+  {
+    name: 'Jesse James Burton',
+    description:
+    'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
+    // URL to your /uses page
+    url: 'https://burtonmediainc.com/uses',
+    twitter: '@burtonmedia',
+    emoji: '🙏',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'Nomadic',
+      'JavaScript',
+      'React',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
