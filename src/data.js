@@ -2013,6 +2013,25 @@ const pages = [
     ],
   },
   {
+    name: 'Antoni Kepinski',
+    description:
+      'Node Fetch maintainer // Into Node.js and Rust',
+    url: 'https://kepinski.me/uses/',
+    twitter: '@dokwadratu',
+    emoji: '⚡',
+    country: '🇵🇱',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'TypeScript',
+      'React',
+      'Rust',
+      'Node'
+    ],
+  },
+  {
     name: 'Marcus Obst',
     description: 'Webdeveloper, Music Lover',
     url: 'https://marcus-obst.de/uses',
