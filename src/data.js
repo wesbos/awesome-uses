@@ -2054,6 +2054,27 @@ const pages = [
       'Tailwind',
     ],
   },
+  {
+    name: 'Jacob Herper',
+    description:
+      'Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.',
+    url: 'https://herper.io/uses/',
+    twitter: '@jakeherp',
+    emoji: '👨‍💻',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Front End',
+      'Engineer',
+      'TypeScript',
+      'Performance',
+      'Entrepreneur',
+    ],
+  },
 ];
 
 export default pages;
