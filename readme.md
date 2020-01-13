@@ -124,6 +124,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Dany Paredes](https://danywalls.com/uses) — I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
+* [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
 * [Seyhun Akyürek](https://www.seyhunakyurek.com/uses/) — Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
