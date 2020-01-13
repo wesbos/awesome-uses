@@ -58,7 +58,7 @@ function getStatusCode(url) {
 async function isWorkingUrl(url) {
   try {
     const statusCode = await getStatusCode(url);
-    if (statusCode < 200 || statusCode >= 300) {
+    if (statusCode < 200 || statusCode >= 400) {
       core.error(`Ping to "${url}" failed with status: ${statusCode}`);
       return false;
     }
