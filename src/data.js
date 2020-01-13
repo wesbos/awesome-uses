@@ -1817,6 +1817,25 @@ const pages = [
     ],
   },
   {
+    name: 'Usman Khwaja',
+    description:
+      'Front end engineer, Jamstack developer',
+    url: 'https://usmankhwaja.com/uses',
+    twitter: '@numbfall',
+    emoji: '⛵',
+    country: '🇵🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Jamstack',
+      'JavaScript',
+      'AMP',
+      'CSS',
+    ],
+  },
+  {
     name: "Thomas Large",
     description:
       "My name is Tom! I write code",
