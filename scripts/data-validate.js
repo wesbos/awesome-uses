@@ -82,5 +82,4 @@ async function isWorkingUrl(url) {
       `Action failed with ${failingUrls.length} URL fetch failures, see logs`
     );
   }
-  process.exit(0);
 })();
