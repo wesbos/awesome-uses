@@ -1707,6 +1707,29 @@ const pages = [
     tags: ['Think', 'Apply'],
   },
   {
+    name: 'Troy Forster',
+    description: 'Consulting Technology Director and CTO for Hire',
+    url: 'https://tforster.com/uses',
+    twitter: '@tforster',
+    emoji: '',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Back End',
+      'Front End',
+      'Consultant',
+      'Entrepreneur',
+      'JavaScript',
+      'C#',
+      'PHP',
+      'Serverless',
+      'SOA',
+      'Enterprise',
+    ],
+  },
+  {
     name: 'Elliot Bonneville',
     description:
       'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
@@ -1965,30 +1988,6 @@ const pages = [
 ];
 
 export default pages;
-// Times out
-// {
-//   name: 'Troy Forster',
-//   description: 'Consulting Technology Director and CTO for Hire',
-//   url: 'https://tforster.com/uses',
-//   twitter: '@tforster',
-//   emoji: '',
-//   country: '🇨🇦',
-//   computer: 'windows',
-//   phone: 'android',
-//   tags: [
-//     'Engineer',
-//     'Back End',
-//     'Front End',
-//     'Consultant',
-//     'Entrepreneur',
-//     'JavaScript',
-//     'C#',
-//     'PHP',
-//     'Serverless',
-//     'SOA',
-//     'Enterprise',
-//   ],
-// },
 
 // No /uses page (404)
 // {
