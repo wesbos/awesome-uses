@@ -2199,6 +2199,26 @@ const pages = [
       'CSS',
     ]
   },
+  {
+    name: 'Ben Congdon',
+    description: 'Golang, Python, Rust. Runs in the Cloud.',
+    url: 'https://benjamincongdon.me/uses',
+    twitter: '@BenRCongdon',
+    emoji: '🤷‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Go',
+      'Rust',
+      'Serverless',
+      'Python',
+      'JavaScript',
+      'React',
+    ],
+  },
 ];
 
 export default pages;
