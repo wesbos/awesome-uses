@@ -845,7 +845,7 @@ const pages = [
     name: 'Pavel Melnik',
     description:
       'Web developer, Technology enthusiast, Energy Management System expert',
-    url: 'https://pavel.dev/uses',
+    url: 'https://theopract.gitlab.io/pavel-dev/uses/',
     twitter: '@theopract',
     emoji: '🤟',
     country: '🇷🇺',
