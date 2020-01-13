@@ -1793,6 +1793,28 @@ const pages = [
     ],
   },
   {
+    name: 'Yurui Zhang',
+    description:
+      'Full-stack developer. Dark mode enthusiast. Quality software devotee.',
+    url: 'https://gist.github.com/pallymore/6e12133b5c2fa2856a8a6b288e579c01',
+    twitter: '@yuruiology',
+    emoji: '🐙',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'CSS',
+      'Ruby',
+      'Testing'
+    ],
+  },
+  {
     name: 'Eduardo Reveles',
     description: 'Web Engineer, Husband, Gamer.',
     url: 'https://www.osiux.ws/about/uses',
