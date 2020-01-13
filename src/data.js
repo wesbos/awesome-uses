@@ -2013,6 +2013,17 @@ const pages = [
     ],
   },
   {
+    name: 'Thomas Maximini',
+    description: 'Freelance software developer from Germany.',
+    url: 'https://www.maxi.io/uses/',
+    twitter: '@tmaximini',
+    emoji: '🐍',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['JavaScript', 'React', 'Blogger', 'GraphQL', 'serverless', 'Node', 'Full Stack']
+  },
+  {
     name: 'Philip Theobald',
     description: 'Guitar player, motorcyclist, software engineer, entreprenuer',
     url: 'https://www.philiptheobald.com/uses/',
