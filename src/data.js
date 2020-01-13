@@ -2071,7 +2071,7 @@ const pages = [
     url: 'https://www.linkedin.com/in/mumairofficial',
     twitter: '@imumare',
     emoji: '💻',
-    country: 'PK',
+    country: '🇵🇰',
     computer: 'windows',
     phone: 'android',
     tags: [
