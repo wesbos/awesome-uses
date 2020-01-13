@@ -15,7 +15,8 @@ const schema = Joi.object({
   description: Joi.string().required(),
   url: Joi.string()
     .uri()
-    .required(),
+    .required()
+    .pattern(/(use|uses|using|setup|environment|^https:\/\/gist.github.com\/)/),
   country: Joi.string()
     .valid(...flags)
     .required(),
