@@ -39,7 +39,7 @@ errors.forEach(e => {
 if (errors.length) {
   core.setFailed('Action failed with validation errors, see logs');
 }
-const REQUEST_TIMEOUT = 5000;
+const REQUEST_TIMEOUT = 10000;
 
 function getStatusCode(url) {
   const client = url.startsWith('https') ? https : http;
