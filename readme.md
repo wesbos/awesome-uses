@@ -103,7 +103,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Scott Spence](https://scottspence.me#uses) — Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
-* [Andrej Jovanovic](https://blog.andrejjovanovic.com/uses) — DevOps System Engineer, Coder, Hardworker
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Martin Chammah](https://martinchammah.dev/uses) — Full Stack Gatsby Developer @ ecomerciar
 * [Pedro Assunção](https://pedroassuncao.com/pages/uses) — Senior Fullstack Software Developer, Tutorial Maker, Blogger
