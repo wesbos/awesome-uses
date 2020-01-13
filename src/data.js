@@ -37,6 +37,26 @@ const pages = [
     ],
   },
   {
+    name: 'Adam Schwartz',
+    description: 'Software developer, designer, film music composer',
+    url: 'https://adamschwartz.co/uses/',
+    twitter: '@adamfschwartz',
+    emoji: '♫',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Composer',
+      'CSS',
+      'Designer',
+      'Developer',
+      'Engineer',
+      'Front End',
+      'JavaScript',
+      'Musician',
+    ],
+  },
+  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
