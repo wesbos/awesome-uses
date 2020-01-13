@@ -122,6 +122,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Elliot Bonneville](https://elliotbonneville.com/uses) — Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
+* [Dany Paredes](https://danywalls.com/uses) — I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
 * [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
 * [Junaid Qadir](https://junaidqadir.com/uses) — A Full Stack #Laravel Developer
