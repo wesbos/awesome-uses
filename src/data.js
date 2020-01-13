@@ -84,8 +84,8 @@ const pages = [
       'Software Developer. Lover of challenges',
     url: 'https://github.com/conrad96',
     twitter: '@conradmugisha',
-    emoji: '😎',
-    country: 'UG',
+    emoji: ':alien:',
+    country: '🇺🇬',
     computer: 'DELL',
     phone: 'ROYALE',
     tags: [
