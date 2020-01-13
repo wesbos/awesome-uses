@@ -1,6 +1,6 @@
 We need to move these people over to the data.js file:
 
-https://github.com/wesbos/awesome-uses/blob/website/src/data.js
+https://github.com/wesbos/awesome-uses/blob/master/src/data.js
 
 Grab a random person, and fill out the info as best as possible.
 
