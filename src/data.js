@@ -22,6 +22,29 @@ const pages = [
     ],
   },
   {
+    name: 'Silvestar Bistrović',
+    description:
+      'Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.',
+    url: 'https://www.silvestar.codes/uses/',
+    twitter: '@malimirkeccita',
+    emoji: '🤘',
+    country: '🇭🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'WordPress',
+      'Serverless',
+      'JAMstack',
+      'Blogger',
+      'Developer',
+      'Front End',
+      'Remote'
+    ],
+  },
+  {
     name: 'Adam Schwartz',
     description: 'Software developer, designer, film music composer',
     url: 'https://adamschwartz.co/uses/',
