@@ -152,5 +152,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
+* [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
