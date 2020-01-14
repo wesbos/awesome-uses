@@ -2386,6 +2386,28 @@ const pages = [
       'Electron',
     ],
   },
+  {
+    name: 'Kevin Woblick',
+    description: 'I turn Pizza into Code and Photos',
+    url: 'https://www.kovah.de/uses/',
+    twitter: '@kovah_kvh',
+    emoji: '👨‍💻',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'Full Stack',
+      'DevOps',
+      'PHP',
+      'JavaScript',
+      'Python',
+      'Laravel',
+      'Vue',
+      'Docker',
+      'Blogger',
+    ],
+  },
 ];
 
 export default pages;
