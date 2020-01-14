@@ -2411,7 +2411,7 @@ const pages = [
   {
     name: 'Tarik Omercehajic',
     description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
-    url: 'https://robotz.tech/',
+    url: 'https://robotz.tech/uses/',
     twitter: '@tariktz',
     emoji: '🚀',
     country: '🇧🇦',
