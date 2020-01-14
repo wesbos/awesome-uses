@@ -2328,6 +2328,25 @@ const pages = [
     ],
   },
   {
+    name: 'Jeff Wen',
+    description:
+      'Web Developer, Open Source Contributor',
+    url: 'https://sinchang.me/uses',
+    twitter: '@sinchangwen',
+    emoji: '🍕',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Development',
+      'Front End',
+      'Vue',
+      'React',
+      'Node',
+      'Python'
+    ],
+  },
+  {
     name: 'Andrea Prus',
     description:
       'Full stack developer, blogger',
