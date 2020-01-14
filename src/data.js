@@ -2325,7 +2325,7 @@ const pages = [
       'Blogger',
       'React',
       'Gatsby'
-    ],
+    ]
   },
   {
     name: 'Maria Altyeva Schuessler ',
@@ -2346,7 +2346,7 @@ const pages = [
       'React',
       'Writer', 
       'Ruby on Rails'
-    ],
+    ]
   }
 ];
 
