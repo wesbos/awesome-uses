@@ -25,7 +25,7 @@ const pages = [
     name: 'Eliezer Steinbock',
     description:
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
-    url: 'https://elie.tech',
+    url: 'https://elie.tech/uses',
     twitter: '@elie2222',
     emoji: '🔥',
     country: '🇮🇱',
