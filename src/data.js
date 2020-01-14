@@ -2327,6 +2327,25 @@ const pages = [
       'Gatsby'
     ],
   },
+  {
+    name: 'Jeff Wen',
+    description:
+      'Web Developer, Open Source Contributor',
+    url: 'https://sinchang.me/uses',
+    twitter: '@sinchangwen',
+    emoji: '🍕',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Development',
+      'Front End',
+      'Vue',
+      'React',
+      'Node',
+      'Python'
+    ],
+  },
 ];
 
 export default pages;
