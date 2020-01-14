@@ -2427,6 +2427,26 @@ const pages = [
       'Blogger',
     ],
   },
+  {
+    name: 'Tarik Omercehajic',
+    description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
+    url: 'https://robotz.tech/uses/',
+    twitter: '@tariktz',
+    emoji: '🚀',
+    country: '🇧🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'DevOps',
+      'PHP',
+      'JavaScript',
+      'Go',
+      'Vue',
+      'Web Developer',
+      'Wordpress',
+    ],
+  },
 ];
 
 export default pages;
