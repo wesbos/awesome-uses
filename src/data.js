@@ -2327,6 +2327,26 @@ const pages = [
       'Gatsby'
     ],
   },
+  {
+    name: 'Sercan Eraslan',
+    description: 'Front-End Tech Lead',
+    url: 'http://sercaneraslan.com/uses',
+    twitter: '@sercan_eraslan',
+    emoji: '🎉',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Front-End',
+      'Developer',
+      'Blogger',
+      'React',
+      'Vue',
+      'Angular',
+      'Svelte'
+    ],
+  },
 ];
 
 export default pages;
