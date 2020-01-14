@@ -2665,6 +2665,32 @@ const pages = [
     ],
   },
   {
+    name: 'Michał Miszczyszyn',
+    description:
+      'Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.',
+    url: 'https://typeofweb.com/michal-miszczyszyn-uses/',
+    twitter: '@mmiszy',
+    emoji: '🙅‍♂️',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'Blogger',
+      'Speaker',
+      'Mentor',
+      'JavaScript',
+      'React',
+      'Node',
+      'TypeScript',
+      'Rust',
+      'ReasonML'
+    ],
+  },
+  {
     name: 'Tarik Omercehajic',
     description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
     url: 'https://robotz.tech/uses/',
