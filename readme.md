@@ -30,7 +30,10 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
+* [Silvestar Bistrović](https://www.silvestar.codes/uses/) — Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
 * [Adam Schwartz](https://adamschwartz.co/uses/) — Software developer, designer, film music composer
+* [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
 * [Carter McAlister](https://cartermcalister.dev/uses) — Software Engineer, Digital Nomad, Lover of the Outdoors
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
@@ -125,6 +128,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Dany Paredes](https://danywalls.com/uses) — I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
+* [Shiveen Pandita](https://shiveenp.com/uses/) — Fullstack developer and blogger from Sydney
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
 * [Dave Berning](https://daveberning.io/uses/) — Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.
 * [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
@@ -151,5 +155,14 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Majo Paskuvan](https://paskuvan.us/uses.html) — Front End Developer, Reader, Deaf Person
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
+* [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
+* [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
+* [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
+* [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
+* [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
+* [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
+* [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
+* [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
+* [Tarik Omercehajic](https://robotz.tech/uses/) — DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
