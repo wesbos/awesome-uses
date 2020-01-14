@@ -2346,6 +2346,26 @@ const pages = [
       'CSS',
     ],
   },
+  {
+    name: 'Muhammad Umair',
+    description: 'Fullstack front-end developer and designer, passionate in everything #JavaScript',
+    url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
+    twitter: '@imumare',
+    emoji: '💻',
+    country: '🇵🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Developer',
+      'React',
+      'Angular',
+      'Node',
+      'CSS',
+      'Electron',
+    ],
+  },
 ];
 
 export default pages;
