@@ -2581,6 +2581,28 @@ const pages = [
     ],
   },
   {
+    name: 'Bamuleseyo Gideon',
+    description: 'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
+    url: 'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
+    twitter: '@gideon_b_',
+    emoji: '😎',
+    country: '🇺🇬',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Python',
+      'React',
+      'Angular',
+      'Node',
+      'Flask',
+      'Django',
+      'CSS',
+      'DevC'
+    ],
+  },
+  {
     name: 'Nick Taylor',
     description: 'Just some dev from Montreal, Quebec, Canada',
     url: 'https://www.iamdeveloper.com/uses/',
