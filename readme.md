@@ -151,6 +151,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Majo Paskuvan](https://paskuvan.us/uses.html) — Front End Developer, Reader, Deaf Person
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
+* [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
