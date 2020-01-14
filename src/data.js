@@ -1905,6 +1905,28 @@ const pages = [
     ],
   },
   {
+    name: 'Chris Burgin',
+    description:
+      'Frontend Software Engineer',
+    url: 'https://chrisburgin.me/uses',
+    twitter: '@chrisburgin95',
+    emoji: '🧙🏼‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Teacher',
+      'Node',
+      'JavaScript',
+      'React',
+      'Vue',
+      'CSS',
+      'Go',
+    ],
+  },
+  {
     name: 'Shiveen Pandita',
     description:
       'Fullstack developer and blogger from Sydney',
@@ -2940,4 +2962,3 @@ export default pages;
 //   phone: 'android',
 //   tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node'],
 // },
-
