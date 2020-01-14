@@ -2513,6 +2513,8 @@ const pages = [
       'Wordpress',
     ],
   },
+  // 🚨 DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
+  // IT CAUSES MERGE CONFLICT HEADACHES
 ];
 
 export default pages;
