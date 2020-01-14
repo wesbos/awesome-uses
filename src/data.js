@@ -27,7 +27,7 @@ const pages = [
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
     url: 'https://elie.tech/uses',
     twitter: '@elie2222',
-    emoji: '🔥',
+    emoji: '🧐',
     country: '🇮🇱',
     computer: 'apple',
     phone: 'iphone',
