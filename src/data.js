@@ -2328,6 +2328,26 @@ const pages = [
     ],
   },
   {
+    name: 'Sercan Eraslan',
+    description: 'Front-End Tech Lead',
+    url: 'http://sercaneraslan.com/uses',
+    twitter: '@sercan_eraslan',
+    emoji: '🎉',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Front-End',
+      'Blogger',
+      'React',
+      'Vue',
+      'Angular',
+      'Svelte',
+    ],
+  },
+  {
     name: 'Jeff Wen',
     description:
       'Web Developer, Open Source Contributor',
