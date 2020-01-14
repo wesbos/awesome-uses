@@ -2327,6 +2327,25 @@ const pages = [
       'Gatsby'
     ],
   },
+  {
+    name: 'Nick Taylor',
+    description: 'Just some dev from Montreal, Quebec, Canada',
+    url: 'https://www.iamdeveloper.com/uses/',
+    twitter: '@nickytonline',
+    emoji: '🔥',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iPhone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'React',
+      'Writer',
+      'TypeScript',
+      'Node',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
