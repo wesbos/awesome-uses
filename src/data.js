@@ -2386,6 +2386,29 @@ const pages = [
     ],
   },
   {
+    name: "Logan Blangenois",
+    description:
+      "Front-end developer passionate about eco-friendly (web)app and React.",
+    url: "https://logan-blangenois.be/uses/",
+    twitter: "@loganblangenois",
+    emoji: "🧑🏻‍💻",
+    country: "🇧🇪",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Front End",
+      "Developer",
+      "JavaScript",
+      "React",
+      "GraphQL",
+      "Gatsby",
+      "HTML",
+      "CSS",
+      "Sass",
+      "Performance"
+    ],
+  },
+  {
     name: 'Muhammad Umair',
     description: 'Fullstack front-end developer and designer, passionate in everything #JavaScript',
     url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
