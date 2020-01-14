@@ -33,6 +33,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
 * [Silvestar Bistrović](https://www.silvestar.codes/uses/) — Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
 * [Adam Schwartz](https://adamschwartz.co/uses/) — Software developer, designer, film music composer
+* [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
 * [Carter McAlister](https://cartermcalister.dev/uses) — Software Engineer, Digital Nomad, Lover of the Outdoors
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
