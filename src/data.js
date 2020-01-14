@@ -2335,7 +2335,7 @@ const pages = [
     emoji: '🔥',
     country: '🇨🇦',
     computer: 'apple',
-    phone: 'iPhone',
+    phone: 'iphone',
     tags: [
       'JavaScript',
       'Developer',
