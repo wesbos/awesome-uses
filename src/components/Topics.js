@@ -76,7 +76,7 @@ export default function Topics() {
 }
 
 // Component Styles
-const Tags = styled.div`
+const Tags = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -92,7 +92,7 @@ const Tag = styled.label`
   padding: 5px;
   color: hsla(0, 100%, 100%, 0.8);
   transition: background-color 0.2s;
-  cursor: ${props => (props.clickable? "pointer" : "default")};
+  cursor: ${props => (props.clickable ? 'pointer' : 'default')};
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
