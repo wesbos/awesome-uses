@@ -22,6 +22,28 @@ const pages = [
     ],
   },
   {
+    name: 'Eliezer Steinbock',
+    description:
+      'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
+    url: 'https://elie.tech',
+    twitter: '@elie2222',
+    emoji: '🔥',
+    country: '🇮🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'React Native',
+      'Node',
+      'TypeScript',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'Vishwasa Navada K',
     description:
       'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
