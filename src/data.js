@@ -1360,6 +1360,27 @@ const pages = [
     ],
   },
   {
+    name: 'José Manuel Lucas',
+    description:
+      'Professional Frontend Engineer - Amateur musician',
+    url: 'https://jmlweb.es/blog/2020/uses/',
+    twitter: '@jmlweb',
+    emoji: '🤘',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Frontend',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'CSS',
+      'Functional Programming',
+      'Music',
+    ],
+  },
+  {
     name: 'Georgi Yanev',
     description: 'Software Engineer, FPV Drone Pilot, Blogger, YouTuber',
     url: 'https://gyanev.com/uses/',
