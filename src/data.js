@@ -2349,7 +2349,7 @@ const pages = [
   {
     name: "Logan Blangenois",
     description:
-      "Front-end developer passionate about eco-frienldy (web)app and React.",
+      "Front-end developer passionate about eco-friendly (web)app and React.",
     url: "https://logan-blangenois.be/uses/",
     twitter: "@loganblangenois",
     emoji: "🧑🏻‍💻",
