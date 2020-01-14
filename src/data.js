@@ -22,6 +22,29 @@ const pages = [
     ],
   },
   {
+    name: 'Eric Raslich',
+    description:
+      'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
+    url: 'https://ericraslich.com/uses',
+    twitter: '@rasliche',
+    emoji: '🤙',
+    country: 'US',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Captain',
+      'Streamer',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+      'Tailwind',
+    ],
+  },
+  {
     name: 'Vishwasa Navada K',
     description:
       'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
