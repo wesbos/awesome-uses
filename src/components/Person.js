@@ -7,7 +7,7 @@ import * as icons from '../util/icons';
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://unavatar.now.sh/${url.host}`;
+  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=50`
   return (
     <PersonWrapper>
       <PersonInner>
