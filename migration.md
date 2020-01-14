@@ -1,6 +1,6 @@
 We need to move these people over to the data.js file:
 
-https://github.com/wesbos/awesome-uses/blob/website/src/data.js
+https://github.com/wesbos/awesome-uses/blob/master/src/data.js
 
 Grab a random person, and fill out the info as best as possible.
 
@@ -41,7 +41,7 @@ When done, check that person off.
 * [x] [Andrew Healey](https://healeycodes.com/uses/) - Fullstack Software Engineer, Blogger, Tutorial Creator.
 * [ ] [Alex Carpenter](https://alexcarpenter.me/uses/) - Front-end Web Developer and Screencaster.
 * [ ] [Wang Junxiao](http://www.feng0207.site/uses/) — Java Web Developer, Student.
-* [ ] [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
+* [x] [Jeff Wen](https://sinchang.me/uses/) - Web Developer, Open Source Contributor
 * [ ] [Tracy Osborn](https://limedaring.com/uses/) - Designer, Developer, Tech Author, Entreprenerd
 * [ ] [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 * [ ] [Lemon 🍋](https://ahoylemon.xyz/uses/) - Web Developer, Podcaster, Human Who Makes Dumb Shit
