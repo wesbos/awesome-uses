@@ -35,7 +35,7 @@ const pages = [
       'HTML',
       'CSS',
       'JavaScript',
-      'WordPress'
+      'WordPress',
       'Serverless',
       'JAMstack',
       'Blogger',
