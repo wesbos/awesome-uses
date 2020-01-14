@@ -2328,6 +2328,26 @@ const pages = [
     ],
   },
   {
+    name: 'Andrea Prus',
+    description:
+      'Full stack developer, blogger',
+    url: 'https://avris.it/uses',
+    twitter: '@AvrisIT',
+    emoji: '🏳‍🌈',
+    country: '🇪🇺',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
     name: 'Nick Taylor',
     description: 'Just some dev from Montreal, Quebec, Canada',
     url: 'https://www.iamdeveloper.com/uses/',
