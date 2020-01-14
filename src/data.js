@@ -2327,6 +2327,27 @@ const pages = [
       'Gatsby'
     ],
   },
+  {
+    name: 'Arturo Campos',
+    description: 'Web Developer, dad, mountain biker, meat lover',
+    url: 'https://arturocampos.dev/uses',
+    twitter: '@arturocr',
+    emoji: '🤖',
+    country: '🇨🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Angular',
+      'Vue',
+      'CSS',
+    ],
+  },
 ];
 
 export default pages;
