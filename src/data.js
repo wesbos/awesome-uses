@@ -2068,7 +2068,7 @@ const pages = [
     name: 'Muhammad Umair',
     description:
       'Fullstack front-end developer and designer, passionate in everything #JavaScript',
-    url: 'https://www.linkedin.com/in/mumairofficial',
+    url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
     twitter: '@imumare',
     emoji: '💻',
     country: '🇵🇰',
