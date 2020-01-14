@@ -2384,6 +2384,7 @@ const pages = [
       'Node',
       'CSS',
       'Electron',
+    ],
   },
   {
     name: 'Kevin Woblick',
