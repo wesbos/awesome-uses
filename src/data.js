@@ -2272,7 +2272,7 @@ const pages = [
   {
     name: 'Alejandro G. Anglada',
     description:
-      'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌',
+      'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
     url: 'https://aganglada.com/uses/',
     twitter: '@aganglada',
     emoji: '🔥',
