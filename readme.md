@@ -44,6 +44,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
+* [Tiffany White](https://tiffanywhite.dev/uses/) — Frontend dev, blogger, podcaster, herder of cats
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Ava Gaiety Wroten](https://www.wroten.me/uses) — JavaScript Software Engineer, artist, and designer
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
