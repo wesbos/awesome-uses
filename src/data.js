@@ -23,7 +23,7 @@ const pages = [
   },
   {
     name: 'Lewis Shaw',
-    description: 'Software developer from the West Coast of Scotland 🏴 |󠁧󠁢󠁳󠁣󠁴󠁿 Maker of online magic 🧙‍♂️',
+    description: 'Software Developer from the West Coast of Scotland 🏴 |󠁧󠁢󠁳󠁣󠁴󠁿 Maker of online magic 🧙‍♂️',
     url: 'https://lewisshaw.me/uses',
     twitter: '@WeaverOfTheWeb',
     emoji: '🚀',
