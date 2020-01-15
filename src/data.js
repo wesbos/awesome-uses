@@ -22,6 +22,24 @@ const pages = [
     ],
   },
   {
+    name: 'Federico Vitale',
+    description: '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
+    url: 'https://fedevitale.dev/uses',
+    twitter: '@fedevitaledev',
+    emoji: '✌️',
+    country: '🇮🇹',
+    phone: 'iphone',
+    computer: 'apple',
+    tags: [
+      'Developer',
+      'Javascript',
+      'Golang',
+      'Rust',
+      'Java',
+      'Full Stack',
+    ]
+  },
+  {
     name: 'Vishwasa Navada K',
     description:
       'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
