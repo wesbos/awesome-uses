@@ -1260,8 +1260,8 @@ const pages = [
   {
     name: 'Talita Oliveira',
     description:
-      'Software Developer. ',
-    url: 'https://talitaoliveira.com.br/',
+      'Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.',
+    url: 'https://talitaoliveira.com.br/#uses',
     twitter: '@littacherry',
     emoji: '👩🏽‍💻',
     country: '🇧🇷',
