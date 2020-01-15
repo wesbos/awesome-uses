@@ -2976,8 +2976,9 @@ const pages = [
       'GraphQL'
     ],
   },
-  // 🚨 DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
-  // IT CAUSES MERGE CONFLICT HEADACHES
+  // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
+  // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
+  // Thx, luv ya - wes
 ];
 
 export default pages;
