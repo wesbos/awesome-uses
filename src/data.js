@@ -326,7 +326,7 @@ const pages = [
   {
     name: 'Ava Gaiety Wroten',
     description: 'JavaScript Software Engineer, artist, and designer',
-    url: 'https://wroten.me/uses',
+    url: 'https://www.wroten.me/uses',
     emoji: '🐶',
     country: '🇺🇸',
     computer: 'linux',
