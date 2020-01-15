@@ -100,6 +100,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
 * [Diego Vazquez](https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d) — Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack
 * [Rafael Quintanilha](https://rafaelquintanilha.com/about#uses) — Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.
+* [Talita Oliveira](https://talitaoliveira.com.br/#uses) — Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.
 * [Ben Leivian](https://benleivian.com/uses) — A “seasoned” full-stack developer & visual designer 🍔
 * [Roman Husar](https://seemslikelegit.com/uses) — Tinkering, all the time.
 * [Stephen Senkomago Musoke](https://ssmusoke.com/uses) — Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker
