@@ -28,7 +28,7 @@ const pages = [
     twitter: '@fedevitaledev',
     emoji: '✌️',
     country: '🇮🇹',
-    phone: 'iPhone',
+    phone: 'iphone',
     computer: 'apple',
     tags: [
       'Developer',
