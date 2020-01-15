@@ -60,7 +60,7 @@ export default function Person({ person, currentTag }) {
         {person.twitter && (
           <TwitterHandle>
             <a
-              href={`https://twitter.com/${person.twitter}`}
+              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
             >
