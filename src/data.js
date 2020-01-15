@@ -2875,6 +2875,26 @@ const pages = [
       'WordPress',
     ],
   },
+  {
+    name: 'Jerry Shi',
+    description:
+      'Full Stack, Motivated full-stack developer not afraid to use any technology.',
+    url: 'https://github.com/szy0syz/uses',
+    twitter: '@szy0syz',
+    emoji: '🦁',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'React',
+      'Node',
+      'Rust',
+      'Full Stack',
+      'GraphQL'
+    ],
+  },
   // 🚨 DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // IT CAUSES MERGE CONFLICT HEADACHES
 ];
