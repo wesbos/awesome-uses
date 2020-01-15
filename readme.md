@@ -175,6 +175,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
 * [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
+* [Alex Carpenter](https://alexcarpenter.me/uses) — UI Engineer, Screencaster
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Tarik Omercehajic](https://robotz.tech/uses/) — DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)
