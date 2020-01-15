@@ -38,7 +38,7 @@ const pages = [
         'Cordova',
         'Creative',
         'CSS',
-        'Designer'
+        'Designer',
         'Developer',
         'Electron',
         'Entrepreneur',
@@ -46,7 +46,7 @@ const pages = [
         'HTML',
         'Hybrid',
         'JavaScript',
-        'Maker'
+        'Maker',
         'Node',
         'PhoneGap',
         'React',
