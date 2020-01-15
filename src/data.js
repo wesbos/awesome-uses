@@ -1258,6 +1258,27 @@ const pages = [
     ],
   },
   {
+    name: 'Talita Oliveira',
+    description:
+      'Software Developer. ',
+    url: 'https://talitaoliveira.com.br/',
+    twitter: '@littacherry',
+    emoji: '👩🏽‍💻',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'Full Stack',
+      'HTML',
+      'Web Development'
+    ],
+  },
+  {
     name: 'Ben Leivian',
     description: 'A “seasoned” full-stack developer & visual designer 🍔',
     url: 'https://benleivian.com/uses',
