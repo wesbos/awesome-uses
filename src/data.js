@@ -36,6 +36,26 @@ const pages = [
     ],
   },
   {
+    name: 'Danilo Barion',
+    description:
+      'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
+    url: 'https://danilobarion.com/uses',
+    twitter: '@daniloinfo86',
+    emoji: '🤔',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Speaker',
+      'Ruby',
+      'Rails',
+      'JavaScript',
+      'React',
+    ],
+  },
+  {
     name: 'Gant Laborde',
     description:
       'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
