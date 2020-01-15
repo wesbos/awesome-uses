@@ -7,7 +7,7 @@ import * as icons from '../util/icons';
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://logo.clearbit.com/${url.host}`;
+  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`
   return (
     <PersonWrapper>
       <PersonInner>
@@ -19,9 +19,15 @@ export default function Person({ person, currentTag }) {
             </a>
           </h3>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="displayLink"
             href={person.url}
-          >{`${url.host}${url.pathname}`}</a>
+          >{`${url.host}${
+            url.pathname.endsWith('/')
+              ? url.pathname.substr(0, url.pathname.length - 1)
+              : url.pathname
+          }`}</a>
         </header>
         <p>{person.description}</p>
         <Tags>
@@ -54,7 +60,7 @@ export default function Person({ person, currentTag }) {
         {person.twitter && (
           <TwitterHandle>
             <a
-              href={`https://twitter.com/${person.twitter}`}
+              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -77,6 +83,7 @@ Person.propTypes = {
     emoji: PropTypes.string,
     description: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
+    country: PropTypes.string,
     computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
     phone: PropTypes.oneOf(['iphone', 'android']),
     twitter(props, propName, componentName) {
@@ -118,10 +125,16 @@ const PersonInner = styled.div`
       font-size: 1rem;
     }
     .displayLink {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       text-decoration: none;
       color: var(--vape);
       letter-spacing: 1px;
       font-size: 1.2rem;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      overflow: hidden;
       :hover {
         color: var(--pink);
       }
@@ -150,6 +163,7 @@ const PersonDeets = styled.div`
   }
   .country {
     font-size: 3rem;
+    padding-top: 2rem;
   }
   .phone {
     padding: 0;

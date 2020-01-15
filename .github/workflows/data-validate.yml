@@ -1,0 +1,25 @@
+name: Validate data.js
+
+on:
+  pull_request:
+    paths: src/data.js
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 13.x
+    - name: Install validation libs
+      run: |
+        npm install -g @hapi/joi@17.0.2
+        npm install -g @actions/core@1.2.0
+        npm link @hapi/joi
+        npm link @actions/core
+    - name: Validate data.js
+      run: node ./scripts/data-validate.js

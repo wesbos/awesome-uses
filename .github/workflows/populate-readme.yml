@@ -1,0 +1,32 @@
+name: Populate README.md from master
+
+on:
+  push:
+    branches: master
+    paths:
+    - src/data.js
+    - scripts/readme-template.md
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 13.x
+    - name: Populate README.md from master
+      run: |
+        node ./scripts/populate-readme.js
+        mv generated-readme.md readme.md
+        git add readme.md
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "chore: generate \`readme.md\`"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
