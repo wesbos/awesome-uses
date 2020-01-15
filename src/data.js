@@ -2829,6 +2829,21 @@ const pages = [
     ],
   },
   {
+    name: 'Alex Carpenter',
+    description: 'UI Engineer, Screencaster',
+    url: 'https://alexcarpenter.me/uses',
+    twitter: '@hybrid_alex',
+    emoji: '✌️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'YouTuber',
+      'Web Development',
+    ],
+  },
+  {
     name: 'Kevin Woblick',
     description: 'I turn Pizza into Code and Photos',
     url: 'https://www.kovah.de/uses/',
