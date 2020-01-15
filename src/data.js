@@ -50,6 +50,10 @@ const pages = [
     twitter: '@jamesqquick',
     emoji: '🥑',
     country: '🇺🇸',
+    computer: 'apple',	
+    phone: 'iphone',	
+    tags: [	
+      'Developer',
       'Speaker',
       'Teacher',
       'Full Stack',
