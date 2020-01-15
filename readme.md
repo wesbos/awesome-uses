@@ -147,7 +147,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Eduardo Reveles](https://www.osiux.ws/about/uses) — Web Engineer, Husband, Gamer.
 * [Thomas Maximini](https://www.maxi.io/uses/) — Freelance software developer from Germany.
 * [Philip Theobald](https://www.philiptheobald.com/uses/) — Guitar player, motorcyclist, software engineer, entreprenuer
-* [Alejandro G. Anglada](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 #typescript all over the place 👌
+* [Alejandro G. Anglada](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
