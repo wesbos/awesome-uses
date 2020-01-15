@@ -174,6 +174,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
 * [Bamuleseyo Gideon](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) — Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
+* [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
 * [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
 * [Alex Carpenter](https://alexcarpenter.me/uses) — UI Engineer, Screencaster
