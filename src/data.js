@@ -38,7 +38,7 @@ const pages = [
       'Java',
       'Full Stack',
     ]
-  }
+  },
   {
     name: 'Vishwasa Navada K',
     description:
