@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
 * [Federico Vitale](https://fedevitale.dev/uses) — 20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.
 * [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
 * [Silvestar Bistrović](https://www.silvestar.codes/uses/) — Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
