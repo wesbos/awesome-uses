@@ -2408,7 +2408,7 @@ const pages = [
   {
     name: 'David Vives',
     description:
-      'Software Engineer, Web Developer, Chess Player, Comic Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
+      'Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
     url: 'http://dispuestoaaprender.netlify.com/en/uses',
     twitter: '@davidvives',
     emoji: '🦊',
