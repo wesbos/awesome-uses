@@ -342,6 +342,26 @@ const pages = [
     ],
   },
   {
+    name: 'Ava Gaiety Wroten',
+    description: 'JavaScript Software Engineer, artist, and designer',
+    url: 'https://www.wroten.me/uses',
+    emoji: '🐶',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Front End',
+      'Ember',
+      'Node',
+      'CSS',
+      'Accessibility',
+      'Speaker',
+      'Mentor',
+    ],
+  },
+  {
     name: 'Glenn Reyes',
     description:
       'Independent Software Engineer, trainer & speaker. Into sports & music.',
