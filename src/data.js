@@ -2817,7 +2817,7 @@ const pages = [
     computer: 'windows',
     phone: 'android',
     tags: [
-      'Developer',,
+      'Developer',
       'Front End',
       'HTML',
       'CSS',
