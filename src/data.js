@@ -2876,6 +2876,26 @@ const pages = [
     ],
   },
   {
+    name: 'Duncan McDougall',
+    description:
+      'Web developer, contractor, remotely working from the South of Scotland',
+    url: 'https://www.belter.io/uses/',
+    twitter: '@duncanmcdougall',
+    emoji: '🥃',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'CSS',
+      'Performance',
+      'Remote',
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
