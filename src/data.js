@@ -2751,6 +2751,29 @@ const pages = [
       'WordPress',
     ],
   },
+  {
+    name: 'James Quick',
+    description: 'Developer Advocate Engineer @auth0 and content creator',
+    url: 'https://jamesqquick.com/uses/',
+    twitter: '@jamesqquick',
+    emoji: '🥑',
+    country: '🇺🇸' ,
+    computer: 'apple',
+    phone: 'iPhone',
+    tags: [
+      'Web Developer',
+      'Speaker',
+      'Teacher',
+      'Mentor',
+      'Blogger',
+      'YouTube',
+      'Full Stack',
+      'React',
+      'Node',
+      'JavaScript',
+      'Content Creator',
+    ],
+  },
   // 🚨 DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // IT CAUSES MERGE CONFLICT HEADACHES
 ];
