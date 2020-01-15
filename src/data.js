@@ -2898,7 +2898,7 @@ const pages = [
   {
     name: 'Kevin Simkanič',
     description: 'Wordpress ninja 😎 React lover ❤️ CSS master 🧐',
-    url: '',
+    url: 'https://github.com/kevinko12323/uses',
     twitter: '@cholinkol',
     emoji: '🍕',
     country: '🇸🇰',
