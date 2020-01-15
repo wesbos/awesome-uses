@@ -321,6 +321,27 @@ const pages = [
     ],
   },
   {
+    name: 'Tiffany White',
+    description:
+      'Frontend dev, blogger, podcaster, herder of cats',
+    url: 'https://tiffanywhite.dev/uses/',
+    twitter: '@tiffanywhitedev',
+    emoji: '🤨',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'JavaScript',
+      'Developer',
+      'React',
+      'Blogger',
+      'Web Developer',
+      'Writer',
+      'Podcaster',
+    ],
+  },
+  {
     name: 'Kent C. Dodds',
     description: 'JavaScript Software Engineer, speaker, and trainer',
     url: 'https://kentcdodds.com/uses',
