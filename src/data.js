@@ -1545,7 +1545,7 @@ const pages = [
   {
     name: 'Ricard Torres',
     description: 'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
-    url: 'https://ricard.blog/',
+    url: 'https://php.quicoto.com/uses/',
     twitter: '@ricard_dev',
     emoji: '🌝',
     country: '🇪🇸',
