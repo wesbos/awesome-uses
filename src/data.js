@@ -2808,6 +2808,25 @@ const pages = [
     ],
   },
   {
+    name: 'Dave Hill',
+    description: 'Front-end developer, amateur photographer, podcast beginner.',
+    url: 'https://davehill.dev/uses/',
+    twitter: '@davehillpodcast',
+    emoji: '🔥',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Accessibility',
+      'Performance',
+    ],
+  },
+  {
     name: "Logan Blangenois",
     description:
       "Front-end developer passionate about eco-friendly (web)app and React.",
