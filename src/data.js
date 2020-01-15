@@ -28,7 +28,7 @@ const pages = [
     url: 'https://ericraslich.com/uses',
     twitter: '@rasliche',
     emoji: '🤙',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
     tags: [
