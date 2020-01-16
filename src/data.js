@@ -1,4 +1,4 @@
-const pages = [
+export default [
   {
     name: 'Wes Bos',
     description:
@@ -319,25 +319,14 @@ const pages = [
   },
   {
     name: 'Rene Pot',
-    // Short description
     description:
       'Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer',
-    // URL to your /uses page
     url: 'http://renepot.com/uses',
     twitter: '@wraldpyk',
-    // An emoji that describes you
     emoji: '🎮',
-    // emoji of your country's flag
     country: '🇳🇱',
-    // ONE of: apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'iphone',
-    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
-
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: [
       'Developer',
       'JavaScript',
@@ -794,7 +783,6 @@ const pages = [
   },
   {
     name: 'Andrew McCombe',
-    // Short description
     description:
       'Experienced full stack web developer with a passion for testing.',
     url: 'https://www.euperia.com/uses',
@@ -1438,25 +1426,14 @@ const pages = [
   },
   {
     name: 'Stephen Senkomago Musoke',
-    // Short description
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
-    // URL to your /uses page
     url: 'https://ssmusoke.com/uses',
     twitter: '@ssmusoke',
-    // An emoji that describes you
     emoji: '🔥',
-    // emoji of your country's flag
     country: '🇺🇬',
-    // ONE of: apple, windows or linux
     computer: 'apple',
-    // iphone or android
     phone: 'android',
-    // Tags - You can add your own, but please keep it to one word. "Social vape entrepreneur influencer denver" isn't a tag.
-
-    // Dev Tags: Engineer, Developer, Designer, Front End, Back End, Full Stack,
-    // Other: Tags: Entrepreneur, Teacher, Podcaster, YouTuber, Blogger, Speaker,
-    // Language Tags: JavaScript, PHP, Rails, Ruby, TypeScript, React, Vue, Node
     tags: ['Developer', 'Engineer', 'PHP', 'Java', 'OpenMRS', 'HTML', 'CSS'],
   },
   {
@@ -3039,300 +3016,3 @@ const pages = [
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
 ];
-
-export default pages;
-
-// Times out
-// {
-//   name: 'Troy Forster',
-//   description: 'Consulting Technology Director and CTO for Hire',
-//   url: 'https://tforster.com/uses',
-//   twitter: '@tforster',
-//   emoji: '',
-//   country: '🇨🇦',
-//   computer: 'windows',
-//   phone: 'android',
-//   tags: [
-//     'Engineer',
-//     'Back End',
-//     'Front End',
-//     'Consultant',
-//     'Entrepreneur',
-//     'JavaScript',
-//     'C#',
-//     'PHP',
-//     'Serverless',
-//     'SOA',
-//     'Enterprise',
-//   ],
-// },
-
-// Times out
-// {
-//   name: 'Carlos Andres Charris Sandoval',
-//   description: 'Software Engineer',
-//   url: 'https://carloscharris.com/uses',
-//   twitter: '@Darkklitos',
-//   emoji: '🔥',
-//   country: '🇨🇴',
-//   computer: 'apple',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'JavaScript',
-//     'TypeScript',
-//     'Angular',
-//     'Vue',
-//     'React',
-//     'Node',
-//     'Java',
-//     'Docker',
-//     'Serverless',
-//   ],
-// },
-
-// Times out
-// {
-//   name: 'Carlos Junod',
-//   description:
-//     'Husband, Dreamer, Full Stack Developer, Javascript passionate, Graphic Designer',
-//   url: 'http://carlosjunod.me/uses/',
-//   twitter: '@carlosjunod',
-//   emoji: '🥑',
-//   country: '🇨🇱',
-//   computer: 'apple',
-//   phone: 'iphone',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'React',
-//     'Designer',
-//     'Entrepreneur',
-//     'JavaScript',
-//     'Node',
-//     'CSS',
-//     'HTML',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Hussain Aminu',
-//   description: 'Web Developer, Data Scientist',
-//   url: 'https://hussain4real.github.io/Portfolio/uses',
-//   twitter: '@hussain4real',
-//   emoji: '🔥',
-//   country: '🇳🇬',
-//   computer: 'windows',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'Data Science',
-//     'JavaScript',
-//     'Python',
-//     'Vue',
-//     'Node',
-//     'Django',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Sanket Gandhi',
-//   description: 'Software Engineer',
-//   url: 'https://sanketgandhi.com/uses',
-//   twitter: '@sanketgandhi876',
-//   emoji: '🔥',
-//   country: '🇮🇳',
-//   computer: 'apple',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'PHP',
-//     'Laravel',
-//     'AWS',
-//     'JavaScript',
-//     'React',
-//     'Node',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Martin Chammah',
-//   description: 'Full Stack Gatsby Developer @ ecomerciar',
-//   twitter: '@codigomate',
-//   url: 'https://martinchammah.dev/uses',
-//   emoji: '🇦🇷',
-//   country: '🇦🇷',
-//   computer: 'windows',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'Entrepreneur',
-//     'YouTuber',
-//     'JavaScript',
-//     'Gatsby',
-//     'React',
-//     'WordPress',
-//     'Thinkpad',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Richard Palacios G.',
-//   description: 'Web Developer, passionate apprentice, Community co-organizer',
-//   url: 'https://www.richardpalaciosg.dev/uses',
-//   twitter: '@rpalaciosg_',
-//   emoji: '⚡',
-//   country: '🇪🇨',
-//   computer: 'linux',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'JavaScript',
-//     'Front End',
-//     'BackEnd',
-//     'Community',
-//     'Node',
-//     'React',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Marek Racík',
-//   description: 'Full Stack Developer',
-//   url: 'https://racik.info/uses',
-//   twitter: '@marek_racik',
-//   emoji: '🍍',
-//   country: '🇸🇰',
-//   computer: 'apple',
-//   phone: 'iphone',
-//   tags: [
-//     'Web Developer',
-//     'Full Stack',
-//     'Laravel',
-//     'Vue',
-//     'Tailwind',
-//     'Django',
-//     'Python',
-//     'PHP',
-//     'JavaScript',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Oscar Sánchez',
-//   description: 'Passionate developer, traveler and drummer from Perú',
-//   url: 'https://devlusaja.com',
-//   twitter: '@dev_lusaja',
-//   emoji: '💻🛩💪',
-//   country: '🇵🇪',
-//   computer: 'linux',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'Software Architect',
-//     'Python',
-//     'PHP',
-//     'Docker',
-//     'Graphql',
-//     'AWS',
-//     'Open Source',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Khriztian Moreno',
-//   description:
-//     '#Javascript Developer 🥑& Community builder 👨🏻‍💻♥️👨🏻‍🏫 | #MDE at @cloudinary | Producer @commitfm 🎙📻 | Co-Organize of @MedellinJS @avanetr',
-//   url: 'https://khriztianmoreno.dev/uses',
-//   twitter: '@khriztianmoreno',
-//   emoji: '👨🏼‍💻',
-//   country: '🇨🇴',
-//   computer: 'apple',
-//   phone: 'iphone',
-//   tags: [
-//     'Developer',
-//     'JavaScript',
-//     'React',
-//     'Front End',
-//     'React',
-//     'Blogger',
-//     'Speaker',
-//     'Podcaster',
-//     'Community',
-//     'JAMstack',
-//     'YouTuber',
-//   ],
-// },
-
-// No /uses page
-// {
-//   name: 'Yuri Yakovlev',
-//   description:
-//     'Maker of this site. Web Developer, Tutorial Maker, Podcaster, BBQ Lover',
-//   url: 'https://mynameisyuri.com/uses',
-//   twitter: '@yakovlevyuri',
-//   emoji: '🧙‍♂️',
-//   country: '🇨🇿',
-//   computer: 'apple',
-//   phone: 'iphone',
-//   tags: [
-//     'Developer',
-//     'Full Stack',
-//     'Serverless',
-//     'JavaScript',
-//     'TypeScript',
-//     'React',
-//     'Node',
-//     'GraphQL',
-//   ],
-// },
-
-// Empty /uses page
-// {
-//   name: 'Ændrew Rininsland',
-//   description: 'Developer-Journalist',
-//   url: 'https://aendrew.com/uses',
-//   twitter: '@aendrew',
-//   emoji: '💚',
-//   country: '🏳️‍🌈',
-//   computer: 'apple',
-//   phone: 'android',
-//   tags: [
-//     'Developer',
-//     'DataViz',
-//     'JavaScript',
-//     'TypeScript',
-//     'Node',
-//     'Python',
-//     'Author',
-//     'Journalist',
-//     'Speaker',
-//     'Front-End',
-//     'React',
-//     'D3',
-//   ],
-// },
-
-// Weird redirect to YouTube Video
-// {
-//   name: 'Juan Manuel Incaurgarat',
-//   description: 'Front end developer',
-//   url: 'https://kilinkis.me/uses',
-//   twitter: '@kilinkis',
-//   emoji: '🏀',
-//   country: '🇦🇷',
-//   computer: 'apple',
-//   phone: 'android',
-//   tags: ['React', 'WordPress', 'Gatsby', 'JavaScript', 'Node'],
-// },
