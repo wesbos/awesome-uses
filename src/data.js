@@ -22,6 +22,27 @@ const pages = [
     ]
   },
   {
+    name: "Asam Shan",
+    description: "JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️",
+    url: "https://www.asamshan.dev/uses",
+    twitter: "@shan8851",
+    emoji: "🔥",
+    country: "🇬🇧",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "JavaScript",
+      "React",
+      "ReactNative",
+      "Gatsby",
+      "Styled-Comnponents",
+      "Node",
+      "CSS"
+    ]
+  },
+
+  {
     name: "Eliezer Steinbock",
     description:
       "Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer",
@@ -2075,6 +2096,30 @@ const pages = [
     ]
   },
   {
+    name: "Julio Lozovei",
+    description:
+      "Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘",
+    url: "https://jlozovei.dev/uses/",
+    twitter: "@juliolozovei",
+    emoji: "💈",
+    country: "🇧🇷",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Front End",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Vue",
+      "React",
+      "WordPress",
+      "Writer",
+      "Speaker",
+      "Performance",
+      "Accessibility"
+    ]
+  },
+  {
     name: "Chris Burgin",
     description: "Frontend Software Engineer",
     url: "https://chrisburgin.me/uses",
@@ -2448,26 +2493,6 @@ const pages = [
     ]
   },
   {
-    name: "Asam Shan",
-    description: "JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️",
-    url: "https://www.asamshan.dev/uses",
-    twitter: "@shan8851",
-    emoji: "🔥",
-    country: "🇬🇧",
-    computer: "apple",
-    phone: "iphone",
-    tags: [
-      "Developer",
-      "JavaScript",
-      "React",
-      "ReactNative",
-      "Gatsby",
-      "Styled-Comnponents",
-      "Node",
-      "CSS"
-    ]
-  },
-  {
     name: "Ben Congdon",
     description: "Golang, Python, Rust. Runs in the Cloud.",
     url: "https://benjamincongdon.me/uses",
@@ -2547,12 +2572,15 @@ const pages = [
       "Full Stack",
       "JavaScript",
       "TypeScript",
+      "NativeScript",
       "React",
       "Angular",
       "Vue",
+      "Node",
       "C#",
       ".NET Core",
-      ".NET"
+      ".NET",
+      "Python"
     ]
   },
   {
