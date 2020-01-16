@@ -2090,6 +2090,30 @@ const pages = [
     ],
   },
   {
+    name: 'Julio Lozovei',
+    description:
+      'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
+    url: 'https://jlozovei.dev/uses/',
+    twitter: '@juliolozovei',
+    emoji: '💈',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Vue',
+      'React',
+      'WordPress',
+      'Writer',
+      'Speaker',
+      'Performance',
+      'Accessibility'
+    ],
+  },
+  {
     name: 'Chris Burgin',
     description:
       'Frontend Software Engineer',
