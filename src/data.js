@@ -2568,7 +2568,7 @@ const pages = [
       'React',
       'Angular',
       'Vue',
-      'Node,
+      'Node',
       'C#',
       '.NET Core',
       '.NET',
