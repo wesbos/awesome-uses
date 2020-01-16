@@ -144,6 +144,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
 * [Dave Berning](https://daveberning.io/uses/) — Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.
 * [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
+* [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Seyhun Akyürek](https://www.seyhunakyurek.com/uses/) — Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
