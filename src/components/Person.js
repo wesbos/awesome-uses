@@ -7,7 +7,7 @@ import * as icons from '../util/icons';
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://logo.clearbit.com/${url.host}`;
+  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`
   return (
     <PersonWrapper>
       <PersonInner>
@@ -60,7 +60,7 @@ export default function Person({ person, currentTag }) {
         {person.twitter && (
           <TwitterHandle>
             <a
-              href={`https://twitter.com/${person.twitter}`}
+              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
             >
