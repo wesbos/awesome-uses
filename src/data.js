@@ -1,5 +1,25 @@
 const pages = [
   {
+    name: "Asam Shan",
+    description: "JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️",
+    url: "https://www.asamshan.dev/uses",
+    twitter: "@shan8851",
+    emoji: "🔥",
+    country: "🇬🇧",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "JavaScript",
+      "React",
+      "ReactNative",
+      "Gatsby",
+      "Styled-Comnponents",
+      "Node",
+      "CSS"
+    ]
+  },
+  {
     name: "Wes Bos",
     description:
       "Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover",
@@ -21,27 +41,6 @@ const pages = [
       "CSS"
     ]
   },
-  {
-    name: "Asam Shan",
-    description: "JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️",
-    url: "https://www.asamshan.dev/uses",
-    twitter: "@shan8851",
-    emoji: "🔥",
-    country: "🇬🇧",
-    computer: "apple",
-    phone: "iphone",
-    tags: [
-      "Developer",
-      "JavaScript",
-      "React",
-      "ReactNative",
-      "Gatsby",
-      "Styled-Comnponents",
-      "Node",
-      "CSS"
-    ]
-  },
-
   {
     name: "Eliezer Steinbock",
     description:
@@ -2096,30 +2095,6 @@ const pages = [
     ]
   },
   {
-    name: "Julio Lozovei",
-    description:
-      "Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘",
-    url: "https://jlozovei.dev/uses/",
-    twitter: "@juliolozovei",
-    emoji: "💈",
-    country: "🇧🇷",
-    computer: "apple",
-    phone: "iphone",
-    tags: [
-      "Front End",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Vue",
-      "React",
-      "WordPress",
-      "Writer",
-      "Speaker",
-      "Performance",
-      "Accessibility"
-    ]
-  },
-  {
     name: "Chris Burgin",
     description: "Frontend Software Engineer",
     url: "https://chrisburgin.me/uses",
@@ -2572,15 +2547,12 @@ const pages = [
       "Full Stack",
       "JavaScript",
       "TypeScript",
-      "NativeScript",
       "React",
       "Angular",
       "Vue",
-      "Node",
       "C#",
       ".NET Core",
-      ".NET",
-      "Python"
+      ".NET"
     ]
   },
   {
