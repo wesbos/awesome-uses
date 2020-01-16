@@ -49,7 +49,7 @@ const pages = [
     url: 'https://www.asamshan.dev/uses',
     twitter: '@shan8851',
     emoji: '🔥',
-    country: "🇬🇧",
+    country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -60,8 +60,8 @@ const pages = [
       'Gatsby',
       'Styled-Comnponents',
       'Node',
-      'CSS'
-    ]
+      'CSS',
+    ],
   },
   {
     name: 'James Quick',
@@ -86,21 +86,15 @@ const pages = [
   },
   {
     name: 'Federico Vitale',
-    description: '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
+    description:
+      '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
     url: 'https://fedevitale.dev/uses',
     twitter: '@fedevitaledev',
     emoji: '✌️',
     country: '🇮🇹',
     phone: 'iphone',
     computer: 'apple',
-    tags: [
-      'Developer',
-      'Javascript',
-      'Golang',
-      'Rust',
-      'Java',
-      'Full Stack',
-    ]
+    tags: ['Developer', 'Javascript', 'Golang', 'Rust', 'Java', 'Full Stack'],
   },
   {
     name: 'Vishwasa Navada K',
@@ -142,7 +136,7 @@ const pages = [
       'Blogger',
       'Developer',
       'Front End',
-      'Remote'
+      'Remote',
     ],
   },
   {
@@ -167,7 +161,8 @@ const pages = [
   },
   {
     name: 'Sergey Lysenko',
-    description: 'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
+    description:
+      'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
     url: 'https://soulwish.info/uses/',
     twitter: '@Soul_Wish',
     emoji: '🔥',
@@ -212,7 +207,6 @@ const pages = [
     ],
   },
   {
-
     name: 'Carter McAlister',
     description: 'Software Engineer, Digital Nomad, Lover of the Outdoors',
     url: 'https://cartermcalister.dev/uses',
@@ -385,8 +379,7 @@ const pages = [
   },
   {
     name: 'Tiffany White',
-    description:
-      'Frontend dev, blogger, podcaster, herder of cats',
+    description: 'Frontend dev, blogger, podcaster, herder of cats',
     url: 'https://tiffanywhite.dev/uses/',
     twitter: '@tiffanywhitedev',
     emoji: '🤨',
@@ -498,7 +491,18 @@ const pages = [
     computer: 'apple',
     phone: 'iphone',
     twitter: '@stolinski',
-    tags: ['Developer', 'Front End', 'Entrepreneur', 'Teacher', 'JavaScript', 'Youtuber', 'React', 'CSS', 'TypeScript', 'GraphQL'],
+    tags: [
+      'Developer',
+      'Front End',
+      'Entrepreneur',
+      'Teacher',
+      'JavaScript',
+      'Youtuber',
+      'React',
+      'CSS',
+      'TypeScript',
+      'GraphQL',
+    ],
   },
   {
     name: 'Anton Andrésen',
@@ -786,14 +790,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Back End',
-      'Speaker',
-      'Writer',
-      'JavaScript',
-      'Node',
-    ],
+    tags: ['Developer', 'Back End', 'Speaker', 'Writer', 'JavaScript', 'Node'],
   },
   {
     name: 'Andrew McCombe',
@@ -1397,7 +1394,7 @@ const pages = [
       'CSS',
       'Full Stack',
       'HTML',
-      'Web Development'
+      'Web Development',
     ],
   },
   {
@@ -1523,8 +1520,7 @@ const pages = [
   },
   {
     name: 'José Manuel Lucas',
-    description:
-      'Professional Frontend Engineer - Amateur musician',
+    description: 'Professional Frontend Engineer - Amateur musician',
     url: 'https://jmlweb.es/blog/2020/uses/',
     twitter: '@jmlweb',
     emoji: '🤘',
@@ -1687,7 +1683,8 @@ const pages = [
   },
   {
     name: 'Ricard Torres',
-    description: 'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
+    description:
+      'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
     url: 'https://php.quicoto.com/uses/',
     twitter: '@ricard_dev',
     emoji: '🌝',
@@ -2074,20 +2071,15 @@ const pages = [
   },
   {
     name: 'Dany Paredes',
-    description: 'I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]',
+    description:
+      'I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]',
     url: 'https://danywalls.com/uses',
     twitter: '@danywalls',
     emoji: '🏀',
     country: '🇩🇴',
     computer: 'linux',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      '.NET',
-      'Typescript',
-      'Javascript',
-      'Sass'
-    ],
+    tags: ['Developer', '.NET', 'Typescript', 'Javascript', 'Sass'],
   },
   {
     name: 'Thomas Weibenfalk',
@@ -2130,13 +2122,12 @@ const pages = [
       'Writer',
       'Speaker',
       'Performance',
-      'Accessibility'
+      'Accessibility',
     ],
   },
   {
     name: 'Chris Burgin',
-    description:
-      'Frontend Software Engineer',
+    description: 'Frontend Software Engineer',
     url: 'https://chrisburgin.me/uses',
     twitter: '@chrisburgin95',
     emoji: '🧙🏼‍♂️',
@@ -2157,8 +2148,7 @@ const pages = [
   },
   {
     name: 'Shiveen Pandita',
-    description:
-      'Fullstack developer and blogger from Sydney',
+    description: 'Fullstack developer and blogger from Sydney',
     url: 'https://shiveenp.com/uses/',
     twitter: '@shavzer',
     emoji: '🧙🏽',
@@ -2176,7 +2166,8 @@ const pages = [
   },
   {
     name: 'David Leuliette',
-    description: 'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
+    description:
+      'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
     url: 'https://davidl.fr/uses',
     twitter: '@flexbox_',
     emoji: '⚡',
@@ -2199,7 +2190,8 @@ const pages = [
   },
   {
     name: 'Dave Berning',
-    description: 'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
+    description:
+      'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
     url: 'https://daveberning.io/uses/',
     twitter: '@daveberning',
     emoji: '🦄',
@@ -2218,19 +2210,14 @@ const pages = [
   },
   {
     name: 'Jan-Lukas Else',
-    description:
-      'Computer Science Student, Developer & Blogger from Germany',
+    description: 'Computer Science Student, Developer & Blogger from Germany',
     url: 'https://jlelse.dev/uses/',
     twitter: '@jlelse',
     emoji: '🤓',
     country: '🇩🇪',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Student',
-      'Developer',
-      'Blogger',
-    ],
+    tags: ['Student', 'Developer', 'Blogger'],
   },
   {
     name: 'Seyhun Akyürek',
@@ -2254,64 +2241,47 @@ const pages = [
   },
   {
     name: 'Eric Oyanadel',
-    description:
-      'Artist - Developer - Musician',
+    description: 'Artist - Developer - Musician',
     url: 'https://www.oyanadel.com/uses/',
     twitter: '@EricOyanadel',
     emoji: '🌻',
     country: '🇨🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Javascript',
-      'React',
-      'Node',
-      'Design',
-      'Full Stack',
-      'Writer',
-    ],
+    tags: ['Javascript', 'React', 'Node', 'Design', 'Full Stack', 'Writer'],
   },
   {
     name: 'Usman Khwaja',
-    description:
-      'Front end engineer, Jamstack developer',
+    description: 'Front end engineer, Jamstack developer',
     url: 'https://usmankhwaja.com/uses',
     twitter: '@numbfall',
     emoji: '⛵',
     country: '🇵🇰',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Engineer',
-      'Jamstack',
-      'JavaScript',
-      'AMP',
-      'CSS',
-    ],
+    tags: ['Developer', 'Engineer', 'Jamstack', 'JavaScript', 'AMP', 'CSS'],
   },
   {
-    name: "Thomas Large",
-    description:
-      "My name is Tom! I write code",
-    url: "https://tomlarge.dev/uses",
-    emoji: " 👨‍💻",
-    country: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    computer: "apple",
-    phone: "iphone",
+    name: 'Thomas Large',
+    description: 'My name is Tom! I write code',
+    url: 'https://tomlarge.dev/uses',
+    emoji: ' 👨‍💻',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
-      "Developer",
-      "Full Stack",
-      "Ruby on Rails",
-      "JavaScript",
-      "React",
-      "React Native",
-      "TypeScript",
-      "WordPress",
-      "DevOps",
-      "Node",
-      "GraphQL"
-    ]
+      'Developer',
+      'Full Stack',
+      'Ruby on Rails',
+      'JavaScript',
+      'React',
+      'React Native',
+      'TypeScript',
+      'WordPress',
+      'DevOps',
+      'Node',
+      'GraphQL',
+    ],
   },
   {
     name: 'Amit Merchant',
@@ -2337,7 +2307,7 @@ const pages = [
   {
     name: 'Jesse James Burton',
     description:
-    'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
+      'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
     url: 'https://burtonmediainc.com/uses',
     twitter: '@burtonmedia',
     emoji: '🙏',
@@ -2357,7 +2327,7 @@ const pages = [
   },
   {
     name: 'Junaid Qadir',
-    description:'A Full Stack #Laravel Developer',
+    description: 'A Full Stack #Laravel Developer',
     url: 'https://junaidqadir.com/uses',
     twitter: '@junaidqadirb',
     emoji: '⌨',
@@ -2395,7 +2365,7 @@ const pages = [
       'Node',
       'CSS',
       'Ruby',
-      'Testing'
+      'Testing',
     ],
   },
   {
@@ -2616,7 +2586,7 @@ const pages = [
       'C#',
       '.NET Core',
       '.NET',
-      'Python'
+      'Python',
     ],
   },
   {
@@ -2641,8 +2611,7 @@ const pages = [
   },
   {
     name: 'Adam Urban',
-    description:
-      "coder, father, left-handed",
+    description: 'coder, father, left-handed',
     url: 'https://urbanisierung.dev/uses/',
     twitter: '@urbanisierung',
     emoji: '🚀',
@@ -2663,8 +2632,7 @@ const pages = [
   },
   {
     name: 'Majo Paskuvan',
-    description:
-      'Front End Developer, Reader, Deaf Person',
+    description: 'Front End Developer, Reader, Deaf Person',
     url: 'https://paskuvan.us/uses.html',
     twitter: '@paskuvan',
     emoji: '🤟',
@@ -2679,7 +2647,7 @@ const pages = [
       'UX',
       'Blogger',
       'Designer',
-    ]
+    ],
   },
   {
     name: 'Christopher Wavrin',
@@ -2690,7 +2658,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Ruby On Rails', 'Vue.js', 'Web Development', 'Full Stack', 'AWS']
+    tags: ['Ruby On Rails', 'Vue.js', 'Web Development', 'Full Stack', 'AWS'],
   },
   {
     name: 'Florian Kapfenberger',
@@ -2709,8 +2677,8 @@ const pages = [
       'JavaScript',
       'Blogger',
       'React',
-      'Gatsby'
-    ]
+      'Gatsby',
+    ],
   },
   {
     name: 'Maria Altyeva Schuessler ',
@@ -2776,27 +2744,18 @@ const pages = [
   },
   {
     name: 'Jeff Wen',
-    description:
-      'Web Developer, Open Source Contributor',
+    description: 'Web Developer, Open Source Contributor',
     url: 'https://sinchang.me/uses',
     twitter: '@sinchangwen',
     emoji: '🍕',
     country: '🇨🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Web Development',
-      'Front End',
-      'Vue',
-      'React',
-      'Node',
-      'Python'
-    ],
+    tags: ['Web Development', 'Front End', 'Vue', 'React', 'Node', 'Python'],
   },
   {
     name: 'Andrea Prus',
-    description:
-      'Full stack developer, blogger',
+    description: 'Full stack developer, blogger',
     url: 'https://avris.it/uses',
     twitter: '@AvrisIT',
     emoji: '🏳‍🌈',
@@ -2815,8 +2774,10 @@ const pages = [
   },
   {
     name: 'Bamuleseyo Gideon',
-    description: 'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
-    url: 'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
+    description:
+      'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
+    url:
+      'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
     twitter: '@gideon_b_',
     emoji: '😎',
     country: '🇺🇬',
@@ -2832,7 +2793,7 @@ const pages = [
       'Flask',
       'Django',
       'CSS',
-      'DevC'
+      'DevC',
     ],
   },
   {
@@ -2874,32 +2835,34 @@ const pages = [
     ],
   },
   {
-    name: "Logan Blangenois",
+    name: 'Logan Blangenois',
     description:
-      "Front-end developer passionate about eco-friendly (web)app and React.",
-    url: "https://logan-blangenois.be/uses/",
-    twitter: "@loganblangenois",
-    emoji: "🧑🏻‍💻",
-    country: "🇧🇪",
-    computer: "apple",
-    phone: "iphone",
+      'Front-end developer passionate about eco-friendly (web)app and React.',
+    url: 'https://logan-blangenois.be/uses/',
+    twitter: '@loganblangenois',
+    emoji: '🧑🏻‍💻',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
-      "Front End",
-      "Developer",
-      "JavaScript",
-      "React",
-      "GraphQL",
-      "Gatsby",
-      "HTML",
-      "CSS",
-      "Sass",
-      "Performance"
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'React',
+      'GraphQL',
+      'Gatsby',
+      'HTML',
+      'CSS',
+      'Sass',
+      'Performance',
     ],
   },
   {
     name: 'Muhammad Umair',
-    description: 'Fullstack front-end developer and designer, passionate in everything #JavaScript',
-    url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
+    description:
+      'Fullstack front-end developer and designer, passionate in everything #JavaScript',
+    url:
+      'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
     twitter: '@imumare',
     emoji: '💻',
     country: '🇵🇰',
@@ -2925,11 +2888,7 @@ const pages = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'CSS',
-      'YouTuber',
-      'Web Development',
-    ],
+    tags: ['CSS', 'YouTuber', 'Web Development'],
   },
   {
     name: 'Kevin Woblick',
@@ -2976,31 +2935,24 @@ const pages = [
       'Node',
       'TypeScript',
       'Rust',
-      'ReasonML'
+      'ReasonML',
     ],
   },
   {
     name: 'Rail Hamdeew',
-    description:
-      'Full Stack. Open to new technologies',
+    description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
     twitter: '@rhamdeew',
     emoji: '😎',
     country: '🇷🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Full Stack',
-      'Ruby',
-      'PHP',
-      'Python',
-      'JavaScript',
-      'Vue',
-    ],
+    tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue'],
   },
   {
     name: 'Tarik Omercehajic',
-    description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
+    description:
+      'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
     url: 'https://robotz.tech/uses/',
     twitter: '@tariktz',
     emoji: '🚀',
@@ -3080,7 +3032,7 @@ const pages = [
       'Node',
       'Rust',
       'Full Stack',
-      'GraphQL'
+      'GraphQL',
     ],
   },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
