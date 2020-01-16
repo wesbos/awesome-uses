@@ -2564,12 +2564,15 @@ const pages = [
       'Full Stack',
       'JavaScript',
       'TypeScript',
+      'NativeScript',
       'React',
       'Angular',
       'Vue',
+      'Node,
       'C#',
       '.NET Core',
-      '.NET'
+      '.NET',
+      'Python'
     ],
   },
   {
