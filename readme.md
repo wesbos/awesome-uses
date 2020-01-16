@@ -114,7 +114,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
-* [Pedro Assunção](https://pedroassuncao.com/pages/uses) — Senior Fullstack Software Developer, Tutorial Maker, Blogger
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
