@@ -50,9 +50,9 @@ const pages = [
     twitter: '@jamesqquick',
     emoji: '🥑',
     country: '🇺🇸',
-    computer: 'apple',	
-    phone: 'iphone',	
-    tags: [	
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
       'Developer',
       'Speaker',
       'Teacher',
@@ -2588,12 +2588,15 @@ const pages = [
       'Full Stack',
       'JavaScript',
       'TypeScript',
+      'NativeScript',
       'React',
       'Angular',
       'Vue',
+      'Node',
       'C#',
       '.NET Core',
-      '.NET'
+      '.NET',
+      'Python'
     ],
   },
   {
