@@ -2191,6 +2191,17 @@ export default [
     tags: ['Student', 'Developer', 'Blogger'],
   },
   {
+    name: 'Will Presley',
+    description: 'Professional Web Dev & SysAdmin from Ohio, USA',
+    url: 'https://willpresley.com/uses/',
+    twitter: '@cryptecks',
+    emoji: '🦄',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Windows', 'Developer', 'Blogger', 'Javascript', 'PHP', 'CSS', 'SCSS'],
+  },
+  {
     name: 'Seyhun Akyürek',
     description:
       'Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails',
