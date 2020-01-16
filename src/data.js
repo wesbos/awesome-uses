@@ -50,9 +50,9 @@ const pages = [
     twitter: '@jamesqquick',
     emoji: '🥑',
     country: '🇺🇸',
-    computer: 'apple',	
-    phone: 'iphone',	
-    tags: [	
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
       'Developer',
       'Speaker',
       'Teacher',
@@ -2930,6 +2930,25 @@ const pages = [
       'TypeScript',
       'Rust',
       'ReasonML'
+    ],
+  },
+  {
+    name: 'Rail Hamdeew',
+    description:
+      'Full Stack. Open to new technologies',
+    url: 'https://hmdw.me/uses/',
+    twitter: '@rhamdeew',
+    emoji: '😎',
+    country: '🇷🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Ruby',
+      'PHP',
+      'Python',
+      'JavaScript',
+      'Vue',
     ],
   },
   {
