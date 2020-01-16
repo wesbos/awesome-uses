@@ -2960,6 +2960,25 @@ const pages = [
     ],
   },
   {
+    name: 'Rail Hamdeew',
+    description:
+      'Full Stack. Open to new technologies',
+    url: 'https://hmdw.me/uses/',
+    twitter: '@rhamdeew',
+    emoji: '😎',
+    country: '🇷🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Ruby',
+      'PHP',
+      'Python',
+      'JavaScript',
+      'Vue',
+    ],
+  },
+  {
     name: 'Tarik Omercehajic',
     description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
     url: 'https://robotz.tech/uses/',
