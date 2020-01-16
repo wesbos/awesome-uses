@@ -44,6 +44,26 @@ const pages = [
     ],
   },
   {
+    name: 'Asam Shan',
+    description: 'JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️',
+    url: 'https://www.asamshan.dev/uses',
+    twitter: '@shan8851',
+    emoji: '🔥',
+    country: "🇬🇧",
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'ReactNative',
+      'Gatsby',
+      'Styled-Comnponents',
+      'Node',
+      'CSS'
+    ]
+  },
+  {
     name: 'James Quick',
     description: 'Developer Advocate Engineer at @auth0 and content creator',
     url: 'https://jamesqquick.com/uses',
