@@ -8,7 +8,8 @@ function merge(prop) {
 }
 
 function countInstances(acc, tag) {
-  acc[tag] = acc[tag] ? acc[tag] + 1 : 1;
+  const lowerTag = tag.toLowerCase();
+  acc[lowerTag] = acc[lowerTag] ? acc[lowerTag] + 1 : 1;
   return acc;
 }
 

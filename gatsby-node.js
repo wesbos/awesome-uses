@@ -5,6 +5,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   // Add People to the GraphQL API, we randomize the data on each build so no one gets their feelings hurt
   people
     .sort(() => Math.random() - 0.5)
+    .map(p => ({ ...p, tags: p.tags.map(t => t.toLowerCase()) }))
     .forEach(person => {
       const nodeMeta = {
         id: createNodeId(`person-${person.name}`),
