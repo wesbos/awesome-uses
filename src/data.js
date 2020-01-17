@@ -469,6 +469,26 @@ export default [
     ],
   },
   {
+    name: 'Darlene Zouras',
+    description: 'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
+    url: 'https://darzouras.com/uses/',
+    twitter: '@darzouras',
+    emoji: '🤟',
+    country: '🇺🇸',
+    phone: 'iphone',
+    computer: 'apple',
+    tags: [
+      'Developer',
+      'Front End',
+      'UX',
+      'JAMstack',
+      'CSS',
+      'HTML',
+      'Javascript',
+      'Accessibility',
+    ]
+  },
+  {
     name: 'Glenn Reyes',
     description:
       'Independent Software Engineer, trainer & speaker. Into sports & music.',
