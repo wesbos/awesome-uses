@@ -164,6 +164,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alejandro G. Anglada](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
+* [Sangam Kumar](https://www.sangam.dev/uses) — (☕) => { 👨‍💻 }; git checkout hackerrank
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
