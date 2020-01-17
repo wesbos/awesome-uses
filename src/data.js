@@ -3020,6 +3020,26 @@ export default [
     ],
   },
   {
+    name: 'Tony Mamedbekov',
+    description:
+      'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
+    url: 'https://www.tmamedbekov.dev/uses',
+    twitter: '@tmamedbekov',
+    emoji: '🌍',
+    country: '🇦🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Architect',
+      'Developer',
+      'SitecoreJSS',
+      'Sitecore',
+      'React',
+      'Developer',
+      'Angular',
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
