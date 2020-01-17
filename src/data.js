@@ -22,6 +22,28 @@ export default [
     ],
   },
   {
+    name: 'Eric Raslich',
+    description:
+      'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
+    url: 'https://ericraslich.com/uses',
+    twitter: '@rasliche',
+    emoji: '🤙',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Captain',
+      'Streamer',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+      'Tailwind',
+      'Entrepreneur',]
+  },
+  {
     name: 'Eliezer Steinbock',
     description:
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
