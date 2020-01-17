@@ -2068,7 +2068,7 @@ const pages = [
     name: 'Tony Mamedbekov',
     description:
       'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
-    url: 'https://www.tmamedbekov.dev',
+    url: 'https://www.tmamedbekov.dev/uses',
     twitter: '@tmamedbekov',
     emoji: '🌍',
     country: '🇦🇿',
