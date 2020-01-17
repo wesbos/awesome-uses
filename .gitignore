@@ -61,7 +61,7 @@ public
 # Mac files
 .DS_Store
 
-# VS Code workpace settings
+# VS Code workspace settings
 .vscode/
 
 # Yarn
