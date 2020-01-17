@@ -2820,6 +2820,23 @@ export default [
     ],
   },
   {
+    name: 'Benjamin Edenhuizen',
+    description:
+      'Front-end web developer with a focus on accessibility and performance.',
+    url: 'https://rqrauhvmra.com/uses/',
+    twitter: '@rqrauhvmra',
+    emoji: '☕',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Web developer',
+      'Front-end',
+      'Accessibility',
+      'Performance',
+    ],
+  },
+  {
     name: 'Dave Hill',
     description: 'Front-end developer, amateur photographer, podcast beginner.',
     url: 'https://davehill.dev/uses/',
