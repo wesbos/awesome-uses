@@ -21,7 +21,7 @@ export function countries() {
     .reduce((acc, country) => {
       if (acc[country.name]) {
         // exists, update
-        acc[country.name].count += acc[country.name].count;
+        acc[country.name].count += 1;
       } else {
         acc[country.name] = {
           ...country,
