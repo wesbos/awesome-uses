@@ -208,6 +208,25 @@ export default [
     ],
   },
   {
+    name: 'Shajan Jacob',
+    description:
+    'Software Engineer, extroverted introvert, storyteller and a maker.',
+    url: 'https://shajanjacob.com/uses',
+    twitter: '@shajanjacob',
+    emoji: '🍀',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+    'Software Engineer',
+    'Full Stack',
+    'Maker',
+    'JavaScript',
+    'React',
+    'Node',
+    ],
+  },
+  {
     name: 'Habbat Adnan',
     description:
       'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
