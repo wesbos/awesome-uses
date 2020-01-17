@@ -5,6 +5,12 @@ import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
 
+const PersonName = styled.h3`
+  a:visited {
+    color: var(--purple);
+  }
+`;
+
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
   const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`
@@ -13,11 +19,11 @@ export default function Person({ person, currentTag }) {
       <PersonInner>
         <header>
           <img width="50" height="50" src={img} alt={person.name} />
-          <h3>
+          <PersonName>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
               {person.name} {person.emoji}
             </a>
-          </h3>
+          </PersonName>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -135,7 +141,8 @@ const PersonInner = styled.div`
       text-overflow: ellipsis;
       max-width: 100%;
       overflow: hidden;
-      :hover {
+      :hover,
+      :visited {
         color: var(--pink);
       }
     }

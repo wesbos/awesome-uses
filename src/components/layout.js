@@ -73,7 +73,7 @@ export default Layout;
 // Global Styles
 const GlobalStyle = createGlobalStyle`
   html {
-    --purple: #1e1f5c;
+    --purple: #b066ff;
     --blue: #203447;
     --lightblue: #1f4662;
     --blue2: #1C2F40;
@@ -89,7 +89,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-size: 2rem;
     overflow-y: scroll;
-    /* overflow-x: hidden; */
   }
   h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
