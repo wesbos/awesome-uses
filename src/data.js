@@ -1192,6 +1192,17 @@ export default [
     ],
   },
   {
+    name: 'Alba Silvente',
+    description: 'Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.',
+    url: 'https://dawntraoz.com/uses',
+    twitter: '@dawntraoz',
+    emoji: '💃',
+    country: '🇪🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Front End', 'Engineer', 'SCSS', 'Vue', 'AMP', 'TailwindCSS', 'Performance', 'PWA', 'Remote', 'Zeplin'],
+  },
+  {
     name: 'Josh Manders',
     description: 'Full Snack Developer and Indie Maker',
     url: 'https://joshmanders.com/uses/',
