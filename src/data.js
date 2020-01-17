@@ -215,8 +215,8 @@ export default [
     twitter: '@shajanjacob',
     emoji: '🍀',
     country: '🇮🇳',
-    computer: 'HP',
-    phone: 'Redmi K20',
+    computer: 'linux',
+    phone: 'android',
     tags: [
     'Software Engineer',
     'Full Stack',
