@@ -2461,7 +2461,7 @@ export default [
     tags: [
       'Engineer',
       'Developer',
-      'SAP ERP'
+      'SAP ERP',
       'WordPress',
       'CSS',
       'PHP',
