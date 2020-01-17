@@ -2826,7 +2826,7 @@ export default [
     url: 'https://rqrauhvmra.com/uses/',
     twitter: '@rqrauhvmra',
     emoji: '☕',
-    country: 'DE',
+    country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
     tags: [
