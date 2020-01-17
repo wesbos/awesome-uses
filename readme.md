@@ -176,6 +176,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
+* [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
 * [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
@@ -184,7 +185,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
-* [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Full Stack, from Brazil.
 * [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
 * [Alex Carpenter](https://alexcarpenter.me/uses) — UI Engineer, Screencaster
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
