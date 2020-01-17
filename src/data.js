@@ -590,6 +590,30 @@ export default [
     ],
   },
   {
+    name: 'Joris Hens',
+    description:
+      'Web development teacher, Security and hacking enthousiast, Cook.',
+    url: 'https://www.goodbytes.be/uses',
+    twitter: '@goodbytes',
+    emoji: '👨🏽‍🍳',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Coach',
+      'Mentor',
+      'PHP',
+      'JavaScript',
+      'VueJS',
+      'Node',
+      'CSS',
+      'Laravel',
+      'MongoDB'
+    ],
+  },
+  {
     name: 'Lauro Silva',
     description: 'Software Engineer and Technical Writer',
     url: 'https://laurosilva.com/uses',
