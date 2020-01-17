@@ -2452,7 +2452,7 @@ export default [
   {
     name: 'Frank Bültge',
     description: 'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
-    url: 'https://bueltge.de',
+    url: 'https://bueltge.de/uses/',
     twitter: '@bueltge',
     emoji: '🚲',
     country: '🇩🇪',
