@@ -41,7 +41,8 @@ export default [
       'Node',
       'CSS',
       'Tailwind',
-      'Entrepreneur',]
+      'Entrepreneur',
+    ],
   },
   {
     name: 'Eliezer Steinbock',
@@ -210,7 +211,7 @@ export default [
   {
     name: 'Shajan Jacob',
     description:
-    'Software Engineer, extroverted introvert, storyteller and a maker.',
+      'Software Engineer, extroverted introvert, storyteller and a maker.',
     url: 'https://shajanjacob.com/uses',
     twitter: '@shajanjacob',
     emoji: '🍀',
@@ -218,12 +219,12 @@ export default [
     computer: 'linux',
     phone: 'android',
     tags: [
-    'Software Engineer',
-    'Full Stack',
-    'Maker',
-    'JavaScript',
-    'React',
-    'Node',
+      'Software Engineer',
+      'Full Stack',
+      'Maker',
+      'JavaScript',
+      'React',
+      'Node',
     ],
   },
   {
@@ -470,7 +471,8 @@ export default [
   },
   {
     name: 'Darlene Zouras',
-    description: 'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
+    description:
+      'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
     url: 'https://darzouras.com/uses/',
     twitter: '@darzouras',
     emoji: '🤟',
@@ -486,7 +488,7 @@ export default [
       'HTML',
       'Javascript',
       'Accessibility',
-    ]
+    ],
   },
   {
     name: 'Glenn Reyes',
@@ -649,7 +651,7 @@ export default [
       'Node',
       'CSS',
       'Laravel',
-      'MongoDB'
+      'MongoDB',
     ],
   },
   {
@@ -2284,7 +2286,15 @@ export default [
     country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
-    tags: ['Windows', 'Developer', 'Blogger', 'Javascript', 'PHP', 'CSS', 'SCSS'],
+    tags: [
+      'Windows',
+      'Developer',
+      'Blogger',
+      'Javascript',
+      'PHP',
+      'CSS',
+      'SCSS',
+    ],
   },
   {
     name: 'Seyhun Akyürek',
@@ -2514,7 +2524,8 @@ export default [
   },
   {
     name: 'Frank Bültge',
-    description: 'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
+    description:
+      'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
     url: 'https://bueltge.de/uses/',
     twitter: '@bueltge',
     emoji: '🚲',
@@ -2809,7 +2820,7 @@ export default [
       'CSS',
     ],
   },
-    {
+  {
     name: 'Ibrahim Cesar',
     description:
       'Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi',
@@ -2934,12 +2945,7 @@ export default [
     country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'Web developer',
-      'Front-end',
-      'Accessibility',
-      'Performance',
-    ],
+    tags: ['Web developer', 'Front-end', 'Accessibility', 'Performance'],
   },
   {
     name: 'Dave Hill',
