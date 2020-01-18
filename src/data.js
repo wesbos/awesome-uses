@@ -1758,7 +1758,7 @@ export default [
       'Python',
       'Serverless',
       'SQL',
-      'Vue'
+      'Vue',
     ],
   },
   {
