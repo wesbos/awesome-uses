@@ -991,6 +991,27 @@ export default [
     tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
   },
   {
+    name: 'Keith Wagner',
+    description:
+      'Experienced full stack developer. Always trying to learn new and better ways of doing things.',
+    url: 'https://kpwags.com/uses',
+    twitter: '@kpwags',
+    emoji: '👨‍💻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'C#',
+      '.NET'
+    ],
+  },
+  {
     name: "David O'Trakoun",
     description: 'Software Engineer',
     url: 'https://www.davidosomething.com/uses/',
