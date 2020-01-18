@@ -3284,10 +3284,12 @@ export default [
       'Sass',
     ],
   },
-    {
+  {
     name: 'Lakshmipriya Mukundan',
-    description: 'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
-    url: 'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
+    description:
+      'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
+    url:
+      'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
     twitter: '@lak_mee',
     emoji: ':😺 ',
     country: '🇮🇳',
@@ -3300,7 +3302,7 @@ export default [
       'Full Stack',
       'React',
       'Elasticsearch',
-      'GraphQL'
+      'GraphQL',
     ],
   },
   {
