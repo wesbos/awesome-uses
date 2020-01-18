@@ -3278,7 +3278,6 @@ export default [
       'Developer',
       'Full Stack',
       'React',
-      'Back End',
       'Elasticsearch',
       'GraphQL'
     ],
