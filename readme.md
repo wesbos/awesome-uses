@@ -43,6 +43,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
 * [Carter McAlister](https://cartermcalister.dev/uses) — Software Engineer, Digital Nomad, Lover of the Outdoors
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
+* [Valentina Calabrese](https://valentinacalabrese.com/uses) — Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
 * [Sam Cross](http://sam-cross.github.io/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
