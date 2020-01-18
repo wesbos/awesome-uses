@@ -1008,7 +1008,7 @@ export default [
       'Node',
       'CSS',
       'C#',
-      '.NET'
+      '.NET',
     ],
   },
   {
