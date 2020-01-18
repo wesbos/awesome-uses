@@ -3284,6 +3284,25 @@ export default [
       'Sass',
     ],
   },
+    {
+    name: 'Lakshmipriya Mukundan',
+    description: 'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
+    url: 'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
+    twitter: '@lak_mee',
+    emoji: ':😺 ',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'NodeJs',
+      'Developer',
+      'Full Stack',
+      'React',
+      'Elasticsearch',
+      'GraphQL'
+    ],
+  },
   {
     name: 'Tony Mamedbekov',
     description:
