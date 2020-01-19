@@ -158,6 +158,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seyhun Akyürek](https://www.seyhunakyurek.com/uses/) — Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
+* [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
 * [Thomas Large](https://tomlarge.dev/uses) — My name is Tom! I write code
 * [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
 * [Jesse James Burton](https://burtonmediainc.com/uses) — Software Developing Yogi from Alberta, Canada. Lets build the internet together.
