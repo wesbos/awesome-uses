@@ -24,7 +24,7 @@ async function getCurrentBranchName() {
 /** on master branch will return an empty array */
 export async function getMasterData() {
   const options = { silent: true };
-  const curentBranchName = getCurrentBranchName();
+  const curentBranchName = await getCurrentBranchName();
   // when on a branch/PR different from master
   // will populate scripts/masterData.js with src/data.js from master
   if (curentBranchName !== 'master') {
