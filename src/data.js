@@ -2132,7 +2132,7 @@ export default [
     url: 'https://jorgecalle.co/uses',
     twitter: '@jorcalle11',
     emoji: '👨‍💻',
-    country: 'CO',
+    country: '🇨🇴',
     computer: 'linux',
     phone: 'android',
     tags: [
