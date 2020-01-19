@@ -457,6 +457,26 @@ export default [
     ],
   },
   {
+    name: 'Dave Mullen Jnr',
+    description:
+      'Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.',
+    url: 'https://davemullenjnr.co.uk/uses',
+    twitter: '@davemullenjnr',
+    emoji: '🌱',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Photographer',
+      'Developer',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'CSS',
+    ],
+  },
+  {
     name: 'Josh Buchea',
     description: 'Software Engineer, Open Source Contributor',
     url: 'https://joshbuchea.com/uses',
