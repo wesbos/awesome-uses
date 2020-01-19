@@ -2126,6 +2126,26 @@ export default [
     ],
   },
   {
+    name: 'Jorge Calle',
+    description:
+      'Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)',
+    url: 'https://jorgecalle.co/uses',
+    twitter: '@jorcalle11',
+    emoji: '👨‍💻',
+    country: 'CO',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Javascript',
+      'Full Stack',
+      'Node',
+      'React',
+      'Firebase',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'José Carlos Correa',
     description:
       'Fullstack developer and speaker. Lead teacher @ironhack and gatsby teacher @platzi. Learning all the time.',
