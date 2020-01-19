@@ -88,7 +88,8 @@ export default [
   },
   {
     name: 'Emmanuel Martins',
-    description: 'Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings',
+    description:
+      'Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings',
     url: 'http://betacodings.com/uses',
     twitter: '@emmamartinscode',
     emoji: '👩🏽‍💻',
