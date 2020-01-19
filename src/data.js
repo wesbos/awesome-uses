@@ -3411,6 +3411,24 @@ export default [
       'GraphQL',
     ],
   },
+   {
+    name: 'Emmanuel Martins',
+    description:
+      'Full Stack, Into open-source to help developers both professionals and freshers to solve problems.',
+    url: 'https://github.com/pytonik/pytonik/',
+    twitter: '@emmamartinscode',
+    emoji: '🦁',
+    country: '🇳🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Back End',
+      'Python',
+      'Java',
+      'Php',
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
