@@ -67,6 +67,27 @@ export default [
     ],
   },
   {
+    name: 'Amarpreet Singh',
+    description:
+      'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
+    url: 'https://www.momcoded.com/uses/',
+    twitter: '@amarmanhala',
+    emoji: '☕',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Frontend',
+      'Learner',
+      'minimalist',
+      'JavaScript',
+      'React',
+      'CSS',
+      'Swift',
+    ],
+  },
+  {
     name: 'Asam Shan',
     description: 'JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️',
     url: 'https://www.asamshan.dev/uses',
