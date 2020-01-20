@@ -15,8 +15,9 @@ export default function Person({ person, currentTag }) {
           <img width="50" height="50" src={img} alt={person.name} />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
-              {person.name} 
-            </a> {person.emoji}
+              {person.name}
+            </a>{' '}
+            {person.emoji}
           </h3>
           <a
             target="_blank"
@@ -109,6 +110,9 @@ const PersonInner = styled.div`
   padding: 2rem;
   h3 {
     margin: 0;
+    a:visited {
+      color: var(--purple);
+    }
   }
   header {
     display: grid;
@@ -134,7 +138,8 @@ const PersonInner = styled.div`
       text-overflow: ellipsis;
       max-width: 100%;
       overflow: hidden;
-      :hover {
+      :hover,
+      :visited {
         color: var(--pink);
       }
     }
