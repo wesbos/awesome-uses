@@ -2837,6 +2837,26 @@ export default [
     tags: ['Software Engineer', 'Laravel', 'Vue', 'WordPress'],
   },
   {
+    name: 'Wes Baker',
+    description: 'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
+    url: 'https://wesbaker.com/uses',
+    twitter: '@wesbaker',
+    emoji: '🏋️‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Team Lead',
+      'Software Engineer',
+      'Front End',
+      'Back End',
+      'Ruby on Rails',
+      'React',
+      'JavaScript',
+      'Serverless',
+    ]
+  },
+  {
     name: 'Alejandro G. Anglada',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
