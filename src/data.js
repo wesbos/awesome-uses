@@ -67,6 +67,25 @@ export default [
     ],
   },
   {
+    name: 'Renee de Kruijf',
+    description: 'Javascript developer in the making. Still learning every day. Liking it a lot!',
+    url: 'https://webdesignpuntnl.com/pages/uses',
+    twitter: '@reneedekruijf',
+    emoji: '🐧',
+    country: '🇳🇱',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'Next',
+      'Gatsby',
+      'Styled-Components',
+      'CSS',
+    ],
+  },
+  {
     name: 'Amarpreet Singh',
     description:
       'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
