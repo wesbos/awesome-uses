@@ -44,5 +44,9 @@ const FilterProvider = function({ children }) {
   );
 };
 
+FilterProvider.propTypes = {
+  children: React.Children,
+};
+
 export default FilterContext;
 export { FilterProvider };

@@ -44,7 +44,7 @@ function useWickedFavIcon() {
 }
 
 export default function FavIcon() {
-  const { letter, index, canvasRef } = useWickedFavIcon();
+  const { /* letter, index, */ canvasRef } = useWickedFavIcon();
   return (
     <div>
       <canvas

@@ -6,9 +6,9 @@ import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
 
-function Person({ hit, currentTag }) {
+export default function Person({ hit, currentTag }) {
   const url = new URL(hit.url);
-  const img = `https://logo.clearbit.com/${url.host}`;
+  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`;
   return (
     <PersonWrapper>
       <PersonInner>
@@ -24,16 +24,20 @@ function Person({ hit, currentTag }) {
             rel="noopener noreferrer"
             className="displayLink"
             href={hit.url}
-          >{`${url.host}${
-            url.pathname.endsWith('/')
-              ? url.pathname.substr(0, url.pathname.length - 1)
-              : url.pathname
-          }`}</a>
+          >
+            {url.host}
+            {url.pathname.replace(/\/$/, '')}
+          </a>
         </header>
         <p>{hit.description}</p>
         <Tags>
           {hit.tags.map(tag => (
-            <Tag key={`${hit.name}-${tag}`} as="li" currentTag={tag === currentTag} small>
+            <Tag
+              key={`${hit.name}-${tag}`}
+              as="li"
+              currentTag={tag === currentTag}
+              small
+            >
               {tag}
             </Tag>
           ))}
@@ -57,7 +61,7 @@ function Person({ hit, currentTag }) {
         {hit.twitter && (
           <TwitterHandle>
             <a
-              href={`https://twitter.com/${hit.twitter}`}
+              href={`https://twitter.com/${hit.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -93,8 +97,6 @@ Person.propTypes = {
     },
   }),
 };
-
-export default Person;
 
 // Component Styles
 const PersonWrapper = styled.div`

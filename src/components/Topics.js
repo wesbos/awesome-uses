@@ -97,7 +97,7 @@ Topics.propTypes = {
 export default connectMenu(Topics);
 
 // Component Styles
-export const Tags = styled.div`
+export const Tags = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
