@@ -1,4 +1,4 @@
-const flags = [
+module.exports = [
   '🇦🇫',
   '🇦🇱',
   '🇩🇿',
@@ -236,5 +236,3 @@ const flags = [
   '🏳️‍🌈',
   '🇪🇺',
 ];
-
-export default flags;

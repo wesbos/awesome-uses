@@ -1,9 +1,9 @@
-import exec from '@actions/exec';
-import core from '@actions/core';
-import Joi from '@hapi/joi';
-import * as http from 'http';
-import * as https from 'https';
-import flags from './flags.js';
+const exec = require('@actions/exec');
+const core = require('@actions/core');
+const Joi = require('@hapi/joi');
+const http = require('http');
+const https = require('https');
+const flags = require('./flags.js');
 
 async function getCurrentBranchName() {
   let myOutput = '';
@@ -22,7 +22,7 @@ async function getCurrentBranchName() {
 }
 
 /** on master branch will return an empty array */
-export async function getMasterData() {
+module.exports.getMasterData = async function() {
   const options = { silent: true };
   const curentBranchName = await getCurrentBranchName();
   // when on a branch/PR different from master
@@ -38,7 +38,8 @@ export async function getMasterData() {
     core.info('Executing action on master branch');
   }
 
-  const masterData = await import('./masterData.js').then(m => m.default);
+  // eslint-disable-next-line global-require
+  const masterData = require('./masterData.js');
 
   // restore `scripts/masterData.js` after was loaded
   if (curentBranchName !== 'master') {
@@ -46,9 +47,9 @@ export async function getMasterData() {
   }
 
   return masterData;
-}
+};
 
-export const Schema = Joi.object({
+module.exports.Schema = Joi.object({
   name: Joi.string().required(),
   description: Joi.string().required(),
   url: Joi.string()
@@ -65,7 +66,7 @@ export const Schema = Joi.object({
   tags: Joi.array().items(Joi.string()),
 });
 
-export function getStatusCode(url) {
+module.exports.getStatusCode = function(url) {
   const client = url.startsWith('https') ? https : http;
   return new Promise((resolve, reject) => {
     const REQUEST_TIMEOUT = 10000;
@@ -82,4 +83,4 @@ export function getStatusCode(url) {
       })
       .on('error', err => reject(err));
   });
-}
+};

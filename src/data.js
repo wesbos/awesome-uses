@@ -1,4 +1,5 @@
-export default [
+// keep it commonjs export
+module.exports = [
   {
     name: 'Wes Bos',
     description:
