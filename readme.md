@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
+* [Amarpreet Singh](https://www.momcoded.com/uses/) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
 * [Asam Shan](https://www.asamshan.dev/uses) — JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️
 * [Emmanuel Martins](http://betacodings.com/uses) — Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
@@ -47,7 +48,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Valentina Calabrese](https://valentinacalabrese.com/uses) — Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
-* [Sam Cross](http://sam-cross.github.io/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
+* [Sam Cross](https://sam-cross.github.io/#/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
@@ -75,6 +76,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
+* [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
 * [Mohamed Benhida](http://mohamedbenhida.com/uses) — Web Developer, Open source contributor.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
@@ -158,6 +160,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Seyhun Akyürek](https://www.seyhunakyurek.com/uses/) — Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails
+* [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
