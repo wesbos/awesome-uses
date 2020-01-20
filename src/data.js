@@ -45,7 +45,7 @@ module.exports = [
       'Entrepreneur',
     ],
   },
-   {
+  {
     name: 'Didier Catz',
     description:
       'Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.',
@@ -65,7 +65,7 @@ module.exports = [
       'Entrepreneur',
       'OSS',
       'Animation',
-      'Musician'
+      'Musician',
     ],
   },
   {
