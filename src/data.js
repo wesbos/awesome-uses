@@ -46,6 +46,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Joe Astuccio',
+    description:
+      'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
+    url: 'https://astucc.io/uses',
+    twitter: '@jastuccio',
+    emoji: '😜',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'Styled Components',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Gatsby',
+      'JAMstack',
+      'Serverless',
+    ],
+  },
+  {
     name: 'Eliezer Steinbock',
     description:
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
