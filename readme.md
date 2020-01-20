@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
+* [Amarpreet Singh](https://www.momcoded.com/uses/) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
 * [Asam Shan](https://www.asamshan.dev/uses) — JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️
 * [Emmanuel Martins](http://betacodings.com/uses) — Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
