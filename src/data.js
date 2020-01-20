@@ -289,7 +289,7 @@ export default [
       'Docker',
     ],
   },
-    {
+  {
     name: 'Mark Horsell',
     description:
       'Software Developer - Front-end mostly, back-end and native sometimes.',
@@ -300,20 +300,19 @@ export default [
     phone: 'android',
     tags: [
       'Developer',
-	  'TypeScript',
+      'TypeScript',
       'JavaScript',
       'React',
-	  'Redux',
+      'Redux',
       'Node',
       'HTML',
       'CSS',
-	  'SCSS',
+      'SCSS',
       'Web Developer',
       'Flutter',
-	  'Dart',
-	  'C#',
-	  'SQL',
-	  
+      'Dart',
+      'C#',
+      'SQL',
     ],
   },
   {
