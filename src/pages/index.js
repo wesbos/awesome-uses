@@ -7,6 +7,12 @@ import Layout from '../components/layout';
 import Person from '../components/Person';
 import Topics from '../components/Topics';
 
+const BackToTopLink = styled.a`
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+`;
+
 function IndexPage() {
   const { currentTag } = useContext(FilterContext);
   const { allPerson } = useStaticQuery(graphql`
@@ -43,6 +49,7 @@ function IndexPage() {
           <Person key={person.name} person={person} currentTag={currentTag} />
         ))}
       </People>
+      <BackToTopLink href="#top">&uarr; Back to top</BackToTopLink>
     </Layout>
   );
 }
