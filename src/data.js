@@ -128,6 +128,30 @@ export default [
     ],
   },
   {
+    name: 'Praveen AS',
+    description:
+      'Fullstack Developer, AWS Certified, Google Cloud Certified',
+    url: 'https://pixeldigit.com/uses',
+    twitter: '@aspraveen',
+    emoji: '👽',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Engineer',
+      'FullStack',
+      'Laravel',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'Asp.net',
+      'PHP',
+      'MYSQL',
+      'AWS',
+      'Google Cloud',
+    ],
+  },
+  {
     name: 'Emmanuel Martins',
     description:
       'Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings',
