@@ -952,6 +952,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Knepprath',
+    description:
+      'Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.',
+    url: 'https://mknepprath.com/uses',
+    twitter: '@mknepprath',
+    emoji: '🥳',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots'],
+  },
+  {
     name: 'Brad Garropy',
     description:
       'Self taught frontender at Adobe, into lifting and country music.',
