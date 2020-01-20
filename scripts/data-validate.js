@@ -1,6 +1,6 @@
-import core from '@actions/core';
-import { getMasterData, Schema, getStatusCode } from './utils.js';
-import srcData from '../src/data.js';
+const core = require('@actions/core');
+const { getMasterData, Schema, getStatusCode } = require('./utils.js');
+const srcData = require('../src/data.js');
 
 (async () => {
   // on master branch will be empty array
@@ -19,7 +19,7 @@ import srcData from '../src/data.js';
   });
 
   let failedUrlsCount = 0;
-  for await (const { url } of data) {
+  for (const { url } of data) {
     try {
       const statusCode = await getStatusCode(url);
       if (statusCode < 200 || statusCode >= 400) {
