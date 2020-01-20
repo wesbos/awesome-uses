@@ -32,7 +32,8 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
-* [Amarpreet Singh](https://www.momcoded.com/uses/) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
+* [Renee de Kruijf](https://webdesignpuntnl.com/pages/uses.html) — Javascript developer in the making. Still learning every day. Liking it a lot!
+* [Amarpreet Singh](https://www.momcoded.com/uses) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
 * [Asam Shan](https://www.asamshan.dev/uses) — JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️
 * [Emmanuel Martins](http://betacodings.com/uses) — Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
@@ -90,6 +91,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger
 * [Michael Hoffmann](https://www.mokkapps.de/blog/my-development-setup/) — Freelance Software Engineer
+* [Austin Gil](https://stegosource.com/uses/) — Some dude that writes code.
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
 * [Sil van Diepen](https://www.silvandiepen.nl/uses/) — Creative Developer
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
@@ -132,6 +134,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
+* [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design

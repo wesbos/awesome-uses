@@ -68,7 +68,8 @@ export default [
   },
   {
     name: 'Renee de Kruijf',
-    description: 'Javascript developer in the making. Still learning every day. Liking it a lot!',
+    description:
+      'Javascript developer in the making. Still learning every day. Liking it a lot!',
     url: 'https://webdesignpuntnl.com/pages/uses.html',
     twitter: '@reneedekruijf',
     emoji: '🐧',
@@ -1173,8 +1174,7 @@ export default [
   },
   {
     name: 'Austin Gil',
-    description:
-      'Some dude that writes code.',
+    description: 'Some dude that writes code.',
     url: 'https://stegosource.com/uses/',
     twitter: '@stegosource',
     emoji: '🍕',
