@@ -178,7 +178,7 @@ export default [
     country: '🇮🇹',
     phone: 'iphone',
     computer: 'apple',
-    tags: ['Developer', 'Javascript', 'Golang', 'Rust', 'Java', 'Full Stack'],
+    tags: ['Developer', 'JavaScript', 'Golang', 'Rust', 'Java', 'Full Stack'],
   },
   {
     name: 'Vishwasa Navada K',
@@ -649,7 +649,7 @@ export default [
       'JAMstack',
       'CSS',
       'HTML',
-      'Javascript',
+      'JavaScript',
       'Accessibility',
     ],
   },
@@ -2306,7 +2306,7 @@ export default [
     phone: 'android',
     tags: [
       'Developer',
-      'Javascript',
+      'JavaScript',
       'Full Stack',
       'Node',
       'React',
@@ -2443,7 +2443,7 @@ export default [
     country: '🇩🇴',
     computer: 'linux',
     phone: 'iphone',
-    tags: ['Developer', '.NET', 'Typescript', 'Javascript', 'Sass'],
+    tags: ['Developer', '.NET', 'Typescript', 'JavaScript', 'Sass'],
   },
   {
     name: 'Thomas Weibenfalk',
@@ -2596,7 +2596,7 @@ export default [
       'Windows',
       'Developer',
       'Blogger',
-      'Javascript',
+      'JavaScript',
       'PHP',
       'CSS',
       'SCSS',
@@ -2655,7 +2655,7 @@ export default [
     country: '🇨🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Javascript', 'React', 'Node', 'Design', 'Full Stack', 'Writer'],
+    tags: ['JavaScript', 'React', 'Node', 'Design', 'Full Stack', 'Writer'],
   },
   {
     name: 'Usman Khwaja',
