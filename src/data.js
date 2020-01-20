@@ -65,7 +65,7 @@ module.exports = [
       'TypeScript',
       'React',
       'Gatsby',
-      'JAMstack
+      'JAMstack',
       'Serverless',
     ],
   },
