@@ -13,7 +13,7 @@ const PersonName = styled.h3`
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`
+  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`;
   return (
     <PersonWrapper>
       <PersonInner>
@@ -21,19 +21,19 @@ export default function Person({ person, currentTag }) {
           <img width="50" height="50" src={img} alt={person.name} />
           <PersonName>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
-              {person.name} {person.emoji}
-            </a>
+              {person.name}
+            </a>{' '}
+            {person.emoji}
           </PersonName>
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="displayLink"
             href={person.url}
-          >{`${url.host}${
-            url.pathname.endsWith('/')
-              ? url.pathname.substr(0, url.pathname.length - 1)
-              : url.pathname
-          }`}</a>
+          >
+            {url.host}
+            {url.pathname.replace(/\/$/, '')}
+          </a>
         </header>
         <p>{person.description}</p>
         <Tags>
