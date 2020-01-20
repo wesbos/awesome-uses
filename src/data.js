@@ -377,7 +377,6 @@ export default [
     description:
       '"Developer", IT student, frequent traveller by coach, addicted to music.',
     url: 'https://sam-cross.github.io/#/uses',
-    twitter: '@samcrxss',
     emoji: '🎵',
     country: '🇬🇧',
     computer: 'windows',
