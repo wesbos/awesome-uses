@@ -11,6 +11,9 @@ const BackToTopLink = styled.a`
   position: fixed;
   bottom: 10px;
   right: 10px;
+  background: rgba(31, 31, 31, 0.8);
+  padding: 1rem;
+  border-radius: 0.8rem;
 `;
 
 function IndexPage() {
