@@ -15,8 +15,8 @@ export default function Person({ person, currentTag }) {
           <img width="50" height="50" src={img} alt={person.name} />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
-              {person.name} {person.emoji}
-            </a>
+              {person.name} 
+            </a> {person.emoji}
           </h3>
           <a
             target="_blank"
