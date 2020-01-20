@@ -941,14 +941,7 @@ export default [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Designer',
-      'Front end',
-      'Sass',
-      'CSS',
-      'Gatsby',
-      'JavaScript',
-    ],
+    tags: ['Designer', 'Front end', 'Sass', 'CSS', 'Gatsby', 'JavaScript'],
   },
   {
     name: 'Aaron Dunphy',
