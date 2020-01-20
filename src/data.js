@@ -2088,6 +2088,17 @@ module.exports = [
     ],
   },
   {
+    name: 'David Petringa',
+    description:'Web developer coding in PHP, Laravel, Vuejs. Blogger as a side Hustle.',
+    url: 'https://david.dukesnus.com/',
+    twitter: '@dukesnuz',
+    emoji: '💀',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['Developer', 'Blogger', 'Front End', 'Back End', 'PHP', 'Laravel', 'JavaScript', 'Vue', 'MySQL'],
+  },
+  {
     name: 'Matthew Rebehn',
     description: 'Proud Dad and Developer',
     url: 'https://mattaz.com/uses',
