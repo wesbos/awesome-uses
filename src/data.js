@@ -2838,7 +2838,8 @@ export default [
   },
   {
     name: 'Wes Baker',
-    description: 'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
+    description:
+      'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
     url: 'https://wesbaker.com/uses',
     twitter: '@wesbaker',
     emoji: '🏋️‍♂️',
@@ -2854,7 +2855,7 @@ export default [
       'React',
       'JavaScript',
       'Serverless',
-    ]
+    ],
   },
   {
     name: 'Alejandro G. Anglada',
