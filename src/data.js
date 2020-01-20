@@ -69,7 +69,7 @@ export default [
   {
     name: 'Renee de Kruijf',
     description: 'Javascript developer in the making. Still learning every day. Liking it a lot!',
-    url: 'https://webdesignpuntnl.com/pages/uses',
+    url: 'https://webdesignpuntnl.com/pages/uses.html',
     twitter: '@reneedekruijf',
     emoji: '🐧',
     country: '🇳🇱',
@@ -89,7 +89,7 @@ export default [
     name: 'Amarpreet Singh',
     description:
       'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
-    url: 'https://www.momcoded.com/uses/',
+    url: 'https://www.momcoded.com/uses',
     twitter: '@amarmanhala',
     emoji: '☕',
     country: '🇨🇦',
