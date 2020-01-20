@@ -294,6 +294,7 @@ export default [
     description:
       'Software Developer - Front-end mostly, back-end and native sometimes.',
     url: 'https://markhorsell.com/uses',
+    twitter:'@markhorsell',
     emoji: '🗺',
     country: '🇬🇧',
     computer: 'windows',
