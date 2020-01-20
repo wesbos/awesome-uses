@@ -46,6 +46,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Julian Hasse',
+    description:
+      'UX Designer, web developer, tango arranger, angular wizard, design systems curator',
+    url: 'https://www.julianhasse.com/uses',
+    twitter: '@julian_hasse',
+    emoji: '🤙',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'UX',
+      'Musician',
+      'JavaScript',
+      'Angular',
+      'Node',
+      'CSS',
+      'watches',
+      'Entrepreneur',
+    ],
+  },
+  {
     name: 'Eliezer Steinbock',
     description:
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
