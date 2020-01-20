@@ -289,6 +289,33 @@ export default [
       'Docker',
     ],
   },
+    {
+    name: 'Mark Horsell',
+    description:
+      'Software Developer - Front-end mostly, back-end and native sometimes.',
+    url: 'https://markhorsell.com/uses',
+    emoji: '🗺',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+	  'TypeScript',
+      'JavaScript',
+      'React',
+	  'Redux',
+      'Node',
+      'HTML',
+      'CSS',
+	  'SCSS',
+      'Web Developer',
+      'Flutter',
+	  'Dart',
+	  'C#',
+	  'SQL',
+	  
+    ],
+  },
   {
     name: 'Carter McAlister',
     description: 'Software Engineer, Digital Nomad, Lover of the Outdoors',
