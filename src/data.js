@@ -45,6 +45,29 @@ module.exports = [
       'Entrepreneur',
     ],
   },
+   {
+    name: 'Didier Catz',
+    description:
+      'Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.',
+    url: 'https://didiercatz.com/uses',
+    twitter: '@didiercatz',
+    emoji: '🎹',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Svelte',
+      'Node',
+      'CSS',
+      'Tailwind',
+      'Entrepreneur',
+      'OSS',
+      'Animation',
+      'Musician'
+    ],
+  },
   {
     name: 'Joe Astuccio',
     description:
