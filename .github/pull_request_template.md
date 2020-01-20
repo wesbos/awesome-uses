@@ -6,6 +6,10 @@ Please read the requirements corresponding to your pull request before you submi
 
 A /uses page lists a developer's setup, gear, software, and configs (what they *use*). It's a great reference for those looking to add to their library of tools or reconfigure ones they already use.
 
+### What Should I Include?
+
+Include the hardware you use, such as your computer and other related equipment. Include your preferred terminal, text editors, tools, frameworks, and other related software you use. If you can, include configurations for software (such as fonts and themes). The more you have on your /uses page, the more interesting it'll be to those who view it - just keep it on-topic!
+
 ## Adding Yourself
 
 * Ensure you are linking to a /uses page, **not just your website**
