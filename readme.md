@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
+* [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Renee de Kruijf](https://webdesignpuntnl.com/pages/uses.html) — Javascript developer in the making. Still learning every day. Liking it a lot!
 * [Amarpreet Singh](https://www.momcoded.com/uses) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
@@ -75,6 +76,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Lina María Montaño Ramírez](https://calypsobronte.me/uses) — Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co
+* [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
