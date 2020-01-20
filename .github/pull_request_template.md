@@ -2,10 +2,15 @@
 
 Please read the requirements corresponding to your pull request before you submit.
 
-## data.js Requirements
+## What's a Uses Page?
 
-* Ensure you are linking to a /uses page
-* Ensure your data is formatted in the same way as other entries
+A /uses page lists a developer's setup, gear, software, and configs (what they *use*). It's a great reference for those looking to add to their library of tools or reconfigure ones they already use.
+
+## Adding Yourself
+
+* Ensure you are linking to a /uses page, **not just your website**
+* Ensure your data is formatted like other entries
+* Do not add yourself to the end of the array (add yourself somewhere random instead)
 * Ensure this PR has a title in the following format
     * ✅ Add Your Name
     * ✅ Add @twitterusername
@@ -13,7 +18,7 @@ Please read the requirements corresponding to your pull request before you submi
     * ❌ Adding myself!
     * ❌ Add Your Name @twitter @github
 
-## Fix Requirements
+## Code Modifications
 
 * Ensure the code submitted is formatted similarly to existing code
 * Ensure variable, method, function, and component names are clear and concise
@@ -21,7 +26,5 @@ Please read the requirements corresponding to your pull request before you submi
 ## Final Requirements
 
 * You've read and understood the above
-
-## Finally...
 
 **Add your name to verify:** Name
