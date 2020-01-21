@@ -3472,7 +3472,7 @@ module.exports = [
     url: 'https://roto.dev/uses',
     twitter: '@winterwolf0412',
     emoji: '🎸',
-    countor: 'kr',
+    country: '🇰🇷',
     computer: 'apple',
     phone: 'android',
     tags: [
