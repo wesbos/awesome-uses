@@ -145,6 +145,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
+* [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
