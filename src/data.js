@@ -3580,6 +3580,27 @@ module.exports = [
     tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue'],
   },
   {
+    name: "Armno Prommarak",
+    description: "Frontend developer, blogger, cyclist.",
+    url: "https://armno.in.th/uses",
+    twitter: "@armno",
+    emoji: "🔥",
+    country: "🇹🇭",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "Front End",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Angular",
+      "TypeScript",
+      "Blogger",
+      "Performance"
+    ]
+  },
+  {
     name: 'Tarik Omercehajic',
     description:
       'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
