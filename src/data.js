@@ -3150,8 +3150,7 @@ module.exports = [
   },
   {
     name: 'Roland Szabo',
-    description:
-      'Team Lead, ML Engineer,  Board Gamer',
+    description: 'Team Lead, ML Engineer,  Board Gamer',
     url: 'https://rolisz.ro/uses',
     twitter: '@rolisz',
     emoji: '😀',
@@ -3167,7 +3166,7 @@ module.exports = [
       'Flask',
       'Tensorflow',
       'Spark',
-      'Blogger'
+      'Blogger',
     ],
   },
   {
