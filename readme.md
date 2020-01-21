@@ -207,6 +207,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Majo Paskuvan](https://paskuvan.us/uses.html) — Front End Developer, Reader, Deaf Person
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
+* [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
