@@ -3666,6 +3666,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Diyar Faraj',
+    description: 'Developer, programmer, designer.',
+    url: 'https://github.com/diyarfaraj/uses',
+    twitter: '@diyarfaraj',
+    emoji: '🦁',
+    country: 'SE',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'React',
+      'Node',
+      'C#',
+      'Full Stack',
+      'GraphQL',
+      '.Net',
+      'TypeScript',
+    ],
+  },
+
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
@@ -3686,27 +3708,6 @@ module.exports = [
     ],
   },
 
-  {
-    name: 'Diyar Faraj',
-    description: 'Developer, programmer, designer.',
-    url: 'https://github.com/diyarfaraj/uses',
-    twitter: '@diyarfaraj',
-    emoji: '🦁',
-    country: 'se',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Web Development',
-      'Front End',
-      'React',
-      'Node',
-      'C#',
-      'Full Stack',
-      'GraphQL',
-      '.Net',
-      'TypeScript',
-    ],
-  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
