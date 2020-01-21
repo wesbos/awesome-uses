@@ -16,9 +16,10 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
   }
 
   const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
-  console.log(GITHUB_TOKEN, process.env.GITHUB_TOKEN);
+  console.log('GITHUB_TOKEN', GITHUB_TOKEN);
+  console.log('process.env.GITHUB_TOKEN', process.env.GITHUB_TOKEN);
   const { context } = github;
-  console.log(context);
+  console.log(context.payload.pull_request);
   if (!GITHUB_TOKEN || !context.payload.pull_request) return;
 
   const pullRequestNumber = context.payload.pull_request.number;
