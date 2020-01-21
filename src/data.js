@@ -3280,7 +3280,7 @@ module.exports = [
  {
     name: 'Diyar Faraj',
     description: 'Developer, programmer, designer, Gym, Soccer ',
-    url: 'https://github.com/kevinko12323/uses',
+    url: 'https://github.com/diyarfaraj/uses',
     twitter: '@diyarfaraj',
     emoji: '🍕',
     country: ' 🇸🇪',
