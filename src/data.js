@@ -3283,7 +3283,7 @@ module.exports = [
     url: 'https://github.com/diyarfaraj/uses',
     twitter: '@diyarfaraj',
     emoji: '🍕',
-    country: ' 🇸🇪',
+    country: '🇸🇪',
     computer: 'windows',
     phone: 'android',
     tags: [
