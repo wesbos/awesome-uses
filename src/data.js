@@ -23,6 +23,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Davy Hausser',
+    description:
+      'Game Producer. Web Developer, Travel Enthusiast',
+    url: 'https://davyhausser.com/uses',
+    twitter: '@davyhausser',
+    emoji: '🌴',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'Eric Raslich',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
