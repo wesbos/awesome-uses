@@ -3688,22 +3688,23 @@ module.exports = [
 
   {
     name: 'Diyar Faraj',
-    description:
-      'Full Stack, Motivated full-stack developer not afraid to use any technology.',
-    url: 'https://github.com/szy0syz/uses',
+    description: 'Developer, programmer, designer.',
+    url: 'https://github.com/diyarfaraj/uses',
     twitter: '@diyarfaraj',
     emoji: '🦁',
-    country: '🇨🇳',
-    computer: 'apple',
+    country: 'se',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Web Development',
       'Front End',
       'React',
       'Node',
-      'Rust',
+      'C#',
       'Full Stack',
       'GraphQL',
+      '.Net',
+      'TypeScript',
     ],
   },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
