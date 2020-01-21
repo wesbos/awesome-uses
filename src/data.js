@@ -140,6 +140,25 @@ module.exports = [
     ],
   },
   {
+    name: 'John Smith',
+    description: 'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
+    url: 'https://solrevdev.com/uses/',
+    twitter: '@solrevdev',
+    emoji: '🤓',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'dotnetcore',
+      'aspnetcore',
+      'vuejs',
+      'aws',
+      'developer',
+      'devops',
+      'fullstack',
+    ],
+  },
+  {
     name: 'Renee de Kruijf',
     description:
       'Javascript developer in the making. Still learning every day. Liking it a lot!',
