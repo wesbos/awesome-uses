@@ -1813,7 +1813,7 @@ module.exports = [
   {
     name: 'Hugo Di Francesco',
     description:
-      "JavaScript developer, blogger at codewithhugo.com, author of 'Professional JavaScript' with Packt.",
+      "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
     url: 'https://codewithhugo.com/uses/',
     twitter: '@hugo__df',
     emoji: '👓',
