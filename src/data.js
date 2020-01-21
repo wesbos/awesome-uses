@@ -3149,6 +3149,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Roland Szabo',
+    description:
+      'Team Lead, ML Engineer,  Board Gamer',
+    url: 'https://rolisz.ro/uses',
+    twitter: '@rolisz',
+    emoji: '😀',
+    country: '🇷🇴',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Team Lead',
+      'Software Engineer',
+      'Machine Learning',
+      'Back End',
+      'Python',
+      'Flask',
+      'Tensorflow',
+      'Spark',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Alejandro G. Anglada',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
