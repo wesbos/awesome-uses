@@ -69,6 +69,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Anwar Hussain',
+    description:
+      'Web Developer and No-Code Maker',
+    url: 'https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0',
+    twitter: '@getanwar',
+    emoji: '🎩',
+    country: '🇧🇩',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'React',
+      'Vue',
+      'Node',
+      'GraphQL',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'Entrepreneur',
+      'No Code',
+      'Maker'
+    ],
+  },
+  {
     name: 'Joe Astuccio',
     description:
       'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
