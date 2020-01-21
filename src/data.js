@@ -3467,6 +3467,26 @@ module.exports = [
     ],
   },
   {
+    name: 'TaeHee Kim',
+    description: 'Front-end Engineer, Bassist, Cat lover.',
+    url: 'https://roto.dev/uses',
+    twitter: '@winterwolf0412',
+    emoji: '🎸',
+    country: '🇰🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Full Stack',
+      'React',
+      'JavaScript',
+      'TypeScript',
+      'React Native',
+      'Node',
+      'Python',
+    ],
+  },
+  {
     name: 'Maria Altyeva Schuessler ',
     description:
       'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
