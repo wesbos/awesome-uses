@@ -1278,7 +1278,7 @@ module.exports = [
   {
     name: 'Sergey Panay',
     description: 'Front End developer. Productivity nerd.',
-    url: 'http://panay.dev/uses',
+    url: 'https://panay.dev/uses',
     twitter: '@sergey_panay',
     emoji: '🎃',
     country: '🇷🇺',
