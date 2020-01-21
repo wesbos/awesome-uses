@@ -9,7 +9,7 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
     core.setFailed('Action failed with errors, see logs & comment');
 
     comment += [
-      'Please fix the following issues:',
+      'We have detected the following issues, please fix them:',
       ...errors.map(e => `- ${e.message}`),
       ...failedUrls.map(url => `- URL is invalid: ${url}`),
     ].join('\n');
