@@ -27,3 +27,5 @@ jobs:
 
     - name: Validate data.js
       run: node ./scripts/data-validate.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
