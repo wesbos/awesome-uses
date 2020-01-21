@@ -3484,6 +3484,8 @@ module.exports = [
       'React Native',
       'Node',
       'Python',
+      'Serverless',
+      'Musician',
     ],
   },
   {
