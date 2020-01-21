@@ -3667,6 +3667,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Fernando Paredes',
+    description: 'iOS/macOS developer, serial hobbyist, language nerd.',
+    url: 'https://fdp.io/about/uses',
+    twitter: '@nanoxd',
+    emoji: '😆',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Swift',
+      'iOS',
+      'macOS',
+      'Xcode',
+      'Rust',
+      'TypeScript',
+      'Ruby',
+      'CSS',
+    ],
+  },
+  {
     name: 'Tarik Omercehajic',
     description:
       'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
