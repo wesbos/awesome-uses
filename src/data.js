@@ -724,6 +724,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Simon Stenbæk',
+    description: 'Helicopter pilot, web developer',
+    url: 'https://sstenbaek.dk/uses',
+    twitter: '@sstenb_k',
+    emoji: '🚁',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Pilot',
+      'Node',
+      'GraphQL',
+      'Styled Components',
+      'React',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Adam Jahnke',
     description:
       'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
