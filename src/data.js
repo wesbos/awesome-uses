@@ -95,7 +95,8 @@ module.exports = [
   },
   {
     name: 'Asur Bernardo',
-    description: 'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
+    description:
+      'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
     url: 'https://asur.dev/uses/',
     twitter: '@asurbernardo',
     emoji: '🧐',
@@ -111,7 +112,7 @@ module.exports = [
       'JavaScript',
       'PHP',
       'NodeJS',
-      'FOSS'
+      'FOSS',
     ],
   },
   {
