@@ -120,7 +120,7 @@ module.exports = [
     url: 'https://solrevdev.com/uses/',
     twitter: '@solrevdev',
     emoji: '🤓',
-    country: '󠁧󠁢󠁥󠁮󠁧🇬🇧',
+    country: '󠁧󠁢󠁥󠁮󠁧🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     computer: 'apple',
     phone: 'iphone',
     tags: [
