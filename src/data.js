@@ -3340,6 +3340,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Divjot Singh',
+    description:
+      'Web Developer, Vegan, Sikh.',
+    url: 'https://bogas04.github.io/uses',
+    twitter: '@bogas04',
+    emoji: '🌱',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'React',
+      'TypeScript',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
     name: 'Jeff Wen',
     description: 'Web Developer, Open Source Contributor',
     url: 'https://sinchang.me/uses',
