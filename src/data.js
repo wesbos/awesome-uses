@@ -3160,6 +3160,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Ajay Karwal',
+    description:
+      'A designer, developer and UX guy from Buckingham, UK.',
+    url: 'https://ajaykarwal.com/uses/',
+    twitter: '@ajaykarwal',
+    emoji: '👨‍💻',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'UI',
+      'UX',
+      'Developer',
+      'Designer',
+      'JavaScript',
+      'React',
+      'CSS',
+      'HTML',
+      'Frontend',
+    ],
+  },
+  {
     name: 'David Vives',
     description:
       'Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
