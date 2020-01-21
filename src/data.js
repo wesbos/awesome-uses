@@ -94,6 +94,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Asur Bernardo',
+    description: 'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
+    url: 'https://asur.dev/uses/',
+    twitter: '@asurbernardo',
+    emoji: '🧐',
+    country: '🇪🇸',
+    phone: 'android',
+    computer: 'linux',
+    tags: [
+      'Developer',
+      'Back End',
+      'SEO',
+      'SCSS',
+      'HTML',
+      'JavaScript',
+      'PHP',
+      'NodeJS',
+      'FOSS'
+    ],
+  },
+  {
     name: 'Joe Astuccio',
     description:
       'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
