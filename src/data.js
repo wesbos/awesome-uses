@@ -316,7 +316,7 @@ module.exports = [
       'Musician',
     ],
   },
-{
+  {
     name: 'Andy Bell',
     description:
       'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
@@ -326,14 +326,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Educator',
-      'Designer',
-      'Developer',
-      'CSS',
-      'JavaScript',
-      'a11y'
-    ],
+    tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
   },
   {
     name: 'Sergey Lysenko',
