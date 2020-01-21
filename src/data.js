@@ -415,6 +415,27 @@ module.exports = [
     ],
   },
   {
+    name: "Marco Poletto",
+    description: "Frontend Developer, UI engineer, Mentor",
+    url: "https://poletto.dev/uses/",
+    twitter: "@polettoweb",
+    emoji: "🔥",
+    country: "🇮🇹",
+    computer: "apple",
+    phone: "android",
+    tags: [
+      "HTML",
+      "SCSS",
+      "JavaScript",
+      "VueJS",
+      "ReactJS",
+      "GraphQL",
+      "Mentor",
+      "Developer",
+      "Front End"
+    ]
+  },
+  {
     name: 'Telmo Goncalves',
     description:
       'Fullstack Developer, mostly focused to ReactJS. Digital Nomad, I love travelling.',
