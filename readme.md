@@ -49,6 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
+* [Marco Poletto](https://poletto.dev/uses/) — Frontend Developer, UI engineer, Mentor
 * [Telmo Goncalves](https://telmo.online/uses) — Fullstack Developer, mostly focused to ReactJS. Digital Nomad, I love travelling.
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
 * [Carter McAlister](https://cartermcalister.dev/uses) — Software Engineer, Digital Nomad, Lover of the Outdoors
