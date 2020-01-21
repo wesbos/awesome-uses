@@ -402,6 +402,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Telmo Goncalves',
+    description:
+      'Fullstack Developer, mostly focused to ReactJS. Digital Nomad, I love travelling.',
+    url: 'https://telmo.online/uses',
+    twitter: '@telmo',
+    emoji: '🎙',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'React',
+      'Node',
+      'CSS',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Mark Horsell',
     description:
       'Software Developer - Front-end mostly, back-end and native sometimes.',
