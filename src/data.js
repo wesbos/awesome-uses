@@ -24,8 +24,7 @@ module.exports = [
   },
   {
     name: 'Davy Hausser',
-    description:
-      'Game Producer. Web Developer, Travel Enthusiast',
+    description: 'Game Producer. Web Developer, Travel Enthusiast',
     url: 'https://davyhausser.com/uses',
     twitter: '@davyhausser',
     emoji: '🌴',
