@@ -120,7 +120,7 @@ module.exports = [
     url: 'https://solrevdev.com/uses/',
     twitter: '@solrevdev',
     emoji: '🤓',
-    country: '󠁧󠁢󠁥󠁮󠁧🇬🇧󠁧󠁢󠁥󠁮󠁧󠁿',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -180,8 +180,7 @@ module.exports = [
     url: 'https://www.asamshan.dev/uses',
     twitter: '@shan8851',
     emoji: '🔥',
-    country: '
-    ',
+    country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
     tags: [
