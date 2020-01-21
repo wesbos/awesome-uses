@@ -1712,6 +1712,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Brennan Fife',
+    description: 'Software Engineer, Ultra Runner, Climber, Tea Drinker',
+    emoji: '🍄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Designer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'GraphQL',
+      'CSS',
+    ],
+  },
+  {
     name: 'Diego Vazquez',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
