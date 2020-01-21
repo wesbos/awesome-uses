@@ -3,18 +3,23 @@ const github = require('@actions/github');
 const { getMasterData, Schema, getStatusCode } = require('./utils.js');
 const srcData = require('../src/data.js');
 
-async function commentPullRequest(errors, failedUrls /* , imagePath */) {
+async function commentPullRequest(errors, failedUrls, changedData) {
   let comment = '';
   if (errors.length || failedUrls.length) {
     core.setFailed('Action failed with errors, see logs & comment');
 
     comment += [
-      'We have detected the following issues, please fix them:',
+      '🚨 We have detected the following issues, let us contributors know if you need support or clarifications:',
       ...errors.map(e => `- ${e.message}`),
       ...failedUrls.map(url => `- URL is invalid: ${url}`),
     ].join('\n');
   } else {
-    comment += 'No validation issues detected.';
+    comment += [
+      '✅ Automatic validation checks succeeded for URLs:',
+      // Comment with the URLs of users that have changed
+      // for easy access, way easier than taking a screenshot
+      ...changedData.map(({ url }) => `- ${url}`),
+    ].join('\n');
   }
 
   const { GITHUB_TOKEN } = process.env;
@@ -67,7 +72,7 @@ async function main() {
     }
   }
 
-  await commentPullRequest(errors, failedUrls);
+  await commentPullRequest(errors, failedUrls, data);
 }
 
 main();
