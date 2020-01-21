@@ -42,6 +42,7 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
+    "@actions/github": "^2.0.1",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
