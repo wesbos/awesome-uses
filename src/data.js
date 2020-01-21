@@ -3161,8 +3161,7 @@ module.exports = [
   },
   {
     name: 'Ajay Karwal',
-    description:
-      'A designer, developer and UX guy from Buckingham, UK.',
+    description: 'A designer, developer and UX guy from Buckingham, UK.',
     url: 'https://ajaykarwal.com/uses/',
     twitter: '@ajaykarwal',
     emoji: '👨‍💻',
