@@ -1880,6 +1880,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Brennan Fife',
+    description: 'Software Engineer, Ultra Runner, Climber, Tea Drinker',
+    url: 'https://www.brennan.dev/uses',
+    emoji: '🍄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Designer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'GraphQL',
+      'CSS',
+    ],
+  },
+  {
     name: 'Scott Spence',
     description:
       'Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he',
