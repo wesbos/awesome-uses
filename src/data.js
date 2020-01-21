@@ -3276,6 +3276,28 @@ module.exports = [
       'Ruby on Rails',
     ],
   },
+
+ {
+    name: 'Diyar Faraj',
+    description: 'Developer, programmer, designer, Gym, Soccer ',
+    url: 'https://diyarfaraj.com/uses',
+    twitter: '@diyarfaraj',
+    emoji: '🍕',
+    country: 'SE',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Programmer',
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'GraphQL',
+      'CSS',
+    ],
+  },
+
   {
     name: 'Arturo Campos',
     description: 'Web Developer, dad, mountain biker, meat lover',
