@@ -9,11 +9,13 @@ import Topics from '../components/Topics';
 
 const BackToTopLink = styled.a`
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background: rgba(31, 31, 31, 0.8);
+  bottom: 1%;
+  right: 1%;
+  background: var(--pink);
+  cursor: pointer;
+  border-radius: 3px;
   padding: 1rem;
-  border-radius: 0.8rem;
+  transition: background-color 0.2s ease 0s;
 `;
 
 function IndexPage() {
