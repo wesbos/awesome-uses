@@ -3685,6 +3685,27 @@ module.exports = [
       'GraphQL',
     ],
   },
+
+  {
+    name: 'Diyar Faraj',
+    description:
+      'Full Stack, Motivated full-stack developer not afraid to use any technology.',
+    url: 'https://github.com/szy0syz/uses',
+    twitter: '@diyarfaraj',
+    emoji: '🦁',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'React',
+      'Node',
+      'Rust',
+      'Full Stack',
+      'GraphQL',
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
