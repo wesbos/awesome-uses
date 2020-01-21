@@ -201,6 +201,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
 * [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
+* [Divjot Singh](https://bogas04.github.io/uses) — Web Developer, Vegan, Sikh.
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
 * [Bamuleseyo Gideon](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) — Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️
@@ -213,6 +214,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
+* [Armno Prommarak](https://armno.in.th/uses) — Frontend developer, blogger, cyclist.
 * [Tarik Omercehajic](https://robotz.tech/uses/) — DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)
 * [Duncan McDougall](https://www.belter.io/uses/) — Web developer, contractor, remotely working from the South of Scotland
 * [Kevin Simkanič](https://github.com/kevinko12323/uses) — Wordpress ninja 😎 React lover ❤️ CSS master 🧐
