@@ -8,9 +8,11 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
   if (errors.length || failedUrls.length) {
     core.setFailed('Action failed with errors, see logs & comment');
 
-    comment += 'Fix the following issues: ';
-    comment += errors.map(e => e.message).join('\n');
-    comment += failedUrls.join('\n');
+    comment += [
+      'Please fix the following issues:',
+      ...errors.map(e => `- ${e.message}`),
+      ...failedUrls.map(url => `- URL is invalid: ${url}`),
+    ].join('\n');
   } else {
     comment += 'No validation issues detected.';
   }
@@ -18,19 +20,21 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
   const { GITHUB_TOKEN } = process.env;
   const { context } = github;
   if (!GITHUB_TOKEN || !context.payload.pull_request) {
-    core.error('GITHUB_TOKEN or context.payload.pull_request is not set');
+    core.error(
+      'Cannot add a comment if GITHUB_TOKEN or context.payload.pull_request is not set'
+    );
+    core.info(`Comment contents:\n${comment}`);
     return;
   }
 
   const pullRequestNumber = context.payload.pull_request.number;
 
   const octokit = new github.GitHub(GITHUB_TOKEN);
-  const output = await octokit.issues.createComment({
+  await octokit.issues.createComment({
     ...context.repo,
     issue_number: pullRequestNumber,
     body: comment,
   });
-  console.log('Created comment', output);
 }
 
 async function main() {
