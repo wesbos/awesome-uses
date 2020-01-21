@@ -98,6 +98,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Hoffmann](https://www.mokkapps.de/blog/my-development-setup/) — Freelance Software Engineer
 * [Austin Gil](https://stegosource.com/uses/) — Some dude that writes code.
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
+* [Sergey Panay](https://panay.dev/uses) — Front End developer. Productivity nerd.
 * [Sil van Diepen](https://www.silvandiepen.nl/uses/) — Creative Developer
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
