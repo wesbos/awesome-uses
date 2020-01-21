@@ -1814,7 +1814,7 @@ module.exports = [
     name: 'Hugo Di Francesco',
     description:
       "JavaScript developer, blogger at codewithhugo.com, author of 'Professional JavaScript' with Packt.",
-    url: 'https://codewithhugo.com/uses/',
+    url: 'https://codewithhugo.com/fses/',
     twitter: '@hugo__df',
     emoji: '👓',
     country: '🇬🇧',
