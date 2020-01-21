@@ -70,8 +70,7 @@ module.exports = [
   },
   {
     name: 'Anwar Hussain',
-    description:
-      'Web Developer and No-Code Maker',
+    description: 'Web Developer and No-Code Maker',
     url: 'https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0',
     twitter: '@getanwar',
     emoji: '🎩',
@@ -91,7 +90,7 @@ module.exports = [
       'SCSS',
       'Entrepreneur',
       'No Code',
-      'Maker'
+      'Maker',
     ],
   },
   {
