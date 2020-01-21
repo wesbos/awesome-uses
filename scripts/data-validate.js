@@ -25,11 +25,12 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
   const pullRequestNumber = context.payload.pull_request.number;
 
   const octokit = new github.GitHub(GITHUB_TOKEN);
-  await octokit.issues.createComment({
+  const output = await octokit.issues.createComment({
     ...context.repo,
     issue_number: pullRequestNumber,
     body: comment,
   });
+  console.log('Created comment', output)
 }
 
 async function main() {
