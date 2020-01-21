@@ -3283,7 +3283,7 @@ module.exports = [
     url: 'https://diyarfaraj.com/uses',
     twitter: '@diyarfaraj',
     emoji: '🍕',
-    country: 'SE',
+    country: ' 🇸🇪',
     computer: 'windows',
     phone: 'android',
     tags: [
@@ -3294,6 +3294,8 @@ module.exports = [
       'TypeScript',
       'React',
       'GraphQL',
+      'C#',
+      'ASP .NET',
       'CSS',
     ],
   },
