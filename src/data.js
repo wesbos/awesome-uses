@@ -141,7 +141,8 @@ module.exports = [
   },
   {
     name: 'John Smith',
-    description: 'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
+    description:
+      'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
     url: 'https://solrevdev.com/uses/',
     twitter: '@solrevdev',
     emoji: '🤓',
@@ -1916,9 +1917,10 @@ module.exports = [
       'Docker',
     ],
   },
-    {
+  {
     name: 'David Petringa',
-    description: 'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
+    description:
+      'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
     url: 'https://david.dukesnuz.com/uses',
     twitter: '@dukesnuz',
     emoji: '🤙',
