@@ -9,16 +9,16 @@ async function commentPullRequest(errors, failedUrls, changedData) {
     core.setFailed('Action failed with errors, see logs & comment');
 
     comment += [
-      '🚨 We have detected the following issues, let us contributors know if you need support or clarifications:',
+      '🚨 We have detected the following issues, let us (contributors) know if you need support or clarifications:',
       ...errors.map(e => `- ${e.message}`),
       ...failedUrls.map(url => `- URL is invalid: ${url}`),
     ].join('\n');
   } else {
     comment += [
-      '✅ Automatic validation checks succeeded for URLs:',
+      '✅ Automatic validation checks succeeded for:',
       // Comment with the URLs of users that have changed
       // for easy access, way easier than taking a screenshot
-      ...changedData.map(({ url }) => `- ${url}`),
+      ...changedData.map(({ name, url }) => `- ${name}, ${url}`),
     ].join('\n');
   }
 
