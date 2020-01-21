@@ -30,7 +30,7 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
     issue_number: pullRequestNumber,
     body: comment,
   });
-  console.log('Created comment', output)
+  console.log('Created comment', output);
 }
 
 async function main() {
@@ -63,7 +63,7 @@ async function main() {
     }
   }
 
-  await commentPullRequest(errors, failedUrls, '');
+  await commentPullRequest(errors, failedUrls);
 }
 
 main();
