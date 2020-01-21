@@ -15,12 +15,12 @@ async function commentPullRequest(errors, failedUrls /* , imagePath */) {
     comment += 'No validation issues detected.';
   }
 
-  const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
-  console.log('GITHUB_TOKEN', GITHUB_TOKEN);
-  console.log('process.env.GITHUB_TOKEN', process.env.GITHUB_TOKEN);
+  const { GITHUB_TOKEN } = process.env;
   const { context } = github;
-  console.log(context.payload.pull_request);
-  if (!GITHUB_TOKEN || !context.payload.pull_request) return;
+  if (!GITHUB_TOKEN || !context.payload.pull_request) {
+    core.error('GITHUB_TOKEN or context.payload.pull_request is not set');
+    return;
+  }
 
   const pullRequestNumber = context.payload.pull_request.number;
 
