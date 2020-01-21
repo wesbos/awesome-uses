@@ -316,6 +316,25 @@ module.exports = [
       'Musician',
     ],
   },
+{
+    name: 'Andy Bell',
+    description:
+      'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
+    url: 'https://hankchizljaw.com/uses',
+    twitter: '@hankchizljaw',
+    emoji: '🌶',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Educator',
+      'Designer',
+      'Developer',
+      'CSS',
+      'JavaScript',
+      'a11y'
+    ],
+  },
   {
     name: 'Sergey Lysenko',
     description:
