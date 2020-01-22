@@ -4054,6 +4054,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeremy Bunting',
+    description:
+      'Web 🤖 working remotely from the Connecticut burbs',
+    url: 'https://qbunt.com/uses',
+    twitter: '@qbunt',
+    emoji: '🌲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Remote',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Vue',
+      'Node',
+      'GraphQL',
+      'Accessibility'
+    ],
+  },
+  {
     name: 'Tony Mamedbekov',
     description:
       'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
