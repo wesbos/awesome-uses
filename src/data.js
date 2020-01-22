@@ -2272,7 +2272,7 @@ module.exports = [
     url: 'https://caffeinecreations.ca/uses',
     twitter: '@cs_sean',
     emoji: '',
-    country: 'ca',
+    country: 'CA',
     computer: 'windows',
     phone: 'android',
     tags: [
