@@ -91,6 +91,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
+* [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
 * [Mohamed Benhida](http://mohamedbenhida.com/uses) — Web Developer, Open source contributor.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
