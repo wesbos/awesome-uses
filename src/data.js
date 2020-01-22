@@ -19,8 +19,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Davy Hausser',
@@ -38,8 +38,31 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
+  },
+  {
+    name: 'Yannick Le Roux',
+    description:
+      '2nd career Web developer... retired DJ. French living in San Diego.',
+    url: 'https://yannickleroux.com/uses',
+    twitter: '@dj_yanic',
+    emoji: '🔥',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'React Native',
+      'Node',
+      'TypeScript',
+      'HTML',
+      'CSS',
+      'Styled Components',
+      'Redux'
+    ]
   },
   {
     name: 'Eric Raslich',
@@ -61,8 +84,8 @@ module.exports = [
       'Node',
       'CSS',
       'Tailwind',
-      'Entrepreneur',
-    ],
+      'Entrepreneur'
+    ]
   },
   {
     name: 'Didier Catz',
@@ -84,8 +107,8 @@ module.exports = [
       'Entrepreneur',
       'OSS',
       'Animation',
-      'Musician',
-    ],
+      'Musician'
+    ]
   },
   {
     name: 'Anwar Hussain',
@@ -109,8 +132,8 @@ module.exports = [
       'SCSS',
       'Entrepreneur',
       'No Code',
-      'Maker',
-    ],
+      'Maker'
+    ]
   },
   {
     name: 'Asur Bernardo',
@@ -131,8 +154,8 @@ module.exports = [
       'JavaScript',
       'PHP',
       'NodeJS',
-      'FOSS',
-    ],
+      'FOSS'
+    ]
   },
   {
     name: 'Joe Astuccio',
@@ -155,8 +178,8 @@ module.exports = [
       'React',
       'Gatsby',
       'JAMstack',
-      'Serverless',
-    ],
+      'Serverless'
+    ]
   },
   {
     name: 'Eliezer Steinbock',
@@ -177,8 +200,8 @@ module.exports = [
       'React Native',
       'Node',
       'TypeScript',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'John Smith',
@@ -197,8 +220,8 @@ module.exports = [
       'aws',
       'developer',
       'devops',
-      'fullstack',
-    ],
+      'fullstack'
+    ]
   },
   {
     name: 'Renee de Kruijf',
@@ -217,8 +240,8 @@ module.exports = [
       'Next',
       'Gatsby',
       'Styled-Components',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Amarpreet Singh',
@@ -238,8 +261,8 @@ module.exports = [
       'JavaScript',
       'React',
       'CSS',
-      'Swift',
-    ],
+      'Swift'
+    ]
   },
   {
     name: 'Asam Shan',
@@ -258,8 +281,8 @@ module.exports = [
       'Gatsby',
       'Styled-Comnponents',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Emmanuel Martins',
@@ -278,8 +301,8 @@ module.exports = [
       'JavaScript',
       'Python',
       'Java',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'James Quick',
@@ -299,8 +322,8 @@ module.exports = [
       'YouTuber',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Federico Vitale',
@@ -312,7 +335,7 @@ module.exports = [
     country: '🇮🇹',
     phone: 'iphone',
     computer: 'apple',
-    tags: ['Developer', 'JavaScript', 'Golang', 'Rust', 'Java', 'Full Stack'],
+    tags: ['Developer', 'JavaScript', 'Golang', 'Rust', 'Java', 'Full Stack']
   },
   {
     name: 'Vishwasa Navada K',
@@ -331,8 +354,8 @@ module.exports = [
       'GraphQL',
       'Serverless',
       'Blogger',
-      'Traveler',
-    ],
+      'Traveler'
+    ]
   },
   {
     name: 'Silvestar Bistrović',
@@ -354,8 +377,8 @@ module.exports = [
       'Blogger',
       'Developer',
       'Front End',
-      'Remote',
-    ],
+      'Remote'
+    ]
   },
   {
     name: 'Adam Schwartz',
@@ -374,8 +397,8 @@ module.exports = [
       'Engineer',
       'Front End',
       'JavaScript',
-      'Musician',
-    ],
+      'Musician'
+    ]
   },
   {
     name: 'Andy Bell',
@@ -387,7 +410,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
+    tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y']
   },
   {
     name: 'Sergey Lysenko',
@@ -412,8 +435,8 @@ module.exports = [
       'Node',
       'CSS',
       'HTML',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Shajan Jacob',
@@ -431,8 +454,8 @@ module.exports = [
       'Maker',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Habbat Adnan',
@@ -452,8 +475,8 @@ module.exports = [
       'Django',
       'JavaScript',
       'CSS',
-      'Docker',
-    ],
+      'Docker'
+    ]
   },
   {
     name: 'Marco Poletto',
@@ -473,8 +496,8 @@ module.exports = [
       'GraphQL',
       'Mentor',
       'Developer',
-      'Front End',
-    ],
+      'Front End'
+    ]
   },
   {
     name: 'Telmo Goncalves',
@@ -493,8 +516,8 @@ module.exports = [
       'CSS',
       'Full Stack',
       'Entrepreneur',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Mark Horsell',
@@ -520,8 +543,8 @@ module.exports = [
       'Flutter',
       'Dart',
       'C#',
-      'SQL',
-    ],
+      'SQL'
+    ]
   },
   {
     name: 'Carter McAlister',
@@ -543,8 +566,8 @@ module.exports = [
       'React',
       'Node',
       'CSS',
-      'Java',
-    ],
+      'Java'
+    ]
   },
   {
     name: 'Matt Jennings',
@@ -555,7 +578,7 @@ module.exports = [
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Full Stack', 'JavaScript', 'React', 'Hockey'],
+    tags: ['Developer', 'Full Stack', 'JavaScript', 'React', 'Hockey']
   },
   {
     name: 'Valentina Calabrese',
@@ -582,8 +605,8 @@ module.exports = [
       'UX Designer',
       'UX Engineer',
       'Web Developer',
-      'Writer',
-    ],
+      'Writer'
+    ]
   },
   {
     name: 'Jason Cory Alvernaz',
@@ -604,8 +627,8 @@ module.exports = [
       'React',
       'CSS',
       'Gatsby',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Alessia Bellisario',
@@ -624,8 +647,8 @@ module.exports = [
       'Rust',
       'WebAssembly',
       'Gatsby',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Sam Cross',
@@ -644,8 +667,8 @@ module.exports = [
       'HTML',
       'CSS',
       'Web Developer',
-      'Musician',
-    ],
+      'Musician'
+    ]
   },
   {
     name: 'Praveen Kumar Purushothaman',
@@ -667,8 +690,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Rene Pot',
@@ -689,8 +712,8 @@ module.exports = [
       'Titanium',
       'Node',
       'Speaker',
-      'Twitch',
-    ],
+      'Twitch'
+    ]
   },
   {
     name: 'Gant Laborde',
@@ -716,8 +739,8 @@ module.exports = [
       'Web Developer',
       'Writer',
       'Podcaster',
-      'Machine Learning',
-    ],
+      'Machine Learning'
+    ]
   },
   {
     name: 'Dave Mullen Jnr',
@@ -736,8 +759,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Gatsby',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Josh Buchea',
@@ -755,8 +778,8 @@ module.exports = [
       'React',
       'GatsbyJS',
       'Entrepreneur',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Tiffany White',
@@ -775,8 +798,8 @@ module.exports = [
       'Blogger',
       'Web Developer',
       'Writer',
-      'Podcaster',
-    ],
+      'Podcaster'
+    ]
   },
   {
     name: 'Kent C. Dodds',
@@ -796,8 +819,8 @@ module.exports = [
       'Testing',
       'React',
       'Speaker',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Ava Gaiety Wroten',
@@ -816,8 +839,8 @@ module.exports = [
       'CSS',
       'Accessibility',
       'Speaker',
-      'Mentor',
-    ],
+      'Mentor'
+    ]
   },
   {
     name: 'Darlene Zouras',
@@ -837,8 +860,8 @@ module.exports = [
       'CSS',
       'HTML',
       'JavaScript',
-      'Accessibility',
-    ],
+      'Accessibility'
+    ]
   },
   {
     name: 'Glenn Reyes',
@@ -859,8 +882,8 @@ module.exports = [
       'React',
       'GraphQL',
       'TypeScript',
-      'Speaker',
-    ],
+      'Speaker'
+    ]
   },
   {
     name: 'Simon Stenbæk',
@@ -880,8 +903,8 @@ module.exports = [
       'GraphQL',
       'Styled Components',
       'React',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Adam Jahnke',
@@ -893,7 +916,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby'],
+    tags: ['Engineer', 'Full Stack', 'JavaScript', 'Ruby']
   },
   {
     name: 'Andrew Healey',
@@ -903,7 +926,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer'],
+    tags: ['Software Engineer', 'Full Stack', 'JavaScript', 'Python', 'Writer']
   },
   {
     name: 'Scott Tolinski',
@@ -924,8 +947,8 @@ module.exports = [
       'React',
       'CSS',
       'TypeScript',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Anton Andrésen',
@@ -946,8 +969,8 @@ module.exports = [
       'React',
       'Node',
       'GraphQL',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Josiah Wiebe',
@@ -963,8 +986,8 @@ module.exports = [
       'Designer',
       'Python',
       'JavaScript',
-      'TypeScript',
-    ],
+      'TypeScript'
+    ]
   },
   {
     name: 'Benjamin Lannon',
@@ -981,8 +1004,8 @@ module.exports = [
       'Blogger',
       'Teacher',
       'JavaScript',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Braden Watkins',
@@ -998,8 +1021,8 @@ module.exports = [
       'Web Developer',
       'JavaScript',
       'Python',
-      'Golang',
-    ],
+      'Golang'
+    ]
   },
   {
     name: 'Joris Hens',
@@ -1022,8 +1045,8 @@ module.exports = [
       'Node',
       'CSS',
       'Laravel',
-      'MongoDB',
-    ],
+      'MongoDB'
+    ]
   },
   {
     name: 'Lauro Silva',
@@ -1040,8 +1063,8 @@ module.exports = [
       'Writer',
       'Independent',
       'Speaker',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Nuno Maduro',
@@ -1057,8 +1080,8 @@ module.exports = [
       'Speaker',
       'PHP',
       'JavaScript',
-      'TypeScript',
-    ],
+      'TypeScript'
+    ]
   },
   {
     name: 'Adrian Marin',
@@ -1070,7 +1093,7 @@ module.exports = [
     country: '🇷🇴',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Rails', 'TypeScript'],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Rails', 'TypeScript']
   },
   {
     name: 'Jahir Fiquitiva',
@@ -1081,14 +1104,7 @@ module.exports = [
     country: '🇨🇴',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'Python',
-      'Kotlin',
-      'React',
-    ],
+    tags: ['Developer', 'Full Stack', 'JavaScript', 'Python', 'Kotlin', 'React']
   },
   {
     name: 'Christophe Querton',
@@ -1109,8 +1125,8 @@ module.exports = [
       'Node',
       'TypeScript',
       'NestJS',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Lina María Montaño Ramírez',
@@ -1131,8 +1147,8 @@ module.exports = [
       'Mentor',
       'Organizer',
       'YouTuber',
-      'Back End',
-    ],
+      'Back End'
+    ]
   },
   {
     name: 'Michael Knepprath',
@@ -1144,7 +1160,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots'],
+    tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots']
   },
   {
     name: 'Brad Garropy',
@@ -1164,8 +1180,8 @@ module.exports = [
       'YouTuber',
       'Blogger',
       'JavaScript',
-      'Python',
-    ],
+      'Python'
+    ]
   },
   {
     name: 'Abdisalan Mohamud',
@@ -1184,8 +1200,8 @@ module.exports = [
       'React',
       'ReasonML',
       'Go',
-      'AWS',
-    ],
+      'AWS'
+    ]
   },
   {
     name: 'Josh Barker',
@@ -1197,7 +1213,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Front End', 'JavaScript'],
+    tags: ['Developer', 'Front End', 'JavaScript']
   },
   {
     name: 'David Perkins',
@@ -1208,7 +1224,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'android',
-    tags: ['Designer', 'Front end', 'Sass', 'CSS', 'Gatsby', 'JavaScript'],
+    tags: ['Designer', 'Front end', 'Sass', 'CSS', 'Gatsby', 'JavaScript']
   },
   {
     name: 'Aaron Dunphy',
@@ -1225,8 +1241,8 @@ module.exports = [
       'Back End',
       'Laravel',
       'PHP',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Mohamed Benhida',
@@ -1247,8 +1263,8 @@ module.exports = [
       'Vue',
       'Tailwind CSS',
       'PHP',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Thomas Hunter II',
@@ -1260,7 +1276,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer', 'Back End', 'Speaker', 'Writer', 'JavaScript', 'Node'],
+    tags: ['Developer', 'Back End', 'Speaker', 'Writer', 'JavaScript', 'Node']
   },
   {
     name: 'Andrew McCombe',
@@ -1282,8 +1298,8 @@ module.exports = [
       'Vue',
       'LAMP',
       'ElasticSearch',
-      'AWS',
-    ],
+      'AWS'
+    ]
   },
   {
     name: 'Smakosh',
@@ -1294,7 +1310,7 @@ module.exports = [
     country: '🇲🇦',
     computer: 'apple',
     phone: 'android',
-    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
+    tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript']
   },
   {
     name: 'Pouria Ezzati',
@@ -1312,8 +1328,8 @@ module.exports = [
       'JavaScript',
       'TypeScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Jonathan Suh',
@@ -1324,7 +1340,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React'],
+    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React']
   },
   {
     name: 'Jonathan Speek',
@@ -1335,7 +1351,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React'],
+    tags: ['Full Stack', 'Developer', 'Front End', 'JavaScript', 'React']
   },
   {
     name: 'Keith Wagner',
@@ -1355,8 +1371,8 @@ module.exports = [
       'Node',
       'CSS',
       'C#',
-      '.NET',
-    ],
+      '.NET'
+    ]
   },
   {
     name: "David O'Trakoun",
@@ -1367,7 +1383,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer'],
+    tags: ['Developer']
   },
   {
     name: 'Dean Harris',
@@ -1379,7 +1395,7 @@ module.exports = [
     country: '🇦🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP'],
+    tags: ['Developer', 'Font End', 'JavaScript', 'React', 'Node', 'PHP']
   },
   {
     name: 'Michael Hoffmann',
@@ -1390,7 +1406,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Angular'],
+    tags: ['Developer', 'Blogger', 'Angular']
   },
   {
     name: 'Austin Gil',
@@ -1411,8 +1427,8 @@ module.exports = [
       'Vue',
       'Node',
       'GraphQL',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Michael Le',
@@ -1432,8 +1448,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'Vue',
-    ],
+      'Vue'
+    ]
   },
   {
     name: 'Sergey Panay',
@@ -1458,8 +1474,8 @@ module.exports = [
       'SCSS',
       'Tailwind',
       'Remote',
-      'Docker',
-    ],
+      'Docker'
+    ]
   },
   {
     name: 'Sil van Diepen',
@@ -1481,8 +1497,8 @@ module.exports = [
       'Node',
       'CSS',
       'Sass',
-      'Design Systems',
-    ],
+      'Design Systems'
+    ]
   },
   {
     name: 'Kilian Valkhof',
@@ -1504,8 +1520,8 @@ module.exports = [
       'Node',
       'Electron',
       'Polypane',
-      'Devtools',
-    ],
+      'Devtools'
+    ]
   },
   {
     name: 'Timothy Miller',
@@ -1526,8 +1542,8 @@ module.exports = [
       'JavaScript',
       'CSS',
       'PHP',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Christopher Hranj',
@@ -1538,7 +1554,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: ['Engineer', 'Back End', 'Blogger', 'Python', 'Crystal'],
+    tags: ['Engineer', 'Back End', 'Blogger', 'Python', 'Crystal']
   },
   {
     name: 'Vincent Ramdhanie',
@@ -1557,8 +1573,8 @@ module.exports = [
       'Node',
       'Testing',
       'Machine Learning',
-      'Python',
-    ],
+      'Python'
+    ]
   },
   {
     name: 'Amir R Muntasser',
@@ -1578,8 +1594,8 @@ module.exports = [
       'a11y',
       'Vue',
       'React',
-      'Developer',
-    ],
+      'Developer'
+    ]
   },
   {
     name: 'Pavel Melnik',
@@ -1599,8 +1615,8 @@ module.exports = [
       'Vue',
       'SQL',
       'Accessibility',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Miguel Ángel Durán',
@@ -1627,8 +1643,8 @@ module.exports = [
       'Node',
       'Speaker',
       'Podcaster',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'David Llop',
@@ -1651,8 +1667,8 @@ module.exports = [
       'Vue',
       'Chatbots',
       'API',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Alba Silvente',
@@ -1674,8 +1690,8 @@ module.exports = [
       'Performance',
       'PWA',
       'Remote',
-      'Zeplin',
-    ],
+      'Zeplin'
+    ]
   },
   {
     name: 'Josh Manders',
@@ -1693,8 +1709,8 @@ module.exports = [
       'Back End',
       'Node',
       'React',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Daniel Wirtz',
@@ -1705,7 +1721,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'android',
-    tags: ['Designer', 'Entrepreneur'],
+    tags: ['Designer', 'Entrepreneur']
   },
   {
     name: 'Harry Wolff',
@@ -1716,7 +1732,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End'],
+    tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End']
   },
   {
     name: 'James Mills',
@@ -1728,7 +1744,7 @@ module.exports = [
     country: '🇦🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware'],
+    tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware']
   },
   {
     name: 'Jeffrey Way',
@@ -1739,7 +1755,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Designer', 'Back End', 'PHP'],
+    tags: ['Developer', 'Designer', 'Back End', 'PHP']
   },
   {
     name: 'Terry Godier',
@@ -1750,7 +1766,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Marketer', 'Writer', 'PHP', 'Laravel'],
+    tags: ['Developer', 'Marketer', 'Writer', 'PHP', 'Laravel']
   },
   {
     name: 'Erno Salo',
@@ -1768,8 +1784,8 @@ module.exports = [
       'Back End',
       'JavaScript',
       'Python',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Gokulakrishnan Kalaikovan',
@@ -1785,8 +1801,8 @@ module.exports = [
       'Open Source contributor',
       'Speaker',
       'GDE',
-      'Front End',
-    ],
+      'Front End'
+    ]
   },
   {
     name: 'James Brooks',
@@ -1805,8 +1821,8 @@ module.exports = [
       'Full Stack',
       'Podcaster',
       'Vue',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Byurhan Beyzat',
@@ -1825,8 +1841,8 @@ module.exports = [
       'Full Stack',
       'Front End',
       'Back End',
-      'React',
-    ],
+      'React'
+    ]
   },
   {
     name: 'Mike Barkmin',
@@ -1848,8 +1864,8 @@ module.exports = [
       'Docker',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Hugo Di Francesco',
@@ -1874,8 +1890,8 @@ module.exports = [
       'TypeScript',
       'React',
       'Vue',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Steve Heyes',
@@ -1894,8 +1910,8 @@ module.exports = [
       'Rails',
       'JavaScript',
       'React',
-      'React Native',
-    ],
+      'React Native'
+    ]
   },
   {
     name: 'Diego Vazquez',
@@ -1914,8 +1930,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'Mongo DB',
-    ],
+      'Mongo DB'
+    ]
   },
   {
     name: 'Rafael Quintanilha',
@@ -1934,8 +1950,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Talita Oliveira',
@@ -1955,8 +1971,8 @@ module.exports = [
       'CSS',
       'Full Stack',
       'HTML',
-      'Web Development',
-    ],
+      'Web Development'
+    ]
   },
   {
     name: 'Ben Leivian',
@@ -1976,8 +1992,8 @@ module.exports = [
       'Laravel',
       'Vue',
       'Node',
-      'Docker',
-    ],
+      'Docker'
+    ]
   },
   {
     name: 'David Petringa',
@@ -2000,8 +2016,8 @@ module.exports = [
       'JavaScript',
       'Vue',
       'MySQL',
-      'Entrepreneur',
-    ],
+      'Entrepreneur'
+    ]
   },
   {
     name: 'Mike Gunderloy',
@@ -2018,8 +2034,8 @@ module.exports = [
       'Writer',
       'Rails',
       'AWS',
-      'Docker',
-    ],
+      'Docker'
+    ]
   },
   {
     name: 'Roman Husar',
@@ -2036,8 +2052,8 @@ module.exports = [
       'JavaScript',
       'PostgreSQL',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Stephen Senkomago Musoke',
@@ -2049,7 +2065,7 @@ module.exports = [
     country: '🇺🇬',
     computer: 'apple',
     phone: 'android',
-    tags: ['Developer', 'Engineer', 'PHP', 'Java', 'OpenMRS', 'HTML', 'CSS'],
+    tags: ['Developer', 'Engineer', 'PHP', 'Java', 'OpenMRS', 'HTML', 'CSS']
   },
   {
     name: 'Jérémy Mouzin',
@@ -2068,8 +2084,8 @@ module.exports = [
       'YouTuber',
       'Blogger',
       'JavaScript',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Adam Laycock',
@@ -2086,8 +2102,8 @@ module.exports = [
       'TypeScript',
       'Blogger',
       'JavaScript',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Scott Spence',
@@ -2107,8 +2123,8 @@ module.exports = [
       'Gatsby',
       'Sloths',
       'Blogger',
-      'Speaker',
-    ],
+      'Speaker'
+    ]
   },
   {
     name: 'José Manuel Lucas',
@@ -2127,8 +2143,8 @@ module.exports = [
       'React',
       'CSS',
       'Functional Programming',
-      'Music',
-    ],
+      'Music'
+    ]
   },
   {
     name: 'Georgi Yanev',
@@ -2151,8 +2167,8 @@ module.exports = [
       'Electron',
       'Python',
       'FPVtips',
-      'Developer',
-    ],
+      'Developer'
+    ]
   },
   {
     name: 'Mark Tse',
@@ -2177,8 +2193,8 @@ module.exports = [
       'Python',
       'Serverless',
       'SQL',
-      'Vue',
-    ],
+      'Vue'
+    ]
   },
   {
     name: 'Karl Horky',
@@ -2203,8 +2219,8 @@ module.exports = [
       'Node',
       'CSS',
       'HTML',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Josh Farrant',
@@ -2224,8 +2240,8 @@ module.exports = [
       'React',
       'Node',
       'UX',
-      'Open Source',
-    ],
+      'Open Source'
+    ]
   },
   {
     name: 'Steven van Loef',
@@ -2249,8 +2265,8 @@ module.exports = [
       'Front End',
       'Back End',
       'HTML',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Richard Zilahi',
@@ -2272,8 +2288,8 @@ module.exports = [
       'PHP',
       'React',
       'GraphQL',
-      'GatsbyJs',
-    ],
+      'GatsbyJs'
+    ]
   },
   {
     name: 'Ricard Torres',
@@ -2294,8 +2310,8 @@ module.exports = [
       'HTML',
       'Podcaster',
       'Writer',
-      'Vue',
-    ],
+      'Vue'
+    ]
   },
   {
     name: 'Matthew Rebehn',
@@ -2314,8 +2330,8 @@ module.exports = [
       'JavaScript',
       'React',
       'GatsbyJs',
-      'Svelte',
-    ],
+      'Svelte'
+    ]
   },
   {
     name: 'Isaac Weber',
@@ -2335,8 +2351,8 @@ module.exports = [
       'CSS',
       'JavaScript',
       'Vue',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Bezael Pérez',
@@ -2355,8 +2371,8 @@ module.exports = [
       'JavaScript',
       'CSS',
       'Node',
-      'Teacher',
-    ],
+      'Teacher'
+    ]
   },
   {
     name: 'Zander Martineau',
@@ -2375,8 +2391,8 @@ module.exports = [
       'TypeScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Daniel Van Cuylenburg',
@@ -2395,8 +2411,8 @@ module.exports = [
       'Guitarist',
       'JavaScript',
       'React',
-      'Gatsby',
-    ],
+      'Gatsby'
+    ]
   },
   {
     name: 'Chiamaka Ikeanyi',
@@ -2413,8 +2429,8 @@ module.exports = [
       'Blogger',
       'JavaScript',
       'Accessibility',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Francis Sunday',
@@ -2434,8 +2450,8 @@ module.exports = [
       'Go',
       'React',
       'Node',
-      'Golang',
-    ],
+      'Golang'
+    ]
   },
   {
     name: 'Jared Clifton-Lee',
@@ -2457,8 +2473,8 @@ module.exports = [
       'Phoenix',
       'JavaScript',
       'React',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'James Kemp',
@@ -2476,8 +2492,8 @@ module.exports = [
       'React',
       'Rails',
       'JavaScript',
-      'Node',
-    ],
+      'Node'
+    ]
   },
   {
     name: 'Tom Hazledine',
@@ -2496,8 +2512,8 @@ module.exports = [
       'React',
       'Node',
       'CSS',
-      'Podcaster',
-    ],
+      'Podcaster'
+    ]
   },
   {
     name: 'Mihai Serban',
@@ -2518,8 +2534,8 @@ module.exports = [
       'Node',
       'CSS',
       'Vue',
-      'iOS',
-    ],
+      'iOS'
+    ]
   },
   {
     name: 'Nick Janetakis',
@@ -2540,8 +2556,8 @@ module.exports = [
       'Flask',
       'Phoenix',
       'Docker',
-      'DevOps',
-    ],
+      'DevOps'
+    ]
   },
   {
     name: 'Kaleigh Scruggs',
@@ -2561,8 +2577,8 @@ module.exports = [
       'React',
       'WordPress',
       'CSS',
-      'Full Stack',
-    ],
+      'Full Stack'
+    ]
   },
   {
     name: 'Ste Grainer',
@@ -2582,8 +2598,8 @@ module.exports = [
       'Craft CMS',
       'Blogger',
       'Design Systems',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     name: 'Jorge Calle',
@@ -2602,8 +2618,8 @@ module.exports = [
       'Node',
       'React',
       'Firebase',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'José Carlos Correa',
@@ -2625,8 +2641,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Erv Walter',
@@ -2644,8 +2660,8 @@ module.exports = [
       'React',
       'C#',
       '.NET Core',
-      'Azure',
-    ],
+      'Azure'
+    ]
   },
   {
     name: 'Juanito Fatas',
@@ -2656,7 +2672,7 @@ module.exports = [
     country: '🇯🇵',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Think', 'Apply'],
+    tags: ['Think', 'Apply']
   },
   {
     name: 'Elliot Bonneville',
@@ -2680,8 +2696,8 @@ module.exports = [
       'Node',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'John Garrett',
@@ -2701,8 +2717,8 @@ module.exports = [
       'JavaScript',
       'PHP',
       'C',
-      'DevOps',
-    ],
+      'DevOps'
+    ]
   },
   {
     name: 'Dieter Stinglhamber',
@@ -2721,8 +2737,8 @@ module.exports = [
       'TypeScript',
       'Node',
       'Vue',
-      'Full Stack',
-    ],
+      'Full Stack'
+    ]
   },
   {
     name: 'Dany Paredes',
@@ -2734,7 +2750,7 @@ module.exports = [
     country: '🇩🇴',
     computer: 'linux',
     phone: 'iphone',
-    tags: ['Developer', '.NET', 'Typescript', 'JavaScript', 'Sass'],
+    tags: ['Developer', '.NET', 'Typescript', 'JavaScript', 'Sass']
   },
   {
     name: 'Thomas Weibenfalk',
@@ -2753,8 +2769,8 @@ module.exports = [
       'React',
       'Teacher',
       'Writer',
-      'YouTuber',
-    ],
+      'YouTuber'
+    ]
   },
   {
     name: 'Julio Lozovei',
@@ -2777,8 +2793,8 @@ module.exports = [
       'Writer',
       'Speaker',
       'Performance',
-      'Accessibility',
-    ],
+      'Accessibility'
+    ]
   },
   {
     name: 'Chris Burgin',
@@ -2798,8 +2814,8 @@ module.exports = [
       'React',
       'Vue',
       'CSS',
-      'Go',
-    ],
+      'Go'
+    ]
   },
   {
     name: 'Shiveen Pandita',
@@ -2816,8 +2832,8 @@ module.exports = [
       'Full Stack Developer',
       'VueJS',
       'React',
-      'Writer',
-    ],
+      'Writer'
+    ]
   },
   {
     name: 'David Leuliette',
@@ -2840,8 +2856,8 @@ module.exports = [
       'TypeScript',
       'React',
       'CSS',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Dave Berning',
@@ -2860,8 +2876,8 @@ module.exports = [
       'CSS',
       'Vue',
       'Developer',
-      'Writer',
-    ],
+      'Writer'
+    ]
   },
   {
     name: 'Jan-Lukas Else',
@@ -2872,7 +2888,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'linux',
     phone: 'android',
-    tags: ['Student', 'Developer', 'Blogger'],
+    tags: ['Student', 'Developer', 'Blogger']
   },
   {
     name: 'Will Presley',
@@ -2890,8 +2906,8 @@ module.exports = [
       'JavaScript',
       'PHP',
       'CSS',
-      'SCSS',
-    ],
+      'SCSS'
+    ]
   },
   {
     name: 'Seyhun Akyürek',
@@ -2910,8 +2926,8 @@ module.exports = [
       'Objective-C',
       'Ruby On Rails',
       'Open Source',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Silvestre Vivo',
@@ -2934,8 +2950,8 @@ module.exports = [
       'TypeScript',
       'Rust',
       'GraphQL',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Eric Oyanadel',
@@ -2946,7 +2962,7 @@ module.exports = [
     country: '🇨🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['JavaScript', 'React', 'Node', 'Design', 'Full Stack', 'Writer'],
+    tags: ['JavaScript', 'React', 'Node', 'Design', 'Full Stack', 'Writer']
   },
   {
     name: 'Usman Khwaja',
@@ -2957,7 +2973,7 @@ module.exports = [
     country: '🇵🇰',
     computer: 'windows',
     phone: 'android',
-    tags: ['Developer', 'Engineer', 'Jamstack', 'JavaScript', 'AMP', 'CSS'],
+    tags: ['Developer', 'Engineer', 'Jamstack', 'JavaScript', 'AMP', 'CSS']
   },
   {
     name: 'Abdessalam Benharira',
@@ -2976,8 +2992,8 @@ module.exports = [
       'Node',
       'Design',
       'JAMstack',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Thomas Large',
@@ -2998,8 +3014,8 @@ module.exports = [
       'WordPress',
       'DevOps',
       'Node',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Amit Merchant',
@@ -3019,8 +3035,8 @@ module.exports = [
       'React',
       'PHP',
       'Laravel',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Jesse James Burton',
@@ -3040,8 +3056,8 @@ module.exports = [
       'Nomadic',
       'JavaScript',
       'React',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Junaid Qadir',
@@ -3061,8 +3077,8 @@ module.exports = [
       'JavaScript',
       'VueJS',
       'React',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Yurui Zhang',
@@ -3083,8 +3099,8 @@ module.exports = [
       'Node',
       'CSS',
       'Ruby',
-      'Testing',
-    ],
+      'Testing'
+    ]
   },
   {
     name: 'Eduardo Reveles',
@@ -3095,7 +3111,7 @@ module.exports = [
     country: '🇲🇽',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'Laravel', 'React'],
+    tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'Laravel', 'React']
   },
   {
     name: 'Thomas Maximini',
@@ -3113,8 +3129,8 @@ module.exports = [
       'GraphQL',
       'serverless',
       'Node',
-      'Full Stack',
-    ],
+      'Full Stack'
+    ]
   },
   {
     name: 'Philip Theobald',
@@ -3125,7 +3141,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: ['Software Engineer', 'Laravel', 'Vue', 'WordPress'],
+    tags: ['Software Engineer', 'Laravel', 'Vue', 'WordPress']
   },
   {
     name: 'Wes Baker',
@@ -3145,8 +3161,8 @@ module.exports = [
       'Ruby on Rails',
       'React',
       'JavaScript',
-      'Serverless',
-    ],
+      'Serverless'
+    ]
   },
   {
     name: 'Alejandro G. Anglada',
@@ -3170,8 +3186,8 @@ module.exports = [
       'PWA',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Antoni Kepinski',
@@ -3182,7 +3198,7 @@ module.exports = [
     country: '🇵🇱',
     computer: 'linux',
     phone: 'iphone',
-    tags: ['JavaScript', 'Developer', 'TypeScript', 'React', 'Rust', 'Node'],
+    tags: ['JavaScript', 'Developer', 'TypeScript', 'React', 'Rust', 'Node']
   },
   {
     name: 'Frank Bültge',
@@ -3202,8 +3218,8 @@ module.exports = [
       'CSS',
       'PHP',
       'HTML',
-      'Web Development',
-    ],
+      'Web Development'
+    ]
   },
   {
     name: 'Sangam Kumar',
@@ -3225,8 +3241,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Flutter',
-      'Traveler',
-    ],
+      'Traveler'
+    ]
   },
   {
     name: 'Marcus Obst',
@@ -3236,7 +3252,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'CSS', 'Vue'],
+    tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'CSS', 'Vue']
   },
   {
     name: 'Pawel Grzybek',
@@ -3256,8 +3272,8 @@ module.exports = [
       'Front End',
       'Back End',
       'Full Stack',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Eric McCormick',
@@ -3278,8 +3294,8 @@ module.exports = [
       'JavaScript',
       'Vue',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Vince Picone',
@@ -3301,8 +3317,8 @@ module.exports = [
       'Performance',
       'Accessibility',
       'Gatsby',
-      'Web development',
-    ],
+      'Web development'
+    ]
   },
   {
     name: 'Ben Congdon',
@@ -3321,8 +3337,8 @@ module.exports = [
       'Serverless',
       'Python',
       'JavaScript',
-      'React',
-    ],
+      'React'
+    ]
   },
   {
     name: 'Jens van Wijhe',
@@ -3345,8 +3361,8 @@ module.exports = [
       'Laravel',
       'WordPress',
       'CSS',
-      'Tailwind',
-    ],
+      'Tailwind'
+    ]
   },
   {
     name: 'Jacob Herper',
@@ -3366,8 +3382,8 @@ module.exports = [
       'Engineer',
       'TypeScript',
       'Performance',
-      'Entrepreneur',
-    ],
+      'Entrepreneur'
+    ]
   },
   {
     name: 'Ajay Karwal',
@@ -3387,8 +3403,8 @@ module.exports = [
       'React',
       'CSS',
       'HTML',
-      'Frontend',
-    ],
+      'Frontend'
+    ]
   },
   {
     name: 'David Vives',
@@ -3413,8 +3429,8 @@ module.exports = [
       'C#',
       '.NET Core',
       '.NET',
-      'Python',
-    ],
+      'Python'
+    ]
   },
   {
     name: 'Ryan Warner',
@@ -3433,8 +3449,8 @@ module.exports = [
       'Gatsby',
       'Firebase',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Adam Urban',
@@ -3454,8 +3470,8 @@ module.exports = [
       'Node',
       'i3',
       'Serverless',
-      'GCP',
-    ],
+      'GCP'
+    ]
   },
   {
     name: 'Majo Paskuvan',
@@ -3473,8 +3489,8 @@ module.exports = [
       'Web Development',
       'UX',
       'Blogger',
-      'Designer',
-    ],
+      'Designer'
+    ]
   },
   {
     name: 'Christopher Wavrin',
@@ -3485,7 +3501,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Ruby On Rails', 'Vue.js', 'Web Development', 'Full Stack', 'AWS'],
+    tags: ['Ruby On Rails', 'Vue.js', 'Web Development', 'Full Stack', 'AWS']
   },
   {
     name: 'Florian Kapfenberger',
@@ -3504,8 +3520,8 @@ module.exports = [
       'JavaScript',
       'Blogger',
       'React',
-      'Gatsby',
-    ],
+      'Gatsby'
+    ]
   },
   {
     name: 'TaeHee Kim',
@@ -3526,8 +3542,8 @@ module.exports = [
       'Node',
       'Python',
       'Serverless',
-      'Musician',
-    ],
+      'Musician'
+    ]
   },
   {
     name: 'Maria Altyeva Schuessler ',
@@ -3547,8 +3563,8 @@ module.exports = [
       'Blogger',
       'React',
       'Writer',
-      'Ruby on Rails',
-    ],
+      'Ruby on Rails'
+    ]
   },
   {
     name: 'Arturo Campos',
@@ -3568,8 +3584,8 @@ module.exports = [
       'React',
       'Angular',
       'Vue',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Ibrahim Cesar',
@@ -3590,8 +3606,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Sercan Eraslan',
@@ -3610,8 +3626,8 @@ module.exports = [
       'React',
       'Vue',
       'Angular',
-      'Svelte',
-    ],
+      'Svelte'
+    ]
   },
   {
     name: 'Divjot Singh',
@@ -3630,8 +3646,8 @@ module.exports = [
       'JavaScript',
       'React',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Jeff Wen',
@@ -3642,7 +3658,7 @@ module.exports = [
     country: '🇨🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Web Development', 'Front End', 'Vue', 'React', 'Node', 'Python'],
+    tags: ['Web Development', 'Front End', 'Vue', 'React', 'Node', 'Python']
   },
   {
     name: 'Andrea Prus',
@@ -3653,15 +3669,7 @@ module.exports = [
     country: '🇪🇺',
     computer: 'linux',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'PHP',
-      'JavaScript',
-      'Vue',
-      'Node',
-      'CSS',
-    ],
+    tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'Vue', 'Node', 'CSS']
   },
   {
     name: 'Bamuleseyo Gideon',
@@ -3684,8 +3692,8 @@ module.exports = [
       'Flask',
       'Django',
       'CSS',
-      'DevC',
-    ],
+      'DevC'
+    ]
   },
   {
     name: 'Nick Taylor',
@@ -3703,8 +3711,8 @@ module.exports = [
       'Writer',
       'TypeScript',
       'Node',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Benjamin Edenhuizen',
@@ -3716,7 +3724,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['Web developer', 'Front-end', 'Accessibility', 'Performance'],
+    tags: ['Web developer', 'Front-end', 'Accessibility', 'Performance']
   },
   {
     name: 'Dave Hill',
@@ -3734,8 +3742,8 @@ module.exports = [
       'CSS',
       'JavaScript',
       'Accessibility',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Logan Blangenois',
@@ -3757,8 +3765,8 @@ module.exports = [
       'HTML',
       'CSS',
       'Sass',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Muhammad Umair',
@@ -3779,8 +3787,8 @@ module.exports = [
       'Angular',
       'Node',
       'CSS',
-      'Electron',
-    ],
+      'Electron'
+    ]
   },
   {
     name: 'Alex Carpenter',
@@ -3791,7 +3799,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['CSS', 'YouTuber', 'Web Development'],
+    tags: ['CSS', 'YouTuber', 'Web Development']
   },
   {
     name: 'Kevin Woblick',
@@ -3812,8 +3820,8 @@ module.exports = [
       'Laravel',
       'Vue',
       'Docker',
-      'Blogger',
-    ],
+      'Blogger'
+    ]
   },
   {
     name: 'Michał Miszczyszyn',
@@ -3838,8 +3846,8 @@ module.exports = [
       'Node',
       'TypeScript',
       'Rust',
-      'ReasonML',
-    ],
+      'ReasonML'
+    ]
   },
   {
     name: 'Rail Hamdeew',
@@ -3850,7 +3858,7 @@ module.exports = [
     country: '🇷🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue'],
+    tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue']
   },
   {
     name: 'Armno Prommarak',
@@ -3870,8 +3878,8 @@ module.exports = [
       'Angular',
       'TypeScript',
       'Blogger',
-      'Performance',
-    ],
+      'Performance'
+    ]
   },
   {
     name: 'Fernando Paredes',
@@ -3892,8 +3900,8 @@ module.exports = [
       'Rust',
       'TypeScript',
       'Ruby',
-      'CSS',
-    ],
+      'CSS'
+    ]
   },
   {
     name: 'Tarik Omercehajic',
@@ -3913,8 +3921,8 @@ module.exports = [
       'Go',
       'Vue',
       'Web Developer',
-      'WordPress',
-    ],
+      'WordPress'
+    ]
   },
   {
     name: 'Duncan McDougall',
@@ -3933,8 +3941,8 @@ module.exports = [
       'React',
       'CSS',
       'Performance',
-      'Remote',
-    ],
+      'Remote'
+    ]
   },
   {
     name: 'Kevin Simkanič',
@@ -3958,8 +3966,8 @@ module.exports = [
       'HTML',
       'Performance',
       'WordPress',
-      'Sass',
-    ],
+      'Sass'
+    ]
   },
   {
     name: 'Lakshmipriya Mukundan',
@@ -3979,8 +3987,8 @@ module.exports = [
       'Full Stack',
       'React',
       'Elasticsearch',
-      'GraphQL',
-    ],
+      'GraphQL'
+    ]
   },
   {
     name: 'Tony Mamedbekov',
@@ -3999,8 +4007,8 @@ module.exports = [
       'Sitecore',
       'React',
       'Developer',
-      'Angular',
-    ],
+      'Angular'
+    ]
   },
   {
     name: 'Jerry Shi',
@@ -4019,9 +4027,9 @@ module.exports = [
       'Node',
       'Rust',
       'Full Stack',
-      'GraphQL',
-    ],
-  },
+      'GraphQL'
+    ]
+  }
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
