@@ -115,7 +115,7 @@ module.exports = [
   {
     name: 'Victor Silva',
     description: 'Web Developer',
-    url: 'https://github.com/VictorHSC',
+    url: 'https://github.com/VictorHSC/awesome-uses',
     twitter: '@HugoNeo99',
     emoji: '😎',
     country: '🇧🇷',
