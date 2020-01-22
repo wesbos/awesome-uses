@@ -3859,6 +3859,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Gale',
+    description: 'Web developer with a beard and glasses',
+    url: 'https://www.michaelgale.dev/uses/',
+    twitter: '@miclgael',
+    emoji: '🌈',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Front End',
+      'Full Stack',
+      'JavaScript',
+      'Vue'
+      'DevOps',
+      'PHP',
+      'Node',
+      'CSS'
+    ],
+    
+  },
+  {
     name: 'Michał Miszczyszyn',
     description:
       'Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.',
