@@ -56,7 +56,6 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   });
 
   // Add Devices to GraphQL API
-  console.log(devices());
   devices().forEach(device => {
     const nodeMeta = {
       id: createNodeId(`device-${device.name}`),

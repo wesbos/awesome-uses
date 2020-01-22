@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
 
+function useIntersectionObserver(ref) {
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(function() {
+    const observer = new IntersectionObserver(function([entry]) {
+      console.log('Run once for every time its on screen');
+      console.log(entry);
+    });
+    // Observe the element we want to observve
+    observer.observe(ref.current);
+
+    return () => {
+      observer.unobserve(ref.current);
+    };
+  });
+}
+
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
   const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`;
+
   return (
     <PersonWrapper>
       <PersonInner>

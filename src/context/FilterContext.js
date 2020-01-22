@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 
 const FilterContext = createContext();
 
@@ -45,7 +46,7 @@ const FilterProvider = function({ children }) {
 };
 
 FilterProvider.propTypes = {
-  children: React.Children,
+  children: PropTypes.element,
 };
 
 export default FilterContext;

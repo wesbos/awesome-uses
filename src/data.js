@@ -2727,7 +2727,6 @@ module.exports = [
       'YouTuber',
       'JavaScript',
       'TypeScript',
-      'Node',
       'React',
       'Node',
       'CSS',
@@ -3699,7 +3698,6 @@ module.exports = [
       'React',
       'TypeScript',
       'JavaScript',
-      'React',
       'Node',
       'CSS',
     ],
@@ -4065,7 +4063,6 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Architect',
-      'Developer',
       'SitecoreJSS',
       'Sitecore',
       'React',
