@@ -21,7 +21,7 @@ function Header({ siteTitle, siteDescription, siteUrl }) {
         <meta name="twitter:image" content={`${siteUrl}/twitter-card.png`} />
       </Helmet>
       <div>
-        <h1>
+        <h1 id="top">
           <Link to="/">/uses</Link>
         </h1>
         <p>
