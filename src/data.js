@@ -113,6 +113,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Victor Silva',
+    description: 'Web Developer',
+    url: 'https://github.com/VictorHSC',
+    twitter: '@HugoNeo99',
+    emoji: '😎',
+    country: '🇧🇷',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'SCSS',
+    ],
+  },
+  {
     name: 'Asur Bernardo',
     description:
       'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
