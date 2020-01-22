@@ -587,7 +587,8 @@ module.exports = [
   },
   {
     name: 'Jake Jarvis',
-    description: 'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
+    description:
+      'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
     url: 'https://jarv.is/uses/',
     twitter: '@jakejarvis',
     emoji: '🐼',
@@ -4074,8 +4075,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Bunting',
-    description:
-      'Web 🤖 working remotely from the Connecticut burbs',
+    description: 'Web 🤖 working remotely from the Connecticut burbs',
     url: 'https://qbunt.com/uses',
     twitter: '@qbunt',
     emoji: '🌲',
@@ -4092,7 +4092,7 @@ module.exports = [
       'Vue',
       'Node',
       'GraphQL',
-      'Accessibility'
+      'Accessibility',
     ],
   },
   {
