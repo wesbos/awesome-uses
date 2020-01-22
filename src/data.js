@@ -1890,6 +1890,26 @@ module.exports = [
       'Node',
     ],
   },
+      {
+    name: 'Sean Smith',
+    description: 'Developer, Front End Developer, Craft CMS enthusiast, and podcaster',
+    url: 'https://caffeinecreations.ca/uses',
+    twitter: '@cs_sean',
+    emoji: '',
+    country: 'CA',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Accessibility',
+      'CSS',
+      'Craft CMS',
+      'JavaScript',
+      'podcaster',
+      'podcast'
+    ],
+  },
   {
     name: 'Hugo Di Francesco',
     description:
