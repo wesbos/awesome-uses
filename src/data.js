@@ -53,6 +53,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
+      'Front End',
       'JavaScript',
       'React',
       'React Native',
