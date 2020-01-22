@@ -3912,7 +3912,7 @@ module.exports = [
   {
     name: 'Benjamin Mock',
     description: 'coder, runner, reader, maker',
-    url: 'https://codesnacks.net/uses',
+    url: 'https://codesnacks.net/uses/',
     twitter: '@benjaminmock',
     emoji: '🤬',
     country: '🇩🇪',
