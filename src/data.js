@@ -210,14 +210,7 @@ module.exports = [
     country: '🇦🇺',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'Vue',
-      'Node',
-      'CSS',
-    ],
+    tags: ['Developer', 'Full Stack', 'JavaScript', 'Vue', 'Node', 'CSS'],
   },
   {
     name: 'Renee de Kruijf',
