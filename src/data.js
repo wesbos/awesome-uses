@@ -121,14 +121,7 @@ module.exports = [
     country: '🇧🇷',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'Developer',
-      'JavaScript',
-      'HTML',
-      'CSS',
-      'SCSS',
-    ],
+    tags: ['Front End', 'Developer', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
   },
   {
     name: 'Asur Bernardo',
