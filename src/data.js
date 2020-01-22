@@ -586,6 +586,27 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'JavaScript', 'React', 'Hockey'],
   },
   {
+    name: 'Jake Jarvis',
+    description: 'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
+    url: 'https://jarv.is/uses/',
+    twitter: '@jakejarvis',
+    emoji: '🐼',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+      'Node',
+      'CSS',
+      'Infosec',
+      'Blogger',
+      'Teacher',
+    ],
+  },
+  {
     name: 'Valentina Calabrese',
     description:
       'Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.',
