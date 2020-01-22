@@ -181,6 +181,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Victor Silva',
+    description: 'Web Developer',
+    url: 'https://github.com/VictorHSC/awesome-uses',
+    twitter: '@HugoNeo99',
+    emoji: '😎',
+    country: '🇧🇷',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'SCSS',
+    ],
+  },
+  {
     name: 'John Smith',
     description:
       'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
