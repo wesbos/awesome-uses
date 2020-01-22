@@ -2266,6 +2266,26 @@ module.exports = [
       'Open Source',
     ],
   },
+      {
+    name: 'Sean Smith',
+    description: 'Developer, Front End Developer, Craft CMS enthusiast, and podcaster',
+    url: 'https://caffeinecreations.ca/uses',
+    twitter: '@cs_sean',
+    emoji: '',
+    country: 'ca',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Accessibility',
+      'CSS',
+      'Craft CMS',
+      'JavaScript',
+      'podcaster',
+      'podcast'
+    ],
+  },
   {
     name: 'Steven van Loef',
     description: 'Web Developer, App Developer',
