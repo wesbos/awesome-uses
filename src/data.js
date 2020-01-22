@@ -201,6 +201,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Gale',
+    description:
+      'Web Developer with a beard and glasses from Melbourne, Australia',
+    url: 'https://michaelgale.dev/uses',
+    twitter: '@miclgael',
+    emoji: '🦄',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
     name: 'Renee de Kruijf',
     description:
       'Javascript developer in the making. Still learning every day. Liking it a lot!',
