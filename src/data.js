@@ -146,6 +146,31 @@ module.exports = [
     ],
   },
   {
+    name: "Roberto Vázquez González",
+    description:
+      "Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.",
+    url: "https://robertovg.com/uses/",
+    emoji: "🎸",
+    country: "🇪🇸",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Developer",
+      "Javascript Engineer",
+      "Frontend",
+      "Learner",
+      "Entrepreneur",
+      "React",
+      "Next",
+      "Gatsby",
+      "GraphQL",
+      "Styled-Components",
+      "Node",
+      "CSS",
+      "Vue",
+    ],
+  },
+  {
     name: 'Joe Astuccio',
     description:
       'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
