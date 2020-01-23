@@ -41,9 +41,10 @@ module.exports = [
       'GraphQL',
     ],
   },
-    {
+  {
     name: 'Yannick Le Roux',
-    description: 'Second career web dev, French living in San Diego, retired DJ.',
+    description:
+      'Second career web dev, French living in San Diego, retired DJ.',
     url: 'https://yannickleroux.com/uses',
     twitter: '@dj_yanic',
     emoji: '🔥',
@@ -59,7 +60,7 @@ module.exports = [
       'Node',
       'Redux',
       'HTML',
-      'CSS'
+      'CSS',
     ],
   },
   {

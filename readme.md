@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
+* [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Didier Catz](https://didiercatz.com/uses) — Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.
 * [Anwar Hussain](https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0) — Web Developer and No-Code Maker
