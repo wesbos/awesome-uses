@@ -1456,6 +1456,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Chuck Munson',
+    description:
+      'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
+    url: 'https://www.breadandrosesweb.com/uses/',
+    twitter: '@ChuckMunson2',
+    emoji: '⛏️',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'Javascript',
+      'WordPress',
+      'Blogger',
+      'Web Developer',
+      'Full Stack',
+    ],
+  },
+  {
     name: "David O'Trakoun",
     description: 'Software Engineer',
     url: 'https://www.davidosomething.com/uses/',
