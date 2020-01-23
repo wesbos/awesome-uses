@@ -1159,7 +1159,7 @@ module.exports = [
       'Blogger',
     ],
   },
-    {
+  {
     name: 'Tony Cimaglia',
     description: 'Restaurant Veteran turned Developer.',
     url: 'https://www.tonycimaglia.com/uses/',
@@ -1169,7 +1169,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-       'Developer',
+      'Developer',
       'Full Stack',
       'JavaScript',
       'React',

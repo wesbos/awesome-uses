@@ -86,6 +86,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
 * [Lauro Silva](https://laurosilva.com/uses) — Software Engineer and Technical Writer
+* [Tony Cimaglia](https://www.tonycimaglia.com/uses/) — Restaurant Veteran turned Developer.
 * [Nuno Maduro](https://nunomaduro.com/uses/) — Software engineer, Open Source contributor, Speaker
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
