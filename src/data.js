@@ -2435,7 +2435,7 @@ module.exports = [
     url: 'https://duncanm.dev/uses',
     twitter: '@damcclean',
     emoji: '🎉',
-    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',    
+    country: '🇬🇧',    
     computer: 'apple',
     phone: 'android',
     tags: [
