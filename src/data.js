@@ -1866,6 +1866,18 @@ module.exports = [
     tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware'],
   },
   {
+    name: 'Mohammad Dohadwala',
+    description:
+      'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
+    url: 'https://dohad.dev/uses',
+    twitter: '@mohammaddohad',
+    emoji: '🙃',
+    country: '🇦🇪',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['JavaScript', 'React', 'React Native', 'Full Stack', 'Serverless', 'AWS'],
+  },
+  {
     name: 'Jeffrey Way',
     description: 'Laracasts Author',
     url: 'https://laracasts.com/blog/laracasts-uses',
