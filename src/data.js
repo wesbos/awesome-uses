@@ -1475,6 +1475,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Alex Gudino',
+    description:
+      'Front-end developer with 3 daughters and still wanting to continue learning programming languages',
+    url: 'https://github.com/agudocasillas',
+    emoji: '😎',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End,
+      'JavaScript',
+      'React',
+      'CSS',
+    ],
+  },
+  {
     name: 'Chuck Munson',
     description:
       'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
