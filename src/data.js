@@ -3980,6 +3980,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Maxwell Morrison',
+    description:
+      'Continuous leaner and freelance full stack developer',
+    url: 'https://maxmorrison.me/uses',
+    twitter: '@ghkobbs',
+    emoji: '👌',
+    country: '🇬🇭',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Frontend',
+      'Gatsby',
+      'React',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
     name: 'Rail Hamdeew',
     description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
