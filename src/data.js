@@ -3345,6 +3345,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Matheus Almeida S. Anjos',
+    description:
+      'Passionate about programming, engaged with Javascript and Golang lover.',
+    url:
+      'https://matalmeida.netlify.com/uses/',
+    twitter: '@matalmeida',
+    emoji: '🕶️',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Programmer',
+      'Back End',
+      'JavaScript',
+      'TypeScript',
+      'Node',
+      'Golang'
+    ],
+  },
+  {
     name: 'Alejandro G. Anglada',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
