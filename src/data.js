@@ -255,8 +255,7 @@ module.exports = [
   },
   {
     name: 'Aaron A.',
-    description:
-      'Sandwich enthusiast and programmer.',
+    description: 'Sandwich enthusiast and programmer.',
     url: 'https://ocular-rhythm.io/uses/',
     twitter: '@ocularrhythm',
     emoji: '🦙',
