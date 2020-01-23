@@ -1832,7 +1832,7 @@ module.exports = [
     description:
       'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
     url: 'https://dohad.dev/uses',
-    twitter: '@gr8_boi52',
+    twitter: '@mohammaddohad',
     emoji: '🙃',
     country: '🇦🇪',
     computer: 'windows',
