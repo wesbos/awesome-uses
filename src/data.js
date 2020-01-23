@@ -3348,8 +3348,7 @@ module.exports = [
     name: 'Matheus Almeida S. Anjos',
     description:
       'Passionate about programming, engaged with Javascript and Golang lover.',
-    url:
-      'https://matalmeida.netlify.com/uses/',
+    url: 'https://matalmeida.netlify.com/uses/',
     twitter: '@matalmeida',
     emoji: '🕶️',
     country: '🇧🇷',
@@ -3361,7 +3360,7 @@ module.exports = [
       'JavaScript',
       'TypeScript',
       'Node',
-      'Golang'
+      'Golang',
     ],
   },
   {
