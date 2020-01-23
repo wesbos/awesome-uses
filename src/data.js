@@ -58,6 +58,8 @@ module.exports = [
       'React',
       'Node',
       'Redux',
+      'HTML',
+      'CSS'
     ],
   },
   {
