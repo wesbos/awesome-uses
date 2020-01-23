@@ -2430,6 +2430,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Duncan McClean',
+    description: 'Web Developer working with Laravel & Statamic',
+    url: 'https://duncanm.dev/uses',
+    twitter: '@damcclean',
+    emoji: '🎉',
+    country: 🏴󠁧󠁢󠁳󠁣󠁴󠁿,
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Backend',
+      'Frontend',
+      'Statamic',
+      'Laravel',
+      'PHP',
+      'Vue',
+      'Nuxt',
+      'TailwindCSS',
+    ],
+  },
+  {
     name: 'Ricard Torres',
     description:
       'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
