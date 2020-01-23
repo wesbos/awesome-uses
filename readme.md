@@ -126,6 +126,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
+* [Mohammad Dohadwala](https://dohad.dev/uses) — Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
 * [Terry Godier](https://terrygodier.com/uses) — A developer and marketer of fine internet products.
 * [Erno Salo](https://endormi.io/uses/) — Full Stack Developer and Open Source Contributor
@@ -218,6 +219,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.
+* [Marcin Krawczyk](https://marcin.codes/uses) — Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi

@@ -1875,7 +1875,14 @@ module.exports = [
     country: '🇦🇪',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['JavaScript', 'React', 'React Native', 'Full Stack', 'Serverless', 'AWS'],
+    tags: [
+      'JavaScript',
+      'React',
+      'React Native',
+      'Full Stack',
+      'Serverless',
+      'AWS',
+    ],
   },
   {
     name: 'Jeffrey Way',
