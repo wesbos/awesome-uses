@@ -4019,8 +4019,7 @@ module.exports = [
   },
   {
     name: 'Maxwell Morrison',
-    description:
-      'Continuous leaner and freelance full stack developer',
+    description: 'Continuous leaner and freelance full stack developer',
     url: 'https://maxmorrison.me/uses',
     twitter: '@ghkobbs',
     emoji: '👌',

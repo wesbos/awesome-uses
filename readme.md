@@ -235,6 +235,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
+* [Maxwell Morrison](https://maxmorrison.me/uses) — Continuous leaner and freelance full stack developer
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
 * [Armno Prommarak](https://armno.in.th/uses) — Frontend developer, blogger, cyclist.
 * [Fernando Paredes](https://fdp.io/about/uses) — iOS/macOS developer, serial hobbyist, language nerd.
