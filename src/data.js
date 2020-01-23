@@ -3685,6 +3685,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Marcin Krawczyk',
+    description:
+      'Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.',
+    url: 'https://marcin.codes/uses',
+    twitter: '@marckraw',
+    emoji: '🥑',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Vue',
+      'Node',
+      'CSS',
+      'Gatsby',
+      'Storyblok',
+    ],
+  },
+  {
     name: 'Maria Altyeva Schuessler ',
     description:
       'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
