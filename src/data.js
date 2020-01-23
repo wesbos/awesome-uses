@@ -740,6 +740,25 @@ module.exports = [
       'Web Developer',
       'Musician',
     ],
+  },{
+    name: 'Alex Gudino',
+    description:
+      'Front-end developer with 3 daughters and still wanting to continue learning programming languages',
+    url: 'https://github.com/agudocasillas',
+    emoji: '😎',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+      'CSS',
+      'HTML',
+      'SASS',
+      'Typescript',
+    ],
   },
   {
     name: 'Praveen Kumar Purushothaman',
