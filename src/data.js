@@ -1118,6 +1118,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Rikin Patel',
+    description: 'Experienced Front-end developer, Passionate about Javascript',
+    url: 'https://patelrikin.com',
+    twitter: '@rikinpatel',
+    emoji: '💻',
+    country: 'US',
+    computer: 'windows',
+    phone: 'apple',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Developer',
+      'React',
+      'Angular',
+      'Node',
+      'CSS',
+      'Web Developer',
+      'UI Lead'
+    ],
+  },
+  {
     name: 'Joris Hens',
     description:
       'Web development teacher, Security and hacking enthousiast, Cook.',
