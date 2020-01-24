@@ -3537,6 +3537,28 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'CSS', 'Vue'],
   },
   {
+    name: 'Max Schmeling',
+    description:
+      'CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.',
+    url: 'https://maxschmeling.me/uses',
+    twitter: '@maxschmeling',
+    emoji: '⛲️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'React Native',
+      'Node',
+      'CSS',
+      'Ruby',
+      'Ruby on Rails'
+    ],
+  },
+  {
     name: 'Pawel Grzybek',
     description: 'Software Engineer',
     url: 'https://pawelgrzybek.com/uses/',
