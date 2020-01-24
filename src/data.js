@@ -1123,7 +1123,7 @@ module.exports = [
     url: 'https://patelrikin.com/uses',
     twitter: '@rikinpatel',
     emoji: '💻',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'apple',
     tags: [
