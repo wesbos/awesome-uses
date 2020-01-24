@@ -3219,21 +3219,14 @@ module.exports = [
   },
   {
     name: 'Josef Aidt',
-    description:
-      'JavaScript and Garlic Bread connoisseur',
+    description: 'JavaScript and Garlic Bread connoisseur',
     url: 'https://josefaidt.dev/uses',
     twitter: '@josefaidt',
     emoji: '🧄',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Full Stack',
-      'React',
-      'Node',
-      'GraphQL',
-      'Gatsby',
-    ],
+    tags: ['Full Stack', 'React', 'Node', 'GraphQL', 'Gatsby'],
   },
   {
     name: 'Eric Oyanadel',

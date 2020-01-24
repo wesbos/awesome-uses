@@ -48,6 +48,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amarpreet Singh](https://www.momcoded.com/uses) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
 * [Asam Shan](https://www.asamshan.dev/uses) — JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️
 * [Emmanuel Martins](http://betacodings.com/uses) — Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings
+* [Chris Berry](http://chrisberry.io/uses) — Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur 
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
 * [Federico Vitale](https://fedevitale.dev/uses) — 20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.
 * [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
@@ -192,6 +193,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Seyhun Akyürek](https://www.seyhunakyurek.com/uses/) — Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails
 * [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
+* [Josef Aidt](https://josefaidt.dev/uses) — JavaScript and Garlic Bread connoisseur
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
