@@ -211,6 +211,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
 * [Sangam Kumar](https://www.sangam.dev/uses) — (☕) => { 👨‍💻 }; git checkout hackerrank
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
+* [Max Schmeling](https://maxschmeling.me/uses) — CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Vince Picone](https://vincepic.one/uses) — Building design systems at IBM

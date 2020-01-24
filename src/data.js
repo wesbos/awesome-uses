@@ -3555,7 +3555,7 @@ module.exports = [
       'Node',
       'CSS',
       'Ruby',
-      'Ruby on Rails'
+      'Ruby on Rails',
     ],
   },
   {
