@@ -95,6 +95,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lina María Montaño Ramírez](https://calypsobronte.me/uses) — Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
+* [Bruno Brito](https://brunobrito.pt/uses) — Freelance Web Developer, Content Creator, Digital Marketing teacher
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
@@ -219,6 +220,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ajay Karwal](https://ajaykarwal.com/uses/) — A designer, developer and UX guy from Buckingham, UK.
 * [David Vives](http://dispuestoaaprender.netlify.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
 * [Ryan Warner](https://ryan.warner.codes/uses) — Software Engineer and Interface Designer. Leader and Mentor.
+* [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
 * [Adam Urban](https://urbanisierung.dev/uses/) — coder, father, left-handed
 * [Majo Paskuvan](https://paskuvan.us/uses.html) — Front End Developer, Reader, Deaf Person
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer

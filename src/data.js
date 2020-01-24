@@ -3753,7 +3753,7 @@ module.exports = [
       'Rust',
       'Writer',
     ],
-  },  
+  },
   {
     name: 'Adam Urban',
     description: 'coder, father, left-handed',
