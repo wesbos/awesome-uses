@@ -47,7 +47,7 @@ module.exports = [
     url: 'https://www.improvebadcode.com/uses',
     twitter: '@xbojch',
     emoji: '🚀',
-    country: '🇸🇮',
+    country: '🇦🇹',
     computer: 'apple',
     phone: 'iphone',
     tags: [
