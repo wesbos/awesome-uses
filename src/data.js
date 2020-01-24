@@ -1326,6 +1326,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Bruno Brito',
+    description:
+      'Freelance Web Developer, Content Creator, Digital Marketing teacher',
+    url: 'https://brunobrito.pt/uses',
+    twitter: '@the_bammer',
+    emoji: '🔥',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Blogger',
+      'Teacher',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'CSS',
+    ],
+  },
+  {
     name: 'Abdisalan Mohamud',
     description: 'Software Engineer, blogger, lifetime learner',
     url: 'https://abdisalan.com/uses',
