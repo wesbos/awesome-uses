@@ -42,6 +42,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Bojan Bedrač',
+    description:
+      'Coding the future, one line of code at a time.',
+    url: 'https://www.improvebadcode.com/uses',
+    twitter: '@xbojch',
+    emoji: '🚀',
+    country: '🇸🇮',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Craftsman',
+      'Developer',
+      'Full Stack',
+      'Speaker',
+      'Trainer',
+      'JavaScript',
+      'React',
+      'PHP',
+      'Node',
+      'CSS',
+    ],
+  },
+  {
     name: 'Yannick Le Roux',
     description:
       'Second career web dev, French living in San Diego, retired DJ.',
