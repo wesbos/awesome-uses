@@ -1120,7 +1120,7 @@ module.exports = [
   {
     name: 'Rikin Patel',
     description: 'Experienced Front-end developer, Passionate about Javascript',
-    url: 'https://patelrikin.com',
+    url: 'https://patelrikin.com/uses',
     twitter: '@rikinpatel',
     emoji: '💻',
     country: 'US',
