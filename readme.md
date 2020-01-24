@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
+* [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Didier Catz](https://didiercatz.com/uses) — Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.
@@ -156,6 +157,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
+* [Duncan McClean](https://duncanm.dev/uses) — Web Developer working with Laravel & Statamic
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast

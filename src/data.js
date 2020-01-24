@@ -43,8 +43,7 @@ module.exports = [
   },
   {
     name: 'Bojan Bedrač',
-    description:
-      'Coding the future, one line of code at a time.',
+    description: 'Coding the future, one line of code at a time.',
     url: 'https://www.improvebadcode.com/uses',
     twitter: '@xbojch',
     emoji: '🚀',
@@ -2500,7 +2499,7 @@ module.exports = [
     url: 'https://duncanm.dev/uses',
     twitter: '@damcclean',
     emoji: '🎉',
-    country: '🇬🇧',    
+    country: '🇬🇧',
     computer: 'apple',
     phone: 'android',
     tags: [
