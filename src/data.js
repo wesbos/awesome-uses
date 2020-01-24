@@ -398,6 +398,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Chris Berry',
+    description:
+      'Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur ',
+    url: 'http://chrisberry.io/uses',
+    twitter: '@chris_berry',
+    emoji: '🤯',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'JavaScript',
+      'JAMstack',
+      'Gatsby',
+      'CSS',
+      'HTML',
+      'UX',
+      'Designer',
+      'Blogger',
+    ],
+  },
+  {
     name: 'James Quick',
     description: 'Developer Advocate Engineer at @auth0 and content creator',
     url: 'https://jamesqquick.com/uses',
