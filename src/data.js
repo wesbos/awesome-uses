@@ -1772,6 +1772,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Caleb Ukle',
+    description:
+      "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
+    url: 'https://calebukle.com/uses',
+    twitter: '@CU_Galaxy',
+    emoji: '🤔',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Full Stack', '.NET', 'C#', 'Angular', 'TypeScript', 'Blogger'],
+  },
+  {
     name: 'Christopher Hranj',
     description: 'Software Engineer, Blogger, Musician, Ultimate player.',
     url: 'https://brodan.biz/uses',
