@@ -1780,7 +1780,7 @@ module.exports = [
     emoji: '🤔',
     country: '🇺🇸',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: ['Full Stack', '.NET', 'C#', 'Angular', 'TypeScript', 'Blogger'],
   },
   {
