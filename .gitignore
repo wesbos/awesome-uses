@@ -72,3 +72,5 @@ yarn-error.log
 .yarn-integrity
 
 haters/
+
+.idea/
