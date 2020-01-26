@@ -1805,6 +1805,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Dale French',
+    description:
+      'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
+    url: 'https://dalefrench.dev/uses',
+    twitter: 'https://twitter.com/dalefrench0',
+    emoji: '🏄🏻‍♂️',
+    country: '🇿🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Front End',
+      'TypeScript',
+      'JavaScript',
+      'Design Systems',
+      'React',
+      'React Native',
+      'Node',
+      'Remote',
+    ],
+  },
+  {
     name: 'Timothy Miller',
     description: 'Web Designer/Developer for hire. Wears lots of hats.',
     url: 'https://timothymiller.dev/uses',
