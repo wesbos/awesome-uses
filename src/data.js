@@ -2566,7 +2566,7 @@ module.exports = [
     emoji: '🛡',
     country: '🇲🇰',
     computer: 'linux',
-    phone: 'f-droid',
+    phone: 'android',
     tags: [
       'Full Stack',
       'Developer',
