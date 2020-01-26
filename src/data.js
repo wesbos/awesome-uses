@@ -835,6 +835,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Karl Koch',
+    description:
+      'Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.',
+    url: 'https://www.kejk.co/uses',
+    twitter: '@_kejk',
+    emoji: '🧘🏻‍♂️',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Developer',
+      'Front-End',
+      'Entrepreneur',
+      'HTML',
+      'CSS',
+      'Node',
+      'JavaScript',
+      'Accessibility',
+      'UX',
+      'UI',
+    ],
+  },
+  {
     name: 'Sam Cross',
     description:
       '"Developer", IT student, frequent traveller by coach, addicted to music.',
