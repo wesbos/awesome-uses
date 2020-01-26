@@ -1655,12 +1655,12 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Entrepreneur',
-      'Developer', 
-      'Blogger', 
-      'Angular', 
-      'JavaScript', 
-      'Full Stack', 
-      'Front End'
+      'Developer',
+      'Blogger',
+      'Angular',
+      'JavaScript',
+      'Full Stack',
+      'Front End',
     ],
   },
   {

@@ -114,7 +114,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Chuck Munson](https://www.breadandrosesweb.com/uses/) — Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger
-* [Michael Hoffmann](https://www.mokkapps.de/blog/my-development-setup/) — Freelance Software Engineer
+* [Michael Hoffmann](https://www.mokkapps.de/uses) — Freelance Software Engineer
 * [Austin Gil](https://stegosource.com/uses/) — Some dude that writes code.
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
 * [Sergey Panay](https://panay.dev/uses) — Front End developer. Productivity nerd.
