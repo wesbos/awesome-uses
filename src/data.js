@@ -1647,13 +1647,21 @@ module.exports = [
   {
     name: 'Michael Hoffmann',
     description: 'Freelance Software Engineer',
-    url: 'https://www.mokkapps.de/blog/my-development-setup/',
+    url: 'https://www.mokkapps.de/uses',
     twitter: '@mokkapps',
     emoji: '🍺',
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Angular'],
+    tags: [
+      'Entrepreneur',
+      'Developer', 
+      'Blogger', 
+      'Angular', 
+      'JavaScript', 
+      'Full Stack', 
+      'Front End'
+    ],
   },
   {
     name: 'Austin Gil',
