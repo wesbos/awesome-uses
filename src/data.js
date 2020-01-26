@@ -2561,7 +2561,7 @@ module.exports = [
   {
     name: 'Zoran Panev',
     description: 'Web developer',
-    url: 'https://zoranpanev.me',
+    url: 'https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git',
     twitter: '@Zoran_Panev',
     emoji: '🛡',
     country: '🇲🇰',
