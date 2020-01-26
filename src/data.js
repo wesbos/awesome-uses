@@ -2559,6 +2559,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Zoran Panev',
+    description: 'Web developer',
+    url: 'https://www.zoranpanev.me',
+    twitter: '@Zoran_Panev',
+    emoji: '🛡',
+    country: '🇲🇰',
+    computer: 'linux',
+    phone: 'f-droid',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Web',
+      'Laravel',
+      'Symfony',
+      'Docker',
+      'JavaScript',
+      'React',
+      'Kali Linux'
+    ],
+  },
+  {
     name: 'Josh Farrant',
     description:
       'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
