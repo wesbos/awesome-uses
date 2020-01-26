@@ -24,7 +24,8 @@ module.exports = [
   },
   {
     name: 'Mitchell Hanberg',
-    description: 'Full Stack Developer who loves working with Elixir, Ruby and JS.',
+    description:
+      'Full Stack Developer who loves working with Elixir, Ruby and JS.',
     url: 'https://mitchellhanberg.com/uses',
     twitter: '@mitchhanberg',
     emoji: '⚡️',
