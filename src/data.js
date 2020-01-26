@@ -45,7 +45,7 @@ module.exports = [
       'CSS',
       'Sass',
       'Styled Components',
-      'Node'
+      'Node',
     ],
   },
   {

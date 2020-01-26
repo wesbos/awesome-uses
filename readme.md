@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Nich Secord](https://secord.io/uses) — Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.
 * [Mitchell Hanberg](https://mitchellhanberg.com/uses) — Full Stack Developer who loves working with Elixir, Ruby and JS.
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
