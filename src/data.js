@@ -23,6 +23,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Nich Secord',
+    description:
+      'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
+    url: 'https://secord.io/uses',
+    twitter: '@nichsecord',
+    emoji: '⛷️',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web Developer',
+      'Full Stack',
+      'Front End',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'GraphQL',
+      'HTML',
+      'CSS',
+      'Sass',
+      'Styled Components',
+      'Node'
+    ],
+  },
+  {
     name: 'Mitchell Hanberg',
     description:
       'Full Stack Developer who loves working with Elixir, Ruby and JS.',
