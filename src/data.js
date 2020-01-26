@@ -3677,7 +3677,7 @@ module.exports = [
     name: 'Karl Koch',
     description:
       'Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.',
-    url: 'https://kejk.co/uses',
+    url: 'https://www.kejk.co/uses',
     twitter: '@_kejk',
     emoji: '🧘‍♂️',
     country: '🇬🇧',
