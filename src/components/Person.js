@@ -24,7 +24,10 @@ function useIntersectionObserver(ref) {
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`;
+  const twitter = `https://unavatar.now.sh/twitter/${person.twitter}`;
+  const website = `https://unavatar.now.sh/${url.host}`;
+  const unavatar = person.twitter ? `${twitter}?fallback=${website}` : website;
+  const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
 
   return (
     <PersonWrapper>
