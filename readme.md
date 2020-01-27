@@ -122,6 +122,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sergey Panay](https://panay.dev/uses) — Front End developer. Productivity nerd.
 * [Sil van Diepen](https://www.silvandiepen.nl/uses/) — Creative Developer
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
+* [Dale French](https://dalefrench.dev/uses) — Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.
 * [Christopher Hranj](https://brodan.biz/uses) — Software Engineer, Blogger, Musician, Ultimate player.
@@ -160,6 +161,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
 * [Mark Tse](https://neverendingqs.com/uses/) — A back-end developer who likes to dabble in the front-end.
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
+* [Zoran Panev](https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git) — Web developer
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza

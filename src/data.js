@@ -2598,7 +2598,7 @@ module.exports = [
       'Docker',
       'JavaScript',
       'React',
-      'Kali Linux'
+      'Kali Linux',
     ],
   },
   {
