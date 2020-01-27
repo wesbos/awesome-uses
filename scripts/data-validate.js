@@ -1,8 +1,13 @@
-import core from '@actions/core';
-import { getMasterData, Schema, getStatusCode } from './utils.js';
-import srcData from '../src/data.js';
+const core = require('@actions/core');
+const {
+  getMasterData,
+  Schema,
+  getStatusCode,
+  communicateValidationOutcome,
+} = require('./utils.js');
+const srcData = require('../src/data.js');
 
-(async () => {
+async function main() {
   // on master branch will be empty array
   const masterDataUrls = (await getMasterData()).map(d => d.url);
   // so here data will be an array with all users
@@ -18,25 +23,21 @@ import srcData from '../src/data.js';
     e.details.forEach(d => core.error(d.message));
   });
 
-  let failedUrlsCount = 0;
-  for await (const { url } of data) {
+  const failedUrls = [];
+  for (const { url } of data) {
     try {
       const statusCode = await getStatusCode(url);
       if (statusCode < 200 || statusCode >= 400) {
         core.error(`Ping to "${url}" failed with status: ${statusCode}`);
-        failedUrlsCount += 1;
+        failedUrls.push(url);
       }
     } catch (e) {
       core.error(`Ping to "${url}" failed with error: ${e}`);
-      failedUrlsCount += 1;
+      failedUrls.push(url);
     }
   }
 
-  if (failedUrlsCount) {
-    core.error(`Action failed with ${failedUrlsCount} URL fetch failures`);
-  }
+  await communicateValidationOutcome(errors, failedUrls, data);
+}
 
-  if (errors.length || failedUrlsCount) {
-    core.setFailed('Action failed with errors, see logs');
-  }
-})();
+main();

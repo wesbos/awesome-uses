@@ -1,6 +1,6 @@
-# awesome-uses
+<!--
 
-Please read the requirements corresponding to your pull request before you submit.
+Please read the requirements corresponding to your pull request before you submit. You can delete this before you PR 
 
 ## What's a Uses Page?
 
@@ -32,3 +32,5 @@ Include the hardware you use, such as your computer and other related equipment.
 * You've read and understood the above
 
 **Add your name to verify:** Name
+
+-->

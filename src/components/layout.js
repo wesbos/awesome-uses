@@ -85,6 +85,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Fira Mono', monospace;
     font-weight: 100;
     font-size: 10px;
+    scroll-behavior: smooth;
   }
   body {
     font-size: 2rem;

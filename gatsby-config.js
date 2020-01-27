@@ -3,7 +3,7 @@ module.exports = {
     title: `/uses`,
     description: `A list of /uses pages detailing developer setups.`,
     author: `@wesbos`,
-    siteUrl: "https://uses.tech",
+    siteUrl: 'https://uses.tech',
   },
   plugins: [
     {
