@@ -308,6 +308,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Rene Gens',
+    description:
+      'android engineer, project manager, teacher, aspiring designer and author',
+    url: 'https://renegens.com/uses',
+    twitter: '@renegens',
+    emoji: '🤷‍',
+    country: '🇬🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Android',
+      'Entrepreneur',
+      'Teacher',
+      'Kotlin',
+      'Gatsby',
+      'React',
+      'CSS',
+    ],
+  },
+  {
     name: 'John Smith',
     description:
       'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
