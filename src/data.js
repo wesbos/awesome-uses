@@ -1809,7 +1809,7 @@ module.exports = [
     description:
       'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
     url: 'https://dalefrench.dev/uses',
-    twitter: 'https://twitter.com/dalefrench0',
+    twitter: '@dalefrench0',
     emoji: '🏄🏻‍♂️',
     country: '🇿🇦',
     computer: 'apple',
