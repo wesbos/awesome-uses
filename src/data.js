@@ -1250,7 +1250,7 @@ module.exports = [
       'Node',
       'CSS',
       'Web Developer',
-      'UI Lead'
+      'UI Lead',
     ],
   },
   {
