@@ -2581,6 +2581,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Zoran Panev',
+    description: 'Web developer',
+    url: 'https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git',
+    twitter: '@Zoran_Panev',
+    emoji: '🛡',
+    country: '🇲🇰',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Web',
+      'Laravel',
+      'Symfony',
+      'Docker',
+      'JavaScript',
+      'React',
+      'Kali Linux'
+    ],
+  },
+  {
     name: 'Josh Farrant',
     description:
       'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
