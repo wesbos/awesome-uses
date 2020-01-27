@@ -24,22 +24,14 @@ const BackToTopLink = styled.a`
   }
 `;
 
-function scrollTopMax() {
-  let ref;
-  // scrollTopMax is only on Firefox right now! https://caniuse.com/#search=scrolltopmax
-  return (ref = document.scrollingElement.scrollTopMax) != null
-    ? ref
-    : document.scrollingElement.scrollHeight - document.documentElement.clientHeight
-}
-
 function useScrollPosition() {
   const [percent, setPercent] = useState(0);
 
   function handleScroll(event) {
-    console.log(document.documentElement.scrollTop);
-    const howFar =
-      document.documentElement.scrollTop /
-      scrollTopMax();
+    const scrollTop =
+      document.scrollingElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const howFar = document.documentElement.scrollTop / scrollTop;
     setPercent(howFar);
   }
 
