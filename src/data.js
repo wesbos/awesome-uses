@@ -22,10 +22,10 @@ const pages = [
     ],
   },
   {
-    name: 'Danilo Barion',
+    name: 'Danilo Barion Nogueira',
     description:
       'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
-    url: 'https://danilobarion.com/uses',
+    url: 'https://danilobarion1986.github.io/uses',
     twitter: '@daniloinfo86',
     emoji: '🤔',
     country: '🇧🇷',
@@ -70,9 +70,9 @@ const pages = [
     twitter: '@jamesqquick',
     emoji: '🥑',
     country: '🇺🇸',
-    computer: 'apple',	
-    phone: 'iphone',	
-    tags: [	
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
       'Developer',
       'Speaker',
       'Teacher',
