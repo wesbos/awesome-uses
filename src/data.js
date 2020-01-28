@@ -4442,7 +4442,7 @@ module.exports = [
     twitter: '@SinghCode',
     emoji: '💻',
     country: '🇬🇧',
-    computer: 'Windows',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Developer',
