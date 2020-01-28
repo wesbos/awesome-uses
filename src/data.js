@@ -23,6 +23,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Makon Cline',
+    description:
+      'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
+    url: 'https://makoncline.com/uses',
+    twitter: '@MakonCline',
+    emoji: '🤙',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'Node',
+      'React',
+      'Gatsby',
+      'PostgreSQL',
+      'GraphQL',
+      'AWS'
+    ]
+  },
+  {
     name: 'Nich Secord',
     description:
       'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
