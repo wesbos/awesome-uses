@@ -4441,7 +4441,7 @@ module.exports = [
     url: 'https://simranjit.dev/uses',
     twitter: '@SinghCode',
     emoji: '💻',
-    country: 'UK',
+    country: 'GB',
     computer: 'Windows',
     phone: 'android',
     tags: [
@@ -4453,7 +4453,9 @@ module.exports = [
       'JavaScript',
       'Vue',
       'CSS',
-      'PHP'
+      'PHP',
+      'Git',
+      'VS Code',
     ],
   },
   {
