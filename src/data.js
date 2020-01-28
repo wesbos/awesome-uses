@@ -4436,6 +4436,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Simranjit Singh',
+    description: 'Javascript loving Coldfusion developer',
+    url: 'https://simranjit.dev/uses',
+    twitter: '@SinghCode',
+    emoji: '💻',
+    country: 'UK',
+    computer: 'Windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Coldfusion',
+      'Plesk',
+      'Wordpress',
+      'JavaScript',
+      'Vue',
+      'CSS',
+      'PHP'
+    ],
+  },
+  {
     name: 'Maxwell Morrison',
     description: 'Continuous leaner and freelance full stack developer',
     url: 'https://maxmorrison.me/uses',
