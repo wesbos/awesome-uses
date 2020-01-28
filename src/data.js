@@ -23,6 +23,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Ahmed Ibrahim',
+    description:
+      'Full-stack developer who believes that Passion is the key to every success.',
+    url: 'https://ahmed-ibrahim.com',
+    twitter: '@ahmed_ibrahhim',
+    emoji: '🔥',
+    country: '🇪🇬',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'Cloud',
+   
+    ],
+  },
+  {
     name: 'Nich Secord',
     description:
       'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
