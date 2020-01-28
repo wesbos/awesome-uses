@@ -1507,8 +1507,8 @@ module.exports = [
       'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
     url: 'https://roytang.net/about/uses/',
     twitter: '@roytang',
-    emoji: '🗺',
-    country: 'PH',
+    emoji: '',
+    country: 'ph',
     computer: 'windows',
     phone: 'android',
     tags: [
