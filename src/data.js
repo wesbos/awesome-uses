@@ -1502,6 +1502,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Roy Tang',
+    description:
+      'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
+    url: 'https://roytang.net/about/uses/',
+    twitter: '@roytang',
+    emoji: '🗺',
+    country: 'PH',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'Python',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'SQL',
+    ],
+  },
+  {
     name: 'Josh Barker',
     description:
       'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
