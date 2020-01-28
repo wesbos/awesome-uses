@@ -26,7 +26,7 @@ module.exports = [
     name: 'Ahmed Ibrahim',
     description:
       'Full-stack developer who believes that Passion is the key to every success.',
-    url: 'https://ahmed-ibrahim.com',
+    url: 'https://ahmed-ibrahim.com/?/uses/',
     twitter: '@ahmed_ibrahhim',
     emoji: '🔥',
     country: '🇪🇬',
