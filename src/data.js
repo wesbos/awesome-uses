@@ -1508,7 +1508,7 @@ module.exports = [
     url: 'https://roytang.net/about/uses/',
     twitter: '@roytang',
     emoji: '',
-    country: 'ph',
+    country: '🇵🇭',
     computer: 'windows',
     phone: 'android',
     tags: [
