@@ -4441,7 +4441,7 @@ module.exports = [
     url: 'https://simranjit.dev/uses',
     twitter: '@SinghCode',
     emoji: '💻',
-    country: 'GB',
+    country: '🇬🇧',
     computer: 'Windows',
     phone: 'android',
     tags: [
