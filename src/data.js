@@ -43,8 +43,8 @@ module.exports = [
       'Gatsby',
       'PostgreSQL',
       'GraphQL',
-      'AWS'
-    ]
+      'AWS',
+    ],
   },
   {
     name: 'Nich Secord',

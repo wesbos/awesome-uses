@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
 * [Nich Secord](https://secord.io/uses) — Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.
 * [Mitchell Hanberg](https://mitchellhanberg.com/uses) — Full Stack Developer who loves working with Elixir, Ruby and JS.
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
@@ -103,6 +104,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Bruno Brito](https://brunobrito.pt/uses) — Freelance Web Developer, Content Creator, Digital Marketing teacher
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
+* [Roy Tang](https://roytang.net/about/uses/) — Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
