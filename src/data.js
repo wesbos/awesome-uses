@@ -40,7 +40,6 @@ module.exports = [
       'React',
       'Node',
       'Cloud',
-
     ],
   },
   {
