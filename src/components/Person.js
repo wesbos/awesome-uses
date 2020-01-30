@@ -33,7 +33,13 @@ export default function Person({ person, currentTag }) {
     <PersonWrapper>
       <PersonInner>
         <header>
-          <img width="50" height="50" src={img} alt={person.name} />
+          <img
+            width="50"
+            height="50"
+            src={img}
+            alt={person.name}
+            loading="lazy"
+          />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
               {person.name}
