@@ -2271,6 +2271,25 @@ module.exports = [
     tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End'],
   },
   {
+    name: 'Josh Moore',
+    description:
+      'Self-taught full-stack web dev with a passion for open-source, privacy, & security.',
+    url: 'https://jmoore.dev/redesign/uses',
+    twitter: '@tycrek',
+    emoji: '😜',
+    country: '🇨🇦',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'Node',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'James Mills',
     description:
       'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
