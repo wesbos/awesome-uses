@@ -145,7 +145,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
-* [Josh Moore](https://jmoore.dev/redesign/uses) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
+* [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Mohammad Dohadwala](https://dohad.dev/uses) — Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
