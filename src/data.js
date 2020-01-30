@@ -262,8 +262,7 @@ module.exports = [
   },
   {
     name: 'Vinoth Chellamuthu',
-    description:
-      'Data Engineer',
+    description: 'Data Engineer',
     url: 'https://ecevinoth.github.io/#uses',
     twitter: '@ecevinoth',
     emoji: '👨🏼‍💻',
