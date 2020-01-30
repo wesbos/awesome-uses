@@ -1223,6 +1223,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Gabriel Wilkes',
+    description:
+      'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
+    url: 'https://azul.technology/uses/',
+    twitter: '@gabriel_wilkes',
+    emoji: '🔵',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Node',
+      'JavaScript',
+      'GraphQL',
+      'Vue',
+      'JAMstack',
+      'Serverless',
+      'AWS',
+      'Wordpress'
+    ],
+  },
+  {
     name: 'Anton Andrésen',
     description: 'Software Engineer, Tutorial Maker, Youtuber, Tea Drinker',
     url: 'https://anton.best/uses/',
