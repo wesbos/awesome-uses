@@ -261,6 +261,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Vinoth Chellamuthu',
+    description:
+      'Data Engineer',
+    url: 'https://ecevinoth.github.io/#uses',
+    twitter: '@ecevinoth',
+    emoji: '👨🏼‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Engineer',
+      'Back End',
+      'Python',
+      'Software Engineer',
+      'SQL',
+      'DevOps',
+    ],
+  },
+  {
     name: 'Roberto Vázquez González',
     description:
       'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
