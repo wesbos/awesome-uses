@@ -2294,7 +2294,7 @@ module.exports = [
     name: 'Josh Moore',
     description:
       'Self-taught full-stack web dev with a passion for open-source, privacy, & security.',
-    url: 'https://jmoore.dev/redesign/uses',
+    url: 'https://jmoore.dev/uses/',
     twitter: '@tycrek',
     emoji: '😜',
     country: '🇨🇦',
