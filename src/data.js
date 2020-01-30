@@ -1242,7 +1242,7 @@ module.exports = [
       'JAMstack',
       'Serverless',
       'AWS',
-      'Wordpress'
+      'Wordpress',
     ],
   },
   {

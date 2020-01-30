@@ -88,6 +88,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adam Jahnke](https://adamyonk.com/uses) — Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.
 * [Andrew Healey](https://healeycodes.com/uses) — Software Engineer, Writer, Learner!
 * [Scott Tolinski](https://scotttolinski.com/uses) — Web Developer, Tutorial Maker, Podcaster, Bboy
+* [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Anton Andrésen](https://anton.best/uses/) — Software Engineer, Tutorial Maker, Youtuber, Tea Drinker
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
