@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import styled from 'styled-components';
 import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
 
+function useIntersectionObserver(ref) {
+  const [isIntersecting, setIntersecting] = useState(false);
+
+  useEffect(function() {
+    const observer = new IntersectionObserver(function([entry]) {
+      console.log('Run once for every time its on screen');
+      console.log(entry);
+    });
+    // Observe the element we want to observve
+    observer.observe(ref.current);
+
+    return () => {
+      observer.unobserve(ref.current);
+    };
+  });
+}
+
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const img = `https://images.weserv.nl/?url=https://unavatar.now.sh/${url.host}&w=100&l=9&af&il&n=-1`
+  const twitter = `https://unavatar.now.sh/twitter/${person.twitter}`;
+  const website = `https://unavatar.now.sh/${url.host}`;
+  const unavatar = person.twitter ? `${twitter}?fallback=${website}` : website;
+  const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
+
   return (
     <PersonWrapper>
       <PersonInner>
@@ -15,19 +36,19 @@ export default function Person({ person, currentTag }) {
           <img width="50" height="50" src={img} alt={person.name} />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
-              {person.name} {person.emoji}
-            </a>
+              {person.name}
+            </a>{' '}
+            {person.emoji}
           </h3>
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="displayLink"
             href={person.url}
-          >{`${url.host}${
-            url.pathname.endsWith('/')
-              ? url.pathname.substr(0, url.pathname.length - 1)
-              : url.pathname
-          }`}</a>
+          >
+            {url.host}
+            {url.pathname.replace(/\/$/, '')}
+          </a>
         </header>
         <p>{person.description}</p>
         <Tags>
@@ -110,6 +131,9 @@ const PersonInner = styled.div`
   padding: 2rem;
   h3 {
     margin: 0;
+    a:visited {
+      color: var(--purple);
+    }
   }
   header {
     display: grid;
@@ -135,7 +159,8 @@ const PersonInner = styled.div`
       text-overflow: ellipsis;
       max-width: 100%;
       overflow: hidden;
-      :hover {
+      :hover,
+      :visited {
         color: var(--pink);
       }
     }

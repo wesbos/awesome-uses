@@ -3,14 +3,18 @@
   "description": "What do you uses",
   "version": "7.7.7",
   "author": "Wes Bos",
-  "type": "module",
   "eslintConfig": {
     "extends": [
       "wesbos"
     ]
   },
+  "engines": {
+    "node": ">= 12"
+  },
   "dependencies": {
-    "@actions/core": "^1.2.0",
+    "@actions/core": "^1.2.1",
+    "@actions/exec": "^1.0.3",
+    "@actions/github": "^2.0.1",
     "@hapi/joi": "^17.0.2",
     "country-emoji": "^1.5.0",
     "esm": "^3.2.25",
@@ -50,6 +54,19 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "husky": "^4.0.10",
+    "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/data.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }

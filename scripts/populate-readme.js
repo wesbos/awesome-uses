@@ -1,5 +1,5 @@
-import fs from 'fs';
-import data from '../src/data.js';
+const fs = require('fs');
+const data = require('../src/data.js');
 
 /** @type {string} */
 const readmeTemplate = fs.readFileSync('./scripts/readme-template.md', 'utf8');
