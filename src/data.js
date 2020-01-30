@@ -2591,6 +2591,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Marc Littlemore',
+    description:
+      'Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
+    url: 'https://marclittlemore.com/uses',
+    twitter: '@marclittlemore',
+    emoji: '🎉',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Entrepreneur',
+      'Node',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'YouTuber',
+      'Blogger',
+      'Speaker',
+    ],
+  },
+  {
     name: 'José Manuel Lucas',
     description: 'Professional Frontend Engineer - Amateur musician',
     url: 'https://jmlweb.es/blog/2020/uses/',
