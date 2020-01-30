@@ -23,6 +23,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Ahmed Ibrahim',
+    description:
+      'Full-stack developer who believes that Passion is the key to every success.',
+    url: 'https://ahmed-ibrahim.com/uses',
+    twitter: '@ahmed_ibrahhim',
+    emoji: '🔥',
+    country: '🇪🇬',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'React',
+      'Node',
+      'Cloud',
+
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
