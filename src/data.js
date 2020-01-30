@@ -2402,7 +2402,7 @@ module.exports = [
     name: 'Jenna Pederson',
     description:
       'technical entrepreneur with a passion for community and equity-building',
-    url: 'https://www.jennapederson.com/uses',
+    url: 'https://jennapederson.com/uses',
     twitter: '@jennapederson',
     emoji: '🦖',
     country: '🇺🇸',
