@@ -512,6 +512,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Danilo Barion Nogueira',
+    description:
+      'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
+    url: 'https://danilobarion1986.github.io/uses',
+    twitter: '@daniloinfo86',
+    emoji: '🤔',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Speaker',
+      'Ruby',
+      'Rails',
+      'JavaScript',
+      'React',
+    ],
+  },
+  {
     name: 'Asam Shan',
     description: 'JavaScript Junkie, very fond of React, Gatsby and Netlify ❤️',
     url: 'https://www.asamshan.dev/uses',
