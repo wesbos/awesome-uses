@@ -2614,6 +2614,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Jenna Pederson',
+    description:
+      'Technical entrepreneur with a passion for community and equity-building',
+    url: 'https://jennapederson.com/uses',
+    twitter: '@jennapederson',
+    emoji: '🦖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Entrepreneur',
+      'Full Stack',
+      'Ruby',
+      'Ruby on Rails',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'Blogger',
+      'Speaker',
+    ],
+  },
+  {
     name: 'Talita Oliveira',
     description:
       'Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.',
