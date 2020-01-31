@@ -66,6 +66,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Bob Orchard',
+    description:
+      'Semi-stack developer with a design background. Woodworker. Maker.',
+    url: 'https://boborchard.com/uses',
+    twitter: '@boborchard',
+    emoji: '☕',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Remote',
+      'Product Manager',
+      'Gatsby',
+      'Javascript',
+      'React',
+      'WordPress',
+      'Rails'
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
