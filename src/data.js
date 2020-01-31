@@ -102,7 +102,9 @@ module.exports = [
       'Developer',
       'Engineer',
       'AWS',
-      'Azure'
+      'Azure',
+      'HTML',
+      'CSS',
     ],
   },
   {
@@ -127,8 +129,6 @@ module.exports = [
       'PostgreSQL',
       'GraphQL',
       'AWS',
-      'HTML'
-      'CSS',
     ],
   },
   {
