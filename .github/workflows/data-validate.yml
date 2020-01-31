@@ -1,0 +1,31 @@
+name: Validate data.js
+
+on:
+  pull_request:
+    paths: src/data.js
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 13.x
+
+    - name: Cache/Restore node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+        key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Validate data.js
+      run: node ./scripts/data-validate.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
