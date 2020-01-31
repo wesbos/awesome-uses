@@ -138,7 +138,7 @@ module.exports = [
   },
   {
     name: 'Kenny Robinson',
-    description: 'Web developer that builds software to improve business processes.',
+    description: 'Web developer that builds software to improve business processes',
     url: 'http://thealmostengineer.com/uses',
     twitter: '@almostengr',
     computer: 'linux',
