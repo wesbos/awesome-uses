@@ -86,6 +86,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Stokoe',
+    description: 'Back-end PHP Developer. Gamer, musician and motorcyclist.',
+    url: 'https://msweb.dev/uses',
+    twitter: '@_itzMS',
+    emoji: '😎',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'Laravel',
+      'JavaScript',
+      'Vue',
+      'Developer',
+      'Engineer',
+      'AWS',
+      'Azure',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
