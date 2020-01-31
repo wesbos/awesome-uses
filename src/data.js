@@ -2041,6 +2041,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Spencer Aung',
+    description:
+      'Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses',
+    url: 'https://spenceraung.me/blog/uses',
+    twitter: '@SpencerAung',
+    emoji: '🐙',
+    country: '🇲🇲',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front end',
+      'JavaScript',
+      'Full stack',
+      'Node',
+      'React',
+      'React Native',
+      'Remote',
+      'GraphQL',
+      'GatsbyJs',
+      'Next',
+    ],
+  },
+  {
     name: 'Dale French',
     description:
       'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
