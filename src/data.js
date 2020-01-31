@@ -92,7 +92,7 @@ module.exports = [
     twitter: '@_itzMS',
     emoji: '😎',
     country: '🇬🇧',
-    computer: 'Linux',
+    computer: 'linux',
     phone: 'iphone',
     tags: [
       'PHP',
