@@ -90,6 +90,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Piyush Mehta',
+    description:
+      'Engineer, Developer, Foodie. I do Engineering Jugaad',
+    url: 'http://piyushmehta.com/',
+    twitter: '@coderWhoKnows',
+    emoji: '🤙',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Developer',
+      'Full Stack',
+      'Java',
+      'JavaScript',
+      'Spring Boot',
+      'React',
+      'GCP',
+      'MySql',
+      'GRPC',
+      'Angular',
+    ],
+  },
+  {
     name: 'Nich Secord',
     description:
       'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
