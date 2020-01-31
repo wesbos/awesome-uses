@@ -141,8 +141,8 @@ module.exports = [
     description: 'Web developer that builds software to improve business processes.',
     url: 'http://thealmostengineer.com/uses',
     twitter: '@almostengr',
-    country: 'us',
     computer: 'linux',
+    country: '🇺🇸',
     phone: 'android',
     tags: [
       'Developer',
