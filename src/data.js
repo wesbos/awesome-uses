@@ -46,6 +46,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Arturo De la Garza',
+    description:
+      'Full-stack web developer, avid learner, loves to play video games and board games',
+    url: 'https://arturodelagarza.com/uses',
+    twitter: '@agzertuche',
+    emoji: '🚀',
+    country:  '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Gatsby',
+      'Next',
+      'CSS',
+      'GraphQL',
+      'Node',
+      'SQL',
+    ],
+  },
+  {
     name: 'Ahmed Ibrahim',
     description:
       'Full-stack developer who believes that Passion is the key to every success.',
