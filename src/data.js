@@ -52,7 +52,7 @@ module.exports = [
     url: 'https://arturodelagarza.com/uses',
     twitter: '@agzertuche',
     emoji: '🚀',
-    country:  '🇲🇽',
+    country: '🇲🇽',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -1994,14 +1994,22 @@ module.exports = [
   },
   {
     name: 'Colin Morris',
-    description: 'Steampunker, solution architect and web developer. Mad science works for all cases.',
+    description:
+      'Steampunker, solution architect and web developer. Mad science works for all cases.',
     url: 'https://vonexplaino.com/blog/posts/page/uses.html',
     twitter: '@vonexplaino',
     emoji: '⚙️',
     country: '🇦🇺',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['Architect', 'Developer', 'Blogger', 'PHP', 'JavaScript', 'Back End']
+    tags: [
+      'Architect',
+      'Developer',
+      'Blogger',
+      'PHP',
+      'JavaScript',
+      'Back End',
+    ],
   },
   {
     name: 'Austin Gil',
