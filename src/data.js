@@ -1969,6 +1969,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Colin Morris',
+    description: 'Steampunker, solution architect and web developer. Mad science works for all cases.',
+    url: 'https://vonexplaino.com/blog/posts/page/uses.html',
+    twitter: '@vonexplaino',
+    emoji: '⚙️',
+    country: '🇦🇺',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['Architect', 'Developer', 'Blogger', 'PHP', 'JavaScript', 'Back End']
+  },
+  {
     name: 'Austin Gil',
     description: 'Some dude that writes code.',
     url: 'https://stegosource.com/uses/',
