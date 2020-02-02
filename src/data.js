@@ -4679,6 +4679,27 @@ module.exports = [
       'CSS',
     ],
   },
+
+  {
+    name: 'Kim Ingram',
+    description: 'Blue eyed vixen, front end developer, photographer, coffee addict.',
+    url: 'https://www.foxynerd.dev/uses/',
+    twitter: '@talknerdytomee',
+    emoji: '☕',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'HTML',
+      'CSS',
+      'Web Developer',
+      'Photographer',
+      'JavaScript',
+    ],
+  },
+
   {
     name: 'Benjamin Edenhuizen',
     description:
