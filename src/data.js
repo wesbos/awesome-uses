@@ -4368,7 +4368,8 @@ module.exports = [
     tags: [
       'Developer',
       'Back End',
-      'Python'
+      'Python',
+      'Django',
       'Node',
       'TypeScript',
       'Full Stack'
