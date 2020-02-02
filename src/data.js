@@ -3122,6 +3122,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Bruno Paz',
+    description: 'Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.',
+    url: 'https://brunopaz.dev/uses',
+    twitter: '@brunopaz88',
+    emoji: '💻',
+    country: '🇵🇹',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Backend',
+      'PHP',
+      'Golang'
+    ],
+  },
+  {
     name: 'Ricard Torres',
     description:
       'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
