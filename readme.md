@@ -186,6 +186,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Duncan McClean](https://duncanm.dev/uses) — Web Developer working with Laravel & Statamic
+* [Bruno Paz](https://brunopaz.dev/uses) — Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
