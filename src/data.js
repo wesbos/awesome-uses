@@ -2202,13 +2202,7 @@ module.exports = [
     country: '🇳🇱',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'UX Designer',
-      'Engineer',
-      'JavaScript',
-      'CSS',
-    ],
+    tags: ['Developer', 'UX Designer', 'Engineer', 'JavaScript', 'CSS'],
   },
   {
     name: 'Caleb Ukle',
@@ -4724,7 +4718,8 @@ module.exports = [
 
   {
     name: 'Kim Ingram',
-    description: 'Blue eyed vixen, front end developer, photographer, coffee addict.',
+    description:
+      'Blue eyed vixen, front end developer, photographer, coffee addict.',
     url: 'https://www.foxynerd.dev/uses/',
     twitter: '@talknerdytomee',
     emoji: '☕',
@@ -5140,7 +5135,7 @@ module.exports = [
       'JavaScript',
       'Web Performance',
       'Speaker',
-      'Blogger'
+      'Blogger',
     ],
   },
   {
