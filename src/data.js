@@ -4369,7 +4369,6 @@ module.exports = [
       'Developer',
       'Back End',
       'Python'
-      'Django',
       'Node',
       'TypeScript',
       'Full Stack'
