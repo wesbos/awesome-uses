@@ -5062,6 +5062,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Busche',
+    description:
+      'Full Stack developer from Des Moines, Iowa, web performance enthusiast',
+    url: 'https://matthewbusche.com/uses/',
+    twitter: '@mrbusche',
+    emoji: '🌍',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Java',
+      'JavaScript',
+      'Web Performance',
+      'Speaker',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
