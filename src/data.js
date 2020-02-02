@@ -5056,7 +5056,7 @@ module.exports = [
     url: 'https://matthewbusche.com/uses/',
     twitter: '@mrbusche',
     emoji: '🌍',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     tags: [
