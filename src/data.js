@@ -1420,7 +1420,7 @@ module.exports = [
     name: 'Camilo Romero',
     description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
     url: 'https://camiloromero.dev/uses',
-    emoji: '🤸',
+    emoji: '🍔',
     country: 'co',
     computer: 'apple',
     phone: 'iphone',
