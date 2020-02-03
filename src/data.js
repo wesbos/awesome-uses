@@ -90,6 +90,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Martin Chammah',
+    description:
+      'Gatsby Fan, Full-stack web developer, architect',
+    url: 'https://martinchammah.dev/uses',
+    twitter: '@codigoMate',
+    emoji: '🧉',
+    country: '🇦🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Gatsby',
+      'Node',
+      'React',
+      'Wordpress',
+      'Woocommerce',
+      'SCSS',
+      'GraphQL',
+      'PHP',
+      'SQL',
+    ],
+  },
+  {
     name: 'Bob Orchard',
     description:
       'Semi-stack developer with a design background. Woodworker. Maker.',
