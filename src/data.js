@@ -1417,6 +1417,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Camilo Romero',
+    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
+    url: 'https://camiloromero.dev/uses',
+    emoji: '🍔',
+    country: '🇨🇴',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@kmorope',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'Angular',
+      'CSS',
+      'NoSql',
+      'Firebase'
+    ],
+  },
+  {
     name: 'Gabriel Wilkes',
     description:
       'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
