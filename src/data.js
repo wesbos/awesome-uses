@@ -4372,8 +4372,8 @@ module.exports = [
       'Django',
       'Node',
       'TypeScript',
-      'Full Stack'
-    ]
+      'Full Stack',
+    ],
   },
   {
     name: 'David Vives',

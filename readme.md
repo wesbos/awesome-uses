@@ -250,6 +250,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jens van Wijhe](https://jens.ai/uses) — Creative web developer and entrepreneur
 * [Jacob Herper](https://herper.io/uses/) — Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.
 * [Ajay Karwal](https://ajaykarwal.com/uses/) — A designer, developer and UX guy from Buckingham, UK.
+* [Raúl Negrón](https://raulnegron.me/uses/) — Software Developer from Puerto Rico
 * [David Vives](http://dispuestoaaprender.netlify.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
 * [Ryan Warner](https://ryan.warner.codes/uses) — Software Engineer and Interface Designer. Leader and Mentor.
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
