@@ -4357,6 +4357,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Raúl Negrón',
+    description: 'Software Developer from Puerto Rico',
+    url: 'https://raulnegron.me/uses/',
+    twitter: '@rucury',
+    emoji: '☕️',
+    country: '🇵🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Back End',
+      'Python',
+      'Django',
+      'Node',
+      'TypeScript',
+      'Full Stack'
+    ]
+  },
+  {
     name: 'David Vives',
     description:
       'Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
