@@ -1418,7 +1418,7 @@ module.exports = [
   },
   {
     name: 'Camilo Romero',
-    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere. iTerm and VSCode',
+    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
     url: 'https://camiloromero.dev/uses',
     emoji: '🍔',
     country: '🇨🇴',
