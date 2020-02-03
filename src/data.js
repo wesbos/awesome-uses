@@ -112,8 +112,7 @@ module.exports = [
   },
   {
     name: 'Martin Chammah',
-    description:
-      'Gatsby Fan, Full-stack web developer, architect',
+    description: 'Gatsby Fan, Full-stack web developer, architect',
     url: 'https://martinchammah.dev/uses',
     twitter: '@codigoMate',
     emoji: '🧉',

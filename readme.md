@@ -29,10 +29,12 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
+* [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
 * [Michael Stokoe](https://msweb.dev/uses) — Back-end PHP Developer. Gamer, musician and motorcyclist.
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
