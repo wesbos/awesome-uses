@@ -1418,7 +1418,8 @@ module.exports = [
   },
   {
     name: 'Camilo Romero',
-    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
+    description:
+      'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
     url: 'https://camiloromero.dev/uses',
     emoji: '🍔',
     country: '🇨🇴',
@@ -1432,7 +1433,7 @@ module.exports = [
       'Angular',
       'CSS',
       'NoSql',
-      'Firebase'
+      'Firebase',
     ],
   },
   {
