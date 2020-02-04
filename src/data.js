@@ -725,10 +725,9 @@ module.exports = [
       'Performance',
     ],
   },
-    {
+  {
     name: 'Chris Otto',
-    description:
-      'Software engineer. I enjoy JavaScript, DevOps and Testing.',
+    description: 'Software engineer. I enjoy JavaScript, DevOps and Testing.',
     url: 'https://chrisotto.dev/uses/',
     twitter: '@wisco_cmo',
     emoji: '⚡️',
