@@ -67,6 +67,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Mykolas Krupauskas',
+    description:
+      'A passionate software developer that helps people create value with technology.',
+    url: 'https://mkrup.com/uses',
+    twitter: '@mykolaskrup',
+    emoji: '🙏',
+    country: '🇱🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'Gatsby',
+      'C#',
+      '.NET',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Arturo De la Garza',
     description:
       'Full-stack web developer, avid learner, loves to play video games and board games',
