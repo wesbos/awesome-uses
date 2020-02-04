@@ -725,6 +725,28 @@ module.exports = [
       'Performance',
     ],
   },
+    {
+    name: 'Chris Otto',
+    description:
+      'Software engineer. I enjoy JavaScript, DevOps and Testing.',
+    url: 'https://chrisotto.dev/uses/',
+    twitter: '@wisco_cmo',
+    emoji: '⚡️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Docker',
+      'JavaScript',
+      'Node',
+      'Blogger',
+      'React',
+      'Testing',
+      'Gatsby',
+      'DevOps',
+    ],
+  },
   {
     name: 'Chris Berry',
     description:
