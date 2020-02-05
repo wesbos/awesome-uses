@@ -43,6 +43,7 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
+    "@architect/sandbox": "^1.6.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
