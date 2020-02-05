@@ -332,6 +332,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Aung Zan Baw',
+    description: 'Full Stack developer, technology evangelist, architect',
+    url: 'https://aungzanbaw.com/uses',
+    twitter: '@aungzanbaw',
+    emoji: '🚀',
+    country: '🇲🇲',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'JavaScript',
+      'React',
+      'Node',
+      'Rust',
+      'Python',
+      'GraphQL',
+      'PHP',
+      'Vue',
+    ],
+  },
+  {
     name: 'Yannick Le Roux',
     description:
       'Second career web dev, French living in San Diego, retired DJ.',
