@@ -68,7 +68,8 @@ module.exports = [
   },
   {
     name: 'Chandu J S',
-    description: '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
+    description:
+      '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
     url: 'https://chandujs.dev/uses',
     twitter: '@ctrleffive',
     emoji: '❤️',
