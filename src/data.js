@@ -704,7 +704,7 @@ module.exports = [
       'PHP',
       'Laravel',
       'Javacript',
-      'VueJS'
+      'VueJS',
     ],
   },
   {
