@@ -877,6 +877,31 @@ module.exports = [
     tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
   },
   {
+    name: 'Daryn St. Pierre',
+    description:
+      'Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).',
+    url: 'https://daryn.codes/uses',
+    twitter: '@bloqhead',
+    emoji: '🍕',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Engineer',
+      'Front End',
+      'CSS',
+      'SCSS',
+      'JavaScript',
+      'VueJS',
+      'a11y',
+      'Full Stack',
+      'Node',
+      'Remote',
+    ],
+  },
+  {
     name: 'Sergey Lysenko',
     description:
       'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
