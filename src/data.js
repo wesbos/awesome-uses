@@ -67,6 +67,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Chandu J S',
+    description: '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
+    url: 'https://chandujs.dev/uses',
+    twitter: '@ctrleffive',
+    emoji: '❤️',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Photographer',
+      'JavaScript',
+      'Full Stack',
+      'CSS',
+      'Node',
+      'PHP',
+      'Flutter',
+      'React',
+      'Angular',
+    ],
+  },
+  {
     name: 'Mykolas Krupauskas',
     description:
       'A passionate software developer that helps people create value with technology.',
