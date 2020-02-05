@@ -1,14 +1,10 @@
-# Warning! Do Not Edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
 start-u1s
 
 @static
 
 @http
-
+get /
 
 @tables
 data
