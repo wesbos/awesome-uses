@@ -689,6 +689,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Christian Leo-Pernold',
+    description: 'Dad. Husband. BBQ Enthusiast. Full-Stack-Developer.',
+    url: 'https://mazedlx.net/uses',
+    twitter: '@mazedlx',
+    emoji: '👺',
+    country: '🇦🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Speaker',
+      'PHP',
+      'Laravel',
+      'Javacript',
+      'VueJS'
+    ],
+  },
+  {
     name: 'Danilo Barion Nogueira',
     description:
       'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
