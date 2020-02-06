@@ -200,6 +200,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Jamie Ryan',
+    description:
+      'Full Stack Developer and CodeClan graduate from Edinburgh, Scotland',
+    url: 'https://www.jamieryan.dev/uses',
+    twitter: '@jamieryandev',
+    emoji: '📱',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Javascript',
+      'Java',
+      'iOS',
+      'Android',
+      'Cloud',
+      'Agile',
+    ],
+  },
+  {
     name: 'Michael Stokoe',
     description: 'Back-end PHP Developer. Gamer, musician and motorcyclist.',
     url: 'https://msweb.dev/uses',
