@@ -5132,6 +5132,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Jamie Ryan',
+    description:
+      'Full Stack developer and Codeclan Graduate from Edinburgh, Scotland',
+    url: 'https://jamieryan.dev/uses/',
+    twitter: '@JamieRyanDev',
+    emoji: '',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Java',
+      'JavaScript',
+      'CSS',
+      'HTML',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Rail Hamdeew',
     description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
