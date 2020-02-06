@@ -113,6 +113,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Jamie Ryan',
+    description:
+      'Full Stack Developer and CodeClan graduate from Edinburgh',
+    url: 'https://jamieryan.dev/uses',
+    twitter: '@jamieryandev',
+    emoji: '⚡',
+    country: '󠁧󠁢󠁳󠁣󠁴󠁿🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full-Stack',
+      'Blogger',
+      'JavaScript',
+      'Java',
+      'CSS',
+    ],
+  },
+  {
     name: 'Arturo De la Garza',
     description:
       'Full-stack web developer, avid learner, loves to play video games and board games',
