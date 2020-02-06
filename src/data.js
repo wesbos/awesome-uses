@@ -377,6 +377,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Jamie Ryan',
+    description:
+      'Full Stack Developer and CodeClan graduate from Edinburgh',
+    url: 'https://www.jamieryan.dev/uses',
+    twitter: '@jamieryandev',
+    emoji: '⚡',
+    country: '󠁧󠁢󠁳󠁣󠁴󠁿🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full-Stack',
+      'Blogger',
+      'JavaScript',
+      'Java',
+      'CSS',
+    ],
+  },
+  {
     name: 'Eric Raslich',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
