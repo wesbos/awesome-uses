@@ -38,6 +38,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
+* [Jamie Ryan](https://www.jamieryan.dev/uses) — Full Stack Developer and CodeClan graduate from Edinburgh, Scotland
 * [Michael Stokoe](https://msweb.dev/uses) — Back-end PHP Developer. Gamer, musician and motorcyclist.
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
 * [Nich Secord](https://secord.io/uses) — Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.
@@ -301,4 +302,3 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
-
