@@ -150,7 +150,7 @@ module.exports = [
       'Developer',
       'Full Stack',
       'JavaScript',
-      'JAVA',
+      'Java',
       'PHP',
       'Gatsby',
       'C#',
