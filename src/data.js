@@ -137,6 +137,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Tuna Çağlar Gümüş',
+    description:
+      'Senior software and systems engineer. I design things and make stuff when needed.',
+    url: 'https://pikseladam.com/uses',
+    twitter: '@tc_gumus',
+    emoji: '🧿',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'Java',
+      'PHP',
+      'Gatsby',
+      'C#',
+      'Rails',
+      'SaaS',
+      'PaaS',
+      'SQL',
+    ],
+  },
+  {
     name: 'Ahmed Ibrahim',
     description:
       'Full-stack developer who believes that Passion is the key to every success.',
