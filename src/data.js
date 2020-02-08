@@ -1,6 +1,30 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Aditya Thebe',
+    description:
+      '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
+    url: 'https://www.adityathebe.com/uses',
+    twitter: '@adityathebe',
+    emoji: '⚽',
+    country: '🇳🇵',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Linux',
+      'JavaScript',
+      'Full Stack',
+      'Node',
+      'Docker',
+      'Bitcoin',
+      'Blockchain',
+      'React',
+      'Angular',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Jibin Thomas',
     description:
       'Front-End Developer & Casual Blogger. CSS, Javascript & React',
