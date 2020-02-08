@@ -1,6 +1,31 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Jaewon Kim',
+    description: 'Front-end Developer, Love React, ReactiveX, FP.',
+    url: 'https://wonism.github.io',
+    twitter: '@j1ism',
+    emoji: '⚛️',
+    country: '🇰🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'React Native',
+      'Gatsby',
+      'Redux',
+      'ReactiveX',
+      'RxJS',
+      'Front End',
+      'Front-end',
+      'Linux',
+      'OSX',
+    ],
+  },
+  {
     name: 'Aditya Thebe',
     description:
       '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
