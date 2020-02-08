@@ -24,7 +24,7 @@ module.exports = [
    {
     name: 'Amadeus Mader',
     description:
-      'Front-End Developer & Casual Blogger. CSS, Javascript & React, Gatsby & Next',
+      'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
     url: 'https://mozart409.space/uses',
     twitter: '@marc_van_sax',
     emoji: '⚡',
