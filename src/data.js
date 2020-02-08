@@ -41,7 +41,7 @@ module.exports = [
       'Devtools',
       'GraphQL',
       'GatsbyJs',
-      'Electron'
+      'Electron',
       'CSS',
       'React',
       'Tailwind',
