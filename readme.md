@@ -269,6 +269,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
 * [Adam Urban](https://urbanisierung.dev/uses/) — coder, father, left-handed
 * [Majo Paskuvan](https://paskuvan.us/uses.html) — Front End Developer, Reader, Deaf Person
+* [Jesse Dyck](https://jessedyck.me/uses) — Web Developer and sometimes SysAdmin.
 * [Christopher Wavrin](https://wavrin.com/uses) — Full Stack Developer
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.

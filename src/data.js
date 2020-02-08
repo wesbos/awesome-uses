@@ -4789,14 +4789,7 @@ module.exports = [
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'PHP',
-      'Vue',
-      'Full Stack',
-      'Developer',
-      'Docker',
-    ],
+    tags: ['JavaScript', 'PHP', 'Vue', 'Full Stack', 'Developer', 'Docker'],
   },
   {
     name: 'Christopher Wavrin',
