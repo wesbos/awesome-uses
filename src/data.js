@@ -21,7 +21,7 @@ module.exports = [
       'Next',
     ],
   },
-   {
+  {
     name: 'Amadeus Mader',
     description:
       'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
