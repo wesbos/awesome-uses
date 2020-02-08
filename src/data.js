@@ -21,6 +21,33 @@ module.exports = [
       'Next',
     ],
   },
+   {
+    name: 'Amadeus Mader',
+    description:
+      'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
+    url: 'https://mozart409.space/uses',
+    twitter: '@marc_van_sax',
+    emoji: '⚡',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Front End',
+      'JavaScript',
+      'Front End',
+      'Remote',
+      'Devtools',
+      'GraphQL',
+      'GatsbyJs',
+      'Electron',
+      'CSS',
+      'React',
+      'Tailwind',
+      'Next',
+    ],
+  },
   {
     name: 'Simon Aronsson',
     description:
