@@ -329,6 +329,29 @@ module.exports = [
     ],
   },
   {
+    name: "Fabian Vallejos",
+    description: "Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus",
+    url: "https://fabianvallejos.com/uses/",
+    twitter: "@VallejosFab",
+    emoji: "🧉",
+    country: "🇺🇾",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Web Developer",
+      "Full Stack",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Angular",
+      "Node",
+      "Go",
+      "Photographer",
+      "Writer",
+      "Streamer"
+    ]
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
