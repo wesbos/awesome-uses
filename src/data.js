@@ -1181,8 +1181,7 @@ module.exports = [
   },
   {
     name: 'Fidalgo',
-    description:
-      'Front end Developer',
+    description: 'Front end Developer',
     url: 'https://info.fidalgo.dev/uses',
     twitter: '@fidalgodev',
     emoji: '✌🏼',
