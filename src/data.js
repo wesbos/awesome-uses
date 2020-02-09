@@ -4784,7 +4784,7 @@ module.exports = [
     name: 'Jesse Dyck',
     description: 'Web Developer and sometimes SysAdmin.',
     url: 'https://jessedyck.me/uses',
-    twitter: '@jesse',
+    twitter: '@jessedyck',
     emoji: '🚌',
     country: '🇨🇦',
     computer: 'apple',
