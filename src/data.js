@@ -254,8 +254,8 @@ module.exports = [
     tags: [
       "Web Developer",
       "Full Stack",
-      "Javascript",
-      "Typescript",
+      "JavaScript",
+      "TypeScript",
       "React",
       "Angular",
       "Node",
