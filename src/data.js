@@ -1652,6 +1652,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Leonardo Melo',
+    description: 'Full stack web developer. Typescript lover, always learning new stuff.',
+    url: 'https://www.leomeloxp.dev/uses',
+    emoji: '🎧',
+    country: '🇯🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@leomeloxp',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'GraphQL',
+      'JAMStack',
+      'JavaScript',
+      'React',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'Camilo Romero',
     description:
       'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
