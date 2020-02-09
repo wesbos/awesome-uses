@@ -1145,6 +1145,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Fidalgo',
+    description:
+      'Front end Developer',
+    url: 'https://info.fidalgo.dev/uses',
+    twitter: '@fidalgodev',
+    emoji: '✌🏼',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Frontend Developer',
+      'Software Engineer',
+      'Front End',
+      'React',
+      'JavaScript',
+      'TypeScript',
+      'Serverless',
+    ],
+  },
+  {
     name: 'Marco Poletto',
     description: 'Frontend Developer, UI engineer, Mentor',
     url: 'https://poletto.dev/uses/',
