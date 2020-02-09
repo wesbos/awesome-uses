@@ -8,7 +8,7 @@ module.exports = [
     twitter: '@dhanishgajjar',
     emoji: '😇',
     country: '🇵🇹',
-    computer: 'Macbook Pro',
+    computer: 'apple',
     phone: 'iPhone',
     tags: [
       'Developer',
