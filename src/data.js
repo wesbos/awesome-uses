@@ -2,18 +2,14 @@
 module.exports = [
   {
     name: 'Dhanish Gajjar',
-    description:
-      'Developer',
+    description: 'Developer',
     url: 'https://dhanishgajjar.com/uses',
     twitter: '@dhanishgajjar',
     emoji: '😇',
     country: '🇵🇹',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'JavaScript',
-    ],
+    tags: ['Developer', 'JavaScript'],
   },
   {
     name: 'Aditya Thebe',
@@ -1668,7 +1664,8 @@ module.exports = [
   },
   {
     name: 'Leonardo Melo',
-    description: 'Full stack web developer. Typescript lover, always learning new stuff.',
+    description:
+      'Full stack web developer. Typescript lover, always learning new stuff.',
     url: 'https://www.leomeloxp.dev/uses',
     emoji: '🎧',
     country: '🇯🇪',
