@@ -508,7 +508,7 @@ module.exports = [
       'CSS',
       'React Native',
       'Node',
-      'Swift'
+      'Swift',
     ],
   },
   {
