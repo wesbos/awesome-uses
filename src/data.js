@@ -223,6 +223,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Maxence Poutord',
+    description:
+      'Software engineer, digital nomad, public speaker and remote worker',
+    url: 'https://www.maxpou.fr/uses',
+    twitter: '@_maxpou',
+    emoji: '🎒',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'remote',
+      'Mentor',
+      'React',
+      'Blogger',
+      'Vue',
+      'Testing',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Ahmed Ibrahim',
     description:
       'Full-stack developer who believes that Passion is the key to every success.',

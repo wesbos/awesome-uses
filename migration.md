@@ -71,7 +71,7 @@ When done, check that person off.
 * [ ] [Jessica Dembe](https://www.jessicadembe.tech/uses/) - Software Engineer
 * [ ] [Keziah Moselle](https://blog.keziahmoselle.fr/uses/) - Front-end developer
 * [ ] [Scott Zirkel](https://scottzirkel.com/uses) - Developer, Designer, Artist, Writer
-* [ ] [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
+* [x] [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
 * [x] [Jonathan Speek](https://speek.design/uses/) - Fullstack Developer, Designer, Musician
 * [ ] [Nervewax](https://nervewax.com/uses/) - Designer / Developer
 * [ ] [Niko Heikkilä](https://nikoheikkila.fi/uses/) - Backend Developer & DevOps Engineer at Paytrail
