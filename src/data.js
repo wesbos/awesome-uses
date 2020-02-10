@@ -329,6 +329,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Luis Alfredo Lorenzo',
+    description:
+      'Professional programmer and clean coder; I swear I will not kill -9 anyone.',
+    url: 'http://babas.bot/uses',
+    twitter: '@babasbot',
+    emoji: '🦆',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'DevOps',
+      'Remote',
+      'Ruby',
+      'JavaScript',
+    ]
+  },
+  {
     name: 'Fabian Vallejos',
     description:
       'Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus',
