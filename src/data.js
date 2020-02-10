@@ -487,6 +487,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Shaun Farrell',
+    description:
+      'Full Stack Developer, React, ReactNative, Swift, Model-driven, Node',
+    url: 'https://codedplanet.co/uses',
+    twitter: '@shaunjfaz',
+    emoji: '🙏',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Web Developer',
+      'Full Stack',
+      'Front End',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'HTML',
+      'CSS',
+      'ReactNative',
+      'Node',
+      'Swift'
+    ],
+  },
+  {
     name: 'Kenny Robinson',
     description:
       'Web developer that builds software to improve business processes',
