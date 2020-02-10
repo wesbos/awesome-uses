@@ -489,7 +489,7 @@ module.exports = [
   {
     name: 'Shaun Farrell',
     description:
-      'Full Stack Developer, React, ReactNative, Swift, Model-driven, Node',
+      'Full Stack Developer, React, React Native, Swift, Model-driven, Node',
     url: 'https://codedplanet.co/uses',
     twitter: '@shaunjfaz',
     emoji: '🙏',
@@ -506,7 +506,7 @@ module.exports = [
       'React',
       'HTML',
       'CSS',
-      'ReactNative',
+      'React Native',
       'Node',
       'Swift'
     ],
