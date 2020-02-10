@@ -39,11 +39,13 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
+* [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
 * [Jamie Ryan](https://www.jamieryan.dev/uses) — Full Stack Developer and CodeClan graduate from Edinburgh, Scotland
 * [Michael Stokoe](https://msweb.dev/uses) — Back-end PHP Developer. Gamer, musician and motorcyclist.
+* [Luis Alfredo Lorenzo](http://babas.bot/uses) — Professional programmer and clean coder; I swear I will not kill -9 anyone.
 * [Fabian Vallejos](https://fabianvallejos.com/uses/) — Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
 * [Pierre-Antoine "Leny" Delnatte](https://leny.me/uses/) — Developer, Bootcamp coach. Forging the next generation of webdevelopers.
@@ -93,6 +95,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
 * [Valentina Calabrese](https://valentinacalabrese.com/uses) — Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.
+* [Samir Mammadhasanov](https://samirmh.dev/uses.html) — Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
 * [Karl Koch](https://www.kejk.co/uses) — Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.

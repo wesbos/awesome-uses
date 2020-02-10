@@ -361,13 +361,7 @@ module.exports = [
     country: '🇲🇽',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Full Stack',
-      'DevOps',
-      'Remote',
-      'Ruby',
-      'JavaScript',
-    ]
+    tags: ['Full Stack', 'DevOps', 'Remote', 'Ruby', 'JavaScript'],
   },
   {
     name: 'Fabian Vallejos',
@@ -1400,16 +1394,7 @@ module.exports = [
     country: '🇦🇿',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'PHP',
-      'Laravel',
-      'Phalcon',
-      'React',
-      'Vue',
-      'Baku',
-      'Web',
-      'Dev',
-    ],
+    tags: ['PHP', 'Laravel', 'Phalcon', 'React', 'Vue', 'Baku', 'Web', 'Dev'],
   },
   {
     name: 'Jason Cory Alvernaz',
