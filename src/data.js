@@ -236,7 +236,7 @@ module.exports = [
       'Developer',
       'Front End',
       'JavaScript',
-      'remote',
+      'Remote',
       'Mentor',
       'React',
       'Blogger',
