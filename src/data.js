@@ -58,8 +58,7 @@ module.exports = [
   },
   {
     name: 'Michael Rolfsen',
-    description:
-        'Designer and Front-of-the-Front-End Dev. I suck at guitar.',
+    description: 'Designer and Front-of-the-Front-End Dev. I suck at guitar.',
     url: 'https://boldandfriendly.de/uses',
     twitter: '@michaelsupdates',
     emoji: '🥑',
