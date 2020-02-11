@@ -57,6 +57,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Rolfsen',
+    description:
+        'Designer and Front-of-the-Front-End Dev. I suck at guitar.',
+    url: 'https://boldandfriendly.de/uses',
+    twitter: '@michaelsupdates',
+    emoji: '🥑',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Entrepreneur',
+      'Front End',
+      'Developer',
+      'HTML',
+      'Sass',
+      'Less',
+      'CSS',
+      'JAMstack',
+    ],
+  },
+  {
     name: 'Amadeus Mader',
     description:
       'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
