@@ -1700,6 +1700,28 @@ module.exports = [
       'Accessibility',
     ],
   },
+    {
+    name: 'Ethan Aldrich',
+    description:
+      'CTO of SSE, full-stack developer, student.,
+    url: 'ethanaldrich.net',
+    twitter: '@twitter',
+    emoji: '🤟',
+    country: '🇺🇸',
+    phone: 'iphone',
+    computer: 'arch',
+    tags: [
+      'Developer',
+      'Front End',
+      'UX',
+      'JAMstack',
+      'CSS',
+      'HTML',
+      'JavaScript',
+      'Accessibility'
+      'nodejs',
+    ],
+  },
   {
     name: 'Glenn Reyes',
     description:
