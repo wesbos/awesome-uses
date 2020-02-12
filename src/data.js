@@ -3,7 +3,7 @@ module.exports = [
   {
     name: 'Dhaval Boraniya',
     description: 'Developer',
-    url: 'http://itca.xyz',
+    url: 'http://itca.xyz/uses',
     twitter: '@dhavalboraniya',
     emoji: '😇',
     country: '🇮🇳',
