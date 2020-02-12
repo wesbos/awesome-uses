@@ -150,6 +150,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Stephanie Handsteiner',
+    description: '💻 Full-Stack Developer with a background in design.',
+    url: 'https://stephfh.dev/uses',
+    emoji: '🤓',
+    country: '🇪🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'CSS',
+      'JavaScript',
+      'PHP',
+      'Docker',
+      'DevOps',
+      'UI',
+      'UX',
+      'Streamer',
+    ],
+  },
+  {
     name: 'Chandu J S',
     description:
       '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
