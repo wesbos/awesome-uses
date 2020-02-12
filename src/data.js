@@ -3,10 +3,10 @@ module.exports = [
   {
     name: 'Dhaval Boraniya',
     description: 'Developer',
-    url: 'http://itca.xyz/uses',
+    url: 'http://itca.xyz',
     twitter: '@dhavalboraniya',
     emoji: '😇',
-    country: 'india',
+    country: '🇮🇳',
     computer: 'intel',
     phone: 'android',
     tags: ['Developer', 'PHP'],
