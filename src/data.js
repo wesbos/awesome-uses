@@ -7,7 +7,7 @@ module.exports = [
     twitter: '@dhavalboraniya',
     emoji: '😇',
     country: '🇮🇳',
-    computer: 'intel',
+    computer: 'linux',
     phone: 'android',
     tags: ['Developer', 'PHP'],
   },
