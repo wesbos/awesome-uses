@@ -6,7 +6,7 @@ module.exports = [
     url: "https://farai.xyz/uses",
     twitter: "@faraixyz",
     emoji: "🤷",
-    country: "",
+    country: "🇿🇼",
     computer: "windows",
     phone: "iphone",
     tags: ['Developer', 'Web', 'Python']
