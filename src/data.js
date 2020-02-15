@@ -36,6 +36,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Kyle McDonald',
+    description:
+      'Software Engineer',
+    url: 'https://kylemcd.com/uses/',
+    twitter: '@designbykyle',
+    emoji: '🤙',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Front End',
+      'Node',
+      'CSS',
+      'React',
+      'HTML',
+      'React',
+      'Engineer',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Jibin Thomas',
     description:
       'Front-End Developer & Casual Blogger. CSS, Javascript & React',
