@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
+* [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Amadeus Mader](https://mozart409.space/uses) — Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next
@@ -266,6 +267,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
 * [Sangam Kumar](https://www.sangam.dev/uses) — (☕) => { 👨‍💻 }; git checkout hackerrank
+* [Ray Gervais](https://raygervais.dev/uses) — Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Max Schmeling](https://maxschmeling.me/uses) — CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer

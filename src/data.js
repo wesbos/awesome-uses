@@ -37,8 +37,7 @@ module.exports = [
   },
   {
     name: 'Kyle McDonald',
-    description:
-      'Software Engineer',
+    description: 'Software Engineer',
     url: 'https://kylemcd.com/uses/',
     twitter: '@designbykyle',
     emoji: '🤙',
