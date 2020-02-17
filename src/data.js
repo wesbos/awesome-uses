@@ -4808,12 +4808,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Blogger',
-      'WordPress',
-      'PHP',
-    ],
+    tags: ['Developer', 'Blogger', 'WordPress', 'PHP'],
   },
   {
     name: 'Eric McCormick',
