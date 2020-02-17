@@ -4799,6 +4799,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Beckwith',
+    description:
+      'PHP and WordPress developer/support, coffee consumer, gym monkey',
+    url: 'https://apiratelifefor.me/uses/',
+    twitter: '@tw2113',
+    emoji: '🏴‍☠️',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Blogger',
+      'WordPress',
+      'PHP',
+    ],
+  },
+  {
     name: 'Eric McCormick',
     description:
       'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
