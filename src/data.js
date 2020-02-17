@@ -21,14 +21,7 @@ module.exports = [
     country: '🇳🇵',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'iOS',
-      'JavaScript',
-      'Swift',
-      'Node',
-      'Web',
-    ],
+    tags: ['Developer', 'iOS', 'JavaScript', 'Swift', 'Node', 'Web'],
   },
   {
     name: 'Aditya Thebe',
