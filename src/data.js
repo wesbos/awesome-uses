@@ -12,6 +12,25 @@ module.exports = [
     tags: ['Developer', 'JavaScript'],
   },
   {
+    name: 'Jonesh Shrestha',
+    description:
+      '📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life',
+    url: 'https://www.joneshshrestha.com/uses',
+    twitter: '@shresthajonesh',
+    emoji: '🧘🏻‍',
+    country: '🇳🇵',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'iOS',
+      'JavaScript',
+      'Swift',
+      'Node',
+      'Web',
+    ],
+  },
+  {
     name: 'Aditya Thebe',
     description:
       '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
