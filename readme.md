@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Dhaval Boraniya](http://itca.xyz/uses) — Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
