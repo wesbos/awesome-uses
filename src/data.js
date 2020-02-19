@@ -18,6 +18,17 @@ module.exports = [
       'VueJS',
       'Gatsby',
     ],
+   },
+  {
+    name: "Farai Gandiya",
+    description: "Software Developer",
+    url: "https://farai.xyz/uses",
+    twitter: "@faraixyz",
+    emoji: "🤷",
+    country: "🇿🇼",
+    computer: "windows",
+    phone: "iphone",
+    tags: ['Developer', 'Web', 'Python']
   },
   {
     name: 'Dhaval Boraniya',
