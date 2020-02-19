@@ -1614,6 +1614,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Ruben Arakelyan',
+    description:
+      'Web Developer and self builder in Cornwall, UK',
+    url: 'https://ruben.arakelyan.uk/uses/',
+    emoji: '💾',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Web Developer',
+      'Full Stack',
+      'Ruby',
+      'Ruby on Rails',
+      'Rails',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'AWS',
+      'DevOps',
+      'SQL',
+      'Self-builder',
+    ],
+  },
+  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
