@@ -29,8 +29,12 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
+* [Dhaval Boraniya](http://itca.xyz/uses) — Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
+* [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
+* [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Amadeus Mader](https://mozart409.space/uses) — Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next
@@ -127,6 +131,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
 * [Lauro Silva](https://laurosilva.com/uses) — Software Engineer and Technical Writer
+* [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
 * [Tony Cimaglia](https://www.tonycimaglia.com/uses/) — Restaurant Veteran turned Developer.
 * [Nuno Maduro](https://nunomaduro.com/uses/) — Software engineer, Open Source contributor, Speaker
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
@@ -266,9 +271,11 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
 * [Sangam Kumar](https://www.sangam.dev/uses) — (☕) => { 👨‍💻 }; git checkout hackerrank
+* [Ray Gervais](https://raygervais.dev/uses) — Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Max Schmeling](https://maxschmeling.me/uses) — CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
+* [Michael Beckwith](https://apiratelifefor.me/uses/) — PHP and WordPress developer/support, coffee consumer, gym monkey
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Vince Picone](https://vincepic.one/uses) — Building design systems at IBM
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
