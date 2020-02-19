@@ -1615,8 +1615,7 @@ module.exports = [
   },
   {
     name: 'Ruben Arakelyan',
-    description:
-      'Web Developer and self builder in Cornwall, UK',
+    description: 'Web Developer and self builder in Cornwall, UK',
     url: 'https://ruben.arakelyan.uk/uses/',
     emoji: '💾',
     country: '🇬🇧',
