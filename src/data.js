@@ -10,13 +10,13 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Developer', 
-      'Designer', 
-      'Blogger', 
-      'Node', 
-      'React', 
-      'VueJS', 
-      'Gatsby'
+      'Developer',
+      'Designer',
+      'Blogger',
+      'Node',
+      'React',
+      'VueJS',
+      'Gatsby',
     ],
   },
   {

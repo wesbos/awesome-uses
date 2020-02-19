@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
