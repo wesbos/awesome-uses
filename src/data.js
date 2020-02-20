@@ -338,8 +338,8 @@ module.exports = [
       'Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.',
     url: 'http://principe.io/uses',
     twitter: '@cprincipe',
-    country: '🇨🇦 🇺🇸',
-    computer: 'apple / windows',
+    country: '🇨🇦',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'React',
