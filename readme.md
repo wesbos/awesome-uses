@@ -306,6 +306,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
 * [Bamuleseyo Gideon](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) — Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
+* [Trezy](https://trezy.com/uses) — Software engineer, JavaScript livestreamer, and a wannabe cyborg.
 * [Kim Ingram](https://www.foxynerd.dev/uses/) — Blue eyed vixen, front end developer, photographer, coffee addict.
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.

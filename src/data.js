@@ -5454,7 +5454,8 @@ module.exports = [
 
   {
     name: 'Trezy',
-    description: 'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
+    description:
+      'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
     url: 'https://trezy.com/uses',
     twitter: '@TrezyCodes',
     emoji: '🤖',
