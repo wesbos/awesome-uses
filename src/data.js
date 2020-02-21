@@ -5875,6 +5875,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Zura Gabievi',
+    description:
+      'Front-end Team Lead.',
+    url: 'https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d',
+    twitter: '@zgabievi',
+    emoji: '🦊',
+    country: '🇬🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Angular',
+      'React',
+      'Svelte',
+      'Vue',
+      'Laravel',
+      'Styled Components',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'SCSS'
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
