@@ -182,6 +182,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
+* [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
