@@ -5453,6 +5453,33 @@ module.exports = [
   },
 
   {
+    name: 'Trezy',
+    description: 'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
+    url: 'https://trezy.com/uses',
+    twitter: '@TrezyCodes',
+    emoji: '🤖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack Software Engineer',
+      'Mentor',
+      'Streamer',
+      'Blogger',
+      'a11y',
+      'JavaScript',
+      'CSS',
+      'SASS',
+      'Node',
+      'OSS',
+      'Electron',
+      'Firebase',
+      'React',
+      'Next.js',
+    ],
+  },
+
+  {
     name: 'Kim Ingram',
     description:
       'Blue eyed vixen, front end developer, photographer, coffee addict.',
