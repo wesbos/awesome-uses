@@ -3042,7 +3042,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Engineer', 'Blogger', 'Speaker', 'Front End', 'JavaScript', 'Gatsby'],
+    tags: ['Developer', 'Blogger', 'Speaker', 'Front End', 'JavaScript', 'Gatsby'],
   },
   {
     name: 'Harry Wolff',
