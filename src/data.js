@@ -3033,6 +3033,17 @@ module.exports = [
     phone: 'android',
     tags: ['Designer', 'Entrepreneur'],
   },
+    {
+    name: 'Laurie Barth',
+    description: 'Software Engineer and Educator',
+    url: 'https://laurieontech.com/uses/',
+    twitter: '@laurieontech',
+    emoji: '🧩,
+    country: 🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Engineer', 'Blogger', 'Speaker', 'Front End', 'Gatsby'],
+  },
   {
     name: 'Harry Wolff',
     description: 'Front-end engineer and YouTuber ',
