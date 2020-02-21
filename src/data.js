@@ -5876,8 +5876,7 @@ module.exports = [
   },
   {
     name: 'Zura Gabievi',
-    description:
-      'Front-end Team Lead.',
+    description: 'Front-end Team Lead.',
     url: 'https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d',
     twitter: '@zgabievi',
     emoji: '🦊',
@@ -5894,7 +5893,7 @@ module.exports = [
       'Developer',
       'JavaScript',
       'TypeScript',
-      'SCSS'
+      'SCSS',
     ],
   },
   {
