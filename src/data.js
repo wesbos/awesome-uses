@@ -336,7 +336,7 @@ module.exports = [
     name: 'Colin Principe',
     description:
       'Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.',
-    url: 'http://principe.io/uses',
+    url: 'http://colinprincipe.com/uses/',
     twitter: '@cprincipe',
     country: '🇨🇦',
     computer: 'apple',
