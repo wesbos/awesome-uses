@@ -4282,6 +4282,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Krzysztof Żuraw',
+    description: 'Developer, nerd, co-organizer, chemex lover',
+    url: 'https://krzysztofzuraw.com/uses',
+    twitter: '@krzysztof_zuraw',
+    emoji: '☕',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'TypeScript',
+      'React',
+      'CSS',
+      'Gatsby',
+      'Blogger'
+    ]
+  },
+  {
     name: 'Dieter Stinglhamber',
     description: 'Developer, human, nerd.',
     url: 'https://www.dieterstinglhamber.me/uses/',
