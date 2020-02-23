@@ -304,6 +304,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
+* [Esmit Perez](https://esmit.me/uses) — Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.
 * [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
 * [Divjot Singh](https://bogas04.github.io/uses) — Web Developer, Vegan, Sikh.
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor

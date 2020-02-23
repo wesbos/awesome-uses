@@ -5409,7 +5409,8 @@ module.exports = [
   },
   {
     name: 'Esmit Perez',
-    description: 'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
+    description:
+      'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
     url: 'https://esmit.me/uses',
     twitter: '@mitiwifi',
     emoji: '🧗🏽‍♂️',
@@ -5424,7 +5425,7 @@ module.exports = [
       'CSS',
       'Kotlin',
       'Flutter',
-      'SQL'
+      'SQL',
     ],
   },
   {
