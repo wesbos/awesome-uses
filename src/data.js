@@ -5736,6 +5736,25 @@ module.exports = [
     tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue'],
   },
   {
+    name: 'Vinay Malankad',
+    description: 'Senior Front-end developer',
+    url: 'https://github.com/rmdort/uses',
+    twitter: '@rmdort',
+    emoji: '😎',
+    country: '🇸🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'React',
+      'Node',
+      'Rust',
+      'WebAssembly',
+      'Kubernetes',
+      'ML/AI Enthusiast'
+    ],
+  },
+  {
     name: 'Armno Prommarak',
     description: 'Frontend developer, blogger, cyclist.',
     url: 'https://armno.in.th/uses',
