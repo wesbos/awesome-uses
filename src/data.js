@@ -613,6 +613,28 @@ module.exports = [
       'JavaScript',
     ],
   },
+    {
+    name: 'Michael Herman',
+    description: 'Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.',
+    url: 'https://mherman.org/about#uses',
+    twitter: '@mikeherman',
+    emoji: '🙏',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'DevOps',
+      'Architect',
+      'JavaScript',
+      'Python',
+      'Docker', 
+      'AWS',
+      'Testing',
+      'Teacher'
+    ],
+  },
   {
     name: 'Shaun Farrell',
     description:
