@@ -5408,6 +5408,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Esmit Perez',
+    description: 'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
+    url: 'https://esmit.me/uses',
+    twitter: '@mitiwifi',
+    emoji: '🧗🏽‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Java',
+      'TypeScript',
+      'Angular',
+      'CSS',
+      'Kotlin',
+      'Flutter',
+      'SQL'
+    ],
+  },
+  {
     name: 'Sercan Eraslan',
     description: 'Front-End Tech Lead',
     url: 'http://sercaneraslan.com/uses',
