@@ -2331,7 +2331,7 @@ module.exports = [
     url: 'https://jeffmair.net/uses',
     twitter: '@jeffwmair',
     emoji: '🖖',
-    country: 'CA',
+    country: '🇨🇦',
     computer: 'windows',
     phone: 'android',
     tags: [
