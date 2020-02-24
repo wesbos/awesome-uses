@@ -42,6 +42,17 @@ module.exports = [
     tags: ['Developer', 'PHP'],
   },
   {
+    name: 'Sudhanshu Bajaj',
+    description: 'Code. Travel. Sleep. Repeat. Magento Developer',
+    url: 'https://www.sudhanshubajaj.com/uses/',
+    twitter: '@sudhanshubajaj',
+    emoji: '😇',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Web', 'Developer', 'Architect', 'PHP', 'Magento', 'Full Stack', 'Wordpress', 'JavaScript', 'Drupal', 'Laravel'],
+  },
+  {
     name: 'Enea Xharja',
     description: 'Web Developer',
     url: 'https://eneaxharja.com/uses',
