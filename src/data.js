@@ -267,6 +267,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Bui Minh Phuc',
+    description: 'A front-end web developer lives and works in Saigon, and still single 😉',
+    url: 'https://buiminhphuc.com/uses/',
+    twitter: '@minhphucbui',
+    emoji: '👽',
+    country: '🇻🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Web Animation',
+      'Tripper',
+      'CSS',
+      'WordPress',
+      'GreenSock',
+    ],
+  },
+  {
     name: 'Chandu J S',
     description:
       '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
