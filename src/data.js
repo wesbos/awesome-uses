@@ -2546,6 +2546,24 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
   {
+    name: 'Mahmoud Ashraf',
+    description: 'Front-End Developer, sometimes do backend stuff.',
+    url: 'http://mahmoudashraf.dev/uses',
+    twitter: '@_22mahmoud',
+    emoji: '🧠',
+    country: '🇪🇬',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'GraphQl',
+      'Svelte'
+    ],
+  },
+  {
     name: 'Pouria Ezzati',
     description: 'Web developer. Digs music, football and a e s t h e t i c s',
     url: 'https://pouria.dev/uses',
