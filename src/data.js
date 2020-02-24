@@ -2325,6 +2325,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeff Mair',
+    description:
+      'Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner',
+    url: 'https://jeffmair.net/uses',
+    twitter: '@jeffwmair',
+    emoji: '🖖',
+    country: 'CA',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'C#',
+      'Node'
+    ],
+  },
+  {
     name: 'Bruno Brito',
     description:
       'Freelance Web Developer, Content Creator, Digital Marketing teacher',
