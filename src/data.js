@@ -2518,7 +2518,7 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
   {
-    name: 'Mahmoud Asheaf',
+    name: 'Mahmoud Ashraf',
     description: 'Front-End Developer, sometimes do backend stuff.',
     url: 'http://mahmoudashraf.dev/uses',
     twitter: '@_22mahmoud',
