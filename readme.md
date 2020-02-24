@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
+* [Sudhanshu Bajaj](https://www.sudhanshubajaj.com/uses/) — Code. Travel. Sleep. Repeat. Magento Developer
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
@@ -43,6 +44,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
+* [Bui Minh Phuc](https://buiminhphuc.com/uses/) — A front-end web developer lives and works in Saigon, and still single 😉
 * [Chandu J S](https://chandujs.dev/uses) — 💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
@@ -144,6 +146,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lina María Montaño Ramírez](https://calypsobronte.me/uses) — Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
+* [Jeff Mair](https://jeffmair.net/uses) — Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner
 * [Bruno Brito](https://brunobrito.pt/uses) — Freelance Web Developer, Content Creator, Digital Marketing teacher
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Roy Tang](https://roytang.net/about/uses/) — Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.
@@ -155,6 +158,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) — Full stack JavaScript Developer, blogger and speaker.
+* [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
@@ -230,6 +234,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
+* [Diana García](https://dianaeli.dev/uses) — Full Stack Web Developer based in Mexico City, I love to teach and to game
 * [Chiamaka Ikeanyi](https://chiamakaikeanyi.dev/uses) — Software Engineer, Technical Writer, Poet
 * [Francis Sunday](https://hakaselogs.me/2020-01-10/what-i-use) — Software Engineer | Gopher | Hacker
 * [Jared Clifton-Lee](https://jared.clifton-lee.com/uses) — Engineer of code; manager of people; trainer of cats

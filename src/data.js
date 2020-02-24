@@ -50,7 +50,18 @@ module.exports = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Web', 'Developer', 'Architect', 'PHP', 'Magento', 'Full Stack', 'Wordpress', 'JavaScript', 'Drupal', 'Laravel'],
+    tags: [
+      'Web',
+      'Developer',
+      'Architect',
+      'PHP',
+      'Magento',
+      'Full Stack',
+      'Wordpress',
+      'JavaScript',
+      'Drupal',
+      'Laravel',
+    ],
   },
   {
     name: 'Enea Xharja',
@@ -268,7 +279,8 @@ module.exports = [
   },
   {
     name: 'Bui Minh Phuc',
-    description: 'A front-end web developer lives and works in Saigon, and still single 😉',
+    description:
+      'A front-end web developer lives and works in Saigon, and still single 😉',
     url: 'https://buiminhphuc.com/uses/',
     twitter: '@minhphucbui',
     emoji: '👽',
@@ -2363,12 +2375,7 @@ module.exports = [
     country: '🇨🇦',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'C#',
-      'Node'
-    ],
+    tags: ['Developer', 'JavaScript', 'C#', 'Node'],
   },
   {
     name: 'Bruno Brito',
@@ -2572,14 +2579,7 @@ module.exports = [
     country: '🇪🇬',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'Node',
-      'GraphQl',
-      'Svelte'
-    ],
+    tags: ['JavaScript', 'TypeScript', 'React', 'Node', 'GraphQl', 'Svelte'],
   },
   {
     name: 'Pouria Ezzati',
