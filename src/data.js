@@ -458,7 +458,8 @@ module.exports = [
   },
   {
     name: 'Daan Kauwenberg',
-    description: 'JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer',
+    description:
+      'JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer',
     url: 'https://daankauwenberg.com/uses',
     twitter: '@daankauwenberg',
     emoji: '🚀',
