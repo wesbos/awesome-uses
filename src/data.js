@@ -457,6 +457,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Daan Kauwenberg',
+    description: 'JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer',
+    url: 'https://daankauwenberg.com/uses',
+    twitter: '@daankauwenberg',
+    emoji: '🚀',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Entrepeneur',
+      'Blogger',
+      'React',
+      'Google Cloud',
+      'JavaScript',
+      'CSS',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Bob Orchard',
     description:
       'Semi-stack developer with a design background. Woodworker. Maker.',
