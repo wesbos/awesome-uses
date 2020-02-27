@@ -3,7 +3,7 @@ module.exports = [
   {
     name: 'Gerardo Jaramillo',
     description: 'Developer and Dreamer',
-    url: 'https://www.codingwithjerry.com',
+    url: 'https://www.codingwithjerry.com/uses',
     twitter: '@gerardojaras',
     emoji: '🎧',
     country: '🇬🇹',
