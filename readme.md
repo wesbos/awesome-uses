@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Gerardo Jaramillo](https://www.codingwithjerry.com/uses) — Developer and Dreamer
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer

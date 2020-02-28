@@ -17,7 +17,7 @@ module.exports = [
       'VueJS',
       'Gatsby',
       'Wordpress',
-      'Fullstack'
+      'Fullstack',
     ],
   },
   {
