@@ -4805,6 +4805,18 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'PHP', 'JavaScript', 'Laravel', 'React'],
   },
   {
+    name: 'Dorian Morones',
+    description:
+      'Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Gamer',
+    url: 'https://www.dorianmorones.com/uses',
+    twitter: '@DorianMorones',
+    emoji: '🐱',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Front end', 'JavaScript', 'React', 'Gatsby', 'Web Developer', 'SCSS'],
+  },
+  {
     name: 'Thomas Maximini',
     description: 'Freelance software developer from Germany.',
     url: 'https://www.maxi.io/uses/',
