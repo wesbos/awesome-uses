@@ -4814,7 +4814,15 @@ module.exports = [
     country: '🇲🇽',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Front end', 'JavaScript', 'React', 'Gatsby', 'Web Developer', 'SCSS'],
+    tags: [
+      'Developer',
+      'Front end',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Web Developer',
+      'SCSS',
+    ],
   },
   {
     name: 'Thomas Maximini',
