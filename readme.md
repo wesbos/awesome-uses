@@ -319,6 +319,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
 * [Bamuleseyo Gideon](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) — Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️
+* [David Anguita](https://davidanguita.name/uses/) — Software developer & consultant. Maker. Gamer by night. :wq
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
 * [Trezy](https://trezy.com/uses) — Software engineer, JavaScript livestreamer, and a wannabe cyborg.
 * [Kim Ingram](https://www.foxynerd.dev/uses/) — Blue eyed vixen, front end developer, photographer, coffee addict.

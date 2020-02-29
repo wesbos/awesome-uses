@@ -5713,7 +5713,7 @@ module.exports = [
       'Ruby on Rails',
       'Elixir',
       'JavaScript',
-      'Vim'
+      'Vim',
     ],
   },
   {
