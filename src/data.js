@@ -5697,6 +5697,26 @@ module.exports = [
     ],
   },
   {
+    name: 'David Anguita',
+    description: 'Software developer & consultant. Maker. Gamer by night. :wq',
+    url: 'https://davidanguita.name/uses/',
+    twitter: '@danguita',
+    emoji: '🎮',
+    country: '🇪🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Freelancer',
+      'Ruby',
+      'Ruby on Rails',
+      'Elixir',
+      'JavaScript',
+      'Vim'
+    ],
+  },
+  {
     name: 'Nick Taylor',
     description: 'Just some dev from Montreal, Quebec, Canada',
     url: 'https://www.iamdeveloper.com/uses/',
