@@ -51,6 +51,26 @@ module.exports = [
     tags: ['Developer', 'Web', 'Python'],
   },
   {
+    name: 'Irshad Ali',
+    description: 'Front-End-Developer based in Hyderabad, India.',
+    url: 'https://www.irshadali.site/uses',
+    twitter: '@imirshadali',
+    emoji: '👨‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'Android',
+    tags: [
+      'Developer',
+      'Designer',
+      'Blogger',
+	    'JavaScript',
+	    'SvelteJS'
+      'Node',
+      'React',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Dhaval Boraniya',
     description: 'Developer',
     url: 'http://itca.xyz/uses',
