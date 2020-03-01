@@ -84,6 +84,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Irshad Ali',
+    description: 'Front-End-Developer based in Hyderabad, India.',
+    url: 'https://www.irshadali.site/Uses',
+    twitter: '@imirshadali',
+    emoji: '👨‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'Android',
+    tags: [
+      'Developer',
+      'Designer',
+      'Blogger',
+	 'JavaScript',
+	 'SvelteJS'
+      'Node',
+      'React',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Enea Xharja',
     description: 'Web Developer',
     url: 'https://eneaxharja.com/uses',
