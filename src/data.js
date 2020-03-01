@@ -5067,6 +5067,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Irshad Ali',
+    description: 'Front-End-Developer based in Hyderabad, India.',
+    url: 'https://www.irshadali.site/Uses',
+    twitter: '@imirshadali',
+    emoji: '👨‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'Android',
+    tags: [
+      'Developer',
+      'Designer',
+      'Blogger',
+	    'JavaScript',
+	    'SvelteJS'
+      'Node',
+      'React',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Ray Gervais',
     description:
       'Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate',
