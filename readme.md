@@ -33,6 +33,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
+* [Irshad Ali](http://irshadali.site/uses) — Front-End-Developer based in Hyderabad, India.
 * [Sudhanshu Bajaj](https://www.sudhanshubajaj.com/uses/) — Code. Travel. Sleep. Repeat. Magento Developer
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
