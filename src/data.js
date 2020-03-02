@@ -5858,6 +5858,26 @@ module.exports = [
     tags: ['Web developer', 'Front-end', 'Accessibility', 'Performance'],
   },
   {
+    name: 'Peter Tasker',
+    description:
+      'Programmer/developer/dad in Ottawa Ontario, Canada',
+    url: 'https://petetasker.com/uses/',
+    twitter: '@petetasker',
+    emoji: '😂',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'PHP',
+      'Go',
+      'Full Stack',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'Dave Hill',
     description: 'Front-end developer, amateur photographer, podcast beginner.',
     url: 'https://davehill.dev/uses/',
