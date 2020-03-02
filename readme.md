@@ -82,6 +82,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
+* [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
 * [Michael Gale](https://michaelgale.dev/uses) — Web Developer with a beard and glasses from Melbourne, Australia
 * [Aaron A.](https://ocular-rhythm.io/uses/) — Sandwich enthusiast and programmer.
 * [Renee de Kruijf](https://webdesignpuntnl.com/pages/uses.html) — Javascript developer in the making. Still learning every day. Liking it a lot!

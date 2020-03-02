@@ -1117,8 +1117,7 @@ module.exports = [
   },
   {
     name: 'Chris Collins',
-    description:
-      'I design and build digital products, hike and take photos.',
+    description: 'I design and build digital products, hike and take photos.',
     url: 'https://chriscollins.me/uses',
     twitter: '@scottishstoater',
     emoji: '🏔️',
