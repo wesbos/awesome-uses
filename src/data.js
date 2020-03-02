@@ -1116,6 +1116,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Chris Collins',
+    description:
+      'I design and build digital products, hike and take photos.',
+    url: 'https://chriscollins.me/uses',
+    twitter: '@scottishstoater',
+    emoji: '🏔️',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'React',
+      'Sass',
+      'Photographer',
+    ],
+  },
+  {
     name: 'Michael Gale',
     description:
       'Web Developer with a beard and glasses from Melbourne, Australia',
