@@ -1744,6 +1744,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Russell McWhae',
+    description:
+      'Backcountry skier, photographer, designer, and web developer from Canada',
+    url: 'https://russellmcwhae.ca/uses',
+    emoji: '⛷',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Fullstack',
+      'Angular',
+      'React',
+      'C#',
+      '.NET',
+      'Ruby',
+      'Rails',
+    ],
+  },
+  {
     name: 'Karl Koch',
     description:
       'Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.',
