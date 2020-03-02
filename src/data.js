@@ -5859,8 +5859,7 @@ module.exports = [
   },
   {
     name: 'Peter Tasker',
-    description:
-      'Programmer/developer/dad in Ottawa Ontario, Canada',
+    description: 'Programmer/developer/dad in Ottawa Ontario, Canada',
     url: 'https://petetasker.com/uses/',
     twitter: '@petetasker',
     emoji: '😂',
