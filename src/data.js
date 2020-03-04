@@ -2763,6 +2763,18 @@ module.exports = [
     tags: ['Developer', 'Back End', 'Speaker', 'Writer', 'JavaScript', 'Node'],
   },
   {
+    name: 'Martin Marcucci',
+    description:
+      'Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.',
+    url: 'https://www.marku.me/uses',
+    twitter: '@RMMarku',
+    emoji: '🧉',
+    country: '🇦🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Professor', 'Developer', 'C++', 'Writer', 'JavaScript', 'Node', 'Full Stack', 'Embedded'],
+  },
+  {
     name: 'Andrew McCombe',
     description:
       'Experienced full stack web developer with a passion for testing.',
