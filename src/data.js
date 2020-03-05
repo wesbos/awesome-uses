@@ -3239,6 +3239,17 @@ module.exports = [
 		tags: ['Developer', 'Full Stack', 'GraphQL', 'Teacher', 'Speaker', 'JavaScript', 'React', 'Node', 'CSS']
 	},
 	{
+		name: 'Andrew Baisden',
+		description: 'Full Stack Developer, Creative, Gamer, Anime Addict',
+		url: 'https://andrewbaisden.com/uses',
+		twitter: '@andrewbaisden',
+		emoji: '😎',
+		country: '🇬🇧',
+		computer: 'apple',
+		phone: 'iphone',
+		tags: ['Developer', 'Full Stack', 'Front End', 'HTML', 'CSS', 'JavaScript', 'React', 'Node']
+	},
+	{
 		name: 'Erv Walter',
 		description: 'Father, Husband, Web Developer, Board Game Addict',
 		url: 'https://blog.ewal.net/uses/',
@@ -4563,17 +4574,6 @@ module.exports = [
 		computer: 'apple',
 		phone: 'android',
 		tags: ['Web Development', 'Front End', 'React', 'Node', 'Rust', 'Full Stack', 'GraphQL']
-	},
-	{
-		name: 'Andrew Baisden',
-		description: 'Full Stack Developer, Creative, Gamer, Anime Addict',
-		url: 'https://andrewbaisden.com/uses',
-		twitter: '@andrewbaisden',
-		emoji: '😎',
-		country: '🇬🇧',
-		computer: 'apple',
-		phone: 'iphone',
-		tags: ['Developer', 'Full Stack', 'Front End', 'HTML', 'CSS', 'JavaScript', 'React', 'Node']
 	}
 	// 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
 	// 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
