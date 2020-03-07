@@ -298,6 +298,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Beckwith](https://apiratelifefor.me/uses/) — PHP and WordPress developer/support, coffee consumer, gym monkey
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Vince Picone](https://vincepic.one/uses) — Building design systems at IBM
+* [Andrew Baisden](https://andrewbaisden.com/uses) — Full Stack Developer, Creative, Gamer, Anime Addict
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
 * [Jens van Wijhe](https://jens.ai/uses) — Creative web developer and entrepreneur
 * [Jacob Herper](https://herper.io/uses/) — Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.
