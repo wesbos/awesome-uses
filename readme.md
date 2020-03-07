@@ -241,6 +241,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
 * [Diana García](https://dianaeli.dev/uses) — Full Stack Web Developer based in Mexico City, I love to teach and to game
+* [Dao Chau](https://daochau.com/uses/) — Another hard-working developer on earth.
 * [Chiamaka Ikeanyi](https://chiamakaikeanyi.dev/uses) — Software Engineer, Technical Writer, Poet
 * [Francis Sunday](https://hakaselogs.me/2020-01-10/what-i-use) — Software Engineer | Gopher | Hacker
 * [Jared Clifton-Lee](https://jared.clifton-lee.com/uses) — Engineer of code; manager of people; trainer of cats
