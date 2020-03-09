@@ -18,7 +18,7 @@ module.exports = [
       'Gatsby',
       'TypeScript',
       'React Native',
-      'Svelte'
+      'Svelte',
     ],
   },
   {
@@ -6005,8 +6005,7 @@ module.exports = [
   },
   {
     name: 'Tomek Buszewski',
-    description: 
-      'Developer and team leader based in Warsaw, Poland.',
+    description: 'Developer and team leader based in Warsaw, Poland.',
     url: 'https://www.buszewski.com/uses/',
     twitter: '@tomekbuszewski',
     emoji: '☕',
