@@ -1,6 +1,35 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Daniel Flege',
+    description:
+      'Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧',
+    url: 'https://danielflege.com/uses/',
+    twitter: '@flegedaniel',
+    emoji: '🎮',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Podcaster',
+      'CSS',
+      'Front End',
+      'HTML',
+      'React',
+      'Gatsby',
+      'Web Developer',
+      'JavaScript',
+      'JAMstack',
+      'Remote',
+      'Writer',
+      'Ruby on Rails',
+      'Tailwind',
+      'PostgreSQL',
+    ],
+  },
+  {
     name: 'Tim Raderschad',
     description: 'Germany based JS Enthuasiast',
     url: 'https://cstrnt.dev/uses',
