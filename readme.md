@@ -68,6 +68,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mitchell Hanberg](https://mitchellhanberg.com/uses) — Full Stack Developer who loves working with Elixir, Ruby and JS.
 * [Michael Herman](https://mherman.org/about#uses) — Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.
 * [Shaun Farrell](https://codedplanet.co/uses) — Full Stack Developer, React, React Native, Swift, Model-driven, Node
+* [Daniel Flege](https://danielflege.com/uses/) — Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧
 * [Kenny Robinson](http://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
