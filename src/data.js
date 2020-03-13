@@ -667,7 +667,8 @@ module.exports = [
   },
   {
     name: 'Shawn Crigger',
-    description: 'Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!',
+    description:
+      'Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!',
     url: 'https://shawn-crigger.herokuapp.com/uses',
     twitter: '@shawncrigger',
     emoji: '🐶',
