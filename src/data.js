@@ -56,8 +56,8 @@ module.exports = [
       'Engineer',
       'Front End',
       'Angular',
-      'TypeScript'
-    ]
+      'TypeScript',
+    ],
   },
   {
     name: 'Jitendra Nirnejak',

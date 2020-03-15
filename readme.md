@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Tim Raderschad](https://cstrnt.dev/uses) — Germany based JS Enthuasiast
 * [Gerardo Jaramillo](https://www.codingwithjerry.com/uses) — Developer and Dreamer
+* [Andrew Nguyen Vo](https://awnvo.com/uses) — Lover of code, coffee, and karaoke
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
