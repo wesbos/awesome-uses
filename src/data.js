@@ -47,7 +47,7 @@ module.exports = [
     url: 'https://awnvo.com/uses',
     twitter: '@TheNgooyun',
     emoji: '❄️',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
     tags: [
