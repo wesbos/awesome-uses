@@ -42,6 +42,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrew Nguyen Vo',
+    description: 'Lover of code, coffee, and karaoke',
+    url: 'https://awnvo.com/uses',
+    twitter: '@TheNgooyun',
+    emoji: '❄️',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Engineer',
+      'Front End',
+      'Angular',
+      'TypeScript'
+    ]
+  },
+  {
     name: 'Jitendra Nirnejak',
     description: 'Developer, Designer and Blogger',
     url: 'https://nirnejak.com/uses',
