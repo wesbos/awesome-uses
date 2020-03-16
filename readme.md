@@ -166,6 +166,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
 * [Mohamed Benhida](http://mohamedbenhida.com/uses) — Web Developer, Open source contributor.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
+* [Martin Marcucci](https://www.marku.me/uses) — Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) — Full stack JavaScript Developer, blogger and speaker.
 * [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.

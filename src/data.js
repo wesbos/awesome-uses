@@ -2772,7 +2772,16 @@ module.exports = [
     country: '🇦🇷',
     computer: 'linux',
     phone: 'android',
-    tags: ['Professor', 'Developer', 'C++', 'Writer', 'JavaScript', 'Node', 'Full Stack', 'Embedded'],
+    tags: [
+      'Professor',
+      'Developer',
+      'C++',
+      'Writer',
+      'JavaScript',
+      'Node',
+      'Full Stack',
+      'Embedded',
+    ],
   },
   {
     name: 'Andrew McCombe',
