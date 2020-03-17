@@ -4467,6 +4467,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Stefan Judis',
+    description: 'Web Developer, writer and speaker',
+    url: 'https://www.stefanjudis.com/uses',
+    twitter: '@stefanjudis',
+    emoji: '🙈',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Node',
+      'CSS',
+      'Accessibility',
+      'Blogger',
+      'Speaker',
+    ],
+  },
+  {
     name: 'Kaleigh Scruggs',
     description:
       'Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom',
