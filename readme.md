@@ -254,6 +254,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tom Hazledine](https://tomhazledine.com/uses) — Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.
 * [Mihai Serban](https://www.mihaiserban.dev/uses) — Software engineer in constant search for new and exciting technologies
 * [Nick Janetakis](https://nickjanetakis.com/uses) — Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast
+* [Stefan Judis](https://www.stefanjudis.com/uses) — Web Developer, writer and speaker
 * [Kaleigh Scruggs](https://kaleighscruggs.com/uses) — Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom
 * [Ste Grainer](https://stegrainer.com/uses) — Designer, Developer
 * [Jorge Calle](https://jorgecalle.co/uses) — Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)
