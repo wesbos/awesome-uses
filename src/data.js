@@ -1,6 +1,33 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Kelvin Mai',
+    description: 'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
+    url: 'https://kelvinmai.io/uses',
+    twitter: '@kelvinmai',
+    emoji: '🤷‍♂️',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'YouTuber',
+      'Engineer',
+      'Web Developer',
+      'Software Engineer',
+      'Full Stack',
+      'Front End',
+      'Node',
+      'GraphQL',
+      'React',
+      'Angular',
+      'JavaScript',
+      'TypeScript',
+      'Clojure',
+      'ClojureScript',
+      'Linux',
+    ]
+  },
+  {
     name: 'Tim Raderschad',
     description: 'Germany based JS Enthuasiast',
     url: 'https://cstrnt.dev/uses',
