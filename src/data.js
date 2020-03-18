@@ -2,7 +2,8 @@
 module.exports = [
   {
     name: 'Kelvin Mai',
-    description: 'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
+    description:
+      'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
     url: 'https://kelvinmai.io/uses',
     twitter: '@kelvinmai',
     emoji: '🤷‍♂️',
@@ -25,7 +26,7 @@ module.exports = [
       'Clojure',
       'ClojureScript',
       'Linux',
-    ]
+    ],
   },
   {
     name: 'Tim Raderschad',
