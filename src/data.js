@@ -1,6 +1,33 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Maxim Zubarev',
+    description:
+      'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
+    url: 'https://maximzubarev.com/uses',
+    twitter: '@mxmzb',
+    emoji: '🤠',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Blogger',
+      'Freelancer',
+      'Full Stack',
+      'Front End',
+      'Node',
+      'GraphQL',
+      'React',
+      'React Native',
+      'Gatsby',
+      'Next',
+      'Rails',
+      'Flutter',
+      'TypeScript',
+      'Machine Learning',
+    ],
+  },
+  {
     name: 'Kelvin Mai',
     description:
       'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
