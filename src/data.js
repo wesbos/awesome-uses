@@ -2,8 +2,7 @@
 module.exports = [
   {
     name: 'Marko Denic',
-    description:
-        'Web Developer',
+    description: 'Web Developer',
     url: 'https://markodenic.com/uses/',
     twitter: '@denicmarko',
     emoji: '🚀',
