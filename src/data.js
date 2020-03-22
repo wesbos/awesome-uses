@@ -2912,7 +2912,7 @@ module.exports = [
     computer: 'linux',
     phone: 'android',
     tags: [
-      'Blogger'      
+      'Blogger',
       'Web Developer',
       'Front End',
       'Javascript',
