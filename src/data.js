@@ -2905,7 +2905,7 @@ module.exports = [
   {
     name: 'Mohammad H. Sattarian',
     description: 'Web developer, AI enthusiast, Continuous Learner.',
-    url: 'https://mhsattarian.com/',
+    url: 'https://mhsattarian.com/hassan/uses',
     twitter: '@mh_sattarian',
     emoji: '👾',
     country: '🇮🇷',
