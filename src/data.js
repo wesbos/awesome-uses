@@ -1,6 +1,32 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Marko Denic',
+    description:
+        'Web Developer',
+    url: 'https://markodenic.com/uses/',
+    twitter: '@denicmarko',
+    emoji: '🚀',
+    country: '🇷🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web',
+      'Full Stack',
+      'Front End',
+      'JavaScript',
+      'CSS',
+      'Vue',
+      'Nuxt',
+      'TailwindCSS',
+      'Back End',
+      'PHP',
+      'Laravel',
+      'Wordpress',
+    ],
+  },
+  {
     name: 'Maxim Zubarev',
     description:
       'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
