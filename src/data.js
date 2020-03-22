@@ -2903,6 +2903,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Mohammad H. Sattarian',
+    description: 'Web developer, AI enthusiast, Continuous Learner.',
+    url: 'https://mhsattarian.com/',
+    twitter: '@mh_sattarian',
+    emoji: '👾',
+    country: '🇮🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Blogger'      
+      'Web Developer',
+      'Front End',
+      'Javascript',
+      'Node',
+      'React',
+      'Vue',
+      'Python',
+      'Flask',
+      'Deep Learning',
+    ],
+  },
+  {
     name: 'Jonathan Suh',
     description: 'Designer, Developer, Sneakerhead',
     url: 'https://jonsuh.com/uses',
