@@ -6111,7 +6111,27 @@ module.exports = [
       'JavaScript',
     ],
   },
-
+  {
+    name: 'Ben Shi',
+    description:
+      'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
+    url: 'https://hbish.com/uses/',
+    twitter: '@hbish',
+    emoji: '🐳',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Java',
+      'Kotlin',
+      'Engineer',
+      'Backend',
+      'API',
+      'Performance',
+      'Architecture',
+    ],
+  },
   {
     name: 'Benjamin Edenhuizen',
     description:
