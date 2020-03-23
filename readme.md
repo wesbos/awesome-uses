@@ -338,6 +338,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
 * [Trezy](https://trezy.com/uses) — Software engineer, JavaScript livestreamer, and a wannabe cyborg.
 * [Kim Ingram](https://www.foxynerd.dev/uses/) — Blue eyed vixen, front end developer, photographer, coffee addict.
+* [Ben Shi](https://hbish.com/uses/) — Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
 * [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
