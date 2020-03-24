@@ -2707,7 +2707,8 @@ module.exports = [
       'React',
       'Node',
       'Serverless',
-      'AWS'
+      'AWS',
+     ]
   },
   {
     name: 'Bruno Brito',
