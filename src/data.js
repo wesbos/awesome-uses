@@ -2684,6 +2684,33 @@ module.exports = [
     tags: ['Developer', 'JavaScript', 'C#', 'Node'],
   },
   {
+    name: 'Michael Kutz',
+    description:
+      "JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86",
+    url: 'https://miku86.com/uses/',
+    twitter: '@miku86com',
+    emoji: '😎',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Problem Solver',
+      'Engineer',
+      'Mentor',
+      'Teacher',
+      'Blogger',
+      'Scientist',
+      'Frontend',
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node',
+      'Serverless',
+      'AWS',
+     ]
+  },
+  {
     name: 'Bruno Brito',
     description:
       'Freelance Web Developer, Content Creator, Digital Marketing teacher',
