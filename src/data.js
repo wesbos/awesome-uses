@@ -2686,7 +2686,7 @@ module.exports = [
   {
     name: 'Michael Kutz',
     description:
-      "JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86",
+      'JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86',
     url: 'https://miku86.com/uses/',
     twitter: '@miku86com',
     emoji: '😎',
@@ -2708,7 +2708,7 @@ module.exports = [
       'Node',
       'Serverless',
       'AWS',
-     ]
+    ],
   },
   {
     name: 'Bruno Brito',

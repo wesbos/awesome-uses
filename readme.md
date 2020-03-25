@@ -160,6 +160,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Jeff Mair](https://jeffmair.net/uses) — Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner
+* [Michael Kutz](https://miku86.com/uses/) — JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86
 * [Bruno Brito](https://brunobrito.pt/uses) — Freelance Web Developer, Content Creator, Digital Marketing teacher
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Roy Tang](https://roytang.net/about/uses/) — Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.
