@@ -5522,6 +5522,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Ryan Senn',
+    description: 'Software engineer turned business owner. Loves functional porgramming.',
+    url: 'https://ryansenn.dev/uses',
+    twitter: '@RyanSenn4',
+    emoji: '🧐',
+    country: '🇨🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Entrepreneur',
+      'Business owner',
+      'Dad',
+      'Elm',
+      'Elixir',
+      'Haskell',
+    ],
+  },
+  {
     name: 'Michael Beckwith',
     description:
       'PHP and WordPress developer/support, coffee consumer, gym monkey',
