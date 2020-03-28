@@ -92,6 +92,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
 * [Michael Gale](https://michaelgale.dev/uses) — Web Developer with a beard and glasses from Melbourne, Australia
 * [Aaron A.](https://ocular-rhythm.io/uses/) — Sandwich enthusiast and programmer.
+* [Viren Bhagat](https://virenb.cc/uses) — Self taught full stack developer
 * [Renee de Kruijf](https://webdesignpuntnl.com/pages/uses.html) — Javascript developer in the making. Still learning every day. Liking it a lot!
 * [Amarpreet Singh](https://www.momcoded.com/uses) — Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.
 * [Christian Leo-Pernold](https://mazedlx.net/uses) — Dad. Husband. BBQ Enthusiast. Full-Stack-Developer.
@@ -207,6 +208,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
+* [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
 * [Mohammad Dohadwala](https://dohad.dev/uses) — Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
 * [Terry Godier](https://terrygodier.com/uses) — A developer and marketer of fine internet products.
@@ -247,6 +249,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
+* [Andrew Zeller](https://zeller.io/uses) — Frontend engineer and designer | SF Bay Area | Drone enthusiast
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
 * [Diana García](https://dianaeli.dev/uses) — Full Stack Web Developer based in Mexico City, I love to teach and to game
@@ -305,6 +308,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Max Schmeling](https://maxschmeling.me/uses) — CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
+* [Ryan Senn](https://ryansenn.dev/uses) — Software engineer turned business owner. Loves functional porgramming.
 * [Michael Beckwith](https://apiratelifefor.me/uses/) — PHP and WordPress developer/support, coffee consumer, gym monkey
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Vince Picone](https://vincepic.one/uses) — Building design systems at IBM
