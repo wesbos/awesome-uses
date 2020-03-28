@@ -3565,6 +3565,28 @@ module.exports = [
     tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware'],
   },
   {
+     name: 'Brian Mitchell',
+     description: 'Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.',
+     url: 'https://brianm.me/uses',
+     twitter: '@BrianMitchL',
+     emoji: '🥳',
+     country: '🇺🇸',
+     computer: 'apple',
+     phone: 'iphone',
+     tags: [
+       'Front End',
+       'Engineer',
+       'Software Engineer',
+       'HTML',
+       'CSS',
+       'SCSS',
+       'JavaScript',
+       'TypeScript',
+       'React',
+       'Speaker',
+     ],
+   },
+  {
     name: 'Mohammad Dohadwala',
     description:
       'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
