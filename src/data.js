@@ -1344,6 +1344,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Viren Bhagat',
+    description: 'Self taught full stack developer',
+    url: 'https://virenb.cc/uses',
+    twitter: '@virengb',
+    emoji: '🐦',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Node',
+      'Gatsby',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Renee de Kruijf',
     description:
       'Javascript developer in the making. Still learning every day. Liking it a lot!',
