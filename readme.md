@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Amirhossein Rahmati](http://amirhosseinrahmati.com/uses/) — Web Developer and dreamer
 * [Marko Denic](https://markodenic.com/uses/) — Web Developer
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
 * [Kelvin Mai](https://kelvinmai.io/uses) — Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot
