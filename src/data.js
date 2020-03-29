@@ -2978,6 +2978,17 @@ module.exports = [
     tags: ['JavaScript', 'TypeScript', 'React', 'Node', 'GraphQl', 'Svelte'],
   },
   {
+    name: 'Nicholas La Roux',
+    description: 'Developer at Shopify, musician, and environmentalist.',
+    url: 'https://nicholaslaroux.com/uses',
+    twitter: '@larouxn',
+    emoji: '🙌',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['Developer', 'Backend', 'Ruby'],
+  },
+  {
     name: 'Pouria Ezzati',
     description: 'Web developer. Digs music, football and a e s t h e t i c s',
     url: 'https://pouria.dev/uses',
