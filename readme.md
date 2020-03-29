@@ -176,6 +176,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) — Full stack JavaScript Developer, blogger and speaker.
 * [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.
+* [Nicholas La Roux](https://nicholaslaroux.com/uses) — Developer at Shopify, musician, and environmentalist.
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
