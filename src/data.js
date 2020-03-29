@@ -1313,6 +1313,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Ed Henderson',
+    description: 'Unicorn amongst donkeys',
+    twitter: '@edhenderson',
+    emoji: '🦄',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Developer',
+      'Front End',
+      'React',
+      'Engineer',
+      'Web Developer',
+      'Sass',
+    ],
+  },
+  {
     name: 'Michael Gale',
     description:
       'Web Developer with a beard and glasses from Melbourne, Australia',
