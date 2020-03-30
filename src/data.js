@@ -1315,6 +1315,7 @@ module.exports = [
   {
     name: 'Ed Henderson',
     description: 'Unicorn amongst donkeys',
+    url: 'https://twitter.com/edhenderson',
     twitter: '@edhenderson',
     emoji: '🦄',
     country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
