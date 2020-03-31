@@ -49,6 +49,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Ryan Harris',
+    description:
+      'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
+    url: 'https://ryanharris.dev/uses',
+    twitter: '@ryan_c_harris',
+    emoji: '🔥',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'React',
+      'JavaScript',
+      'Gatsby',
+      'Node',
+      'Serverless',
+      'Developer',
+      'Streamer',
+      'Writer',
+    ],
+  },
+  {
     name: 'Maxim Zubarev',
     description:
       'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
