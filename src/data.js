@@ -1220,6 +1220,27 @@ module.exports = [
     ],
   },
   {
+    name: 'José Cabeda',
+    description: 'Data Engineer at day and Full Stack at night',
+    url: 'https://cabeda.me/uses',
+    twitter: '@Jumpingtolife',
+    emoji: '📚',
+    country: '🇵🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'Python',
+      'Typescript',
+      'Full Stack',
+      'Software Engineer',
+      'Data Engineer',
+      'SQL',
+      'DBT',
+      'Business Intelligence',
+    ],
+  },
+  {
     name: 'Roberto Vázquez González',
     description:
       'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
