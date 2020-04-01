@@ -3582,7 +3582,8 @@ module.exports = [
   },
   {
     name: 'Holger Lösken',
-    description: 'Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.',
+    description:
+      'Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.',
     url: 'https://www.codedge.de/uses/',
     twitter: '@cod2edge',
     emoji: '📦',

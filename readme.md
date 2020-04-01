@@ -86,6 +86,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Victor Silva](https://github.com/VictorHSC/awesome-uses) — Web Developer
 * [Asur Bernardo](https://asur.dev/uses/) — Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!
 * [Vinoth Chellamuthu](https://ecevinoth.github.io/#uses) — Data Engineer
+* [José Cabeda](https://cabeda.me/uses) — Data Engineer at day and Full Stack at night
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
@@ -207,6 +208,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
+* [Holger Lösken](https://www.codedge.de/uses/) — Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.
 * [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
