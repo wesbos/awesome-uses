@@ -620,6 +620,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Aaron Uurman',
+    description:
+      'Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.',
+    url: 'https://aaronuurman.com/uses',
+    twitter: '@aaronuurman',
+    emoji: '🍕🍺',
+    country: '🇪🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Blogger',
+      'CSS',
+      'Gatsby',
+      'HTML',
+      'Back End',
+      '.NET',
+      'Linux',
+      '.NET Core',
+      'C#',
+      'Testing',
+      'Azure'
+    ],
+  },
+  {
     name: 'Maxence Poutord',
     description:
       'Software engineer, digital nomad, public speaker and remote worker',
