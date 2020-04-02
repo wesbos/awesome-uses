@@ -415,6 +415,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Marko Bajlovic',
+    description:
+      'Multidisciplinary creative and full-stack developer; forever learning.',
+    url: 'https://marko.tech/uses',
+    twitter: '@desmosthenes',
+    emoji: '🦁',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'DevOps',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'React',
+      'Node',
+      'NGINX',
+      'Gatsby',
+      'Python',
+      'PHP',
+      'GraphQL',
+      'UI',
+      'UX',
+    ],
+  },
+  {
     name: 'Simon Aronsson',
     description:
       'Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer',
