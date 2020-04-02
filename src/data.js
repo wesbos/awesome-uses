@@ -641,7 +641,7 @@ module.exports = [
       '.NET Core',
       'C#',
       'Testing',
-      'Azure'
+      'Azure',
     ],
   },
   {

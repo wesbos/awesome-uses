@@ -50,6 +50,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Amadeus Mader](https://mozart409.space/uses) — Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next
+* [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and full-stack developer; forever learning.
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
@@ -58,6 +59,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
+* [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Colin Principe](https://principe.io/uses/) — Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
