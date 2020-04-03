@@ -6862,6 +6862,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Stan Lo',
+    description: 'Developer at Ticketsolve, creator of Goby',
+    url: 'https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf',
+    twitter: '@_st0012',
+    emoji: '😎',
+    country: '🇹🇼',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Backend', 'Ruby', 'Rails', 'Goby'],
+  },
+  {
     name: 'Tony Mamedbekov',
     description:
       'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
