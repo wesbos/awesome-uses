@@ -2469,6 +2469,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Sascha Monteiro',
+    description: 'Full Stack Web Developer, JavaScript, Java',
+    url: 'https://www.purejs.com/uses',
+    emoji: '🥋',
+    country: '🇳🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Back End',
+      'JavaScript',
+      'Node',
+      'Redis',
+      'Vue',
+      'Java',
+      'SQL',
+      'Oracle',
+      'Docker',
+      'Linux'
+    ],
+  },
+  {
     name: 'Leonardo Melo',
     description:
       'Full stack web developer. Typescript lover, always learning new stuff.',
