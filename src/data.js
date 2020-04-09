@@ -2476,6 +2476,7 @@ module.exports = [
     country: '🇳🇿',
     computer: 'apple',
     phone: 'iphone',
+    twitter: '@saschamonteiro',
     tags: [
       'Developer',
       'Full Stack',
