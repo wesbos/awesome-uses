@@ -2844,6 +2844,27 @@ module.exports = [
     tags: ['Developer', 'JavaScript', 'C#', 'Node'],
   },
   {
+    name: 'Jeremy Collins',
+    description: 'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
+    url: 'https://jeremycollins.net/uses',
+    twitter: '@jollins',
+    emoji: '🥤',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'React Native',
+      'Ruby',
+      'Node',
+      'Angular',
+      'Swift',
+    ],
+  },
+  {
     name: 'Michael Kutz',
     description:
       'JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86',
