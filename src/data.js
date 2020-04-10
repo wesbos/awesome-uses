@@ -2489,7 +2489,7 @@ module.exports = [
       'SQL',
       'Oracle',
       'Docker',
-      'Linux'
+      'Linux',
     ],
   },
   {
@@ -2869,7 +2869,8 @@ module.exports = [
   },
   {
     name: 'Jeremy Collins',
-    description: 'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
+    description:
+      'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
     url: 'https://jeremycollins.net/uses',
     twitter: '@jollins',
     emoji: '🥤',
