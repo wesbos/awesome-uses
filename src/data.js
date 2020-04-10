@@ -4691,7 +4691,7 @@ module.exports = [
     description:
       'Full Stack Web Developer based in Mexico City, I love to teach and to game',
     url: 'https://dianaeli.dev/uses',
-    twitter: '@dianacronica',
+    twitter: '@dianaeligg',
     emoji: '💚',
     country: '🇲🇽',
     computer: 'windows',
