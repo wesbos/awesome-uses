@@ -2471,7 +2471,7 @@ module.exports = [
   {
     name: 'Sascha Monteiro',
     description: 'Full Stack Web Developer, JavaScript, Java',
-    url: 'https://www.purejs.com/uses',
+    url: 'https://www.purejs.com/uses/',
     emoji: '🥋',
     country: '🇳🇿',
     computer: 'apple',
