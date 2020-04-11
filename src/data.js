@@ -6979,6 +6979,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Preston Lamb',
+    description: 'Full Stack JavaScript Developer and Thinkster.io Author',
+    url: 'https://www.prestonlamb.com/uses',
+    twitter: '@pjlamb12',
+    emoji: '🏀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Angular',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+	  'SCSS',
+	  'RxJS',
+	  'Scully',
+	  'Instructor',
+	  'Teacher',
+	  'Course Maker',
+	  'Blogger'
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
