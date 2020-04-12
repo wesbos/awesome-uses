@@ -100,6 +100,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Gergo Nagy',
+    description:
+      'Software Developer, on a mission to make the world a better place.',
+    url: 'https://gergonagy.tech/uses',
+    twitter: '@dzsi1994',
+    emoji: '🏀, ⚽, 🎧',
+    country: '🇭🇺',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Angular',
+      'VueJS',
+      'Rxjs',
+      'Nest.js',
+      'Engineer',
+      'Front End',
+      'Sport & Basketball'
+    ],
+  },
+  {
     name: 'Ryan Harris',
     description:
       'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
