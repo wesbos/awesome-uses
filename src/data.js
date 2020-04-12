@@ -74,6 +74,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Raul Melo',
+    description:
+      'Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.',
+    url: 'https://raulmelo.dev/uses',
+    twitter: '@raul_fdm',
+    emoji: '👌',
+    country: '🇧🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Data Scraping',
+      'Engineer',
+      'Front End',
+      'GraphQL',
+      'JavaScript',
+      'Node',
+      'React',
+      'Software Engineer',
+      'Styled Components',
+      'TypeScript',
+      'Web Developer',
+      'Windows',
+      'Writer',
+    ],
+  },
+  {
     name: 'Ryan Harris',
     description:
       'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
