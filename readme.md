@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amirhossein Rahmati](http://amirhosseinrahmati.com/uses/) — Web Developer and dreamer
 * [Marko Denic](https://markodenic.com/uses/) — Web Developer
 * [𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭](http://baharajr.me/uses) — 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐖𝐞𝐢𝐫𝐝𝐨
+* [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
 * [Kelvin Mai](https://kelvinmai.io/uses) — Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot
