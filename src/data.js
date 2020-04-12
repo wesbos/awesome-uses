@@ -116,7 +116,7 @@ module.exports = [
       'Nest.js',
       'Engineer',
       'Front End',
-      'Sport & Basketball'
+      'Sport & Basketball',
     ],
   },
   {
