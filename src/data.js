@@ -97,6 +97,9 @@ module.exports = [
       'Linux',
       'Remote',
       'APIs',
+      'PyCharm',
+      'WebStorm',
+      'Visual Studio Code'
     ]
   },
   {
