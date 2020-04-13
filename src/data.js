@@ -25,8 +25,7 @@ module.exports = [
   },
   {
     name: 'Abo Baloyi',
-    description:
-      'Full stack developer & full time computer geek',
+    description: 'Full stack developer & full time computer geek',
     url: 'https://baloyiabo.co.za/uses',
     twitter: '@abobaloyi',
     emoji: '☕',
@@ -42,7 +41,7 @@ module.exports = [
       'Entrepreneur',
       'Node',
       'GraphQL',
-      'PHP' ,
+      'PHP',
       'JavaScript',
       'Docker',
       'Linux',
