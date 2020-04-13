@@ -101,8 +101,8 @@ module.exports = [
       'APIs',
       'PyCharm',
       'WebStorm',
-      'Visual Studio Code'
-    ]
+      'Visual Studio Code',
+    ],
   },
   {
     name: '𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭',
