@@ -95,6 +95,8 @@ module.exports = [
       'Flask',
       'PHP',
       'Linux',
+      'Pop!_OS',
+      'Ubuntu',
       'Remote',
       'APIs',
       'PyCharm',
