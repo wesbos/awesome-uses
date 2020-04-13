@@ -77,7 +77,7 @@ module.exports = [
     description: 'Software Engineer',
     url: 'https://markrailton.com/uses',
     twitter: '@railto',
-    emoji: '',
+    emoji: '🐧',
     country: '🇮🇪',
     computer: 'linux',
     phone: 'iphone',
