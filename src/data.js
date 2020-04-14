@@ -3,7 +3,8 @@ module.exports = [
   {
     name: 'Sythe Veenje',
     description: 'Freelance Developer & Designer',
-    url: 'https://sythe.nl/uses',
+    url: 'https://sythe.nl/uses',     
+    twitter: '@sytheveenje',
     emoji: '🚴🏻‍♂️',
     country: '🇳🇱',
     computer: 'apple',
