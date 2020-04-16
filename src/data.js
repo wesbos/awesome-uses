@@ -6332,6 +6332,7 @@ module.exports = [
       'Gatsby',
       'Storyblok',
     ],
+  },
   {
     name: 'Murendeni Mukwevho',
     description: 'Web Developer',
