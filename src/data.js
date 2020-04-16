@@ -6312,7 +6312,7 @@ module.exports = [
   {
     name: 'Pedro Sousa',
     description: 'Full Stack Developer',
-    url: 'https://psousa.dev',
+    url: 'https://psousa.dev/uses',
     twitter: '@pedroso_usa',
     emoji: '🔥',
     country: '🇵🇹',
