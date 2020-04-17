@@ -3047,7 +3047,7 @@ module.exports = [
     phone: 'android',
     tags: [
       'Developer',
-      'Student'
+      'Student',
       'React',
       'JavaScript',
       'Python',
