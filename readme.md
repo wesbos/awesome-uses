@@ -175,6 +175,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Jeff Mair](https://jeffmair.net/uses) — Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner
 * [Jeremy Collins](https://jeremycollins.net/uses) — Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.
+* [Ali Ahsan](https://aliahsan.tech/uses) — CS Masters Student with a knack for software development
 * [Michael Kutz](https://miku86.com/uses/) — JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86
 * [Bruno Brito](https://brunobrito.pt/uses) — Freelance Web Developer, Content Creator, Digital Marketing teacher
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
