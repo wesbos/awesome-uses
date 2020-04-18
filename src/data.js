@@ -46,6 +46,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Ammar Alakkad',
+    description: 'Web Developer',
+    url: 'https://ammar.codes/uses/',
+    twitter: '@AmmarCodes',
+    emoji: '☕',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web',
+      'Developer',
+      'Full Stack',
+      'Front End',
+      'Back End',
+      'JavaScript',
+      'Vue',
+      'CSS',
+      'Vim',
+      'GitLab',
+   ]
+  },
+  {
     name: 'Amirhossein Rahmati',
     description: 'Web Developer and dreamer',
     url: 'http://amirhosseinrahmati.com/uses/',
