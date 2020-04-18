@@ -65,7 +65,7 @@ module.exports = [
       'CSS',
       'Vim',
       'GitLab',
-   ]
+    ],
   },
   {
     name: 'Amirhossein Rahmati',

@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer
 * [𝙅𝙤𝙧𝙧𝙚 𝙎𝙥𝙞𝙟𝙠𝙚𝙧](https://jorrespijker.nl/uses) — Web Developer from the Netherlands
+* [Ammar Alakkad](https://ammar.codes/uses/) — Web Developer
 * [Amirhossein Rahmati](http://amirhosseinrahmati.com/uses/) — Web Developer and dreamer
 * [Abo Baloyi](https://baloyiabo.co.za/uses) — Full stack developer & full time computer geek
 * [Marko Denic](https://markodenic.com/uses/) — Web Developer
