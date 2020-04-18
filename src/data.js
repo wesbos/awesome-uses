@@ -55,15 +55,15 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Developer',
       'Web',
+      'Developer',
       'Full Stack',
       'Front End',
       'Back End',
       'JavaScript',
-      'CSS',
-      'Node',
       'Vue',
+      'CSS',
+      'Vim',
       'GitLab',
    ]
   },
