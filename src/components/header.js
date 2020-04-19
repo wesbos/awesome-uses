@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
@@ -21,7 +21,7 @@ function Header({ siteTitle, siteDescription, siteUrl }) {
         <meta name="twitter:image" content={`${siteUrl}/twitter-card.png`} />
       </Helmet>
       <div>
-        <h1>
+        <h1 id="top">
           <Link to="/">/uses</Link>
         </h1>
         <p>
@@ -34,10 +34,14 @@ function Header({ siteTitle, siteDescription, siteUrl }) {
 }
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  siteDescription: PropTypes.string,
+  siteUrl: PropTypes.string,
 };
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: '',
+  siteDescription: '',
+  siteUrl: '',
 };
 
 export default Header;

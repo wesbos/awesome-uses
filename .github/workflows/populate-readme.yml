@@ -1,4 +1,4 @@
-name: Populate README.md from master
+name: Populate readme.md from master and lint src/data.js
 
 on:
   push:
@@ -18,14 +18,33 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 13.x
-    - name: Populate README.md from master
+
+    - name: Cache/Restore node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+        key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Lint src/data.js
+      run: |
+        npx eslint --fix src/data.js
+        git add src/data.js
+
+    - name: Populate readme.md from master
       run: |
         node ./scripts/populate-readme.js
         mv generated-readme.md readme.md
         git add readme.md
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "chore: generate \`readme.md\`"
+        # commit only if any changes
+        if [ ! -z "$(git status --porcelain)" ]; then
+        git commit -m "chore: generate \`readme.md\`, lint \`src/data.js\`"
+        fi
+
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

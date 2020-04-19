@@ -6,6 +6,7 @@ import FilterContext from '../context/FilterContext';
 import Layout from '../components/layout';
 import Person from '../components/Person';
 import Topics from '../components/Topics';
+import BackToTop from '../components/BackToTop';
 
 function IndexPage() {
   const { currentTag } = useContext(FilterContext);
@@ -43,6 +44,7 @@ function IndexPage() {
           <Person key={person.name} person={person} currentTag={currentTag} />
         ))}
       </People>
+      <BackToTop />
     </Layout>
   );
 }

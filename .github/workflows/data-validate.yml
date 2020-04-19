@@ -15,11 +15,17 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 13.x
-    - name: Install validation libs
-      run: |
-        npm install -g @hapi/joi@17.0.2
-        npm install -g @actions/core@1.2.0
-        npm link @hapi/joi
-        npm link @actions/core
+
+    - name: Cache/Restore node modules
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
+        key: ${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}
+
+    - name: Install Dependencies
+      run: npm install
+
     - name: Validate data.js
       run: node ./scripts/data-validate.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
