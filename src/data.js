@@ -153,7 +153,7 @@ module.exports = [
       'Full Stack',
       'GraphQL',
       'React',
-      'Gatsby'
+      'Gatsby',
       'Vue',
       'Sass',
       'AWS',
