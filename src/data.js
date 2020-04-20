@@ -6138,10 +6138,10 @@ module.exports = [
     ],
   },
   {
-    name: 'David Vives',
+    name: 'David A. Vives R.',
     description:
       'Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
-    url: 'http://dispuestoaaprender.netlify.com/en/uses',
+    url: 'https://dispuestoaaprender.com/en/uses',
     twitter: '@davidvives',
     emoji: '🦊',
     country: '🇨🇷',
