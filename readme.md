@@ -168,6 +168,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
 * [Tony Cimaglia](https://www.tonycimaglia.com/uses/) — Restaurant Veteran turned Developer.
 * [Nuno Maduro](https://nunomaduro.com/uses/) — Software engineer, Open Source contributor, Speaker
+* [Anthony Humphreys](https://anthonyhumphreys.dev/uses/) — Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
@@ -336,7 +337,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jacob Herper](https://herper.io/uses/) — Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.
 * [Ajay Karwal](https://ajaykarwal.com/uses/) — A designer, developer and UX guy from Buckingham, UK.
 * [Raúl Negrón](https://raulnegron.me/uses/) — Software Developer from Puerto Rico
-* [David Vives](http://dispuestoaaprender.netlify.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
+* [David A. Vives R.](https://dispuestoaaprender.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
 * [Ryan Warner](https://ryan.warner.codes/uses) — Software Engineer and Interface Designer. Leader and Mentor.
 * [Nicky Meuleman](https://nickymeuleman.netlify.app/uses) — Web developer, F1 fan.
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
