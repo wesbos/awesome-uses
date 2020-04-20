@@ -1,6 +1,25 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Lucas Schumacher',
+    description: 'Fullstack Developer, IoT & DIY Enthusiast',
+    url: 'https://aceto.dev/uses',
+    twitter: '@aceto_ls',
+    emoji: '🌮',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web',
+      'React',
+      'TypeScript',
+      'JavaScript',
+      'C#',
+    ],
+  },
+  {
     name: 'Sythe Veenje',
     description: 'Freelance Developer & Designer',
     url: 'https://sythe.nl/uses',
