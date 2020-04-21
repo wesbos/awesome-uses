@@ -1,6 +1,28 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Felix Yeboah - Jefferson',
+    description: 'Fullstack Developer, UI Designer & a Nomad',
+    url: 'https://jefson.dev/uses',
+    twitter: '@jaeyholic',
+    emoji: '🌮',
+    country: '🇬🇭',
+    computer: 'Mac',
+    phone: 'iPhone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web',
+      'React',
+      'Vue',
+      'Python',
+      'JavaScript',
+      'TailwindCSS',
+      'Chakra-UI',
+      'UI Designer'
+    ],
+  },
+  {
     name: 'Lucas Schumacher',
     description: 'Fullstack Developer, IoT & DIY Enthusiast',
     url: 'https://aceto.dev/uses',
