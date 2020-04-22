@@ -1,6 +1,27 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Ruben Janssen',
+    description: 'Front-end Developer, Gadget G33k, Guild Lead',
+    url: 'https://rubenjanssen.me/uses',
+    twitter: '@RubenJ',
+    emoji: '🦄',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'UX Developer',
+      'JavaScript',
+      'CSS',
+      'Semantics',
+      'Vue',
+      'DevOps',
+      'Motorcycle',
+    ],
+  },
+  {
     name: 'Eva Dee',
     description: 'Web Developer. Note-taker. Trying to Do Good.',
     url: 'https://includejs.dev/uses',
