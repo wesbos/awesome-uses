@@ -15,7 +15,7 @@ module.exports = [
       'UX Developer',
       'JavaScript',
       'CSS',
-      'Semantics'
+      'Semantics',
       'Vue',
       'DevOps',
       'Motorcycle',
