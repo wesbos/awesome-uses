@@ -1,8 +1,9 @@
 // keep it commonjs export
 module.exports = [
-    {
+  {
     name: 'Jesse Stilwell',
-    description: 'Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.',
+    description:
+      'Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.',
     url: 'https://stilwell.io/uses',
     twitter: '@owlbynight',
     emoji: '🦉',
