@@ -18,7 +18,7 @@ module.exports = [
       'Gatsby',
       'Remote',
       'Blogger',
-      'Teacher'
+      'Teacher',
     ],
   },
   {
