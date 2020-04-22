@@ -7305,7 +7305,7 @@ module.exports = [
     name: 'Preston Lamb',
     description: 'Full Stack JavaScript Developer and Thinkster.io Author',
     url: 'https://www.prestonlamb.com/uses',
-    twitter: '@pjlamb12',
+    twitter: '@prestonjlamb',
     emoji: '🏀',
     country: '🇺🇸',
     computer: 'apple',
