@@ -6,7 +6,7 @@ module.exports = [
     url: 'https://stilwell.io/uses',
     twitter: '@owlbynight',
     emoji: '🦉',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     tags: [
