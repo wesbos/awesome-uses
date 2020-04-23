@@ -51,7 +51,7 @@ module.exports = [
     twitter: '@jjcollinsworth',
     emoji: '🍻',
     country: '🇺🇸',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Developer',
