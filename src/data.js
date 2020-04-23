@@ -43,6 +43,29 @@ module.exports = [
       'Motorcycle',
     ],
   },
+    {
+    name: 'Josh Collinsworth',
+    description:
+      'Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.',
+    url: 'https://joshcollinsworth.com/uses',
+    twitter: '@jjcollinsworth',
+    emoji: '🍻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'CSS',
+      'WordPress',
+      'Nuxt',
+      'Gridsome',
+      'Ruby',
+      'Blogger',
+      'Teacher'
+    ],
+  },
   {
     name: 'Eva Dee',
     description: 'Web Developer. Note-taker. Trying to Do Good.',
