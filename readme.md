@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Jesse Stilwell](https://stilwell.io/uses) — Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
+* [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer

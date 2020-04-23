@@ -43,7 +43,7 @@ module.exports = [
       'Motorcycle',
     ],
   },
-    {
+  {
     name: 'Josh Collinsworth',
     description:
       'Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.',
@@ -63,7 +63,7 @@ module.exports = [
       'Gridsome',
       'Ruby',
       'Blogger',
-      'Teacher'
+      'Teacher',
     ],
   },
   {
