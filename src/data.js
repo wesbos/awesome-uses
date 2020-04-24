@@ -3784,6 +3784,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Erik Thiart',
+    description:
+      'Full Stack Developer, I am a Swiss Army knife.',
+    url: 'https://erikthiart.com',
+    twitter: '@erikthiart',
+    emoji: '⚔️',
+    country: 'za',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Back End',
+      'Php',
+      'SQL',
+      'AWS',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Dale French',
     description:
       'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
