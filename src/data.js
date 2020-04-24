@@ -3787,7 +3787,7 @@ module.exports = [
     name: 'Erik Thiart',
     description:
       'Full Stack Developer, I am a Swiss Army knife.',
-    url: 'https://erikthiart.com',
+    url: 'https://erikthiart.com/uses/',
     twitter: '@erikthiart',
     emoji: '⚔️',
     country: 'za',
