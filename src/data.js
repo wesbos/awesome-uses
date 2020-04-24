@@ -23,6 +23,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Erik Thiart',
+    description:
+      'Full Stack Developer, I am a Swiss Army knife.',
+    url: 'https://erikthiart.com/uses/',
+    twitter: '@erikthiart',
+    emoji: '⚔️',
+    country: '🇿🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Back End',
+      'Php',
+      'SQL',
+      'AWS',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Ruben Janssen',
     description: 'Front-end Developer, Gadget G33k, Guild Lead',
     url: 'https://rubenjanssen.me/uses',
@@ -3781,25 +3800,6 @@ module.exports = [
       'GraphQL',
       'Gatsby',
       'Next',
-    ],
-  },
-  {
-    name: 'Erik Thiart',
-    description:
-      'Full Stack Developer, I am a Swiss Army knife.',
-    url: 'https://erikthiart.com/uses/',
-    twitter: '@erikthiart',
-    emoji: '⚔️',
-    country: 'za',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Web Development',
-      'Back End',
-      'Php',
-      'SQL',
-      'AWS',
-      'Full Stack',
     ],
   },
   {
