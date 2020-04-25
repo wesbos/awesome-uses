@@ -1222,7 +1222,7 @@ module.exports = [
     url: 'https://www.keithdonegan.com/uses/',
     twitter: '@eirestudio',
     emoji: '🤪',
-    country: '🇮🇪🇸',
+    country: '🇮🇪',
     computer: 'apple',
     phone: 'iphone',
     tags: [
