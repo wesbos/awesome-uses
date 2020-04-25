@@ -1302,6 +1302,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Keith Donegan',
+    description:
+      'Irish WordPress developer, based in London, UK.',
+    url: 'https://www.keithdonegan.com/uses/',
+    twitter: '@eirestudio',
+    emoji: '🤪',
+    country: '🇮🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'WordPress',
+      'Developer',
+      'CSS',
+      'Front-End'
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
