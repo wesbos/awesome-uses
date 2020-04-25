@@ -584,13 +584,13 @@ module.exports = [
     tags: [
       'Artist',
       'Writer',
-      'Outlaw'
+      'Outlaw',
       'Designer',
       'Developer',
       'Illustrator',
       'HTML',
       'CSS',
-      'JavaScript'
+      'JavaScript',
     ],
   },
   {
