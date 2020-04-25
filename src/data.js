@@ -134,7 +134,8 @@ module.exports = [
   },
   {
     name: 'Jonas Jore',
-    description: 'Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!',
+    description:
+      'Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!',
     url: 'https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md',
     twitter: '@JonasJore',
     emoji: '🍕☕',
