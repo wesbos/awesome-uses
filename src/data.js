@@ -1,6 +1,28 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Felix Yeboah - Jefferson',
+    description: 'Fullstack Developer, UI Designer & a Nomad',
+    url: 'https://jeffson.netlify.app/uses',
+    twitter: '@jaeyholic',
+    emoji: '🌮',
+    country: '🇬🇭',
+    computer: 'Mac',
+    phone: 'iPhone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web',
+      'React',
+      'Vue',
+      'Python',
+      'JavaScript',
+      'TailwindCSS',
+      'Chakra-UI',
+      'UI Designer'
+    ],
+  },
+  {
     name: 'Alexander Christiaan Jacob',
     description:
       'A guy that does things, and thinks that having a reason for doing so is largely overrated.',
