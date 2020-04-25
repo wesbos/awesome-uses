@@ -6600,6 +6600,27 @@ module.exports = [
     ],
   },
   {
+    name: 'John Slipper',
+    description: 'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
+    url: 'https://www.johnslipper.com/uses/',
+    emoji: '🤯',
+    country: '🇳🇿',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@johnslipper',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'CSS',
+      'HTML',
+      'Vue',
+      'React',
+      'AngularJS',
+      'UI'
+    ],
+  },
+  {
     name: 'Arturo Campos',
     description: 'Web Developer, dad, mountain biker, meat lover',
     url: 'https://arturocampos.dev/uses',
