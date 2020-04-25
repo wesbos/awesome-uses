@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
 * [Jesse Stilwell](https://stilwell.io/uses) — Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
@@ -67,6 +68,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and full-stack developer; forever learning.
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Yogi](https://github.com/yg/uses) — iOS and Web Developer
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
 * [Bui Minh Phuc](https://buiminhphuc.com/uses/) — A front-end web developer lives and works in Saigon, and still single 😉
 * [Chandu J S](https://chandujs.dev/uses) — 💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.
@@ -356,6 +358,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcin Krawczyk](https://marcin.codes/uses) — Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Web Developer
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
+* [John Slipper](https://www.johnslipper.com/uses/) — Web Developer, mountain biker, drone enthusiast, Minecraft nerd
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
 * [Esmit Perez](https://esmit.me/uses) — Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.

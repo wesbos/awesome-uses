@@ -837,8 +837,7 @@ module.exports = [
   },
   {
     name: 'Yogi',
-    description:
-      'iOS and Web Developer',
+    description: 'iOS and Web Developer',
     url: 'https://github.com/yg/uses',
     twitter: '@ygcodes',
     emoji: '🍑',
@@ -6601,7 +6600,8 @@ module.exports = [
   },
   {
     name: 'John Slipper',
-    description: 'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
+    description:
+      'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
     url: 'https://www.johnslipper.com/uses/',
     emoji: '🤯',
     country: '🇳🇿',
@@ -6617,7 +6617,7 @@ module.exports = [
       'Vue',
       'React',
       'AngularJS',
-      'UI'
+      'UI',
     ],
   },
   {
