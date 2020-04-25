@@ -5,10 +5,10 @@ module.exports = [
     description: 'Fullstack Developer, UI Designer & a Nomad',
     url: 'https://jeffson.netlify.app/uses',
     twitter: '@jaeyholic',
-    emoji: '🌮',
+    emoji: '😂',
     country: '🇬🇭',
     computer: 'apple',
-    phone: 'iPhone',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
