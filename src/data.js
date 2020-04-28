@@ -3589,6 +3589,27 @@ module.exports = [
     tags: ['JavaScript', 'TypeScript', 'React', 'Node', 'GraphQl', 'Svelte'],
   },
   {
+    name: 'Ronie Meque',
+    description:
+      'Web Developer. Loves to help people and hopes to one day actually finish a side project or travel the world, whichever comes firts',
+    url: 'https://ronie.dev/uses',
+    twitter: '@roniemeque',
+    emoji: '💁‍♂️',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'TypeScript',
+      'Performance',
+      'Serverless',
+      'React',
+      'Laravel',
+      'Swift',
+      'CSS',
+    ],
+  },
+  {
     name: 'Nicholas La Roux',
     description: 'Developer at Shopify, musician, and environmentalist.',
     url: 'https://nicholaslaroux.com/uses',
