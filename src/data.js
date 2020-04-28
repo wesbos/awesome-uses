@@ -4913,7 +4913,6 @@ module.exports = [
     phone: 'android',
     tags: [
       'Engineer',
-      'Technical Support',
       'Web Developer',
       'Full Stack',
       'HTML',
