@@ -4903,6 +4903,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Marcos Mendes',
+    description:
+      'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
+    url: 'https://marcosmendes.eu/uses',
+    twitter: '@mffmendes',
+    emoji: '💾',
+    country: '🇵🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer'
+      'Technical Support'
+      'Web Developer',
+      'Full Stack',
+      'HTML',
+      'CSS',
+      'PHP',
+      'Laravel',
+      'JavaScript',
+      'VueJS',
+      'MySQL',
+      'MongoDB',
+      'Linux',
+      'Ubuntu',
+    ],
+  },
+  {
     name: 'Josh Farrant',
     description:
       'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
