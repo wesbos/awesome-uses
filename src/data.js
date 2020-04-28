@@ -5726,9 +5726,12 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
+      'Architect',
       'Entrepreneur',
+      'iOS',
       'Swift',
       'Objective-C',
+      'Ruby',
       'Ruby On Rails',
       'Open Source',
       'Blogger',
