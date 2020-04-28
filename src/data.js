@@ -4904,8 +4904,7 @@ module.exports = [
   },
   {
     name: 'Marcos Mendes',
-    description:
-      'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
+    description: 'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
     url: 'https://marcosmendes.eu/uses',
     twitter: '@mffmendes',
     emoji: '💾',
@@ -4913,7 +4912,7 @@ module.exports = [
     computer: 'windows',
     phone: 'android',
     tags: [
-      'Engineer'
+      'Engineer',
       'Technical Support'
       'Web Developer',
       'Full Stack',
