@@ -4115,6 +4115,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Karel De Smet',
+    description:
+      'Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.',
+    url: 'https://kareldesmet.be/uses',
+    emoji: '🎃',
+    country: '🇧🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+	  'Test Engineer',
+	  'Selenium',
+	  'Cucumber',
+	  'Javascript',
+	  'HTML',
+	  'CSS',
+	  'Node',
+	  'MongoDB',
+	  'Hyperledger',
+	  'Java',
+    ],
+  },
+  {
     name: 'Alberto Fortes',
     description:
       'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
