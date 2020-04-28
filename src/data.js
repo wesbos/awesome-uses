@@ -4905,7 +4905,7 @@ module.exports = [
   {
     name: 'Marcos Mendes',
     description: 'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
-    url: 'https://marcosmendes.eu/uses',
+    url: 'https://marcosmendes.eu:2053/uses',
     twitter: '@mffmendes',
     emoji: '💾',
     country: '🇵🇹',
