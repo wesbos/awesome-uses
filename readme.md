@@ -29,8 +29,10 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Anubhav Srivastava](https://theanubhav.com/uses) — Web Developer. Occasional blogger. Part time open source contributor
 * [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
 * [Jesse Stilwell](https://stilwell.io/uses) — Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.
+* [Erik Thiart](https://erikthiart.com/uses/) — Full Stack Developer, I am a Swiss Army knife.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
@@ -231,6 +233,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Miguel Ángel Durán](https://midu.dev/uses) — Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.
 * [David Llop](https://davidllop.com/uses) — Full stack developer from Girona. Open Source contributor. Always Learning.
 * [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.
+* [Karel De Smet](https://kareldesmet.be/uses) — Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
@@ -271,6 +274,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mark Tse](https://neverendingqs.com/uses/) — A back-end developer who likes to dabble in the front-end.
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
 * [Zoran Panev](https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git) — Web developer
+* [Marcos Mendes](https://marcosmendes.eu:2053/uses) — Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
