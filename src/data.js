@@ -1059,6 +1059,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Siim Männart',
+    description:
+      'Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.',
+    url: 'https://siim.co/uses',
+    twitter: '@siim',
+    emoji: '🐾',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Azure',
+      'Cloud',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'TailwindCSS',
+      'Web Developer',
+    ],
+  },
+  {
     name: 'Maxence Poutord',
     description:
       'Software engineer, digital nomad, public speaker and remote worker',
