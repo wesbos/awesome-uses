@@ -1,9 +1,30 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Felix Yeboah Jefferson',
+    description: 'Fullstack Developer, UI Designer & a Nomad',
+    url: 'https://jeffson.netlify.app/uses',
+    twitter: '@jaeyholic',
+    emoji: '😂',
+    country: '🇬🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web',
+      'React',
+      'Vue',
+      'Python',
+      'JavaScript',
+      'TailwindCSS',
+      'Chakra-UI',
+      'UI Designer'
+    ],
+  },
+  {
     name: 'Anubhav Srivastava',
-    description:
-      'Web Developer. Occasional blogger. Part time open source contributor',
+    description: 'Web Developer. Occasional blogger. Part time open source contributor',
     url: 'https://theanubhav.com/uses',
     twitter: '@onlyanubhav',
     emoji: '🧑🏻‍💻',
@@ -18,7 +39,7 @@ module.exports = [
       'CSS',
       'JavaScript',
       'npm',
-    ],
+      ],
   },
   {
     name: 'Alexander Christiaan Jacob',
