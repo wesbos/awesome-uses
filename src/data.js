@@ -472,6 +472,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Chris Hufnagel',
+    description: 'Front End Developer & Designer',
+    url: 'https://chrishufnagel.com/uses/',
+    twitter: '@ChrisHufnagel',
+    emoji: '🤓',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web',
+      'Front End',
+      'CSS',
+      'SCSS',
+      'HTML',
+      'PHP',
+      'Wordpress',
+      'Blogger',
+      'Entrepreneur',
+    ],
+  },
+  {
     name: 'Maxim Zubarev',
     description:
       'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
