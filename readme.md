@@ -50,6 +50,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
 * [Gergo Nagy](https://gergonagy.tech/uses) — Software Developer, on a mission to make the world a better place.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.
+* [Chris Hufnagel](https://chrishufnagel.com/uses/) — Front End Developer & Designer
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
 * [Kelvin Mai](https://kelvinmai.io/uses) — Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot
 * [Tim Raderschad](https://cstrnt.dev/uses) — Germany based JS Enthuasiast
@@ -352,6 +353,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
 * [Jens van Wijhe](https://jens.ai/uses) — Creative web developer and entrepreneur
 * [Jacob Herper](https://herper.io/uses/) — Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.
+* [Albin Groen](https://albingroen.com/uses/) — Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.
 * [Ajay Karwal](https://ajaykarwal.com/uses/) — A designer, developer and UX guy from Buckingham, UK.
 * [Raúl Negrón](https://raulnegron.me/uses/) — Software Developer from Puerto Rico
 * [David A. Vives R.](https://dispuestoaaprender.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
