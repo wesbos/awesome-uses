@@ -1,6 +1,26 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Anubhav Srivastava',
+    description:
+      'Web Developer. Occasional blogger. Part time open source contributor',
+    url: 'https://theanubhav.com/uses',
+    twitter: '@onlyanubhav',
+    emoji: '🧑🏻‍💻',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'UX Developer',
+      'Developer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'npm',
+    ],
+  },
+  {
     name: 'Alexander Christiaan Jacob',
     description:
       'A guy that does things, and thinks that having a reason for doing so is largely overrated.',
@@ -43,6 +63,17 @@ module.exports = [
       'DevOps',
       'Platforms',
     ],
+  },
+  {
+    name: 'Erik Thiart',
+    description: 'Full Stack Developer, I am a Swiss Army knife.',
+    url: 'https://erikthiart.com/uses/',
+    twitter: '@erikthiart',
+    emoji: '⚔️',
+    country: '🇿🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Web Development', 'Back End', 'Php', 'SQL', 'AWS', 'Full Stack'],
   },
   {
     name: 'Ruben Janssen',
@@ -443,7 +474,7 @@ module.exports = [
   {
     name: 'Chris Hufnagel',
     description: 'Front End Developer & Designer',
-    url: 'https://chrishufnagel.com/uses/,
+    url: 'https://chrishufnagel.com/uses/',
     twitter: '@ChrisHufnagel',
     emoji: '🤓',
     country: '🇺🇸',
@@ -4136,6 +4167,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Karel De Smet',
+    description:
+      'Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.',
+    url: 'https://kareldesmet.be/uses',
+    emoji: '🎃',
+    country: '🇧🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Test Engineer',
+      'Selenium',
+      'Cucumber',
+      'Javascript',
+      'HTML',
+      'CSS',
+      'Node',
+      'MongoDB',
+      'Hyperledger',
+      'Java',
+    ],
+  },
+  {
     name: 'Alberto Fortes',
     description:
       'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
@@ -4921,6 +4974,32 @@ module.exports = [
       'JavaScript',
       'React',
       'Kali Linux',
+    ],
+  },
+  {
+    name: 'Marcos Mendes',
+    description:
+      'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
+    url: 'https://marcosmendes.eu:2053/uses',
+    twitter: '@mffmendes',
+    emoji: '💾',
+    country: '🇵🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Web Developer',
+      'Full Stack',
+      'HTML',
+      'CSS',
+      'PHP',
+      'Laravel',
+      'JavaScript',
+      'VueJS',
+      'MySQL',
+      'MongoDB',
+      'Linux',
+      'Ubuntu',
     ],
   },
   {
@@ -6422,6 +6501,31 @@ module.exports = [
       'TypeScript',
       'Performance',
       'Entrepreneur',
+    ],
+  },
+  {
+    name: 'Albin Groen',
+    description:
+      "Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.",
+    url: 'https://albingroen.com/uses/',
+    twitter: '@albingroen',
+    emoji: '👨‍💻',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'Node',
+      'GraphQL',
+      'Gatsby',
+      'Sanity',
+      'Front End',
+      'TypeScript',
+      'Performance',
+      'Entrepreneur',
+      'Community',
+      'Design',
     ],
   },
   {
