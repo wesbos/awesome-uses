@@ -19,12 +19,13 @@ module.exports = [
       'JavaScript',
       'TailwindCSS',
       'Chakra-UI',
-      'UI Designer'
+      'UI Designer',
     ],
   },
   {
     name: 'Anubhav Srivastava',
-    description: 'Web Developer. Occasional blogger. Part time open source contributor',
+    description:
+      'Web Developer. Occasional blogger. Part time open source contributor',
     url: 'https://theanubhav.com/uses',
     twitter: '@onlyanubhav',
     emoji: '🧑🏻‍💻',
