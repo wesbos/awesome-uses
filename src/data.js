@@ -4470,6 +4470,7 @@ module.exports = [
     name: 'Erno Salo',
     description: 'Full Stack Developer and Open Source Contributor',
     url: 'https://endormi.io/uses/',
+    twitter: '@_endormi',
     emoji: '🎮',
     country: '🇫🇮',
     computer: 'windows',
