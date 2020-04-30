@@ -39,6 +39,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
+* [Anthony Del Rosario](https://adelrosarioh.me/uses) — Experienced Full Stack Software Engineer & Computers Lover
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer
 * [𝙅𝙤𝙧𝙧𝙚 𝙎𝙥𝙞𝙟𝙠𝙚𝙧](https://jorrespijker.nl/uses) — Web Developer from the Netherlands
 * [Ammar Alakkad](https://ammar.codes/uses/) — Web Developer
