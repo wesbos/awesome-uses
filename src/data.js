@@ -6,7 +6,7 @@ module.exports = [
     url: 'https://www.alexduval.fr/uses',
     twitter: '@xlanex6',
     emoji: '🎿',
-    country: '🇫🇷🇭',
+    country: '🇫🇷',
     computer: 'apple',
     phone: 'iphone',
     tags: [
