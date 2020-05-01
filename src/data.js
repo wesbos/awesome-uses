@@ -1,6 +1,6 @@
 // keep it commonjs export
 module.exports = [
-    {
+  {
     name: 'Alex Duval',
     description: 'Fullstack Dev, Teacher, Freeride skier',
     url: 'https://www.alexduval.fr/uses',
