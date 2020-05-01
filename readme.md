@@ -160,6 +160,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ruben Arakelyan](https://ruben.arakelyan.uk/uses/) — Web Developer and self builder in Cornwall, UK
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
+* [Andre Landgraf](https://andre-landgraf.cool/uses/) — Passionate Fullstack Web Developer
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
 * [Dave Mullen Jnr](https://davemullenjnr.co.uk/uses) — Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.
 * [Josh Buchea](https://joshbuchea.com/uses) — Software Engineer, Open Source Contributor
