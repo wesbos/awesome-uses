@@ -1480,7 +1480,7 @@ module.exports = [
   {
     name: 'Brandon Clapp',
     description:
-      'I create user interfaces and write code for the web. I enjoy teaching others what I\'ve learned along the way.',
+      "I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.",
     url: 'https://brandonclapp.com/uses',
     twitter: '@BrandonClapp',
     emoji: '👏',
@@ -7626,22 +7626,14 @@ module.exports = [
   },
   {
     name: 'Mijndert Stuij',
-    description:
-      'Engineer. Hacker. Minimalist.',
+    description: 'Engineer. Hacker. Minimalist.',
     url: 'https://mijndertstuij.nl/uses/',
     twitter: '@mijndert',
     emoji: '🚀',
     country: '🇳🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'AWS',
-      'Cloud',
-      'Infrastructure',
-      'Engineer',
-      'Developer',
-      'DevOps'
-    ],
+    tags: ['AWS', 'Cloud', 'Infrastructure', 'Engineer', 'Developer', 'DevOps'],
   },
   {
     name: 'Kevin Simkanič',
