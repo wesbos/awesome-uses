@@ -1478,6 +1478,33 @@ module.exports = [
     tags: ['WordPress', 'Developer', 'CSS', 'Front-End'],
   },
   {
+    name: 'Brandon Clapp',
+    description:
+      'I create user interfaces and write code for the web. I enjoy teaching others what I\'ve learned along the way.',
+    url: 'https://brandonclapp.com/uses',
+    twitter: '@BrandonClapp',
+    emoji: '👏',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Node',
+      'Angular',
+      'React',
+      'Full Stack',
+      'Front End',
+      'C#',
+      'Python',
+      'AWS',
+      'Blogger',
+      'Entrepreneur',
+      'Developer',
+      'Teacher',
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
