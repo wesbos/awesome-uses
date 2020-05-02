@@ -7625,6 +7625,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Mijndert Stuij',
+    description:
+      'Engineer. Hacker. Minimalist.',
+    url: 'https://mijndertstuij.nl/uses/',
+    twitter: '@mijndert',
+    emoji: '🚀',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'AWS',
+      'Cloud',
+      'Infrastructure',
+      'Engineer',
+      'Developer',
+      'DevOps'
+    ],
+  },
+  {
     name: 'Kevin Simkanič',
     description: 'Wordpress ninja 😎 React lover ❤️ CSS master 🧐',
     url: 'https://github.com/kevinko12323/uses',
