@@ -7541,6 +7541,17 @@ module.exports = [
     tags: ['Full Stack', 'Ruby', 'PHP', 'Python', 'JavaScript', 'Vue'],
   },
   {
+    name: 'Eric Eggert',
+    description: 'HTML, CSS, JS & Accessibility.',
+    url: 'https://yatil.net/uses',
+    twitter: '@yatil',
+    emoji: '👋',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Accessibility', 'HTML', 'CSS', 'JavaScript', 'Speaker'],
+  },
+  {
     name: 'Armno Prommarak',
     description: 'Frontend developer, blogger, cyclist.',
     url: 'https://armno.in.th/uses',
