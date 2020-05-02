@@ -403,6 +403,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simranjit Singh](https://simranjit.dev/uses) — Javascript loving Coldfusion developer
 * [Maxwell Morrison](https://maxmorrison.me/uses) — Continuous leaner and freelance full stack developer
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
+* [Eric Eggert](https://yatil.net/uses) — HTML, CSS, JS & Accessibility.
 * [Armno Prommarak](https://armno.in.th/uses) — Frontend developer, blogger, cyclist.
 * [Fernando Paredes](https://fdp.io/about/uses) — iOS/macOS developer, serial hobbyist, language nerd.
 * [Tarik Omercehajic](https://robotz.tech/uses/) — DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)
