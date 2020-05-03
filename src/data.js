@@ -20,6 +20,26 @@ module.exports = [
       'TailwindCSS',
       'Vuetify',
     ],
+    
+  },
+  {
+    name: 'Moni',
+    description: 'Open Source Maintainer, Wizz',
+    url: 'https://github/NotMoni/uses',
+    emoji: '🤯',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Web',
+      'JavaScript',
+      'npm',
+      'ExpressJS',
+      'MongoDB',
+      'Redis',
+    ],
+    
   },
   {
     name: 'Felix Yeboah Jefferson',
