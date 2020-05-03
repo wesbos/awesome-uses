@@ -38,8 +38,16 @@ async function main() {
   }
 
   await communicateValidationOutcome(errors, failedUrls, data);
+
+  return {
+    failedUrls,
+    errors,
+    data,
+  };
 }
 
 if (require.main === module) {
   main();
 }
+
+module.exports = main;
