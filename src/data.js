@@ -2762,7 +2762,7 @@ module.exports = [
     url: 'https://ruben.arakelyan.uk/uses/',
     emoji: '💾',
     country: '🇬🇧',
-    computer: 'windows',
+    computer: 'linux',
     phone: 'iphone',
     tags: [
       'Developer',
