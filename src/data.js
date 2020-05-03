@@ -7096,7 +7096,7 @@ module.exports = [
     name: 'Rohit Gohri',
     description: 'Full Stack Developer dabbling in DevOps, CI/CD',
     url: 'https://rohit.page/uses',
-    twitter: '@rohit-gohri',
+    twitter: '@rohit_gohri',
     emoji: '',
     country: '🇮🇳',
     computer: 'linux',
