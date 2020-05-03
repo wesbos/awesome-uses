@@ -1,53 +1,7 @@
-const exec = require('@actions/exec');
-const core = require('@actions/core');
 const Joi = require('@hapi/joi');
 const http = require('http');
 const https = require('https');
 const flags = require('./flags.js');
-
-async function getCurrentBranchName() {
-  let myOutput = '';
-  let myError = '';
-
-  const options = {
-    silent: true,
-    listeners: {
-      stdout: data => (myOutput += data.toString()),
-      stderr: data => (myError += data.toString()),
-    },
-  };
-
-  await exec.exec('git rev-parse --abbrev-ref HEAD', [], options);
-  return myOutput.trim();
-}
-
-/** on master branch will return an empty array */
-module.exports.getMasterData = async function() {
-  const options = { silent: true };
-  const curentBranchName = await getCurrentBranchName();
-  // when on a branch/PR different from master
-  // will populate scripts/masterData.js with src/data.js from master
-  if (curentBranchName !== 'master') {
-    core.info('Executing action on branch different from master');
-    await exec.exec('mv src/data.js src/tmpData.js', [], options);
-    await exec.exec('git fetch origin master', [], options);
-    await exec.exec('git restore --source=FETCH_HEAD src/data.js', [], options);
-    await exec.exec('mv src/data.js scripts/masterData.js', [], options);
-    await exec.exec('mv src/tmpData.js src/data.js', [], options);
-  } else {
-    core.info('Executing action on master branch');
-  }
-
-  // eslint-disable-next-line global-require
-  const masterData = require('./masterData.js');
-
-  // restore `scripts/masterData.js` after was loaded
-  if (curentBranchName !== 'master') {
-    await exec.exec('git restore scripts/masterData.js', [], options);
-  }
-
-  return masterData;
-};
 
 module.exports.Schema = Joi.object({
   name: Joi.string().required(),

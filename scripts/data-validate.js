@@ -1,9 +1,8 @@
-const { getMasterData, Schema, getStatusCode } = require('./utils.js');
+const { Schema, getStatusCode } = require('./utils.js');
 const srcData = require('../src/data.js');
 
-async function main() {
-  // on master branch will be empty array
-  const masterDataUrls = (await getMasterData()).map(d => d.url);
+async function main(masterData = []) {
+  const masterDataUrls = masterData.map(d => d.url);
   // so here data will be an array with all users
   const data = srcData.filter(d => !masterDataUrls.includes(d.url));
 

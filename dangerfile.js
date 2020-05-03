@@ -1,9 +1,22 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const { fail, markdown, message, schedule } = require('danger');
+const { danger, fail, markdown, message, schedule } = require('danger');
 const validate = require('./scripts/data-validate');
 
+const DATA_FILE = 'src/data.js';
+
 async function main() {
-  const { data: changedData, errorMsgs, failedUrls } = await validate();
+  if (!danger.git.modified_files.includes(DATA_FILE)) {
+    message(`No changes in \`${DATA_FILE}\``);
+    return;
+  }
+
+  const diff = await danger.git.diffForFile(DATA_FILE);
+  // eslint-disable-next-line no-eval
+  const masterData = eval(diff.before);
+
+  const { data: changedData, errorMsgs, failedUrls } = await validate(
+    masterData
+  );
 
   // If there are errors, will fail the action & add a comment detailing the issues
   if (errorMsgs.length) {
