@@ -19,7 +19,9 @@ async function main() {
   const errorMsgs = [];
 
   errors.forEach(e => {
-    e.details.forEach(d => errorMsgs.push(d.message));
+    e.details.forEach(d =>
+      errorMsgs.push(`${e._original.name || e._original.url}: ${d.message}`)
+    );
   });
 
   /**
