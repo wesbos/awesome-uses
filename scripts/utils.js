@@ -1,6 +1,5 @@
 const exec = require('@actions/exec');
 const core = require('@actions/core');
-const github = require('@actions/github');
 const Joi = require('@hapi/joi');
 const http = require('http');
 const https = require('https');
@@ -83,50 +82,5 @@ module.exports.getStatusCode = function(url) {
         resolve(res.statusCode);
       })
       .on('error', err => reject(err));
-  });
-};
-
-// If there are errors, will fail the action & add a comment detailing the issues
-// If there are no errors, will leave an "all-clear" comment with relevant URLs (to ease a potential manual check)
-module.exports.communicateValidationOutcome = async function(
-  errors,
-  failedUrls,
-  changedData
-) {
-  let comment = '';
-  if (errors.length || failedUrls.length) {
-    core.setFailed('Action failed with errors, see logs & comment');
-
-    comment += [
-      '🚨 We have detected the following issues, let us (contributors) know if you need support or clarifications:',
-      ...errors.map(e => `- ${e.message}`),
-      ...failedUrls.map(url => `- URL is invalid: ${url}`),
-    ].join('\n');
-  } else {
-    comment += [
-      '✅ Automatic validation checks succeeded for:',
-      // Comment with the URLs of users that have changed
-      // for easy access, way easier than taking a screenshot
-      ...changedData.map(({ name, url }) => `- ${name}, ${url}`),
-    ].join('\n');
-  }
-
-  const { GITHUB_TOKEN } = process.env;
-  const { context } = github;
-  if (!GITHUB_TOKEN || !context.payload.pull_request) {
-    core.error(
-      'Cannot add a comment if GITHUB_TOKEN or context.payload.pull_request is not set'
-    );
-    core.info(`Comment contents:\n${comment}`);
-    return;
-  }
-
-  const pullRequestNumber = context.payload.pull_request.number;
-
-  const octokit = new github.GitHub(GITHUB_TOKEN);
-  await octokit.issues.createComment({
-    ...context.repo,
-    issue_number: pullRequestNumber,
-    body: comment,
   });
 };

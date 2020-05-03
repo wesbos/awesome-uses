@@ -1,10 +1,5 @@
 const core = require('@actions/core');
-const {
-  getMasterData,
-  Schema,
-  getStatusCode,
-  communicateValidationOutcome,
-} = require('./utils.js');
+const { getMasterData, Schema, getStatusCode } = require('./utils.js');
 const srcData = require('../src/data.js');
 
 async function main() {
@@ -37,17 +32,11 @@ async function main() {
     }
   }
 
-  await communicateValidationOutcome(errors, failedUrls, data);
-
   return {
     failedUrls,
     errors,
     data,
   };
-}
-
-if (require.main === module) {
-  main();
 }
 
 module.exports = main;
