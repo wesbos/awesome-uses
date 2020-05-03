@@ -40,4 +40,6 @@ async function main() {
   await communicateValidationOutcome(errors, failedUrls, data);
 }
 
-main();
+if (require.main === module) {
+  main();
+}
