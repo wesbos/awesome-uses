@@ -7695,7 +7695,7 @@ module.exports = [
   {
     name: 'Rohit Gohri',
     description: 'Dummy entry to trigger workflow',
-    url: 'https://rohit.page',
+    url: 'https://rohit.page/using',
     twitter: '@rohit-gohri',
     emoji: '🌲',
     country: '🇮🇳',
