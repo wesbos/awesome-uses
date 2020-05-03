@@ -7693,6 +7693,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Rohit Gohri',
+    description: 'Dummy entry to trigger workflow',
+    url: 'https://rohit.page',
+    twitter: '@rohit-gohri',
+    emoji: '🌲',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Developer'],
+  },
+  {
     name: 'Jeremy Bunting',
     description: 'Web 🤖 working remotely from the Connecticut burbs',
     url: 'https://qbunt.com/uses',
