@@ -9,7 +9,11 @@ async function main() {
   const data = srcData.filter(d => !masterDataUrls.includes(d.url));
 
   const errors = data
-    .map(person => Schema.validate(person))
+    .map(person =>
+      Schema.validate(person, {
+        abortEarly: false,
+      })
+    )
     .filter(v => v.error)
     .map(v => v.error);
 
