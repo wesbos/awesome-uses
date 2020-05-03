@@ -4,17 +4,25 @@ const validate = require('./scripts/data-validate');
 
 async function main() {
   let comment = '';
-  const { data: changedData, errors, failedUrls } = await validate();
+  const { data: changedData, errorMsgs, failedUrls } = await validate();
 
   // If there are errors, will fail the action & add a comment detailing the issues
   // If there are no errors, will leave an "all-clear" comment with relevant URLs (to ease a potential manual check)
-  if (errors.length || failedUrls.length) {
-    fail('Action failed with errors, see logs & comment');
+  if (errorMsgs.length || failedUrls.length) {
+    fail(
+      `Action failed with ${errorMsgs.length +
+        failedUrls.length} errors, see logs & comment`
+    );
 
     comment += [
       '🚨 We have detected the following issues, let us (contributors) know if you need support or clarifications:',
-      ...errors.map(e => `- ${e.message}`),
-      ...failedUrls.map(url => `- URL is invalid: ${url}`),
+
+      ...errorMsgs.map(msg => `- ${msg}`),
+
+      ...failedUrls.map(({ url, error, statusCode }) => {
+        if (error) return `- URL is invalid: ${url}, error: ${error.message}`;
+        return `- URL is invalid: ${url}, status code: ${statusCode}`;
+      }),
     ].join('\n');
   } else if (changedData.length) {
     comment += [

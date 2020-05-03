@@ -1,4 +1,3 @@
-const core = require('@actions/core');
 const { getMasterData, Schema, getStatusCode } = require('./utils.js');
 const srcData = require('../src/data.js');
 
@@ -17,28 +16,30 @@ async function main() {
     .filter(v => v.error)
     .map(v => v.error);
 
+  const errorMsgs = [];
+
   errors.forEach(e => {
-    core.error(e._original.name || e._original.url);
-    e.details.forEach(d => core.error(d.message));
+    e.details.forEach(d => errorMsgs.push(d.message));
   });
 
+  /**
+   * @type {{url: string, statusCode?: number, error?: Error}[]}
+   */
   const failedUrls = [];
   for (const { url } of data) {
     try {
       const statusCode = await getStatusCode(url);
       if (statusCode < 200 || statusCode >= 400) {
-        core.error(`Ping to "${url}" failed with status: ${statusCode}`);
-        failedUrls.push(url);
+        failedUrls.push({ url, statusCode });
       }
     } catch (e) {
-      core.error(`Ping to "${url}" failed with error: ${e}`);
-      failedUrls.push(url);
+      failedUrls.push({ url, error: e });
     }
   }
 
   return {
     failedUrls,
-    errors,
+    errorMsgs,
     data,
   };
 }
