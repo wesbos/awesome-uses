@@ -1224,8 +1224,9 @@ module.exports = [
     ],
   },
   {
-    name: 'Ryan filler',
-    description: 'Front-End Developer & Designer',
+    name: 'Ryan Filler',
+    description:
+      'Front-End Developer & Designer',
     url: 'https://ryanfiller.com/uses',
     twitter: '@ryanfiller_',
     emoji: '🐕',
