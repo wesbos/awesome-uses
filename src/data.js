@@ -5337,6 +5337,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Janez Čadež',
+    description: 'Full-Stack developer, gym enthusiast and self-improvement nerd',
+    url: 'https://janez.tech/uses',
+    twitter: '@jamziSLO',
+    emoji: '🚢',
+    country: '🇸🇮',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web',
+      'JavaScript',
+      'React',
+      'Material UI',
+      'Firebase',
+    ],
+  },
+  {
     name: 'Bezael Pérez',
     description: 'Front-end Developer passionate. Trainer & speaker',
     url: 'https://dominicode.com/uses',
