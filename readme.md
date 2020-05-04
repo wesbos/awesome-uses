@@ -291,6 +291,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
+* [Janez Čadež](https://janez.tech/uses) — Full-Stack developer, gym enthusiast and self-improvement nerd
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
 * [Andrew Zeller](https://zeller.io/uses) — Frontend engineer and designer | SF Bay Area | Drone enthusiast
 * [Zander Martineau](https://zander.wtf/writing/my-setup) — Independent front-end-full-stack-UI-UX-engineer coder
