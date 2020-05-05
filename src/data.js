@@ -4736,6 +4736,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Chris Jones',
+    description: 'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
+    url: 'https://chrisjones.io/uses',
+    twitter: '@chrisjonesio',
+    emoji: '🌲',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Front End',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'PHP',
+    ],
+  },
+  {
     name: 'Diego Vazquez',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
