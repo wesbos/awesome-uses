@@ -1225,8 +1225,7 @@ module.exports = [
   },
   {
     name: 'Ryan filler',
-    description:
-      'Front-End Developer & Designer',
+    description: 'Front-End Developer & Designer',
     url: 'https://ryanfiller.com/uses',
     twitter: '@ryanfiller_',
     emoji: '🐕',
@@ -7368,7 +7367,8 @@ module.exports = [
   },
   {
     name: 'Justin Conway',
-    description: 'Chicago-based front-end developer passionate about the web and pork.',
+    description:
+      'Chicago-based front-end developer passionate about the web and pork.',
     url: 'https://conwaydev.com/uses/',
     twitter: '@conwaydev',
     emoji: '🆒',
@@ -7385,7 +7385,7 @@ module.exports = [
       'PHP',
       'Laravel',
       'WordPress',
-      'Performance'
+      'Performance',
     ],
   },
   {

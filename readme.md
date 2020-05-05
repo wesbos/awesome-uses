@@ -86,6 +86,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
 * [Siim Männart](https://siim.co/uses) — Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.
+* [Ryan filler](https://ryanfiller.com/uses) — Front-End Developer & Designer
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Colin Principe](https://principe.io/uses/) — Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
@@ -394,6 +395,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
 * [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
+* [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
 * [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
 * [Alex Carpenter](https://alexcarpenter.me/uses) — UI Engineer, Screencaster
