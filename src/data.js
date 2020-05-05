@@ -4146,6 +4146,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Liam Richardson',
+    description:
+      'User Interface developer focusing on Performance, A11y and CSS',
+    url: 'https://discoliam.com/uses/',
+    twitter: '@discoliam',
+    emoji: '🍕',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'a11y'
+      'Performance'
+      'Design Systems',
+      'Sass',
+      'Wordpress'
+    ],
+  },
+  {
     name: 'Timothy Miller',
     description: 'Web Designer/Developer for hire. Wears lots of hats.',
     url: 'https://timothymiller.dev/uses',
