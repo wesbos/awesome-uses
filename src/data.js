@@ -7338,6 +7338,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Justin Conway',
+    description: 'Chicago-based front-end developer passionate about the web and pork.',
+    url: 'https://conwaydev.com/uses/',
+    twitter: '@conwaydev',
+    emoji: '🆒',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Jamstack',
+      'JavaScript',
+      'AMP',
+      'CSS',
+      'PHP',
+      'Laravel',
+      'WordPress',
+      'Performance'
+    ],
+  },
+  {
     name: 'Logan Blangenois',
     description:
       'Front-end developer passionate about eco-friendly (web)app and React.',
