@@ -4160,8 +4160,8 @@ module.exports = [
       'HTML',
       'CSS',
       'JavaScript',
-      'a11y'
-      'Performance'
+      'a11y',
+      'Performance',
       'Design Systems',
       'Sass',
       'Wordpress'
