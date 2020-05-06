@@ -1392,6 +1392,7 @@ module.exports = [
     url: 'https://dockwarder.com/uses',
     twitter: '@dockwarder',
     emoji: '⚛',
+    country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
     tags: [
