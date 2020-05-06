@@ -1,25 +1,6 @@
 // keep it commonjs export
 module.exports = [
   {
-    name: 'Julius Dockwarder',
-    description: 'Full-Stack Developer',
-    url: 'https://dockwarder.com',
-    twitter: '@dockwarder',
-    emoji: '⚛',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Student',
-      'ThinkPad',
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Next',
-      'Vim'
-    ]
-  },
-  {
     name: 'Alex Duval',
     description: 'Fullstack Dev, Teacher, Freeride skier',
     url: 'https://www.alexduval.fr/uses',
@@ -1404,6 +1385,25 @@ module.exports = [
       'WordPress',
       'Rails',
     ],
+  },
+  {
+    name: 'Julius Dockwarder',
+    description: 'Full-Stack Developer',
+    url: 'https://dockwarder.com/uses',
+    twitter: '@dockwarder',
+    emoji: '⚛',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Student',
+      'ThinkPad',
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Next',
+      'Vim'
+    ]
   },
   {
     name: 'Jamie Ryan',
