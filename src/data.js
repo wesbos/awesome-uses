@@ -4737,7 +4737,8 @@ module.exports = [
   },
   {
     name: 'Chris Jones',
-    description: 'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
+    description:
+      'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
     url: 'https://chrisjones.io/uses',
     twitter: '@chrisjonesio',
     emoji: '🌲',
