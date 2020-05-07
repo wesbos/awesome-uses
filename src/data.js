@@ -4164,7 +4164,7 @@ module.exports = [
       'Performance',
       'Design Systems',
       'Sass',
-      'Wordpress'
+      'Wordpress',
     ],
   },
   {

@@ -231,6 +231,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
 * [Spencer Aung](https://spenceraung.me/blog/uses) — Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses
 * [Dale French](https://dalefrench.dev/uses) — Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.
+* [Liam Richardson](https://discoliam.com/uses/) — User Interface developer focusing on Performance, A11y and CSS
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
 * [Jordi Hoven](https://www.jordihoven.nl/uses) — Healthcare engineer, UX Designer, Whisky lover
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.
