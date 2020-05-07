@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
+* [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
 * [Felix Yeboah Jefferson](https://jeffson.netlify.app/uses) — Fullstack Developer, UI Designer & a Nomad
 * [Anubhav Srivastava](https://theanubhav.com/uses) — Web Developer. Occasional blogger. Part time open source contributor
 * [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
