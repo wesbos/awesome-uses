@@ -7772,7 +7772,7 @@ module.exports = [
     emoji: "🔥",
     country: "🇮🇳",
     computer: "apple",
-    phone: "iPhone",
+    phone: "iphone",
     tags: [
       "Developer",
       "Full Stack",
