@@ -1231,7 +1231,7 @@ module.exports = [
     name: 'Siim Männart',
     description:
       'Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.',
-    url: 'https://siim.co/uses',
+    url: 'https://siim.me/uses',
     twitter: '@siim',
     emoji: '🐾',
     country: '🇦🇺',
