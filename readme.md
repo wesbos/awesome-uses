@@ -86,7 +86,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
-* [Siim Männart](https://siim.co/uses) — Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.
+* [Siim Männart](https://siim.me/uses) — Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Colin Principe](https://principe.io/uses/) — Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.
