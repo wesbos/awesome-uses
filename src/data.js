@@ -7765,6 +7765,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Piyush Mehta',
+    description: 'Full Stack Developer Based in INDIA',
+    url: 'http://www.piyushmehta.com/uses/',
+    twitter: '@CoderWhoKnows',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'CSS',
+      'SpringBoot',
+      'NodeJs',
+    ],
+  },
+  {
     name: 'Duncan McDougall',
     description:
       'Web developer, contractor, remotely working from the South of Scotland',
