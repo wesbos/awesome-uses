@@ -302,7 +302,7 @@ module.exports = [
   },
   {
     name: 'Christopher Talke',
-    description: 'ICT Professional / Fullstack Web Dev and Skateboarder',
+    description: 'ICT Professional / Fullstack Web Developer and Skateboarder',
     url: 'https://talke.dev/uses',
     twitter: '@cbtalke',
     emoji: '🍫',
