@@ -301,6 +301,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Christopher Talke',
+    description: 'ICT Professional / Fullstack Web Developer and Skateboarder',
+    url: 'https://talke.dev/uses',
+    twitter: '@cbtalke',
+    emoji: '🍫',
+    country: '🇦🇺',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer', 
+      'Full Stack', 
+      'Web',
+      'Gatsby',
+      'Devops',
+      'Node',
+      'JavaScript',
+      'React'
+    ]
+  },
+  {
     name: '𝙅𝙤𝙧𝙧𝙚 𝙎𝙥𝙞𝙟𝙠𝙚𝙧',
     description: 'Web Developer from the Netherlands',
     url: 'https://jorrespijker.nl/uses',
