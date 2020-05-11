@@ -310,15 +310,15 @@ module.exports = [
     computer: 'windows',
     phone: 'iphone',
     tags: [
-      'Developer', 
-      'Full Stack', 
+      'Developer',
+      'Full Stack',
       'Web',
       'Gatsby',
       'Devops',
       'Node',
       'JavaScript',
-      'React'
-    ]
+      'React',
+    ],
   },
   {
     name: '𝙅𝙤𝙧𝙧𝙚 𝙎𝙥𝙞𝙟𝙠𝙚𝙧',
