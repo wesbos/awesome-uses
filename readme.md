@@ -400,6 +400,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ben Shi](https://hbish.com/uses/) — Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
+* [Anthony Morris](https://anthonymorris.dev/uses/) — Builder, JavaScript wrangler, and wannabe stoic.
 * [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
 * [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
