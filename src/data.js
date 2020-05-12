@@ -1884,7 +1884,8 @@ module.exports = [
   },
   {
     name: 'Varatep Buranintu',
-    description: 'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
+    description:
+      'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
     url: 'https://www.varatech.io/uses/',
     twitter: '@varatep',
     emoji: '👀',
@@ -1906,7 +1907,7 @@ module.exports = [
       'Engineer',
       'Web Developer',
       'Front End',
-      '🇺🇸'
+      '🇺🇸',
     ],
   },
   {

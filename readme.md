@@ -115,6 +115,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Didier Catz](https://didiercatz.com/uses) — Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.
+* [Varatep Buranintu](https://www.varatech.io/uses/) — Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.
 * [Anwar Hussain](https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0) — Web Developer and No-Code Maker
 * [Victor Silva](https://github.com/VictorHSC/awesome-uses) — Web Developer
 * [Asur Bernardo](https://asur.dev/uses/) — Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!
