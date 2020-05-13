@@ -3782,6 +3782,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Duncan Bain',
+    description: 'Mechanical Engineer learning to code!',
+    url: 'https://duncanbain.dev/uses/',
+    twitter: '@duncanbain',
+    emoji: '🥃',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Gatsby',
+      'Developer',
+      'JavaScript',
+      'TailwindCSS',
+      'Blogger',
+      'JAMstack',
+      'Engineer',
+      'CSS'
+    ],
+  },
+  {
     name: 'Jason Raimondi',
     description: 'Full Stack Developer',
     url: 'https://jasonraimondi.com/uses',
