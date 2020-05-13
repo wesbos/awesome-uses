@@ -3798,7 +3798,7 @@ module.exports = [
       'Blogger',
       'JAMstack',
       'Engineer',
-      'CSS'
+      'CSS',
     ],
   },
   {
