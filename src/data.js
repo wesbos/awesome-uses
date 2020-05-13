@@ -3787,7 +3787,7 @@ module.exports = [
     url: 'https://duncanbain.dev/uses/',
     twitter: '@duncanbain',
     emoji: '🥃',
-    country: 'GB',
+    country: '🇬🇧',
     computer: 'windows',
     phone: 'apple',
     tags: [
