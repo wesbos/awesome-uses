@@ -3789,7 +3789,7 @@ module.exports = [
     emoji: '🥃',
     country: '🇬🇧',
     computer: 'windows',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Gatsby',
       'Developer',
