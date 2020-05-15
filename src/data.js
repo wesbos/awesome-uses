@@ -1,6 +1,32 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Clint Winter',
+    description: 'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
+    url: 'https://clintgwinter.com/uses',
+    twitter: '@ClintWinter2',
+    emoji: '🤓⛺',
+    country: 'US',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Full Stack',
+      'Developer',
+      'Web',
+      'PHP',
+      'SQL',
+      'Laravel',
+      'JavaScript',
+      'TailwindCSS',
+      'CSS',
+      'Vue',
+      'AlpineJS',
+      'Laravel Livewire',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Alex Duval',
     description: 'Fullstack Dev, Teacher, Freeride skier',
     url: 'https://www.alexduval.fr/uses',
