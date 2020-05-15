@@ -1390,6 +1390,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Clint Winter',
+    description: 'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
+    url: 'https://clintgwinter.com/uses',
+    twitter: '@ClintWinter2',
+    emoji: '🤓⛺',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Full Stack',
+      'Developer',
+      'Web',
+      'PHP',
+      'SQL',
+      'Laravel',
+      'JavaScript',
+      'TailwindCSS',
+      'CSS',
+      'Vue',
+      'AlpineJS',
+      'Laravel Livewire',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Daan Kauwenberg',
     description:
       'JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer',
