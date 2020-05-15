@@ -1391,7 +1391,8 @@ module.exports = [
   },
   {
     name: 'Clint Winter',
-    description: 'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
+    description:
+      'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
     url: 'https://clintgwinter.com/uses',
     twitter: '@ClintWinter2',
     emoji: '🤓⛺',
@@ -1412,7 +1413,7 @@ module.exports = [
       'Vue',
       'AlpineJS',
       'Laravel Livewire',
-      'Blogger'
+      'Blogger',
     ],
   },
   {
