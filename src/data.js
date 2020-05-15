@@ -1395,7 +1395,7 @@ module.exports = [
     url: 'https://clintgwinter.com/uses',
     twitter: '@ClintWinter2',
     emoji: '🤓⛺',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     tags: [
