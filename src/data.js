@@ -2767,6 +2767,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Adrián Alcorta Puente',
+    description:
+      'Graphic designer moving forward to be a Frontend developer. Love mountains, Game Boys and post-rock music.',
+    url: 'https://ardillan.com/uses',
+    emoji: '🐲',
+    country: '🇪🇸',
+    computer: 'apple',
+    twitter: '@ardillan_',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Graphic Designer',
+      'UI',
+      'CSS',
+      'JavaScript',
+      'React',
+      'JAMstack',
+      'HTML',
+    ],
+  },
+  {
     name: 'Samir Mammadhasanov',
     description:
       'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
