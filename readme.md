@@ -158,6 +158,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
 * [Valentina Calabrese](https://valentinacalabrese.com/uses) — Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.
+* [Adrián Alcorta Puente](https://ardillan.com/uses) — Graphic designer moving forward to be a Frontend developer. Love mountains, Game Boys and post-rock music.
 * [Samir Mammadhasanov](https://samirmh.dev/uses.html) — Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
