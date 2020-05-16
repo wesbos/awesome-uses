@@ -349,6 +349,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Eduardo Reveles](https://www.osiux.ws/about/uses) — Web Engineer, Husband, Gamer.
 * [Dorian Morones](https://www.dorianmorones.com/uses) — Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Gamer
 * [Thomas Maximini](https://www.maxi.io/uses/) — Freelance software developer from Germany.
+* [Philippe Diep](https://www.philippediep.com/uses) — Full Stack Web Engineer, Musician, Learner.
 * [Philip Theobald](https://www.philiptheobald.com/uses/) — Guitar player, motorcyclist, software engineer, entreprenuer
 * [Wes Baker](https://wesbaker.com/uses) — Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic
 * [Rubén Rodríguez](https://www.rubenr.dev/uses) — Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified
