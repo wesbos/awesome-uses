@@ -22,6 +22,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Adil Naqvi',
+    description: 'Mechanical engineer with a knack for coding',
+    url: 'https://adilnaqvi.com/uses',
+    twitter: '@notadilnaqvi',
+    emoji: '👨‍💻',
+    country: '🇵🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Frontend',
+      'ReactJS'
+    ],
+  },
+  {
     name: 'Matías Hernández',
     description: 'Frontend Engineer, Podcaster, Father, Calisthenic Athlete',
     url: 'https://github.com/matiasfh/uses',
