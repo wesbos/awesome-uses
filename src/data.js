@@ -30,11 +30,7 @@ module.exports = [
     country: '🇵🇰',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Frontend',
-      'ReactJS'
-    ],
+    tags: ['Engineer', 'Frontend', 'ReactJS'],
   },
   {
     name: 'Matías Hernández',
