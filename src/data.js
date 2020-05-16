@@ -7883,6 +7883,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Surya Setiyaputra',
+    description:
+      'Full Stack Developer. Generalist brain – a learner and a connector, ❤️ CSS',
+    url: 'https://setiyaputra.me/uses/',
+    twitter: '@suryast_',
+    emoji: '☕',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Kotlin',
+      'Java',
+      'SpringBoot',
+      'Developer',
+      'Backend',
+      'Frontend',
+      'React',
+      'Vue',
+      'Typescript',
+      'NodeJs',
+    ],
+  },
+  {
     name: 'Tarik Omercehajic',
     description:
       'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
