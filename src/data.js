@@ -1140,6 +1140,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Gift Egwuenu',
+    description: '💻Frontend Engineer and Technical Writer.',
+    url: 'https://giftegwuenu.com/uses',
+    emoji: '👩🏻‍💻',
+    country: '🇳🇬',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JAMstack',
+      'CSS',
+      'JavaScript',
+      'Data Viz',
+      'UI',
+      'UX',
+      'Youtuber',
+    ],
+  },
+  {
     name: 'Bui Minh Phuc',
     description:
       'A front-end web developer lives and works in Saigon, and still single 😉',
