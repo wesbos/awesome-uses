@@ -415,6 +415,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex Carpenter](https://alexcarpenter.me/uses) — UI Engineer, Screencaster
 * [Tomek Buszewski](https://www.buszewski.com/uses/) — Developer and team leader based in Warsaw, Poland.
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
+* [Dan Holloran](https://danholloran.me/uses/) — Full Stack Developer
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
