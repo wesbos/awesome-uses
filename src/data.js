@@ -330,7 +330,7 @@ module.exports = [
       'Vue',
     ],
   },
-   {
+  {
     name: 'Md Solaiman Hossain Rathik',
     description: 'Full Stack Developer',
     url: 'https://rathik.net/uses',
@@ -339,13 +339,7 @@ module.exports = [
     country: '🇧🇩',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Vue',
-      'Laravel',
-      'Bootstrap',
-      'JavaScript',
-      'Android XML',
-    ],
+    tags: ['Vue', 'Laravel', 'Bootstrap', 'JavaScript', 'Android XML'],
   },
   {
     name: 'Christopher Talke',
