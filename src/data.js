@@ -56,7 +56,7 @@ module.exports = [
       'Calisthenics',
     ],
   },
-    {
+  {
     name: 'Shayon Pal',
     description:
       'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
