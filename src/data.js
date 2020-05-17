@@ -56,6 +56,25 @@ module.exports = [
       'Calisthenics',
     ],
   },
+    {
+    name: 'Shayon Pal',
+    description:
+      'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
+    url: 'https://shayonpal.com/uses',
+    twitter: '@ShayonPal',
+    emoji: '☮️',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Product Manager',
+      'Business Analyst',
+      'Teacher',
+      'Gamer',
+      'Whisky Nerd',
+      'Movie Buff',
+    ],
+  },
   {
     name: 'Felix Yeboah Jefferson',
     description: 'Fullstack Developer, UI Designer & a Nomad',
