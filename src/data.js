@@ -3207,7 +3207,7 @@ module.exports = [
   {
     name: 'Eugene Oliveros',
     description:
-      'A Software Developer. A lazy software developer.'
+      'A Software Developer. A lazy software developer.',
     url: 'https://jinyuz.me/uses',
     twitter: '@yujinyuz_',
     emoji: '🐌',
