@@ -270,6 +270,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gokulakrishnan Kalaikovan](https://gokul.site/uses) — Web Developer, GDE, Open Source contributor, Speaker
 * [James Brooks](https://james.brooks.page/uses/) — Software Developer at Laravel and Podcaster
 * [Byurhan Beyzat](https://byurhanbeyzat.com/uses) — Front-End Developer. Engineer. Occasional blogger.
+* [Eugene Oliveros](https://jinyuz.me/uses) — A Software Developer. A lazy software developer.
 * [Mike Barkmin](https://www.barkmin.eu/uses/) — I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.
 * [Hugo Di Francesco](https://codewithhugo.com/uses) — JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
