@@ -8383,6 +8383,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Rafi Bagaskara Halilintar',
+    description:
+      'Full-Stack, Musician and Laravel Enthusiast. Mostly i like all the things about Tech Industry and I am Indonesia Based Developer',
+    url: 'https://masiting.co',
+    twitter: '@Rafi_Halilintar',
+    emoji: '🔥',
+    country: '🇮🇩',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Backend',
+      'Laravel',
+      'VueJS',
+      'React Native',
+      'React JS',
+      'PHP',
+      'WordPress',
+      'AWS',
+      'Flutter',
+      'Ubuntu',
+      'DevOps'
+    ],
+  },
+  {
     name: 'Jesús Leganés-Combarro "piranna"',
     description:
       'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
