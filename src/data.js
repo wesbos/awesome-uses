@@ -4352,7 +4352,7 @@ module.exports = [
     emoji: '🤪',
     country: '🇪🇸',
     computer: 'apple',
-    phone: 'xiaomi',
+    phone: 'android',
     tags: [
       'Developer',
       'Full Stack',
