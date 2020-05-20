@@ -8388,7 +8388,7 @@ module.exports = [
     url: 'https://www.patrickobermeier.dev/uses',
     twitter: '@pobermeier87',
     emoji: '🍺',
-    country: 'AT',
+    country: '🇦🇹',
     computer: 'windows',
     phone: 'android',
     tags: [
