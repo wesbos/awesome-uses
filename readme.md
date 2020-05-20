@@ -442,6 +442,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
-   * [Rafi Halilintar](https://masiting.co) — Full-Stack, Musician and Laravel Enthusiast. Mostly i like all the things about Tech Industry and I am Indonesia Based Developer
+* [Rafi Halilintar](https://masiting.co) — Full-Stack, Musician and Laravel Enthusiast. Mostly i like all the things about Tech Industry and I am Indonesia Based Developer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
