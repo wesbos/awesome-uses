@@ -8386,7 +8386,7 @@ module.exports = [
     name: 'Rafi Bagaskara Halilintar',
     description:
       'Full-Stack, Musician and Laravel Enthusiast. Mostly i like all the things about Tech Industry and I am Indonesia Based Developer',
-    url: 'https://masiting.co',
+    url: 'https://masiting.co/setup-gear/',
     twitter: '@Rafi_Halilintar',
     emoji: '🔥',
     country: '🇮🇩',
