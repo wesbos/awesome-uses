@@ -4346,6 +4346,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Angel Taborda Chinea',
+    description: 'Software Developer, Teacher, JW',
+    url: 'https://ataborda.digital/uses',
+    emoji: '🤪',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'xiaomi',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web',
+      'React',
+      'JavaScript',
+      '.NET',
+      'React Native',
+      'Mobile',
+    ],
+  },
+  {
     name: 'Liam Richardson',
     description:
       'User Interface developer focusing on Performance, A11y and CSS',
