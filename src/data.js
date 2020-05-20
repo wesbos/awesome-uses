@@ -7812,6 +7812,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Dan Vega',
+    description:
+      'Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.',
+    url: 'https://www.danvega.dev/uses/',
+    twitter: '@therealdanvega',
+    emoji: '🤓',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML',
+      'CSS',
+      'Web Development',
+      'Front End',
+      'Tailwind',
+      'JavaScript',
+      'Vue',
+      'Blogger',
+      'YouTuber',
+      'Entrepreneur',
+      'Teacher',
+      'GoLang',
+      'Java'
+    ],
+  },
+  {
     name: 'Logan Blangenois',
     description:
       'Front-end developer passionate about eco-friendly (web)app and React.',
