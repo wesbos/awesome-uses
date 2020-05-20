@@ -7834,7 +7834,7 @@ module.exports = [
       'Entrepreneur',
       'Teacher',
       'GoLang',
-      'Java'
+      'Java',
     ],
   },
   {
