@@ -76,6 +76,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Yves Engetschwiler',
+    description:
+      'Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive',
+    url: 'http://bee-interactive.ch/uses',
+    twitter: '@yvesdesign',
+    emoji: '🌍',
+    country: '🇨🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'Bee Interactive',
+      'Lochness CMS',
+      'Full Stack',
+      'Traveler',
+      'Developer',
+      'laravel',
+      'Livewire',
+    ],
+  },
+  {
     name: 'Felix Yeboah Jefferson',
     description: 'Fullstack Developer, UI Designer & a Nomad',
     url: 'https://jeffson.netlify.app/uses',
