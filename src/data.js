@@ -8059,7 +8059,7 @@ module.exports = [
   {
     name: 'Justin Michaliga',
     description: 'Javascript Engineer based in Brooklyn, NYC',
-    url: 'https://jmichaliga.com/uses',
+    url: 'https://jmichaliga.github.io/uses',
     twitter: '@jmichaliga',
     emoji: '⚡️',
     country: '🇺🇸',
