@@ -2613,7 +2613,7 @@ module.exports = [
   {
     name: 'Chris Lagasse',
     description:
-      'Back-end programmer with emphasis in PHP, Javascript, Node, Vue, API integrations... cyclist, dad, lover of craft beer.',
+      'Diversified programmer with emphasis in PHP, Javascript, Node, Vue, API integrations... cyclist, dad, lover of craft beer.',
     url: 'https://chrislagasse.com/uses',
     twitter: '@soben',
     emoji: '🚵‍',
