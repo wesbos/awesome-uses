@@ -546,9 +546,10 @@ module.exports = [
       'Vim',
     ],
   },
-    {
+  {
     name: 'Monica Powell',
-    description: 'Hi! I\'m a product engineer who is passionate about making open-source more accessible and community building',
+    description:
+      "Hi! I'm a product engineer who is passionate about making open-source more accessible and community building",
     url: 'https://www.aboutmonica.com/uses/',
     twitter: '@waterproofheart',
     emoji: '👩🏾‍💻',

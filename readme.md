@@ -55,6 +55,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Abo Baloyi](https://baloyiabo.co.za/uses) — Full stack developer & full time computer geek
 * [Marko Denic](https://markodenic.com/uses/) — Web Developer
 * [Oleg Perchyk](https://himynameisoleg.com/uses) — Web developer - also ride bmx and cook alot. :wq
+* [Monica Powell](https://www.aboutmonica.com/uses/) — Hi! I'm a product engineer who is passionate about making open-source more accessible and community building
 * [Mark Railton](https://markrailton.com/uses) — Software Engineer
 * [𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭](http://baharajr.me/uses) — 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐖𝐞𝐢𝐫𝐝𝐨
 * [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
