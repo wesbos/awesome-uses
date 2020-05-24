@@ -60,7 +60,7 @@ module.exports = [
     name: 'Shayon Pal',
     description:
       'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
-    url: 'https://shayonpal.com/uses',
+    url: 'https://shayonpal.com/uses'
     twitter: '@ShayonPal',
     emoji: '☮️',
     country: '🇮🇳',
@@ -548,7 +548,7 @@ module.exports = [
   },
     {
     name: 'Monica Powell',
-    description: 'Software Engineer',
+    description: 'Hi! I\'m a product engineer who is passionate about making open-source more accessible and community building',
     url: 'https://www.aboutmonica.com/uses/',
     twitter: '@waterproofheart',
     emoji: '👩🏾‍💻',
