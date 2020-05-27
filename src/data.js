@@ -1564,7 +1564,7 @@ module.exports = [
   {
     name: 'Jamie Bowman',
     description: 'Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger',
-    url: 'https://mrjamiebowman.com/uses',
+    url: 'https://www.mrjamiebowman.com/uses',
     twitter: '@mrjamiebowman',
     emoji: '👨‍💻',
     country: 'US',
