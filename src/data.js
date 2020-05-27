@@ -991,6 +991,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Travis Luong',
+    description: 'Full Stack Developer',
+    url: 'https://www.travisluong.com/uses',
+    twitter: '@TravisLuong',
+    emoji: '🤖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'React',
+      'Full Stack',
+      'Node',
+      'DevOps',
+      'Docker',
+      'SQL'
+    ]
+  },
+  {
     name: 'Kyle McDonald',
     description: 'Software Engineer',
     url: 'https://kylemcd.com/uses/',
