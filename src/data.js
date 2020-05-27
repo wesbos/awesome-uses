@@ -1007,8 +1007,8 @@ module.exports = [
       'Node',
       'DevOps',
       'Docker',
-      'SQL'
-    ]
+      'SQL',
+    ],
   },
   {
     name: 'Kyle McDonald',

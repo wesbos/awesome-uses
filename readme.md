@@ -77,6 +77,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
+* [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
