@@ -8664,6 +8664,28 @@ module.exports = [
       'Web Development',
     ],
   },
+    {
+    name: 'Abul Khoyer',
+    description:
+      'Web Developer and Designer',
+    url: 'https://abulkhoyer.com/uses/',
+    twitter: '@abulkhoyer69',
+    emoji: '⚡',
+    country: '🇧🇩',
+    computer: 'windows,
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Developer',
+      'Designer',
+      'Problem Solver',
+      'JavaScript',
+      'React',
+      'Node',
+      'GraphQL',
+      'REST',
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
