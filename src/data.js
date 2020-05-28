@@ -8672,7 +8672,7 @@ module.exports = [
     twitter: '@abulkhoyer69',
     emoji: '⚡',
     country: '🇧🇩',
-    computer: 'windows,
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Front End',
