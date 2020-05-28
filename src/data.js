@@ -8664,7 +8664,7 @@ module.exports = [
       'Web Development',
     ],
   },
-    {
+  {
     name: 'Abul Khoyer',
     description:
       'Web Developer and Designer',
