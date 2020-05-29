@@ -69,6 +69,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrew Nguyen Vo](https://awnvo.com/uses) — Lover of code, coffee, and karaoke
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
+* [Elijah Rwothoromo](https://rwothoromo.wordpress.com/2020/05/29/uses/) — Software Developer, Poet, code and play!
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
 * [Irshad Ali](http://irshadali.site/uses) — Front-End-Developer based in Hyderabad, India.
 * [James Mathias](https://leihu.com/uses) — Artist, Writer, & Outlaw
