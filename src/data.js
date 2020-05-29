@@ -242,6 +242,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Mario Sanchez Carrion',
+    description:
+      'Junior Web Developer',
+    url: 'https://mariosanchez.org/uses',
+    twitter: '@mariobox',
+    emoji: '🚲💻',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'CSS',
+      'HTML'
+      'ReactJS',
+      'NodeJS',
+      'Python'
+    ],
+  },
+  {
     name: 'Eva Dee',
     description: 'Web Developer. Note-taker. Trying to Do Good.',
     url: 'https://includejs.dev/uses',
