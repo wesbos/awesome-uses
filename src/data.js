@@ -8690,8 +8690,7 @@ module.exports = [
   },
   {
     name: 'Abul Khoyer',
-    description:
-      'Web Developer and Designer',
+    description: 'Web Developer and Designer',
     url: 'https://abulkhoyer.com/uses/',
     twitter: '@abulkhoyer69',
     emoji: '⚡',
