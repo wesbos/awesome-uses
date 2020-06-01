@@ -266,6 +266,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Jay Tyrrell',
+    description: 'Full Stack Developer',
+    url: 'https://jaytyrrell.co/uses/',
+    twitter: '@jaytyrrell13',
+    emoji: '🤷‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Full Stack', 'PHP', 'Javascript', 'Laravel', 'Vue'],
+  },
+  {
     name: 'Eva Dee',
     description: 'Web Developer. Note-taker. Trying to Do Good.',
     url: 'https://includejs.dev/uses',
