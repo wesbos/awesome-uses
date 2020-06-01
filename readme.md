@@ -42,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erik Thiart](https://erikthiart.com/uses/) — Full Stack Developer, I am a Swiss Army knife.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
+* [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
@@ -111,6 +112,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Fabian Vallejos](https://fabianvallejos.com/uses/) — Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus
 * [Shawn Crigger](https://shawn-crigger.herokuapp.com/uses) — Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!
 * [Keith Donegan](https://www.keithdonegan.com/uses/) — Irish WordPress developer, based in London, UK.
+* [John SJ Anderson](https://genehack.org/uses) — information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.
 * [Brandon Clapp](https://brandonclapp.com/uses) — I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
 * [Pierre-Antoine "Leny" Delnatte](https://leny.me/uses/) — Developer, Bootcamp coach. Forging the next generation of webdevelopers.
