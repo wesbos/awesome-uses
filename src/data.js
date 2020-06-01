@@ -1760,6 +1760,27 @@ module.exports = [
     tags: ['WordPress', 'Developer', 'CSS', 'Front-End'],
   },
   {
+    name: 'John SJ Anderson',
+    description:
+      'information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.',
+    url: 'https://genehack.org/uses',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Linux',
+      'Debian',
+      'Perl',
+      'Node',
+      'Emacs',
+    ],
+  },
+  {
     name: 'Brandon Clapp',
     description:
       "I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.",
