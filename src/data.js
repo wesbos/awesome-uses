@@ -6428,7 +6428,7 @@ module.exports = [
     name: 'Julio Lozovei',
     description:
       'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
-    url: 'https://jlozovei.dev/uses/',
+    url: 'https://jlozovei.dev/uses',
     twitter: '@juliolozovei',
     emoji: '💈',
     country: '🇧🇷',
