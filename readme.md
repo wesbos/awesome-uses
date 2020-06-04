@@ -343,7 +343,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
 * [Dany Paredes](https://danywalls.com/uses) — I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
-* [Julio Lozovei](https://jlozovei.dev/uses/) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
+* [Julio Lozovei](https://jlozovei.dev/uses) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
 * [Chris Burgin](https://chrisburgin.me/uses) — Frontend Software Engineer
 * [Shiveen Pandita](https://shiveenp.com/uses/) — Fullstack developer and blogger from Sydney
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
