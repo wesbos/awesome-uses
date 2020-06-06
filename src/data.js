@@ -1,5 +1,23 @@
 // keep it commonjs export
 module.exports = [
+   {
+    name: 'Bryan Hickey',
+    description: 'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
+    url: 'https://bryanjhickey.com/uses',
+    twitter: '@bryanjhickey',
+    emoji: '🍺',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'Websites',
+      'Marketing',
+      'TailwindCSS',
+      'Photoshop'
+    ],
+  },
   {
     name: 'Alex Duval',
     description: 'Fullstack Dev, Teacher, Freeride skier',
