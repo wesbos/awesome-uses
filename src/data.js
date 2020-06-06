@@ -2176,6 +2176,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Sagar Soni',
+    description: 'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
+    url: 'https://sagarsoni.dev/uses/',
+    twitter: '@saagarsoni',
+    emoji: '💻',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      "WordPress",
+      "React",
+      "Node",
+      "DevOps",
+      "Electron",
+      'Developer',
+      'Back End',
+      'PHP',
+      'Full Stack',      
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Varatep Buranintu',
     description:
       'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
