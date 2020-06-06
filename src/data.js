@@ -1,8 +1,9 @@
 // keep it commonjs export
 module.exports = [
-   {
+  {
     name: 'Bryan Hickey',
-    description: 'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
+    description:
+      'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
     url: 'https://bryanjhickey.com/uses',
     twitter: '@bryanjhickey',
     emoji: '🍺',
@@ -15,7 +16,7 @@ module.exports = [
       'Websites',
       'Marketing',
       'TailwindCSS',
-      'Photoshop'
+      'Photoshop',
     ],
   },
   {
