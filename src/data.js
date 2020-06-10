@@ -2859,6 +2859,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Chris Lagasse',
+    description:
+      'Diversified programmer with emphasis in PHP, Javascript, Node, Vue, API integrations... cyclist, dad, lover of craft beer.',
+    url: 'https://chrislagasse.com/uses',
+    twitter: '@soben',
+    emoji: '🚵‍',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Engineer',
+      'PHP',
+      'JavaScript',
+      'Node',
+      'WordPress',
+      'Eleventy',
+      'Vue',
+      'Remote',
+    ],
+  },
+  {
     name: 'Sergey Lysenko',
     description:
       'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
