@@ -395,6 +395,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Mario Sanchez Carrion',
+    description:
+      'Junior Web Developer Based in Miami, FL',
+    url: 'https://mariosanchez.org/uses/',
+    twitter: '@mariobox',
+    emoji: '🚴',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Web',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Node',
+      'Python',
+    ],
+  },
+  {
     name: 'Anthony Del Rosario',
     description: 'Experienced Full Stack Software Engineer & Computers Lover',
     url: 'https://adelrosarioh.me/uses',
