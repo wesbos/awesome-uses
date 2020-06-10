@@ -44,10 +44,12 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erik Thiart](https://erikthiart.com/uses/) — Full Stack Developer, I am a Swiss Army knife.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
+* [Sam Boswell](https://www.bozzie.org/uses) — CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
+* [Mario Sanchez Carrion](https://mariosanchez.org/uses/) — Junior Web Developer Based in Miami, FL
 * [Anthony Del Rosario](https://adelrosarioh.me/uses) — Experienced Full Stack Software Engineer & Computers Lover
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer
 * [Md Solaiman Hossain Rathik](https://rathik.net/uses) — Full Stack Developer
@@ -162,6 +164,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andy Bell](https://hankchizljaw.com/uses) — Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club
 * [Hans Gerwitz](https://hans.gerwitz.com/uses) — Design geek
 * [Daryn St. Pierre](https://daryn.codes/uses) — Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).
+* [Chris Lagasse](https://chrislagasse.com/uses) — Diversified programmer with emphasis in PHP, Javascript, Node, Vue, API integrations... cyclist, dad, lover of craft beer.
 * [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
@@ -423,7 +426,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
 * [Anthony Morris](https://anthonymorris.dev/uses/) — Builder, JavaScript wrangler, and wannabe stoic.
-* [Dave Hill](https://davehill.dev/uses/) — Front-end developer, amateur photographer, podcast beginner.
 * [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
 * [Dan Vega](https://www.danvega.dev/uses/) — Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.

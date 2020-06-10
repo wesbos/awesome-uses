@@ -305,7 +305,8 @@ module.exports = [
   },
   {
     name: 'Sam Boswell',
-    description: 'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
+    description:
+      'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
     url: 'https://www.bozzie.org/uses',
     twitter: '@sboswell',
     emoji: '🐾',
@@ -313,13 +314,13 @@ module.exports = [
     computer: 'windows',
     phone: 'android',
     tags: [
-        'InfoSec',
-        'Developer',
-        'Engineer',
-        'C#',
-        'Machine Learning',
-        'IoT',
-        'Speaker'
+      'InfoSec',
+      'Developer',
+      'Engineer',
+      'C#',
+      'Machine Learning',
+      'IoT',
+      'Speaker',
     ],
   },
   {
@@ -396,8 +397,7 @@ module.exports = [
   },
   {
     name: 'Mario Sanchez Carrion',
-    description:
-      'Junior Web Developer Based in Miami, FL',
+    description: 'Junior Web Developer Based in Miami, FL',
     url: 'https://mariosanchez.org/uses/',
     twitter: '@mariobox',
     emoji: '🚴',
