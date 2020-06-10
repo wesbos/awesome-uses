@@ -304,6 +304,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Sam Boswell',
+    description: 'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
+    url: 'https://www.bozzie.org/uses',
+    twitter: '@sboswell',
+    emoji: '🐾',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+        'InfoSec',
+        'Developer',
+        'Engineer',
+        'C#',
+        'Machine Learning',
+        'IoT',
+        'Speaker'
+    ],
+  },
+  {
     name: 'Jay Tyrrell',
     description: 'Full Stack Developer',
     url: 'https://jaytyrrell.co/uses/',
