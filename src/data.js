@@ -8039,25 +8039,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Dave Hill',
-    description: 'Front-end developer, amateur photographer, podcast beginner.',
-    url: 'https://davehill.dev/uses/',
-    twitter: '@davehillpodcast',
-    emoji: '🔥',
-    country: '🇬🇧',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Front End',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Accessibility',
-      'Performance',
-    ],
-  },
-  {
     name: 'Justin Conway',
     description:
       'Chicago-based front-end developer passionate about the web and pork.',
