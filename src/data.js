@@ -1567,7 +1567,7 @@ module.exports = [
     url: 'https://www.mrjamiebowman.com/uses',
     twitter: '@mrjamiebowman',
     emoji: '👨‍💻',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     tags: [
