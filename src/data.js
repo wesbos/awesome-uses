@@ -3187,6 +3187,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Ángel Guerra',
+    description: 'Father. Partner. Human. Kickboxer. Ninja.',
+    url: 'https://angelguerra.me/uses/',
+    emoji: '👹️',
+    country: '🇪🇸',
+    computer: 'linux',
+    twitter: '@AngelLGuerra',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JAMstack',
+      'PHP',
+      'CakePHP',
+      'Ruby',
+      'Ruby On Rails',
+    ],
+  },
+  {
     name: 'Samir Mammadhasanov',
     description:
       'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
