@@ -120,8 +120,7 @@ module.exports = [
   },
   {
     name: 'Sean Coker',
-    description:
-      'Creator & Thinker. Sometimes simultaneously.',
+    description: 'Creator & Thinker. Sometimes simultaneously.',
     url: 'https://sean.is/using',
     twitter: '@okcoker',
     emoji: '👀',
