@@ -1,6 +1,29 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Zlatan Stajic',
+    description:
+      'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
+    url: 'https://www.zlatanstajic.com/#work',
+    twitter: '@90zlaya',
+    emoji: '⚡️',
+    country: '🇷🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'MySQL',
+      'JavaScript',
+      'Vue',
+      'CodeIgniter',
+      'Linux',
+      'Ubuntu',
+      'Full Stack',
+      'Web Developer',
+      'Software Engineer',
+    ],
+  },
+  {
     name: 'Bryan Hickey',
     description:
       'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
