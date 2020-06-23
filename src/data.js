@@ -8458,7 +8458,7 @@ module.exports = [
     name: 'Narendra Mandadapu',
     description:
       'Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom',
-    url: 'https://5pagesaday.com/resources',
+    url: 'https://5pagesaday.com/uses',
     twitter: '@scriptstar',
     emoji: '🎯',
     country: '🇬🇧',
