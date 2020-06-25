@@ -5212,6 +5212,27 @@ module.exports = [
     tags: ['Engineer', 'YouTuber', 'Blogger', 'Front End'],
   },
   {
+    name: 'Amir Ghaffari',
+    description:
+      'full-stack web developer',
+    url: 'https://amirghaffari.com/uses/',
+    twitter: '@eamirgh',
+    emoji: '☄',
+    country: '🇮🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Back End',
+      'Full-Stack',
+      'PHP',
+      'Golang',
+      'Laravel',
+      'Lumen',
+      'TDD',
+    ],
+  },
+  {
     name: 'Josh Moore',
     description:
       'Self-taught full-stack web dev with a passion for open-source, privacy, & security.',
