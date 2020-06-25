@@ -406,6 +406,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Raúl Negrón](https://raulnegron.me/uses/) — Software Developer from Puerto Rico
 * [David A. Vives R.](https://dispuestoaaprender.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
 * [Ryan Warner](https://ryan.warner.codes/uses) — Software Engineer and Interface Designer. Leader and Mentor.
+* [Philipp John](https://jplace.de/uses) — Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.
 * [Nicky Meuleman](https://nickymeuleman.netlify.app/uses) — Web developer, F1 fan.
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
 * [Adam Urban](https://urbanisierung.dev/uses/) — coder, father, left-handed

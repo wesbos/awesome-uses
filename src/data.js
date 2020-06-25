@@ -7722,7 +7722,8 @@ module.exports = [
   },
   {
     name: 'Philipp John',
-    description: 'Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.',
+    description:
+      'Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.',
     url: 'https://jplace.de/uses',
     twitter: '@PhilippJohn88',
     emoji: '🎹',
@@ -7765,7 +7766,7 @@ module.exports = [
       'Frontend',
       'Spotify',
       'Discord',
-      'E-Piano'
+      'E-Piano',
     ],
   },
   {
