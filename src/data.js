@@ -465,7 +465,7 @@ module.exports = [
       'DevOps',
       'Speaker',
       'Freelancer',
-      'Microsoft'
+      'Microsoft',
     ],
   },
   {
