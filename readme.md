@@ -29,12 +29,16 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Sergio Martín](https://www.sergiomartin.dev/uses) — I enjoy creating and learning for the web. Standards and vanilla enthusiast
 * [Bryan Hickey](https://bryanjhickey.com/uses) — Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd
+* [Erik Kroes](https://www.erikkroes.nl/uses) — Photographer and creative in the world of accessibility
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Yohanes Bandung Bondowoso](https://ybbond.dev/uses) — FrontEnd. Coffee. Calisthenics. Tattoo. Vim. Modular Synth.
+* [Rizwan](https://blog.rizwan.dev/uses) — iOS Developer. Living between Marvel and DC world
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Adil Naqvi](https://adilnaqvi.com/uses) — Mechanical engineer with a knack for coding
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
+* [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
 * [Shayon Pal](https://shayonpal.com/uses) — Product Manager. Amateur coder. Loves to tinker with Web technologies.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Felix Yeboah Jefferson](https://jeffson.netlify.app/uses) — Fullstack Developer, UI Designer & a Nomad
@@ -110,6 +114,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
 * [Daan Kauwenberg](https://daankauwenberg.com/uses) — JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
+* [Martín M.](https://uses.skydiver.dev/) — Dad & Developer (former skydiver)
 * [Jamie Bowman](https://www.mrjamiebowman.com/uses) — Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger
 * [Jamie Ryan](https://www.jamieryan.dev/uses) — Full Stack Developer and CodeClan graduate from Edinburgh, Scotland
 * [Michael Stokoe](https://msweb.dev/uses) — Back-end PHP Developer. Gamer, musician and motorcyclist.
@@ -147,6 +152,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
 * [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
 * [Michael Gale](https://michaelgale.dev/uses) — Web Developer with a beard and glasses from Melbourne, Australia
+* [Eric Blohm](https://www.ericblohm.codes/uses) — Full Stack MERN Developer with a passion for board games
 * [Aaron A.](https://ocular-rhythm.io/uses/) — Sandwich enthusiast and programmer.
 * [Viren Bhagat](https://virenb.cc/uses) — Self taught full stack developer
 * [Renee de Kruijf](https://webdesignpuntnl.com/pages/uses.html) — Javascript developer in the making. Still learning every day. Liking it a lot!
@@ -178,6 +184,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
 * [Valentina Calabrese](https://valentinacalabrese.com/uses) — Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.
 * [Adrián Alcorta Puente](https://ardillan.com/uses) — Graphic designer moving forward to be a Frontend developer. Love mountains, Game Boys and post-rock music.
+* [Ángel Guerra](https://angelguerra.me/uses/) — Father. Partner. Human. Kickboxer. Ninja.
 * [Samir Mammadhasanov](https://samirmh.dev/uses.html) — Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
@@ -276,6 +283,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
 * [Joe Previte](https://joeprevite.com/uses) — Developer Advocate on the Open Source Team at Facebook
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
+* [Amir Ghaffari](https://amirghaffari.com/uses/) — full-stack web developer
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
@@ -398,6 +406,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Raúl Negrón](https://raulnegron.me/uses/) — Software Developer from Puerto Rico
 * [David A. Vives R.](https://dispuestoaaprender.com/en/uses) — Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.
 * [Ryan Warner](https://ryan.warner.codes/uses) — Software Engineer and Interface Designer. Leader and Mentor.
+* [Philipp John](https://jplace.de/uses) — Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.
 * [Nicky Meuleman](https://nickymeuleman.netlify.app/uses) — Web developer, F1 fan.
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
 * [Adam Urban](https://urbanisierung.dev/uses/) — coder, father, left-handed
@@ -438,6 +447,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Karol Toruń](https://ktorun.pl/uses) — Fullstack developer, VIM, JS, OSX <3, PL
+* [Narendra Mandadapu](https://5pagesaday.com/uses) — Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom
 * [Justin Michaliga](https://jmichaliga.github.io/uses) — Javascript Engineer based in Brooklyn, NYC
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
 * [Simranjit Singh](https://simranjit.dev/uses) — Javascript loving Coldfusion developer
