@@ -5235,8 +5235,7 @@ module.exports = [
   },
   {
     name: 'Amir Ghaffari',
-    description:
-      'full-stack web developer',
+    description: 'full-stack web developer',
     url: 'https://amirghaffari.com/uses/',
     twitter: '@eamirgh',
     emoji: '☄',
