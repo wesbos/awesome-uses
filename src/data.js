@@ -447,6 +447,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Elio Struyf',
+    description: 'Engineering Lead / Office Development MVP / Public Speaker',
+    url: 'https://www.eliostruyf.com/uses',
+    twitter: '@eliostruyf',
+    emoji: '😃',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'SPFx',
+      'React',
+      'TypeScript',
+      'Node',
+      'Blogger',
+      'DevOps',
+      'Speaker',
+      'Freelancer',
+      'Microsoft'
+    ],
+  },
+  {
     name: 'Lucas Schumacher',
     description: 'Fullstack Developer, IoT & DIY Enthusiast',
     url: 'https://aceto.dev/uses',
