@@ -113,7 +113,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
-* [Daan Kauwenberg](https://daankauwenberg.com/uses) — JavaScript Lover, Web Enthousiast, Father, Nice Guy and Developer
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
 * [Martín M.](https://uses.skydiver.dev/) — Dad & Developer (former skydiver)
 * [Jamie Bowman](https://www.mrjamiebowman.com/uses) — Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger
