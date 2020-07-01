@@ -82,7 +82,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Farai Gandiya](https://farai.xyz/uses) — Software Developer
 * [Elijah Rwothoromo](https://rwothoromo.wordpress.com/2020/05/29/uses/) — Software Developer, Poet, code and play!
 * [Dhaval Boraniya](http://itca.xyz/uses) — Developer
-* [Irshad Ali](http://irshadali.site/uses) — Front-End-Developer based in Hyderabad, India.
+* [Irshad Ali](http://www.irshadali.codes/uses) — Front-End-Developer based in Hyderabad, India.
 * [James Mathias](https://leihu.com/uses) — Artist, Writer, & Outlaw
 * [Sudhanshu Bajaj](https://www.sudhanshubajaj.com/uses/) — Code. Travel. Sleep. Repeat. Magento Developer
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
@@ -212,6 +212,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Camilo Romero](https://camiloromero.dev/uses) — Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Anton Andrésen](https://anton.best/uses/) — Software Engineer, Tutorial Maker, Youtuber, Tea Drinker
+* [Tim Downey](https://downey.io/uses/) — Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
