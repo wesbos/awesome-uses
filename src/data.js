@@ -1122,7 +1122,7 @@ module.exports = [
   {
     name: 'Irshad Ali',
     description: 'Front-End-Developer based in Hyderabad, India.',
-    url: 'http://irshadali.codes/Uses',
+    url: 'http://irshadali.codes/uses',
     twitter: '@imirshadali',
     emoji: '👨‍💻',
     country: '🇮🇳',
