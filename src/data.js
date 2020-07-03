@@ -8858,7 +8858,7 @@ module.exports = [
   {
     name: 'Oluwafemi Adeosun',
     description: '💻Frontend Engineer and Politician based in Lagos, Nigeria.',
-    url: 'https://github.com/adexphem/uses',
+    url: 'https://github.com/adexphem',
     emoji: '🔥',
     country: '🇳🇬',
     computer: 'apple',
