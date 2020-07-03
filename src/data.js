@@ -3727,6 +3727,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Yash Dave',
+    description: 'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
+    url: 'https://amorpheuz.dev/uses/',
+    twitter: '@amorpheuz',
+    emoji: '👨🏽‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Web Developer',
+      'React',
+      'JavaScript',
+      'Gatsby',
+      'Python',
+      '.NET Core',
+      'JAMStack',
+    ]
+  },
+  {
     name: 'Simon Stenbæk',
     description: 'Helicopter pilot, web developer',
     url: 'https://sstenbaek.dk/uses',
