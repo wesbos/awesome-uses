@@ -3728,7 +3728,8 @@ module.exports = [
   },
   {
     name: 'Yash Dave',
-    description: 'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
+    description:
+      'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
     url: 'https://amorpheuz.dev/uses/',
     twitter: '@amorpheuz',
     emoji: '👨🏽‍💻',
@@ -3745,7 +3746,7 @@ module.exports = [
       'Python',
       '.NET Core',
       'JAMStack',
-    ]
+    ],
   },
   {
     name: 'Simon Stenbæk',

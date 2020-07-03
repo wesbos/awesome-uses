@@ -203,6 +203,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ava Gaiety Wroten](https://www.wroten.me/uses) — JavaScript Software Engineer, artist, and designer
 * [Darlene Zouras](https://darzouras.com/uses/) — Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
+* [Yash Dave](https://amorpheuz.dev/uses/) — Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!
 * [Simon Stenbæk](https://sstenbaek.dk/uses) — Helicopter pilot, web developer
 * [Adam Jahnke](https://adamyonk.com/uses) — Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.
 * [Andrew Healey](https://healeycodes.com/uses) — Software Engineer, Writer, Learner!
