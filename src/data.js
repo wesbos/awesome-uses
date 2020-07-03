@@ -8859,7 +8859,7 @@ module.exports = [
     name: 'Oluwafemi Adeosun',
     description: '💻Frontend Engineer and Politician',
     url: 'https://github.com/adexphem/uses',
-    emoji: '👩🏻‍🔥',
+    emoji: '🔥',
     country: '🇳🇬',
     computer: 'apple',
     phone: 'OnePlus',
