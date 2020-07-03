@@ -8857,12 +8857,12 @@ module.exports = [
   },
   {
     name: 'Oluwafemi Adeosun',
-    description: '💻Frontend Engineer and Politician',
+    description: '💻Frontend Engineer and Politician based in Lagos, Nigeria.',
     url: 'https://github.com/adexphem/uses',
     emoji: '🔥',
     country: '🇳🇬',
     computer: 'apple',
-    phone: 'OnePlus',
+    phone: 'android',
     tags: [
       'Developer',
       'Frontend',
