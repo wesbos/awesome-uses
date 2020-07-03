@@ -4,7 +4,7 @@ module.exports = [
     name: 'Zlatan Stajic',
     description:
       'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
-    url: 'https://www.zlatanstajic.com/#uses',
+    url: 'https://www.zlatanstajic.com/uses',
     twitter: '@90zlaya',
     emoji: '⚡️',
     country: '🇷🇸',
