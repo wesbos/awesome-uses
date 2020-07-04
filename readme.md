@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.
 * [Sergio Martín](https://www.sergiomartin.dev/uses) — I enjoy creating and learning for the web. Standards and vanilla enthusiast
 * [Bryan Hickey](https://bryanjhickey.com/uses) — Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd
 * [Erik Kroes](https://www.erikkroes.nl/uses) — Photographer and creative in the world of accessibility
