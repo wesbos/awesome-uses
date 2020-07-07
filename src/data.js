@@ -1789,7 +1789,7 @@ module.exports = [
   {
     name: 'Mostafa Hosseini',
     description: 'Fullstack Developer',
-    url: 'https://mostafa-hosseini.me/',
+    url: 'https://mostafa-hosseini.me/uses',
     twitter: '@moostaaafaa',
     emoji: '🎯',
     country: '🇮🇷',
