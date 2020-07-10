@@ -1,5 +1,24 @@
 // keep it commonjs export
 module.exports = [
+    {
+    name: 'Carlos Longarela',
+    description:
+      'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
+    url: 'https://github.com/CarlosLongarela/uses/',
+    twitter: '@CarlosLongarela',
+    emoji: '☕',
+    country: '🇪🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Developer',
+      'JavaScript',
+      'Front End',
+      'Back End',
+      'Linux',
+    ],
+  },
   {
     name: 'Zlatan Stajic',
     description:
