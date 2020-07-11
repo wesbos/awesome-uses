@@ -277,7 +277,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.
 * [Karel De Smet](https://kareldesmet.be/uses) — Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
-* [Josh Manders](https://joshmanders.com/uses/) — Full Snack Developer and Indie Maker
+* [Josh Manders](https://joshmanders.com/uses/) — Indie Maker & Entrepreneur
 * [Daniel Wirtz](https://danielwirtz.com/uses/) — Designer who codes @Crisp Studio
 * [Holger Lösken](https://www.codedge.de/uses/) — Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.
 * [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
