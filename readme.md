@@ -112,6 +112,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Colin Principe](https://principe.io/uses/) — Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
+* [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
 * [Martín M.](https://uses.skydiver.dev/) — Dad & Developer (former skydiver)
@@ -294,7 +295,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gokulakrishnan Kalaikovan](https://gokul.site/uses) — Web Developer, GDE, Open Source contributor, Speaker
 * [James Brooks](https://james.brooks.page/uses/) — Software Developer at Laravel and Podcaster
 * [Byurhan Beyzat](https://byurhanbeyzat.com/uses) — Front-End Developer. Engineer. Occasional blogger.
-* [Eugene Oliveros](https://jinyuz.me/uses) — A Software Developer. A lazy software developer.
+* [Eugene Oliveros](https://jinyuz.dev/uses) — A Software Developer. A lazy software developer.
 * [Mike Barkmin](https://www.barkmin.eu/uses/) — I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.
 * [Hugo Di Francesco](https://codewithhugo.com/uses) — JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
