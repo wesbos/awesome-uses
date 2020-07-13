@@ -7716,7 +7716,7 @@ module.exports = [
   {
     name: 'David A. Vives R.',
     description:
-      'Software Engineer, Web Developer, Chess Player, Comics Reader, Loves reading, learning new things, sushi, BBQ and aioli.',
+      'software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.',
     url: 'https://dispuestoaaprender.com/en/uses',
     twitter: '@davidvives',
     emoji: '🦊',
