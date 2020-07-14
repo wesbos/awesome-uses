@@ -121,6 +121,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Stokoe](https://msweb.dev/uses) — Back-end PHP Developer. Gamer, musician and motorcyclist.
 * [Luis Alfredo Lorenzo](http://babas.bot/uses) — Professional programmer and clean coder; I swear I will not kill -9 anyone.
 * [Fabian Vallejos](https://fabianvallejos.com/uses/) — Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus
+* [William Rodriguez](https://williamrodriguez.com/uses) — Full-Stack Developer. TALL Stack Advocate. Less is more.
 * [Shawn Crigger](https://shawn-crigger.herokuapp.com/uses) — Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!
 * [Keith Donegan](https://www.keithdonegan.com/uses/) — Irish WordPress developer, based in London, UK.
 * [John SJ Anderson](https://genehack.org/uses) — information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.
