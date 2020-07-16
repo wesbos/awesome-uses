@@ -2191,6 +2191,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Sebastien Elet',
+    description:
+      'Full stack javascript developer which also loves ops and automation',
+    url:
+      'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
+    twitter: '@SebastienElet',
+    emoji: '🚀',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Vim',
+      'Ops',
+      'Docker',
+      'Javascript',
+      'Typescript',
+      'Node',
+      'Back End',
+    ],
+  },
+  {
     name: 'Mitchell Hanberg',
     description:
       'Full Stack Developer who loves working with Elixir, Ruby and JS.',
