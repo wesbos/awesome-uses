@@ -420,7 +420,7 @@ module.exports = [
   {
     name: 'Adam Siekierski',
     description:
-      'Non-proffessional fullstack developer. Big fan of JavaScript, TypeScript, React and Vue. Always looking for new things to learn. Co-host of Polish webdevelopment podcast.',
+      'Non-proffessional fullstack developer. Big fan of JavaScript, TypeScript, React and Vue. Co-host of Polish webdevelopment podcast.',
     url: 'https://siekierski.ml/#/uses',
     twitter: '@a_siekierski',
     emoji: '🍻',
@@ -428,7 +428,6 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Developer',
       'Full Stack',
       'JavaScript',
       'TypeScript',
@@ -438,7 +437,6 @@ module.exports = [
       'Node.js',
       'Swift',
       'Podcaster',
-      'Gatsby',
       'JAMStack',
       'React Native'
     ],
