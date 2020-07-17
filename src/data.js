@@ -440,6 +440,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Adam Siekierski',
+    description:
+      'Non-professional fullstack developer. Big fan of JavaScript, TypeScript, React, and Vue. Co-host of Polish web development podcast.',
+    url: 'https://siekierski.ml/#/uses',
+    twitter: '@a_siekierski',
+    emoji: '🍻',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'JavaScript',
+      'TypeScript',
+      'CSS',
+      'React',
+      'Vue',
+      'Node.js',
+      'Swift',
+      'Podcaster',
+      'JAMStack',
+      'React Native'
+    ],
+  },
+  {
     name: 'Sam Boswell',
     description:
       'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
