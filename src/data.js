@@ -141,7 +141,7 @@ module.exports = [
       'Developer',
       'JavaScript',
       'Front End',
-      'CSS'
+      'CSS',
     ],
   },
   {
@@ -460,7 +460,7 @@ module.exports = [
       'Swift',
       'Podcaster',
       'JAMStack',
-      'React Native'
+      'React Native',
     ],
   },
   {
