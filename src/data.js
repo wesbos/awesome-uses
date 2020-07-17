@@ -123,6 +123,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Dave Redfern',
+    description:
+      'I design and develop user‑centered experiences that deliver measurable returns.',
+    url: 'https://daveredfern.com/uses',
+    twitter: '@daveredfern',
+    emoji: '👋',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Design',
+      'Design Systems',
+      'a11y',
+      'Web Developer',
+      'Developer',
+      'JavaScript',
+      'Front End',
+      'CSS'
+    ],
+  },
+  {
     name: 'Rizwan',
     description: 'iOS Developer. Living between Marvel and DC world',
     url: 'https://blog.rizwan.dev/uses',
