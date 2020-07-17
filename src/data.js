@@ -420,7 +420,7 @@ module.exports = [
   {
     name: 'Adam Siekierski',
     description:
-      'Non-proffessional fullstack developer. Big fan of JavaScript, TypeScript, React and Vue. Co-host of Polish webdevelopment podcast.',
+      'Non-professional fullstack developer. Big fan of JavaScript, TypeScript, React, and Vue. Co-host of Polish web development podcast.',
     url: 'https://siekierski.ml/#/uses',
     twitter: '@a_siekierski',
     emoji: '🍻',
