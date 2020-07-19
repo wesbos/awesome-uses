@@ -4,7 +4,7 @@ module.exports = [
     name: 'Simon Fish',
     description: 'Engineering and educating for a free and open web. Ruby/React fullstack developer',
     url: 'https://simon.fish/uses',
-    twitter: '@boardfish',
+    twitter: '@boardfish_',
     emoji: '🐟',
     country: '🇬🇧',
     computer: 'linux',
