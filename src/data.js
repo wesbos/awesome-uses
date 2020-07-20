@@ -1,5 +1,25 @@
 // keep it commonjs export
 module.exports = [
+   {
+    name: 'Pablo Obando',
+    description:
+      'A software engineer who enjoys programming and good beers 🍻',
+    url: 'https://pabloobando.dev/uses',
+    twitter: '@pabloobandodev',
+    emoji: '🧙',
+    country: '🇨🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React Js',
+      'React Native',
+      'Next Js',
+      'Gatsby',
+      'GraphQl',
+      'Node Js',
+    ],
+  },
   {
     name: 'Simon Fish',
     description:
