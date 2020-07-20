@@ -2,7 +2,8 @@
 module.exports = [
   {
     name: 'Simon Fish',
-    description: 'Engineering and educating for a free and open web. Ruby/React fullstack developer',
+    description:
+      'Engineering and educating for a free and open web. Ruby/React fullstack developer',
     url: 'https://simon.fish/uses',
     twitter: '@boardfish_',
     emoji: '🐟',
@@ -30,7 +31,7 @@ module.exports = [
       'SCSS',
       'Sass',
       'Backend',
-      'Fullstack'
+      'Fullstack',
     ],
   },
   {
@@ -3380,8 +3381,7 @@ module.exports = [
   },
   {
     name: 'Joel M. Turner',
-    description:
-      'Mostly Front-End Dev, some back end',
+    description: 'Mostly Front-End Dev, some back end',
     url: 'https://joelmturner.com/uses',
     twitter: '@joelmturner',
     emoji: '⛰',
