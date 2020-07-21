@@ -1,9 +1,8 @@
 // keep it commonjs export
 module.exports = [
-   {
+  {
     name: 'Pablo Obando',
-    description:
-      'A software engineer who enjoys programming and good beers 🍻',
+    description: 'A software engineer who enjoys programming and good beers 🍻',
     url: 'https://pabloobando.dev/uses',
     twitter: '@pabloobandodev',
     emoji: '🧙',
