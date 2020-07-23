@@ -156,6 +156,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Linus Rogge',
+    description: 'Self-taught front-end dev and UI/UX lover',
+    url: 'https://linuscodes.com/uses',
+    twitter: '@linuscodes',
+    emoji: '🤩',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Designer',
+      'UX',
+      'UI',
+      'Vue',
+      'JavaScript',
+      'Hugo'
+    ]
+  },
+  {
     name: 'Alex Duval',
     description: 'Fullstack Dev, Teacher, Freeride skier',
     url: 'https://www.alexduval.fr/uses',
