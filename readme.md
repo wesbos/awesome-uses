@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf

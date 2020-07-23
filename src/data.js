@@ -142,7 +142,7 @@ module.exports = [
       'JavaScript',
       'Front End',
       'Back End',
-      'Linux',    
+      'Linux',
     ],
   },
   {
