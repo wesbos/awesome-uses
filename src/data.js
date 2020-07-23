@@ -1,6 +1,31 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Devansh Bajaj',
+    description:
+      '20 | M | Front End | Web Developer | Freelancer | Android enthusiast',
+    url: 'https://devanshbajaj.me/uses',
+    twitter: '@devansh21db',
+    emoji: '🐼',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Freelancer',
+      'Developer',
+      'JavaScript',
+      'Front End',
+      'CSS',
+      'HTML',
+      'Bulma CSS',
+      'Sass',
+      'React',
+      'Kotlin',
+      'Android',
+    ],
+  },
+  {
     name: 'Carlos Longarela',
     description:
       'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
