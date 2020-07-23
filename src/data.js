@@ -1,6 +1,6 @@
 // keep it commonjs export
 module.exports = [
-    {
+  {
     name: 'Carlos Longarela',
     description:
       'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
