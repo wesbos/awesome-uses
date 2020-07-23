@@ -172,8 +172,8 @@ module.exports = [
       'UI',
       'Vue',
       'JavaScript',
-      'Hugo'
-    ]
+      'Hugo',
+    ],
   },
   {
     name: 'Alex Duval',
