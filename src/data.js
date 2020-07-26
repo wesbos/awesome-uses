@@ -19,7 +19,7 @@ module.exports = [
       'Gatsby',
       'Blogger',
       'WordPress',
-      'Teacher'
+      'Teacher',
     ],
   },
   {
