@@ -170,6 +170,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Diogo Ferreira',
+    description: 'Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.',
+    url: 'https://diogoferreira.pt/uses',
+    twitter: '@uzantonomon',
+    emoji: '🐧',
+    country: '🇵🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Ansible',
+      'DevOps',
+      'Docker',
+      'Linux',
+      'Sysadmin',
+    ],
+  },
+  {
     name: 'Zlatan Stajic',
     description:
       'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
