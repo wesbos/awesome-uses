@@ -1043,6 +1043,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Manassarn "Noom" Manoonchai',
+    description:
+      "Coding, Productivity, Technologies, macOS, Keyboard",
+    url: 'https://monosor.com/uses',
+    twitter: '@narze',
+    emoji: '😷',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'Ruby on Rails',
+      'Testing',
+      'Vim',
+      'Visual Studio Code',
+      'Web',
+    ],
+  },
+  {
     name: 'Monica Powell',
     description:
       "Hi! I'm a product engineer who is passionate about making open-source more accessible and community building",
