@@ -1472,7 +1472,7 @@ module.exports = [
     phone: 'iphone',
     tags: ['Developer', 'JavaScript'],
   },
-    {
+  {
     name: 'Cesar Gomez',
     description: 'Web Developer',
     url: 'https://www.csargomez.com/#uses',
