@@ -9506,8 +9506,7 @@ module.exports = [
   },
   {
     name: 'Johannes Konings',
-    description:
-      'Developer',
+    description: 'Developer',
     url: 'https://johanneskonings.dev/uses/',
     twitter: '@KoningsJohannes',
     emoji: '🕺',
