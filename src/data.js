@@ -9511,7 +9511,7 @@ module.exports = [
     url: 'https://johanneskonings.dev/uses/',
     twitter: '@KoningsJohannes',
     emoji: '🕺',
-    country: 'DE',
+    country: '🇩🇪',
     computer: 'windows',
     phone: 'android',
     tags: [
