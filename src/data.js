@@ -9505,6 +9505,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Johannes Konings',
+    description:
+      'Developer',
+    url: 'https://johanneskonings.dev/uses/',
+    twitter: '@KoningsJohannes',
+    emoji: '🕺',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'React',
+      'Node',
+      'AWS',
+      'AWS Amplify',
+    ],
+  },
+  {
     name: 'Jesús Leganés-Combarro "piranna"',
     description:
       'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
