@@ -87,6 +87,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Christian Oliff',
+    description: 'Front-end web developer person.',
+    url: 'https://christianoliff.com/uses/',
+    twitter: '@christianoliff',
+    emoji: '👨‍💻',
+    country: '🇯🇵',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'Front End',
+      'HTML',
+      'Hugo',
+      'Websites',
+    ],
+  },
+  {
     name: 'Kieran Osgood',
     description: 'Full stack developer. Curiosity in all.',
     url: 'https://osgood.dev/uses/',
