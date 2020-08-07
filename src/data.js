@@ -1110,7 +1110,7 @@ module.exports = [
     twitter: '@railto',
     emoji: '🐧',
     country: '🇮🇪',
-    computer: 'linux',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Developer',
@@ -1132,6 +1132,8 @@ module.exports = [
       'APIs',
       'PyCharm',
       'WebStorm',
+      'PhpStorm',
+      'DataGrip',
       'Visual Studio Code',
     ],
   },
