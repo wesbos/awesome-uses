@@ -95,13 +95,7 @@ module.exports = [
     country: '🇯🇵',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'CSS',
-      'Front End',
-      'HTML',
-      'Hugo',
-      'Websites',
-    ],
+    tags: ['CSS', 'Front End', 'HTML', 'Hugo', 'Websites'],
   },
   {
     name: 'Kieran Osgood',

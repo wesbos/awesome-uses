@@ -33,6 +33,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ali Alaa](https://www.alialaa.dev/uses) — Front-end web developer & online learning content creator.
 * [Devansh Bajaj](https://devanshbajaj.me/uses) — 20 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
+* [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
