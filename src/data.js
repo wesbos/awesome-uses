@@ -9034,6 +9034,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Haseeb Majid',
+    description: 'Software Engineer, who mostly develops in JavaScript and Python.',
+    url: 'https://haseebmajid.dev/uses/',
+    emoji: '💻',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'TypeScript',
+      'Python',
+    ],
+  },
+  {
     name: 'Narendra Mandadapu',
     description:
       'Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom',
