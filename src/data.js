@@ -9398,6 +9398,25 @@ module.exports = [
     tags: ['Developer', 'Backend', 'Ruby', 'Rails', 'Goby'],
   },
   {
+    name: 'Jérémie Bertrand',
+    description: 'Developer',
+    url: 'https://laedit.net/uses/',
+    twitter: '@laedit',
+    emoji: '🐧',
+    country: '🇫🇷',
+    computer: 'windows',
+    phone: 'windowsphone',
+    tags: [
+      'Developer',
+      'Back End',
+      '.NET Core',
+      'TypeScript',
+      'C#',
+      '.NET',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Tony Mamedbekov',
     description:
       'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
