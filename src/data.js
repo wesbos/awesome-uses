@@ -9035,7 +9035,8 @@ module.exports = [
   },
   {
     name: 'Haseeb Majid',
-    description: 'Software Engineer, who mostly develops in JavaScript and Python.',
+    description:
+      'Software Engineer, who mostly develops in JavaScript and Python.',
     url: 'https://haseebmajid.dev/uses/',
     emoji: '💻',
     country: '🇬🇧',

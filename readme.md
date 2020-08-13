@@ -466,6 +466,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Karol Toruń](https://ktorun.pl/uses) — Fullstack developer, VIM, JS, OSX <3, PL
+* [Haseeb Majid](https://haseebmajid.dev/uses/) — Software Engineer, who mostly develops in JavaScript and Python.
 * [Narendra Mandadapu](https://5pagesaday.com/uses) — Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom
 * [Justin Michaliga](https://jmichaliga.github.io/uses) — Javascript Engineer based in Brooklyn, NYC
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
@@ -483,6 +484,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
+* [Jérémie Bertrand](https://laedit.net/uses/) — Developer
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
