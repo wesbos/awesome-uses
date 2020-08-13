@@ -7044,7 +7044,7 @@ module.exports = [
     name: 'Quentin Laffont',
     description:
       'Full Stack JS Developer.',
-    url: 'https://tools.qlaffont.com',
+    url: 'https://uses.qlaffont.com',
     twitter: '@qlaffont',
     emoji: '😎',
     country: '🇫🇷',
