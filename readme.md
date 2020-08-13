@@ -269,6 +269,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
+* [Yoann Fleury](https://blog.yoannfleury.dev/uses) — Front End Web Developer, Blogger
 * [Keith Wagner](https://kpwags.com/uses) — Experienced full stack developer. Always trying to learn new and better ways of doing things.
 * [Chuck Munson](https://www.breadandrosesweb.com/uses/) — Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
