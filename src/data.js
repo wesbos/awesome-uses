@@ -7064,6 +7064,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Quentin Laffont',
+    description:
+      'Full Stack JS Developer, Tournament Organiser, Video-Game lover',
+    url: 'https://uses.qlaffont.com',
+    twitter: '@qlaffont',
+    emoji: '😎',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Back End',
+      'Front End',
+      'Full Stack',
+      'Entrepreneur',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Angular',
+      'CSS',
+      'SCSS',
+    ],
+  },
+  {
     name: 'José Carlos Correa',
     description:
       'Fullstack developer and speaker. Lead teacher @ironhack and gatsby teacher @platzi. Learning all the time.',
