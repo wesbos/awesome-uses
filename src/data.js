@@ -7043,7 +7043,7 @@ module.exports = [
   {
     name: 'Quentin Laffont',
     description:
-      'Full Stack JS Developer & Gamer',
+      'Full Stack JS Developer, Tournament Organiser, Video-Game lover',
     url: 'https://uses.qlaffont.com',
     twitter: '@qlaffont',
     emoji: '😎',
