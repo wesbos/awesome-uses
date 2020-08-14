@@ -1,6 +1,26 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Bram Smulders',
+    description: 'Front-end UI developer',
+    url: 'https://bram.is/using',
+    twitter: '@bramsmulders',
+    emoji: '🔥',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'Front-end',
+      'HTML',
+      'ITCSS',
+      'JavaScript',
+      'React',
+      'Eleventy',
+      'Svelte',
+    ],
+  },
+  {
     name: 'Erick Mwamodo',
     description: 'Web Engineer, Designer, All-Round Entrepreneur',
     url: 'https://mwamodo.com/uses',
