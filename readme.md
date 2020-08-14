@@ -29,9 +29,11 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Erick Mwamodo](https://mwamodo.com/uses) — Web Engineer, Designer, All-Round Entrepreneur
 * [Ali Alaa](https://www.alialaa.dev/uses) — Front-end web developer & online learning content creator.
 * [Devansh Bajaj](https://devanshbajaj.me/uses) — 20 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
+* [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
@@ -267,6 +269,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
+* [Yoann Fleury](https://blog.yoannfleury.dev/uses) — Front End Web Developer, Blogger
 * [Keith Wagner](https://kpwags.com/uses) — Experienced full stack developer. Always trying to learn new and better ways of doing things.
 * [Chuck Munson](https://www.breadandrosesweb.com/uses/) — Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
@@ -464,6 +467,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Karol Toruń](https://ktorun.pl/uses) — Fullstack developer, VIM, JS, OSX <3, PL
+* [Haseeb Majid](https://haseebmajid.dev/uses/) — Software Engineer, who mostly develops in JavaScript and Python.
 * [Narendra Mandadapu](https://5pagesaday.com/uses) — Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom
 * [Justin Michaliga](https://jmichaliga.github.io/uses) — Javascript Engineer based in Brooklyn, NYC
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
@@ -481,12 +485,14 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
+* [Jérémie Bertrand](https://laedit.net/uses/) — Developer
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
+* [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
