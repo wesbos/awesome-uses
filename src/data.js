@@ -169,7 +169,7 @@ module.exports = [
   {
     name: 'Nicolas M. Pardo',
     description: 'JavaScript Developer and teacher at debakatas.com',
-    url: 'https://github.com/nikodermus/dotfiles',
+    url: 'https://nikodermus.media/uses',
     twitter: '@ndermus',
     emoji: '🌵',
     country: '🇨🇴',
