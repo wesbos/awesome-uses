@@ -167,6 +167,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Nicolas M. Pardo',
+    description: 'JavaScript Developer and teacher at debakatas.com',
+    url: 'https://nikodermus.media/uses',
+    twitter: '@ndermus',
+    emoji: '🌵',
+    country: '🇨🇴',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'GraphQL',
+      'Node',
+      'React',
+      'Vue',
+      'Designer',
+      'Devsigner',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Simon Fish',
     description:
       'Engineering and educating for a free and open web. Ruby/React fullstack developer',
