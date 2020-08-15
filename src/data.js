@@ -6145,6 +6145,8 @@ module.exports = [
       'HTML',
       'CSS',
       'REST',
+      'Android Studio',
+      'MySQL',
     ],
   },
   {
