@@ -6119,7 +6119,7 @@ module.exports = [
   {
     name: 'Florian Leroux',
     description: 'A junior full-stack developper',
-    url: 'https://floriaaan.github.io',
+    url: 'https://floriaaan.github.io/uses',
     twitter: '@t3tra_',
     emoji: '🤳',
     country: '🇫🇷',
