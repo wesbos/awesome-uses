@@ -326,6 +326,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jenna Pederson](https://jennapederson.com/uses) — Technical entrepreneur with a passion for community and equity-building
 * [Talita Oliveira](https://talitaoliveira.com.br/#uses) — Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.
 * [Ben Leivian](https://benleivian.com/uses) — A “seasoned” full-stack developer & visual designer 🍔
+* [Florian Leroux](https://floriaaan.github.io/uses) — A junior full-stack developper
 * [David Petringa](https://david.dukesnuz.com/uses) — A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.
 * [Mike Gunderloy](https://afreshcup.com/uses/) — Full-stack developer and dilettante
 * [Roman Husar](https://seemslikelegit.com/uses) — Tinkering, all the time.
