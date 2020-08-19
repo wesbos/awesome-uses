@@ -151,7 +151,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Herman](https://mherman.org/about#uses) — Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.
 * [Elisha Terada](https://www.elishaterada.com/uses) — Web & Mobile Software Engineer, UI Designer, Creative-Thinker.
 * [Daniel Flege](https://danielflege.com/uses/) — Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧
-* [Kenny Robinson](http://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
+* [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.

@@ -2660,7 +2660,8 @@ module.exports = [
   },
   {
     name: 'Kenny Robinson',
-    description: 'Web developer that builds software to improve business processes',
+    description:
+      'Web developer that builds software to improve business processes',
     url: 'https://thealmostengineer.com/uses',
     twitter: '@almostengr',
     computer: 'linux',
@@ -2682,7 +2683,7 @@ module.exports = [
       'HTML',
       'CSS',
       'YouTuber',
-      'Automation'
+      'Automation',
     ],
   },
   {
