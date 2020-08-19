@@ -2680,8 +2680,7 @@ module.exports = [
       'CSS',
       'YouTuber',
       'Trainer',
-      'Entrepreneur',
-      ''
+      'Entrepreneur'
     ],
   },
   {
