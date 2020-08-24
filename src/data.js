@@ -8275,6 +8275,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Justin Juno',
+    description: 'Infinitely curious and optimistic software developer.',
+    url: 'https://justinjuno.dev/uses/',
+    twitter: '@justinjunodev',
+    emoji: '👽',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'JAMstack',
+      'React',
+      'Gatsby',
+      'Node',
+      'CSS',
+      'Accessibility',
+      'Remote',
+    ],
+  },
+  {
     name: 'David A. Vives R.',
     description:
       'software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.',
