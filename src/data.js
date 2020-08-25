@@ -47,7 +47,7 @@ module.exports = [
     twitter: '_dennisnm',
     emoji: '🔥',
     country: '🇸🇪',
-    computer: 'dell',
+    computer: 'linux',
     phone: 'android',
     tags: [
       'FullStack',
