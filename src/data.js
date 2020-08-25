@@ -43,7 +43,7 @@ module.exports = [
   {
     name: 'Dennis Mathenge',
     description: 'Web Developer',
-    url: 'https://creativehubspace.com/',
+    url: 'https://creativehubspace.com/uses',
     twitter: '_dennisnm',
     emoji: '🔥',
     country: '🇸🇪',
