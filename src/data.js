@@ -45,7 +45,7 @@ module.exports = [
     description: 'Web Developer',
     url: 'https://creativehubspace.com/uses',
     twitter: '_dennisnm',
-    emoji: '🔥',
+    emoji: '⚡️',
     country: '🇸🇪',
     computer: 'linux',
     phone: 'android',
