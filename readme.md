@@ -452,6 +452,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Esmit Perez](https://esmit.me/uses) — Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.
 * [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
 * [Divjot Singh](https://bogas04.github.io/uses) — Web Developer, Vegan, Sikh.
+* [Navdeep Singh](https://navdeepsingh.in/uses) — Web Developer, Speaker, Sikh.
 * [Rohit Gohri](https://rohit.page/uses) — Full Stack Developer dabbling in DevOps, CI/CD
 * [Jeff Wen](https://sinchang.me/uses) — Web Developer, Open Source Contributor
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger

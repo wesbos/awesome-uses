@@ -8767,7 +8767,7 @@ module.exports = [
       'Node',
       'CSS',
     ],
-  },  
+  },
   {
     name: 'Rohit Gohri',
     description: 'Full Stack Developer dabbling in DevOps, CI/CD',
