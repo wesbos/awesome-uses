@@ -4166,7 +4166,7 @@ module.exports = [
       'Mentor',
     ],
   },
-   {
+  {
     name: 'Justin Juno',
     description: 'Infinitely curious and optimistic software developer.',
     url: 'https://justinjuno.dev/uses/',
