@@ -4430,7 +4430,8 @@ module.exports = [
   },
   {
     name: 'Brian Morrison II',
-    description: 'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
+    description:
+      'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
     url: 'https://brianmorrison.me/uses/',
     twitter: '@brianmmdev',
     emoji: '💻',
