@@ -4429,6 +4429,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Brian Morrison II',
+    description: 'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
+    url: 'https://brianmorrison.me/uses/',
+    twitter: '@brianmmdev',
+    emoji: '💻',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'YouTuber',
+      'JavaScript',
+      'AWS',
+      'Vue',
+      'Node',
+      'C#',
+      'CSS',
+    ],
+  },
+  {
     name: 'Tim Downey',
     description:
       'Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃',
