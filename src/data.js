@@ -2553,6 +2553,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Meriem Zaid',
+    description: 'Front-end Developer',
+    url: 'https://github.com/iMeriem',
+    twitter: '@_iMeriem',
+    emoji: '🤪',
+    country: '🇲🇦',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web Development',
+      'Front End',
+      'React',
+      'NodeJS',
+      'JavaScript',
+      'Python',
+    ],
+  },
+  {
     name: 'Pierre-Antoine "Leny" Delnatte',
     description:
       'Developer, Bootcamp coach. Forging the next generation of webdevelopers.',
