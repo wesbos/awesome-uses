@@ -6418,6 +6418,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Tony Mannino',
+    description: 'Full-Stack developer',
+    url: 'http://spaghet.me/uses/',
+    twitter: '@immannino',
+    emoji: '👨🏻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full-Stack',
+      'CSS',
+      'Vue',
+      'JavaScript',
+      'NuxtJS',
+      'Node',
+      'Glitch',
+      'Music',
+      'Cooking',
+    ],
+  },
+  {
     name: 'Scott Spence',
     description:
       'Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he',
