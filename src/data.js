@@ -7089,6 +7089,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Soumya Ranjan Mohanty',
+    description: 'Fullstack software developer, Music Lover',
+    url: 'https://soumya.dev/uses',
+    twitter: '@geekysrm',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'Full Stack',
+      'CSS',
+      'HTML',
+      'React',
+      'TypeScript',
+      'Blogger',
+      'Youtuber'
+    ],
+  },
+  {
     name: 'Mihai Serban',
     description:
       'Software engineer in constant search for new and exciting technologies',
