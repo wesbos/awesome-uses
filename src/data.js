@@ -7107,7 +7107,7 @@ module.exports = [
       'React',
       'TypeScript',
       'Blogger',
-      'Youtuber'
+      'Youtuber',
     ],
   },
   {
