@@ -116,6 +116,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amadeus Mader](https://mozart409.space/uses) — Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and full-stack developer; forever learning.
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
+* [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Yogi](https://github.com/yg/uses) — iOS and Web Developer
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
