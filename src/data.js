@@ -7817,7 +7817,7 @@ module.exports = [
   {
     name: "Joshua Ryan Velasquez",
     description: "Web Developer, Designer, Vimmer, Typist, and a Mortal",
-    url: "https://joshua-afk.github.io/uses",
+    url: "https://joshua-afk.github.io/uses/",
     twitter: "@joshua_afk",
     emoji: "☕",
     country: "🇵🇭",
@@ -7829,9 +7829,12 @@ module.exports = [
       "Full Stack",
       "PHP",
       "Laravel",
+      "Python",
+      "Django",
       "JavaScript",
       "Vue",
       "SASS",
+      "VIM",
     ],
   },
   {
