@@ -9171,7 +9171,7 @@ module.exports = [
     twitter: '@dickwyn',
     emoji: '🏁',
     country: '🇺🇸',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Software Engineer',
