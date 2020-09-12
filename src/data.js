@@ -4194,6 +4194,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Nathan Smith',
+    description: 'Full stack dev, cat dad, dungeon master.',
+    url: 'https://nathan-smith.org/uses',
+    emoji: '😬',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['TypeScript', 'ASP.Net Core', 'React', 'Full Stack'],
+  },
+  {
     name: 'Justin Juno',
     description: 'Infinitely curious and optimistic software developer.',
     url: 'https://justinjuno.dev/uses/',
