@@ -9205,6 +9205,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Dick Wyn Yong',
+    description: 'Software Engineer, Content Creator and Sustainability Enthusiast',
+    url: 'https://dickwyn.xyz/uses',
+    twitter: '@dickwyn',
+    emoji: '🏁',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Developer',
+      'Front End',
+      'Accessibility',
+      'JavaScript',
+      'TypeScript',
+      'CSS',
+      'HTML',
+      'React',
+      'Angular',
+      'Blogger',
+      'Youtuber',
+      'Traveler'
+    ],
+  },
+  {
     name: 'Logan Blangenois',
     description:
       'Front-end developer passionate about eco-friendly (web)app and React.',
