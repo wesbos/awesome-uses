@@ -9206,7 +9206,8 @@ module.exports = [
   },
   {
     name: 'Dick Wyn Yong',
-    description: 'Software Engineer, Content Creator and Sustainability Enthusiast',
+    description:
+      'Software Engineer, Content Creator and Sustainability Enthusiast',
     url: 'https://dickwyn.xyz/uses',
     twitter: '@dickwyn',
     emoji: '🏁',
@@ -9226,7 +9227,7 @@ module.exports = [
       'Angular',
       'Blogger',
       'Youtuber',
-      'Traveler'
+      'Traveler',
     ],
   },
   {
