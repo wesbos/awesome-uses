@@ -41,6 +41,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Vaibhav Soni',
+    description:
+      'Experienced UI/UX Designer',
+    url: 'https://www.behance.net/vaibhavjain3999',
+    twitter: '@vaibhavjain3999',
+    emoji: '💾',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Front End',
+      'HTML',
+      'UI Design',
+      'UX Research',
+      'Figma',
+      'Bootstrap',
+      'Materialize',
+      'JavaScript', 
+      'React',
+      'Node', 
+      'Netlify',
+    
+    ],
+  },
+  {
     name: 'Rubén Sospedra',
     description: 'JavaScript Software Engineer, speaker, and trainer',
     url: 'https://sospedra.me/uses',
