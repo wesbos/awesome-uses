@@ -225,6 +225,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tiffany White](https://tiffanywhite.dev/uses/) — Frontend dev, blogger, podcaster, herder of cats
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Ava Gaiety Wroten](https://www.wroten.me/uses) — JavaScript Software Engineer, artist, and designer
+* [Nathan Smith](https://nathan-smith.org/uses) — Full stack dev, cat dad, dungeon master.
 * [Justin Juno](https://justinjuno.dev/uses/) — Infinitely curious and optimistic software developer.
 * [Darlene Zouras](https://darzouras.com/uses/) — Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
