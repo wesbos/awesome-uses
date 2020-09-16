@@ -4832,6 +4832,24 @@ module.exports = [
     tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots'],
   },
   {
+    name: 'Nico Bachner',
+    description: 'Self taught Web Dev from Luxembourg. Open Source enthousiast',
+    url: 'https://nicob.dev/#uses',
+    emoji: '🎿',
+    country: '🇱🇺',
+    computer: 'apple',
+    tags: [
+      'Vanilla HTML',
+      'Vanilla CSS',
+      'Vanilla JS',
+      'Svelte',
+      'JAMStack',
+      'Front End',
+      'Vercel',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Brad Garropy',
     description:
       'Self taught frontender at Adobe, into lifting and country music.',
