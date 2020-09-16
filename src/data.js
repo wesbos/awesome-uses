@@ -4834,7 +4834,7 @@ module.exports = [
   {
     name: 'Nico Bachner',
     description: 'Self taught Web Dev from Luxembourg. Open Source enthousiast',
-    url: 'https://nicob.dev#uses',
+    url: 'https://nicob.dev/#uses',
     emoji: '🎿',
     country: '🇱🇺',
     computer: 'apple',
