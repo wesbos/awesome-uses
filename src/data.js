@@ -2782,13 +2782,14 @@ module.exports = [
       'PostgreSQL',
     ],
   },
-   {
+  {
     name: 'Alok Prateek',
-    description: 'Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.',
+    description:
+      'Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.',
     url: 'https://alokprateek.in/uses',
     twitter: '@thewhitewufy',
     emoji: '🐉',
-    country:  '🇮🇳',
+    country: '🇮🇳',
     computer: 'windows',
     phone: 'android',
     tags: [
