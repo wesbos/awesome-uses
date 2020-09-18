@@ -2122,7 +2122,7 @@ module.exports = [
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
     url:
-      'https://www.notion.so/Things-Prakhil-Uses-e995e61834c242f1b739be9f8819fb0c',
+      'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
     twitter: '@Prakhil_tp',
     emoji: '🖮🌏🧘🔭',
     country: '🇮🇳',
