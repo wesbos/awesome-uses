@@ -2118,6 +2118,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Prakhil TP',
+    description:
+      'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
+    url:
+      'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
+    twitter: '@Prakhil_tp',
+    emoji: '🖮🌏🧘🔭',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'JavaScript',
+      'React',
+      'Vim',
+      'Full Stack',
+      'TypeScript',
+      'DevOps',
+      'AWS',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Ryan Filler',
     description: 'Front-End Developer & Designer',
     url: 'https://ryanfiller.com/uses',
