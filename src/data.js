@@ -211,7 +211,8 @@ module.exports = [
   },
   {
     name: 'Adam DeHaven',
-    description: 'Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY',
+    description:
+      'Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY',
     url: 'https://www.adamdehaven.com/uses/',
     twitter: '@adamdehaven',
     emoji: '🚴',

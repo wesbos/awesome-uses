@@ -39,6 +39,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
+* [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf
