@@ -6,7 +6,7 @@ module.exports = [
     url: "http://oschvr.com/uses",
     twitter: "@oschvr",
     emoji: "⚙️",
-    country: "🇬🇧🇲🇽",
+    country: "🇬🇧",
     computer: "apple",
     phone: "android",
     tags: [
