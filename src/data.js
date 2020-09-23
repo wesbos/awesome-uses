@@ -2128,7 +2128,7 @@ module.exports = [
     url: 'https://www.andrewbyrd.dev/uses/',
     twitter: '@WordyTheByrd',
     emoji: '🐦',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
     tags: [
