@@ -3,7 +3,7 @@ module.exports = [
   {
     name: 'Matt James',
     description: 'Senior Front-end Software Engineer & Web Design Teacher',
-    url: 'https://mattfrankjames/uses/',
+    url: 'https://mattfrankjames.com/uses/',
     twitter: '@mattfrankjames',
     emoji: '🎸',
     country: '🇺🇸',
