@@ -1,36 +1,3 @@
-<<<<<<< HEAD
-# → Visit [uses.tech](https://uses.tech) for a good time
-
-A list of `/uses` pages detailing developer setups, gear, software and configs.
-
-Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/blob/master/src/data.js).
-
-This readme is auto-generated from the data.js file, so please don't PR this file.
-
-```
-   ▄████████  ▄█     █▄     ▄████████    ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████
-  ███    ███ ███     ███   ███    ███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███
-  ███    ███ ███     ███   ███    █▀    ███    █▀  ███    ███ ███   ███   ███   ███    █▀
-  ███    ███ ███     ███  ▄███▄▄▄       ███        ███    ███ ███   ███   ███  ▄███▄▄▄
-▀███████████ ███     ███ ▀▀███▀▀▀     ▀███████████ ███    ███ ███   ███   ███ ▀▀███▀▀▀
-  ███    ███ ███     ███   ███    █▄           ███ ███    ███ ███   ███   ███   ███    █▄
-  ███    ███ ███ ▄█▄ ███   ███    ███    ▄█    ███ ███    ███ ███   ███   ███   ███    ███
-  ███    █▀   ▀███▀███▀    ██████████  ▄████████▀   ▀██████▀   ▀█   ███   █▀    ██████████
-
-███    █▄     ▄████████    ▄████████    ▄████████
-███    ███   ███    ███   ███    ███   ███    ███
-███    ███   ███    █▀    ███    █▀    ███    █▀
-███    ███   ███         ▄███▄▄▄       ███
-███    ███ ▀███████████ ▀▀███▀▀▀     ▀███████████
-███    ███          ███   ███    █▄           ███
-███    ███    ▄█    ███   ███    ███    ▄█    ███
-████████▀   ▄████████▀    ██████████  ▄████████▀
-
-```
-
-# Awesome Uses ![Awesome][awesome-badge]
-
-=======
 # → Visit [uses.tech](https://uses.tech) for a good time
 
 A list of `/uses` pages detailing developer setups, gear, software and configs.
@@ -64,7 +31,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
 * [Matt James](https://mattfrankjames.com/uses/) — Senior Front-end Software Engineer & Web Design Teacher
->>>>>>> upstream/master
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
