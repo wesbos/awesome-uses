@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # → Visit [uses.tech](https://uses.tech) for a good time
 
 A list of `/uses` pages detailing developer setups, gear, software and configs.
@@ -29,6 +30,41 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+=======
+# → Visit [uses.tech](https://uses.tech) for a good time
+
+A list of `/uses` pages detailing developer setups, gear, software and configs.
+
+Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/blob/master/src/data.js).
+
+This readme is auto-generated from the data.js file, so please don't PR this file.
+
+```
+   ▄████████  ▄█     █▄     ▄████████    ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████
+  ███    ███ ███     ███   ███    ███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███
+  ███    ███ ███     ███   ███    █▀    ███    █▀  ███    ███ ███   ███   ███   ███    █▀
+  ███    ███ ███     ███  ▄███▄▄▄       ███        ███    ███ ███   ███   ███  ▄███▄▄▄
+▀███████████ ███     ███ ▀▀███▀▀▀     ▀███████████ ███    ███ ███   ███   ███ ▀▀███▀▀▀
+  ███    ███ ███     ███   ███    █▄           ███ ███    ███ ███   ███   ███   ███    █▄
+  ███    ███ ███ ▄█▄ ███   ███    ███    ▄█    ███ ███    ███ ███   ███   ███   ███    ███
+  ███    █▀   ▀███▀███▀    ██████████  ▄████████▀   ▀██████▀   ▀█   ███   █▀    ██████████
+
+███    █▄     ▄████████    ▄████████    ▄████████
+███    ███   ███    ███   ███    ███   ███    ███
+███    ███   ███    █▀    ███    █▀    ███    █▀
+███    ███   ███         ▄███▄▄▄       ███
+███    ███ ▀███████████ ▀▀███▀▀▀     ▀███████████
+███    ███          ███   ███    █▄           ███
+███    ███    ▄█    ███   ███    ███    ▄█    ███
+████████▀   ▄████████▀    ██████████  ▄████████▀
+
+```
+
+# Awesome Uses ![Awesome][awesome-badge]
+
+* [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
+* [Matt James](https://mattfrankjames.com/uses/) — Senior Front-end Software Engineer & Web Design Teacher
+>>>>>>> upstream/master
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
@@ -129,6 +165,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
+* [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Siim Männart](https://siim.me/uses) — Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer
