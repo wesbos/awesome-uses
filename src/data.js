@@ -2162,6 +2162,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrew Byrd',
+    description: 'Web dev. Girl Dad. Bodybuilder. Gamer.',
+    url: 'https://www.andrewbyrd.dev/uses/',
+    twitter: '@WordyTheByrd',
+    emoji: '🐦',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'TypeScript',
+      'React',
+      'Node',
+      'Python',
+    ],
+  },
+  {
     name: 'Siim Männart',
     description:
       'Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.',
