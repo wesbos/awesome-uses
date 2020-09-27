@@ -1578,6 +1578,17 @@ module.exports = [
     tags: ['Developer', 'PHP'],
   },
   {
+    name: 'davidak',
+    description: 'Creating Free Software, with a focus on QA.',
+    url: 'https://davidak.de/uses/',
+    twitter: '@davidak',
+    emoji: '😬',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [ 'Software Engineer', 'Content Creator', 'Minimalist', 'Gamer', 'Activist' ],
+  },
+  {
     name: 'Irshad Ali',
     description: 'Front-End-Developer based in Hyderabad, India.',
     url: 'http://www.irshadali.codes/uses',
