@@ -1,6 +1,26 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Erik Hedin',
+    description: 'Full-stack Web Developer',
+    url: 'https://www.erikhedin.com/uses/',
+    twitter: '@erikhedin',
+    emoji: '🔥',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'Full Stack',
+      'HTML',
+      'JavaScript',
+      'Gatsby',
+      'React',
+      'Drupal',
+      'Wordpress',
+    ],
+  },
+  {
     name: 'Matt James',
     description: 'Senior Front-end Software Engineer & Web Design Teacher',
     url: 'https://mattfrankjames.com/uses/',
@@ -14,7 +34,7 @@ module.exports = [
       'Front-end',
       'HTML',
       'JavaScript',
-      'Ember',
+      'Drupal',
       'Svelte',
       'React',
     ],
