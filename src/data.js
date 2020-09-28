@@ -3824,7 +3824,8 @@ module.exports = [
   },
   {
     name: 'Patrick Tumbucon',
-    description: 'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
+    description:
+      'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
     url: 'https://patricktumbucon.com/posts/uses',
     twitter: '@patrickisd3ad',
     emoji: '🌿',
@@ -3837,7 +3838,7 @@ module.exports = [
       'Distributed Systems',
       'Vue',
       'Python',
-      'Scala'
+      'Scala',
     ],
   },
   {
