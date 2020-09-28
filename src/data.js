@@ -2561,15 +2561,7 @@ module.exports = [
     country: '🇲🇦',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Web Development',
-      'Front End',
-      'React',
-      'NodeJS',
-      'JavaScript',
-      'Python',
-    ],
+    tags: ['Developer', 'Web Development', 'Front End', 'React', 'NodeJS', 'JavaScript', 'Python'],
   },
   {
     name: 'Pierre-Antoine "Leny" Delnatte',
