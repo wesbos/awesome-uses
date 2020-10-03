@@ -7930,7 +7930,7 @@ module.exports = [
   },
   {
     name: 'Usman Khwaja',
-    description: 'Front end engineer, JAMstack developer',
+    description: 'Front end engineer, Jamstack developer',
     url: 'https://usmankhwaja.com/uses',
     twitter: '@numbfall',
     emoji: '⛵',
