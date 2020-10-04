@@ -6723,7 +6723,7 @@ module.exports = [
   { 
     name: 'Danielle Mayabb',
     description: 'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
-    url: 'https://danielle-m.dev/Uses',
+    url: 'https://danielle-m.dev/uses',
     twitter: '@TheScifibrarian',
     emoji: '☕',
     country: '🇺🇸',
@@ -6745,7 +6745,7 @@ module.exports = [
       'Designer',
       'Accessibility',
       'a11y',
-      'Bootstrap'
+      'Bootstrap',
     ],
   },
   {
