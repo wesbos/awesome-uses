@@ -202,7 +202,7 @@ module.exports = [
   {
     name: 'John Irle',
     description: 'Graduate Student, Intern Developer at Charter and Go',
-    url: 'https://johnirle.com/blog/tools',
+    url: 'https://johnirle.com/blog/uses',
     twitter: '@IrleJohn',
     emoji: '👀',
     country: '🇺🇸',
@@ -10286,4 +10286,4 @@ module.exports = [
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
-]
+];
