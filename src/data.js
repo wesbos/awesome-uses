@@ -2692,6 +2692,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Dhananjay Porwal',
+    description: 'Cyber Security Analyst',
+    url: 'https://dhananjayporwal.me/',
+    emoji: '🐯',
+    country: 'In',
+    computer: 'apple',
+    phone: 'MI',
+    tags: [
+      'Ehthical Hacker'
+      'Developer',
+      'Designer',
+      'Illustrator',
+      'Photography',
+      'Front End',
+      'JavaScript',
+      'Vue',
+      'Node',
+      'CSS',
+      'Sass',
+      'Design Systems',
+    ],
+  },
+  {
     name: 'Makon Cline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
