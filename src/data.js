@@ -3668,6 +3668,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Dhananjay Porwal',
+    description: 'Cyber Security Analyst',
+    url: 'https://dhananjayporwal.me/',
+    emoji: '🔥',
+    country: 'IN',
+    computer: 'Windows',
+    phone: 'android',
+    tags: [
+      'Ethical Hacking',
+      'HTML'
+      'SCSS',
+      'JavaScript',
+      'Vue',
+      'ReactJS',
+      'GraphQL',
+      'Mentor',
+      'Developer',
+      'Front End',
+    ],
+  },
+  {
     name: 'Andy Bell',
     description:
       'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
