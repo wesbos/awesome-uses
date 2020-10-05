@@ -1256,7 +1256,7 @@ module.exports = [
     url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
     twitter: '@dhananjayindia7',
     emoji: '🔥',
-    country: 'IN',
+    country: '🇮🇳',
     computer: 'apple',
     phone: 'android',
     tags: [
