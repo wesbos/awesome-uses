@@ -2,8 +2,8 @@
 module.exports = [
   {
     name: 'Marc Berger',
-    description: 'Full-stack Web Developer',
-    url: 'https://mberger75.github.io/uses/,
+    description: 'Fullstack Web Developer',
+    url: 'https://mberger75.github.io/uses/',
     twitter: '@marcbrgr',
     emoji: '📼',
     country: '🇫🇷',
@@ -11,13 +11,13 @@ module.exports = [
     phone: 'android',
     tags: [
       'Full Stack',
-      'JavaScript'
+      'JavaScript',
       'TypeScript',
-      'Node.js',
       'React',
+      'Node.js',
       'MongoDB',
       'HTML',
-      'CSS',
+      'CSS'
       'Wordpress',
     ],
   },
