@@ -31,7 +31,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'CSS',
-      'Front-end',
+      'Front End',
       'HTML',
       'JavaScript',
       'Drupal',
@@ -50,7 +50,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'CSS',
-      'Front-end',
+      'Front End',
       'HTML',
       'JavaScript',
       'Drupal',
@@ -70,7 +70,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'CSS',
-      'Front-end',
+      'Front End',
       'HTML',
       'ITCSS',
       'JavaScript',
@@ -523,7 +523,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'FrontEnd',
+      'Front End',
       'React',
       'React Native',
       'JavaScript',
@@ -608,7 +608,7 @@ module.exports = [
     country: '🇵🇰',
     computer: 'windows',
     phone: 'android',
-    tags: ['Engineer', 'Frontend', 'ReactJS'],
+    tags: ['Engineer', 'Front End', 'ReactJS'],
   },
   {
     name: 'Matías Hernández',
@@ -621,7 +621,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'Frontend',
+      'Front End',
       'Web',
       'CSS',
       'HTML',
@@ -2356,7 +2356,7 @@ module.exports = [
     phone: 'android',
     tags: [
       'Backend',
-      'Frontend',
+      'Front End',
       'Fullstack',
       'PHP',
       'Laravel',
@@ -2641,7 +2641,7 @@ module.exports = [
     country: '🇮🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['WordPress', 'Developer', 'CSS', 'Front-End'],
+    tags: ['WordPress', 'Developer', 'CSS', 'Front End'],
   },
   {
     name: 'John SJ Anderson',
@@ -5094,7 +5094,7 @@ module.exports = [
       'Teacher',
       'Blogger',
       'Scientist',
-      'Frontend',
+      'Front End',
       'Full Stack',
       'JavaScript',
       'TypeScript',
@@ -6751,7 +6751,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Engineer',
-      'FrontEnd',
+      'Front End',
       'Blogger',
       'JavaScript',
       'React',
@@ -7115,7 +7115,7 @@ module.exports = [
     computer: 'apple',
     phone: 'android',
     tags: [
-      'Front end',
+      'Front End',
       'Engineer',
       'Developer',
       'Designer',
@@ -8089,7 +8089,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'Front end',
+      'Front End',
       'JavaScript',
       'React',
       'Gatsby',
@@ -8710,7 +8710,7 @@ module.exports = [
       'Docker',
       'Fullstack',
       'Backend',
-      'Frontend',
+      'Front End',
       'Spotify',
       'Discord',
       'E-Piano',
@@ -9046,7 +9046,7 @@ module.exports = [
     tags: [
       'JavaScript',
       'Developer',
-      'Front-End',
+      'Front End',
       'Blogger',
       'React',
       'Vue',
@@ -9286,7 +9286,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['Web developer', 'Front-end', 'Accessibility', 'Performance'],
+    tags: ['Web developer', 'Front End', 'Accessibility', 'Performance'],
   },
   {
     name: 'Peter Tasker',
