@@ -1,24 +1,24 @@
 // keep it commonjs export
 module.exports = [
-    {
-      name: 'Marc Berger',
-      description: 'Full-stack Web Developer',
-      url: 'https://mberger75.github.io/uses/,
-      twitter: '@marcbrgr',
-      emoji: '📼',
-      country: '🇫🇷',
-      computer: 'windows',
-      phone: 'android',
-      tags: [
-        'Full Stack',
-        'JavaScript',
-        'TypeScript',
-        'Node.js',
-        'React',
-        'MongoDB',
-        'HTML',
-        'CSS',
-        'Wordpress',
+  {
+    name: 'Marc Berger',
+    description: 'Full-stack Web Developer',
+    url: 'https://mberger75.github.io/uses/,
+    twitter: '@marcbrgr',
+    emoji: '📼',
+    country: '🇫🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'JavaScript'
+      'TypeScript',
+      'Node.js',
+      'React',
+      'MongoDB',
+      'HTML',
+      'CSS',
+      'Wordpress',
     ],
   },
   {
