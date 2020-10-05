@@ -6,7 +6,7 @@ module.exports = [
     url: 'https://github.com/mberger75/uses/',
     twitter: '@marcbrgr',
     emoji: '📼',
-    country: 'fr',
+    country: 'FR',
     computer: 'windows',
     phone: 'android',
     tags: [
