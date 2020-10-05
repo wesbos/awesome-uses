@@ -17,7 +17,7 @@ module.exports = [
       'Node.js',
       'MongoDB',
       'HTML',
-      'CSS'
+      'CSS',
       'Wordpress',
     ],
   },
