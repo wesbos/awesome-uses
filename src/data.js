@@ -3138,6 +3138,25 @@ module.exports = [
     tags: ['Front End', 'Developer', 'JavaScript', 'HTML', 'CSS', 'SCSS'],
   },
   {
+    name: 'Matt Litzinger',
+    description: 'Web Developer',
+    url: 'https://mlitzinger.com/uses/',
+    twitter: '@mattlitzinger',
+    emoji: '🤘',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Web Development',
+      'Full Stack',
+      'WordPress',
+      'Accessibility',
+      'JavaScript',
+      'VueJS',
+      'CSS',
+    ],
+  },
+  {
     name: 'Asur Bernardo',
     description:
       'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
