@@ -1287,8 +1287,10 @@ module.exports = [
   },
   {
     name: 'Dhananjay Porwal',
-    description: 'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
-    url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
+    description:
+      'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
+    url:
+      'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
     twitter: '@dhananjayindia7',
     emoji: '🔥',
     country: '🇮🇳',
@@ -1304,7 +1306,7 @@ module.exports = [
       'Snort',
       'John the Rippe',
       'Javascript',
-      'Front End'
+      'Front End',
     ],
   },
   {
@@ -6815,9 +6817,10 @@ module.exports = [
       'Speaker',
     ],
   },
-  { 
+  {
     name: 'Danielle Mayabb',
-    description: 'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
+    description:
+      'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
     url: 'https://danielle-m.dev/uses',
     twitter: '@TheScifibrarian',
     emoji: '☕',
@@ -9935,7 +9938,7 @@ module.exports = [
       'React',
       'Python',
       'Django',
-      'Vue'
+      'Vue',
     ],
   },
   {
@@ -10083,7 +10086,16 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'android',
-    tags: ['Front-end', 'Developer', 'HTML', 'CSS', 'Sass', '11ty', 'Jamstack', 'Freelance'],
+    tags: [
+      'Front-end',
+      'Developer',
+      'HTML',
+      'CSS',
+      'Sass',
+      '11ty',
+      'Jamstack',
+      'Freelance',
+    ],
   },
   {
     name: 'Kevin Simkanič',
