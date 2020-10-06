@@ -9814,6 +9814,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Hughes',
+    description: 'Full Stack Web Developer',
+    url: 'https://matthughes.dev/uses',
+    twitter: '@matthughes2112',
+    emoji: '👌🏼',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'Full stack',
+      'Front end',
+      'HTML',
+      'JavaScript',
+      'React',
+      'Python',
+      'Django',
+      'Vue'
+    ],
+  },
+  {
     name: 'Rail Hamdeew',
     description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
