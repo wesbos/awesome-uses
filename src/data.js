@@ -1251,6 +1251,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Dhananjay Porwal',
+    description: 'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
+    url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
+    twitter: '@dhananjayindia7',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Ethical Hacker',
+      'Metasploit Framework',
+      'Nmap',
+      'OpenSSH',
+      'Wireshark',
+      'Nessus',
+      'Snort',
+      'John the Rippe',
+      'Javascript',
+      'Front End'
+    ],
+  },
+  {
     name: 'Manassarn "Noom" Manoonchai',
     description: 'Coding, Productivity, Technologies, macOS, Keyboard',
     url: 'https://monosor.com/uses',
