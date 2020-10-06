@@ -1465,6 +1465,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeff Szuc',
+    description: 'UX Designer, Frontend Developer, Lifelong Learner.',
+    url: 'https://jeffszuc.com/uses',
+    twitter: '@szuc',
+    emoji: '😆',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'CSS',
+      'JavaScript',
+      'React',
+      'Designer',
+      'Developer',
+      'UX',
+      'Accessibility',
+    ],
+  },
+  {
     name: 'Maxim Zubarev',
     description:
       'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
