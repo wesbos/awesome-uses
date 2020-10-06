@@ -1,6 +1,30 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Rowe Morehouse',
+    description:
+      'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
+    url: 'https://rowe-morehouse.github.io/resume/uses/',
+    twitter: '@rowemore',
+    emoji: '✌️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Entrepreneur',
+      'Writer',
+      'Teacher',
+      'Marketer',
+      'Designer',
+      'Developer',
+      'Front End',
+      'CSS',
+      'JavaScript',
+      'UX',
+      'UI',
+    ],
+  },
+  {
     name: 'Erik Hedin',
     description: 'Full-stack Web Developer',
     url: 'https://www.erikhedin.com/uses/',
