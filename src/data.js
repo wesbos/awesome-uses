@@ -10064,6 +10064,17 @@ module.exports = [
     tags: ['AWS', 'Cloud', 'Infrastructure', 'Engineer', 'Developer', 'DevOps'],
   },
   {
+    name: 'Juan Fernandes',
+    description: 'Freelance Front-end Developer',
+    url: 'https://www.juanfernandes.uk/uses/',
+    twitter: '@juanfernandes',
+    emoji: '☕️',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['Front-end', 'Developer', 'HTML', 'CSS', 'Sass', '11ty', 'Jamstack', 'Freelance'],
+  },
+  {
     name: 'Kevin Simkanič',
     description: 'Wordpress ninja 😎 React lover ❤️ CSS master 🧐',
     url: 'https://github.com/kevinko12323/uses',
