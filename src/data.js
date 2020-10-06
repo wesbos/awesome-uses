@@ -4983,7 +4983,7 @@ module.exports = [
   },
   {
     name: 'Nico Bachner',
-    description: 'High School Student. Self taught Web Developer. Open Source enthousiast',
+    description: 'High School Student. Self taught Web Developer. Open Source enthusiast',
     url: 'https://nicob.dev/#uses',
     emoji: '🎿',
     country: '🇱🇺',
