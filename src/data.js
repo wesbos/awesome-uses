@@ -2427,7 +2427,7 @@ module.exports = [
       'Developer',
       'Software Engineer',
       'Full Stack',
-      'node',
+      'Node',
       'JavaScript',
       'PHP',
       'React',
