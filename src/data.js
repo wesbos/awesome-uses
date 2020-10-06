@@ -224,6 +224,17 @@ module.exports = [
     tags: ['CSS', 'Front End', 'HTML', 'Hugo', 'Websites'],
   },
   {
+    name: 'John Irle',
+    description: 'Graduate Student, Intern Developer at Charter and Go',
+    url: 'https://johnirle.com/blog/uses',
+    twitter: '@IrleJohn',
+    emoji: '👀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['React', 'MongoDB', 'Express', 'Node', 'Full stack', 'Gatsby'],
+  },
+  {
     name: 'Kieran Osgood',
     description: 'Full stack developer. Curiosity in all.',
     url: 'https://osgood.dev/uses/',
