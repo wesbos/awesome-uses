@@ -5080,7 +5080,8 @@ module.exports = [
   },
   {
     name: 'Nico Bachner',
-    description: 'High School Student. Self taught Web Developer. Open Source enthusiast',
+    description:
+      'High School Student. Self taught Web Developer. Open Source enthusiast',
     url: 'https://nicob.dev/#uses',
     emoji: '🎿',
     country: '🇱🇺',
@@ -5104,7 +5105,7 @@ module.exports = [
       'JAMstack',
       'Accessibility',
       'Designer',
-      'Visual Studio Code'
+      'Visual Studio Code',
     ],
   },
   {
