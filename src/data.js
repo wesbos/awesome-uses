@@ -4435,7 +4435,7 @@ module.exports = [
     url: 'https://aladinstudio.com/uses/',
     twitter: '@aladin02dz',
     emoji: '✌️',
-    country: 'dz',
+    country: 'DZ',
     computer: 'windows',
     phone: 'android',
     font: 'Roboto',
