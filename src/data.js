@@ -4431,18 +4431,17 @@ module.exports = [
   },
   {
     name: 'Mahfoudh Arous',
-    description:
-      'Software Engineer . Frontend Dev · Technical Writing',
-    url: 'https://aladinstudio.com/',
+    description: 'Software Engineer . Frontend Dev · Technical Writing',
+    url: 'https://aladinstudio.com/uses/',
     twitter: '@aladin02dz',
     emoji: '✌️',
     country: 'dz',
     computer: 'windows',
     phone: 'android',
-    font:'Roboto',
-    textEditor:'vscode',
-    cms:'WordPress',
-    framework:'React',
+    font: 'Roboto',
+    textEditor: 'vscode',
+    cms: 'WordPress',
+    framework: 'React',
     tags: [
       'Developer',
       'Front End',
@@ -4452,7 +4451,7 @@ module.exports = [
       'C#',
       'Speaker',
       'Blogger',
-      'Remote'
+      'Remote',
     ],
   },
   {
