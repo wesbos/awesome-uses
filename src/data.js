@@ -4430,6 +4430,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Mahfoudh Arous',
+    description:
+      'Software Engineer . Frontend Dev · Technical Writing',
+    url: 'https://aladinstudio.com/',
+    twitter: '@aladin02dz',
+    emoji: '💖',
+    country: 'dz',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'React',
+      'CSS',
+      'JavaScript',
+      'C#',
+      'Speaker',
+      'Blogger',
+      'Remote'
+    ],
+  },
+  {
     name: 'Kent C. Dodds',
     description: 'JavaScript Software Engineer, speaker, and trainer',
     url: 'https://kentcdodds.com/uses',
