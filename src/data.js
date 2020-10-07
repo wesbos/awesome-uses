@@ -4438,10 +4438,6 @@ module.exports = [
     country: '🇩🇿',
     computer: 'windows',
     phone: 'android',
-    font: 'Roboto',
-    textEditor: 'vscode',
-    cms: 'WordPress',
-    framework: 'React',
     tags: [
       'Developer',
       'Front End',
