@@ -222,7 +222,7 @@ module.exports = [
   {
     name: 'Ivan Muratov',
     description: 'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
-    url: 'https://github.com/binakot',
+    url: 'https://binakot.github.io/resume/uses',
     twitter: '@binakot',
     emoji: '🛰️',
     country: '🇷🇺',
