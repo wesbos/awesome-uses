@@ -134,7 +134,7 @@ module.exports = [
     emoji: '😂',
     country: '🇳🇬',
     computer: 'linux',
-    phone: 'Andriod',
+    phone: 'android',
     tags: [
       'HTML',
       'CSS',
