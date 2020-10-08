@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
+* [Adi Purnomo](https://github.com/medival/uses/) — Front End Developer x Network Engineer
 * [Matt James](https://mattfrankjames.com/uses/) — Senior Front-end Software Engineer & Web Design Teacher
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
@@ -362,6 +363,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [José Manuel Lucas](https://jmlweb.es/blog/2020/uses/) — Professional Frontend Engineer - Amateur musician
 * [Dao Huy Tuan](https://daohuytuan.com/uses/) — FrontEnd Engineer, Blogger, Vimmer
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
+* [Frédéric Harper](https://fred.dev/uses) — Developer Advocate with a knack for public speaking & making videos
 * [Mark Tse](https://neverendingqs.com/uses/) — A back-end developer who likes to dabble in the front-end.
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
 * [Zoran Panev](https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git) — Web developer

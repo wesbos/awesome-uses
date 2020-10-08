@@ -67,7 +67,7 @@ module.exports = [
       'JavaScript',
       'Node.js',
       'Cloud',
-      'Open Sources'
+      'Open Sources',
     ],
   },
   {
@@ -6945,7 +6945,8 @@ module.exports = [
   },
   {
     name: 'Frédéric Harper',
-    description: 'Developer Advocate with a knack for public speaking & making videos',
+    description:
+      'Developer Advocate with a knack for public speaking & making videos',
     url: 'https://fred.dev/uses',
     twitter: '@fharper',
     emoji: '✌🤦‍♂️',
