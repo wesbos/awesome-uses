@@ -127,9 +127,9 @@ module.exports = [
     ],
   },
   {
-    name: 'Abba Mahmood',
+    name: 'Muhammad Mahmood',
     description: 'Web Dev',
-    url: 'https://www.about.me/abba-m/',
+    url: 'https://www.about.me/abba-m/uses',
     twitter: '@abba_m_',
     emoji: '😂',
     country: '🇳🇬',
