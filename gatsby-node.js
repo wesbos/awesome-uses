@@ -6,6 +6,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   people
     .sort(() => Math.random() - 0.5)
     .forEach(p => {
+      // Remove duplicated tags.
       const person = { ...p, tags: [...new Set(p.tags)] };
       const nodeMeta = {
         id: createNodeId(`person-${person.name}`),
