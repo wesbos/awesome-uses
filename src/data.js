@@ -64,7 +64,7 @@ module.exports = [
       'Azure',
       'TailwindCSS',
       'Docker',
-      'JavaScript,
+      'JavaScript',
       'Node.js',
       'Cloud',
       'Open Sources'
