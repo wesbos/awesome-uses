@@ -3,7 +3,8 @@ import people from '../data.js';
 
 function merge(prop) {
   return function(acc, obj) {
-    return [...obj[prop], ...acc];
+    const propEntries = [...new Set(obj[prop])];
+    return [...propEntries, ...acc];
   };
 }
 
