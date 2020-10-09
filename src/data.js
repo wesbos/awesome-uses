@@ -220,6 +220,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Ivan Muratov',
+    description: 'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
+    url: 'https://binakot.github.io/resume/uses',
+    twitter: '@binakot',
+    emoji: '🛰️',
+    country: '🇷🇺',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Chief Technical Officer',
+      'Technical Team Leader',
+      'Software Developer',
+      'IoT',
+      'Java',
+      'Docker',
+      'PostgreSQL',
+    ],
+  },
+  {
     name: 'Carlos Longarela',
     description:
       'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
