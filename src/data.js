@@ -5,7 +5,7 @@ module.exports = [
     description:
       'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
     url: 'http://kushan.info/uses',
-    twitter: '@kushanshamika',
+    twitter: '@shamika_kushan',
     emoji: '👨‍💻',
     country: '🇱🇰',
     computer: 'apple',
