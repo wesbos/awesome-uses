@@ -113,6 +113,7 @@ module.exports = [
     name: 'Harshit Kumar Ojha',
     description: 'Self Learning Computer Science beginner',
     url: 'http://harshitkumarojha.github.io',
+    twitter: '-',
     emoji: '🌴',
     country: 'IND',
     computer: 'iball compbook',
