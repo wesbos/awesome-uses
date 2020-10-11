@@ -415,8 +415,8 @@ module.exports = [
     twitter: '@_ajarouih',
     emoji: '⚡️',
     country: '🇲🇦',
-    computer: 'linux',
-    phone: 'android',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
