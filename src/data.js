@@ -1,6 +1,30 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Kushan Shamika',
+    description:
+      'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
+    url: 'http://kushan.info/uses',
+    twitter: '@shamika_kushan',
+    emoji: '👨‍💻',
+    country: '🇱🇰',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'NestJS',
+      'React JS',
+      'AWS',
+      'DevOps',
+      'PHP',
+      'Developer',
+      'Front End',
+      'Firebase',
+      'JavaScript',
+      'SQL',
+      'Back End',
+    ],
+  },
+  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
