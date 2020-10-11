@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
 * [Adi Purnomo](https://github.com/medival/uses/) — Front End Developer x Network Engineer
