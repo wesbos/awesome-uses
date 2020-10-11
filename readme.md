@@ -48,6 +48,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
 * [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
+* [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
