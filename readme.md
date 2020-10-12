@@ -166,6 +166,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pierre-Antoine "Leny" Delnatte](https://leny.me/uses/) — Developer, Bootcamp coach. Forging the next generation of webdevelopers.
 * [Nich Secord](https://secord.io/uses) — Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.
 * [Sebastien Elet](https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9) — Full stack javascript developer which also loves ops and automation
+* [Simone Puhl](http://www.simonepuhl.com/uses) — Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers
 * [Mitchell Hanberg](https://mitchellhanberg.com/uses) — Full Stack Developer who loves working with Elixir, Ruby and JS.
 * [Michael Herman](https://mherman.org/about#uses) — Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.
 * [Elisha Terada](https://www.elishaterada.com/uses) — Web & Mobile Software Engineer, UI Designer, Creative-Thinker.
@@ -530,6 +531,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
+* [T G Pranesh](https://www.tgpranesh.site/uses/) — Front-end Developer
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.

@@ -3001,7 +3001,8 @@ module.exports = [
   },
   {
     name: 'Simone Puhl',
-    description: 'Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers',
+    description:
+      'Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers',
     url: 'http://www.simonepuhl.com/uses',
     twitter: '@per5imone',
     emoji: '🌵',
@@ -3015,7 +3016,7 @@ module.exports = [
       'HTML',
       'CSS',
       'LESS',
-      'SCSS',      
+      'SCSS',
       'JavaScript',
       'PHP',
       'Magento2',
