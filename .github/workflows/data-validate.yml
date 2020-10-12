@@ -25,7 +25,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Validate data.js
-      run: node ./scripts/data-validate.js
+    - name: Validate data.js using DangerJS
+      run: npx danger ci
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
