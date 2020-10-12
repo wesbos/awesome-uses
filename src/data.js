@@ -2251,6 +2251,29 @@ module.exports = [
     ],
   },
   {
+    name : 'Shubham Battoo',
+    description: 'Software Engineer focused on Web Technologies from India.',
+    url : 'https://shubhambattoo.in/uses',
+    twitter: '@Shubham_batt',
+    emoji: '🖖🎧',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Full Stack',
+      'CSS',
+      'Node',
+      'React',
+      'Angular',
+      'Blogger',
+      'NextJs',
+      'JAMStack',
+      'Web'
+    ],
+  },
+  {
     name: 'Mykolas Krupauskas',
     description:
       'A passionate software developer that helps people create value with technology.',
