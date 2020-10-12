@@ -3000,6 +3000,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Simone Puhl',
+    description: 'Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers',
+    url: 'http://www.simonepuhl.com/uses',
+    twitter: '@per5imone',
+    emoji: '🌵',
+    country: '🇳🇱',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web',
+      'Front End',
+      'HTML',
+      'CSS',
+      'LESS',
+      'SCSS',      
+      'JavaScript',
+      'PHP',
+      'Magento2',
+    ],
+  },
+  {
     name: 'Mitchell Hanberg',
     description:
       'Full Stack Developer who loves working with Elixir, Ruby and JS.',
