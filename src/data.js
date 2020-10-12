@@ -1,5 +1,24 @@
 // keep it commonjs export
 module.exports = [
+    {
+    name: 'Alvin Bryan',
+    description:
+      'Loves coding maps, graphics and games.',
+    url: 'https://alvin.codes/uses',
+    twitter: '@alvinometric',
+    emoji: '🚀',
+    country: '🇪🇺',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'WebGL',
+      'D3.js',
+      'JavaScript',
+      'Writer',
+      'Mentor',
+    ],
+  },
   {
     name: 'Kushan Shamika',
     description:
