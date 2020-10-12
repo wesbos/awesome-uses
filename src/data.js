@@ -1,23 +1,15 @@
 // keep it commonjs export
 module.exports = [
-    {
+  {
     name: 'Alvin Bryan',
-    description:
-      'Loves coding maps, graphics and games.',
+    description: 'Loves coding maps, graphics and games.',
     url: 'https://alvin.codes/uses',
     twitter: '@alvinometric',
     emoji: '🚀',
     country: '🇪🇺',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Developer',
-      'WebGL',
-      'D3.js',
-      'JavaScript',
-      'Writer',
-      'Mentor',
-    ],
+    tags: ['Developer', 'WebGL', 'D3.js', 'JavaScript', 'Writer', 'Mentor'],
   },
   {
     name: 'Kushan Shamika',
@@ -1851,7 +1843,13 @@ module.exports = [
     country: '🇩🇪',
     computer: 'linux',
     phone: 'android',
-    tags: [ 'Software Engineer', 'Content Creator', 'Minimalist', 'Gamer', 'Activist' ],
+    tags: [
+      'Software Engineer',
+      'Content Creator',
+      'Minimalist',
+      'Gamer',
+      'Activist',
+    ],
   },
   {
     name: 'Irshad Ali',
