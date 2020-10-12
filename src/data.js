@@ -3498,7 +3498,7 @@ module.exports = [
       'PHP',
       'Node.js',
 
-       'Open Source Software',
+      'Open Source Software',
       'FOSS',
     ],
   },
@@ -5654,7 +5654,14 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['Developer', 'Back End', 'Speaker', 'Writer', 'JavaScript', 'Node.js'],
+    tags: [
+      'Developer',
+      'Back End',
+      'Speaker',
+      'Writer',
+      'JavaScript',
+      'Node.js',
+    ],
   },
   {
     name: 'Martin Marcucci',
