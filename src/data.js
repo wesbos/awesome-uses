@@ -10490,6 +10490,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Francisco Valloire',
+    description:
+      'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
+    url: 'https://github.com/frajova/what-i-use',
+    twitter: '@frajova',
+    emoji: '🌭',
+    country: '🇦🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'Developer',
+      'Front End',
+      'React',
+      'CSS',
+      'HTML',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Luis Contreras',
     description: 'Detail-oriented and passionate Software Engineer.',
     url: 'https://luiscontreras.dev/uses',
