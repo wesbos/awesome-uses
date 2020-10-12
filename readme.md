@@ -127,7 +127,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Amadeus Mader](https://mozart409.space/uses) — Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and full-stack developer; forever learning.
-* [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and Devops Aficionado, Full-stack Developer
+* [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Yogi](https://github.com/yg/uses) — iOS and Web Developer
@@ -240,6 +240,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gant Laborde](http://gantlaborde.com/uses/) — Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster
 * [Dave Mullen Jnr](https://davemullenjnr.co.uk/uses) — Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.
 * [Tiffany White](https://tiffanywhite.dev/uses/) — Frontend dev, blogger, podcaster, herder of cats
+* [Mahfoudh Arous](https://aladinstudio.com/uses/) — Software Engineer . Frontend Dev · Technical Writing
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Ava Gaiety Wroten](https://www.wroten.me/uses) — JavaScript Software Engineer, artist, and designer
 * [Nathan Smith](https://nathan-smith.org/uses) — Full stack dev, cat dad, dungeon master.
