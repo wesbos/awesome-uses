@@ -3,7 +3,9 @@ import people from '../data.js';
 
 function merge(prop) {
   return function(acc, obj) {
-    return [...obj[prop], ...acc];
+    // Remove duplicated values.
+    const values = [...new Set(obj[prop])];
+    return [...values, ...acc];
   };
 }
 
