@@ -2251,9 +2251,9 @@ module.exports = [
     ],
   },
   {
-    name : 'Shubham Battoo',
+    name: 'Shubham Battoo',
     description: 'Software Engineer focused on Web Technologies from India.',
-    url : 'https://shubhambattoo.in/uses',
+    url: 'https://shubhambattoo.in/uses',
     twitter: '@Shubham_batt',
     emoji: '🖖🎧',
     country: '🇮🇳',
@@ -2270,7 +2270,7 @@ module.exports = [
       'Blogger',
       'NextJs',
       'JAMStack',
-      'Web'
+      'Web',
     ],
   },
   {
