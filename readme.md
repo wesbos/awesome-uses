@@ -532,6 +532,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
+* [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
