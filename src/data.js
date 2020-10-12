@@ -10469,12 +10469,12 @@ module.exports = [
   {
     name: 'Francisco Valloire',
     description:
-      'Frontend developer, self-taught, enthusiastic and passionate about new technologies',
+      'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
     url: 'https://github.com/frajova/what-i-use',
     twitter: '@frajova',
     emoji: '🌭',
     country: '🇦🇷',
-    computer: 'MacBook Pro',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Web Development',
