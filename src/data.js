@@ -12,6 +12,23 @@ module.exports = [
     tags: ['Developer', 'WebGL', 'D3.js', 'JavaScript', 'Writer', 'Mentor'],
   },
   {
+    name: 'Anand Biswas',
+    description: 'Django Developer',
+    url: 'https://aanu.me/uses/',
+    emoji: '🎧',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Django Developer',
+      'Full Stack',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Python',
+    ],
+  },
+  {
     name: 'Kushan Shamika',
     description:
       'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
