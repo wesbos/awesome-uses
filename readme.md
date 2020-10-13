@@ -530,7 +530,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Juan Fernandes](https://www.juanfernandes.uk/uses/) — Freelance Front-end Developer
 * [Kevin Simkanič](https://github.com/kevinko12323/uses) — Wordpress ninja 😎 React lover ❤️ CSS master 🧐
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
-* [Rohit Gohri](https://rohit.page/using) — Dummy entry to trigger workflow
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer
