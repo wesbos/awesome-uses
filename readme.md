@@ -32,7 +32,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
 * [Anand Biswas](https://aanu.me/uses/) — Django Developer
 * [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
-* [Joshua Rose](https://jrgiant.tech/Uses) — Loves Christ, loves family, loves programming, full stack dev.
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Marc Berger](https://mberger75.github.io/uses/) — Fullstack Web Developer
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
