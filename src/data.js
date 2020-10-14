@@ -53,6 +53,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Rose',
+    description:
+      'Loves Christ, loves family, loves programming, full stack dev',
+    url: 'https://jrgiant.tech/Uses',
+    twitter: '@JrGiant',
+    emoji: '✝',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'ReactJS',
+      'Angular',
+      'Netlify',
+      'Developer',
+      'Front End',
+      'CSS',
+      'SCSS',
+      'JavaScript',
+      'HTML',
+      'PHP',
+      'UI/UX',
+      'WordPress',
+    ],
+  },
+  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
