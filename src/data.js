@@ -53,6 +53,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Rusiru Anupama',
+    description: 'Self-Taught Programmer,Mobile App Developer,IOT Developer',
+    url: 'https://rusiru.is-a.dev/uses',
+    twitter: '@anupamarusiru',
+    emoji: '🐱‍👤',
+    country: '🇱🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Developer', 'IOT', 'Flutter', 'Python', 'Tenserflow', 'Flask','Django','Express.js','Metero.js'],
+  },
+  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
