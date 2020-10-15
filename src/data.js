@@ -1501,8 +1501,8 @@ module.exports = [
     twitter: '@luislikewoah',
     emoji: '🔥',
     country: '🇺🇸',
-    computer: 'Macbook Pro',
-    phone: 'iPhone',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'JavaScript',
       'React',
