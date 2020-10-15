@@ -29,6 +29,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Holovach',
+    description: 'Loves SEO, improving coding skills and good food.',
+    url: 'https://www.coloradoseodesign.com/',
+    emoji: '🚀',
+    country: 'USA',
+    computer: 'microsoft',
+    phone: 'android',
+    tags: ['Developer', 'Alpine.js', 'PHP', 'JavaScript', 'CSS', 'Gulp', 'Perch CMS', 'HTML', 'Node.js'],
+  },
+  {
     name: 'Kushan Shamika',
     description:
       'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
