@@ -4987,6 +4987,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Lucca Miranda',
+    description: 'Web Developer Intern',
+    url: 'https://gist.github.com/luckened/f160096cec6b4b8291b335a19b486f75',
+    twitter: '@luckened',
+    emoji: '🐢',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'React',
+    ],
+  },
+  {
     name: 'Camilo Romero',
     description:
       'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
