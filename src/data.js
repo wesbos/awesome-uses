@@ -3914,6 +3914,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Emma Goto',
+    description:
+      'Frontend developer, weekly blogger and creator of Trello power-ups.',
+    url: 'https://emgoto.com/uses',
+    twitter: '@emma_goto',
+    emoji: '🍙',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Blogger',
+      'React',
+      'Gatsby',
+    ],
+  },
+  {
     name: 'Chris Otto',
     description: 'Software engineer. I enjoy JavaScript, DevOps and Testing.',
     url: 'https://chrisotto.dev/uses/',
