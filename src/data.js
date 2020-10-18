@@ -3923,12 +3923,7 @@ module.exports = [
     country: '🇦🇺',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Front End',
-      'Blogger',
-      'React',
-      'Gatsby',
-    ],
+    tags: ['Front End', 'Blogger', 'React', 'Gatsby'],
   },
   {
     name: 'Chris Otto',
