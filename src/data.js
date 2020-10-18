@@ -4995,12 +4995,7 @@ module.exports = [
     country: '🇧🇷',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Front End',
-      'Developer',
-      'JavaScript',
-      'React',
-    ],
+    tags: ['Front End', 'Developer', 'JavaScript', 'React'],
   },
   {
     name: 'Camilo Romero',

@@ -262,6 +262,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Scott Tolinski](https://scotttolinski.com/uses) — Web Developer, Tutorial Maker, Podcaster, Bboy
 * [Sascha Monteiro](https://www.purejs.com/uses/) — Full Stack Web Developer, JavaScript, Java
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
+* [Lucca Miranda](https://gist.github.com/luckened/f160096cec6b4b8291b335a19b486f75) — Web Developer Intern
 * [Camilo Romero](https://camiloromero.dev/uses) — Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Anton Andrésen](https://anton.best/uses/) — Software Engineer, Tutorial Maker, Youtuber, Tea Drinker
