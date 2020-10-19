@@ -1608,6 +1608,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Hideki Jinnai',
+    description: 'Lifelong Learner',
+    url: 'https://github.com/dekisr/uses',
+    emoji: '🧟',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front...and...end',
+      'JavaScript',
+      'Ink',
+      'Pencil',
+      'Brush'
+    ],
+  },
+  {
     name: '𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭',
     description: '𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐖𝐞𝐢𝐫𝐝𝐨',
     url: 'http://baharajr.me/uses',
