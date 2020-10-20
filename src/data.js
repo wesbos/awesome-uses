@@ -2986,7 +2986,8 @@ module.exports = [
   },
   {
     name: 'Misir Jafarov',
-    description: 'Human, full stack developer, and Open source developer from the world.',
+    description:
+      'Human, full stack developer, and Open source developer from the world.',
     url: 'https://themisir.com/uses/',
     emoji: '✌',
     country: '🇦🇿',
@@ -3007,8 +3008,8 @@ module.exports = [
       'Debian',
       'Docker',
       'Kubernetes',
-      'DevOps'
-    ]
+      'DevOps',
+    ],
   },
   {
     name: 'John SJ Anderson',

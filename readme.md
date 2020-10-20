@@ -167,6 +167,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [William Rodriguez](https://williamrodriguez.com/uses) — Full-Stack Developer. TALL Stack Advocate. Less is more.
 * [Shawn Crigger](https://shawn-crigger.herokuapp.com/uses) — Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!
 * [Keith Donegan](https://www.keithdonegan.com/uses/) — Irish WordPress developer, based in London, UK.
+* [Misir Jafarov](https://themisir.com/uses/) — Human, full stack developer, and Open source developer from the world.
 * [John SJ Anderson](https://genehack.org/uses) — information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.
 * [Brandon Clapp](https://brandonclapp.com/uses) — I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
