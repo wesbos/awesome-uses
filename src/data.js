@@ -5162,8 +5162,7 @@ module.exports = [
   },
   {
     name: 'Alex Kiss',
-    description:
-      'SRE/DevOps - just a geek in general',
+    description: 'SRE/DevOps - just a geek in general',
     url: 'https://www.sysrex.tech/uses/',
     twitter: '@sysrex',
     emoji: '💻',
