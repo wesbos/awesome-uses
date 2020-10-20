@@ -105,6 +105,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Manassarn "Noom" Manoonchai](https://monosor.com/uses) — Coding, Productivity, Technologies, macOS, Keyboard
 * [Monica Powell](https://www.aboutmonica.com/uses/) — Hi! I'm a product engineer who is passionate about making open-source more accessible and community building
 * [Mark Railton](https://markrailton.com/uses) — Software Engineer
+* [Hideki Jinnai](https://github.com/dekisr/uses) — Lifelong Learner
 * [𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭](http://baharajr.me/uses) — 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐖𝐞𝐢𝐫𝐝𝐨
 * [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.

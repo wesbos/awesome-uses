@@ -1641,13 +1641,7 @@ module.exports = [
     country: '🇧🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'JavaScript',
-      'Ink',
-      'Pencil',
-      'Brush'
-    ],
+    tags: ['Front End', 'JavaScript', 'Ink', 'Pencil', 'Brush'],
   },
   {
     name: '𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭',
