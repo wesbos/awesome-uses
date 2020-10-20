@@ -5164,7 +5164,7 @@ module.exports = [
     name: 'Alex Kiss',
     description:
       'SRE/DevOps - just a geek in general',
-    url: 'https://sysrex.tech/uses/',
+    url: 'https://www.sysrex.tech/uses/',
     twitter: '@sysrex',
     emoji: '💻',
     country: '🇺🇸',
