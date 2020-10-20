@@ -1616,7 +1616,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Front...and...end',
+      'Front End',
       'JavaScript',
       'Ink',
       'Pencil',
