@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
 * [Anand Biswas](https://aanu.me/uses/) — Django Developer
+* [Sascha Diercks](https://saschadiercks.dev/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
 * [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
 * [Joshua Rose](https://jrgiant.tech/Uses) — Loves Christ, loves family, loves programming, full stack dev
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
