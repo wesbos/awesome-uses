@@ -3361,6 +3361,35 @@ module.exports = [
     ],
   },
   {
+    name: 'Dwayne Harris',
+    description: 'Freelance web and app developer in NYC with over 15 years of professional experience.',
+    url: 'https://dwayne.xyz/uses',
+    twitter: '@arcatech',
+    emoji: '👍🏾',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Programmer',
+      'Web Developer',
+      'Typescript',
+      'Javascript',
+      'React',
+      'HTML',
+      'CSS',
+      'Node.js',
+      'Golang',
+      'SQL',
+      'PostgreSQL',
+      'iOS',
+      'Swift',
+      'macOS',
+      'Windows',
+      'Linux'
+    ]
+  },
+  {
     name: 'Kenny Robinson',
     description:
       'Web developer that builds software to improve business processes',
