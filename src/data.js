@@ -34,7 +34,7 @@ module.exports = [
     url: 'https://www.coloradoseodesign.com/uses.php',
     emoji: '✝',
     country: 'us',
-    computer: 'microsoft',
+    computer: 'windows',
     phone: 'android',
     tags: ['Developer', 'Alpine.js', 'PHP', 'JavaScript', 'CSS', 'Gulp', 'Perch CMS', 'HTML', 'Node.js'],
   },
