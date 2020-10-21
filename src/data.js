@@ -33,7 +33,7 @@ module.exports = [
     description: 'Loves SEO, improving coding skills and good food',
     url: 'https://www.coloradoseodesign.com/uses.php',
     emoji: '✝',
-    country: 'us',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     tags: ['Developer', 'Alpine.js', 'PHP', 'JavaScript', 'CSS', 'Gulp', 'Perch CMS', 'HTML', 'Node.js'],
