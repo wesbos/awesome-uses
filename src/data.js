@@ -29,6 +29,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Holovach',
+    description: 'Loves SEO, improving coding skills and good food',
+    url: 'https://www.coloradoseodesign.com/uses.php',
+    emoji: '✝',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Developer', 'Alpine.js', 'PHP', 'JavaScript', 'CSS', 'Gulp', 'Perch CMS', 'HTML', 'Node.js'],
+  },
+  {
     name: 'Sascha Diercks',
     description:
       'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
