@@ -36,7 +36,17 @@ module.exports = [
     country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
-    tags: ['Developer', 'Alpine.js', 'PHP', 'JavaScript', 'CSS', 'Gulp', 'Perch CMS', 'HTML', 'Node.js'],
+    tags: [
+      'Developer',
+      'Alpine.js',
+      'PHP',
+      'JavaScript',
+      'CSS',
+      'Gulp',
+      'Perch CMS',
+      'HTML',
+      'Node.js',
+    ],
   },
   {
     name: 'Sascha Diercks',
