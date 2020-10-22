@@ -3362,7 +3362,8 @@ module.exports = [
   },
   {
     name: 'Dwayne Harris',
-    description: 'Freelance web and app developer in NYC with over 15 years of professional experience.',
+    description:
+      'Freelance web and app developer in NYC with over 15 years of professional experience.',
     url: 'https://dwayne.xyz/uses',
     twitter: '@arcatech',
     emoji: '👍🏾',
@@ -3386,8 +3387,8 @@ module.exports = [
       'Swift',
       'macOS',
       'Windows',
-      'Linux'
-    ]
+      'Linux',
+    ],
   },
   {
     name: 'Kenny Robinson',
