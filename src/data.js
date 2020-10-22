@@ -4544,7 +4544,16 @@ module.exports = [
     country: '🇦🇿',
     computer: 'windows',
     phone: 'android',
-    tags: ['PHP', 'Laravel', 'Phalcon', 'React', 'Vue.js', 'Baku', 'Web', 'Dev'],
+    tags: [
+      'PHP',
+      'Laravel',
+      'Phalcon',
+      'React',
+      'Vue.js',
+      'Baku',
+      'Web',
+      'Dev',
+    ],
   },
   {
     name: 'Jason Cory Alvernaz',
@@ -9735,7 +9744,14 @@ module.exports = [
     country: '🇨🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Web Development', 'Front End', 'Vue.js', 'React', 'Node.js', 'Python'],
+    tags: [
+      'Web Development',
+      'Front End',
+      'Vue.js',
+      'React',
+      'Node.js',
+      'Python',
+    ],
   },
   {
     name: 'Andrea Prus',
