@@ -1,6 +1,5 @@
 // keep it commonjs export
-module.exports = [
-  {
+module.exports = [{
     name: 'Alvin Bryan',
     description: 'Loves coding maps, graphics and games.',
     url: 'https://alvin.codes/uses',
@@ -50,8 +49,7 @@ module.exports = [
   },
   {
     name: 'Sascha Diercks',
-    description:
-      'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
+    description: 'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
     url: 'https://saschadiercks.dev/uses/',
     twitter: '@saschadiercks',
     emoji: '🙂',
@@ -76,8 +74,7 @@ module.exports = [
   },
   {
     name: 'Kushan Shamika',
-    description:
-      'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
+    description: 'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
     url: 'http://kushan.info/uses',
     twitter: '@shamika_kushan',
     emoji: '👨‍💻',
@@ -100,8 +97,7 @@ module.exports = [
   },
   {
     name: 'Joshua Rose',
-    description:
-      'Loves Christ, loves family, loves programming, full stack dev',
+    description: 'Loves Christ, loves family, loves programming, full stack dev',
     url: 'https://jrgiant.tech/Uses',
     twitter: '@JrGiant',
     emoji: '✝',
@@ -126,8 +122,7 @@ module.exports = [
   },
   {
     name: 'Rowe Morehouse',
-    description:
-      'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
+    description: 'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
     url: 'https://rowe-morehouse.github.io/resume/uses/',
     twitter: '@rowemore',
     emoji: '✌️',
@@ -383,8 +378,7 @@ module.exports = [
   },
   {
     name: 'Devansh Bajaj',
-    description:
-      '20 | M | Front End | Web Developer | Freelancer | Android enthusiast',
+    description: '20 | M | Front End | Web Developer | Freelancer | Android enthusiast',
     url: 'https://devanshbajaj.me/uses',
     twitter: '@devansh21db',
     emoji: '🐼',
@@ -408,8 +402,7 @@ module.exports = [
   },
   {
     name: 'Ivan Muratov',
-    description:
-      'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
+    description: 'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
     url: 'https://binakot.github.io/resume/uses',
     twitter: '@binakot',
     emoji: '🛰️',
@@ -428,8 +421,7 @@ module.exports = [
   },
   {
     name: 'Carlos Longarela',
-    description:
-      'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
+    description: 'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
     url: 'https://github.com/CarlosLongarela/uses/',
     twitter: '@CarlosLongarela',
     emoji: '☕',
@@ -518,8 +510,7 @@ module.exports = [
   },
   {
     name: 'Adam DeHaven',
-    description:
-      'Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY',
+    description: 'Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY',
     url: 'https://www.adamdehaven.com/uses/',
     twitter: '@adamdehaven',
     emoji: '🚴',
@@ -563,8 +554,7 @@ module.exports = [
   },
   {
     name: 'Satyam Lachhwani',
-    description:
-      "Web developer - Exploring ways to find out what's good for me.",
+    description: "Web developer - Exploring ways to find out what's good for me.",
     url: 'https://portfolio-satyam.now.sh/uses',
     emoji: '😁',
     country: '🇮🇳',
@@ -600,8 +590,7 @@ module.exports = [
   },
   {
     name: 'Simon Fish',
-    description:
-      'Engineering and educating for a free and open web. Ruby/React fullstack developer',
+    description: 'Engineering and educating for a free and open web. Ruby/React fullstack developer',
     url: 'https://simon.fish/uses',
     twitter: '@boardfish_',
     emoji: '🐟',
@@ -653,8 +642,7 @@ module.exports = [
   },
   {
     name: 'Diogo Ferreira',
-    description:
-      'Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.',
+    description: 'Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.',
     url: 'https://diogoferreira.pt/uses',
     twitter: '@uzantonomon',
     emoji: '🐧',
@@ -665,8 +653,7 @@ module.exports = [
   },
   {
     name: 'Swapnil Agarwal',
-    description:
-      'Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader',
+    description: 'Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader',
     url: 'https://swapnil.net/uses/',
     twitter: '@SwapAgarwal',
     emoji: '📚',
@@ -695,8 +682,7 @@ module.exports = [
   },
   {
     name: 'Zlatan Stajic',
-    description:
-      'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
+    description: 'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
     url: 'https://www.zlatanstajic.com/uses',
     twitter: '@90zlaya',
     emoji: '⚡️',
@@ -718,8 +704,7 @@ module.exports = [
   },
   {
     name: 'Sergio Martín',
-    description:
-      'I enjoy creating and learning for the web. Standards and vanilla enthusiast',
+    description: 'I enjoy creating and learning for the web. Standards and vanilla enthusiast',
     url: 'https://www.sergiomartin.dev/uses',
     twitter: '@WhizzoCode',
     emoji: '🦾',
@@ -737,8 +722,7 @@ module.exports = [
   },
   {
     name: 'Bryan Hickey',
-    description:
-      'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
+    description: 'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
     url: 'https://bryanjhickey.com/uses',
     twitter: '@bryanjhickey',
     emoji: '🍺',
@@ -837,8 +821,7 @@ module.exports = [
   },
   {
     name: 'Dave Redfern',
-    description:
-      'I design and develop user‑centered experiences that deliver measurable returns.',
+    description: 'I design and develop user‑centered experiences that deliver measurable returns.',
     url: 'https://daveredfern.com/uses',
     twitter: '@daveredfern',
     emoji: '👋',
@@ -969,8 +952,7 @@ module.exports = [
   },
   {
     name: 'Shayon Pal',
-    description:
-      'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
+    description: 'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
     url: 'https://shayonpal.com/uses',
     twitter: '@ShayonPal',
     emoji: '☮️',
@@ -988,8 +970,7 @@ module.exports = [
   },
   {
     name: 'Yves Engetschwiler',
-    description:
-      'Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive',
+    description: 'Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive',
     url: 'http://bee-interactive.ch/uses',
     twitter: '@yvesdesign',
     emoji: '🌍',
@@ -1031,8 +1012,7 @@ module.exports = [
   },
   {
     name: 'Anubhav Srivastava',
-    description:
-      'Web Developer. Occasional blogger. Part time open source contributor',
+    description: 'Web Developer. Occasional blogger. Part time open source contributor',
     url: 'https://theanubhav.com/uses',
     twitter: '@onlyanubhav',
     emoji: '🧑🏻‍💻',
@@ -1051,8 +1031,7 @@ module.exports = [
   },
   {
     name: 'Alexander Christiaan Jacob',
-    description:
-      'A guy that does things, and thinks that having a reason for doing so is largely overrated.',
+    description: 'A guy that does things, and thinks that having a reason for doing so is largely overrated.',
     url: 'https://alexanderchristiaanjacob.com/uses',
     twitter: '@ACJ',
     emoji: '👍',
@@ -1073,8 +1052,7 @@ module.exports = [
   },
   {
     name: 'Jesse Stilwell',
-    description:
-      'Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.',
+    description: 'Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.',
     url: 'https://stilwell.io/uses',
     twitter: '@owlbynight',
     emoji: '🦉',
@@ -1127,8 +1105,7 @@ module.exports = [
   },
   {
     name: 'Josh Collinsworth',
-    description:
-      'Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.',
+    description: 'Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.',
     url: 'https://joshcollinsworth.com/uses',
     twitter: '@jjcollinsworth',
     emoji: '🍻',
@@ -1154,8 +1131,7 @@ module.exports = [
   },
   {
     name: 'Adam Siekierski',
-    description:
-      'Non-professional fullstack developer. Big fan of JavaScript, TypeScript, React, and Vue. Co-host of Polish web development podcast.',
+    description: 'Non-professional fullstack developer. Big fan of JavaScript, TypeScript, React, and Vue. Co-host of Polish web development podcast.',
     url: 'https://siekierski.ml/#/uses',
     twitter: '@a_siekierski',
     emoji: '🍻',
@@ -1178,8 +1154,7 @@ module.exports = [
   },
   {
     name: 'Sam Boswell',
-    description:
-      'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
+    description: 'CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.',
     url: 'https://www.bozzie.org/uses',
     twitter: '@sboswell',
     emoji: '🐾',
@@ -1271,8 +1246,7 @@ module.exports = [
   },
   {
     name: 'Jonas Jore',
-    description:
-      'Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!',
+    description: 'Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!',
     url: 'https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md',
     twitter: '@JonasJore',
     emoji: '🍕☕',
@@ -1556,10 +1530,8 @@ module.exports = [
   },
   {
     name: 'Dhananjay Porwal',
-    description:
-      'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
-    url:
-      'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
+    description: 'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
+    url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
     twitter: '@dhananjayindia7',
     emoji: '🔥',
     country: '🇮🇳',
@@ -1598,8 +1570,7 @@ module.exports = [
   },
   {
     name: 'Monica Powell',
-    description:
-      "Hi! I'm a product engineer who is passionate about making open-source more accessible and community building",
+    description: "Hi! I'm a product engineer who is passionate about making open-source more accessible and community building",
     url: 'https://www.aboutmonica.com/uses/',
     twitter: '@waterproofheart',
     emoji: '👩🏾‍💻',
@@ -1690,8 +1661,7 @@ module.exports = [
   },
   {
     name: 'Raul Melo',
-    description:
-      'Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.',
+    description: 'Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.',
     url: 'https://raulmelo.dev/uses',
     twitter: '@raul_fdm',
     emoji: '👌',
@@ -1716,8 +1686,7 @@ module.exports = [
   },
   {
     name: 'Ryan Harris',
-    description:
-      'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
+    description: 'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
     url: 'https://ryanharris.dev/uses',
     twitter: '@ryan_c_harris',
     emoji: '🔥',
@@ -1777,8 +1746,7 @@ module.exports = [
   },
   {
     name: 'Maxim Zubarev',
-    description:
-      'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
+    description: 'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
     url: 'https://maximzubarev.com/uses',
     twitter: '@mxmzb',
     emoji: '🤠',
@@ -1804,8 +1772,7 @@ module.exports = [
   },
   {
     name: 'Kelvin Mai',
-    description:
-      'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
+    description: 'Self Taught Full Stack developer, youtuber, full time nerd and aspiring functional programming polyglot',
     url: 'https://kelvinmai.io/uses',
     twitter: '@kelvinmai',
     emoji: '🤷‍♂️',
@@ -2069,8 +2036,7 @@ module.exports = [
   },
   {
     name: 'Jonesh Shrestha',
-    description:
-      '📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life',
+    description: '📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life',
     url: 'https://www.joneshshrestha.com/uses',
     twitter: '@shresthajonesh',
     emoji: '🧘🏻‍',
@@ -2081,8 +2047,7 @@ module.exports = [
   },
   {
     name: 'Aditya Thebe',
-    description:
-      '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
+    description: '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
     url: 'https://www.adityathebe.com/uses',
     twitter: '@adityathebe',
     emoji: '⚽',
@@ -2171,8 +2136,7 @@ module.exports = [
   },
   {
     name: 'Jibin Thomas',
-    description:
-      'Front-End Developer & Casual Blogger. CSS, Javascript & React',
+    description: 'Front-End Developer & Casual Blogger. CSS, Javascript & React',
     url: 'https://jibin.tech/uses',
     twitter: '@real_jibin',
     emoji: '⚡',
@@ -2213,8 +2177,7 @@ module.exports = [
   },
   {
     name: 'Amadeus Mader',
-    description:
-      'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
+    description: 'Front-End Dev & Occasional Blogger. Loves React, CSS, Electron, Javascript, Gatsby & Next',
     url: 'https://mozart409.space/uses',
     twitter: '@marc_van_sax',
     emoji: '⚡',
@@ -2239,8 +2202,7 @@ module.exports = [
   },
   {
     name: 'Marko Bajlovic',
-    description:
-      'Multidisciplinary creative and full-stack developer; forever learning.',
+    description: 'Multidisciplinary creative and full-stack developer; forever learning.',
     url: 'https://marko.tech/uses',
     twitter: '@desmosthenes',
     emoji: '🦁',
@@ -2265,8 +2227,7 @@ module.exports = [
   },
   {
     name: 'Simon Aronsson',
-    description:
-      'Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer',
+    description: 'Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer',
     url: 'https://simme.dev/uses',
     twitter: '@0x12b',
     emoji: '🥑',
@@ -2314,9 +2275,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Manoj Barman',
+    description: 'Working hardly, or Hardly working..',
+    url: 'https://manojbarman.in/uses',
+    twitter: '@itsmanojb',
+    emoji: '🎧',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'React',
+      'Angular',
+      'HTML/CSS',
+      'Node.js'
+    ],
+  },
+  {
     name: 'Wes Bos',
-    description:
-      'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
+    description: 'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
     url: 'https://wesbos.com/uses',
     twitter: '@wesbos',
     emoji: '🔥',
@@ -2399,8 +2376,7 @@ module.exports = [
   },
   {
     name: 'Bui Minh Phuc',
-    description:
-      'A front-end web developer lives and works in Saigon, and still single 😉',
+    description: 'A front-end web developer lives and works in Saigon, and still single 😉',
     url: 'https://buiminhphuc.com/uses/',
     twitter: '@minhphucbui',
     emoji: '👽',
@@ -2418,8 +2394,7 @@ module.exports = [
   },
   {
     name: 'Chandu J S',
-    description:
-      '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
+    description: '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
     url: 'https://chandujs.dev/uses',
     twitter: '@ctrleffive',
     emoji: '❤️',
@@ -2464,8 +2439,7 @@ module.exports = [
   },
   {
     name: 'Mykolas Krupauskas',
-    description:
-      'A passionate software developer that helps people create value with technology.',
+    description: 'A passionate software developer that helps people create value with technology.',
     url: 'https://mkrup.com/uses',
     twitter: '@mykolaskrup',
     emoji: '🙏',
@@ -2487,8 +2461,7 @@ module.exports = [
   },
   {
     name: 'Arturo De la Garza',
-    description:
-      'Full-stack web developer, avid learner, loves to play video games and board games',
+    description: 'Full-stack web developer, avid learner, loves to play video games and board games',
     url: 'https://arturodelagarza.com/uses',
     twitter: '@agzertuche',
     emoji: '🚀',
@@ -2511,8 +2484,7 @@ module.exports = [
   },
   {
     name: 'Tuna Çağlar Gümüş',
-    description:
-      'Senior software and systems engineer. I design things and make stuff when needed.',
+    description: 'Senior software and systems engineer. I design things and make stuff when needed.',
     url: 'https://pikseladam.com/uses',
     twitter: '@tc_gumus',
     emoji: '🧿',
@@ -2535,8 +2507,7 @@ module.exports = [
   },
   {
     name: 'Aaron Uurman',
-    description:
-      'Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.',
+    description: 'Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.',
     url: 'https://aaronuurman.com/uses',
     twitter: '@aaronuurman',
     emoji: '🍕🍺',
@@ -2579,8 +2550,7 @@ module.exports = [
   },
   {
     name: 'Siim Männart',
-    description:
-      'Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.',
+    description: 'Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.',
     url: 'https://siim.me/uses',
     twitter: '@siim',
     emoji: '🐾',
@@ -2599,10 +2569,8 @@ module.exports = [
   },
   {
     name: 'Prakhil TP',
-    description:
-      'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
-    url:
-      'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
+    description: 'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
+    url: 'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
     twitter: '@Prakhil_tp',
     emoji: '🖮🌏🧘🔭',
     country: '🇮🇳',
@@ -2650,8 +2618,7 @@ module.exports = [
   },
   {
     name: 'Maxence Poutord',
-    description:
-      'Software engineer, digital nomad, public speaker and remote worker',
+    description: 'Software engineer, digital nomad, public speaker and remote worker',
     url: 'https://www.maxpou.fr/uses',
     twitter: '@_maxpou',
     emoji: '🎒',
@@ -2673,8 +2640,7 @@ module.exports = [
   },
   {
     name: 'Colin Principe',
-    description:
-      'Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.',
+    description: 'Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.',
     url: 'https://principe.io/uses/',
     twitter: '@cprincipe',
     country: '🇨🇦',
@@ -2701,8 +2667,7 @@ module.exports = [
   },
   {
     name: 'Ahmed Ibrahim',
-    description:
-      'Full-stack developer who believes that Passion is the key to every success.',
+    description: 'Full-stack developer who believes that Passion is the key to every success.',
     url: 'https://ahmed-ibrahim.com/uses',
     twitter: '@ahmed_ibrahhim',
     emoji: '🔥',
@@ -2767,8 +2732,7 @@ module.exports = [
   },
   {
     name: 'Clint Winter',
-    description:
-      'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
+    description: 'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
     url: 'https://clintgwinter.com/uses',
     twitter: '@ClintWinter2',
     emoji: '🤓⛺',
@@ -2794,8 +2758,7 @@ module.exports = [
   },
   {
     name: 'Bob Orchard',
-    description:
-      'Semi-stack developer with a design background. Woodworker. Maker.',
+    description: 'Semi-stack developer with a design background. Woodworker. Maker.',
     url: 'https://boborchard.com/uses',
     twitter: '@boborchard',
     emoji: '☕',
@@ -2842,8 +2805,7 @@ module.exports = [
   },
   {
     name: 'Jamie Bowman',
-    description:
-      'Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger',
+    description: 'Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger',
     url: 'https://www.mrjamiebowman.com/uses',
     twitter: '@mrjamiebowman',
     emoji: '👨‍💻',
@@ -2890,8 +2852,7 @@ module.exports = [
   },
   {
     name: 'Jamie Ryan',
-    description:
-      'Full Stack Developer and CodeClan graduate from Edinburgh, Scotland',
+    description: 'Full Stack Developer and CodeClan graduate from Edinburgh, Scotland',
     url: 'https://www.jamieryan.dev/uses',
     twitter: '@jamieryandev',
     emoji: '📱',
@@ -2933,8 +2894,7 @@ module.exports = [
   },
   {
     name: 'Luis Alfredo Lorenzo',
-    description:
-      'Professional programmer and clean coder; I swear I will not kill -9 anyone.',
+    description: 'Professional programmer and clean coder; I swear I will not kill -9 anyone.',
     url: 'http://babas.bot/uses',
     twitter: '@babasbot',
     emoji: '🦆',
@@ -2945,8 +2905,7 @@ module.exports = [
   },
   {
     name: 'Fabian Vallejos',
-    description:
-      'Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus',
+    description: 'Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus',
     url: 'https://fabianvallejos.com/uses/',
     twitter: '@VallejosFab',
     emoji: '🧉',
@@ -3002,8 +2961,7 @@ module.exports = [
   },
   {
     name: 'Shawn Crigger',
-    description:
-      'Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!',
+    description: 'Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!',
     url: 'https://shawn-crigger.herokuapp.com/uses',
     twitter: '@shawncrigger',
     emoji: '🐶',
@@ -3042,8 +3000,7 @@ module.exports = [
   },
   {
     name: 'Misir Jafarov',
-    description:
-      'Human, full stack developer, and Open source developer from the world.',
+    description: 'Human, full stack developer, and Open source developer from the world.',
     url: 'https://themisir.com/uses/',
     emoji: '✌',
     country: '🇦🇿',
@@ -3069,8 +3026,7 @@ module.exports = [
   },
   {
     name: 'John SJ Anderson',
-    description:
-      'information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.',
+    description: 'information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.',
     url: 'https://genehack.org/uses',
     country: '🇺🇸',
     computer: 'apple',
@@ -3090,8 +3046,7 @@ module.exports = [
   },
   {
     name: 'Brandon Clapp',
-    description:
-      "I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.",
+    description: "I create user interfaces and write code for the web. I enjoy teaching others what I've learned along the way.",
     url: 'https://brandonclapp.com/uses',
     twitter: '@BrandonClapp',
     emoji: '👏',
@@ -3117,8 +3072,7 @@ module.exports = [
   },
   {
     name: 'Makon Cline',
-    description:
-      'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
+    description: 'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
     url: 'https://makoncline.com/uses',
     twitter: '@MakonCline',
     emoji: '🤙',
@@ -3141,8 +3095,7 @@ module.exports = [
   },
   {
     name: 'Pierre-Antoine "Leny" Delnatte',
-    description:
-      'Developer, Bootcamp coach. Forging the next generation of webdevelopers.',
+    description: 'Developer, Bootcamp coach. Forging the next generation of webdevelopers.',
     url: 'https://leny.me/uses/',
     twitter: '@leny_be',
     emoji: '🚧',
@@ -3169,8 +3122,7 @@ module.exports = [
   },
   {
     name: 'Nich Secord',
-    description:
-      'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
+    description: 'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
     url: 'https://secord.io/uses',
     twitter: '@nichsecord',
     emoji: '⛷️',
@@ -3195,10 +3147,8 @@ module.exports = [
   },
   {
     name: 'Sebastien Elet',
-    description:
-      'Full stack javascript developer which also loves ops and automation',
-    url:
-      'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
+    description: 'Full stack javascript developer which also loves ops and automation',
+    url: 'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
     twitter: '@SebastienElet',
     emoji: '🚀',
     country: '🇫🇷',
@@ -3217,8 +3167,7 @@ module.exports = [
   },
   {
     name: 'Simone Puhl',
-    description:
-      'Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers',
+    description: 'Front end / Web Developer, Cacti & Cat mom who loves cheeseburgers',
     url: 'http://www.simonepuhl.com/uses',
     twitter: '@per5imone',
     emoji: '🌵',
@@ -3240,8 +3189,7 @@ module.exports = [
   },
   {
     name: 'Mitchell Hanberg',
-    description:
-      'Full Stack Developer who loves working with Elixir, Ruby and JS.',
+    description: 'Full Stack Developer who loves working with Elixir, Ruby and JS.',
     url: 'https://mitchellhanberg.com/uses',
     twitter: '@mitchhanberg',
     emoji: '⚡️',
@@ -3261,8 +3209,7 @@ module.exports = [
   },
   {
     name: 'Michael Herman',
-    description:
-      'Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.',
+    description: 'Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.',
     url: 'https://mherman.org/about#uses',
     twitter: '@mikeherman',
     emoji: '🙏',
@@ -3284,8 +3231,7 @@ module.exports = [
   },
   {
     name: 'Elisha Terada',
-    description:
-      'Web & Mobile Software Engineer, UI Designer, Creative-Thinker.',
+    description: 'Web & Mobile Software Engineer, UI Designer, Creative-Thinker.',
     url: 'https://www.elishaterada.com/uses',
     twitter: '@elishaterada',
     emoji: '🐱',
@@ -3308,8 +3254,7 @@ module.exports = [
   },
   {
     name: 'Daniel Flege',
-    description:
-      'Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧',
+    description: 'Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧',
     url: 'https://danielflege.com/uses/',
     twitter: '@flegedaniel',
     emoji: '🎮',
@@ -3337,8 +3282,7 @@ module.exports = [
   },
   {
     name: 'Alok Prateek',
-    description:
-      'Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.',
+    description: 'Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.',
     url: 'https://alokprateek.in/uses',
     twitter: '@thewhitewufy',
     emoji: '🐉',
@@ -3362,8 +3306,7 @@ module.exports = [
   },
   {
     name: 'Dwayne Harris',
-    description:
-      'Freelance web and app developer in NYC with over 15 years of professional experience.',
+    description: 'Freelance web and app developer in NYC with over 15 years of professional experience.',
     url: 'https://dwayne.xyz/uses',
     twitter: '@arcatech',
     emoji: '👍🏾',
@@ -3392,8 +3335,7 @@ module.exports = [
   },
   {
     name: 'Kenny Robinson',
-    description:
-      'Web developer that builds software to improve business processes',
+    description: 'Web developer that builds software to improve business processes',
     url: 'https://thealmostengineer.com/uses',
     twitter: '@almostengr',
     computer: 'linux',
@@ -3461,8 +3403,7 @@ module.exports = [
   },
   {
     name: 'Yannick Le Roux',
-    description:
-      'Second career web dev, French living in San Diego, retired DJ.',
+    description: 'Second career web dev, French living in San Diego, retired DJ.',
     url: 'https://yannickleroux.com/uses',
     twitter: '@dj_yanic',
     emoji: '🔥',
@@ -3483,8 +3424,7 @@ module.exports = [
   },
   {
     name: 'Eric Raslich',
-    description:
-      'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
+    description: 'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
     url: 'https://ericraslich.com/uses',
     twitter: '@rasliche',
     emoji: '🤙',
@@ -3506,8 +3446,7 @@ module.exports = [
   },
   {
     name: 'Didier Catz',
-    description:
-      'Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.',
+    description: 'Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.',
     url: 'https://didiercatz.com/uses',
     twitter: '@didiercatz',
     emoji: '🎹',
@@ -3529,8 +3468,7 @@ module.exports = [
   },
   {
     name: 'Sagar Soni',
-    description:
-      'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
+    description: 'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
     url: 'https://sagarsoni.dev/uses/',
     twitter: '@saagarsoni',
     emoji: '💻',
@@ -3552,8 +3490,7 @@ module.exports = [
   },
   {
     name: 'Varatep Buranintu',
-    description:
-      'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
+    description: 'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
     url: 'https://www.varatech.io/uses/',
     twitter: '@varatep',
     emoji: '👀',
@@ -3635,8 +3572,7 @@ module.exports = [
   },
   {
     name: 'Asur Bernardo',
-    description:
-      'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
+    description: 'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
     url: 'https://asur.dev/uses/',
     twitter: '@asurbernardo',
     emoji: '🧐',
@@ -3699,8 +3635,7 @@ module.exports = [
   },
   {
     name: 'Roberto Vázquez González',
-    description:
-      'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
+    description: 'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
     url: 'https://robertovg.com/uses/',
     emoji: '🎸',
     country: '🇪🇸',
@@ -3724,8 +3659,7 @@ module.exports = [
   },
   {
     name: 'Joe Astuccio',
-    description:
-      'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
+    description: 'Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.',
     url: 'https://astucc.io/uses',
     twitter: '@jastuccio',
     emoji: '😜',
@@ -3748,8 +3682,7 @@ module.exports = [
   },
   {
     name: 'Eliezer Steinbock',
-    description:
-      'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
+    description: 'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
     url: 'https://elie.tech/uses',
     twitter: '@elie2222',
     emoji: '🧐',
@@ -3770,8 +3703,7 @@ module.exports = [
   },
   {
     name: 'Rene Gens',
-    description:
-      'android engineer, project manager, teacher, aspiring designer and author',
+    description: 'android engineer, project manager, teacher, aspiring designer and author',
     url: 'https://renegens.com/uses',
     twitter: '@renegens',
     emoji: '🤷‍',
@@ -3791,8 +3723,7 @@ module.exports = [
   },
   {
     name: 'John Smith',
-    description:
-      'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
+    description: 'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
     url: 'https://solrevdev.com/uses/',
     twitter: '@solrevdev',
     emoji: '🤓',
@@ -3835,8 +3766,7 @@ module.exports = [
   },
   {
     name: 'Michael Gale',
-    description:
-      'Web Developer with a beard and glasses from Melbourne, Australia',
+    description: 'Web Developer with a beard and glasses from Melbourne, Australia',
     url: 'https://michaelgale.dev/uses',
     twitter: '@miclgael',
     emoji: '🦄',
@@ -3907,8 +3837,7 @@ module.exports = [
   },
   {
     name: 'Renee de Kruijf',
-    description:
-      'Javascript developer in the making. Still learning every day. Liking it a lot!',
+    description: 'Javascript developer in the making. Still learning every day. Liking it a lot!',
     url: 'https://webdesignpuntnl.com/pages/uses.html',
     twitter: '@reneedekruijf',
     emoji: '🐧',
@@ -3927,8 +3856,7 @@ module.exports = [
   },
   {
     name: 'Amarpreet Singh',
-    description:
-      'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
+    description: 'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
     url: 'https://www.momcoded.com/uses',
     twitter: '@amarmanhala',
     emoji: '☕',
@@ -3967,8 +3895,7 @@ module.exports = [
   },
   {
     name: 'Danilo Barion Nogueira',
-    description:
-      'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
+    description: 'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
     url: 'https://danilobarion1986.github.io/uses',
     twitter: '@daniloinfo86',
     emoji: '🤔',
@@ -4007,8 +3934,7 @@ module.exports = [
   },
   {
     name: 'Emmanuel Martins',
-    description:
-      'Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings',
+    description: 'Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings',
     url: 'http://betacodings.com/uses',
     twitter: '@emmamartinscode',
     emoji: '👩🏽‍💻',
@@ -4027,8 +3953,7 @@ module.exports = [
   },
   {
     name: 'Emma Goto',
-    description:
-      'Frontend developer, weekly blogger and creator of Trello power-ups.',
+    description: 'Frontend developer, weekly blogger and creator of Trello power-ups.',
     url: 'https://emgoto.com/uses',
     twitter: '@emma_goto',
     emoji: '🍙',
@@ -4060,8 +3985,7 @@ module.exports = [
   },
   {
     name: 'Chris Berry',
-    description:
-      'Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur ',
+    description: 'Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur ',
     url: 'http://chrisberry.io/uses',
     twitter: '@chris_berry',
     emoji: '🤯',
@@ -4103,8 +4027,7 @@ module.exports = [
   },
   {
     name: 'Federico Vitale',
-    description:
-      '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
+    description: '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
     url: 'https://fedevitale.dev/uses',
     twitter: '@fedevitaledev',
     emoji: '✌️',
@@ -4115,8 +4038,7 @@ module.exports = [
   },
   {
     name: 'Vishwasa Navada K',
-    description:
-      'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
+    description: 'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
     url: 'https://vishwas.tech/uses',
     twitter: '@vishwasnavadak',
     emoji: '🤓',
@@ -4135,8 +4057,7 @@ module.exports = [
   },
   {
     name: 'Silvestar Bistrović',
-    description:
-      'Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.',
+    description: 'Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.',
     url: 'https://www.silvestar.codes/uses/',
     twitter: '@malimirkeccita',
     emoji: '🤘',
@@ -4178,8 +4099,7 @@ module.exports = [
   },
   {
     name: 'Andy Bell',
-    description:
-      'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
+    description: 'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
     url: 'https://hankchizljaw.com/uses',
     twitter: '@hankchizljaw',
     emoji: '🌶',
@@ -4201,8 +4121,7 @@ module.exports = [
   },
   {
     name: 'Daryn St. Pierre',
-    description:
-      'Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).',
+    description: 'Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).',
     url: 'https://daryn.codes/uses',
     twitter: '@bloqhead',
     emoji: '🍕',
@@ -4226,8 +4145,7 @@ module.exports = [
   },
   {
     name: 'Chris Lagasse',
-    description:
-      'Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.',
+    description: 'Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.',
     url: 'https://chrislagasse.com/uses',
     twitter: '@soben',
     emoji: '🚵‍',
@@ -4248,8 +4166,7 @@ module.exports = [
   },
   {
     name: 'Sergey Lysenko',
-    description:
-      'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
+    description: 'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
     url: 'https://soulwish.info/uses/',
     twitter: '@Soul_Wish',
     emoji: '🔥',
@@ -4274,8 +4191,7 @@ module.exports = [
   },
   {
     name: 'Shajan Jacob',
-    description:
-      'Software Engineer, extroverted introvert, storyteller and a maker.',
+    description: 'Software Engineer, extroverted introvert, storyteller and a maker.',
     url: 'https://shajanjacob.com/uses',
     twitter: '@shajanjacob',
     emoji: '🍀',
@@ -4293,8 +4209,7 @@ module.exports = [
   },
   {
     name: 'Habbat Adnan',
-    description:
-      'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
+    description: 'Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast',
     url: 'https://adncodez.com/uses',
     twitter: '@adncodez',
     emoji: '🐍',
@@ -4333,8 +4248,7 @@ module.exports = [
   },
   {
     name: 'Patrick Tumbucon',
-    description:
-      'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
+    description: 'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
     url: 'https://patricktumbucon.com/posts/uses',
     twitter: '@patrickisd3ad',
     emoji: '🌿',
@@ -4373,8 +4287,7 @@ module.exports = [
   },
   {
     name: 'Telmo Goncalves',
-    description:
-      'Fullstack Developer, mostly focused to ReactJS. Digital Nomad, I love travelling.',
+    description: 'Fullstack Developer, mostly focused to ReactJS. Digital Nomad, I love travelling.',
     url: 'https://telmo.online/uses',
     twitter: '@telmo',
     emoji: '🎙',
@@ -4393,8 +4306,7 @@ module.exports = [
   },
   {
     name: 'Mark Horsell',
-    description:
-      'Software Developer - Front-end mostly, back-end and native sometimes.',
+    description: 'Software Developer - Front-end mostly, back-end and native sometimes.',
     url: 'https://markhorsell.com/uses',
     twitter: '@markhorsell',
     emoji: '🗺',
@@ -4477,8 +4389,7 @@ module.exports = [
   },
   {
     name: 'Jake Jarvis',
-    description:
-      'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
+    description: 'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
     url: 'https://jarv.is/uses/',
     twitter: '@jakejarvis',
     emoji: '🐼',
@@ -4499,8 +4410,7 @@ module.exports = [
   },
   {
     name: 'Valentina Calabrese',
-    description:
-      'Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.',
+    description: 'Front-End Engineer 🤓, Drummer 🥁, Skateboarder 🛹 & Tech Enthusiast 📲. Sometimes I blog, too ✍🏻. And I 💖 User-centered design.',
     url: 'https://valentinacalabrese.com/uses',
     twitter: '@CherriePie4897',
     emoji: '🥁',
@@ -4527,8 +4437,7 @@ module.exports = [
   },
   {
     name: 'Adrián Alcorta Puente',
-    description:
-      'Graphic designer moving forward to be a Frontend developer. Love mountains, Game Boys and post-rock music.',
+    description: 'Graphic designer moving forward to be a Frontend developer. Love mountains, Game Boys and post-rock music.',
     url: 'https://ardillan.com/uses',
     emoji: '🐲',
     country: '🇪🇸',
@@ -4567,8 +4476,7 @@ module.exports = [
   },
   {
     name: 'Samir Mammadhasanov',
-    description:
-      'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
+    description: 'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
     url: 'https://samirmh.dev/uses.html',
     emoji: '💥',
     country: '🇦🇿',
@@ -4587,8 +4495,7 @@ module.exports = [
   },
   {
     name: 'Jason Cory Alvernaz',
-    description:
-      'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
+    description: 'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
     url: 'https://jasoncoryalvernaz.com/uses',
     emoji: '👽',
     country: '🇺🇸',
@@ -4609,8 +4516,7 @@ module.exports = [
   },
   {
     name: 'Alessia Bellisario',
-    description:
-      'Web engineer, mechanical keyboard builder, plotter art maker.',
+    description: 'Web engineer, mechanical keyboard builder, plotter art maker.',
     url: 'https://aless.co/uses',
     emoji: '😎',
     country: '🇨🇦',
@@ -4629,8 +4535,7 @@ module.exports = [
   },
   {
     name: 'Russell McWhae',
-    description:
-      'Backcountry skier, photographer, designer, and web developer from Canada',
+    description: 'Backcountry skier, photographer, designer, and web developer from Canada',
     url: 'https://russellmcwhae.ca/uses',
     emoji: '⛷',
     country: '🇨🇦',
@@ -4649,8 +4554,7 @@ module.exports = [
   },
   {
     name: 'Karl Koch',
-    description:
-      'Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.',
+    description: 'Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.',
     url: 'https://www.kejk.co/uses',
     twitter: '@_kejk',
     emoji: '🧘🏻‍♂️',
@@ -4673,8 +4577,7 @@ module.exports = [
   },
   {
     name: 'Sam Cross',
-    description:
-      '"Developer", IT student, frequent traveller by coach, addicted to music.',
+    description: '"Developer", IT student, frequent traveller by coach, addicted to music.',
     url: 'https://sam-cross.github.io/#/uses',
     emoji: '🎵',
     country: '🇬🇧',
@@ -4717,8 +4620,7 @@ module.exports = [
   },
   {
     name: 'Praveen Kumar Purushothaman',
-    description:
-      'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
+    description: 'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
     url: 'https://blog.praveen.science/my-personal-development-environment/',
     twitter: '@praveenscience',
     emoji: '😻',
@@ -4740,8 +4642,7 @@ module.exports = [
   },
   {
     name: 'Rene Pot',
-    description:
-      'Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer',
+    description: 'Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer',
     url: 'http://renepot.com/uses',
     twitter: '@wraldpyk',
     emoji: '🎮',
@@ -4785,8 +4686,7 @@ module.exports = [
   },
   {
     name: 'Gant Laborde',
-    description:
-      'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
+    description: 'Speaker, GDE Web/ML, Podcaster, Trainer, Speaker, Author, Podcaster',
     url: 'http://gantlaborde.com/uses/',
     twitter: '@gantlaborde',
     emoji: '🔥',
@@ -4812,8 +4712,7 @@ module.exports = [
   },
   {
     name: 'Dave Mullen Jnr',
-    description:
-      'Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.',
+    description: 'Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.',
     url: 'https://davemullenjnr.co.uk/uses',
     twitter: '@davemullenjnr',
     emoji: '🌱',
@@ -4946,8 +4845,7 @@ module.exports = [
   },
   {
     name: 'Darlene Zouras',
-    description:
-      'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
+    description: 'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
     url: 'https://darzouras.com/uses/',
     twitter: '@darzouras',
     emoji: '🤟',
@@ -4967,8 +4865,7 @@ module.exports = [
   },
   {
     name: 'Glenn Reyes',
-    description:
-      'Independent Software Engineer, trainer & speaker. Into sports & music.',
+    description: 'Independent Software Engineer, trainer & speaker. Into sports & music.',
     url: 'https://glennreyes.com/uses',
     twitter: '@glnnrys',
     emoji: '💃',
@@ -4989,8 +4886,7 @@ module.exports = [
   },
   {
     name: 'Yash Dave',
-    description:
-      'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
+    description: 'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
     url: 'https://amorpheuz.dev/uses/',
     twitter: '@amorpheuz',
     emoji: '👨🏽‍💻',
@@ -5032,8 +4928,7 @@ module.exports = [
   },
   {
     name: 'Adam Jahnke',
-    description:
-      'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
+    description: 'Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.',
     url: 'https://adamyonk.com/uses',
     emoji: '⤫',
     twitter: '@adamyonk',
@@ -5100,8 +4995,7 @@ module.exports = [
   },
   {
     name: 'Leonardo Melo',
-    description:
-      'Full stack web developer. Typescript lover, always learning new stuff.',
+    description: 'Full stack web developer. Typescript lover, always learning new stuff.',
     url: 'https://www.leomeloxp.dev/uses',
     emoji: '🎧',
     country: '🇯🇪',
@@ -5132,8 +5026,7 @@ module.exports = [
   },
   {
     name: 'Camilo Romero',
-    description:
-      'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
+    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
     url: 'https://camiloromero.dev/uses',
     emoji: '🍔',
     country: '🇨🇴',
@@ -5152,8 +5045,7 @@ module.exports = [
   },
   {
     name: 'Gabriel Wilkes',
-    description:
-      'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
+    description: 'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
     url: 'https://azul.technology/uses/',
     twitter: '@gabriel_wilkes',
     emoji: '🔵',
@@ -5197,8 +5089,7 @@ module.exports = [
   },
   {
     name: 'Brian Morrison II',
-    description:
-      'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
+    description: 'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
     url: 'https://brianmorrison.me/uses/',
     twitter: '@brianmmdev',
     emoji: '💻',
@@ -5240,8 +5131,7 @@ module.exports = [
   },
   {
     name: 'Tim Downey',
-    description:
-      'Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃',
+    description: 'Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃',
     url: 'https://downey.io/uses/',
     twitter: '@tcdowney',
     emoji: '🌝',
@@ -5342,8 +5232,7 @@ module.exports = [
   },
   {
     name: 'Joris Hens',
-    description:
-      'Web development teacher, Security and hacking enthousiast, Cook.',
+    description: 'Web development teacher, Security and hacking enthousiast, Cook.',
     url: 'https://www.goodbytes.be/uses',
     twitter: '@goodbytes',
     emoji: '👨🏽‍🍳',
@@ -5439,8 +5328,7 @@ module.exports = [
   },
   {
     name: 'Anthony Humphreys',
-    description:
-      'Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him',
+    description: 'Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him',
     url: 'https://anthonyhumphreys.dev/uses/',
     twitter: '@aphumphreys',
     emoji: '☕️',
@@ -5467,8 +5355,7 @@ module.exports = [
   },
   {
     name: 'Adrian Marin',
-    description:
-      'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
+    description: 'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
     url: 'https://adrianthedev.com/uses',
     twitter: '@adrianthedev',
     emoji: '🥑',
@@ -5497,8 +5384,7 @@ module.exports = [
   },
   {
     name: 'Christophe Querton',
-    description:
-      'Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.',
+    description: 'Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.',
     url: 'https://kertof.com/what-i-use',
     twitter: '@kertof',
     emoji: '🍉',
@@ -5519,8 +5405,7 @@ module.exports = [
   },
   {
     name: 'Lina María Montaño Ramírez',
-    description:
-      'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
+    description: 'Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co',
     url: 'https://calypsobronte.me/uses',
     twitter: '@calypsobronte',
     emoji: '🦄',
@@ -5541,8 +5426,7 @@ module.exports = [
   },
   {
     name: 'Michael Knepprath',
-    description:
-      'Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.',
+    description: 'Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.',
     url: 'https://mknepprath.com/uses',
     twitter: '@mknepprath',
     emoji: '🥳',
@@ -5553,8 +5437,7 @@ module.exports = [
   },
   {
     name: 'Nico Bachner',
-    description:
-      'High School Student. Self taught Web Developer. Open Source enthusiast',
+    description: 'High School Student. Self taught Web Developer. Open Source enthusiast',
     url: 'https://nicob.dev/#uses',
     emoji: '🎿',
     country: '🇱🇺',
@@ -5584,8 +5467,7 @@ module.exports = [
   },
   {
     name: 'Brad Garropy',
-    description:
-      'Self taught frontender at Adobe, into lifting and country music.',
+    description: 'Self taught frontender at Adobe, into lifting and country music.',
     url: 'https://bradgarropy.com/uses',
     twitter: '@bradgarropy',
     emoji: '🤠',
@@ -5605,8 +5487,7 @@ module.exports = [
   },
   {
     name: 'Jeff Mair',
-    description:
-      'Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner',
+    description: 'Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner',
     url: 'https://jeffmair.net/uses',
     twitter: '@jeffwmair',
     emoji: '🖖',
@@ -5617,8 +5498,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Collins',
-    description:
-      'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
+    description: 'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
     url: 'https://jeremycollins.net/uses',
     twitter: '@jollins',
     emoji: '🥤',
@@ -5658,8 +5538,7 @@ module.exports = [
   },
   {
     name: 'Michael Kutz',
-    description:
-      'JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86',
+    description: 'JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86',
     url: 'https://miku86.com/uses/',
     twitter: '@miku86com',
     emoji: '😎',
@@ -5685,8 +5564,7 @@ module.exports = [
   },
   {
     name: 'Bruno Brito',
-    description:
-      'Freelance Web Developer, Content Creator, Digital Marketing teacher',
+    description: 'Freelance Web Developer, Content Creator, Digital Marketing teacher',
     url: 'https://brunobrito.pt/uses',
     twitter: '@the_bammer',
     emoji: '🔥',
@@ -5726,8 +5604,7 @@ module.exports = [
   },
   {
     name: 'Roy Tang',
-    description:
-      'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
+    description: 'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
     url: 'https://roytang.net/about/uses/',
     twitter: '@roytang',
     emoji: '',
@@ -5747,8 +5624,7 @@ module.exports = [
   },
   {
     name: 'Josh Barker',
-    description:
-      'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
+    description: 'Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.',
     url: 'https://joshuabarker.com/uses',
     twitter: '@joshuafbarker',
     emoji: '⚽️',
@@ -5852,8 +5728,7 @@ module.exports = [
   },
   {
     name: 'Thomas Hunter II',
-    description:
-      'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
+    description: 'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
     url: 'https://thomashunter.name/uses',
     twitter: '@tlhunter',
     emoji: '🎛️',
@@ -5871,8 +5746,7 @@ module.exports = [
   },
   {
     name: 'Martin Marcucci',
-    description:
-      'Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.',
+    description: 'Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.',
     url: 'https://www.marku.me/uses',
     twitter: '@RMMarku',
     emoji: '🧉',
@@ -5892,8 +5766,7 @@ module.exports = [
   },
   {
     name: 'Andrew McCombe',
-    description:
-      'Experienced full stack web developer with a passion for testing.',
+    description: 'Experienced full stack web developer with a passion for testing.',
     url: 'https://www.euperia.com/uses',
     twitter: '@euperia',
     emoji: '🏁',
@@ -5989,8 +5862,7 @@ module.exports = [
   },
   {
     name: 'Jorge Ruvalcaba',
-    description:
-      'Software Engineer, Senior Frontend Engineer, Taco Master and internet weirdo 🤓',
+    description: 'Software Engineer, Senior Frontend Engineer, Taco Master and internet weirdo 🤓',
     url: 'https://jorgeruvalcaba.dev/uses/',
     twitter: '@jorgearuv',
     emoji: '🚀',
@@ -6034,8 +5906,7 @@ module.exports = [
   },
   {
     name: 'Keith Wagner',
-    description:
-      'Experienced full stack developer. Always trying to learn new and better ways of doing things.',
+    description: 'Experienced full stack developer. Always trying to learn new and better ways of doing things.',
     url: 'https://kpwags.com/uses',
     twitter: '@kpwags',
     emoji: '👨‍💻',
@@ -6055,8 +5926,7 @@ module.exports = [
   },
   {
     name: 'Chuck Munson',
-    description:
-      'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
+    description: 'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
     url: 'https://www.breadandrosesweb.com/uses/',
     twitter: '@ChuckMunson2',
     emoji: '⛏️',
@@ -6085,8 +5955,7 @@ module.exports = [
   },
   {
     name: 'Dean Harris',
-    description:
-      'Front End Developer. Husband. Skateboarder. Occasional blogger',
+    description: 'Front End Developer. Husband. Skateboarder. Occasional blogger',
     url: 'https://deanacus.com/uses/',
     twitter: '@deanacus',
     emoji: '🛹',
@@ -6116,8 +5985,7 @@ module.exports = [
   },
   {
     name: 'Colin Morris',
-    description:
-      'Steampunker, solution architect and web developer. Mad science works for all cases.',
+    description: 'Steampunker, solution architect and web developer. Mad science works for all cases.',
     url: 'https://vonexplaino.com/blog/posts/page/uses.html',
     twitter: '@vonexplaino',
     emoji: '⚙️',
@@ -6250,8 +6118,7 @@ module.exports = [
   },
   {
     name: 'Spencer Aung',
-    description:
-      'Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses',
+    description: 'Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses',
     url: 'https://spenceraung.me/blog/uses',
     twitter: '@SpencerAung',
     emoji: '🐙',
@@ -6274,8 +6141,7 @@ module.exports = [
   },
   {
     name: 'Dale French',
-    description:
-      'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
+    description: 'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
     url: 'https://dalefrench.dev/uses',
     twitter: '@dalefrench0',
     emoji: '🏄🏻‍♂️',
@@ -6315,8 +6181,7 @@ module.exports = [
   },
   {
     name: 'Liam Richardson',
-    description:
-      'User Interface developer focusing on Performance, A11y and CSS',
+    description: 'User Interface developer focusing on Performance, A11y and CSS',
     url: 'https://discoliam.com/uses/',
     twitter: '@discoliam',
     emoji: '🍕',
@@ -6369,8 +6234,7 @@ module.exports = [
   },
   {
     name: 'Caleb Ukle',
-    description:
-      "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
+    description: "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
     url: 'https://calebukle.com/uses',
     twitter: '@CU_Galaxy',
     emoji: '🤔',
@@ -6415,8 +6279,7 @@ module.exports = [
   },
   {
     name: 'Amir R Muntasser',
-    description:
-      "Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol' razzle dazzle.",
+    description: "Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol' razzle dazzle.",
     url: 'https://arkm.xyz/uses/',
     twitter: '@arkmuntasser',
     emoji: '⚡️',
@@ -6436,8 +6299,7 @@ module.exports = [
   },
   {
     name: 'Pavel Melnik',
-    description:
-      'Web developer, Technology enthusiast, Energy Management System expert',
+    description: 'Web developer, Technology enthusiast, Energy Management System expert',
     url: 'https://theopract.gitlab.io/pavel-dev/uses/',
     twitter: '@theopract',
     emoji: '🤟',
@@ -6457,8 +6319,7 @@ module.exports = [
   },
   {
     name: 'Miguel Ángel Durán',
-    description:
-      'Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.',
+    description: 'Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.',
     url: 'https://midu.dev/uses',
     twitter: '@midudev',
     emoji: '👾',
@@ -6485,8 +6346,7 @@ module.exports = [
   },
   {
     name: 'David Llop',
-    description:
-      'Full stack developer from Girona. Open Source contributor. Always Learning.',
+    description: 'Full stack developer from Girona. Open Source contributor. Always Learning.',
     url: 'https://davidllop.com/uses',
     twitter: '@lloople',
     emoji: '🤨',
@@ -6509,8 +6369,7 @@ module.exports = [
   },
   {
     name: 'Alba Silvente',
-    description:
-      'Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.',
+    description: 'Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.',
     url: 'https://dawntraoz.com/uses',
     twitter: '@dawntraoz',
     emoji: '💃',
@@ -6532,8 +6391,7 @@ module.exports = [
   },
   {
     name: 'Karel De Smet',
-    description:
-      'Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.',
+    description: 'Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.',
     url: 'https://kareldesmet.be/uses',
     emoji: '🎃',
     country: '🇧🇪',
@@ -6554,8 +6412,7 @@ module.exports = [
   },
   {
     name: 'Alberto Fortes',
-    description:
-      'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
+    description: 'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
     url: 'https://albertofortes.com/uses/',
     twitter: '@albertofortes',
     emoji: '👪',
@@ -6611,8 +6468,7 @@ module.exports = [
   },
   {
     name: 'Holger Lösken',
-    description:
-      'Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.',
+    description: 'Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.',
     url: 'https://www.codedge.de/uses/',
     twitter: '@cod2edge',
     emoji: '📦',
@@ -6710,8 +6566,7 @@ module.exports = [
   },
   {
     name: 'Josh Moore',
-    description:
-      'Self-taught full-stack web dev with a passion for open-source, privacy, & security.',
+    description: 'Self-taught full-stack web dev with a passion for open-source, privacy, & security.',
     url: 'https://jmoore.dev/uses/',
     twitter: '@tycrek',
     emoji: '😜',
@@ -6729,8 +6584,7 @@ module.exports = [
   },
   {
     name: 'James Mills',
-    description:
-      'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
+    description: 'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
     url: 'https://jamesmills.co.uk/uses',
     twitter: '@jamesmills',
     emoji: '🖱',
@@ -6741,8 +6595,7 @@ module.exports = [
   },
   {
     name: 'Brian Mitchell',
-    description:
-      'Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.',
+    description: 'Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.',
     url: 'https://brianm.me/uses',
     twitter: '@BrianMitchL',
     emoji: '🥳',
@@ -6764,8 +6617,7 @@ module.exports = [
   },
   {
     name: 'Mohammad Dohadwala',
-    description:
-      'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
+    description: 'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
     url: 'https://dohad.dev/uses',
     twitter: '@mohammaddohad',
     emoji: '🙃',
@@ -6910,8 +6762,7 @@ module.exports = [
   },
   {
     name: 'Mike Barkmin',
-    description:
-      "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
+    description: "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
     url: 'https://www.barkmin.eu/uses/',
     twitter: '@mikebarkmin',
     emoji: '🐧',
@@ -6933,8 +6784,7 @@ module.exports = [
   },
   {
     name: 'Hugo Di Francesco',
-    description:
-      "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
+    description: "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
     url: 'https://codewithhugo.com/uses',
     twitter: '@hugo__df',
     emoji: '👓',
@@ -6959,8 +6809,7 @@ module.exports = [
   },
   {
     name: 'Steve Heyes',
-    description:
-      'I like to use tech to build awesome things that makes peoples lives better',
+    description: 'I like to use tech to build awesome things that makes peoples lives better',
     url: 'https://steveheyes.co.uk/uses',
     twitter: '@mrsteveheyes',
     emoji: '👋',
@@ -6979,8 +6828,7 @@ module.exports = [
   },
   {
     name: 'Chris Jones',
-    description:
-      'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
+    description: 'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
     url: 'https://chrisjones.io/uses',
     twitter: '@chrisjonesio',
     emoji: '🌲',
@@ -6999,8 +6847,7 @@ module.exports = [
   },
   {
     name: 'Diego Vazquez',
-    description:
-      'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
+    description: 'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
     url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
     twitter: '@diurivj',
     emoji: '🌚',
@@ -7019,8 +6866,7 @@ module.exports = [
   },
   {
     name: 'Rafael Quintanilha',
-    description:
-      'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
+    description: 'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
     url: 'https://rafaelquintanilha.com/about#uses',
     twitter: '@webquintanilha',
     emoji: '⚔️',
@@ -7039,8 +6885,7 @@ module.exports = [
   },
   {
     name: 'Jenna Pederson',
-    description:
-      'Technical entrepreneur with a passion for community and equity-building',
+    description: 'Technical entrepreneur with a passion for community and equity-building',
     url: 'https://jennapederson.com/uses',
     twitter: '@jennapederson',
     emoji: '🦖',
@@ -7062,8 +6907,7 @@ module.exports = [
   },
   {
     name: 'Talita Oliveira',
-    description:
-      'Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.',
+    description: 'Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.',
     url: 'https://talitaoliveira.com.br/#uses',
     twitter: '@littacherry',
     emoji: '👩🏽‍💻',
@@ -7137,8 +6981,7 @@ module.exports = [
   },
   {
     name: 'David Petringa',
-    description:
-      'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
+    description: 'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
     url: 'https://david.dukesnuz.com/uses',
     twitter: '@dukesnuz',
     emoji: '🤙',
@@ -7197,8 +7040,7 @@ module.exports = [
   },
   {
     name: 'Stephen Senkomago Musoke',
-    description:
-      'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
+    description: 'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
     url: 'https://ssmusoke.com/uses',
     twitter: '@ssmusoke',
     emoji: '🔥',
@@ -7287,8 +7129,7 @@ module.exports = [
   },
   {
     name: 'Scott Spence',
-    description:
-      'Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he',
+    description: 'Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he',
     url: 'https://scottspence.me#uses',
     twitter: '@spences10',
     emoji: '🙃',
@@ -7308,8 +7149,7 @@ module.exports = [
   },
   {
     name: 'Marc Littlemore',
-    description:
-      'Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
+    description: 'Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
     url: 'https://marclittlemore.com/uses',
     twitter: '@marclittlemore',
     emoji: '🎉',
@@ -7330,8 +7170,7 @@ module.exports = [
   },
   {
     name: 'Danielle Mayabb',
-    description:
-      'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
+    description: 'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
     url: 'https://danielle-m.dev/uses',
     twitter: '@TheScifibrarian',
     emoji: '☕',
@@ -7422,8 +7261,7 @@ module.exports = [
   },
   {
     name: 'Frédéric Harper',
-    description:
-      'Developer Advocate with a knack for public speaking & making videos',
+    description: 'Developer Advocate with a knack for public speaking & making videos',
     url: 'https://fred.dev/uses',
     twitter: '@fharper',
     emoji: '✌🤦‍♂️',
@@ -7514,8 +7352,7 @@ module.exports = [
   },
   {
     name: 'Marcos Mendes',
-    description:
-      'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
+    description: 'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
     url: 'https://marcosmendes.eu:2053/uses',
     twitter: '@mffmendes',
     emoji: '💾',
@@ -7540,8 +7377,7 @@ module.exports = [
   },
   {
     name: 'Josh Farrant',
-    description:
-      'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
+    description: 'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
     url: 'https://farrant.me/uses',
     twitter: '@joshfarrant',
     emoji: '🎉',
@@ -7629,8 +7465,7 @@ module.exports = [
   },
   {
     name: 'Bruno Paz',
-    description:
-      'Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.',
+    description: 'Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.',
     url: 'https://brunopaz.dev/uses',
     twitter: '@brunopaz88',
     emoji: '💻',
@@ -7641,8 +7476,7 @@ module.exports = [
   },
   {
     name: 'Ricard Torres',
-    description:
-      'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
+    description: 'Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...',
     url: 'https://php.quicoto.com/uses/',
     twitter: '@ricard_dev',
     emoji: '🌝',
@@ -7683,8 +7517,7 @@ module.exports = [
   },
   {
     name: 'Terry Dontje',
-    description:
-      'Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.',
+    description: 'Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.',
     url: 'https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54',
     twitter: '@tddontje',
     emoji: '⚡️',
@@ -7730,8 +7563,7 @@ module.exports = [
   },
   {
     name: 'Janez Čadež',
-    description:
-      'Full-Stack developer, gym enthusiast and self-improvement nerd',
+    description: 'Full-Stack developer, gym enthusiast and self-improvement nerd',
     url: 'https://janez.tech/uses',
     twitter: '@jamziSLO',
     emoji: '🚢',
@@ -7762,8 +7594,7 @@ module.exports = [
   },
   {
     name: 'Andrew Zeller',
-    description:
-      'Frontend engineer and designer | SF Bay Area | Drone enthusiast',
+    description: 'Frontend engineer and designer | SF Bay Area | Drone enthusiast',
     url: 'https://zeller.io/uses',
     twitter: '@andrewjzeller',
     emoji: '🤓',
@@ -7807,8 +7638,7 @@ module.exports = [
   },
   {
     name: 'Daniel Van Cuylenburg',
-    description:
-      'Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design',
+    description: 'Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design',
     url: 'https://danielvanc.com/uses',
     twitter: '@danielvanc',
     emoji: '🚀',
@@ -7827,8 +7657,7 @@ module.exports = [
   },
   {
     name: 'Diana García',
-    description:
-      'Full Stack Web Developer based in Mexico City, I love to teach and to game',
+    description: 'Full Stack Web Developer based in Mexico City, I love to teach and to game',
     url: 'https://dianaeli.dev/uses',
     twitter: '@dianaeligg',
     emoji: '💚',
@@ -7941,8 +7770,7 @@ module.exports = [
   },
   {
     name: 'Tom Hazledine',
-    description:
-      'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
+    description: 'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
     url: 'https://tomhazledine.com/uses',
     twitter: '@thomashazledine',
     emoji: '🥩',
@@ -8007,8 +7835,7 @@ module.exports = [
   },
   {
     name: 'Mihai Serban',
-    description:
-      'Software engineer in constant search for new and exciting technologies',
+    description: 'Software engineer in constant search for new and exciting technologies',
     url: 'https://www.mihaiserban.dev/uses',
     twitter: '@MihaiSerban',
     emoji: '✌️',
@@ -8029,8 +7856,7 @@ module.exports = [
   },
   {
     name: 'Nick Janetakis',
-    description:
-      'Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast',
+    description: 'Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast',
     url: 'https://nickjanetakis.com/uses',
     twitter: '@nickjanetakis',
     emoji: '👀',
@@ -8070,8 +7896,7 @@ module.exports = [
   },
   {
     name: 'Kaleigh Scruggs',
-    description:
-      'Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom',
+    description: 'Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom',
     url: 'https://kaleighscruggs.com/uses',
     twitter: '@kaleighscruggs',
     emoji: '🐞',
@@ -8112,8 +7937,7 @@ module.exports = [
   },
   {
     name: 'Jorge Calle',
-    description:
-      'Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)',
+    description: 'Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)',
     url: 'https://jorgecalle.co/uses',
     twitter: '@jorcalle11',
     emoji: '👨‍💻',
@@ -8132,8 +7956,7 @@ module.exports = [
   },
   {
     name: 'Rhys Botfield',
-    description:
-      'Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor',
+    description: 'Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor',
     url: 'https://rhysbotfield.co.uk/uses',
     twitter: '@rhysnathan',
     emoji: '🅱️',
@@ -8191,8 +8014,7 @@ module.exports = [
   },
   {
     name: 'Quentin Laffont',
-    description:
-      'Full Stack JS Developer, Tournament Organiser, Video-Game lover',
+    description: 'Full Stack JS Developer, Tournament Organiser, Video-Game lover',
     url: 'https://uses.qlaffont.com',
     twitter: '@qlaffont',
     emoji: '😎',
@@ -8215,8 +8037,7 @@ module.exports = [
   },
   {
     name: 'José Carlos Correa',
-    description:
-      'Fullstack developer and speaker. Lead teacher @ironhack and gatsby teacher @platzi. Learning all the time.',
+    description: 'Fullstack developer and speaker. Lead teacher @ironhack and gatsby teacher @platzi. Learning all the time.',
     url: 'https://jossdz.com/uses',
     twitter: '@jossdz',
     emoji: '🤘',
@@ -8268,8 +8089,7 @@ module.exports = [
   },
   {
     name: 'Elliot Bonneville',
-    description:
-      'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
+    description: 'Freelance Web Developer / Consultant, educator, lover of coffee, cats, and writing of all kinds.',
     url: 'https://elliotbonneville.com/uses',
     twitter: '@elliotbnvl',
     emoji: '💀',
@@ -8344,8 +8164,7 @@ module.exports = [
   },
   {
     name: 'Dany Paredes',
-    description:
-      'I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]',
+    description: 'I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]',
     url: 'https://danywalls.com/uses',
     twitter: '@danywalls',
     emoji: '🏀',
@@ -8356,8 +8175,7 @@ module.exports = [
   },
   {
     name: 'Thomas Weibenfalk',
-    description:
-      'Passionate developer, course creator, youtuber, designer and musician from Sweden',
+    description: 'Passionate developer, course creator, youtuber, designer and musician from Sweden',
     url: 'https://www.weibenfalk.com/uses/',
     twitter: '@weibenfalk',
     emoji: '💾',
@@ -8376,8 +8194,7 @@ module.exports = [
   },
   {
     name: 'Julio Lozovei',
-    description:
-      'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
+    description: 'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
     url: 'https://jlozovei.dev/uses',
     twitter: '@juliolozovei',
     emoji: '💈',
@@ -8439,8 +8256,7 @@ module.exports = [
   },
   {
     name: 'David Leuliette',
-    description:
-      'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
+    description: 'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
     url: 'https://davidl.fr/uses',
     twitter: '@flexbox_',
     emoji: '⚡',
@@ -8463,8 +8279,7 @@ module.exports = [
   },
   {
     name: 'Dave Berning',
-    description:
-      'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
+    description: 'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
     url: 'https://daveberning.io/uses/',
     twitter: '@daveberning',
     emoji: '🦄',
@@ -8513,8 +8328,7 @@ module.exports = [
   },
   {
     name: 'Seyhun Akyürek',
-    description:
-      'Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails',
+    description: 'Senior Software Specialist. Swift, Objective-C, former Rubyist. Author of twitter-bootstrap-rails',
     url: 'https://www.seyhunakyurek.com/uses/',
     twitter: '@seyhunak',
     emoji: '🚀',
@@ -8536,8 +8350,7 @@ module.exports = [
   },
   {
     name: 'Silvestre Vivo',
-    description:
-      'Full Stack developer, before architect and flamenco guitar player.',
+    description: 'Full Stack developer, before architect and flamenco guitar player.',
     url: 'https://silvestrevivo.github.io/uses',
     twitter: '@silvestrevivo',
     emoji: '💻',
@@ -8656,8 +8469,7 @@ module.exports = [
   },
   {
     name: 'Jesse James Burton',
-    description:
-      'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
+    description: 'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
     url: 'https://burtonmediainc.com/uses',
     twitter: '@burtonmedia',
     emoji: '🙏',
@@ -8698,8 +8510,7 @@ module.exports = [
   },
   {
     name: 'Yurui Zhang',
-    description:
-      'Full-stack developer. Dark mode enthusiast. Quality software devotee.',
+    description: 'Full-stack developer. Dark mode enthusiast. Quality software devotee.',
     url: 'https://gist.github.com/pallymore/6e12133b5c2fa2856a8a6b288e579c01',
     twitter: '@yuruiology',
     emoji: '🐙',
@@ -8731,8 +8542,7 @@ module.exports = [
   },
   {
     name: 'Dorian Morones',
-    description:
-      'Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Gamer',
+    description: 'Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Gamer',
     url: 'https://www.dorianmorones.com/uses',
     twitter: '@DorianMorones',
     emoji: '🐱',
@@ -8809,8 +8619,7 @@ module.exports = [
   },
   {
     name: 'Wes Baker',
-    description:
-      'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
+    description: 'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
     url: 'https://wesbaker.com/uses',
     twitter: '@wesbaker',
     emoji: '🏋️‍♂️',
@@ -8830,8 +8639,7 @@ module.exports = [
   },
   {
     name: 'Rubén Rodríguez',
-    description:
-      'Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified',
+    description: 'Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified',
     url: 'https://www.rubenr.dev/uses',
     twitter: '@_rubenr',
     emoji: '👓',
@@ -8874,8 +8682,7 @@ module.exports = [
   },
   {
     name: 'Matheus Almeida S. Anjos',
-    description:
-      'Passionate about programming, engaged with Javascript and Golang lover.',
+    description: 'Passionate about programming, engaged with Javascript and Golang lover.',
     url: 'https://matalmeida.netlify.com/uses/',
     twitter: '@matalmeida',
     emoji: '🕶️',
@@ -8893,8 +8700,7 @@ module.exports = [
   },
   {
     name: 'Alejandro G. Anglada',
-    description:
-      'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
+    description: 'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
     url: 'https://aganglada.com/uses/',
     twitter: '@aganglada',
     emoji: '🔥',
@@ -8929,8 +8735,7 @@ module.exports = [
   },
   {
     name: 'Frank Bültge',
-    description:
-      'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
+    description: 'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
     url: 'https://bueltge.de/uses/',
     twitter: '@bueltge',
     emoji: '🚲',
@@ -8973,8 +8778,7 @@ module.exports = [
   },
   {
     name: 'Ray Gervais',
-    description:
-      'Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate',
+    description: 'Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate',
     url: 'https://raygervais.dev/uses',
     twitter: '@_raygervais',
     emoji: '⚙️',
@@ -9005,8 +8809,7 @@ module.exports = [
   },
   {
     name: 'Max Schmeling',
-    description:
-      'CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.',
+    description: 'CTO @Clipisode. ❤️ web dev/mobile/open source. Husband, father, drummer. #Royals and #Chiefs fan.',
     url: 'https://maxschmeling.me/uses',
     twitter: '@maxschmeling',
     emoji: '⛲️',
@@ -9048,8 +8851,7 @@ module.exports = [
   },
   {
     name: 'Ryan Senn',
-    description:
-      'Software engineer turned business owner. Loves functional porgramming.',
+    description: 'Software engineer turned business owner. Loves functional porgramming.',
     url: 'https://ryansenn.dev/uses',
     twitter: '@RyanSenn4',
     emoji: '🧐',
@@ -9068,8 +8870,7 @@ module.exports = [
   },
   {
     name: 'Michael Beckwith',
-    description:
-      'PHP and WordPress developer/support, coffee consumer, gym monkey',
+    description: 'PHP and WordPress developer/support, coffee consumer, gym monkey',
     url: 'https://apiratelifefor.me/uses/',
     twitter: '@tw2113',
     emoji: '🏴‍☠️',
@@ -9080,8 +8881,7 @@ module.exports = [
   },
   {
     name: 'Eric McCormick',
-    description:
-      'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
+    description: 'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
     url: 'https://edm00se.codes/uses/',
     twitter: '@edm00se',
     emoji: '🤔',
@@ -9189,8 +8989,7 @@ module.exports = [
   },
   {
     name: 'Jacob Herper',
-    description:
-      'Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.',
+    description: 'Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.',
     url: 'https://herper.io/uses/',
     twitter: '@jakeherp',
     emoji: '👨‍💻',
@@ -9210,8 +9009,7 @@ module.exports = [
   },
   {
     name: 'Albin Groen',
-    description:
-      "Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.",
+    description: "Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.",
     url: 'https://albingroen.com/uses/',
     twitter: '@albingroen',
     emoji: '👨‍💻',
@@ -9275,8 +9073,7 @@ module.exports = [
   },
   {
     name: 'David A. Vives R.',
-    description:
-      'software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.',
+    description: 'software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.',
     url: 'https://dispuestoaaprender.com/en/uses',
     twitter: '@davidvives',
     emoji: '🦊',
@@ -9321,8 +9118,7 @@ module.exports = [
   },
   {
     name: 'Philipp John',
-    description:
-      'Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.',
+    description: 'Full-Stack Software Developer - Love to play on my E-Piano, reading books and practicing Yoga & meditation.',
     url: 'https://jplace.de/uses',
     twitter: '@PhilippJohn88',
     emoji: '🎹',
@@ -9449,8 +9245,7 @@ module.exports = [
   },
   {
     name: 'Rynaard Burger',
-    description:
-      'Mobile Software Engineer. Swift, Objective-C, former .NET & Java developer.',
+    description: 'Mobile Software Engineer. Swift, Objective-C, former .NET & Java developer.',
     url: 'https://rynaardb.com/uses',
     twitter: '@rynaardb',
     emoji: '👨‍💻',
@@ -9494,8 +9289,7 @@ module.exports = [
   },
   {
     name: 'Florian Kapfenberger',
-    description:
-      'Frontend developer from Austria who likes to create modern applications with React (Native)',
+    description: 'Frontend developer from Austria who likes to create modern applications with React (Native)',
     url: 'https://phiilu.com/uses',
     twitter: '@phiilu',
     emoji: '🐢',
@@ -9536,8 +9330,7 @@ module.exports = [
   },
   {
     name: 'Marcin Krawczyk',
-    description:
-      'Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.',
+    description: 'Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.',
     url: 'https://marcin.codes/uses',
     twitter: '@marckraw',
     emoji: '🥑',
@@ -9581,8 +9374,7 @@ module.exports = [
   },
   {
     name: 'Maria Altyeva Schuessler ',
-    description:
-      'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
+    description: 'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
     url: 'http://mariacodes.io/uses',
     twitter: '@mariaschuessler',
     emoji: '🥑',
@@ -9602,8 +9394,7 @@ module.exports = [
   },
   {
     name: 'John Slipper',
-    description:
-      'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
+    description: 'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
     url: 'https://www.johnslipper.com/uses/',
     emoji: '🤯',
     country: '🇳🇿',
@@ -9645,8 +9436,7 @@ module.exports = [
   },
   {
     name: 'Ibrahim Cesar',
-    description:
-      'Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi',
+    description: 'Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi',
     url: 'https://ibrahimcesar.dev/uses',
     twitter: '@ibrahimcesar',
     emoji: '🦕',
@@ -9667,8 +9457,7 @@ module.exports = [
   },
   {
     name: 'Esmit Perez',
-    description:
-      'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
+    description: 'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
     url: 'https://esmit.me/uses',
     twitter: '@mitiwifi',
     emoji: '🧗🏽‍♂️',
@@ -9804,10 +9593,8 @@ module.exports = [
   },
   {
     name: 'Bamuleseyo Gideon',
-    description:
-      'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
-    url:
-      'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
+    description: 'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
+    url: 'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
     twitter: '@gideon_b_',
     emoji: '😎',
     country: '🇺🇬',
@@ -9868,8 +9655,7 @@ module.exports = [
 
   {
     name: 'Trezy',
-    description:
-      'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
+    description: 'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
     url: 'https://trezy.com/uses',
     twitter: '@TrezyCodes',
     emoji: '🤖',
@@ -9896,8 +9682,7 @@ module.exports = [
 
   {
     name: 'Kim Ingram',
-    description:
-      'Blue eyed vixen, front end developer, photographer, coffee addict.',
+    description: 'Blue eyed vixen, front end developer, photographer, coffee addict.',
     url: 'https://www.foxynerd.dev/uses/',
     twitter: '@talknerdytomee',
     emoji: '☕',
@@ -9916,8 +9701,7 @@ module.exports = [
   },
   {
     name: 'Ben Shi',
-    description:
-      'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
+    description: 'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
     url: 'https://hbish.com/uses/',
     twitter: '@hbish',
     emoji: '🐳',
@@ -9937,8 +9721,7 @@ module.exports = [
   },
   {
     name: 'Benjamin Edenhuizen',
-    description:
-      'Front-end web developer with a focus on accessibility and performance.',
+    description: 'Front-end web developer with a focus on accessibility and performance.',
     url: 'https://rqrauhvmra.com/uses/',
     twitter: '@rqrauhvmra',
     emoji: '☕',
@@ -9988,8 +9771,7 @@ module.exports = [
   },
   {
     name: 'Justin Conway',
-    description:
-      'Chicago-based front-end developer passionate about the web and pork.',
+    description: 'Chicago-based front-end developer passionate about the web and pork.',
     url: 'https://conwaydev.com/uses/',
     twitter: '@conwaydev',
     emoji: '🆒',
@@ -10011,8 +9793,7 @@ module.exports = [
   },
   {
     name: 'Dan Vega',
-    description:
-      'Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.',
+    description: 'Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.',
     url: 'https://www.danvega.dev/uses/',
     twitter: '@therealdanvega',
     emoji: '🤓',
@@ -10037,8 +9818,7 @@ module.exports = [
   },
   {
     name: 'Dick Wyn Yong',
-    description:
-      'Software Engineer, Content Creator and Sustainability Enthusiast',
+    description: 'Software Engineer, Content Creator and Sustainability Enthusiast',
     url: 'https://dickwyn.xyz/uses',
     twitter: '@dickwyn',
     emoji: '🏁',
@@ -10063,8 +9843,7 @@ module.exports = [
   },
   {
     name: 'Logan Blangenois',
-    description:
-      'Front-end developer passionate about eco-friendly (web)app and React.',
+    description: 'Front-end developer passionate about eco-friendly (web)app and React.',
     url: 'https://logan-blangenois.be/uses/',
     twitter: '@loganblangenois',
     emoji: '🧑🏻‍💻',
@@ -10086,10 +9865,8 @@ module.exports = [
   },
   {
     name: 'Muhammad Umair',
-    description:
-      'Fullstack front-end developer and designer, passionate in everything #JavaScript',
-    url:
-      'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
+    description: 'Fullstack front-end developer and designer, passionate in everything #JavaScript',
+    url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
     twitter: '@imumare',
     emoji: '💻',
     country: '🇵🇰',
@@ -10235,8 +10012,7 @@ module.exports = [
   },
   {
     name: 'Michał Miszczyszyn',
-    description:
-      'Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.',
+    description: 'Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.',
     url: 'https://typeofweb.com/michal-miszczyszyn-uses/',
     twitter: '@mmiszy',
     emoji: '🙅‍♂️',
@@ -10284,8 +10060,7 @@ module.exports = [
   },
   {
     name: 'Gleb Skibitsky',
-    description:
-      'Maker, mostly Unity stuff. Blockchain, VR, and Automation lover.',
+    description: 'Maker, mostly Unity stuff. Blockchain, VR, and Automation lover.',
     url: 'https://skibitsky.com/uses/',
     twitter: '@skibitsky',
     emoji: '💫',
@@ -10307,8 +10082,7 @@ module.exports = [
   },
   {
     name: 'Haseeb Majid',
-    description:
-      'Software Engineer, who mostly develops in JavaScript and Python.',
+    description: 'Software Engineer, who mostly develops in JavaScript and Python.',
     url: 'https://haseebmajid.dev/uses/',
     emoji: '💻',
     country: '🇬🇧',
@@ -10325,8 +10099,7 @@ module.exports = [
   },
   {
     name: 'Narendra Mandadapu',
-    description:
-      'Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom',
+    description: 'Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom',
     url: 'https://5pagesaday.com/uses',
     twitter: '@scriptstar',
     emoji: '🎯',
@@ -10381,8 +10154,7 @@ module.exports = [
   },
   {
     name: 'Łukasz Rybka',
-    description:
-      'Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.',
+    description: 'Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.',
     url: 'https://www.dragonia.org.pl/uses/',
     twitter: '@Smoczysko',
     emoji: '🙅‍♂️',
@@ -10541,8 +10313,7 @@ module.exports = [
   },
   {
     name: 'Tarik Omercehajic',
-    description:
-      'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
+    description: 'DevOps Engineer @BicomSystems. Mechanical Engineer in free time :)',
     url: 'https://robotz.tech/uses/',
     twitter: '@tariktz',
     emoji: '🚀',
@@ -10581,8 +10352,7 @@ module.exports = [
   },
   {
     name: 'Duncan McDougall',
-    description:
-      'Web developer, contractor, remotely working from the South of Scotland',
+    description: 'Web developer, contractor, remotely working from the South of Scotland',
     url: 'https://www.belter.io/uses/',
     twitter: '@duncanmcdougall',
     emoji: '🥃',
@@ -10657,10 +10427,8 @@ module.exports = [
   },
   {
     name: 'Lakshmipriya Mukundan',
-    description:
-      'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
-    url:
-      'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
+    description: 'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
+    url: 'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
     twitter: '@lak_mee',
     emoji: ':😺 ',
     country: '🇮🇳',
@@ -10730,8 +10498,7 @@ module.exports = [
   },
   {
     name: 'Tony Mamedbekov',
-    description:
-      'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
+    description: 'Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant',
     url: 'https://www.tmamedbekov.dev/uses',
     twitter: '@tmamedbekov',
     emoji: '🌍',
@@ -10749,8 +10516,7 @@ module.exports = [
   },
   {
     name: 'Matt Busche',
-    description:
-      'Full Stack developer from Des Moines, Iowa, web performance enthusiast',
+    description: 'Full Stack developer from Des Moines, Iowa, web performance enthusiast',
     url: 'https://matthewbusche.com/uses/',
     twitter: '@mrbusche',
     emoji: '🌍',
@@ -10832,8 +10598,7 @@ module.exports = [
   },
   {
     name: 'Patrick Obermeier',
-    description:
-      'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
+    description: 'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
     url: 'https://www.patrickobermeier.dev/uses',
     twitter: '@pobermeier87',
     emoji: '🍺',
@@ -10866,8 +10631,7 @@ module.exports = [
   },
   {
     name: 'Jerry Shi',
-    description:
-      'Full Stack, Motivated full-stack developer not afraid to use any technology.',
+    description: 'Full Stack, Motivated full-stack developer not afraid to use any technology.',
     url: 'https://github.com/szy0syz/uses',
     twitter: '@szy0syz',
     emoji: '🦁',
@@ -10886,8 +10650,7 @@ module.exports = [
   },
   {
     name: 'Francisco Valloire',
-    description:
-      'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
+    description: 'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
     url: 'https://github.com/frajova/what-i-use',
     twitter: '@frajova',
     emoji: '🌭',
@@ -10945,8 +10708,7 @@ module.exports = [
   },
   {
     name: 'Jesús Leganés-Combarro "piranna"',
-    description:
-      'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
+    description: 'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
     url: 'https://piranna.github.io/uses',
     twitter: '@el_piranna',
     emoji: '🤖',
