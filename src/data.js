@@ -1596,7 +1596,7 @@ module.exports = [
       'Web',
     ],
   },
-    {
+  {
     name: 'Manoj Barman',
     description: 'Working hardly, or Hardly working..',
     url: 'https://manojbarman.in/uses',
