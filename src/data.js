@@ -8724,7 +8724,7 @@ module.exports = [
       'Web',
       'Programmer',
       'Full Stack',
-      'Back End'
+      'Back End',
       'Laravel',
       'PHP',
       'JavaScript',
