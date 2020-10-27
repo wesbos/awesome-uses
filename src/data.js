@@ -1605,13 +1605,7 @@ module.exports = [
     country: '🇮🇳',
     computer: 'linux',
     phone: 'iphone',
-    tags: [
-      'Web Developer',
-      'React',
-      'Angular',
-      'HTML/CSS',
-      'Node.js'
-    ],
+    tags: ['Web Developer', 'React', 'Angular', 'HTML/CSS', 'Node.js'],
   },
   {
     name: 'Monica Powell',
