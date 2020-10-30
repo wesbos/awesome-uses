@@ -9598,6 +9598,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Moisés Ñañez',
+    description: 'Programmer and musician',
+    url: 'https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa',
+    twitter: '@moisesnandres',
+    emoji: '🏊‍♂️',
+    country: '🇵🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Ruby',
+      'CSS',
+    ],
+  },
+  {
     name: 'Murendeni Mukwevho',
     description: 'Web Developer',
     url: 'https://mukwevhom.xyz/uses',
