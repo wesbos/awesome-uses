@@ -492,6 +492,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.
 * [Marcin Krawczyk](https://marcin.codes/uses) — Javascript Developer from Poland, working and living in Switzerland, wannabe dev blogger.
+* [Moisés Ñañez](https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa) — Programmer and musician
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Web Developer
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [John Slipper](https://www.johnslipper.com/uses/) — Web Developer, mountain biker, drone enthusiast, Minecraft nerd
