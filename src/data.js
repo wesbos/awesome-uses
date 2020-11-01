@@ -125,6 +125,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Haryel Gillet',
+    description:
+      'FullStack Developer focused on Backend',
+    url: 'https://peaceful-leavitt-25b1d3.netlify.app/uses',
+    twitter: '@haryel_dev',
+    emoji: '🚀',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iPhone',
+    tags: [
+      'Full Stack',
+      'ReactJS',
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'Typescript',
+      'NodeJS',
+      'React Native',
+      'Backend'
+    ],
+  },
+  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
