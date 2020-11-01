@@ -126,8 +126,7 @@ module.exports = [
   },
   {
     name: 'Haryel Gillet',
-    description:
-      'FullStack Developer focused on Backend',
+    description: 'FullStack Developer focused on Backend',
     url: 'https://peaceful-leavitt-25b1d3.netlify.app/uses',
     twitter: '@haryel_dev',
     emoji: '🚀',
@@ -143,7 +142,7 @@ module.exports = [
       'Typescript',
       'NodeJS',
       'React Native',
-      'Backend'
+      'Backend',
     ],
   },
   {
