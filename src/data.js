@@ -1,6 +1,24 @@
 // keep it commonjs export
 module.exports = [
   {
+    name: 'Mathias Borgmalm',
+    description: 'Thinks CSS is underrated.',
+    url: 'https://www.mathiasborgmalm.dev/uses/',
+    twitter: 'themateboy',
+    emoji: '🎾',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'JavaScript',
+      'Vue'
+    ]
+  },
+  {
     name: 'Alvin Bryan',
     description: 'Loves coding maps, graphics and games.',
     url: 'https://alvin.codes/uses',
