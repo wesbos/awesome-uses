@@ -1028,10 +1028,10 @@ module.exports = [
       'Css',
       'Node.js',
       'HTML',
-      'Web Developer'
+      'Web Developer',
       'SQL',
       'Docker',
-      'Cloud'
+      'Cloud',
     ],
   },
   {
