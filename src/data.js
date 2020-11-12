@@ -1008,6 +1008,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Agu Valeriani',
+    description:
+      'Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.',
+    url: 'https://agustinvaleriani.com/uses',
+    twitter: '@AguValeriani',
+    emoji: '🌴',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Frontend',
+      'React',
+      'NextJs',
+      'Typescript',
+      'Developer',
+      'Javascript',
+      'Web',
+      'Css',
+      'Node.js',
+      'HTML',
+      'Web Developer',
+      'SQL',
+      'Docker',
+      'Cloud',
+    ],
+  },
+  {
     name: 'Yves Engetschwiler',
     description:
       'Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive',
