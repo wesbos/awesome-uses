@@ -31,6 +31,6 @@ Include the hardware you use, such as your computer and other related equipment.
 
 * You've read and understood the above
 
-**Add your name to verify:** Name
+**Add your name to verify:** Patrik Trefil
 
 -->
