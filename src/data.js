@@ -9,14 +9,7 @@ module.exports = [
     country: '🇸🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'HTML',
-      'CSS',
-      'SCSS',
-      'JavaScript',
-      'Vue'
-    ]
+    tags: ['Front End', 'HTML', 'CSS', 'SCSS', 'JavaScript', 'Vue'],
   },
   {
     name: 'Alvin Bryan',
@@ -46,7 +39,7 @@ module.exports = [
       'JavaScript',
       'Solidity',
       'ReactJS',
-      'React Native'
+      'React Native',
     ],
   },
   {
