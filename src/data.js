@@ -12,6 +12,26 @@ module.exports = [
     tags: ['Developer', 'WebGL', 'D3.js', 'JavaScript', 'Writer', 'Mentor'],
   },
   {
+    name: 'Taisuke Mino',
+    description: 'Crypto Entrepreneur',
+    url: 'https://taisukemino.com/uses/',
+    emoji: '☀️',
+    country: '🇯🇵',
+    computer: 'mac',
+    phone: 'iphone',
+    tags: [
+      'Crypto',
+      'Developer',
+      'Founder',
+      'Writer',
+      'Ethereum',
+      'JavaScript',
+      'Solidity',
+      'ReactJS',
+      'React Native'
+    ],
+  },
+  {
     name: 'Anand Biswas',
     description: 'Django Developer',
     url: 'https://aanu.me/uses/',
