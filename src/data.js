@@ -2946,23 +2946,25 @@ module.exports = [
   },
   {
     name: 'Julius Dockwarder',
-    description: 'Full-Stack Developer',
-    url: 'https://dockwarder.com/uses',
-    twitter: '@dockwarder',
+    description: 'he/him - Full-Stack Developer from Berlin',
+    url: 'https://julius.dev/uses',
+    twitter: '@juliusdotdev',
     emoji: '⚛',
     country: '🇩🇪',
-    computer: 'windows',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Student',
-      'ThinkPad',
       'Developer',
       'Full Stack',
       'JavaScript',
+      'TypeScript',
       'React',
-      'Next',
-      'Vim'
-    ]
+      'Gatsby',
+      'Firebase',
+      'Docker',
+      'Vim',
+    ],
   },
   {
     name: 'Martín M.',
