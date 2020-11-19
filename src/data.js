@@ -60,6 +60,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Maxim Villivald',
+    description: 'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
+    url: 'https://proj.ninja/uses',
+    twitter: '@crapp_blog',
+    emoji: '⚡️',
+    country: '🇫🇮',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Javascript',
+      'HTML',
+      'CSS',
+      'React',
+      'Blogger',
+      'Front end',
+      'Student'
+    ],
+  },
+  {
     name: 'Matt Holovach',
     description: 'Loves SEO, improving coding skills and good food',
     url: 'https://www.coloradoseodesign.com/uses.php',
