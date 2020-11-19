@@ -61,7 +61,8 @@ module.exports = [
   },
   {
     name: 'Maxim Villivald',
-    description: 'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
+    description:
+      'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
     url: 'https://proj.ninja/uses',
     twitter: '@crapp_blog',
     emoji: '⚡️',
@@ -76,7 +77,7 @@ module.exports = [
       'React',
       'Blogger',
       'Front end',
-      'Student'
+      'Student',
     ],
   },
   {
