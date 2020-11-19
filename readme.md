@@ -168,6 +168,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
+* [Julius Dockwarder](https://julius.dev/uses) — he/him - Full-Stack Developer from Berlin
 * [Martín M.](https://uses.skydiver.dev/) — Dad & Developer (former skydiver)
 * [Jamie Bowman](https://www.mrjamiebowman.com/uses) — Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger
 * [Jamie Ryan](https://www.jamieryan.dev/uses) — Full Stack Developer and CodeClan graduate from Edinburgh, Scotland
