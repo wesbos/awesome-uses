@@ -767,6 +767,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Camille Hodoul',
+    description: 'Remote fullstack developer, mostly Javascript & PHP',
+    url: 'https://camillehdl.dev/uses/',
+    twitter: '@camille_hdl',
+    emoji: '🏔',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'PHP',
+      'Books',
+      'Web Development',
+      'Computer Science',
+    ],
+  },
+  {
     name: 'Diogo Ferreira',
     description:
       'Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.',
