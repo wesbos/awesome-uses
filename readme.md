@@ -65,6 +65,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf
+* [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.
