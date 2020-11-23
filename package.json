@@ -12,6 +12,9 @@
     "node": ">= 12"
   },
   "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/exec": "^1.0.3",
+    "@actions/github": "^2.0.1",
     "@hapi/joi": "^17.0.2",
     "country-emoji": "^1.5.0",
     "esm": "^3.2.25",
@@ -42,7 +45,6 @@
   "devDependencies": {
     "@architect/sandbox": "^1.6.0",
     "babel-eslint": "^9.0.0",
-    "danger": "^10.1.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^4.3.0",
