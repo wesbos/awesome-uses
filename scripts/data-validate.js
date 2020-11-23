@@ -1,43 +1,48 @@
-const core = require('@actions/core');
-const {
-  getMasterData,
-  Schema,
-  getStatusCode,
-  communicateValidationOutcome,
-} = require('./utils.js');
+const { Schema, getStatusCode } = require('./utils.js');
 const srcData = require('../src/data.js');
 
-async function main() {
-  // on master branch will be empty array
-  const masterDataUrls = (await getMasterData()).map(d => d.url);
+async function main(masterData = []) {
+  const masterDataUrls = masterData.map(d => d.url);
   // so here data will be an array with all users
   const data = srcData.filter(d => !masterDataUrls.includes(d.url));
 
   const errors = data
-    .map(person => Schema.validate(person))
+    .map(person =>
+      Schema.validate(person, {
+        abortEarly: false,
+      })
+    )
     .filter(v => v.error)
     .map(v => v.error);
 
+  const errorMsgs = [];
+
   errors.forEach(e => {
-    core.error(e._original.name || e._original.url);
-    e.details.forEach(d => core.error(d.message));
+    e.details.forEach(d =>
+      errorMsgs.push(`${e._original.name || e._original.url}: ${d.message}`)
+    );
   });
 
+  /**
+   * @type {{url: string, statusCode?: number, error?: Error}[]}
+   */
   const failedUrls = [];
   for (const { url } of data) {
     try {
       const statusCode = await getStatusCode(url);
       if (statusCode < 200 || statusCode >= 400) {
-        core.error(`Ping to "${url}" failed with status: ${statusCode}`);
-        failedUrls.push(url);
+        failedUrls.push({ url, statusCode });
       }
     } catch (e) {
-      core.error(`Ping to "${url}" failed with error: ${e}`);
-      failedUrls.push(url);
+      failedUrls.push({ url, error: e });
     }
   }
 
-  await communicateValidationOutcome(errors, failedUrls, data);
+  return {
+    failedUrls,
+    errorMsgs,
+    data,
+  };
 }
 
-main();
+module.exports = main;
