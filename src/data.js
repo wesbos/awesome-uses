@@ -1,5 +1,16 @@
 // keep it commonjs export
 module.exports = [
+    {
+    name: 'Sami Singh',
+    description: 'Design, coffee and acid jazz.',
+    url: 'https://httpster.io/uses/',
+    twitter: 'httpsterio',
+    emoji: '☕',
+    country: '🇩🇰',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Accessibility', 'Design', 'UX', 'Design Systems', 'JavaScript', 'Blogger', 'Podcast', 'Eleventy', 'Full-stack', 'Marketing', 'Consulting'],
+  },
   {
     name: 'Mathias Borgmalm',
     description: 'Thinks CSS is underrated.',
