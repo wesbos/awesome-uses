@@ -1,4 +1,5 @@
 // keep it commonjs export
+// Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
     {
     name: 'Sami Singh',
