@@ -6574,13 +6574,12 @@ module.exports = [
     tags: [
       'Developer',
       'Full Stack',
-      'Vue',
       'React',
       'C#',
       '.NET',
       'JAVA',
-      'CSS'
-      'Python',
+      'CSS',
+      'Python'
     ],
   },
   {
