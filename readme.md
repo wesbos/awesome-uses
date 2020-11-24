@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Sami Singh](https://httpster.io/uses/) — Design, coffee and acid jazz.
 * [Mathias Borgmalm](https://www.mathiasborgmalm.dev/uses/) — Thinks CSS is underrated.
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
 * [Taisuke Mino](https://taisukemino.com/uses/) — Crypto Entrepreneur
@@ -343,6 +344,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Liam Richardson](https://discoliam.com/uses/) — User Interface developer focusing on Performance, A11y and CSS
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
 * [Jordi Hoven](https://www.jordihoven.nl/uses) — Healthcare engineer, UX Designer, Whisky lover
+* [Blaise Sebagabo](https://seblaise.dev/uses) — Full Stack Developer, designer, and web developer from Edmonton, Canada
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.
 * [Christopher Hranj](https://brodan.biz/uses) — Software Engineer, Blogger, Musician, Ultimate player.
 * [Vincent Ramdhanie](https://vincentramdhanie.com/uses) — Software Developer, Lecturer, Technical Writer and Mentor

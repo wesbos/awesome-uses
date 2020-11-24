@@ -1,7 +1,7 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
-    {
+  {
     name: 'Sami Singh',
     description: 'Design, coffee and acid jazz.',
     url: 'https://httpster.io/uses/',
@@ -10,7 +10,19 @@ module.exports = [
     country: '🇩🇰',
     computer: 'windows',
     phone: 'android',
-    tags: ['Accessibility', 'Design', 'UX', 'Design Systems', 'JavaScript', 'Blogger', 'Podcast', 'Eleventy', 'Full-stack', 'Marketing', 'Consulting'],
+    tags: [
+      'Accessibility',
+      'Design',
+      'UX',
+      'Design Systems',
+      'JavaScript',
+      'Blogger',
+      'Podcast',
+      'Eleventy',
+      'Full-stack',
+      'Marketing',
+      'Consulting',
+    ],
   },
   {
     name: 'Mathias Borgmalm',
@@ -6591,7 +6603,7 @@ module.exports = [
       '.NET',
       'JAVA',
       'CSS',
-      'Python'
+      'Python',
     ],
   },
   {
