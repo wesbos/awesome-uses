@@ -6562,6 +6562,28 @@ module.exports = [
     tags: ['Developer', 'UX Designer', 'Engineer', 'JavaScript', 'CSS'],
   },
   {
+    name: 'Blaise Sebagabo',
+    description:
+      'Full Stack Developer, designer, and web developer from Edmonton, Canada',
+    url: 'https://seblaise.dev/uses',
+    twitter: '@BlaiseSebagabo',
+    emoji: '🗾',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Vue',
+      'React',
+      'C#',
+      '.NET',
+      'JAVA',
+      'CSS'
+      'Python',
+    ],
+  },
+  {
     name: 'Caleb Ukle',
     description:
       "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
