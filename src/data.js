@@ -2,6 +2,33 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
   {
+    name: 'Aleksey Razbakov',
+    description: 'Indie Hacker. Web Developer. Salsa Dancer.',
+    url: 'https://razbakov.com/uses/',
+    twitter: '@razbakov',
+    emoji: '🕺🏼',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'UI',
+      'UX',
+      'Design Sprint',
+      'Design Systems',      
+      'Netlify',
+      'Vue.js',
+      'Tailwind CSS',
+      'GraphQL',
+      'JAMstack',
+      'Serverless',
+      'Nuxt',
+      'Full Stack',
+      'PHP',
+      'Symfony',
+    ],
+  },
+  {
     name: 'Sami Singh',
     description: 'Design, coffee and acid jazz.',
     url: 'https://httpster.io/uses/',
