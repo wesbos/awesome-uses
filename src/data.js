@@ -72,7 +72,7 @@ module.exports = [
     url: 'https://samburger.dev/uses',
     emoji: '🍔',
     country: '🇺🇸',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'iphone',
     twitter: '@burgerrrs',
     tags: [
