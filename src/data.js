@@ -1,6 +1,32 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
+    {
+    name: 'Aleksey Razbakov',
+    description: 'Indie Hacker. Web Developer. Salsa Dancer.',
+    url: 'https://razbakov.com/uses/',
+    twitter: '@razbakov',
+    emoji: '🕺🏼',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Design Sprint',
+      'Design Systems',      
+      'Vue.js',
+      'Tailwind CSS',
+      'Nuxt',
+      'JAMstack',
+      'Serverless',
+      'Netlify',
+      'Full Stack',
+      'UI/UX',
+      'GraphQL',
+      'Full Stack',
+      'PHP',
+      'Symfony',
+    ],
+  },
   {
     name: 'Ayush Gupta',
     description: 'React & React Native developer, passionate photographer, technical writer and occasionaly designer.',
