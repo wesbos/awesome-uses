@@ -278,8 +278,7 @@ module.exports = [
   },
   {
     name: 'Jeremiah Boby',
-    description:
-      'Python developer specialising in web tech',
+    description: 'Python developer specialising in web tech',
     url: 'https://jerbob.me/uses',
     twitter: '@jerbob17',
     emoji: '🐧',
