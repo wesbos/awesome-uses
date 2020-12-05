@@ -475,6 +475,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rubén Rodríguez](https://www.rubenr.dev/uses) — Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified
 * [Roland Szabo](https://rolisz.ro/uses) — Team Lead, ML Engineer,  Board Gamer
 * [Matheus Almeida S. Anjos](https://matalmeida.netlify.com/uses/) — Passionate about programming, engaged with Javascript and Golang lover.
+* [Ale Mohamad](https://alemohamad.com/uses/) — iOS Developer. I love to learn and to teach. デベロッパー。
 * [Alejandro G. Anglada](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌
 * [Antoni Kepinski](https://kepinski.me/uses/) — Node Fetch maintainer // Into Node.js and Rust
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
