@@ -9272,6 +9272,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Ale Mohamad',
+    description:
+      'iOS Developer. I love to learn and to teach. デベロッパー。',
+    url: 'https://alemohamad.com/uses/',
+    twitter: '@alemohamad',
+    emoji: '✨',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Teacher',
+      'iOS',
+      'Swift',
+      'SwiftUI',
+      'Mobile',
+      'Xcode',
+      'macOS',
+      'JavaScript',
+      'Angular',
+      'Webflow',
+    ],
+  },
+  {
     name: 'Alejandro G. Anglada',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
