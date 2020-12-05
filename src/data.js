@@ -277,6 +277,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeremiah Boby',
+    description: 'Python developer specialising in web tech',
+    url: 'https://jerbob.me/uses',
+    twitter: '@jerbob17',
+    emoji: '🐧',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'Python',
+      'Linux',
+      'Django',
+      'Open-Source',
+    ],
+  },
+  {
     name: 'Haryel Gillet',
     description: 'FullStack Developer focused on Backend',
     url: 'https://peaceful-leavitt-25b1d3.netlify.app/uses',
