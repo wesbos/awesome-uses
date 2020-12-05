@@ -285,13 +285,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Back End',
-      'Python',
-      'Linux',
-      'Django',
-      'Open-Source',
-    ],
+    tags: ['Back End', 'Python', 'Linux', 'Django', 'Open-Source'],
   },
   {
     name: 'Haryel Gillet',
