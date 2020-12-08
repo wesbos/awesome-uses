@@ -1471,7 +1471,7 @@ module.exports = [
   {
     name: 'Jordan Haines',
     description: 'Full Stack Web Developer',
-    url: 'https://jordanairwave.co.uk',
+    url: 'https://jordanairwave.co.uk/uses',
     twitter: '@jordanairwave',
     emoji: '😃',
     country: '🇬🇧',
@@ -1483,6 +1483,8 @@ module.exports = [
       'PHP',
       'HTML',
       'SCSS',
+      'CSS',
+      'MJML',
       'Javascript',
       'Wordpress',
       'Drupal',
