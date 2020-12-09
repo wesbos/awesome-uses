@@ -98,6 +98,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Adam Siekierski](https://siekierski.ml/#/uses) — Non-professional fullstack developer. Big fan of JavaScript, TypeScript, React, and Vue. Co-host of Polish web development podcast.
 * [Sam Boswell](https://www.bozzie.org/uses) — CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.
+* [Jordan Haines](https://jordanairwave.co.uk/uses) — Full Stack Web Developer
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Elio Struyf](https://www.eliostruyf.com/uses) — Engineering Lead / Office Development MVP / Public Speaker
