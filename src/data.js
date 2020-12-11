@@ -309,6 +309,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Stefan Zweifel',
+    description:
+      'Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.',
+    url: 'https://stefanzweifel.io/uses/',
+    twitter: '@_stefanzweifel',
+    emoji: '✌️',
+    country: '🇨🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'PHP',
+      'Tailwind CSS',
+      'Laravel',
+      'Vue',
+      'Developer',
+      'Writer',
+      'Designer',
+      'Back End',
+      'Front End',
+      'CSS',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
