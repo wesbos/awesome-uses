@@ -11296,7 +11296,8 @@ module.exports = [
   },
   {
     name: 'EJ Mitchell',
-    description: 'Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.',
+    description:
+      'Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.',
     url: 'https://www.cupofsquid.com/uses',
     emoji: '🦑',
     country: '🇺🇸',

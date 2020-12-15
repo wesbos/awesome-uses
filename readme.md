@@ -571,6 +571,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [T G Pranesh](https://www.tgpranesh.site/uses/) — Front-end Developer
+* [EJ Mitchell](https://www.cupofsquid.com/uses) — Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
