@@ -11295,6 +11295,16 @@ module.exports = [
     ],
   },
   {
+    name: 'EJ Mitchell',
+    description: 'Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.',
+    url: 'https://www.cupofsquid.com/uses',
+    emoji: '🦑',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Scala', 'Elm', 'Ruby', 'Rails', 'Blogger'],
+  },
+  {
     name: 'Preston Lamb',
     description: 'Full Stack JavaScript Developer and Thinkster.io Author',
     url: 'https://www.prestonlamb.com/uses',
