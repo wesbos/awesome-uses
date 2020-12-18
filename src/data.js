@@ -1,6 +1,27 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
+    {
+    name: 'Simon Smale',
+    description: 'Full Stack Developer and beginner digital gardener',
+    url: 'https://github.com/SSmale/uses',
+    twitter: '@iamsimonsmale',
+    emoji: '🌱',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Typescript',
+      'Angular',
+      'NestJS',
+      'Cypress',
+      'Jest',
+      'Heroku',
+      'Netlify',
+      'CircleCI',
+      'Full Stack',
+    ],
+  },
   {
     name: 'Aleksey Razbakov',
     description: 'Indie Hacker. Web Developer. Salsa Dancer.',
