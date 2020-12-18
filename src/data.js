@@ -11517,7 +11517,7 @@ module.exports = [
   {
     name: 'Vinesh Raju',
     description: 'Mobile Application developer from India with a deep focus on UX/UI.',
-    url: 'https://vinesh.com/#/uses',
+    url: 'https://theVinesh.com/#/uses',
     twitter: '@theVinesh',
     emoji: '🦍',
     country: '🇮🇳',
