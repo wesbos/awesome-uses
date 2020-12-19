@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.
 * [Sami Singh](https://httpster.io/uses/) — Design, coffee and acid jazz.
@@ -580,6 +581,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
+* [Vinesh Raju](https://theVinesh.com/#/uses) — Mobile Application developer from India with a deep focus on UX/UI.
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg

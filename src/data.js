@@ -1,7 +1,7 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
 module.exports = [
-    {
+  {
     name: 'Simon Smale',
     description: 'Full Stack Developer and beginner digital gardener',
     url: 'https://github.com/SSmale/uses',
@@ -11537,7 +11537,8 @@ module.exports = [
   },
   {
     name: 'Vinesh Raju',
-    description: 'Mobile Application developer from India with a deep focus on UX/UI.',
+    description:
+      'Mobile Application developer from India with a deep focus on UX/UI.',
     url: 'https://theVinesh.com/#/uses',
     twitter: '@theVinesh',
     emoji: '🦍',
