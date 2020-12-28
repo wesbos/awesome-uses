@@ -11387,6 +11387,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Marek Maras',
+    description:
+      'Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!',
+    url: 'https://www.marek-maras.de/uses',
+    twitter: '',
+    emoji: '🐧',
+    country: 'de',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'React',
+      'Styled-Components',
+      'Gatsby',
+      'Full Stack',
+      'Engineer',
+      'Web Developer',
+      'Node.js',
+      'JavaScript',
+      'Laravel',
+      'Wordpress',
+      'Front End',
+      'Shopify',
+      'Magento',
+    ],
+  },
+  {
     name: 'Patrick Obermeier',
     description:
       'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
