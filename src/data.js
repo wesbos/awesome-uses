@@ -11401,7 +11401,6 @@ module.exports = [
       'Styled-Components',
       'Gatsby',
       'Full Stack',
-      'Engineer',
       'Web Developer',
       'Node.js',
       'JavaScript',
