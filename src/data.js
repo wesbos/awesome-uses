@@ -11393,7 +11393,7 @@ module.exports = [
     url: 'https://www.marek-maras.de/uses',
     twitter: '',
     emoji: '🐧',
-    country: 'eu',
+    country: '🇪🇺',
     computer: 'windows',
     phone: 'iphone',
     tags: [
