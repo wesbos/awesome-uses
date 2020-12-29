@@ -6402,14 +6402,24 @@ module.exports = [
   },
   {
     name: 'Simeon Griggs',
-    description: 'Full stack developer and part time Cyclist in Newcastle upon Tyne, UK',
+    description:
+      'Full stack developer and part time Cyclist in Newcastle upon Tyne, UK',
     url: 'https://www.simeongriggs.dev/uses',
     twitter: '@simeonGriggs',
     emoji: '🔜',
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React', 'Gatsby', 'NextJS', 'Tailwind CSS'],
+    tags: [
+      'Designer',
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'NextJS',
+      'Tailwind CSS',
+    ],
   },
   {
     name: 'Jonathan Suh',
@@ -6581,7 +6591,8 @@ module.exports = [
   },
   {
     name: 'Austin Gil',
-    description: '📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty',
+    description:
+      '📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty',
     url: 'https://austingil.com/uses/',
     twitter: '@stegosource',
     emoji: '🍕',

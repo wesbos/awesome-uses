@@ -333,6 +333,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.
 * [Nicholas La Roux](https://nicholaslaroux.com/uses) — Developer at Shopify, musician, and environmentalist.
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
+* [Simeon Griggs](https://www.simeongriggs.dev/uses) — Full stack developer and part time Cyclist in Newcastle upon Tyne, UK
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
 * [Jorge Ruvalcaba](https://jorgeruvalcaba.dev/uses/) — Software Engineer, Senior Frontend Engineer, Taco Master and internet weirdo 🤓
@@ -343,7 +344,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger
 * [Michael Hoffmann](https://www.mokkapps.de/uses) — Freelance Software Engineer
 * [Colin Morris](https://vonexplaino.com/blog/posts/page/uses.html) — Steampunker, solution architect and web developer. Mad science works for all cases.
-* [Austin Gil](https://stegosource.com/uses/) — Some dude that writes code.
+* [Austin Gil](https://austingil.com/uses/) — 📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
 * [Sergey Panay](https://panay.dev/uses) — Front End developer. Productivity nerd.
 * [Sil van Diepen](https://www.silvandiepen.nl/uses/) — Creative Developer
@@ -571,6 +572,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
+* [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [T G Pranesh](https://www.tgpranesh.site/uses/) — Front-end Developer
