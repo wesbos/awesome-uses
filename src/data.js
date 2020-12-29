@@ -6570,8 +6570,8 @@ module.exports = [
   },
   {
     name: 'Austin Gil',
-    description: 'Some dude that writes code.',
-    url: 'https://stegosource.com/uses/',
+    description: '📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty',
+    url: 'https://austingil.com/uses/',
     twitter: '@stegosource',
     emoji: '🍕',
     country: '🇺🇸',
