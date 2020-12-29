@@ -11391,7 +11391,7 @@ module.exports = [
     description:
       'Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!',
     url: 'https://www.marek-maras.de/uses',
-    twitter: '',
+    twitter: '@marekmaras',
     emoji: '🐧',
     country: '🇪🇺',
     computer: 'windows',
