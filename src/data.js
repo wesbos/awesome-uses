@@ -6401,6 +6401,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Simeon Griggs',
+    description: 'Full stack developer and part time Cyclist in Newcastle upon Tyne, UK',
+    url: 'https://www.simeongriggs.dev/uses',
+    twitter: '@simeonGriggs',
+    emoji: '🔜',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Designer', 'Developer', 'Front End', 'JavaScript', 'React', 'Gatsby', 'NextJS', 'Tailwind CSS'],
+  },
+  {
     name: 'Jonathan Suh',
     description: 'Designer, Developer, Sneakerhead',
     url: 'https://jonsuh.com/uses',
