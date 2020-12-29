@@ -1,5 +1,5 @@
 // keep it commonjs export
-// Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L6-L21
+// Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
     name: 'Matthäus Mzyk',
