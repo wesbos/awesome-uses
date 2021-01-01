@@ -41,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Anand Biswas](https://aanu.me/uses/) — Django Developer
 * [Maxim Villivald](https://proj.ninja/uses) — Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.
 * [Matt Holovach](https://www.coloradoseodesign.com/uses.php) — Loves SEO, improving coding skills and good food
+* [Bradley Shellnut](https://bradleyshellnut.com/uses) — Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.
 * [Sascha Diercks](https://saschadiercks.dev/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
 * [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
 * [Joshua Rose](https://jrgiant.tech/Uses) — Loves Christ, loves family, loves programming, full stack dev
@@ -266,7 +267,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
 * [Russell McWhae](https://russellmcwhae.ca/uses) — Backcountry skier, photographer, designer, and web developer from Canada
-* [Karl Koch](https://www.kejk.co/uses) — Design and Frontend Engineering lead @neuerenergy. Design Lead @makeacocktail. Guitar @echoes_uk.
+* [Karl Koch](https://www.kejk.tech/uses) — Product designer, frontend developer and musician. Building HomeHero and making other things.
 * [Sam Cross](https://sam-cross.github.io/#/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
 * [Ruben Arakelyan](https://ruben.arakelyan.uk/uses/) — Web Developer and self builder in Cornwall, UK
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
@@ -571,6 +572,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer
+* [Lee Robinson](https://leerob.io/uses) — Developer, writer, creator. Solutions Architect @ Vercel.
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
 * [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast

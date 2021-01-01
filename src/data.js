@@ -241,7 +241,8 @@ module.exports = [
   },
   {
     name: 'Bradley Shellnut',
-    description: 'Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.',
+    description:
+      'Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.',
     url: 'https://bradleyshellnut.com/uses',
     emoji: '🐈',
     country: '🇺🇸',
