@@ -240,6 +240,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Bradley Shellnut',
+    description: 'Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.',
+    url: 'https://bradleyshellnut.com/uses',
+    emoji: '🐈',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Gatsby',
+      'React',
+      'JavaScript',
+      'Java',
+      'Kotlin',
+    ],
+  },
+  {
     name: 'Sascha Diercks',
     description:
       'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
