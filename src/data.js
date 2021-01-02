@@ -11470,7 +11470,6 @@ module.exports = [
       'React',
       'Rust',
       'Serverless',
-      'Speaker',
       'Ubuntu',
       'UI',
       'VS Code',
