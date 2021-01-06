@@ -2,24 +2,6 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
-    name: 'Matthäus Mzyk',
-    description: 'T-Shaped Full Stack Developer with strong focus on Frontend',
-    url: 'https://matthaeusmzyk.github.io/uses',
-    emoji: '👨‍🚀',
-    country: '🇩🇪',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Typescript',
-      'Angular',
-      'React',
-      'Node.js',
-      'Azure',
-      'Full Stack',
-      'Front End',
-    ],
-  },
-  {
     name: 'Simon Smale',
     description: 'Full Stack Developer and beginner digital gardener',
     url: 'https://github.com/SSmale/uses',
