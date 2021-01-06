@@ -29,7 +29,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
-* [Matthäus Mzyk](https://matthaeusmzyk.github.io/uses) — T-Shaped Full Stack Developer with strong focus on Frontend
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.
