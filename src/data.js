@@ -3802,15 +3802,13 @@ module.exports = [
       'Builder based in Manila, PH. Runs on caffeine.',
     url: 'https://dexterbrylle.xyz/pages/uses',
     twitter: '@dexterbrylle',
-    emoji: '',
-    country: '',
+    emoji: '☕',
+    country: '🇵🇭',
     computer: 'apple',
     phone: 'iphone',
     tags: [
       'Javascript',
       'Node.JS',
-      'Full Stack',
-      'Vue.js',
       'Back End',
       'Python',
       'TypeScript',
@@ -3823,8 +3821,7 @@ module.exports = [
       'Flask',
       'Developer',
       'ExpressJS',
-      'Gamer',
-      'Youtuber'
+      'Gamer'
     ]
   },
   {
