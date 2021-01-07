@@ -221,6 +221,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [José Cabeda](https://cabeda.me/uses) — Data Engineer at day and Full Stack at night
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
+* [Dexter Brylle](https://dexterbrylle.xyz/pages/uses) - Builder based in Manila, PH. Runs on caffeine.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
@@ -237,7 +238,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Emmanuel Martins](http://betacodings.com/uses) — Full Stack Developer, i love programming with python, Advocate Engineer at @BCodings
 * [Emma Goto](https://emgoto.com/uses) — Frontend developer, weekly blogger and creator of Trello power-ups.
 * [Chris Otto](https://chrisotto.dev/uses/) — Software engineer. I enjoy JavaScript, DevOps and Testing.
-* [Chris Berry](http://chrisberry.io/uses) — Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur 
+* [Chris Berry](http://chrisberry.io/uses) — Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
 * [Federico Vitale](https://fedevitale.dev/uses) — 20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.
 * [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
@@ -371,13 +372,13 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Holger Lösken](https://www.codedge.de/uses/) — Defender of clean code, avid learner, passionate programmer, empathic team leader and last but not least lover of open source projects.
 * [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
 * [Joe Previte](https://joeprevite.com/uses) — Developer Advocate on the Open Source Team at Facebook
-* [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
+* [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber
 * [Amir Ghaffari](https://amirghaffari.com/uses/) — full-stack web developer
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
 * [Mohammad Dohadwala](https://dohad.dev/uses) — Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.
-* [Manuel Savino](https://manuels.dev/uses) — Frontend Web Developer 
+* [Manuel Savino](https://manuels.dev/uses) — Frontend Web Developer
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
 * [Terry Godier](https://terrygodier.com/uses) — A developer and marketer of fine internet products.
 * [Erno Salo](https://endormi.io/uses/) — Full Stack Developer and Open Source Contributor
@@ -468,7 +469,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
 * [Thomas Large](https://tomlarge.dev/uses) — My name is Tom! I write code
-* [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
+* [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger.
 * [Jesse James Burton](https://burtonmediainc.com/uses) — Software Developing Yogi from Alberta, Canada. Lets build the internet together.
 * [Junaid Qadir](https://junaidqadir.com/uses) — A Full Stack #Laravel Developer
 * [Daniel Naxon](https://naxon.dev/uses) — Full Stack Developer, Laravel Artisan.

@@ -3797,6 +3797,37 @@ module.exports = [
     ],
   },
   {
+    name: 'Dexter Brylle',
+    description:
+      'Builder based in Manila, PH. Runs on caffeine.',
+    url: 'https://dexterbrylle.xyz/pages/uses',
+    twitter: '@dexterbrylle',
+    emoji: '',
+    country: '',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Javascript',
+      'Node.JS',
+      'Full Stack',
+      'Vue.js',
+      'Back End',
+      'Python',
+      'TypeScript',
+      'Web',
+      'JAMstack',
+      'Gatsby',
+      'Firebase',
+      'Architect',
+      'MongoDB',
+      'Flask',
+      'Developer',
+      'ExpressJS',
+      'Gamer',
+      'Youtuber'
+    ]
+  },
+  {
     name: 'Dwayne Harris',
     description:
       'Freelance web and app developer in NYC with over 15 years of professional experience.',
