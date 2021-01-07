@@ -3798,8 +3798,7 @@ module.exports = [
   },
   {
     name: 'Dexter Brylle',
-    description:
-      'Builder based in Manila, PH. Runs on caffeine.',
+    description: 'Builder based in Manila, PH. Runs on caffeine.',
     url: 'https://dexterbrylle.xyz/pages/uses',
     twitter: '@dexterbrylle',
     emoji: '☕',
@@ -3821,8 +3820,8 @@ module.exports = [
       'Flask',
       'Developer',
       'ExpressJS',
-      'Gamer'
-    ]
+      'Gamer',
+    ],
   },
   {
     name: 'Dwayne Harris',
