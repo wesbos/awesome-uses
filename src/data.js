@@ -318,7 +318,7 @@ module.exports = [
       'Design Sprint',
       'Design Systems',
       'AWS',
-      'SQL      
+      'SQL',      
       'Vue.js',
       'Full Stack',
       'React',
