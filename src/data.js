@@ -3,21 +3,15 @@
 module.exports = [
   {
     name: 'Marc-Antoine Dion',
-    description: 'Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.',
+    description:
+      'Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.',
     url: 'https://marcantoinedion.com/uses',
     twitter: '@thewannabeceo',
     emoji: '🚀',
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Entrepreneur',
-      'Node.js',
-      'Vue.js',
-      'C#',
-      'Blogger',
-      'Full Stack',
-    ],
+    tags: ['Entrepreneur', 'Node.js', 'Vue.js', 'C#', 'Blogger', 'Full Stack'],
   },
   {
     name: 'Simon Smale',

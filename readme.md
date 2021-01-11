@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Marc-Antoine Dion](https://marcantoinedion.com/uses) — Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
 * [Michael Goß](https://www.michaelgoss.de/uses) — Web Dev. Handstander. Tech Enthusiast.
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
