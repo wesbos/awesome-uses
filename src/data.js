@@ -309,7 +309,7 @@ module.exports = [
   {
     name: 'Xavi Rambla Centellas',
     description: 'Full stack Engineer - Cloud Platforms and web. With a passion for Automation.',
-    url: 'https://xavirambla.net',
+    url: 'http://www.xavirambla.net',
     emoji: '🕺🏼',
     country: 'sp',
     computer: 'windows',
