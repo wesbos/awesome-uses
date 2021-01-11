@@ -5283,6 +5283,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Diego López',
+    description:
+      'Frontend developer making thins with Vue & Nuxt. Gamer and beer lover',
+    url: 'https://codingpotions.com/uses',
+    twitter: '@codingpotions',
+    emoji: '🍺',
+    country: '🇪🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Gamer',
+      'Blogger',
+      'Web Developer',
+      'Vue.js',
+      'Writer',
+      'Nuxt',
+    ],
+  },
+  {
     name: 'Rene Pot',
     description:
       'Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer',
