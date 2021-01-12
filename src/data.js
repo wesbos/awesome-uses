@@ -2,6 +2,18 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Seagyn Davis',
+    description:
+      'Full stack human. Hobby runner. Mainly a husband and dad.',
+    url: 'https://www.seagyndavis.com/uses',
+    twitter: '@seagyn',
+    emoji: '🙈',
+    country: '🇿🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Laravel', 'React', 'Kubernetes', 'Really Full Stack'],
+  },
+  {
     name: 'Marc-Antoine Dion',
     description:
       'Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.',
