@@ -3,8 +3,7 @@
 module.exports = [
   {
     name: 'Seagyn Davis',
-    description:
-      'Full stack human. Hobby runner. Mainly a husband and dad.',
+    description: 'Full stack human. Hobby runner. Mainly a husband and dad.',
     url: 'https://www.seagyndavis.com/uses',
     twitter: '@seagyn',
     emoji: '🙈',
