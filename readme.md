@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Rameez Khan](https://rameezkhan.me/uses) — Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
 * [Marc-Antoine Dion](https://marcantoinedion.com/uses) — Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
