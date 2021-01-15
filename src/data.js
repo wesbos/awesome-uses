@@ -9,8 +9,18 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: ['OpenBSD', 'shell', 'CRUD', 'back-end', 'sql', 'Emacs', '9-to-5', 'metalhead'],
-  },{
+    tags: [
+      'OpenBSD',
+      'shell',
+      'CRUD',
+      'back-end',
+      'sql',
+      'Emacs',
+      '9-to-5',
+      'metalhead',
+    ],
+  },
+  {
     name: 'Rameez Khan',
     description:
       'Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.',
