@@ -5804,7 +5804,8 @@ module.exports = [
   },
   {
     name: 'Rémi Weng',
-    description: 'A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.',
+    description:
+      'A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.',
     url: 'https://creativedesignsguru.com/uses/',
     twitter: '@ixartz',
     emoji: '🚀',
