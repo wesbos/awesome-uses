@@ -2,6 +2,26 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Rosie Junghwa Yang',
+    description: 'Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝',
+    url: 'https://junghwayang.com/uses',
+    twitter: '@rosie_junghwa',
+    emoji: '💃🏻',
+    country: '🇰🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Back End',
+      'Full Stack',
+      'JavaScript',
+      'Node.js',
+      'MongoDB',
+      'AWS',
+      'Traveler',
+    ],
+  },
+  {
     name: 'Matthew Graybosch',
     description: 'author by choice, techie by necessity',
     url: 'https://www.matthewgraybosch.com/uses/',
