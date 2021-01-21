@@ -3,7 +3,8 @@
 module.exports = [
   {
     name: 'Rosie Junghwa Yang',
-    description: 'Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝',
+    description:
+      'Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝',
     url: 'https://junghwayang.com/uses',
     twitter: '@rosie_junghwa',
     emoji: '💃🏻',
