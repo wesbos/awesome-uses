@@ -252,7 +252,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
 * [Silvestar Bistrović](https://www.silvestar.codes/uses/) — Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.
 * [Adam Schwartz](https://adamschwartz.co/uses/) — Software developer, designer, film music composer
-* [Andy Bell](https://hankchizljaw.com/uses) — Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club
+* [Andy Bell](https://piccalil.li/page/uses) — Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at and run, Piccalilli.
 * [Hans Gerwitz](https://hans.gerwitz.com/uses) — Design geek
 * [Daryn St. Pierre](https://daryn.codes/uses) — Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).
 * [Chris Lagasse](https://chrislagasse.com/uses) — Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.
