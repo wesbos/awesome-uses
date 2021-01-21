@@ -4781,9 +4781,9 @@ module.exports = [
   {
     name: 'Andy Bell',
     description:
-      'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at Piccalilli and Front-End Challenges Club',
-    url: 'https://hankchizljaw.com/uses',
-    twitter: '@hankchizljaw',
+      'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at and run, Piccalilli.',
+    url: 'https://piccalil.li/page/uses',
+    twitter: '@piccalilli_',
     emoji: '🌶',
     country: '🇬🇧',
     computer: 'apple',
