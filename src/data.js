@@ -11473,12 +11473,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Python',
-      'Django',
-      'webdev',
-      'Twitch',
-    ],
+    tags: ['Python', 'Django', 'webdev', 'Twitch'],
   },
   {
     name: 'Jeremy Bunting',
