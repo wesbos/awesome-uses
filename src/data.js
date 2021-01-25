@@ -11727,7 +11727,8 @@ module.exports = [
   },
   {
     name: 'Seshal Jain',
-    description: 'Emacs rookie passionate about aesthetic design and a beautiful, free web',
+    description:
+      'Emacs rookie passionate about aesthetic design and a beautiful, free web',
     url: 'https://archgaelix.vercel.app/uses',
     twitter: '@seshaljain',
     country: '🇮🇳',
