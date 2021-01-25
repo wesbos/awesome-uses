@@ -11715,6 +11715,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Seshal Jain',
+    description: 'Emacs rookie passionate about aesthetic design and a beautiful, free web',
+    url: 'https://archgaelix.vercel.app/uses',
+    twitter: '@seshaljain',
+    country: '🇮🇳',
+    computer: 'linux',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Golang',
+      'Python',
+      'Emacs'
+      'Blogger',
+    ],
+  },
+  {
     name: 'Patrick Obermeier',
     description:
       'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
