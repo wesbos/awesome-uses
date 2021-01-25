@@ -11728,7 +11728,7 @@ module.exports = [
       'React',
       'Golang',
       'Python',
-      'Emacs'
+      'Emacs',
       'Blogger',
     ],
   },
