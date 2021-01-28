@@ -2074,7 +2074,7 @@ module.exports = [
       'Ruby on Rails',
       'Testing',
       'Vim',
-      'Visual Studio Code',
+      'VS Code',
       'Web',
     ],
   },
@@ -2109,7 +2109,7 @@ module.exports = [
       'React',
       'Node.js',
       'Remote',
-      'Visual Studio Code',
+      'VS Code',
     ],
   },
   {
@@ -2143,7 +2143,7 @@ module.exports = [
       'WebStorm',
       'PhpStorm',
       'DataGrip',
-      'Visual Studio Code',
+      'VS Code',
     ],
   },
   {
@@ -6235,7 +6235,7 @@ module.exports = [
       'JAMstack',
       'Accessibility',
       'Designer',
-      'Visual Studio Code',
+      'VS Code',
     ],
   },
   {
