@@ -322,7 +322,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Lina María Montaño Ramírez](https://calypsobronte.me/uses) — Software Engineer at @holbertonschool, Web Developer, passionate and  Organizer at @node_co
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
-* [Nico Bachner](https://nicob.dev/#uses) — High School Student. Self taught Web Developer. Open Source enthusiast
+* [Nico Bachner](https://nicob.dev/uses) — High School Student. Self taught Web Developer. Open Source enthusiast
 * [Brad Garropy](https://bradgarropy.com/uses) — Self taught frontender at Adobe, into lifting and country music.
 * [Jeff Mair](https://jeffmair.net/uses) — Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner
 * [Jeremy Collins](https://jeremycollins.net/uses) — Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.
