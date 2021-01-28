@@ -9582,6 +9582,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Dominik Matis',
+    description: 'React dev 👻 Gatsby & Vue.js learner 👨‍💻 Syntax lover ❤️',
+    url: 'https://dmatis.gitlab.io/uses',
+    twitter: '@Dominik82855196',
+    emoji: '🏸',
+    country: '🇸🇰',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'React',
+      'CSS',
+      'Front End',
+      'Gatsby',
+      'Vue.js',
+      'Back End',
+      'HTML',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Rubén Rodríguez',
     description:
       'Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified',
