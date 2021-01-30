@@ -2,6 +2,30 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Vadim Smirnov',
+    description:
+      'Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.',
+    url: 'https://fuzzyreason.io/uses',
+    twitter: '@vadim__smirnov',
+    emoji: '🌵',
+    country: '🇧🇾',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'CSS',
+      'Gatsby',
+      'Netlify',
+      'Styled Components',
+      'JAMstack',
+      'Remote',
+    ],
+  },
+  {
     name: 'Rosie Junghwa Yang',
     description:
       'Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝',
