@@ -4563,7 +4563,7 @@ module.exports = [
       'Speaker',
       'PHP',
       'Laravel',
-      'Livewire,
+      'Livewire',
       'Alpine.js',
       'Javacript',
       'Vue.js',
