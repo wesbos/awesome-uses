@@ -3,13 +3,32 @@ import people from '../data.js';
 
 function merge(prop) {
   return function(acc, obj) {
-    return [...obj[prop], ...acc];
+    // Remove duplicated values.
+    const values = [...new Set(obj[prop])];
+    return [...values, ...acc];
   };
 }
 
 function countInstances(acc, tag) {
   acc[tag] = acc[tag] ? acc[tag] + 1 : 1;
   return acc;
+}
+
+export function normalizeTag(tag) {
+  return (
+    tag
+      // Common mispellings currently seen in the data
+      // Do we want to go this far?
+      .replace(/frontend/i, 'Front End')
+      .replace(/backend/i, 'Back End')
+      .replace(/fullstack/i, 'Full Stack')
+      .replace(/a11y/i, 'Accessibility')
+      .replace(/next.?js/i, 'Next')
+      .replace(/react.?js/i, 'React')
+
+      // Or is lowercase enough?
+      .toLowerCase()
+  );
 }
 
 export function countries() {
@@ -48,7 +67,25 @@ export function tags() {
     .filter(([, count]) => count >= 3)
     .map(([name, count]) => ({ name, count }));
 
-  return [{ name: 'all', count: people.length }, ...tags];
+  const lowercaseTagMap = tags.reduce((acc, tag) => {
+    const normalizedName = normalizeTag(tag.name);
+    const currentCount = acc[normalizedName] || 0;
+    acc[normalizedName] = currentCount + tag.count;
+    return acc;
+  }, {});
+
+  // Merge tags like "JavaScript" and "Javascript" based on the
+  // count… Event though it's obviously JavaScript!
+  const normalizedTags = tags.reduce((acc, { name }) => {
+    const normalizedName = normalizeTag(name);
+    if (typeof lowercaseTagMap[normalizedName] !== 'undefined') {
+      acc.push({ name, count: lowercaseTagMap[normalizedName] });
+      delete lowercaseTagMap[normalizedName];
+    }
+    return acc;
+  }, []);
+
+  return [{ name: 'all', count: people.length }, ...normalizedTags];
 }
 
 export function devices() {

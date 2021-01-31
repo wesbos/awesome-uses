@@ -46,7 +46,7 @@ When done, check that person off.
 * [ ] [Bruno Brito](https://brunobrito.pt/uses/) - Web Developer, Content Creator, Digital Marketing 🇵🇹
 * [ ] [Lemon 🍋](https://ahoylemon.xyz/uses/) - Web Developer, Podcaster, Human Who Makes Dumb Shit
 * [ ] [Kevin Jalbert](https://kevinjalbert.com/uses/) - Developer Lead (React/Rails), Blogger.
-* [ ] [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
+* [x] [Swapnil Agarwal](https://swapnil.net/uses/) - Backend Developer, Aspiring Writer, Budding Designer
 * [x] [Hugo Di Francesco](https://codewithhugo.com/uses/) - JavaScript Developer, Blogger
 * [x] [Josiah Wiebe](https://jwie.be/uses/) - Full Stack Developer & Designer
 * [ ] [Khalil Stemmler](https://khalilstemmler.com/uses/) - Fullstack Javascript Developer / Designer, Musician 🇨🇦
@@ -71,7 +71,7 @@ When done, check that person off.
 * [ ] [Jessica Dembe](https://www.jessicadembe.tech/uses/) - Software Engineer
 * [ ] [Keziah Moselle](https://blog.keziahmoselle.fr/uses/) - Front-end developer
 * [ ] [Scott Zirkel](https://scottzirkel.com/uses) - Developer, Designer, Artist, Writer
-* [ ] [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
+* [x] [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
 * [x] [Jonathan Speek](https://speek.design/uses/) - Fullstack Developer, Designer, Musician
 * [ ] [Nervewax](https://nervewax.com/uses/) - Designer / Developer
 * [ ] [Niko Heikkilä](https://nikoheikkila.fi/uses/) - Backend Developer & DevOps Engineer at Paytrail
