@@ -10723,25 +10723,24 @@ module.exports = [
       'Next.js',
     ],
   },
-
   {
     name: 'Kim Ingram',
     description:
-      'Blue eyed vixen, front end developer, photographer, coffee addict.',
-    url: 'https://www.foxynerd.dev/uses/',
+      'Copywriter. Photographer. Coffee addict. And I code a little bit too.',
+    url: 'https://www.kimingram.com/uses/',
     twitter: '@talknerdytomee',
-    emoji: '☕',
+    emoji: '🦄',
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
     tags: [
       'Developer',
-      'Front End',
+      'Writer',
+      'Photographer',
+      'Freelancer',
       'HTML',
       'CSS',
-      'Web Developer',
-      'Photographer',
-      'JavaScript',
+      'WordPress',
     ],
   },
   {
