@@ -5344,8 +5344,7 @@ module.exports = [
   },
   {
     name: 'Gaya Kessler',
-    description:
-      'Freelance web developer specialising in JavaScript',
+    description: 'Freelance web developer specialising in JavaScript',
     url: 'https://theclevernode.com/uses',
     twitter: '@GayaKessler',
     emoji: '🌱',
@@ -5362,7 +5361,7 @@ module.exports = [
       'Full Stack',
       'Freelance',
       'Freelancer',
-      'Metalhead'
+      'Metalhead',
     ],
   },
   {
@@ -11893,7 +11892,7 @@ module.exports = [
       'CSS',
       'HTML',
       'JavaScript',
-      'DevOps'
+      'DevOps',
     ],
   },
   {

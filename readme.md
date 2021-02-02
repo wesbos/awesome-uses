@@ -279,6 +279,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sam Cross](https://sam-cross.github.io/#/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
 * [Ruben Arakelyan](https://ruben.arakelyan.uk/uses/) — Web Developer and self builder in Cornwall, UK
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
+* [Gaya Kessler](https://theclevernode.com/uses) — Freelance web developer specialising in JavaScript
 * [Diego López](https://codingpotions.com/uses) — Frontend developer making thins with Vue & Nuxt. Gamer and beer lover
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Andre Landgraf](https://andre-landgraf.cool/uses/) — Passionate Fullstack Web Developer
@@ -544,7 +545,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Anguita](https://davidanguita.name/uses/) — Software developer & consultant. Maker. Gamer by night. :wq
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
 * [Trezy](https://trezy.com/uses) — Software engineer, JavaScript livestreamer, and a wannabe cyborg.
-* [Kim Ingram](https://www.foxynerd.dev/uses/) — Blue eyed vixen, front end developer, photographer, coffee addict.
+* [Kim Ingram](https://www.kimingram.com/uses/) — Copywriter. Photographer. Coffee addict. And I code a little bit too.
 * [Ben Shi](https://hbish.com/uses/) — Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.
 * [Benjamin Edenhuizen](https://rqrauhvmra.com/uses/) — Front-end web developer with a focus on accessibility and performance.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
@@ -598,6 +599,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Steve Rydz](https://steverydz.com/uses) — Developer
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
+* [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
