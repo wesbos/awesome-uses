@@ -5343,6 +5343,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Gaya Kessler',
+    description:
+      'Freelance web developer specialising in JavaScript',
+    url: 'https://theclevernode.com/uses',
+    twitter: '@GayaKessler',
+    emoji: '🌱',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'Node.js',
+      'TypeScript',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'Freelance',
+      'Freelancer',
+      'Metalhead'
+    ],
+  },
+  {
     name: 'Diego López',
     description:
       'Frontend developer making thins with Vue & Nuxt. Gamer and beer lover',
