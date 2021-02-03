@@ -10743,6 +10743,20 @@ module.exports = [
     ],
   },
   {
+    name: 'Tommaso Bruno',
+    description: 'Software Engineer, Full Stack',
+    country: '🇬🇧',
+    computer: 'Macbook Pro',
+    phone: 'iPhone',
+    tags: [
+      'Java',
+      'React',
+      'API',
+      'Node'
+      'Algorithms and Data Structures'
+    ]
+  },
+  {
     name: 'Ben Shi',
     description:
       'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
