@@ -1487,7 +1487,7 @@ module.exports = [
       'Next',
       'AWS',
       'MongoDB',
-      'VS Code'
+      'VS Code',
       'Hyper'
     ]
   },
