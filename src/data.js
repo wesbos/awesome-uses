@@ -4,7 +4,7 @@ module.exports = [
     {
     name: 'Alan Redzepagic',
     description:
-      'Front-end development, web native, tech enthusiast, 
+      'Front-end development, web native, tech enthusiast', 
     url: 'https://alanred.me/uses',
     twitter: '@allanred',
     emoji: '🚀',
