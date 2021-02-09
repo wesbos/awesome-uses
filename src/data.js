@@ -1488,6 +1488,7 @@ module.exports = [
       'AWS',
       'MongoDB',
       'VS Code'
+      'Hyper'
     ]
   },
   {
