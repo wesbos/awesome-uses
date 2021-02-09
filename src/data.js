@@ -1,6 +1,34 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
+    {
+    name: 'Alan Redzepagic',
+    description:
+      'Front-end development, web native, tech enthusiast, 
+    url: 'https://alanred.me/uses',
+    twitter: '@allanred',
+    emoji: '🚀',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'UX',
+      'UI',
+      'Design Systems',
+      'Vue,js',
+      'Nuxt',
+      'JAMstack',
+      'Tailwind CSS',
+      'Figma',
+      'Illustrator',
+      'Photoshop',      
+      'Wordpress',
+      'AWS',
+      'cPanel WHM',
+    ],
+  },
   {
     name: 'Rosie Junghwa Yang',
     description:
