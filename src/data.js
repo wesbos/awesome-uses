@@ -1495,6 +1495,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Sapan Bodiwala',
+    description: 'Full Stack Software Engineer',
+    url: 'https://sapanbodiwala.com/uses',
+    twitter: '@sbodi10',
+    emoji: '🤙🏾',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Software Engineer',
+      'TypeScript',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'GraphQL',
+      'Next',
+      'AWS',
+      'MongoDB',
+      'VS Code',
+      'Hyper'
+    ]
+  },
+  {
     name: 'Felix Yeboah Jefferson',
     description: 'Fullstack Developer, UI Designer & a Nomad',
     url: 'https://jeffson.netlify.app/uses',
