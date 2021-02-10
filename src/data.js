@@ -1515,8 +1515,8 @@ module.exports = [
       'AWS',
       'MongoDB',
       'VS Code',
-      'Hyper'
-    ]
+      'Hyper',
+    ],
   },
   {
     name: 'Felix Yeboah Jefferson',
