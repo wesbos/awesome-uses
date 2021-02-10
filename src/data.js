@@ -4614,6 +4614,8 @@ module.exports = [
       'Speaker',
       'PHP',
       'Laravel',
+      'Livewire',
+      'Alpine.js',
       'Javacript',
       'Vue.js',
     ],
