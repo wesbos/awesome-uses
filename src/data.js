@@ -8600,6 +8600,32 @@ module.exports = [
       'CSS',
     ],
   },
+
+  {
+    name: 'MG Santos',
+    description:
+      'Full-stack (and fully bearded) developer who loves bots, automations and building stuff ',
+    url: 'https://fullybearded.com/uses/',
+    twitter: '@fullybearded_',
+    emoji: '💩',
+    country: '🇨🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Back End',
+      'Full Stack',
+      'JavaScript',
+      'Python',
+      'Django',
+      'React',
+      'Node.js',
+      'Next.js',
+      'MongoDB',
+      'Postgres',
+    ],
+  },
+
   {
     name: 'Daniel Van Cuylenburg',
     description:
