@@ -26,6 +26,37 @@ module.exports = [
     ],
   },
   {
+    name: 'Gabriel Alejandro López López',
+    description:
+      'Software engineer from Cienfuegos, Cuba. Working at @daxslab and always looking for new business opportunities',
+    url: 'https://glpzzz.is-a.dev#my-tech-stack',
+    twitter: '@glpzzz',
+    emoji: '😎',
+    country: '🇨🇺',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'PHP',
+      'Yii',
+      'HTML',
+      'CSS',
+      'Docker',
+      'C++',
+      'C',
+      'Qt'
+      'Bootstrap',
+      'jQuery',
+      'MySQL',
+      'PostgreSQL'
+      'Python',
+      'Ubuntu',
+      'dwm',
+    ],
+  },
+  {
     name: 'Alan Redzepagic',
     description: 'Front-end development, web native, tech enthusiast',
     url: 'https://alanred.me/uses',
@@ -12148,3 +12179,4 @@ module.exports = [
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
 ];
+
