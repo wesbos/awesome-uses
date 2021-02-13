@@ -1027,6 +1027,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Niko Heikkilä',
+    description: 'Software Craftsman and Open-Source Advocate at Futurice',
+    url: 'https://nikoheikkila.fi/uses/',
+    twitter: '@nikoheikkila',
+    emoji: '🦝',
+    country: '🇫🇮',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Software Craftsmanship',
+      'Continuous Integration',
+      'Continuous Delivery',
+      'DevOps',
+      'Team Leadership',
+      'Open-Source',
+    ],
+  },
+  {
     name: 'Satyam Lachhwani',
     description:
       "Web developer - Exploring ways to find out what's good for me.",
