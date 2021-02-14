@@ -398,7 +398,7 @@ module.exports = [
     name: 'Sascha Diercks',
     description:
       'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
-    url: 'https://saschadiercks.dev/uses/',
+    url: 'https://saschadiercks.de/uses/',
     twitter: '@saschadiercks',
     emoji: '🙂',
     country: '🇩🇪',
@@ -418,6 +418,7 @@ module.exports = [
       'Developer',
       'Designer',
       'Eleventy',
+      'PHP',
     ],
   },
   {
