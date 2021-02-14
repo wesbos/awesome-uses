@@ -49,7 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Maxim Villivald](https://proj.ninja/uses) — Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.
 * [Matt Holovach](https://www.coloradoseodesign.com/uses.php) — Loves SEO, improving coding skills and good food
 * [Bradley Shellnut](https://bradleyshellnut.com/uses) — Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.
-* [Sascha Diercks](https://saschadiercks.dev/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
+* [Sascha Diercks](https://saschadiercks.de/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
 * [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
 * [Joshua Rose](https://jrgiant.tech/Uses) — Loves Christ, loves family, loves programming, full stack dev
 * [Jeremiah Boby](https://jerbob.me/uses) — Python developer specialising in web tech
