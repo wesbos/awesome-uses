@@ -703,7 +703,7 @@ module.exports = [
     url: 'https://balderromey.com/uses/',
     twitter: '@jeromey',
     emoji: '🥁',
-    country: 'us',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
     tags: [
