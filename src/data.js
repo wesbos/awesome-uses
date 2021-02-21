@@ -8809,9 +8809,9 @@ module.exports = [
   },
   {
     name: 'Dávid Lévai',
-    description: 'Serverless Coding, Freelancing',
+    description: 'Building production-ready apps, Freelancing as a Software Dev',
     url: 'https://davidlevai.com/uses',
-    twitter: '@davidlevaicodes',
+    twitter: '@iamdavidlevai',
     emoji: '🔥',
     country: '🇭🇺',
     computer: 'apple',
@@ -8819,6 +8819,7 @@ module.exports = [
     tags: [
       'Developer',
       'Front End',
+      'Full Stack',
       'JavaScript',
       'CSS',
       'HTML',
@@ -8829,6 +8830,9 @@ module.exports = [
       'AWS',
       'Firebase',
       'DevOps',
+      'YouTuber',
+      'Blitz.js',
+      'Nextjs',
     ],
   },
   {
