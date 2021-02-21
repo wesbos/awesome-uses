@@ -63,6 +63,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Patrik Trefil](https://patriktrefil.com/uses/) — Developer from Europe, Linux and open-source fan
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
 * [Sheila Leon](https://sheilaleon.tech/uses/) — Self-taught Front-end Dev, Designer & Product Manager
+* [Jeromey Balderrama](https://balderromey.com/uses/) — Web Developer, Designer, Photographer, Drummer
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Erick Mwamodo](https://mwamodo.com/uses) — Web Engineer, Designer, All-Round Entrepreneur
@@ -93,6 +94,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Yohanes Bandung Bondowoso](https://ybbond.dev/uses) — FrontEnd. Coffee. Calisthenics. Tattoo. Vim. Modular Synth.
 * [Dave Redfern](https://daveredfern.com/uses) — I design and develop user‑centered experiences that deliver measurable returns.
+* [Trevor Morris](https://www.trovster.com/about/uses) — I am a movie-loving, mountain-bike-riding web developer from the UK.
 * [Rizwan](https://blog.rizwan.dev/uses) — iOS Developer. Living between Marvel and DC world
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Adil Naqvi](https://adilnaqvi.com/uses) — Mechanical engineer with a knack for coding

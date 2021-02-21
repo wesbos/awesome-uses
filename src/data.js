@@ -706,15 +706,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'HTML',
-      'CSS',
-      'Javascript',
-      'React',
-      'SQL',
-      'WordPress',
-      'PHP',
-    ],
+    tags: ['HTML', 'CSS', 'Javascript', 'React', 'SQL', 'WordPress', 'PHP'],
   },
   {
     name: 'Bram Smulders',
@@ -1363,7 +1355,8 @@ module.exports = [
   },
   {
     name: 'Trevor Morris',
-    description: 'I am a movie-loving, mountain-bike-riding web developer from the UK.',
+    description:
+      'I am a movie-loving, mountain-bike-riding web developer from the UK.',
     url: 'https://www.trovster.com/about/uses',
     twitter: '@trovster',
     emoji: '🚲',
