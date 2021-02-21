@@ -9844,7 +9844,8 @@ module.exports = [
   },
   {
     name: 'Antoni Kepinski',
-    description: 'Full Stack Engineer, maintaining node-fetch and a bunch of smaller projects 🚀',
+    description:
+      'Full Stack Engineer, maintaining node-fetch and a bunch of smaller projects 🚀',
     url: 'https://kepinski.ch/uses/',
     twitter: '@dokwadratu',
     emoji: '⚡',
