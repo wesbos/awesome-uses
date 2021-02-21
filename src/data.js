@@ -8809,7 +8809,8 @@ module.exports = [
   },
   {
     name: 'Dávid Lévai',
-    description: 'Building production-ready apps, Freelancing as a Software Dev',
+    description:
+      'Building production-ready apps, Freelancing as a Software Dev',
     url: 'https://davidlevai.com/uses',
     twitter: '@iamdavidlevai',
     emoji: '🔥',

@@ -451,7 +451,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jared Clifton-Lee](https://jared.clifton-lee.com/uses) — Engineer of code; manager of people; trainer of cats
 * [James Kemp](https://www.jameskemp.dev/uses/) — Web Developer, Blogger, Freelancer
 * [Tom Hazledine](https://tomhazledine.com/uses) — Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.
-* [Dávid Lévai](https://davidlevai.com/uses) — Serverless Coding, Freelancing
+* [Dávid Lévai](https://davidlevai.com/uses) — Building production-ready apps, Freelancing as a Software Dev
 * [Soumya Ranjan Mohanty](https://soumya.dev/uses) — Fullstack software developer, Music Lover
 * [Mihai Serban](https://www.mihaiserban.dev/uses) — Software engineer in constant search for new and exciting technologies
 * [Nick Janetakis](https://nickjanetakis.com/uses) — Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast
