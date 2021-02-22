@@ -204,6 +204,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Fabian Vallejos](https://fabianvallejos.com/uses/) — Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus
 * [William Rodriguez](https://williamrodriguez.com/uses) — Full-Stack Developer. TALL Stack Advocate. Less is more.
 * [Shawn Crigger](https://shawn-crigger.herokuapp.com/uses) — Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!
+* [Nathanaël Cherrier](https://mindsers.blog/fr/uses) — Full Stack JavaScript and Swift Developer, Software Caftsman, from Reunion Island based in Lyon, France
 * [Keith Donegan](https://www.keithdonegan.com/uses/) — Irish WordPress developer, based in London, UK.
 * [Misir Jafarov](https://themisir.com/uses/) — Human, full stack developer, and Open source developer from the world.
 * [John SJ Anderson](https://genehack.org/uses) — information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.

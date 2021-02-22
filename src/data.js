@@ -3734,7 +3734,8 @@ module.exports = [
   },
   {
     name: 'Nathanaël Cherrier',
-    description: 'Full Stack JavaScript and Swift Developer, Software Caftsman, from Reunion Island based in Lyon, France',
+    description:
+      'Full Stack JavaScript and Swift Developer, Software Caftsman, from Reunion Island based in Lyon, France',
     twitter: '@mindserscodes',
     emoji: '🍣',
     country: '🇷🇪',
