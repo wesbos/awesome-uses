@@ -360,7 +360,7 @@ module.exports = [
     description: 'Full stack developer for the web.',
     url: 'https://svenluijten.com/uses',
     country: '🇳🇱',
-    twitter: '@svenluijten',
+    twitter: 'svenluijten',
     computer: 'apple',
     phone: 'iphone',
     tags: [
