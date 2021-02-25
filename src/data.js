@@ -11339,9 +11339,9 @@ module.exports = [
   {
     name: 'Derek Mohr',
     description: 'Front-end development by interest, full stack development by trade',
-    url: 'https://onemohrti.me',
+    url: 'https://onemohrti.me/uses/',
     twitter: '@onemohrtime',
-    emoji: '🛰️',
+    emoji: '🤘',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
