@@ -8,7 +8,7 @@ module.exports = [
     url: 'http://www.sobolewski.tk/#uses',
     twitter: '@K_J_Sobolewski',
     emoji: '👨‍🦲',
-    country: 'PL',
+    country: '🇵🇱',
     computer: 'windows',
     phone: 'android',
     tags: [
