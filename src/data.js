@@ -2,6 +2,34 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Karol Sobolewski',
+    description:
+      'Hello there, Iam the bald one. A junior full-stack developper.',
+    url: 'http://www.sobolewski.tk/#uses',
+    twitter: '@K_J_Sobolewski',
+    emoji: '👨‍🦲',
+    country: 'PL',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'CSS',
+      'Sass',
+      'MongoDB',
+      'Redux',
+      'REST',
+      'Figma',
+      'Illustrator',
+      'Photoshop',
+      'Wordpress',
+      'Remote',
+    ],
+  },
+  {
     name: 'Vadim Smirnov',
     description:
       'Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.',
