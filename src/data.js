@@ -1253,6 +1253,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Brian Hamburg',
+    description:
+      'Web Developer, Designer, and Musician',
+    url: 'https://burgbits.com/uses',
+    twitter: '@burgbits',
+    emoji: '🪕',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Developer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Java',
+      'CMS',
+      'Designer',
+      'Musician'
+    ],
+  },
+  {
     name: 'Sergio Martín',
     description:
       'I enjoy creating and learning for the web. Standards and vanilla enthusiast',
