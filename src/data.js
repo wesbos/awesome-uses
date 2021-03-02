@@ -5427,6 +5427,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Robin Bakker',
+    description: 'Web Developer',
+    url: 'https://robinbakker.nl/uses',
+    twitter: '@robinbakker',
+    emoji: '☕',
+    country: '🇳🇱',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Full Stack',
+      'HTML',
+      'JavaScript',
+      'CSS',
+      'React',
+      'Vue.js',
+      'C#',
+      '.NET',
+      'Eleventy',
+    ],
+  },
+  {
     name: 'Alessia Bellisario',
     description:
       'Web engineer, mechanical keyboard builder, plotter art maker.',
