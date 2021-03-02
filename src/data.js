@@ -34,7 +34,16 @@ module.exports = [
     country: '🇺🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['React', 'Styled components', 'Typescript', 'Figma', 'Developer', 'UI', 'Docker', 'REST']
+    tags: [
+      'React',
+      'Styled components',
+      'Typescript',
+      'Figma',
+      'Developer',
+      'UI',
+      'Docker',
+      'REST',
+    ],
   },
   {
     name: 'Alan Redzepagic',
@@ -1265,8 +1274,7 @@ module.exports = [
   },
   {
     name: 'Brian Hamburg',
-    description:
-      'Web Developer, Designer, and Musician',
+    description: 'Web Developer, Designer, and Musician',
     url: 'https://burgbits.com/uses',
     twitter: '@burgbits',
     emoji: '🪕',
@@ -1282,7 +1290,7 @@ module.exports = [
       'Java',
       'CMS',
       'Designer',
-      'Musician'
+      'Musician',
     ],
   },
   {
@@ -8106,9 +8114,10 @@ module.exports = [
       'Docker',
     ],
   },
-    {
+  {
     name: 'Danny de Vries',
-    description: 'Indie maker building products for the web and lecturer @CMDamsterdam',
+    description:
+      'Indie maker building products for the web and lecturer @CMDamsterdam',
     url: 'https://dandevri.es/uses',
     twitter: '@dandevri',
     emoji: '👨🏼‍💻',
@@ -8122,7 +8131,7 @@ module.exports = [
       'CSS',
       'JavaScript',
       'Lecturer',
-      'Teaching'
+      'Teaching',
     ],
   },
   {
