@@ -8009,6 +8009,25 @@ module.exports = [
       'Docker',
     ],
   },
+    {
+    name: 'Danny de Vries',
+    description: 'Indie maker building products for the web and lecturer @CMDamsterdam',
+    url: 'https://dandevri.es/uses',
+    twitter: '@dandevri',
+    emoji: '👨🏼‍💻',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Designer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Lecturer',
+      'Teaching'
+    ],
+  },
   {
     name: 'Florian Leroux',
     description: 'A junior full-stack developper',
