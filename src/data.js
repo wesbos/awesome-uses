@@ -7240,12 +7240,12 @@ module.exports = [
   },
   {
     name: 'Angel Taborda Chinea',
-    description: 'Software Developer, Teacher, JW',
-    url: 'https://ataborda.digital/uses',
+    description: 'Software Developer, Teacher, JW, CTO en IO Digital',
+    url: 'https://ataborda.com/uses',
     emoji: '🤪',
     country: '🇪🇸',
     computer: 'apple',
-    phone: 'android',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Full Stack',
@@ -7253,8 +7253,7 @@ module.exports = [
       'React',
       'JavaScript',
       '.NET',
-      'React Native',
-      'Mobile',
+      'AI',
     ],
   },
   {
