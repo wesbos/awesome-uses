@@ -2,6 +2,27 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: "Salma Alam-Naylor",
+    description: "Live coding streamer, writer and speaker",
+    url: "https://whitep4nth3r.com/uses",
+    twitter: "@whitep4nth3r",
+    emoji: "⚡️",
+    country: "🇬🇧",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Accessibility",
+      "Blogger",
+      "CSS",
+      "Developer",
+      "JAMstack",
+      "JavaScript",
+      "Node.js",
+      "Speaker",
+      "Streamer",
+    ],
+  },
+  {
     name: 'Vadim Smirnov',
     description:
       'Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.',
