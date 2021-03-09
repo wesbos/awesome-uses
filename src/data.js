@@ -11261,6 +11261,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Lucas Queiroz',
+    description: 'Backend Engineer working remotely.',
+    url: 'https://lucasqueiroz.dev/uses.html',
+    twitter: '@lucasqueiroz',
+    emoji: '💻',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'API',
+      'Python',
+      'Developer',
+      'Ruby',
+      'Rails',
+      'Kotlin',
+      'Java',
+    ],
+  },
+  {
     name: 'Muhammad Umair',
     description:
       'Fullstack front-end developer and designer, passionate in everything #JavaScript',
