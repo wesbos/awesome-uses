@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — Live coding streamer, writer and speaker
 * [Vadim Smirnov](https://fuzzyreason.io/uses) — Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.
 * [Denys Tynok](https://famiclone.ml/uses/) — Front-end development
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
