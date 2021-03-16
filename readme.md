@@ -359,6 +359,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Simeon Griggs](https://www.simeongriggs.dev/uses) — Full stack developer and part time Cyclist in Newcastle upon Tyne, UK
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
+* [George Campbell](https://gibr.net/uses) — Full stack engineer at Netflix
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
 * [Jorge Ruvalcaba](https://jorgeruvalcaba.dev/uses/) — Software Engineer, Senior Frontend Engineer, Taco Master and internet weirdo 🤓
 * [Yoann Fleury](https://blog.yoannfleury.dev/uses) — Front End Web Developer, Blogger
