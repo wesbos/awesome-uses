@@ -78,6 +78,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, CompSci Student
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
+* [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and TailwindCSS
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
@@ -245,6 +246,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
 * [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
+* [Rostyslav Ugryniuk](https://ugross.dev/uses) — Front-end Developer, Snowboarder, and Traveler.
 * [Michael Gale](https://michaelgale.dev/uses) — Web Developer with a beard and glasses from Melbourne, Australia
 * [Eric Blohm](https://www.ericblohm.codes/uses) — Full Stack MERN Developer with a passion for board games
 * [Aaron A.](https://ocular-rhythm.io/uses/) — Sandwich enthusiast and programmer.
@@ -429,6 +431,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jérémy Mouzin](https://jeremymouzin.com/uses) — Software Engineer, Tutorial Maker, Entrepreneur, Blogger
 * [Thorsten Hans](https://thorsten-hans.com/uses/) — Cloud-Native software developer from Germany.
 * [Adam Laycock](https://www.arcath.net/uses) — IT Engineer, Web Developer & Blogger
+* [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
 * [Scott Spence](https://scottspence.me#uses) — Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he
 * [Marc Littlemore](https://marclittlemore.com/uses) — Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.

@@ -997,7 +997,8 @@ module.exports = [
   },
   {
     name: 'Mauro Reis Vieira',
-    description: 'Front End Developer, fully focused on JavaScript, React and TailwindCSS',
+    description:
+      'Front End Developer, fully focused on JavaScript, React and TailwindCSS',
     url: 'https://mauroreisvieira.com/uses/',
     twitter: '@mauroreisvieira',
     emoji: '🥑',
