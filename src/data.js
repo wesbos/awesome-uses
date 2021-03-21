@@ -2,24 +2,6 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
-    name: 'Pieter Boerboom',
-    description: 'Front-end developer, blogger, tech enthusiast',
-    url: 'https://www.pieterboerboom.nl/uses/',
-    twitter: '@pie_tre',
-    emoji: '⚡️',
-    country: '🇳🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Blogger',
-      'Developer',
-      'Front end',
-      'JavaScript',
-      'Node.js',
-      'React',
-    ],
-  },
-  {
     name: 'Salma Alam-Naylor',
     description: 'Live coding streamer, writer and speaker',
     url: 'https://whitep4nth3r.com/uses',
@@ -82,6 +64,24 @@ module.exports = [
       'UI',
       'Docker',
       'REST',
+    ],
+  },
+{
+    name: 'Pieter Boerboom',
+    description: 'Front-end developer, blogger, tech enthusiast',
+    url: 'https://www.pieterboerboom.nl/uses/',
+    twitter: '@pie_tre',
+    emoji: '⚡️',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Blogger',
+      'Developer',
+      'Front end',
+      'JavaScript',
+      'Node.js',
+      'React',
     ],
   },
   {
