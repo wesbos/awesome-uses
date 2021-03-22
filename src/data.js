@@ -66,7 +66,7 @@ module.exports = [
       'REST',
     ],
   },
-{
+  {
     name: 'Pieter Boerboom',
     description: 'Front-end developer, blogger, tech enthusiast',
     url: 'https://www.pieterboerboom.nl/uses/',
@@ -356,8 +356,8 @@ module.exports = [
       'React Native',
     ],
   },
-   {
-    name: 'Shawn D\'silva',
+  {
+    name: "Shawn D'silva",
     description:
       'Full Stack Web Developer, Designer and Embedded Systems enthusiast',
     url: 'https://www.shawndsilva.com/uses',

@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — Live coding streamer, writer and speaker
 * [Vadim Smirnov](https://fuzzyreason.io/uses) — Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.
 * [Denys Tynok](https://famiclone.ml/uses/) — Front-end development
+* [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
 * [Matthew Graybosch](https://www.matthewgraybosch.com/uses/) — author by choice, techie by necessity
@@ -46,6 +47,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mathias Borgmalm](https://www.mathiasborgmalm.dev/uses/) — Thinks CSS is underrated.
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
 * [Taisuke Mino](https://taisukemino.com/uses/) — Crypto Entrepreneur
+* [Shawn D'silva](https://www.shawndsilva.com/uses) — Full Stack Web Developer, Designer and Embedded Systems enthusiast
 * [Sam Hamburger](https://samburger.dev/uses) — Frontend Engineer
 * [Anand Biswas](https://aanu.me/uses/) — Django Developer
 * [Maxim Villivald](https://proj.ninja/uses) — Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.
@@ -86,6 +88,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
 * [Niko Heikkilä](https://nikoheikkila.fi/uses/) — Software Craftsman and Open-Source Advocate at Futurice
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
+* [Matt Gregg](https://codegregg.com/uses) — Software Engineer at Shopify
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
