@@ -623,7 +623,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
-* [Vinesh Raju](https://theVinesh.com/#/uses) — Mobile Application developer from India with a deep focus on UX/UI.
+* [Vinesh Raju](https://blog.thevinesh.com/uses/) — Mobile Application developer from India with a deep focus on UX/UI.
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
