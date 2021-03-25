@@ -12359,6 +12359,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Vic Demuzere',
+    description: 'Go developer and Linux enthousiast at home, system administrator at work.',
+    url: 'https://vic.demuzere.be/uses/',
+    country: '🇧🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'HTML',
+      'CSS',
+      'Go',
+      'Rust',
+      'Blogger',
+      'Vim',
+      'Linux',
+      'Gamer'
+    ]
+  },
+  {
     name: 'Patrick Obermeier',
     description:
       'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
