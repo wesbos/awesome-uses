@@ -9287,6 +9287,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Tom VanAntwerp',
+    description:
+      'Professional web developer, hobbyist fermenter',
+    url: 'https://tomvanantwerp.com/uses',
+    twitter: '@tvanantwerp',
+    emoji: '🤷',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'CSS',
+      'HTML',
+      'Blogger',
+      'Full Stack',
+      'Front End',
+      'Designer',
+      'DevOps',
+    ],
+  },
+  {
     name: 'Nick Janetakis',
     description:
       'Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast',
