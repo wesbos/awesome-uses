@@ -474,6 +474,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dávid Lévai](https://davidlevai.com/uses) — Building production-ready apps, Freelancing as a Software Dev
 * [Soumya Ranjan Mohanty](https://soumya.dev/uses) — Fullstack software developer, Music Lover
 * [Mihai Serban](https://www.mihaiserban.dev/uses) — Software engineer in constant search for new and exciting technologies
+* [Tom VanAntwerp](https://tomvanantwerp.com/uses) — Professional web developer, hobbyist fermenter
 * [Nick Janetakis](https://nickjanetakis.com/uses) — Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast
 * [Stefan Judis](https://www.stefanjudis.com/uses) — Web Developer, writer and speaker
 * [Kaleigh Scruggs](https://kaleighscruggs.com/uses) — Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom

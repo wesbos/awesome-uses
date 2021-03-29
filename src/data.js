@@ -9327,8 +9327,7 @@ module.exports = [
   },
   {
     name: 'Tom VanAntwerp',
-    description:
-      'Professional web developer, hobbyist fermenter',
+    description: 'Professional web developer, hobbyist fermenter',
     url: 'https://tomvanantwerp.com/uses',
     twitter: '@tvanantwerp',
     emoji: '🤷',
