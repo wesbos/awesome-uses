@@ -499,6 +499,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Justin De Leon',
+    description: 'Coding, video games, and pizza 🍕',
+    url: 'https://jusdeleon.vercel.app/uses',
+    emoji: '🤓',
+    country: '🇵🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'PHP',
+      'Laravel',
+      'JavaScript',
+      'CSS'
+    ],
+  },
+  {
     name: 'Sascha Diercks',
     description:
       'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
