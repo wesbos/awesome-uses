@@ -139,6 +139,23 @@ module.exports = [
       'cPanel WHM',
     ],
   },
+   {
+    name: 'Tugrul Erdem Dogru',
+    description: 'Jr Front-End & Historian ',
+    url: 'http://tugrulerdemdogru.com/uses',
+    twitter: '@tugrulerdemd',
+    emoji: '🎉',
+    country: '🇹🇷',
+    computer: 'HP Pavilion',
+    phone: 'Iphone SE2',
+    tags: [
+      'JavaScript',
+      'Front End',
+      'Blogger',
+      'Photographer',
+      'Ruby',
+    ],
+  },
   {
     name: 'Rosie Junghwa Yang',
     description:
