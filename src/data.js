@@ -506,14 +506,7 @@ module.exports = [
     country: '🇵🇭',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'PHP',
-      'Laravel',
-      'JavaScript',
-      'CSS'
-    ],
+    tags: ['Developer', 'Full Stack', 'PHP', 'Laravel', 'JavaScript', 'CSS'],
   },
   {
     name: 'Sascha Diercks',
@@ -12377,21 +12370,13 @@ module.exports = [
   },
   {
     name: 'Vic Demuzere',
-    description: 'Go developer and Linux enthousiast at home, system administrator at work.',
+    description:
+      'Go developer and Linux enthousiast at home, system administrator at work.',
     url: 'https://vic.demuzere.be/uses/',
     country: '🇧🇪',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'HTML',
-      'CSS',
-      'Go',
-      'Rust',
-      'Blogger',
-      'Vim',
-      'Linux',
-      'Gamer'
-    ]
+    tags: ['HTML', 'CSS', 'Go', 'Rust', 'Blogger', 'Vim', 'Linux', 'Gamer'],
   },
   {
     name: 'Patrick Obermeier',

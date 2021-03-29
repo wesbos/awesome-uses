@@ -54,6 +54,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sven Luijten](https://svenluijten.com/uses) — Full stack developer for the web.
 * [Matt Holovach](https://www.coloradoseodesign.com/uses.php) — Loves SEO, improving coding skills and good food
 * [Bradley Shellnut](https://bradleyshellnut.com/uses) — Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.
+* [Justin De Leon](https://jusdeleon.vercel.app/uses) — Coding, video games, and pizza 🍕
 * [Sascha Diercks](https://saschadiercks.de/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
 * [Kushan Shamika](http://kushan.info/uses) — Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer
 * [Joshua Rose](https://jrgiant.tech/Uses) — Loves Christ, loves family, loves programming, full stack dev
@@ -619,6 +620,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Marek Maras](https://www.marek-maras.de/uses) — Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
+* [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Steve Rydz](https://steverydz.com/uses) — Developer
