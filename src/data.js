@@ -27,7 +27,7 @@ module.exports = [
       'Photoshop',
       'Wordpress',
       'Remote',
-      ],
+    ],
   },
   {
     name: 'Salma Alam-Naylor',
