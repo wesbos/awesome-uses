@@ -454,6 +454,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Duncan McClean](https://duncanm.dev/uses) — Web Developer working with Laravel & Statamic
 * [Bruno Paz](https://brunopaz.dev/uses) — Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
+* [Gus Fune](https://gusfune.com/uses/) — CTO at Off Script. Full-stack developer from Brazil, based in Sweden.
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
