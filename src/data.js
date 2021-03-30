@@ -146,8 +146,8 @@ module.exports = [
     twitter: '@tugrulerdemd',
     emoji: '🎉',
     country: '🇹🇷',
-    computer: 'HP Pavilion',
-    phone: 'Iphone SE2',
+    computer: 'windows',
+    phone: 'iphone',
     tags: [
       'JavaScript',
       'Front End',
