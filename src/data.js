@@ -2418,7 +2418,7 @@ module.exports = [
       'Web',
     ],
   },
-    {
+  {
     name: 'Henrik Nyh',
     description: 'Swedish web developer in Yorkshire, UK.',
     url: 'https://henrik.nyh.se/uses',
