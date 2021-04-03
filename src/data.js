@@ -1259,7 +1259,8 @@ module.exports = [
   },
   {
     name: 'Matt Gregg',
-    description: 'Front end software engineer. Baker. Woodworker. Musician. Nerd.',
+    description:
+      'Front end software engineer. Baker. Woodworker. Musician. Nerd.',
     url: 'https://codegregg.com/uses',
     twitter: '@itwasmattgregg',
     emoji: '🥑',
@@ -2427,13 +2428,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Blogger',
-      'Ruby',
-      'Elixir',
-      'Vim',
-    ],
+    tags: ['Developer', 'Blogger', 'Ruby', 'Elixir', 'Vim'],
   },
   {
     name: 'Manoj Barman',

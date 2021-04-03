@@ -90,7 +90,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
 * [Niko Heikkilä](https://nikoheikkila.fi/uses/) — Software Craftsman and Open-Source Advocate at Futurice
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
-* [Matt Gregg](https://codegregg.com/uses) — Software Engineer at Shopify
+* [Matt Gregg](https://codegregg.com/uses) — Front end software engineer. Baker. Woodworker. Musician. Nerd.
 * [Simon Fish](https://simon.fish/uses) — Engineering and educating for a free and open web. Ruby/React fullstack developer
 * [Aymen Jarouih](https://www.ajarouih.me/uses) — Fullstack Developer, Technical SEO & WebPerf
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
@@ -144,6 +144,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Oleg Perchyk](https://himynameisoleg.com/uses) — Web developer - also ride bmx and cook alot. :wq
 * [Dhananjay Porwal](https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md) — Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer
 * [Manassarn "Noom" Manoonchai](https://monosor.com/uses) — Coding, Productivity, Technologies, macOS, Keyboard
+* [Henrik Nyh](https://henrik.nyh.se/uses) — Swedish web developer in Yorkshire, UK.
 * [Manoj Barman](https://manojbarman.in/uses) — Working hardly, or Hardly working..
 * [Monica Powell](https://www.aboutmonica.com/uses/) — Hi! I'm a product engineer who is passionate about making open-source more accessible and community building
 * [Mark Railton](https://markrailton.com/uses) — Software Engineer
