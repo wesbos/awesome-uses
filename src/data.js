@@ -1259,7 +1259,7 @@ module.exports = [
   },
   {
     name: 'Matt Gregg',
-    description: 'Software Engineer at Shopify',
+    description: 'Front end software engineer. Baker. Woodworker. Musician. Nerd.',
     url: 'https://codegregg.com/uses',
     twitter: '@itwasmattgregg',
     emoji: '🥑',
