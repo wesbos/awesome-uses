@@ -4844,6 +4844,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Alexis Janvier',
+    description:
+      'Web Developer, Open Source Contributor, Community Organizer, Proud Dad, Grateful Lover.',
+    url: 'https://alexisjanvier.net/uses/',
+    twitter: '@alexisjanvier',
+    emoji: '🌿',
+    country: '🇫🇷',
+    computer: 'linux',
+    phone: 'flipphone',
+    tags: [
+      'Convivialist',
+      'Developer',
+      'Devops',
+      'Elixir',
+      'Full Stack',
+      'JavaScript',
+      'Linux',
+      'Open-Source',
+      'Php',
+      'Remote',
+      'Speaker',
+      'Vim',
+    ],
+  },
+  {
     name: 'Michael Gale',
     description:
       'Web Developer with a beard and glasses from Melbourne, Australia',
