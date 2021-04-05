@@ -2,23 +2,6 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
-    name: 'Joshua Cerbito',
-    description:
-      'I write code, I train devs, and I play music.',
-    url: 'https://www.cerbito.com/uses',
-    twitter: '@joshuacerbito',
-    emoji: '🎸',
-    country: '🇵🇭',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Full Stack',
-      'Teacher',
-      'Musician',
-      'Gamer'
-    ],
-  },
-  {
     name: 'Karol Sobolewski',
     description:
       'Hello there, Iam the bald one. A junior full-stack developper.',
@@ -44,6 +27,23 @@ module.exports = [
       'Photoshop',
       'Wordpress',
       'Remote',
+    ],
+  },
+  {
+    name: 'Joshua Cerbito',
+    description:
+      'I write code, I train devs, and I play music.',
+    url: 'https://www.cerbito.com/uses',
+    twitter: '@joshuacerbito',
+    emoji: '🎸',
+    country: '🇵🇭',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Teacher',
+      'Musician',
+      'Gamer'
     ],
   },
   {
