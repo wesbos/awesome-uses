@@ -30,6 +30,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Cerbito',
+    description:
+      'I write code, I train devs, and I play music.',
+    url: 'https://www.cerbito.com/uses',
+    twitter: '@joshuacerbito',
+    emoji: '🎸',
+    country: '🇵🇭',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Teacher',
+      'Musician',
+      'Gamer'
+    ],
+  },
+  {
     name: 'Salma Alam-Naylor',
     description: 'Live coding streamer, writer and speaker',
     url: 'https://whitep4nth3r.com/uses',
