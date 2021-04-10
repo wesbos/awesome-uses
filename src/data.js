@@ -10000,6 +10000,17 @@ module.exports = [
     tags: ['Developer', 'Engineer', 'JAMstack', 'JavaScript', 'AMP', 'CSS'],
   },
   {
+    name: 'Farooq Abbas Saim',
+    description: 'Sr. Frontend Engineer',
+    url: 'https://farooqabbassaim.com',
+    twitter: '@farooqabbassaim',
+    emoji: '🧑🏻‍💻',
+    country: '🇵🇰',
+    computer: 'apple',
+    phone: 'iPhone',
+    tags: ['Frontend Engineer', 'JavaScript', 'React JS', 'Materalize', 'Bootstrap', 'jQuery'],
+  },
+  {
     name: 'Abdessalam Benharira',
     description: 'JavaScript developer, UX/UI design and tech enthusiast',
     url: 'https://abdessalam-benharira.me/uses',
