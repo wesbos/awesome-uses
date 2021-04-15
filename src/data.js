@@ -8137,6 +8137,10 @@ module.exports = [
       'Podcaster',
       'Vue.js',
       'JavaScript',
+      'Laravel',
+      'TailwindCSS',
+      'Remote',
+      'Sublime Text',
     ],
   },
   {
