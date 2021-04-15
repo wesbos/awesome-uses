@@ -3046,8 +3046,7 @@ module.exports = [
   },
   {
     name: 'David Morales',
-    description:
-      'Computer Engineer. Web Developer. Teacher at ninjadevel.com',
+    description: 'Computer Engineer. Web Developer. Teacher at ninjadevel.com',
     url: 'https://davidmles.com/uses',
     twitter: '@davidmles',
     emoji: '😃',
@@ -12664,14 +12663,15 @@ module.exports = [
   },
   {
     name: 'James Dewes',
-    description: 'Full-stack developer, software and data engineer, Yorkshire, UK.',
+    description:
+      'Full-stack developer, software and data engineer, Yorkshire, UK.',
     url: 'https://jamesdewes.com/uses/',
     twitter: '@jimdewes',
     emoji: '🛠',
     country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
-    tags:[
+    tags: [
       'Web Development',
       'Wordpress',
       'Shopify',
@@ -12693,7 +12693,7 @@ module.exports = [
       'Vue.js',
       'VS Code',
       'Bootstrap',
-      'Bulma'
+      'Bulma',
     ],
   },
   {

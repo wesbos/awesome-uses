@@ -33,11 +33,13 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
 * [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — Live coding streamer, writer and speaker
 * [Vadim Smirnov](https://fuzzyreason.io/uses) — Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.
+* [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
 * [Denys Tynok](https://famiclone.ml/uses/) — Front-end development
 * [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
 * [Tugrul Erdem Dogru](http://tugrulerdemdogru.com/uses) — Jr Front-End & Historian 
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
+* [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
 * [Matthew Graybosch](https://www.matthewgraybosch.com/uses/) — author by choice, techie by necessity
 * [Rameez Khan](https://rameezkhan.me/uses) — Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
@@ -175,6 +177,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jonesh Shrestha](https://www.joneshshrestha.com/uses) — 📱iOS and 🕸Web Developer traveling through time and doing my best to relish this remarkable life
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
 * [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
+* [David Morales](https://davidmles.com/uses) — Computer Engineer. Web Developer. Teacher at ninjadevel.com
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Sean Keever](https://skies.dev/uses) — Full stack developer.
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
@@ -600,6 +603,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Justin Michaliga](https://jmichaliga.github.io/uses) — Javascript Engineer based in Brooklyn, NYC
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
 * [Simranjit Singh](https://simranjit.dev/uses) — Javascript loving Coldfusion developer
+* [Antonio Piras](https://www.antopiras.dev/uses) — Web developer from Italy, madly in love with Javascript and everything web related.
 * [Maxwell Morrison](https://maxmorrison.me/uses) — Continuous leaner and freelance full stack developer
 * [Matt Hughes](https://matthughes.dev/uses) — Full Stack Web Developer
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
@@ -629,6 +633,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
+* [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Steve Rydz](https://steverydz.com/uses) — Developer
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
