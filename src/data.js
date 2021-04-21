@@ -12851,7 +12851,7 @@ module.exports = [
 	emoji: '🤖',
 	country: '🇩🇪',
 	computer: 'linux',
-	phone: 'apple',
+	phone: 'iphone',
 	tags: [
 		'Debian',
 		'Developer',
