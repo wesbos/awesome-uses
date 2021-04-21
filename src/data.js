@@ -12845,7 +12845,7 @@ module.exports = [
   },
   {
 	name: 'Manuel (mnlwldr)',
-	description: 'I\'m a software developer for over a decade of experience, building robust solutions and adhering to design patterns and clean code principles.',
+	description: 'Application back-end developer',
 	url: 'https://mnlwldr.com/uses/',
 	twitter: '@mnlwldr',
 	emoji: '🤖',
@@ -12857,6 +12857,7 @@ module.exports = [
 		'Developer',
 		'Java',
 		'Go',
+		'Golang',
 		'PHP',
 		'SQL',
 		'OpenBSD',
