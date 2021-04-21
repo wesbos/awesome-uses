@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'Slim Ktari',
     description: "I code so I'm.",
-    url: 'www.slimktari.com',
+    url: 'http://slimktari.com/',
     twitter: '@slimktari',
     emoji: '🌱',
     country: '🇫🇷',
