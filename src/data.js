@@ -12847,7 +12847,7 @@ module.exports = [
 	name: 'Manuel (mnlwldr)',
 	description: 'I\'m a software developer for over a decade of experience, building robust solutions and adhering to design patterns and clean code principles.',
 	url: 'https://mnlwldr.com/uses/',
-	twitter: '@mnlwldr'
+	twitter: '@mnlwldr',
 	emoji: '🤖',
 	country: '🇩🇪',
 	computer: 'linux',
