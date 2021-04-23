@@ -5888,6 +5888,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Dušan Simić',
+    description: 'Computer Science student at University of Novi Sad, Serbia and open source software enthusiast.',
+    url: 'https://dusansimic.me/uses',
+    country: '🇷🇸',
+    twitter: '@dsnsmc',
+    emoji: '👨🏻‍💻',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Student', 'Golang', 'Back End', 'React', 'Linux', 'PostgreSQL']
+  },
+  {
     name: 'Ruben Arakelyan',
     description: 'Web Developer and self builder in Cornwall, UK',
     url: 'https://ruben.arakelyan.uk/uses/',
