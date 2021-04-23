@@ -304,6 +304,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Russell McWhae](https://russellmcwhae.ca/uses) — Backcountry skier, photographer, designer, and web developer from Canada
 * [Karl Koch](https://www.kejk.tech/uses) — Product designer, frontend developer and musician. Building HomeHero and making other things.
 * [Sam Cross](https://sam-cross.github.io/#/uses) — "Developer", IT student, frequent traveller by coach, addicted to music.
+* [Dušan Simić](https://dusansimic.me/uses) — Computer Science student at University of Novi Sad, Serbia and open source software enthusiast.
 * [Ruben Arakelyan](https://ruben.arakelyan.uk/uses/) — Web Developer and self builder in Cornwall, UK
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Gaya Kessler](https://theclevernode.com/uses) — Freelance web developer specialising in JavaScript
