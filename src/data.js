@@ -5890,7 +5890,7 @@ module.exports = [
   {
     name: 'Dušan Simić',
     description: 'Computer Science student at University of Novi Sad, Serbia and open source software enthusiast.',
-    url: 'https://dusansimic.me/about/',
+    url: 'https://dusansimic.me/uses',
     country: '🇷🇸',
     twitter: '@dsnsmc',
     emoji: '👨🏻‍💻',
