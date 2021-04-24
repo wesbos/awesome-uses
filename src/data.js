@@ -7037,6 +7037,18 @@ module.exports = [
     tags: ['Developer', 'Front End', 'JavaScript'],
   },
   {
+    name: 'Thomas Jensen',
+    description:
+      'I like electronics and computers — and my wife and three kids.',
+    url: 'https://blog.cavelab.dev/uses/',
+    twitter: '@thomasjsn',
+    emoji: '☕',
+    country: '🇳🇴',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Engineer', 'Electronics', 'Linux', 'Vim', 'Arch Linux', 'Ubuntu', 'Homelab'],
+  },
+  {
     name: 'David Perkins',
     description: 'Dad, Designer, Developer, Dave, Keyboard enthusiast',
     url: 'https://prkns.me/uses',
