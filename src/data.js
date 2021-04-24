@@ -7046,7 +7046,15 @@ module.exports = [
     country: '🇳🇴',
     computer: 'linux',
     phone: 'android',
-    tags: ['Engineer', 'Electronics', 'Linux', 'Vim', 'Arch Linux', 'Ubuntu', 'Homelab'],
+    tags: [
+      'Engineer',
+      'Electronics',
+      'Linux',
+      'Vim',
+      'Arch Linux',
+      'Ubuntu',
+      'Homelab',
+    ],
   },
   {
     name: 'David Perkins',

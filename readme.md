@@ -361,6 +361,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Abdisalan Mohamud](https://abdisalan.com/uses) — Software Engineer, blogger, lifetime learner
 * [Roy Tang](https://roytang.net/about/uses/) — Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.
 * [Josh Barker](https://joshuabarker.com/uses) — Front end engineer at Red Ventures. Soccer enthusiast. Lover of stories.
+* [Thomas Jensen](https://blog.cavelab.dev/uses/) — I like electronics and computers — and my wife and three kids.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
