@@ -272,7 +272,7 @@ module.exports = [
     description: 'Web Developer, Product Manager, Digital Marketer',
     url: 'https://yourdigitalaid.com/uses/',
     twitter: '@William65692091',
-    country: 'CAD',
+    country: 'ca',
     computer: 'windows',
     phone: 'iOS',
     tags: [
