@@ -9166,7 +9166,7 @@ module.exports = [
   },
   {
 	name: 'Reynaldi Rahmat',
-	description: 'Software Developer',
+	description: 'Problem Hunter',
 	url: 'https://imtoor.com/uses',
 	twitter: '@reynaldyrahmat',
 	emoji: '🚀',
