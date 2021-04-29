@@ -12357,6 +12357,17 @@ module.exports = [
     tags: ['AWS', 'Cloud', 'Infrastructure', 'Engineer', 'Developer', 'DevOps'],
   },
   {
+    name: 'Niels Gouman',
+    description: 'Tech. Start-ups. SaaS.',
+    url: 'https://nielsgouman.nl/uses/',
+    twitter: '@NielsGouman',
+    emoji: '🧐',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Blogger', 'Entrepreneur', 'Web', 'VS Code', 'Rust', 'Problem Solver', 'Lifehacker', 'Product Manager'],
+  },
+  {
     name: 'Juan Fernandes',
     description: 'Freelance Front-end Developer',
     url: 'https://www.juanfernandes.uk/uses/',
