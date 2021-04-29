@@ -269,12 +269,13 @@ module.exports = [
   }, 
   {
     name: 'William Chin',
-    description: 'Web Developer, Product Manager, Digital Marketer',
+    description: 'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
     url: 'https://yourdigitalaid.com/uses/',
+    emoji: '☕☕☕☕',
     twitter: '@William65692091',
     country: '🇨🇦',
     computer: 'windows',
-    phone: 'iOS',
+    phone: 'iphone',
     tags: [
       'Front End',
       'Developer',
