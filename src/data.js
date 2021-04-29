@@ -266,10 +266,11 @@ module.exports = [
       'Wordpress',
       'Remote',
     ],
-  }, 
+  },
   {
     name: 'William Chin',
-    description: 'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
+    description:
+      'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
     url: 'https://yourdigitalaid.com/uses/',
     emoji: '☕☕☕☕',
     twitter: '@William65692091',
