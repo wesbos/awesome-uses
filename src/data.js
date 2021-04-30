@@ -12782,6 +12782,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Luigi Cruz',
+    description:
+      'Software developer with a focus on the Web.',
+    url: 'https://luigicruz.dev/uses',
+    twitter: '@luigircruz',
+    emoji: '🍻',
+    country: '🇵🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Development',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Laravel',
+      'InertiaJS',
+      'TailwindCSS',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
