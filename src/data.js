@@ -12365,7 +12365,16 @@ module.exports = [
     country: '🇳🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Blogger', 'Entrepreneur', 'Web', 'VS Code', 'Rust', 'Problem Solver', 'Lifehacker', 'Product Manager'],
+    tags: [
+      'Blogger',
+      'Entrepreneur',
+      'Web',
+      'VS Code',
+      'Rust',
+      'Problem Solver',
+      'Lifehacker',
+      'Product Manager',
+    ],
   },
   {
     name: 'Juan Fernandes',

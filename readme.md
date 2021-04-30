@@ -618,6 +618,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Piyush Mehta](http://www.piyushmehta.com/uses/) — Full Stack Developer Based in INDIA
 * [Duncan McDougall](https://www.belter.io/uses/) — Web developer, contractor, remotely working from the South of Scotland
 * [Mijndert Stuij](https://mijndertstuij.nl/uses/) — Engineer. Hacker. Minimalist.
+* [Niels Gouman](https://nielsgouman.nl/uses/) — Tech. Start-ups. SaaS.
 * [Juan Fernandes](https://www.juanfernandes.uk/uses/) — Freelance Front-end Developer
 * [Kevin Simkanič](https://github.com/kevinko12323/uses) — Wordpress ninja 😎 React lover ❤️ CSS master 🧐
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
