@@ -12783,8 +12783,7 @@ module.exports = [
   },
   {
     name: 'Luigi Cruz',
-    description:
-      'Software developer with a focus on the Web.',
+    description: 'Software developer with a focus on the Web.',
     url: 'https://luigicruz.dev/uses',
     twitter: '@luigircruz',
     emoji: '🍻',
