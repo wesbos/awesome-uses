@@ -41,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tugrul Erdem Dogru](http://tugrulerdemdogru.com/uses) — Jr Front-End & Historian 
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
+* [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
 * [Matthew Graybosch](https://www.matthewgraybosch.com/uses/) — author by choice, techie by necessity
 * [Rameez Khan](https://rameezkhan.me/uses) — Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.
@@ -56,6 +57,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Taisuke Mino](https://taisukemino.com/uses/) — Crypto Entrepreneur
 * [Shawn D'silva](https://www.shawndsilva.com/uses) — Full Stack Web Developer, Designer and Embedded Systems enthusiast
 * [Sam Hamburger](https://samburger.dev/uses) — Frontend Engineer
+* [Sreetam Das](https://sreetamdas.com/uses) — Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!
 * [Anand Biswas](https://aanu.me/uses/) — Django Developer
 * [Maxim Villivald](https://proj.ninja/uses) — Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.
 * [Sven Luijten](https://svenluijten.com/uses) — Full stack developer for the web.

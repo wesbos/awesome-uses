@@ -269,8 +269,7 @@ module.exports = [
   },
   {
     name: 'Samuel Wong',
-    description:
-      'Product Designer. Photographer. Traveler.',
+    description: 'Product Designer. Photographer. Traveler.',
     url: 'https://desktopofsamuel.com/uses',
     twitter: '@desktopofsamuel',
     emoji: '🚀💻',
@@ -583,26 +582,27 @@ module.exports = [
     ],
   },
   {
-    "name": "Sreetam Das",
-    "description": "Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!",
-    "url": "https://sreetamdas.com/uses",
-    "twitter": "@_SreetamDas",
-    "emoji": "⌨️",
-    "country": "🇮🇳",
-    "computer": "apple",
-    "phone": "android",
-    "tags": [
-      "Developer",
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "CSS",
-      "Mentor",
-      "Next",
-      "Python",
-      "Remote",
-      "Netlify"
-    ]
+    name: 'Sreetam Das',
+    description:
+      'Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!',
+    url: 'https://sreetamdas.com/uses',
+    twitter: '@_SreetamDas',
+    emoji: '⌨️',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'React',
+      'TypeScript',
+      'JavaScript',
+      'CSS',
+      'Mentor',
+      'Next',
+      'Python',
+      'Remote',
+      'Netlify',
+    ],
   },
   {
     name: 'Anand Biswas',
