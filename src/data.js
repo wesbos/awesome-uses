@@ -268,6 +268,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Samuel Wong',
+    description:
+      'Product Designer. Photographer. Traveler.',
+    url: 'https://desktopofsamuel.com/uses',
+    twitter: '@desktopofsamuel',
+    emoji: '🚀💻',
+    country: '🇭🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Design',
+      'UX',
+      'UI',
+      'CSS',
+      'React',
+      'Open-Source',
+      'Design Systems',
+      'Traveler',
+      'Illustrator',
+      'Photoshop',
+      'Wordpress',
+      'Remote',
+    ],
+  },
+  {
     name: 'William Chin',
     description:
       'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
