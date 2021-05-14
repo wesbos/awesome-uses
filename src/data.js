@@ -8842,8 +8842,8 @@ module.exports = [
     twitter: '@damcclean',
     emoji: '🎉',
     country: '🇬🇧',
-    computer: 'iphone',
-    phone: 'apple',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Backend',
       'Front End',
