@@ -569,7 +569,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    twitter: '@burgerrrs',
+    twitter: '@samburgercodes',
     tags: [
       'Developer',
       'Engineer',
