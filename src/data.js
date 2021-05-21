@@ -8238,8 +8238,8 @@ module.exports = [
   {
     name: 'Mohammad Dohadwala',
     description:
-      'Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.',
-    url: 'https://dohad.dev/uses',
+      'Hi, I am a Full Stack Javascript Web Developer from Dubai.',
+    url: 'https://dohad.dev/blog/uses',
     twitter: '@mohammaddohad',
     emoji: '🙃',
     country: '🇦🇪',
@@ -8247,6 +8247,9 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'JavaScript',
+      'Developer',
+      'Blogger',
+      'Next',
       'React',
       'React Native',
       'Full Stack',
