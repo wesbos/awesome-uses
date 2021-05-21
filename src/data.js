@@ -315,8 +315,7 @@ module.exports = [
   },
   {
     name: 'Angélique Weger',
-    description:
-      'front-end team lead :: adjunct prof :: always learning',
+    description: 'front-end team lead :: adjunct prof :: always learning',
     url: 'https://angeliqueweger.com/uses',
     twitter: '@messypixels',
     emoji: '✨',
@@ -3742,7 +3741,8 @@ module.exports = [
   },
   {
     name: 'Ryan Filler',
-    description: 'Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.',
+    description:
+      'Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.',
     url: 'https://ryanfiller.com/uses',
     twitter: '@ryanfiller_',
     emoji: '🐕',
@@ -5585,8 +5585,7 @@ module.exports = [
   },
   {
     name: 'Shreyas Minocha',
-    description:
-      'web. foss. privacy. archival. accessibility.',
+    description: 'web. foss. privacy. archival. accessibility.',
     url: 'https://shreyasminocha.me/uses',
     emoji: '📈',
     country: '🇮🇳',
@@ -8297,8 +8296,7 @@ module.exports = [
   },
   {
     name: 'Mohammad Dohadwala',
-    description:
-      'Hi, I am a Full Stack Javascript Web Developer from Dubai.',
+    description: 'Hi, I am a Full Stack Javascript Web Developer from Dubai.',
     url: 'https://dohad.dev/blog/uses',
     twitter: '@mohammaddohad',
     emoji: '🙃',

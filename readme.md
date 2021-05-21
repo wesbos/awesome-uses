@@ -43,6 +43,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
 * [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
+* [Angélique Weger](https://angeliqueweger.com/uses) — front-end team lead :: adjunct prof :: always learning
 * [Matthew Graybosch](https://www.matthewgraybosch.com/uses/) — author by choice, techie by necessity
 * [Rameez Khan](https://rameezkhan.me/uses) — Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
@@ -84,6 +85,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erick Mwamodo](https://mwamodo.com/uses) — Web Engineer, Designer, All-Round Entrepreneur
 * [Hamish Williams](https://hamishw.com/uses) — Multidisciplinary designer + developer.
 * [Dennis Mathenge](https://creativehubspace.com/uses) — Web Developer
+* [Antonio Della-Rocca](https://adr-enaline.com/uses) — Fullstack Web Developer
 * [Ali Alaa](https://www.alialaa.dev/uses) — Front-end web developer & online learning content creator.
 * [Devansh Bajaj](https://devanshbajaj.me/uses) — 20 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Ivan Muratov](https://binakot.github.io/resume/uses) — SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.
@@ -205,7 +207,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Siim Männart](https://siim.me/uses) — Cloud Engineer and Developer. Learner of things, recreational pilot and lover of cats. From Tallinn, Estonia. Based in Sydney, Australia.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
-* [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer
+* [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Colin Principe](https://principe.io/uses/) — Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
@@ -287,6 +289,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daryn St. Pierre](https://daryn.codes/uses) — Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).
 * [Chris Lagasse](https://chrislagasse.com/uses) — Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.
 * [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
+* [Shreyas Minocha](https://shreyasminocha.me/uses) — web. foss. privacy. archival. accessibility.
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Habbat Adnan](https://adncodez.com/uses) — Self Taught Web Developer, Full Time Freelancer, Open Source Enthusiast
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
@@ -422,7 +425,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Moore](https://jmoore.dev/uses/) — Self-taught full-stack web dev with a passion for open-source, privacy, & security.
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
-* [Mohammad Dohadwala](https://dohad.dev/uses) — Hi, I am a Javascript Full Stack Web Developer from Dubai, currently studying Computer Science.
+* [Mohammad Dohadwala](https://dohad.dev/blog/uses) — Hi, I am a Full Stack Javascript Web Developer from Dubai.
 * [Manuel Savino](https://manuels.dev/uses) — Frontend Web Developer 
 * [Opa Kholis Majid](https://opakholis.me/uses/) — Self-taught front-end developer · Open Source enthusiast.
 * [Jeffrey Way](https://laracasts.com/blog/laracasts-uses) — Laracasts Author
@@ -466,7 +469,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
-* [Duncan McClean](https://duncanm.dev/uses) — Web Developer working with Laravel & Statamic
+* [Duncan McClean](https://duncanmcclean.com/uses) — Web Developer, working with Laravel, Vue and Statamic.
 * [Bruno Paz](https://brunopaz.dev/uses) — Web Engineer, working mostly with Go and PHP/Symfony. Looking to catch-up on Frontend Tech with Nuxt and Vue.
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
 * [Gus Fune](https://gusfune.com/uses/) — CTO at Off Script. Full-stack developer from Brazil, based in Sweden.
