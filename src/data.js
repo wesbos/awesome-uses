@@ -5542,6 +5542,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Shreyas Minocha',
+    description:
+      'web. foss. privacy. archival. accessibility.',
+    url: 'https://shreyasminocha.me/uses',
+    emoji: '📈',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web',
+      'Full Stack',
+      'TypeScript',
+      'JavaScript',
+      'Python',
+    ],
+  },
+  {
     name: 'Shajan Jacob',
     description:
       'Software Engineer, extroverted introvert, storyteller and a maker.',
