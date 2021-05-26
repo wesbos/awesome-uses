@@ -6482,6 +6482,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Jonathan Watson',
+    description: 'Engineer, Educator, Entrepreneur',
+    url: 'https://jonathanjwatson.com/uses',
+    emoji: '🏖️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@watsonjonathanj',
+    tags: [
+      'React',
+      'JavaScript',
+      'Developer',
+      'Full Stack',
+      'Entrepreneur',
+      'Teacher',
+      'Instructor',
+      'Youtuber',
+      'Front End'
+    ],
+  },
+  {
     name: 'Sascha Monteiro',
     description: 'Full Stack Web Developer, JavaScript, Java',
     url: 'https://www.purejs.com/uses/',
