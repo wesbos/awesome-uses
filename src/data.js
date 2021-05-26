@@ -12163,6 +12163,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Zacchary Puckeridge',
+    description: 'Self-taught Web Developer based out of Brisbane, Australia.',
+    url: 'https://zacchary.me/uses',
+    emoji: '🛠',
+    country: '🇦🇺',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Web Developer', 'Kubernetes', 'Gatsby', 'React', 'Python',],
+  },
+  {
     name: 'Haseeb Majid',
     description:
       'Software Engineer, who mostly develops in JavaScript and Python.',
