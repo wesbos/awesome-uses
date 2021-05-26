@@ -608,6 +608,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Karol Toruń](https://ktorun.pl/uses) — Fullstack developer, VIM, JS, OSX <3, PL
 * [Gleb Skibitsky](https://skibitsky.com/uses/) — Maker, mostly Unity stuff. Blockchain, VR, and Automation lover.
 * [Derek Mohr](https://onemohrti.me/uses/) — Front-end development by interest, full stack development by trade
+* [Zacchary Puckeridge](https://zacchary.me/uses) — Self-taught Web Developer based out of Brisbane, Australia.
 * [Haseeb Majid](https://haseebmajid.dev/uses/) — Software Engineer, who mostly develops in JavaScript and Python.
 * [Narendra Mandadapu](https://5pagesaday.com/uses) — Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom
 * [Justin Michaliga](https://jmichaliga.github.io/uses) — Javascript Engineer based in Brooklyn, NYC

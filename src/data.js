@@ -12170,7 +12170,7 @@ module.exports = [
     country: '🇦🇺',
     computer: 'linux',
     phone: 'android',
-    tags: ['Web Developer', 'Kubernetes', 'Gatsby', 'React', 'Python',],
+    tags: ['Web Developer', 'Kubernetes', 'Gatsby', 'React', 'Python'],
   },
   {
     name: 'Haseeb Majid',
