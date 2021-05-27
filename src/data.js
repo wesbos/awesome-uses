@@ -651,7 +651,7 @@ module.exports = [
     name: 'Maxim Villivald',
     description:
       'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
-    url: 'https://villivald/uses',
+    url: 'https://villivald.com/uses',
     twitter: '@crapp_blog',
     emoji: '⚡️',
     country: '🇫🇮',
