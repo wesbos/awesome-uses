@@ -1,7 +1,7 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
-   {
+  {
     name: 'Nick East',
     description: 'Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ ',
     url: 'https://www.nick-east.com/uses',
@@ -10,7 +10,14 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Front End', 'JavaScript', 'Designer', 'JAMstack', 'React', 'Gatsby'],
+    tags: [
+      'Front End',
+      'JavaScript',
+      'Designer',
+      'JAMstack',
+      'React',
+      'Gatsby',
+    ],
   },
   {
     name: 'Karol Sobolewski',
@@ -74,7 +81,8 @@ module.exports = [
   },
   {
     name: 'Amit Dhamu',
-    description: 'Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head',
+    description:
+      'Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head',
     url: 'https://amitd.co/uses',
     twitter: '@amitdhamu',
     emoji: '🏎',
@@ -6534,7 +6542,7 @@ module.exports = [
       'Teacher',
       'Instructor',
       'Youtuber',
-      'Front End'
+      'Front End',
     ],
   },
   {
