@@ -617,6 +617,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Antonio Piras](https://www.antopiras.dev/uses) — Web developer from Italy, madly in love with Javascript and everything web related.
 * [Maxwell Morrison](https://maxmorrison.me/uses) — Continuous leaner and freelance full stack developer
 * [Matt Hughes](https://matthughes.dev/uses) — Full Stack Web Developer
+* [Daniel Esteves](https://danestves.com/uses) — Full Stack Web Developer
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
 * [Eric Eggert](https://yatil.net/uses) — HTML, CSS, JS & Accessibility.
 * [Armno Prommarak](https://armno.in.th/uses) — Frontend developer, blogger, cyclist.

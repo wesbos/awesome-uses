@@ -12387,7 +12387,7 @@ module.exports = [
       'Prisma',
       'React',
       'TailwindCSS',
-      'TypeScript'
+      'TypeScript',
     ],
   },
   {
