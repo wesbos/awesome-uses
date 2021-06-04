@@ -2007,6 +2007,7 @@ module.exports = [
     url: 'https://michaelbonner/uses',
     country: '🇺🇸',
     twitter: 'bootpackdigital',
+    emoji: '⛷',
     computer: 'apple',
     phone: 'iphone',
     tags: [
