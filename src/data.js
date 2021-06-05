@@ -3,7 +3,8 @@
 module.exports = [
   {
     name: 'Tom Gooden',
-    description: 'Born at a very young age. Front-end developer - UX/UI designer. 🐙',
+    description:
+      'Born at a very young age. Front-end developer - UX/UI designer. 🐙',
     url: 'https://tomgooden.net/uses',
     twitter: '@good3n',
     emoji: '🐙',
