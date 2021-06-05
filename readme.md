@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
 * [Karol Sobolewski](http://www.sobolewski.tk/#uses) — Hello there, Iam the bald one. A junior full-stack developper.
