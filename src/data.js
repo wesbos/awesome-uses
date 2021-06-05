@@ -2004,7 +2004,7 @@ module.exports = [
     name: 'Michael Bonner',
     description:
       'Full stack JavaScript and PHP developer in Salt Lake City, USA',
-    url: 'https://michaelbonner/uses',
+    url: 'https://michaelbonner.dev/uses',
     country: '🇺🇸',
     twitter: 'bootpackdigital',
     emoji: '⛷',
