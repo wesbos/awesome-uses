@@ -72,7 +72,7 @@ module.exports = [
   },
     {
     name: 'Tim Leland',
-    description: 'Full-Stack developer and Blogger ',
+    description: 'Full-Stack developer and Blogger.',
     url: 'https://timleland.com/uses',
     twitter: '@tim_leland',
     emoji: '⛈️',
