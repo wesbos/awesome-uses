@@ -12051,7 +12051,7 @@ module.exports = [
   {
     name: 'Ben Newton',
     description: 'Front End Architecht with over 25 years of experience.',
-    url: 'https://BenENewton.com',
+    url: 'https://BenENewton.com/uses',
     twitter: '@BenENewton',
     emoji: '⚡️',
     country: '🇺🇸',
