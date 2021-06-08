@@ -46,6 +46,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
 * [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
+* [Dean Lofts](https://loftwah.github.io/uses) — Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
 * [Angélique Weger](https://angeliqueweger.com/uses) — front-end team lead :: adjunct prof :: always learning
 * [Matthew Graybosch](https://www.matthewgraybosch.com/uses/) — author by choice, techie by necessity
@@ -198,6 +199,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Yogi](https://github.com/yg/uses) — iOS and Web Developer
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
 * [Gift Egwuenu](https://giftegwuenu.com/uses) — 💻Frontend Engineer and Technical Writer.

@@ -387,7 +387,8 @@ module.exports = [
   },
   {
     name: 'Dean Lofts',
-    description: 'Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web',
+    description:
+      'Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web',
     url: 'https://loftwah.github.io/uses',
     twitter: '@loftwah',
     emoji: '🚀',
