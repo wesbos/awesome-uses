@@ -2114,6 +2114,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Bonner',
+    description:
+      'Full stack JavaScript and PHP developer in Salt Lake City, USA',
+    url: 'https://michaelbonner.dev/uses',
+    country: '🇺🇸',
+    twitter: 'bootpackdigital',
+    emoji: '⛷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'React',
+      'Next',
+      'Node.js',
+      'Serverless',
+      'TypeScript',
+      'Gatsby',
+      'Back End',
+      'PHP',
+      'Laravel',
+      'Docker',
+      'Tailwind CSS',
+      'AWS',
+      'Ionic',
+    ],
+  },
+  {
     name: 'Agu Valeriani',
     description:
       'Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.',
