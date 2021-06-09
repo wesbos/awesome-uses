@@ -70,7 +70,7 @@ module.exports = [
       'Gatsby',
     ],
   },
-    {
+  {
     name: 'Tim Leland',
     description: 'Full-Stack developer and Blogger.',
     url: 'https://timleland.com/uses',
