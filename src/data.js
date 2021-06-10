@@ -232,8 +232,8 @@ module.exports = [
   },
   {
     name: 'Denys Tynok',
-    description: 'Front-end development',
-    url: 'https://famiclone.ml/uses/',
+    description: 'Front-end developer',
+    url: 'https://famiclone.dev/uses/',
     twitter: '@justddden',
     emoji: '🖼',
     country: '🇺🇦',
@@ -244,7 +244,6 @@ module.exports = [
       'Styled components',
       'Typescript',
       'Figma',
-      'Developer',
       'UI',
       'Docker',
       'REST',
