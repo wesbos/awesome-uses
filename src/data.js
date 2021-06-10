@@ -2,6 +2,30 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Bineet Naidu',
+    description: 'A FullStack JS developer and GraphQL enthusiast!',
+    url: 'https://bineetnaidu.github.io/uses',
+    twitter: '@BineetN',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Back End',
+      'Full Stack',
+      'Freelancer',
+      'MongoDB',
+      'PostgresSQL',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Graphql',
+      'Svelte',
+      'Freelancer',
+    ],
+  },
+  {
     name: 'Yassine Bridi',
     description: 'Developer, Designer, Creator',
     url: 'https://yasbr.com/uses',
