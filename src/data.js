@@ -5864,6 +5864,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Nodirbek Sharipov',
+    description: 'Software engineer, specialized in scalability, security and full-stack development',
+    url: 'https://nodir.dev/',
+    twitter: '@nodir_dev',
+    emoji: '👽',
+    country: '🇺🇿',
+    computer: 'apple',
+    phone: 'phone',
+    tags: [
+      'Front End',
+      'Software Engineer',
+      'React',
+      'React Native',
+      'JavaScript',
+      'Serverless',
+      'Problem Solver',
+      'Node.js',
+      'REST',
+    ],
+  },
+  {
     name: 'Patrick Tumbucon',
     description:
       'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
