@@ -2,7 +2,7 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
-    name: 'tockhart',
+    name: 'Tony Lockhart',
     description: 'Full Stack Developer, Designer, and Instructor',
     url: 'https://tlockhart.github.io/portfolio/#uses',
     twitter: '@fernandlockhart',
