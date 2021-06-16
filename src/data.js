@@ -6710,11 +6710,11 @@ module.exports = [
     name: 'Tony Lockhart',
     description: 'Full Stack Developer, Designer, and Instructor',
     url: 'https://tlockhart.github.io/portfolio/#uses',
-    twitter: '@tflock41',
     emoji: '👽',
     country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
+    twitter: '@tflock41',
     tags: [
       'CSS',
       'Developer',
