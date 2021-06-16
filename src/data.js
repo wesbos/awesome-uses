@@ -6731,6 +6731,34 @@ module.exports = [
     ],
   },
   {
+    name: 'Tony Lockhart',
+    description: 'Full Stack Developer, Designer, and Instructor',
+    url: 'https://tlockhart.github.io/portfolio/#uses',
+    emoji: '👽',
+    country: 'us',
+    computer: 'windows',
+    phone: 'android',
+    twitter: '@tflock41',
+    tags: [
+      'CSS',
+      'Developer',
+      'Designer',
+      'Ember',
+      'Express',
+      'Full Stack',
+      'HTML',
+      'Illustrator',
+      'Instructor',
+      'Java',
+      'JavaScript',
+      'MongoDB',
+      'Node.js',
+      'React',
+      'TypeScript',
+      'Web Developer'
+    ]
+  },
+  {
     name: 'Leonardo Melo',
     description:
       'Full stack web developer. Typescript lover, always learning new stuff.',
