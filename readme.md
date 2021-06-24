@@ -670,5 +670,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vinesh Raju](https://blog.thevinesh.com/uses/) — Mobile Application developer from India with a deep focus on UX/UI.
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
+* [Aniket Kudale](https://aniket.co/uses/) — Full Stack Engineer
+                                                                                
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
