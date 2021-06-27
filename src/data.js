@@ -7790,6 +7790,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Nihar Samantaray',
+    description:
+      'Systems administrator by day, open-source developer by night.',
+    url: 'https://nihar.page/uses',
+    twitter: '@niharokz',
+    emoji: '🎛⚡️',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Software Engineer',
+      'Back End',
+      'Linux',
+      'Web Development',
+      'Vim',
+      'Open Source Software',
+      'GCP',
+      'AWS',
+      'Oracle PL/SQL',
+    ],
+  },
+  {
     name: 'Chuck Munson',
     description:
       'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
