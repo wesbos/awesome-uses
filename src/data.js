@@ -763,6 +763,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Thien Nguyen',
+    description: 'Software Developer',
+    url: 'https://thien.dev/uses',
+    emoji: '🦄',
+    country: '🇻🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@thisisthien',
+    tags: [
+      'Developer',
+      'Engineer',
+      'JavaScript',
+      'Vue.js',
+      'Nuxt.js',
+      'PHP',
+      'WordPress',
+    ],
+  },
+  {
     name: 'Sreetam Das',
     description:
       'Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!',
