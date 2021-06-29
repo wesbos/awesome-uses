@@ -6098,6 +6098,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Bram De Backer',
+    description:
+      'Founder of Experience Lab Belgium. Has too much ideas and too little time.',
+    url: 'https://www.xlab.be/uses',
+    twitter: '@XLab_BE',
+    emoji: '🚀',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack Developer',
+      'Entrepreneur',
+      'JavaScript',
+      'Typescript',
+      'Node.js',
+      'Gatsby',
+      'React',
+      'Angular',
+      'Node',
+      'MongoDB',
+      'PHP',
+      'SQL',
+      'Wordpress',
+      'Shopify',
+    ],
+  },
+  {
     name: 'Samir Mammadhasanov',
     description:
       'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
