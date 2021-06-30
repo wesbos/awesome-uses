@@ -2,6 +2,30 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Lazar Miseljic',
+    description: 'Freelance web designer and developer',
+    url: 'https://fuzzylogic.ltd/uses',
+    emoji: '🌵',
+    country: '🇷🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Designer',
+      'Photographer',
+      'Full Stack',
+      'Freelancer',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Wordpress',
+      'SQL',
+      'Firebase',
+      'Netlify'
+    ],
+  },
+  {
     name: 'Yassine Bridi',
     description: 'Developer, Designer, Creator',
     url: 'https://yasbr.com/uses',
