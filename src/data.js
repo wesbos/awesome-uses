@@ -1,6 +1,28 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
+    {
+    name: 'Tobias Kokesch',
+    description: 'Developer by day, bugfinder by night',
+    url: 'https://binary-hype.com/uses',
+    twitter: '@tobiasbinaryhype',
+    emoji: '🏍',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'HTML',
+      'CSS/SCSS',
+      'Vue.js',
+      'MySQL',
+      'PHP',
+      'WordPress',
+      'JavaScript',
+      'Node.js',
+    ],
+  },
   {
     name: 'Yassine Bridi',
     description: 'Developer, Designer, Creator',
