@@ -2963,6 +2963,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Luiz de Prá',
+    description: 'Software and game developer, nerd, gamer and future hobbist woodworker.',
+    url: 'https://luizdepra.dev/en/uses/',
+    twitter: '@luizdepra',
+    emoji: '🤡',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Back End',
+      'Python',
+      'Rust',
+      'Go',
+      'Linux',
+      'Game Developer'
+    ],
+  },
+  {
     name: 'Ryan Harris',
     description:
       'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
