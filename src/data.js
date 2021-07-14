@@ -9690,7 +9690,29 @@ module.exports = [
       'CSS',
     ],
   },
-
+  {
+    name: 'Thomas Tuvignon',
+    description: 'Front-end developer and occasional designer.',
+    url: 'https://thomastuvignon.com/en/uses',
+    twitter: '@tomtuv',
+    emoji: '💄',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'JAMstack',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'JavaScript',
+      'React',
+      'Gatsby',
+      'Next',
+      'Eleventy',
+      'Shopify'
+    ],
+  },
   {
     name: 'MG Santos',
     description:
