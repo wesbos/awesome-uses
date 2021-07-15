@@ -6307,6 +6307,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Praveen Puglia',
+    description:
+      'Web Developer. Love Vue & CSS. Building life one component at a time!',
+    url: 'https://praveenpuglia.com/uses/',
+    twitter: '@praveenpuglia',
+    emoji: '🚀',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Blogger',
+      'JavaScript',
+      'Node.js',
+      'CSS',
+      'Vue',
+      'GraphQL',
+      'MongoDB',
+      'ElasticSearch'
+    ],
+  },
+  {
     name: 'Gaya Kessler',
     description: 'Freelance web developer specialising in JavaScript',
     url: 'https://theclevernode.com/uses',
