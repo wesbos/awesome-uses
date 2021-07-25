@@ -624,6 +624,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Faisal Alghurayri',
+    description:
+      'Developer with interests in fitness, cars, and motorcycles.',
+    url: 'https://faisal.sh/uses/',
+    twitter: 'fghurayri',
+    emoji: '👋',
+    country: '🇸🇦',
+    computer: 'mac',
+    phone: 'iphone',
+    tags: [
+      'Svelte',
+      'React',
+      'React Native',
+      'Phoenix',
+      'Tailwind CSS',
+      'TypeScript',
+      'Node.js',
+      'Elixir',
+      'Docker',
+      'Vim',
+    ],
+  },
+  {
     name: 'Ayush Gupta',
     description:
       'React & React Native developer, passionate photographer, technical writer and occasionaly designer.',
