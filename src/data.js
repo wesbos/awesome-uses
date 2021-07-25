@@ -628,7 +628,7 @@ module.exports = [
     description:
       'Developer with interests in fitness, cars, and motorcycles.',
     url: 'https://faisal.sh/uses/',
-    twitter: 'fghurayri',
+    twitter: '@fghurayri',
     emoji: '👋',
     country: '🇸🇦',
     computer: 'mac',
