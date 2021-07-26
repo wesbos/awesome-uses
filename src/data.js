@@ -13314,6 +13314,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Tom',
+    description: 'Nerd & "webminster" (sometimes). Not really sure what I\'m doing.',
+    url: 'https://tomr.me/uses',
+    twitter: '@itsmeimtom',
+    emoji: '✨',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'apple',
+    tags: [
+      'Windows',
+      'Linux',
+      'Student'
+    ],
+  },
+  {
     name: 'Raúl Piracés',
     description: 'Full Stack and passionate Software Engineer.',
     url: 'https://piraces.dev/uses',
