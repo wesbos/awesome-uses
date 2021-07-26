@@ -13316,12 +13316,12 @@ module.exports = [
   {
     name: 'Tom',
     description: 'Nerd & "webminster" (sometimes). Not really sure what I\'m doing.',
-    url: 'https://tomr.me/uses',
+    url: 'https://trobinson.me/uses',
     twitter: '@itsmeimtom',
     emoji: '✨',
     country: '🇬🇧',
     computer: 'windows',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Windows',
       'Linux',
