@@ -1097,7 +1097,7 @@ module.exports = [
     description: 'Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video',
     url: 'https://www.andrewgilliland.dev/uses/',
     twitter: '@droidgilliland',
-    emoji: '🔥',
+    emoji: '📼',
     country: '🇺🇸',
     computer: 'windows',
     phone: 'iphone',
