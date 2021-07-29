@@ -3138,6 +3138,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Jorge Baumann',
+    description: 'Full Stack JavaScript Developer',
+    url: 'https://www.baumannzone.dev/uses',
+    twitter: '@baumannzone',
+    emoji: '💃',
+    country: '🇪🇸',
+    computer: 'android',
+    phone: '',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Node.js',
+      'Vue.js',
+      'JavaScript',
+      'HTML',
+      'CSS'
+    ],
+  },
+  {
     name: 'Jitendra Nirnejak',
     description: 'Developer, Designer and Blogger',
     url: 'https://nirnejak.com/uses',
