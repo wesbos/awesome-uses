@@ -7,7 +7,7 @@ module.exports = [
     url: 'https://torbet.co/uses',
     twitter: '@guytorbet',
     emoji: '🎈',
-    country: ':scotland:',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
     computer: 'MacOS',
     phone: 'iPhone',
     tags: [
