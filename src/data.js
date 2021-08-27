@@ -71,6 +71,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Arisa Fukuzaki',
+    description: 'DevRel Engineer, Front-end developer',
+    url: 'https://github.com/schabibi1/uses',
+    twitter: '@arisa_dev',
+    emoji: '🥑',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'JavaScript',
+      'DevRel',
+      'JAMstack',
+      'React',
+      'Gatsby',
+      'Next.js',
+      'Storyblok',
+      'CMS'
+    ],
+  },
+  {
     name: 'Tim Leland',
     description: 'Full-Stack developer and Blogger.',
     url: 'https://timleland.com/uses',
