@@ -12498,7 +12498,7 @@ module.exports = [
     name: 'Alfyn',
     description: 'Engineering student, finding my place in the tech world',
     url: 'https://adogintech.com/uses/',
-    twitter: 'Alfynodon',
+    twitter: '@Alfynodon',
     emoji: '🐕',
     country: '🇹🇭',
     computer: 'apple',
