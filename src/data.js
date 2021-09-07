@@ -2,6 +2,33 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Eduar Bastidas',
+    description: 'Full Stack Web Developer',
+    url: 'https://mreduar.dev/uses/',
+    twitter: '@mreduar',
+    emoji: '✅',
+    country: '🇻🇪',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'PHP',
+      'Laravel',
+      'Inertia',
+      'Livewire',
+      'JavaScript',
+      'Windows',
+      'Tailwind CSS',
+      'REST',
+      'MySQL',
+      'Full Stack',
+      'Back End',
+      'Front End',
+      'Developer',
+      'Prestashop',
+      'Remote',
+    ],
+  },
+  {
     name: 'Bumhan "B" Yu',
     description:
       '"B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics',
