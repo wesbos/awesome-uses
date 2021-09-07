@@ -2,6 +2,37 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Bumhan "B" Yu',
+    description:
+      '"B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics',
+    url: 'https://bald.design/uses',
+    twitter: '@baadaa',
+    emoji: '🦲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Bald',
+      'Web Developer',
+      'Front End',
+      'JavaScript',
+      'TypeScript',
+      'Designer',
+      'Design Systems',
+      'UI/UX',
+      'JAMstack',
+      'Netlify',
+      'React',
+      'Gatsby',
+      'Next',
+      'Figma',
+      'SCSS',
+      'CSS',
+      'HTML',
+      'Styled-Components',
+    ],
+  },
+  {
     name: 'Yassine Bridi',
     description: 'Developer, Designer, Creator',
     url: 'https://yasbr.com/uses',
