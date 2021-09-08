@@ -3139,21 +3139,22 @@ module.exports = [
   },
   {
     name: 'Jorge Baumann',
-    description: 'Full Stack JavaScript Developer',
-    url: 'https://www.baumannzone.dev/uses',
+    description:
+      'JavaScript FullStack Developer & Instructor',
+    url: 'https://baumannzone.dev/uses',
     twitter: '@baumannzone',
-    emoji: '💃',
+    emoji: '🔥',
     country: '🇪🇸',
-    computer: 'android',
-    phone: '',
+    computer: 'apple',
+    phone: 'android',
     tags: [
       'Developer',
-      'Blogger',
-      'Node.js',
-      'Vue.js',
+      'Full Stack',
+      'Streamer',
       'JavaScript',
-      'HTML',
-      'CSS'
+      'Vue',
+      'Node.js',
+      'CSS',
     ],
   },
   {
