@@ -7187,6 +7187,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Jorge Baumann',
+    description:
+      'JavaScript FullStack Developer - Content Creator',
+    url: 'https://baumannzone.dev/uses',
+    twitter: '@baumannzone',
+    emoji: '🔥',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Streamer',
+      'JavaScript',
+      'Vue',
+      'Node.js',
+      'CSS',
+    ],
+  },
+  {
     name: 'Adrian Marin',
     description:
       'Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.',
