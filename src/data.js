@@ -7188,8 +7188,7 @@ module.exports = [
   },
   {
     name: 'Jorge Baumann',
-    description:
-      'JavaScript FullStack Developer - Content Creator',
+    description: 'JavaScript FullStack Developer - Content Creator',
     url: 'https://baumannzone.dev/uses',
     twitter: '@baumannzone',
     emoji: '🔥',
