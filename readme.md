@@ -336,6 +336,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ava Gaiety Wroten](https://www.wroten.me/uses) — JavaScript Software Engineer, artist, and designer
 * [Nathan Smith](https://nathan-smith.org/uses) — Full stack dev, cat dad, dungeon master.
 * [Justin Juno](https://justinjuno.dev/uses/) — Infinitely curious and optimistic software developer.
+* [Joshua Ryan Velasquez](https://joshua-afk.github.io/uses) — Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.
 * [Darlene Zouras](https://darzouras.com/uses/) — Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
 * [Yash Dave](https://amorpheuz.dev/uses/) — Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!
