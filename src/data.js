@@ -6614,6 +6614,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Ryan Velasquez',
+    description:
+      'Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.',
+    url: 'https://joshua-afk.github.io/uses',
+    emoji: '🐾',
+    country: '🇵🇭',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Web Developer',
+      'Designer',
+      'Laravel',
+      'Vue.js',
+      'Tailwind CSS',
+      'HTML',
+      'CSS',
+      'SASS',
+      'Vim',
+      'Entrepreneur',
+    ],
+  },
+  {
     name: 'Darlene Zouras',
     description:
       'Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry',
