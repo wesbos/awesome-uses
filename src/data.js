@@ -3481,10 +3481,10 @@ module.exports = [
   },
   {
     name: 'Sean Keever',
-    description: 'Full stack developer.',
-    url: 'https://skies.dev/uses',
+    description: 'Developer. Writer. Tinkerer.',
+    url: 'https://swkeever.com/uses',
     twitter: '@swkeever',
-    emoji: '⛅',
+    emoji: '🥦',
     country: '🇺🇸',
     computer: 'linux',
     phone: 'iphone',
