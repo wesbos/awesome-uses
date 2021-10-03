@@ -161,7 +161,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Abo Baloyi](https://baloyiabo.co.za/uses) — Full stack developer & full time computer geek
 * [Marko Denic](https://markodenic.com/uses/) — Web Developer
 * [Oleg Perchyk](https://himynameisoleg.com/uses) — Web developer - also ride bmx and cook alot. :wq
-* [Dhananjay Porwal](https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md) — Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer
+* [Dhananjay Porwal](https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md) — Self taught Cyber Security Analyst, Graphic Designer, data science enthusiast and Front-end Developer
 * [Manassarn "Noom" Manoonchai](https://monosor.com/uses) — Coding, Productivity, Technologies, macOS, Keyboard
 * [Henrik Nyh](https://henrik.nyh.se/uses) — Swedish web developer in Yorkshire, UK.
 * [Manoj Barman](https://manojbarman.in/uses) — Working hardly, or Hardly working..
