@@ -6614,6 +6614,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Miller',
+    description: 'Web Developer, Cat Dad, Dungeon Master',
+    url: 'https://www.matt123miller.dev/blog/uses',
+    twitter: '@matt123miller',
+    emoji: '🐱',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'TypeScript',
+      'JavaScript',
+      'VS Code',
+      'React',
+      'Node.js',
+      'Firefox'
+      'MongoDB',
+    ],
+  },
+  {
     name: 'Joshua Ryan Velasquez',
     description:
       'Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.',
