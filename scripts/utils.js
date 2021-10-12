@@ -62,7 +62,7 @@ module.exports.Schema = Joi.object({
     .required(),
   twitter: Joi.string().pattern(new RegExp(/^@?(\w){1,15}$/)),
   emoji: Joi.string().allow(''),
-  computer: Joi.string().valid('apple', 'windows', 'linux'),
+  computer: Joi.string().valid('apple', 'windows', 'linux', 'bsd'),
   phone: Joi.string().valid('iphone', 'android', 'windowsphone','flipphone'),
   tags: Joi.array().items(Joi.string()),
 });
