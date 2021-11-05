@@ -29,6 +29,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Alula Kibrom',
+    description:
+      'Full stack developer, entrepreneur and maker.',
+    url: 'https://businesstyc.com/uses',
+    twitter: '@altsyset',
+    emoji: '✅',
+    country: 'ET',
+    computer: 'Lenovo',
+    phone: 'Android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'REST',
+      'MySQL',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Java',
+      'php',
+      'vue',
+      'Angular',
+    ],
+  },
+  {
     name: 'Bumhan "B" Yu',
     description:
       '"B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics',
