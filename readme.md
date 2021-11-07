@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics
 * [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
@@ -133,6 +134,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Shayon Pal](https://shayonpal.com/uses) — Product Manager. Amateur coder. Loves to tinker with Web technologies.
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
+* [Vincent Lejtzén](https://lejtzendesign.se/en/uses) — Front end developer with love for design, user experience and SEO.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Sapan Bodiwala](https://sapanbodiwala.com/uses) — Full Stack Software Engineer
 * [Felix Yeboah Jefferson](https://jeffson.netlify.app/uses) — Fullstack Developer, UI Designer & a Nomad
@@ -172,6 +174,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [𝐁𝐞𝐧𝐧𝐞𝐭𝐭 𝐁𝐞𝐧𝐞𝐝𝐢𝐜𝐭](http://baharajr.me/uses) — 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐚𝐧𝐝 𝐖𝐞𝐢𝐫𝐝𝐨
 * [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.
+* [Axel Larsson](https://axellarsson.com/blog/what-i-use/) — Full-stack developer
 * [Chris Hufnagel](https://chrishufnagel.com/uses/) — Front End Developer & Designer
 * [Jeff Szuc](https://jeffszuc.com/uses) — UX Designer, Frontend Developer, Lifelong Learner.
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
@@ -195,7 +198,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
 * [David Morales](https://davidmles.com/uses) — Computer Engineer. Web Developer. Teacher at ninjadevel.com
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
-* [Sean Keever](https://skies.dev/uses) — Full stack developer.
+* [Sean Keever](https://swkeever.com/uses) — Developer. Writer. Tinkerer.
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Michael Read](https://www.michaelcread.com/uses) — Full Stack Web and Mobile App Developer.
@@ -651,6 +654,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simran Raj](https://www.simranraj.in/) — Front End Developer
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer
+* [Vista1nik](https://vista1nik.com/uses) — Software Engineer
 * [Lee Robinson](https://leerob.io/uses) — Developer, writer, creator. Solutions Architect @ Vercel.
 * [Tony Mamedbekov](https://www.tmamedbekov.dev/uses) — Architect, developer, cms enthusiast, technologoy evangelist, content creator, bloger, consultant
 * [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
@@ -664,6 +668,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
+* [Paul Mowat](https://www.paulmowat.co.uk/uses/) — A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced
 * [Luigi Cruz](https://luigicruz.dev/uses) — Software developer with a focus on the Web.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Steve Rydz](https://steverydz.com/uses) — Developer

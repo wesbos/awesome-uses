@@ -1,7 +1,7 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
-    {
+  {
     name: 'David Torralbo',
     description: 'Backend developer. Focused in Web Performance',
     url: 'https://davidtorralbo.dev/uses/',
@@ -2271,7 +2271,8 @@ module.exports = [
   },
   {
     name: 'Vincent Lejtzén',
-    description: 'Front end developer with love for design, user experience and SEO.',
+    description:
+      'Front end developer with love for design, user experience and SEO.',
     url: 'https://lejtzendesign.se/en/uses',
     country: '🇸🇪',
     twitter: '@lejtzen',
@@ -3134,7 +3135,7 @@ module.exports = [
       'Writer',
     ],
   },
-    {
+  {
     name: 'Axel Larsson',
     description: 'Full-stack developer',
     url: 'https://axellarsson.com/blog/what-i-use/',
@@ -13197,7 +13198,7 @@ module.exports = [
       'UI/UX',
       'JavaScript',
       'React Native',
-      'Expo'
+      'Expo',
     ],
   },
   {
@@ -13498,7 +13499,8 @@ module.exports = [
   },
   {
     name: 'Paul Mowat',
-    description: 'A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced',
+    description:
+      'A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced',
     url: 'https://www.paulmowat.co.uk/uses/',
     emoji: '🥃',
     country: 'GB',
