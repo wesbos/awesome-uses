@@ -1,6 +1,28 @@
 // keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
+    {
+    name: 'David Torralbo',
+    description: 'Backend developer. Focused in Web Performance',
+    url: 'https://davidtorralbo.dev/uses/',
+    twitter: '@torralbo_',
+    emoji: '🧠',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'Laravel',
+      'Livewire',
+      'Tailwind CSS',
+      'MySQL',
+      'Redis',
+      'Back End',
+      'Web Performance',
+      'TDD',
+      'SEO',
+    ],
+  },
   {
     name: 'Eduar Bastidas',
     description: 'Full Stack Web Developer',
