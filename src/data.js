@@ -5079,6 +5079,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Manuel Fernandez',
+    description: 'Security Engineer',
+    url: 'https://github.com/teamhanded/uses',
+    emoji: '🍃',
+    country: '🇦🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Security',
+      'Malware',
+      'Golang',
+      'Cloud',
+    ],
+  },
+  {
     name: 'Davy Hausser',
     description: 'Game Producer. Web Developer, Travel Enthusiast',
     url: 'https://davyhausser.com/uses',
