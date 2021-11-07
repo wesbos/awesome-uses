@@ -7751,7 +7751,7 @@ module.exports = [
     emoji: '✌️',
     country: '🇾🇪',
     computer: 'apple',
-    phone: 'Android',
+    phone: 'android',
     tags: [
       'Developer',
       'Blogger',
