@@ -260,6 +260,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dexter Brylle](https://dexterbrylle.xyz/pages/uses) — Builder based in Manila, PH. Runs on caffeine.
 * [Dwayne Harris](https://dwayne.xyz/uses) — Freelance web and app developer in NYC with over 15 years of professional experience.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
+* [Manuel Fernandez](https://github.com/teamhanded/uses) — Security Engineer
 * [Davy Hausser](https://davyhausser.com/uses) — Game Producer. Web Developer, Travel Enthusiast
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.
@@ -370,6 +371,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nuno Maduro](https://nunomaduro.com/uses/) — Software engineer, Open Source contributor, Speaker
 * [Anthony Humphreys](https://anthonyhumphreys.dev/uses/) — Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him
 * [Jorge Baumann](https://baumannzone.dev/uses) — JavaScript FullStack Developer - Content Creator
+* [Moncef AOUDIA](https://www.maoudia.com/uses) — Software developer - Open-source enthusiast/maintainer
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.

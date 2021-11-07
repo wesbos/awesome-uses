@@ -5086,12 +5086,7 @@ module.exports = [
     country: '🇦🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Security',
-      'Malware',
-      'Golang',
-      'Cloud',
-    ],
+    tags: ['Security', 'Malware', 'Golang', 'Cloud'],
   },
   {
     name: 'Davy Hausser',
