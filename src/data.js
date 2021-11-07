@@ -13011,7 +13011,7 @@ module.exports = [
       'GraphQL',
       'Bootstrap',
       'Problem Solver',
-      'Gamer'
+      'Gamer',
     ],
   },
   {
