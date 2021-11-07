@@ -207,6 +207,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Yogi](https://github.com/yg/uses) — iOS and Web Developer
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
+* [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Gift Egwuenu](https://giftegwuenu.com/uses) — 💻Frontend Engineer and Technical Writer.
 * [Bui Minh Phuc](https://buiminhphuc.com/uses/) — A front-end web developer lives and works in Saigon, and still single 😉
 * [Chandu J S](https://chandujs.dev/uses) — 💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.

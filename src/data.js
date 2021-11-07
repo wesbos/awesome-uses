@@ -3803,7 +3803,7 @@ module.exports = [
       'Jamstack',
       'PHP',
       'Sketchnoter',
-      'Accessibility'
+      'Accessibility',
     ],
   },
   {
