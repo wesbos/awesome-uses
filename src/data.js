@@ -35,7 +35,7 @@ module.exports = [
     url: 'https://businesstyc.com/uses',
     twitter: '@altsyset',
     emoji: '✅',
-    country: 'ET',
+    country: '🇪🇹',
     computer: 'Lenovo',
     phone: 'Android',
     tags: [
