@@ -13181,6 +13181,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Vista1nik',
+    description: 'Software Engineer',
+    url: 'https://vista1nik.com/uses',
+    twitter: '@vista1nik',
+    emoji: '✨',
+    country: '🇷🇺',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Next',
+      'React',
+      'MDX',
+      'Full Stack',
+      'UI/UX',
+      'JavaScript',
+      'React Native',
+      'Expo'
+    ],
+  },
+  {
     name: 'Lee Robinson',
     description: 'Developer, writer, creator. Solutions Architect @ Vercel.',
     url: 'https://leerob.io/uses',
