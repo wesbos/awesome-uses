@@ -7737,6 +7737,28 @@ module.exports = [
       'CSS',
     ],
   },
+    {
+    name: 'Watheq Alshowaiter',
+    description:
+      'Web developer, Blogger, and Technical Translator',
+    url: 'http://watheq.xyz/uses',
+    twitter: '@watheq_show',
+    emoji: '✌️',
+    country: '🇾🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Tech Translator',
+      'Laravel',
+      'Gatsby',
+      'React',
+      'PHP',
+      'CSS',
+      'JavaScript',
+    ],
+  },
   {
     name: 'Jason Raimondi',
     description: 'Full Stack Developer',
