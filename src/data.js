@@ -7737,10 +7737,9 @@ module.exports = [
       'CSS',
     ],
   },
-    {
+  {
     name: 'Watheq Alshowaiter',
-    description:
-      'Web developer, Blogger, and Technical Translator',
+    description: 'Web developer, Blogger, and Technical Translator',
     url: 'http://watheq.xyz/uses',
     twitter: '@watheq_show',
     emoji: '✌️',
