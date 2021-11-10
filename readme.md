@@ -656,6 +656,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Simran Raj](https://www.simranraj.in/) — Front End Developer
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
+* [Bassem Allani](https://nextglabs.com/uses/) — Senior Fullstack Engineer & Commercial Airline Pilot
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer
 * [Vista1nik](https://vista1nik.com/uses) — Software Engineer
 * [Lee Robinson](https://leerob.io/uses) — Developer, writer, creator. Solutions Architect @ Vercel.
