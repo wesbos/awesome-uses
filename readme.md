@@ -97,7 +97,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dennis Mathenge](https://creativehubspace.com/uses) — Web Developer
 * [Antonio Della-Rocca](https://adr-enaline.com/uses) — Fullstack Web Developer
 * [Ali Alaa](https://www.alialaa.dev/uses) — Front-end web developer & online learning content creator.
-* [Devansh Bajaj](https://devanshbajaj.me/uses) — 20 | M | Front End | Web Developer | Freelancer | Android enthusiast
+* [Devansh Bajaj](https://devanshbajaj.dev/uses) — 21 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Ivan Muratov](https://binakot.github.io/resume/uses) — SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, CompSci Student
