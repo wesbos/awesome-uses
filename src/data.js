@@ -1462,8 +1462,8 @@ module.exports = [
   {
     name: 'Devansh Bajaj',
     description:
-      '20 | M | Front End | Web Developer | Freelancer | Android enthusiast',
-    url: 'https://devanshbajaj.me/uses',
+      '21 | M | Front End | Web Developer | Freelancer | Android enthusiast',
+    url: 'https://devanshbajaj.dev/uses',
     twitter: '@devansh21db',
     emoji: '🐼',
     country: '🇮🇳',
@@ -1477,10 +1477,10 @@ module.exports = [
       'Front End',
       'CSS',
       'HTML',
-      'Bulma CSS',
+      'Tailwind CSS',
       'Sass',
       'React',
-      'Kotlin',
+      'Next.js',
       'Android',
     ],
   },
