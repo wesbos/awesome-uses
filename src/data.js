@@ -7376,7 +7376,7 @@ module.exports = [
       'Quarkus',
       'Reactor',
       'Speaker',
-      'String Boot',
+      'Spring Boot',
     ],
   },
   {
