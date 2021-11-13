@@ -133,6 +133,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Ben Lau',
+    description: 'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
+    url: 'https://benlau.net/uses/',
+    twitter: '@__benlau',
+    emoji: '⚽️',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Web Development',
+      'UI/UX',
+      'Kirby',
+      'Eleventy',
+    ],
+  },
+  {
     name: 'Nick East',
     description: 'Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ ',
     url: 'https://www.nick-east.com/uses',
