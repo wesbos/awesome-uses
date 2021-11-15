@@ -134,20 +134,15 @@ module.exports = [
   },
   {
     name: 'Ben Lau',
-    description: 'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
+    description:
+      'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
     url: 'https://benlau.net/uses/',
     twitter: '@__benlau',
     emoji: '⚽️',
     country: '🇩🇪',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'Web Development',
-      'UI/UX',
-      'Kirby',
-      'Eleventy',
-    ],
+    tags: ['Front End', 'Web Development', 'UI/UX', 'Kirby', 'Eleventy'],
   },
   {
     name: 'Nick East',
