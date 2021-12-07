@@ -7052,7 +7052,7 @@ module.exports = [
     twitter: '@thet0m',
     emoji: '🚀',
     country: '🇦🇹',
-    computer: 'linux',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Developer',
@@ -7061,7 +7061,7 @@ module.exports = [
       'JavaScript',
       'Blogger',
       'Serverless',
-      'Vue',
+      'Vue'
     ],
   },
   {
