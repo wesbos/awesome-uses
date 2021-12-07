@@ -9364,6 +9364,20 @@ module.exports = [
       'Node.js',
     ],
   },
+    {
+    name: 'Jack Clayton',
+    description: 'Writer and weirdo.',
+    url: 'https://rubedo.work/uses/',
+    twitter: '@prettymucharock',
+    emoji: '♦️',
+    country: 'US',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Writer',
+      'Blogger',
+    ],
+  },
   {
     name: 'Thorsten Hans',
     description: 'Cloud-Native software developer from Germany.',
