@@ -229,7 +229,8 @@ module.exports = [
   },
   {
     name: 'Dale Larroder',
-    description: 'Software Engineer, React, TypeScript and Mechanical Keyboards!',
+    description:
+      'Software Engineer, React, TypeScript and Mechanical Keyboards!',
     url: 'https://www.dalelarroder.com/uses',
     twitter: '@dalelarroder',
     emoji: '⚡️',
