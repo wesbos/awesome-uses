@@ -3932,6 +3932,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Tobias Schmidt',
+    description: 'Digitalisation Expert 📠',
+    url: 'https://tobiasschmidt.me/uses/',
+    emoji: '👋',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Digital',
+      'Minimalist',
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Gift Egwuenu',
     description: '💻Frontend Engineer and Technical Writer.',
     url: 'https://giftegwuenu.com/uses',
