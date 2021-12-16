@@ -3939,13 +3939,7 @@ module.exports = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Digital',
-      'Minimalist',
-      'HTML',
-      'CSS',
-      'JavaScript',
-    ],
+    tags: ['Digital', 'Minimalist', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     name: 'Gift Egwuenu',
