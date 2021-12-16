@@ -4233,8 +4233,7 @@ module.exports = [
   },
   {
     name: 'Johan Hammar',
-    description:
-      'Software Engineer from Sweden',
+    description: 'Software Engineer from Sweden',
     url: 'https://www.johanhammar.se/uses',
     twitter: '@johanh',
     emoji: '👋',
