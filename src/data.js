@@ -7332,7 +7332,7 @@ module.exports = [
       'JavaScript',
       'Blogger',
       'Serverless',
-      'Vue'
+      'Vue',
     ],
   },
   {

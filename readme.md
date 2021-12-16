@@ -370,6 +370,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
 * [Lauro Silva](https://laurosilva.com/uses) — Software Engineer and Technical Writer
+* [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
 * [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
 * [Tony Cimaglia](https://www.tonycimaglia.com/uses/) — Restaurant Veteran turned Developer.
 * [Nuno Maduro](https://nunomaduro.com/uses/) — Software engineer, Open Source contributor, Speaker
