@@ -7317,6 +7317,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Tom (ttntm)',
+    description: 'Web developer from Austria',
+    url: 'https://ttntm.me/uses',
+    twitter: '@thet0m',
+    emoji: '🚀',
+    country: '🇦🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Full Stack',
+      'JavaScript',
+      'Blogger',
+      'Serverless',
+      'Vue'
+    ],
+  },
+  {
     name: 'Achhunna Mali',
     description: 'Software engineer and aspiring surfer',
     url: 'https://achhunna.com/uses',
