@@ -4232,6 +4232,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Johan Hammar',
+    description:
+      'Software Engineer from Sweden',
+    url: 'https://www.johanhammar.se/uses',
+    twitter: '@johanh',
+    emoji: '👋',
+    country: '🇸🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Generalist',
+      'Early Adopter',
+      'Java',
+      'Backend',
+      'Linux',
+      'Architect',
+      'DevOps',
+      'Agile',
+      'Open Source',
+    ],
+  },
+  {
     name: 'Colin Principe',
     description:
       'Software Guild graduate, Full stack developer, Java backend, Angular/React frontend.',
