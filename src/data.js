@@ -13620,6 +13620,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Chiko Mukwenha',
+    description:
+      'Frontend Engineer',
+    url: 'https://chikomukwenha.co/2021/11/21/uses',
+    twitter: '@therealchiko',
+    country: '🇿🇼`',
+    computer: 'apple',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'EmberJS',
+      'Vue.js',
+      'Indiehacker',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Vic Demuzere',
     description:
       'Go developer and Linux enthousiast at home, system administrator at work.',
