@@ -13625,7 +13625,7 @@ module.exports = [
       'Frontend Engineer',
     url: 'https://chikomukwenha.co/2021/11/21/uses',
     twitter: '@therealchiko',
-    country: '🇿🇼`',
+    country: '🇿🇼',
     computer: 'apple',
     tags: [
       'HTML',
