@@ -3704,7 +3704,7 @@ module.exports = [
   {
     name: 'Mohammed Sohail',
     description: 'A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.',
-    url: 'https://www.thecrazybob.com/uses',
+    url: 'https://www.msohail.dev/uses',
     twitter: '@itscrazybob',
     emoji: '💯',
     country: '🇹🇷',
