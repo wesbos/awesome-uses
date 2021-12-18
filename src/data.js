@@ -14,7 +14,7 @@ module.exports = [
       'JavaScript',
       'Developer',
       'React',
-      'Node.js'
+      'Node.js',
       'TypeScript',
       'Gatsby',
       'Freelancer',
