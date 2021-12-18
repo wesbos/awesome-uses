@@ -546,7 +546,6 @@ module.exports = [
       'Headless CMS'
     ],
   },
-
   {
     name: 'Dean Lofts',
     description:
