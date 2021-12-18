@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Marco Kuehbauch](https://marcokuehbauch.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
 * [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics

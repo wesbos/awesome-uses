@@ -3,7 +3,8 @@
 module.exports = [
   {
     name: 'Marco Kuehbauch',
-    description: 'Web developer from southern germany who loves to make fast and accessible websites and write about it.',
+    description:
+      'Web developer from southern germany who loves to make fast and accessible websites and write about it.',
     url: 'https://marcokuehbauch.com/uses/',
     twitter: '@mkuehb',
     emoji: '🌳',
