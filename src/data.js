@@ -526,6 +526,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Arisa Fukuzaki',
+    description: 'DevRel Engineer, Front-end developer',
+    url: 'https://github.com/schabibi1/uses',
+    twitter: '@arisa_dev',
+    emoji: '🥑',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'JavaScript',
+      'DevRel',
+      'JAMstack',
+      'React',
+      'Gatsby',
+      'Next.js',
+      'Storyblok',
+      'Headless CMS'
+    ],
+  },
+
+  {
     name: 'Dean Lofts',
     description:
       'Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web',
