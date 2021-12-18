@@ -398,7 +398,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Backend',
-      'Golang',
+      'Go',
       'Python',
       'Clojure',
       'Racket',
