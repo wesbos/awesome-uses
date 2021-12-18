@@ -6630,7 +6630,7 @@ module.exports = [
       'VS Code',
       'React',
       'Node.js',
-      'Firefox'
+      'Firefox',
       'MongoDB',
     ],
   },
