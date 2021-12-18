@@ -423,7 +423,7 @@ module.exports = [
       'Performance',
       'Architect',
       'Vue',
-      'Open Source Software'
+      'Open Source Software',
     ],
   },
   {
