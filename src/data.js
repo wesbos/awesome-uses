@@ -3052,14 +3052,7 @@ module.exports = [
     country: '🇹🇭',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'JavaScript',
-      'Ruby on Rails',
-      'Testing',
-      'Vim',
-      'VS Code',
-      'Web',
-    ],
+    tags: ['JavaScript', 'Ruby on Rails', 'Testing', 'Vim', 'VS Code', 'Web'],
   },
   {
     name: 'Henrik Nyh',
