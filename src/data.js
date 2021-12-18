@@ -1,4 +1,4 @@
-// keep it commonjs export 
+// keep it commonjs export
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
