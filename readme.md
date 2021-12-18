@@ -32,7 +32,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
-* [Arisa Fukuzaki](https://github.com/schabibi1/uses) - DevRel Engineer, Front-end developer
 * [Tim Leland](https://timleland.com/uses) — Full-Stack developer and Blogger.
 * [Karol Sobolewski](http://www.sobolewski.tk/#uses) — Hello there, Iam the bald one. A junior full-stack developper.
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
