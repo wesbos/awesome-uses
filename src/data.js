@@ -543,7 +543,7 @@ module.exports = [
       'Gatsby',
       'Next.js',
       'Storyblok',
-      'Headless CMS'
+      'Headless CMS',
     ],
   },
   {
