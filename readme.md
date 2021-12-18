@@ -675,6 +675,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Marek Maras](https://www.marek-maras.de/uses) — Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
+* [Chiko Mukwenha](https://chikomukwenha.co/2021/11/21/uses) — Frontend Engineer
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
 * [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.

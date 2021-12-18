@@ -13621,8 +13621,7 @@ module.exports = [
   },
   {
     name: 'Chiko Mukwenha',
-    description:
-      'Frontend Engineer',
+    description: 'Frontend Engineer',
     url: 'https://chikomukwenha.co/2021/11/21/uses',
     twitter: '@therealchiko',
     country: '🇿🇼',
