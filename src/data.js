@@ -230,7 +230,7 @@ module.exports = [
       'MySQL',
       'PHP',
       'C#',
-      'Golang',
+      'Go',
     ],
   },
   {
@@ -4811,7 +4811,7 @@ module.exports = [
     country: '🇦🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Security', 'Malware', 'Golang', 'Cloud'],
+    tags: ['Security', 'Malware', 'Go', 'Cloud'],
   },
   {
     name: 'Bojan Bedrač',
@@ -5954,7 +5954,7 @@ module.exports = [
     emoji: '👨🏻‍💻',
     computer: 'linux',
     phone: 'android',
-    tags: ['Student', 'Golang', 'Back End', 'React', 'Linux', 'PostgreSQL'],
+    tags: ['Student', 'Go', 'Back End', 'React', 'Linux', 'PostgreSQL'],
   },
   {
     name: 'Praveen Kumar Purushothaman',
@@ -6323,7 +6323,7 @@ module.exports = [
     phone: 'android',
     tags: [
       'Developer',
-      'Golang',
+      'Go',
       'Problem Solver',
       'Full Stack',
       'Engineer',
