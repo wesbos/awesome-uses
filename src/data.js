@@ -12164,6 +12164,7 @@ module.exports = [
     twitter: '@seshaljain',
     country: '🇮🇳',
     computer: 'linux',
+    phone: 'android',
     tags: [
       'HTML',
       'CSS',
@@ -12182,6 +12183,7 @@ module.exports = [
     twitter: '@therealchiko',
     country: '🇿🇼',
     computer: 'apple',
+    phone: 'iphone',
     tags: [
       'HTML',
       'CSS',
