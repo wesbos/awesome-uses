@@ -10243,7 +10243,7 @@ module.exports = [
       'Gatsby',
       'Next',
       'Eleventy',
-      'Shopify'
+      'Shopify',
     ],
   },
   {
