@@ -9582,18 +9582,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Dany Paredes',
-    description:
-      'I was a .NET guy, my last years ❤️ { #js & #sass } and play[ #react #vue #angular #sveltejs]',
-    url: 'https://danywalls.com/uses',
-    twitter: '@danywalls',
-    emoji: '🏀',
-    country: '🇩🇴',
-    computer: 'linux',
-    phone: 'iphone',
-    tags: ['Developer', '.NET', 'Typescript', 'JavaScript', 'Sass'],
-  },
-  {
     name: 'Thomas Weibenfalk',
     description:
       'Passionate developer, course creator, youtuber, designer and musician from Sweden',
