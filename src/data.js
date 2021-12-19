@@ -6952,7 +6952,7 @@ module.exports = [
     url: 'https://www.maoudia.com/uses',
     twitter: '@aoudiamoncef',
     emoji: '👨‍💻',
-    country: 'FR',
+    country: '🇫🇷',
     computer: 'linux',
     phone: 'android',
     tags: [
