@@ -1481,6 +1481,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeromey Balderrama',
+    description: 'Web Developer, Designer, Photographer, Drummer',
+    url: 'https://balderromey.com/uses/',
+    twitter: '@jeromey',
+    emoji: '🥁',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['HTML', 'CSS', 'Javascript', 'React', 'SQL', 'WordPress', 'PHP'],
+  },
+  {
     name: 'Hamish Williams',
     description: 'Multidisciplinary designer + developer.',
     url: 'https://hamishw.com/uses',
