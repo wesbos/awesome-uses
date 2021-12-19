@@ -672,7 +672,7 @@ module.exports = [
     url: 'https://loftwah.github.io/uses',
     twitter: '@loftwah',
     emoji: '🚀',
-    country: 'au',
+    country: '🇦🇺',
     computer: 'windows',
     phone: 'android',
     tags: [
