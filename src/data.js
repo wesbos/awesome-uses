@@ -5630,25 +5630,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Patrick Tumbucon',
-    description:
-      'ML software engineer on the clock, fullstack developer and general hobbyist in my free time',
-    url: 'https://patricktumbucon.com/posts/uses',
-    twitter: '@patrickisd3ad',
-    emoji: '🌿',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Software Engineer',
-      'Machine Learning',
-      'Distributed Systems',
-      'Vue.js',
-      'Python',
-      'Scala',
-    ],
-  },
-  {
     name: 'Marco Poletto',
     description: 'Frontend Developer, UI engineer, Mentor',
     url: 'https://poletto.dev/uses/',
