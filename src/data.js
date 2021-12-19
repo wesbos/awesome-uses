@@ -4883,29 +4883,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Didier Catz',
-    description:
-      'Creative Developer & Interaction enthousiast. In love with modern JS, typography, jazz and homemade cappuccino.',
-    url: 'https://didiercatz.com/uses',
-    twitter: '@didiercatz',
-    emoji: '🎹',
-    country: '🇳🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'Svelte',
-      'Node.js',
-      'CSS',
-      'Tailwind CSS',
-      'Entrepreneur',
-      'Open Source Software',
-      'Animation',
-      'Musician',
-    ],
-  },
-  {
     name: 'Sagar Soni',
     description:
       'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
