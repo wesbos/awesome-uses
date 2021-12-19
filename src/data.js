@@ -3174,7 +3174,7 @@ module.exports = [
     url: 'https://axellarsson.com/blog/what-i-use/',
     twitter: '@Axellarsson93',
     emoji: '🥳',
-    country: 'se',
+    country: '🇸🇪',
     computer: 'apple',
     phone: 'iphone',
     tags: [
