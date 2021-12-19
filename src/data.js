@@ -1167,7 +1167,7 @@ module.exports = [
     name: 'Joshua Rose',
     description:
       'Loves Christ, loves family, loves programming, full stack dev',
-    url: 'https://jrgiant.tech/Uses',
+    url: 'https://jrgiant.tech/uses',
     twitter: '@JrGiant',
     emoji: '✝',
     country: '🇺🇸',
