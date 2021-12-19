@@ -611,6 +611,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Thiago Avelino',
+    description:
+      '🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ',
+    url: 'https://avelino.run/uses',
+    twitter: '@avelinorun',
+    emoji: '🏊‍♂️🚴‍♂️🏃‍♂️',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Backend',
+      'Go',
+      'Python',
+      'Clojure',
+      'Racket',
+      'Emacs',
+      'Developer',
+      'GitHub Star',
+    ],
+  },
+  {
     name: 'Samuel Wong',
     description: 'Product Designer. Photographer. Traveler.',
     url: 'https://desktopofsamuel.com/uses',
