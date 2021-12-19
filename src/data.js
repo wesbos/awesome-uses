@@ -923,6 +923,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Mathias Borgmalm',
+    description: 'Thinks CSS is underrated.',
+    url: 'https://www.mathiasborgmalm.dev/uses/',
+    twitter: 'themateboy',
+    emoji: '🎾',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Front End', 'HTML', 'CSS', 'SCSS', 'JavaScript', 'Vue'],
+  },
+  {
     name: "Shawn D'silva",
     description:
       'Full Stack Web Developer, Designer and Embedded Systems enthusiast',
