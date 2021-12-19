@@ -6705,7 +6705,7 @@ module.exports = [
       'Vue',
       'GraphQL',
       'MongoDB',
-      'ElasticSearch'
+      'ElasticSearch',
     ],
   },
   {
