@@ -215,6 +215,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Yogi](https://github.com/yg/uses) — iOS and Web Developer
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
+* [Mohammed Sohail](https://www.msohail.dev/uses) — A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Tobias Schmidt](https://tobiasschmidt.me/uses/) — Digitalisation Expert 📠
 * [Gift Egwuenu](https://giftegwuenu.com/uses) — 💻Frontend Engineer and Technical Writer.
