@@ -8402,24 +8402,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Roman Husar',
-    description: 'Tinkering, all the time.',
-    url: 'https://seemslikelegit.com/uses',
-    twitter: '@seemslikelegit',
-    emoji: '➰',
-    country: '🇺🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Software Engineer',
-      'Full Stack',
-      'JavaScript',
-      'PostgreSQL',
-      'React',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Stephen Senkomago Musoke',
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
