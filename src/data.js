@@ -12994,15 +12994,7 @@ module.exports = [
     country: '🇹🇭',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Student',
-      'Python',
-      'C',
-      'macOS',
-      'iOS',
-      'Musician',
-    ],
+    tags: ['Engineer', 'Student', 'Python', 'C', 'macOS', 'iOS', 'Musician'],
   },
   {
     name: 'Łukasz Rybka',
