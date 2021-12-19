@@ -4450,33 +4450,6 @@ module.exports = [
     tags: ['WordPress', 'Developer', 'CSS', 'Front End'],
   },
   {
-    name: 'Misir Jafarov',
-    description:
-      'Human, full stack developer, and Open source developer from the world.',
-    url: 'https://themisir.com/uses/',
-    emoji: '✌',
-    country: '🇦🇿',
-    computer: 'windows',
-    phone: 'android',
-    twitter: '@themisir',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'C#',
-      'JavaScript',
-      'TypeScript',
-      'AspNet Core',
-      'React',
-      'Flutter',
-      'Dart',
-      'Node.js',
-      'Debian',
-      'Docker',
-      'Kubernetes',
-      'DevOps',
-    ],
-  },
-  {
     name: 'John SJ Anderson',
     description:
       'information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.',
