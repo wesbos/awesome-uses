@@ -50,6 +50,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Medeski](https://www.joshmedeski.com/uses) — Full-stack developer obsessed with vim, productivity, and design systems.
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
 * [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
+* [Saiful Alam](https://blog.msar.me/uses) — Full Stack Developer, Experties on PHP(Laravel), ReactJS & NodeJS!
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
 * [Tugrul Erdem Dogru](http://tugrulerdemdogru.com/uses) — Jr Front-End & Historian 
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
