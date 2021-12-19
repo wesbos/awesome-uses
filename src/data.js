@@ -3238,7 +3238,8 @@ module.exports = [
   },
   {
     name: 'Luiz de Prá',
-    description: 'Software and game developer, nerd, gamer and future hobbist woodworker.',
+    description:
+      'Software and game developer, nerd, gamer and future hobbist woodworker.',
     url: 'https://luizdepra.dev/en/uses/',
     twitter: '@luizdepra',
     emoji: '🤡',
@@ -3252,7 +3253,7 @@ module.exports = [
       'Rust',
       'Go',
       'Linux',
-      'Game Developer'
+      'Game Developer',
     ],
   },
   {
