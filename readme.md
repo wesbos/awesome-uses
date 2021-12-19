@@ -89,6 +89,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Marc Berger](https://mberger75.github.io/uses/) — Fullstack Web Developer
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
+* [Andrew Gilliland](https://www.andrewgilliland.dev/uses/) — Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video
 * [Adi Purnomo](https://github.com/medival/uses/) — Front End Developer x Network Engineer
 * [Matt James](https://mattfrankjames.com/uses/) — Senior Front-end Software Engineer & Web Design Teacher
 * [Patrik Trefil](https://patriktrefil.com/uses/) — Developer from Europe, Linux and open-source fan

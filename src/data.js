@@ -1305,7 +1305,8 @@ module.exports = [
   },
   {
     name: 'Andrew Gilliland',
-    description: 'Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video',
+    description:
+      'Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video',
     url: 'https://www.andrewgilliland.dev/uses/',
     twitter: '@droidgilliland',
     emoji: '📼',
