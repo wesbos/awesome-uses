@@ -6923,25 +6923,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Ali Ahsan',
-    description: 'CS Masters Student with a knack for software development',
-    url: 'https://aliahsan.tech/uses',
-    twitter: '@aliahsan07',
-    emoji: '🦉',
-    country: '🇵🇰',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Student',
-      'React',
-      'JavaScript',
-      'Python',
-      'Gatsby',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Michael Kutz',
     description:
       'JavaScript developer, mentor, blogger at miku86.com and dev.to/miku86',
