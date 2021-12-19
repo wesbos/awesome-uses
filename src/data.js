@@ -490,7 +490,7 @@ module.exports = [
       'SCSS',
       'Babel',
       'React',
-      'VsCode',
+      'VS Code',
       'PHP',
       'Laravel',
       'Material',
