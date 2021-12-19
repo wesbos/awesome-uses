@@ -929,7 +929,7 @@ module.exports = [
     url: 'https://taisukemino.com/uses/',
     emoji: '☀️',
     country: '🇯🇵',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Crypto',
