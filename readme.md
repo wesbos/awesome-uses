@@ -55,6 +55,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tugrul Erdem Dogru](http://tugrulerdemdogru.com/uses) — Jr Front-End & Historian 
 * [Rosie Junghwa Yang](https://junghwayang.com/uses) — Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
+* [Thiago Avelino](https://avelino.run/uses) — 🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ
 * [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
 * [Arisa Fukuzaki](https://github.com/schabibi1/uses) — DevRel Engineer, Front-end developer
 * [Dean Lofts](https://loftwah.github.io/uses) — Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web
