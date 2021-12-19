@@ -12611,7 +12611,7 @@ module.exports = [
       'A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced',
     url: 'https://www.paulmowat.co.uk/uses/',
     emoji: '🥃',
-    country: 'GB',
+    country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
     tags: [
