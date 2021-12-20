@@ -2688,7 +2688,7 @@ module.exports = [
       'React',
       'TypeScript',
     ],
-  },  
+  },
   {
     name: 'Marko Haberl',
     description: 'Fullstack Developer',
