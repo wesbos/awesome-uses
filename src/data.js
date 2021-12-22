@@ -7744,7 +7744,7 @@ module.exports = [
       'JavaScript',
       'Vue.js',
       'C#',
-      '.NET'
+      '.NET',
     ],
   },
   {

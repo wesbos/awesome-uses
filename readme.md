@@ -390,6 +390,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Blaise Sebagabo](https://seblaise.dev/uses) — Full Stack Developer, designer, and web developer from Edmonton, Canada
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.
 * [Christopher Hranj](https://brodan.biz/uses) — Software Engineer, Blogger, Musician, Ultimate player.
+* [Ricardo Boss](https://ricardoboss.de/uses) — Software Developer from Germany. Loves PHP and clean code.
 * [Vincent Ramdhanie](https://vincentramdhanie.com/uses) — Software Developer, Lecturer, Technical Writer and Mentor
 * [Amir R Muntasser](https://arkm.xyz/uses/) — Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol' razzle dazzle.
 * [Pavel Melnik](https://theopract.gitlab.io/pavel-dev/uses/) — Web developer, Technology enthusiast, Energy Management System expert
