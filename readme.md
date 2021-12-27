@@ -463,6 +463,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Francis Sunday](https://hakaselogs.me/2020-01-10/what-i-use) — Software Engineer | Gopher | Hacker
 * [Jared Clifton-Lee](https://jared.clifton-lee.com/uses) — Engineer of code; manager of people; trainer of cats
 * [James Kemp](https://www.jameskemp.dev/uses/) — Web Developer, Blogger, Freelancer
+* [Bob Matyas](https://www.bobmatyas.com/uses) — Web Developer // IndieWeb
 * [Tom Hazledine](https://tomhazledine.com/uses) — Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.
 * [Dávid Lévai](https://davidlevai.com/uses) — Building production-ready apps, Freelancing as a Software Dev
 * [Soumya Ranjan Mohanty](https://soumya.dev/uses) — Fullstack software developer, Music Lover
