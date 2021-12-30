@@ -12525,6 +12525,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Nick Ali',
+    description:
+      'Marketer who used to be a software architect.',
+    url: 'https://nali.org/uses',
+    emoji: '☕',
+    twitter: '@naliorg',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Branding',
+      'Marketer',
+      'Developer Marketing',
+      'SaaS',
+      'JavaScript',
+      'React',
+      'iOS',
+      'Swift',
+      'Emacs',
+      'Design Systems',
+      'Consulting',
+      'REST',
+    ],
+  },
+  {
     name: 'Jesús Leganés-Combarro "piranna"',
     description:
       'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
