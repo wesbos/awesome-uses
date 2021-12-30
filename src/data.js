@@ -12526,8 +12526,7 @@ module.exports = [
   },
   {
     name: 'Nick Ali',
-    description:
-      'Marketer who used to be a software architect.',
+    description: 'Marketer who used to be a software architect.',
     url: 'https://nali.org/uses',
     emoji: '☕',
     twitter: '@naliorg',
