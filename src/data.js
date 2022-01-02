@@ -5641,7 +5641,8 @@ module.exports = [
   },
   {
     name: 'Andrei Racasan',
-    description: 'Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.',
+    description:
+      'Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.',
     url: 'https://www.andreiracasan.com/setup',
     emoji: '🌍',
     country: '🇷🇴',
@@ -5651,13 +5652,13 @@ module.exports = [
       'Full Stack',
       'Developer',
       'React',
-      'TypeScript',      
+      'TypeScript',
       'JavaScript',
       'Python',
       'Node.js',
       'Express',
       'MongoDB',
-      'MERN'
+      'MERN',
     ],
   },
   {
