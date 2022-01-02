@@ -5642,7 +5642,7 @@ module.exports = [
   {
     name: 'Andrei Racasan',
     description: 'Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.',
-    url: 'https://www.andreiracasan.com/about',
+    url: 'https://www.andreiracasan.com/setup',
     emoji: '🌍',
     country: '🇷🇴',
     computer: 'linux',
