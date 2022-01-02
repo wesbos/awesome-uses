@@ -5640,6 +5640,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrei Racasan',
+    description: 'Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.',
+    url: 'https://www.andreiracasan.com/about',
+    emoji: '🌍',
+    country: '🇷🇴',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'React',
+      'TypeScript',      
+      'JavaScript',
+      'Python',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'MERN'
+    ],
+  },
+  {
     name: 'Shajan Jacob',
     description:
       'Software Engineer, extroverted introvert, storyteller and a maker.',
