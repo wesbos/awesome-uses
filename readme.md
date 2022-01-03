@@ -29,6 +29,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Randy Daniel](https://randy.digital/uses) — (UI/UX Designer) + Developer
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Freelance web designer and developer
 * [Marco Kuehbauch](https://marcokuehbauch.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
 * [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
