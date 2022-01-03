@@ -93,7 +93,7 @@ module.exports = [
       'Entrepreneur',
       'Writer',
     ],
-  }
+  },
   {
     name: 'David Torralbo',
     description: 'Backend developer. Focused in Web Performance',
