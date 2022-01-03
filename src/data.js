@@ -11172,7 +11172,8 @@ module.exports = [
   },
   {
     name: 'Jason Ross',
-    description: 'Developer/Architect creating software in Calgary, Alberta, Canada',
+    description:
+      'Developer/Architect creating software in Calgary, Alberta, Canada',
     url: 'https://softwarepragmatism.com/uses/',
     twitter: '@softwarepragmat',
     emoji: '🤔',
