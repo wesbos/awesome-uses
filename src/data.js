@@ -73,7 +73,7 @@ module.exports = [
   {
     name: 'David Smooke',
     description: 'founder/ceo @hackernoon, leading the product team.',
-    url: 'https://www.davidsmooke.net/',
+    url: 'https://www.davidsmooke.net/uses',
     twitter: '@davidsmooke',
     emoji: '🧠',
     country: '🇺🇸',
