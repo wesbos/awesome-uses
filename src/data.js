@@ -5338,7 +5338,7 @@ module.exports = [
     name: 'Sumanth',
     description:'Student. Learning web development',
     url: 'https://mynameissumanth.netlify.app/uses.html',
-    country: 'in',
+    country: '🇮🇳',
     computer: 'windows',
     phone: 'android',
     tags: [
