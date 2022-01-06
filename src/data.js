@@ -5383,6 +5383,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Sumanth',
+    description:'Student. Learning web development',
+    url: 'https://mynameissumanth.netlify.app/uses.html',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Student',
+      'Developer',
+      'Front End',
+      'Java',
+      'JavaScript',
+      'CSS',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Christian Leo-Pernold',
     description: 'Dad. Husband. BBQ Enthusiast. Full-Stack-Developer.',
     url: 'https://mazedlx.net/uses',
