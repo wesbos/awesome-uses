@@ -5342,7 +5342,7 @@ module.exports = [
     computer: 'windows',
     phone: 'android',
     tags: [
-      'Student'
+      'Student',
       'Developer',
       'Front End',
       'Java',
