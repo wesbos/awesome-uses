@@ -449,7 +449,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Farrant](https://farrant.me/uses) — Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
-* [Duncan McClean](https://duncanmcclean.com/uses) — Web Developer, working with Laravel, Vue and Statamic.
+* [Duncan McClean](https://duncanmcclean.com/uses) — Web Developer from Glasgow, Scotland. Laravel, Statamic & Tailwind CSS
 * [Ricard Torres](https://php.quicoto.com/uses/) — Senior Front-end Software Engineer from Barcelona, Haidong Gumdo Instructor, street photographer, TV addict, Boston Red Sox fan...
 * [Gus Fune](https://gusfune.com/uses/) — CTO at Off Script. Full-stack developer from Brazil, based in Sweden.
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer

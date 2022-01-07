@@ -8988,7 +8988,8 @@ module.exports = [
   },
   {
     name: 'Duncan McClean',
-    description: 'Web Developer from Glasgow, Scotland. Laravel, Statamic & Tailwind CSS',
+    description:
+      'Web Developer from Glasgow, Scotland. Laravel, Statamic & Tailwind CSS',
     url: 'https://duncanmcclean.com/uses',
     twitter: '@_duncanmcclean',
     emoji: '👋',
