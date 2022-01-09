@@ -3928,8 +3928,7 @@ module.exports = [
   },
   {
     name: 'Julian Stark',
-    description:
-      'WordPress Web Developer & Entrepreneur',
+    description: 'WordPress Web Developer & Entrepreneur',
     url: 'https://julianstark.de/uses',
     twitter: '@julianstark_de',
     emoji: '🍔',
