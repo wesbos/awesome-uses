@@ -3927,6 +3927,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Julian Stark',
+    description:
+      'WordPress Web Developer & Entrepreneur',
+    url: 'https://julianstark.de/uses',
+    twitter: '@julianstark_de',
+    emoji: '🍔',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'WordPress',
+      'JavaScript',
+      'PHP',
+      'CSS',
+      'HTML',
+      'Web Developer',
+      'Performance',
+      'Entrepreneur',
+    ],
+  },
+  {
     name: 'Tobias Schmidt',
     description: 'Digitalisation Expert 📠',
     url: 'https://tobiasschmidt.me/uses/',
