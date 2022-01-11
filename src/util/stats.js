@@ -1,8 +1,8 @@
-import { name } from 'country-emoji';
-import people from '../data.js';
+const { name } = require('country-emoji');
+const people = require('../data.js');
 
 function merge(prop) {
-  return function(acc, obj) {
+  return function (acc, obj) {
     // Remove duplicated values.
     const values = [...new Set(obj[prop])];
     return [...values, ...acc];
@@ -14,7 +14,7 @@ function countInstances(acc, tag) {
   return acc;
 }
 
-export function normalizeTag(tag) {
+function normalizeTag(tag) {
   return (
     tag
       // Common mispellings currently seen in the data
@@ -31,9 +31,9 @@ export function normalizeTag(tag) {
   );
 }
 
-export function countries() {
+function countries() {
   const data = people
-    .map(person => ({
+    .map((person) => ({
       name: name(person.country),
       emoji: person.country,
     }))
@@ -57,7 +57,7 @@ export function countries() {
   return sorted;
 }
 
-export function tags() {
+function tags() {
   const allTags = people.reduce(merge('tags'), []);
   const counts = allTags.reduce(countInstances, {});
   // sort and filter for any tags that only have 1
@@ -88,13 +88,18 @@ export function tags() {
   return [{ name: 'all', count: people.length }, ...normalizedTags];
 }
 
-export function devices() {
+function devices() {
   const all = [
-    ...people.map(person => person.computer),
-    ...people.map(person => person.phone),
+    ...people.map((person) => person.computer),
+    ...people.map((person) => person.phone),
   ];
 
   return Object.entries(all.reduce(countInstances, {}))
     .map(([device, count]) => ({ name: device, count }))
     .sort((a, b) => b.count - a.count);
 }
+
+exports.normalizeTag = normalizeTag;
+exports.countries = countries;
+exports.tags = tags;
+exports.devices = devices;

@@ -1,5 +1,5 @@
-import people from './src/data.js';
-import { tags, countries, devices, normalizeTag } from './src/util/stats';
+const { tags, countries, devices, normalizeTag } = require('./src/util/stats');
+const people = require('./src/data.js');
 
 function unique(arr) {
   return Array.from(new Set(arr));
@@ -14,12 +14,12 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   // Add People to the GraphQL API, we randomize the data on each build so no one gets their feelings hurt
   people
     .sort(() => Math.random() - 0.5)
-    .forEach(person => {
+    .forEach((person) => {
       const normalizedPerson = {
         ...person,
         // Clean out people that added basically the same tags twice
         tags: unique(
-          person.tags.map(tag => normalizedTagMap[normalizeTag(tag)] || tag)
+          person.tags.map((tag) => normalizedTagMap[normalizeTag(tag)] || tag)
         ),
       };
       const nodeMeta = {
@@ -38,7 +38,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
     });
 
   // Add tags to GraphQL API
-  tags().forEach(tag => {
+  tags().forEach((tag) => {
     const nodeMeta = {
       id: createNodeId(`tag-${tag.name}`),
       parent: null,
@@ -55,7 +55,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   });
 
   // Add Countries to GraphQL API
-  countries().forEach(country => {
+  countries().forEach((country) => {
     const nodeMeta = {
       id: createNodeId(`country-${country.name}`),
       parent: null,
@@ -72,7 +72,7 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   });
 
   // Add Devices to GraphQL API
-  devices().forEach(device => {
+  devices().forEach((device) => {
     const nodeMeta = {
       id: createNodeId(`device-${device.name}`),
       parent: null,
@@ -88,4 +88,4 @@ function sourceNodes({ actions, createNodeId, createContentDigest }) {
   });
 }
 
-export { sourceNodes };
+exports.sourceNodes = sourceNodes;
