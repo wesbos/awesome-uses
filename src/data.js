@@ -4897,6 +4897,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Cory Dramsfeldt',
+    description:
+      'Web developer based in Southern California with over 10 years of professional experience.',
+    url: 'https://coryd.dev/uses',
+    twitter: '@cdransf',
+    emoji: '🤘🏻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Programmer',
+      'Web Developer',
+      'Typescript',
+      'Javascript',
+      'React',
+      'HTML',
+      'CSS',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Kenny Robinson',
     description:
       'Web developer that builds software to improve business processes',
