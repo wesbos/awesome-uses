@@ -250,6 +250,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alok Prateek](https://alokprateek.in/uses) — Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.
 * [Dexter Brylle](https://dexterbrylle.xyz/pages/uses) — Builder based in Manila, PH. Runs on caffeine.
 * [Dwayne Harris](https://dwayne.xyz/uses) — Freelance web and app developer in NYC with over 15 years of professional experience.
+* [Cory Dramsfeldt](https://coryd.dev/uses) — Web developer based in Southern California with over 10 years of professional experience.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
 * [Manuel Fernandez](https://github.com/teamhanded/uses) — Security Engineer
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
