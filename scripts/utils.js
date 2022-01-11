@@ -1,7 +1,7 @@
 const exec = require('@actions/exec');
 const core = require('@actions/core');
 const github = require('@actions/github');
-const Joi = require('@hapi/joi');
+const Joi = require('joi');
 const http = require('http');
 const https = require('https');
 const flags = require('./flags.js');
@@ -13,8 +13,8 @@ async function getCurrentBranchName() {
   const options = {
     silent: true,
     listeners: {
-      stdout: data => (myOutput += data.toString()),
-      stderr: data => (myError += data.toString()),
+      stdout: (data) => (myOutput += data.toString()),
+      stderr: (data) => (myError += data.toString()),
     },
   };
 
@@ -23,7 +23,7 @@ async function getCurrentBranchName() {
 }
 
 /** on master branch will return an empty array */
-module.exports.getMasterData = async function() {
+module.exports.getMasterData = async function () {
   const options = { silent: true };
   const curentBranchName = await getCurrentBranchName();
   // when on a branch/PR different from master
@@ -67,7 +67,7 @@ module.exports.Schema = Joi.object({
   tags: Joi.array().items(Joi.string()),
 });
 
-module.exports.getStatusCode = function(url) {
+module.exports.getStatusCode = function (url) {
   const client = url.startsWith('https') ? https : http;
   return new Promise((resolve, reject) => {
     const REQUEST_TIMEOUT = 10000;
@@ -78,17 +78,17 @@ module.exports.getStatusCode = function(url) {
     );
 
     client
-      .get(url, res => {
+      .get(url, (res) => {
         clearTimeout(timeoutId);
         resolve(res.statusCode);
       })
-      .on('error', err => reject(err));
+      .on('error', (err) => reject(err));
   });
 };
 
 // If there are errors, will fail the action & add a comment detailing the issues
 // If there are no errors, will leave an "all-clear" comment with relevant URLs (to ease a potential manual check)
-module.exports.communicateValidationOutcome = async function(
+module.exports.communicateValidationOutcome = async function (
   errors,
   failedUrls,
   changedData
@@ -99,8 +99,8 @@ module.exports.communicateValidationOutcome = async function(
 
     comment += [
       '🚨 We have detected the following issues, let us (contributors) know if you need support or clarifications:',
-      ...errors.map(e => `- ${e.message}`),
-      ...failedUrls.map(url => `- URL is invalid: ${url}`),
+      ...errors.map((e) => `- ${e.message}`),
+      ...failedUrls.map((url) => `- URL is invalid: ${url}`),
     ].join('\n');
   } else {
     comment += [
