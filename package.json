@@ -36,14 +36,13 @@
     "styled-components": "5.0.0-rc.3"
   },
   "scripts": {
-    "build": "npx --node-arg '-r esm' gatsby build",
-    "develop": "npx --node-arg '-r esm' gatsby develop",
+    "build": "npx --node-options '-r esm' gatsby build",
+    "develop": "npx --node-options '-r esm' gatsby develop",
     "start": "npm run develop",
-    "serve": "npx --node-arg '-r esm' gatsby serve",
+    "serve": "npx --node-options '-r esm' gatsby serve",
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "@architect/sandbox": "^1.6.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
