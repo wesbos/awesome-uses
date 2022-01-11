@@ -15,8 +15,15 @@
     "@actions/core": "^1.2.1",
     "@actions/exec": "^1.0.3",
     "@actions/github": "^2.0.1",
+    "@babel/core": "^7.16.7",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-react": "^7.16.7",
     "@hapi/joi": "^17.0.2",
+    "@types/node": "^16.11.19",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
     "country-emoji": "^1.5.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
     "esm": "^3.2.25",
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
@@ -33,7 +40,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "styled-components": "5.0.0-rc.3"
+    "styled-components": "5.0.0-rc.3",
+    "typescript": "^4.5.4"
   },
   "scripts": {
     "build": "npx --node-options '-r esm' gatsby build",
@@ -43,20 +51,19 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-config-wesbos": "0.0.19",
-    "eslint-plugin-html": "^5.0.5",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-wesbos": "^3.0.2",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.5.1"
   },
   "husky": {
     "hooks": {
