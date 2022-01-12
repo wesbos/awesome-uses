@@ -23,7 +23,6 @@
     "@typescript-eslint/parser": "^5.9.1",
     "country-emoji": "^1.5.6",
     "eslint-config-airbnb-typescript": "^16.1.0",
-    "esm": "^3.2.25",
     "gatsby": "^4.5.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-manifest": "^4.5.0",
@@ -44,10 +43,10 @@
     "typescript": "^4.5.4"
   },
   "scripts": {
-    "build": "npx --node-options '-r esm' gatsby build",
-    "develop": "npx --node-options '-r esm' gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "start": "npm run develop",
-    "serve": "npx --node-options '-r esm' gatsby serve",
+    "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "devDependencies": {
