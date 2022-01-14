@@ -3034,8 +3034,7 @@ module.exports = [
     name: 'Dhananjay Porwal',
     description:
       'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
-    url:
-      'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
+    url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
     twitter: '@dhananjayindia7',
     emoji: '🔥',
     country: '🇮🇳',
@@ -4141,8 +4140,7 @@ module.exports = [
     name: 'Prakhil TP',
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
-    url:
-      'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
+    url: 'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
     twitter: '@Prakhil_tp',
     emoji: '🖮🌏🧘🔭',
     country: '🇮🇳',
@@ -4671,8 +4669,7 @@ module.exports = [
     name: 'Sebastien Elet',
     description:
       'Full stack javascript developer which also loves ops and automation',
-    url:
-      'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
+    url: 'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
     twitter: '@SebastienElet',
     emoji: '🚀',
     country: '🇫🇷',
@@ -10901,8 +10898,7 @@ module.exports = [
   {
     name: 'Moisés Ñañez',
     description: 'Programmer and musician',
-    url:
-      'https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa',
+    url: 'https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa',
     twitter: '@moisesnandres',
     emoji: '🏊‍♂️',
     country: '🇵🇪',
@@ -11140,8 +11136,7 @@ module.exports = [
     name: 'Bamuleseyo Gideon',
     description:
       'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
-    url:
-      'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
+    url: 'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
     twitter: '@gideon_b_',
     emoji: '😎',
     country: '🇺🇬',
@@ -11473,8 +11468,7 @@ module.exports = [
     name: 'Muhammad Umair',
     description:
       'Fullstack front-end developer and designer, passionate in everything #JavaScript',
-    url:
-      'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
+    url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
     twitter: '@imumare',
     emoji: '💻',
     country: '🇵🇰',
@@ -12121,8 +12115,7 @@ module.exports = [
     name: 'Lakshmipriya Mukundan',
     description:
       'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
-    url:
-      'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
+    url: 'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
     twitter: '@lak_mee',
     emoji: ':😺 ',
     country: '🇮🇳',
