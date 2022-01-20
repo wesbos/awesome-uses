@@ -256,6 +256,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Manuel Coiai',
+    description: 'Creative front-end developer living in Pisa, Italy',
+    url: 'https://github.com/viralk/uses',
+    emoji: '🔥',
+    country: '🇮🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'Front End',
+      'CSS',
+      'HTML',
+      'SCSS',
+    ],
+  },
+  {
     name: 'Tim Leland',
     description: 'Full-Stack developer and Blogger.',
     url: 'https://timleland.com/uses',
