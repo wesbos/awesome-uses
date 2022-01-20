@@ -41,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
 * [Ben Lau](https://benlau.net/uses/) — Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
+* [Manuel Coiai](https://github.com/viralk/uses) — Creative front-end developer living in Pisa, Italy
 * [Tim Leland](https://timleland.com/uses) — Full-Stack developer and Blogger.
 * [Karol Sobolewski](http://www.sobolewski.tk/#uses) — Hello there, Iam the bald one. A junior full-stack developper.
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.

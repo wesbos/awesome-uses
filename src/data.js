@@ -263,13 +263,7 @@ module.exports = [
     country: '🇮🇹',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'JavaScript',
-      'Front End',
-      'CSS',
-      'HTML',
-      'SCSS',
-    ],
+    tags: ['JavaScript', 'Front End', 'CSS', 'HTML', 'SCSS'],
   },
   {
     name: 'Tim Leland',
