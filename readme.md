@@ -128,6 +128,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
 * [Sergio Martín](https://www.sergiomartin.dev/uses) — I enjoy creating and learning for the web. Standards and vanilla enthusiast
 * [Bryan Hickey](https://bryanjhickey.com/uses) — Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd
+* [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer
 * [Erik Kroes](https://www.erikkroes.nl/uses) — Photographer and creative in the world of accessibility
 * [Linus Rogge](https://linuscodes.com/uses) — Self-taught front-end dev and UI/UX lover
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
