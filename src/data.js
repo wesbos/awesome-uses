@@ -7139,7 +7139,7 @@ module.exports = [
     description: 'Full Stack Developer, Designer, and Instructor',
     url: 'https://tlockhart.github.io/portfolio/#uses',
     emoji: '👽',
-    country: 'us',
+    country: '🇺🇸',
     computer: 'windows',
     phone: 'android',
     twitter: '@tflock41',
