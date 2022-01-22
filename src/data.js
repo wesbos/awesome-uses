@@ -6634,8 +6634,8 @@ module.exports = [
       'Node.js',
       'React',
       'TypeScript',
-      'Web Developer'
-    ]
+      'Web Developer',
+    ],
   },
   {
     name: 'Leonardo Melo',
