@@ -11930,7 +11930,7 @@ module.exports = [
     twitter: '@fallebdi',
     emoji: '⚡',
     country: '🇸🇦',
-    computer: 'macOS',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Front End',
