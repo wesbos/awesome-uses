@@ -619,7 +619,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
 * [Chiko Mukwenha](https://chikomukwenha.co/2021/11/21/uses) — Frontend Engineer
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
-* [Patrick Obermeier](https://www.patrickobermeier.dev/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
+* [Patrick Obermeier](https://www.patrickobermeier.at/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
 * [Paul Mowat](https://www.paulmowat.co.uk/uses/) — A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced
 * [Luigi Cruz](https://luigicruz.dev/uses) — Software developer with a focus on the Web.
