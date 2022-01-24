@@ -12557,7 +12557,7 @@ module.exports = [
     name: 'Patrick Obermeier',
     description:
       'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
-    url: 'https://www.patrickobermeier.dev/uses',
+    url: 'https://www.patrickobermeier.at/uses',
     twitter: '@pobermeier87',
     emoji: '🍺',
     country: '🇦🇹',
@@ -12576,6 +12576,7 @@ module.exports = [
       'C#',
       'React',
       'Redux',
+      'GraphQL',
       'Next.js',
       'Gatsby',
       'Node.js',
