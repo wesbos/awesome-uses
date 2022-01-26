@@ -21,6 +21,9 @@ module.exports = [
       'TypeScript',
       'Svelte',
       'Rust',
+      'Pop!_OS',
+      'Figma',
+      'Netlify',
     ],
   },
   {
