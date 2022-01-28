@@ -4150,6 +4150,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Rajanand Ilangovan',
+    description:
+      'Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio',
+    url: 'https://rajanand.org/uses',
+    twitter: '@iRajanand',
+    emoji: '🎯',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Business Intelligence',
+      'Cloud',
+      'Data',
+      'SQL'
+      'SQL Server',
+      'Power BI',
+      'Tableau',
+      'Database',
+      'Azure',
+      'Google Cloud',
+      'ETL',
+      'SSIS',
+      'Trainer',
+    ],
+  },
+  {
     name: 'Andrew Byrd',
     description: 'Web dev. Girl Dad. Bodybuilder. Gamer.',
     url: 'https://www.andrewbyrd.dev/uses/',
