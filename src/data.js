@@ -4163,7 +4163,7 @@ module.exports = [
       'Business Intelligence',
       'Cloud',
       'Data',
-      'SQL'
+      'SQL',
       'SQL Server',
       'Power BI',
       'Tableau',
@@ -4172,7 +4172,6 @@ module.exports = [
       'Google Cloud',
       'ETL',
       'SSIS',
-      'Trainer',
     ],
   },
   {
