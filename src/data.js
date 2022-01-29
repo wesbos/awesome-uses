@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'Saurav Khare',
     description: 'Software Engineer & Frontend Developer',
-    url: 'https://sauravkhare.xyz',
+    url: 'https://sauravkhare.xyz/uses',
     twitter: '@ErahkSaurav',
     emoji: '✌️',
     country: '🇮🇳',
@@ -24,6 +24,9 @@ module.exports = [
       'Pop!_OS',
       'Figma',
       'Netlify',
+      'WordPress',
+      'HTML',
+      'CSS',
     ],
   },
   {
