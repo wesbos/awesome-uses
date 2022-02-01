@@ -3,7 +3,8 @@
 module.exports = [
   {
     name: 'Renan Moura',
-    description: 'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
+    description:
+      'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
     url: 'https://renanmf.com/uses',
     twitter: '@renanmouraf',
     emoji: '🏊‍♂️',
