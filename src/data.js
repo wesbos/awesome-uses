@@ -2574,6 +2574,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Neil Italia',
+    description:
+      'UI/UX Designer + Front-End Developer Unicorn Combo',
+    url: 'https://blog.neilitalia.dev/uses/',
+    emoji: '✨',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'Vue',
+      'Front End',
+      'Developer',
+      'UI/UX',
+      'Designer',
+    ],
+  },
+  {
     name: 'Felix Yeboah Jefferson',
     description: 'Fullstack Developer, UI Designer & a Nomad',
     url: 'https://jeffson.netlify.app/uses',
