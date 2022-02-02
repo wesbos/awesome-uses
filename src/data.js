@@ -248,6 +248,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Marc-André Bombeck',
+    description: 'IT-Project-Manager, Network-Administrator from Germany',
+    url: 'https://bombeck.io/uses',
+    twitter: '@mbombeck',
+    emoji: '🚀',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Project-Manager',
+      'Network',
+      'InfoSec',
+      'ctf',
+      'JavaScript',
+      'Node.js',
+      'nextjs',
+      'Bookmarks',
+    ],
+  },
+  {
     name: 'Ben Lau',
     description:
       'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
