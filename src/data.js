@@ -2575,8 +2575,7 @@ module.exports = [
   },
   {
     name: 'Neil Italia',
-    description:
-      'UI/UX Designer + Front-End Developer Unicorn Combo',
+    description: 'UI/UX Designer + Front-End Developer Unicorn Combo',
     url: 'https://blog.neilitalia.dev/uses/',
     emoji: '✨',
     country: '🇺🇸',
