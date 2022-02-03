@@ -113,7 +113,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, CompSci Student
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
-* [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and TailwindCSS
+* [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
@@ -410,7 +410,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pavel Melnik](https://theopract.gitlab.io/pavel-dev/uses/) — Web developer, Technology enthusiast, Energy Management System expert
 * [Miguel Ángel Durán](https://midu.dev/uses) — Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.
 * [David Llop](https://davidllop.com/uses) — Full stack developer from Girona. Open Source contributor. Always Learning.
-* [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.
+* [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & Tailwind CSS lover. Hip Hop & Afro house dancer.
 * [Karel De Smet](https://kareldesmet.be/uses) — Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Indie Maker & Entrepreneur
