@@ -1805,7 +1805,7 @@ module.exports = [
   {
     name: 'Mauro Reis Vieira',
     description:
-      'Front End Developer, fully focused on JavaScript, React and TailwindCSS',
+      'Front End Developer, fully focused on JavaScript, React and Tailwind CSS',
     url: 'https://mauroreisvieira.com/uses/',
     twitter: '@mauroreisvieira',
     emoji: '🥑',
@@ -8139,7 +8139,7 @@ module.exports = [
   {
     name: 'Alba Silvente',
     description:
-      'Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.',
+      'Front-end developer, Vue & Tailwind CSS lover. Hip Hop & Afro house dancer.',
     url: 'https://dawntraoz.com/uses',
     twitter: '@dawntraoz',
     emoji: '💃',
@@ -12055,7 +12055,7 @@ module.exports = [
       'PHP',
       'GraphQL',
       'REST',
-      'Tailwindcss',
+      'Tailwind CSS',
       'Bootstrap',
     ],
   },
