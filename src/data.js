@@ -27,7 +27,7 @@ module.exports = [
       'WordPress',
       'HTML',
       'CSS',
-    ]
+    ],
   },
   {
     name: 'Renan Moura',
