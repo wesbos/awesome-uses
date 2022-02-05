@@ -2,6 +2,34 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Saurav Khare',
+    description: 'Software Engineer & Frontend Developer',
+    url: 'https://sauravkhare.xyz/uses',
+    twitter: '@ErahkSaurav',
+    emoji: '✌️',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Frontend Developer',
+      'JavaScript',
+      'React',
+      'Next.js',
+      'Node',
+      'Craft CMS',
+      'TypeScript',
+      'Svelte',
+      'Rust',
+      'Pop!_OS',
+      'Figma',
+      'Netlify',
+      'WordPress',
+      'HTML',
+      'CSS',
+    ]
+  },
+  {
     name: 'Renan Moura',
     description:
       'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
