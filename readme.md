@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Renan Moura](https://renanmf.com/uses) — Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning
 * [Randy Daniel](https://randy.digital/uses) — (UI/UX Designer) + Developer
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Freelance web designer and developer
 * [Marco Kuehbauch](https://marcokuehbauch.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
@@ -39,6 +40,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics
 * [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
+* [Marc-André Bombeck](https://bombeck.io/uses) — IT-Project-Manager, Network-Administrator from Germany
 * [Ben Lau](https://benlau.net/uses/) — Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
 * [Manuel Coiai](https://github.com/viralk/uses) — Creative front-end developer living in Pisa, Italy
@@ -111,7 +113,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, CompSci Student
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
-* [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and TailwindCSS
+* [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
@@ -145,6 +147,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vincent Lejtzén](https://lejtzendesign.se/en/uses) — Front end developer with love for design, user experience and SEO.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Sapan Bodiwala](https://sapanbodiwala.com/uses) — Full Stack Software Engineer
+* [Neil Italia](https://blog.neilitalia.dev/uses/) — UI/UX Designer + Front-End Developer Unicorn Combo
 * [Felix Yeboah Jefferson](https://jeffson.netlify.app/uses) — Fullstack Developer, UI Designer & a Nomad
 * [Anubhav Srivastava](https://theanubhav.com/uses) — Web Developer. Occasional blogger. Part time open source contributor
 * [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
@@ -221,6 +224,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
+* [Rajanand Ilangovan](https://rajanand.org/uses) — Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
@@ -406,7 +410,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Pavel Melnik](https://theopract.gitlab.io/pavel-dev/uses/) — Web developer, Technology enthusiast, Energy Management System expert
 * [Miguel Ángel Durán](https://midu.dev/uses) — Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.
 * [David Llop](https://davidllop.com/uses) — Full stack developer from Girona. Open Source contributor. Always Learning.
-* [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & TailwindCSS lover. Hip Hop & Afro house dancer.
+* [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & Tailwind CSS lover. Hip Hop & Afro house dancer.
 * [Karel De Smet](https://kareldesmet.be/uses) — Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Indie Maker & Entrepreneur
