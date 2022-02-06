@@ -35,7 +35,7 @@ module.exports = [
       'Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.',
     url: 'https://github.com/bhantsi/uses',
     twitter: '@b_hantsi',
-    emoji: '🌴',
+    emoji: '⚽️',
     country: '🇳🇬',
     computer: 'linux',
     phone: 'android',
@@ -52,7 +52,8 @@ module.exports = [
       'HTML',
       'Web Developer',
       'SQL',
-      'Ubuntu'
+      'Ubuntu',
+      'Nigeria',
     ],
   },
   {
