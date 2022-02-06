@@ -30,6 +30,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Bala Hantsi',
+    description:
+      'Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.',
+    url: 'https://github.com/bhantsi/uses',
+    twitter: '@b_hantsi',
+    emoji: '🌴',
+    country: '🇳🇬',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Frontend',
+      'React',
+      'NextJs',
+      'Typescript',
+      'Developer',
+      'Javascript',
+      'Web',
+      'CSS',
+      'Node.js',
+      'HTML',
+      'Web Developer',
+      'SQL',
+      'Ubuntu'
+    ],
+  },
+  {
     name: 'Renan Moura',
     description:
       'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
