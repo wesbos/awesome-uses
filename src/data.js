@@ -2,6 +2,33 @@
 // Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
 module.exports = [
   {
+    name: 'Gavin Pereira',
+    description: 'Graphic designer & frontend developer from Goa, India',
+    url: 'https://gavinpereira.in/uses',
+    twitter: '@pexeixv',
+    emoji: '🥵',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+        "HTML5",Added
+        "CSS3",
+        "JavaScript",
+        "Nunjucks",
+        "Sass",
+        "Tailwind CSS",
+        "11ty",
+        "Git",
+        "Illustrator",
+        "Photoshop",
+        "After Effects",
+        "Figma",
+        "GSAP",
+        "Python",
+        "Contentful CMS"
+    ]
+  },
+  {
     name: 'Saurav Khare',
     description: 'Software Engineer & Frontend Developer',
     url: 'https://sauravkhare.xyz/uses',
