@@ -11,7 +11,7 @@ module.exports = [
     computer: 'windows',
     phone: 'android',
     tags: [
-        "HTML5",Added
+        "HTML5",
         "CSS3",
         "JavaScript",
         "Nunjucks",
