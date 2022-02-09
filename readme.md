@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Simone Silvestroni](https://minutestomidnight.co.uk/uses) — Sound designer, web developer, bass player
 * [Gavin Pereira](https://gavinpereira.in/uses) — Graphic designer & frontend developer from Goa, India
 * [Saurav Khare](https://sauravkhare.xyz/uses) — Software Engineer & Frontend Developer
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
