@@ -4,7 +4,7 @@ module.exports = [
   {
     name: 'Simone Silvestroni',
     description: 'Sound designer, web developer, bass player',
-    url: 'minutestomidnight.co.uk/uses',
+    url: 'https://minutestomidnight.co.uk/uses',
     emoji: '🎸',
     country: '🇮🇹',
     computer: 'apple',
