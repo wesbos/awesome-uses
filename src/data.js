@@ -4516,6 +4516,18 @@ module.exports = [
     tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
   },
   {
+    name: 'Jordan Haines',
+    description:
+      'Developer who loves all things tech. Mainly work with WordPress but loves working with Laravel and Docker',
+    url: 'https://jordanairwave.co.uk/uses.html',
+    twitter: '@jordanairwave',
+    emoji: '🔥',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['HTML', 'PHP', 'Developer', 'CSS', 'JavaScript', 'WordPress', 'Docker'],
+  },
+  {
     name: 'Hans Gerwitz',
     description: 'Design geek',
     url: 'https://hans.gerwitz.com/uses',
