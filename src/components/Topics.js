@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useCallback, useContext } from 'react';
 import styled from 'styled-components';
 import FilterContext from '../context/FilterContext';
 import * as icons from '../util/icons';
@@ -6,6 +6,15 @@ import * as icons from '../util/icons';
 export default function Topics() {
   const { countries, tags, devices, currentTag, setCurrentTag } = useContext(
     FilterContext
+  );
+
+  const handleKeyDown = useCallback(
+    tagName => e => {
+      if (e.keyCode === 13) {
+        setCurrentTag(tagName);
+      }
+    },
+    [setCurrentTag]
   );
 
   return (
@@ -16,6 +25,8 @@ export default function Topics() {
           htmlFor={`filter-${tag.name}`}
           key={`filter-${tag.name}`}
           clickable
+          onKeyDown={handleKeyDown(tag.name)}
+          tabIndex="0"
         >
           <input
             type="radio"
@@ -37,6 +48,8 @@ export default function Topics() {
           key={`filter-${tag.name}`}
           title={tag.name}
           clickable
+          onKeyDown={handleKeyDown(tag.name)}
+          tabIndex="0"
         >
           <input
             type="radio"
@@ -58,6 +71,8 @@ export default function Topics() {
           key={`filter-${tag.name}`}
           title={tag.name}
           clickable
+          onKeyDown={handleKeyDown(tag.name)}
+          tabIndex="0"
         >
           <input
             type="radio"
