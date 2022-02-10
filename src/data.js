@@ -2879,7 +2879,7 @@ module.exports = [
   {
     name: 'Jordan Haines',
     description: 'Full Stack Web Developer',
-    url: 'https://jordanairwave.co.uk/uses',
+    url: 'https://jordanairwave.co.uk/uses.html',
     twitter: '@jordanairwave',
     emoji: '😃',
     country: '🇬🇧',
@@ -2895,7 +2895,8 @@ module.exports = [
       'MJML',
       'Javascript',
       'Wordpress',
-      'Drupal',
+      'Laravel',
+      'Docker',
     ],
   },
   {
@@ -5892,18 +5893,6 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
-  },
-  {
-    name: 'Jordan Haines',
-    description:
-      'Developer who loves all things tech. Mainly work with WordPress but loves working with Laravel and Docker',
-    url: 'https://jordanairwave.co.uk/uses.html',
-    twitter: '@jordanairwave',
-    emoji: '🔥',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['HTML', 'PHP', 'Developer', 'CSS', 'JavaScript', 'WordPress', 'Docker'],
   },
   {
     name: 'Hans Gerwitz',
