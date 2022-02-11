@@ -130,7 +130,7 @@ module.exports = [
       'CSS',
       'Shopify',
       'VS Code',
-    ]
+    ],
   },
   {
     name: 'Renan Moura',
