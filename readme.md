@@ -222,6 +222,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mohammed Sohail](https://www.msohail.dev/uses) — A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Julian Stark](https://julianstark.de/uses) — WordPress Web Developer & Entrepreneur
+* [Aris Ripandi](https://ripandis.com/uses) — Software engineer & educator. Open Source enthusiast.
 * [Tobias Schmidt](https://tobiasschmidt.me/uses/) — Digitalisation Expert 📠
 * [Gift Egwuenu](https://giftegwuenu.com/uses) — 💻Frontend Engineer and Technical Writer.
 * [Chandu J S](https://chandujs.dev/uses) — 💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.
