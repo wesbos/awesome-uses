@@ -2887,7 +2887,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'Full Stack', 
+      'Full Stack',
       'PHP',
       'HTML',
       'SCSS',
