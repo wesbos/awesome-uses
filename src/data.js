@@ -113,6 +113,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Mitchell Christ',
+    description: 'Frontend Web Dev in OC. Svelte-lover, Supra-driver.',
+    url: 'https://nuotsu.dev/uses',
+    twitter: '@marutchell',
+    emoji: '🫐',
+    country: '🇯🇵',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Svelte',
+      'React',
+      'Javascript',
+      'HTML',
+      'CSS',
+      'Shopify',
+      'VS Code',
+    ]
+  },
+  {
     name: 'Renan Moura',
     description:
       'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
