@@ -963,6 +963,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Matthew Tao',
+    description:
+      'Computer Science student who loves CSS. Focuses on the little things that make a website delightful.',
+    url: 'https://www.matthewtao.com/uses',
+    emoji: '🦭',
+    twitter: '@MatthewTao5',
+    country: '🇳🇿',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Developer',
+      'CSS',
+      'JavaScript',
+      'React',
+      'HTML',
+      'Svelte',
+      'Node.js',
+      'Gatsby',
+      'Web Developer',
+      'JAMstack',
+    ],
+  },
+  {
     name: 'William Chin',
     description:
       'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
