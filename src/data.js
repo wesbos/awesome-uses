@@ -7356,7 +7356,8 @@ module.exports = [
   },
   {
     name: 'Jorge Ruvalcaba',
-    description: 'Software Engineer & Aspiring Entrepreneur who does things.',
+    description:
+      'Software Engineer & Aspiring Entrepreneur who does things. Frontend at Vest',
     url: 'https://jorgearuv.dev/uses',
     twitter: '@jorgearuv',
     emoji: '🚀',
