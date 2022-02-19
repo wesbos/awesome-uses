@@ -13236,7 +13236,7 @@ module.exports = [
   {
     name: 'Simon Lee',
     description: 'Coding and learning in an infinite loop.',
-    url: 'https://simonhlee97.github.io/uses',
+    url: 'https://simonhlee97.github.io/uses/',
     twitter: '@simonhlee97',
     emoji: '🌽',
     country: '🇺🇸',
@@ -13244,11 +13244,14 @@ module.exports = [
     tags: [
       'frontend developer',
       'backend developer',
+      'FreeCodeCamp Seoul',
       'JavaScript',
       'WordPress',
       'React',
       'VueJS',
       'Node.js',
+      'MongoDB',
+      'Postgres',
       'UI Developer',
       'web development',
       'golf handicap: 15',
