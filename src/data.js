@@ -13242,8 +13242,8 @@ module.exports = [
     country: '🇺🇸',
     computer: 'MacBook Air',
     tags: [
-      'frontend developer',
-      'backend developer',
+      'Front End',
+      'Back End',
       'FreeCodeCamp Seoul',
       'JavaScript',
       'WordPress',
