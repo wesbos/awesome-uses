@@ -13240,7 +13240,7 @@ module.exports = [
     twitter: '@simonhlee97',
     emoji: '🌽',
     country: '🇺🇸',
-    computer: 'MacBook Air',
+    computer: 'apple',
     tags: [
       'Front End',
       'Back End',
@@ -13249,6 +13249,9 @@ module.exports = [
       'WordPress',
       'React',
       'VueJS',
+      'SCSS',
+      'TypeScript',
+      'JamStack',
       'Node.js',
       'MongoDB',
       'Postgres',
