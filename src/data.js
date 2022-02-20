@@ -6168,26 +6168,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Samir Mammadhasanov',
-    description:
-      'Full stack web developer from Baku, Azerbaijan. CentOS Lover 🖤',
-    url: 'https://samirmh.dev/uses.html',
-    emoji: '💥',
-    country: '🇦🇿',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'PHP',
-      'Laravel',
-      'Phalcon',
-      'React',
-      'Vue.js',
-      'Baku',
-      'Web',
-      'Dev',
-    ],
-  },
-  {
     name: 'Jason Cory Alvernaz',
     description:
       'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
