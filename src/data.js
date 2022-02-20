@@ -622,25 +622,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Denys Tynok',
-    description: 'Front-end developer',
-    url: 'https://famiclone.dev/uses/',
-    twitter: '@justddden',
-    emoji: '🖼',
-    country: '🇺🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'React',
-      'Styled components',
-      'Typescript',
-      'Figma',
-      'UI',
-      'Docker',
-      'REST',
-    ],
-  },
-  {
     name: 'Josh Medeski',
     description:
       'Full-stack developer obsessed with vim, productivity, and design systems.',
