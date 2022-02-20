@@ -10773,6 +10773,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Jacob Herper',
+    description:
+      'Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.',
+    url: 'https://jacobherper.com/uses',
+    twitter: '@jakeherp',
+    emoji: '👨‍💻',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'Next.js',
+      'Front End',
+      'Remix',
+      'TypeScript',
+      'Performance',
+      'GraphQL',
+      'Redux',
+    ],
+  },
+  {
     name: 'Albin Groen',
     description:
       "Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.",
