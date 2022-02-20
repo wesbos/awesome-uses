@@ -9192,27 +9192,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Josh Farrant',
-    description:
-      'Full-Stack JavaScript developer, creator of Shortcuts JS, astrophysicist and private pilot. I turn coffee, alchemy-like, into code.',
-    url: 'https://farrant.me/uses',
-    twitter: '@joshfarrant',
-    emoji: '🎉',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'Node.js',
-      'UX',
-      'Open Source Software',
-    ],
-  },
-  {
     name: 'Steven van Loef',
     description: 'Web Developer, App Developer',
     url: 'https://steven.vanloef.com/uses',
