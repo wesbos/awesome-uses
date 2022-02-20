@@ -1405,30 +1405,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Kushan Shamika',
-    description:
-      'Coder · Tech Freak · SE Undergraduate · FOSS Lover · BackEnd Developer',
-    url: 'http://kushan.info/uses',
-    twitter: '@shamika_kushan',
-    emoji: '👨‍💻',
-    country: '🇱🇰',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'NestJS',
-      'React JS',
-      'AWS',
-      'DevOps',
-      'PHP',
-      'Developer',
-      'Front End',
-      'Firebase',
-      'JavaScript',
-      'SQL',
-      'Back End',
-    ],
-  },
-  {
     name: 'Joshua Rose',
     description:
       'Loves Christ, loves family, loves programming, full stack dev',
