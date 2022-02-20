@@ -180,7 +180,7 @@ module.exports = [
   },
   {
     name: 'Lazar Miseljic',
-    description: 'Front end, but doesn\'t mind taking a look round the back',
+    description: "Front end, but doesn't mind taking a look round the back",
     url: 'https://fuzzylogic.ltd/uses',
     emoji: '🌵',
     country: '🇷🇸',
