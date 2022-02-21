@@ -13094,7 +13094,7 @@ module.exports = [
       'Node.js',
       'MongoDB',
       'UI',
-    ]
+    ],
   },
   {
     name: 'Matt Walsh',
