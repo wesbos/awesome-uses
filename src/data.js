@@ -6384,7 +6384,7 @@ module.exports = [
     twitter: '@eivindml',
     emoji: '🌫',
     country: '🇳🇴',
-    computer: 'macos',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Developer',
