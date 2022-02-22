@@ -6377,6 +6377,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Eivind Lindbråten',
+    description:
+      'One-man studio handcrafting apps and websites',
+    url: 'https://madebymist.com/uses',
+    twitter: '@eivindml',
+    emoji: '🌫',
+    country: '🇳🇴',
+    computer: 'macos',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Typescript',
+      'Next.js', 
+      'Sanity',
+      'Tailwind',
+      'Swift',
+      'SwiftUI',
+      'ComosableArchitecture',
+      'Design-oriented'
+    ],
+  },
+  {
     name: 'Diego López',
     description:
       'Frontend developer making thins with Vue & Nuxt. Gamer and beer lover',
