@@ -8335,6 +8335,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Eivind Lindbråten',
+    description: 'One-man studio handcrafting apps and websites',
+    url: 'https://madebymist.com/uses',
+    twitter: '@eivindml',
+    emoji: '🌫',
+    country: '🇳🇴',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Typescript',
+      'Next.js',
+      'Sanity',
+      'Swift',
+      'SwiftUI',
+      'Tailwind',
+      'Design-oriented'
+    ],
+  },
+  {
     name: 'Joe Previte',
     description: 'Developer Advocate on the Open Source Team at Facebook',
     url: 'https://joeprevite.com/uses',
