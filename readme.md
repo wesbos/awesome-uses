@@ -291,7 +291,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 - [Emma Goto](https://emgoto.com/uses) — Frontend developer, weekly blogger and creator of Trello power-ups.
 - [Chris Otto](https://chrisotto.dev/uses/) — Software engineer. I enjoy JavaScript, DevOps and Testing.
 - [Chris Berry](http://chrisberry.io/uses) — Designer / Developer 🦄, Linux advocate, mechanical keyboard connoisseur
-- [Eivind Lindbråten](https://madebymist.com/uses) — 🌫 One-man studio handcrafting apps and websites.
 - [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
 - [Federico Vitale](https://fedevitale.dev/uses) — 20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.
 - [Vishwasa Navada K](https://vishwas.tech/uses) — Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.
