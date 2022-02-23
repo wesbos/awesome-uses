@@ -5160,6 +5160,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Eosis',
+    description:
+      'Python enthusiast and future web developer',
+    url: 'https://github.com/EosisWasTaken/uses',
+    twitter: '@eosiswastaken',
+    computer: 'windows',
+    emoji: '🗿',
+    country: '🇫🇷',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Programmer',
+      'Python',
+      'Windows',
+      'Beginner',
+      'Discord',
+      'HTML',
+      'CSS',
+      'Gamer',
+      'SQlite',
+      'VSCode'
+    ],
+  },
+  {
     name: 'Manuel Fernandez',
     description: 'Security Engineer',
     url: 'https://github.com/teamhanded/uses',
