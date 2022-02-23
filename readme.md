@@ -262,6 +262,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dwayne Harris](https://dwayne.xyz/uses) — Freelance web and app developer in NYC with over 15 years of professional experience.
 * [Cory Dramsfeldt](https://coryd.dev/uses) — Web developer based in Southern California with over 10 years of professional experience.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
+* [Eosis](https://github.com/EosisWasTaken/uses) — Python enthusiast and future web developer
 * [Manuel Fernandez](https://github.com/teamhanded/uses) — Security Engineer
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.

@@ -5161,8 +5161,7 @@ module.exports = [
   },
   {
     name: 'Eosis',
-    description:
-      'Python enthusiast and future web developer',
+    description: 'Python enthusiast and future web developer',
     url: 'https://github.com/EosisWasTaken/uses',
     twitter: '@eosiswastaken',
     computer: 'windows',
@@ -5180,7 +5179,7 @@ module.exports = [
       'CSS',
       'Gamer',
       'SQlite',
-      'VSCode'
+      'VSCode',
     ],
   },
   {
