@@ -322,6 +322,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Praveen Kumar Purushothaman](https://blog.praveen.science/my-personal-development-environment/) — Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.
 * [Praveen Puglia](https://praveenpuglia.com/uses/) — Web Developer. Love Vue & CSS. Building life one component at a time!
 * [Gaya Kessler](https://theclevernode.com/uses) — Freelance web developer specialising in JavaScript
+* [Eivind Lindbråten](https://madebymist.com/uses) — One-man studio handcrafting apps and websites
 * [Diego López](https://codingpotions.com/uses) — Frontend developer making thins with Vue & Nuxt. Gamer and beer lover
 * [Rene Pot](http://renepot.com/uses) — Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer
 * [Andre Landgraf](https://andre-landgraf.cool/uses/) — Passionate Fullstack Web Developer

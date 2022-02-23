@@ -6401,8 +6401,7 @@ module.exports = [
   },
   {
     name: 'Eivind Lindbråten',
-    description:
-      'One-man studio handcrafting apps and websites',
+    description: 'One-man studio handcrafting apps and websites',
     url: 'https://madebymist.com/uses',
     twitter: '@eivindml',
     emoji: '🌫',
@@ -6412,13 +6411,13 @@ module.exports = [
     tags: [
       'Developer',
       'Typescript',
-      'Next.js', 
+      'Next.js',
       'Sanity',
       'Tailwind',
       'Swift',
       'SwiftUI',
       'ComosableArchitecture',
-      'Design-oriented'
+      'Design-oriented',
     ],
   },
   {
