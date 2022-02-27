@@ -991,7 +991,7 @@ module.exports = [
   },
   {
     name: 'Angélique Weger',
-    description: 'front-end team lead :: adjunct prof :: always learning',
+    description: 'engineering manager :: adjunct prof :: always learning',
     url: 'https://angeliqueweger.com/uses',
     twitter: '@messypixels',
     emoji: '✨',
