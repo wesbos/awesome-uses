@@ -131,6 +131,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.
 * [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
+* [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐
 * [Sergio Martín](https://www.sergiomartin.dev/uses) — I enjoy creating and learning for the web. Standards and vanilla enthusiast
 * [Bryan Hickey](https://bryanjhickey.com/uses) — Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd
 * [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer

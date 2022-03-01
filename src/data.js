@@ -2232,8 +2232,7 @@ module.exports = [
   },
   {
     name: 'Emanuele Bartolesi',
-    description:
-      'Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐',
+    description: 'Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐',
     url: 'https://www.emanuelebartolesi.com/uses',
     twitter: '@kasuken',
     emoji: '🦄',
@@ -2247,7 +2246,7 @@ module.exports = [
       'React',
       'Microsoft365',
       'GitHub',
-      'Speakers'
+      'Speakers',
     ],
   },
   {
