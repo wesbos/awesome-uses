@@ -12778,7 +12778,7 @@ module.exports = [
     twitter: '@gringogidget',
     emoji: '😎',
     country: '🇨🇦',
-    computer: 'Mac',
+    computer: 'Apple',
     phone: 'iPhone 12 Pro Max',
     tags: [
       'Web Development', 'Front End', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'JavaScript', 'C++', 'Arduino', 'React', 'Redux', 'GraphQL', 'Next.js', 'Gatsby', 'Node.js', 'Webpack', 'Gulp', 'Linux', 'Remote', 'Open Source', 'macOS', 'npm', 'Illustrator', 'Azure', 'Photoshop', 'Figma', 'VS Code', 'Tailwind CSS', 'Styled-Components', 'SEO', 'Accessibility', 'Typescript', 'Sanity', 'Design', 'UI', 'UX',
