@@ -12771,6 +12771,20 @@ module.exports = [
     tags: ['HTML', 'CSS', 'Go', 'Rust', 'Blogger', 'Vim', 'Linux', 'Gamer'],
   },
   {
+    name: 'Kristina Groeger',
+    description:
+      '💻 👻 Over ten years of front-end development and UI / UX development and design.',
+    url: 'https://github.com/kr1st1nagr03g3r/uses',
+    twitter: '@gringogidget',
+    emoji: '😎',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Development', 'Front End', 'HTML', 'CSS', 'Sass', 'Bootstrap', 'JavaScript', 'C++', 'Arduino', 'React', 'Redux', 'GraphQL', 'Next.js', 'Gatsby', 'Node.js', 'Webpack', 'Gulp', 'Linux', 'Remote', 'Open Source', 'macOS', 'npm', 'Illustrator', 'Azure', 'Photoshop', 'Figma', 'VS Code', 'Tailwind CSS', 'Styled-Components', 'SEO', 'Accessibility', 'Typescript', 'Sanity', 'Design', 'UI', 'UX',
+    ],
+  },
+  {
     name: 'Patrick Obermeier',
     description:
       'Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
