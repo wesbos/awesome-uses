@@ -2599,6 +2599,15 @@ module.exports = [
     ],
   },
   {
+    name: 'Yash Singh',
+    description: 'Fullstack web software developer',
+    url: 'https://www.yashsingh.us/uses',
+    country: '🇺🇸',
+    emoji: '🎉',
+    computer: 'linux',
+    phone: 'iphone'
+  }
+  {
     name: 'Vincent Lejtzén',
     description:
       'Front end developer with love for design, user experience and SEO.',
