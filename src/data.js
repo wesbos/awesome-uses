@@ -2605,7 +2605,24 @@ module.exports = [
     country: '🇺🇸',
     emoji: '🎉',
     computer: 'linux',
-    phone: 'iphone'
+    phone: 'iphone',
+    tags: [
+      'Frontend',
+      'React',
+      'Javascript',
+      'Typescript',
+      'VS Code',
+      'Web',
+      'Css',
+      'Node.js',
+      'HTML',
+      'HTML5',
+      'Open Source Software',
+      'Redux',
+      'Websites',
+      'ES6',
+      'MDX',
+    ],
   }
   {
     name: 'Vincent Lejtzén',
