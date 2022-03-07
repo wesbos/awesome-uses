@@ -2623,7 +2623,7 @@ module.exports = [
       'ES6',
       'MDX',
     ],
-  }
+  },
   {
     name: 'Vincent Lejtzén',
     description:
