@@ -8050,6 +8050,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Jordan Elver',
+    description: 'Full Stack developer who loves Ruby, Elixir, and Rust.',
+    url: 'https://elver.me/uses/',
+    twitter: '@jordelver',
+    emoji: '👾',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Back End',
+      'Ruby',
+      'Ruby on Rails',
+      'Elixir',
+      'Phoenix',
+      'Rust',
+      'JavaScript',
+      'Vim',
+    ],
+  },
+  {
     name: 'Liam Richardson',
     description:
       'User Interface developer focusing on Performance, A11y and CSS',
