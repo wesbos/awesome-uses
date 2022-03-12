@@ -13126,7 +13126,7 @@ module.exports = [
     twitter: '@DevrimKai',
     emoji: '🐧',
     country: '🇹🇷',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Student',
