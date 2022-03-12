@@ -183,7 +183,7 @@ module.exports = [
     description: 'Programmer 💻, Gamer 👾, Tech lover 🎧',
     url: 'https://enixes.com/uses/',
     emoji: '🔥',
-    twitter: '@amel_selmane',
+    twitter: '@selmane_amel',
     country: '🇫🇷',
     computer: 'apple',
     phone: 'android',
