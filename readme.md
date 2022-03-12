@@ -642,6 +642,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
+* [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Peter Forret](https://blog.forret.com/uses/) — Photographer, tinkerer, software architect
 * [Nick Ali](https://nali.org/uses) — Marketer who used to be a software architect.
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
