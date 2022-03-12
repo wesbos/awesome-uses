@@ -204,7 +204,7 @@ module.exports = [
       'Affinity Photo',
       'Sketch',
       'Figma',
-      'VS Code'
+      'VS Code',
     ],
   },
   {
