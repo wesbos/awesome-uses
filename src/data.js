@@ -13103,7 +13103,8 @@ module.exports = [
   },
   {
     name: 'Filip Pacurar',
-    description: 'Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO',
+    description:
+      'Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO',
     url: 'https://pacurar.dev/uses/',
     twitter: '@filipacro',
     emoji: '⚡',
@@ -13120,7 +13121,7 @@ module.exports = [
       'GraphQL',
       'REST',
       'PHP',
-      'MySQL,
+      'MySQL',
     ],
   },
   {
