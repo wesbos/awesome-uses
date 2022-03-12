@@ -642,6 +642,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
+* [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Peter Forret](https://blog.forret.com/uses/) — Photographer, tinkerer, software architect
