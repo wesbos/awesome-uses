@@ -3794,6 +3794,17 @@ module.exports = [
     tags: ['Web', 'Developer', 'JavaScript'],
   },
   {
+    name: 'Ishaan Bedi',
+    description: 'Developer',
+    url: 'https://www.ishaanbedi.in/uses',
+    twitter: '@ishaanbedi',
+    emoji: '✨',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['Web', 'Developer', 'iOS', 'Swift', 'SwiftUI', 'javascript'],
+  },
+  {
     name: 'Aditya Thebe',
     description:
       '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
