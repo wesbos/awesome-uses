@@ -10080,7 +10080,7 @@ module.exports = [
   {
     name: 'Erv Walter',
     description: 'Father, Husband, Web Developer, Board Game Addict',
-    url: 'https://blog.ewal.net/uses/',
+    url: 'https://ewal.dev/uses',
     twitter: '@ervwalter',
     emoji: '🎲',
     country: '🇺🇸',
@@ -10092,7 +10092,7 @@ module.exports = [
       'TypeScript',
       'React',
       'C#',
-      '.NET Core',
+      '.NET',
       'Azure',
     ],
   },
