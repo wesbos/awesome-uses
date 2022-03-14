@@ -3802,7 +3802,7 @@ module.exports = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'android',
-    tags: ['Web', 'Developer', 'iOS', 'Swift', 'SwiftUI', 'javascript'],
+    tags: ['Web', 'Developer', 'iOS', 'Swift', 'SwiftUI', 'javascript', 'apple'],
   },
   {
     name: 'Aditya Thebe',
