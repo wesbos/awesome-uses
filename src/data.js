@@ -3796,7 +3796,7 @@ module.exports = [
   {
     name: 'Ishaan Bedi',
     description: 'Developer',
-    url: 'https://www.ishaanbedi.in/uses',
+    url: 'https://www.ishaanbedi.in/Uses',
     twitter: '@ishaaanbedi',
     emoji: '✨',
     country: '🇮🇳',
