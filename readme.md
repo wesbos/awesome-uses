@@ -498,7 +498,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jorge Calle](https://jorgecalle.co/uses) — Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)
 * [Rhys Botfield](https://rhysbotfield.co.uk/uses) — Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor
 * [Quentin Laffont](https://uses.qlaffont.com) — Full Stack JS Developer, Tournament Organiser, Video-Game lover
-* [Erv Walter](https://blog.ewal.net/uses/) — Father, Husband, Web Developer, Board Game Addict
+* [Erv Walter](https://ewal.dev/uses) — Father, Husband, Web Developer, Board Game Addict
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Krzysztof Żuraw](https://krzysztofzuraw.com/uses) — Developer, nerd, co-organizer, chemex lover
