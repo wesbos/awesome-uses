@@ -6,7 +6,7 @@ module.exports = [
     description: 'Engineer, Programmer, Web Developer',
     url: 'https://vk4s.github.io/uses/',
     emoji: '👨‍💻',
-    country: 'IN',
+    country: '🇮🇳',
     computer: 'windows',
     phone: 'android',
     tags: [
