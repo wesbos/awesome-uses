@@ -9995,6 +9995,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Camilo Romero',
+    description: 'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
+    url: 'https://camiloromero.dev/uses',
+    twitter: '@kmorope',
+    emoji: '🍔',
+    country: '🇨🇴',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Front End',
+      'JavaScript',
+      'React',
+      'CSS',
+      'NoSql',
+      'Firebase'
+    ],
+  },
+  {
     name: 'Rhys Botfield',
     description:
       'Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor',
