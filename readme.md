@@ -496,6 +496,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kaleigh Scruggs](https://kaleighscruggs.com/uses) — Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom
 * [Ste Grainer](https://stegrainer.com/uses) — Designer, Developer
 * [Jorge Calle](https://jorgecalle.co/uses) — Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)
+* [Camilo Romero](https://camiloromero.dev/uses) — Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.
 * [Rhys Botfield](https://rhysbotfield.co.uk/uses) — Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor
 * [Quentin Laffont](https://uses.qlaffont.com) — Full Stack JS Developer, Tournament Organiser, Video-Game lover
 * [Erv Walter](https://ewal.dev/uses) — Father, Husband, Web Developer, Board Game Addict
