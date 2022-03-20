@@ -5827,12 +5827,11 @@ module.exports = [
   },
   {
     name: 'Emma Goto',
-    description:
-      'Frontend developer, weekly blogger and creator of Trello power-ups.',
+    description: 'Frontend developer, blogger and creator of Trello power-ups.',
     url: 'https://emgoto.com/uses',
     twitter: '@emma_goto',
     emoji: '🍙',
-    country: '🇦🇺',
+    country: '🇯🇵',
     computer: 'apple',
     phone: 'android',
     tags: ['Front End', 'Blogger', 'React', 'Gatsby'],
