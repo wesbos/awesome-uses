@@ -560,11 +560,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'React',
-      'Node.js',
-    ],
+    tags: ['JavaScript', 'React', 'Node.js'],
   },
   {
     name: 'Joshua Cerbito',
