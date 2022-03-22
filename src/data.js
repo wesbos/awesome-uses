@@ -552,6 +552,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Melanie Kat',
+    description: 'Silly front-end engineer (she/her)',
+    url: 'https://melkat.blog/p/uses',
+    twitter: '@zicklepop',
+    emoji: '💖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Joshua Cerbito',
     description: 'I write code, I train devs, and I play music.',
     url: 'https://www.cerbito.com/uses',
