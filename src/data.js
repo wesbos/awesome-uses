@@ -8012,7 +8012,7 @@ module.exports = [
       'PHP',
       'JavaScript',
       'Back End',
-      'Go'
+      'Go',
     ],
   },
   {
