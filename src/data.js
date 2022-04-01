@@ -10140,6 +10140,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Adrián Alcorta Puente',
+    description:
+      'Frontend developer. I love mountains, Game Boys and Post-rock music.',
+    url: 'https://ardi.land/uses',
+    twitter: '@Ardi__land',
+    emoji: '🍓',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['JavaScript', 'React', 'TypeScript', 'CSS', 'Gatsby', 'JAMstack'],
+  },
+  {
     name: 'Erv Walter',
     description: 'Father, Husband, Web Developer, Board Game Addict',
     url: 'https://ewal.dev/uses',
