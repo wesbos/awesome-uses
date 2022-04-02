@@ -501,6 +501,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Camilo Romero](https://camiloromero.dev/uses) — Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.
 * [Rhys Botfield](https://rhysbotfield.co.uk/uses) — Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor
 * [Quentin Laffont](https://uses.qlaffont.com) — Full Stack JS Developer, Tournament Organiser, Video-Game lover
+* [Adrián Alcorta Puente](https://ardi.land/uses) — Frontend developer. I love mountains, Game Boys and Post-rock music.
 * [Erv Walter](https://ewal.dev/uses) — Father, Husband, Web Developer, Board Game Addict
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
