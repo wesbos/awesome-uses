@@ -8,7 +8,7 @@ module.exports = [
     emoji: '🥴',
     country: '🇻🇳',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     twitter: '@yeetusmagus',
     tags: [
       'c', 
