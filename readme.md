@@ -209,6 +209,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Cesar Gomez](https://www.csargomez.com/#uses) — Web Developer
+* [Sampan Verma](https://www.samlovescoding.com/articles/uses) — Senior Software Developer, YouTuber, Streamer and Gamer
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
 * [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
 * [David Morales](https://davidmles.com/uses) — Computer Engineer. Web Developer. Teacher at ninjadevel.com
