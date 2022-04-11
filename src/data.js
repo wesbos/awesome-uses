@@ -16,7 +16,7 @@ module.exports = [
       'Node.js',
       'TypeScript',
       'Next',
-      'Nuxt'
+      'Nuxt',
       'UX',
       'Python',
       'Javascript'
