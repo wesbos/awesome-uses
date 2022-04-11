@@ -19,7 +19,7 @@ module.exports = [
       'Nuxt',
       'UX',
       'Python',
-      'Javascript'
+      'Javascript',
     ],
   },
   {
