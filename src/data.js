@@ -9941,6 +9941,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Jacopo DP.',
+    description: 'Student and PHP, Javascript developer. Learning cybersecurity',
+    url: 'https://shish.cat/uses/',
+    twitter: '@shishcat8214',
+    emoji: '🐈',
+    country: '🇮🇹',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Student',
+      'Back end',
+      'JavaScript', 
+      'Node.JS',
+      'Express.js',
+      'PHP',
+      'ReactPHP',
+      'AmpPHP',
+      'Web dev',
+      'Ethical Hacker',
+      'Git',
+      'Linux'
+    ],
+  },
+  {
     name: 'Dávid Lévai',
     description:
       'Building production-ready apps, Freelancing as a Software Dev',
