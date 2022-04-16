@@ -9942,7 +9942,8 @@ module.exports = [
   },
   {
     name: 'Jacopo DP.',
-    description: 'Student and PHP, Javascript developer. Learning cybersecurity',
+    description:
+      'Student and PHP, Javascript developer. Learning cybersecurity',
     url: 'https://shish.cat/uses/',
     twitter: '@shishcat8214',
     emoji: '🐈',
@@ -9952,7 +9953,7 @@ module.exports = [
     tags: [
       'Student',
       'Back end',
-      'JavaScript', 
+      'JavaScript',
       'Node.JS',
       'Express.js',
       'PHP',
@@ -9961,7 +9962,7 @@ module.exports = [
       'Web dev',
       'Ethical Hacker',
       'Git',
-      'Linux'
+      'Linux',
     ],
   },
   {
