@@ -5599,6 +5599,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Nathan Knowler',
+    description: 'Developer focused on making the Web accessible, beautiful, and fun.',
+    url: 'https://knowlerkno.ws/uses/',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Web',
+      'Accessibility',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Remix',
+      'Deno',
+      'Neovim',
+    ],
+  },
+  {
     name: 'Asur Bernardo',
     description:
       'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
