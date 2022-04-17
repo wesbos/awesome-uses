@@ -5600,7 +5600,8 @@ module.exports = [
   },
   {
     name: 'Nathan Knowler',
-    description: 'Developer focused on making the Web accessible, beautiful, and fun.',
+    description:
+      'Developer focused on making the Web accessible, beautiful, and fun.',
     url: 'https://knowlerkno.ws/uses/',
     country: '🇨🇦',
     computer: 'apple',
