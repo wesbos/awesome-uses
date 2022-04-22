@@ -483,6 +483,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
 * [Janez Čadež](https://janez.tech/uses) — Full-Stack developer, gym enthusiast and self-improvement nerd
 * [Bezael Pérez](https://dominicode.com/uses) — Front-end Developer passionate. Trainer & speaker
+* [Jim Fang](https://airfusion.dev/uses) — Developer, Tech enthusiast, Student.
 * [Andrew Zeller](https://zeller.io/uses) — Frontend engineer and designer | SF Bay Area | Drone enthusiast
 * [Thomas Tuvignon](https://thomastuvignon.com/en/uses) — Front-end developer and occasional designer.
 * [MG Santos](https://fullybearded.com/uses/) — Full-stack (and fully bearded) developer who loves bots, automations and building stuff 
