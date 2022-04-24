@@ -84,7 +84,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Goß](https://www.michaelgoss.de/uses) — Web Dev. Handstander. Tech Enthusiast.
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.
-* [Sami Singh](https://httpster.io/uses/) — Design, coffee and acid jazz.
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
 * [Taisuke Mino](https://taisukemino.com/uses/) — Crypto Entrepreneur
 * [Mathias Borgmalm](https://www.mathiasborgmalm.dev/uses/) — Thinks CSS is underrated.
