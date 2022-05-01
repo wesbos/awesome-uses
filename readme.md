@@ -282,6 +282,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Litzinger](https://mlitzinger.com/uses/) — Web Developer
 * [Nathan Knowler](https://knowlerkno.ws/uses/) — Developer focused on making the Web accessible, beautiful, and fun.
 * [Asur Bernardo](https://asur.dev/uses/) — Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!
+* [Lazar Nikolov](https://nikolovlazar.com/uses) — Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.
 * [Vinoth Chellamuthu](https://ecevinoth.github.io/#uses) — Data Engineer
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.

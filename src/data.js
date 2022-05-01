@@ -5622,7 +5622,8 @@ module.exports = [
   },
   {
     name: 'Lazar Nikolov',
-    description: 'Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.',
+    description:
+      'Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.',
     url: 'https://nikolovlazar.com/uses',
     twitter: '@NikolovLazar',
     emoji: '🧔🏻‍♂️',
@@ -5640,7 +5641,7 @@ module.exports = [
       'Live Streaming',
       'Developer Advocate',
       'Open Source Software',
-      'Streamer'
+      'Streamer',
     ],
   },
   {
