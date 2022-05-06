@@ -11566,6 +11566,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Murendeni Mukwevho',
+    description: 'Web Developer',
+    url: 'https://mukwevhom.xyz/uses',
+    twitter: '@iammurendeni',
+    emoji: '🕷',
+    country: '🇿🇦',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Front End',
+      'React',
+      'Node',
+      'Gatsby',
+      'Javascript',
+      'HTML',
+      'CSS',
+      'Express',
+    ],
+  },
+  {
     name: 'Maria Altyeva Schuessler ',
     description:
       'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
