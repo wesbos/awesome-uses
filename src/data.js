@@ -11547,11 +11547,11 @@ module.exports = [
   {
     name: 'Murendeni Mukwevho',
     description: 'Web Developer',
-    url: 'https://mukwevhom.xyz/uses',
+    url: 'https://murendeni.dev/uses',
     twitter: '@iammurendeni',
     emoji: '🕷',
     country: '🇿🇦',
-    computer: 'apple',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Web Developer',
