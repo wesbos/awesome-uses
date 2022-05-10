@@ -158,7 +158,7 @@ module.exports = [
       'Affinity',
       'Prismic',
       'Netlify',
-      'React'
+      'React',
     ],
   },
   {
