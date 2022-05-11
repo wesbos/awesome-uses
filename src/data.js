@@ -3380,7 +3380,7 @@ module.exports = [
   },
   {
     name: 'Ammar Alakkad',
-    description: 'Web Developer',
+    description: 'Sr. Frontend Engineer',
     url: 'https://ammar.codes/uses/',
     twitter: '@AmmarCodes',
     emoji: '☕',
