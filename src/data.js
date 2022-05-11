@@ -142,7 +142,7 @@ module.exports = [
     url: 'https://www.just-andy.uk/uses',
     twitter: '@justandydesign1',
     emoji: '😀',
-    country: '🇮🇳',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
     computer: 'apple',
     phone: 'iphone',
     tags: [
