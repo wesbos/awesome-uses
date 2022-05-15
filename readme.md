@@ -41,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mitchell Christ](https://nuotsu.dev/uses) — Frontend Web Dev in OC. Svelte-lover, Supra-driver.
 * [Renan Moura](https://renanmf.com/uses) — Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning
 * [Randy Daniel](https://randy.digital/uses) — (UI/UX Designer) + Developer
+* [David Vidmar](https://vidmar.net/uses) — Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.
 * [Amel Selmane](https://enixes.com/uses/) — Programmer 💻, Gamer 👾, Tech lover 🎧
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Front end, but doesn't mind taking a look round the back
 * [Marco Kuehbauch](https://marcokuehbauch.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.

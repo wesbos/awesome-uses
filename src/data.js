@@ -284,7 +284,8 @@ module.exports = [
   },
   {
     name: 'David Vidmar',
-    description: 'Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.',
+    description:
+      'Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.',
     url: 'https://vidmar.net/uses',
     twitter: '@davidvidmar',
     emoji: '🖥',
