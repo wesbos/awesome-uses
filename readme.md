@@ -399,6 +399,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) — Full stack JavaScript Developer, blogger and speaker.
 * [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.
 * [Nicholas La Roux](https://nicholaslaroux.com/uses) — Developer at Shopify, musician, and environmentalist.
+* [Charlie Say](https://www.charliesay.xyz/uses) — Another bald Full Stack developer from Manchester UK
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Simeon Griggs](https://www.simeongriggs.dev/uses) — Full stack developer and part time Cyclist in Newcastle upon Tyne, UK
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
