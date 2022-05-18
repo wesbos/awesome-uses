@@ -12977,7 +12977,8 @@ module.exports = [
   },
   {
     name: 'Chris Wiegman',
-    description: 'Engineering manager, teacher, aspiring writer and ex-pilot currently focused on WordPress, developer experience and humane and sustainable technology.',
+    description:
+      'Engineering manager, teacher, aspiring writer and ex-pilot currently focused on WordPress, developer experience and humane and sustainable technology.',
     url: 'https://chriswiegman.com/uses',
     twitter: '@ChrisWiegman',
     emoji: '👨‍💻',
