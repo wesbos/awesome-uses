@@ -468,7 +468,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adam Laycock](https://www.arcath.net/uses) — IT Engineer, Web Developer & Blogger
 * [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
-* [Scott Spence](https://scottspence.me#uses) — Father, husband 👨‍👩‍👧 Web Developer. Just In Time learner ❤️ 👍 http://my.pronoun.is/he
+* [Scott Spence](https://scottspence.com/uses) — Developer, Svelte, GraphQL
 * [Marc Littlemore](https://marclittlemore.com/uses) — Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
 * [Danielle Mayabb](https://danielle-m.dev/uses) — Full-stack developer, Accessibility Engineer, Information Architect, Generalist
 * [José Manuel Lucas](https://jmlweb.es/blog/2020/uses/) — Professional Frontend Engineer - Amateur musician
