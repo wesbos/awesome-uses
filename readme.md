@@ -408,6 +408,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician
 * [Yoann Fleury](https://blog.yoannfleury.dev/uses) — Front End Web Developer, Blogger
 * [Keith Wagner](https://kpwags.com/uses) — Experienced full stack developer. Always trying to learn new and better ways of doing things.
+* [Sebastian Försth](https://forsth.dev/uses) — I am solving problems you did not know you had.
 * [Chuck Munson](https://www.breadandrosesweb.com/uses/) — Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger

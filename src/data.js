@@ -8206,8 +8206,7 @@ module.exports = [
   },
   {
     name: 'Sebastian Försth',
-    description:
-      'I am solving problems you did not know you had.',
+    description: 'I am solving problems you did not know you had.',
     url: 'https://forsth.dev/uses',
     twitter: '@ForsthSebastian',
     emoji: '🎉',
