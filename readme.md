@@ -158,6 +158,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
+* [Ben Brougher](https://benbrougher.tech/uses) — Full stack enterprise web devloper from the Pacific Northwest.
 * [Vincent Lejtzén](https://lejtzendesign.se/en/uses) — Front end developer with love for design, user experience and SEO.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Sapan Bodiwala](https://sapanbodiwala.com/uses) — Full Stack Software Engineer
@@ -403,6 +404,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Charlie Say](https://www.charliesay.xyz/uses) — Another bald Full Stack developer from Manchester UK
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
 * [Simeon Griggs](https://www.simeongriggs.dev/uses) — Full stack developer and part time Cyclist in Newcastle upon Tyne, UK
+* [Stuart McColl](https://stuartmccoll.github.io/uses/) — Software developer, DevOps enthusiast.
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [George Campbell](https://gibr.net/uses) — Full stack engineer at Netflix
 * [Jonathan Speek](https://speek.design/uses) — Developer & Musician

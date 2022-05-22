@@ -2839,9 +2839,10 @@ module.exports = [
       'Tailwind CSS',
     ],
   },
-  { 
-    name: "Ben Brougher",
-    description: 'Full stack enterprise web devloper from the Pacific Northwest.',
+  {
+    name: 'Ben Brougher',
+    description:
+      'Full stack enterprise web devloper from the Pacific Northwest.',
     url: 'https://benbrougher.tech/uses',
     country: '🇺🇸',
     emoji: '🌄',
@@ -8138,7 +8139,15 @@ module.exports = [
     country: '🇬🇧',
     computer: 'windows',
     phone: 'iphone',
-    tags: ['Azure', 'Back End', 'C#', 'Developer', 'Front End', 'Software Developer', 'TypeScript'],
+    tags: [
+      'Azure',
+      'Back End',
+      'C#',
+      'Developer',
+      'Front End',
+      'Software Developer',
+      'TypeScript',
+    ],
   },
   {
     name: 'Jonathan Suh',
