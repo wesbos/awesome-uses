@@ -8205,6 +8205,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Sebastian Försth',
+    description:
+      'I am solving problems you did not know you had.',
+    url: 'https://forsth.dev/uses',
+    twitter: '@ForsthSebastian',
+    emoji: '🎉',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Docker',
+      'VS Code',
+      'Programmer',
+      'Problem Solver',
+    ],
+  },
+  {
     name: 'Chuck Munson',
     description:
       'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
