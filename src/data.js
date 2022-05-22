@@ -8131,6 +8131,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Stuart McColl',
+    description: 'Software developer, DevOps enthusiast.',
+    url: 'https://stuartmccoll.github.io/uses/',
+    twitter: '@itstuartmccoll',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['Azure', 'Back End', 'C#', 'Developer', 'Front End', 'Software Developer', 'TypeScript'],
+  },
+  {
     name: 'Jonathan Suh',
     description: 'Designer, Developer, Sneakerhead',
     url: 'https://jonsuh.com/uses',
