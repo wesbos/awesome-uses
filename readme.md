@@ -458,6 +458,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hugo Di Francesco](https://codewithhugo.com/uses) — JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
 * [Chris Jones](https://chrisjones.io/uses) — Full-time full-stack web developer. Part-time hiker, explorer, photographer.
+* [Mark Mead](https://markmead.dev/uses/) — Web Developer using the TALL stack
 * [Diego Vazquez](https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d) — Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack
 * [Rafael Quintanilha](https://rafaelquintanilha.com/about#uses) — Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.
 * [Jenna Pederson](https://jennapederson.com/uses) — Technical entrepreneur with a passion for community and equity-building
