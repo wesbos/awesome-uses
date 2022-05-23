@@ -9207,6 +9207,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Mark Mead',
+    description: 'Web Developer in the TALL stack',
+    url: 'https://markmead.dev/uses/',
+    twitter: '@itsmarkmead',
+    emoji: '🫠',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'Laravel',
+      'Livewire',
+      'Tailwind CSS',
+    ],
+  },
+  {
     name: 'Diego Vazquez',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
