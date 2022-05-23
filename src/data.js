@@ -9208,7 +9208,7 @@ module.exports = [
   },
   {
     name: 'Mark Mead',
-    description: 'Web Developer in the TALL stack',
+    description: 'Web Developer using the TALL stack',
     url: 'https://markmead.dev/uses/',
     twitter: '@itsmarkmead',
     emoji: '🫠',
@@ -9222,6 +9222,9 @@ module.exports = [
       'Laravel',
       'Livewire',
       'Tailwind CSS',
+      'Alpine JS',
+      'React',
+      'Vue',
     ],
   },
   {
