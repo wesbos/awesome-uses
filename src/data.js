@@ -1,5 +1,25 @@
-// keep it commonjs export
-// Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
+/**
+ * @typedef Person
+ * A single contributor with a /uses page.
+ * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
+ * @property {string} name - contributor's name
+ * @property {string} description - tagline for contributor
+ * @property {string} url - link to contributor's /uses page
+ * @property {string} country - flag emoji for contributor's country
+ * @property {string} [twitter] - optional Twitter username (beginning with `@`)
+ * @property {string} [emoji] - some emoji corresponding to the contributor
+ * @property {'apple' | 'windows' | 'linux' | 'bsd'} [computer]
+ * @property {'iphone' | 'android' | 'windowsphone' | 'flipphone'} [phone]
+ * @property {string[]} tags - list of tools or other tags the contributor uses
+ */
+
+/**
+ * List of all contributors with /uses pages.
+ * @type {Person[]}
+ * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
+ *
+ * Keep this a commonjs export.
+ */
 module.exports = [
   {
     name: 'Ahmed Adebisi',
