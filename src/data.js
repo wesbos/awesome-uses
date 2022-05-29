@@ -156,6 +156,26 @@ module.exports = [
       'Contentful CMS',
     ],
   },
+    {
+    name: 'Tim Mouskhelichvili',
+    description: 'Freelance Developer & Consultant from Montreal, Canada',
+    url: 'https://timmousk.com/uses/',
+    twitter: '@tim_mousk',
+    emoji: '💸',
+    country: '🇨🇦',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'TypeScript',
+      'Sass',
+      'Git',
+      'Node.js',
+      'React'
+    ],
+  },
   {
     name: 'Andy Cetnarskyj',
     description: 'Design Systems Designer from Edinburgh, UK',
