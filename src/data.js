@@ -7709,31 +7709,41 @@ module.exports = [
     tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots'],
   },
   {
+    // required tags
     name: 'Nico Bachner',
-    description:
-      'High School Student. Self taught Web Developer. Open Source enthusiast',
-    url: 'https://nicob.dev/uses',
-    emoji: '🎿',
+    description: 'Student. Developer. Entrepreneur.',
+    url: 'https://nicobachner.com/uses',
     country: '🇱🇺',
+    
+    // optional tags
+    twitter: '@nico_bachner',
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Student',
-      'Web Developer',
-      'Front End',
-      'JavaScript',
-      'CSS',
+      // Languages, etc.
       'HTML',
-      'Svelte',
+      'CSS',
+      'TypeScript',
+      'React',
       'Next.js',
+      'Svelte',
+      'SvelteKit',
       'Tailwind CSS',
-      'Accessibility',
-      'Performance',
-      'JAMstack',
-      'Vercel',
-      'Rust',
-      'Open Source Software',
+      'CSS Modules',
+      
+      // Command Line
+      'Fish Shell',
+      'Starship',
+      'Homebrew',
+      
+      // Apps
+      'Raycast',
+      'Safari',
       'VS Code',
+      
+      // Platforms
+      'GitHub',
+      'Vercel',
     ],
   },
   {
