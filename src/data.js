@@ -101,6 +101,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Harley Wilson',
+    description:
+      'First year CS student. Trying to improve one percent at a time.',
+    url: 'https://harleyjwilson.com/uses',
+    twitter: '@harleyjwilson',
+    emoji: '🥸',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Java',
+      'Eleventy',
+      'Netlify',
+      'VS Code',
+      'Student',
+    ],
+  },
+  {
     name: 'Simone Silvestroni',
     description: 'Sound designer, web developer, bass player',
     url: 'https://minutestomidnight.co.uk/uses',
