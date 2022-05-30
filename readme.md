@@ -33,6 +33,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ahmed Adebisi](https://adebisiahmed.dev/uses) — Software Engineer, Code is a tool.
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
+* [Harley Wilson](https://harleyjwilson.com/uses) — First year CS student. Trying to improve one percent at a time.
 * [Simone Silvestroni](https://minutestomidnight.co.uk/uses) — Sound designer, web developer, bass player
 * [Gavin Pereira](https://gavinpereira.in/uses) — Graphic designer & frontend developer from Goa, India
 * [Tim Mouskhelichvili](https://timmousk.com/uses/) — Freelance Developer & Consultant from Montreal, Canada
