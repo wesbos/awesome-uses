@@ -124,7 +124,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Devansh Bajaj](https://devanshbajaj.dev/uses) — 21 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Ivan Muratov](https://binakot.github.io/resume/uses) — SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
-* [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, CompSci Student
+* [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, JavaScript Enthusiast
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
