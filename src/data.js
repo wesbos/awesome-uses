@@ -105,7 +105,7 @@ module.exports = [
     description: 'Web Developer with Javascript and SvelteKit',
     url: 'https://nickreutlinger.vercel.app/uses',
     emoji: '🎯',
-    country: 'DE',
+    country: '🇩🇪',
     computer: 'windows',
     phone: 'ios',
     tags: [
