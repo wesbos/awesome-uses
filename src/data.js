@@ -107,7 +107,7 @@ module.exports = [
     emoji: '🎯',
     country: '🇩🇪',
     computer: 'windows',
-    phone: 'ios',
+    phone: 'apple',
     tags: [
       'Javascript',
       'Node',
