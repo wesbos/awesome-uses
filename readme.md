@@ -296,6 +296,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
+* [Matthew Scholta](https://mattscholta.com/uses) — Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
 * [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
 * [Rostyslav Ugryniuk](https://ugross.dev/uses) — Front-end Developer, Snowboarder, and Traveler.
