@@ -9537,6 +9537,24 @@ module.exports = [
     ],
   },
   {
+    name: 'John Cranston',
+    description: 'Part lead front-ender, Part vidya-streamer, All cat dad.',
+    url: 'https://pursuitofloot.com/uses',
+    twitter: '@pursuitofloot',
+    emoji: '😻',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Vue.js',
+      'Gatsby',
+      'Gamer',
+      'Streamer',
+      'Blogger'
+    ],
+  },
+  {
     name: 'Thorsten Hans',
     description: 'Cloud-Native software developer from Germany.',
     url: 'https://thorsten-hans.com/uses/',
