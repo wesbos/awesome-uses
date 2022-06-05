@@ -9545,14 +9545,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Front End',
-      'Vue.js',
-      'Gatsby',
-      'Gamer',
-      'Streamer',
-      'Blogger'
-    ],
+    tags: ['Front End', 'Vue.js', 'Gatsby', 'Gamer', 'Streamer', 'Blogger'],
   },
   {
     name: 'Thorsten Hans',

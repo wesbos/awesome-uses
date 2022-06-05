@@ -472,6 +472,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Petringa](https://david.dukesnuz.com/uses) — A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.
 * [Stephen Senkomago Musoke](https://ssmusoke.com/uses) — Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker
 * [Jérémy Mouzin](https://jeremymouzin.com/uses) — Software Engineer, Tutorial Maker, Entrepreneur, Blogger
+* [John Cranston](https://pursuitofloot.com/uses) — Part lead front-ender, Part vidya-streamer, All cat dad.
 * [Thorsten Hans](https://thorsten-hans.com/uses/) — Cloud-Native software developer from Germany.
 * [Adam Laycock](https://www.arcath.net/uses) — IT Engineer, Web Developer & Blogger
 * [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
