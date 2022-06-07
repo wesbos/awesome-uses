@@ -589,6 +589,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Murendeni Mukwevho](https://murendeni.dev/uses) — Web Developer
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [John Slipper](https://www.johnslipper.com/uses/) — Web Developer, mountain biker, drone enthusiast, Minecraft nerd
+* [Gijs Nelissen](https://lifelog.be/uses) — Founder of @prezly. Focussed on Product Management
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
 * [Ibrahim Cesar](https://ibrahimcesar.dev/uses) — Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi
 * [Esmit Perez](https://esmit.me/uses) — Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.
