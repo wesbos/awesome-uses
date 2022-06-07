@@ -12014,7 +12014,7 @@ module.exports = [
     url: 'https://lifelog.be/uses',
     twitter: '@digitalbase',
     emoji: '🤖',
-    country: '🇧🇪🇷',
+    country: '🇧🇪',
     computer: 'apple',
     phone: 'iphone',
     tags: [
