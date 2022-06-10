@@ -3664,7 +3664,7 @@ module.exports = [
     phone: 'android',
     tags: ['JavaScript', 'Ruby on Rails', 'Testing', 'Vim', 'VS Code', 'Web'],
   },
-    {
+  {
     name: 'First Kanisorn Sutham',
     description: 'Full Stack Software Engineer, Runner, Coffeeholic',
     url: 'https://heyfirst.co/uses',
@@ -3673,7 +3673,16 @@ module.exports = [
     country: '🇹🇭',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['JavaScript', 'Full Stack', 'React', 'Node.js', 'Blogger', 'Tailwind CSS', 'Web', 'Django'],
+    tags: [
+      'JavaScript',
+      'Full Stack',
+      'React',
+      'Node.js',
+      'Blogger',
+      'Tailwind CSS',
+      'Web',
+      'Django',
+    ],
   },
   {
     name: 'Henrik Nyh',
