@@ -5051,6 +5051,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Lucas Becker',
+    description: 'Real architect who also happens to write code.',
+    url: 'https://github.com/runxel/uses',
+    twitter: '@runxel',
+    emoji: '🦏',
+    country: '🇩🇪',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Architect', 'Designer', 'Python', 'Markdown', 'CAD', 'BIM'],
+  },
+  {
     name: 'Martín M.',
     description: 'Dad & Developer (former skydiver)',
     url: 'https://uses.skydiver.dev/',
