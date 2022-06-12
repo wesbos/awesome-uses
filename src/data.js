@@ -538,6 +538,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Albert Zhang',
+    description:
+      'Developer, Designer, Artist, Podcaster, Sports enthusiast.',
+    url: 'https://www.albertaz.com/uses',
+    twitter: '@Az1992Albert',
+    emoji: '🖥',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Developer',
+      'Full Stack',
+      'Front End',
+      'React',
+      'Svelte',
+      'Node.js',
+      'Figma',
+      'VS Code',
+      'TypeScript',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Bumhan "B" Yu',
     description:
       '"B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics',
