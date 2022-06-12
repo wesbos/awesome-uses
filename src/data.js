@@ -539,8 +539,7 @@ module.exports = [
   },
   {
     name: 'Albert Zhang',
-    description:
-      'Developer, Designer, Artist, Podcaster, Sports enthusiast.',
+    description: 'Developer, Designer, Artist, Podcaster, Sports enthusiast.',
     url: 'https://www.albertaz.com/uses',
     twitter: '@Az1992Albert',
     emoji: '🖥',

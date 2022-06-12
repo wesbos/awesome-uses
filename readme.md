@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Smooke](https://www.davidsmooke.net/uses) — founder/ceo @hackernoon, leading the product team.
 * [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
+* [Albert Zhang](https://www.albertaz.com/uses) — Developer, Designer, Artist, Podcaster, Sports enthusiast.
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics
 * [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
