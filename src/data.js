@@ -6612,14 +6612,7 @@ module.exports = [
     country: '🇵🇹',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Python',
-      'Go',
-      'JavaScript',
-      'TypeScript',
-      'Vue',
-      'React',
-    ],
+    tags: ['Python', 'Go', 'JavaScript', 'TypeScript', 'Vue', 'React'],
   },
   {
     name: 'Marco Poletto',
