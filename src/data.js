@@ -9718,8 +9718,8 @@ module.exports = [
   {
     name: 'Marc Littlemore',
     description:
-      'Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
-    url: 'https://marclittlemore.com/uses',
+      'Senior Engineering Manager @ Netlify, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
+    url: 'https://marclittlemore.com/uses/',
     twitter: '@marclittlemore',
     emoji: '🎉',
     country: '🇬🇧',
