@@ -482,7 +482,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
 * [Scott Spence](https://scottspence.com/uses) — Developer, Svelte, GraphQL
-* [Marc Littlemore](https://marclittlemore.com/uses) — Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
+* [Marc Littlemore](https://marclittlemore.com/uses/) — Senior Engineering Manager @ Netlify, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
 * [Danielle Mayabb](https://danielle-m.dev/uses) — Full-stack developer, Accessibility Engineer, Information Architect, Generalist
 * [José Manuel Lucas](https://jmlweb.es/blog/2020/uses/) — Professional Frontend Engineer - Amateur musician
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
