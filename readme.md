@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Ahmed Adebisi](https://adebisiahmed.dev/uses) — Software Engineer, Code is a tool.
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
+* [Adam Rusted](https://www.adamrusted.me/uses/) — JavaScript Developer, Kubernetes, Dynamics 365
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
 * [Nick Reutlinger](https://nickreutlinger.vercel.app/uses) — Web Developer with Javascript and SvelteKit
 * [Harley Wilson](https://harleyjwilson.com/uses) — First year CS student. Trying to improve one percent at a time.
