@@ -22,6 +22,21 @@
  */
 module.exports = [
   {
+    name: 'Dominic Ruggiero',
+    description: 'Student and idiot',
+    url: 'https://userexe.me/uses',
+    twitter: '@user____exe',
+    emoji: '👋',
+    country: '🇺🇸',
+    computer: 'linux',
+    tags: [
+      'Student',
+      'Node.js',
+      'Javascript',
+      'Ubuntu'
+    ],
+  },
+  {
     name: 'Ahmed Adebisi',
     description: 'Software Engineer, Code is a tool.',
     url: 'https://adebisiahmed.dev/uses',
