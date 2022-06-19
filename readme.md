@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Smooke](https://www.davidsmooke.net/uses) — founder/ceo @hackernoon, leading the product team.
 * [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
+* [Albert Zhang](https://www.albertaz.com/uses) — Developer, Designer, Artist, Podcaster, Sports enthusiast.
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics
 * [Yassine Bridi](https://yasbr.com/uses) — Developer, Designer, Creator
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
@@ -258,6 +259,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
+* [Lucas Becker](https://github.com/runxel/uses) — Real architect who also happens to write code.
 * [Martín M.](https://uses.skydiver.dev/) — Dad & Developer (former skydiver)
 * [Jamie Bowman](https://www.mrjamiebowman.com/uses) — Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger
 * [Fabian Vallejos](https://fabianvallejos.com/uses/) — Web Developer, Amateur Photographer, Writer, Occasional Gamer & Streamer, Father of Shih Tzus
@@ -326,6 +328,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrei Racasan](https://www.andreiracasan.com/setup) — Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
+* [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Software Developer, Fullstack
 * [Marco Poletto](https://poletto.dev/uses/) — Frontend Developer, UI engineer, Mentor
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
@@ -479,7 +482,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
 * [Scott Spence](https://scottspence.com/uses) — Developer, Svelte, GraphQL
-* [Marc Littlemore](https://marclittlemore.com/uses) — Engineering Team Lead @ BBC, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
+* [Marc Littlemore](https://marclittlemore.com/uses/) — Senior Engineering Manager @ Netlify, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
 * [Danielle Mayabb](https://danielle-m.dev/uses) — Full-stack developer, Accessibility Engineer, Information Architect, Generalist
 * [José Manuel Lucas](https://jmlweb.es/blog/2020/uses/) — Professional Frontend Engineer - Amateur musician
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
