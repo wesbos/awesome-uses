@@ -73,7 +73,7 @@ module.exports = [
   {
     name: 'Adam Rusted',
     description: 'JavaScript Developer, Kubernetes, Dynamics 365',
-    url: 'https://www.adamrusted.me/my-gear/',
+    url: 'https://www.adamrusted.me/uses/',
     emoji: '🙃',
     twitter: '@adamrusted',
     country: '🇬🇧',
