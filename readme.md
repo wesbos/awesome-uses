@@ -43,6 +43,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Saurav Khare](https://sauravkhare.xyz/uses) — Software Engineer & Frontend Developer
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
 * [Mitchell Christ](https://nuotsu.dev/uses) — Frontend Web Dev in OC. Svelte-lover, Supra-driver.
+* [Lasha Tatulashvili](https://lashatatu.dev/uses) — Frontend DEV from Tbilisi, Georgia
 * [Renan Moura](https://renanmf.com/uses) — Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning
 * [Randy Daniel](https://randy.digital/uses) — (UI/UX Designer) + Developer
 * [David Vidmar](https://vidmar.net/uses) — Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.
