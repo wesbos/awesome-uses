@@ -327,7 +327,7 @@ module.exports = [
   {
     name: 'Lasha Tatulashvili',
     description: 'Frontend DEV from Tbilisi, Georgia',
-    url: 'https://lashatatu.dev/',
+    url: 'https://lashatatu.dev/uses',
     twitter: '@lashatatu',
     emoji: '⚛',
     country: '🇬🇪',
