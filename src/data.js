@@ -22,6 +22,29 @@
  */
 module.exports = [
   {
+    name: 'Mohamed Ouyizme',
+    description: 'Full-stack developer, Jamstack developer, and Designer.',
+    url: 'https://www.ouyiz.me/blog/uses',
+    twitter: '@mohouyizme',
+    emoji: '👨‍💻',
+    country: '🇲🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'React',
+      'Next',
+      'Node.js',
+      'TypeScript',
+      'Serverless',
+      'Jamstack',
+      'UI',
+      'UX',
+      'Headless',
+      'GraphQL',
+      'Docker'
+    ],
+  },
+  {
     name: 'Ahmed Adebisi',
     description: 'Software Engineer, Code is a tool.',
     url: 'https://adebisiahmed.dev/uses',
