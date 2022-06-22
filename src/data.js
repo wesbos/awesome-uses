@@ -41,7 +41,7 @@ module.exports = [
       'UX',
       'Headless',
       'GraphQL',
-      'Docker'
+      'Docker',
     ],
   },
   {
