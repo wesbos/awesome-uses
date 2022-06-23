@@ -3398,7 +3398,7 @@ module.exports = [
     twitter: '@ln_dev7',
     emoji: '🎯',
     country: '🇨🇲',
-    computer: 'ubuntu',
+    computer: 'linux',
     phone: 'iphone',
     tags: [
       'FrontEnd',
