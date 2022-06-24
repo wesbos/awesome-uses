@@ -3410,7 +3410,7 @@ module.exports = [
       'VueJS',
       'SvelteJS',
       'Flutter',
-      'SCSS'
+      'SCSS',
     ],
   },
   {
