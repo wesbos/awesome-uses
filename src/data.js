@@ -3392,6 +3392,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Leonel Ngoya',
+    description: 'FrontEnd Developer and Web Integrator',
+    url: 'https://lndev.me/uses.html',
+    twitter: '@ln_dev7',
+    emoji: '🎯',
+    country: '🇨🇲',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'FrontEnd',
+      'Developer',
+      'Web Integrator',
+      'HTML',
+      'JavaScript',
+      'React',
+      'VueJS',
+      'SvelteJS',
+      'Flutter',
+      'SCSS'
+    ],
+  },
+  {
     name: 'Jay Tyrrell',
     description: 'Full Stack Developer',
     url: 'https://jaytyrrell.co/uses/',
