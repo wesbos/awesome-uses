@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Pujan Srivastava](https://www.pujan.net/top/uses) — Solutions Architect, I program for cloud applications
 * [Mohamed Ouyizme](https://www.ouyiz.me/blog/uses) — Full-stack developer, Jamstack developer, and Designer.
 * [Ahmed Adebisi](https://adebisiahmed.dev/uses) — Software Engineer, Code is a tool.
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
