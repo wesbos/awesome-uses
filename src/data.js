@@ -22,6 +22,31 @@
  */
 module.exports = [
   {
+    name: 'Pujan Srivastava',
+    description: 'Solutions Architect, I program for cloud applications',
+    url: 'https://www.pujan.net/top/uses',
+    twitter: '@pujansrt',
+    emoji: '⚡',
+    country: '🇮🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'TypeScript',
+      'JavaScript',
+      'Node.js',
+      'Serverless',
+      'Architecture',
+      'AWS',
+      'Terraform',
+      'Security',
+      'Cloud',
+      'Bash',
+      'Python',
+      'GraphQL',
+      'REST',
+    ],
+  },
+  {
     name: 'Mohamed Ouyizme',
     description: 'Full-stack developer, Jamstack developer, and Designer.',
     url: 'https://www.ouyiz.me/blog/uses',
