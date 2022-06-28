@@ -567,10 +567,10 @@ module.exports = [
     ],
   },
   {
-    name: 'Marco Kuehbauch',
+    name: 'Marco Heine',
     description:
       'Web developer from southern germany who loves to make fast and accessible websites and write about it.',
-    url: 'https://marcokuehbauch.com/uses/',
+    url: 'https://marcoheine.com/uses/',
     twitter: '@mkuehb',
     emoji: '🌳',
     country: '🇩🇪',
