@@ -52,7 +52,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Vidmar](https://vidmar.net/uses) — Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.
 * [Amel Selmane](https://enixes.com/uses/) — Programmer 💻, Gamer 👾, Tech lover 🎧
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Front end, but doesn't mind taking a look round the back
-* [Marco Kuehbauch](https://marcokuehbauch.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
+* [Marco Heine](https://marcoheine.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
 * [David Smooke](https://www.davidsmooke.net/uses) — founder/ceo @hackernoon, leading the product team.
 * [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
