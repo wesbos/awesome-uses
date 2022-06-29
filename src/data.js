@@ -22,6 +22,26 @@
  */
 module.exports = [
   {
+    name: 'Daniel Roe',
+    description: 'Nuxt architect and open source lover',
+    url: 'https://roe.dev/uses',
+    country: '🇬🇧',
+    twitter: '@danielcroe',
+    computer: 'apple',
+    phone: 'android',
+    emoji: '✨',
+    tags: [
+      'TypeScript',
+      'JavaScript',
+      'Serverless',
+      'Jamstack',
+      'Nuxt',
+      'Nuxt.js',
+      'Vue',
+      'Vue.js'
+    ]
+  },
+  {
     name: 'Pujan Srivastava',
     description: 'Solutions Architect, I program for cloud applications',
     url: 'https://www.pujan.net/top/uses',
