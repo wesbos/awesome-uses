@@ -38,8 +38,8 @@ module.exports = [
       'Nuxt',
       'Nuxt.js',
       'Vue',
-      'Vue.js'
-    ]
+      'Vue.js',
+    ],
   },
   {
     name: 'Pujan Srivastava',
