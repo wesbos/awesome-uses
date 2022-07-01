@@ -43,7 +43,8 @@ module.exports = [
   },
   {
     name: 'Alberto Ventafridda',
-    description: 'Developer, hacker. Passionate about cyber security, web development and distributed systems.',
+    description:
+      'Developer, hacker. Passionate about cyber security, web development and distributed systems.',
     url: 'https://halb.it/uses/',
     country: '🇮🇹',
     twitter: '@albertCoolwind',
