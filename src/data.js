@@ -21,6 +21,24 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+    {
+    name: 'Rev',
+    description: 'A Software developer and artist based in Europe. ',
+    url: 'https://cinnamoroll.me/uses',
+    country: '🇪🇺',
+    computer: 'windows',
+    phone: 'android',
+    emoji: '☕',
+    tags: [
+      'Laravel',
+      'JavaScript',
+      'PHP',
+      'C++',
+      'Photoshop',
+      'Developer',
+      'Designer',
+    ],
+  },
   {
     name: 'Daniel Roe',
     description: 'Nuxt architect and open source lover',
