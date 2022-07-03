@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
 * [Daniel Roe](https://roe.dev/uses) — Nuxt architect and open source lover
 * [Alberto Ventafridda](https://halb.it/uses/) — Developer, hacker. Passionate about cyber security, web development and distributed systems.
 * [Pujan Srivastava](https://www.pujan.net/top/uses) — Solutions Architect, I program for cloud applications

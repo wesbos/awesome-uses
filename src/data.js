@@ -21,7 +21,7 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-    {
+  {
     name: 'Rev',
     description: 'A Software developer and artist based in Europe. ',
     url: 'https://cinnamoroll.me/uses',
