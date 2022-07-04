@@ -47,6 +47,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tim Mouskhelichvili](https://timmousk.com/uses/) — Freelance Developer & Consultant from Montreal, Canada
 * [Andy Cetnarskyj](https://www.just-andy.uk/uses) — Design Systems Designer from Edinburgh, UK
 * [Saurav Khare](https://sauravkhare.xyz/uses) — Software Engineer & Frontend Developer
+* [Akash Rajpurohit](https://akashrajpurohit.com/uses) — Software Engineer
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
 * [Mitchell Christ](https://nuotsu.dev/uses) — Frontend Web Dev in OC. Svelte-lover, Supra-driver.
 * [Lasha Tatulashvili](https://lashatatu.dev/uses) — Frontend DEV from Tbilisi, Georgia
