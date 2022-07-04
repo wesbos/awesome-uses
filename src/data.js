@@ -242,7 +242,7 @@ module.exports = [
     name: 'Stijn Elskens',
     description: 'Frontend Web Developer based in Leuven, BE.',
     url: 'https://www.stijnelskens.com/uses',
-    twitter: '@chevywood',
+    twitter: '@chevywood_',
     emoji: '✌',
     country: '🇧🇪',
     computer: 'apple',
