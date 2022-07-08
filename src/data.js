@@ -6908,7 +6908,8 @@ module.exports = [
   },
   {
     name: 'Marco Poletto',
-    description: 'Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor',
+    description:
+      'Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor',
     url: 'https://poletto.dev/uses/',
     twitter: '@polettoweb',
     emoji: '🔥',

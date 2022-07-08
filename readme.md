@@ -341,7 +341,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
 * [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Software Developer, Fullstack
-* [Marco Poletto](https://poletto.dev/uses/) — Frontend Developer, UI engineer, Mentor
+* [Marco Poletto](https://poletto.dev/uses/) — Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
 * [Carter McAlister](https://cartermcalister.dev/uses) — Software Engineer, Digital Nomad, Lover of the Outdoors
