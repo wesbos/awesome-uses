@@ -22,6 +22,26 @@
  */
 module.exports = [
   {
+    name: 'Allan Im',
+    description: 'Software Engineer',
+    url: 'https://allanim.com/uses',
+    country: '🇰🇷',
+    twitter: '@allanlogs',
+    computer: 'apple',
+    phone: 'iphone',
+    emoji: '🚀',
+    tags: [
+      'Java',
+      'TypeScript',
+      'Spring',
+      'Oracle',
+      'Spring Boot',
+      'AWS',
+      'Software Engineer',
+      'Solutions Architect',
+    ],
+  },
+  {
     name: 'Rev',
     description: 'A Software developer and artist based in Europe. ',
     url: 'https://cinnamoroll.me/uses',
