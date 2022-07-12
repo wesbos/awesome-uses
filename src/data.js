@@ -11732,7 +11732,8 @@ module.exports = [
   },
   {
     name: 'Mykal Machon',
-    description: 'Systems analyst, Software developer, generalist nerd. Blogging about all my tags and self-hosting.',
+    description:
+      'Systems analyst, Software developer, generalist nerd. Blogging about all my tags and self-hosting.',
     url: 'https://mykal.codes/uses',
     twitter: '@MykalMachon',
     emoji: '💾',
