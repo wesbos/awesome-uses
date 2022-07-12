@@ -11731,6 +11731,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Mykal Machon',
+    description: 'Systems analyst, Software developer, generalist nerd. Blogging about all my tags and self-hosting.',
+    url: 'https://mykal.codes/uses',
+    twitter: '@MykalMachon',
+    emoji: '💾',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Systems Analyst',
+      'Full Stack',
+      'Python',
+      'Flask',
+      'React',
+      'DevOps',
+      'Docker',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Matheus Almeida S. Anjos',
     description:
       'Passionate about programming, engaged with Javascript and Golang lover.',
