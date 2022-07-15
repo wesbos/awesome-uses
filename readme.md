@@ -637,6 +637,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
 * [Dan Holloran](https://danholloran.me/uses/) — Full Stack Developer
 * [Kevin Woblick](https://www.kovah.de/uses/) — I turn Pizza into Code and Photos
+* [Michal Slepko](https://michalslepko.dev/uses) — Senior web developer learning iOS development. Live coding streamer on Twitch
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
 * [Karol Toruń](https://ktorun.pl/uses) — Fullstack developer, VIM, JS, OSX <3, PL
 * [Gleb Skibitsky](https://skibitsky.com/uses/) — Maker, mostly Unity stuff. Blockchain, VR, and Automation lover.
