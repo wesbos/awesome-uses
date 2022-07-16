@@ -22,6 +22,32 @@
  */
 module.exports = [
   {
+    name: 'Simon Rogers',
+    description: 'Software Engineer',
+    url: 'https://midnite.uk/uses',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    twitter: '@midniteuk',
+    computer: 'apple',
+    phone: 'iphone',
+    emoji: '🌱',
+    tags: [
+      'Javascript',
+      'TypeScript',
+      'AWS',
+      'PHP',
+      'Laravel',
+      'C#',
+      'MySQL',
+      'MSSQL',
+      'SQL',
+      'Vue',
+      'React',
+      'Angular',
+      'Software Engineer',
+      'Solutions Architect',
+    ],
+  },
+  {
     name: 'Allan Im',
     description: 'Software Engineer',
     url: 'https://allanim.com/uses',
