@@ -3616,7 +3616,7 @@ module.exports = [
       'Speaker',
     ],
   },
-   {
+  {
     name: 'Amodu Kehinde',
     description: 'MERN Stack Developer',
     url: 'https://amodukehinde.vercel.app/uses/',
