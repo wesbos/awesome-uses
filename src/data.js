@@ -5180,6 +5180,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Steve Della Valentina',
+    description:
+      'Frontend engineer into blogging and digital gardening.',
+    url: 'https://sdv.im/uses',
+    twitter: '@sdvim',
+    emoji: '🦥',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'CSS',
+      'JavaScript',
+      'React',
+      'UX',
+      'Figma',
+      'Photoshop',
+      'Engineer',
+      'Writer',
+    ],
+  },
+  {
     name: 'Rajanand Ilangovan',
     description:
       'Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio',
