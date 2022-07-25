@@ -5181,8 +5181,7 @@ module.exports = [
   },
   {
     name: 'Steve Della Valentina',
-    description:
-      'Frontend engineer into blogging and digital gardening.',
+    description: 'Frontend engineer into blogging and digital gardening.',
     url: 'https://sdv.im/uses',
     twitter: '@sdvim',
     emoji: '🦥',
