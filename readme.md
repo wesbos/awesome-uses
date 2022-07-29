@@ -42,7 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adam Rusted](https://www.adamrusted.me/uses/) — JavaScript Developer, Kubernetes, Dynamics 365
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
-* [Nick Reutlinger](https://nickreutlinger.vercel.app/uses) — Web Developer with Javascript and SvelteKit
+* [Nick Reutlinger](https://nickreutlinger.de/uses) — Web Developer with Javascript and SvelteKit
 * [Harley Wilson](https://harleyjwilson.com/uses) — First year CS student. Trying to improve one percent at a time.
 * [Simone Silvestroni](https://minutestomidnight.co.uk/uses) — Sound designer, web developer, bass player
 * [Gavin Pereira](https://gavinpereira.in/uses) — Graphic designer & frontend developer from Goa, India
