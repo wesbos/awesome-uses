@@ -312,7 +312,7 @@ module.exports = [
   {
     name: 'Nick Reutlinger',
     description: 'Web Developer with Javascript and SvelteKit',
-    url: 'https://nickreutlinger.vercel.app/uses',
+    url: 'https://nickreutlinger.de/uses',
     emoji: '🎯',
     country: '🇩🇪',
     computer: 'windows',
