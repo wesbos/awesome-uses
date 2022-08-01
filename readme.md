@@ -61,7 +61,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Front end, but doesn't mind taking a look round the back
 * [Marco Heine](https://marcoheine.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
 * [David Smooke](https://www.davidsmooke.net/uses) — founder/ceo @hackernoon, leading the product team.
-* [David Torralbo](https://davidtorralbo.dev/uses/) — Backend developer. Focused in Web Performance
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
 * [Albert Zhang](https://www.albertaz.com/uses) — Developer, Designer, Artist, Podcaster, Sports enthusiast.
 * [Bumhan "B" Yu](https://bald.design/uses) — "B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics
