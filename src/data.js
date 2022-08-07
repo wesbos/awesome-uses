@@ -1020,7 +1020,8 @@ module.exports = [
   },
   {
     name: 'Reinhart Previano Koentjoro',
-    description: 'The first "IT superhero" in Indonesia who transformed to Shift this world.',
+    description:
+      'The first "IT superhero" in Indonesia who transformed to Shift this world.',
     url: 'https://reinhart1010.id/uses',
     emoji: '⬆️',
     country: '🇮🇩',
@@ -1089,7 +1090,7 @@ module.exports = [
       'Writer',
       'Windows',
     ],
-    twitter: '@reinhart1010'
+    twitter: '@reinhart1010',
   },
   {
     name: 'Melanie Kat',
