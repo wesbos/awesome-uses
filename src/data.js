@@ -4927,6 +4927,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Saurabh Sharma',
+    description:
+      'Specialize in making higly performant ecommerce stores and SASS apps',
+    url: 'https://itsjzt.com/uses',
+    twitter: '@itsjzt',
+    emoji: '🔥',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'CSS',
+      'Typescript',
+      'Shopify',
+      'VS Code',
+      'GraphQL',
+    ],
+  },
+  {
     name: 'Wes Bos',
     description:
       'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
