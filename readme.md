@@ -249,6 +249,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and full-stack developer; forever learning.
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
+* [Saurabh Sharma](https://itsjzt.com/uses) — Specialize in making higly performant ecommerce stores and SASS apps
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
