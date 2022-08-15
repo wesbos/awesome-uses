@@ -29,12 +29,7 @@ module.exports = [
     emoji: '👋',
     country: '🇺🇸',
     computer: 'linux',
-    tags: [
-      'Student',
-      'Node.js',
-      'Javascript',
-      'Ubuntu'
-      ]
+    tags: ['Student', 'Node.js', 'Javascript', 'Ubuntu'],
   },
   {
     name: 'Simon Rogers',
