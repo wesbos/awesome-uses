@@ -11976,25 +11976,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Majo Paskuvan',
-    description: 'Front End Developer, Reader, Deaf Person',
-    url: 'https://paskuvan.us/uses.html',
-    twitter: '@paskuvan',
-    emoji: '🤟',
-    country: '🇨🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Ruby On Rails',
-      'Front End',
-      'UI Design',
-      'Web Development',
-      'UX',
-      'Blogger',
-      'Designer',
-    ],
-  },
-  {
     name: 'Rynaard Burger',
     description:
       'Mobile Software Engineer. Swift, Objective-C, former .NET & Java developer.',
