@@ -12900,17 +12900,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Alfyn',
-    description: 'Engineering student, finding my place in the tech world',
-    url: 'https://adogintech.com/uses/',
-    twitter: '@Alfynodon',
-    emoji: '🐕',
-    country: '🇹🇭',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Engineer', 'Student', 'Python', 'C', 'macOS', 'iOS', 'Musician'],
-  },
-  {
     name: 'Łukasz Rybka',
     description:
       'Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.',
