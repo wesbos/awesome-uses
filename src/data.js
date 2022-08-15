@@ -7014,18 +7014,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Dušan Simić',
-    description:
-      'Computer Science student at University of Novi Sad, Serbia and open source software enthusiast.',
-    url: 'https://dusansimic.me/uses',
-    country: '🇷🇸',
-    twitter: '@dsnsmc',
-    emoji: '👨🏻‍💻',
-    computer: 'linux',
-    phone: 'android',
-    tags: ['Student', 'Go', 'Back End', 'React', 'Linux', 'PostgreSQL'],
-  },
-  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
