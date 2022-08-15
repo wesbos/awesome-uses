@@ -6382,27 +6382,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Amarpreet Singh',
-    description:
-      'Frontend Developer. Things i love JS, React, Swift, practicing minimalism and milk tea enthusiast.',
-    url: 'https://www.momcoded.com/uses',
-    twitter: '@amarmanhala',
-    emoji: '☕',
-    country: '🇨🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'Learner',
-      'minimalist',
-      'JavaScript',
-      'React',
-      'CSS',
-      'Swift',
-    ],
-  },
-  {
     name: 'Sumanth',
     description: 'Student. Learning web development',
     url: 'https://mynameissumanth.netlify.app/uses.html',
