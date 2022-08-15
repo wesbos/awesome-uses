@@ -4317,17 +4317,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Farai Gandiya',
-    description: 'Software Developer',
-    url: 'https://farai.xyz/uses',
-    twitter: '@faraixyz',
-    emoji: '🤷',
-    country: '🇿🇼',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: ['Developer', 'Web', 'Python'],
-  },
-  {
     name: 'Elijah Rwothoromo',
     description: 'Software Developer, Poet, code and play!',
     url: 'https://rwothoromo.wordpress.com/2020/05/29/uses/',
