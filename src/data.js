@@ -5688,30 +5688,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Elisha Terada',
-    description:
-      'Web & Mobile Software Engineer, UI Designer, Creative-Thinker.',
-    url: 'https://www.elishaterada.com/uses',
-    twitter: '@elishaterada',
-    emoji: '🐱',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'React',
-      'Next',
-      'TypeScript',
-      'JavaScript',
-      'Node.js',
-      'CSS',
-      'UI',
-      'iOS',
-      'Swift',
-    ],
-  },
-  {
     name: 'Daniel Flege',
     description:
       'Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧',
