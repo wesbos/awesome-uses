@@ -3437,28 +3437,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jesse Stilwell',
-    description:
-      'Hobbyist full stack dev, twenty-first century digital boy, music maker, and professional geek.',
-    url: 'https://stilwell.io/uses',
-    twitter: '@owlbynight',
-    emoji: '🦉',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Python',
-      'JavaScript',
-      'CSS',
-      'Musical Boi',
-      'Nuxt',
-      'DevOps',
-      'Platforms',
-    ],
-  },
-  {
     name: 'Ruben Janssen',
     description: 'Front-end Developer, Gadget G33k, Guild Lead',
     url: 'https://rubenjanssen.me/uses',
