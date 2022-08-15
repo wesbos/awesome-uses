@@ -3795,17 +3795,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Md Solaiman Hossain Rathik',
-    description: 'Full Stack Developer',
-    url: 'https://rathik.net/uses',
-    twitter: '@md_rathik',
-    emoji: '🦊',
-    country: '🇧🇩',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Vue.js', 'Laravel', 'Bootstrap', 'JavaScript', 'Android XML'],
-  },
-  {
     name: 'Christopher Talke',
     description: 'ICT Professional / Fullstack Web Developer and Skateboarder',
     url: 'https://talke.dev/uses',
