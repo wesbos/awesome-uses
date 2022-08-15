@@ -4402,17 +4402,6 @@ module.exports = [
     tags: ['Developer', 'JavaScript'],
   },
   {
-    name: 'Cesar Gomez',
-    description: 'Web Developer',
-    url: 'https://www.csargomez.com/#uses',
-    twitter: '@cgope',
-    emoji: '🐶',
-    country: '🇨🇴',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Web', 'Developer', 'JavaScript'],
-  },
-  {
     name: 'Sampan Verma',
     description: 'Senior Software Developer, YouTuber, Streamer and Gamer',
     url: 'https://www.samlovescoding.com/articles/uses',
