@@ -12063,27 +12063,6 @@ module.exports = [
     tags: ['JavaScript', 'Ruby', 'CSS'],
   },
   {
-    name: 'Murendeni Mukwevho',
-    description: 'Web Developer',
-    url: 'https://murendeni.dev/uses',
-    twitter: '@iammurendeni',
-    emoji: '🕷',
-    country: '🇿🇦',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Web Developer',
-      'Front End',
-      'React',
-      'Node.js',
-      'Gatsby',
-      'JavaScript',
-      'HTML',
-      'CSS',
-      'Express.js',
-    ],
-  },
-  {
     name: 'Maria Altyeva Schuessler ',
     description:
       'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
