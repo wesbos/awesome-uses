@@ -7769,23 +7769,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Nuno Maduro',
-    description: 'Software engineer, Open Source contributor, Speaker',
-    url: 'https://nunomaduro.com/uses/',
-    emoji: '🏄‍♂️',
-    country: '🇵🇹',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Developer',
-      'Speaker',
-      'PHP',
-      'JavaScript',
-      'TypeScript',
-    ],
-  },
-  {
     name: 'Anthony Humphreys',
     description:
       'Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him',
