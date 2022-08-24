@@ -4001,6 +4001,27 @@ module.exports = [
     tags: ['JavaScript', 'Ruby on Rails', 'Testing', 'Vim', 'VS Code', 'Web'],
   },
   {
+    name: 'Robert Michalski',
+    description: 'Full Stack Developer going serverless',
+    url: 'https://robert-michalski.com/uses',
+    emoji: '👨🏻‍💻',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack'
+      'JavaScript',
+      'ES6
+      'Node.js',
+      'Vue.js',
+      'PHP',
+      'WordPress',
+      'MySQL',
+      'Cloudflare',
+      'Serverless'
+    ],
+  },
+  {
     name: 'First Kanisorn Sutham',
     description: 'Full Stack Software Engineer, Runner, Coffeeholic',
     url: 'https://heyfirst.co/uses',
