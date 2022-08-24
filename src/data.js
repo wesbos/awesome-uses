@@ -4018,7 +4018,7 @@ module.exports = [
       'WordPress',
       'MySQL',
       'Cloudflare',
-      'Serverless'
+      'Serverless',
     ],
   },
   {
