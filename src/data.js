@@ -4011,7 +4011,7 @@ module.exports = [
     tags: [
       'Full Stack'
       'JavaScript',
-      'ES6
+      'ES6',
       'Node.js',
       'Vue.js',
       'PHP',
