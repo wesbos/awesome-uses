@@ -4009,7 +4009,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Full Stack'
+      'Full Stack',
       'JavaScript',
       'ES6',
       'Node.js',
