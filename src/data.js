@@ -2237,7 +2237,7 @@ module.exports = [
   {
     name: 'Juan Villela',
     description: 'I like websites. Occasionally, I make them.',
-    url: 'https://cleverlaziness.com/uses/',
+    url: 'https://cleverlaziness.xyz/uses/',
     twitter: '@fourjuaneight',
     emoji: '🧙🏽‍♂️',
     country: '🇺🇸',
@@ -2253,6 +2253,7 @@ module.exports = [
       'Node.js',
       'TypeScript',
       'SQL',
+      'Go',
     ],
   },
   {
