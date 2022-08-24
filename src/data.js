@@ -4003,7 +4003,7 @@ module.exports = [
   {
     name: 'Robert Michalski',
     description: 'Full Stack Developer going serverless',
-    url: 'https://robert-michalski.com/uses',
+    url: 'https://robert-michalski.com/uses/',
     emoji: '👨🏻‍💻',
     country: '🇸🇪',
     computer: 'apple',
