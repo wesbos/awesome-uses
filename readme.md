@@ -127,7 +127,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sheila Leon](https://sheilaleon.tech/uses/) — Self-taught Front-end Dev, Designer & Product Manager
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
-* [Juan Villela](https://cleverlaziness.com/uses/) — I like websites. Occasionally, I make them.
+* [Juan Villela](https://cleverlaziness.xyz/uses/) — I like websites. Occasionally, I make them.
 * [Jeromey Balderrama](https://balderromey.com/uses/) — Web Developer, Designer, Photographer, Drummer
 * [Hamish Williams](https://hamishw.com/uses) — Multidisciplinary designer + developer.
 * [Dennis Mathenge](https://creativehubspace.com/uses) — Web Developer
