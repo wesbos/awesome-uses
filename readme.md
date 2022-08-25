@@ -240,6 +240,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
 * [Saurabh Sharma](https://itsjzt.com/uses) — Specialize in making higly performant ecommerce stores and SASS apps
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
+* [Frugence Fidel](https://frugencefidel.com/uses) — I'm 🇹🇿 React Developer
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
 * [Mohammed Sohail](https://www.msohail.dev/uses) — A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.
