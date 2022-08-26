@@ -34,6 +34,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
+* [Hector Saldaña](https://hectorsaldes.netlify.app/#uses) — I am a software development student at university. My favorites developments are when I am looking for a solution that help people
 * [Daniel Roe](https://roe.dev/uses) — Nuxt architect and open source lover
 * [Alberto Ventafridda](https://halb.it/uses/) — Developer, hacker. Passionate about cyber security, web development and distributed systems.
 * [Pujan Srivastava](https://www.pujan.net/top/uses) — Solutions Architect, I program for cloud applications
