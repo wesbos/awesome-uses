@@ -96,6 +96,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Hector Saldaña',
+    description:
+      'I am a software development student at university. My favorites developments are when I am looking for a solution that help people',
+    url: 'https://hectorsaldes.netlify.app/#uses',
+    twitter: '@HectorSaldes',
+    emoji: '👋',
+    country: '🇲🇽',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['React', 'Node.js', 'UX', 'Javascript', 'HTML', 'Java'],
+  },
+  {
     name: 'Daniel Roe',
     description: 'Nuxt architect and open source lover',
     url: 'https://roe.dev/uses',
