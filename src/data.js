@@ -96,6 +96,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Marko Bajlovic',
+    description:
+      'Multidisciplinary creative and developer; forever learning.',
+    url: 'https://marko.tech/uses',
+    twitter: '@desmosthenes',
+    emoji: '🦁',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'DevOps',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'React',
+      'NGINX',
+      'Gatsby',
+      'Python',
+      'PHP',
+      'Designer',
+      'Developer',
+      'UI',
+      'UX',
+    ],
+  },
+  {
     name: 'Hector Saldaña',
     description:
       'I am a software development student at university. My favorites developments are when I am looking for a solution that help people',
