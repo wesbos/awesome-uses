@@ -97,8 +97,7 @@ module.exports = [
   },
   {
     name: 'Marko Bajlovic',
-    description:
-      'Multidisciplinary creative and developer; forever learning.',
+    description: 'Multidisciplinary creative and developer; forever learning.',
     url: 'https://marko.tech/uses',
     twitter: '@desmosthenes',
     emoji: '🦁',
