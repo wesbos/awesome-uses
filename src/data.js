@@ -4709,8 +4709,7 @@ module.exports = [
   },
   {
     name: 'Saurabh Sharma',
-    description:
-      'Full stack web developer making e-commerce websites and SaaS',
+    description: 'Full stack web developer making e-commerce websites and SaaS',
     url: 'https://itsjzt.com/uses',
     twitter: '@itsjzt',
     emoji: '🔥',
