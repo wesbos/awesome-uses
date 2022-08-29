@@ -4710,7 +4710,7 @@ module.exports = [
   {
     name: 'Saurabh Sharma',
     description:
-      'Specialize in making higly performant ecommerce stores and SASS apps',
+      'Full stack web developer making e-commerce websites and SaaS',
     url: 'https://itsjzt.com/uses',
     twitter: '@itsjzt',
     emoji: '🔥',
@@ -4723,8 +4723,10 @@ module.exports = [
       'JavaScript',
       'React',
       'Node.js',
+      'Figma',
       'CSS',
       'Typescript',
+      'Performance',
       'Shopify',
       'VS Code',
       'GraphQL',
