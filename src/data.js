@@ -2802,6 +2802,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Olek Baran',
+    description: 'Front-end web developer using React and Next.js',
+    url: 'https://olekbaran.com/uses/',
+    emoji: '🐬',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'JAMstack',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next',
+      'Vercel'
+    ],
+  },
+  {
     name: 'Emanuele Bartolesi',
     description: 'Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐',
     url: 'https://www.emanuelebartolesi.com/uses',
