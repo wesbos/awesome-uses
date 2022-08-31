@@ -2817,7 +2817,7 @@ module.exports = [
       'TypeScript',
       'React',
       'Next',
-      'Vercel'
+      'Vercel',
     ],
   },
   {
