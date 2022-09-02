@@ -6299,11 +6299,7 @@ module.exports = [
     country: '🇳🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Manager',
-      'Blogger',
-      'Writer',
-    ],
+    tags: ['Manager', 'Blogger', 'Writer'],
   },
   {
     name: 'Rene Gens',
