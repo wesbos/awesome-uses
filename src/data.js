@@ -6291,6 +6291,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Jelle Smeets',
+    description: 'Engineering manager & blogger',
+    url: 'https://blog.jellesmeets.nl/uses',
+    twitter: '@smeetsmeister',
+    emoji: '🎯',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Manager',
+      'Blogger',
+      'Writer',
+    ],
+  },
+  {
     name: 'Rene Gens',
     description:
       'android engineer, project manager, teacher, aspiring designer and author',
