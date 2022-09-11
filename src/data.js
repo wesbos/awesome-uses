@@ -5609,14 +5609,15 @@ module.exports = [
   },
   {
     name: 'Jang Rush',
-    description: 'markdown aficionado who suffers from unix porn addiction (*/*)',
+    description:
+      'markdown aficionado who suffers from unix porn addiction (*/*)',
     url: 'https://mmap.page/uses/',
     country: '🇺🇳',
     twitter: '@weakish',
     emoji: '🍥',
     computer: 'linux',
     phone: 'iphone',
-    tags: ['Firefox', 'Neovim', 'Markdown', 'Go', 'Python', 'ReScript']
+    tags: ['Firefox', 'Neovim', 'Markdown', 'Go', 'Python', 'ReScript'],
   },
   {
     name: 'John SJ Anderson',

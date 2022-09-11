@@ -279,6 +279,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Shawn Crigger](https://shawn-crigger.herokuapp.com/uses) — Full Stack Developer, Pixel Craftsman, Dog Lover and avid Meat eater!
 * [Nathanaël Cherrier](https://mindsers.blog/fr/uses) — Full Stack JavaScript and Swift Developer, Software Caftsman, from Reunion Island based in Lyon, France
 * [Keith Donegan](https://www.keithdonegan.com/uses/) — Irish WordPress developer, based in London, UK.
+* [Jang Rush](https://mmap.page/uses/) — markdown aficionado who suffers from unix porn addiction (*/*)
 * [John SJ Anderson](https://genehack.org/uses) — information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.
 * [Makon Cline](https://makoncline.com/uses) — Engineer, Developer, Home Cook. I like to make useful things and share them with others.
 * [Pierre-Antoine "Leny" Delnatte](https://leny.me/uses/) — Developer, Bootcamp coach. Forging the next generation of webdevelopers.
