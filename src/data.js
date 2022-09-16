@@ -6049,12 +6049,12 @@ module.exports = [
     ],
   },
   {
-    name: 'Dan MdO',
+    name: 'Dan Montes de Oca',
     description:
       'Wordpress afficianado, 360 video enthusiast and overall happy human.',
     url: 'https://mdo.media/uses',
     twitter: '@mdomedia',
-    emoji: 'dizzy',
+    emoji: '💫',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
@@ -6065,7 +6065,7 @@ module.exports = [
       'Generate Press',   
       'Breakdance',
       'SEO',
-      'Design',
+      'Accessibility',
       'Creative',
       'CSS',
       'Visual Strategy',
