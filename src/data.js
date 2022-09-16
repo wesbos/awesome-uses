@@ -6049,6 +6049,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Dan MdO',
+    description:
+      'Wordpress afficianado, 360 video enthusiast and overall happy human.',
+    url: 'https://mdo.media/uses',
+    twitter: '@mdomedia',
+    emoji: 'dizzy',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'WordPress',
+      'Oxygen',
+      'Bricks',
+      'Generate Press',   
+      'Breakdance',
+      'SEO',
+      'Design',
+      'Creative',
+      'CSS',
+      'Visual Strategy',
+      'Agency Owner',
+    ],
+  },
+  {
     name: 'Sagar Soni',
     description:
       'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
