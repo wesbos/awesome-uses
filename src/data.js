@@ -121,6 +121,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Tim Smith',
+    description: 'Full-Stack Web Developer, Tech Enthusiast, creator, husband.',
+    url: 'https://timsmith.tech/uses',
+    twitter: '@timsmith23',
+    emoji: '👽',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'React',
+      'Gatsby',
+      'Sveltekit',
+      'Designer',
+      'Developer',
+      'UI',
+      'UX',
+    ],
+  },
+  {
     name: 'Hector Saldaña',
     description:
       'I am a software development student at university. My favorites developments are when I am looking for a solution that help people',
