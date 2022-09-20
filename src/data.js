@@ -8122,6 +8122,16 @@ module.exports = [
     tags: ['Developer', 'Designer', 'Front End', 'JavaScript', 'React', 'Bots'],
   },
   {
+    name: 'Matt TK Taylor',
+    description: 'Product Manager in news & media',
+    url: 'https://tk.gg/uses',
+    twitter: '@MattieTK',
+    emoji: '📰',
+    country: '🇬🇧',
+    computer: 'windows',
+    tags: ['Product Manager', 'Node.js', 'Javascript', 'Vercel'],
+  },
+  {
     // required tags
     name: 'Nico Bachner',
     description: 'Student. Developer. Entrepreneur.',
