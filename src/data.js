@@ -14338,6 +14338,15 @@ module.exports = [
     ],
   },
   {
+    name: 'Stanislav (Stas) Katkov',
+    description: 'Indie-hacker and developer',
+    url: 'https://skatkov.com/uses',
+    twitter:  '@5katkov',
+    country: '🇳🇱',
+    computer: 'linux',
+    tags: ['Digital-wellness', 'Ruby on Rails', 'Golang', 'Sqlite', 'Dad', 'Nomad', 'Manjaro']
+  },
+  {
     name: 'Matt Walsh',
     description: 'Python programmer with love for data and automation',
     url: 'https://mattwalsh.dev/uses/',
