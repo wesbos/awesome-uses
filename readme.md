@@ -688,6 +688,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vinesh Raju](https://blog.thevinesh.com/uses/) — Mobile Application developer from India with a deep focus on UX/UI.
 * [Simon Lee](https://simonhlee97.github.io/uses/) — Front end developer. Indiana Hoosier.
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
+* [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
