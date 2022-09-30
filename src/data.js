@@ -14397,6 +14397,30 @@ module.exports = [
       'REST',
     ],
   },
+  {
+    name: 'Wuttinan Sukpoon',
+    description: 'FullStack Developer',
+    url: 'https://github.com/mewxz029/uses',
+    emoji: '🤔',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'Back End',
+      'Problem Solver',
+      'JavaScript',
+      'VueJS',
+      'Node.js',
+      'NuxtJS',
+      'REST',
+      'Mac',
+      'MongoDB',
+      'NestJS',
+      'Express'
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
