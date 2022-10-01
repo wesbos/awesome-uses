@@ -13,5 +13,6 @@ jobs:
         uses: TechWiz-3/linksafe@fast
         with:
           whitelist_files: "./package-lock.json"
+          whitelist_links: "https://achhunna.com/uses,https://www.sudhanshubajaj.com/uses/,https://renanmf.com/uses,https://fabianvallejos.com/uses/,https://daochau.com/uses/,https://grailbox.com/uses/,https://chriswiegman.com/uses,https://dev.to/fullstack_to/tools-services-i-use-je9,https://andela.com/,https://www.albertofortes.com/uses"
         env:
           TOKEN: ${{ secrets.TOKEN }}
