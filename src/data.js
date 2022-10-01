@@ -2545,7 +2545,7 @@ module.exports = [
     url: 'https://github.com/Prashant-Bhapkar/uses',
     twitter: '@PBBhapkar',
     emoji: '🚀',
-    country: 'IN',
+    country: '🇮🇳',
     computer: 'Dell',
     phone: 'android',
     tags: [
