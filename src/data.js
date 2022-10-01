@@ -14113,7 +14113,7 @@ module.exports = [
       'Mac',
       'MongoDB',
       'NestJS',
-      'Express'
+      'Express',
     ],
   },
   {
