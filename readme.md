@@ -143,7 +143,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
-* [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) - Developer, Entrepreneur, Content Creator
+* [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) — Developer, Entrepreneur, Content Creator
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Pablo Obando](https://pabloobando.dev/uses) — A software engineer who enjoys programming and good beers 🍻
 * [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
