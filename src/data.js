@@ -2546,7 +2546,7 @@ module.exports = [
     twitter: '@PBBhapkar',
     emoji: '🚀',
     country: '🇮🇳',
-    computer: 'Dell',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'C',
