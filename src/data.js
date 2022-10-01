@@ -1994,7 +1994,7 @@ module.exports = [
       'Flutter',
       'Gatsby',
       'Manager',
-      'Clojure'
+      'Clojure',
     ],
   },
   {
