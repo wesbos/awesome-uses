@@ -1975,13 +1975,13 @@ module.exports = [
   },
   {
     name: 'Diego Costa',
-    description: 'Engineering Tech Manager and Full-stack Software Engineer',
+    description: 'Engineering Manager and Full-stack Software Engineer',
     url: 'https://diegocosta.me/uses',
     twitter: '@diegocoxta',
     emoji: '👨‍💻',
     country: '🇧🇷',
     computer: 'apple',
-    phone: 'iphone',
+    phone: 'android',
     tags: [
       'Full Stack',
       'React',
@@ -1992,8 +1992,9 @@ module.exports = [
       'React Native',
       'Problem Solver',
       'Flutter',
-      'Styled Components',
       'Gatsby',
+      'Manager',
+      'Clojure'
     ],
   },
   {
