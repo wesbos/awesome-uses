@@ -673,6 +673,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
 * [Paul Mowat](https://www.paulmowat.co.uk/uses/) — A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced
 * [Luigi Cruz](https://luigicruz.dev/uses) — Software developer with a focus on the Web.
+* [Felix Macaspac](https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e) — Self-taught Frontend developer from the Philippines, and a CS student.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Carol Gilabert](http://carol.gg/uses/) — Web developer and community organiser.
 * [Steve Rydz](https://steverydz.com/uses) — Developer
