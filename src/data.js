@@ -4366,7 +4366,7 @@ module.exports = [
   {
     name: 'Harsh Patel',
     description: 'Fullstack Developer passionate. Trainer & speaker',
-    url: 'https://gyanev.com/uses/',
+    url: 'https://github.com/Harsh-14/MyUses/blob/main/README.md',
     twitter: '@harsh____14',
     emoji: '👨‍💻',
     country: '🇮🇳',
