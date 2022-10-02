@@ -13980,6 +13980,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Felix Macaspac',
+    description:
+      'Self-taught Frontend developer from the Philippines, and a CS student.',
+    url: 'https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e',
+    twitter: '@felixmacaspac',
+    emoji: '🐱',
+    country: '🇵🇭',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Web Development',
+      'Front End',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Next.js',
+      'HubSpot CMS',
+      'Tailwind CSS',
+    ],
+  },
+  {
     name: 'Jerry Shi',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
