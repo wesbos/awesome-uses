@@ -13981,12 +13981,13 @@ module.exports = [
   },
   {
     name: 'Felix Macaspac',
-    description: 'Self-taught Frontend developer from the Philippines, and a CS student.',
+    description:
+      'Self-taught Frontend developer from the Philippines, and a CS student.',
     url: 'https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e',
     twitter: '@felixmacaspac',
     emoji: '🐱',
     country: '🇵🇭',
-    computer: 'ubuntu',
+    computer: 'linux',
     phone: 'iphone',
     tags: [
       'Web Development',
