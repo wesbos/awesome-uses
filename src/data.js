@@ -4366,11 +4366,11 @@ module.exports = [
   {
     name: 'Harsh Patel',
     description: 'Fullstack Developer passionate. Trainer & speaker',
-    url: 'https://harshpatel.com/uses',
+    url: 'https://gyanev.com/uses/',
     twitter: '@harsh____14',
     emoji: '👨‍💻',
     country: '🇮🇳',
-    computer: 'HP',
+    computer: 'windows',
     phone: 'Apple',
     tags: [
       'Developer',
