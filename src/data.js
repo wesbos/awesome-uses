@@ -2099,6 +2099,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Alyssa Holland',
+    description:
+      'Frontend developer with a passion for learning! Writes about programming and productivity tips.',
+    url: 'https://www.alyssaholland.com/uses/',
+    country: '🇺🇸',
+    twitter: '@alyssa_codes',
+    emoji: '🎷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Developer',
+      'React',
+      'Front End',
+      'HTML/CSS',
+      'Blogger',
+      'Musician',
+    ],
+  },
+  {
     name: 'Andrew Gilliland',
     description:
       'Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video',
