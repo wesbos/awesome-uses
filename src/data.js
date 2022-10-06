@@ -6357,6 +6357,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Joe Maffei',
+    description:
+      'Software engineer with a passion for Web Application Development.',
+    url: 'https://joemaffei.dev/uses/',
+    twitter: '@joemaffei',
+    emoji: '😎',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'JavaScript',
+      'Developer',
+      'React',
+      'Next',
+      'Vue.js',
+      'Node.js',
+      'TypeScript',
+      'Web',
+      'Accessibility',
+      'Mentor',
+      'Musician',
+    ],
+  },
+  {
     name: 'Eliezer Steinbock',
     description:
       'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
