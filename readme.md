@@ -311,6 +311,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vinoth Chellamuthu](https://ecevinoth.github.io/#uses) — Data Engineer
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
+* [Joe Maffei](https://joemaffei.dev/uses/) — Software engineer with a passion for Web Application Development.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Jelle Smeets](https://blog.jellesmeets.nl/uses) — Engineering manager & blogger
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
