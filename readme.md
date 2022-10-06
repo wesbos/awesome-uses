@@ -73,6 +73,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
 * [Manuel Coiai](https://github.com/viralk/uses) — Creative front-end developer living in Pisa, Italy
 * [Tim Leland](https://timleland.com/uses) — Full-Stack developer and Blogger.
+* [Randall Wilk](https://randallwilk.dev/uses) — Full-Stack Laravel Developer.
 * [Reinhart Previano Koentjoro](https://reinhart1010.id/uses) — The first "IT superhero" in Indonesia who transformed to Shift this world.
 * [Melanie Kat](https://melkat.blog/p/uses) — Silly front-end engineer (she/her)
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
