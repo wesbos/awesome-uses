@@ -13173,36 +13173,18 @@ module.exports = [
   {
     name: 'Haseeb Majid',
     description:
-      'Software Engineer, who mostly develops in JavaScript and Python.',
+      'Backend software engineer 💻 and village cricketer 🏏',
     url: 'https://haseebmajid.dev/uses/',
-    emoji: '💻',
+    emoji: '🏏',
     country: '🇬🇧',
     computer: 'linux',
     phone: 'android',
     tags: [
-      'Developer',
-      'JavaScript',
-      'React',
-      'Gatsby',
+      'Backend',
       'TypeScript',
       'Python',
-    ],
-  },
-  {
-    name: 'Haseeb Majid',
-    description: 'Software Engineer, who mostly develops in JavaScript and Python.',
-    url: 'https://haseebmajid.dev/uses/',
-    emoji: '💻',
-    country: '🇬🇧',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'React',
-      'Gatsby',
-      'TypeScript',
-      'Python',
+      'Docker',
+      'Golang'
     ],
   },
   {
