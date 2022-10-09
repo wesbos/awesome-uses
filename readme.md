@@ -35,6 +35,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
+* [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Tim Smith](https://timsmith.tech/uses) — Full-Stack Web Developer, Tech Enthusiast, creator, husband.
 * [Hector Saldaña](https://hectorsaldes.netlify.app/#uses) — I am a software development student at university. My favorites developments are when I am looking for a solution that help people
 * [Daniel Roe](https://roe.dev/uses) — Nuxt architect and open source lover
@@ -73,6 +74,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nick East](https://www.nick-east.com/uses) — Front-end developer, UX/UI designer, Web Jedi 🧙‍♂️ 
 * [Manuel Coiai](https://github.com/viralk/uses) — Creative front-end developer living in Pisa, Italy
 * [Tim Leland](https://timleland.com/uses) — Full-Stack developer and Blogger.
+* [Randall Wilk](https://randallwilk.dev/uses) — Full-Stack Laravel Developer.
 * [Reinhart Previano Koentjoro](https://reinhart1010.id/uses) — The first "IT superhero" in Indonesia who transformed to Shift this world.
 * [Melanie Kat](https://melkat.blog/p/uses) — Silly front-end engineer (she/her)
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
@@ -311,6 +313,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vinoth Chellamuthu](https://ecevinoth.github.io/#uses) — Data Engineer
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
+* [Joe Maffei](https://joemaffei.dev/uses/) — Software engineer with a passion for Web Application Development.
 * [Eliezer Steinbock](https://elie.tech/uses) — Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer
 * [Jelle Smeets](https://blog.jellesmeets.nl/uses) — Engineering manager & blogger
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
@@ -694,6 +697,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
 * [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
+* [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
