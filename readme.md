@@ -697,6 +697,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
 * [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
+* [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
