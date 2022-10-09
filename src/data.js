@@ -2110,12 +2110,15 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'JavaScript',
-      'Developer',
       'React',
-      'Front End',
       'HTML/CSS',
+      'Front End',
+      'Developer',
+      'Accessibility',
+      'Component Libraries',
       'Blogger',
       'Musician',
+      'Tailwind CSS',
     ],
   },
   {
