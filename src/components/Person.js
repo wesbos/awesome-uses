@@ -24,7 +24,7 @@ function useIntersectionObserver(ref) {
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const twitter = `https://unavatar.now.sh/twitter/${person.twitter}`;
+  const twitter = person.twitter ? `https://unavatar.now.sh/twitter/${person.twitter.replace('@', '')}` : null;
   const website = `https://unavatar.now.sh/${url.host}`;
   const unavatar = person.twitter ? `${twitter}?fallback=${website}` : website;
   const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
@@ -112,7 +112,7 @@ Person.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string),
     country: PropTypes.string,
     computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
-    phone: PropTypes.oneOf(['iphone', 'android']),
+    phone: PropTypes.oneOf(['iphone', 'android', 'windowsphone']),
     twitter(props, propName, componentName) {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
         return new Error(

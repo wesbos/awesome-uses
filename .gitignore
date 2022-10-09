@@ -64,6 +64,9 @@ public
 # VS Code workspace settings
 .vscode/
 
+# vim workspace settings
+.vim/
+
 # Yarn
 yarn-error.log
 .pnp/

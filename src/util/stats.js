@@ -1,9 +1,11 @@
-import { name } from 'country-emoji';
-import people from '../data.js';
+const { name } = require('country-emoji');
+const people = require('../data.js');
 
 function merge(prop) {
-  return function(acc, obj) {
-    return [...obj[prop], ...acc];
+  return function (acc, obj) {
+    // Remove duplicated values.
+    const values = [...new Set(obj[prop])];
+    return [...values, ...acc];
   };
 }
 
@@ -12,9 +14,26 @@ function countInstances(acc, tag) {
   return acc;
 }
 
-export function countries() {
+function normalizeTag(tag) {
+  return (
+    tag
+      // Common mispellings currently seen in the data
+      // Do we want to go this far?
+      .replace(/frontend/i, 'Front End')
+      .replace(/backend/i, 'Back End')
+      .replace(/fullstack/i, 'Full Stack')
+      .replace(/a11y/i, 'Accessibility')
+      .replace(/next.?js/i, 'Next')
+      .replace(/react.?js/i, 'React')
+
+      // Or is lowercase enough?
+      .toLowerCase()
+  );
+}
+
+function countries() {
   const data = people
-    .map(person => ({
+    .map((person) => ({
       name: name(person.country),
       emoji: person.country,
     }))
@@ -38,7 +57,7 @@ export function countries() {
   return sorted;
 }
 
-export function tags() {
+function tags() {
   const allTags = people.reduce(merge('tags'), []);
   const counts = allTags.reduce(countInstances, {});
   // sort and filter for any tags that only have 1
@@ -48,16 +67,39 @@ export function tags() {
     .filter(([, count]) => count >= 3)
     .map(([name, count]) => ({ name, count }));
 
-  return [{ name: 'all', count: people.length }, ...tags];
+  const lowercaseTagMap = tags.reduce((acc, tag) => {
+    const normalizedName = normalizeTag(tag.name);
+    const currentCount = acc[normalizedName] || 0;
+    acc[normalizedName] = currentCount + tag.count;
+    return acc;
+  }, {});
+
+  // Merge tags like "JavaScript" and "Javascript" based on the
+  // count… Event though it's obviously JavaScript!
+  const normalizedTags = tags.reduce((acc, { name }) => {
+    const normalizedName = normalizeTag(name);
+    if (typeof lowercaseTagMap[normalizedName] !== 'undefined') {
+      acc.push({ name, count: lowercaseTagMap[normalizedName] });
+      delete lowercaseTagMap[normalizedName];
+    }
+    return acc;
+  }, []);
+
+  return [{ name: 'all', count: people.length }, ...normalizedTags];
 }
 
-export function devices() {
+function devices() {
   const all = [
-    ...people.map(person => person.computer),
-    ...people.map(person => person.phone),
+    ...people.map((person) => person.computer),
+    ...people.map((person) => person.phone),
   ];
 
   return Object.entries(all.reduce(countInstances, {}))
     .map(([device, count]) => ({ name: device, count }))
     .sort((a, b) => b.count - a.count);
 }
+
+exports.normalizeTag = normalizeTag;
+exports.countries = countries;
+exports.tags = tags;
+exports.devices = devices;
