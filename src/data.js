@@ -99,7 +99,10 @@ module.exports = [
     name: 'Riley',
     description: 'Software Developer',
     url: 'https://riley-uses.netlify.app/',
-    computer: 'Linux',
+    country: '🇿🇦',
+    emoji: '🤓',
+    computer: 'linux',
+    phone: "android",
     tags: [
       'JavaScript',
       'Python',
