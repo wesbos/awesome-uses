@@ -96,6 +96,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Riley',
+    description: 'Software Developer',
+    url: 'https://riley-uses.netlify.app/',
+    country: '🇿🇦',
+    emoji: '🤓',
+    computer: 'linux',
+    phone: "android",
+    tags: [
+      'JavaScript',
+      'Python',
+      'SQL',
+      'ReactJS',
+      'Django',
+      'Leaflet'
+    ]
+  },
+  {
     name: 'Marko Bajlovic',
     description: 'Multidisciplinary creative and developer; forever learning.',
     url: 'https://marko.tech/uses',
