@@ -13195,20 +13195,13 @@ module.exports = [
   },
   {
     name: 'Haseeb Majid',
-    description:
-      'Backend software engineer 💻 and village cricketer 🏏',
+    description: 'Backend software engineer 💻 and village cricketer 🏏',
     url: 'https://haseebmajid.dev/uses/',
     emoji: '🏏',
     country: '🇬🇧',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Backend',
-      'TypeScript',
-      'Python',
-      'Docker',
-      'Golang'
-    ],
+    tags: ['Backend', 'TypeScript', 'Python', 'Docker', 'Golang'],
   },
   {
     name: 'Narendra Mandadapu',
