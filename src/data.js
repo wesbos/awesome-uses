@@ -1884,6 +1884,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Danang Estutomoaji',
+    description: 'A Web developer',
+    twitter: '@danangtalkin',
+    computer: 'windows',
+    phone: 'android',
+    emoji: '☕',
+    tags: [
+      'Laravel',
+      'JavaScript',
+      'PHP',
+      'React',
+      'Web Developer',
+    ],
+  },
+  {
     name: 'Maxim Villivald',
     description:
       'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
