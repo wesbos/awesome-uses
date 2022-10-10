@@ -102,15 +102,8 @@ module.exports = [
     country: '🇿🇦',
     emoji: '🤓',
     computer: 'linux',
-    phone: "android",
-    tags: [
-      'JavaScript',
-      'Python',
-      'SQL',
-      'ReactJS',
-      'Django',
-      'Leaflet'
-    ]
+    phone: 'android',
+    tags: ['JavaScript', 'Python', 'SQL', 'ReactJS', 'Django', 'Leaflet'],
   },
   {
     name: 'Marko Bajlovic',
