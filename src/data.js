@@ -6234,6 +6234,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Paulo Regina',
+    description:
+      'Full Stack Web Developer',
+    url: 'https://pauloregina.com/uses.html',
+    emoji: '💻',
+    country: 'MZ',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'WordPress',
+      'CSS',
+      'Node.js',
+      'PHP',
+      'JavaScript',
+      'Back End',
+      'Ubuntu Server',
+      'Developer',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Varatep Buranintu',
     description:
       'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
