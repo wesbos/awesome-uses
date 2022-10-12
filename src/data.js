@@ -145,6 +145,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Murendeni Mukwevho',
+    description: 'Software Developer breaking the bias in South Africa',
+    url: 'https://mukwevhom.xyz/uses',
+    twitter: '@iammurendeni',
+    country: '🇿🇦',
+    emoji: '😎',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['JavaScript', 'Python', 'PostgreSQL', 'ReactJS', 'GatsbyJS', 'Fastify'],
+  },
+  {
     name: 'Marko Bajlovic',
     description: 'Multidisciplinary creative and developer; forever learning.',
     url: 'https://marko.tech/uses',
