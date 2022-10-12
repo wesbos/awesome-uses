@@ -153,7 +153,14 @@ module.exports = [
     emoji: '😎',
     computer: 'windows',
     phone: 'android',
-    tags: ['JavaScript', 'Python', 'PostgreSQL', 'ReactJS', 'GatsbyJS', 'Fastify'],
+    tags: [
+      'JavaScript',
+      'Python',
+      'PostgreSQL',
+      'ReactJS',
+      'GatsbyJS',
+      'Fastify',
+    ],
   },
   {
     name: 'Marko Bajlovic',

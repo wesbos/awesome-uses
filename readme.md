@@ -36,6 +36,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
+* [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Tim Smith](https://timsmith.tech/uses) — Full-Stack Web Developer, Tech Enthusiast, creator, husband.
