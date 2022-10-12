@@ -141,8 +141,8 @@ module.exports = [
       'Engineer',
       'Entrepreneur',
       'Back End',
-      'UI'
-    ]
+      'UI',
+    ],
   },
   {
     name: 'Marko Bajlovic',
