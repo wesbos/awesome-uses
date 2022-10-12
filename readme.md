@@ -242,6 +242,8 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
 * [David Morales](https://davidmles.com/uses) — Computer Engineer. Web Developer. Teacher at ninjadevel.com
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
+* [Alexander Sedeke](https://www.studioalex.dev/alexander/uses/) — Software Engineer
+* [Lea Vu](https://www.studioalex.dev/lea/uses/) — UI/UX Designer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Michael Read](https://www.michaelcread.com/uses) — Full Stack Web Developer.
