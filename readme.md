@@ -49,6 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
 * [Adam Rusted](https://www.adamrusted.me/uses/) — JavaScript Developer, Kubernetes, Dynamics 365
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
+* [Devika Bhapkar](https://github.com/devikabhapkar/uses) — Student,Content creator
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
 * [Nick Reutlinger](https://nickreutlinger.de/uses) — Web Developer with Javascript and SvelteKit
 * [Harley Wilson](https://harleyjwilson.com/uses) — First year CS student. Trying to improve one percent at a time.
@@ -278,7 +279,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Johan Hammar](https://www.johanhammar.se/uses) — Software Engineer from Sweden
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
-* [Devika Bhapkar](https://github.com/devikabhapkar/uses) —  Student, Content Creator, 
 * [James Peilow](https://jamespeilow.com/uses) — Front-end Developer, Switch owner, coffee and beer drinker
 * [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.

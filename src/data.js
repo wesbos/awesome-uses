@@ -448,7 +448,7 @@ module.exports = [
       'bash',
     ],
   },
-   {
+  {
     name: 'Devika Bhapkar',
     description: 'Student,Content creator',
     url: 'https://github.com/devikabhapkar/uses',
