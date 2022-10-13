@@ -278,7 +278,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Johan Hammar](https://www.johanhammar.se/uses) — Software Engineer from Sweden
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
-* [Devika Bhapkar](https://github.com/devikabhapkar/Uses) —  Student, Content Creator, 
+* [Devika Bhapkar](https://github.com/devikabhapkar/uses) —  Student, Content Creator, 
 * [James Peilow](https://jamespeilow.com/uses) — Front-end Developer, Switch owner, coffee and beer drinker
 * [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
