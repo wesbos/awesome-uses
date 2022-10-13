@@ -451,7 +451,7 @@ module.exports = [
    {
     name: 'Devika Bhapkar',
     description: 'Student,Content creator',
-    url: 'https://github.com/devikabhapkar/Uses',
+    url: 'https://github.com/devikabhapkar/uses',
     emoji: '👨‍💻',
     country: '🇮🇳',
     computer: 'windows',
