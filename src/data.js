@@ -14429,14 +14429,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Writer',
-      'Developer',
-      'Python',
-      'CSS',
-      'HTML',
-      'Film',
-    ],
+    tags: ['Writer', 'Developer', 'Python', 'CSS', 'HTML', 'Film'],
   },
   {
     name: 'Filip Pacurar',

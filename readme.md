@@ -34,6 +34,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
+* [Vijay Goswmai](https://vijaygoswami.in/uses) — Full Stack Developer from Agra, Uttar Pradesh
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
@@ -691,6 +692,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
+* [Madeline Pritchard](https://madelinepritchard.net/pages/uses) — Film critic, writer, web developer.
 * [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Wuttinan Sukpoon](https://github.com/mewxz029/uses) — FullStack Developer
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
