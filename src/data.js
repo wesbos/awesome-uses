@@ -14397,6 +14397,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Madeline Pritchard',
+    description: 'Film critic, writer, web developer.',
+    url: 'https://madelinepritchard.net/pages/uses',
+    emoji: '😌',
+    country: '🇬🇧󠁧󠁢󠁷󠁬󠁳󠁿',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Writer',
+      'Developer',
+      'Python',
+      'CSS',
+      'HTML',
+      'Film',
+    ],
+  },
+  {
     name: 'Filip Pacurar',
     description:
       'Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO',
