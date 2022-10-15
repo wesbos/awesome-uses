@@ -3028,6 +3028,7 @@ module.exports = [
     name: 'Olek Baran',
     description: 'Front-end web developer using React and Next.js',
     url: 'https://olekbaran.com/uses/',
+    twitter: '@olekbaran',
     emoji: '🐬',
     country: '🇵🇱',
     computer: 'apple',
