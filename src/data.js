@@ -14426,7 +14426,7 @@ module.exports = [
     description: 'Film critic, writer, web developer.',
     url: 'https://madelinepritchard.net/pages/uses',
     emoji: '😌',
-    country: '🇬🇧󠁧󠁢󠁷󠁬󠁳󠁿',
+    country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
     tags: [
