@@ -99,7 +99,6 @@ module.exports = [
     name: 'Vijay Goswmai',
     description: 'Full Stack Developer from Agra, Uttar Pradesh',
     url: 'https://vijaygoswami.in/uses',
-    twitter: 'developervijay27',
     emoji: '🚀',
     country: '🇮🇳',
     computer: 'apple',
