@@ -35,6 +35,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
 * [Vijay Goswmai](https://vijaygoswami.in/uses) — Full Stack Developer from Agra, Uttar Pradesh
+* [Ihtisham Khan](https://iihtisham.com/uses.html) — Full-Stack Web Developer | Tech Enthusiast
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
