@@ -10,7 +10,7 @@
 - Should be updated with the latest main or master branch.
 - PR Title should be the name or handle of the person being added or update being made.
   - A bad PR title `update data.js`
-  - A goob PR Title `Adding Blake Campbell`
+  - A good PR Title `Adding Blake Campbell`
 
 ## What's a Uses Page?
 
