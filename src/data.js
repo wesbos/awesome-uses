@@ -20,7 +20,7 @@
  *
  * Keep this a commonjs export.
  */
- module.exports = [
+module.exports = [
   {
     name: 'Dominic Ruggiero',
     description: 'Student and idiot',
