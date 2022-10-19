@@ -968,9 +968,10 @@ module.exports = [
       'API',
       'Software Developer',
       'Node.js',
+      'Maker',
       'Music',
     ],
-  }
+  },
   {
     name: 'David Smooke',
     description: 'founder/ceo @hackernoon, leading the product team.',
