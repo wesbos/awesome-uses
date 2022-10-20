@@ -69,6 +69,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amel Selmane](https://enixes.com/uses/) — Programmer 💻, Gamer 👾, Tech lover 🎧
 * [Lazar Miseljic](https://fuzzylogic.ltd/uses) — Front end, but doesn't mind taking a look round the back
 * [Marco Heine](https://marcoheine.com/uses/) — Web developer from southern germany who loves to make fast and accessible websites and write about it.
+* [Dennis Muensterer](https://dnnsmnstrr.github.io/uses) — Inherently lazy and striving to do less. I like making things that make things more effortless.
 * [David Smooke](https://www.davidsmooke.net/uses) — founder/ceo @hackernoon, leading the product team.
 * [Eduar Bastidas](https://mreduar.dev/uses/) — Full Stack Web Developer
 * [Albert Zhang](https://www.albertaz.com/uses) — Developer, Designer, Artist, Podcaster, Sports enthusiast.
