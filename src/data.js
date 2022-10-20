@@ -943,7 +943,7 @@ module.exports = [
   },
   {
     name: 'Dennis Muensterer',
-    descriptions: 'Inherently lazy and striving to do less. I like making things that make things more effortless.',
+    description: 'Inherently lazy and striving to do less. I like making things that make things more effortless.',
     url: 'https://dnnsmnstrr.github.io/uses',
     twitter: '@dnnsmnstrr',
     emoji: '🦥',
