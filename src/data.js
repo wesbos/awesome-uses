@@ -12786,7 +12786,7 @@ module.exports = [
       'TypeScript',
       'Vercel',
       'VS Code',
-      'WordPress'
+      'WordPress',
     ],
   },
   {
