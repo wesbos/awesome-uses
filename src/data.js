@@ -4912,6 +4912,21 @@ module.exports = [
       'Gatsby',
     ],
   },
+   {
+    name: 'Alex Zmn',
+    description: 'Product Owner by day, dabbling in JavaScript, Rust and self-hosting by night.',
+    url: 'https://www.monolog.dev/uses/',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'Rust',
+      'Figma',
+      'React',
+      'Developer',
+    ],
+  },
   {
     name: 'Alexander Sedeke',
     description: 'Software Engineer',
