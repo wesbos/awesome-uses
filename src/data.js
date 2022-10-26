@@ -7292,6 +7292,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Sergey Panteleev',
+    description: 'PHP 8.2 Release Manager',
+    url: 'https://sergeypanteleev.com/en/uses',
+    twitter: '@s_panteleev',
+    emoji: '🐘',
+    country: '🇷🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Back End',
+      'Web Developer',
+      'Laravel',
+      'Tailwind CSS',
+      'PHP',
+      'PhpStorm',
+      'macOS',
+      'Open Source Software',
+    ],
+  },
+  {
     name: 'Shajan Jacob',
     description:
       'Software Engineer, extroverted introvert, storyteller and a maker.',
