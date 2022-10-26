@@ -355,6 +355,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Shreyas Minocha](https://shreyasminocha.me/uses) — web. foss. privacy. archival. accessibility.
 * [Andrei Racasan](https://www.andreiracasan.com/setup) — Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.
+* [Sergey Panteleev](https://sergeypanteleev.com/en/uses) — PHP 8.2 Release Manager
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
 * [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Software Developer, Fullstack
