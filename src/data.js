@@ -4871,13 +4871,7 @@ module.exports = [
     country: '🇨🇿',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'dbt',
-      'SQL',
-      'Python',
-      'JavaScript'
-    ],
+    tags: ['Engineer', 'dbt', 'SQL', 'Python', 'JavaScript'],
   },
   {
     name: 'David Morales',

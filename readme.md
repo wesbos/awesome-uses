@@ -246,6 +246,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sampan Verma](https://www.samlovescoding.com/articles/uses) — Senior Software Developer, YouTuber, Streamer and Gamer
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
 * [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
+* [Michal Kolacek](https://michalkolacek.xyz/uses) — Analytics Engineer
 * [David Morales](https://davidmles.com/uses) — Computer Engineer. Web Developer. Teacher at ninjadevel.com
 * [Alex Zmn](https://www.monolog.dev/uses/) — Product Owner by day, dabbling in JavaScript, Rust and self-hosting by night.
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
