@@ -4863,6 +4863,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Michal Kolacek',
+    description: 'Analytics Engineer',
+    url: 'https://michalkolacek.xyz/uses',
+    twitter: '@kolacek_m',
+    emoji: '🍪',
+    country: '🇨🇿',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'dbt',
+      'SQL',
+      'Python',
+      'JavaScript'
+    ],
+  },
+  {
     name: 'David Morales',
     description: 'Computer Engineer. Web Developer. Teacher at ninjadevel.com',
     url: 'https://davidmles.com/uses',
