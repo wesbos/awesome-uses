@@ -6481,8 +6481,7 @@ module.exports = [
   },
   {
     name: 'Paulo Regina',
-    description:
-      'Full Stack Web Developer',
+    description: 'Full Stack Web Developer',
     url: 'https://pauloregina.com/uses.html',
     emoji: '💻',
     country: '🇲🇿',
