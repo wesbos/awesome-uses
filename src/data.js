@@ -14614,7 +14614,8 @@ module.exports = [
   },
   {
     name: 'Kieran Robson',
-    description: 'Information science PhD student | Hobbyist developer | Movie and TV Enthuiast',
+    description:
+      'Information science PhD student | Hobbyist developer | Movie and TV Enthuiast',
     url: 'https://kieranrobson.com/uses/',
     twitter: '@Kieranr27',
     emoji: 'ℹ️',
@@ -14630,7 +14631,7 @@ module.exports = [
       'MongoDB',
       'Docker',
       'VPS',
-      'Discord.js'
+      'Discord.js',
     ],
   },
   {

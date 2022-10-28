@@ -701,6 +701,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Madeline Pritchard](https://madelinepritchard.net/pages/uses) — Film critic, writer, web developer.
 * [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Wuttinan Sukpoon](https://github.com/mewxz029/uses) — FullStack Developer
+* [Kieran Robson](https://kieranrobson.com/uses/) — Information science PhD student | Hobbyist developer | Movie and TV Enthuiast
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Josh Beard](https://joshbeard.me/uses/) — Sysadmin, DevOps, Hobbyist
