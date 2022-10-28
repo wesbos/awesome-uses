@@ -6239,7 +6239,7 @@ module.exports = [
       'Full Stack Web Developer',
     url: 'https://pauloregina.com/uses.html',
     emoji: '💻',
-    country: 'MZ',
+    country: '🇲🇿',
     computer: 'windows',
     phone: 'android',
     tags: [
