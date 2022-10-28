@@ -14613,6 +14613,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Kieran Robson',
+    description: 'Information science PhD student | Hobbyist developer | Movie and TV Enthuiast',
+    url: 'https://kieranrobson.com/uses/',
+    twitter: '@Kieranr27',
+    emoji: 'ℹ️',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Javascript',
+      'Node.js',
+      'PhD Student',
+      'Developer',
+      'Discord',
+      'MongoDB',
+      'Docker',
+      'VPS',
+      'Discord.js'
+    ],
+  },
+  {
     name: 'Johannes Konings',
     description: 'Developer',
     url: 'https://johanneskonings.dev/uses/',
