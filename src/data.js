@@ -11451,12 +11451,20 @@ module.exports = [
     description:
       'Frontend developer. I love mountains, Game Boys and Post-rock music.',
     url: 'https://ardi.land/uses',
-    twitter: '@Ardi__land',
-    emoji: '🍓',
+    twitter: '@ardillan_',
+    emoji: '🍋',
     country: '🇪🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['JavaScript', 'React', 'TypeScript', 'CSS', 'Gatsby', 'JAMstack'],
+    tags: [
+      'JavaScript',
+      'React',
+      'TypeScript',
+      'CSS',
+      'Gatsby',
+      'JAMstack',
+      'NextJS',
+    ],
   },
   {
     name: 'Erv Walter',
