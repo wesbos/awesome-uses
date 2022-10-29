@@ -276,12 +276,15 @@ module.exports = [
       'Back End',
       'Full Stack',
       'React',
+      'Javascript',
       'Gatsby',
       'Sveltekit',
       'Designer',
       'Developer',
       'UI',
       'UX',
+      'Svelte',
+      'Sveltekit'
     ],
   },
   {
