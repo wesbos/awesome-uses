@@ -284,7 +284,7 @@ module.exports = [
       'UI',
       'UX',
       'Svelte',
-      'Sveltekit'
+      'Sveltekit',
     ],
   },
   {
