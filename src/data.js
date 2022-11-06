@@ -288,6 +288,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Catalin Ciubotaru',
+    description: 'Frontend Developer, writes stuff, sometimes makes sense.',
+    url: 'https://catalincodes.com/uses',
+    twitter: '@c5n_c8u',
+    emoji: '🤖',
+    country: '🇷🇴',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Angular',
+      'React',
+      'Javascript',
+      'Typescript',
+      'Next',
+      'Developer',
+    ],
+  },
+  {
     name: 'Hector Saldaña',
     description:
       'I am a software development student at university. My favorites developments are when I am looking for a solution that help people',
