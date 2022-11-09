@@ -101,7 +101,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thiago Avelino](https://avelino.run/uses) — 🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ
 * [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
 * [Arisa Fukuzaki](https://github.com/schabibi1/uses) — DevRel Engineer, Front-end developer
-* [Ruben Arakelyan](https://www.rubenarakelyan.uk/uses/) — Web developer and connoisseur of minimalism
 * [Dean Lofts](https://loftwah.github.io/uses) — Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web
 * [Matthew Tao](https://www.matthewtao.com/uses) — Computer Science student who loves CSS. Focuses on the little things that make a website delightful.
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
