@@ -8193,6 +8193,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Sal Ferrarello',
+    description:
+      'Web Developer specializing in WordPress. Loves Git and Neovim. Good at metaphors and asking dumb questions.',
+    url: 'https://salferrarello.com/uses/',
+    twitter: '@salcode',
+    emoji: '💻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'WordPress',
+      'JavaScript',
+      'React',
+      'Git',
+      'Vim',
+      'NeoVim',
+      'tmux',
+      'zsh',
+    ],
+  },
+  {
     name: 'Brian Morrison II',
     description:
       'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
