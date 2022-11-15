@@ -204,6 +204,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jordan Haines](https://jordanairwave.co.uk/uses.html) — Full Stack Web Developer
 * [Leonel Ngoya](https://lndev.me/uses.html) — FrontEnd Developer and Web Integrator
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
+* [Richard Thames](https://richardthames.com/uses) — Emacs, podcast, and domain name enthusiast
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Elio Struyf](https://www.eliostruyf.com/uses) — Engineering Lead / Office Development MVP / Public Speaker
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
