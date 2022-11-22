@@ -2202,7 +2202,8 @@ module.exports = [
   },
   {
     name: 'Victor Pierre Alves',
-    description: 'Senior Software Engineer. I mostly code in Go these days. I live in Canada.',
+    description:
+      'Senior Software Engineer. I mostly code in Go these days. I live in Canada.',
     url: 'https://victorpierre.dev/uses',
     emoji: '🏔️',
     country: '🇨🇦',
