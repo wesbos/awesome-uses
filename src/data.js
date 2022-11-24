@@ -11853,6 +11853,25 @@ module.exports = [
     tags: ['Full Stack', 'React', 'Node.js', 'GraphQL', 'Gatsby'],
   },
   {
+    name: 'Kyle Platt',
+    description: 'Senior Software Engineer, Multi Startup Founder, Building Projects in Public',
+    url: 'https://kyleplatt.com/uses',
+    twitter: '@Kyle__Platt',
+    emoji: '🥩',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Kotlin',
+      'Java',
+      'JavaScript',
+      'Full Stack',
+      'Startups',
+      'Writer',
+      'Mentor'
+    ]
+  },
+  {
     name: 'Eric Oyanadel',
     description: 'Artist - Developer - Musician',
     url: 'https://www.oyanadel.com/uses/',
