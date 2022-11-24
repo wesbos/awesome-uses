@@ -574,6 +574,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
 * [Josef Aidt](https://josefaidt.dev/uses) — JavaScript and Garlic Bread connoisseur
+* [Kyle Platt](https://kyleplatt.com/uses) — Senior Software Engineer, Multi Startup Founder, Building Projects in Public
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Usman Khwaja](https://usmankhwaja.com/uses) — Front end engineer, Jamstack developer
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast

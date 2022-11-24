@@ -11854,7 +11854,8 @@ module.exports = [
   },
   {
     name: 'Kyle Platt',
-    description: 'Senior Software Engineer, Multi Startup Founder, Building Projects in Public',
+    description:
+      'Senior Software Engineer, Multi Startup Founder, Building Projects in Public',
     url: 'https://kyleplatt.com/uses',
     twitter: '@Kyle__Platt',
     emoji: '🥩',
@@ -11868,8 +11869,8 @@ module.exports = [
       'Full Stack',
       'Startups',
       'Writer',
-      'Mentor'
-    ]
+      'Mentor',
+    ],
   },
   {
     name: 'Eric Oyanadel',
