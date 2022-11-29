@@ -235,6 +235,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Luiz de Prá](https://luizdepra.dev/en/uses/) — Software and game developer, nerd, gamer and future hobbist woodworker.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.
 * [Axel Larsson](https://axellarsson.com/blog/what-i-use/) — Full-stack developer
+* [Laura Zumbakyte](https://desinni.dev/uses) — Front-end engineer, and a healthy lifestyle enthusiast.
 * [Chris Hufnagel](https://chrishufnagel.com/uses/) — Front End Developer & Designer
 * [Jeff Szuc](https://jeffszuc.com/uses) — UX Designer, Frontend Developer, Lifelong Learner.
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
