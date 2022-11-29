@@ -1201,6 +1201,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Márk Mihályi',
+    description: 'Full-Stack Engineer from Hungary',
+    url: 'https://markmihalyi.hu/uses',
+    twitter: '@_markmihalyi',
+    emoji: '💻',
+    country: '🇭🇺',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'TypeScript',
+      'JavaScript',
+      'React',
+      'Next',
+      'Tailwind CSS',
+      'Node.js',
+      'Back End',
+      'Express.js',
+      'MySQL',
+      'MongoDB'
+      'Linux',
+    ],
+  },
+  {
     name: 'Ben Lau',
     description:
       'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
