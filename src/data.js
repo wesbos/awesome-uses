@@ -1221,7 +1221,7 @@ module.exports = [
       'Back End',
       'Express.js',
       'MySQL',
-      'MongoDB'
+      'MongoDB',
       'Linux',
     ],
   },
