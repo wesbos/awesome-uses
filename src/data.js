@@ -22,6 +22,33 @@
  */
 module.exports = [
   {
+    name: 'Zilvinas Kucinskas',
+    description: 'Full Stack Ruby on Rails Engineer and Entrepreneur',
+    url: 'https://www.ziku.dev/uses/',
+    twitter: '@zilkucinskas',
+    emoji: '🍀',
+    country: '🇱🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Ruby on Rails',
+      'Ruby',
+      'PostgreSQL',
+      'Terraform',
+      'Docker',
+      'Tailwind CSS',
+      'Javascript',
+      'React',
+      'Software Engineer',
+      'Full Stack',
+      'Backend',
+      'DevOps',
+      'Entrepreneur',
+      'SEO',
+      'Maker',
+    ],
+  },
+  {
     name: 'Dominic Ruggiero',
     description: 'Student and idiot',
     url: 'https://userexe.me/uses',
