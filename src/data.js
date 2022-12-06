@@ -219,15 +219,15 @@ module.exports = [
     computer: 'windows',
     phone: 'iphone',
     tags: [
-        'Java',
-        'JavaScript',
-        'Python',
-        'React',
-        'Spring',
-        'AWS',
-        'Node.js',
-        'Next.js'
-    ]
+      'Java',
+      'JavaScript',
+      'Python',
+      'React',
+      'Spring',
+      'AWS',
+      'Node.js',
+      'Next.js',
+    ],
   },
   {
     name: 'Ivan Malopinsky',
