@@ -212,7 +212,7 @@ module.exports = [
   {
     name: 'Ryan Freeman',
     description: 'Full-stack software engineer from Dublin, Ireland',
-    url: 'https://ryanfreeman.dev',
+    url: 'https://ryanfreeman.dev/uses',
     twitter: '@ryanfreeman_dev',
     country: 'ie',
     emoji: '✈️',
