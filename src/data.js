@@ -214,7 +214,7 @@ module.exports = [
     description: 'Full-stack software engineer from Dublin, Ireland',
     url: 'https://ryanfreeman.dev/uses',
     twitter: '@ryanfreeman_dev',
-    country: 'ie',
+    country: '🇮🇪',
     emoji: '✈️',
     computer: 'windows',
     phone: 'iphone',
