@@ -210,6 +210,26 @@ module.exports = [
     tags: ['JavaScript', 'Python', 'SQL', 'ReactJS', 'Django', 'Leaflet'],
   },
   {
+    name: 'Ryan Freeman',
+    description: 'Full-stack software engineer from Dublin, Ireland',
+    url: 'https://ryanfreeman.dev/uses',
+    twitter: '@ryanfreeman_dev',
+    country: 'ie',
+    emoji: '✈️',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+        'Java',
+        'JavaScript',
+        'Python',
+        'React',
+        'Spring',
+        'AWS',
+        'Node.js',
+        'Next.js'
+    ]
+  },
+  {
     name: 'Ivan Malopinsky',
     description: 'Entrepreneur, engineer',
     url: 'https://imsky.co/uses',
