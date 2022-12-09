@@ -663,6 +663,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Derek Mohr](https://onemohrti.me/about/uses/) — Front-end development by interest, full stack development by trade
 * [Haseeb Majid](https://haseebmajid.dev/uses/) — Backend software engineer 💻 and village cricketer 🏏
 * [Narendra Mandadapu](https://5pagesaday.com/uses) — Fullstack Engineer, SEO Nerd, ⭐️⭐️⭐️⭐️⭐️ 5-Star Udemy Instructor, United Kingdom
+* [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few.
 * [Łukasz Rybka](https://www.dragonia.org.pl/uses/) — Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.
 * [Antonio Piras](https://www.antopiras.dev/uses) — Web developer from Italy, madly in love with Javascript and everything web related.
 * [Maxwell Morrison](https://maxmorrison.me/uses) — Continuous leaner and freelance full stack developer
