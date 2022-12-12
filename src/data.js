@@ -22,6 +22,30 @@
  */
 module.exports = [
   {
+    name: 'Syofyan Zuhad',
+    description: 'Full Stack Software Engineer 🇮🇩',
+    url: 'https://syofyan-profile.vercel.app/uses/',
+    twitter: '@syofyan_zuhad',
+    emoji: '⚡️',
+    country: '🇮🇩',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Laravel',
+      'PHP',
+      'PostgreSQL',
+      'MySQL',
+      'Tailwind CSS',
+      'Javascript',
+      'Software Engineer',
+      'Full Stack',
+      'Backend',
+      'DevOps',
+      'Entrepreneur',
+      'SEO',
+    ],
+  },
+  {
     name: 'Zilvinas Kucinskas',
     description: 'Full Stack Ruby on Rails Engineer and Entrepreneur',
     url: 'https://www.ziku.dev/uses/',
