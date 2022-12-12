@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
