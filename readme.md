@@ -44,6 +44,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
+* [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Tim Smith](https://timsmith.tech/uses) — Full-Stack Web Developer, Tech Enthusiast, creator, husband.
 * [Catalin Ciubotaru](https://catalincodes.com/uses) — Frontend Developer, writes stuff, sometimes makes sense.

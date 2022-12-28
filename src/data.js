@@ -345,14 +345,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'TypeScript',
-      'Node.js',
-      'Next.js',
-      'Tailwind',
-      'AWS',
-      'Blogger',
-    ],
+    tags: ['TypeScript', 'Node.js', 'Next.js', 'Tailwind', 'AWS', 'Blogger'],
   },
   {
     name: 'Seirdy',
