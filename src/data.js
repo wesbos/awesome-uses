@@ -8407,7 +8407,7 @@ module.exports = [
       'Magento',
       'Bash',
       'MySQL',
-      'Elixir'
+      'Elixir',
     ],
   },
   {

@@ -405,6 +405,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jonathan Watson](https://jonathanjwatson.com/uses) — Engineer, Educator, Entrepreneur
 * [Sascha Monteiro](https://www.purejs.com/uses/) — Full Stack Web Developer, JavaScript, Java
 * [Tony Lockhart](https://tlockhart.github.io/portfolio/#uses) — Full Stack Developer, Designer, and Instructor
+* [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, vimmer, Linux and FOSS enthusiast.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Rémi Weng](https://creativedesignsguru.com/uses/) — A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.
