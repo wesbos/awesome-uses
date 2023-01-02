@@ -8388,6 +8388,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Wojciech M. Wnuk',
+    description: 'Magento developer, vimmer, Linux and FOSS enthusiast.',
+    url: 'https://lanius.dev/uses',
+    emoji: '🐓',
+    country: '🇵🇱',
+    computer: 'linux',
+    phone: 'iphone',
+    twitter: '@laniusdev',
+    tags: [
+      'Programmer',
+      'Web Developer',
+      'YouTuber',
+      'Back End',
+      'Php',
+      'AlpineJS',
+      'Tailwind CSS',
+      'Magento',
+      'Bash',
+      'MySQL',
+      'Elixir'
+    ],
+  },
+  {
     name: 'Leonardo Melo',
     description:
       'Full stack web developer. Typescript lover, always learning new stuff.',
