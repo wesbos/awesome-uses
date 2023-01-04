@@ -15303,7 +15303,8 @@ module.exports = [
   },
   {
     name: 'Hammy Havoc',
-    description: 'Composer for video games and picture. Cypherpunk and open source aficionado.',
+    description:
+      'Composer for video games and picture. Cypherpunk and open source aficionado.',
     url: 'https://hammyhavoc.com/uses/',
     emoji: '🚀',
     country: '🇬🇧',
