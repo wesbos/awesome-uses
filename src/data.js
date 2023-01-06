@@ -13528,7 +13528,7 @@ module.exports = [
       'Performance',
     ],
   },
-    {
+  {
     name: 'Gabriel Kanev',
     description:
       'I love solving problems. (Un)Fortunately, I am fascinated with staying organized and making life easy for everyone.',

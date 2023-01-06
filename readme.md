@@ -651,6 +651,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Ross](https://softwarepragmatism.com/uses/) — Developer/Architect creating software in Calgary, Alberta, Canada
 * [Anthony Morris](https://anthonymorris.dev/uses/) — Builder, JavaScript wrangler, and wannabe stoic.
 * [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
+* [Gabriel Kanev](https://mrgkanev.eu/uses/) — I love solving problems. (Un)Fortunately, I am fascinated with staying organized and making life easy for everyone.
 * [Dan Vega](https://www.danvega.dev/uses/) — Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.
 * [Dick Wyn Yong](https://dickwyn.xyz/uses) — Software Engineer, Content Creator and Sustainability Enthusiast
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
