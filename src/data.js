@@ -13512,7 +13512,7 @@ module.exports = [
     url: 'https://mrgkanev.eu/uses/',
     twitter: '@mrgkanev',
     emoji: '🤔',
-    country: 'BG',
+    country: '🇧🇬',
     computer: 'apple',
     phone: 'android',
     tags: [
