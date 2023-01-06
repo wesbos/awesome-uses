@@ -15306,6 +15306,7 @@ module.exports = [
     description:
       'Composer for video games and picture. Cypherpunk and open source aficionado.',
     url: 'https://hammyhavoc.com/uses/',
+    twitter: '@hammyhavoc',
     emoji: '🚀',
     country: '🇬🇧',
     computer: 'windows',
