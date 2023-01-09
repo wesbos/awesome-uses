@@ -24,7 +24,7 @@ function useIntersectionObserver(ref) {
 
 export default function Person({ person, currentTag }) {
   const url = new URL(person.url);
-  const twitter = person.twitter ? `https://unavatar.io/twitter/${person.twitter.replace('@', '')}` : null;
+  const twitter = person.twitter ? `https://unavatar.io/${person.twitter.replace('@', '')}` : null;
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter ? `${twitter}?fallback=${website}` : website;
   const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
