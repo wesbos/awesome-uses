@@ -55,7 +55,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mohamed Ouyizme](https://www.ouyiz.me/blog/uses) — Full-stack developer, Jamstack developer, and Designer.
 * [Ahmed Adebisi](https://adebisiahmed.dev/uses) — Software Engineer, Code is a tool.
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
-* [Adam Rusted](https://www.adamrusted.me/uses/) — JavaScript Developer, Kubernetes, Dynamics 365
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
 * [Devika Bhapkar](https://github.com/devikabhapkar/uses) — Student,Content creator
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
