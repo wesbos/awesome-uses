@@ -4232,7 +4232,8 @@ module.exports = [
   },
   {
     name: 'Nikita Karamov',
-    description: 'A π-shaped Python & JavaScript developer who loves minimalism and linguistics',
+    description:
+      'A π-shaped Python & JavaScript developer who loves minimalism and linguistics',
     url: 'https://www.kytta.dev/uses',
     country: '🇩🇪',
     twitter: '@KyttaWasHere',

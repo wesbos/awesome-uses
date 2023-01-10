@@ -213,6 +213,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
 * [Richard Thames](https://richardthames.com/uses) — Emacs, podcast, and domain name enthusiast
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
+* [Nikita Karamov](https://www.kytta.dev/uses) — A π-shaped Python & JavaScript developer who loves minimalism and linguistics
 * [Elio Struyf](https://www.eliostruyf.com/uses) — Engineering Lead / Office Development MVP / Public Speaker
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
