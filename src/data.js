@@ -3523,6 +3523,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Caro Appleby',
+    description:
+      'Indie programmer, textile artist, musician, endlessly curious',
+    url: 'https://caro.fyi/uses',
+    country: '🇬🇧',
+    emoji: '🐈‍⬛',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Python',
+      'Django',
+      'JavaScript',
+      'Svelte',
+      'Accessibility',
+      'JAMstack',
+      'Musician',
+      'VS Code',
+      'Tailwind CSS'
+    ],
+  },
+  {
     name: 'Trevor Morris',
     description:
       'I am a movie-loving, mountain-bike-riding web developer from the UK.',
