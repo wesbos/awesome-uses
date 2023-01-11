@@ -184,6 +184,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Linus Rogge](https://linuscodes.com/uses) — Self-taught front-end dev and UI/UX lover
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Dave Redfern](https://daveredfern.com/uses) — I design and develop user‑centered experiences that deliver measurable returns.
+* [Caro Appleby](https://caro.fyi/uses) — Indie programmer, textile artist, musician, endlessly curious
 * [Trevor Morris](https://www.trovster.com/about/uses) — I am a movie-loving, mountain-bike-riding web developer from the UK.
 * [Rizwan](https://blog.rizwan.dev/uses) — iOS Developer. Living between Marvel and DC world
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.

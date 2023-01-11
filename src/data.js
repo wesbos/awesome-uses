@@ -3540,7 +3540,7 @@ module.exports = [
       'JAMstack',
       'Musician',
       'VS Code',
-      'Tailwind CSS'
+      'Tailwind CSS',
     ],
   },
   {
