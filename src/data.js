@@ -7862,7 +7862,7 @@ module.exports = [
       'Blogger',
     ],
   },
-    {
+  {
     name: 'AriaieBOY',
     description: 'Web Developer that loves creating and sharing🇩',
     url: 'https://ariaieboy.ir/uses/',
