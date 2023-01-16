@@ -7344,6 +7344,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Aniket Jain',
+    description: 'Hi! I am Aniket Jain. I am good in Java, C++ and develop many apps using Android Studio. I\'m also good UI Design using Figma tool.',
+    url: 'https://play.google.com/store/search?q=pub%3AAniket%20Jain&c=apps',
+    twitter: '',
+    emoji: '⭐',
+    country: 'in',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['Android Developer', 'Java', 'Kotlin', 'C', 'C++', 'Scala', 'Python', 'Js', 'React'],
+  },
+  {
     name: 'Chris Otto',
     description: 'Software engineer. I enjoy JavaScript, DevOps and Testing.',
     url: 'https://chrisotto.dev/uses/',
