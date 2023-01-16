@@ -14659,7 +14659,7 @@ module.exports = [
     emoji: '🟨',
     country: '🇳🇱',
     computer: 'apple',
-    phone: 'flip-phone',
+    phone: 'flipphone',
     tags: [
       'Swift',
       'SwiftUI',
