@@ -8637,7 +8637,7 @@ module.exports = [
   {
     name: 'Muhammad Oka',
     description: 'Computer Science student, Cyber Security enthusiast.',
-    url: 'https://kawijayaa.me/uses/',
+    url: 'https://muhammadoka.dev/uses/',
     emoji: '🔥',
     country: '🇮🇩',
     computer: 'windows',
