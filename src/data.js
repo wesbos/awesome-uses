@@ -14676,6 +14676,24 @@ module.exports = [
     ],
   },
   {
+    name: '5am.is',
+    description: 'iOS developer and designer that cares about user experience and privacy',
+    url: 'https://5am.is/uses/',
+    emoji: '🟨',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'flipphone',
+    tags: [
+      'Swift',
+      'SwiftUI',
+      'Developer',
+      'Designer',
+      'Blogger',
+      'Entrepreneur',
+      'Maker',
+    ],
+  },
+  {
     name: 'Seshal Jain',
     description:
       'Emacs rookie passionate about aesthetic design and a beautiful, free web',
