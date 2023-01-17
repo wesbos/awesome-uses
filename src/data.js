@@ -7697,6 +7697,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Tim Teege',
+    description:
+      'Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner',
+    url: 'https://www.teesche.com/uses/',
+    twitter: '@teesche',
+    emoji: '🏃',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Manager',
+      'Developer',
+      'Blogger',
+      'Entrepreneur',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'PHP',
+      'MySQL',
+    ],
+  },
+  {
     name: 'Mark Horsell',
     description:
       'Software Developer - Front-end mostly, back-end and native sometimes.',
