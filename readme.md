@@ -364,6 +364,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andy Bell](https://piccalil.li/page/uses) — Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at and run, Piccalilli.
 * [Daryn St. Pierre](https://daryn.codes/uses) — Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).
 * [Chris Lagasse](https://chrislagasse.com/uses) — Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.
+* [Toon Claes](https://iotcl.com/uses/) — Class developer with passion for Git and Emacs
 * [Sergey Lysenko](https://soulwish.info/uses/) — Front-end developer, guitar player, MTB rider, snowboarder, runner.
 * [Shreyas Minocha](https://shreyasminocha.me/uses) — web. foss. privacy. archival. accessibility.
 * [Andrei Racasan](https://www.andreiracasan.com/setup) — Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.
