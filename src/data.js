@@ -7542,6 +7542,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Toon Claes',
+    description: 'Class developer with passion for Git and Emacs',
+    url: 'https://iotcl.com/uses/',
+    emoji: '⌨',
+    country: '🇧🇪',
+    computer: 'linux',
+    phone: 'iphone',
+    twitter: '@to1ne',
+    tags: [
+      'Arch Linux',
+      'Backend',
+      'C',
+      'Git',
+      'GitLab',
+      'Go',
+      'Linux',
+      'Remote',
+      'Ruby',
+      'webdev',
+    ],
+  },
+  {
     name: 'Sergey Lysenko',
     description:
       'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
