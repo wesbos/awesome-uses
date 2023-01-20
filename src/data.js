@@ -25,6 +25,7 @@ module.exports = [
     name: 'Justin Mahar',
     description: 'Extremely bald Software Architect & Content Creator',
     url: 'https://justinmahar.com/uses/',
+    twitter: '@thejustinmahar',
     emoji: '🦬',
     country: '🇺🇸',
     computer: 'apple',
