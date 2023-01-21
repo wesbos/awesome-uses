@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
