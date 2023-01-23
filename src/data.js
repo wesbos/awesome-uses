@@ -8843,6 +8843,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Salisa Cheawcharnthong',
+    description:
+      'Software Engineer',
+    url: 'https://www.sgennrw.xyz/uses',
+    twitter: '@sgennrw',
+    emoji: '😛',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'CSS',
+      'SCSS',
+      'Tailwind CSS',
+      'Full Stack',
+      'Node.js',
+      'GraphQL'
+    ],
+  },
+  {
     name: 'Tom (ttntm)',
     description: 'Web developer from Austria',
     url: 'https://ttntm.me/uses',
