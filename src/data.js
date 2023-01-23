@@ -8844,8 +8844,7 @@ module.exports = [
   },
   {
     name: 'Salisa Cheawcharnthong',
-    description:
-      'Software Engineer',
+    description: 'Software Engineer',
     url: 'https://www.sgennrw.xyz/uses',
     twitter: '@sgennrw',
     emoji: '😛',
@@ -8863,7 +8862,7 @@ module.exports = [
       'Tailwind CSS',
       'Full Stack',
       'Node.js',
-      'GraphQL'
+      'GraphQL',
     ],
   },
   {
