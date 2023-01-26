@@ -309,6 +309,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Robb Knight',
+    description: 'Developer, Podcaster, Lego Builder, Cat Owner',
+    url: 'https://rknight.me/uses',
+    emoji: '',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'PHP',
+      'Laravel',
+      'Node JS',
+      'Eleventy',
+      'Indieweb',
+      'Markdown',
+      'Developer'
+    ],
+  },
+  {
     name: 'Riley',
     description: 'Software Developer',
     url: 'https://riley-uses.netlify.app/',
