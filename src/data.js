@@ -325,7 +325,7 @@ module.exports = [
       'Eleventy',
       'Indieweb',
       'Markdown',
-      'Developer'
+      'Developer',
     ],
   },
   {
