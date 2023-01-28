@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
@@ -40,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
 * [Vijay Goswmai](https://vijaygoswami.in/uses) — Full Stack Developer from Agra, Uttar Pradesh
 * [Ihtisham Khan](https://iihtisham.com/uses.html) — Full-Stack Web Developer | Tech Enthusiast
+* [Robb Knight](https://rknight.me/uses) — Developer, Podcaster, Lego Builder, Cat Owner
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
 * [Ryan Freeman](https://ryanfreeman.dev/uses) — Full-stack software engineer from Dublin, Ireland
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
@@ -423,6 +425,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
+* [Salisa Cheawcharnthong](https://www.sgennrw.xyz/uses) — Software Engineer
 * [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
 * [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
 * [Anthony Humphreys](https://anthonyhumphreys.dev/uses/) — Full Stack Developer. Founder of Lexio, PhD Student at Lancaster University. He/Him
