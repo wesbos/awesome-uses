@@ -15639,7 +15639,7 @@ module.exports = [
   {
     name: "Manthan Ank",
     description: "I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
-    url: "https://manthanank.github.io/uses",
+    url: "https://manthanank.web.app/uses",
     twitter: "@manthanank",
     emoji: '🧑‍💻',
     country: '🇮🇳',
