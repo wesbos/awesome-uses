@@ -15651,21 +15651,11 @@ module.exports = [
       "JavaScript",
       "Angular",
       "Web Development",
-      "Nodejs",
+      "Node.js",
       "Express",
       "MongoDB",
-      "NPM",
-      "Yarn",
-      "Python",
-      "Typescript",
-      "Deno",
       "Firebase",
-      "Docker",
-      "SaSS",
-      "RxJS",
-      "GraphQL",
-      "Git",
-      "GitHub"
+      "GraphQL"
     ],
   },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
