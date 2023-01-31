@@ -15636,6 +15636,28 @@ module.exports = [
       'REST',
     ],
   },
+  {
+    name: "Manthan Ank",
+    description: "I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
+    url: "https://manthanank.web.app/uses",
+    twitter: "@manthanank",
+    emoji: '🧑‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Angular",
+      "Web Development",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "GraphQL"
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
