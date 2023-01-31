@@ -741,5 +741,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
+* [Manthan Ank](https://manthanank.web.app/uses) — I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
