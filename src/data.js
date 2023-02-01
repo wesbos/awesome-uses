@@ -3445,6 +3445,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Patrick Lee',
+    description: 'Software Engineer, Engineering Manager, and Productivity tool nerd',
+    url: 'https://patricklee.nyc/uses',
+    emoji: '🤷🏻‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Engineer',
+      'Engineering Manager',
+      'Productivity tools',
+      'Frontend Developer',
+    ],
+  },
+  {
     name: 'Sergio Martín',
     description:
       'I enjoy creating and learning for the web. Standards and vanilla enthusiast',
