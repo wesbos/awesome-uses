@@ -22,6 +22,23 @@
  */
 module.exports = [
   {
+    name: 'uncenter',
+    description: 'Very incompetent developer',
+    url: 'https://www.uncenter.org/uses',
+    emoji: '🐥',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Python',
+      'Eleventy',
+      'Indieweb',
+      'Jamstack',
+      'Markdown',
+      'Developer',
+    ],
+  },
+  {
     name: 'Justin Mahar',
     description: 'Extremely bald Software Architect & Content Creator',
     url: 'https://justinmahar.com/uses/',
