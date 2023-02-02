@@ -3446,7 +3446,8 @@ module.exports = [
   },
   {
     name: 'Patrick Lee',
-    description: 'Software Engineer, Engineering Manager, and Productivity tool nerd',
+    description:
+      'Software Engineer, Engineering Manager, and Productivity tool nerd',
     url: 'https://patricklee.nyc/uses',
     emoji: '🤷🏻‍♂️',
     country: '🇺🇸',

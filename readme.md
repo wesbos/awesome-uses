@@ -179,6 +179,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
 * [Olek Baran](https://olekbaran.com/uses/) — Front-end web developer using React and Next.js
 * [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐
+* [Patrick Lee](https://patricklee.nyc/uses) — Software Engineer, Engineering Manager, and Productivity tool nerd
 * [Sergio Martín](https://www.sergiomartin.dev/uses) — I enjoy creating and learning for the web. Standards and vanilla enthusiast
 * [Bryan Hickey](https://bryanjhickey.com/uses) — Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd
 * [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer
