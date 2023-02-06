@@ -6438,6 +6438,17 @@ module.exports = [
     tags: ['WordPress', 'Developer', 'CSS', 'Front End'],
   },
   {
+    name: 'Russell John',
+    description: 'Professional Linux system administrator and highly experienced webmaster.',
+    url: 'https://russelljohn.net/uses/',
+    twitter: '@Ekushey',
+    emoji: '🐧',
+    country: '🇧🇩',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Linux', 'System Administrator', 'Ubuntu', 'Debian', 'Cloud', 'Security', 'Freelancer', 'WordPress', 'MySQL', 'HTML', 'CSS', 'Photographer'],
+  },
+  {
     name: 'Jang Rush',
     description:
       'markdown aficionado who suffers from unix porn addiction (*/*)',
