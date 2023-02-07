@@ -782,7 +782,8 @@ module.exports = [
   },
   {
     name: 'Daine Mawer',
-    description: 'Experienced Front-end Developer based in Cape Town, South Africa.',
+    description:
+      'Experienced Front-end Developer based in Cape Town, South Africa.',
     url: 'https://www.dainemawer.com/uses',
     twitter: '@daine_mawer',
     emoji: '🔋',
