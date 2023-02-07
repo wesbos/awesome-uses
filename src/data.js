@@ -15425,7 +15425,7 @@ module.exports = [
   {
     name: 'Scott Zirkel',
     description: 'Making stuff up since 1977',
-    url: 'https://scottzirkel.com',
+    url: 'https://scottzirkel.com/uses',
     emoji: '🗺',
     twitter: '@scottzirkel',
     country: '🇺🇸',
