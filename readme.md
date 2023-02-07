@@ -734,7 +734,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Josh Beard](https://joshbeard.me/uses/) — Sysadmin, DevOps, Hobbyist
 * [Peter Forret](https://blog.forret.com/uses/) — Photographer, tinkerer, software architect
-* [Scott Zirkel](https://scottzirkel.com) — Making stuff up since 1977
+* [Scott Zirkel](https://scottzirkel.com/uses) — Making stuff up since 1977
 * [Nick Ali](https://nali.org/uses) — Marketer who used to be a software architect.
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
 * [Vinesh Raju](https://blog.thevinesh.com/uses/) — Mobile Application developer from India with a deep focus on UX/UI.
