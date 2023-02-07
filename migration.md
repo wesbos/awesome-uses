@@ -70,7 +70,7 @@ When done, check that person off.
 * [ ] [Pawel Grzybek](https://pawelgrzybek.com/uses/) - Software Engineer at Mindera
 * [ ] [Jessica Dembe](https://www.jessicadembe.tech/uses/) - Software Engineer
 * [ ] [Keziah Moselle](https://blog.keziahmoselle.fr/uses/) - Front-end developer
-* [ ] [Scott Zirkel](https://scottzirkel.com/uses) - Developer, Designer, Artist, Writer
+* [x] [Scott Zirkel](https://scottzirkel.com/uses) - Developer, Designer, Artist, Writer
 * [x] [Maxence Poutord](https://www.maxpou.fr/uses/) - Front-end Engineer and Nomadic worker
 * [x] [Jonathan Speek](https://speek.design/uses/) - Fullstack Developer, Designer, Musician
 * [ ] [Nervewax](https://nervewax.com/uses/) - Designer / Developer
