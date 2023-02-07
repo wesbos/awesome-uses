@@ -15451,7 +15451,7 @@ module.exports = [
       'Artist',
       'Traveler',
       'Adventurer',
-    ]
+    ],
   },
   {
     name: 'Nick Ali',
