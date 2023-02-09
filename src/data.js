@@ -13714,6 +13714,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Peter Denham',
+    description: 'Programmer/developer/dad in Ottawa Ontario, Canada',
+    url: 'https://www.denham.ie/uses/',
+    twitter: '@peterdenham',
+    emoji: '⭐️',
+    country: '🇮🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Ruby',
+      'Python',
+      'Java',
+      'AWS',
+      'DevOps',
+      'Node.js',
+      'Musician',
+    ],
+  },
+  {
     name: 'Jason Ross',
     description:
       'Developer/Architect creating software in Calgary, Alberta, Canada',
