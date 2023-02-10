@@ -435,7 +435,7 @@ module.exports = [
   {
     name: 'Vít Baisa',
     description: 'Software engineer who likes removing code',
-    url: 'https://vit.baisa.cz',
+    url: 'https://vit.baisa.cz/uses',
     twitter: '@vitbaisa',
     emoji: '🎼',
     country: '🇨🇿',
