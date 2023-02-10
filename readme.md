@@ -483,6 +483,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dale French](https://dalefrench.dev/uses) — Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.
 * [Angel Taborda Chinea](https://ataborda.com/uses) — Software Developer, Teacher, JW, CTO en IO Digital
 * [Jordan Elver](https://elver.me/uses/) — Full Stack developer who loves Ruby, Elixir, and Rust.
+* [Russell John](https://russelljohn.net/uses/) — Professional Linux system administrator and highly experienced webmaster.
 * [Liam Richardson](https://discoliam.com/uses/) — User Interface developer focusing on Performance, A11y and CSS
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
 * [Jordi Hoven](https://www.jordihoven.nl/uses) — Healthcare engineer, UX Designer, Whisky lover

@@ -10016,15 +10016,29 @@ module.exports = [
   },
   {
     name: 'Russell John',
-    description: 'Professional Linux system administrator and highly experienced webmaster.',
+    description:
+      'Professional Linux system administrator and highly experienced webmaster.',
     url: 'https://russelljohn.net/uses/',
     twitter: '@Ekushey',
     emoji: '🐧',
     country: '🇧🇩',
     computer: 'linux',
     phone: 'android',
-    tags: ['Linux', 'System Administrator', 'Ubuntu', 'Debian', 'Cloud', 'Security', 'Freelancer', 'WordPress', 'MySQL', 'HTML', 'CSS', 'Photographer'],
-  },  
+    tags: [
+      'Linux',
+      'System Administrator',
+      'Ubuntu',
+      'Debian',
+      'Cloud',
+      'Security',
+      'Freelancer',
+      'WordPress',
+      'MySQL',
+      'HTML',
+      'CSS',
+      'Photographer',
+    ],
+  },
   {
     name: 'Liam Richardson',
     description:
