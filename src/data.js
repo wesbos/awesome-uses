@@ -8794,26 +8794,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Alex Kiss',
-    description: 'SRE/DevOps - just a geek in general',
-    url: 'https://www.sysrex.tech/uses/',
-    twitter: '@sysrex',
-    emoji: '💻',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'DevOps',
-      'SRE',
-      'Kubernetes',
-      'Go',
-      'AWS',
-      'Cloud',
-      'Infrastructure',
-      'Go',
-    ],
-  },
-  {
     name: 'Tim Downey',
     description:
       'Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃',
