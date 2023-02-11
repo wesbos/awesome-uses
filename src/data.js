@@ -9375,26 +9375,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Abdisalan Mohamud',
-    description: 'Software Engineer, blogger, lifetime learner',
-    url: 'https://abdisalan.com/uses',
-    twitter: '@abdisalan_js',
-    emoji: '🤷🏾‍♂️',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Blogger',
-      'JavaScript',
-      'React',
-      'ReasonML',
-      'Go',
-      'AWS',
-    ],
-  },
-  {
     name: 'Roy Tang',
     description:
       'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
