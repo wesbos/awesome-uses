@@ -3858,25 +3858,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Shayon Pal',
-    description:
-      'Product Manager. Amateur coder. Loves to tinker with Web technologies.',
-    url: 'https://shayonpal.com/uses',
-    twitter: '@ShayonPal',
-    emoji: '☮️',
-    country: '🇮🇳',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Product Manager',
-      'Business Analyst',
-      'Teacher',
-      'Gamer',
-      'Whisky Nerd',
-      'Movie Buff',
-    ],
-  },
-  {
     name: 'Michael Bonner',
     description:
       'Full stack JavaScript and PHP developer in Salt Lake City, USA',
