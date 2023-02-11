@@ -9613,17 +9613,6 @@ module.exports = [
     tags: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'GraphQl', 'Svelte'],
   },
   {
-    name: 'Nicholas La Roux',
-    description: 'Developer at Shopify, musician, and environmentalist.',
-    url: 'https://nicholaslaroux.com/uses',
-    twitter: '@larouxn',
-    emoji: '🙌',
-    country: '🇯🇵',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Developer', 'Backend', 'Ruby'],
-  },
-  {
     name: 'Charlie Say',
     description: 'Another bald Full Stack developer from Manchester UK',
     url: 'https://www.charliesay.xyz/uses',
