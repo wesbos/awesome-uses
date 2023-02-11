@@ -1750,30 +1750,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Vadim Smirnov',
-    description:
-      'Software engineer and Community Leader at Facebook DevC. Working in React ecosystem.',
-    url: 'https://fuzzyreason.io/uses',
-    twitter: '@vadim__smirnov',
-    emoji: '🌵',
-    country: '🇧🇾',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'CSS',
-      'Gatsby',
-      'Netlify',
-      'Styled Components',
-      'JAMstack',
-      'Remote',
-    ],
-  },
-  {
     name: 'Dominik Gallitzendörfer',
     description:
       'Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.',
