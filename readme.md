@@ -379,6 +379,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
 * [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Software Developer, Fullstack
 * [Marco Poletto](https://poletto.dev/uses/) — Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor
+* [Tim Teege](https://www.teesche.com/uses/) — Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io

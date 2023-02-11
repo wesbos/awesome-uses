@@ -7881,8 +7881,7 @@ module.exports = [
   },
   {
     name: 'Tim Teege',
-    description:
-      'Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner',
+    description: 'Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner',
     url: 'https://www.teesche.com/uses/',
     twitter: '@teesche',
     emoji: '🏃',
