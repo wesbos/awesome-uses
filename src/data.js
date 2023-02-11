@@ -6615,7 +6615,6 @@ module.exports = [
       'JavaScript',
       'PHP',
       'Node.js',
-
       'Open Source Software',
       'FOSS',
     ],
@@ -8598,7 +8597,6 @@ module.exports = [
     description: 'Student. Developer. Entrepreneur.',
     url: 'https://nicobachner.com/uses',
     country: '🇱🇺',
-
     // optional tags
     twitter: '@nico_bachner',
     computer: 'apple',
@@ -8614,17 +8612,14 @@ module.exports = [
       'SvelteKit',
       'Tailwind CSS',
       'CSS Modules',
-
       // Command Line
       'Fish Shell',
       'Starship',
       'Homebrew',
-
       // Apps
       'Raycast',
       'Safari',
       'VS Code',
-
       // Platforms
       'GitHub',
       'Vercel',
@@ -10910,7 +10905,6 @@ module.exports = [
       'Postgres',
     ],
   },
-
   {
     name: 'Daniel Van Cuylenburg',
     description:
@@ -12954,7 +12948,6 @@ module.exports = [
       'CSS',
     ],
   },
-
   {
     name: 'Trezy',
     description:
