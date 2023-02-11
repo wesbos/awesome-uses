@@ -8286,28 +8286,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Rene Pot',
-    description:
-      'Developer Evangelist, JavaScript Developer, Cross-Platform App Developer and gamer',
-    url: 'http://renepot.com/uses',
-    twitter: '@wraldpyk',
-    emoji: '🎮',
-    country: '🇳🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'Evangelist',
-      'Gamer',
-      'Streamer',
-      'Titanium',
-      'Node.js',
-      'Speaker',
-      'Twitch',
-    ],
-  },
-  {
     name: 'Andre Landgraf',
     description: 'Passionate Fullstack Web Developer',
     url: 'https://andre-landgraf.cool/uses/',
