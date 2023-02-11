@@ -8157,26 +8157,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Sam Cross',
-    description:
-      '"Developer", IT student, frequent traveller by coach, addicted to music.',
-    url: 'https://sam-cross.github.io/#/uses',
-    emoji: '🎵',
-    country: '🇬🇧',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'HTML',
-      'CSS',
-      'Web Developer',
-      'Musician',
-    ],
-  },
-  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
