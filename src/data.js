@@ -7200,28 +7200,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Eliezer Steinbock',
-    description:
-      'Founder of Skilled.co.il and Draft Fantasy. Full Stack Freelance Developer',
-    url: 'https://elie.tech/uses',
-    twitter: '@elie2222',
-    emoji: '🧐',
-    country: '🇮🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'JavaScript',
-      'React',
-      'React Native',
-      'Node.js',
-      'TypeScript',
-      'GraphQL',
-    ],
-  },
-  {
     name: 'Jelle Smeets',
     description: 'Engineering manager & blogger',
     url: 'https://blog.jellesmeets.nl/uses',
