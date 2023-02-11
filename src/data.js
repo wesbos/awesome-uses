@@ -2160,18 +2160,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Rameez Khan',
-    description:
-      'Electrical Engineer turned Software Developer. Trying to build cool things and learning as I go.',
-    url: 'https://rameezkhan.me/uses',
-    twitter: '@RameezKhanSA',
-    emoji: '🚀',
-    country: '🇿🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Python', 'Clojure', 'React', 'Kubernetes', 'Emacs', 'Full Stack'],
-  },
-  {
     name: 'Seagyn Davis',
     description: 'Full stack human. Hobby runner. Mainly a husband and dad.',
     url: 'https://www.seagyndavis.com/uses',
