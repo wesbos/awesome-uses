@@ -13451,28 +13451,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Ibrahim Cesar',
-    description:
-      'Philosophy hacker. Fullstack dev && Editor @ media company in Brazil. 4733 pixels tall @ 72dpi',
-    url: 'https://ibrahimcesar.dev/uses',
-    twitter: '@ibrahimcesar',
-    emoji: '🦕',
-    country: '🇧🇷',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Accessibility',
-      'Performance',
-      'Philosophy',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'CSS',
-    ],
-  },
-  {
     name: 'Esmit Perez',
     description:
       'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
