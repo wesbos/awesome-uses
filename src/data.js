@@ -10148,17 +10148,6 @@ module.exports = [
     tags: ['Full Stack', '.NET', 'C#', 'Angular', 'TypeScript', 'Blogger'],
   },
   {
-    name: 'Christopher Hranj',
-    description: 'Software Engineer, Blogger, Musician, Ultimate player.',
-    url: 'https://brodan.biz/uses',
-    twitter: '@brodan_',
-    emoji: '🍁',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Engineer', 'Back End', 'Blogger', 'Python', 'Crystal'],
-  },
-  {
     name: 'Ricardo Boss',
     description: 'Software Developer from Germany. Loves PHP and clean code.',
     url: 'https://ricardoboss.de/uses',
