@@ -2338,26 +2338,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Sam Hamburger',
-    description: 'Frontend Engineer',
-    url: 'https://samburger.dev/uses',
-    emoji: '🍔',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    twitter: '@samburgercodes',
-    tags: [
-      'Developer',
-      'Engineer',
-      'JavaScript',
-      'Vue.js',
-      'Nuxt.js',
-      'React',
-      'Kotlin',
-      'SCSS',
-    ],
-  },
-  {
     name: 'Sreetam Das',
     description:
       'Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!',
