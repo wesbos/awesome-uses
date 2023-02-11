@@ -1936,27 +1936,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Rosie Junghwa Yang',
-    description:
-      'Full-stack Developer focused on Back-end, Doer & Quick Learner, Dancer, Digital Nomad. ✨💝',
-    url: 'https://junghwayang.com/uses',
-    twitter: '@rosie_junghwa',
-    emoji: '💃🏻',
-    country: '🇰🇷',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Back End',
-      'Full Stack',
-      'JavaScript',
-      'Node.js',
-      'MongoDB',
-      'AWS',
-      'Traveler',
-    ],
-  },
-  {
     name: 'Amr Diab',
     description:
       'Web Developer, open-source enthusiast, gamer, and lifelong learner.',
