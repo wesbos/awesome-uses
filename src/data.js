@@ -4791,17 +4791,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Manassarn "Noom" Manoonchai',
-    description: 'Coding, Productivity, Technologies, macOS, Keyboard',
-    url: 'https://monosor.com/uses',
-    twitter: '@narze',
-    emoji: '😷',
-    country: '🇹🇭',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['JavaScript', 'Ruby on Rails', 'Testing', 'Vim', 'VS Code', 'Web'],
-  },
-  {
     name: 'Robert Michalski',
     description: 'Full Stack Developer going serverless',
     url: 'https://robert-michalski.com/uses/',
