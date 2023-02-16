@@ -9646,6 +9646,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Luiz de Prá',
+    description:
+      'Software and game developer, nerd, gamer and future hobbist woodworker.',
+    url: 'https://luizdepra.dev/usos/',
+    twitter: '@luizdepra',
+    emoji: '🤡',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Back End',
+      'Python',
+      'Rust',
+      'Go',
+      'Linux',
+      'Game Developer',
+    ],
+  },
+  {
     name: 'Alberto Fortes',
     description:
       'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
