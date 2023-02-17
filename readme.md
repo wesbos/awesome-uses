@@ -112,6 +112,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
 * [Marc-Antoine Dion](https://marcantoinedion.com/uses) — Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
+* [Amolith](https://secluded.site/uses/) — Musician, developer, sysadmin, co-host of the Linux Lads, small business owner, and founder of not-for-profit NixNet
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
