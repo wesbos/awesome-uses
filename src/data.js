@@ -1984,7 +1984,6 @@ module.exports = [
     name: "Amolith",
     description: "Musician, developer, sysadmin, co-host of the Linux Lads, small business owner, and founder of not-for-profit NixNet",
     url: "https://secluded.site/uses/",
-    twitter: "",
     emoji: "🌳",
     country: "🇺🇸",
     computer: "linux",
