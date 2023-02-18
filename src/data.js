@@ -7655,6 +7655,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Sunny',
+    description: 'Programmer, designer, musician, photographer and video editor.',
+    url: 'https://sny.sh/#uses',
+    emoji: '☀️',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'CSS',
+      'Designer',
+      'Developer',
+      'Full Stack',
+      'HTML',
+      'JavaScript',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Russell McWhae',
     description:
       'Backcountry skier, photographer, designer, and web developer from Canada',
