@@ -11142,8 +11142,8 @@ module.exports = [
   {
     name: 'Jeremy Lanssiers',
     description:
-      "Full-stack web developer-tinker-thinker. Preacher man for the GNU/Linux Church.",
-    url: 'https://jeremylanssiers.com/uses',
+      "Full-stack web developer-thinker-tinkerer. Preacher man for the GNU/Linux Church.",
+    url: 'https://jeremylanssiers.com/uses/',
     emoji: '🔥',
     country: '🇧🇪',
     computer: 'linux',
@@ -11155,8 +11155,9 @@ module.exports = [
       'Maven',
       'JavaScript',
       'JSON',
-      'Regular Expressions',
-      '(S)CSS',
+      'RegEx',
+      'SCSS',
+      'CSS',
       'HTML',
       'XML',
       'SSH',
@@ -11174,6 +11175,7 @@ module.exports = [
       'Sublime Text Editor',
       'IntelliJ',
       'Visual Studio Code',
+      'Cloudflare',
       'Chromium Debugging Tools',
       'Azure DevOps Pipelines'
     ],
