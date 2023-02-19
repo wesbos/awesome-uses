@@ -11146,7 +11146,7 @@ module.exports = [
     url: 'https://jeremylanssiers.com/uses',
     emoji: '🔥',
     country: '🇧🇪',
-    computer: 'linux'
+    computer: 'linux',
     phone: 'android',
     tags: [
       'GNU/Linux',
