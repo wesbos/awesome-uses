@@ -3634,45 +3634,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jeremy Lanssiers',
-    description:
-      "Full-stack web developer-tinker-thinker. Preacher man for the GNU/Linux Church.",
-    url: 'https://jeremylanssiers.com/uses.html',
-    emoji: '🔥',
-    country: '🇧🇪',
-    computer: 'linux'
-    phone: 'android',
-    tags: [
-      'GNU/Linux',
-      'Bash',
-      'Java',
-      'Maven',
-      'JavaScript',
-      'JSON',
-      'Regular Expressions',
-      '(S)CSS',
-      'HTML',
-      'XML',
-      'SSH',
-      'cURL',
-      'NVM',
-      'NPM',
-      'Git',
-      'Nginx',
-      'Apache HTTPD',
-      'ExpressJS',
-      'NodeJS',
-      'React',
-      'Redux',
-      'Google Lighthouse',
-      'Sublime Text Editor',
-      'IntelliJ',
-      'Visual Studio Code',
-      'Chromium Debugging Tools',
-      'Azure DevOps Pipelines'
-    ],
-  },
-  {
     name: 'Michael Bonner',
     description:
       'Full stack JavaScript and PHP developer in Salt Lake City, USA',
@@ -11185,7 +11146,7 @@ module.exports = [
     url: 'https://jeremylanssiers.com/uses',
     emoji: '🔥',
     country: '🇧🇪',
-    computer: 'linux
+    computer: 'linux'
     phone: 'android',
     tags: [
       'GNU/Linux',
