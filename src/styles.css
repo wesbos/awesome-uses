@@ -1,3 +1,20 @@
+/* Fonts */
+@font-face {
+  font-family: 'Fira Mono';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/fira_mono-regular-webfont.woff2') format('woff2'),
+        url('./fonts/fira_mono-regular-webfont.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Mono';
+  font-weight: 400;
+  font-style: italic;
+  src: url('./fonts/fira_mono-regular_italic-webfont.woff2') format('woff2'), url('../src/fonts/fira_mono-regular_italic-webfont.woff') format('woff');
+  font-display: swap;
+}
+
 /* Global Styles */
 :root {
   --purple: #b066ff;
