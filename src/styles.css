@@ -207,8 +207,6 @@ body::-webkit-scrollbar-thumb {
   padding: 5px;
   color: hsla(0, 100%, 100%, 0.8);
   transition: background-color 0.2s;
-  /* cursor: ${props => (props.clickable ? 'pointer' : 'default')}; */
-  cursor: pointer;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
