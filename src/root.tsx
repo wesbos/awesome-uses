@@ -16,15 +16,12 @@ export const links: LinksFunction = () => [
 ];
 
 
-const tagsData = tags();
-const countriesData = countries();
-const devicesData = devices();
 
 export function loader() {
   return {
-    tags: tagsData,
-    countries: countriesData,
-    devices: devicesData,
+    tags: tags(),
+    countries: countries(),
+    devices: devices(),
   }
 }
 
