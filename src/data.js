@@ -7167,15 +7167,14 @@ module.exports = [
   },
   {
     name: 'Federico Vitale',
-    description:
-      '20yo, Self Taught FullStack Developer, Full Time. Bikes lover, Tech (obviously) enthusiast.',
+    description: 'Software Engineer based in Rome',
     url: 'https://fedevitale.dev/uses',
     twitter: '@fedevitaledev',
     emoji: '✌️',
     country: '🇮🇹',
     phone: 'iphone',
     computer: 'apple',
-    tags: ['Developer', 'JavaScript', 'Go', 'Rust', 'Java', 'Full Stack'],
+    tags: ['Developer', 'JavaScript', 'Go', 'Rust', 'TypeScript', 'React', 'Swift'],
   },
   {
     name: 'Vishwasa Navada K',
