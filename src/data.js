@@ -4351,7 +4351,7 @@ module.exports = [
     description: 'Experienced Full Stack Software Engineer & Computers Lover',
     url: 'https://adelrosarioh.me/uses',
     twitter: '@adelrosarioh',
-    emoji: '💻 💻 💻',
+    emoji: '💻',
     country: '🇩🇴',
     computer: 'linux',
     phone: 'android',
