@@ -7174,7 +7174,15 @@ module.exports = [
     country: '🇮🇹',
     phone: 'iphone',
     computer: 'apple',
-    tags: ['Developer', 'JavaScript', 'Go', 'Rust', 'TypeScript', 'React', 'Swift'],
+    tags: [
+      'Developer',
+      'JavaScript',
+      'Go',
+      'Rust',
+      'TypeScript',
+      'React',
+      'Swift',
+    ],
   },
   {
     name: 'Vishwasa Navada K',
