@@ -95,7 +95,6 @@ body::-webkit-scrollbar-thumb {
 
     & img {
       grid-row: 1 / -1;
-      background: var(--lightblue);
       font-size: 1rem;
     }
 
