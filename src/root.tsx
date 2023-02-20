@@ -1,16 +1,15 @@
-import type { LinksFunction, LoaderArgs, MetaFunction } from '@remix-run/node';
-import { json } from '@remix-run/node';
+import type { LinksFunction, MetaFunction } from '@remix-run/node';
 import {
   Links,
   LiveReload,
   Meta,
   Outlet,
-  Scripts,
-  ScrollRestoration,
+  Scripts
 } from '@remix-run/react';
-import Layout from './components/layout'
+import Layout from './components/layout';
 import styles from './styles.css';
 import { countries, devices, tags } from './util/stats';
+import twitterCard from './images/twitter-card.png';
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: styles },
@@ -49,7 +48,7 @@ export default function App() {
         <meta name="twitter:creator" content="@wesbos" />
         <meta name="twitter:title" content={metaData.title} />
         <meta name="twitter:description" content={metaData.description} />
-        <meta name="twitter:image" content={`${metaData.siteUrl}/twitter-card.png`} />
+        <meta name="twitter:image" content={twitterCard} />
         <Links />
       </head>
       <body>

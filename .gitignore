@@ -78,3 +78,6 @@ haters/
 
 .idea/
 .history/
+
+# Local Netlify folder
+.netlify
