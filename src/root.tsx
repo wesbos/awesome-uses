@@ -15,11 +15,16 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: styles },
 ];
 
+
+const tagsData = tags();
+const countriesData = countries();
+const devicesData = devices();
+
 export function loader() {
   return {
-    tags: tags(),
-    countries: countries(),
-    devices: devices(),
+    tags: tagsData,
+    countries: countriesData,
+    devices: devicesData,
   }
 }
 
