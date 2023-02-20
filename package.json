@@ -53,11 +53,6 @@
     "postcss-nesting": "^11.2.1",
     "prettier": "^2.8.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/data.js": [
       "eslint --fix",
