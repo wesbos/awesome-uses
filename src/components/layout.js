@@ -29,6 +29,7 @@ export default function Layout({ children }) {
             <p>
               Hosted on <a href="https://netlify.com">Netlify</a>
             </p>
+            <p>Rendered Fresh</p>
           </center>
         </footer>
       </main>

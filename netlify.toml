@@ -4,7 +4,7 @@
   publish = "public"
 
 [dev]
-  command = "remix dev"
+  command = "remix watch"
   port = 3000
 
 [[redirects]]

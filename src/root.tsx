@@ -15,8 +15,6 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: styles },
 ];
 
-
-
 export function loader() {
   return {
     tags: tags(),
