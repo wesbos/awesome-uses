@@ -4,6 +4,20 @@ import { renderToReadableStream } from 'react-dom/server';
 
 const ABORT_DELAY = 5000;
 
+export async function streamToText(stream: ReadableStream<Uint8Array>): Promise<string> {
+  let result = '';
+  const reader = stream.pipeThrough(new TextDecoderStream()).getReader();
+  while (true) { // eslint-disable-line no-constant-condition
+    const { done, value } = await reader.read();
+    if (done) {
+      break;
+    }
+
+    result += value;
+  }
+  return result;
+}
+
 type CachedResponse = {
   html: string;
   date: Date;
@@ -33,7 +47,6 @@ export default async function handleRequest(
   //   }
   // }
 
-
   let didError = false;
   const chunks: Uint8Array[] = [];
 
@@ -47,21 +60,17 @@ export default async function handleRequest(
     }
   );
 
-  // body.pip
-  //   .on('data', (data) => {
-  //     console.log('data', data);
-  //     chunks.push(data);
-  //   })
-  //   .on('end', () => {
-  //     const html = Buffer.concat(chunks).toString('utf8');
-  //     cache.set(request.url, { html: html.replace('Rendered Fresh', `Served from Cache ${new Date().toString()}`), date: new Date() });
-  //   })
+  const [toReponse, toCache] = body.tee();
+
+  streamToText(toCache).then(html => {
+    console.log('I have the HTML!', html.length);
+  });
 
   const headers = new Headers(responseHeaders);
   headers.set("Content-Type", "text/html");
-  return new Response(body, {
+  const response = new Response(toReponse, {
     headers,
     status: didError ? 500 : responseStatusCode,
-  })
-
+  });
+  return response;
 }
