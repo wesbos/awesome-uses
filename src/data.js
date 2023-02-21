@@ -11143,7 +11143,7 @@ module.exports = [
     name: 'Jeremy Lanssiers',
     description:
       "Full-stack web developer-thinker-tinkerer. Preacher man for the GNU/Linux Church.",
-    url: 'https://jeremylanssiers.com/uses/',
+    url: 'https://www.jeremylanssiers.com/uses/',
     emoji: '🔥',
     country: '🇧🇪',
     computer: 'linux',
