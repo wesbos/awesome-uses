@@ -3693,6 +3693,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Filip Kalousek',
+    description:
+      'Frontend Developer & Idea Maker',
+    url: 'https://blog.filipkalousek.cz/uses/setup',
+    country: '🇨🇿',
+    twitter: 'kalousekf',
+    emoji: '💡',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Angular',
+      'Deno',
+      'TypeScript',
+      'PostgreSQL',
+      'Front End',
+      'Material UI',
+      'JavaScript',
+      'Vue',
+      'Fresh',
+      'Figma',
+      'MongoDB',
+    ],
+  },
+  {
     name: 'Agu Valeriani',
     description:
       'Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.',
