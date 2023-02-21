@@ -22,6 +22,7 @@ specifiers:
   eslint: ^8.34.0
   eslint-config-wesbos: ^3.2.3
   husky: ^8.0.3
+  isbot: ^3.6.6
   joi: ^17.8.1
   lint-staged: ^13.1.2
   normalize.css: ^8.0.1
@@ -54,6 +55,7 @@ dependencies:
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   country-emoji: 1.5.6
+  isbot: 3.6.6
   joi: 17.8.1
   normalize.css: 8.0.1
   prop-types: 15.8.1
@@ -4894,6 +4896,11 @@ packages:
   /isarray/2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
     dev: true
+
+  /isbot/3.6.6:
+    resolution: {integrity: sha512-98aGl1Spbx1led422YFrusDJ4ZutSNOymb2avZ2V4BCCjF3MqAF2k+J2zoaLYahubaFkb+3UyvbVDVlk/Ngrew==}
+    engines: {node: '>=12'}
+    dev: false
 
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
