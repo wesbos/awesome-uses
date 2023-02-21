@@ -248,8 +248,7 @@ module.exports = [
   },
   {
     name: 'Josh Medeski',
-    description:
-      'Full-stack developer and content creator.',
+    description: 'Full-stack developer and content creator.',
     url: 'https://www.joshmedeski.com/uses/',
     twitter: '@joshmedeski',
     emoji: '😄',
