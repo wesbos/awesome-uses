@@ -3694,8 +3694,7 @@ module.exports = [
   },
   {
     name: 'Filip Kalousek',
-    description:
-      'Frontend Developer & Idea Maker',
+    description: 'Frontend Developer & Idea Maker',
     url: 'https://blog.filipkalousek.cz/uses/setup',
     country: '🇨🇿',
     twitter: 'kalousekf',
