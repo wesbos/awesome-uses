@@ -16,8 +16,6 @@ export default async function handleRequest(
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
-  console.log('😆');
-  console.log(request.url);
   // // check if we have a cached response in memory
   // const cachedResponse = cache.get(request.url);
   // if (cachedResponse) {
@@ -48,9 +46,8 @@ export default async function handleRequest(
       }
     }
   );
-  console.log(body);
 
-  // body
+  // body.pip
   //   .on('data', (data) => {
   //     console.log('data', data);
   //     chunks.push(data);
@@ -62,7 +59,7 @@ export default async function handleRequest(
 
   const headers = new Headers(responseHeaders);
   headers.set("Content-Type", "text/html");
-  new Response(body, {
+  return new Response(body, {
     headers,
     status: didError ? 500 : responseStatusCode,
   })
