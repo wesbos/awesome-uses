@@ -48,7 +48,7 @@ export default function App() {
         <meta name="twitter:creator" content="@wesbos" />
         <meta name="twitter:title" content={metaData.title} />
         <meta name="twitter:description" content={metaData.description} />
-        <meta name="twitter:image" content={twitterCard} />
+        <meta name="twitter:image" content={`https://uses.tech${twitterCard}`} />
         <Links />
       </head>
       <body>
