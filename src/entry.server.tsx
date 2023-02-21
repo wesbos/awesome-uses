@@ -23,6 +23,7 @@ export default function handleRequest(
   // check if we have a cached response in memory
   const cachedResponse = cache.get(request.url);
   if (cachedResponse) {
+    console.log('Serving from cache', request.url);
     // if we have a cached response, check if it's less than 5 seconds old
     const now = new Date();
     const diff = now.getTime() - cachedResponse.date.getTime();
