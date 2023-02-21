@@ -19,23 +19,23 @@ export default function handleRequest(
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
-  // console.log(request.url);
-  // // check if we have a cached response in memory
-  // const cachedResponse = cache.get(request.url);
-  // if (cachedResponse) {
-  //   console.log('Serving from cache', request.url);
-  //   // if we have a cached response, check if it's less than 5 seconds old
-  //   const now = new Date();
-  //   const diff = now.getTime() - cachedResponse.date.getTime();
-  //   if (true || diff < 5000) {
-  //     // if it's less than 5 seconds old, return the cached response
-  //     responseHeaders.set('Content-Type', 'text/html');
-  //     return new Response(cachedResponse.html, {
-  //       headers: responseHeaders,
-  //       status: responseStatusCode,
-  //     });
-  //   }
-  // }
+  console.log(request.url);
+  // check if we have a cached response in memory
+  const cachedResponse = cache.get(request.url);
+  if (cachedResponse) {
+    console.log('Serving from cache', request.url);
+    // if we have a cached response, check if it's less than 5 seconds old
+    const now = new Date();
+    const diff = now.getTime() - cachedResponse.date.getTime();
+    if (true || diff < 5000) {
+      // if it's less than 5 seconds old, return the cached response
+      responseHeaders.set('Content-Type', 'text/html');
+      return new Response(cachedResponse.html, {
+        headers: responseHeaders,
+        status: responseStatusCode,
+      });
+    }
+  }
 
 
   return new Promise((resolve, reject) => {
