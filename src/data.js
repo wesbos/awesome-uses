@@ -352,12 +352,12 @@ module.exports = [
       'Debian',
       'Linux',
       'FreeRTOS',
-      'Emacs'
+      'Emacs',
       'Git',
       'Github',
       'Gitlab',
       'DevOps',
-      'Software Developer'
+      'Software Developer',
       'Embedded software developer',
     ],
   },
