@@ -32,8 +32,8 @@ export function createRequestHandler({
     const { pathname } = new URL(request.url)
     // Skip the handler for static files
     if (pathname.startsWith(`${assetPath}/`)) {
-      console.log('Skipping Remix handler for static file', pathname)
-      return
+      console.log('Continuing Remix handler for static file', pathname)
+      // return
     }
     try {
       const loadContext = (await getLoadContext?.(request, context)) || context
