@@ -64,7 +64,6 @@ export function tags() {
   const counts = allTags.reduce(countInstances, {});
   // sort and filter for any tags that only have 1
   const tags = Object.entries(counts)
-    .sort(([, countA], [, countB]) => countB - countA)
     // Only show the tag if this topic has 3 or more people in it
     .filter(([, count]) => count >= 3)
     .map(([name, count]) => ({ name, count }));
@@ -85,8 +84,11 @@ export function tags() {
       delete lowercaseTagMap[normalizedName];
     }
     return acc;
-  }, []);
-
+  }, [])
+    // Sort by name first
+    .sort((a, b) => b.name.toLowerCase() > a.name.toLowerCase())
+    // Sort by count
+    .sort((a, b) => b.count - a.count);
   return [{ name: 'all', count: people.length }, ...normalizedTags];
 }
 
@@ -116,12 +118,12 @@ const normalizedTagMap = tags().reduce((acc, tag) => {
 }, {});
 
 export function getPeople(tag?: string) {
-  return people
+  return [...people]
     .sort(() => Math.random() - 0.5)
     .map((person) => {
       const normalizedPerson = {
         ...person,
-      // Clean out people that added basically the same tags twice
+        // Clean out people that added basically the same tags twice
         tags: unique(
           person.tags.map((tag) => normalizedTagMap[normalizeTag(tag)] || tag)
         ),

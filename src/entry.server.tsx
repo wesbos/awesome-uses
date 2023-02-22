@@ -1,25 +1,35 @@
-import { PassThrough } from 'stream';
 import type { EntryContext } from '@remix-run/node';
-import { Response } from '@remix-run/node';
 import { RemixServer } from '@remix-run/react';
-import { renderToPipeableStream } from 'react-dom/server';
+import { renderToReadableStream } from 'react-dom/server';
 
 const ABORT_DELAY = 5000;
 
+export async function streamToText(stream: ReadableStream<Uint8Array>): Promise<string> {
+  let result = '';
+  const reader = stream.pipeThrough(new TextDecoderStream()).getReader();
+  while (true) { // eslint-disable-line no-constant-condition
+    const { done, value } = await reader.read();
+    if (done) {
+      break;
+    }
+
+    result += value;
+  }
+  return result;
+}
+
 type CachedResponse = {
-  html:string;
+  html: string;
   date: Date;
 }
 const cache = new Map<string, CachedResponse>();
 
-
-export default function handleRequest(
+export default async function handleRequest(
   request: Request,
   responseStatusCode: number,
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
-  console.log(request.url);
   // check if we have a cached response in memory
   const cachedResponse = cache.get(request.url);
   if (cachedResponse) {
@@ -37,48 +47,35 @@ export default function handleRequest(
     }
   }
 
+  let didError = false;
+  const chunks: Uint8Array[] = [];
 
-  return new Promise((resolve, reject) => {
-    let didError = false;
-    const chunks: Uint8Array[] = [];
-
-    const { pipe, abort } = renderToPipeableStream(
-      <RemixServer context={remixContext} url={request.url} />,
-      {
-        onShellReady: () => {
-          const body = new PassThrough();
-
-          body
-            .on('data', (data) => {
-              chunks.push(data);
-            })
-            .on('end', () => {
-              const html = Buffer.concat(chunks).toString('utf8');
-              cache.set(request.url, { html: html.replace('Rendered Fresh', `Served from Cache ${new Date().toString()}`), date: new Date() });
-            })
-
-          responseHeaders.set('Content-Type', 'text/html');
-
-          resolve(
-            new Response(body, {
-              headers: responseHeaders,
-              status: didError ? 500 : responseStatusCode,
-            })
-          );
-
-          pipe(body);
-        },
-        onShellError: (err: unknown) => {
-          reject(err);
-        },
-        onError: (error: unknown) => {
-          didError = true;
-
-          console.error(error);
-        }
+  const body = await renderToReadableStream(
+    <RemixServer context={remixContext} url={request.url} />,
+    {
+      onError: (error: unknown) => {
+        didError = true;
+        console.error(error);
       }
-    );
+    }
+  );
 
-    setTimeout(abort, ABORT_DELAY);
+  // tee the stream so we can cache it and send it to the client
+  const [toReponse, toCache] = body.tee();
+
+  streamToText(toCache).then(html => {
+    console.log('Caching', request.url);
+    cache.set(request.url, {
+      html: html.replace('Rendered Fresh',`Rendered from cache ${new Date().toISOString()}`),
+      date: new Date(),
+    });
   });
+
+  const headers = new Headers(responseHeaders);
+  headers.set("Content-Type", "text/html");
+  const response = new Response(toReponse, {
+    headers,
+    status: didError ? 500 : responseStatusCode,
+  });
+  return response;
 }
