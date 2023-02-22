@@ -32,8 +32,9 @@ export function createRequestHandler({
     const { pathname } = new URL(request.url)
     // Skip the handler for static files
     if (pathname.startsWith(`${assetPath}/`)) {
-      console.log('Skipping Remix handler for static file', pathname)
-      return;
+      // Temporary fix - passing the request to the Netlify static asset handler causes a 203 Not Content error. Passing the through remix works, but I asssume isn't ideal
+      // console.log('Skipping Remix handler for static file', pathname)
+      // return;
     }
     try {
       const loadContext = (await getLoadContext?.(request, context)) || context
