@@ -1,6 +1,6 @@
 [build]
   command = "remix build"
-  publish = "public"
+  # publish = "public"
 
 [dev]
   command = "remix watch"
