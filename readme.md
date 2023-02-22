@@ -197,6 +197,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
 * [Ben Brougher](https://benbrougher.tech/uses) — Full stack enterprise web devloper from the Pacific Northwest.
+* [Dawit Mekonnen](https://dawit.dev/uses) — Full stack developer and javascript enthusiast.
 * [Vincent Lejtzén](https://lejtzendesign.se/en/uses) — Front end developer with love for design, user experience and SEO.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Sapan Bodiwala](https://sapanbodiwala.com/uses) — Full Stack Software Engineer

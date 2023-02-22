@@ -3882,8 +3882,7 @@ module.exports = [
   },
   {
     name: 'Dawit Mekonnen',
-    description:
-      'Full stack developer and javascript enthusiast.',
+    description: 'Full stack developer and javascript enthusiast.',
     url: 'https://dawit.dev/uses',
     country: '🇪🇹',
     emoji: '🦖',
