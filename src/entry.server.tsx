@@ -30,22 +30,22 @@ export default async function handleRequest(
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
-  // // check if we have a cached response in memory
-  // const cachedResponse = cache.get(request.url);
-  // if (cachedResponse) {
-  //   console.log('Serving from cache', request.url);
-  //   // if we have a cached response, check if it's less than 5 seconds old
-  //   const now = new Date();
-  //   const diff = now.getTime() - cachedResponse.date.getTime();
-  //   if (true || diff < 5000) {
-  //     // if it's less than 5 seconds old, return the cached response
-  //     responseHeaders.set('Content-Type', 'text/html');
-  //     return new Response(cachedResponse.html, {
-  //       headers: responseHeaders,
-  //       status: responseStatusCode,
-  //     });
-  //   }
-  // }
+  // check if we have a cached response in memory
+  const cachedResponse = cache.get(request.url);
+  if (cachedResponse) {
+    console.log('Serving from cache', request.url);
+    // if we have a cached response, check if it's less than 5 seconds old
+    const now = new Date();
+    const diff = now.getTime() - cachedResponse.date.getTime();
+    if (true || diff < 5000) {
+      // if it's less than 5 seconds old, return the cached response
+      responseHeaders.set('Content-Type', 'text/html');
+      return new Response(cachedResponse.html, {
+        headers: responseHeaders,
+        status: responseStatusCode,
+      });
+    }
+  }
 
   let didError = false;
   const chunks: Uint8Array[] = [];
@@ -60,10 +60,15 @@ export default async function handleRequest(
     }
   );
 
+  // tee the stream so we can cache it and send it to the client
   const [toReponse, toCache] = body.tee();
 
   streamToText(toCache).then(html => {
-    console.log('I have the HTML!', html.length);
+    console.log('Caching', request.url);
+    cache.set(request.url, {
+      html: html.replace('Rendered Fresh',`Rendered from cache ${new Date().toISOString()}`),
+      date: new Date(),
+    });
   });
 
   const headers = new Headers(responseHeaders);

@@ -10,7 +10,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/server"
+  to = "/.netlify/edge-functions/server"
   status = 200
 
 [[headers]]
