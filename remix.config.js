@@ -6,6 +6,7 @@ module.exports = {
   future: {
     unstable_postcss: true,
   },
+  assetsBuildDirectory: "publicxxxx/baller",
   ignoredRouteFiles: ["**/.*"],
   server:
     process.env.NETLIFY || process.env.NETLIFY_LOCAL

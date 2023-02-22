@@ -1,16 +1,11 @@
 [build]
   command = "remix build"
-  # publish = "public"
+  publish = "public"
 
 [dev]
   command = "remix watch"
   port = 3000
   autoLaunch = false
-
-# [[redirects]]
-#   from = "/*"
-#   to = "/.netlify/edge-functions/server"
-#   status = 200
 
 [[headers]]
   for = "/build/*"
