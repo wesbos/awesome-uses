@@ -3881,6 +3881,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Dawit Mekonnen',
+    description:
+      'Full stack developer and javascript enthusiast.',
+    url: 'https://dawit.dev/uses',
+    country: '🇪🇹',
+    emoji: '🦖',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'React',
+      'Node.js',
+      'TypeScript',
+      'Next.js',
+      'JavaScript',
+      'express.js',
+      'VS Code',
+      'HTML',
+      'CSS',
+      'PostgreSQL',
+      'Mongodb',
+      'Graphql',
+      'Docker',
+      'Hyper',
+    ],
+  },
+  {
     name: 'Vincent Lejtzén',
     description:
       'Front end developer with love for design, user experience and SEO.',
