@@ -11,7 +11,7 @@ import { chunk } from "remeda";
 
 const GRID_GAP = 50;
 const ITEM_MIN_WIDTH = 350;
-const ITEM_ESTIMATE_WIDTH = 560;
+const ITEM_ESTIMATE_HEIGHT = 560;
 
 export async function loader({ params }: LoaderArgs) {
   const people = getPeople(params.tag);
@@ -25,7 +25,7 @@ export default function Index() {
     <>
       <Topics />
       {isMounted ? <PeopleGridClient /> : <PeopleGridServer />}
-      {/* <BackToTop /> */}
+      <BackToTop />
     </>
   );
 }
@@ -66,7 +66,7 @@ function PeopleGridClient() {
 
   const rowVirtualizer = useWindowVirtualizer({
     count: Math.ceil(people.length / itemsPerRow),
-    estimateSize: () => ITEM_ESTIMATE_WIDTH,
+    estimateSize: () => ITEM_ESTIMATE_HEIGHT,
     overscan: 5,
     scrollMargin: GridContainerOffsetRef.current,
   });
@@ -143,7 +143,7 @@ function PeopleGridServer() {
         <div
           key={person.name}
           style={{
-            height: ITEM_ESTIMATE_WIDTH,
+            height: ITEM_ESTIMATE_HEIGHT,
           }}
         ></div>
       ))}
