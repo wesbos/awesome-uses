@@ -37,6 +37,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex O'Reilly](https://alekzandriia.com/uses/) — Scientist turned Web developer from the Great White North.
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
+* [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
