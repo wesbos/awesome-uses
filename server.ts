@@ -12,5 +12,5 @@ export const config = {
   cache: "manual",
   path: "/*",
   // Pass all assets to the netlify asset server
-  excluded_patterns: ["/_assets/*"],
+  excluded_patterns: ["/_assets/*", "/_shared/*", "/**/*.js"],
 };
