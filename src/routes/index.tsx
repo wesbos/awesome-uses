@@ -25,7 +25,7 @@ export default function Index() {
     <>
       <Topics />
       {isMounted ? <PeopleGridClient /> : <PeopleGridServer />}
-      {/* <BackToTop /> */}
+      <BackToTop />
     </>
   );
 }
