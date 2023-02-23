@@ -245,7 +245,6 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   bottom: 1%;
   right: 1%;
-  background: var(--pink);
   color: white;
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
@@ -255,11 +254,10 @@ body::-webkit-scrollbar-thumb {
   opacity: 0;
   text-decoration: none;
 
-  /* ${props =>
-    props.percent > 0.25 &&
-    `
+  &.Show {
     opacity: 1;
-  `} */
+  }
+
   @media screen and (max-width: 500px) {
     display: none;
   }
