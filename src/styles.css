@@ -97,8 +97,8 @@ body::-webkit-scrollbar-thumb {
   grid-template-rows: 1fr auto auto;
 }
 
-.PersonWrapper:nth-child(5) {
-  background: green;
+.PersonWrapper:nth-child(6n) ~ .PersonWrapper {
+  content-visibility: auto;
 }
 
 .PersonInner {

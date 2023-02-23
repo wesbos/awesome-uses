@@ -44,7 +44,7 @@
   },
   "scripts": {
     "build": "netlify build",
-    "dev": "NODE_ENV=development remix dev"
+    "dev": "NODE_ENV=development netlify dev"
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
