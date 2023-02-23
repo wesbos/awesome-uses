@@ -98,7 +98,7 @@ function PeopleGridClient() {
 
             return (
               <div
-                key={`row-${items[0].name}`}
+                key={`row-${virtualRow.index}-${items[0].name}`}
                 data-index={virtualRow.index}
                 ref={rowVirtualizer.measureElement}
               >
