@@ -13624,6 +13624,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Sean Boult',
+    description: 'Full stack developer who likes ReactJS',
+    url: 'https://boult.me/uses',
+    twitter: '@Hacksore',
+    emoji: '🫠',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Full Stack', 'React', 'Typescript', 'Node.js', 'Hacking'],
+  },
+  {
     name: 'Kevin Woblick',
     description: 'I turn Pizza into Code and Photos',
     url: 'https://www.kovah.de/uses/',
