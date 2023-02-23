@@ -36,7 +36,6 @@ specifiers:
   react-helmet: ^6.1.0
   react-is: ^18.2.0
   remeda: ^1.6.2
-  remix-utils: ^6.0.0
   styled-components: 5.3.6
   typescript: ^4.9.5
 
@@ -67,7 +66,6 @@ dependencies:
   react-helmet: 6.1.0_react@18.2.0
   react-is: 18.2.0
   remeda: 1.6.2
-  remix-utils: 6.0.0_olkznr627h5kdeclw4q3o7hmre
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
   typescript: 4.9.5
 
@@ -4644,16 +4642,6 @@ packages:
       side-channel: 1.0.4
     dev: true
 
-  /intl-parse-accept-language/1.0.0:
-    resolution: {integrity: sha512-YFMSV91JNBOSjw1cOfw2tup6hDP7mkz+2AUV7W1L1AM6ntgI75qC1ZeFpjPGMrWp+upmBRTX2fJWQ8c7jsUWpA==}
-    engines: {node: '>=14'}
-    dev: false
-
-  /ip-regex/4.3.0:
-    resolution: {integrity: sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==}
-    engines: {node: '>=8'}
-    dev: false
-
   /ip/1.1.8:
     resolution: {integrity: sha512-PuExPYUiu6qMBQb4l06ecm6T6ujzhmh+MeJcW9wa89PoAz5pvd4zPgN5WJV104mb6S2T1AwNIAaB70JNrLQWhg==}
     dev: false
@@ -4781,13 +4769,6 @@ packages:
   /is-interactive/1.0.0:
     resolution: {integrity: sha512-2HvIEKRoqS62guEC+qBjpvRubdX910WCMuJTZ+I9yvqKU2/12eSL549HMwtabb4oupdj2sMP50k+XJfB/8JE6w==}
     engines: {node: '>=8'}
-    dev: false
-
-  /is-ip/3.1.0:
-    resolution: {integrity: sha512-35vd5necO7IitFPjd/YBeqwWnyDWbuLH9ZXQdMfDA8TEo7pv5X8yfrvVO3xbJbLUlERCMvf6X0hTUamQxCYJ9Q==}
-    engines: {node: '>=8'}
-    dependencies:
-      ip-regex: 4.3.0
     dev: false
 
   /is-map/2.0.2:
@@ -6626,27 +6607,6 @@ packages:
     resolution: {integrity: sha512-4/gci8Crgp6l0ATZEvu/FxHJPjDUMZZ1vhSIROHNNx/cXi77ar/7Cj2Z8Bysd0Vs824QFRfcIKqOxqH+pKDW1Q==}
     dev: false
 
-  /remix-utils/6.0.0_olkznr627h5kdeclw4q3o7hmre:
-    resolution: {integrity: sha512-S7Xec0YHZxGFEDawWpIbU7HQAZC0j51FmAvcCyBRuxjo71aAIMdmez47dgF8T91yxpHV1xlIKPL7LhBzmYsOZw==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@remix-run/react': ^1.10.0
-      '@remix-run/server-runtime': ^1.10.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      zod: ^3.19.1
-    dependencies:
-      '@remix-run/react': 1.13.0_biqbaboplfbrettd7655fr4n2y
-      '@remix-run/server-runtime': 1.13.0
-      intl-parse-accept-language: 1.0.0
-      is-ip: 3.1.0
-      react: 18.2.0
-      schema-dts: 1.1.0_typescript@4.9.5
-      type-fest: 2.19.0
-      uuid: 8.3.2
-    transitivePeerDependencies:
-      - typescript
-    dev: false
-
   /require-like/0.1.2:
     resolution: {integrity: sha512-oyrU88skkMtDdauHDuKVrgR+zuItqr6/c//FXzvmxRGMexSDc6hNvJInGW3LL46n+8b50RykrvwSUIIQH2LQ5A==}
     dev: false
@@ -6771,14 +6731,6 @@ packages:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
-
-  /schema-dts/1.1.0_typescript@4.9.5:
-    resolution: {integrity: sha512-vdmbs/5ycj4zyKpZIDqTcy+IZi4s7c38RVAYuDmRi7zgxUT8wRWPMLzg0jr7FjdVunYu9yZ00F3+XcZTTFcTOQ==}
-    peerDependencies:
-      typescript: '>=4.1.0'
-    dependencies:
-      typescript: 4.9.5
     dev: false
 
   /semver/6.3.0:
@@ -7282,11 +7234,6 @@ packages:
   /type-fest/0.21.3:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
-
-  /type-fest/2.19.0:
-    resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
-    engines: {node: '>=12.20'}
-    dev: false
 
   /type-is/1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
