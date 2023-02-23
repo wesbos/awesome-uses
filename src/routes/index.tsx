@@ -4,10 +4,18 @@ import Topics from "../components/Topics";
 import BackToTop from "../components/BackToTop";
 import Person from "../components/Person";
 import { getPeople } from "src/util/stats";
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import throttle from "lodash.throttle";
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { chunk } from "remeda";
+import { ClientOnly } from "remix-utils";
 
 const GRID_GAP = 50;
 const ITEM_MIN_WIDTH = 350;
@@ -15,16 +23,17 @@ const ITEM_ESTIMATE_HEIGHT = 560;
 
 export async function loader({ params }: LoaderArgs) {
   const people = getPeople(params.tag);
-  return {people};
+  return { people };
 }
 
 export default function Index() {
-  const isMounted = useIsMounted();
-
   return (
     <>
       <Topics />
-      {isMounted ? <PeopleGridClient /> : <PeopleGridServer />}
+      <ClientOnly fallback={<PeopleGridServer />}>
+        {() => <PeopleGridClient />}
+      </ClientOnly>
+      {/* {isMounted ? <PeopleGridClient /> : <PeopleGridServer />} */}
       <BackToTop />
     </>
   );
@@ -151,16 +160,8 @@ function PeopleGridServer() {
   );
 }
 
-export function useIsMounted() {
-  const [isMounted, setIsMounted] = useState(false);
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-  return isMounted;
-}
-
 // why https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/
-export function useThrottle<
+function useThrottle<
   Callback extends (...args: Parameters<Callback>) => ReturnType<Callback>
 >(callback: Callback, delay: number) {
   const callbackRef = useRef(callback);
