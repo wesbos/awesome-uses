@@ -32,8 +32,9 @@ export default async function handleRequest(
 ) {
   // check if we have a cached response in memory
   const cachedResponse = cache.get(request.url);
-  if (cachedResponse) {
-    console.log('Serving from cache', request.url);
+  const isBuildUrl = request.url.includes('/build/');
+  if (cachedResponse && !isBuildUrl) {
+    // console.log('Serving from cache', request.url);
     // if we have a cached response, check if it's less than 5 seconds old
     const now = new Date();
     const diff = now.getTime() - cachedResponse.date.getTime();
@@ -63,13 +64,15 @@ export default async function handleRequest(
   // tee the stream so we can cache it and send it to the client
   const [toReponse, toCache] = body.tee();
 
-  streamToText(toCache).then(html => {
-    console.log('Caching', request.url);
-    cache.set(request.url, {
-      html: html.replace('Rendered Fresh',`Rendered from cache ${new Date().toISOString()}`),
-      date: new Date(),
+  if (!isBuildUrl) {
+    streamToText(toCache).then(html => {
+      console.log('Caching', request.url);
+      cache.set(request.url, {
+        html: html.replace('Rendered Fresh', `Rendered from cache ${new Date().toISOString()}`),
+        date: new Date(),
+      });
     });
-  });
+  }
 
   const headers = new Headers(responseHeaders);
   headers.set("Content-Type", "text/html");

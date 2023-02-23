@@ -1,7 +1,7 @@
 const { config } = require("@netlify/remix-edge-adapter");
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
-  ...config,
+  ...(process.env.NETLIFY || process.env.NETLIFY_LOCAL ? config : {}),
   appDirectory: "src",
   future: {
     unstable_postcss: true,
