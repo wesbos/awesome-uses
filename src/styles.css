@@ -36,7 +36,7 @@ html {
   font-family: 'Fira Mono', monospace;
   font-weight: 100;
   font-size: 10px;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
