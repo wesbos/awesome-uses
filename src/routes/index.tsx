@@ -15,7 +15,7 @@ const ITEM_ESTIMATE_HEIGHT = 560;
 
 export async function loader({ params }: LoaderArgs) {
   const people = getPeople(params.tag);
-  return {people};
+  return { people };
 }
 
 export default function Index() {
@@ -65,7 +65,7 @@ function PeopleGridClient() {
   const rowsOfPeople = chunk(people, itemsPerRow);
 
   const rowVirtualizer = useWindowVirtualizer({
-    count: Math.ceil(people.length / itemsPerRow),
+    count: rowsOfPeople.length,
     estimateSize: () => ITEM_ESTIMATE_HEIGHT,
     overscan: 5,
     scrollMargin: GridContainerOffsetRef.current,
@@ -107,7 +107,8 @@ function PeopleGridClient() {
                     display: "grid",
                     gridTemplateColumns: `repeat(auto-fill, minmax(${ITEM_MIN_WIDTH}px, 1fr))`,
                     gridGap: `${GRID_GAP}px`,
-                    paddingTop: virtualRow.index === 0 ? 0 : 50,
+                    paddingTop:
+                      virtualRow.index === 0 ? `0px` : `${GRID_GAP}px`,
                   }}
                 >
                   {items.map((item) => (
@@ -134,7 +135,13 @@ function PeopleGridClient() {
 function PeopleGridServer() {
   const { people } = useLoaderData<typeof loader>();
   return (
-    <div className="People">
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: `repeat(auto-fill, minmax(${ITEM_MIN_WIDTH}px, 1fr))`,
+        gridGap: `${GRID_GAP}px`,
+      }}
+    >
       {people.slice(0, 30).map((person) => (
         <Person key={person.name} person={person} />
       ))}
@@ -157,22 +164,4 @@ function useIsMounted() {
     setIsMounted(true);
   }, []);
   return isMounted;
-}
-
-// why https://epicreact.dev/how-react-uses-closures-to-avoid-bugs/
-function useThrottle<
-  Callback extends (...args: Parameters<Callback>) => ReturnType<Callback>
->(callback: Callback, delay: number) {
-  const callbackRef = useRef(callback);
-  useEffect(() => {
-    callbackRef.current = callback;
-  });
-  return useMemo(
-    () =>
-      throttle(
-        (...args: Parameters<Callback>) => callbackRef.current(...args),
-        delay
-      ),
-    [delay]
-  );
 }
