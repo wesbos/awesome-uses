@@ -1,16 +1,11 @@
 [build]
   command = "remix build"
-  functions = "netlify/functions"
   publish = "public"
 
 [dev]
   command = "remix watch"
   port = 3000
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
+  autoLaunch = false
 
 [[headers]]
   for = "/build/*"

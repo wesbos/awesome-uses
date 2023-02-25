@@ -25,7 +25,7 @@ function useScrollPosition() {
 export default function BackToTop() {
   const percent = useScrollPosition();
   return (
-    <a className="BackToTopLink" href="#top" title="Back To Top" percent={percent}>
+    <a className={`BackToTopLink ${percent > 0.25 ? 'Show' : ''}`} href="#top" title="Back To Top">
       &uarr;
     </a>
   );
