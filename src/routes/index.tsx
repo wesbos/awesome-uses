@@ -5,13 +5,12 @@ import BackToTop from "../components/BackToTop";
 import Person from "../components/Person";
 import { getPeople } from "src/util/stats";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import throttle from "lodash.throttle";
 import { useWindowVirtualizer } from "@tanstack/react-virtual";
 import { chunk } from "remeda";
 
 const GRID_GAP = 50;
-const ITEM_MIN_WIDTH = 350;
-const ITEM_ESTIMATE_HEIGHT = 560;
+const PERSON_MIN_WIDTH = 350;
+const PERSON_ESTIMATE_HEIGHT = 560;
 
 export async function loader({ params }: LoaderArgs) {
   const people = getPeople(params.tag);
@@ -34,41 +33,40 @@ function PeopleGridClient() {
   const { people } = useLoaderData<typeof loader>();
 
   const GridContainerRef = useRef<HTMLDivElement>(null);
-  const GridContainerOffsetRef = useRef<number>(0);
-  useLayoutEffect(() => {
-    GridContainerOffsetRef.current = GridContainerRef.current?.offsetTop ?? 0;
-  }, []);
+  const GridContainerOffsetTopRef = useRef<number>(0);
+  const GridContainerOffsetWidthRef = useRef<number>(0);
 
-  const [width, setWidth] = useState<number>();
   useLayoutEffect(() => {
-    const handleResize = throttle(() => {
+    const handleResize = () => {
       if (GridContainerRef.current) {
-        setWidth(GridContainerRef.current.offsetWidth);
+        GridContainerOffsetTopRef.current = GridContainerRef.current.offsetTop;
+        GridContainerOffsetWidthRef.current =
+          GridContainerRef.current.offsetWidth;
       }
-    }, 100);
+    };
 
-    if (GridContainerRef.current) {
-      setWidth(GridContainerRef.current.offsetWidth);
-    }
+    handleResize();
 
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
-      handleResize.cancel();
     };
   }, []);
 
-  const itemsPerRow = width
-    ? Math.floor((width + GRID_GAP) / (ITEM_MIN_WIDTH + GRID_GAP))
+  const peoplePerRow = GridContainerOffsetWidthRef.current
+    ? Math.floor(
+        (GridContainerOffsetWidthRef.current + GRID_GAP) /
+          (PERSON_MIN_WIDTH + GRID_GAP)
+      )
     : 1;
 
-  const rowsOfPeople = chunk(people, itemsPerRow);
+  const rowsOfPeople = chunk(people, peoplePerRow);
 
   const rowVirtualizer = useWindowVirtualizer({
     count: rowsOfPeople.length,
-    estimateSize: () => ITEM_ESTIMATE_HEIGHT,
+    estimateSize: () => PERSON_ESTIMATE_HEIGHT,
     overscan: 5,
-    scrollMargin: GridContainerOffsetRef.current,
+    scrollMargin: GridContainerOffsetTopRef.current,
   });
 
   const virtualRows = rowVirtualizer.getVirtualItems();
@@ -94,32 +92,32 @@ function PeopleGridClient() {
           }}
         >
           {virtualRows.map((virtualRow) => {
-            const items = rowsOfPeople[virtualRow.index];
+            const people = rowsOfPeople[virtualRow.index];
 
             return (
               <div
-                key={`row-${virtualRow.index}-${items[0].name}`}
+                key={`row-${virtualRow.index}-${people[0].name}`}
                 data-index={virtualRow.index}
                 ref={rowVirtualizer.measureElement}
               >
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns: `repeat(auto-fill, minmax(${ITEM_MIN_WIDTH}px, 1fr))`,
+                    gridTemplateColumns: `repeat(auto-fill, minmax(${PERSON_MIN_WIDTH}px, 1fr))`,
                     gridGap: `${GRID_GAP}px`,
                     paddingTop:
                       virtualRow.index === 0 ? `0px` : `${GRID_GAP}px`,
                   }}
                 >
-                  {items.map((item) => (
+                  {people.map((person) => (
                     <div
-                      key={item.name}
+                      key={person.name}
                       ref={rowVirtualizer.measureElement}
                       style={{
                         display: "grid",
                       }}
                     >
-                      <Person person={item} />
+                      <Person person={person} />
                     </div>
                   ))}
                 </div>
@@ -138,7 +136,7 @@ function PeopleGridServer() {
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: `repeat(auto-fill, minmax(${ITEM_MIN_WIDTH}px, 1fr))`,
+        gridTemplateColumns: `repeat(auto-fill, minmax(${PERSON_MIN_WIDTH}px, 1fr))`,
         gridGap: `${GRID_GAP}px`,
       }}
     >
@@ -150,7 +148,7 @@ function PeopleGridServer() {
         <div
           key={person.name}
           style={{
-            height: ITEM_ESTIMATE_HEIGHT,
+            height: PERSON_ESTIMATE_HEIGHT,
           }}
         ></div>
       ))}
