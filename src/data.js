@@ -4499,7 +4499,7 @@ module.exports = [
   },
   {
     name: 'sheep',
-    description: 'Software Engineer',
+    description: 'software engineer from zagreb, croatia',
     url: 'https://sheepdev.xyz/uses',
     emoji: '🐧',
     country: '🇭🇷',
