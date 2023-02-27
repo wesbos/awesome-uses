@@ -42,6 +42,7 @@ module.exports = [
     name: 'Donavon West',
     description: 'Spread Love {...❤️}',
     url: 'https://donavon.com/uses',
+    twitter: '@donavon',
     emoji: '❤️',
     country: '🇺🇸',
     computer: 'apple',
