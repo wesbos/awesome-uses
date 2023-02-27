@@ -4501,7 +4501,7 @@ module.exports = [
     name: 'sheep',
     description: 'software engineer from zagreb, croatia',
     url: 'https://sheepdev.xyz/uses',
-    emoji: '🐧',
+    emoji: '🐏',
     country: '🇭🇷',
     computer: 'linux',
     phone: 'android',
