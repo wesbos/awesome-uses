@@ -4278,6 +4278,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Manassarn "Noom" Manoonchai',
+    description: 'Coding, Productivity, Technologies, macOS, Keyboard',
+    url: 'https://garden.narze.live/uses',
+    twitter: '@narze',
+    emoji: '😷',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'TypeScript',
+      'Ruby on Rails',
+      "Next",
+      'Svelte',
+      'Testing',
+      'VS Code',
+      'Web'
+    ],
+  },
+  {
     name: 'Jordan Haines',
     description: 'Full Stack Web Developer',
     url: 'https://jordanairwave.co.uk/uses.html',
