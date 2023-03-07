@@ -16,7 +16,7 @@
 
 A /uses page lists a developer's setup, gear, software, and configs (what they *use*). It's a great reference for those looking to add to their library of tools or reconfigure ones they already use.
 
-**The URL MUST to follow the format of use|uses|using|setup|environment at the end.** 
+**The URL MUST follow the format of use|uses|using|setup|environment at the end.** 
 
 ### What Should I Include?
 
