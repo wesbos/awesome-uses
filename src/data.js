@@ -3366,8 +3366,10 @@ module.exports = [
     computer: 'linux',
     phone: 'iphone',
     tags: [
-      'PHP',
       'Laravel',
+      'PHP',
+      'HTML',
+      'CSS',
       'JavaScript',
       'TypeScript',
       'React',
