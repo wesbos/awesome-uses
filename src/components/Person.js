@@ -12,7 +12,7 @@ export default function Person({ person }) {
   const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
   const { tag: currentTag } = useParams();
   return (
-    <div className="PersonWrapper" style={{ contentVisibility: "auto" }}>
+    <div className="PersonWrapper" style={{ contentVisibility: "auto", containIntrinsicHeight: '560px' }}>
       <div className="PersonInner">
         <header>
           <img
@@ -104,4 +104,3 @@ Person.propTypes = {
     },
   }),
 };
-
