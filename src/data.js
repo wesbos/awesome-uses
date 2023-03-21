@@ -22,6 +22,23 @@
  */
 module.exports = [
   {
+    name: 'Jose Munoz',
+    description: 'Product Designer from Puerto Rico',
+    url: 'https://www.josemunozmatos.com/uses',
+    emoji: '🫶',
+    country: '🇵🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Lego',
+      'UX Designer',
+      'Product Designer',
+      'Figma',
+      'Markdown',
+      'Notion',
+    ],
+  },
+  {
     name: 'uncenter',
     description: 'Very incompetent developer',
     url: 'https://www.uncenter.org/uses',
