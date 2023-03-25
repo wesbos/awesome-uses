@@ -20,6 +20,10 @@ export default function Person({ person }) {
             height="50"
             src={img}
             alt={person.name}
+            onError={({ currentTarget }) => {
+              currentTarget.onerror = null; // prevents looping
+              currentTarget.src = "/default.png";
+            }}
             loading="lazy"
           />
           <h3>
