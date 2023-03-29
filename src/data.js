@@ -1757,6 +1757,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Bill Sullivan',
+    description: 'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
+    url: 'https://billsullivan.name/uses/',
+    twitter: '@BillSullivan794',
+    emoji: '🎸',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'macOS',
+      'system76',
+      'Full Stack',
+      'Manager',
+      'Streamer',
+      'Pop!_OS',
+      'React'
+    ],
+  },
+  {
     name: 'Amit Dhamu',
     description:
       'Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head',
