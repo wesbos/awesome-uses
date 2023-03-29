@@ -5,7 +5,6 @@ const Joi = require('joi');
 const http = require('http');
 const https = require('https');
 const flags = require('./flags.js');
-const github = require('@actions/github');
 
 async function getCurrentBranchName() {
   let myOutput = '';
