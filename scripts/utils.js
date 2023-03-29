@@ -125,7 +125,7 @@ module.exports.communicateValidationOutcome = async function (
   const pullRequestNumber = context.payload.pull_request.number;
 
   const octokit = new github.getOctokit(GITHUB_TOKEN);
-  await octokit.issues.createComment({
+  await octokit.rest.issues.createComment({
     ...context.repo,
     issue_number: pullRequestNumber,
     body: comment,
