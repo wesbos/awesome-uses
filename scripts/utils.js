@@ -111,6 +111,7 @@ module.exports.communicateValidationOutcome = async function (
     ].join('\n');
   }
 
+
   const { GITHUB_TOKEN } = process.env;
   const { context } = github;
   if (!GITHUB_TOKEN || !context.payload.pull_request) {
@@ -123,7 +124,8 @@ module.exports.communicateValidationOutcome = async function (
 
   const pullRequestNumber = context.payload.pull_request.number;
 
-  const octokit = new github.GitHub(GITHUB_TOKEN);
+  const github = require('@actions/github');
+  const octokit = new github.getOctokit(GITHUB_TOKEN);
   await octokit.issues.createComment({
     ...context.repo,
     issue_number: pullRequestNumber,
