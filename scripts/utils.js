@@ -5,6 +5,7 @@ const Joi = require('joi');
 const http = require('http');
 const https = require('https');
 const flags = require('./flags.js');
+const github = require('@actions/github');
 
 async function getCurrentBranchName() {
   let myOutput = '';
@@ -124,7 +125,6 @@ module.exports.communicateValidationOutcome = async function (
 
   const pullRequestNumber = context.payload.pull_request.number;
 
-  const github = require('@actions/github');
   const octokit = new github.getOctokit(GITHUB_TOKEN);
   await octokit.issues.createComment({
     ...context.repo,
