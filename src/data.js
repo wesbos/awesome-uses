@@ -1461,8 +1461,8 @@ module.exports = [
     twitter: '@yassinebridi',
     emoji: '🚀',
     country: '🇲🇦',
-    computer: 'linux',
-    phone: 'android',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Designer',
