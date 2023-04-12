@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
 * [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
@@ -102,6 +103,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
 * [Dale Larroder](https://www.dalelarroder.com/uses) — Software Engineer, React, TypeScript and Mechanical Keyboards!
 * [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — Live coding streamer, writer and speaker
+* [Bill Sullivan](https://billsullivan.name/uses/) — Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur
 * [Amit Dhamu](https://amitd.co/uses) — Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.

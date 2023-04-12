@@ -36,7 +36,7 @@ module.exports = [
       'Figma',
       'Markdown',
       'Notion',
-    ]
+    ],
   },
   {
     name: 'Vladimir Vo',
@@ -1823,7 +1823,8 @@ module.exports = [
   },
   {
     name: 'Bill Sullivan',
-    description: 'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
+    description:
+      'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
     url: 'https://billsullivan.name/uses/',
     twitter: '@BillSullivan794',
     emoji: '🎸',
@@ -1837,7 +1838,7 @@ module.exports = [
       'Manager',
       'Streamer',
       'Pop!_OS',
-      'React'
+      'React',
     ],
   },
   {
