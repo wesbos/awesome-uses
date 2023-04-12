@@ -1909,6 +1909,36 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrei Hudovich',
+    description: 'Freelance Front-end Engineer, Web Enthusiast, Cat Lover.',
+    url: 'https://hudovich.dev/uses/',
+    twitter: '@andrei_hudovich',
+    emoji: '🐈',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'Javascript',
+      'Typescript',
+      'CSS',
+      'HTML',
+      'Blogger',
+      'Vue.js',
+      'TailwindCSS',
+      'Engineer',
+      'Web Developer',
+      'JAMStack',
+      'Accessibility',
+      'Remote',
+      'SCSS',
+      'Web',
+      'VS Code',
+      'Software Engineer'
+    ]
+  },
+  {
     name: 'Emmanuel Gautier',
     description:
       'Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.',
