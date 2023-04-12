@@ -23,19 +23,14 @@
 module.exports = [
   {
     name: 'Neil Gupta',
-    description: 'Designed in California. Assembled in Chicago. I like to build things.',
+    description:
+      'Designed in California. Assembled in Chicago. I like to build things.',
     url: 'https://www.neil.gg/uses',
     emoji: '😅',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'Ruby',
-      'Full Stack',
-      'Remote',
-      'Developer',
-    ]
+    tags: ['JavaScript', 'Ruby', 'Full Stack', 'Remote', 'Developer'],
   },
   {
     name: 'Jose Munoz',
