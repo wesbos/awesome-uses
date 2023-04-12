@@ -22,6 +22,26 @@
  */
 module.exports = [
   {
+    name: 'Jae Toole',
+    description: 'Laravel developer, AWS enthusiast, Kubernetes lover',
+    url: 'https://jaetoole.me/uses',
+    country: '🇬🇧',
+    twitter: '@jaetooledev',
+    computer: 'apple',
+    phone: 'iphone',
+    emoji: '🧢',
+    tags: [
+      'PHP',
+      'Laravel',
+      'Typescript',
+      'AWS',
+      'Backend',
+      'Next.js',
+      'React',
+      'Kubernetes',
+    ]
+  },
+  {
     name: 'Brandon Lim',
     description: 'Software Engineer based in Singapore',
     url: 'https://justbrandonlim.com/uses',
