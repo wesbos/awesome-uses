@@ -30,7 +30,9 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
+* [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
@@ -409,6 +411,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Muhammad Oka](https://muhammadoka.dev/uses/) — Computer Science student, Cyber Security enthusiast.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
+* [Dmytro Litvinov](https://dmytrolitvinov.com/uses/) — Full Stack Python developer from 🇺🇦
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
