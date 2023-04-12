@@ -4895,6 +4895,27 @@ module.exports = [
     tags: ['Front End', 'JavaScript', 'Ink', 'Pencil', 'Brush'],
   },
   {
+    name: 'NaveenSingh',
+    description: 'Full Stack Developer from India, Coimbatore 🇮🇳',
+    url: 'https://naveensingh.dev/uses/',
+    twitter: '@NaveensinghMtp',
+    emoji: '✨',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Angular',
+      'React',
+      'Laravel',
+      'Flutter',
+      'Nextjs',
+      'Full Stack',
+      'Git',
+      'JavaScript',
+      'Styled Components'
+    ],
+  },
+  {
     name: 'Raul Melo',
     description:
       'Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.',
