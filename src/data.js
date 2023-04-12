@@ -5403,6 +5403,32 @@ module.exports = [
       'Zeplin',
     ],
   },
+    {
+    name: 'Habib Hinn',
+    description: 'Pricipal Engineer & Senior Frontend Engineer',
+    url: 'https://habibhinn.com/uses',
+    twitter: '@Hinn_Habib',
+    emoji: '🦜',
+    country: '🇵🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'Node.js',
+      'React',
+      'Angular',
+      'Remix',
+      "SEO",
+      "Tailwind CSS",
+      "Prisma",
+      'Python',
+      'Cypress'
+    ],
+  },
   {
     name: 'Jibin Thomas',
     description:
