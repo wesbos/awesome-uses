@@ -124,7 +124,9 @@ module.exports.communicateValidationOutcome = async function (
 
   const pullRequestNumber = context.payload.pull_request.number;
   console.log('pullRequestNumber', pullRequestNumber);
-  console.log('repo full', ...context.repo);
+  console.log('context', context);
+
+  console.log('repo full', context.repo);
   // log owner
   console.log('owner', context.repo.owner);
   // repo name
