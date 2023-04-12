@@ -42,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
+* [starter.place](https://www.starter.place/uses/) — Starter repos
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
 * [Allan Im](https://allanim.com/uses) — Software Engineer
@@ -106,6 +107,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bill Sullivan](https://billsullivan.name/uses/) — Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur
 * [Amit Dhamu](https://amitd.co/uses) — Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
+* [Andrei Hudovich](https://hudovich.dev/uses/) — Freelance Front-end Engineer, Web Enthusiast, Cat Lover.
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
 * [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
@@ -115,6 +117,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Samuel Wong](https://desktopofsamuel.com/uses) — Product Designer. Photographer. Traveler.
 * [Arisa Fukuzaki](https://github.com/schabibi1/uses) — DevRel Engineer, Front-end developer
 * [Dean Lofts](https://loftwah.github.io/uses) — Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web
+* [Himank Barve](https://hbarve1.com/uses) — Full Stack JavaScript Developer, Open Source Enthusiast
 * [Matthew Tao](https://www.matthewtao.com/uses) — Computer Science student who loves CSS. Focuses on the little things that make a website delightful.
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
 * [Angélique Weger](https://angeliqueweger.com/uses) — engineering manager :: adjunct prof :: always learning
@@ -716,7 +719,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
 * [Luis Contreras](https://luiscontreras.dev/uses) — Detail-oriented and passionate Software Engineer.
-* [Madeline Pritchard](https://madelinepritchard.net/pages/uses) — Film critic, writer, web developer.
+* [Madeline Pritchard](https://www.blog.madelinepritchard.net/uses) — Film critic, writer, web developer.
 * [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Wuttinan Sukpoon](https://github.com/mewxz029/uses) — FullStack Developer
 * [Kieran Robson](https://kieranrobson.com/uses/) — Information science PhD student | Hobbyist developer | Movie and TV Enthuiast
