@@ -56,7 +56,6 @@ typings/
 .env*
 
 .cache/
-public
 
 # Mac files
 .DS_Store
