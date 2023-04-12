@@ -28,7 +28,7 @@ module.exports = [
     country: '🇬🇧',
     twitter: '@jaetooledev',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     emoji: '🧢',
     tags: [
       'PHP',
