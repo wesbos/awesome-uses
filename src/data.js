@@ -4912,7 +4912,7 @@ module.exports = [
       'Full Stack',
       'Git',
       'JavaScript',
-      'Styled Components'
+      'Styled Components',
     ],
   },
   {
@@ -5424,7 +5424,7 @@ module.exports = [
       'Zeplin',
     ],
   },
-    {
+  {
     name: 'Habib Hinn',
     description: 'Pricipal Engineer & Senior Frontend Engineer',
     url: 'https://habibhinn.com/uses',
@@ -5443,11 +5443,11 @@ module.exports = [
       'React',
       'Angular',
       'Remix',
-      "SEO",
-      "Tailwind CSS",
-      "Prisma",
+      'SEO',
+      'Tailwind CSS',
+      'Prisma',
       'Python',
-      'Cypress'
+      'Cypress',
     ],
   },
   {

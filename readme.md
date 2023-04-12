@@ -242,6 +242,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Manoj Barman](https://manojbarman.in/uses) — Working hardly, or Hardly working..
 * [Monica Powell](https://www.aboutmonica.com/uses/) — Hi! I'm a product engineer who is passionate about making open-source more accessible and community building
 * [Hideki Jinnai](https://github.com/dekisr/uses) — Lifelong Learner
+* [NaveenSingh](https://naveensingh.dev/uses/) — Full Stack Developer from India, Coimbatore 🇮🇳
 * [Raul Melo](https://raulmelo.dev/uses) — Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.
 * [Ryan Harris](https://ryanharris.dev/uses) — dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.
 * [Axel Larsson](https://axellarsson.com/blog/what-i-use/) — Full-stack developer
@@ -266,6 +267,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Alexander Sedeke](https://www.studioalex.dev/alexander/uses/) — Software Engineer
 * [Lea Vu](https://www.studioalex.dev/lea/uses/) — UI/UX Designer
+* [Habib Hinn](https://habibhinn.com/uses) — Pricipal Engineer & Senior Frontend Engineer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Michael Read](https://www.michaelcread.com/uses) — Full Stack Web Developer.
