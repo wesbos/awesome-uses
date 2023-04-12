@@ -39,7 +39,7 @@ module.exports = [
       'Next.js',
       'React',
       'Kubernetes',
-    ]
+    ],
   },
   {
     name: 'Brandon Lim',
