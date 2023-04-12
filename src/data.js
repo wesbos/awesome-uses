@@ -22,6 +22,30 @@
  */
 module.exports = [
   {
+    name: 'Vladimir Vo',
+    description: 'Frontend developer with passion for great product design',
+    url: 'https://vldmr.website/uses',
+    twitter: '@v1in_',
+    emoji: '🖖',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Astro',
+      'Front End',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next',
+      'JAMstack',
+      'Netlify',
+      'Vercel',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
     name: 'uncenter',
     description: 'Very incompetent developer',
     url: 'https://www.uncenter.org/uses',
@@ -8587,6 +8611,17 @@ module.exports = [
       'JavaScript',
       'GraphQL',
     ],
+  },
+  {
+    name: 'Dmytro Litvinov',
+    description: 'Full Stack Python developer from 🇺🇦',
+    url: 'https://dmytrolitvinov.com/uses/',
+    twitter: '@DmytroLitvinov',
+    emoji: '🪵',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Web Developer', 'Full Stack', 'Python', 'Django'],
   },
   {
     name: 'Braden Watkins',
