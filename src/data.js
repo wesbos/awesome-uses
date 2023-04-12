@@ -8589,6 +8589,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Dmytro Litvinov',
+    description:
+      'Full Stack Python developer from 🇺🇦',
+    url: 'https://dmytrolitvinov.com/uses/',
+    twitter: '@DmytroLitvinov',
+    emoji: '🪵',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Web Developer',
+      'Full Stack',
+      'Python',
+      'Django',
+    ],
+  },
+  {
     name: 'Braden Watkins',
     description: 'Student, Full Stack Developer, Lover of all things analog',
     url: 'https://bradenwatkins.dev/uses',
