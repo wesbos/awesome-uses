@@ -124,7 +124,14 @@ module.exports.communicateValidationOutcome = async function (
 
   const pullRequestNumber = context.payload.pull_request.number;
   console.log('pullRequestNumber', pullRequestNumber);
-  console.log('pullRequestNumber', context.payload.pull_request);
+  console.log('repo full', ...context.repo);
+  // log owner
+  console.log('owner', context.repo.owner);
+  // repo name
+  console.log('repo', context.repo.repo);
+  // body
+  console.log('body', comment);
+
 
 
   const octokit = new github.getOctokit(GITHUB_TOKEN);
