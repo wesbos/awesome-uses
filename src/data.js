@@ -11517,7 +11517,7 @@ module.exports = [
   {
     name: 'Jeremy Lanssiers',
     description:
-      "Full-stack web developer-thinker-tinkerer. Preacher man for the GNU/Linux Church.",
+      'Full-stack web developer-thinker-tinkerer. Preacher man for the GNU/Linux Church.',
     url: 'https://www.jeremylanssiers.com/uses/',
     emoji: '🔥',
     country: '🇧🇪',
@@ -11552,7 +11552,7 @@ module.exports = [
       'Visual Studio Code',
       'Cloudflare',
       'Chromium Debugging Tools',
-      'Azure DevOps Pipelines'
+      'Azure DevOps Pipelines',
     ],
   },
   {
