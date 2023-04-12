@@ -121,20 +121,8 @@ module.exports.communicateValidationOutcome = async function (
     core.info(`Comment contents:\n${comment}`);
     return;
   }
-
-  const pullRequestNumber = context.payload.pull_request.number;
-  console.log('pullRequestNumber', pullRequestNumber);
-  console.log('context', context);
-
-  console.log('repo full', context.repo);
-  // log owner
-  console.log('owner', context.repo.owner);
-  // repo name
-  console.log('repo', context.repo.repo);
-  // body
-  console.log('body', comment);
-
-
+  // TODO: Re-enable a way to comment on PRs that tests passed.
+  // const pullRequestNumber = context.payload.pull_request.number;
 
   // const octokit = new github.getOctokit(GITHUB_TOKEN);
   // await octokit.rest.pulls.createReviewComment({
