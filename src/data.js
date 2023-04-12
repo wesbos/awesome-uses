@@ -63,7 +63,7 @@ module.exports = [
       '.NET',
       'Tailwind',
       'Solutions Architect',
-    ]
+    ],
   },
   {
     name: 'Neil Gupta',
