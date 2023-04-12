@@ -4590,13 +4590,7 @@ module.exports = [
     country: '🇭🇷',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Software Engineer',
-      'Golang',
-      'Linux',
-      'Docker',
-      'BASH',
-    ],
+    tags: ['Software Engineer', 'Golang', 'Linux', 'Docker', 'BASH'],
   },
   {
     name: 'Mario Sanchez Carrion',
