@@ -15129,12 +15129,12 @@ module.exports = [
   {
     name: 'Madeline Pritchard',
     description: 'Film critic, writer, web developer.',
-    url: 'https://madelinepritchard.net/pages/uses',
+    url: 'https://www.blog.madelinepritchard.net/uses',
     emoji: '😌',
     country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
-    tags: ['Writer', 'Developer', 'Python', 'CSS', 'HTML', 'Film'],
+    tags: ['Writer', 'Developer', 'Python', 'CSS', 'HTML', 'Film', 'Blogger'],
   },
   {
     name: 'Filip Pacurar',
