@@ -366,7 +366,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sergey Panteleev](https://sergeypanteleev.com/en/uses) — PHP 8.2 Release Manager
 * [Shajan Jacob](https://shajanjacob.com/uses) — Software Engineer, extroverted introvert, storyteller and a maker.
 * [Fidalgo](https://info.fidalgo.dev/uses) — Front end Developer
-* [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Software Developer, Fullstack
+* [Alexandre Ferreira](https://www.alexjorgef.com/about/uses) — Full-stack developer, open-source enthusiast
 * [Marco Poletto](https://poletto.dev/uses/) — Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor
 * [Tim Teege](https://www.teesche.com/uses/) — Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
