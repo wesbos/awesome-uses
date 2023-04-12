@@ -75,6 +75,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simone Silvestroni](https://minutestomidnight.co.uk/uses) — Sound designer, web developer, bass player
 * [Gavin Pereira](https://gavinpereira.in/uses) — Graphic designer & frontend developer from Goa, India
 * [Tim Mouskhelichvili](https://timmousk.com/uses/) — Freelance Developer & Consultant from Montreal, Canada
+* [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
 * [Andy Cetnarskyj](https://www.just-andy.uk/uses) — Design Systems Designer from Edinburgh, UK
 * [Akash Rajpurohit](https://akashrajpurohit.com/uses) — Software Engineer
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
