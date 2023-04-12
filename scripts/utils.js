@@ -111,6 +111,7 @@ module.exports.communicateValidationOutcome = async function (
     ].join('\n');
   }
 
+
   const { GITHUB_TOKEN } = process.env;
   const { context } = github;
   if (!GITHUB_TOKEN || !context.payload.pull_request) {
@@ -120,13 +121,13 @@ module.exports.communicateValidationOutcome = async function (
     core.info(`Comment contents:\n${comment}`);
     return;
   }
+  // TODO: Re-enable a way to comment on PRs that tests passed.
+  // const pullRequestNumber = context.payload.pull_request.number;
 
-  const pullRequestNumber = context.payload.pull_request.number;
-
-  const octokit = new github.GitHub(GITHUB_TOKEN);
-  await octokit.issues.createComment({
-    ...context.repo,
-    issue_number: pullRequestNumber,
-    body: comment,
-  });
+  // const octokit = new github.getOctokit(GITHUB_TOKEN);
+  // await octokit.rest.pulls.createReviewComment({
+  //   ...context.repo,
+  //   pullRequestNumber,
+  //   body: comment,
+  // });
 };
