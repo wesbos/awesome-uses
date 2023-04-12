@@ -1,43 +1,29 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
-import styled from 'styled-components';
-import { Tag, Tags } from './Topics';
 import * as icons from '../util/icons';
+import { useParams } from '@remix-run/react';
 
-function useIntersectionObserver(ref) {
-  const [isIntersecting, setIntersecting] = useState(false);
-
-  useEffect(function() {
-    const observer = new IntersectionObserver(function([entry]) {
-      console.log('Run once for every time its on screen');
-      console.log(entry);
-    });
-    // Observe the element we want to observve
-    observer.observe(ref.current);
-
-    return () => {
-      observer.unobserve(ref.current);
-    };
-  });
-}
-
-export default function Person({ person, currentTag }) {
+export default function Person({ person }) {
   const url = new URL(person.url);
   const twitter = person.twitter ? `https://unavatar.io/${person.twitter.replace('@', '')}` : null;
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter ? `${twitter}?fallback=${website}` : website;
   const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
-
+  const { tag: currentTag } = useParams();
   return (
-    <PersonWrapper>
-      <PersonInner>
+    <div className="PersonWrapper" style={{ contentVisibility: "auto", containIntrinsicHeight: '560px' }}>
+      <div className="PersonInner">
         <header>
           <img
             width="50"
             height="50"
             src={img}
             alt={person.name}
+            onError={({ currentTarget }) => {
+              currentTarget.onerror = null; // prevents looping
+              currentTarget.src = "/default.png";
+            }}
             loading="lazy"
           />
           <h3>
@@ -57,15 +43,15 @@ export default function Person({ person, currentTag }) {
           </a>
         </header>
         <p>{person.description}</p>
-        <Tags>
+        <ul className="Tags">
           {person.tags.map(tag => (
-            <Tag key={tag} as="li" currentTag={tag === currentTag} small>
+            <li className={`Tag small ${tag === currentTag ? 'currentTag' : ''}`} key={tag}>
               {tag}
-            </Tag>
+            </li>
           ))}
-        </Tags>
-      </PersonInner>
-      <PersonDeets>
+        </ul>
+      </div>
+      <div className="PersonDeets">
         <span className="country" title={name(person.country)}>
           {person.country}
         </span>
@@ -85,7 +71,7 @@ export default function Person({ person, currentTag }) {
         )}
 
         {person.twitter && (
-          <TwitterHandle>
+          <div className="TwitterHandle">
             <a
               href={`https://twitter.com/${person.twitter.replace('@', '')}`}
               target="_blank"
@@ -94,15 +80,14 @@ export default function Person({ person, currentTag }) {
               <span className="at">@</span>
               {person.twitter.replace('@', '')}
             </a>
-          </TwitterHandle>
+          </div>
         )}
-      </PersonDeets>
-    </PersonWrapper>
+      </div>
+    </div>
   );
 }
 
 Person.propTypes = {
-  currentTag: PropTypes.string,
   person: PropTypes.shape({
     github: PropTypes.string,
     name: PropTypes.string,
@@ -112,7 +97,7 @@ Person.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string),
     country: PropTypes.string,
     computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
-    phone: PropTypes.oneOf(['iphone', 'android', 'windowsphone']),
+    phone: PropTypes.oneOf(['iphone', 'android', 'windowsphone', 'flipphone']),
     twitter(props, propName, componentName) {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
         return new Error(
@@ -123,97 +108,3 @@ Person.propTypes = {
     },
   }),
 };
-
-// Component Styles
-const PersonWrapper = styled.div`
-  border: 1px solid var(--vape);
-  border-radius: 5.34334px;
-  box-shadow: 10px -10px 0 var(--blue2);
-  display: grid;
-  grid-template-rows: 1fr auto auto;
-`;
-
-const PersonInner = styled.div`
-  padding: 2rem;
-  h3 {
-    margin: 0;
-    a:visited {
-      color: var(--purple);
-    }
-  }
-  header {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto 1fr;
-    grid-gap: 0 1rem;
-    @media all and (max-width: 400px) {
-      grid-template-columns: 1fr;
-    }
-    img {
-      grid-row: 1 / -1;
-      background: var(--lightblue);
-      font-size: 1rem;
-    }
-    .displayLink {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      text-decoration: none;
-      color: var(--vape);
-      letter-spacing: 1px;
-      font-size: 1.2rem;
-      text-overflow: ellipsis;
-      max-width: 100%;
-      overflow: hidden;
-      :hover,
-      :visited {
-        color: var(--pink);
-      }
-    }
-  }
-`;
-
-const PersonDeets = styled.div`
-  display: flex;
-  border-top: 1px solid var(--vape);
-  > * {
-    flex: 1;
-    border-left: 1px solid var(--vape);
-    text-align: center;
-    padding: 1rem;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: auto auto;
-    &:first-child {
-      border-left: 0;
-    }
-  }
-  a {
-    color: var(--vape);
-  }
-  .country {
-    font-size: 3rem;
-    padding-top: 2rem;
-  }
-  .phone {
-    padding: 0;
-  }
-  @media all and (max-width: 400px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    > *:nth-child(1),
-    > *:nth-child(2) {
-      /* lol */
-      border-bottom: 1px solid var(--vape);
-    }
-  }
-`;
-
-const TwitterHandle = styled.span`
-  font-size: 1.24323423426928098420394802rem;
-  .at {
-    color: var(--yellow);
-    margin-right: 2px;
-  }
-`;

@@ -1,8 +1,9 @@
-const { name } = require('country-emoji');
-const people = require('../data.js');
+import { name } from 'country-emoji';
+import people from '../data.js';
+type Person = typeof people[0];
 
-function merge(prop) {
-  return function (acc, obj) {
+function merge(prop: string) {
+  return function (acc: any, obj: Record<any, any>) {
     // Remove duplicated values.
     const values = [...new Set(obj[prop])];
     return [...values, ...acc];
@@ -14,24 +15,24 @@ function countInstances(acc, tag) {
   return acc;
 }
 
-function normalizeTag(tag) {
+export function normalizeTag(tag) {
   return (
     tag
       // Common mispellings currently seen in the data
       // Do we want to go this far?
       .replace(/frontend/i, 'Front End')
+      .replace(/TailwindCSS/i, 'Tailwind CSS')
       .replace(/backend/i, 'Back End')
       .replace(/fullstack/i, 'Full Stack')
       .replace(/a11y/i, 'Accessibility')
       .replace(/next.?js/i, 'Next')
       .replace(/react.?js/i, 'React')
-
       // Or is lowercase enough?
       .toLowerCase()
   );
 }
 
-function countries() {
+export function countries() {
   const data = people
     .map((person) => ({
       name: name(person.country),
@@ -52,17 +53,17 @@ function countries() {
 
   const sorted = Object.entries(data)
     .map(([, country]) => country)
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => b.count - a.count)
+    .filter(Boolean);
 
   return sorted;
 }
 
-function tags() {
+export function tags() {
   const allTags = people.reduce(merge('tags'), []);
   const counts = allTags.reduce(countInstances, {});
   // sort and filter for any tags that only have 1
   const tags = Object.entries(counts)
-    .sort(([, countA], [, countB]) => countB - countA)
     // Only show the tag if this topic has 3 or more people in it
     .filter(([, count]) => count >= 3)
     .map(([name, count]) => ({ name, count }));
@@ -83,23 +84,60 @@ function tags() {
       delete lowercaseTagMap[normalizedName];
     }
     return acc;
-  }, []);
-
+  }, [])
+    // Sort by name first
+    .sort((a, b) => b.name.toLowerCase() > a.name.toLowerCase())
+    // Sort by count
+    .sort((a, b) => b.count - a.count);
   return [{ name: 'all', count: people.length }, ...normalizedTags];
 }
 
-function devices() {
+export function devices() {
+
   const all = [
     ...people.map((person) => person.computer),
     ...people.map((person) => person.phone),
-  ];
+  ].filter(Boolean);
 
   return Object.entries(all.reduce(countInstances, {}))
     .map(([device, count]) => ({ name: device, count }))
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => b.count - a.count)
+    .map((device) => {
+      return device;
+    })
 }
 
-exports.normalizeTag = normalizeTag;
-exports.countries = countries;
-exports.tags = tags;
-exports.devices = devices;
+function unique(arr: string[]) {
+  return Array.from(new Set(arr));
+}
+
+const normalizedTagMap = tags().reduce((acc, tag) => {
+  const normalizedTag = normalizeTag(tag.name);
+  acc[normalizedTag] = tag.name;
+  return acc;
+}, {});
+
+export function getPeople(tag?: string) {
+  return [...people]
+    .sort(() => Math.random() - 0.5)
+    .map((person) => {
+      const normalizedPerson = {
+        ...person,
+        // Clean out people that added basically the same tags twice
+        tags: unique(
+          person.tags.map((tag) => normalizedTagMap[normalizeTag(tag)] || tag)
+        ),
+      };
+      return {
+        ...normalizedPerson,
+        id: `person-${normalizedPerson.name}`,
+      };
+    })
+    .filter((person) => {
+      if (!tag) {
+        return true;
+      }
+      return person.tags.includes(tag) || person.country === tag || person.phone === tag || person.computer === tag;
+    })
+
+}

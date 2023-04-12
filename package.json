@@ -5,69 +5,56 @@
   "author": "Wes Bos",
   "eslintConfig": {
     "extends": [
-      "wesbos"
+      "wesbos/typescript"
     ]
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 16"
   },
   "dependencies": {
-    "@actions/core": "^1.2.1",
-    "@actions/exec": "^1.0.3",
-    "@actions/github": "^2.0.1",
-    "@babel/core": "^7.16.7",
-    "@babel/eslint-parser": "^7.16.5",
-    "@babel/preset-react": "^7.16.7",
-    "@types/node": "^16.11.19",
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "@typescript-eslint/parser": "^5.9.1",
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-react": "^7.18.6",
+    "@netlify/edge-functions": "^2.0.0",
+    "@netlify/functions": "^1.4.0",
+    "@netlify/remix-edge-adapter": "^1.0.0",
+    "@remix-run/dev": "^1.13.0",
+    "@remix-run/netlify": "^1.13.0",
+    "@remix-run/node": "^1.13.0",
+    "@remix-run/react": "^1.13.0",
+    "@remix-run/serve": "^1.13.0",
+    "@remix-run/server-runtime": "^1.13.0",
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "country-emoji": "^1.5.6",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "gatsby": "^4.5.0",
-    "gatsby-image": "^3.11.0",
-    "gatsby-plugin-manifest": "^4.5.0",
-    "gatsby-plugin-offline": "^5.5.0",
-    "gatsby-plugin-react-helmet": "^5.5.0",
-    "gatsby-plugin-sharp": "^4.5.0",
-    "gatsby-plugin-styled-components": "^5.5.0",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^4.5.0",
-    "gatsby-transformer-sharp": "^4.5.0",
-    "joi": "^17.5.0",
+    "isbot": "^3.6.6",
+    "joi": "^17.8.1",
+    "netlify-cli": "^13.0.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "styled-components": "5.3.3",
-    "typescript": "^4.5.4"
+    "react-is": "^18.2.0",
+    "styled-components": "5.3.6",
+    "typescript": "^4.9.5"
   },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "build": "netlify build",
+    "dev": "NODE_ENV=development netlify dev"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-wesbos": "^3.0.2",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^4.0.10",
-    "lint-staged": "^9.5.0",
-    "prettier": "^2.5.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^8.34.0",
+    "eslint-config-wesbos": "^3.2.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "postcss": "^8.4.21",
+    "postcss-nesting": "^11.2.1",
+    "prettier": "^2.8.4"
   },
   "lint-staged": {
     "src/data.js": [
