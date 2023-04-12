@@ -136,10 +136,10 @@ module.exports.communicateValidationOutcome = async function (
 
 
 
-  const octokit = new github.getOctokit(GITHUB_TOKEN);
-  await octokit.rest.pulls.createReviewComment({
-    ...context.repo,
-    pullRequestNumber,
-    body: comment,
-  });
+  // const octokit = new github.getOctokit(GITHUB_TOKEN);
+  // await octokit.rest.pulls.createReviewComment({
+  //   ...context.repo,
+  //   pullRequestNumber,
+  //   body: comment,
+  // });
 };
