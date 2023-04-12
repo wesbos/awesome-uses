@@ -4583,6 +4583,22 @@ module.exports = [
     ],
   },
   {
+    name: 'sheep',
+    description: 'software engineer from zagreb, croatia',
+    url: 'https://sheepdev.xyz/uses',
+    emoji: '🐏',
+    country: '🇭🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Golang',
+      'Linux',
+      'Docker',
+      'BASH',
+    ],
+  },
+  {
     name: 'Mario Sanchez Carrion',
     description: 'Junior Web Developer Based in Miami, FL',
     url: 'https://mariosanchez.org/uses/',
