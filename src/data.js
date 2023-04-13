@@ -11462,7 +11462,8 @@ module.exports = [
   },
   {
     name: 'Isaac Wyatt',
-    description: 'Aviator, Mountaineer, SAAS/Tech, Coder, GTD & PKM Nerd, SF Bay Area to Seattle, Angel & Advisor, BBA, MBA',
+    description:
+      'Aviator, Mountaineer, SAAS/Tech, Coder, GTD & PKM Nerd, SF Bay Area to Seattle, Angel & Advisor, BBA, MBA',
     url: 'https://isaacwyatt.com/uses',
     twitter: '@isaacwyatt',
     emoji: '🤓',
@@ -11508,7 +11509,7 @@ module.exports = [
       'MBA',
       'FIRE',
       'Motorcycles',
-      'Video Games'
+      'Video Games',
     ],
   },
   {
