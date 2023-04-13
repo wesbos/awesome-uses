@@ -740,6 +740,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
+* [Will Adams](https://willadams.dev/uses) — UK developer and knife maker
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 * [Manthan Ank](https://manthanank.web.app/uses) — I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 
