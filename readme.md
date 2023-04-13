@@ -34,7 +34,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
 * [Neil Gupta](https://www.neil.gg/uses) — Designed in California. Assembled in Chicago. I like to build things.
 * [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
-* [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
