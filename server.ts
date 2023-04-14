@@ -15,6 +15,7 @@ export const config = {
   excluded_patterns: [
     '^\\/_assets\\/[^\\/]*$',
     '^\\/shared\\/[^\\/]*$',
+    '^\\/build\\/[^\\/]*$',
     // '^\\/**\\/[^\\/]*$',
   ],
 };
