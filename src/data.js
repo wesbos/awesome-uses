@@ -6068,6 +6068,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Danny Solivan',
+    description: 'Test engineer. Web developer on the side.',
+    url: 'https://solivan.dev/blog/uses',
+    emoji: '🎉',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Test Engineer',
+      'Svelte',
+      'Astro',
+      'Blogger',
+      'C',
+      'Python',
+      'SQL',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'Aaron Uurman',
     description:
       'Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.',
