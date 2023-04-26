@@ -4188,7 +4188,7 @@ module.exports = [
     name: 'Vincent Lejtzén',
     description:
       'Front end developer with love for design, user experience and SEO.',
-    url: 'https://lejtzendesign.se/en/uses',
+    url: 'https://lejtzendesign.se/uses',
     country: '🇸🇪',
     twitter: '@lejtzen',
     emoji: '👨🏼‍💻',
