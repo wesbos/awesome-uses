@@ -1230,7 +1230,7 @@ module.exports = [
       'React',
     ],
   },
-    {
+  {
     name: 'Jayden Garridan Bridges',
     description: 'Teacher. Web Developer.',
     url: 'https://foreverliketh.is/docs/assortments/uses/',
