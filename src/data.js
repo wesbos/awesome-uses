@@ -353,7 +353,8 @@ module.exports = [
   },
   {
     name: 'Lars Magnus Klavenes',
-    description: 'Frontend engineer, designer and manager supercharging the web',
+    description:
+      'Frontend engineer, designer and manager supercharging the web',
     url: 'https://larsmagnus.co/uses',
     twitter: '@larrsmagnus',
     emoji: '⚡️',
