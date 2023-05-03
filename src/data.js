@@ -12319,8 +12319,8 @@ module.exports = [
   },
   {
     name: 'Dieter Stinglhamber',
-    description: 'Developer, human, nerd.',
-    url: 'https://www.dieterstinglhamber.me/uses/',
+    description: 'I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.',
+    url: 'https://www.dieter.dev/uses',
     twitter: '@elhebert',
     emoji: '🎲',
     country: '🇧🇪',
@@ -12328,13 +12328,12 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Developer',
-      'JavaScript',
+      'Remote',
+      'Backend',
       'PHP',
       'Laravel',
       'TypeScript',
       'Node.js',
-      'Vue.js',
-      'Full Stack',
     ],
   },
   {
