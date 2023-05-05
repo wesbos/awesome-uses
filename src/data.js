@@ -858,7 +858,8 @@ module.exports = [
   },
   {
     name: 'H. Kamran',
-    description: "Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!",
+    description:
+      "Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!",
     url: 'https://hkamran.com/uses',
     country: '🇺🇸',
     twitter: '@hkamran80',
@@ -12388,7 +12389,8 @@ module.exports = [
   },
   {
     name: 'Dieter Stinglhamber',
-    description: 'I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.',
+    description:
+      'I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.',
     url: 'https://www.dieter.dev/uses',
     twitter: '@elhebert',
     emoji: '🎲',

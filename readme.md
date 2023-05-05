@@ -64,6 +64,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Tim Smith](https://timsmith.tech/uses) — Full-Stack Web Developer, Tech Enthusiast, creator, husband.
+* [H. Kamran](https://hkamran.com/uses) — Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!
 * [Catalin Ciubotaru](https://catalincodes.com/uses) — Frontend Developer, writes stuff, sometimes makes sense.
 * [Hector Saldaña](https://hectorsaldes.netlify.app/#uses) — I am a software development student at university. My favorites developments are when I am looking for a solution that help people
 * [Daniel Roe](https://roe.dev/uses) — Nuxt architect and open source lover
@@ -82,6 +83,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tim Mouskhelichvili](https://timmousk.com/uses/) — Freelance Developer & Consultant from Montreal, Canada
 * [Jayden Garridan Bridges](https://foreverliketh.is/docs/assortments/uses/) — Teacher. Web Developer.
 * [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
+* [Joseph Shambrook](https://josephshambrook.dev/uses) — Front-end developer based in Edinburgh, UK
 * [Andy Cetnarskyj](https://www.just-andy.uk/uses) — Design Systems Designer from Edinburgh, UK
 * [Akash Rajpurohit](https://akashrajpurohit.com/uses) — Software Engineer
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
@@ -585,7 +587,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
 * [John Garrett](https://johngarrett.dev/uses) — Arch Duke of Computering, Full Stack Instructor
 * [Krzysztof Żuraw](https://krzysztofzuraw.com/uses) — Developer, nerd, co-organizer, chemex lover
-* [Dieter Stinglhamber](https://www.dieterstinglhamber.me/uses/) — Developer, human, nerd.
+* [Dieter Stinglhamber](https://www.dieter.dev/uses) — I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.
 * [Thomas Weibenfalk](https://www.weibenfalk.com/uses/) — Passionate developer, course creator, youtuber, designer and musician from Sweden
 * [Julio Lozovei](https://jlozovei.dev/uses) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
 * [Shiveen Pandita](https://shiveenp.com/uses/) — Fullstack developer and blogger from Sydney
