@@ -470,6 +470,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Stuart McColl](https://stuartmccoll.github.io/uses/) — Software developer, DevOps enthusiast.
 * [Jonathan Suh](https://jonsuh.com/uses) — Designer, Developer, Sneakerhead
 * [George Campbell](https://gibr.net/uses) — Full stack engineer at Netflix
+* [Sowren Sen](https://sowrensen.dev/uses) — Software Engineer
 * [Yoann Fleury](https://blog.yoannfleury.dev/uses) — Front End Web Developer, Blogger
 * [Keith Wagner](https://kpwags.com/uses) — Experienced full stack developer. Always trying to learn new and better ways of doing things.
 * [Sebastian Försth](https://forsth.dev/uses) — I am solving problems you did not know you had.
