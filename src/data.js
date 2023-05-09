@@ -15983,7 +15983,8 @@ module.exports = [
   },
   {
     name: 'Ryan Daley',
-    description: 'Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM',
+    description:
+      'Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM',
     url: 'https://www.rpdaley.com/uses/',
     twitter: '@TweetRye',
     emoji: '🤓',
