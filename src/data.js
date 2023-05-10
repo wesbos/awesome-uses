@@ -14464,7 +14464,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'linux',
     phone: 'android',
-    tags: ['Backend', 'Neovim', 'Tmux' ,'Python', 'Docker', 'Golang'],
+    tags: ['Backend', 'Neovim', 'Tmux', 'Python', 'Docker', 'Golang'],
   },
   {
     name: 'Narendra Mandadapu',
