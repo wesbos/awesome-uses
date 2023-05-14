@@ -14458,7 +14458,8 @@ module.exports = [
   },
   {
     name: 'Haseeb Majid',
-    description: 'Backend software engineer 💻, Linux enthusiast 🐧 and village cricketer 🏏',
+    description:
+      'Backend software engineer 💻, Linux enthusiast 🐧 and village cricketer 🏏',
     url: 'https://haseebmajid.dev/uses/',
     emoji: '🏏',
     country: '🇬🇧',
