@@ -12574,6 +12574,17 @@ module.exports = [
     tags: ['Student', 'Developer', 'Blogger'],
   },
   {
+    name: 'Doce Fernandes',
+    description: 'Fullstack developer focused on frontend, Svelte evangelist and live coder',
+    url: 'https://doceazedo.com/uses',
+    twitter: '@doceazedo911',
+    emoji: '🤠',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Web Developer', 'Full Stack', 'Front End', 'Streamer', 'Blogger', 'Svelte', 'TypeScript', 'Sass'],
+  },
+  {
     name: 'Justin Poehnelt',
     description: 'Software Engineer. Developer Relations. Ultrarunner.',
     url: 'https://justin.poehnelt.com/uses',
