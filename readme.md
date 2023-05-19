@@ -303,6 +303,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
 * [Steve Della Valentina](https://sdv.im/uses) — Frontend engineer into blogging and digital gardening.
 * [Rajanand Ilangovan](https://rajanand.org/uses) — Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio
+* [Joanna Hosking](https://joannahosking.com/uses) — Web developer, dog mom, football fanatic living in UK
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
