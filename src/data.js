@@ -12575,14 +12575,25 @@ module.exports = [
   },
   {
     name: 'Doce Fernandes',
-    description: 'Fullstack developer focused on frontend, Svelte evangelist and live coder',
+    description:
+      'Fullstack developer focused on frontend, Svelte evangelist and live coder',
     url: 'https://doceazedo.com/uses',
     twitter: '@doceazedo911',
     emoji: '🤠',
     country: '🇧🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Developer', 'Web Developer', 'Full Stack', 'Front End', 'Streamer', 'Blogger', 'Svelte', 'TypeScript', 'Sass'],
+    tags: [
+      'Developer',
+      'Web Developer',
+      'Full Stack',
+      'Front End',
+      'Streamer',
+      'Blogger',
+      'Svelte',
+      'TypeScript',
+      'Sass',
+    ],
   },
   {
     name: 'Justin Poehnelt',
