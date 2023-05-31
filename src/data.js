@@ -34,9 +34,9 @@ module.exports = [
     tags: [
       'PHP',
       'Tailwind CSS',
+      'Alpine.Js',
       'Laravel',
       'Livewire',
-      'Alpine.Js',
       'JavaScript',
       'macOS',
       'REST',
