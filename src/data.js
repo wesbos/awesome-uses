@@ -28,7 +28,7 @@ module.exports = [
     url: 'https://angelcruz.dev/uses',
     twitter: '@abr4xas',
     emoji: '👨🏼‍💻',
-    country: '🇺🇾,
+    country: '🇺🇾',
     computer: 'apple',
     phone: 'iphone',
     tags: [
