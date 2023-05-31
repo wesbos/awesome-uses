@@ -21,6 +21,33 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+
+  {
+    name: 'Angel Cruz',
+    description: 'SR Backend (PHP / Laravel / WordPress) developer.',
+    url: 'https://angelcruz.dev/uses',
+    twitter: '@abr4xas',
+    emoji: '👨🏼‍💻',
+    country: '🇺🇾,
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'Tailwind CSS',
+      'Laravel',
+      'Livewire',
+      'Alpine.Js',
+      'JavaScript',
+      'macOS',
+      'REST',
+      'MySQL',
+      'Backend',
+      'Frontend',
+      'Developer',
+      'WordPress',
+      'Remote',
+    ],
+  },
   {
     name: 'Jae Toole',
     description: 'Laravel developer, AWS enthusiast, Kubernetes lover',
