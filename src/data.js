@@ -4222,6 +4222,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Celso Palmeira Neto',
+    description: 'Software Engineer focused on Backend development',
+    url: 'https://celsoneto.com.br/uses',
+    country: '🇵🇹',
+    emoji: '🧑‍💻',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Tech Lead',
+      'Backend',
+      'Software Engineer',
+      'TypeScript',
+      'JavaScript',
+      'Node.JS',
+      'Next.JS',
+      'React'
+    ],
+  },
+  {
     name: 'Gabor Gyure',
     description:
       'Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web',
