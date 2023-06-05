@@ -211,6 +211,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Filip Kalousek](https://blog.filipkalousek.cz/uses/setup) — Frontend Developer & Idea Maker
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
+* [Celso Palmeira Neto](https://celsoneto.com.br/uses) — Software Engineer focused on Backend development
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
 * [Ben Brougher](https://benbrougher.tech/uses) — Full stack enterprise web devloper from the Pacific Northwest.
 * [Dawit Mekonnen](https://dawit.dev/uses) — Full stack developer and javascript enthusiast.

@@ -4263,7 +4263,7 @@ module.exports = [
       'JavaScript',
       'Node.JS',
       'Next.JS',
-      'React'
+      'React',
     ],
   },
   {
