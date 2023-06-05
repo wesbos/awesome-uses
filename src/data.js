@@ -21,7 +21,6 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-
   {
     name: 'Angel Cruz',
     description: 'SR Backend (PHP / Laravel / WordPress) developer.',
