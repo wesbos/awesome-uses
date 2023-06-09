@@ -39,6 +39,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
+* [Zach Patrick](https://zachpatrick.com/uses) — JavaScript and PHP developer
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Alex O'Reilly](https://alekzandriia.com/uses/) — Scientist turned Web developer from the Great White North.
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
