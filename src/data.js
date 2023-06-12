@@ -11007,12 +11007,12 @@ module.exports = [
   },
   {
     name: 'Galen Cuthbertson',
-    description: "I build tools & tools to help understand human culture.",
+    description: 'I build tools & tools to help understand human culture.',
     url: 'https://galen.me/uses',
     emoji: '💯',
     country: '🇦🇺',
-    'computer': 'apple',
-    'phone': 'iphone',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Researcher',
       'Developer',
@@ -11023,7 +11023,7 @@ module.exports = [
       'AI',
       'VSCode',
       'Full Stack',
-    ]
+    ],
   },
   {
     name: 'Chris Jones',
