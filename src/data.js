@@ -11006,6 +11006,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Galen Cuthbertson',
+    description: "I build tools & tools to help understand human culture.",
+    url: 'https://galen.me/uses',
+    emoji: '💯',
+    country: '🇦🇺',
+    'computer': 'apple',
+    'phone': 'iphone',
+    tags: [
+      'Researcher',
+      'Developer',
+      'Digital Humanities',
+      'Cultural Analytics',
+      'Clojure',
+      'ClojureScript',
+      'AI',
+      'VSCode',
+      'Full Stack',
+    ]
+  },
+  {
     name: 'Chris Jones',
     description:
       'Full-time full-stack web developer. Part-time hiker, explorer, photographer.',
