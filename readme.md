@@ -185,6 +185,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Niko Heikkilä](https://nikoheikkila.fi/uses/) — Software Craftsman and Open-Source Advocate at Futurice
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
 * [Matt Gregg](https://codegregg.com/uses) — Front end software engineer. Baker. Woodworker. Musician. Nerd.
+* [François Vantomme](https://code.strigo.cc/uses/) — Software craftsman
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
