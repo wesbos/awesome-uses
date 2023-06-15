@@ -142,6 +142,7 @@ module.exports = [
     name: 'Ibrahim Nurul Huda',
     description: 'creates visual narratives on web development, design, and Sharia studies.',
     url: 'https://www.sarbeh.com/uses',
+    twitter: '@sarbeh_',
     emoji: '😆',
     country: 'idn',
     computer: 'windows',
