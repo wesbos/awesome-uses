@@ -14131,17 +14131,17 @@ module.exports = [
   {
     name: 'Kim Ingram',
     description:
-      'Copywriter. Photographer. Coffee addict. And I code a little bit too.',
+      'Freelance Copywriter. Website Strategist. Coffee Lover. And I code a little bit too.',
     url: 'https://kimingram.com/uses/',
     twitter: '@talknerdytomee',
     emoji: '🦄',
     country: '🇨🇦',
-    computer: 'apple',
+    computer: 'windows',
     phone: 'iphone',
     tags: [
       'Developer',
       'Writer',
-      'Photographer',
+      'Blogger',
       'Freelancer',
       'HTML',
       'CSS',

@@ -669,7 +669,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Anguita](https://davidanguita.name/uses/) — Software developer & consultant. Maker. Gamer by night. :wq
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
 * [Trezy](https://trezy.com/uses) — Software engineer, JavaScript livestreamer, and a wannabe cyborg.
-* [Kim Ingram](https://www.kimingram.com/uses/) — Copywriter. Photographer. Coffee addict. And I code a little bit too.
+* [Kim Ingram](https://www.kimingram.com/uses/) — Freelance Copywriter. Website Strategist. Coffee Lover. And I code a little bit too.
 * [Ben Shi](https://hbish.com/uses/) — Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
 * [Jason Ross](https://softwarepragmatism.com/uses/) — Developer/Architect creating software in Calgary, Alberta, Canada
