@@ -144,7 +144,7 @@ module.exports = [
     url: 'https://www.sarbeh.com/uses',
     twitter: '@sarbeh_',
     emoji: '😆',
-    country: 'idn',
+    country: '🇮🇩',
     computer: 'windows',
     phone: 'android',
     tags: [
