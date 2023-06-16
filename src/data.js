@@ -14132,7 +14132,7 @@ module.exports = [
     name: 'Kim Ingram',
     description:
       'Freelance Copywriter. Website Strategist. Coffee Lover. And I code a little bit too.',
-    url: 'https://www.kimingram.com/uses/',
+    url: 'https://kimingram.com/uses/',
     twitter: '@talknerdytomee',
     emoji: '🦄',
     country: '🇨🇦',
