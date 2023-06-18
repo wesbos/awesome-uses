@@ -15152,13 +15152,13 @@ module.exports = [
   },
   {
     name: 'Jérémie Bertrand',
-    description: 'Developer',
+    description: 'Developer, occasional blogger',
     url: 'https://laedit.net/uses/',
     twitter: '@laedit',
     emoji: '🐧',
     country: '🇫🇷',
     computer: 'windows',
-    phone: 'windowsphone',
+    phone: 'android',
     tags: [
       'Developer',
       'Back End',
@@ -15167,6 +15167,7 @@ module.exports = [
       'C#',
       '.NET',
       'JavaScript',
+      'Open Source Software'
     ],
   },
   {
