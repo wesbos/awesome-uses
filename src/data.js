@@ -7441,7 +7441,8 @@ module.exports = [
       'C#',
       'Linux',
       'Blogger',
-      'JavaScript'],
+      'JavaScript',
+    ],
   },
   {
     name: 'Varatep Buranintu',
