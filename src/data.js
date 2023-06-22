@@ -138,9 +138,11 @@ module.exports = [
       'Markdown',
       'Notion',
     ],
-  },  {
+  },
+  {
     name: 'Ibrahim Nurul Huda',
-    description: 'creates visual narratives on web development, design, and Sharia studies.',
+    description:
+      'creates visual narratives on web development, design, and Sharia studies.',
     url: 'https://www.sarbeh.com/uses',
     twitter: '@sarbeh_',
     emoji: '😆',
@@ -15225,7 +15227,7 @@ module.exports = [
       'C#',
       '.NET',
       'JavaScript',
-      'Open Source Software'
+      'Open Source Software',
     ],
   },
   {

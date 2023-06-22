@@ -35,6 +35,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
 * [Neil Gupta](https://www.neil.gg/uses) — Designed in California. Assembled in Chicago. I like to build things.
 * [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
+* [Ibrahim Nurul Huda](https://www.sarbeh.com/uses) — creates visual narratives on web development, design, and Sharia studies.
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
@@ -210,6 +211,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
 * [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
+* [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)
 * [Filip Kalousek](https://blog.filipkalousek.cz/uses/setup) — Frontend Developer & Idea Maker
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
@@ -714,7 +716,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Chris Wiegman](https://chriswiegman.com/uses) — Engineering manager, teacher, aspiring writer and ex-pilot currently focused on WordPress, developer experience and humane and sustainable technology.
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Bassem Allani](https://nextglabs.com/uses/) — Senior Fullstack Engineer & Commercial Airline Pilot
-* [Jérémie Bertrand](https://laedit.net/uses/) — Developer
+* [Jérémie Bertrand](https://laedit.net/uses/) — Developer, occasional blogger
 * [Lee Robinson](https://leerob.io/uses) — Developer, writer, creator. Solutions Architect @ Vercel.
 * [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
