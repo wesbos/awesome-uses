@@ -27,7 +27,7 @@ module.exports = [
     url: 'https://mkfizi.dev/uses',
     twitter: '@mkfizi',
     emoji: '🐵',
-    country: '🇺🇲',
+    country: '🇲🇾',
     computer: 'apple',
     phone: 'iphone',
     tags: [
