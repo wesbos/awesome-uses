@@ -212,6 +212,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Ignatius Bagus',
+    description: 'Software Alchemist',
+    url: 'https://mauss.dev/uses',
+    country: '🇮🇩',
+    tags: [
+      'Svelte',
+      'SvelteKit',
+      'TypeScript',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Donavon West',
     description: 'Spread Love {...❤️}',
     url: 'https://donavon.com/uses',
