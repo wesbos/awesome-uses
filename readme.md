@@ -118,6 +118,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amit Dhamu](https://amitd.co/uses) — Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
 * [Andrei Hudovich](https://hudovich.dev/uses/) — Freelance Front-end Engineer, Web Enthusiast, Cat Lover.
+* [Andrej Gajdos](https://andrejgajdos.com/uses/) — Startup CTO | Tech Lead | Software Architect | Dev
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
 * [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast

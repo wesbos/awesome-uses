@@ -2234,7 +2234,8 @@ module.exports = [
       'GraphQL',
       'PostgreSQL',
       'MongoDB',
-      'Next.js'],
+      'Next.js',
+    ],
   },
   {
     name: 'Emmanuel Gautier',
