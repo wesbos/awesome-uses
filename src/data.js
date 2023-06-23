@@ -216,12 +216,7 @@ module.exports = [
     description: 'Software Alchemist',
     url: 'https://mauss.dev/uses',
     country: '🇮🇩',
-    tags: [
-      'Svelte',
-      'SvelteKit',
-      'TypeScript',
-      'JavaScript',
-    ],
+    tags: ['Svelte', 'SvelteKit', 'TypeScript', 'JavaScript'],
   },
   {
     name: 'Donavon West',

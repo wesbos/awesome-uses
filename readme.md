@@ -38,6 +38,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
 * [Ibrahim Nurul Huda](https://www.sarbeh.com/uses) — creates visual narratives on web development, design, and Sharia studies.
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
+* [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
