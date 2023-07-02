@@ -612,6 +612,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
 * [Doce Fernandes](https://doceazedo.com/uses) — Fullstack developer focused on frontend, Svelte evangelist and live coder
 * [Justin Poehnelt](https://justin.poehnelt.com/uses) — Software Engineer. Developer Relations. Ultrarunner.
+* [Jovylle Bermudez](https://jovyllebermudez.com/uses) — SR Backend, and Frontend Developer
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
 * [Josef Aidt](https://josefaidt.dev/uses) — JavaScript and Garlic Bread connoisseur
