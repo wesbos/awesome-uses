@@ -8449,6 +8449,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Elmar Klausmeier',
+    description: 'Developer and blogger, data center management',
+    url: 'https://eklausmeier.goip.de/blog/uses',
+    twitter: '@eklausmeier',
+    emoji: '🚀',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Developer', 'C', 'Blogger', 'Linux', 'SQL', 'Perl', 'PHP', 'JavaScript', 'Lua', 'COBOL'],
+  },
+  {
     name: 'Joel M. Turner',
     description: 'Mostly Front-End Dev, some back end',
     url: 'https://joelmturner.com/uses',
