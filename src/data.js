@@ -15512,6 +15512,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Jace Hensley',
+    description: 'Fullstack Engineer',
+    url: 'https://jacehensley.dev/',
+    emoji: '🚀',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'React',
+      'TypeScript',
+      'Remix',
+      'Vanilla Extract',
+      'SCSS',
+    ],
+  },
+  {
     name: 'EJ Mitchell',
     description:
       'Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.',
