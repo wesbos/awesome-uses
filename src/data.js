@@ -15514,7 +15514,7 @@ module.exports = [
   {
     name: 'Jace Hensley',
     description: 'Fullstack Engineer',
-    url: 'https://jacehensley.dev/',
+    url: 'https://jacehensley.dev/uses',
     emoji: '🚀',
     country: '🇺🇸',
     computer: 'linux',
