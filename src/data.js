@@ -344,6 +344,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Sergio Baidón',
+    description: 'Full stack Developer, biggest Fútbol fan you will ever meet.',
+    url: 'https://sbaidon.dev/uses/',
+    twitter: '@sbaidon',
+    emoji: '🫶',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'pixel',
+    tags: [
+      'Front End',
+      'Next.js',
+      'AWS',
+      'Typescript',
+      'Javascript',
+      'Kotlin',
+      'React',
+      'Vue'
+    ],
+  },
+  {
     name: 'Zach Patrick',
     description: 'JavaScript and PHP developer',
     url: 'https://zachpatrick.com/uses',
