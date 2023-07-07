@@ -15538,13 +15538,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'React',
-      'TypeScript',
-      'Remix',
-      'Vanilla Extract',
-      'SCSS',
-    ],
+    tags: ['React', 'TypeScript', 'Remix', 'Vanilla Extract', 'SCSS'],
   },
   {
     name: 'EJ Mitchell',

@@ -236,6 +236,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Sam Boswell](https://www.bozzie.org/uses) — CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.
 * [Amodu Kehinde](https://amodukehinde.vercel.app/uses/) — MERN Stack Developer
+* [Ayoub Sousali](https://www.sousali.com/blog/uses/) — Software Developer
 * [Jordan Haines](https://jordanairwave.co.uk/uses.html) — Full Stack Web Developer
 * [Leonel Ngoya](https://lndev.me/uses.html) — FrontEnd Developer and Web Integrator
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
@@ -729,6 +730,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [T G Pranesh](https://www.tgpranesh.site/uses/) — Front-end Developer
+* [Jace Hensley](https://jacehensley.dev/uses) — Fullstack Engineer
 * [EJ Mitchell](https://www.cupofsquid.com/uses) — Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Marek Maras](https://www.marek-maras.de/uses) — Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!
