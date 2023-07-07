@@ -8244,7 +8244,8 @@ module.exports = [
   },
   {
     name: 'Christoph Miksche',
-    description: 'Startup Founder and Full-Stack-Developer with a passion for finance.',
+    description:
+      'Startup Founder and Full-Stack-Developer with a passion for finance.',
     url: 'https://blog.m5e.de/uses/',
     twitter: '@cmiksche',
     emoji: '☕',
