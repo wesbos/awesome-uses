@@ -351,7 +351,7 @@ module.exports = [
     emoji: '🫶',
     country: '🇲🇽',
     computer: 'apple',
-    phone: 'pixel',
+    phone: 'android',
     tags: [
       'Front End',
       'Next.js',
