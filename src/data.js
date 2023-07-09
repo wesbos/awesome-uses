@@ -11682,7 +11682,7 @@ module.exports = [
   {
     name: 'Varun Raj Manoharan',
     description: 'Co Founder - Skcript, Typescript Ninja, I cook web apps, Google Developer Expert - Firebase',
-    url: 'https://varunraj.in/tools/',
+    url: 'https://varunraj.in/uses/',
     twitter: '@zathvarun',
     emoji: '🧞‍♂️',
     country: '🇮🇳',
