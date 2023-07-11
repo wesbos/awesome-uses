@@ -21,6 +21,42 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+    {
+    name: 'Michal Mazur',
+    description: 'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
+    url: 'https://cybershu.eu/uses.html',
+    twitter: '@MichalMzr',
+    emoji: '🧰',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Java',
+      'Kotlin',
+      'Typescript',
+      'Automation',
+      'Spring',
+      'Spring Boot',
+      'Dropwizard',
+      'Python',
+      'Svelte',
+      'Rust',
+      'LLM',
+      'YML',
+      'Prompt engineering',
+      'Wordpress',
+      'Bootstrap',
+      'Vue 3',
+      'JavaScript',
+      'REST',
+      'MySQL',
+      'Backend',
+      'Developer',
+      'Remote',
+      'Architecture',
+      'Software Engineer'
+    ],
+  },
   {
     name: 'Khafizi Noh',
     description: 'Full-stack web developer based in Cyberjaya, Malaysia.',
