@@ -21,9 +21,10 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-    {
+  {
     name: 'Michal Mazur',
-    description: 'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
+    description:
+      'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
     url: 'https://cybershu.eu/uses.html',
     twitter: '@MichalMzr',
     emoji: '🧰',
@@ -54,7 +55,7 @@ module.exports = [
       'Developer',
       'Remote',
       'Architecture',
-      'Software Engineer'
+      'Software Engineer',
     ],
   },
   {
