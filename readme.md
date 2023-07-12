@@ -461,6 +461,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Adil Haddaoui](https://adilhaddaoui.com/uses) — Full stack Developer
+* [Vlad Holubiev](https://vladholubiev.com/uses) — Sr. Director of Technology at Shelf
 * [Jorge Ruvalcaba](https://jorgearuv.dev/uses) — Software Engineer & Aspiring Entrepreneur who does things. Frontend at Vest
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Matt TK Taylor](https://tk.gg/uses) — Product Manager in news & media
