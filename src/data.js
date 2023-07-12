@@ -9494,6 +9494,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Jed Fonner',
+    description: 'Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.',
+    url: 'https://jedfonner.com/uses',
+    country: '🇺🇸',
+    emoji: '🏖️',
+    computer: 'linux',
+    phone: 'android',
+     tags: [
+       'Svelte',
+       'JavaScript',
+       'TypeScript',
+       'Developer',
+       'CSS',
+       'Web Developer',
+       'Enterprise Software',
+       'Father',
+       'Manager'
+    ],
+  },
+  {
     name: 'Joris Hens',
     description:
       'Web development teacher, Security and hacking enthousiast, Cook.',
