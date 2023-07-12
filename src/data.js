@@ -11810,7 +11810,8 @@ module.exports = [
   },
   {
     name: 'Varun Raj Manoharan',
-    description: 'Co Founder - Skcript, Typescript Ninja, I cook web apps, Google Developer Expert - Firebase',
+    description:
+      'Co Founder - Skcript, Typescript Ninja, I cook web apps, Google Developer Expert - Firebase',
     url: 'https://varunraj.in/uses/',
     twitter: '@zathvarun',
     emoji: '🧞‍♂️',
@@ -11827,7 +11828,7 @@ module.exports = [
       'Startup',
       'NextJS',
       'GDE',
-      'Firebase'
+      'Firebase',
     ],
   },
   {
