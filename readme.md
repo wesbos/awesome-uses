@@ -449,6 +449,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dmytro Litvinov](https://dmytrolitvinov.com/uses/) — Full Stack Python developer from 🇺🇦
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
+* [Jed Fonner](https://jedfonner.com/uses) — Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
 * [Salisa Cheawcharnthong](https://www.sgennrw.xyz/uses) — Software Engineer
 * [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
