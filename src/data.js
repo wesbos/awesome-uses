@@ -15754,6 +15754,24 @@ module.exports = [
     tags: ['HTML', 'CSS', 'Go', 'Rust', 'Blogger', 'Vim', 'Linux', 'Gamer'],
   },
   {
+    name: 'Ivan Santos',
+    description: '🍺 🤠 Node.js, Go, Terraform and Kubernetes. Distributed Systems FTW.',
+    url: 'https://ivansantos.me/uses',
+    twitter: '@pragmaticivan',
+    emoji: '🍣',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'React',
+      'Node.js',
+      'Go',
+      'Typescript',
+      'Terraform',
+      'Kubernetes',
+    ],
+  },
+  {
     name: 'Kristina Groeger',
     description:
       '💻 👻 Over ten years of front-end development and UI / UX development and design.',
