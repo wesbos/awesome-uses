@@ -22,6 +22,31 @@
  */
 module.exports = [
   {
+    name: 'Daniel Flanagan',
+    description: 'Developer, platform engineer, and homelab administrator',
+    url: 'https://lyte.dev/uses',
+    twitter: '@lytedev',
+    emoji: '🤘',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Elixir',
+      'Phoenix',
+      'Rust',
+      'Go',
+      'TypeScript',
+      'Tailwind CSS',
+      'Homelab',
+      'Linux',
+      'Arch Linux',
+      'NixOS',
+      'Kubernetes',
+      'Developer',
+      'Remote',
+    ]
+  },
+  {
     name: 'Michal Mazur',
     description:
       'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
