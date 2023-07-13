@@ -196,7 +196,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
-* [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.
+* [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as Software Developer. Creator of libraryfy.com.
 * [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
 * [Olek Baran](https://olekbaran.com/uses/) — Front-end web developer using React and Next.js
 * [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐

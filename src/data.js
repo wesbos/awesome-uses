@@ -13,7 +13,6 @@
  * @property {string[]} tags - list of tools or other tags the contributor uses
  */
 
-
 /**
  * List of all contributors with /uses pages.
  * @type {Person[]}
