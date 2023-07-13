@@ -1,6 +1,6 @@
 // Import path interpreted by the Remix compiler
-import * as build from "@remix-run/dev/server-build";
-import { createRequestHandler } from "@netlify/remix-edge-adapter";
+import * as build from '@remix-run/dev/server-build';
+import { createRequestHandler } from '@netlify/remix-edge-adapter';
 
 export default createRequestHandler({
   build,
@@ -9,8 +9,13 @@ export default createRequestHandler({
 });
 
 export const config = {
-  cache: "manual",
-  path: "/*",
+  cache: 'manual',
+  path: '/*',
   // Pass all assets to the netlify asset server
-  excluded_patterns: ["/_assets/*", "/_shared/*", "/**/*.js"],
+  excluded_patterns: [
+    '^\\/_assets\\/[^\\/]*$',
+    '^\\/shared\\/[^\\/]*$',
+    '^\\/build\\/[^\\/]*$',
+    // '^\\/**\\/[^\\/]*$',
+  ],
 };
