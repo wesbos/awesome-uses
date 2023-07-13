@@ -44,7 +44,7 @@ module.exports = [
       'Kubernetes',
       'Developer',
       'Remote',
-    ]
+    ],
   },
   {
     name: 'Michal Mazur',
