@@ -4954,12 +4954,12 @@ module.exports = [
     tags: [
       'TypeScript',
       'Ruby on Rails',
-      "Next",
+      'Next',
       'Svelte',
       'Testing',
       'VS Code',
-      'Web'
-    ]
+      'Web',
+    ],
   },
   {
     name: 'Ayoub Sousali',

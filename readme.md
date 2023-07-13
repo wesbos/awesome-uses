@@ -238,6 +238,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Sam Boswell](https://www.bozzie.org/uses) — CTO, Engineering Manager, IoT, info-sec, geek Sometimes mint condition. Free P&P. Warranty not included.
 * [Amodu Kehinde](https://amodukehinde.vercel.app/uses/) — MERN Stack Developer
+* [Manassarn "Noom" Manoonchai](https://garden.narze.live/uses) — Coding, Productivity, Technologies, macOS, Keyboard
 * [Ayoub Sousali](https://www.sousali.com/blog/uses/) — Software Developer
 * [Jordan Haines](https://jordanairwave.co.uk/uses.html) — Full Stack Web Developer
 * [Leonel Ngoya](https://lndev.me/uses.html) — FrontEnd Developer and Web Integrator
