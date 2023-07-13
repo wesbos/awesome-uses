@@ -4943,6 +4943,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Manassarn "Noom" Manoonchai',
+    description: 'Coding, Productivity, Technologies, macOS, Keyboard',
+    url: 'https://garden.narze.live/uses',
+    twitter: '@narze',
+    emoji: '😷',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'TypeScript',
+      'Ruby on Rails',
+      "Next",
+      'Svelte',
+      'Testing',
+      'VS Code',
+      'Web'
+    ]
+  },
+  {
     name: 'Ayoub Sousali',
     description: 'Software Developer',
     url: 'https://www.sousali.com/blog/uses/',
