@@ -14899,7 +14899,7 @@ module.exports = [
       'Bash',
       'GitLab',
       'Minimalist',
-    ]
+    ],
   },
   {
     name: 'Benjamin Mock',
