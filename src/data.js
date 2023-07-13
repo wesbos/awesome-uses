@@ -13,6 +13,7 @@
  * @property {string[]} tags - list of tools or other tags the contributor uses
  */
 
+
 /**
  * List of all contributors with /uses pages.
  * @type {Person[]}
@@ -3942,7 +3943,7 @@ module.exports = [
   {
     name: 'Zlatan Stajic',
     description:
-      'M.Sc. in Computer Science. Working as a Web Developer. Creator of bit.ly/php-library.',
+      'M.Sc. in Computer Science. Working as Software Developer. Creator of libraryfy.com.',
     url: 'https://www.zlatanstajic.com/uses',
     twitter: '@90zlaya',
     emoji: '⚡️',
@@ -3950,16 +3951,27 @@ module.exports = [
     computer: 'linux',
     phone: 'iphone',
     tags: [
+      'Laravel',
       'PHP',
-      'MySQL',
+      'HTML',
+      'CSS',
       'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
       'Vue.js',
-      'CodeIgniter',
+      'Tailwind CSS',
+      'Material UI',
+      'Bootstrap',
+      'MySQL',
+      'PostgreSQL',
+      'Git',
+      'SVN',
       'Linux',
       'Ubuntu',
       'Full Stack',
       'Web Developer',
-      'Software Engineer',
+      'Software Developer',
     ],
   },
   {
