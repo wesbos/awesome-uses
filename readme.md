@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Michal Mazur](https://cybershu.eu/uses.html) — Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist
 * [Khafizi Noh](https://mkfizi.dev/uses) — Full-stack web developer based in Cyberjaya, Malaysia.
 * [Angel Cruz](https://angelcruz.dev/uses) — SR Backend (PHP / Laravel / WordPress) developer.
 * [Jae Toole](https://jaetoole.me/uses) — Laravel developer, AWS enthusiast, Kubernetes lover
@@ -448,6 +449,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dmytro Litvinov](https://dmytrolitvinov.com/uses/) — Full Stack Python developer from 🇺🇦
 * [Braden Watkins](https://bradenwatkins.dev/uses) — Student, Full Stack Developer, Lover of all things analog
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
+* [Jed Fonner](https://jedfonner.com/uses) — Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
 * [Salisa Cheawcharnthong](https://www.sgennrw.xyz/uses) — Software Engineer
 * [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
@@ -459,6 +461,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Adil Haddaoui](https://adilhaddaoui.com/uses) — Full stack Developer
+* [Vlad Holubiev](https://vladholubiev.com/uses) — Sr. Director of Technology at Shelf
 * [Jorge Ruvalcaba](https://jorgearuv.dev/uses) — Software Engineer & Aspiring Entrepreneur who does things. Frontend at Vest
 * [Michael Knepprath](https://mknepprath.com/uses) — Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.
 * [Matt TK Taylor](https://tk.gg/uses) — Product Manager in news & media
@@ -558,6 +561,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Danielle Mayabb](https://danielle-m.dev/uses) — Full-stack developer, Accessibility Engineer, Information Architect, Generalist
 * [José Manuel Lucas](https://jmlweb.es/blog/2020/uses/) — Professional Frontend Engineer - Amateur musician
 * [Georgi Yanev](https://gyanev.com/uses/) — Software Engineer, FPV Drone Pilot, Blogger, YouTuber
+* [Varun Raj Manoharan](https://varunraj.in/uses/) — Co Founder - Skcript, Typescript Ninja, I cook web apps, Google Developer Expert - Firebase
 * [Frédéric Harper](https://fred.dev/uses) — Developer Advocate with a knack for public speaking & making videos
 * [Mark Tse](https://neverendingqs.com/uses/) — A back-end developer who likes to dabble in the front-end.
 * [Karl Horky](https://github.com/karlhorky/uses/blob/master/readme.md) — Founder, Teacher at https://upleveled.io
@@ -739,6 +743,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
 * [Chiko Mukwenha](https://chikomukwenha.co/2021/11/21/uses) — Frontend Engineer
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
+* [Ivan Santos](https://ivansantos.me/uses) — 🍺 🤠 Node.js, Go, Terraform and Kubernetes. Distributed Systems FTW.
 * [Kristina Groeger](https://github.com/kr1st1nagr03g3r/uses) — 💻 👻 Over ten years of front-end development and UI / UX development and design.
 * [Patrick Obermeier](https://www.patrickobermeier.at/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
