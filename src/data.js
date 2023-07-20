@@ -16770,7 +16770,7 @@ module.exports = [
       'TailWindCSS',
     ],
   },
-   {
+  {
     name: 'Tim Veletta',
     description: 'Australian full-stack developer and designer',
     url: 'https://www.timveletta.com/uses',
