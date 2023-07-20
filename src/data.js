@@ -16548,7 +16548,8 @@ module.exports = [
   },
   {
     name: 'Daniel Cefram Ramirez',
-    description: 'I build things through code. I make short sentences to multiple paragraphs.',
+    description:
+      'I build things through code. I make short sentences to multiple paragraphs.',
     url: 'https://rmrz.ph/uses/',
     twitter: '@dcefram',
     emoji: '',
