@@ -12141,6 +12141,20 @@ module.exports = [
       'Typescript',
     ],
   },
+   {
+    name: 'Aydin Imranov',
+    description:
+      'Software Engineer | ex Modern Treasury | ML for UAVs',
+    url: 'https://www.aydinimranov.com',
+    twitter: '@ImranovAydin',
+    emoji: '🥷🏽',
+    country: '🇦🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Builder',
+    ],
+  },
   {
     name: 'Matthew Rebehn',
     description: 'Proud Dad and Developer',
