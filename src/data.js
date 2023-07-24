@@ -7806,6 +7806,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Joff Tiquez',
+    description: 'Web Developer',
+    url: 'https://jofftiquez.dev/uses',
+    twitter: '@jrtiquez',
+    emoji: '🐔',
+    country: '🇵🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web',
+      'Open Source',
+      'Vue.js',
+      'JavaScript',
+      'Nuxt.js',
+      'Quasar Framework',
+      'OSSPH',
+    ],
+  },
+  {
     name: 'Roberto Vázquez González',
     description:
       'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
