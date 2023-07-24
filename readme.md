@@ -127,6 +127,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
 * [Pieter Boerboom](https://www.pieterboerboom.nl/uses/) — Front-end developer, blogger, tech enthusiast
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
+* [Vega Deftwing](https://opguides.info/posts/uses/) — Furry forging firmware from frustration
 * [Oscar Marion](https://www.oscarmarion.dev/uses) — French front-end engineer based in Brussels.
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
 * [Thiago Avelino](https://avelino.run/uses) — 🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ
