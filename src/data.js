@@ -10327,6 +10327,17 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'Entrepreneur', 'Blogger', 'JavaScript'],
   },
   {
+    name: 'Eihab Khan',
+    description: 'Front End Engineer & UI/UX Designer',
+    url: 'https://eihabkhan.com/uses',
+    twitter: '@eihab_khan',
+    emoji: '🫡',
+    country: '🇲🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Front End', 'Engineer', 'Developer', 'UI/UX', 'Designer', 'Next.js', 'JavaScript', 'TypeScript'],
+  },
+  {
     name: 'Mahmoud Ashraf',
     description: 'Front-End Developer, sometimes do backend stuff.',
     url: 'http://mahmoudashraf.dev/uses',
