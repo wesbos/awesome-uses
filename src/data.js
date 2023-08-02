@@ -22,6 +22,17 @@
  */
 module.exports = [
   {
+    name: 'Jana',
+    description: 'Full Stack Developer & Javascript Enthusiast',
+    url: 'https://janasundar.dev/uses',
+    twitter: '@jana__sundar',
+    emoji: '🤘',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Front End', 'Engineer', 'Developer', 'Designer', 'Next.js', 'JavaScript', 'TypeScript'],
+  },
+  {
     name: 'Daniel Flanagan',
     description: 'Developer, platform engineer, and homelab administrator',
     url: 'https://lyte.dev/uses',
