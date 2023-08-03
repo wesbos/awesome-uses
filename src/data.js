@@ -87,8 +87,8 @@ module.exports = [
       'Ubuntu',
       'GCP',
       'Vercel',
-      'Obsidian'
-    ]
+      'Obsidian',
+    ],
   },
   {
     name: 'Michal Mazur',
@@ -10379,7 +10379,16 @@ module.exports = [
     country: '🇲🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Front End', 'Engineer', 'Developer', 'UI/UX', 'Designer', 'Next.js', 'JavaScript', 'TypeScript'],
+    tags: [
+      'Front End',
+      'Engineer',
+      'Developer',
+      'UI/UX',
+      'Designer',
+      'Next.js',
+      'JavaScript',
+      'TypeScript',
+    ],
   },
   {
     name: 'Mahmoud Ashraf',

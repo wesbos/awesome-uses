@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator
+* [Sho Koike](https://putcut.net/uses) — Software Engineer, Gamer, Podcaster
 * [Michal Mazur](https://cybershu.eu/uses.html) — Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist
 * [Khafizi Noh](https://mkfizi.dev/uses) — Full-stack web developer based in Cyberjaya, Malaysia.
 * [Angel Cruz](https://angelcruz.dev/uses) — SR Backend (PHP / Laravel / WordPress) developer.
@@ -489,6 +490,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Martin Marcucci](https://www.marku.me/uses) — Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
 * [Smakosh](https://smakosh.com/the-tech-tools-I-use) — Full stack JavaScript Developer, blogger and speaker.
+* [Eihab Khan](https://eihabkhan.com/uses) — Front End Engineer & UI/UX Designer
 * [Mahmoud Ashraf](http://mahmoudashraf.dev/uses) — Front-End Developer, sometimes do backend stuff.
 * [Charlie Say](https://www.charliesay.xyz/uses) — Another bald Full Stack developer from Manchester UK
 * [Pouria Ezzati](https://pouria.dev/uses) — Web developer. Digs music, football and a e s t h e t i c s
