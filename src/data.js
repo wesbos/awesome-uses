@@ -9200,7 +9200,7 @@ module.exports = [
     description: 'Software Architect, Fullstack Developer, Scrum Master',
     url: 'https://tkacz.pro/uses/',
     emoji: '📖',
-    country: 'PL',
+    country: '🇵🇱',
     computer: 'windows',
     phone: 'android',
     tags: [
