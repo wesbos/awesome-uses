@@ -30,7 +30,15 @@ module.exports = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Front End', 'Engineer', 'Developer', 'Designer', 'Next.js', 'JavaScript', 'TypeScript'],
+    tags: [
+      'Front End',
+      'Engineer',
+      'Developer',
+      'Designer',
+      'Next.js',
+      'JavaScript',
+      'TypeScript',
+    ],
   },
   {
     name: 'Daniel Flanagan',
