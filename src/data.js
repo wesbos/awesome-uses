@@ -66,6 +66,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Sho Koike',
+    description: 'Software Engineer, Gamer, Podcaster',
+    url: 'https://putcut.net/uses',
+    twitter: '@putcutt',
+    emoji: '😐',
+    country: '🇯🇵',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Java',
+      'Spring Boot',
+      'Go',
+      'Next.js',
+      'Tailwind CSS',
+      'VS Code',
+      'Vim',
+      'Docker',
+      'Dev Container',
+      'Ubuntu',
+      'GCP',
+      'Vercel',
+      'Obsidian'
+    ]
+  },
+  {
     name: 'Michal Mazur',
     description:
       'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
