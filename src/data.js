@@ -248,7 +248,8 @@ module.exports = [
   },
   {
     name: 'Tim Bachmann',
-    description: 'Software Engineer from Switzerland, currently working on one of my way too many side projects.',
+    description:
+      'Software Engineer from Switzerland, currently working on one of my way too many side projects.',
     url: 'https://tiim.ch/pages/uses',
     emoji: '🏊‍♂️',
     country: '🇨🇭',
