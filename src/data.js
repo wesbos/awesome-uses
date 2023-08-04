@@ -61,7 +61,6 @@ module.exports = [
       'Designer',
       'Next.js',
       'JavaScript',
-
       'TypeScript',
     ],
   },
