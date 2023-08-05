@@ -43,7 +43,7 @@ module.exports = [
       'Remote',
       'Ruby',
       'Tailwind CSS',
-    ]
+    ],
   },
   {
     name: 'Jana',
