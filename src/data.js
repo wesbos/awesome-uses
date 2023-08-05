@@ -22,6 +22,30 @@
  */
 module.exports = [
   {
+    name: 'Dennis Sauvé',
+    description: 'DevOps Engineer w/Dev roots in the Pacific North West!',
+    url: 'https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98',
+    twitter: '@dengsauve',
+    emoji: '🖖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Azure',
+      'Developer',
+      'DevOps',
+      'FinTech',
+      'GitHub',
+      'Laravel',
+      'PHP',
+      'Pulumi',
+      'Rails',
+      'Remote',
+      'Ruby',
+      'Tailwind CSS',
+    ]
+  },
+  {
     name: 'Jana',
     description: 'Full Stack Developer & Javascript Enthusiast',
     url: 'https://janasundar.dev/uses',
