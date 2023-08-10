@@ -12747,7 +12747,7 @@ module.exports = [
   {
     name: 'Jeremy Lanssiers',
     description:
-      'Full-stack web developer-thinker-tinkerer. Preacher for the GNU/Linux Church.',
+      'Full-stack developer-thinker-tinkerer. Preacher for the GNU/Linux Church.',
     url: 'https://www.jeremylanssiers.com/uses/',
     emoji: '🔥',
     country: '🇧🇪',
@@ -12769,7 +12769,15 @@ module.exports = [
       'HTML',
       'Docker', 
       'Kubernetes',
-      'YAML'
+      'YAML',
+      'Cloudflare',
+      'Let\'s Encrypt'
+      'ddclient',
+      'Monokai Pro',
+      'Chrome DevTools',
+      'Lighthouse',
+      'Sublime Text Editor',
+      'Visual Studio Code'
     ],
   },
   {
