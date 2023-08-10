@@ -12773,7 +12773,7 @@ module.exports = [
       'Kubernetes',
       'YAML',
       'Cloudflare',
-      'Let’s Encrypt'
+      'Let’s Encrypt',
       'ddclient',
       'Monokai Pro',
       'Chrome DevTools',
