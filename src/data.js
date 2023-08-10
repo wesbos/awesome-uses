@@ -12749,7 +12749,6 @@ module.exports = [
     description:
       'Full-stack developer-thinker-tinkerer. Preacher for the GNU/Linux Church.',
     url: 'https://www.jeremylanssiers.com/uses/',
-    github: '@jlanssie',
     emoji: '🔥',
     country: '🇧🇪',
     computer: 'apple',
