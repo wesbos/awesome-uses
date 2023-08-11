@@ -384,6 +384,28 @@ module.exports = [
     tags: ['Svelte', 'SvelteKit', 'TypeScript', 'JavaScript'],
   },
   {
+    name: 'Bob Reus',
+    description: 'DevOps Engineer, Freediver, Buddhist',
+    url: 'https://bobre.us/uses',
+    emoji: '🪷',
+    country: '🇳🇱',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Backend',
+      'Problem Solver',
+      'DevOps',
+      'Python',
+      'Flask',
+      'Sanic',
+      'HTML',
+      'CSS',
+      'JavaScript'
+    ],
+  },
+  {
     name: 'Donavon West',
     description: 'Spread Love {...❤️}',
     url: 'https://donavon.com/uses',
