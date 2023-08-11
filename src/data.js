@@ -385,8 +385,9 @@ module.exports = [
   },
   {
     name: 'Bob Reus',
-    description: 'DevOps Engineer, Freediver, Buddhist',
+    description: 'DevOps Engineer, eBook producer, Freediver, Buddhist',
     url: 'https://bobre.us/uses',
+    twitter: '@bobreusNL',
     emoji: '🪷',
     country: '🇳🇱',
     computer: 'linux',
@@ -402,7 +403,8 @@ module.exports = [
       'Sanic',
       'HTML',
       'CSS',
-      'JavaScript'
+      'JavaScript',
+      'eBooks',
     ],
   },
   {
