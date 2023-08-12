@@ -16521,17 +16521,15 @@ module.exports = [
   },
   {
     name: 'Michael Mior',
-    description: 'Assistant Professor and Director of the Data Unity Lab at RIT',
+    description:
+      'Assistant Professor and Director of the Data Unity Lab at RIT',
     url: 'https://michael.mior.ca/uses/',
     twitter: '@michaelmior',
     emoji: '👨🏼‍💻',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Teacher',
-    ],
+    tags: ['Developer', 'Teacher'],
   },
   {
     name: 'Johannes Konings',

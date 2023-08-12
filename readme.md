@@ -45,6 +45,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ibrahim Nurul Huda](https://www.sarbeh.com/uses) — creates visual narratives on web development, design, and Sharia studies.
 * [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
+* [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
@@ -772,6 +773,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Wuttinan Sukpoon](https://github.com/mewxz029/uses) — FullStack Developer
 * [Kieran Robson](https://kieranrobson.com/uses/) — Information science PhD student | Hobbyist developer | Movie and TV Enthuiast
+* [Michael Mior](https://michael.mior.ca/uses/) — Assistant Professor and Director of the Data Unity Lab at RIT
 * [Johannes Konings](https://johanneskonings.dev/uses/) — Developer
 * [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Josh Beard](https://joshbeard.me/uses/) — Sysadmin, DevOps, Hobbyist
