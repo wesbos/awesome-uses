@@ -12769,7 +12769,7 @@ module.exports = [
       'HTML',
       'Github',
       'Vercel',
-      'Docker', 
+      'Docker',
       'Kubernetes',
       'YAML',
       'Cloudflare',
@@ -12779,7 +12779,7 @@ module.exports = [
       'Chrome DevTools',
       'Lighthouse',
       'Sublime Text Editor',
-      'Visual Studio Code'
+      'Visual Studio Code',
     ],
   },
   {
