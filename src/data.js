@@ -3248,7 +3248,7 @@ module.exports = [
       'Next.js',
       'Styled-Components',
       'Vite',
-      'Tech Lead'
+      'Tech Lead',
     ],
   },
   {
