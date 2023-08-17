@@ -450,6 +450,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tony Lockhart](https://tlockhart.github.io/portfolio/#uses) — Full Stack Developer, Designer, and Instructor
 * [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, vimmer, Linux and FOSS enthusiast.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
+* [Lukasz Tkacz](https://tkacz.pro/uses/) — Software Architect, Senior Fullstack Developer, Scrum Master
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Gabriel Alejandro López López](https://glpzzz.is-a.dev/#using) — Software Engineer
 * [Rémi Weng](https://creativedesignsguru.com/uses/) — A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.
