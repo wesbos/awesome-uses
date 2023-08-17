@@ -328,6 +328,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rajanand Ilangovan](https://rajanand.org/uses) — Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio
 * [Joanna Hosking](https://joannahosking.com/uses) — Web developer, dog mom, football fanatic living in UK
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
+* [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
@@ -627,7 +628,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Shiveen Pandita](https://shiveenp.com/uses/) — Fullstack developer and blogger from Sydney
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
 * [Dave Berning](https://daveberning.io/uses/) — Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.
-* [Jan-Lukas Else](https://jlelse.dev/uses/) — Computer Science Student, Developer & Blogger from Germany
+* [Jan-Lukas Else](https://jlelse.blog/uses/) — Software Developer & Blogger
 * [Doce Fernandes](https://doceazedo.com/uses) — Fullstack developer focused on frontend, Svelte evangelist and live coder
 * [Justin Poehnelt](https://justin.poehnelt.com/uses) — Software Engineer. Developer Relations. Ultrarunner.
 * [Jovylle Bermudez](https://jovyllebermudez.com/uses) — SR Backend, and Frontend Developer
