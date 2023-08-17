@@ -9197,7 +9197,7 @@ module.exports = [
   },
   {
     name: 'Lukasz Tkacz',
-    description: 'Software Architect, Fullstack Developer, Scrum Master',
+    description: 'Software Architect, Senior Fullstack Developer, Scrum Master',
     url: 'https://tkacz.pro/uses/',
     emoji: '📖',
     country: '🇵🇱',
