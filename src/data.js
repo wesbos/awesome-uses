@@ -6907,6 +6907,26 @@ module.exports = [
     ],
   },
   {
+    name: "Devin Sharpe",
+    description: "Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad",
+    url: "https://devsharpe.io/uses",
+    twitter: "@devin_sharpe",
+    emoji: "🐱",
+    country: "🇺🇸",
+    computer: "apple",
+    phone: "iphone",
+    tags: [
+      "Full Stack",
+      "Developer",
+      "Typescript",
+      "React",
+      "TailwindCSS",
+      "PostgreSQL",
+      "Node.js",
+      "Zed"
+    ]
+  },
+  {
     name: 'Prakhil TP',
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
