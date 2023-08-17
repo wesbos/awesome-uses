@@ -1750,6 +1750,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Marko Kaartinen',
+    description:
+      'Web developer / entrepreneur / geek from Kuopio Finland who makes pizza and burgers at freetime. Also some gaming and well of course personal projects.',
+    url: 'https://markok.dev/uses',
+    twitter: '@markok',
+    emoji: '🍕',
+    country: '🇫🇮',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'PHP',
+      'Laravel',
+      'HTML',
+      'Blogger',
+      'TailWindCSS',
+      'Web Developer',
+      'Entrepreneur',
+      'WordPress',
+      'Web Development',
+      'macOS',
+      'Gamer',
+    ],
+  },
+  {
     name: 'Bala Hantsi',
     description:
       'Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.',
