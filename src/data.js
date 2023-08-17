@@ -13370,14 +13370,13 @@ module.exports = [
   },
   {
     name: 'Jan-Lukas Else',
-    description: 'Computer Science Student, Developer & Blogger from Germany',
-    url: 'https://jlelse.dev/uses/',
-    twitter: '@jlelse',
+    description: 'Software Developer & Blogger',
+    url: 'https://jlelse.blog/uses/',
     emoji: '🤓',
     country: '🇩🇪',
-    computer: 'linux',
+    computer: 'windows',
     phone: 'android',
-    tags: ['Student', 'Developer', 'Blogger'],
+    tags: ['Developer', 'Blogger', 'Backend', 'Java', 'Go'],
   },
   {
     name: 'Doce Fernandes',
