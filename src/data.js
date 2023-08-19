@@ -3312,7 +3312,7 @@ module.exports = [
     name: 'Stefan Zweifel',
     description:
       'Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.',
-    url: 'https://stefanzweifel.io/uses/',
+    url: 'https://stefanzweifel.dev/uses/',
     twitter: '@_stefanzweifel',
     emoji: '✌️',
     country: '🇨🇭',
