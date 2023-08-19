@@ -9020,9 +9020,9 @@ module.exports = [
   },
   {
     name: 'AriaieBOY',
-    description: 'Web Developer that loves creating and sharing🇩',
+    description: 'Web Developer that loves creating and sharing',
     url: 'https://ariaieboy.ir/uses/',
-    twitter: '@smr_seddighy',
+    twitter: '@ariaieboy_ir',
     emoji: '😎',
     country: '🇮🇷',
     computer: 'windows',
