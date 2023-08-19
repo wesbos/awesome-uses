@@ -424,7 +424,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
 * [Robin Bakker](https://robinbakker.nl/uses) — Web Developer
 * [Alessia Bellisario](https://aless.co/uses) — Web engineer, mechanical keyboard builder, plotter art maker.
-* [AriaieBOY](https://ariaieboy.ir/uses/) — Web Developer that loves creating and sharing🇩
+* [AriaieBOY](https://ariaieboy.ir/uses/) — Web Developer that loves creating and sharing
 * [Sunny](https://sny.sh/#uses) — Programmer, designer, musician, photographer and video editor.
 * [Russell McWhae](https://russellmcwhae.ca/uses) — Backcountry skier, photographer, designer, and web developer from Canada
 * [Karl Koch](https://www.kejk.tech/uses) — Product designer, frontend developer and musician. Building HomeHero and making other things.
