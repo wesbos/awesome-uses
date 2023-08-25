@@ -616,6 +616,7 @@ module.exports = [
     phone: 'iphone',
     tags: [
       'Graphic Designer',
+      'Illustrator',
       'UI',
       'No Code',
       'Adobe XD',
