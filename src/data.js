@@ -604,6 +604,26 @@ module.exports = [
       'Neovim',
     ],
   },
+    {
+    name: 'Andy Carolan',
+    description:
+      'Illustrator, Graphic Designer, No Code, Remote',
+    url: 'https://www.andycarolan.com/uses/',
+    twitter: '@AndyCarolan',
+    emoji: '🥑',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Graphic Designer',
+      'UI',
+      'No Code',
+      'Adobe XD',
+      'Webflow',
+      'Designer'
+      'Remote',
+    ],
+  },
   {
     name: "Alex O'Reilly",
     description: 'Scientist turned Web developer from the Great White North.',
