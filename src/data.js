@@ -604,7 +604,7 @@ module.exports = [
       'Neovim',
     ],
   },
-    {
+  {
     name: 'Andy Carolan',
     description:
       'Illustrator, Graphic Designer, No Code, Remote',
@@ -621,7 +621,7 @@ module.exports = [
       'No Code',
       'Adobe XD',
       'Webflow',
-      'Designer'
+      'Designer',
       'Remote',
     ],
   },
