@@ -6916,6 +6916,7 @@ module.exports = [
     name: 'Phil Stollery',
     description: 'Technical writer, recovering developer, lover of Whippets, from Yorkshire.',
     url: 'https://stollerys.co.uk/setup',
+    twitter: '@phils@social.lol',
     emoji: '🥋',
     country: '🇬🇧',
     computer: 'apple',
