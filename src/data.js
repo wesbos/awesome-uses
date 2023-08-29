@@ -606,8 +606,7 @@ module.exports = [
   },
   {
     name: 'Andy Carolan',
-    description:
-      'Illustrator, Graphic Designer, No Code, Remote',
+    description: 'Illustrator, Graphic Designer, No Code, Remote',
     url: 'https://www.andycarolan.com/uses/',
     twitter: '@AndyCarolan',
     emoji: '🥑',
