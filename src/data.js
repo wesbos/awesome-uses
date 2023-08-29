@@ -8860,7 +8860,7 @@ module.exports = [
   {
     name: 'Elmar Klausmeier',
     description: 'Developer and blogger, data center management',
-    url: 'https://eklausmeier.goip.de/blog/uses',
+    url: 'https://eklausmeier.goip.de/aux/uses',
     twitter: '@eklausmeier',
     emoji: '🚀',
     country: '🇩🇪',
