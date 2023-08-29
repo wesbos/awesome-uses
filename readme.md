@@ -416,7 +416,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marco Poletto](https://poletto.dev/uses/) — Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor
 * [Tim Teege](https://www.teesche.com/uses/) — Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner
 * [Mark Horsell](https://markhorsell.com/uses) — Software Developer - Front-end mostly, back-end and native sometimes.
-* [Elmar Klausmeier](https://eklausmeier.goip.de/blog/uses) — Developer and blogger, data center management
+* [Elmar Klausmeier](https://eklausmeier.goip.de/aux/uses) — Developer and blogger, data center management
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
