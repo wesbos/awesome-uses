@@ -5445,6 +5445,7 @@ module.exports = [
     name: 'Marcus Virginia',
     description: 'Software engineer specializing in web tech, amateur designer, & frequent flyer 🛩️.',
     url: 'https://marcusv.me/uses',
+    twitter: '@MarcusVirg',
     emoji: '🏂',
     country: '🇺🇸',
     computer: 'apple',
