@@ -4840,6 +4840,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Diogo Moreira',
+    description:
+      "Professor, Software Engineer and Researcher.",
+    url: 'https://diogodmoreira.com/uses',
+    twitter: '@diogodmoreira',
+    emoji: '🧑🏻‍💻',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Web Development',
+      'Node.js',
+      'Express',
+      'Java',
+      'Typescript',
+      'NestJS',
+      'NextJS',
+      'Backend',
+      'Testing',
+    ],
+  },
+  {
     name: 'Vincent Lejtzén',
     description:
       'Front end developer with love for design, user experience and SEO.',
