@@ -4841,8 +4841,7 @@ module.exports = [
   },
   {
     name: 'Diogo Moreira',
-    description:
-      "Professor, Software Engineer and Researcher.",
+    description: 'Professor, Software Engineer and Researcher.',
     url: 'https://diogodmoreira.com/uses',
     twitter: '@diogodmoreira',
     emoji: '🧑🏻‍💻',
