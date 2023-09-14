@@ -225,7 +225,7 @@ module.exports = [
       'Sublime Text',
       'Joplin',
       'Linux',
-      'Arch',      
+      'Arch',
     ],
   },
   {
@@ -5536,7 +5536,8 @@ module.exports = [
   },
   {
     name: 'Marcus Virginia',
-    description: 'Software engineer specializing in web tech, amateur designer, & frequent flyer 🛩️.',
+    description:
+      'Software engineer specializing in web tech, amateur designer, & frequent flyer 🛩️.',
     url: 'https://marcusv.me/uses',
     twitter: '@MarcusVirg',
     emoji: '🏂',
@@ -6743,7 +6744,7 @@ module.exports = [
       'VSCode',
       'Firefox',
       'Open Source',
-      'Indieweb'
+      'Indieweb',
     ],
   },
   {
