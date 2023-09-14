@@ -6656,6 +6656,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Daryl Sun',
+    description:
+      'I play with software and videogames. Sometimes I write things.',
+    url: 'https://blog.darylsun.page/uses',
+    emoji: '📓',
+    country: '🇵🇭',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Markdown',
+      'HTML',
+      'CSS',
+      'Git',
+      'VSCode',
+      'Firefox',
+      'Open Source',
+      'Indieweb'
+    ],
+  },
+  {
     name: 'Julian Stark',
     description: 'WordPress Web Developer & Entrepreneur',
     url: 'https://julianstark.de/uses',
