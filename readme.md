@@ -80,6 +80,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Tim Smith](https://timsmith.tech/uses) — Full-Stack Web Developer, Tech Enthusiast, creator, husband.
+* [Ruslan Osipov](https://ruslan.rocks/uses) — Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group
 * [H. Kamran](https://hkamran.com/uses) — Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!
 * [Catalin Ciubotaru](https://catalincodes.com/uses) — Frontend Developer, writes stuff, sometimes makes sense.
 * [Hector Saldaña](https://hectorsaldes.netlify.app/#uses) — I am a software development student at university. My favorites developments are when I am looking for a solution that help people

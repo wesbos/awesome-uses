@@ -1248,7 +1248,8 @@ module.exports = [
   },
   {
     name: 'Ruslan Osipov',
-    description: 'Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group',
+    description:
+      'Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group',
     url: 'https://ruslan.rocks/uses',
     twitter: '@rusya13',
     emoji: '🪄',
