@@ -827,6 +827,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Antonio Sarcevic',
+    description: 'excited by ui development',
+    url: 'https://sarcevic.dev/uses',
+    twitter: '@SarcevicAntonio',
+    emoji: '🌸',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['Svelte', 'HTML', 'TypeScript', 'CSS', 'VS Code', 'UI', 'Youtuber', 'Gamer', 'Music']
+  },
+  {
     name: 'starter.place',
     description: 'Starter repos',
     url: 'https://www.starter.place/uses/',
