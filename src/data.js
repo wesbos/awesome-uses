@@ -208,7 +208,7 @@ module.exports = [
     emoji: '🚀',
     country: '🇬🇷',
     computer: 'linux',
-    phone: 'none',
+    phone: 'android',
     tags: [
       'Drupal',
       'Fullstack',
