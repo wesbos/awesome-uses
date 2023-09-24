@@ -202,7 +202,8 @@ module.exports = [
   },
   {
     name: 'Theodoros Ploumis',
-    description: 'Full-stack Drupal developer and open-source evangelist based on Greece',
+    description:
+      'Full-stack Drupal developer and open-source evangelist based on Greece',
     url: 'https://www.theodorosploumis.com/en/uses',
     twitter: '@theoploumis',
     emoji: '🚀',
