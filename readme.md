@@ -63,6 +63,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
+* [Antonio Sarcevic](https://sarcevic.dev/uses) — excited by ui development
 * [starter.place](https://www.starter.place/uses/) — Starter repos
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer

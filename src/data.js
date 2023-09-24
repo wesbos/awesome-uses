@@ -883,7 +883,17 @@ module.exports = [
     country: '🇩🇪',
     computer: 'apple',
     phone: 'android',
-    tags: ['Svelte', 'HTML', 'TypeScript', 'CSS', 'VS Code', 'UI', 'Youtuber', 'Gamer', 'Music']
+    tags: [
+      'Svelte',
+      'HTML',
+      'TypeScript',
+      'CSS',
+      'VS Code',
+      'UI',
+      'Youtuber',
+      'Gamer',
+      'Music',
+    ],
   },
   {
     name: 'starter.place',
