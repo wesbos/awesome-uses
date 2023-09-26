@@ -15861,6 +15861,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Christian Ek',
+    description:
+      'Full Stack developer, tech enthusiast.',
+    url: 'https://christianek.io/uses/',
+    twitter: '@christianek_io',
+    emoji: '⚡',
+    country: '🇸🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Java',
+      'JavaScript',
+      'Vue.js',
+      'Developer',
+      'Node.js',
+      'HTML',
+      'CSS',
+    ],
+  },
+  {
     name: 'Rail Hamdeew',
     description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
