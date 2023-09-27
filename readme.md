@@ -131,7 +131,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Melanie Kat](https://melkat.blog/p/uses) — Silly front-end engineer (she/her)
 * [Joshua Cerbito](https://www.cerbito.com/uses) — I write code, I train devs, and I play music.
 * [Dale Larroder](https://www.dalelarroder.com/uses) — Software Engineer, React, TypeScript and Mechanical Keyboards!
-* [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — Live coding streamer, writer and speaker
+* [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — I write code for your entertainment.
 * [Bill Sullivan](https://billsullivan.name/uses/) — Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur
 * [Amit Dhamu](https://amitd.co/uses) — Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
@@ -173,7 +173,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Diego Costa](https://diegocosta.me/uses) — Engineering Manager and Full-stack software engineer
 * [Jeremiah Boby](https://jerbob.me/uses) — Python developer specialising in web tech
 * [Haryel Gillet](https://peaceful-leavitt-25b1d3.netlify.app/uses) — FullStack Developer focused on Backend
-* [Stefan Zweifel](https://stefanzweifel.io/uses/) — Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.
+* [Stefan Zweifel](https://stefanzweifel.dev/uses/) — Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
 * [Alyssa Holland](https://www.alyssaholland.com/uses/) — Frontend developer with a passion for learning! Writes about programming and productivity tips.
