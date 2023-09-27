@@ -15859,8 +15859,7 @@ module.exports = [
   },
   {
     name: 'Christian Ek',
-    description:
-      'Full Stack developer, tech enthusiast.',
+    description: 'Full Stack developer, tech enthusiast.',
     url: 'https://christianek.io/uses/',
     twitter: '@christianek_io',
     emoji: '⚡',
