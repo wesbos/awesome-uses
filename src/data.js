@@ -22,6 +22,24 @@
  */
 module.exports = [
   {
+    name: 'Colin Ramsay',
+    description: 'Director and software developer at Go Tripod in Cornwall',
+    url: 'https://colinramsay.co.uk/uses',
+    twitter: '@colinramsay',
+    emoji: '🚀',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Founder',
+      'TypeScript',
+      'Developer',
+      'Remix',
+      'Tailwind CSS',
+      'Linux'
+    ],
+  },
+  {
     name: 'Dennis Sauvé',
     description: 'DevOps Engineer w/Dev roots in the Pacific North West!',
     url: 'https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98',
