@@ -36,7 +36,7 @@ module.exports = [
       'Developer',
       'Remix',
       'Tailwind CSS',
-      'Linux'
+      'Linux',
     ],
   },
   {
