@@ -2522,7 +2522,7 @@ module.exports = [
   },
   {
     name: 'Salma Alam-Naylor',
-    description: 'Live coding streamer, writer and speaker',
+    description: 'I write code for your entertainment.',
     url: 'https://whitep4nth3r.com/uses',
     twitter: '@whitep4nth3r',
     emoji: '⚡️',
@@ -2530,15 +2530,12 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Accessibility',
       'Blogger',
-      'CSS',
       'Developer',
-      'JAMstack',
       'JavaScript',
-      'Node.js',
       'Speaker',
       'Streamer',
+      'Teacher',
     ],
   },
   {
