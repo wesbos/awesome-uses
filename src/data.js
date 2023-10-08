@@ -17472,6 +17472,7 @@ module.exports = [
     description:
       "I'm Software Tester from Thailand focus test on AWS:S3, Mobile app (iOS & Android), Web applocation.",
     url: 'https://hathaipach.github.io/',
+    twitter: '@tigerorm1',
     emoji: '🌻',
     country: '🇹🇭',
     computer: 'apple',
