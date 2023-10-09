@@ -175,6 +175,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeremiah Boby](https://jerbob.me/uses) — Python developer specialising in web tech
 * [Haryel Gillet](https://peaceful-leavitt-25b1d3.netlify.app/uses) — FullStack Developer focused on Backend
 * [Stefan Zweifel](https://stefanzweifel.dev/uses/) — Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.
+* [Christopher Kruse](https://www.ballpointcarrot.net/uses/) — lifelong tech nerd, DevOps and Tools builder, dad, and choral singer
 * [Rowe Morehouse](https://rowe-morehouse.github.io/resume/uses/) — Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales
 * [Erik Hedin](https://www.erikhedin.com/uses/) — Full-stack Web Developer
 * [Alyssa Holland](https://www.alyssaholland.com/uses/) — Frontend developer with a passion for learning! Writes about programming and productivity tips.

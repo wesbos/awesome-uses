@@ -3518,7 +3518,8 @@ module.exports = [
   },
   {
     name: 'Christopher Kruse',
-    description: 'lifelong tech nerd, DevOps and Tools builder, dad, and choral singer',
+    description:
+      'lifelong tech nerd, DevOps and Tools builder, dad, and choral singer',
     url: 'https://www.ballpointcarrot.net/uses/',
     emoji: '🙈',
     country: '🇺🇸',
