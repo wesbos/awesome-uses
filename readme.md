@@ -565,6 +565,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mike Barkmin](https://www.barkmin.eu/uses/) — I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.
 * [Hugo Di Francesco](https://codewithhugo.com/uses) — JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.
 * [Steve Heyes](https://steveheyes.co.uk/uses) — I like to use tech to build awesome things that makes peoples lives better
+* [Earl Siachongco](https://elpachongco.github.io/uses) — Building websites
 * [Galen Cuthbertson](https://galen.me/uses) — I build tools & tools to help understand human culture.
 * [Chris Jones](https://chrisjones.io/uses) — Full-time full-stack web developer. Part-time hiker, explorer, photographer.
 * [Mark Mead](https://markmead.dev/uses/) — Web Developer using the TALL stack

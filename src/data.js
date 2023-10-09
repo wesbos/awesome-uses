@@ -11985,11 +11985,7 @@ module.exports = [
     country: '🇵🇭',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Python',
-      'Django',
-      'Linux',
-    ],
+    tags: ['Python', 'Django', 'Linux'],
   },
   {
     name: 'Galen Cuthbertson',
