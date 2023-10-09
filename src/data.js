@@ -11978,6 +11978,20 @@ module.exports = [
     ],
   },
   {
+    name: 'Earl Siachongco',
+    description: 'Building websites',
+    url: 'https://elpachongco.github.io/uses',
+    emoji: '🎰',
+    country: '🇵🇭',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Python',
+      'Django',
+      'Linux',
+    ],
+  },
+  {
     name: 'Galen Cuthbertson',
     description: 'I build tools & tools to help understand human culture.',
     url: 'https://galen.me/uses',
