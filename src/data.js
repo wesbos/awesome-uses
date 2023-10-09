@@ -10604,7 +10604,7 @@ module.exports = [
     emoji: '😏',
     country: '🇮🇳',
     computer: 'windows',
-    phone: 'OPPO RENO 3 PRO',
+    phone: 'android',
     tags: [
       'Front End',
       'Developer',
