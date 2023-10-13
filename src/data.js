@@ -24,12 +24,12 @@ module.exports = [
   {
     name: 'Gurdeep Singh',
     description: 'Full Stact Developer in PHP and ReactJS (MERN)',
-    url: 'https://www.gurdeep.net',
+    url: 'https://www.gurdeep.net/uses',
     twitter: '@grdp99',
     emoji: '🤘',
     country: 'IN',
     computer: 'windows',
-    phone: 'Not Using',
+    phone: 'Android',
     tags: [
       'Bald',
       'Bootstrap',
