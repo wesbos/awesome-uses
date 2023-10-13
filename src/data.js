@@ -17553,6 +17553,26 @@ module.exports = [
       'GraphQL',
     ],
   },
+  {
+    name: 'Thinley',
+    description: 'Web Developer',
+    twitter: '@thinley',
+    emoji: '⚡',
+    country: '🇧🇩',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Backend End',
+      'Developer',
+      'Mongoose',
+      'Problem Solver',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'Express',
+      'REST',
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
