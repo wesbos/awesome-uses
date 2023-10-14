@@ -497,19 +497,19 @@ module.exports = [
   },
   {
     name: 'uncenter',
-    description: 'Very incompetent developer',
-    url: 'https://www.uncenter.org/uses',
+    description: 'Open source software developer, geography nerd, and high school student.',
+    url: 'https://www.uncenter.dev/uses',
     emoji: '🐥',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Python',
-      'Eleventy',
-      'Indieweb',
-      'Jamstack',
-      'Markdown',
-      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'Web Developer',
+      'SolidJS',
+      'Tailwind CSS',
+      'Python'
     ],
   },
   {
