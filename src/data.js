@@ -10357,6 +10357,31 @@ module.exports = [
       'React',
     ],
   },
+   {
+    name: 'José Hernández',
+    description: 'Mobile and Web Developer',
+    url: 'https://josehernandez.tech/uses',
+    twitter: '@josedevjourney',
+    emoji: '🥋',
+    country: '🇨🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Youtuber',
+      'Typescript',
+      'JavaScript',
+      'React',
+      'React Native',
+      'Astro',
+      'Svelte',
+      'SvelteKit',
+      'Next.js',
+      'Front End',
+      'TailWindCSS',
+      'Gatsby'
+    ],
+  },
   {
     name: 'Christophe Querton',
     description:
