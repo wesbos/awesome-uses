@@ -486,6 +486,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alfian Akmal Hanantio](https://amalhanaja.dev/uses) — Software engineer specializing in android development 🇮🇩
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
+* [José Hernández](https://josehernandez.tech/uses) — Mobile and Web Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Adil Haddaoui](https://adilhaddaoui.com/uses) — Full stack Developer
 * [Vlad Holubiev](https://vladholubiev.com/uses) — Sr. Director of Technology at Shelf

@@ -10358,7 +10358,7 @@ module.exports = [
       'React',
     ],
   },
-   {
+  {
     name: 'José Hernández',
     description: 'Mobile and Web Developer',
     url: 'https://josehernandez.tech/uses',
@@ -10380,7 +10380,7 @@ module.exports = [
       'Next.js',
       'Front End',
       'TailWindCSS',
-      'Gatsby'
+      'Gatsby',
     ],
   },
   {
