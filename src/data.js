@@ -497,7 +497,8 @@ module.exports = [
   },
   {
     name: 'uncenter',
-    description: 'Open source software developer, geography nerd, and high school student.',
+    description:
+      'Open source software developer, geography nerd, and high school student.',
     url: 'https://www.uncenter.dev/uses',
     emoji: '🐥',
     country: '🇺🇸',
@@ -509,7 +510,7 @@ module.exports = [
       'Web Developer',
       'SolidJS',
       'Tailwind CSS',
-      'Python'
+      'Python',
     ],
   },
   {

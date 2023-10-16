@@ -49,7 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Neil Gupta](https://www.neil.gg/uses) — Designed in California. Assembled in Chicago. I like to build things.
 * [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
 * [Ibrahim Nurul Huda](https://www.sarbeh.com/uses) — creates visual narratives on web development, design, and Sharia studies.
-* [uncenter](https://www.uncenter.org/uses) — Very incompetent developer
+* [uncenter](https://www.uncenter.dev/uses) — Open source software developer, geography nerd, and high school student.
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
