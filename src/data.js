@@ -14190,6 +14190,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Aman Rawat',
+    description:
+      'Frontend Developer, Self taught developer, React js, Next js.',
+    url: 'https://gist.github.com/amanr-dev/ceb36ff768ef85322f6d3067af33dba8',
+    twitter: '@amanrdev',
+    emoji: '😏',
+    country: '🇮🇳',
+    computer: 'hp',
+    phone: 'android',
+    tags: [
+      'Frontend Developer',
+      'Web Dev',
+      'JavaScript',
+      'TypeScript',
+      'React js',
+      'Next js',
+      "Self taught"
+    ],
+  },
+  {
     name: 'Eduardo Reveles',
     description: 'Web Engineer, Husband, Gamer.',
     url: 'https://www.osiux.ws/about/uses',
