@@ -23,8 +23,7 @@
 module.exports = [
   {
     name: 'Mariusz Szubryt',
-    description:
-      'Frontend-oriented Product Engineer',
+    description: 'Frontend-oriented Product Engineer',
     url: 'https://szubryt.net/uses',
     emoji: '💎',
     twitter: '@mariuszubryt',
@@ -47,7 +46,7 @@ module.exports = [
       'Django',
       'AWS',
       'Supabase',
-      'VS Code'
+      'VS Code',
     ],
   },
   {
