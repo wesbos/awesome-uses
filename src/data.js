@@ -22,6 +22,35 @@
  */
 module.exports = [
   {
+    name: 'Mariusz Szubryt',
+    description:
+      'Frontend-oriented Product Engineer',
+    url: 'https://szubryt.net/uses',
+    emoji: '💎',
+    twitter: '@mariuszubryt',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Product Engineer',
+      'Frontend',
+      'Javascript',
+      'Typescript',
+      'React',
+      'Next.js',
+      'Svelte',
+      'Astro',
+      'Lit',
+      'Tailwind CSS',
+      'tRPC',
+      'Python',
+      'Django',
+      'AWS',
+      'Supabase',
+      'VS Code'
+    ],
+  },
+  {
     name: 'Colin Ramsay',
     description: 'Director and software developer at Go Tripod in Cornwall',
     url: 'https://colinramsay.co.uk/uses',
