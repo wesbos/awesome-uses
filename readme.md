@@ -43,6 +43,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Theodoros Ploumis](https://www.theodorosploumis.com/en/uses) — Full-stack Drupal developer and open-source evangelist based on Greece
 * [Dietrich Wambach](https://dietrichw.gitlab.io/blogfolio/uses) — Full Stack, Embedded, SRE, Python, Linux, Runner, Yoyoer
 * [Angel Cruz](https://angelcruz.dev/uses) — SR Backend (PHP / Laravel / WordPress) developer.
+* [Mina Markham](https://mina.codes/uses) — Engineer, designer, and design systems enthusiast.
 * [Jae Toole](https://jaetoole.me/uses) — Laravel developer, AWS enthusiast, Kubernetes lover
 * [Saiful Alam Rakib](https://msar.me/uses) — Laravel and React developer and Technology enthusiast
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
