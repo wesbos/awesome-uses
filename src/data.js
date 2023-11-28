@@ -13487,7 +13487,8 @@ module.exports = [
   },
   {
     name: 'Kaleigh Scruggs',
-    description: 'Software Engineer who loves her senior dogs, baking, being outside and reading. Probably doing all those at once.',
+    description:
+      'Software Engineer who loves her senior dogs, baking, being outside and reading. Probably doing all those at once.',
     url: 'https://klgh.dev/uses',
     twitter: '@klghjs',
     emoji: '🐞',
