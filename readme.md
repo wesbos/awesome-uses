@@ -668,6 +668,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Junaid Qadir](https://junaidqadir.com/uses) — A Full Stack #Laravel Developer
 * [Daniel Naxon](https://naxon.dev/uses) — Full Stack Developer, Laravel Artisan.
 * [Yurui Zhang](https://gist.github.com/pallymore/6e12133b5c2fa2856a8a6b288e579c01) — Full-stack developer. Dark mode enthusiast. Quality software devotee.
+* [Aman Rawat](https://gist.github.com/amanr-dev/ceb36ff768ef85322f6d3067af33dba8) — Frontend Developer, Self taught developer, React js, Next js.
 * [Eduardo Reveles](https://www.osiux.ws/about/uses) — Web Engineer, Husband, Gamer.
 * [Thomas Maximini](https://www.maxi.io/uses/) — Freelance software developer from Germany.
 * [Philip Theobald](https://www.philiptheobald.com/uses/) — Guitar player, motorcyclist, software engineer, entreprenuer

@@ -14283,7 +14283,7 @@ module.exports = [
       'TypeScript',
       'React js',
       'Next js',
-      "Self taught"
+      'Self taught',
     ],
   },
   {
