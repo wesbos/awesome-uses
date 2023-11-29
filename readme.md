@@ -375,6 +375,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Flege](https://danielflege.com/uses/) — Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧
 * [Alok Prateek](https://alokprateek.in/uses) — Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.
 * [Dwayne Harris](https://dwayne.xyz/uses) — Freelance web and app developer in NYC with over 15 years of professional experience.
+* [Michael Burkhardt](https://mihobu.lol/uses) — cloud data architect, part-time university professor, tinkerer and hobbyist
 * [Cory Dramsfeldt](https://coryd.dev/uses) — Web developer based in Southern California with over 10 years of professional experience.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
 * [Manuel Fernandez](https://github.com/teamhanded/uses) — Security Engineer
@@ -632,7 +633,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tom VanAntwerp](https://tomvanantwerp.com/uses) — Professional web developer, hobbyist fermenter
 * [Nick Janetakis](https://nickjanetakis.com/uses) — Freelance Web Developer, Web App Deployment, Tutorials, Technical death metal enthusiast
 * [Stefan Judis](https://www.stefanjudis.com/uses) — Web Developer, writer and speaker
-* [Kaleigh Scruggs](https://kaleighscruggs.com/uses) — Front-End Web Developer, stand-up comedian, loves Brazilian jiu-jitsu, tea, and being a helicopter dog mom
+* [Kaleigh Scruggs](https://klgh.dev/uses) — Software Engineer who loves her senior dogs, baking, being outside and reading. Probably doing all those at once.
 * [Ste Grainer](https://stegrainer.com/uses) — Designer, Developer
 * [Jorge Calle](https://jorgecalle.co/uses) — Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)
 * [Camilo Romero](https://camiloromero.dev/uses) — Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.
