@@ -8040,7 +8040,7 @@ module.exports = [
       'Blogger',
       'Traveler',
       'Photographer',
-      'HTML/CSS'
+      'HTML/CSS',
     ],
   },
   {
