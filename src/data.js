@@ -3096,6 +3096,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Marcin Dyguda',
+    description:
+      'Head of Engineering, Entrepreneur-wannabe, product leader and team builder at heart',
+    url: 'https://www.dyguda.com/uses/',
+    emoji: '👨🏻‍💻',
+    twitter: '@dygudamarcin',
+    country: '🇵🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Product Manager',
+      'Entrepreneur',
+      'Productivity'
+    ],
+  },
+  {
     name: 'Angélique Weger',
     description: 'engineering manager :: adjunct prof :: always learning',
     url: 'https://angeliqueweger.com/uses',
