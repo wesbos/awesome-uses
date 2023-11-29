@@ -375,6 +375,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Flege](https://danielflege.com/uses/) — Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧
 * [Alok Prateek](https://alokprateek.in/uses) — Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.
 * [Dwayne Harris](https://dwayne.xyz/uses) — Freelance web and app developer in NYC with over 15 years of professional experience.
+* [Guru Das Srinagesh](https://gurudas.dev/uses/) — Linux kernel developer
 * [Michael Burkhardt](https://mihobu.lol/uses) — cloud data architect, part-time university professor, tinkerer and hobbyist
 * [Cory Dramsfeldt](https://coryd.dev/uses) — Web developer based in Southern California with over 10 years of professional experience.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
