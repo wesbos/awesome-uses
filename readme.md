@@ -154,6 +154,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Himank Barve](https://hbarve1.com/uses) — Full Stack JavaScript Developer, Open Source Enthusiast
 * [Matthew Tao](https://www.matthewtao.com/uses) — Computer Science student who loves CSS. Focuses on the little things that make a website delightful.
 * [William Chin](https://yourdigitalaid.com/uses/) — Web Developer, Product Manager, Digital Marketer, always trying to learn more.
+* [Marcin Dyguda](https://www.dyguda.com/uses/) — Head of Engineering, Entrepreneur-wannabe, product leader and team builder at heart
 * [Angélique Weger](https://angeliqueweger.com/uses) — engineering manager :: adjunct prof :: always learning
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
 * [Marc-Antoine Dion](https://marcantoinedion.com/uses) — Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.

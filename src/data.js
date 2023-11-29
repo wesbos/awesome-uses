@@ -3105,11 +3105,7 @@ module.exports = [
     country: '🇵🇱',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Product Manager',
-      'Entrepreneur',
-      'Productivity'
-    ],
+    tags: ['Product Manager', 'Entrepreneur', 'Productivity'],
   },
   {
     name: 'Angélique Weger',
