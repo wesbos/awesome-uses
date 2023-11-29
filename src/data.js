@@ -4505,8 +4505,8 @@ module.exports = [
     tags: [
       'Developer',
       'Typescript',
-      '.NET6',
-      'React',
+      '.NET',
+      'Blazor',
       'Microsoft365',
       'GitHub',
       'Speakers',
