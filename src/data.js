@@ -8023,6 +8023,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael Burkhardt',
+    description:
+      'cloud data architect, part-time university professor, tinkerer and hobbyist',
+    url: 'https://mihobu.lol/uses',
+    emoji: '📷',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Architect',
+      'Javascript',
+      'iOS',
+      'macOS',
+      'AWS',
+      'Blogger',
+      'Traveler',
+      'Photographer',
+      'HTML/CSS'
+    ],
+  },
+  {
     name: 'Cory Dramsfeldt',
     description:
       'Web developer based in Southern California with over 10 years of professional experience.',
