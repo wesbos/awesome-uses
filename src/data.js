@@ -10884,7 +10884,7 @@ module.exports = [
       'MUI',
       'GWT',
       'UX',
-      'UI'
+      'UI',
     ],
   },
   {

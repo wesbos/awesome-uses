@@ -509,6 +509,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thomas Jensen](https://blog.cavelab.dev/uses/) — I like electronics and computers — and my wife and three kids.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
+* [Jan Durkaj](https://jandurkaj.dev/uses) — Web developer, adventurer, and amateur photographer
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
 * [Watheq Alshowaiter](http://watheq.xyz/uses) — Web developer, Blogger, and Technical Translator
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
