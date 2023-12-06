@@ -9606,6 +9606,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Matthew Ernisse',
+    description: 'Recovering Systems Engineer now Solutions Engineer.',
+    url: 'https://www.going-flying.com/~mernisse/uses/',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'flipphone',
+    tags: [
+        'RecoveringSysAdmin',
+        'Python',
+        'shell',
+        'JavaScript',
+        'C',
+        'git',
+        'vi',
+        'HTML',
+        'CSS',
+    ],
+  },
+  {
     name: 'Diego López',
     description:
       'Frontend developer making thins with Vue & Nuxt. Gamer and beer lover',
