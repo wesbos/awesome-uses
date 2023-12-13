@@ -21,6 +21,32 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+   {
+    name: 'James Auble',
+    description: 'Full Stack Developer',
+    url: 'https://jamesauble.com/uses',
+    emoji: '🤙',
+    twitter: '@jamesauble',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Frontend',
+      'Javascript',
+      'Typescript',
+      'Alpine.Js',
+      'React',
+      'Next.js',
+      'Vue 3',
+      'Svelte',
+      'Astro',
+      'Tailwind CSS',
+      'Wordpress',
+      'VS Code',
+      'Remote',
+      'Freelancer'
+    ],
+  },
   {
     name: 'Mariusz Szubryt',
     description: 'Frontend-oriented Product Engineer',
