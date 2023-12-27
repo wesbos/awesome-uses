@@ -12474,13 +12474,13 @@ module.exports = [
   {
     name: 'John Cranston',
     description: 'Part lead front-ender, Part vidya-streamer, All cat dad.',
-    url: 'https://pursuitofloot.com/uses',
+    url: 'https://pursuitofloot.gg/uses',
     twitter: '@pursuitofloot',
     emoji: '😻',
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Front End', 'Vue.js', 'Gatsby', 'Gamer', 'Streamer', 'Blogger'],
+    tags: ['Front End', 'Vue.js', 'Astro', 'Gamer', 'Streamer', 'Blogger'],
   },
   {
     name: 'Thorsten Hans',
