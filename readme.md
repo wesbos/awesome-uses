@@ -450,6 +450,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Praveen Puglia](https://praveenpuglia.com/uses/) — Web Developer. Love Vue & CSS. Building life one component at a time!
 * [Gaya Kessler](https://theclevernode.com/uses) — Freelance web developer specialising in JavaScript
 * [Eivind Lindbråten](https://madebymist.com/uses) — One-man studio handcrafting apps and websites
+* [Matthew Ernisse](https://www.going-flying.com/~mernisse/uses/) — Recovering Systems Engineer now Solutions Engineer.
 * [Diego López](https://codingpotions.com/uses) — Frontend developer making thins with Vue & Nuxt. Gamer and beer lover
 * [Andre Landgraf](https://andre-landgraf.cool/uses/) — Passionate Fullstack Web Developer
 * [Dave Mullen Jnr](https://davemullenjnr.co.uk/uses) — Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.
