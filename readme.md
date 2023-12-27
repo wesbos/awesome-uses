@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
 * [Colin Ramsay](https://colinramsay.co.uk/uses) — Director and software developer at Go Tripod in Cornwall
 * [Dennis Sauvé](https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98) — DevOps Engineer w/Dev roots in the Pacific North West!
@@ -64,6 +65,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex O'Reilly](https://alekzandriia.com/uses/) — Scientist turned Web developer from the Great White North.
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
+* [Lucas Mancini](https://lucasmancini.au/uses) — Software Development Engineer, specializing in Frontend
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
@@ -98,6 +100,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Anh Hoang Nguyen](https://hoanganh.dev/uses/) — Full-stack Developer, DevOps, SysAdmin
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
 * [Devika Bhapkar](https://github.com/devikabhapkar/uses) — Student,Content creator
+* [Shariq Raza Qadri](https://cosmicqbit.dev/uses) — DevOps & Cloud Engineer
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
 * [Daine Mawer](https://www.dainemawer.com/uses) — Experienced Front-end Developer based in Cape Town, South Africa.
 * [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few

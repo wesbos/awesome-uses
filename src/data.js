@@ -21,7 +21,7 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-   {
+  {
     name: 'James Auble',
     description: 'Full Stack Developer',
     url: 'https://jamesauble.com/uses',
@@ -44,7 +44,7 @@ module.exports = [
       'Wordpress',
       'VS Code',
       'Remote',
-      'Freelancer'
+      'Freelancer',
     ],
   },
   {
@@ -907,10 +907,9 @@ module.exports = [
     computer: 'linux',
     tags: ['Student', 'Node.js', 'Javascript', 'Ubuntu'],
   },
-    {
+  {
     name: 'Lucas Mancini',
-    description:
-      'Software Development Engineer, specializing in Frontend',
+    description: 'Software Development Engineer, specializing in Frontend',
     url: 'https://lucasmancini.au/uses',
     twitter: '@lucasmancini',
     emoji: '🧉',
