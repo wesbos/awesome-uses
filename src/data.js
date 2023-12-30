@@ -16747,6 +16747,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Aaron Parecki',
+    description: 'Identity Architect',
+    url: 'https://aaronparecki.com/life-stack/',
+    emoji: '✈',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'OAuth',
+      'Speaker',
+      'YouTuber',
+      'HTML',
+      'CSS',
+      'MySQL',
+      'Developer'
+    ],
+  },
+  {
     name: 'Jace Hensley',
     description: 'Fullstack Engineer',
     url: 'https://jacehensley.dev/uses',
