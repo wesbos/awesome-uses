@@ -1812,6 +1812,23 @@ module.exports = [
     ],
   },
   {
+    name: 'John Floren',
+    description: 'Programmer and hobbyist electronics designer interested in computing history.',
+    url: 'https://jfloren.net/uses',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Go',
+      'Unix',
+      'Plan 9',
+      'Acme',
+      'computer engineer',
+      'shell',
+      'history',
+    ],
+  },
+  {
     name: 'Stijn Elskens',
     description: 'Frontend Web Developer based in Leuven, BE.',
     url: 'https://www.stijnelskens.com/uses',
