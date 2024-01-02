@@ -21,7 +21,7 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-   {
+  {
     name: 'Jakob Greenfeld',
     description: 'Founder',
     url: 'https://jakobgreenfeld.com/uses',
@@ -39,7 +39,7 @@ module.exports = [
       'VS Code',
       'Remote',
       'Founder',
-      'Developer'
+      'Developer',
     ],
   },
   {

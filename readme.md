@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
 * [Colin Ramsay](https://colinramsay.co.uk/uses) — Director and software developer at Go Tripod in Cornwall
