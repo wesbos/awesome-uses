@@ -1813,7 +1813,8 @@ module.exports = [
   },
   {
     name: 'John Floren',
-    description: 'Programmer and hobbyist electronics designer interested in computing history.',
+    description:
+      'Programmer and hobbyist electronics designer interested in computing history.',
     url: 'https://jfloren.net/uses',
     country: '🇺🇸',
     computer: 'linux',

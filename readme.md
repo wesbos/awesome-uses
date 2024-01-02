@@ -103,6 +103,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vikash Patel](https://vk4s.github.io/uses/) — Engineer, Programmer, Web Developer
 * [Devika Bhapkar](https://github.com/devikabhapkar/uses) — Student,Content creator
 * [Shariq Raza Qadri](https://cosmicqbit.dev/uses) — DevOps & Cloud Engineer
+* [John Floren](https://jfloren.net/uses) — Programmer and hobbyist electronics designer interested in computing history.
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
 * [Daine Mawer](https://www.dainemawer.com/uses) — Experienced Front-end Developer based in Cape Town, South Africa.
 * [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few
