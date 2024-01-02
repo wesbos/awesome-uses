@@ -21,6 +21,27 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+   {
+    name: 'Jakob Greenfeld',
+    description: 'Founder',
+    url: 'https://jakobgreenfeld.com/uses',
+    emoji: '🏓',
+    twitter: '@jakobgreenfeld',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Python',
+      'Flask',
+      'Tailwind CSS',
+      'MongoDB',
+      'Jekyll',
+      'VS Code',
+      'Remote',
+      'Founder',
+      'Developer'
+    ],
+  },
   {
     name: 'James Auble',
     description: 'Full Stack Developer',
