@@ -108,6 +108,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daine Mawer](https://www.dainemawer.com/uses) — Experienced Front-end Developer based in Cape Town, South Africa.
 * [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few
 * [Nick Reutlinger](https://nickreutlinger.de/uses) — Web Developer with Javascript and SvelteKit
+* [Rebecca Owen](https://beccais.online/uses/) — Indie iOS developer, software engineer, cat Mum, human Mum. Rarely in that order!
 * [Simone Silvestroni](https://minutestomidnight.co.uk/uses) — Sound designer, web developer, bass player
 * [Gavin Pereira](https://gavinpereira.in/uses) — Graphic designer & frontend developer from Goa, India
 * [Tim Mouskhelichvili](https://timmousk.com/uses/) — Freelance Developer & Consultant from Montreal, Canada

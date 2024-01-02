@@ -1951,7 +1951,7 @@ module.exports = [
   {
     name: 'Rebecca Owen',
     description:
-      "Indie iOS developer, software engineer, cat Mum, human Mum. Rarely in that order!",
+      'Indie iOS developer, software engineer, cat Mum, human Mum. Rarely in that order!',
     url: 'https://beccais.online/uses/',
     twitter: '@rebecowen',
     emoji: '👩‍💻',
