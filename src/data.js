@@ -7094,6 +7094,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Stein',
+    description: 'Middle-end web designer-developer-writer.',
+    url: 'https://mattstein.com/uses',
+    emoji: '🫠',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Web Designer',
+      'Web Developer',
+      'Technical Writer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Craft CMS',
+      'Laravel',
+      'Astro',
+      'Eleventy',
+      'Obsidian',
+    ],
+  },
+  {
     name: 'Mohammed Sohail',
     description:
       'A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.',
