@@ -11127,12 +11127,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Neovim',
-      'Developer',
-      'React',
-      'Full Stack'
-    ],
+    tags: ['Neovim', 'Developer', 'React', 'Full Stack'],
   },
   {
     name: 'Duncan Bain',
