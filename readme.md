@@ -555,6 +555,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jordan Elver](https://elver.me/uses/) — Full Stack developer who loves Ruby, Elixir, and Rust.
 * [Russell John](https://russelljohn.net/uses/) — Professional Linux system administrator and highly experienced webmaster.
 * [Liam Richardson](https://discoliam.com/uses/) — User Interface developer focusing on Performance, A11y and CSS
+* [Serghei Cebotari](https://sergheicebotari.com/uses) — Software Developer specializing in building highly interactive web applications
 * [Timothy Miller](https://timothymiller.dev/uses) — Web Designer/Developer for hire. Wears lots of hats.
 * [Jordi Hoven](https://www.jordihoven.nl/uses) — Healthcare engineer, UX Designer, Whisky lover
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.

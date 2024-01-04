@@ -11832,7 +11832,8 @@ module.exports = [
   },
   {
     name: 'Serghei Cebotari',
-    description: 'Software Developer specializing in building highly interactive web applications',
+    description:
+      'Software Developer specializing in building highly interactive web applications',
     url: 'https://sergheicebotari.com/uses',
     emoji: '◉',
     twitter: '@scebotari66',
