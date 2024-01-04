@@ -242,7 +242,7 @@ module.exports = [
       'Blogger',
       'GitLab',
       'Eleventy',
-      'Entrepreneur'
+      'Entrepreneur',
     ],
   },
   {
