@@ -11119,6 +11119,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Tom MacWright',
+    description: 'Founder, writer, programmer',
+    url: 'https://macwright.com/uses',
+    emoji: '🔰',
+    twitter: '@tmcw',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Neovim',
+      'Developer',
+      'React',
+      'Full Stack'
+    ],
+  },
+  {
     name: 'Duncan Bain',
     description: 'Mechanical Engineer learning to code!',
     url: 'https://duncanbain.dev/uses/',
