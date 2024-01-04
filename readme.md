@@ -335,6 +335,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
 * [Artur Dudek](https://dudek.ga/uses) — Fullstack developer who loves React (Next.js) and TypeScript. Co-Host @ require.pl - a polish web dev podcast.
 * [Stephanie Handsteiner](https://stephfh.dev/uses) — 💻 Full-Stack Developer with a background in design.
+* [Matt Stein](https://mattstein.com/uses) — Middle-end web designer-developer-writer.
 * [Mohammed Sohail](https://www.msohail.dev/uses) — A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Daryl Sun](https://blog.darylsun.page/uses) — I play with software and videogames. Sometimes I write things.
