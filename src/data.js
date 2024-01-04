@@ -224,6 +224,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Eric T Grubaugh',
+    description: 'SuiteScript Coach',
+    url: 'https://stoic.software/uses',
+    emoji: '❤️',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Javascript',
+      'SuiteScript',
+      'NetSuite',
+      'Tailwind CSS',
+      'Webstorm',
+      'Podcaster',
+      'Youtuber',
+      'Blogger',
+      'GitLab',
+      'Eleventy',
+      'Entrepreneur'
+    ],
+  },
+  {
     name: 'Jonas Hietala',
     description: 'Writer, developer and wannabe code monkey.',
     url: 'https://www.jonashietala.se/uses/',
