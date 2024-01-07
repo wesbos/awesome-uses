@@ -4677,6 +4677,27 @@ module.exports = [
     ],
   },
   {
+    name: "Guillaume Briday",
+    description: "Senior Full Stack developer and DevOps",
+    url: "https://guillaumebriday.fr/uses",
+    twitter: "@guillaumebriday",
+    emoji: '🛤️',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Ruby',
+      'Rails',
+      'Hotwire',
+      'Turbo',
+      'Stimulus',
+      'Vue',
+      'Docker',
+      'Web Development',
+      'DevOps',
+    ]
+  },
+  {
     name: 'Brian Hamburg',
     description: 'Web Developer, Designer, and Musician',
     url: 'https://burgbits.com/uses',
