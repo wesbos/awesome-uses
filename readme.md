@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mina Markham](https://mina.codes/uses) — Engineer, designer, and design systems enthusiast.
 * [Jae Toole](https://jaetoole.me/uses) — Laravel developer, AWS enthusiast, Kubernetes lover
 * [Saiful Alam Rakib](https://msar.me/uses) — Laravel and React developer and Technology enthusiast
+* [Sophie Koonin](https://localghost.dev/uses) — Web developer, conference speaker, dog botherer
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
 * [Tim Bachmann](https://tiim.ch/pages/uses) — Software Engineer from Switzerland, currently working on one of my way too many side projects.
 * [Neil Gupta](https://www.neil.gg/uses) — Designed in California. Assembled in Chicago. I like to build things.
@@ -227,6 +228,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as Software Developer. Creator of libraryfy.com.
+* [Guillaume Briday](https://guillaumebriday.fr/uses) — Senior Full Stack developer and DevOps
 * [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
 * [Olek Baran](https://olekbaran.com/uses/) — Front-end web developer using React and Next.js
 * [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐
@@ -470,6 +472,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joshua Ryan Velasquez](https://joshua-afk.github.io/uses) — Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.
 * [Darlene Zouras](https://darzouras.com/uses/) — Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
+* [Jean Tinland](https://www.jeantinland.com/en/uses/) — Front-end developer. Working with CSS, React, Next.js. I implement responsive, accessible, backward-compatible interfaces.
 * [Yash Dave](https://amorpheuz.dev/uses/) — Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!
 * [Simon Stenbæk](https://sstenbaek.dk/uses) — Helicopter pilot, web developer
 * [Adam Jahnke](https://adamyonk.com/uses) — Caffiend, motorcyclist, climber, recovering perfectionist. I love to make the complex simple.

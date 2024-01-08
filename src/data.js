@@ -531,7 +531,7 @@ module.exports = [
       'Full Stack',
     ],
   },
-    {
+  {
     name: 'Sophie Koonin',
     description: 'Web developer, conference speaker, dog botherer',
     url: 'https://localghost.dev/uses',
@@ -4697,10 +4697,10 @@ module.exports = [
     ],
   },
   {
-    name: "Guillaume Briday",
-    description: "Senior Full Stack developer and DevOps",
-    url: "https://guillaumebriday.fr/uses",
-    twitter: "@guillaumebriday",
+    name: 'Guillaume Briday',
+    description: 'Senior Full Stack developer and DevOps',
+    url: 'https://guillaumebriday.fr/uses',
+    twitter: '@guillaumebriday',
     emoji: '🛤️',
     country: '🇫🇷',
     computer: 'apple',
@@ -4715,7 +4715,7 @@ module.exports = [
       'Docker',
       'Web Development',
       'DevOps',
-    ]
+    ],
   },
   {
     name: 'Brian Hamburg',
