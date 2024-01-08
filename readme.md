@@ -497,6 +497,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rikin Patel](https://patelrikin.com/#uses) — Experienced Front-end developer, Passionate about Javascript
 * [Jed Fonner](https://jedfonner.com/uses) — Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.
 * [Joris Hens](https://www.goodbytes.be/uses) — Web development teacher, Security and hacking enthousiast, Cook.
+* [Steve Abraham](https://steveabraham.com/uses) — IT guy, previously full stack web developer
 * [Salisa Cheawcharnthong](https://www.sgennrw.xyz/uses) — Software Engineer
 * [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
 * [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
@@ -545,6 +546,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Keith Wagner](https://kpwags.com/uses) — Experienced full stack developer. Always trying to learn new and better ways of doing things.
 * [Sebastian Försth](https://forsth.dev/uses) — I am solving problems you did not know you had.
 * [Sebastian Remm](https://www.sebibasti.dev/uses) — Coding at 04am in the morning
+* [Stephen Bunn](https://bunn.io/uses/) — Software engineer, coffee drinker, amateur photographer, occasional blogger
 * [Chuck Munson](https://www.breadandrosesweb.com/uses/) — Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger

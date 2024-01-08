@@ -11663,7 +11663,8 @@ module.exports = [
   },
   {
     name: 'Stephen Bunn',
-    description: 'Software engineer, coffee drinker, amateur photographer, occasional blogger',
+    description:
+      'Software engineer, coffee drinker, amateur photographer, occasional blogger',
     url: 'https://bunn.io/uses/',
     emoji: '🥑',
     country: '🇺🇸',
@@ -11689,8 +11690,8 @@ module.exports = [
       'Web Developer',
       'Web Development',
       'Full Stack',
-      'Obsidian'
-    ]
+      'Obsidian',
+    ],
   },
   {
     name: 'Chuck Munson',
