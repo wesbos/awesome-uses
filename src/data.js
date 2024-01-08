@@ -11662,6 +11662,37 @@ module.exports = [
     ],
   },
   {
+    name: 'Stephen Bunn',
+    description: 'Software engineer, coffee drinker, amateur photographer, occasional blogger',
+    url: 'https://bunn.io/uses/',
+    emoji: '🥑',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'GitHub',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'JavaScript',
+      'TypeScript',
+      'Vue.js',
+      'NuxtJS',
+      'Svelte',
+      'SvelteKit',
+      'Python',
+      'Rust',
+      'Software Developer',
+      'Software Engineer',
+      'Web Developer',
+      'Web Development',
+      'Full Stack',
+      'Obsidian'
+    ]
+  },
+  {
     name: 'Chuck Munson',
     description:
       'Web developer, blogger, writer, journalist, photographer, librarian, Minecraft addict, cooking show fanatic',
