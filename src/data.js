@@ -10083,6 +10083,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Jean Tinland',
+    description:
+      'Front-end developer. Working with CSS, React, Next.js. I implement responsive, accessible, backward-compatible interfaces.',
+    url: 'https://www.jeantinland.com/en/uses/',
+    emoji: '🚀',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Front End',
+      'Developer',
+      'CSS',
+      'SCSS',
+      'Javascript',
+      'Web Developer',
+      'UI',
+      'UX',
+      'React',
+      'Next.js',
+      'Accessibility',
+    ],
+  },
+  {
     name: 'Yash Dave',
     description:
       'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
