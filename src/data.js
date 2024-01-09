@@ -17972,6 +17972,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Hector Aguilar',
+    description:
+      'A Software Engineer that loves Web development and CLI sofware',
+    url: 'https://bitbyte.blog/uses',
+    emoji: '🐤',
+    computer: 'macos',
+    phone: 'android',
+    country: '🇲🇽',
+    tags: [
+      'Javascript',
+      'TypeScript',
+      'Go',
+      'Node.js',
+      'Python',
+      'CSS',
+      'Next.js',
+      'FullStack',
+    ],
+  },
+  {
     name: 'Ricardo Quiroz',
     description:
       "Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.",
