@@ -214,6 +214,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, JavaScript Enthusiast
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
+* [Caneco](https://caneco.dev/uses) — Fullstack Developer at #Medicare
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) — Developer, Entrepreneur, Content Creator
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
