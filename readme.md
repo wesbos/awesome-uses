@@ -613,6 +613,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
 * [Łukasz Wójcik](https://lukaszwojcik.net/uses/) — Full-stack developer, blogger, photography enthusiast
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
+* [Victor Kropp](https://victor.kropp.name/uses) — Software Engineer, Team Lead, Husband, Father, and Triathlete
 * [Scott Spence](https://scottspence.com/uses) — Developer, Svelte, GraphQL
 * [Marc Littlemore](https://marclittlemore.com/uses/) — Senior Engineering Manager @ Netlify, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.
 * [Danielle Mayabb](https://danielle-m.dev/uses) — Full-stack developer, Accessibility Engineer, Information Architect, Generalist

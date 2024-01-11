@@ -13025,7 +13025,8 @@ module.exports = [
   },
   {
     name: 'Victor Kropp',
-    description: 'Software Engineer, Team Lead, Husband, Father, and Triathlete',
+    description:
+      'Software Engineer, Team Lead, Husband, Father, and Triathlete',
     url: 'https://victor.kropp.name/uses',
     twitter: '@kropp',
     emoji: '🏃',
