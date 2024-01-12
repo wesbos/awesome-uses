@@ -17977,7 +17977,7 @@ module.exports = [
       'A Software Engineer that loves Web development and CLI sofware',
     url: 'https://bitbyte.blog/uses',
     emoji: '🐤',
-    computer: 'macos',
+    computer: 'apple',
     phone: 'android',
     country: '🇲🇽',
     tags: [
