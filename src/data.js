@@ -5040,6 +5040,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Nick Morris',
+    description:
+      'I am a music-loving, dog having, skiing, software engineer from California living in NYC.',
+    url: 'http://nickmorris.name/uses',
+    twitter: '@nickmorri',
+    emoji: '⛷️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Software Engineer',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'Python',
+      'React',
+      'AWS',
+    ],
+  },
+  {
     name: 'Rizwan',
     description: 'iOS Developer. Living between Marvel and DC world',
     url: 'https://blog.rizwan.dev/uses',
