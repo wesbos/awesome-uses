@@ -15573,6 +15573,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Paul Esch-Laurent',
+    description: 'Software Engineer',
+    url: 'https://paul.af/uses',
+    emoji: '🤌',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'Back End',
+      'Full Stack',
+      'Writer',
+      'Photographer',
+      'Accessibility',
+      'UI',
+      'UX',
+    ],
+  },
+  {
     name: 'John Slipper',
     description:
       'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
