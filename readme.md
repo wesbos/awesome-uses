@@ -836,6 +836,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
+* [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
 * [Ferdinand Linnenberg](https://linnenberg.dev/uses) — Backend Developer and Open Source Enthusiast
 * [Will Adams](https://willadams.dev/uses) — UK developer and knife maker
