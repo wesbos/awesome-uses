@@ -8283,6 +8283,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Drake Bott',
+    description: 'Web Developer from Colorado',
+    url: 'https://drake.dev/uses',
+    twitter: '@bottd_',
+    emoji: '🐙',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Blogger',
+      'Frontend',
+      'TypeScript',
+      'JavaScript',
+      'Neovim',
+      'macOS',
+      'iOS',
+      'Gamer',
+      'React',
+      'Svelte'
+    ],
+  },
+  {
     name: 'Michael Herman',
     description:
       'Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.',
