@@ -4145,7 +4145,8 @@ module.exports = [
   },
   {
     name: 'Zack Apiratitham',
-    description: 'Software developer, nerd, unapologetically Asian, 🇹🇭 “alien” living in 🇺🇸. My name is actually not Zack.',
+    description:
+      'Software developer, nerd, unapologetically Asian, 🇹🇭 “alien” living in 🇺🇸. My name is actually not Zack.',
     url: 'https://vatthikorn.com/uses',
     twitter: '@vatthikorn',
     emoji: '😅',

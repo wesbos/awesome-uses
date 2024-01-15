@@ -203,6 +203,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Juan Villela](https://cleverlaziness.xyz/uses/) — I like websites. Occasionally, I make them.
+* [Zack Apiratitham](https://vatthikorn.com/uses) — Software developer, nerd, unapologetically Asian, 🇹🇭 “alien” living in 🇺🇸. My name is actually not Zack.
 * [Jeromey Balderrama](https://balderromey.com/uses/) — Web Developer, Designer, Photographer, Drummer
 * [Hamish Williams](https://hamishw.com/uses) — Multidisciplinary designer + developer.
 * [Dennis Mathenge](https://creativehubspace.com/uses) — Web Developer
