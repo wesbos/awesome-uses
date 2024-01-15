@@ -731,6 +731,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.
 * [Moisés Ñañez](https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa) — Programmer and musician
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
+* [Paul Esch-Laurent](https://paul.af/uses) — Software Engineer
 * [John Slipper](https://www.johnslipper.com/uses/) — Web Developer, mountain biker, drone enthusiast, Minecraft nerd
 * [Gijs Nelissen](https://lifelog.be/uses) — Founder of @prezly. Focussed on Product Management
 * [Arturo Campos](https://arturocampos.dev/uses) — Web Developer, dad, mountain biker, meat lover
