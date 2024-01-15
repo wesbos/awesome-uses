@@ -22,6 +22,22 @@
  */
 module.exports = [
   {
+    name: 'Abyan Raditya',
+    description: 'FrontEnd Developer',
+    url: 'https://abydityadev.my.id/uses',
+    emoji: '🎧',
+    twitter: '@accusitive_',
+    country: '🇮🇩',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'NextJS',
+      'ReactJS',
+      'Tailwind CSS',
+      'FrontEnd',
+    ],
+  },
+  {
     name: 'Jakob Greenfeld',
     description: 'Founder',
     url: 'https://jakobgreenfeld.com/uses',
