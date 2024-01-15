@@ -30,12 +30,7 @@ module.exports = [
     country: '🇮🇩',
     computer: 'windows',
     phone: 'iphone',
-    tags: [
-      'NextJS',
-      'ReactJS',
-      'Tailwind CSS',
-      'FrontEnd',
-    ],
+    tags: ['NextJS', 'ReactJS', 'Tailwind CSS', 'FrontEnd'],
   },
   {
     name: 'Jakob Greenfeld',
