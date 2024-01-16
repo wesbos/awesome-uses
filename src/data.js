@@ -11891,7 +11891,7 @@ module.exports = [
     name: 'Mike Hart',
     description:
       "Front-end dev with a design background, IoT, tabletop RPGs, painting, and mixing them together.",
-    url: 'https://github.com/boilemmashem',
+    url: 'https://gist.github.com/boilemmashem/4764c911726d8c1599e2c39a4003626a',
     emoji: '🤔',
     country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
     computer: 'apple',
