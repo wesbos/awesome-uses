@@ -11888,6 +11888,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Mike Hart',
+    description:
+      "Front-end dev with a design background, IoT, tabletop RPGs, painting, and mixing them together.",
+    url: 'https://github.com/boilemmashem',
+    emoji: '🤔',
+    country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'CSS',
+      'React',
+      'Vue',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'WCAG'
+    ],
+  },
+  {
     name: 'Colin Morris',
     description:
       'Steampunker, solution architect and web developer. Mad science works for all cases.',
