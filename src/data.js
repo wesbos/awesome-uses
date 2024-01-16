@@ -894,7 +894,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Adler Brediks Medrado',
+    name: 'Adler Medrado',
     description: 'Computer Programmer - Programming is not only a skill but my passion.',
     url: 'https://adlermedrado.com.br/uses/',
     twitter: '@adlermedrado',
