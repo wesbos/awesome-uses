@@ -65,6 +65,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zach Patrick](https://zachpatrick.com/uses) — JavaScript and PHP developer
+* [Adler Medrado](https://adlermedrado.com.br/uses/) — Computer Programmer - Programming is not only a skill but my passion.
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Carlos Alexandro Becker](https://carlosbecker.com/uses) — A site reliability engineer, from Brazil
 * [Andy Carolan](https://www.andycarolan.com/uses/) — Illustrator, Graphic Designer, No Code, Remote
