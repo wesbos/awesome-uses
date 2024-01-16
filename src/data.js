@@ -17299,17 +17299,16 @@ module.exports = [
     ],
   },
   {
-    name: '5am.is',
+    name: 'Peter Cammeraat',
     description:
-      'iOS developer and designer that cares about user experience and privacy',
-    url: 'https://5am.is/uses/',
+      'Swift developer and designer that cares about user experience and privacy',
+    url: 'https://petercammeraat.net/about/#uses',
     emoji: '🟨',
     country: '🇳🇱',
     computer: 'apple',
     phone: 'flipphone',
     tags: [
       'Swift',
-      'SwiftUI',
       'Developer',
       'Designer',
       'Blogger',
