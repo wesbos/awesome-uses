@@ -8302,7 +8302,7 @@ module.exports = [
       'iOS',
       'Gamer',
       'React',
-      'Svelte'
+      'Svelte',
     ],
   },
   {
