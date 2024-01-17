@@ -17302,7 +17302,7 @@ module.exports = [
     name: 'Peter Cammeraat',
     description:
       'Swift developer and designer that cares about user experience and privacy',
-    url: 'https://petercammeraat.net/about/#uses',
+    url: 'https://petercammeraat.net/uses/',
     emoji: '🟨',
     country: '🇳🇱',
     computer: 'apple',
