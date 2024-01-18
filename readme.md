@@ -806,7 +806,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [EJ Mitchell](https://www.cupofsquid.com/uses) — Full-time web dev @ thoughtbot. Artist. Writer. Outdoors enthusiast.
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
 * [Marek Maras](https://www.marek-maras.de/uses) — Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!
-* [5am.is](https://5am.is/uses/) — iOS developer and designer that cares about user experience and privacy
+* [Peter Cammeraat](https://petercammeraat.net/uses/) — Swift developer and designer that cares about user experience and privacy
 * [Seshal Jain](https://archgaelix.vercel.app/uses) — Emacs rookie passionate about aesthetic design and a beautiful, free web
 * [Chiko Mukwenha](https://chikomukwenha.co/2021/11/21/uses) — Frontend Engineer
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
