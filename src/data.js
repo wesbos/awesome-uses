@@ -15689,7 +15689,7 @@ module.exports = [
     emoji: '🍋',
     country: '🇺🇦',
     computer: 'windows',
-    phone: 'androis',
+    phone: 'android',
     tags: [
       'Developer',
       'Front End',
@@ -15712,6 +15712,7 @@ module.exports = [
       'GameMaker',
       'GDevelop',
       'Godot',
+	  'GDScript'
       'Scratch',
       'GitHub',
       'API',
