@@ -13001,6 +13001,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Morgan Gallant',
+    description: 'Programmer from Canada. Optimist.',
+    url: 'https://morgangallant.com/uses',
+    twitter: '@morgallant',
+    emoji: '🧑‍💻',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Engineer', 'VS Code', 'Go', 'Zig'],
+  },
+  {
     name: 'Stephen Senkomago Musoke',
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
