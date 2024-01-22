@@ -611,6 +611,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ben Leivian](https://benleivian.com/uses) — A “seasoned” full-stack developer & visual designer 🍔
 * [Danny de Vries](https://dandevri.es/uses) — Indie maker building products for the web and lecturer @CMDamsterdam
 * [David Petringa](https://david.dukesnuz.com/uses) — A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.
+* [Morgan Gallant](https://morgangallant.com/uses) — Programmer from Canada. Optimist.
 * [Stephen Senkomago Musoke](https://ssmusoke.com/uses) — Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker
 * [Jérémy Mouzin](https://jeremymouzin.com/uses) — Software Engineer, Tutorial Maker, Entrepreneur, Blogger
 * [John Cranston](https://pursuitofloot.gg/uses) — Part lead front-ender, Part vidya-streamer, All cat dad.
