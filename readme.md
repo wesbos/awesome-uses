@@ -558,6 +558,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David O'Trakoun](https://www.davidosomething.com/uses/) — Software Engineer
 * [Dean Harris](https://deanacus.com/uses/) — Front End Developer. Husband. Skateboarder. Occasional blogger
 * [Michael Hoffmann](https://www.mokkapps.de/uses) — Freelance Software Engineer
+* [Mike Hart](https://gist.github.com/boilemmashem/4764c911726d8c1599e2c39a4003626a) — Front-end dev with a design background, IoT, tabletop RPGs, painting, and mixing them together.
 * [Colin Morris](https://vonexplaino.com/blog/posts/page/uses.html) — Steampunker, solution architect and web developer. Mad science works for all cases.
 * [Austin Gil](https://austingil.com/uses/) — 📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
@@ -842,6 +843,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Lee](https://simonhlee97.github.io/uses/) — Front end developer. Indiana Hoosier.
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
 * [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
+* [Aaron Pham](https://aarnphm.xyz/uses) — distributed and ml system.
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware
