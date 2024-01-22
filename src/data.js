@@ -18128,6 +18128,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Aaron Pham',
+    description: 'distributed and ml system.',
+    url: 'https://aarnphm.xyz/uses',
+    emoji: '🤗',
+    country: '🇨🇦',
+    computer: 'apple',
+    twitter: '@aarnphm_',
+    phone: 'iphone',
+    tags: [
+      'Python',
+      'neovim',
+      'Ableton',
+      'Golang',
+    ],
+  },
+  {
     name: 'Matt Walsh',
     description: 'Python programmer with love for data and automation',
     url: 'https://mattwalsh.dev/uses/',
