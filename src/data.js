@@ -8781,7 +8781,7 @@ module.exports = [
     name: 'Nathan Knowler',
     description:
       'Developer focused on making the Web accessible, beautiful, and fun.',
-    url: 'https://knowlerkno.ws/uses/',
+    url: 'https://knowler.dev/uses',
     country: '🇨🇦',
     computer: 'apple',
     phone: 'android',
@@ -8792,8 +8792,7 @@ module.exports = [
       'HTML',
       'CSS',
       'JavaScript',
-      'React',
-      'Remix',
+      'Web Components',
       'Deno',
       'Neovim',
     ],
