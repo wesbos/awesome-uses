@@ -409,7 +409,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Varatep Buranintu](https://www.varatech.io/uses/) — Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.
 * [Anwar Hussain](https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0) — Web Developer and No-Code Maker
 * [Matt Litzinger](https://mlitzinger.com/uses/) — Web Developer
-* [Nathan Knowler](https://knowlerkno.ws/uses/) — Developer focused on making the Web accessible, beautiful, and fun.
+* [Nathan Knowler](https://knowler.dev/uses) — Developer focused on making the Web accessible, beautiful, and fun.
 * [Asur Bernardo](https://asur.dev/uses/) — Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!
 * [Lazar Nikolov](https://nikolovlazar.com/uses) — Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.
 * [Vinoth Chellamuthu](https://ecevinoth.github.io/#uses) — Data Engineer
