@@ -1663,7 +1663,7 @@ module.exports = [
       'Firefox',
       'npm',
       'Websites',
-      'Neocities'
+      'Neocities',
     ],
   },
   {
