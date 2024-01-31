@@ -1616,7 +1616,7 @@ module.exports = [
       'FFmpeg',
     ],
   },
-{
+  {
     name: 'lime360',
     description: 'idk',
     url: 'https://lime360.neocities.org/uses',
@@ -1645,8 +1645,6 @@ module.exports = [
       'Clickteam Fusion',
       'GameMaker',
       'GDevelop',
-      'Godot',
-      'GDScript',
       'Scratch',
       'GitHub',
       'API',
