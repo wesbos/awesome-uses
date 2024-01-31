@@ -188,6 +188,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sascha Diercks](https://saschadiercks.de/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
 * [Joshua Rose](https://jrgiant.tech/uses) — Loves Christ, loves family, loves programming, full stack dev
 * [Victor Pierre Alves](https://victorpierre.dev/uses) — Senior Software Engineer. I mostly code in Go these days. I live in Canada.
+* [Christian Tietze](https://christiantietze.de/uses) — Mac app dev, Zettelkasten zealot, tinkerer and writer
 * [Diego Costa](https://diegocosta.me/uses) — Engineering Manager and Full-stack software engineer
 * [Jeremiah Boby](https://jerbob.me/uses) — Python developer specialising in web tech
 * [Haryel Gillet](https://peaceful-leavitt-25b1d3.netlify.app/uses) — FullStack Developer focused on Backend
@@ -353,6 +354,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tobias Schmidt](https://tobiasschmidt.me/uses/) — Digitalisation Expert 📠
 * [Gift Egwuenu](https://giftegwuenu.com/uses) — 💻Frontend Engineer and Technical Writer.
 * [Chandu J S](https://chandujs.dev/uses) — 💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.
+* [Edgaras Benediktavicius](https://edgaras.com/uses) — Hyper curious maker for the Web. Designer and Developer.
 * [Shubham Battoo](https://shubhambattoo.in/uses) — Software Engineer focused on Web Technologies from India.
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
