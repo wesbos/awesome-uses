@@ -64,13 +64,13 @@ module.exports = [
     phone: 'android',
     tags: [
       'Developer',
-      'Front End'
+      'Front End',
       'JavaScript',
       'React',
       'Bootstrap',
       'Back End',
       'SQL',
-      'Markdown',
+      'Markdown'
     ],
   },
   {
