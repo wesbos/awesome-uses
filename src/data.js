@@ -7487,8 +7487,7 @@ module.exports = [
   },
   {
     name: 'Edgaras Benediktavicius',
-    description:
-      'Hyper curious maker for the Web. Designer and Developer.',
+    description: 'Hyper curious maker for the Web. Designer and Developer.',
     url: 'https://edgaras.com/uses',
     twitter: '@edgarasben',
     emoji: '🔗',
