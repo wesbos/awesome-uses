@@ -9916,8 +9916,8 @@ module.exports = [
   {
     name: 'Sunny',
     description:
-      'Programmer, designer, musician, photographer and video editor.',
-    url: 'https://sny.sh/#uses',
+      'Programmer, designer, musician, photographer, video editor and writer.',
+    url: 'https://sny.sh/sunny/#uses',
     emoji: '☀️',
     country: '🇩🇪',
     computer: 'linux',
