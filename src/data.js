@@ -11435,7 +11435,7 @@ module.exports = [
       'Next.js',
       'Python',
       'AWS',
-      'GCP'
+      'GCP',
     ],
   },
   {

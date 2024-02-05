@@ -534,6 +534,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
 * [Jan Durkaj](https://jandurkaj.dev/uses) — Web developer, adventurer, and amateur photographer
+* [Cory Forsythe](https://coryforsythe.com/uses) — Software Manager, Cloud Architect, Python and JS guy
 * [Tom MacWright](https://macwright.com/uses) — Founder, writer, programmer
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
 * [Watheq Alshowaiter](http://watheq.xyz/uses) — Web developer, Blogger, and Technical Translator
