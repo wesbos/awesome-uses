@@ -72,6 +72,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Zilvinas Kucinskas](https://www.ziku.dev/uses/) — Full Stack Ruby on Rails Engineer and Entrepreneur
 * [Carlos Alexandro Becker](https://carlosbecker.com/uses) — A site reliability engineer, from Brazil
 * [Andy Carolan](https://www.andycarolan.com/uses/) — Illustrator, Graphic Designer, No Code, Remote
+* [Jeremiah Lee](https://www.jeremiahlee.com/uses/) — Web Developer, Digital Rights Activist, Macro-optimist
 * [Alex O'Reilly](https://alekzandriia.com/uses/) — Scientist turned Web developer from the Great White North.
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
