@@ -53,7 +53,7 @@ module.exports = [
       'Developer',
     ],
   },
-   {
+  {
     name: 'Bino Kochumol Varghese',
     description: 'Developer. Reader. Writer. Wanderlust.',
     url: 'https://binovarghese.com/blog/2021/what-i-use-2021/',
@@ -70,7 +70,7 @@ module.exports = [
       'Bootstrap',
       'Back End',
       'SQL',
-      'Markdown'
+      'Markdown',
     ],
   },
   {
@@ -122,7 +122,8 @@ module.exports = [
   },
   {
     name: 'Ronny Coste',
-    description: 'Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast',
+    description:
+      'Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast',
     url: 'https://ronnycoste.com/uses',
     emoji: '🕺🏽',
     twitter: '@costeronny',

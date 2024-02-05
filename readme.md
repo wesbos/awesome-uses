@@ -32,8 +32,10 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
+* [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
+* [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
 * [Colin Ramsay](https://colinramsay.co.uk/uses) — Director and software developer at Go Tripod in Cornwall
 * [Jacob Lamb](https://jacobdalamb.dev/uses) — web engineer, musician, and builder
