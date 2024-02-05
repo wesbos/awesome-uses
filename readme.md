@@ -693,6 +693,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jovylle Bermudez](https://jovyllebermudez.com/uses) — A Web Developer from the Philippines.
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
 * [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
+* [Arge Niño](https://argenh.dev/uses) — Full Stack Developer
 * [Josef Aidt](https://josefaidt.dev/uses) — JavaScript and Garlic Bread connoisseur
 * [Kyle Platt](https://kyleplatt.com/uses) — Senior Software Engineer, Multi Startup Founder, Building Projects in Public
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
