@@ -53,6 +53,26 @@ module.exports = [
       'Developer',
     ],
   },
+   {
+    name: 'Bino Kochumol Varghese',
+    description: 'Developer. Reader. Writer. Wanderlust.',
+    url: 'https://binovarghese.com/blog/2021/what-i-use-2021/',
+    twitter: '@binovarghese_',
+    emoji: '⚡',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Front End',
+      'JavaScript',
+      'React',
+      'Bootstrap',
+      'Back End',
+      'SQL',
+      'Markdown'
+    ],
+  },
   {
     name: 'Krishna Sahu',
     description: 'Frontend Tech Lead',
