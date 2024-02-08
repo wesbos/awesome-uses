@@ -14986,6 +14986,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Mike Walsh',
+    description: 'Web Designer & Developer, Translator and Professor in South-Central Chile',
+    url: 'https://www.elmike.me/uses/',
+    emoji: '🙃',
+    country: '🇨🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Designer','Developer','Publii CMS','HTML','CSS','Blogger','Web','macOS','iOS','GitHub','Netlify','JavaScript','PHP','Wordpress','Teacher','Sublime Text','Remote','Cloudflare','Minimalist'],
+  }, 
+  {
     name: 'Amit Merchant',
     description: 'Maker of things. Open-source enthusiast. Blogger. ',
     url: 'https://www.amitmerchant.com/uses',
