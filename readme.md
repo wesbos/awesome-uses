@@ -480,6 +480,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dave Mullen Jnr](https://davemullenjnr.co.uk/uses) — Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.
 * [Tiffany White](https://tiffanywhite.dev/uses/) — Frontend dev, blogger, podcaster, herder of cats
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
+* [Riley Shaw](https://rileyjshaw.com/uses) — Programmer, interface designer, noisemaker, mender.
 * [Nathan Smith](https://nathan-smith.org/uses) — Full stack dev, cat dad, dungeon master.
 * [Joshua Ryan Velasquez](https://joshua-afk.github.io/uses) — Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.
 * [Darlene Zouras](https://darzouras.com/uses/) — Front-End and UI/UX Developer, Accessibility advocate, JAMStack fan, working in the marketing and entertainment industry
