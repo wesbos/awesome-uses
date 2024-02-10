@@ -860,6 +860,7 @@ module.exports = [
     description:
       'German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.',
     url: 'https://harambasic.de/uses',
+    twitter: '@luka_harambasic',
     emoji: '🧔🏻‍♂️',
     country: '🇩🇰',
     computer: 'apple',
