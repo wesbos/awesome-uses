@@ -95,6 +95,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Sudan Chapagain',
+    description:
+      'Student',
+    url: 'https://sudanchapagain.com.np/uses',
+    twitter: '@sudanchapagain',
+    emoji: '📌',
+    country: '🇳🇵',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['neovim','astro','tailwind','go','c',],
+  },
+  {
     name: 'James Auble',
     description: 'Full Stack Developer',
     url: 'https://jamesauble.com/uses',
