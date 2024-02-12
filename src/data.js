@@ -96,15 +96,14 @@ module.exports = [
   },
   {
     name: 'Sudan Chapagain',
-    description:
-      'Student',
+    description: 'Student',
     url: 'https://sudanchapagain.com.np/uses',
     twitter: '@sudanchapagain',
     emoji: '📌',
     country: '🇳🇵',
     computer: 'windows',
     phone: 'android',
-    tags: ['neovim','astro','tailwind','go','c',],
+    tags: ['neovim', 'astro', 'tailwind', 'go', 'c'],
   },
   {
     name: 'James Auble',
@@ -877,7 +876,16 @@ module.exports = [
     country: '🇩🇰',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Product Manager', 'Web Developer', 'TypeScript', 'JavaScript', 'CSS', 'Svelte', 'UI', 'UX'],
+    tags: [
+      'Product Manager',
+      'Web Developer',
+      'TypeScript',
+      'JavaScript',
+      'CSS',
+      'Svelte',
+      'UI',
+      'UX',
+    ],
   },
   {
     name: 'Justin Mahar',

@@ -34,6 +34,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
+* [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
@@ -65,6 +66,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
+* [Luka Harambasic](https://harambasic.de/uses) — German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
 * [Syofyan Zuhad](https://syofyan-profile.vercel.app/uses/) — Full Stack Software Engineer 🇮🇩
 * [Zach Patrick](https://zachpatrick.com/uses) — JavaScript and PHP developer
