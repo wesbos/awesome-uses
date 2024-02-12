@@ -14116,6 +14116,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Hugh He',
+    description: 'FOSS Developer, Student',
+    url: 'https://github.com/plushugh/plushugh/blob/main/USES.md',
+    twitter: '@plushugh',
+    emoji: '😭',
+    computer: 'apple',
+    tags: [
+      'Hardware',
+      'DevOps',
+      'Full Stack',
+      'TypeScript',
+      'Go',
+      'Rust'
+    ]
+  },
+  {
     name: 'Bob Matyas',
     description: 'Web Developer // IndieWeb',
     url: 'https://www.bobmatyas.com/uses',
