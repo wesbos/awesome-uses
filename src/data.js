@@ -868,6 +868,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Luka Harambasic',
+    description:
+      'German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.',
+    url: 'https://harambasic.de/uses',
+    twitter: '@luka_harambasic',
+    emoji: '🧔🏻‍♂️',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Product Manager', 'Web Developer', 'TypeScript', 'JavaScript', 'CSS', 'Svelte', 'UI', 'UX'],
+  },
+  {
     name: 'Justin Mahar',
     description: 'Extremely bald Software Architect & Content Creator',
     url: 'https://justinmahar.com/uses/',
