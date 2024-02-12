@@ -14153,6 +14153,7 @@ module.exports = [
     url: 'https://plushugh.com/uses',
     twitter: '@plushugh',
     emoji: '😭',
+    country: '🇨🇳',
     computer: 'apple',
     tags: [
       'Hardware',
