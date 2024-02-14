@@ -188,7 +188,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Fazley Rabbi',
+    name: 'Md Fazley Rabbi',
     description: 'Web Developer based on bangladesh who loves tech and gadgets',
     url: 'https://fazleyrabbi.xyz/uses/',
     emoji: '🤔',
