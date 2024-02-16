@@ -17989,6 +17989,21 @@ module.exports = [
     tags: ['Writer', 'Developer', 'Python', 'CSS', 'HTML', 'Film', 'Blogger'],
   },
   {
+    name: 'C Jackdaw',
+    description: 'Writer, Artist, Freelance Occultist',
+    url: 'https://skyhold.org/uses',
+    emoji: '🗝️',
+    country: '🇺🇸',
+    computer: 'linux',
+    tags: [
+      'Writer',
+      'Artist',
+      'HTML',
+      'CSS',
+      'Tarot Reader',
+    ],
+  },
+  {
     name: 'Filip Pacurar',
     description:
       'Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO',
