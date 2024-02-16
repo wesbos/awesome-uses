@@ -747,6 +747,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jesse Dyck](https://jessedyck.me/uses) — Web Developer and sometimes SysAdmin.
 * [Florian Kapfenberger](https://phiilu.com/uses) — Frontend developer from Austria who likes to create modern applications with React (Native)
 * [TaeHee Kim](https://roto.dev/uses) — Front-end Engineer, Bassist, Cat lover.
+* [Hong](https://honghong.me/uses) — Full Stack Developer
 * [Moisés Ñañez](https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa) — Programmer and musician
 * [Maria Altyeva Schuessler ](http://mariacodes.io/uses) — Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China
 * [Paul Esch-Laurent](https://paul.af/uses) — Software Engineer
