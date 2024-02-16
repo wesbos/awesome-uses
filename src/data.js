@@ -18063,13 +18063,7 @@ module.exports = [
     emoji: '🗝️',
     country: '🇺🇸',
     computer: 'linux',
-    tags: [
-      'Writer',
-      'Artist',
-      'HTML',
-      'CSS',
-      'Tarot Reader',
-    ],
+    tags: ['Writer', 'Artist', 'HTML', 'CSS', 'Tarot Reader'],
   },
   {
     name: 'Filip Pacurar',
