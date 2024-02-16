@@ -15852,7 +15852,7 @@ module.exports = [
   {
     name: 'Den Talalá',
     description: 'Experienced digital designer, podcaster, and photographer',
-    url: 'https://talala.info/tools',
+    url: 'https://talala.info/uses',
     twitter: '@r3s3t',
     emoji: '🍌',
     country: '🇳🇱',
