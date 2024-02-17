@@ -14199,14 +14199,7 @@ module.exports = [
     emoji: '😭',
     country: '🇨🇳',
     computer: 'apple',
-    tags: [
-      'Hardware',
-      'DevOps',
-      'Full Stack',
-      'TypeScript',
-      'Go',
-      'Rust'
-    ]
+    tags: ['Hardware', 'DevOps', 'Full Stack', 'TypeScript', 'Go', 'Rust'],
   },
   {
     name: 'Bob Matyas',
