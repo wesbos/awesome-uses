@@ -386,8 +386,8 @@ module.exports = [
     url: 'https://www.jamesoneill.eu/uses/',
     emoji: '🖖',
     country: '🇬🇧',
-    computer: 'iphone',
-    phone: 'apple',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Remote',
