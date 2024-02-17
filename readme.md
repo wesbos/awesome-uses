@@ -743,6 +743,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nicky Meuleman](https://nickymeuleman.netlify.app/uses) — Web developer, F1 fan.
 * [George Daneke](https://daneke.ge/uses/) — Web developer, freelancer, creator of things
 * [Rob Warner](https://grailbox.com/uses/) — Software Architect, Developer, Father.
+* [Den Talalá](https://talala.info/uses) — Experienced digital designer, podcaster, and photographer
 * [Adam Urban](https://urbanisierung.dev/uses/) — coder, father, left-handed
 * [Rynaard Burger](https://rynaardb.com/uses) — Mobile Software Engineer. Swift, Objective-C, former .NET & Java developer.
 * [Jesse Dyck](https://jessedyck.me/uses) — Web Developer and sometimes SysAdmin.
