@@ -14192,6 +14192,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Hugh He',
+    description: 'FOSS Developer, Student',
+    url: 'https://plushugh.com/uses',
+    twitter: '@plushugh',
+    emoji: '😭',
+    country: '🇨🇳',
+    computer: 'apple',
+    tags: [
+      'Hardware',
+      'DevOps',
+      'Full Stack',
+      'TypeScript',
+      'Go',
+      'Rust'
+    ]
+  },
+  {
     name: 'Bob Matyas',
     description: 'Web Developer // IndieWeb',
     url: 'https://www.bobmatyas.com/uses',
