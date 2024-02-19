@@ -930,6 +930,16 @@ module.exports = [
     ],
   },
   {
+    name: "Jesse Stilwell",
+    description: "DevOps Engineer and Hobbyist Web Developer",
+    url: "https://stilwell.dev/uses",
+    emoji: "🤓",
+    country: "🇺🇸",
+    computer: "windows",
+    phone: "iphone",
+    tags: ["Docker", "Python", "TypeScript", "Svelte", "SvelteKit", "Vim", "VS Code", "Markdown", "Backend", "Frontend", "Full Stack"],
+  },
+  {
     name: 'Luka Harambasic',
     description:
       'German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.',
