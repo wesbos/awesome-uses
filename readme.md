@@ -47,6 +47,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator
 * [Akif Al Hakim](https://akif.my.id/uses) — Frontend Developer.
 * [Eric T Grubaugh](https://stoic.software/uses) — SuiteScript Coach
+* [James O'Neill](https://www.jamesoneill.eu/uses/) — Full Stack Developer.
 * [Jonas Hietala](https://www.jonashietala.se/uses/) — Writer, developer and wannabe code monkey.
 * [Marshall Bowers](https://maxdeviant.com/uses/) — Conjurer of code. Devourer of art. Pursuer of æsthetics.
 * [Sho Koike](https://putcut.net/uses) — Software Engineer, Gamer, Podcaster

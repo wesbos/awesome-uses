@@ -381,7 +381,7 @@ module.exports = [
     ],
   },
   {
-    name: 'James O\'Neill',
+    name: "James O'Neill",
     description: 'Full Stack Developer.',
     url: 'https://www.jamesoneill.eu/uses/',
     emoji: '🖖',
