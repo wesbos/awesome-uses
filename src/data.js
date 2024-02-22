@@ -3298,6 +3298,25 @@ module.exports = [
     ],
   },
   {
+    name: 'MITSUBOSHI Yuya',
+    description: 'Software Engineer',
+    url: 'https://github.com/MITSUBOSHI/uses',
+    emoji: '⭐',
+    country: '🇯🇵',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Backend',
+      'Ruby',
+      'Ruby on Rails',
+      'React',
+      'TypeScript',
+      'Rust',
+      'Go'
+    ]
+  },
+  {
     name: 'Vega Deftwing',
     description: 'Furry forging firmware from frustration',
     url: 'https://opguides.info/posts/uses/',
