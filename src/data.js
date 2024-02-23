@@ -17623,6 +17623,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Jordan Hofker',
+    description: 'Husband, father, engineer, and sometimes I take pictures. From Nebraska. Hobby collector.',
+    url: 'https://jordan.hofker.org/uses/',
+    twitter: '@jhofker@hachyderm.io',
+    emoji: '👋🏻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Engineering Leadership',
+      'JavaScript',
+      'TypeScript',
+      'C#',
+      'HTML',
+      'CSS',
+      '.NET Core',
+      'Eleventy',
+    ],
+  },
+  {
     name: 'Matt Busche',
     description:
       'Full Stack developer from Des Moines, Iowa, web performance enthusiast',
