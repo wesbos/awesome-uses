@@ -17626,7 +17626,7 @@ module.exports = [
     name: 'Jordan Hofker',
     description: 'Husband, father, engineer, and sometimes I take pictures. From Nebraska. Hobby collector.',
     url: 'https://jordan.hofker.org/uses/',
-    twitter: '@jhofker@hachyderm.io',
+    twitter: '@jhofker',
     emoji: '👋🏻',
     country: '🇺🇸',
     computer: 'apple',
