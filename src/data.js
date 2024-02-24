@@ -1698,7 +1698,7 @@ module.exports = [
   {
     name: 'Márk Mihályi',
     description: 'Full-Stack Engineer from Hungary',
-    url: 'https://markmihalyi.com/uses',
+    url: 'https://markmihalyi.hu/uses',
     twitter: '@_markmihalyi',
     emoji: '💻',
     country: '🇭🇺',
