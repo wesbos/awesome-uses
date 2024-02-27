@@ -14278,6 +14278,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Fanis Hatzidakis',
+    description: 'Head of Technology based in Cyprus',
+    url: 'https://fanis.hatzidakis.org/uses',
+    emoji: '😎',
+    twitter: '@fanishatzidakis',
+    country: '🇨🇾',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'Backend',
+      'PHP',
+      'PHPStorm',
+      'API',
+    ],
+  },
+  {
     name: 'Hugh He',
     description: 'FOSS Developer, Student',
     url: 'https://plushugh.com/uses',
