@@ -101,7 +101,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ryan Freeman](https://ryanfreeman.dev/uses) — Full-stack software engineer from Dublin, Ireland
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
-* [Márk Mihályi](https://markmihalyi.com/uses) — Full-Stack Engineer from Hungary
+* [Márk Mihályi](https://markmihalyi.hu/uses) — Full-Stack Engineer from Hungary
 * [Vít Baisa](https://vit.baisa.cz/uses) — Software engineer who likes removing code
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
 * [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
