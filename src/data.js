@@ -14267,13 +14267,7 @@ module.exports = [
     country: '🇨🇾',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'Backend',
-      'PHP',
-      'PHPStorm',
-      'API',
-    ],
+    tags: ['Engineer', 'Backend', 'PHP', 'PHPStorm', 'API'],
   },
   {
     name: 'Hugh He',
