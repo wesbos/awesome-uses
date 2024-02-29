@@ -368,6 +368,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Edgaras Benediktavicius](https://edgaras.com/uses) — Hyper curious maker for the Web. Designer and Developer.
 * [Shubham Battoo](https://shubhambattoo.in/uses) — Software Engineer focused on Web Technologies from India.
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
+* [João Vitor Zaniolo](https://jvzaniolo.vercel.app/uses/) — Front-end developer, gamer and tech enthusiast.
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Danny Solivan](https://solivan.dev/blog/uses) — Test engineer. Web developer on the side.

@@ -7797,7 +7797,7 @@ module.exports = [
     emoji: '🍕',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['front-end', 'developer', 'react', 'javascript', 'typescript']
+    tags: ['front-end', 'developer', 'react', 'javascript', 'typescript'],
   },
   {
     name: 'Arturo De la Garza',
