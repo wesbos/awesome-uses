@@ -400,7 +400,7 @@ module.exports = [
     ],
   },
   {
-    name: "Hwee-Boon Yar",
+    name: 'Hwee-Boon Yar',
     description: 'iOS/macOS app Developer.',
     url: 'https://hboon.com/uses/',
     emoji: '😱',
@@ -14729,13 +14729,7 @@ module.exports = [
     country: '🇻🇳',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Back End',
-      'DevOps',
-      'Python',
-      'Go',
-      'Rust',
-    ],
+    tags: ['Back End', 'DevOps', 'Python', 'Go', 'Rust'],
   },
   {
     name: 'Adrián Alcorta Puente',
