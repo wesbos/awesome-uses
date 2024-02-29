@@ -14693,6 +14693,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Quan Tong',
+    description:
+      'Software Engineer, DevOps Engineer, Traveller, Street photography lover',
+    url: 'https://quantonganh.com/uses',
+    twitter: '@quantonganh',
+    emoji: '🏓',
+    country: '🇻🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Back End',
+      'DevOps',
+      'Python',
+      'Go',
+      'Rust',
+    ],
+  },
+  {
     name: 'Adrián Alcorta Puente',
     description:
       'Frontend developer. I love mountains, Game Boys and Post-rock music.',
