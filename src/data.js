@@ -7789,6 +7789,17 @@ module.exports = [
     ],
   },
   {
+    name: 'João Vitor Zaniolo',
+    description: 'Front-end developer, gamer and tech enthusiast.',
+    url: 'https://jvzaniolo.vercel.app/uses/',
+    twitter: '@jvzaniolo',
+    country: '🇧🇷',
+    emoji: '🍕',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['front-end', 'developer', 'react', 'javascript', 'typescript']
+  },
+  {
     name: 'Arturo De la Garza',
     description:
       'Full-stack web developer, avid learner, loves to play video games and board games',
