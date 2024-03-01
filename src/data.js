@@ -180,8 +180,7 @@ module.exports = [
   },
   {
     name: 'Matt Obee',
-    description:
-      'Design technologist specialising in accessibility.',
+    description: 'Design technologist specialising in accessibility.',
     url: 'https://mattobee.com/uses',
     emoji: '🚀',
     country: '🇬🇧',

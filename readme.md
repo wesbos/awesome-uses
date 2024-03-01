@@ -38,6 +38,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast
+* [Matt Obee](https://mattobee.com/uses) — Design technologist specialising in accessibility.
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
 * [Md Fazley Rabbi](https://fazleyrabbi.xyz/uses/) — Web Developer based on bangladesh who loves tech and gadgets
 * [Colin Ramsay](https://colinramsay.co.uk/uses) — Director and software developer at Go Tripod in Cornwall
