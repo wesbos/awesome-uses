@@ -178,7 +178,7 @@ module.exports = [
       'Git',
     ],
   },
-    {
+  {
     name: 'Matt Obee',
     description:
       'Design technologist specialising in accessibility.',
@@ -193,8 +193,9 @@ module.exports = [
       'Design Technologist',
       'HTML',
       'CSS',
-      'React',
       'Git',
+      'VS Code',
+      'Figma',
     ],
   },
   {
