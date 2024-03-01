@@ -179,6 +179,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Obee',
+    description:
+      'Design technologist specialising in accessibility.',
+    url: 'https://mattobee.com/uses',
+    emoji: '🚀',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Accessibility',
+      'Design Technologist',
+      'HTML',
+      'CSS',
+      'Git',
+      'VS Code',
+      'Figma',
+    ],
+  },
+  {
     name: 'Mariusz Szubryt',
     description: 'Frontend-oriented Product Engineer',
     url: 'https://szubryt.net/uses',
