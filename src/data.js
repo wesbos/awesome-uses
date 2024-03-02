@@ -12352,6 +12352,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Imran Nazar',
+    description: 'Frontend developer with an eye for retrocomputing, author of Coffeepot Control Protocol for Teapots (RFC 7168)',
+    url: 'https://imrannazar.com/uses',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Frontend',
+      'TypeScript',
+      'JavaScript',
+      'PHP',
+      'C64',
+    ],
+  },
+  {
     name: 'Kilian Valkhof',
     description: 'User experience developer',
     url: 'https://kilianvalkhof.com/using/',
