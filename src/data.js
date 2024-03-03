@@ -18835,11 +18835,10 @@ module.exports = [
     description:
       'Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM',
     url: 'https://www.rpdaley.com/uses/',
-    twitter: '@TweetRye',
     emoji: '🤓',
     country: '🇨🇦',
     computer: 'apple',
-    phone: 'iphone',
+    phone: 'android',
     tags: [
       'Developer',
       'Front End',
@@ -18902,6 +18901,30 @@ module.exports = [
       'MongoDB',
       'Firebase',
       'GraphQL',
+    ],
+  },
+  {
+    name: 'Hathaipach I',
+    description:
+      "I'm Software Tester from Thailand focus test on AWS:S3, Mobile app (iOS & Android), Web applocation.",
+    url: 'https://hathaipach.github.io/',
+    twitter: '@tigerorm1',
+    emoji: '🌻',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Web Development',
+      'Node.js',
+      'DB Testing',
+      'API Testing',
+      'Mobile Testing',
+      'S3 Testing',
+      'Web Testing',
+      'UI Testing'
     ],
   },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
