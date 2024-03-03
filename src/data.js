@@ -18904,6 +18904,27 @@ module.exports = [
       'GraphQL',
     ],
   },
+  {
+    name: 'Thu Le',
+    description:
+      "Product & Experience Designer working in B2B SaaS.",
+    url: 'https://thu-le.com/uses',
+    twitter: '@_tple',
+    emoji: '🤓',
+    country: '🇻🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Product Design',
+      'Product Management',
+      'UX',
+      'UI',
+      'HTML',
+      'CSS',
+      'Figma',
+    ],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
