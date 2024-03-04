@@ -18916,8 +18916,7 @@ module.exports = [
   },
   {
     name: 'Thu Le',
-    description:
-      "Product & Experience Designer working in B2B SaaS.",
+    description: 'Product & Experience Designer working in B2B SaaS.',
     url: 'https://thu-le.com/uses',
     twitter: '@_tple',
     emoji: '🤓',
