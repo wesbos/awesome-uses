@@ -579,6 +579,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Colin Morris](https://vonexplaino.com/blog/posts/page/uses.html) — Steampunker, solution architect and web developer. Mad science works for all cases.
 * [Austin Gil](https://austingil.com/uses/) — 📝 Writing about code and stuff at http://austingil.com; 🛠 Building Vuetensils & Particles CSS; 🎙 Hosting @theFnCall; 🐶 Loving http://instagr.am/nuggetthemighty
 * [Michael Le](https://www.michael1e.com/uses/) — Software Engineer
+* [Imran Nazar](https://imrannazar.com/uses) — Frontend developer with an eye for retrocomputing, author of Coffeepot Control Protocol for Teapots (RFC 7168)
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
 * [Spencer Aung](https://spenceraung.me/blog/uses) — Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses
 * [Dale French](https://dalefrench.dev/uses) — Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.
