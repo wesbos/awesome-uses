@@ -53,7 +53,7 @@ module.exports = [
       'HTML',
       'PHP',
       'Full Stack',
-      'CSS', 
+      'CSS',
       'Node.js',
       'Front End',
       'VS Code',
@@ -15764,19 +15764,13 @@ module.exports = [
   },
   {
     name: 'Amanda Parada',
-    description:
-      'CS student. Unfortunately not an actual owl.',
+    description: 'CS student. Unfortunately not an actual owl.',
     url: 'https://lechuza.cafe/uses',
     emoji: '🦉',
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Student',
-      'Arch Linux',
-      'Artist',
-      'Nginx',
-    ],
+    tags: ['Student', 'Arch Linux', 'Artist', 'Nginx'],
   },
   {
     name: 'Michael Beckwith',

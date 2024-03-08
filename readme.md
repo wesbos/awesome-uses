@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
+* [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
@@ -739,6 +740,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
 * [Ryan Senn](https://ryansenn.dev/uses) — Software engineer turned business owner. Loves functional porgramming.
+* [Amanda Parada](https://lechuza.cafe/uses) — CS student. Unfortunately not an actual owl.
 * [Michael Beckwith](https://apiratelifefor.me/uses/) — PHP and WordPress developer/support, coffee consumer, gym monkey
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
