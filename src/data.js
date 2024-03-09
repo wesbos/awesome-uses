@@ -135,7 +135,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Frontend',
+      'Front End',
       'JavaScript',
       'TypeScript',
       'React',
@@ -143,6 +143,7 @@ module.exports = [
       'Angular',
       'Bootstrap',
       'Tailwind CSS',
+      'Node.js',
       'NoSQL',
       'PostgreSQL',
       'Cypress'
