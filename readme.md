@@ -35,6 +35,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
+* [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
@@ -67,6 +68,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
 * [Tim Bachmann](https://tiim.ch/pages/uses) — Software Engineer from Switzerland, currently working on one of my way too many side projects.
 * [Neil Gupta](https://www.neil.gg/uses) — Designed in California. Assembled in Chicago. I like to build things.
+* [Neil Grogan](https://www.neilgrogan.com/uses) — Software Engineering Manager in Telco Domain - based in middle of Ireland!
 * [Jose Munoz](https://www.josemunozmatos.com/uses) — Product Designer from Puerto Rico
 * [Ibrahim Nurul Huda](https://www.sarbeh.com/uses) — creates visual narratives on web development, design, and Sharia studies.
 * [uncenter](https://www.uncenter.dev/uses) — Open source software developer, geography nerd, and high school student.

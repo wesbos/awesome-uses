@@ -127,7 +127,7 @@ module.exports = [
   },
   {
     name: 'Dinesh Haribabu',
-    description:'Frontend Engineer and tech enthusiast',
+    description: 'Frontend Engineer and tech enthusiast',
     url: 'https://dineshharibabu.in/uses',
     twitter: '@dinesh_haribabu',
     emoji: '🍀',
@@ -146,7 +146,7 @@ module.exports = [
       'Node.js',
       'NoSQL',
       'PostgreSQL',
-      'Cypress'
+      'Cypress',
     ],
   },
   {
@@ -940,7 +940,7 @@ module.exports = [
       'Git',
       'Ruby',
       'Full Stack',
-      'Remote', 
+      'Remote',
       'Developer',
       'Web Development',
     ],
