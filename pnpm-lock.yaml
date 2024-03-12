@@ -15,6 +15,8 @@ specifiers:
   '@remix-run/react': ^1.13.0
   '@remix-run/serve': ^1.13.0
   '@remix-run/server-runtime': ^1.13.0
+  '@tanstack/react-virtual': 3.0.0-beta.49
+  '@types/lodash.throttle': ^4.1.7
   '@types/node': ^18.14.0
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
@@ -36,6 +38,7 @@ specifiers:
   react-dom: ^18.2.0
   react-helmet: ^6.1.0
   react-is: ^18.2.0
+  remeda: ^1.6.2
   styled-components: 5.3.6
   typescript: ^4.9.5
 
@@ -54,6 +57,7 @@ dependencies:
   '@remix-run/react': 1.13.0_biqbaboplfbrettd7655fr4n2y
   '@remix-run/serve': 1.13.0
   '@remix-run/server-runtime': 1.13.0
+  '@tanstack/react-virtual': 3.0.0-beta.49_react@18.2.0
   '@types/node': 18.14.0
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
@@ -67,10 +71,12 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-helmet: 6.1.0_react@18.2.0
   react-is: 18.2.0
+  remeda: 1.8.0
   styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
   typescript: 4.9.5
 
 devDependencies:
+  '@types/lodash.throttle': 4.1.7
   '@types/styled-components': 5.1.26
   eslint: 8.34.0
   eslint-config-wesbos: 3.2.3_ztlnmuobvwn63gpuifwwrjpt4i
@@ -3102,6 +3108,19 @@ packages:
       defer-to-connect: 2.0.1
     dev: false
 
+  /@tanstack/react-virtual/3.0.0-beta.49_react@18.2.0:
+    resolution: {integrity: sha512-bd7WBHu1LUBbs3qYZnvWSo4AhcSysc/QyBoHpGK2XOMTXzP9D4FVISMfCvdIbi+JoTqdZqhtaV7c1WY5gzZRlQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@tanstack/virtual-core': 3.0.0-beta.49
+      react: 18.2.0
+    dev: false
+
+  /@tanstack/virtual-core/3.0.0-beta.49:
+    resolution: {integrity: sha512-tPmuUiQwUW3PdQirBjlqeZD1JMn7bcyNE6stS50RUu5vyopzLFALnN0uTBftrZOcHpkRtYVa0ifz9fB9yKKJYw==}
+    dev: false
+
   /@tootallnate/once/1.1.2:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
@@ -3245,6 +3264,16 @@ packages:
     dependencies:
       '@types/node': 18.14.0
     dev: false
+
+  /@types/lodash.throttle/4.1.7:
+    resolution: {integrity: sha512-znwGDpjCHQ4FpLLx19w4OXDqq8+OvREa05H89obtSyXyOFKL3dDjCslsmfBz0T2FU8dmf5Wx1QvogbINiGIu9g==}
+    dependencies:
+      '@types/lodash': 4.14.191
+    dev: true
+
+  /@types/lodash/4.14.191:
+    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
+    dev: true
 
   /@types/mdast/3.0.10:
     resolution: {integrity: sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==}
@@ -11664,6 +11693,10 @@ packages:
       '@types/mdast': 3.0.10
       mdast-util-to-hast: 11.3.0
       unified: 10.1.2
+    dev: false
+
+  /remeda/1.8.0:
+    resolution: {integrity: sha512-zhrGQbeIVJhXArg8/USMkZQeD36rr62SAt96bw5aOBjo7V399rOn7FrgQRG5WfxO9zME09vOtOs5nx1UsZ/80A==}
     dev: false
 
   /remove-trailing-separator/1.1.0:
