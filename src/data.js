@@ -8291,7 +8291,7 @@ module.exports = [
     emoji: '🐦‍⬛',
     country: '🇪🇺',
     computer: 'apple',
-    phone: 'ios',
+    phone: 'iphone',
     tags: [
       'DevOps',
       '11ty',
