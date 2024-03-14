@@ -1,4 +1,5 @@
 import type { LinksFunction, MetaFunction } from '@remix-run/node';
+import type { ShouldRevalidateFunction } from '@remix-run/react';
 import {
   Links,
   LiveReload,
@@ -22,6 +23,10 @@ export function loader() {
     devices: devices(),
   }
 }
+
+export const shouldRevalidate: ShouldRevalidateFunction = ({ currentUrl, nextUrl }) => {
+  return Boolean(currentUrl.pathname !== nextUrl.pathname);
+};
 
 const metaData = {
   description: `A list of /uses pages detailing developer setups.`,

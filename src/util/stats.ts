@@ -117,9 +117,8 @@ const normalizedTagMap = tags().reduce((acc, tag) => {
   return acc;
 }, {});
 
-export function getPeople(tag?: string) {
+export function getPeople() {
   return [...people]
-    .sort(() => Math.random() - 0.5)
     .map((person) => {
       const normalizedPerson = {
         ...person,
@@ -133,11 +132,4 @@ export function getPeople(tag?: string) {
         id: `person-${normalizedPerson.name}`,
       };
     })
-    .filter((person) => {
-      if (!tag) {
-        return true;
-      }
-      return person.tags.includes(tag) || person.country === tag || person.phone === tag || person.computer === tag;
-    })
-
 }
