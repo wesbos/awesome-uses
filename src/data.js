@@ -8110,6 +8110,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Alex Pamphilon',
+    description:
+      'Web & mobile app developer, specialising in front-end development.',
+    url: 'https://apamphilon.com/uses',
+    emoji: '🟡',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'React',
+      'React Native',
+      'Next.js',
+      'JavaScript',
+      'TypeScript',
+      'Tailwind CSS',
+      'Redux',
+      'SCSS',
+      'Web Developer',
+      'Mobile Developer',
+    ],
+  },
+  {
     name: 'Andrew Byrd',
     description: 'Web dev. Girl Dad. Bodybuilder. Gamer.',
     url: 'https://www.andrewbyrd.dev/uses/',
