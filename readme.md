@@ -382,6 +382,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Steve Della Valentina](https://sdv.im/uses) — Frontend engineer into blogging and digital gardening.
 * [Rajanand Ilangovan](https://rajanand.org/uses) — Business intelligence developer with over a decade of experience in designing and developing databases, ETL and reporting solutions. I am also a Microsoft certified trainer. 👉 https://rajanand.org/bio
 * [Joanna Hosking](https://joannahosking.com/uses) — Web developer, dog mom, football fanatic living in UK
+* [Alex Pamphilon](https://apamphilon.com/uses) — Web & mobile app developer, specialising in front-end development.
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
