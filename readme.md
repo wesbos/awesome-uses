@@ -271,6 +271,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Adil Naqvi](https://adilnaqvi.com/uses) — Mechanical engineer with a knack for coding
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
+* [Pedro Assunção](https://pedroassuncao/pages/uses) — Senior Software Developer. Likes the elixir programming language.
 * [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
 * [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)

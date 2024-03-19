@@ -5626,7 +5626,8 @@ module.exports = [
   },
   {
     name: 'Pedro Assunção',
-    description: 'Senior Software Developer. Likes the elixir programming language.',
+    description:
+      'Senior Software Developer. Likes the elixir programming language.',
     url: 'https://pedroassuncao/pages/uses',
     emoji: '👨‍💻',
     country: '🇵🇹',
@@ -5645,7 +5646,7 @@ module.exports = [
       'PostgreSQL',
       'OSX',
       'Software Engineer',
-      'Father'
+      'Father',
     ],
   },
   {
