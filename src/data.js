@@ -18836,7 +18836,7 @@ module.exports = [
     description: 'Curious human being',
     url: 'https://garrido.io/uses/',
     country: '🇨🇷',
-    computer: 'framework',
+    computer: 'windows',
     phone: 'iphone',
     tags: [
       'Framework Laptop',
