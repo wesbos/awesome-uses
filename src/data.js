@@ -18832,6 +18832,24 @@ module.exports = [
     tags: ['Python', 'neovim', 'Ableton', 'Golang'],
   },
   {
+    name: 'Gabriel Garrido',
+    description: 'Curious human being',
+    url: 'https://garrido.io/uses/',
+    country: '🇨🇷',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Framework Laptop',
+      'Windows',
+      'Sublime Text 4',
+      'Programmer',
+      'Ubuntu',
+      'Tailscale',
+      'Firefox',
+      'Ableton',
+    ]
+  },
+  {
     name: 'Matt Walsh',
     description: 'Python programmer with love for data and automation',
     url: 'https://mattwalsh.dev/uses/',
