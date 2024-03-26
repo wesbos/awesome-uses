@@ -877,6 +877,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
 * [Stanislav (Stas) Katkov](https://skatkov.com/uses) — Indie-hacker and developer
 * [Aaron Pham](https://aarnphm.xyz/uses) — distributed and ml system.
+* [Gabriel Garrido](https://garrido.io/uses/) — Curious human being
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware

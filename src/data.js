@@ -18847,7 +18847,7 @@ module.exports = [
       'Tailscale',
       'Firefox',
       'Ableton',
-    ]
+    ],
   },
   {
     name: 'Matt Walsh',
