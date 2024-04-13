@@ -285,6 +285,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Diogo Moreira](https://diogodmoreira.com/uses) — Professor, Software Engineer and Researcher.
 * [Vincent Lejtzén](https://lejtzendesign.se/uses) — Front end developer with love for design, user experience and SEO.
 * [Jakub Soboczyński](https://jakubsoboczynski.pl/uses) — Frontend Developer, who actively explores other technologies and paths, including backend development, and contributes to open-source projects like Raycast, while also having a passion for automation and electronic music, particularly dark techno.
+* [Ian Emnace](https://ig.emnace.org/uses.html) — Web developer. Unix citizen.
 * [Yves Engetschwiler](http://bee-interactive.ch/uses) — Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive
 * [Sapan Bodiwala](https://sapanbodiwala.com/uses) — Full Stack Software Engineer
 * [Neil Italia](https://blog.neilitalia.dev/uses/) — UI/UX Designer + Front-End Developer Unicorn Combo
