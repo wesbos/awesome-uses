@@ -177,9 +177,9 @@ module.exports = [
     twitter: '@sudanchapagain',
     emoji: '📌',
     country: '🇳🇵',
-    computer: 'windows',
+    computer: 'linux',
     phone: 'android',
-    tags: ['neovim', 'astro', 'tailwind', 'go', 'c'],
+    tags: ['neovim', 'nix', 'nixos', 'c'],
   },
   {
     name: 'James Auble',
