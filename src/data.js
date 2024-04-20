@@ -327,7 +327,7 @@ module.exports = [
   },
   {
     name: 'Matthieu Bozec',
-    description: 'Developer Full Stack at 4h04',
+    description: 'Full Stack developer at 4h04',
     url: 'https://matthieu.bozec.org/uses',
     twitter: '@krachot',
     emoji: '😎',
