@@ -44,6 +44,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
 * [Md Fazley Rabbi](https://fazleyrabbi.xyz/uses/) — Web Developer based on bangladesh who loves tech and gadgets
 * [Colin Ramsay](https://colinramsay.co.uk/uses) — Director and software developer at Go Tripod in Cornwall
+* [Matthieu Bozec](https://matthieu.bozec.org/uses) — Full Stack developer at 4h04
 * [Jacob Lamb](https://jacobdalamb.dev/uses) — web engineer, musician, and builder
 * [Dennis Sauvé](https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98) — DevOps Engineer w/Dev roots in the Pacific North West!
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
