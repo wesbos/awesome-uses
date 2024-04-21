@@ -523,6 +523,7 @@ module.exports = [
       'Astro',
       'Serverless',
       'Node.js',
+      'Cloudflare',
       'Deno',
       'Neovim',
       'Arch Linux',
