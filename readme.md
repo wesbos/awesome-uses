@@ -283,7 +283,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
 * [Ben Brougher](https://benbrougher.tech/uses) — Full stack enterprise web devloper from the Pacific Northwest.
 * [Dawit Mekonnen](https://dawit.dev/uses) — Full stack developer and javascript enthusiast.
-* [Diogo Moreira](https://diogodmoreira.com/uses) — Professor, Software Engineer and Researcher.
+* [Diogo Moreira](https://diogomoreira.dev/uses) — Professor, Software Engineer and Researcher.
 * [Vincent Lejtzén](https://lejtzendesign.se/uses) — Front end developer with love for design, user experience and SEO.
 * [Jakub Soboczyński](https://jakubsoboczynski.pl/uses) — Frontend Developer, who actively explores other technologies and paths, including backend development, and contributes to open-source projects like Raycast, while also having a passion for automation and electronic music, particularly dark techno.
 * [Ian Emnace](https://ig.emnace.org/uses.html) — Web developer. Unix citizen.
