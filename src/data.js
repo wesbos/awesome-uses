@@ -30,7 +30,15 @@ module.exports = [
     country: '🇮🇳',
     computer: 'apple',
     phone: 'android',
-    tags: ['DevOps', 'MacOS', 'Ceph', 'VS Code', 'iTerm2', 'Raycast', 'Proxmox'],
+    tags: [
+      'DevOps',
+      'MacOS',
+      'Ceph',
+      'VS Code',
+      'iTerm2',
+      'Raycast',
+      'Proxmox',
+    ],
   },
   {
     name: 'Abyan Raditya',

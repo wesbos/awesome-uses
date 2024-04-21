@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
