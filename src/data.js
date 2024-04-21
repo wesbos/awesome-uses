@@ -5940,7 +5940,7 @@ module.exports = [
   {
     name: 'Diogo Moreira',
     description: 'Professor, Software Engineer and Researcher.',
-    url: 'https://diogodmoreira.com/uses',
+    url: 'https://diogomoreira.dev/uses',
     twitter: '@diogodmoreira',
     emoji: '🧑🏻‍💻',
     country: '🇧🇷',
@@ -5955,6 +5955,7 @@ module.exports = [
       'Node.js',
       'Express',
       'Java',
+      'Spring Boot',
       'Typescript',
       'NestJS',
       'NextJS',
