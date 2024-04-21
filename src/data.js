@@ -22,6 +22,17 @@
  */
 module.exports = [
   {
+    name: 'K Gopal Krishna',
+    description: 'Devops and Storage Engineer',
+    url: 'https://kayg.org/uses',
+    emoji: '🩷',
+    twitter: '@therealkayg04',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['DevOps', 'MacOS', 'Ceph', 'VS Code', 'iTerm2', 'Raycast', 'Proxmox'],
+  },
+  {
     name: 'Abyan Raditya',
     description: 'FrontEnd Developer',
     url: 'https://abydityadev.my.id/uses',
