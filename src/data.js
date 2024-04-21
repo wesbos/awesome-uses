@@ -513,6 +513,7 @@ module.exports = [
     country: '🇮🇩',
     computer: 'linux',
     phone: 'android',
+    twitter: '@kalwabedrzk',
     tags: [
       'Javascript',
       'Typescript',
