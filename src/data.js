@@ -127,7 +127,7 @@ module.exports = [
   },
   {
     name: 'Sebastian Herrmann',
-    description: "Web developer, musician, and hobby photographer",
+    description: 'Web developer, musician, and hobby photographer',
     url: 'https://herrherrmann.net/uses/',
     twitter: '@herrherrmann',
     emoji: '🐌',

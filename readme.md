@@ -35,6 +35,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
+* [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
