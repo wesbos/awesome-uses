@@ -19097,6 +19097,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Ruben Arakelyan',
+    twitter: '@wackomenace_',
+    description: 'Senior Ruby developer',
+    url: 'https://www.wackomenace.co.uk/uses',
+    emoji: '💾',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Ruby',
+      'Ruby on Rails',
+      'JavaScript',
+      'Astro',
+    ],
+  },
+  {
     name: 'Tim Veletta',
     description: 'Australian full-stack developer and designer',
     url: 'https://www.timveletta.com/uses',
