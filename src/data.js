@@ -22,6 +22,33 @@
  */
 module.exports = [
   {
+    name: 'Thohirah Husaini',
+    description: 'Software Engineer/Artist',
+    url: 'https://thohyr.co/uses',
+    twitter: '@thoritie',
+    emoji: '⛄️',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'Full Stack',
+      'React',
+      'Angular',
+      'Node.js',
+      'Tailwind CSS',
+      'Web',
+      'Django',
+      'Testing',
+      'Photographer',
+      'AWS',
+      'Software Engineer',
+      'Obsidian',
+    ],
+  },
+  {
     name: 'K Gopal Krishna',
     description: 'Devops and Storage Engineer',
     url: 'https://kayg.org/uses',
