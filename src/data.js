@@ -55,7 +55,7 @@ module.exports = [
     name: 'Tony Blish',
     description: 'Wannabe Full Stack Developer, Photographer',
     url: 'http://www.studio19and1.com/uses',
-    emoji: '🎧',
+    emoji: '🐌',
     twitter: '@sonofablish',
     country: US',
     computer: 'windows',
