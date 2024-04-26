@@ -8118,6 +8118,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Ali Şen',
+    description: 'Full Stack Developer',
+    url: 'https://alisen.me/uses',
+    twitter: '@alisen_js',
+    emoji: '🚀',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'JavaScript',
+      'PHP',
+      'SQL',
+    ],
+  },
+  {
     name: 'Danny Solivan',
     description: 'Test engineer. Web developer on the side.',
     url: 'https://solivan.dev/blog/uses',
