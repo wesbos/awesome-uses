@@ -584,7 +584,7 @@ module.exports = [
       'Neovim',
       'Arch Linux',
       'Speaker',
-      'Mentor'
+      'Mentor',
     ],
   },
   {

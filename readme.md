@@ -30,8 +30,10 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
+* [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
@@ -52,6 +54,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator
 * [Akif Al Hakim](https://akif.my.id/uses) — Frontend Developer.
+* [Kalwabed Rizki](https://www.kalwabed.com/uses/) — Fullstack engineer, speaker, instructor.
 * [Eric T Grubaugh](https://stoic.software/uses) — SuiteScript Coach
 * [James O'Neill](https://www.jamesoneill.eu/uses/) — Full Stack Developer.
 * [Hwee-Boon Yar](https://hboon.com/uses/) — iOS/macOS app Developer.
