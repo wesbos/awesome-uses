@@ -57,7 +57,7 @@ module.exports = [
     url: 'http://www.studio19and1.com/uses',
     emoji: '🐌',
     twitter: '@sonofablish',
-    country: US',
+    country: 'US',
     computer: 'windows',
     phone: 'android',
     tags: ['PHP', 'CSS', 'HTML', 'Photoshop'],
