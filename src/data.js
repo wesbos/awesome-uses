@@ -8126,13 +8126,7 @@ module.exports = [
     country: '🇹🇷',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'PHP',
-      'SQL',
-    ],
+    tags: ['Developer', 'Full Stack', 'JavaScript', 'PHP', 'SQL'],
   },
   {
     name: 'Danny Solivan',
