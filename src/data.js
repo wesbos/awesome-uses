@@ -19127,12 +19127,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Ruby',
-      'Ruby on Rails',
-      'JavaScript',
-      'Astro',
-    ],
+    tags: ['Ruby', 'Ruby on Rails', 'JavaScript', 'Astro'],
   },
   {
     name: 'Tim Veletta',
