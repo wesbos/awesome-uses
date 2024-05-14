@@ -19247,7 +19247,7 @@ module.exports = [
   },
   {
     name: 'That MLOps Guy',
-    description: 'Portuguse machine learning engineer',
+    description: 'Portuguese machine learning engineer',
     url: 'https://thatmlopsguy.github.io/uses/',
     emoji: '🧐',
     country: '🇵🇹',
