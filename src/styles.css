@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.TwitterHandle {
+.SocialHandle {
   font-size: 1.24323423426928098420394802rem;
   & .at {
     color: var(--yellow);

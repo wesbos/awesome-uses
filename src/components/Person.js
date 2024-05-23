@@ -9,6 +9,9 @@ export default function Person({ person }) {
   const twitter = person.twitter
     ? `https://unavatar.io/${person.twitter.replace('@', '')}`
     : null;
+  const mastodonArr = person.mastodon
+    ? person.mastodon.replace('@', '').split('@')
+    : null;
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter
     ? `${twitter}?fallback=${website}&ttl=28d`
@@ -81,15 +84,23 @@ export default function Person({ person }) {
           </span>
         )}
 
-        {person.twitter && (
-          <div className="TwitterHandle">
+        {person.twitter || person.mastodon && (
+          <div className="SocialHandle">
             <a
-              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
+              href={
+                person.twitter
+                ? `https://twitter.com/${person.twitter.replace('@', '')}`
+                : `https://${mastodonArr[1]}/@${mastodonArr[0]}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="at">@</span>
-              {person.twitter.replace('@', '')}
+              {
+                person.twitter
+                ? person.twitter.replace('@', '')
+                : `${mastodonArr[1]}/@${mastodonArr[0]}`
+              }
             </a>
           </div>
         )}
@@ -113,7 +124,15 @@ Person.propTypes = {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
         return new Error(
           `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit twitter handle.`
+            ` \`${componentName}\`. This isn't a legit Twitter handle.`
+        );
+      }
+    },
+    mastodon(props, propName, componentName) {
+      if (!/^@(\w){1,30}@(\w)+\.(\w)+$/.test(props[propName])) {
+        return new Error(
+          `Invalid prop \`${propName}\` supplied to` +
+            ` \`${componentName}\`. This isn't a legit Mastodon handle.`
         );
       }
     },
