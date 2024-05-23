@@ -7,7 +7,7 @@
  * @property {string} url - link to contributor's /uses page
  * @property {string} country - flag emoji for contributor's country
  * @property {string} [twitter] - optional Twitter username (beginning with `@`)
- * @property {string} [mastodon] - optional Twitter username (beginning with `@`)
+ * @property {string} [mastodon] - optional Mastodon username & server (beginning with `@`, ex: `@hello@mastodon.social`)
  * @property {string} [emoji] - some emoji corresponding to the contributor
  * @property {'apple' | 'windows' | 'linux' | 'bsd'} [computer]
  * @property {'iphone' | 'android' | 'windowsphone' | 'flipphone'} [phone]
