@@ -9,15 +9,27 @@ export default function Person({ person }) {
   const twitter = person.twitter
     ? `https://unavatar.io/${person.twitter.replace('@', '')}`
     : null;
-  const mastodonArr = person.mastodon
-    ? person.mastodon.replace('@', '').split('@')
-    : null;
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter
     ? `${twitter}?fallback=${website}&ttl=28d`
     : website;
   // const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
-  const img = unavatar;
+  const mastodonArr = person.mastodon
+    ? person.mastodon.replace('@', '').split('@')
+    : null;
+  const webfinger = 
+    person.mastodon
+    ? JSON.parse(`https://${mastodonArr[0]}/.well-known/webfinger?resource=https://${mastodonArr[0]}/@${mastodonArr[1]}`)
+    : null;
+  const wfIndex = 
+    person.mastodon && webfinger
+    ? webfinger.links.findIndex((link) => link.rel === 'http://webfinger.net/rel/avatar')
+    : null;
+  const wfAvatar = 
+    person.mastodon && wfIndex
+    ? webfinger.links[wfIndex].href
+    : website;
+  const img = person.twitter ? unavatar : (person.mastodon ? wfAvatar : website);
   const { tag: currentTag } = useParams();
   return (
     <div
