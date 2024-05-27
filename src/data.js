@@ -7649,7 +7649,8 @@ module.exports = [
   },
   {
     name: 'Anh Thang Bui',
-    description: 'Software Engineer who passionate about building web applications and sites using Node & JS frameworks.',
+    description:
+      'Software Engineer who passionate about building web applications and sites using Node & JS frameworks.',
     url: 'https://anhthang.org/uses/',
     country: '🇻🇳',
     twitter: '@anhthangbui',

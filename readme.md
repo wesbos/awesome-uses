@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
+* [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
@@ -359,6 +360,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex Zmn](https://www.monolog.dev/uses/) — Product Owner by day, dabbling in JavaScript, Rust and self-hosting by night.
 * [Kyle McDonald](https://kylemcd.com/uses/) — Software Engineer
 * [Alexander Sedeke](https://www.studioalex.dev/alexander/uses/) — Software Engineer
+* [Anh Thang Bui](https://anhthang.org/uses/) — Software Engineer who passionate about building web applications and sites using Node & JS frameworks.
 * [Lea Vu](https://www.studioalex.dev/lea/uses/) — UI/UX Designer
 * [Habib Hinn](https://habibhinn.com/uses) — Pricipal Engineer & Senior Frontend Engineer
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
@@ -864,6 +866,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Felix Macaspac](https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e) — Self-taught Frontend developer from the Philippines, and a CS student.
 * [Jerry Shi](https://github.com/szy0syz/uses) — Full Stack, Motivated full-stack developer not afraid to use any technology.
 * [Carol Gilabert](http://carol.gg/uses/) — Web developer and community organiser.
+* [Nic Lake](https://niclake.me/uses) — Full Stack Engineer & Bulbasaur stan
 * [Steve Rydz](https://steverydz.com/uses) — Developer
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
