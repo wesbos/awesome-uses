@@ -3604,6 +3604,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Mahesh Rijal',
+    description:
+      'Human Troubleshooter, Amateur Swimmer, Reader',
+    url: 'https://maheshrijal.com/uses',
+    twitter: '@maheshrjl',
+    emoji: '🚀',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Operations Engineer',
+      'Linux',
+      'AWS',
+      'GitHub',
+      'Cloud',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Pieter Boerboom',
     description: 'Front-end developer, blogger, tech enthusiast',
     url: 'https://www.pieterboerboom.nl/uses/',
