@@ -3605,22 +3605,14 @@ module.exports = [
   },
   {
     name: 'Mahesh Rijal',
-    description:
-      'Human Troubleshooter, Amateur Swimmer, Reader',
+    description: 'Human Troubleshooter, Amateur Swimmer, Reader',
     url: 'https://maheshrijal.com/uses',
     twitter: '@maheshrjl',
     emoji: '🚀',
     country: '🇮🇳',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Operations Engineer',
-      'Linux',
-      'AWS',
-      'GitHub',
-      'Cloud',
-      'Blogger',
-    ],
+    tags: ['Operations Engineer', 'Linux', 'AWS', 'GitHub', 'Cloud', 'Blogger'],
   },
   {
     name: 'Pieter Boerboom',
