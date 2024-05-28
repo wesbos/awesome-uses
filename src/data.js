@@ -12713,6 +12713,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeremy Ross',
+    description:
+      'Nova Scotia-based WordPress Developer who enjoys tech a bit too much',
+    url: 'https://jereross.com/uses/',
+    twitter: '@jeremyrwross',
+    emoji: '🥕',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'PHP',
+      'CSS',
+      'WordPress',
+      'Developer',
+      'Tech Lead',
+      'VS Code',
+      'Remote',
+    ],
+  },
+  {
     name: 'Colin Morris',
     description:
       'Steampunker, solution architect and web developer. Mad science works for all cases.',
