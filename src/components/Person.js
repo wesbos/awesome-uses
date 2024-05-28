@@ -96,7 +96,7 @@ export default function Person({ person }) {
           </span>
         )}
 
-        {person.twitter || person.mastodon && (
+        {(person.twitter || person.mastodon) && (
           <div className="SocialHandle">
             <a
               href={
