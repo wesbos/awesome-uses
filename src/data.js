@@ -18594,7 +18594,7 @@ module.exports = [
     name: 'Nic Lake',
     description: 'Full Stack Engineer & Bulbasaur stan',
     url: 'https://niclake.me/uses',
-    twitter: '@niclake',
+    mastodon: '@niclake@mastodon.social',
     emoji: '💜',
     country: '🇺🇸',
     computer: 'apple',
