@@ -14,7 +14,22 @@ export default function Person({ person }) {
     ? `${twitter}?fallback=${website}&ttl=28d`
     : website;
   // const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
-  const img = unavatar;
+  const mastodonArr = person.mastodon
+    ? person.mastodon.replace('@', '').split('@')
+    : null;
+  const webfinger = 
+    person.mastodon
+    ? JSON.parse(`https://${mastodonArr[0]}/.well-known/webfinger?resource=https://${mastodonArr[0]}/@${mastodonArr[1]}`)
+    : null;
+  const wfIndex = 
+    person.mastodon && webfinger
+    ? webfinger.links.findIndex((link) => link.rel === 'http://webfinger.net/rel/avatar')
+    : null;
+  const wfAvatar = 
+    person.mastodon && wfIndex
+    ? webfinger.links[wfIndex].href
+    : website;
+  const img = person.twitter ? unavatar : (person.mastodon ? wfAvatar : website);
   const { tag: currentTag } = useParams();
   return (
     <div
@@ -81,15 +96,23 @@ export default function Person({ person }) {
           </span>
         )}
 
-        {person.twitter && (
-          <div className="TwitterHandle">
+        {person.twitter || person.mastodon && (
+          <div className="SocialHandle">
             <a
-              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
+              href={
+                person.twitter
+                ? `https://twitter.com/${person.twitter.replace('@', '')}`
+                : `https://${mastodonArr[1]}/@${mastodonArr[0]}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="at">@</span>
-              {person.twitter.replace('@', '')}
+              {
+                person.twitter
+                ? person.twitter.replace('@', '')
+                : `${mastodonArr[1]}/@${mastodonArr[0]}`
+              }
             </a>
           </div>
         )}
@@ -113,7 +136,15 @@ Person.propTypes = {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
         return new Error(
           `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit twitter handle.`
+            ` \`${componentName}\`. This isn't a legit Twitter handle.`
+        );
+      }
+    },
+    mastodon(props, propName, componentName) {
+      if (!/^@(\w){1,30}@(\w)+\.(\w)+$/.test(props[propName])) {
+        return new Error(
+          `Invalid prop \`${propName}\` supplied to` +
+            ` \`${componentName}\`. This isn't a legit Mastodon handle.`
         );
       }
     },
