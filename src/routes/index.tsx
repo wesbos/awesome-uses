@@ -12,7 +12,7 @@ export async function loader({ params }: LoaderArgs) {
 }
 
 export default function Index() {
-  const { people } = useLoaderData();
+  const { people } = useLoaderData<ReturnType<typeof loader>>();
   return (
     <>
       <Topics />
