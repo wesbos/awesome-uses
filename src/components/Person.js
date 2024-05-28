@@ -19,7 +19,7 @@ export default function Person({ person }) {
     : null;
   const webfinger = 
     person.mastodon
-    ? JSON.parse(`https://${mastodonArr[0]}/.well-known/webfinger?resource=https://${mastodonArr[0]}/@${mastodonArr[1]}`)
+    ? fetch(`https://${mastodonArr[0]}/.well-known/webfinger?resource=https://${mastodonArr[0]}/@${mastodonArr[1]}`).then(response => response.json())
     : null;
   const wfIndex = 
     person.mastodon && webfinger
