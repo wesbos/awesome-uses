@@ -849,6 +849,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer, occasional blogger
 * [Lee Robinson](https://leerob.io/uses) — Developer, writer, creator. Solutions Architect @ Vercel.
 * [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
+* [Jordan Hofker](https://jordan.hofker.org/uses/) — Husband, father, engineer, and sometimes I take pictures. From Nebraska. Hobby collector.
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [T G Pranesh](https://www.tgpranesh.site/uses/) — Front-end Developer
