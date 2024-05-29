@@ -6005,8 +6005,7 @@ module.exports = [
   },
   {
     name: 'R74n',
-    description:
-      'Web developer with many elaborate projects',
+    description: 'Web developer with many elaborate projects',
     url: 'https://r74n.com/uses',
     twitter: '@R74nCom',
     emoji: '🪱',

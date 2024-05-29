@@ -286,6 +286,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)
 * [Filip Kalousek](https://blog.filipkalousek.cz/uses/setup) — Frontend Developer & Idea Maker
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
+* [R74n](https://r74n.com/uses) — Web developer with many elaborate projects
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
 * [Celso Palmeira Neto](https://celsoneto.com.br/uses) — Software Engineer focused on Backend development
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
