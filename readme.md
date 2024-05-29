@@ -762,6 +762,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
 * [Jens van Wijhe](https://jens.ai/uses) — Creative web developer and entrepreneur
+* [Nik Spyratos](https://nik.software/uses) — Laravel Freelancer EMEA, Laravel Cape Town organiser
 * [Jacob Herper](https://jacobherper.com/uses) — Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.
 * [Albin Groen](https://albingroen.com/uses/) — Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.
 * [Ajay Karwal](https://ajaykarwal.com/uses/) — A designer, developer and UX guy from Buckingham, UK.
