@@ -16247,7 +16247,7 @@ module.exports = [
     description:
       'Open Source Developer',
     url: 'https://swastik.is-a.dev/uses/',
-    twitter: '@Delta231',
+    twitter: '@Delta2315',
     emoji: '👨‍💻',
     country: '🇮🇳',
     computer: 'linux',
