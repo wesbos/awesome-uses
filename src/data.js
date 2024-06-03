@@ -18214,7 +18214,7 @@ module.exports = [
     url: 'https://www.mladenmilesic.com/uses/',
     emoji: '💻',
     country: 'US',
-    computer: 'windows','ios','raspberry pi','linux',
+    computer: 'linux',
     phone: 'android',
     tags: [
       'JavaScript',
