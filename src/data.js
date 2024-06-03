@@ -8287,7 +8287,6 @@ module.exports = [
     name: 'Kevin Gimbel',
     description: 'DevOps Engineer who loves Rust + web dev',
     url: 'https://kevingimbel.de/uses',
-    twitter: '',
     emoji: '🐦‍⬛',
     country: '🇪🇺',
     computer: 'apple',
