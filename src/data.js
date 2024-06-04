@@ -494,6 +494,7 @@ module.exports = [
       'Developer',
       'Front End',
       'Engineer',
+      'Git',
       'GitHub',
       'JavaScript',
       'TypeScript'
@@ -501,9 +502,18 @@ module.exports = [
       'Astro',
       'React',
       'Tailwind CSS',
+      'CSS',
+      'HTML',
+      'Go',
       'Vercel',
       'Remote',
-      'Obsidian'
+      'Obsidian',
+      'Testing',
+      'Photographer',
+      'ZSH',
+      'iTerm2',
+      'Raycast',
+      'Markdown',
     ],
   },
   {
