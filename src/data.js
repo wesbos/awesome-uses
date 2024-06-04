@@ -516,7 +516,7 @@ module.exports = [
       'Markdown',
       'Photoshop',
       'PixInsight',
-      'GraXpert'
+      'GraXpert',
     ],
   },
   {
