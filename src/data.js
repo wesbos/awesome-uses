@@ -514,6 +514,9 @@ module.exports = [
       'iTerm2',
       'Raycast',
       'Markdown',
+      'Photoshop',
+      'PixInsight',
+      'GraXpert'
     ],
   },
   {
