@@ -482,6 +482,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Frank Adler',
+    description: 'Father, Astrophotographer, Frontend Engineer',
+    url: 'https://adfr.io/uses',
+    mastodon: '@adfr@mastodon.social',
+    emoji: '🤩',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Front End',
+      'Engineer',
+      'GitHub',
+      'JavaScript',
+      'TypeScript'
+      'Node.js',
+      'Astro',
+      'React',
+      'Tailwind CSS',
+      'Vercel',
+      'Remote',
+      'Obsidian'
+    ],
+  },
+  {
     name: 'Jacob Lamb',
     description: 'web engineer, musician, and builder',
     url: 'https://jacobdalamb.dev/uses',
