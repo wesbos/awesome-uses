@@ -497,7 +497,7 @@ module.exports = [
       'Git',
       'GitHub',
       'JavaScript',
-      'TypeScript'
+      'TypeScript',
       'Node.js',
       'Astro',
       'React',
