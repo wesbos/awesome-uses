@@ -405,6 +405,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Johan Hammar](https://www.johanhammar.se/uses) — Software Engineer from Sweden
 * [Ahmed Ibrahim](https://ahmed-ibrahim.com/uses) — Full-stack developer who believes that Passion is the key to every success.
 * [Martin Chammah](https://martinchammah.dev/uses) — Gatsby Fan, Full-stack web developer, architect
+* [Kevin Gimbel](https://kevingimbel.de/uses) — DevOps Engineer who loves Rust + web dev
 * [James Peilow](https://jamespeilow.com/uses) — Front-end Developer, Switch owner, coffee and beer drinker
 * [Mostafa Hosseini](https://mostafa-hosseini.me/uses) — Fullstack Developer
 * [Clint Winter](https://clintgwinter.com/uses) — Full stack developer loving the Laravel ecosystem. Sometimes I write about it.
@@ -762,6 +763,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Amanda Parada](https://lechuza.cafe/uses) — CS student. Unfortunately not an actual owl.
 * [Michael Beckwith](https://apiratelifefor.me/uses/) — PHP and WordPress developer/support, coffee consumer, gym monkey
 * [Eric McCormick](https://edm00se.codes/uses/) — Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing
+* [Swastik Baranwal](https://swastik.is-a.dev/uses/) — Open Source Developer
 * [Ben Congdon](https://benjamincongdon.me/uses) — Golang, Python, Rust. Runs in the Cloud.
 * [Jens van Wijhe](https://jens.ai/uses) — Creative web developer and entrepreneur
 * [Nik Spyratos](https://nik.software/uses) — Laravel Freelancer EMEA, Laravel Cape Town organiser

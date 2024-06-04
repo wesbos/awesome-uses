@@ -8628,7 +8628,8 @@ module.exports = [
       'PHP',
       'SQL',
     ],
-  },{
+  },
+  {
     name: 'Kevin Gimbel',
     description: 'DevOps Engineer who loves Rust + web dev',
     url: 'https://kevingimbel.de/uses',
@@ -16262,8 +16263,7 @@ module.exports = [
   },
   {
     name: 'Swastik Baranwal',
-    description:
-      'Open Source Developer',
+    description: 'Open Source Developer',
     url: 'https://swastik.is-a.dev/uses/',
     twitter: '@Delta2315',
     emoji: '👨‍💻',
