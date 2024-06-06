@@ -18213,7 +18213,7 @@ module.exports = [
       'Passionate Electrical Engineer gone Software. I relish the art of crafting and tinkering with both digital and physical creations.',
     url: 'https://www.mladenmilesic.com/uses/',
     emoji: '💻',
-    country: 'US',
+    country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
     tags: [
