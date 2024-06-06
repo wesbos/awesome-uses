@@ -19419,7 +19419,7 @@ module.exports = [
     url: 'https://rasulkireev.com/uses',
     country: '🇷🇺',
     emoji: '🐍',
-    computer: 'macos',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Django',
