@@ -688,6 +688,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thomas Tuvignon](https://thomastuvignon.com/en/uses) — Front-end developer and occasional designer.
 * [MG Santos](https://fullybearded.com/uses/) — Full-stack (and fully bearded) developer who loves bots, automations and building stuff 
 * [Daniel Van Cuylenburg](https://danielvanc.com/uses) — Front-end Web Developer. Love all things CSS, ReactJS, GatsbyJS, NodeJS and U.I design
+* [Jorge Cortés](https://jorgecortes.dev/uses) — An easygoing web developer, full-stack web developer tutor, and musician from Hermosillo, Sonora, México.
 * [Diana García](https://dianaeli.dev/uses) — Full Stack Web Developer based in Mexico City, I love to teach and to game
 * [Dao Chau](https://daochau.com/uses/) — Another hard-working developer on earth.
 * [Chiamaka Ikeanyi](https://chiamakaikeanyi.dev/uses) — Software Engineer, Technical Writer, Poet
