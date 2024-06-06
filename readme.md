@@ -108,7 +108,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Rev](https://cinnamoroll.me/uses) — A Software developer and artist based in Europe. 
-* [Vijay Goswmai](https://vijaygoswami.in/uses) — Full Stack Developer from Agra, Uttar Pradesh
+* [Vijay Goswami](https://vijaygoswami.in/uses) — Full Stack Developer from Agra, Uttar Pradesh
 * [Edimar Calebe Castanho](https://blog.calebe.dev.br/uses.html) — A passionate embedded systems developer from Brazil
 * [Ihtisham Khan](https://iihtisham.com/uses.html) — Full-Stack Web Developer | Tech Enthusiast
 * [Robb Knight](https://rknight.me/uses) — Developer, Podcaster, Lego Builder, Cat Owner
