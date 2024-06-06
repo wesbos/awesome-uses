@@ -18651,7 +18651,7 @@ module.exports = [
       'Bootstrap',
       'Bulma',
     ],
-  },  
+  },
   {
     name: 'Mladen Milesic',
     description:
@@ -18683,7 +18683,7 @@ module.exports = [
       'mongoDB',
       'MSSQL',
       'Unit Testing',
-      'Python'
+      'Python',
     ],
   },
   {
