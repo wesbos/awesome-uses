@@ -14738,6 +14738,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Jorge Cortés',
+    description:
+      'An easygoing web developer, full-stack web developer tutor, and musician from Hermosillo, Sonora, México.',
+    url: 'https://jorgecortes.dev/uses',
+    twitter: '@jorgecortesdev',
+    emoji: '🎢',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'JavaScript',
+      'React',
+      'Node.js',
+      'Vue',
+      'Remote',
+      'Instructor',
+      'PHPStorm',
+      'VSCode',
+      'PHP',
+      'Laravel',
+      'Forge',
+    ],
+  },
+  {
     name: 'Diana García',
     description:
       'Full Stack Web Developer based in Mexico City, I love to teach and to game',
