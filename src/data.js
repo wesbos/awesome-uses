@@ -11269,13 +11269,14 @@ module.exports = [
   },
   {
     name: 'Wojciech M. Wnuk',
-    description: 'Magento developer, vimmer, Linux and FOSS enthusiast.',
+    description: 'Magento developer, Linux and FOSS enthusiast.',
     url: 'https://lanius.dev/uses',
     emoji: '🐓',
     country: '🇵🇱',
-    computer: 'linux',
-    phone: 'iphone',
+    computer: 'windows',
+    phone: 'android',
     twitter: '@laniusdev',
+    mastodon: '@lanius@fosstodon.org',
     tags: [
       'Programmer',
       'Web Developer',
@@ -11287,7 +11288,9 @@ module.exports = [
       'Magento',
       'Bash',
       'MySQL',
-      'Elixir',
+      'Emacs',
+      'Lisp',
+      'Clojure'
     ],
   },
   {
