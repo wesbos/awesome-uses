@@ -12353,6 +12353,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Marco Kamner',
+    description: 'Pragmatic DevOps Engineer & Indie Hacker',
+    url: 'https://blog.marco.ninja/uses',
+    mastodon: '@mkamner@mastodon.world',
+    emoji: '🚀',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'DevOps',
+      'Full Stack',
+      'Back End',
+      'Python',
+      'Containers',
+      'Kubernetes',
+      'Docker',
+      'GitLab',
+      'MacOS',
+      'Django',
+    ],
+  },
+  {
     name: 'Thomas Hunter II',
     description:
       'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
