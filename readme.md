@@ -455,6 +455,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joe Astuccio](https://astucc.io/uses) — Front End Developer, Sailor, Stargazer, Hockey Player, and all around fun guy... but my absolute favorite thing is being a dad.
 * [Joe Maffei](https://joemaffei.dev/uses/) — Software engineer with a passion for Web Application Development.
 * [Jelle Smeets](https://blog.jellesmeets.nl/uses) — Engineering manager & blogger
+* [Lauri Elias](https://indoorsman.ee/uses) — Full stack developer who dreams of only ever working with Django
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
 * [Matthew Scholta](https://mattscholta.com/uses) — Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
@@ -524,7 +525,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gyan Prakash Karn](https://karngyan.com/uses/) — Software Engineer, Tinkerer, Absurdist.
 * [Scott Tolinski](https://scotttolinski.com/uses) — Web Developer, Tutorial Maker, Podcaster, Bboy
 * [Tony Lockhart](https://tlockhart.github.io/portfolio/#uses) — Full Stack Developer, Designer, and Instructor
-* [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, vimmer, Linux and FOSS enthusiast.
+* [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, Linux and FOSS enthusiast.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
 * [Lukasz Tkacz](https://tkacz.pro/uses/) — Software Architect, Senior Fullstack Developer, Scrum Master
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
@@ -574,6 +575,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
 * [Watheq Alshowaiter](http://watheq.xyz/uses) — Web developer, Blogger, and Technical Translator
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
+* [Marco Kamner](https://blog.marco.ninja/uses) — Pragmatic DevOps Engineer & Indie Hacker
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Martin Marcucci](https://www.marku.me/uses) — Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
@@ -904,6 +906,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.
+* [Rasul Kireev](https://rasulkireev.com/uses) — Software Engineer at Readwise specialising in Django
 * [Trevor S Vallender](https://tsvallender.co.uk/uses) — Software Engineer specialising in Ruby and Rails
 * [Ferdinand Linnenberg](https://linnenberg.dev/uses) — Backend Developer and Open Source Enthusiast
 * [Will Adams](https://willadams.dev/uses) — UK developer and knife maker

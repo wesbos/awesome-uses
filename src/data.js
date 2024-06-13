@@ -9802,7 +9802,8 @@ module.exports = [
   },
   {
     name: 'Lauri Elias',
-    description: 'Full stack developer who dreams of only ever working with Django',
+    description:
+      'Full stack developer who dreams of only ever working with Django',
     url: 'https://indoorsman.ee/uses',
     twitter: '@LauriElias',
     country: '🇪🇪',
@@ -9826,7 +9827,7 @@ module.exports = [
       'Kubernetes',
       'Bootstrap',
       'Gamer',
-      'CI/CD'
+      'CI/CD',
     ],
   },
   {
@@ -11290,7 +11291,7 @@ module.exports = [
       'MySQL',
       'Emacs',
       'Lisp',
-      'Clojure'
+      'Clojure',
     ],
   },
   {
