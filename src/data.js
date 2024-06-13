@@ -50,6 +50,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Luke Davis',
+    description:
+      "I'm a technical SEO, music producer, and blogger based in the UK.",
+    url: 'https://lukealexdavis.co.uk/uses/',
+    emoji: '👨🏽‍💻',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'mac',
+    phone: 'android',
+    tags: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'Python',
+      'SEO',
+      'Astro',
+      'Blogger',
+      'Music producer',
+      'Self taught',
+      'Websites',
+      'Ableton'
+    ],
+  },
+  {
     name: 'Scott Willsey',
     description: 'Podcaster, Blogger, Mac Nerd',
     url: 'https://scottwillsey.com/uses/',
