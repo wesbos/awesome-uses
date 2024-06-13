@@ -56,7 +56,7 @@ module.exports = [
     url: 'https://lukealexdavis.co.uk/uses/',
     emoji: '👨🏽‍💻',
     country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'HTML',
