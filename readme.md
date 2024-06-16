@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
+* [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer

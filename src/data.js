@@ -69,7 +69,7 @@ module.exports = [
       'Music producer',
       'Self taught',
       'Websites',
-      'Ableton'
+      'Ableton',
     ],
   },
   {
