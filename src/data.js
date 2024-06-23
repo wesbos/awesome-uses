@@ -15892,8 +15892,8 @@ module.exports = [
   {
     name: 'Mike Walsh',
     description:
-      'Web Designer & Developer, Translator and Professor in South-Central Chile',
-    url: 'https://www.elmike.me/uses/',
+      'Front-End Designer, Developer &amp; Translator in Villarrica, Chile',
+    url: 'https://www.elmikewalsh.com/uses/',
     emoji: '🙃',
     country: '🇨🇱',
     computer: 'apple',
