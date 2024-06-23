@@ -347,7 +347,7 @@ module.exports = [
     country: '🇷🇴',
     twitter: '@timbenniks',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     emoji: '⚡️',
     tags: [
       'TypeScript',
