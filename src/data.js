@@ -553,6 +553,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Alberto Prado',
+    description: 'Web developer and SEO expert from México',
+    url: 'https://alprado.com/uses/',
+    emoji: '🐶',
+    country: '🇲🇽',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Wordpress',
+      'SEO',
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Github',
+      'Linux'
+    ]
+  },
+  {
     name: 'Frank Adler',
     description: 'Father, Astrophotographer, Frontend Engineer',
     url: 'https://adfr.io/uses',
