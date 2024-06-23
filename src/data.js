@@ -356,7 +356,7 @@ module.exports = [
       'Nuxt',
       'Vue',
       'GraphQL',
-      'vscode'
+      'vscode',
     ],
   },
   {
