@@ -341,6 +341,25 @@ module.exports = [
     tags: ['neovim', 'nix', 'nixos', 'c'],
   },
   {
+    name: 'Tim Benniks',
+    description: 'Developer relations, speaker, content creator',
+    url: 'https://timbenniks.dev/uses',
+    country: '🇷🇴',
+    twitter: '@timbenniks',
+    computer: 'apple',
+    phone: 'iphone',
+    emoji: '⚡️',
+    tags: [
+      'TypeScript',
+      'JavaScript',
+      'Serverless',
+      'Nuxt',
+      'Vue',
+      'GraphQL',
+      'vscode'
+    ],
+  },
+  {
     name: 'James Auble',
     description: 'Full Stack Developer',
     url: 'https://jamesauble.com/uses',
