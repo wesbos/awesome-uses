@@ -568,8 +568,8 @@ module.exports = [
       'CSS',
       'Javascript',
       'Github',
-      'Linux'
-    ]
+      'Linux',
+    ],
   },
   {
     name: 'Frank Adler',
