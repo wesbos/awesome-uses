@@ -45,6 +45,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
+* [Andrew Bus](https://andrewbus.com/uses) — Senior Lead Software Engineer
 * [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast
 * [Matt Obee](https://mattobee.com/uses) — Design technologist specialising in accessibility.
 * [Mariusz Szubryt](https://szubryt.net/uses) — Frontend-oriented Product Engineer
@@ -742,7 +743,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
 * [David Dias](https://thedaviddias.dev/uses/) — Front-End Developer, UX/UI enthusiast, podcaster and content creator!
 * [Thomas Large](https://tomlarge.dev/uses) — My name is Tom! I write code
-* [Mike Walsh](https://www.elmike.me/uses/) — Web Designer & Developer, Translator and Professor in South-Central Chile
+* [Mike Walsh](https://www.elmikewalsh.com/uses/) — Front-End Designer, Developer &amp; Translator in Villarrica, Chile
 * [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
 * [Jesse James Burton](https://burtonmediainc.com/uses) — Software Developing Yogi from Alberta, Canada. Lets build the internet together.
 * [Junaid Qadir](https://junaidqadir.com/uses) — A Full Stack #Laravel Developer
