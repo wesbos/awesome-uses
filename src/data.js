@@ -193,6 +193,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Alphan Günaydın',
+    description: 'Principal Developer',
+    url: 'https://ialphan.com/uses',
+    twitter: '@ialphan',
+    emoji: '🐼',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Vue.js',
+      'Nuxt',
+      'WordPress'
+      'JavaScript',
+      'PHP',
+      'CSS',
+      'HTML'
+    ],
+  },
+  {
     name: 'Jakob Greenfeld',
     description: 'Founder',
     url: 'https://jakobgreenfeld.com/uses',
