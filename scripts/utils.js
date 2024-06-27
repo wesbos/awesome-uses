@@ -64,7 +64,7 @@ module.exports.Schema = Joi.object({
   mastodon: Joi.string().pattern(new RegExp(/^@(\w){1,30}@(\w)+\.(\w)+$/)),
   emoji: Joi.string().allow(''),
   computer: Joi.string().valid('apple', 'windows', 'linux', 'bsd'),
-  phone: Joi.string().valid('iphone', 'android', 'windowsphone', 'flipphone'),
+  phone: Joi.string().valid('iphone', 'android', 'windowsphone', 'flipphone', null, 'none'),
   tags: Joi.array().items(Joi.string()),
 });
 
