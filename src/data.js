@@ -8644,6 +8644,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Zachary Kai',
+    description: 'Offbeat, queer, 20-something, curiosity enthusiast, and traveler.',
+    url: 'https://zacharykai.net/uses',
+    emoji: '📖',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'CSS',
+      'HTML',
+      'Blogger',
+      'Writer',
+      'GitHub',
+      'Open Source',
+      'Windows',
+      'Websites',
+      'Traveler',
+      'Artist',
+      'Minimalist',
+      'Indieweb',
+    ],
+  },
+  {
     name: 'Prakhil TP',
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
