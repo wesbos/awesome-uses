@@ -105,8 +105,9 @@ module.exports = [
     description: 'Nerd, Web Developer, Software Engineer',
     url: 'https://prinzpiuz.in/uses/',
     emoji: '🧔',
+    twitter: '@prinzpiuz',
     country: '🇮🇳',
-    computer: 'Linux',
+    computer: 'linux',
     phone: 'android',
     tags: [
         'Remote',
