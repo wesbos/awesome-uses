@@ -32,7 +32,7 @@ module.exports = [
     phone: 'android',
     tags: [
       'Freelancer',
-      'Trusted Tester,
+      'Trusted Tester',
       'Architect',
       'Accessibility',
       'JavaScript',
