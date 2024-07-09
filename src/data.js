@@ -38,6 +38,7 @@ module.exports = [
       'JavaScript',
       'TypeScript',
       'React',
+      'Redux',
       'Design Systems',
       'Figma',
       'Storybook',
@@ -46,7 +47,6 @@ module.exports = [
       'Astro',
       'Jest',
       'Node.js',
-      'Redux',
     ],
   },
   {
