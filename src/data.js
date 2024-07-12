@@ -3643,6 +3643,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Luke Oliff',
+    description: 'I am a seasoned Developer Experience Engineer with a rich background in Software Development.',
+    url: 'https://lukeocodes.dev/uses',
+    twitter: '@lukeocodes',
+    emoji: '🤪',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'TypeScript',
+      'Dad',
+      'ADHD',
+      'Accessibility',
+      'Open Source Software',
+      'React',
+      'Next.js'
+    ],
+  },
+  {
     name: 'Bill Sullivan',
     description:
       'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
