@@ -23,6 +23,33 @@
  */
 module.exports = [
   {
+    name: 'Rachel Cantor',
+    description: 'Hiya! I am a Trusted Tester and Frontend Engineer.',
+    url: 'https://rachel.fyi/uses',
+    emoji: '🙌',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Freelancer',
+      'Trusted Tester',
+      'Architect',
+      'Accessibility',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Redux',
+      'Design Systems',
+      'Figma',
+      'Storybook',
+      'Frontend',
+      'Next.js',
+      'Astro',
+      'Jest',
+      'Node.js',
+    ],
+  },
+  {
     name: 'Thohirah Husaini',
     description: 'Software Engineer/Artist',
     url: 'https://thohyr.co/uses',
