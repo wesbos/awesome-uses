@@ -206,7 +206,7 @@ module.exports = [
       'Developer',
       'Vue.js',
       'Nuxt',
-      'WordPress'
+      'WordPress',
       'JavaScript',
       'PHP',
       'CSS',
