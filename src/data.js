@@ -210,7 +210,7 @@ module.exports = [
       'JavaScript',
       'PHP',
       'CSS',
-      'HTML'
+      'HTML',
     ],
   },
   {
