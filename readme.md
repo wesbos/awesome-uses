@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
