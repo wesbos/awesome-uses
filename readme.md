@@ -34,6 +34,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
+* [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Abyan Raditya](https://abydityadev.my.id/uses) — FrontEnd Developer
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
