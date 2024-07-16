@@ -45,6 +45,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [Tim Benniks](https://timbenniks.dev/uses) — Developer relations, speaker, content creator
+* [Damian Cyrus](https://damiancyrus.com/uses) — Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Andrew Bus](https://andrewbus.com/uses) — Senior Lead Software Engineer
 * [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast

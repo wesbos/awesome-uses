@@ -361,7 +361,8 @@ module.exports = [
   },
   {
     name: 'Damian Cyrus',
-    description: 'Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.',
+    description:
+      'Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.',
     url: 'https://damiancyrus.com/uses',
     country: '🇩🇪',
     twitter: '@Damian_Cyrus',
