@@ -77,6 +77,31 @@ module.exports = [
     ],
   },
   {
+    name: 'James Harding',
+    description: 'Airline Pilot and Software Engineer',
+    url: 'https://jameshard.ing/uses',
+    twitter: '@jdhardng',
+    emoji: '🛫',
+    country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'Full Stack',
+      'React',
+      'Node.js',
+      'Tailwind CSS',
+      'Web',
+      'Django',
+      'Software Engineer',
+      'Pilot',
+      'Airbus A350',
+      'Airbus'
+    ],
+  },
+  {
     name: 'Luke Davis',
     description:
       "I'm a technical SEO, music producer, and blogger based in the UK.",
