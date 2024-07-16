@@ -3720,7 +3720,8 @@ module.exports = [
   },
   {
     name: 'Luke Oliff',
-    description: 'I am a seasoned Developer Experience Engineer with a rich background in Software Development.',
+    description:
+      'I am a seasoned Developer Experience Engineer with a rich background in Software Development.',
     url: 'https://lukeocodes.dev/uses',
     twitter: '@lukeocodes',
     emoji: '🤪',
@@ -3735,7 +3736,7 @@ module.exports = [
       'Accessibility',
       'Open Source Software',
       'React',
-      'Next.js'
+      'Next.js',
     ],
   },
   {
