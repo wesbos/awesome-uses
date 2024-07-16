@@ -7050,7 +7050,8 @@ module.exports = [
   },
   {
     name: 'Kristof Zerbe',
-    description: 'Passionate software developer for almost 30 years and currently a tech-savvy IT manager',
+    description:
+      'Passionate software developer for almost 30 years and currently a tech-savvy IT manager',
     url: 'https://kiko.io/uses',
     mastodon: '@kiko@indieweb.social',
     emoji: '👀',
