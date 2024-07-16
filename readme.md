@@ -211,6 +211,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aleksey Razbakov](https://razbakov.com/uses/) — Indie Hacker. Web Developer. Salsa Dancer.
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.
 * [Alvin Bryan](https://alvin.codes/uses) — Loves coding maps, graphics and games.
+* [S. M. Abdul Aziz](https://www.sayemon10.com/uses) — designer <=> developer
 * [Taisuke Mino](https://taisukemino.com/uses/) — Crypto Entrepreneur
 * [Mathias Borgmalm](https://www.mathiasborgmalm.dev/uses/) — Thinks CSS is underrated.
 * [Shawn D'silva](https://www.shawndsilva.com/uses) — Full Stack Web Developer, Designer and Embedded Systems enthusiast
