@@ -98,7 +98,7 @@ module.exports = [
       'Software Engineer',
       'Pilot',
       'Airbus A350',
-      'Airbus'
+      'Airbus',
     ],
   },
   {
