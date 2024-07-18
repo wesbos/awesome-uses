@@ -8648,6 +8648,7 @@ module.exports = [
     description: 'Offbeat, queer, 20-something, curiosity enthusiast, and traveler.',
     url: 'https://zacharykai.net/uses',
     emoji: '📖',
+    country: '🇦🇺',
     computer: 'windows',
     phone: 'android',
     tags: [
