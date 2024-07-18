@@ -169,8 +169,7 @@ body::-webkit-scrollbar-thumb {
   & .country {
     font-size: 3rem;
     padding-top: 2rem;
-    position: relative;
-    bottom: 9px;
+    
   }
 
   & .phone {
