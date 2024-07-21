@@ -413,6 +413,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex Pamphilon](https://apamphilon.com/uses) — Web & mobile app developer, specialising in front-end development.
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
 * [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
+* [Zachary Kai](https://zacharykai.net/uses) — Offbeat, queer, 20-something, curiosity enthusiast, and traveler.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker

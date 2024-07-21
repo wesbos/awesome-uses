@@ -8902,7 +8902,8 @@ module.exports = [
   },
   {
     name: 'Zachary Kai',
-    description: 'Offbeat, queer, 20-something, curiosity enthusiast, and traveler.',
+    description:
+      'Offbeat, queer, 20-something, curiosity enthusiast, and traveler.',
     url: 'https://zacharykai.net/uses',
     emoji: '📖',
     country: '🇦🇺',
