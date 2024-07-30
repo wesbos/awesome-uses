@@ -814,6 +814,7 @@ module.exports = [
     url: 'https://chris.funderburg.me/uses',
     emoji: '🐝',
     country: '🇬🇧',
+    mastodon: '@bocan@infosec.exchange',
     computer: 'apple',
     phone: 'android',
     tags: [
