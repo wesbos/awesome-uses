@@ -17847,24 +17847,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Peter Cammeraat',
-    description:
-      'Swift developer and designer that cares about user experience and privacy',
-    url: 'https://petercammeraat.net/uses/',
-    emoji: '🟨',
-    country: '🇳🇱',
-    computer: 'apple',
-    phone: 'flipphone',
-    tags: [
-      'Swift',
-      'Developer',
-      'Designer',
-      'Blogger',
-      'Entrepreneur',
-      'Maker',
-    ],
-  },
-  {
     name: 'Seshal Jain',
     description:
       'Emacs rookie passionate about aesthetic design and a beautiful, free web',
