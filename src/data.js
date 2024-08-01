@@ -10092,25 +10092,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Aaron A.',
-    description: 'Sandwich enthusiast and programmer.',
-    url: 'https://ocular-rhythm.io/uses/',
-    twitter: '@ocularrhythm',
-    emoji: '🦙',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'TypeScript',
-      'JavaScript',
-      'React',
-      'PHP',
-      'Gatsby',
-      'WordPress',
-      'CSS',
-    ],
-  },
-  {
     name: 'Renee de Kruijf',
     description:
       'Javascript developer in the making. Still learning every day. Liking it a lot!',
