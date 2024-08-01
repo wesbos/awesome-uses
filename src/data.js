@@ -5627,25 +5627,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Bryan Hickey',
-    description:
-      'Full stack marketer. Front-end developer. Graphic designer. Digital marketer. Craft beer nerd',
-    url: 'https://bryanjhickey.com/uses',
-    twitter: '@bryanjhickey',
-    emoji: '🍺',
-    country: '🇦🇺',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Designer',
-      'Websites',
-      'Marketing',
-      'Tailwind CSS',
-      'Photoshop',
-    ],
-  },
-  {
     name: 'Ajmal Afif',
     description: 'Digital designer',
     url: 'https://ajmalafif.com/uses',
