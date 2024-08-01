@@ -16018,28 +16018,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Ray Gervais',
-    description:
-      'Cloud Engineer, Application Developer, Blogger, Musician, Failing Linux Advocate',
-    url: 'https://raygervais.dev/uses',
-    twitter: '@_raygervais',
-    emoji: '⚙️',
-    country: '🇨🇦',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'DevOps',
-      'Full Stack',
-      'Go',
-      'Python',
-      'Ruby',
-      'JavaScript',
-      'Docker',
-      'Optimizaton',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Marcus Obst',
     description: 'Webdeveloper, Music Lover',
     url: 'https://marcus-obst.de/uses',
