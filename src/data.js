@@ -16147,29 +16147,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Gleb Skibitsky',
-    description:
-      'Maker, mostly Unity stuff. Blockchain, VR, and Automation lover.',
-    url: 'https://skibitsky.com/uses/',
-    twitter: '@skibitsky',
-    emoji: '💫',
-    country: '🇱🇹',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Unity',
-      'React',
-      'Gamedev',
-      'JavaScript',
-      'Node.js',
-      'GraphQL',
-      '.NET',
-      'Go',
-      'C#',
-    ],
-  },
-  {
     name: 'Derek Mohr',
     description:
       'Front-end development by interest, full stack development by trade',
