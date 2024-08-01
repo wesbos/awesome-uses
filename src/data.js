@@ -17875,29 +17875,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Vinesh Raju',
-    description:
-      'Mobile Application developer from India with a deep focus on UX/UI.',
-    url: 'https://blog.thevinesh.com/uses/',
-    twitter: '@theVinesh',
-    emoji: '🦍',
-    country: '🇮🇳',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Front End',
-      'Developer',
-      'Problem Solver',
-      'Full Stack',
-      'Engineer',
-      'Web Developer',
-      'Designer',
-      'UI',
-      'UX',
-      'Flutter',
-    ],
-  },
-  {
     name: 'Daniel Cefram Ramirez',
     description:
       'I build things through code. I make short sentences to multiple paragraphs.',
