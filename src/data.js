@@ -18457,23 +18457,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Stanislav (Stas) Katkov',
-    description: 'Indie-hacker and developer',
-    url: 'https://skatkov.com/uses',
-    twitter: '@5katkov',
-    country: '🇳🇱',
-    computer: 'linux',
-    tags: [
-      'Digital-wellness',
-      'Ruby on Rails',
-      'Golang',
-      'Sqlite',
-      'Dad',
-      'Nomad',
-      'Manjaro',
-    ],
-  },
-  {
     name: 'Aaron Pham',
     description: 'distributed and ml system.',
     url: 'https://aarnphm.xyz/uses',
