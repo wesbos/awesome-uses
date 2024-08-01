@@ -14230,27 +14230,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Talita Oliveira',
-    description:
-      'Software Developer. Loves CSS and Javascript. Already worked with PHP and a little with JAVA.',
-    url: 'https://talitaoliveira.com.br/#uses',
-    twitter: '@littacherry',
-    emoji: '👩🏽‍💻',
-    country: '🇧🇷',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Front End',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'CSS',
-      'Full Stack',
-      'HTML',
-      'Web Development',
-    ],
-  },
-  {
     name: 'Ben Leivian',
     description: 'A “seasoned” full-stack developer & visual designer 🍔',
     url: 'https://benleivian.com/uses',
