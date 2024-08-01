@@ -9907,26 +9907,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Renee de Kruijf',
-    description:
-      'Javascript developer in the making. Still learning every day. Liking it a lot!',
-    url: 'https://webdesignpuntnl.com/pages/uses.html',
-    twitter: '@reneedekruijf',
-    emoji: '🐧',
-    country: '🇳🇱',
-    computer: 'linux',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'React',
-      'Next',
-      'Gatsby',
-      'Styled-Components',
-      'CSS',
-    ],
-  },
-  {
     name: 'Sumanth',
     description: 'Student. Learning web development',
     url: 'https://mynameissumanth.netlify.app/uses.html',
