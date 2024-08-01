@@ -17013,26 +17013,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Kim Ingram',
-    description:
-      'Freelance Copywriter. Website Strategist. Coffee Lover. And I code a little bit too.',
-    url: 'https://kimingram.com/uses/',
-    twitter: '@talknerdytomee',
-    emoji: '🦄',
-    country: '🇨🇦',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Writer',
-      'Blogger',
-      'Freelancer',
-      'HTML',
-      'CSS',
-      'WordPress',
-    ],
-  },
-  {
     name: 'Ben Shi',
     description:
       'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
