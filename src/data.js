@@ -14867,17 +14867,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Dao Chau',
-    description: 'Another hard-working developer on earth.',
-    url: 'https://daochau.com/uses/',
-    twitter: '@daomapsieucap',
-    emoji: '☕',
-    country: '🇻🇳',
-    computer: 'windows',
-    phone: 'android',
-    tags: ['Developer', 'WordPress', 'Backend', 'PHP', 'Performance'],
-  },
-  {
     name: 'Chiamaka Ikeanyi',
     description: 'Software Engineer, Technical Writer, Poet',
     url: 'https://chiamakaikeanyi.dev/uses',
