@@ -5189,25 +5189,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Pablo Obando',
-    description: 'A software engineer who enjoys programming and good beers 🍻',
-    url: 'https://pabloobando.dev/uses',
-    twitter: '@pabloobandodev',
-    emoji: '🧙',
-    country: '🇨🇷',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'React Js',
-      'React Native',
-      'Next Js',
-      'Gatsby',
-      'GraphQl',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Adam DeHaven',
     description:
       'Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY',
