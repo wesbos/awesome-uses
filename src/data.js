@@ -10293,18 +10293,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Andy Bell',
-    description:
-      'Educator who focuses on design, front-end development, accessibility and progressive enhancement. I teach at and run, Piccalilli.',
-    url: 'https://piccalil.li/page/uses',
-    twitter: '@piccalilli_',
-    emoji: '🌶',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Educator', 'Designer', 'Developer', 'CSS', 'JavaScript', 'a11y'],
-  },
-  {
     name: 'Daryn St. Pierre',
     description:
       'Front-end developer, designer, CodePen tinkerer, LEGO enthusiast. Building VueJS applications (for a living) and eating pizza (for fun).',
