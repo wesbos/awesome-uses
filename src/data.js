@@ -17122,26 +17122,6 @@ module.exports = [
     tags: ['JavaScript', 'PHP', 'Vue.js', 'Full Stack', 'Developer', 'Docker'],
   },
   {
-    name: 'Florian Kapfenberger',
-    description:
-      'Frontend developer from Austria who likes to create modern applications with React (Native)',
-    url: 'https://phiilu.com/uses',
-    twitter: '@phiilu',
-    emoji: '🐢',
-    country: '🇦🇹',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'Full Stack',
-      'JavaScript',
-      'Blogger',
-      'React',
-      'Gatsby',
-    ],
-  },
-  {
     name: 'TaeHee Kim',
     description: 'Front-end Engineer, Bassist, Cat lover.',
     url: 'https://roto.dev/uses',
