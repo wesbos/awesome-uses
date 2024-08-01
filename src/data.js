@@ -10463,17 +10463,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Emma Goto',
-    description: 'Frontend developer, blogger and creator of Trello power-ups.',
-    url: 'https://emgoto.com/uses',
-    twitter: '@emma_goto',
-    emoji: '🍙',
-    country: '🇯🇵',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Front End', 'Blogger', 'React', 'Gatsby'],
-  },
-  {
     name: 'Cesar Gomez',
     description: 'Front-end developer',
     url: 'https://cesargomez.io/uses',
