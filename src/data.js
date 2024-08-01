@@ -8435,33 +8435,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Clint Winter',
-    description:
-      'Full stack developer loving the Laravel ecosystem. Sometimes I write about it.',
-    url: 'https://clintgwinter.com/uses',
-    twitter: '@ClintWinter2',
-    emoji: '⛺',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Web Developer',
-      'Full Stack',
-      'Developer',
-      'Web',
-      'PHP',
-      'SQL',
-      'Laravel',
-      'JavaScript',
-      'Tailwind CSS',
-      'CSS',
-      'Vue.js',
-      'AlpineJS',
-      'Laravel Livewire',
-      'Blogger',
-    ],
-  },
-  {
     name: 'Bob Orchard',
     description:
       'Semi-stack developer with a design background. Woodworker. Maker.',
