@@ -15259,28 +15259,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Mihai Serban',
-    description:
-      'Software engineer in constant search for new and exciting technologies',
-    url: 'https://www.mihaiserban.dev/uses',
-    twitter: '@MihaiSerban',
-    emoji: '✌️',
-    country: '🇷🇴',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Full Stack',
-      'Entrepreneur',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'CSS',
-      'Vue.js',
-      'iOS',
-    ],
-  },
-  {
     name: 'Tom VanAntwerp',
     description: 'Professional web developer, hobbyist fermenter',
     url: 'https://tomvanantwerp.com/uses',
