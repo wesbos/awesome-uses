@@ -16040,28 +16040,6 @@ module.exports = [
     tags: ['Full Stack', 'React', 'Typescript', 'Node.js', 'Hacking'],
   },
   {
-    name: 'Kevin Woblick',
-    description: 'I turn Pizza into Code and Photos',
-    url: 'https://www.kovah.de/uses/',
-    twitter: '@kovah_kvh',
-    emoji: '👨‍💻',
-    country: '🇩🇪',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Back End',
-      'Full Stack',
-      'DevOps',
-      'PHP',
-      'JavaScript',
-      'Python',
-      'Laravel',
-      'Vue.js',
-      'Docker',
-      'Blogger',
-    ],
-  },
-  {
     name: 'Michal Slepko',
     description:
       'Senior web developer learning iOS development. Live coding streamer on Twitch',
