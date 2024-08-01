@@ -16241,27 +16241,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jesse James Burton',
-    description:
-      'Software Developing Yogi from Alberta, Canada. Lets build the internet together.',
-    url: 'https://burtonmediainc.com/uses',
-    twitter: '@burtonmedia',
-    emoji: '🙏',
-    country: '🇨🇦',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'Teacher',
-      'Nomadic',
-      'JavaScript',
-      'React',
-      'CSS',
-    ],
-  },
-  {
     name: 'Junaid Qadir',
     description: 'A Full Stack #Laravel Developer',
     url: 'https://junaidqadir.com/uses',
