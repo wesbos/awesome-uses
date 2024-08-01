@@ -8224,25 +8224,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Gift Egwuenu',
-    description: '💻Frontend Engineer and Technical Writer.',
-    url: 'https://giftegwuenu.com/uses',
-    emoji: '👩🏻‍💻',
-    country: '🇳🇬',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'JAMstack',
-      'CSS',
-      'JavaScript',
-      'Data Viz',
-      'UI',
-      'UX',
-      'Youtuber',
-    ],
-  },
-  {
     name: 'Chandu J S',
     description:
       '💻 Full Stack Developer & Photographer from Trivandrum, India ❤️. Freelancer.',
