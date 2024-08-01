@@ -10460,25 +10460,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Federico Vitale',
-    description: 'Software Engineer based in Rome',
-    url: 'https://fedevitale.dev/uses',
-    twitter: '@fedevitaledev',
-    emoji: '✌️',
-    country: '🇮🇹',
-    phone: 'iphone',
-    computer: 'apple',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'Go',
-      'Rust',
-      'TypeScript',
-      'React',
-      'Swift',
-    ],
-  },
-  {
     name: 'Vishwasa Navada K',
     description:
       'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
