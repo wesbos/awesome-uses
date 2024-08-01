@@ -15331,7 +15331,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Alejandro G. Anglada',
+    name: '',
     description:
       'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
     url: 'https://aganglada.com/uses/',
