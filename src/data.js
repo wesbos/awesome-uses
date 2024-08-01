@@ -18644,16 +18644,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Steve Rydz',
-    description: 'Developer',
-    url: 'https://steverydz.com/uses',
-    twitter: '@steverydz',
-    country: '🇬🇧',
-    computer: 'linux',
-    phone: 'android',
-    tags: ['Ubuntu', 'Linux'],
-  },
-  {
     name: 'Francisco Valloire',
     description:
       'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
