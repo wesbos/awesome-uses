@@ -14791,28 +14791,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Diana García',
-    description:
-      'Full Stack Web Developer based in Mexico City, I love to teach and to game',
-    url: 'https://dianaeli.dev/uses',
-    twitter: '@dianaeligg',
-    emoji: '💚',
-    country: '🇲🇽',
-    computer: 'windows',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'SQL',
-      'C#',
-      'Remote',
-      'Instructor',
-    ],
-  },
-  {
     name: 'Chiamaka Ikeanyi',
     description: 'Software Engineer, Technical Writer, Poet',
     url: 'https://chiamakaikeanyi.dev/uses',
