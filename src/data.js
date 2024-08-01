@@ -12498,16 +12498,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jordi Hoven',
-    description: 'Healthcare engineer, UX Designer, Whisky lover',
-    url: 'https://www.jordihoven.nl/uses',
-    emoji: '🐨',
-    country: '🇳🇱',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: ['Developer', 'UX Designer', 'Engineer', 'JavaScript', 'CSS'],
-  },
-  {
     name: 'Caleb Ukle',
     description:
       "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
