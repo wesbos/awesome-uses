@@ -11558,27 +11558,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Rikin Patel',
-    description: 'Experienced Front-end developer, Passionate about Javascript',
-    url: 'https://patelrikin.com/#uses',
-    twitter: '@rikinpatel',
-    emoji: '💻',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'TypeScript',
-      'Developer',
-      'React',
-      'Angular',
-      'Node.js',
-      'CSS',
-      'Web Developer',
-      'UI Lead',
-    ],
-  },
-  {
     name: 'Jed Fonner',
     description:
       'Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.',
