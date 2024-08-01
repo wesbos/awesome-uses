@@ -14675,24 +14675,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Shiveen Pandita',
-    description: 'Fullstack developer and blogger from Sydney',
-    url: 'https://shiveenp.com/uses/',
-    twitter: '@shavzer',
-    emoji: '🧙🏽',
-    country: '🇦🇺',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'Kotlin',
-      'Full Stack Developer',
-      'Vue.js',
-      'React',
-      'Writer',
-    ],
-  },
-  {
     name: 'David Leuliette',
     description:
       'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
