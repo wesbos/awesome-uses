@@ -15243,26 +15243,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Antoni Kepinski',
-    description:
-      'Full Stack Engineer, maintaining node-fetch and a bunch of smaller projects 🚀',
-    url: 'https://kepinski.ch/uses/',
-    twitter: '@dokwadratu',
-    emoji: '⚡',
-    country: '🇵🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Full Stack Engineer',
-      'JavaScript',
-      'TypeScript',
-      'Performance',
-      'Accessibility',
-      'React',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Frank Bültge',
     description:
       'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
