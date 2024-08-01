@@ -13038,7 +13038,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Angel Taborda Chinea',
+    name: '',
     description: 'Software Developer, Teacher, JW, CTO en IO Digital',
     url: 'https://ataborda.com/uses',
     emoji: '🤪',
