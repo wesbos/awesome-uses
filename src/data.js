@@ -18413,16 +18413,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Madeline Pritchard',
-    description: 'Film critic, writer, web developer.',
-    url: 'https://www.blog.madelinepritchard.net/uses',
-    emoji: '😌',
-    country: '🇬🇧',
-    computer: 'windows',
-    phone: 'android',
-    tags: ['Writer', 'Developer', 'Python', 'CSS', 'HTML', 'Film', 'Blogger'],
-  },
-  {
     name: 'C Jackdaw',
     description: 'Writer, Artist, Freelance Occultist',
     url: 'https://skyhold.org/uses',
