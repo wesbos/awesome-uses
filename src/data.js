@@ -2097,17 +2097,6 @@ module.exports = [
     ],
   },
   {
-    name: 'starter.place',
-    description: 'Starter repos',
-    url: 'https://www.starter.place/uses/',
-    twitter: '@starter_place',
-    emoji: '🌱',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Remix', 'React', 'TypeScript', 'TailWindCSS', 'Full Stack'],
-  },
-  {
     name: 'Josh Medeski',
     description: 'Full-stack developer and content creator.',
     url: 'https://www.joshmedeski.com/uses/',
