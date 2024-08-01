@@ -203,17 +203,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Abyan Raditya',
-    description: 'FrontEnd Developer',
-    url: 'https://abydityadev.my.id/uses',
-    emoji: '🎧',
-    twitter: '@accusitive_',
-    country: '🇮🇩',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: ['NextJS', 'ReactJS', 'Tailwind CSS', 'FrontEnd'],
-  },
-  {
     name: 'Mike Simmonds',
     description: 'A UK-based, Front-end Software Engineer.',
     url: 'https://mike.id/uses',
