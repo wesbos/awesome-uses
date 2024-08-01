@@ -15753,17 +15753,6 @@ module.exports = [
     tags: ['JavaScript', 'React', 'Node.js', 'Design', 'Full Stack', 'Writer'],
   },
   {
-    name: 'Usman Khwaja',
-    description: 'Front end engineer, Jamstack developer',
-    url: 'https://usmankhwaja.com/uses',
-    twitter: '@numbfall',
-    emoji: '⛵',
-    country: '🇵🇰',
-    computer: 'windows',
-    phone: 'android',
-    tags: ['Developer', 'Engineer', 'JAMstack', 'JavaScript', 'AMP', 'CSS'],
-  },
-  {
     name: 'Abdessalam Benharira',
     description: 'JavaScript developer, UX/UI design and tech enthusiast',
     url: 'https://abdessalam-benharira.me/uses',
