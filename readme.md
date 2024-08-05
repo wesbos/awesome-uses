@@ -60,6 +60,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alberto Prado](https://alprado.com/uses/) — Web developer and SEO expert from México
 * [Frank Adler](https://adfr.io/uses) — Father, Astrophotographer, Frontend Engineer
 * [Jacob Lamb](https://jacobdalamb.dev/uses) — web engineer, musician, and builder
+* [Chris Funderburg](https://chris.funderburg.me/uses) — Consultant Platform / DevSecOps Engineer. A Texan living in England.
 * [Dennis Sauvé](https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98) — DevOps Engineer w/Dev roots in the Pacific North West!
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator

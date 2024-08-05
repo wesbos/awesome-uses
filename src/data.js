@@ -799,7 +799,8 @@ module.exports = [
   },
   {
     name: 'Chris Funderburg',
-    description: 'Consultant Platform / DevSecOps Engineer. A Texan living in England.',
+    description:
+      'Consultant Platform / DevSecOps Engineer. A Texan living in England.',
     url: 'https://chris.funderburg.me/uses',
     emoji: '🐝',
     country: '🇬🇧',
