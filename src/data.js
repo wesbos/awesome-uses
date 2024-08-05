@@ -5003,7 +5003,7 @@ module.exports = [
       'PostgreSQL',
       'React',
       'Remix',
-      'Vite'
+      'Vite',
     ],
   },
   {
