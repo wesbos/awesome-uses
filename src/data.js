@@ -7334,6 +7334,27 @@ module.exports = [
     tags: ['Developer', 'JavaScript'],
   },
   {
+    name: 'Ricardo Morais',
+    description: 'Senior Front-end Developer, Software Engineer @ Nextbitt',
+    url: 'https://ricardomorais.dev/uses',
+    emoji: '🎨',
+    country: '🇵🇹',
+    computer: 'windows',
+    phone: 'android',
+    tags: [      
+      'TypeScript',
+      'React',
+      'Vite',
+      'Stitches',
+      'Vercel',
+      'Rollup',
+      'Testing Library',
+      'Bun',
+      'Software Engineer',
+      'Front-end'
+    ],
+  },
+  {
     name: 'Aditya Thebe',
     description:
       '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
