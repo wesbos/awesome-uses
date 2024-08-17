@@ -360,7 +360,7 @@ module.exports = [
       'CSS',
       'PHP',
       'TypeScript',
-      'JavaScript'
+      'JavaScript',
       'Symfony',
       'Laravel',
       'Neovim',
