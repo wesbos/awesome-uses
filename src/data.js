@@ -288,10 +288,10 @@ module.exports = [
     {
     name: 'Abdujabbar Bozdar',
     description: 'C Programmer, Systems Engineer',
-    url: 'https://yabozdar.com/uses',
+    url: 'https://yabozdar.com/uses/',
     mastodon: '@yabozdar@fosstodon.org',
-    emoji: '⚡',
-    country: '🇵🇰',
+    emoji: '🤝',
+    country: '🇦🇶',
     computer: 'linux',
     phone: 'android',
     tags: [
