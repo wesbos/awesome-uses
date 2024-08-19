@@ -347,7 +347,8 @@ module.exports = [
   },
   {
     name: 'Daniel Rotter',
-    description: 'Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup',
+    description:
+      'Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup',
     url: 'https://danielrotter.at/uses',
     country: '🇦🇹',
     mastodon: '@danrot@mastodon.social',
