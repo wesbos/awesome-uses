@@ -7376,7 +7376,7 @@ module.exports = [
     country: '🇵🇹',
     computer: 'windows',
     phone: 'android',
-    tags: [      
+    tags: [
       'TypeScript',
       'React',
       'Vite',
@@ -7386,7 +7386,7 @@ module.exports = [
       'Testing Library',
       'Bun',
       'Software Engineer',
-      'Front-end'
+      'Front-end',
     ],
   },
   {
