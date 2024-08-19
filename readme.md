@@ -504,6 +504,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Steve Abraham](https://steveabraham.com/uses) — IT guy, previously full stack web developer
 * [Salisa Cheawcharnthong](https://www.sgennrw.xyz/uses) — Software Engineer
 * [Tom (ttntm)](https://ttntm.me/uses) — Web developer from Austria
+* [Vincent Ollivier](https://vinc.cc/uses) — Remote Full Stack Developer
 * [Achhunna Mali](https://achhunna.com/uses) — Software engineer and aspiring surfer
 * [Jorge Baumann](https://baumannzone.dev/uses) — JavaScript FullStack Developer - Content Creator
 * [Moncef AOUDIA](https://www.maoudia.com/uses) — Software developer - Open-source enthusiast/maintainer

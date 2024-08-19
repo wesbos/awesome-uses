@@ -10979,7 +10979,7 @@ module.exports = [
       'CSS',
       'SQL',
       'Vim',
-      'Git'
+      'Git',
     ],
   },
   {
