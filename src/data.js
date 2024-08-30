@@ -17927,6 +17927,27 @@ module.exports = [
       'MLOps',
     ],
   },
+   {
+    name: 'Hiran Venugopalan',
+    description:
+      "A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. ",
+    url: 'https://hiran.in/uses',
+    twitter: '@hfactor',
+    emoji: '🌱',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Design',
+      'Note Taking',
+      'Figma',
+      'SSG',
+      'Web Development',
+      'Product',
+      'UI/UX',
+      'Obsidian',
+    ],
+  },
   {
     name: 'Ryan Daley',
     description:
