@@ -17927,10 +17927,10 @@ module.exports = [
       'MLOps',
     ],
   },
-   {
+  {
     name: 'Hiran Venugopalan',
     description:
-      "A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. ",
+      'A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. ',
     url: 'https://hiran.in/uses',
     twitter: '@hfactor',
     emoji: '🌱',
