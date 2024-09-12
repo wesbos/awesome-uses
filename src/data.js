@@ -11676,14 +11676,22 @@ module.exports = [
   {
     name: 'Martin Marcucci',
     description:
-      'Computer Engineer, Professor, Embedded systems programer, ❤️(React/JS). Less gamer and more dad👪.',
-    url: 'https://www.marku.me/uses',
+      'Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.',
+    url: 'https://www.marku.me/page/uses/',
     twitter: '@RMMarku',
-    emoji: '🧉',
+    emoji: '🚀',
     country: '🇦🇷',
     computer: 'linux',
     phone: 'android',
-    tags: ['Professor', 'Developer', 'C++', 'Writer', 'JavaScript', 'Node', 'Full Stack', 'Embedded'],
+    tags: [
+      'Professor',
+      'Developer',
+      'Go',
+      'Writer',
+      'TypeScript',
+      'Kubernetes',
+      'Devops',
+    ],
   },
   {
     name: 'Andrew McCombe',
