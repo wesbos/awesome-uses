@@ -1,0 +1,13 @@
+[build]
+  command = "remix build"
+  publish = "public"
+
+[dev]
+  command = "remix watch"
+  port = 3000
+  autoLaunch = false
+
+[[headers]]
+  for = "/build/*"
+  [headers.values]
+    "Cache-Control" = "public, max-age=31536000, s-maxage=31536000"

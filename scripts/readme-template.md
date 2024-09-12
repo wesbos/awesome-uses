@@ -1,5 +1,6 @@
 # → Visit [uses.tech](https://uses.tech) for a good time
 
+## Please read [Contribution Guide](https://github.com/wesbos/awesome-uses/blob/master/contribution-guide.md) before submitting a PR.
 A list of `/uses` pages detailing developer setups, gear, software and configs.
 
 Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/blob/master/src/data.js).
