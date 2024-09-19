@@ -53,7 +53,7 @@ module.exports = [
     name: 'Tural Asgarov',
     description: 'Software Engineer/Developer Educator/Content Creator',
     url: 'https://tural.pro/uses',
-    twitter: '@uralAsgar',
+    twitter: '@TuralAsgar',
     emoji: '⌛',
     country: '🇦🇿',
     computer: 'apple',
