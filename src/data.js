@@ -6656,7 +6656,7 @@ module.exports = [
   {
     name: 'Matteo Scarpa alias Fundor333',
     description: 'Backend Pythonista with a Photocamera and a cup of tea',
-    url: 'https://fundor333.dev/uses',
+    url: 'https://fundor333.com/uses',
     twitter: '@fundor333',
     emoji: '🧋',
     country: '🇮🇹', 
