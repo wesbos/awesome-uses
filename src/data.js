@@ -2797,6 +2797,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Rico van Zelst',
+    description:
+      'Full Stack Developer passionate about creating innovative web solutions.',
+    url: 'https://rico.sh/uses',
+    emoji: '🧡',
+    country: '🇳🇱',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Laravel',
+      'PHP',
+      'Symfony',
+      'Vue.js',
+      'Full Stack',
+      'Developer',
+      'AlpineJS',
+      'Web Developer',
+    ],
+  },
+  {
     name: 'Daine Mawer',
     description:
       'Experienced Front-end Developer based in Cape Town, South Africa.',
