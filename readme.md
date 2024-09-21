@@ -125,6 +125,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
 * [Márk Mihályi](https://markmihalyi.hu/uses) — Full-Stack Engineer from Hungary
 * [Vít Baisa](https://vit.baisa.cz/uses) — Software engineer who likes removing code
+* [Kendry Grullón](https://kengru.do/uses) — Software engineer interested in art
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
 * [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
