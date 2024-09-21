@@ -18,6 +18,7 @@ Include the hardware you use, such as your computer and other related equipment.
 * Ensure this PR has a title in the following format
     * ✅ Add Your Name
     * ✅ Add @twitterusername
+    * ✅ Add @mastodonusername@instance.url
     * ❌ Add myself
     * ❌ Adding myself!
     * ❌ Add Your Name @twitter @github

@@ -13,31 +13,30 @@ export default function Person({ person }) {
   const unavatar = person.twitter
     ? `${twitter}?fallback=${website}&ttl=28d`
     : website;
-  // const img = `https://images.weserv.nl/?url=${unavatar}&w=100&l=9&af&il&n=-1`;
-  const img = unavatar;
+  const [_, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
   const { tag: currentTag } = useParams();
   return (
     <div
       className="PersonWrapper"
-      style={{ contentVisibility: 'auto', containIntrinsicHeight: '560px' }}
+      style={{ contentVisibility: "auto", containIntrinsicHeight: "560px" }}
     >
       <div className="PersonInner">
         <header>
           <img
             width="50"
             height="50"
-            src={img}
+            src={unavatar}
             alt={person.name}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null; // prevents looping
-              currentTarget.src = '/default.png';
+              currentTarget.src = "/default.png";
             }}
             loading="lazy"
           />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
               {person.name}
-            </a>{' '}
+            </a>{" "}
             {person.emoji}
           </h3>
           <a
@@ -47,14 +46,14 @@ export default function Person({ person }) {
             href={person.url}
           >
             {url.host}
-            {url.pathname.replace(/\/$/, '')}
+            {url.pathname.replace(/\/$/, "")}
           </a>
         </header>
         <p>{person.description}</p>
         <ul className="Tags">
           {person.tags.map((tag) => (
             <li
-              className={`Tag small ${tag === currentTag ? 'currentTag' : ''}`}
+              className={`Tag small ${tag === currentTag ? "currentTag" : ""}`}
               key={tag}
             >
               {tag}
@@ -82,14 +81,28 @@ export default function Person({ person }) {
         )}
 
         {person.twitter && (
-          <div className="TwitterHandle">
+          <div className="SocialHandle">
             <a
-              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
+              href={`https://twitter.com/${person.twitter.replace("@", "")}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="at">@</span>
-              {person.twitter.replace('@', '')}
+              {person.twitter.replace("@", "")}
+            </a>
+          </div>
+        )}
+
+        {/* If they have a mastodon, and no twitter, show that */}
+        {person.mastodon && !person.twitter && (
+          <div className="SocialHandle">
+            <a
+              href={`https://${mastodonServer}/@${mastodonHandle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="at">@</span>
+              {mastodonHandle}
             </a>
           </div>
         )}
@@ -113,7 +126,15 @@ Person.propTypes = {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
         return new Error(
           `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit twitter handle.`
+            ` \`${componentName}\`. This isn't a legit Twitter handle.`
+        );
+      }
+    },
+    mastodon(props, propName, componentName) {
+      if (!/^@(\w){1,30}@(\w)+\.(\w)+$/.test(props[propName])) {
+        return new Error(
+          `Invalid prop \`${propName}\` supplied to` +
+            ` \`${componentName}\`. This isn't a legit Mastodon handle.`
         );
       }
     },
