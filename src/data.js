@@ -3818,6 +3818,41 @@ module.exports = [
     ],
   },
   {
+  name: 'Gaurav Kesh Roushan',
+  description: 'Fullstack Developer specializing in web development with experience in backend, frontend, and cloud technologies',
+  url: 'https://gkrcoder.vercel.app/',
+  twitter: '@gkrcoder_',
+  emoji: '💻',
+  country: '🇮🇳',
+  computer: 'apple',
+  phone: 'android',
+  image: 'https://github.com/your-username/uses.dev/blob/main/src/images/your-image.jpg?raw=true',  // Replace with your image URL
+  tags: [
+    'Fullstack',
+    'Backend',
+    'Frontend',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'MySQL',
+    'RESTful APIs',
+    'TailwindCSS',
+    'Bootstrap',
+    'Git',
+    'GitHub',
+    'Data Structures',
+    'Algorithms',
+    'Problem-Solving',
+    'C++',
+    'Java'
+  ]
+},
+
+  {
     name: 'Emmanuel Gautier',
     description:
       'Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.',
