@@ -3820,7 +3820,7 @@ module.exports = [
   {
   name: 'Gaurav Kesh Roushan',
   description: 'Fullstack Developer specializing in web development with experience in backend, frontend, and cloud technologies',
-  url: 'https://gkrcoder.vercel.app/',
+  url: 'https://github.com/GauravKesh',
   twitter: '@gkrcoder_',
   emoji: '💻',
   country: '🇮🇳',
