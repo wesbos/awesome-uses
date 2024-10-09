@@ -17898,6 +17898,22 @@ module.exports = [
     tags: ['Ruby', 'Ruby on Rails', 'JavaScript', 'Astro'],
   },
   {
+    name: 'Noah',
+    description: 'Swiss + Sysadmin',
+    url: 'https://mazepin.ch/uses/',
+    emoji: '😺',
+    country: '🏴🇨🇭',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'React',
+      'photography'
+      'sysadmin'
+      'linux'
+    ],
+  },
+  {
     name: 'Tim Veletta',
     description: 'Australian full-stack developer and designer',
     url: 'https://www.timveletta.com/uses',
