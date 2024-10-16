@@ -2589,7 +2589,8 @@ module.exports = [
   },
   {
     name: 'Declan Chidlow',
-    description: 'Frontend developer, designer, dabbler, and user of the information superhighway.',
+    description:
+      'Frontend developer, designer, dabbler, and user of the information superhighway.',
     url: 'https://vale.rocks/uses',
     country: '🇦🇺',
     mastodon: '@vale@fedi.vale.rocks',
