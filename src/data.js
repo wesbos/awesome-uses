@@ -18096,6 +18096,25 @@ module.exports = [
     ],
   },
   {
+    name: 'JourneyToLunar',
+    description: 'Swift developer, blogger, photographer, and youtuber.',
+    url: 'https://journeytolunar.com/uses/',
+    country: '🇳🇱',
+    twitter: '@JourneyToLunar',
+    mastodon: '@JourneyToLunar@mastodon.social',
+    emoji: '🌙',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Swift',
+      'iOS',
+      'macOS',
+      'Blogger',
+      'YouTuber',
+      'Photograph'
+    ],
+  },
+  {
     name: 'Will Adams',
     twitter: '@bushblade',
     description: 'UK developer and knife maker',
