@@ -17667,7 +17667,7 @@ module.exports = [
     name: 'Jaydeep Rawat',
     description:
       'Hiya! I am a Student and Software Engineer.',
-    url: 'https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b.js',
+    url: 'https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b',
     country: '🇮🇳',
     twitter: '@jaydeep_ra69755',
      mastodon: '@jaydeeprawat17@mastodon.social',
