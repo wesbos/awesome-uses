@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
+* [Tural Asgarov](https://tural.pro/uses) — Software Engineer/Developer Educator/Content Creator
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [James Harding](https://jameshard.ing/uses) — Airline Pilot and Software Engineer
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
@@ -267,6 +268,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer
 * [Erik Kroes](https://www.erikkroes.nl/uses) — Photographer and creative in the world of accessibility
 * [Ben Myers](https://benmyers.dev/uses/) — Web developer. Accessibility advocate. Human T-rex.
+* [Christian Goben](https://christiangoben.com/uses) — Software engineer, problem solver, automation sorcerer. On an endless pursuit for good coffee.
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Dave Redfern](https://daveredfern.com/uses) — I design and develop user‑centered experiences that deliver measurable returns.
 * [Caro Appleby](https://caro.fyi/uses) — Indie programmer, textile artist, musician, endlessly curious
@@ -463,6 +465,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Elmar Klausmeier](https://eklausmeier.goip.de/aux/uses) — Developer and blogger, data center management
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
+* [Michael Wagner](https://www.michaelwagner.cc/en/uses) — CS student, creative and aspiring full-stack developer
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
 * [Ángel Guerra](https://angelguerra.me/uses/) — Father. Partner. Human. Kickboxer. Ninja.
 * [Jason Cory Alvernaz](https://jasoncoryalvernaz.com/uses) — Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.
@@ -634,7 +637,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
 * [Jim Fang](https://airfusion.dev/uses) — Developer, Tech enthusiast, Student.
-* [Isaac Wyatt](https://isaacwyatt.com/uses) — Aviator, Mountaineer, SAAS/Tech, Coder, GTD & PKM Nerd, SF Bay Area to Seattle, Angel & Advisor, BBA, MBA
+* [Isaac Wyatt](https://isaacwyatt.com/uses) — Built Growth Systems @ Google, HashiCorp, New Relic etc. | Strat & Ops + Code
 * [Andrew Zeller](https://zeller.io/uses) — Frontend engineer and designer | SF Bay Area | Drone enthusiast
 * [Thomas Tuvignon](https://thomastuvignon.com/en/uses) — Front-end developer and occasional designer.
 * [MG Santos](https://fullybearded.com/uses/) — Full-stack (and fully bearded) developer who loves bots, automations and building stuff 
@@ -778,6 +781,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Felix Kirmaier](https://www.kirmaier.net/uses/) — Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living
 * [Jordan Hofker](https://jordan.hofker.org/uses/) — Husband, father, engineer, and sometimes I take pictures. From Nebraska. Hobby collector.
 * [Matt Busche](https://matthewbusche.com/uses/) — Full Stack developer from Des Moines, Iowa, web performance enthusiast
+* [Nikhil Anand](https://nikhil.io/uses/) — Fullstack Engineer
 * [Zura Gabievi](https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d) — Front-end Team Lead.
 * [Jace Hensley](https://jacehensley.dev/uses) — Fullstack Engineer
 * [Preston Lamb](https://www.prestonlamb.com/uses) — Full Stack JavaScript Developer and Thinkster.io Author
