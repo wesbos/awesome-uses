@@ -42,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
+* [Abdujabbar Bozdar](https://yabozdar.com/uses/) — C Programmer, Systems Engineer
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd

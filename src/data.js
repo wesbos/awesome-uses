@@ -81,7 +81,7 @@ module.exports = [
       'Webstorm',
       'Solutions Architect',
       'Terraform',
-      'DevOps'
+      'DevOps',
     ],
   },
   {
@@ -348,7 +348,7 @@ module.exports = [
       'HTML',
     ],
   },
-    {
+  {
     name: 'Abdujabbar Bozdar',
     description: 'C Programmer, Systems Engineer',
     url: 'https://yabozdar.com/uses/',
@@ -2645,7 +2645,7 @@ module.exports = [
   },
   {
     name: 'voitech',
-    description: 
+    description:
       'English teacher, IT specialist, programming instructor, cyber security educator, personal knowledge management consultant',
     url: 'https://voitech.lol/uses/',
     country: '🇵🇱',
@@ -2662,8 +2662,8 @@ module.exports = [
       'Markdown',
       'Personal Knowledge Management',
       'Privacy',
-      'Security'
-      ]
+      'Security',
+    ],
   },
   {
     name: 'Seirdy',
@@ -6847,10 +6847,10 @@ module.exports = [
     url: 'https://fundor333.com/uses',
     twitter: '@fundor333',
     emoji: '🧋',
-    country: '🇮🇹', 
+    country: '🇮🇹',
     computer: 'apple',
     phone: 'apple',
-        tags: [
+    tags: [
       'Developer',
       'Python',
       'Blogger',
@@ -18132,14 +18132,7 @@ module.exports = [
     emoji: '🌙',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Swift',
-      'iOS',
-      'macOS',
-      'Blogger',
-      'YouTuber',
-      'Photograph'
-    ],
+    tags: ['Swift', 'iOS', 'macOS', 'Blogger', 'YouTuber', 'Photograph'],
   },
   {
     name: 'Will Adams',
