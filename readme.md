@@ -94,6 +94,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
+* [Noah](https://mazepin.ch/uses) — Swiss + Sysamdin
 * [Jesse Stilwell](https://stilwell.dev/uses) — DevOps Engineer and Hobbyist Web Developer
 * [Raymond Luong](https://www.raymondluong.com/uses/) — Front End Platform + Design Systems Engineer
 * [Luka Harambasic](https://harambasic.de/uses) — German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.

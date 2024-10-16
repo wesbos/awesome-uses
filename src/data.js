@@ -1679,21 +1679,13 @@ module.exports = [
   },
   {
     name: 'Noah',
-    description:'Swiss + Sysamdin',
+    description: 'Swiss + Sysamdin',
     url: 'https://mazepin.ch/uses',
     emoji: '🙀',
     country: '🇨🇭',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Developer',
-      'Web',
-      'SQL',
-      'Blogger',
-      'macOS',
-      'Linux'
-    ],
+    tags: ['Engineer', 'Developer', 'Web', 'SQL', 'Blogger', 'macOS', 'Linux'],
   },
   {
     name: 'Jesse Stilwell',
