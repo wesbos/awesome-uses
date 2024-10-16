@@ -84,6 +84,7 @@ module.exports = [
       'DevOps'
     ],
   },
+  {
     name: 'Tural Asgarov',
     description: 'Software Engineer/Developer Educator/Content Creator',
     url: 'https://tural.pro/uses',
