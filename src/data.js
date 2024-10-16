@@ -11867,6 +11867,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Martin Marcucci',
+    description:
+      'Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.',
+    url: 'https://www.marku.me/page/uses/',
+    twitter: '@RMMarku',
+    emoji: '🚀',
+    country: '🇦🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Professor',
+      'Developer',
+      'Go',
+      'Writer',
+      'TypeScript',
+      'Kubernetes',
+      'Devops',
+    ],
+  },
+  {
     name: 'Andrew McCombe',
     description:
       'Experienced full stack web developer with a passion for testing.',
