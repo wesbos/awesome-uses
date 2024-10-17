@@ -17956,12 +17956,11 @@ module.exports = [
   },
   {
     name: 'Jaydeep Rawat',
-    description:
-      'Hiya! I am a Student and Software Engineer.',
+    description: 'Hiya! I am a Student and Software Engineer.',
     url: 'https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b',
     country: '🇮🇳',
     twitter: '@jaydeep_ra69755',
-     mastodon: '@jaydeeprawat17@mastodon.social',
+    mastodon: '@jaydeeprawat17@mastodon.social',
     emoji: '😇',
     computer: 'windows',
     phone: 'android',
@@ -17973,7 +17972,7 @@ module.exports = [
       'TypeScript',
       'JavaScript',
       'Linux',
-       'GitHub',
+      'GitHub',
       'SQL',
       'Git',
       'Developer',
