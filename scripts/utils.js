@@ -61,7 +61,7 @@ module.exports.Schema = Joi.object({
     .valid(...flags)
     .required(),
   twitter: Joi.string().pattern(new RegExp(/^@?(\w){1,15}$/)),
-  mastodon: Joi.string().pattern(new RegExp(/^@(\w){1,30}@(\w)+\.(\w)+$/)),
+  mastodon: Joi.string().pattern(new RegExp(/^@(\w){1,30}@(\w)+\.(.?\w)+$/)),
   emoji: Joi.string().allow(''),
   computer: Joi.string().valid('apple', 'windows', 'linux', 'bsd'),
   phone: Joi.string().valid('iphone', 'android', 'windowsphone', 'flipphone'),
@@ -112,7 +112,6 @@ module.exports.communicateValidationOutcome = async function (
     ].join('\n');
   }
 
-
   const { GITHUB_TOKEN } = process.env;
   const { context } = github;
   if (!GITHUB_TOKEN || !context.payload.pull_request) {
@@ -120,7 +119,6 @@ module.exports.communicateValidationOutcome = async function (
       'Cannot add a comment if GITHUB_TOKEN or context.payload.pull_request is not set'
     );
     core.info(`Comment contents:\n${comment}`);
-    return;
   }
   // TODO: Re-enable a way to comment on PRs that tests passed.
   // const pullRequestNumber = context.payload.pull_request.number;
