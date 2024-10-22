@@ -18371,7 +18371,8 @@ module.exports = [
   },
   {
     name: 'Catalin Pit',
-    description: 'Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.',
+    description:
+      'Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.',
     url: 'https://catalins.tech/uses/',
     emoji: '🙌',
     country: '🇷🇴',
