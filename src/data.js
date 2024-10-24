@@ -2629,6 +2629,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Curtis Upshall',
+    description: 'Software engineer and photographer based in Victoria, Canada.',
+    url: 'https://curtisupshall.com/uses',
+    twitter: '@curtisupshall',
+    emoji: '🤠',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'React',
+      'TypeScript',
+      'Frontend',
+      'HTML',
+      'CSS',
+      'PHP',
+      'Laravel',
+      'Photographer',
+      'Photoshop',
+      'Next.js',
+      'Full Stack',
+      'AWS',
+      'SQL',
+      'Python'
+    ]
+  },
+  {
     name: 'Marko Bajlovic',
     description: 'Multidisciplinary creative and developer; forever learning.',
     url: 'https://marko.tech/uses',
