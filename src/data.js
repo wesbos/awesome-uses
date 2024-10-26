@@ -9171,6 +9171,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Kendall Morgan',
+    description:
+      'Software engineer by day. Hip-hop, coffee, and street photography aficionado by night.',
+    url: 'https://kendallmorgan.com/uses',
+    twitter: '@kendallmorgan',
+    mastodon: '@kendallmorgan@mastodon.social',
+    emoji: '☕',
+    computer: 'apple',
+    country: '🇺🇸',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Programmer',
+      'Engineer',
+      'Backend',
+      'Distributed Systems',
+      'Golang',
+      'Typescript',
+      'Javascript',
+      'Python',
+      'Linux',
+      'Cloud',
+    ],
+  },
+  {
     name: 'Kenny Robinson',
     description:
       'Web developer that builds software to improve business processes',
