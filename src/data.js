@@ -8,6 +8,7 @@
  * @property {string} country - flag emoji for contributor's country
  * @property {string} [twitter] - optional Twitter username (beginning with `@`)
  * @property {string} [mastodon] - optional Mastodon username & server (beginning with `@`, ex: `@hello@mastodon.social`)
+ * @property {string} [bluesky] - optional Bluesky handle (ex: `@handle.bsky.social`)
  * @property {string} [emoji] - some emoji corresponding to the contributor
  * @property {'apple' | 'windows' | 'linux' | 'bsd'} [computer]
  * @property {'iphone' | 'android' | 'windowsphone' | 'flipphone'} [phone]
@@ -9168,6 +9169,31 @@ module.exports = [
       'HTML',
       'CSS',
       'Node.js',
+    ],
+  },
+  {
+    name: 'Kendall Morgan',
+    description:
+      'Software engineer by day. Hip-hop, coffee, and street photography aficionado by night.',
+    url: 'https://kendallmorgan.com/uses',
+    bluesky: '@kendallmorgan.com',
+    mastodon: '@kendallmorgan@mastodon.social',
+    emoji: '☕',
+    computer: 'apple',
+    country: '🇺🇸',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Programmer',
+      'Engineer',
+      'Backend',
+      'Distributed Systems',
+      'Golang',
+      'Typescript',
+      'Javascript',
+      'Python',
+      'Linux',
+      'Cloud',
     ],
   },
   {
