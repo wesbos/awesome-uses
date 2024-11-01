@@ -23,6 +23,30 @@
  */
 module.exports = [
   {
+    name: 'Iago Bruno',
+    description: 'Full-stack developer with ascending in back-end.',
+    url: 'https://iagobruno.is-a.dev/uses',
+    twitter: '@iagotico',
+    emoji: '🏳️‍🌈',
+    country: 'BR',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Node.js',
+      'React',
+      'Storybook',
+      'Frontend',
+      'Backend',
+      'Full Stack',
+      'PHP',
+      'Laravel',
+      'TailwindCSS',
+      'CSS'
+    ],
+  },
+  {
     name: 'Rachel Cantor',
     description: 'Hiya! I am a Trusted Tester and Frontend Engineer.',
     url: 'https://rachel.fyi/uses',
