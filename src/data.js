@@ -5048,7 +5048,7 @@ module.exports = [
   {
     name: 'Michael Kitzman',
     description:
-      "Frontend Engineer who loves 🏈 🏀 ⚽ sports, 🎸 music, 🎨 design and ❤️‍🔥 hot sauce.",
+      "Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.",
     url: 'https://www.michaelkitzman.com/uses',
     emoji: '🤔',
     country: '🇺🇸',
