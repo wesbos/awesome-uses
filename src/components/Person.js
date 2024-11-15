@@ -96,7 +96,8 @@ export default function Person({ person }) {
         {/* If they have a mastodon, and no twitter, show that */}
         {person.mastodon && !person.twitter && (
           <div className="SocialHandle">
-            <a href={`https://${mastodonServer}/@${mastodonHandle}`}
+            <a
+              href={`https://${mastodonServer}/@${mastodonHandle}`}
               target="_blank"
               rel="noopener noreferrer"
             >
