@@ -8,6 +8,7 @@
  * @property {string} country - flag emoji for contributor's country
  * @property {string} [twitter] - optional Twitter username (beginning with `@`)
  * @property {string} [mastodon] - optional Mastodon username & server (beginning with `@`, ex: `@hello@mastodon.social`)
+ * @property {string} [bluesky] - optional Bluesky (bsky.app) handle (do not use `@`)
  * @property {string} [emoji] - some emoji corresponding to the contributor
  * @property {'apple' | 'windows' | 'linux' | 'bsd'} [computer]
  * @property {'iphone' | 'android' | 'windowsphone' | 'flipphone'} [phone]
@@ -3844,7 +3845,7 @@ module.exports = [
     name: 'Salma Alam-Naylor',
     description: 'I write code for your entertainment.',
     url: 'https://whitep4nth3r.com/uses',
-    twitter: '@whitep4nth3r',
+    bluesky: 'whitep4nth3r.com',
     emoji: '⚡️',
     country: '🇬🇧',
     computer: 'apple',
