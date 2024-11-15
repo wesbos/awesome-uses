@@ -85,8 +85,7 @@ export default function Person({ person }) {
             <a
               href={`https://twitter.com/${person.twitter.replace("@", "")}`}
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               <span className="at">@</span>
               {person.twitter.replace("@", "")}
             </a>
@@ -98,7 +97,8 @@ export default function Person({ person }) {
           <div className="SocialHandle">
             <a href={`https://${mastodonServer}/@${mastodonHandle}`}
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <span className="at">@</span>
               {mastodonHandle}
             </a>
@@ -108,9 +108,10 @@ export default function Person({ person }) {
         {/* If they have a bluesky, and no mastodon and no twitter, show that */}
         {person.bluesky && !person.mastodon && !person.twitter && (
           <div className="SocialHandle">
-            <a href={`https://bsky.app/profile/${person.bluesky}`} 
+            <a href={`https://bsky.app/profile/${person.bluesky}`}
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <span className="at">@</span>
               {person.bluesky}
             </a>
