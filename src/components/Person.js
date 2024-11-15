@@ -96,13 +96,23 @@ export default function Person({ person }) {
         {/* If they have a mastodon, and no twitter, show that */}
         {person.mastodon && !person.twitter && (
           <div className="SocialHandle">
-            <a
-              href={`https://${mastodonServer}/@${mastodonHandle}`}
+            <a href={`https://${mastodonServer}/@${mastodonHandle}`} 
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               <span className="at">@</span>
               {mastodonHandle}
+            </a>
+          </div>
+        )}
+
+        {/* If they have a bluesky, and no mastodon and no twitter, show that */}
+        {person.bluesky && !person.mastodon && !person.twitter && (
+          <div className="SocialHandle">
+            <a href={`https://bsky.app/profile/${person.bluesky}`} 
+              target="_blank"
+              rel="noopener noreferrer">
+              <span className="at">@</span>
+              {person.bluesky}
             </a>
           </div>
         )}
