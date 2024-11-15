@@ -85,7 +85,8 @@ export default function Person({ person }) {
             <a
               href={`https://twitter.com/${person.twitter.replace("@", "")}`}
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <span className="at">@</span>
               {person.twitter.replace("@", "")}
             </a>
