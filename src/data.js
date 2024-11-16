@@ -18348,6 +18348,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Alberto Gallego',
+    description:
+      "I make software, write, and take photos..",
+    url: 'https://albertogalca.com/uses',
+    twitter: '@albertogalca',
+    emoji: '🤘🏼',
+    country: '🇪🇸',
+    computer: 'mac',
+    phone: 'ios',
+    tags: [
+      'Bear',
+      'React',
+      'JavaScript',
+      'React Native',
+      'Cursor',
+      'TablePplus',
+      'Figma',
+      'PostgreSQL',
+      'Frontend',
+      'Writer',
+      'Photographer'
+    ],
+  },
+  {
     name: 'Manthan Ank',
     description:
       "I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
