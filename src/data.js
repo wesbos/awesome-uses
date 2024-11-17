@@ -398,13 +398,13 @@ module.exports = [
   },
   {
     name: 'Bino Kochumol Varghese',
-    description: 'Developer. Reader. Writer. Wanderlust.',
-    url: 'https://binovarghese.com/blog/2021/what-i-use-2021/',
+    description: 'Developer. Writer.',
+    url: 'https://binovarghese.com/uses/',
     twitter: '@binovarghese_',
     emoji: '⚡',
     country: '🇮🇳',
     computer: 'windows',
-    phone: 'android',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Front End',
