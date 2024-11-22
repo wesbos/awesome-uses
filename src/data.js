@@ -17902,6 +17902,34 @@ module.exports = [
     ],
   },
   {
+    name: 'Pascal Poredda',
+    description:
+      'Freelancer from Cologne, Germany. Running an agency called poredda.digital',
+    url: 'https://pascal-poredda.de/uses/',
+    twitter: '@pascal_poredda',
+    emoji: '🚀',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Blogger',
+      'Node.js',
+      'JavaScript',
+      'TypeScript',
+      'Rust',
+      'React',
+      'Web',
+      'NextJS'
+      'HTML',
+      'SCSS',
+      'CSS',
+      'PostgresSQL',
+      'SQL'
+    ],
+  },
+  {
     name: 'Daniel Cefram Ramirez',
     description:
       'I build things through code. I make short sentences to multiple paragraphs.',
