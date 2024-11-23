@@ -17921,7 +17921,7 @@ module.exports = [
       'Rust',
       'React',
       'Web',
-      'NextJS'
+      'NextJS',
       'HTML',
       'SCSS',
       'CSS',
