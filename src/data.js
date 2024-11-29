@@ -11944,7 +11944,6 @@ module.exports = [
       'Firefox',
       'Open Source',
       'Open Source Software',
-      'Indieweb',
       'Software Engineer',
       'git',
       'Linux',
