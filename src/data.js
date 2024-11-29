@@ -11942,7 +11942,6 @@ module.exports = [
       'Indieweb',
       'Mathematics',
       'Firefox',
-      'Open Source',
       'Open Source Software',
       'Software Engineer',
       'git',
