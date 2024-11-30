@@ -189,6 +189,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Charles Harwood',
+    description: "Aussie Staff Software Engineer, Dad, World's okayest guitarist",
+    url: 'https://charlesharwood.dev/uses',
+    emoji: '🎸',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'React Native',
+      'iOS',
+      'Android',
+      'React Query',
+      'Node.js',
+      'GraphQL',
+      'Dad',
+      'Musician',
+      'Music producer',
+      'ProTools',
+      'Self taught'
+    ]
+  },
+  {
     name: 'Scott Willsey',
     description: 'Podcaster, Blogger, Mac Nerd',
     url: 'https://scottwillsey.com/uses/',
