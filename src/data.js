@@ -14977,7 +14977,7 @@ module.exports = [
     name: 'David Dias',
     description:
       'Front-End Developer, UX/UI enthusiast, podcaster and content creator!',
-    url: 'https://thedaviddias.dev/uses/',
+    url: 'https://thedaviddias.com/uses/',
     twitter: '@TheDavidDias',
     emoji: '🙃',
     country: '🇨🇦',
