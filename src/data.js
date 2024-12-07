@@ -51,6 +51,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Bhautik Bavadiya AKA yesbhautik',
+    description: 'Crafting the future, Today.',
+    url: 'https://yesbhautik.co.in/uses',
+    emoji: '🍀',
+    country: 'in',
+    twitter: '@yesbhautik',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Tech Founder',
+      'Cloud Engineer',
+      'Business Development',
+      'Full Stack developer',
+      'Technical Advisor',
+      'Technologist ',
+      'Founder',
+      'DevRel',
+      'Growth Manager'
+    ],
+  },
+  {
     name: 'Mark Schmeiser',
     description: 'Software architect, web developer and engineer',
     url: 'https://yadl.info/en/uses',
