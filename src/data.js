@@ -17775,7 +17775,7 @@ module.exports = [
       'Typescript',
       'Python',
       'Architect',
-      'Design Systems',
+      'System Design',
       'Software Tinkerer',
     ],
   },
