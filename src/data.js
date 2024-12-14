@@ -13696,6 +13696,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Jason Scheirer',
+    description:
+      'Software Engineer, Systems Enthusiast. I can probably solve that problem quickly.',
+    url: 'https://jasonscheirer.com/uses/',
+    bluesky: 'jasonscheirer.com',
+    mastodon: '@jason@computering.pro',
+    emoji: '🦨',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Python',
+      'Golang',
+      'FastAPI',
+      'Ruby on Rails',
+      'JavaScript',
+      'React',
+      'SolidJS',
+      'PostgreSQL',
+    ],
+  },
+  {
     name: 'Frédéric Harper',
     description:
       'Developer Advocate with a knack for public speaking & making videos',
