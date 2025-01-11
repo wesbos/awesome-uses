@@ -6268,9 +6268,10 @@ module.exports = [
   },
   {
     name: 'Dennis Muensterer',
-    descriptions: 'Inherently lazy and striving to do less.',
+    description: 'Inherently lazy and striving to do less.',
     url: 'https://muensterer.tech/uses',
     twitter: '@dnnsmnstrr',
+    mastodon: '@dnnsmnstrr@mastodon.social',
     emoji: '🦥',
     country: '🇩🇪',
     computer: 'apple',
