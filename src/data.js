@@ -115,7 +115,7 @@ module.exports = [
   },
   {
     name: 'Lubna',
-    description: 'Front-end developer, Technical Lead, CSS Connoisseur, Design Systems Advocate',
+    description: 'Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate',
     url: 'https://lubna.dev/uses',
     emoji: '✨',
     country: '🇬🇧',
