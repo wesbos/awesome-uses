@@ -7600,6 +7600,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Jack Jackson',
+    description: 'I make things to help people do things',
+    url: 'https://blog.scubbo.org/uses/',
+    mastodon: '@scubbo@fosstodon.org',
+    emoji: '🥰',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'SRE',
+      'Developer',
+      'Python',
+      'Kubernetes',
+      'VS Code',
+      'Docker'
+    ]
+  },
+  {
     name: 'Enea Xharja',
     description: 'Web Developer',
     url: 'https://eneaxharja.com/uses',
