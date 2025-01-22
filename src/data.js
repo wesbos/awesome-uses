@@ -13939,17 +13939,6 @@ module.exports = [
     tags: ['Hardware', 'DevOps', 'Full Stack', 'TypeScript', 'Go', 'Rust'],
   },
   {
-    name: 'Bob Matyas',
-    description: 'Web Developer // IndieWeb',
-    url: 'https://www.bobmatyas.com/uses',
-    twitter: '@bobmatyas',
-    emoji: '🌸',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Developer', 'HTML', 'CSS', 'JavaScript', 'WordPress', 'Blogger'],
-  },
-  {
     name: 'Tom Hazledine',
     description:
       'Data visualisation tinkerer and JS enthusiast. Podcaster. Nerd.',
