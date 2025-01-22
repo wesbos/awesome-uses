@@ -5742,25 +5742,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Sergio Martín',
-    description:
-      'I enjoy creating and learning for the web. Standards and vanilla enthusiast',
-    url: 'https://www.sergiomartin.dev/uses',
-    twitter: '@WhizzoCode',
-    emoji: '🦾',
-    country: '🇪🇸',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'Web Developer',
-      'Developer',
-      'JavaScript',
-      'Front End',
-      'Back End',
-      'Linux',
-    ],
-  },
-  {
     name: 'Ajmal Afif',
     description: 'Digital designer',
     url: 'https://ajmalafif.com/uses',
