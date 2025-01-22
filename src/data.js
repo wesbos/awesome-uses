@@ -6872,7 +6872,7 @@ module.exports = [
     emoji: '🧋',
     country: '🇮🇹',
     computer: 'apple',
-    phone: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Python',
