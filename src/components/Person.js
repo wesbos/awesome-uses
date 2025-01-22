@@ -151,5 +151,13 @@ Person.propTypes = {
         );
       }
     },
+    bluesky(props, propName, componentName) {
+      if (!/^(\w)+\.(\w)+\.(\w)+$/.test(props[propName])) {
+        return new Error(
+          `Invalid prop \`${propName}\` supplied to` +
+            ` \`${componentName}\`. This isn't a legit Bluesky handle.`
+        );
+      }
+    },
   }),
 };
