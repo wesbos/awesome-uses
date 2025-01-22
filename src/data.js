@@ -14589,17 +14589,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Josef Aidt',
-    description: 'JavaScript and Garlic Bread connoisseur',
-    url: 'https://josefaidt.dev/uses',
-    twitter: '@josefaidt',
-    emoji: '🧄',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Full Stack', 'React', 'Node.js', 'GraphQL', 'Gatsby'],
-  },
-  {
     name: 'Kyle Platt',
     description:
       'Senior Software Engineer, Multi Startup Founder, Building Projects in Public',
