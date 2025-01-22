@@ -15230,31 +15230,6 @@ module.exports = [
     ],
   },
   {
-    name: '',
-    description:
-      'Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌',
-    url: 'https://aganglada.com/uses/',
-    twitter: '@aganglada',
-    emoji: '🔥',
-    country: '🇪🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Front End',
-      'Mentor',
-      'YouTuber',
-      'Writer',
-      'JavaScript',
-      'TypeScript',
-      'Performance',
-      'PWA',
-      'React',
-      'Node.js',
-      'CSS',
-    ],
-  },
-  {
     name: 'Frank Bültge',
     description:
       'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
