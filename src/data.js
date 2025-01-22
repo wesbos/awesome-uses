@@ -15108,7 +15108,7 @@ module.exports = [
     twitter: '@amanrdev',
     emoji: '😏',
     country: '🇮🇳',
-    computer: 'hp',
+    computer: 'windows',
     phone: 'android',
     tags: [
       'Frontend Developer',
