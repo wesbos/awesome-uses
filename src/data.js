@@ -10327,8 +10327,8 @@ module.exports = [
     url: 'https://www.michaelwagner.cc/en/uses',
     emoji: '👍',
     country: '🇩🇪',
-    computer: 'Windows',
-    phone: 'iPhone',
+    computer: 'windows',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Photography',
