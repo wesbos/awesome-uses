@@ -14984,16 +14984,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Amanda Parada',
-    description: 'CS student. Unfortunately not an actual owl.',
-    url: 'https://lechuza.cafe/uses',
-    emoji: '🦉',
-    country: '🇺🇸',
-    computer: 'linux',
-    phone: 'android',
-    tags: ['Student', 'Arch Linux', 'Artist', 'Nginx'],
-  },
-  {
     name: 'Michael Beckwith',
     description:
       'PHP and WordPress developer/support, coffee consumer, gym monkey',
