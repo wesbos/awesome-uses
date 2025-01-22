@@ -12806,17 +12806,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jeffrey Way',
-    description: 'Laracasts Author',
-    url: 'https://laracasts.com/blog/laracasts-uses',
-    twitter: '@jeffrey_way',
-    emoji: '💻',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Developer', 'Designer', 'Back End', 'PHP'],
-  },
-  {
     name: 'Terry Godier',
     description: 'A developer and marketer of fine internet products.',
     url: 'https://terrygodier.com/uses',
