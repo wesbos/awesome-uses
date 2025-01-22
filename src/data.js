@@ -10165,28 +10165,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jason Cory Alvernaz',
-    description:
-      'Web Developer, Blogger, YouTuber, and Dog Lover. Not necessarily in that order.',
-    url: 'https://jasoncoryalvernaz.com/uses',
-    emoji: '👽',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Entrepreneur',
-      'Teacher',
-      'YouTuber',
-      'JavaScript',
-      'React',
-      'CSS',
-      'Gatsby',
-      'Blogger',
-    ],
-  },
-  {
     name: 'Robin Bakker',
     description: 'Web Developer',
     url: 'https://robinbakker.nl/uses',
