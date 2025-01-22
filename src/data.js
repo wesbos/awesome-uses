@@ -3739,17 +3739,6 @@ module.exports = [
     tags: ['JavaScript', 'React', 'Node.js'],
   },
   {
-    name: 'Joshua Cerbito',
-    description: 'I write code, I train devs, and I play music.',
-    url: 'https://www.cerbito.com/uses',
-    twitter: '@joshuacerbito',
-    emoji: '🎸',
-    country: '🇵🇭',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: ['Full Stack', 'Teacher', 'Musician', 'Gamer'],
-  },
-  {
     name: 'Dale Larroder',
     description:
       'Software Engineer, React, TypeScript and Mechanical Keyboards!',
