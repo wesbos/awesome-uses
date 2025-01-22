@@ -914,27 +914,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jacob Lamb',
-    description: 'web engineer, musician, and builder',
-    url: 'https://jacobdalamb.dev/uses',
-    twitter: '@jacobdalamb',
-    emoji: '🤯',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'GitHub',
-      'JavaScript',
-      'Node.js',
-      'Astro',
-      'React',
-      'Svelte',
-      'Tailwind CSS',
-      'VS Code',
-      'Vercel',
-    ],
-  },
-  {
     name: 'Chris Funderburg',
     description:
       'Consultant Platform / DevSecOps Engineer. A Texan living in England.',
