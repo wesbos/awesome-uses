@@ -5444,7 +5444,6 @@ module.exports = [
       'CSS',
     ],
   },
-  },
   {
     name: 'Thomas Sambruni',
     description: 'Cloud Data Engineer',
