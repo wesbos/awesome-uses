@@ -5444,6 +5444,25 @@ module.exports = [
       'CSS',
     ],
   },
+  },
+  {
+    name: 'Thomas Sambruni',
+    description: 'Cloud Data Engineer',
+    url: 'https://www.tsambruni.dev/uses',
+    emoji: '🫡',
+    country: '🇮🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Data Engineer',
+      'Google Cloud Platform',
+      'Python',
+      'SQL',
+      'ZSH',
+      'bash',
+      'Linux'
+    ],
+  },
   {
     name: 'John Irle',
     description: 'Graduate Student, Intern Developer at Charter and Go',
