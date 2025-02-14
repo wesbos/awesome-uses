@@ -168,7 +168,7 @@ module.exports = [
     emoji: '🍀',
     country: 'in',
     twitter: '@yesbhautik',
-    computer: 'windows',
+    computer: 'apple',
     phone: 'android',
     tags: [
       'Tech Founder',
