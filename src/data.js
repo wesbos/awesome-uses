@@ -16756,8 +16756,8 @@ module.exports = [
   {
     name: 'Gabriel Kanev',
     description:
-      'I love solving problems. (Un)Fortunately, I am fascinated with staying organized and making life easy for everyone.',
-    url: 'https://mrgkanev.eu/uses/',
+      'Enteprenuer, Product Manager, Minimalist',
+    url: 'https://gkanev.com/uses/',
     twitter: '@mrgkanev',
     emoji: '🤔',
     country: '🇧🇬',
@@ -16766,6 +16766,7 @@ module.exports = [
     tags: [
       'Web Development',
       'Entrepreneur',
+      'Minimalist',
       'Project-Manager',
       'WordPress',
       'PHP',
