@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
 * [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Joseph Horace](https://basicutils.com/uses) — Speeding through development with precision.
@@ -765,6 +766,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tomek Buszewski](https://www.buszewski.com/uses/) — Developer and team leader based in Warsaw, Poland.
 * [Norbert Chmiel](https://github.com/Norbiox/uses) — Software Craftsman, Pythonista, Linux enthusiast.
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
+* [Fortune Obi](https://www.obifortune.com/uses) — Web developer living in Canada, strangely obsessed with Typescript and React.
 * [Sean Boult](https://boult.me/uses) — Full stack developer who likes ReactJS
 * [Michal Slepko](https://michalslepko.dev/uses) — Senior web developer learning iOS development. Live coding streamer on Twitch
 * [Michał Miszczyszyn](https://typeofweb.com/michal-miszczyszyn-uses/) — Motivated full-stack developer not afraid to use any technology. Experienced developer and leader. He, him.
