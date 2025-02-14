@@ -701,7 +701,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kyle Platt](https://kyleplatt.com/uses) — Senior Software Engineer, Multi Startup Founder, Building Projects in Public
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
 * [Abdessalam Benharira](https://abdessalam-benharira.me/uses) — JavaScript developer, UX/UI design and tech enthusiast
-* [David Dias](https://thedaviddias.dev/uses/) — Front-End Developer, UX/UI enthusiast, podcaster and content creator!
+* [David Dias](https://thedaviddias.com/uses/) — Front-End Developer, UX/UI enthusiast, podcaster and content creator!
 * [Thomas Large](https://tomlarge.dev/uses) — My name is Tom! I write code
 * [Mike Walsh](https://www.elmikewalsh.com/uses/) — Front-End Designer, Developer &amp; Translator in Villarrica, Chile
 * [Amit Merchant](https://www.amitmerchant.com/uses) — Maker of things. Open-source enthusiast. Blogger. 
