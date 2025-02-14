@@ -7115,6 +7115,17 @@ module.exports = [
     ],
   },
   {
+    name: "Josh Corbett",
+    description: "Developer by day, gamer by night.",
+    url: "https://toastyblog.com/uses",
+    twitter: "@joshistoast",
+    emoji: "🍞",
+    country: "🇺🇸",
+    computer: "apple",
+    phone: "iphone",
+    tags: ['Developer', "Full Stack", "Javascript", "React", "TypeScript", "Designer", "Shopify", "VSCode", "SvelteKit", "Tailwind"]
+  },
+  {
     name: 'Jay Tyrrell',
     description: 'Full Stack Developer',
     url: 'https://jaytyrrell.co/uses/',
