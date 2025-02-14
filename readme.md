@@ -53,6 +53,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Daniel Rotter](https://danielrotter.at/uses) — Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup
 * [Adam Chamberlin](https://adamchamberlin.info/uses) — Web developer and consumate athlete from the UK.
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
+* [earendelmir](https://earendelmir.xyz/uses/) — Computer engineer dreaming of living a hobbit life.
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
@@ -300,6 +301,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Filip Kalousek](https://blog.filipkalousek.cz/uses/setup) — Frontend Developer & Idea Maker
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
 * [R74n](https://r74n.com/uses) — Web developer with many elaborate projects
+* [Dennis Muensterer](https://muensterer.tech/uses) — Inherently lazy and striving to do less.
 * [Yash Singh](https://www.yashsingh.us/uses) — Fullstack web software developer
 * [Celso Palmeira Neto](https://celsoneto.com.br/uses) — Software Engineer focused on Backend development
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
