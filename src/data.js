@@ -17424,9 +17424,10 @@ module.exports = [
   {
     name: 'Chris Wiegman',
     description:
-      'Engineering manager, teacher, aspiring writer and ex-pilot currently focused on WordPress, developer experience and humane and sustainable technology.',
+      'VP of Engineering, developer, teacher, and blogger building teams and products focused on humane and sustainable technology.',
     url: 'https://chriswiegman.com/uses',
-    twitter: '@ChrisWiegman',
+    mastodon: '@chris@mastodon.chriswiegman.com',
+    bluesky: 'chriswiegman.com',
     emoji: '👨‍💻',
     country: '🇺🇸',
     computer: 'apple',
@@ -17442,7 +17443,6 @@ module.exports = [
       'GoLang',
       'Open Source Software',
       'Writer',
-      'Remote',
       'Docker',
     ],
   },
