@@ -5747,7 +5747,7 @@ module.exports = [
       'SQL',
       'ZSH',
       'bash',
-      'Linux'
+      'Linux',
     ],
   },
   {

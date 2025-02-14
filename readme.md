@@ -266,6 +266,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
 * [Mauro Reis Vieira](https://mauroreisvieira.com/uses/) — Front End Developer, fully focused on JavaScript, React and Tailwind CSS
 * [Caneco](https://caneco.dev/uses) — Fullstack Developer at #Medicare
+* [Thomas Sambruni](https://www.tsambruni.dev/uses) — Cloud Data Engineer
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) — Developer, Entrepreneur, Content Creator
 * [Diana García](https://dianaeli.netlify.app/uses) — Diana likes to code, to teach and to game
