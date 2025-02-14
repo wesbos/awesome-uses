@@ -566,6 +566,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Adam Chamberlin',
+    description: 'Web developer and consumate athlete from the UK.',
+    url: 'https://adamchamberlin.info/uses',
+    emoji: '🏃',
+    mastodon: '@funkylarma@mastodon.social',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'CSS',
+      'HTML',
+      'PHP',
+      'Developer',
+      'Git',
+      'GitHub',
+      'WordPress'
+    ],
+  },
+  {
     name: 'Jon Seager',
     description: 'Husband, father, leader, software engineer, geek',
     url: 'https://jnsgr.uk/uses',
