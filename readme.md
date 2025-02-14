@@ -56,6 +56,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
+* [Preshit Deorukhkar](https://nuclearbits.com/uses) — Tech Enthusiast & Consultant
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [Tim Benniks](https://timbenniks.dev/uses) — Developer relations, speaker, content creator
 * [Damian Cyrus](https://damiancyrus.com/uses) — Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.
