@@ -828,6 +828,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andreas Nedbal](https://pixelde.su/uses) — Full-Stack Developer from Germany with a focus on frontend and build processes/tooling.
 * [Nick Ali](https://nali.org/uses) — Marketer who used to be a software architect.
 * [Jesús Leganés-Combarro "piranna"](https://piranna.github.io/uses) — Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.
+* [Pascal Poredda](https://pascal-poredda.de/uses/) — Freelancer from Cologne, Germany. Running an agency called poredda.digital
 * [Daniel Cefram Ramirez](https://rmrz.ph/uses/) — I build things through code. I make short sentences to multiple paragraphs.
 * [Simon Lee](https://simonhlee97.github.io/uses/) — Front end developer. Indiana Hoosier.
 * [Jaydeep Rawat](https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b) — Hiya! I am a Student and Software Engineer.

@@ -18122,7 +18122,7 @@ module.exports = [
       'SCSS',
       'CSS',
       'PostgresSQL',
-      'SQL'
+      'SQL',
     ],
   },
   {
