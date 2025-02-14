@@ -4704,7 +4704,7 @@ module.exports = [
   },
   {
     name: 'Jordi Ollé Ballesté',
-    description:'Full Stack Dev, mountain lover, minimalism embracer',
+    description: 'Full Stack Dev, mountain lover, minimalism embracer',
     url: 'https://jordi-olle.com/uses',
     twitter: '@jordi0lle',
     emoji: '🏔️',

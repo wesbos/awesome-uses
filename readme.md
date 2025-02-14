@@ -219,6 +219,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bradley Shellnut](https://bradleyshellnut.com/uses) — Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.
 * [Justin De Leon](https://jusdeleon.vercel.app/uses) — Coding, video games, and pizza 🍕
 * [Sascha Diercks](https://saschadiercks.de/uses/) — Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance
+* [Jordi Ollé Ballesté](https://jordi-olle.com/uses) — Full Stack Dev, mountain lover, minimalism embracer
 * [Joshua Rose](https://jrgiant.tech/uses) — Loves Christ, loves family, loves programming, full stack dev
 * [Victor Pierre Alves](https://victorpierre.dev/uses) — Senior Software Engineer. I mostly code in Go these days. I live in Canada.
 * [Christian Tietze](https://christiantietze.de/uses) — Mac app dev, Zettelkasten zealot, tinkerer and writer
