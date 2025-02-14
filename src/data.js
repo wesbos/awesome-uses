@@ -18016,7 +18016,8 @@ module.exports = [
   },
   {
     name: 'Thanh Doan',
-    description: 'Full-stack Engineer building impactful software and contributing to open source',
+    description:
+      'Full-stack Engineer building impactful software and contributing to open source',
     url: 'https://doantranminhthanh.com/uses',
     twitter: '@leodoan_',
     emoji: '😼',
