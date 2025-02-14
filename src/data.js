@@ -6520,6 +6520,25 @@ module.exports = [
     ],
   },
   {
+    name: "Philip Van Raalte",
+    description: "Full Stack Developer that loves music",
+    url: "https://philvr.ca/uses",
+    twitter: "@FIL1994",
+    bluesky: "philvr.ca",
+    emoji: "🎸",
+    country: "🇨🇦",
+    computer: "windows",
+    phone: "android",
+    tags: [
+      "React",
+      "TypeScript",
+      "Remix",
+      "Astro",
+      "Rust",
+      "Ubuntu"
+    ]
+  },
+  {
     name: 'Vincent Lejtzén',
     description:
       'Front end developer with love for design, user experience and SEO.',
