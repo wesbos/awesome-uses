@@ -324,6 +324,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Manassarn "Noom" Manoonchai](https://garden.narze.live/uses) — Coding, Productivity, Technologies, macOS, Keyboard
 * [Ayoub Sousali](https://www.sousali.com/blog/uses/) — Software Developer
 * [Jordan Haines](https://jordanairwave.co.uk/uses.html) — Full Stack Web Developer
+* [Josh Corbett](https://toastyblog.com/uses) — Developer by day, gamer by night.
 * [Jay Tyrrell](https://jaytyrrell.co/uses/) — Full Stack Developer
 * [Eva Dee](https://includejs.dev/uses) — Web Developer. Note-taker. Trying to Do Good.
 * [Nikita Karamov](https://www.kytta.dev/uses) — A π-shaped Python & JavaScript developer who loves minimalism and linguistics
@@ -331,6 +332,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matteo Scarpa alias Fundor333](https://fundor333.com/uses) — Backend Pythonista with a Photocamera and a cup of tea
 * [Jakub T. Jankiewicz](https://jakub.jankiewicz.org/uses/) — Front-End Developer, Blogger, Teacher, Mentor, and Open Source programmer
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
+* [Christian Lohr](https://blog.bytewerk.io/uses/) — Passionate Software Engineer & Life Long Learner
 * [Kristof Zerbe](https://kiko.io/uses) — Passionate software developer for almost 30 years and currently a tech-savvy IT manager
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
 * [Marko Haberl](https://marko-haberl.com/uses) — Fullstack Developer
