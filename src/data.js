@@ -14202,7 +14202,7 @@ module.exports = [
       'CSS',
     ],
   },
-    {
+  {
     name: 'Brendon van Zanten',
     description: 'Web Developer',
     url: 'https://brendonvanzanten.com/uses',
