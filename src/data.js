@@ -5747,7 +5747,7 @@ module.exports = [
       'React Testing Library',
       'Accessibility',
       'C#',
-      '.NET'
+      '.NET',
     ],
   },
   {

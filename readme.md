@@ -266,6 +266,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Caneco](https://caneco.dev/uses) — Fullstack Developer at #Medicare
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) — Developer, Entrepreneur, Content Creator
+* [Diana García](https://dianaeli.netlify.app/uses) — Diana likes to code, to teach and to game
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
