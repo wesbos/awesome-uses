@@ -1,7 +1,7 @@
 /**
  * @typedef Person
  * A single contributor with a /uses page.
- * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
+ * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L70
  * @property {string} name - contributor's name
  * @property {string} description - tagline for contributor
  * @property {string} url - link to contributor's /uses page
@@ -18,7 +18,7 @@
 /**
  * List of all contributors with /uses pages.
  * @type {Person[]}
- * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L68
+ * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L70
  *
  * Keep this a commonjs export.
  */
