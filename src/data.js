@@ -15589,7 +15589,7 @@ module.exports = [
       'VS Code',
       'Vue.js',
       'Web',
-      'Windows'
+      'Windows',
     ],
   },
   {

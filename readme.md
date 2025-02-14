@@ -713,6 +713,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dominik Matis](https://dmatis.gitlab.io/uses) — React dev 👻 Gatsby & Vue.js learner 👨‍💻 Syntax lover ❤️
 * [Rubén Rodríguez](https://www.rubenr.dev/uses) — Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified
 * [Roland Szabo](https://rolisz.ro/uses) — Team Lead, ML Engineer,  Board Gamer
+* [Rodrigo Antunes](https://rodrigoantunes.me/uses/) — Frontend Engineer and Open Source enthusiast
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
