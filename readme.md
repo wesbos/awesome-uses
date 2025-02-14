@@ -293,6 +293,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Caro Appleby](https://caro.fyi/uses) — Indie programmer, textile artist, musician, endlessly curious
 * [Trevor Morris](https://www.trovster.com/about/uses) — I am a movie-loving, mountain-bike-riding web developer from the UK.
 * [Nick Morris](http://nickmorris.name/uses) — I am a music-loving, dog having, skiing, software engineer from California living in NYC.
+* [Gianluca Fabrizi](https://gianlucafabrizi.dev/uses/) — Fullstack Developer, DevOps, maker/tinkerer
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
 * [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
