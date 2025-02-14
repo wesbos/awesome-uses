@@ -16780,8 +16780,7 @@ module.exports = [
   },
   {
     name: 'Gabriel Kanev',
-    description:
-      'Enteprenuer, Product Manager, Minimalist',
+    description: 'Enteprenuer, Product Manager, Minimalist',
     url: 'https://gkanev.com/uses/',
     twitter: '@mrgkanev',
     emoji: '🤔',

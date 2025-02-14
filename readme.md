@@ -167,6 +167,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vladimir Vo](https://vldmr.website/uses) — Frontend developer with passion for great product design
 * [Joseph Shambrook](https://josephshambrook.dev/uses) — Front-end developer based in Edinburgh, UK
 * [Andy Cetnarskyj](https://www.just-andy.uk/uses) — Design Systems Designer from Edinburgh, UK
+* [Arvin Zhao](https://isarvin.com/uses) — An introverted geek with great passion.
 * [Akash Rajpurohit](https://akashrajpurohit.com/uses) — Software Engineer
 * [Marko Kaartinen](https://markok.dev/uses) — Web developer / entrepreneur / geek from Kuopio Finland who makes pizza and burgers at freetime. Also some gaming and well of course personal projects.
 * [Bala Hantsi](https://github.com/bhantsi/uses) — Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.
@@ -772,7 +773,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Ross](https://softwarepragmatism.com/uses/) — Developer/Architect creating software in Calgary, Alberta, Canada
 * [Anthony Morris](https://anthonymorris.dev/uses/) — Builder, JavaScript wrangler, and wannabe stoic.
 * [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
-* [Gabriel Kanev](https://mrgkanev.eu/uses/) — I love solving problems. (Un)Fortunately, I am fascinated with staying organized and making life easy for everyone.
+* [Gabriel Kanev](https://gkanev.com/uses/) — Enteprenuer, Product Manager, Minimalist
 * [Dan Vega](https://www.danvega.dev/uses/) — Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.
 * [Dick Wyn Yong](https://dickwyn.xyz/uses) — Software Engineer, Content Creator and Sustainability Enthusiast
 * [Logan Blangenois](https://logan-blangenois.be/uses/) — Front-end developer passionate about eco-friendly (web)app and React.
