@@ -237,7 +237,8 @@ module.exports = [
   },
   {
     name: 'Charles Harwood',
-    description: "Aussie Staff Software Engineer, Dad, World's okayest guitarist",
+    description:
+      "Aussie Staff Software Engineer, Dad, World's okayest guitarist",
     url: 'https://charlesharwood.dev/uses',
     emoji: '🎸',
     country: '🇦🇺',
@@ -258,8 +259,8 @@ module.exports = [
       'Musician',
       'Music producer',
       'ProTools',
-      'Self taught'
-    ]
+      'Self taught',
+    ],
   },
   {
     name: 'Scott Willsey',
@@ -12123,7 +12124,8 @@ module.exports = [
   },
   {
     name: 'Glyn Normington',
-    description: 'Retired software developer, ex-visiting lecturer, IETF editor.',
+    description:
+      'Retired software developer, ex-visiting lecturer, IETF editor.',
     url: 'https://underlap.org/uses',
     mastodon: '@mastodon@underlap.org',
     bluesky: 'underlap.org',

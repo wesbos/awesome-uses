@@ -38,6 +38,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [James Harding](https://jameshard.ing/uses) — Airline Pilot and Software Engineer
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
+* [Charles Harwood](https://charlesharwood.dev/uses) — Aussie Staff Software Engineer, Dad, World's okayest guitarist
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
@@ -555,6 +556,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
 * [Marco Kamner](https://blog.marco.ninja/uses) — Pragmatic DevOps Engineer & Indie Hacker
+* [Glyn Normington](https://underlap.org/uses) — Retired software developer, ex-visiting lecturer, IETF editor.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Martin Marcucci](https://www.marku.me/page/uses/) — Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
