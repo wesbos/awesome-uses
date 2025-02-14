@@ -11702,13 +11702,14 @@ module.exports = [
   {
     name: 'Brad Garropy',
     description:
-      'Self taught frontender at Adobe, into lifting and country music.',
+      'Senior Frontend Developer at Stripe, into lifting and country music.',
     url: 'https://bradgarropy.com/uses',
     twitter: '@bradgarropy',
+    bluesky: 'bradgarropy.com',
     emoji: '🤠',
     country: '🇺🇸',
-    computer: 'windows',
-    phone: 'android',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Front End',
@@ -11716,8 +11717,13 @@ module.exports = [
       'Streamer',
       'YouTuber',
       'Blogger',
+      'Podcaster',
       'JavaScript',
-      'Python',
+      'TypeScript',
+      'React',
+      'Remix',
+      'Tailwind',
+      'Compressed.fm'
     ],
   },
   {
