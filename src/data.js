@@ -7986,14 +7986,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'SRE',
-      'Developer',
-      'Python',
-      'Kubernetes',
-      'VS Code',
-      'Docker'
-    ]
+    tags: ['SRE', 'Developer', 'Python', 'Kubernetes', 'VS Code', 'Docker'],
   },
   {
     name: 'Enea Xharja',

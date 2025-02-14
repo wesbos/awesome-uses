@@ -365,6 +365,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Elijah Rwothoromo](https://rwothoromo.wordpress.com/2020/05/29/uses/) — Software Developer, Poet, code and play!
 * [davidak](https://davidak.de/uses/) — Creating Free Software, with a focus on QA.
 * [Sudhanshu Bajaj](https://www.sudhanshubajaj.com/uses/) — Code. Travel. Sleep. Repeat. Magento Developer
+* [Jack Jackson](https://blog.scubbo.org/uses/) — I make things to help people do things
 * [Enea Xharja](https://eneaxharja.com/uses) — Web Developer
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Ricardo Morais](https://ricardomorais.dev/uses) — Senior Front-end Developer, Software Engineer @ Nextbitt
