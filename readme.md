@@ -119,6 +119,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
+* [Christian Babin](https://hexcat.dev/uses) — Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.
 * [Antonio Sarcevic](https://sarcevic.dev/uses) — excited by ui development
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
@@ -299,6 +300,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gabor Gyure](https://www.gaborgyure.com/uses) — Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web
 * [Ben Brougher](https://benbrougher.tech/uses) — Full stack enterprise web devloper from the Pacific Northwest.
 * [Diogo Moreira](https://diogomoreira.dev/uses) — Professor, Software Engineer and Researcher.
+* [Philip Van Raalte](https://philvr.ca/uses) — Full Stack Developer that loves music
 * [Vincent Lejtzén](https://lejtzendesign.se/uses) — Front end developer with love for design, user experience and SEO.
 * [Jakub Soboczyński](https://jakubsoboczynski.pl/uses) — Frontend Developer, who actively explores other technologies and paths, including backend development, and contributes to open-source projects like Raycast, while also having a passion for automation and electronic music, particularly dark techno.
 * [Ian Emnace](https://ig.emnace.org/uses.html) — Web developer. Unix citizen.

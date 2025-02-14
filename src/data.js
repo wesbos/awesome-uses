@@ -2347,7 +2347,8 @@ module.exports = [
   },
   {
     name: 'Christian Babin',
-    description: 'Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.',
+    description:
+      'Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.',
     url: 'https://hexcat.dev/uses',
     country: '🇺🇸',
     emoji: '🫥',
@@ -6546,23 +6547,16 @@ module.exports = [
     ],
   },
   {
-    name: "Philip Van Raalte",
-    description: "Full Stack Developer that loves music",
-    url: "https://philvr.ca/uses",
-    twitter: "@FIL1994",
-    bluesky: "philvr.ca",
-    emoji: "🎸",
-    country: "🇨🇦",
-    computer: "windows",
-    phone: "android",
-    tags: [
-      "React",
-      "TypeScript",
-      "Remix",
-      "Astro",
-      "Rust",
-      "Ubuntu"
-    ]
+    name: 'Philip Van Raalte',
+    description: 'Full Stack Developer that loves music',
+    url: 'https://philvr.ca/uses',
+    twitter: '@FIL1994',
+    bluesky: 'philvr.ca',
+    emoji: '🎸',
+    country: '🇨🇦',
+    computer: 'windows',
+    phone: 'android',
+    tags: ['React', 'TypeScript', 'Remix', 'Astro', 'Rust', 'Ubuntu'],
   },
   {
     name: 'Vincent Lejtzén',
