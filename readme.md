@@ -434,6 +434,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Guru Das Srinagesh](https://gurudas.dev/uses/) — Linux kernel developer
 * [Michael Burkhardt](https://mihobu.lol/uses) — cloud data architect, part-time university professor, tinkerer and hobbyist
 * [Cory Dramsfeldt](https://coryd.dev/uses) — Web developer based in Southern California with over 10 years of professional experience.
+* [Kendall Morgan](https://kendallmorgan.com/uses) — Software engineer by day. Hip-hop, coffee, and street photography aficionado by night.
 * [Kenny Robinson](https://thealmostengineer.com/uses) — Web developer that builds software to improve business processes
 * [Manuel Fernandez](https://github.com/teamhanded/uses) — Security Engineer
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
