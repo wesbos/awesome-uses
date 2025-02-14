@@ -100,7 +100,7 @@ module.exports = [
       'Google Keep',
       'Web Development',
       'Cloud Computing',
-      'Open Source'
+      'Open Source',
     ],
   },
   {
