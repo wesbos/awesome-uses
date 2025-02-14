@@ -784,6 +784,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Hughes](https://matthughes.dev/uses) — Full Stack Web Developer
 * [Christian Ek](https://christianek.io/uses/) — Full Stack developer, tech enthusiast.
 * [Rail Hamdeew](https://hmdw.me/uses/) — Full Stack. Open to new technologies
+* [Eugene Andrienko](https://eugene-andrienko.com/uses) — Open Source and retrocomputing enthusiast
 * [Armno Prommarak](https://armno.in.th/uses) — Frontend developer, blogger, cyclist.
 * [Fernando Paredes](https://fdp.io/about/uses) — iOS/macOS developer, serial hobbyist, language nerd.
 * [Piyush Mehta](http://www.piyushmehta.com/uses/) — Full Stack Developer Based in INDIA
