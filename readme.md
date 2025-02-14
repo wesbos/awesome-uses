@@ -842,6 +842,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [That MLOps Guy](https://thatmlopsguy.github.io/uses/) — Portuguese machine learning engineer
 * [Hiran Venugopalan](https://hiran.in/uses) — A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. 
 * [Ryan Daley](https://www.rpdaley.com/uses/) — Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM
+* [Vivian Guillen](https://codequeen.io/uses/) — Full Stack Developer and Writer
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 * [Manthan Ank](https://manthanank.web.app/uses) — I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 * [Catalin Pit](https://catalins.tech/uses/) — Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.

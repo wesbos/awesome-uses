@@ -18408,8 +18408,7 @@ module.exports = [
   },
   {
     name: 'Vivian Guillen',
-    description:
-      'Full Stack Developer and Writer',
+    description: 'Full Stack Developer and Writer',
     url: 'https://codequeen.io/uses/',
     twitter: '@vivgui',
     emoji: '💅🏻',
