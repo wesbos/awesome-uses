@@ -597,7 +597,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kilian Valkhof](https://kilianvalkhof.com/using/) — User experience developer
 * [Spencer Aung](https://spenceraung.me/blog/uses) — Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses
 * [Dale French](https://dalefrench.dev/uses) — Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.
-* [](https://ataborda.com/uses) — Software Developer, Teacher, JW, CTO en IO Digital
 * [Jordan Elver](https://elver.me/uses/) — Full Stack developer who loves Ruby, Elixir, and Rust.
 * [Russell John](https://russelljohn.net/uses/) — Professional Linux system administrator and highly experienced webmaster.
 * [Liam Richardson](https://discoliam.com/uses/) — User Interface developer focusing on Performance, A11y and CSS
@@ -725,7 +724,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dominik Matis](https://dmatis.gitlab.io/uses) — React dev 👻 Gatsby & Vue.js learner 👨‍💻 Syntax lover ❤️
 * [Rubén Rodríguez](https://www.rubenr.dev/uses) — Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified
 * [Roland Szabo](https://rolisz.ro/uses) — Team Lead, ML Engineer,  Board Gamer
-* [](https://aganglada.com/uses/) — Dad 👪🔥⚡️ Web Engineer ⚛️🚀 Building websites with #react #typescript #nodejs #graphql 👌
 * [Frank Bültge](https://bueltge.de/uses/) — Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde
 * [Marcus Obst](https://marcus-obst.de/uses) — Webdeveloper, Music Lover
 * [Pawel Grzybek](https://pawelgrzybek.com/uses/) — Software Engineer
