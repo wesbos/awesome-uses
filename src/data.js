@@ -17870,7 +17870,8 @@ module.exports = [
   },
   {
     name: 'Andreas Nedbal',
-    description: 'Full-Stack Developer from Germany with a focus on frontend and build processes/tooling.',
+    description:
+      'Full-Stack Developer from Germany with a focus on frontend and build processes/tooling.',
     url: 'https://pixelde.su/uses',
     emoji: '🎁',
     country: 'de',
