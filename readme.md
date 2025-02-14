@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer. Writer.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
 * [Daniel Rotter](https://danielrotter.at/uses) — Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup
+* [Adam Chamberlin](https://adamchamberlin.info/uses) — Web developer and consumate athlete from the UK.
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
@@ -501,6 +502,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Kent C. Dodds](https://kentcdodds.com/uses) — JavaScript Software Engineer, speaker, and trainer
 * [Riley Shaw](https://rileyjshaw.com/uses) — Programmer, interface designer, noisemaker, mender.
 * [Nathan Smith](https://nathan-smith.org/uses) — Full stack dev, cat dad, dungeon master.
+* [Thê (Alexander) Quach](https://the-quach.com/uses/) — An aspiring financial data analyst, seeking new projects and opportunities
 * [Joshua Ryan Velasquez](https://joshua-afk.github.io/uses) — Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.
 * [Glenn Reyes](https://glennreyes.com/uses) — Independent Software Engineer, trainer & speaker. Into sports & music.
 * [Jean Tinland](https://www.jeantinland.com/en/uses/) — Front-end developer. Working with CSS, React, Next.js. I implement responsive, accessible, backward-compatible interfaces.

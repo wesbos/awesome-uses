@@ -582,7 +582,7 @@ module.exports = [
       'Developer',
       'Git',
       'GitHub',
-      'WordPress'
+      'WordPress',
     ],
   },
   {
@@ -10954,7 +10954,8 @@ module.exports = [
   },
   {
     name: 'Thê (Alexander) Quach',
-    description: 'An aspiring financial data analyst, seeking new projects and opportunities',
+    description:
+      'An aspiring financial data analyst, seeking new projects and opportunities',
     url: 'https://the-quach.com/uses/',
     emoji: '🔮',
     country: 'ca',
@@ -10969,7 +10970,7 @@ module.exports = [
       'Julia',
       'R',
       'VSCode',
-      'IntelliJ'
+      'IntelliJ',
     ],
   },
   {
