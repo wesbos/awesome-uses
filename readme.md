@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Mark Schmeiser](https://yadl.info/en/uses) — Software architect, web developer and engineer
 * [Tural Asgarov](https://tural.pro/uses) — Software Engineer/Developer Educator/Content Creator
@@ -237,6 +238,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt James](https://mattfrankjames.com/uses/) — Senior Front-end Software Engineer & Web Design Teacher
 * [Patrik Trefil](https://patriktrefil.com/uses/) — Developer from Europe, Linux and open-source fan
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
+* [Michael Kitzman](https://www.michaelkitzman.com/uses) — Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.
 * [Philip Boardman](https://brd.mn/uses/) — Software Engineering Manager, Full Stack Developer
 * [Martín Morales](https://mrtnmrls.com/uses/) — Android Mobile Developer, Mechatronic Engineer
 * [Sheila Leon](https://sheilaleon.tech/uses/) — Self-taught Front-end Dev, Designer & Product Manager
@@ -844,6 +846,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ryan Daley](https://www.rpdaley.com/uses/) — Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM
 * [Vivian Guillen](https://codequeen.io/uses/) — Full Stack Developer and Writer
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
+* [Alberto Gallego](https://albertogalca.com/uses) — I make software, write, and take photos..
 * [Manthan Ank](https://manthanank.web.app/uses) — I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 * [Catalin Pit](https://catalins.tech/uses/) — Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.
 * [Thu Le](https://thu-le.com/uses) — Product & Experience Designer working in B2B SaaS.

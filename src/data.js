@@ -44,7 +44,7 @@ module.exports = [
       'PHP',
       'Laravel',
       'TailwindCSS',
-      'CSS'
+      'CSS',
     ],
   },
   {
@@ -5127,7 +5127,7 @@ module.exports = [
   {
     name: 'Michael Kitzman',
     description:
-      "Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.",
+      'Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.',
     url: 'https://www.michaelkitzman.com/uses',
     emoji: '🤔',
     country: '🇺🇸',
@@ -5145,7 +5145,7 @@ module.exports = [
       'Netlify',
       'React',
       'Remote',
-      'Astro', 
+      'Astro',
       'Musician',
     ],
   },
@@ -18502,8 +18502,7 @@ module.exports = [
   },
   {
     name: 'Alberto Gallego',
-    description:
-      "I make software, write, and take photos..",
+    description: 'I make software, write, and take photos..',
     url: 'https://albertogalca.com/uses',
     twitter: '@albertogalca',
     emoji: '🤘🏼',
@@ -18521,7 +18520,7 @@ module.exports = [
       'PostgreSQL',
       'Frontend',
       'Writer',
-      'Photographer'
+      'Photographer',
     ],
   },
   {
