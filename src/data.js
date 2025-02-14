@@ -11584,6 +11584,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Iain Schmitt',
+    description: 'Minneapolis based software engineer and Apache ZooKeeper apologist who owns too many keyboards',
+    url: 'https://iainschmitt.com/uses',
+    emoji: '🚲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Java',
+      'TypeScript',
+      'React',
+      'Preact',
+      'F#',
+    ],
+  },
+  {
     name: 'Jahir Fiquitiva',
     description: 'Passionate and Creative Full Stack Developer',
     url: 'https://jahir.dev/uses',
