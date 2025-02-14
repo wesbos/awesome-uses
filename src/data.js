@@ -92,7 +92,7 @@ module.exports = [
       'Technologist ',
       'Founder',
       'DevRel',
-      'Growth Manager'
+      'Growth Manager',
     ],
   },
   {

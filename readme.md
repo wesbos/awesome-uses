@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
+* [Bhautik Bavadiya AKA yesbhautik](https://yesbhautik.co.in/uses) — Crafting the future, Today.
 * [Mark Schmeiser](https://yadl.info/en/uses) — Software architect, web developer and engineer
 * [Tural Asgarov](https://tural.pro/uses) — Software Engineer/Developer Educator/Content Creator
 * [Toby Nieboer](https://tcn33.com/uses) — Finding awesome humans for Ferocia. Post-technical.
