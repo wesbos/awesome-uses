@@ -4703,6 +4703,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Jordi Ollé Ballesté',
+    description:'Full Stack Dev, mountain lover, minimalism embracer',
+    url: 'https://jordi-olle.com/uses',
+    twitter: '@jordi0lle',
+    emoji: '🏔️',
+    country: '🇪🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'VSCode',
+      'Wasp',
+      'Next.js',
+      'React',
+    ],
+  },
+  {
     name: 'Joshua Rose',
     description:
       'Loves Christ, loves family, loves programming, full stack dev',
