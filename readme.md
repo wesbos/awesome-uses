@@ -400,6 +400,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arturo De la Garza](https://arturodelagarza.com/uses) — Full-stack web developer, avid learner, loves to play video games and board games
 * [Tuna Çağlar Gümüş](https://pikseladam.com/uses) — Senior software and systems engineer. I design things and make stuff when needed.
 * [Ali Şen](https://alisen.me/uses) — Full Stack Developer
+* [James Atkinson](https://www.jamesatkinson.me/uses) — Designer and front-end developer, based in the UK.
 * [Danny Solivan](https://solivan.dev/blog/uses) — Test engineer. Web developer on the side.
 * [Aaron Uurman](https://aaronuurman.com/uses) — Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.
 * [Steve Della Valentina](https://sdv.im/uses) — Frontend engineer into blogging and digital gardening.
