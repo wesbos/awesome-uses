@@ -12321,7 +12321,6 @@ module.exports = [
       'Retired software developer, ex-visiting lecturer, IETF editor.',
     url: 'https://underlap.org/uses',
     mastodon: '@mastodon@underlap.org',
-    bluesky: 'underlap.org',
     emoji: '👋🏻',
     country: '🇬🇧',
     computer: 'linux',
