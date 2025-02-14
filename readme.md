@@ -44,7 +44,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
 * [Abdujabbar Bozdar](https://yabozdar.com/uses/) — C Programmer, Systems Engineer
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
-* [Bino Kochumol Varghese](https://binovarghese.com/blog/2021/what-i-use-2021/) — Developer. Reader. Writer. Wanderlust.
+* [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer. Writer.
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
 * [Daniel Rotter](https://danielrotter.at/uses) — Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
@@ -54,6 +54,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [Tim Benniks](https://timbenniks.dev/uses) — Developer relations, speaker, content creator
 * [Damian Cyrus](https://damiancyrus.com/uses) — Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.
+* [Gaurav Kesh Roushan](https://gauravkesh.github.io/uses/) — Fullstack Developer specializing in web development with experience in backend, frontend, and cloud technologies
 * [James Auble](https://jamesauble.com/uses) — Full Stack Developer
 * [Andrew Bus](https://andrewbus.com/uses) — Senior Lead Software Engineer
 * [Ronny Coste](https://ronnycoste.com/uses) — Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast
