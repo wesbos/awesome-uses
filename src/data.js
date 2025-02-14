@@ -11722,7 +11722,7 @@ module.exports = [
       'React',
       'Remix',
       'Tailwind',
-      'Compressed.fm'
+      'Compressed.fm',
     ],
   },
   {
