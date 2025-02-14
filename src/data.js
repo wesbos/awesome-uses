@@ -14884,10 +14884,10 @@ module.exports = [
     ],
   },
   {
-    name: 'Jovylle Bermudez',
+    name: 'Jovylle B',
     description: 'A Web Developer from the Philippines.',
-    url: 'https://jovyllebermudez.com/uses',
-    twitter: '@jovyllebermudez',
+    url: 'https://jovylle.com/uses',
+    twitter: '@jov404',
     emoji: '🏃‍♂️',
     country: '🇵🇭',
     computer: 'apple',
