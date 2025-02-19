@@ -1,10 +1,10 @@
-const exec = require('@actions/exec');
-const core = require('@actions/core');
-const github = require('@actions/github');
-const Joi = require('joi');
-const http = require('http');
-const https = require('https');
-const flags = require('./flags.js');
+import exec from '@actions/exec';
+import core from '@actions/core';
+import github from '@actions/github';
+import Joi from 'joi';
+import http from 'http';
+import https from 'https';
+import flags from './flags.js';
 
 async function getCurrentBranchName() {
   let myOutput = '';
@@ -13,8 +13,8 @@ async function getCurrentBranchName() {
   const options = {
     silent: true,
     listeners: {
-      stdout: (data) => (myOutput += data.toString()),
-      stderr: (data) => (myError += data.toString()),
+      stdout: (data: Buffer) => (myOutput += data.toString()),
+      stderr: (data: Buffer) => (myError += data.toString()),
     },
   };
 
@@ -23,7 +23,7 @@ async function getCurrentBranchName() {
 }
 
 /** on master branch will return an empty array */
-module.exports.getMasterData = async function () {
+export const getMasterData = async function () {
   const options = { silent: true };
   const curentBranchName = await getCurrentBranchName();
   // when on a branch/PR different from master
@@ -40,7 +40,7 @@ module.exports.getMasterData = async function () {
   }
 
   // eslint-disable-next-line global-require
-  const masterData = require('./masterData.js');
+  const masterData = (await import('./masterData.js')).default as Person[];
 
   // restore `scripts/masterData.js` after was loaded
   if (curentBranchName !== 'master') {
@@ -50,7 +50,7 @@ module.exports.getMasterData = async function () {
   return masterData;
 };
 
-module.exports.Schema = Joi.object({
+export const Schema = Joi.object({
   name: Joi.string().required(),
   description: Joi.string().required(),
   url: Joi.string()
@@ -60,16 +60,33 @@ module.exports.Schema = Joi.object({
   country: Joi.string()
     .valid(...flags)
     .required(),
-  twitter: Joi.string().pattern(new RegExp(/^@?(\w){1,15}$/)),
-  mastodon: Joi.string().pattern(new RegExp(/^@(\w){1,30}@(\w)+\.(.?\w)+$/)),
-  bluesky: Joi.string().pattern(new RegExp(/^[\w-]+\.(?:[\w-]+\.)?[\w-]+$/)),
+  twitter: Joi.string().pattern(/^@?(\w){1,15}$/),
+  mastodon: Joi.string().pattern(/^@(\w){1,30}@(\w)+\.(.?\w)+$/),
+  bluesky: Joi.string().pattern(/^[\w-]+\.(?:[\w-]+\.)?[\w-]+$/),
   emoji: Joi.string().allow(''),
   computer: Joi.string().valid('apple', 'windows', 'linux', 'bsd'),
   phone: Joi.string().valid('iphone', 'android', 'windowsphone', 'flipphone'),
   tags: Joi.array().items(Joi.string()),
 });
 
-module.exports.getStatusCode = function (url) {
+/*
+   TODO: This should be inferred but then I want to move to Valibot. If you give a moose a muffin.
+*/
+export type Person = {
+  name: string;
+  description: string;
+  url: string;
+  country: string;
+  twitter?: `@${string}`;
+  mastodon?: string;
+  bluesky?: string;
+  emoji?: string;
+  computer?: 'apple' | 'windows' | 'linux' | 'bsd';
+  phone?: 'iphone' | 'android' | 'windowsphone' | 'flipphone';
+  tags?: string[];
+};
+
+export const getStatusCode = function (url: string) {
   const client = url.startsWith('https') ? https : http;
   return new Promise((resolve, reject) => {
     const REQUEST_TIMEOUT = 10000;
@@ -90,10 +107,10 @@ module.exports.getStatusCode = function (url) {
 
 // If there are errors, will fail the action & add a comment detailing the issues
 // If there are no errors, will leave an "all-clear" comment with relevant URLs (to ease a potential manual check)
-module.exports.communicateValidationOutcome = async function (
-  errors,
-  failedUrls,
-  changedData
+export const communicateValidationOutcome = function (
+  errors: { message: string }[],
+  failedUrls: string[],
+  changedData: { name: string; url: string }[]
 ) {
   let comment = '';
   if (errors.length || failedUrls.length) {

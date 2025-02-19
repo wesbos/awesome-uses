@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 import { name } from 'country-emoji';
 import { useParams } from '@remix-run/react';
 import * as icons from '../util/icons';
+import { Person } from '../../scripts/utils';
 
-export default function Person({ person }) {
+export default function PersonComponent({ person }: { person: Person }) {
   const url = new URL(person.url);
   const twitter = person.twitter
     ? `https://unavatar.io/x/${person.twitter.replace('@', '')}`
-    : null;
+    : '';
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter
     ? `${twitter}?fallback=${website}&ttl=28d`
@@ -18,7 +19,7 @@ export default function Person({ person }) {
   return (
     <div
       className="PersonWrapper"
-      style={{ contentVisibility: "auto", containIntrinsicHeight: "560px" }}
+      style={{ contentVisibility: 'auto', containIntrinsicHeight: '560px' }}
     >
       <div className="PersonInner">
         <header>
@@ -29,14 +30,14 @@ export default function Person({ person }) {
             alt={person.name}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null; // prevents looping
-              currentTarget.src = "/default.png";
+              currentTarget.src = '/default.png';
             }}
             loading="lazy"
           />
           <h3>
             <a href={person.url} target="_blank" rel="noopener noreferrer">
               {person.name}
-            </a>{" "}
+            </a>{' '}
             {person.emoji}
           </h3>
           <a
@@ -46,14 +47,14 @@ export default function Person({ person }) {
             href={person.url}
           >
             {url.host}
-            {url.pathname.replace(/\/$/, "")}
+            {url.pathname.replace(/\/$/, '')}
           </a>
         </header>
         <p>{person.description}</p>
         <ul className="Tags">
-          {person.tags.map((tag) => (
+          {person.tags?.map((tag) => (
             <li
-              className={`Tag small ${tag === currentTag ? "currentTag" : ""}`}
+              className={`Tag small ${tag === currentTag ? 'currentTag' : ''}`}
               key={tag}
             >
               {tag}
@@ -83,12 +84,12 @@ export default function Person({ person }) {
         {person.twitter && (
           <div className="SocialHandle">
             <a
-              href={`https://twitter.com/${person.twitter.replace("@", "")}`}
+              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="at">@</span>
-              {person.twitter.replace("@", "")}
+              {person.twitter.replace('@', '')}
             </a>
           </div>
         )}
@@ -97,7 +98,10 @@ export default function Person({ person }) {
         {person.bluesky && !person.twitter && (
           <div className="SocialHandle">
             <a
-              href={`https://bsky.app/profile/${person.bluesky.replace("@", "")}`}
+              href={`https://bsky.app/profile/${person.bluesky.replace(
+                '@',
+                ''
+              )}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -124,7 +128,8 @@ export default function Person({ person }) {
         {/* If they have a bluesky, and no mastodon and no twitter, show that */}
         {person.bluesky && !person.mastodon && !person.twitter && (
           <div className="SocialHandle">
-            <a href={`https://bsky.app/profile/${person.bluesky}`}
+            <a
+              href={`https://bsky.app/profile/${person.bluesky}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -137,41 +142,3 @@ export default function Person({ person }) {
     </div>
   );
 }
-
-Person.propTypes = {
-  person: PropTypes.shape({
-    github: PropTypes.string,
-    name: PropTypes.string,
-    url: PropTypes.string,
-    emoji: PropTypes.string,
-    description: PropTypes.string,
-    tags: PropTypes.arrayOf(PropTypes.string),
-    country: PropTypes.string,
-    computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
-    phone: PropTypes.oneOf(['iphone', 'android', 'windowsphone', 'flipphone']),
-    twitter(props, propName, componentName) {
-      if (!/^@?(\w){1,15}$/.test(props[propName])) {
-        return new Error(
-          `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit Twitter handle.`
-        );
-      }
-    },
-    mastodon(props, propName, componentName) {
-      if (!/^@(\w){1,30}@(\w)+\.(\w)+$/.test(props[propName])) {
-        return new Error(
-          `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit Mastodon handle.`
-        );
-      }
-    },
-    bluesky(props, propName, componentName) {
-      if (!/^(\w)+\.(\w)+\.(\w)+$/.test(props[propName])) {
-        return new Error(
-          `Invalid prop \`${propName}\` supplied to` +
-            ` \`${componentName}\`. This isn't a legit Bluesky handle.`
-        );
-      }
-    },
-  }),
-};

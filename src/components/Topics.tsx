@@ -2,10 +2,16 @@ import { Link, useParams, useRouteLoaderData } from '@remix-run/react';
 import * as icons from '../util/icons';
 
 export default function Topics() {
-  const { tags, countries, devices } = useRouteLoaderData("root");
   const params = useParams();
   const currentTag = params.tag || 'all';
+  const res = useRouteLoaderData<{
+    tags: { name: string; count: number }[];
+    countries: { emoji: string; name: string; count: number }[];
+    devices: { name: string; count: number }[];
+  }>('root');
 
+  if (!res) return;
+  const { tags, countries, devices } = res;
   return (
     <div className="Tags">
       {tags.map((tag) => (
@@ -13,9 +19,9 @@ export default function Topics() {
           prefetch="intent"
           key={`tag-${tag.name}`}
           to={
-            tag.name === "all" ? "/" : `/like/${encodeURIComponent(tag.name)}`
+            tag.name === 'all' ? '/' : `/like/${encodeURIComponent(tag.name)}`
           }
-          className={`Tag ${currentTag === tag.name ? "currentTag" : ""}`}
+          className={`Tag ${currentTag === tag.name ? 'currentTag' : ''}`}
         >
           {tag.name}
           <span className="TagCount">{tag.count}</span>
@@ -26,7 +32,7 @@ export default function Topics() {
         <Link
           to={`/like/${tag.emoji}`}
           prefetch="intent"
-          className={`Tag ${currentTag === tag.emoji ? "currentTag" : ""}`}
+          className={`Tag ${currentTag === tag.emoji ? 'currentTag' : ''}`}
           key={`filter-${tag.name}`}
           title={tag.name}
         >
@@ -38,12 +44,16 @@ export default function Topics() {
       {devices.map((tag) => (
         <Link
           to={`/like/${tag.name}`}
-          className={`Tag ${currentTag === tag.name ? "currentTag" : ""}`}
+          className={`Tag ${currentTag === tag.name ? 'currentTag' : ''}`}
           prefetch="intent"
           key={`filter-${tag.name}`}
           title={tag.name}
         >
-          <img height="20px" src={icons[tag.name]} alt={tag.name} />
+          <img
+            height="20px"
+            src={icons[tag.name as keyof typeof icons]}
+            alt={tag.name}
+          />
           <span className="TagCount">{tag.count}</span>
         </Link>
       ))}

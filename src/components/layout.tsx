@@ -1,22 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Header from './header';
 import 'normalize.css';
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <main className="Main">
       <Header />
       {children}
       <footer>
+        {/* eslint-disable-next-line */}
         <center ya-i-used-a-center-tag="sue me">
           <p>
-            Made by <a href="https://wesbos.com">Wes Bos</a> with{" "}
-            <a href="https://www.remix.run">Remix</a> ©{" "}
+            Made by <a href="https://wesbos.com">Wes Bos</a> with{' '}
+            <a href="https://www.remix.run">Remix</a> ©{' '}
             {new Date().getFullYear()}
           </p>
           <p>
-            Source on{" "}
+            Source on{' '}
             <a href="https://github.com/wesbos/awesome-uses/">GitHub</a>. Add
             yourself!
           </p>
@@ -34,8 +33,4 @@ export default function Layout({ children }) {
       </footer>
     </main>
   );
-};
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+}
