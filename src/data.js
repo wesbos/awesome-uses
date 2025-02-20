@@ -87,7 +87,7 @@ module.exports = [
     url: 'https://iagobruno.is-a.dev/uses',
     twitter: '@iagotico',
     emoji: '🏳️‍🌈',
-    country: 'BR',
+    country: '🇧🇷',
     computer: 'windows',
     phone: 'iphone',
     tags: [
@@ -166,7 +166,7 @@ module.exports = [
     description: 'Crafting the future, Today.',
     url: 'https://yesbhautik.co.in/uses',
     emoji: '🍀',
-    country: 'in',
+    country: '🇮🇳',
     twitter: '@yesbhautik',
     computer: 'apple',
     phone: 'android',
@@ -11106,7 +11106,7 @@ module.exports = [
       'An aspiring financial data analyst, seeking new projects and opportunities',
     url: 'https://the-quach.com/uses/',
     emoji: '🔮',
-    country: 'ca',
+    country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
     tags: [
@@ -18130,7 +18130,7 @@ module.exports = [
       'Full-Stack Developer from Germany with a focus on frontend and build processes/tooling.',
     url: 'https://pixelde.su/uses',
     emoji: '🎁',
-    country: 'de',
+    country: '🇩🇪',
     computer: 'windows',
     phone: 'iphone',
     tags: [
