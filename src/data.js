@@ -5376,8 +5376,8 @@ module.exports = [
     url: 'https://www.michaelkitzman.com/uses',
     emoji: '🤔',
     country: '🇺🇸',
-    computer: 'mac',
-    phone: 'ios',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Frontend',
       'Web Developer',
@@ -18742,8 +18742,8 @@ module.exports = [
     twitter: '@albertogalca',
     emoji: '🤘🏼',
     country: '🇪🇸',
-    computer: 'mac',
-    phone: 'ios',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Bear',
       'React',
