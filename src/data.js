@@ -13631,7 +13631,7 @@ module.exports = [
   {
     name: 'Abyan Raditya',
     description: 'Hey! I am a Frontend web developer.',
-    url: 'https://www.byanrkh.my.id/blog/uses',
+    url: 'https://www.byanrkh.my.id/writings/uses',
     emoji: '🙌',
     country: '🇮🇩',
     computer: 'windows',
