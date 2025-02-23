@@ -14362,6 +14362,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Abyan Raditya',
+    description: 'Hey! I am a Frontend web developer.',
+    url: 'https://www.byanrkh.my.id/writings/uses',
+    emoji: '🙌',
+    country: '🇮🇩',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: [
+      'Next.js',
+      'TailwindCSS',
+      'React',
+      'UI/UX',
+      'Vercel',
+      'TypeScript',
+      'Redux',
+      'Frontend',
+      'Next.js',
+    ],
+  },
+  {
     name: 'Isaac Wyatt',
     description:
       'Built Growth Systems @ Google, HashiCorp, New Relic etc. | Strat & Ops + Code',
