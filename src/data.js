@@ -18417,6 +18417,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Shubham Singh',
+    description: '30 | M | Software Engineer | Android | React',
+    url: 'https://ishubhamsingh.dev/uses',
+    twitter: '@ishubhamsingh',
+    emoji: '👨‍💻',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Android',
+      'Kotlin',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'TypeScript',
+      'macOS',
+      'Vercel'
+    ],
+  },
+  {
     name: 'Hammy Havoc',
     description:
       'Composer for video games and picture. Cypherpunk and open source aficionado.',
