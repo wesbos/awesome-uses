@@ -24,6 +24,33 @@
  */
 module.exports = [
   {
+    name: 'Jared Rigby',
+    description:
+      'Creative technologist and indie game developer.',
+    url: 'https://jaredrigby.co.uk/uses/',
+    emoji: '🎮',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    bluesky: 'jaredrigby.co.uk',
+    tags: [
+      'Hugo',
+      'PNPM',
+      'Godot',
+      'Jekyll',
+      'GitHub',
+      'VS Code',
+      'Netlify',
+      'Next.js',
+      'Obsidian',
+      'WordPress',
+      'Developer',
+      'JavaScript',
+      'Full Stack',
+      'Tailwind CSS',
+    ],
+  },
+  {
     name: 'Christian Hain',
     description:
       'Internet power-user and creator specializing in browser-based experiences.',
