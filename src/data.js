@@ -18266,6 +18266,28 @@ module.exports = [
     ],
   },
   {
+    name: "Peter's Path",
+    description: 'Swift developer also hiking, nature, and photography.',
+    url: 'https://peterspath.net/uses',
+    emoji: '🥾',
+    country: '🇳🇱',
+    computer: 'apple',
+    phone: 'iphone',
+    bluesky: 'peterspath.net',
+    twitter: '@peterspath_net',
+    mastodon: '@peterspath@mastodon.social',
+    tags: [
+      'Swift',
+      'iOS',
+      'macOS',
+      'Swift on Server',
+      'Writer',
+      'Photography',
+      'Hiking',
+      'Nature',
+    ],
+  },
+  {
     name: 'Daniel Cefram Ramirez',
     description:
       'I build things through code. I make short sentences to multiple paragraphs.',
