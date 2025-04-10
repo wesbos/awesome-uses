@@ -268,6 +268,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Abhishek Thakur',
+    description:
+      'Front-end Developer,Full-Stack Developer, Machine Learning Enthosiast',
+    url: 'https://my-portfolio-beta-olive.vercel.app/uses',
+    emoji: '☀️',
+    country: 'IN',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'CSS',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Pytorch',
+      'Python',
+      'Streamlit',
+      'Frontend',
+      'HTML/CSS',
+      'Cloud Computing',
+    ],
+  },
+  {
     name: 'Toby Nieboer',
     description: 'Finding awesome humans for Ferocia. Post-technical.',
     url: 'https://tcn33.com/uses',
