@@ -87,7 +87,7 @@ module.exports = [
     url: 'https://iagobruno.is-a.dev/uses',
     twitter: '@iagotico',
     emoji: '🏳️‍🌈',
-    country: 'BR',
+    country: '🇧🇷',
     computer: 'windows',
     phone: 'iphone',
     tags: [
