@@ -16513,6 +16513,24 @@ module.exports = [
     ],
   },
   {
+    name: 'alp1n3',
+    description: 'Application security, penetration testing, and secure code review.',
+    url: 'https://alp1n3.dev/links/uses/',
+    bluesky: 'alp1n3.dev',
+    emoji: '🔮',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Application Security',
+      'Penetration Testing',
+      'Secure Code Review',
+      'Developer',
+      'Go',
+      'C#',
+    ],
+  },
+  {
     name: 'Justin Conway',
     description:
       'Chicago-based front-end developer passionate about the web and pork.',
