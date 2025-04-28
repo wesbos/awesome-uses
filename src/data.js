@@ -23,6 +23,39 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+    {
+    name: 'Daniel Marcinkowski',
+    description:
+      'A multi-disciplinary tech professional.',
+    url: 'https://meetdaniel.me/uses/',
+    emoji: '😅',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    mastodon: '@meetdanielme@mastodon.social',
+    bluesky: 'meetdaniel.me',
+    tags: [
+      'Blogger',
+      'Writer',
+      'UI',
+      'UX',
+      'UI',
+      'Figma',
+      'Design Systems',
+      'UI/UX',
+      'Markdown',
+      'Photographer',
+      'Problem Solver',
+      'Design',
+      'Traveler',
+      'Student',
+      'Product Manager',
+      'Minimalist',
+      'Self taught',
+      'Marketer',
+      'Content Creator',
+    ],
+  },
   {
     name: 'Christian Hain',
     description:
