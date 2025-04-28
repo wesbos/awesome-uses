@@ -11354,6 +11354,35 @@ module.exports = [
     ],
   },
   {
+    name: 'Leonardo Rifeli',
+    description: 'Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.',
+    url: 'https://rifeli.dev/uses/',
+    emoji: '🚀',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Golang',
+      'Python',
+      'Data Engineer',
+      'Data Science',
+      'AWS',
+      'Cloud',
+      'Serverless',
+      'Backend',
+      'PostgreSQL',
+      'Airflow',
+      'Machine Learning',
+      'AI',
+      'DevOps',
+      'Kubernetes',
+      'ETL',
+      'Big Data',
+      'SRE',
+      'Scalability'
+    ]
+  },  
+  {
     name: 'Gabriel Wilkes',
     description:
       'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
