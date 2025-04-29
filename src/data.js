@@ -881,7 +881,7 @@ module.exports = [
     country: '🇳🇵',
     computer: 'linux',
     phone: 'android',
-    tags: ['neovim', 'nix', 'nixos', 'c'],
+    tags: ['helix', 'podman', 'chimera linux', 'Go', 'PostgreSQL', 'JavaScript'],
   },
   {
     name: 'Tim Benniks',
