@@ -13376,6 +13376,25 @@ module.exports = [
     tags: ['Developer', 'Blogger', 'Back End', 'PHP', 'Laravel', 'Treeware'],
   },
   {
+    name: 'Jamie Schembri',
+    description: 'Freelance software engineer with a focus on Ruby on Rails and simplicity.',
+    url: 'https://schembri.me/uses',
+    emoji: '🍵',
+    country: '🇳🇱',
+    bluesky: 'jamie.schembri.me',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Freelance',
+      'Software Engineer',
+      'Product-minded',
+      'Ruby',
+      'Rails',
+      'Complexity',
+      'Simplicity',
+    ],
+  },
+  {
     name: 'Brian Mitchell',
     description:
       'Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.',
