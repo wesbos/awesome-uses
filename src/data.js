@@ -9370,6 +9370,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Nathan Arthur',
+    description: 'Full-stack web developer building tools for productivity when productivity is hard',
+    url: 'https://www.nathanarthur.com/uses',
+    country: '🇺🇸',
+    emoji: '🌲',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      "Full-Stack Developer",
+      "Entrepreneur",
+      "Freelancer",
+      "ADHD",
+      "TypeScript",
+      "Node.js",
+      "Astro",
+      "SvelteKit",
+      "Express.js",
+      "Tanstack Query",
+      "Next.js",
+      "React",
+      "Netlify",
+      "Cloudflare",
+      "Vercel",
+      "Hono"
+    ]
+  },
+  {
     name: 'Mitchell Hanberg',
     description:
       'Full Stack Developer who loves working with Elixir, Ruby and JS.',
