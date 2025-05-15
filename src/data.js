@@ -8863,6 +8863,8 @@ module.exports = [
     description: 'Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.',
     url: 'https://www.jeffpaul.com/uses/',
     twitter: '@jeffpaul',
+    mastodon: `@jeffpaul@mastodon.social`,
+    bluesky: `jeffpaul.com`,
     emoji: '🌊',
     country: '🇺🇸',
     computer: 'apple',
