@@ -250,6 +250,32 @@ module.exports = [
     description:
       'Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate',
     url: 'https://lubna.dev/uses',
+  },
+  ,
+  {
+    name: 'Stephanie Lemmeyer',
+    description: 'Infrastructure Engineer w/ DevOps experience, Tech Generalist. Lifelong music fan & newborn musician. Gamer. Cat (ailurophile).',
+    url: 'https://stephanielemmeyer.me/posts/uses/',
+    emoji: '🐱',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'DevOps',
+      'Infrastructure',
+      'Javascript',
+      'Typescript',
+      'Generalist',
+      'Node.js',
+      'Firefox',
+      'AI',
+      'Gamer',
+      'Musician',
+      'Astro',
+    ]
+  },
+  ,
+  {
     emoji: '✨',
     country: '🇬🇧',
     computer: 'apple',
