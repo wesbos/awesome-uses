@@ -24,6 +24,40 @@
  */
 module.exports = [
   {
+    name: 'Piers Olenski',
+    description:
+      'Technical Lead, Front-End Developer and Vim Enthusiast from London.',
+    url: 'https://www.piersolenski.com/',
+    emoji: '😸',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Remote',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'UI',
+      'Next.js',
+      'Node.js',
+      'CSS',
+      'Animation',
+      'React',
+      'NextJS',
+      'GSAP',
+      'eCommerce',
+      'PWA',
+      'i18n',
+      'Emails',
+      'Kiosk',
+      'Lua',
+      'vim',
+      'Neovim',
+      'Mentor',
+      'Open Source Software',
+    ],
+  },
+  {
     name: 'Christian Hain',
     description:
       'Internet power-user and creator specializing in browser-based experiences.',
