@@ -1,3 +1,4 @@
+build/
 # Logs
 logs
 *.log
@@ -54,12 +55,16 @@ typings/
 # dotenv environment variable files
 .env*
 
-# gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
+
+# VS Code workspace settings
+.vscode/
+
+# vim workspace settings
+.vim/
 
 # Yarn
 yarn-error.log
@@ -69,3 +74,9 @@ yarn-error.log
 .yarn-integrity
 
 haters/
+
+.idea/
+.history/
+
+# Local Netlify folder
+.netlify
