@@ -17339,10 +17339,10 @@ module.exports = [
     name: 'Jérémie Bertrand',
     description: 'Developer, occasional blogger',
     url: 'https://laedit.net/uses/',
-    twitter: '@laedit',
+    mastodon: '@laedit@piaille.fr',
     emoji: '🐧',
     country: '🇫🇷',
-    computer: 'windows',
+    computer: 'linux',
     phone: 'android',
     tags: [
       'Developer',
@@ -17353,6 +17353,7 @@ module.exports = [
       '.NET',
       'JavaScript',
       'Open Source Software',
+      'SourceHut'
     ],
   },
   {
