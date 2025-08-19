@@ -11778,10 +11778,10 @@ module.exports = [
   },
   {
     name: 'Jahir Fiquitiva',
-    description: 'Passionate and Creative Full Stack Developer',
+    description: 'Passionate and Creative Software Engineer',
     url: 'https://jahir.dev/uses',
     twitter: '@jahirfiquitiva',
-    emoji: '💎',
+    emoji: '☻',
     country: '🇨🇴',
     computer: 'apple',
     phone: 'iphone',
@@ -11792,6 +11792,9 @@ module.exports = [
       'Python',
       'Kotlin',
       'React',
+      'Engineer',
+      'Frontend',
+      'TypeScript'
     ],
   },
   {
