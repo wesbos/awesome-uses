@@ -194,6 +194,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dale Larroder](https://www.dalelarroder.com/uses) — Software Engineer, React, TypeScript and Mechanical Keyboards!
 * [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — I write code for your entertainment.
 * [Luke Oliff](https://lukeocodes.dev/uses) — I am a seasoned Developer Experience Engineer with a rich background in Software Development.
+* [Kevin Lewis](https://lws.io/blog/uses) — I am a developer relations person who loves community and education. Brit in Germany.
 * [Bill Sullivan](https://billsullivan.name/uses/) — Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur
 * [Amit Dhamu](https://amitd.co/uses) — Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
@@ -291,6 +292,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Goben](https://christiangoben.com/uses) — Software engineer, problem solver, automation sorcerer. On an endless pursuit for good coffee.
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Dave Redfern](https://daveredfern.com/uses) — I design and develop user‑centered experiences that deliver measurable returns.
+* [Michael DeMarco](https://www.michaeldemar.co/uses) — Toolmaker, tinkerer, and teacher.
 * [Caro Appleby](https://caro.fyi/uses) — Indie programmer, textile artist, musician, endlessly curious
 * [Trevor Morris](https://www.trovster.com/about/uses) — I am a movie-loving, mountain-bike-riding web developer from the UK.
 * [Nick Morris](http://nickmorris.name/uses) — I am a music-loving, dog having, skiing, software engineer from California living in NYC.
@@ -523,6 +525,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sal Ferrarello](https://salferrarello.com/uses/) — Web Developer specializing in WordPress. Loves Git and Neovim. Good at metaphors and asking dumb questions.
 * [Brian Morrison II](https://brianmorrison.me/uses/) — Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer
 * [Tim Downey](https://downey.io/uses/) — Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃
+* [Sayak Mukhopadhyay](https://sayakm.me/uses/) — Software Developer, Platform Engineer
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Muhammad Oka](https://muhammadoka.dev/uses/) — Computer Science student, Cyber Security enthusiast.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
