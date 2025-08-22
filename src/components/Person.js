@@ -16,10 +16,7 @@ export default function Person({ person }) {
   const [_, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
   const { tag: currentTag } = useParams();
   return (
-    <div
-      className="PersonWrapper"
-      style={{ contentVisibility: "auto", containIntrinsicHeight: "560px" }}
-    >
+    <div className="PersonWrapper">
       <div className="PersonInner">
         <header>
           <img
