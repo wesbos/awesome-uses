@@ -6381,6 +6381,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Michael DeMarco',
+    description: 'Toolmaker, tinkerer, and teacher.',
+    url: 'https://www.michaeldemar.co/uses',
+    twitter: '@michaelfromyeg',
+    country: '🇨🇦',
+    emoji: '🐢',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'TypeScript',
+      'Front End',
+      'React',
+      'CSS'
+    ]
+  },
+  {
     name: 'Caro Appleby',
     description:
       'Indie programmer, textile artist, musician, endlessly curious',
