@@ -525,6 +525,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sal Ferrarello](https://salferrarello.com/uses/) — Web Developer specializing in WordPress. Loves Git and Neovim. Good at metaphors and asking dumb questions.
 * [Brian Morrison II](https://brianmorrison.me/uses/) — Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer
 * [Tim Downey](https://downey.io/uses/) — Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃
+* [Sayak Mukhopadhyay](https://sayakm.me/uses/) — Software Developer, Platform Engineer
 * [Josiah Wiebe](https://jwie.be/uses/) — Designer & developer, lifelong learner.
 * [Muhammad Oka](https://muhammadoka.dev/uses/) — Computer Science student, Cyber Security enthusiast.
 * [Benjamin Lannon](https://lannonbr.com/uses/) — Web Developer, Open Source Contributor, Livestreamer
