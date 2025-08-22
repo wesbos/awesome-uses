@@ -543,7 +543,7 @@ module.exports = [
     url: 'https://kevinpy.com/uses',
     emoji: '🔭',
     country: '🇫🇷',
-    bluesky: '@kevinpy',
+    bluesky: 'kevinpy',
     computer: 'apple',
     phone: 'iphone',
     tags: [
