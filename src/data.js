@@ -87,7 +87,7 @@ module.exports = [
     url: 'https://iagobruno.is-a.dev/uses',
     twitter: '@iagotico',
     emoji: '🏳️‍🌈',
-    country: 'BR',
+    country: '🇧🇷',
     computer: 'windows',
     phone: 'iphone',
     tags: [
@@ -4205,6 +4205,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Kevin Lewis',
+    description:
+      'I am a developer relations person who loves community and education. Brit in Germany.',
+    url: 'https://lws.io/blog/uses',
+    bluesky: 'lws.io',
+    emoji: '💞',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Education',
+      'Dad',
+      'Open Source Software',
+      'JavaScript',
+    ],
+  },
+  {
     name: 'Bill Sullivan',
     description:
       'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
@@ -6361,6 +6379,23 @@ module.exports = [
       'Front End',
       'CSS',
     ],
+  },
+  {
+    name: 'Michael DeMarco',
+    description: 'Toolmaker, tinkerer, and teacher.',
+    url: 'https://www.michaeldemar.co/uses',
+    twitter: '@michaelfromyeg',
+    country: '🇨🇦',
+    emoji: '🐢',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Engineer',
+      'TypeScript',
+      'Front End',
+      'React',
+      'CSS'
+    ]
   },
   {
     name: 'Caro Appleby',
