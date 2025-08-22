@@ -4205,16 +4205,23 @@ module.exports = [
     ],
   },
   {
-		name: 'Kevin Lewis',
-		description: 'I am a developer relations person who loves community and education. Brit in Germany.',
-		url: 'https://lws.io/blog/uses',
-		bluesky: 'lws.io',
-		emoji: '💞',
-		country: '🇩🇪',
-		computer: 'apple',
-		phone: 'iphone',
-		tags: ['Developer', 'Education', 'Dad', 'Open Source Software', 'JavaScript', ],
-	},
+    name: 'Kevin Lewis',
+    description:
+      'I am a developer relations person who loves community and education. Brit in Germany.',
+    url: 'https://lws.io/blog/uses',
+    bluesky: 'lws.io',
+    emoji: '💞',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Education',
+      'Dad',
+      'Open Source Software',
+      'JavaScript',
+    ],
+  },
   {
     name: 'Bill Sullivan',
     description:
