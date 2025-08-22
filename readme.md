@@ -292,6 +292,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Goben](https://christiangoben.com/uses) — Software engineer, problem solver, automation sorcerer. On an endless pursuit for good coffee.
 * [Alex Duval](https://www.alexduval.fr/uses) — Fullstack Dev, Teacher, Freeride skier
 * [Dave Redfern](https://daveredfern.com/uses) — I design and develop user‑centered experiences that deliver measurable returns.
+* [Michael DeMarco](https://www.michaeldemar.co/uses) — Toolmaker, tinkerer, and teacher.
 * [Caro Appleby](https://caro.fyi/uses) — Indie programmer, textile artist, musician, endlessly curious
 * [Trevor Morris](https://www.trovster.com/about/uses) — I am a movie-loving, mountain-bike-riding web developer from the UK.
 * [Nick Morris](http://nickmorris.name/uses) — I am a music-loving, dog having, skiing, software engineer from California living in NYC.

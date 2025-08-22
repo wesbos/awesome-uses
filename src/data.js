@@ -6389,13 +6389,7 @@ module.exports = [
     emoji: '🐢',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Engineer',
-      'TypeScript',
-      'Front End',
-      'React',
-      'CSS'
-    ]
+    tags: ['Engineer', 'TypeScript', 'Front End', 'React', 'CSS'],
   },
   {
     name: 'Caro Appleby',
