@@ -662,6 +662,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
 * [Isaac Weber](https://www.webdevike.com/uses) — Full stack, GraphQL enthusiast
 * [Jim Fang](https://airfusion.dev/uses) — Developer, Tech enthusiast, Student.
+* [Abyan Raditya](https://www.byanrkh.my.id/writings/uses) — Hey! I am a Frontend web developer.
 * [Isaac Wyatt](https://isaacwyatt.com/uses) — Built Growth Systems @ Google, HashiCorp, New Relic etc. | Strat & Ops + Code
 * [Andrew Zeller](https://zeller.io/uses) — Frontend engineer and designer | SF Bay Area | Drone enthusiast
 * [Thomas Tuvignon](https://thomastuvignon.com/en/uses) — Front-end developer and occasional designer.
