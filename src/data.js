@@ -17209,8 +17209,7 @@ module.exports = [
   {
     name: 'Niels Gouman',
     description: 'Tech. Start-ups. SaaS.',
-    url: 'https://nielsgouman.nl/uses/',
-    twitter: '@NielsGouman',
+    url: 'https://nizzlay.com/uses/',
     emoji: '🧐',
     country: '🇳🇱',
     computer: 'apple',
