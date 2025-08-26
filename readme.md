@@ -843,6 +843,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Aaron Pham](https://aarnphm.xyz/uses) — distributed and ml system.
 * [Gabriel Garrido](https://garrido.io/uses/) — Curious human being
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
+* [Shubham Singh](https://ishubhamsingh.dev/uses) — 30 | M | Software Engineer | Android | React
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.

@@ -18546,7 +18546,7 @@ module.exports = [
       'TailwindCSS',
       'TypeScript',
       'macOS',
-      'Vercel'
+      'Vercel',
     ],
   },
   {
