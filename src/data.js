@@ -13654,7 +13654,8 @@ module.exports = [
   },
   {
     name: 'Jamie Schembri',
-    description: 'Freelance software engineer with a focus on Ruby on Rails and simplicity.',
+    description:
+      'Freelance software engineer with a focus on Ruby on Rails and simplicity.',
     url: 'https://schembri.me/uses',
     emoji: '🍵',
     country: '🇳🇱',

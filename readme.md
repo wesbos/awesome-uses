@@ -625,6 +625,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Harry Wolff](https://hswolff.com/uses/) — Front-end engineer and YouTuber 
 * [Amir Ghaffari](https://amirghaffari.com/uses/) — full-stack web developer
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
+* [Jamie Schembri](https://schembri.me/uses) — Freelance software engineer with a focus on Ruby on Rails and simplicity.
 * [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
 * [Mohammad Dohadwala](https://dohad.dev/blog/uses) — Hi, I am a Full Stack Javascript Web Developer from Dubai.
 * [Manuel Savino](https://manuels.dev/uses) — Frontend Web Developer 
