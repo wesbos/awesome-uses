@@ -46,6 +46,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Harding](https://jameshard.ing/uses) — Airline Pilot and Software Engineer
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
 * [Charles Harwood](https://charlesharwood.dev/uses) — Aussie Staff Software Engineer, Dad, World's okayest guitarist
+* [Simon Vrachliotis](https://simonswiss.com/uses) — Designer, developer, learner and teacher. Producing screencasts for Laracasts, Epic Web, Pro Tailwind and more! 
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
