@@ -16458,6 +16458,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrés Ignacio Torres',
+    description: 'Venezuelan Software Engineer and writer based in Canada. Open Source ❤️',
+    url: 'https://aitorres.com/uses',
+    country: '🇻🇪',
+    bluesky: '@andresitorresm.com',
+    mastodon: '@andresitorresm@fosstodon.org',
+    emoji: '🍕',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Engineer',
+      'Backend',
+      'Python',
+      'PHP',
+      'TypeScript',
+      'Flutter',
+      'Django',
+      'Literature',
+      'Open Source'
+    ]
+  },
+  {
     name: 'Bamuleseyo Gideon',
     description:
       'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
