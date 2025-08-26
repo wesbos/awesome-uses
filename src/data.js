@@ -115,7 +115,8 @@ module.exports = [
   },
   {
     name: 'Jeroen van Meerendonk',
-    description: 'UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.',
+    description:
+      'UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.',
     url: 'https://jeroen.wtf/uses',
     bluesky: 'jeroen.wtf',
     emoji: '🍕',
