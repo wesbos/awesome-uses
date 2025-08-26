@@ -11482,7 +11482,8 @@ module.exports = [
   },
   {
     name: 'Leonardo Rifeli',
-    description: 'Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.',
+    description:
+      'Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.',
     url: 'https://rifeli.dev/uses/',
     emoji: '🚀',
     country: '🇧🇷',
@@ -11506,9 +11507,9 @@ module.exports = [
       'ETL',
       'Big Data',
       'SRE',
-      'Scalability'
-    ]
-  },  
+      'Scalability',
+    ],
+  },
   {
     name: 'Gabriel Wilkes',
     description:
