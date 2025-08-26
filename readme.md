@@ -777,6 +777,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lucas Queiroz](https://lucasqueiroz.dev/uses.html) — Backend Engineer working remotely.
 * [Muhammad Umair](https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc) — Fullstack front-end developer and designer, passionate in everything #JavaScript
 * [Tomek Buszewski](https://www.buszewski.com/uses/) — Developer and team leader based in Warsaw, Poland.
+* [Przemek Nowak](https://przemeknowak.com/uses/) — Passionate Software Engineer. Big fan of automation and simplicity within the code.
 * [Norbert Chmiel](https://github.com/Norbiox/uses) — Software Craftsman, Pythonista, Linux enthusiast.
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
 * [Fortune Obi](https://www.obifortune.com/uses) — Web developer living in Canada, strangely obsessed with Typescript and React.

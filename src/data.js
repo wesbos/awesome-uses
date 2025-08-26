@@ -16996,7 +16996,8 @@ module.exports = [
   },
   {
     name: 'Przemek Nowak',
-    description: 'Passionate Software Engineer. Big fan of automation and simplicity within the code.',
+    description:
+      'Passionate Software Engineer. Big fan of automation and simplicity within the code.',
     url: 'https://przemeknowak.com/uses/',
     twitter: '@p_nowy',
     emoji: '😜',
