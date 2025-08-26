@@ -611,6 +611,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Caleb Ukle](https://calebukle.com/uses) — I'm a software developer, technology enthusiast, and simply enjoy learning new things.
 * [Ricardo Boss](https://ricardoboss.de/uses) — Web native, born to code.
 * [Vincent Ramdhanie](https://vincentramdhanie.com/uses) — Software Developer, Lecturer, Technical Writer and Mentor
+* [Christopher Mortimer](https://mortimer.xyz/uses/) — Data Engineer, Web Developer, and Australian Footy Fan
 * [Amir R Muntasser](https://arkm.xyz/uses/) — Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol' razzle dazzle.
 * [Pavel Melnik](https://theopract.gitlab.io/pavel-dev/uses/) — Web developer, Technology enthusiast, Energy Management System expert
 * [Miguel Ángel Durán](https://midu.dev/uses) — Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.
