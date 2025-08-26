@@ -16459,7 +16459,8 @@ module.exports = [
   },
   {
     name: 'Andrés Ignacio Torres',
-    description: 'Venezuelan Software Engineer and writer based in Canada. Open Source ❤️',
+    description:
+      'Venezuelan Software Engineer and writer based in Canada. Open Source ❤️',
     url: 'https://aitorres.com/uses',
     country: '🇻🇪',
     bluesky: '@andresitorresm.com',
@@ -16476,8 +16477,8 @@ module.exports = [
       'Flutter',
       'Django',
       'Literature',
-      'Open Source'
-    ]
+      'Open Source',
+    ],
   },
   {
     name: 'Bamuleseyo Gideon',

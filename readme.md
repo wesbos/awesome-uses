@@ -755,6 +755,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Navdeep Singh](https://navdeepsingh.in/uses) — Web Developer, Speaker, Sikh.
 * [Rohit Gohri](https://rohit.page/uses) — Full Stack Developer dabbling in DevOps, CI/CD
 * [Andrea Prus](https://avris.it/uses) — Full stack developer, blogger
+* [Andrés Ignacio Torres](https://aitorres.com/uses) — Venezuelan Software Engineer and writer based in Canada. Open Source ❤️
 * [Bamuleseyo Gideon](https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d) — Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️
 * [David Anguita](https://davidanguita.name/uses/) — Software developer & consultant. Maker. Gamer by night. :wq
 * [Nick Taylor](https://www.iamdeveloper.com/uses/) — Just some dev from Montreal, Quebec, Canada
