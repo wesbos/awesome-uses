@@ -23,10 +23,9 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-    {
+  {
     name: 'Daniel Marcinkowski',
-    description:
-      'A multi-disciplinary tech professional.',
+    description: 'A multi-disciplinary tech professional.',
     url: 'https://meetdaniel.me/uses/',
     emoji: '😅',
     country: '🇩🇪',

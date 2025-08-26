@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
 * [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
 * [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
