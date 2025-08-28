@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
+* [Kenneth Schabrechts](https://www.cybernetks.be/uses/) — A one-person studio where freelance development and indie game projects live side by side
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
 * [Carlos D. Álvaro](https://cdalvaro.io/uses) — Senior Software Engineer, Apple fan and sports lover

@@ -617,7 +617,7 @@ module.exports = [
   {
     name: 'Kenneth Schabrechts',
     description:
-        'A one-person studio where freelance development and indie game projects live side by side',
+      'A one-person studio where freelance development and indie game projects live side by side',
     url: 'https://www.cybernetks.be/uses/',
     emoji: '👾',
     country: '🇧🇪',
