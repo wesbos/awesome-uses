@@ -771,6 +771,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Peter Tasker](https://petetasker.com/uses/) — Programmer/developer/dad in Ottawa Ontario, Canada
 * [Jason Ross](https://softwarepragmatism.com/uses/) — Developer/Architect creating software in Calgary, Alberta, Canada
 * [Anthony Morris](https://anthonymorris.dev/uses/) — Builder, JavaScript wrangler, and wannabe stoic.
+* [alp1n3](https://alp1n3.dev/links/uses/) — Application security, penetration testing, and secure code review.
 * [Justin Conway](https://conwaydev.com/uses/) — Chicago-based front-end developer passionate about the web and pork.
 * [Gabriel Kanev](https://gkanev.com/uses/) — Enteprenuer, Product Manager, Minimalist
 * [Dan Vega](https://www.danvega.dev/uses/) — Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.

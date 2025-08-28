@@ -16854,7 +16854,8 @@ module.exports = [
   },
   {
     name: 'alp1n3',
-    description: 'Application security, penetration testing, and secure code review.',
+    description:
+      'Application security, penetration testing, and secure code review.',
     url: 'https://alp1n3.dev/links/uses/',
     bluesky: 'alp1n3.dev',
     emoji: '🔮',
