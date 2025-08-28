@@ -5715,7 +5715,15 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['HTML', 'CSS', 'Javascript', 'React', 'SQL', 'WordPress', 'Photographer'],
+    tags: [
+      'HTML',
+      'CSS',
+      'Javascript',
+      'React',
+      'SQL',
+      'WordPress',
+      'Photographer',
+    ],
   },
   {
     name: 'Hamish Williams',
