@@ -2817,7 +2817,7 @@ module.exports = [
   {
     name: 'Vijay Goswami',
     description: 'Full Stack Developer from Agra, Uttar Pradesh',
-    url: 'https://vijaygoswami.in/uses',
+    url: 'https://vijaygoswami.com/uses',
     emoji: '🚀',
     country: '🇮🇳',
     computer: 'apple',
