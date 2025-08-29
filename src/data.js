@@ -8599,7 +8599,8 @@ module.exports = [
   },
   {
     name: 'Tetri Mesquita',
-    description: 'Software Architect, specialist in Full Stack C#, innovator in Technology for Agribusiness',
+    description:
+      'Software Architect, specialist in Full Stack C#, innovator in Technology for Agribusiness',
     url: 'https://tetri.net/uses',
     twitter: '@tetri',
     emoji: '👨‍💻',

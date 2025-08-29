@@ -390,6 +390,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Read](https://www.michaelcread.com/uses) — Full Stack Web Developer.
 * [Simon Aronsson](https://simme.dev/uses) — Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
+* [Tetri Mesquita](https://tetri.net/uses) — Software Architect, specialist in Full Stack C#, innovator in Technology for Agribusiness
 * [Saurabh Sharma](https://itsjzt.com/uses) — Full stack web developer making e-commerce websites and SaaS
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Frugence Fidel](https://frugencefidel.com/uses) — I'm 🇹🇿 React Developer
