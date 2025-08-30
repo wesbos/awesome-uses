@@ -9122,6 +9122,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Jeffrey Paul',
+    description: 'Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.',
+    url: 'https://www.jeffpaul.com/uses/',
+    twitter: '@jeffpaul',
+    mastodon: `@jeffpaul@mastodon.social`,
+    bluesky: `jeffpaul.com`,
+    emoji: '🌊',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Blogger',
+      'Remote',
+      'WordPress',
+      'Open Source Software',
+      'Open Source',
+      'Manager',
+      'IndieWeb',
+      'Firefox',
+    ],
+  },
+  {
     name: 'Devin Sharpe',
     description:
       'Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad',
