@@ -1153,6 +1153,26 @@ module.exports = [
       'Remote',
     ],
   },
+    {
+    name: 'Manish Tamang',
+    description: 'Young fullstack web app developer',
+    url: 'https://www.manishtamang.com/uses',
+    emoji: '🐸',
+    country: 'NP',
+    computer: 'windows',
+    phone: 'android',
+    bluesky: 'manishtamang.com',
+    twitter: '@Manishtamangxyz',
+    tags: [
+      'TypeScript',
+      'JavaScript',
+      'Next.js',
+      'React.js',
+      'Node.js',
+      'TailwindCSS',
+      'Prisma',
+    ],
+  },
   {
     name: 'Gaurav Kesh Roushan',
     description:
