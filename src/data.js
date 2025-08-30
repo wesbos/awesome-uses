@@ -19321,8 +19321,8 @@ module.exports = [
   {
     name: 'Manthan Ank',
     description:
-      "I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
-    url: 'https://manthanank.web.app/uses',
+      "I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
+    url: 'https://manthanank.github.io/uses',
     twitter: '@manthanank',
     emoji: '🧑‍💻',
     country: '🇮🇳',
@@ -19339,6 +19339,12 @@ module.exports = [
       'MongoDB',
       'Firebase',
       'GraphQL',
+      'Python',
+      'MySQL',
+      'Supabase',
+      'PostgreSQL',
+      'Nestjs',
+      'Docker'
     ],
   },
   {
