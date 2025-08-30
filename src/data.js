@@ -11037,24 +11037,6 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'JavaScript', 'React', 'Hockey'],
   },
   {
-    name: 'Michael Wagner',
-    description: 'CS student, creative and aspiring full-stack developer',
-    url: 'https://www.michaelwagner.cc/en/uses',
-    emoji: '👍',
-    country: '🇩🇪',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Photography',
-      'Design',
-      'Next.js',
-      'Python',
-      'Vercel',
-      'Firefox',
-    ],
-  },
-  {
     name: 'Jake Jarvis',
     description:
       'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
