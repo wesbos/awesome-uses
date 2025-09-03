@@ -19848,15 +19848,7 @@ module.exports = [
     country: '🇵🇭',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Designer',
-      'UX',
-      'UI',
-      'Branding',
-      'HTML',
-      'CSS',
-      'Figma',
-    ],
+    tags: ['Designer', 'UX', 'UI', 'Branding', 'HTML', 'CSS', 'Figma'],
   },
   {
     name: 'Thu Le',
