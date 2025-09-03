@@ -886,7 +886,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vivian Guillen](https://codequeen.io/uses/) — Full Stack Developer and Writer
 * [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
 * [Alberto Gallego](https://albertogalca.com/uses) — I make software, write, and take photos..
-* [Manthan Ank](https://manthanank.web.app/uses) — I'm Front-End Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
+* [Manthan Ank](https://manthanank.github.io/uses) — I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 * [Catalin Pit](https://catalins.tech/uses/) — Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.
 * [Thu Le](https://thu-le.com/uses) — Product & Experience Designer working in B2B SaaS.
 

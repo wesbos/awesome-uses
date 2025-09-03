@@ -19642,7 +19642,7 @@ module.exports = [
       'Supabase',
       'PostgreSQL',
       'Nestjs',
-      'Docker'
+      'Docker',
     ],
   },
   {
