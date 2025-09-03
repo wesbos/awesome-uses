@@ -1782,7 +1782,8 @@ module.exports = [
   },
   {
     name: 'Jasper Lai',
-    description: 'Design engineer, explorer of rabbit holes and all-around nuisance',
+    description:
+      'Design engineer, explorer of rabbit holes and all-around nuisance',
     url: 'https://lai.nz/uses',
     country: '🇳🇿',
     mastodon: '@jasperlai@mastodon.online',

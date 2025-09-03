@@ -94,6 +94,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dennis Sauvé](https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98) — DevOps Engineer w/Dev roots in the Pacific North West!
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator
+* [Jasper Lai](https://lai.nz/uses) — Design engineer, explorer of rabbit holes and all-around nuisance
 * [Akif Al Hakim](https://akif.my.id/uses) — Frontend Developer.
 * [Kalwabed Rizki](https://www.kalwabed.com/uses/) — Fullstack engineer, speaker, instructor.
 * [Eric T Grubaugh](https://stoic.software/uses) — SuiteScript Coach
