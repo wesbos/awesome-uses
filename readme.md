@@ -60,7 +60,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Carlos D. Álvaro](https://cdalvaro.io/uses) — Senior Software Engineer, Apple fan and sports lover
 * [Abdujabbar Bozdar](https://yabozdar.com/uses/) — C Programmer, Systems Engineer
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
-* [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer. Writer.
+* [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer and Writer
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
 * [Daniel Rotter](https://danielrotter.at/uses) — Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup
 * [Adam Chamberlin](https://adamchamberlin.info/uses) — Web developer and consumate athlete from the UK.
