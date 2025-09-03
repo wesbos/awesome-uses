@@ -3453,7 +3453,7 @@ module.exports = [
       'Accessibility',
       'IndieWeb',
       'VSCodium',
-      'Comedy,'
+      'Comedy',
       'Github',
       'Inkscape',
     ],
