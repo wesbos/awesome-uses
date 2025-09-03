@@ -9260,7 +9260,8 @@ module.exports = [
   },
   {
     name: 'Jeffrey Paul',
-    description: 'Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.',
+    description:
+      'Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.',
     url: 'https://www.jeffpaul.com/uses/',
     twitter: '@jeffpaul',
     mastodon: `@jeffpaul@mastodon.social`,

@@ -419,6 +419,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joanna Hosking](https://joannahosking.com/uses) — Web developer, dog mom, football fanatic living in UK
 * [Alex Pamphilon](https://apamphilon.com/uses) — Web & mobile app developer, specialising in front-end development.
 * [Andrew Byrd](https://www.andrewbyrd.dev/uses/) — Web dev. Girl Dad. Bodybuilder. Gamer.
+* [Jeffrey Paul](https://www.jeffpaul.com/uses/) — Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.
 * [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
 * [Zachary Kai](https://zacharykai.net/uses) — Offbeat, queer, 20-something, curiosity enthusiast, and traveler.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
