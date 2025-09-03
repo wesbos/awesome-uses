@@ -11081,7 +11081,15 @@ module.exports = [
     bluesky: 'thomaseckert.dev',
     computer: 'apple',
     phone: 'iphone',
-    tags: ['Go', 'Rust', 'Python', 'TypeScript', 'Svelte', 'Homelab', 'Watercolor'],
+    tags: [
+      'Go',
+      'Rust',
+      'Python',
+      'TypeScript',
+      'Svelte',
+      'Homelab',
+      'Watercolor',
+    ],
   },
   {
     name: 'Marco Poletto',
