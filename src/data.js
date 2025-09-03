@@ -8931,7 +8931,7 @@ module.exports = [
       'Leica Q3',
       'Kindle',
       'AirPods Pro',
-      'Apple Watch'
+      'Apple Watch',
     ],
   },
   {
