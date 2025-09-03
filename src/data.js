@@ -25,8 +25,7 @@
 module.exports = [
   {
     name: 'Jared Rigby',
-    description:
-      'Creative technologist and indie game developer.',
+    description: 'Creative technologist and indie game developer.',
     url: 'https://jaredrigby.co.uk/uses/',
     emoji: '🎮',
     country: '🇬🇧',
@@ -48,7 +47,7 @@ module.exports = [
       'JavaScript',
       'Full Stack',
       'Tailwind CSS',
-    ]
+    ],
   },
   {
     name: 'Daniel Marcinkowski',
@@ -80,7 +79,6 @@ module.exports = [
       'Self taught',
       'Marketer',
       'Content Creator',
-
     ],
   },
   {
