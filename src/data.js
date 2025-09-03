@@ -238,7 +238,7 @@ module.exports = [
       'HTML',
       'Homelab',
       'JavaScript',
-      'macOS'
+      'macOS',
       'MDX',
       'Manager',
       'Node.js',
