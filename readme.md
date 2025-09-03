@@ -625,7 +625,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Miguel Ángel Durán](https://midu.dev/uses) — Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.
 * [David Llop](https://davidllop.com/uses) — Full stack developer from Girona. Open Source contributor. Always Learning.
 * [Alba Silvente](https://dawntraoz.com/uses) — Front-end developer, Vue & Tailwind CSS lover. Hip Hop & Afro house dancer.
-* [Karel De Smet](https://kareldesmet.be/uses) — Test Engineer at work. Developer in my spare time. Loves analyzing, debugging and delivering software.
+* [Karel De Smet](https://kareldesmet.be/uses) — Lecturer in web development. Loves building and maintaining software.
 * [Alberto Fortes](https://albertofortes.com/uses/) — Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.
 * [Josh Manders](https://joshmanders.com/uses/) — Indie Maker & Entrepreneur
 * [Laurie Barth](https://laurieontech.com/uses/) — Software Engineer and Educator
