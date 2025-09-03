@@ -678,7 +678,7 @@ module.exports = [
       "Designer",
       "Developer",
       "Dad",
-      "Obsidian"
+      "Obsidian",
       "Raycast",
       "Figma",
       "Things",
