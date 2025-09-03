@@ -321,6 +321,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
 * [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)
 * [Filip Kalousek](https://blog.filipkalousek.cz/uses/setup) — Frontend Developer & Idea Maker
+* [Roger Li](https://heihuatong.com/uses/) — A husband, a father, a software developer, a linux user, a cat lover
 * [Agu Valeriani](https://agustinvaleriani.com/uses) — Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.
 * [R74n](https://r74n.com/uses) — Web developer with many elaborate projects
 * [Dennis Muensterer](https://muensterer.tech/uses) — Inherently lazy and striving to do less.
