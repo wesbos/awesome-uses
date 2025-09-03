@@ -144,7 +144,7 @@ Person.propTypes = {
     description: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
     country: PropTypes.string,
-    computer: PropTypes.oneOf(['apple', 'windows', 'linux']),
+    computer: PropTypes.oneOf(['apple', 'windows', 'linux', 'bsd']),
     phone: PropTypes.oneOf(['iphone', 'android', 'windowsphone', 'flipphone']),
     twitter(props, propName, componentName) {
       if (!/^@?(\w){1,15}$/.test(props[propName])) {
