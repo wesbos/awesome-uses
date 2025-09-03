@@ -141,7 +141,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
-* [Christian Babin](https://hexcat.dev/uses) — Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.
+* [Christian Babin](https://christianbabin.com/uses) — Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.
 * [Antonio Sarcevic](https://sarcevic.dev/uses) — excited by ui development
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
