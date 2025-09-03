@@ -61,6 +61,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
 * [Daniel Rotter](https://danielrotter.at/uses) — Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup
 * [Adam Chamberlin](https://adamchamberlin.info/uses) — Web developer and consumate athlete from the UK.
+* [Ryan Himmelwright](https://ryan.himmelwright.net/uses/) — Dad, husband, and all-around nerd
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
 * [earendelmir](https://earendelmir.xyz/uses/) — Computer engineer dreaming of living a hobbit life.
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
