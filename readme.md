@@ -72,6 +72,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adam Chamberlin](https://adamchamberlin.info/uses) — Web developer and consumate athlete from the UK.
 * [Ryan Himmelwright](https://ryan.himmelwright.net/uses/) — Dad, husband, and all-around nerd
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
+* [Salomon Valverde](https://salverde.github.io/s13e/uses/) — Software Craftsman. Guitar Developer. Audiophile
 * [earendelmir](https://earendelmir.xyz/uses/) — Computer engineer dreaming of living a hobbit life.
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
@@ -433,6 +434,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
 * [Zachary Kai](https://zacharykai.net/uses) — Offbeat, queer, 20-something, curiosity enthusiast, and traveler.
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
+* [Scott Evans](https://scott.ee/uses/) — Open tech and sustainability advocate. Designer of web things.
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Johan Hammar](https://www.johanhammar.se/uses) — Software Engineer from Sweden
@@ -568,7 +570,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Moncef AOUDIA](https://www.maoudia.com/uses) — Software developer - Open-source enthusiast/maintainer
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Iain Schmitt](https://iainschmitt.com/uses) — Minneapolis based software engineer and Apache ZooKeeper apologist who owns too many keyboards
-* [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
+* [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Software Engineer
 * [José Hernández](https://josehernandez.tech/uses) — Mobile and Web Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Adil Haddaoui](https://adilhaddaoui.com/uses) — Full stack Developer
@@ -892,6 +894,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alberto Gallego](https://albertogalca.com/uses) — I make software, write, and take photos..
 * [Manthan Ank](https://manthanank.github.io/uses) — I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 * [Catalin Pit](https://catalins.tech/uses/) — Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.
+* [Martin de Lima](https://mmmart.in/uses) — Lapsed developer, relapsed designer
 * [Thu Le](https://thu-le.com/uses) — Product & Experience Designer working in B2B SaaS.
 
 [awesome-badge]: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
