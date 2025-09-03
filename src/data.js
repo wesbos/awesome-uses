@@ -11073,6 +11073,17 @@ module.exports = [
     tags: ['Go', 'Python', 'JavaScript', 'TypeScript', 'React', 'Vue'],
   },
   {
+    name: 'Thomas Eckert',
+    description: 'Homelabber, Backend Professional, Frontend Enthusiast',
+    url: 'https://thomaseckert.dev/uses',
+    emoji: '👨🏻‍🎨',
+    country: '🇨🇦',
+    bluesky: 'thomaseckert.dev',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Go', 'Rust', 'Python', 'TypeScript', 'Svelte', 'Homelab', 'Watercolor'],
+  },
+  {
     name: 'Marco Poletto',
     description:
       'Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor',
