@@ -169,6 +169,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
 * [Rico van Zelst](https://rico.sh/uses) — Full Stack Developer passionate about creating innovative web solutions.
 * [Daine Mawer](https://www.dainemawer.com/uses) — Experienced Front-end Developer based in Cape Town, South Africa.
+* [Taras Kliushta](https://www.taraskliushta.dev/uses) — Staff Software Engineer – Front End
 * [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few
 * [Nick Reutlinger](https://nickreutlinger.de/uses) — Web Developer with Javascript and SvelteKit
 * [Rebecca Owen](https://beccais.online/uses/) — Indie iOS developer, software engineer, cat Mum, human Mum. Rarely in that order!
