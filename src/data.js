@@ -2982,7 +2982,7 @@ module.exports = [
     name: 'Christian Babin',
     description:
       'Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.',
-    url: 'https://hexcat.dev/uses',
+    url: 'https://christianbabin.com/uses',
     country: '🇺🇸',
     emoji: '🫥',
     computer: 'apple',
