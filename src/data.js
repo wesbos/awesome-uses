@@ -371,7 +371,8 @@ module.exports = [
   },
   {
     name: "Peter's Path",
-    description: 'Software developer, mostly using Swift; Writing a blog; Photography; Hiking',
+    description:
+      'Software developer, mostly using Swift; Writing a blog; Photography; Hiking',
     url: 'https://peterspath.net/uses/',
     twitter: '@peterspath_net',
     mastodon: '@peterspath@mastodon.social',
