@@ -12608,7 +12608,7 @@ module.exports = [
       'React',
       'Engineer',
       'Frontend',
-      'TypeScript'
+      'TypeScript',
     ],
   },
   {

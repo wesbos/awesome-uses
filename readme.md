@@ -568,7 +568,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Moncef AOUDIA](https://www.maoudia.com/uses) — Software developer - Open-source enthusiast/maintainer
 * [Adrian Marin](https://adrianthedev.com/uses) — Product-Minded Software Engineer, Digital nomad, no-nonsense enjoyer of life, friends and family.
 * [Iain Schmitt](https://iainschmitt.com/uses) — Minneapolis based software engineer and Apache ZooKeeper apologist who owns too many keyboards
-* [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Full Stack Developer
+* [Jahir Fiquitiva](https://jahir.dev/uses) — Passionate and Creative Software Engineer
 * [José Hernández](https://josehernandez.tech/uses) — Mobile and Web Developer
 * [Christophe Querton](https://kertof.com/what-i-use) — Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.
 * [Adil Haddaoui](https://adilhaddaoui.com/uses) — Full stack Developer
