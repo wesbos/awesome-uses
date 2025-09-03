@@ -161,6 +161,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
 * [Michael Amore](https://codewithlove.blog/uses) — Technologist, software creator, wannabe hacker. Father. Dog Lover.
 * [voitech](https://voitech.lol/uses/) — English teacher, IT specialist, programming instructor, cyber security educator, personal knowledge management consultant
+* [Alex Zee Comedy](https://alexzeecomedy.com/pages/uses) — Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
 * [Ruslan Osipov](https://ruslan.rocks/uses) — Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group
 * [H. Kamran](https://hkamran.com/uses) — Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!
