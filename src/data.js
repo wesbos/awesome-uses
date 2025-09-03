@@ -220,7 +220,8 @@ module.exports = [
   },
   {
     name: 'John Zanussi',
-    description: 'Frontend engineer turned engineering manager with 20+ years of experience.',
+    description:
+      'Frontend engineer turned engineering manager with 20+ years of experience.',
     url: 'https://johnzanussi.com/uses',
     emoji: '🙃',
     country: '🇺🇸',
