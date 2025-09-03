@@ -882,12 +882,12 @@ module.exports = [
   },
   {
     name: 'Bino Kochumol Varghese',
-    description: 'Developer. Writer.',
+    description: 'Developer and Writer',
     url: 'https://binovarghese.com/uses/',
     twitter: '@binovarghese_',
     emoji: '⚡',
     country: '🇮🇳',
-    computer: 'windows',
+    computer: 'apple',
     phone: 'iphone',
     tags: [
       'Developer',
