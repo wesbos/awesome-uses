@@ -830,7 +830,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vic Demuzere](https://vic.demuzere.be/uses/) — Go developer and Linux enthousiast at home, system administrator at work.
 * [Ivan Santos](https://ivansantos.me/uses) — 🍺 🤠 Node.js, Go, Terraform and Kubernetes. Distributed Systems FTW.
 * [Kristina Groeger](https://github.com/kr1st1nagr03g3r/uses) — 💻 👻 Over ten years of front-end development and UI / UX development and design.
-* [Patrick Obermeier](https://www.patrickobermeier.at/uses) — Experienced front-end developer with a solid online-marketing background on top. Lover of fancy hipster beer.
+* [Phillip Osterwald](https://www.p-osterwald.top/uses) — Experienced full-stack developer with a solid online-marketing background on top. Lover of fancy hipster beer.
 * [James Dewes](https://jamesdewes.com/uses/) — Full-stack developer, software and data engineer, Yorkshire, UK.
 * [Mladen Milesic](https://www.mladenmilesic.com/uses/) — Passionate Electrical Engineer gone Software. I relish the art of crafting and tinkering with both digital and physical creations.
 * [Paul Mowat](https://www.paulmowat.co.uk/uses/) — A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced
