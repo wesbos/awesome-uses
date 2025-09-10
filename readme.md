@@ -124,6 +124,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [uncenter](https://www.uncenter.dev/uses) — Open source software developer, geography nerd, and high school student.
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
+* [Alex Stepankov](https://xeurun.dev/uses/) — Team Lead • Senior Developer • Creator
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Noah](https://mazepin.ch/uses) — Swiss + Sysamdin
 * [Jesse Stilwell](https://stilwell.dev/uses) — DevOps Engineer and Hobbyist Web Developer

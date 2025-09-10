@@ -2601,7 +2601,7 @@ module.exports = [
       'Web',
       'Windows',
       // CRM
-      'Directus'
+      'Directus',
     ],
   },
   {
