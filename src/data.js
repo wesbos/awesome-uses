@@ -9232,6 +9232,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Gonçalo Rodrigues',
+    description:
+      'Software developer, currently focused on Java and JavaScript.',
+    url: 'https://goncalorodrigues.com/uses',
+    twitter: '@gonafr',
+    emoji: '👨‍💻',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Full Stack',
+      'Java',
+      'JavaScript',
+      'Next.js',
+      'React',
+      'TailwindCSS',
+      'PostgreSQL',
+    ],
+  },
+  {
     name: 'Matt Stein',
     description: 'Middle-end web designer-developer-writer.',
     url: 'https://mattstein.com/uses',
