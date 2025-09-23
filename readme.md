@@ -39,6 +39,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
 * [Matthew Javelet](https://javelet.dev/uses) — Full-stack developer and server admin
 * [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
+* [matizeta](https://matizeta.com/uses/) — Comunicator and Designer
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Joseph Horace](https://basicutils.com/uses) — Speeding through development with precision.
 * [John Zanussi](https://johnzanussi.com/uses) — Frontend engineer turned engineering manager with 20+ years of experience.
@@ -56,6 +57,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Vrachliotis](https://simonswiss.com/uses) — Designer, developer, learner and teacher. Producing screencasts for Laracasts, Epic Web, Pro Tailwind and more! 
 * [George-Paul Crețu](https://georgepaulcretu.com/uses) — Full-stack developer with ascending in back-end.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
+* [Volodymyr Obrizan](https://first.institute/en/blog/uses/) — Software engineer, manager, founder of First Institute of Reliable Software
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [Marius Hauken](https://hauken.no/uses) — Designer building better banking UX & shipping playful pet projects from Norway's west coast
 * [Justin Lam](https://justinmklam.com/uses/) — Software Engineer from Vancouver, Canada
@@ -412,10 +414,12 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Frugence Fidel](https://frugencefidel.com/uses) — I'm 🇹🇿 React Developer
 * [Aaron Conway](https://aaronconway.co.uk/uses) — Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)
+* [Gonçalo Rodrigues](https://goncalorodrigues.com/uses) — Software developer, currently focused on Java and JavaScript.
 * [Matt Stein](https://mattstein.com/uses) — Middle-end web designer-developer-writer.
 * [Mohammed Sohail](https://www.msohail.dev/uses) — A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Daryl Sun](https://blog.darylsun.page/uses) — I play with software and videogames. Sometimes I write things.
+* [Helen Chong](https://helenchong.dev/uses) — Graphic designer turned web developer based in Malaysia.
 * [Julian Stark](https://julianstark.de/uses) — WordPress Web Developer & Entrepreneur
 * [Aris Ripandi](https://ripandis.com/uses) — Software engineer & educator. Open Source enthusiast.
 * [Edgaras Benediktavicius](https://edgaras.com/uses) — Hyper curious maker for the Web. Designer and Developer.
@@ -892,7 +896,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hiran Venugopalan](https://hiran.in/uses) — A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. 
 * [Ryan Daley](https://www.rpdaley.com/uses/) — Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM
 * [Vivian Guillen](https://codequeen.io/uses/) — Full Stack Developer and Writer
-* [Abul Khoyer](https://abulkhoyer.com/uses/) — Web Developer and Designer
+* [Abul Khoyer](https://abulkhoyer.com/uses/) — Writes code, hunts bugs, and breathes perfume.
 * [Alberto Gallego](https://albertogalca.com/uses) — I make software, write, and take photos..
 * [Manthan Ank](https://manthanank.github.io/uses) — I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.
 * [Catalin Pit](https://catalins.tech/uses/) — Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.
