@@ -760,7 +760,8 @@ module.exports = [
   },
   {
     name: 'Volodymyr Obrizan',
-    description: 'Software engineer, manager, founder of First Institute of Reliable Software',
+    description:
+      'Software engineer, manager, founder of First Institute of Reliable Software',
     url: 'https://first.institute/en/blog/uses/',
     emoji: '🐱',
     twitter: '@obrizan',
