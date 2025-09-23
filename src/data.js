@@ -688,7 +688,7 @@ module.exports = [
     url: 'https://xahidex.com/uses',
     emoji: '🤓',
     bluesky: '@xahidex.com',
-    country: 'bd',
+    country: 'BD',
     computer: 'apple',
     phone: 'iphone',
     tags: [
