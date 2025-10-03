@@ -9597,6 +9597,24 @@ module.exports = [
       'Web',
     ],
   },
+    {
+    name: 'Chris Smith',
+    description: 'Software engineer, tinkerer, and yak shaver.',
+    url: 'https://chameth.com/uses',
+    bluesky: 'chameth.com',
+    emoji: '🫤',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Developer',
+      'Golang',
+      'Blogger',
+      'Web',
+      'Linux',
+      'Remote',
+    ],
+  },
   {
     name: 'Mykolas Krupauskas',
     description:
