@@ -142,6 +142,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeremiah Lee](https://www.jeremiahlee.com/uses/) — Web Developer, Digital Rights Activist, Macro-optimist
 * [Alex O'Reilly](https://alekzandriia.com/uses/) — Scientist turned Web developer from the Great White North.
 * [Martin Bean](https://martinbean.dev/uses) — Web developer and software engineer.
+* [Arija A.](https://ari.lt/uses) — A passionate open source developer and advocate from Lithuania
 * [Jaime Creixems](https://webjac.com/uses) — Design Leader, Advisor and Mentor.
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
 * [Lucas Mancini](https://lucasmancini.au/uses) — Software Development Engineer, specializing in Frontend
@@ -348,6 +349,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Nikola Đuza](https://pragmaticpineapple.com/uses) — Nikola helps developers improve their productivity by sharing pragmatic advice & applicable knowledge on JavaScript and Ruby.
+* [Nihar Samantaray](https://nih.ar/uses/) — Banking Consultant, Software Engineer
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Amodu Kehinde](https://amodukehinde.vercel.app/uses/) — MERN Stack Developer
 * [Manassarn "Noom" Manoonchai](https://garden.narze.live/uses) — Coding, Productivity, Technologies, macOS, Keyboard

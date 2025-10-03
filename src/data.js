@@ -3066,7 +3066,8 @@ module.exports = [
   },
   {
     name: 'Arija A.',
-    description: 'A passionate open source developer and advocate from Lithuania',
+    description:
+      'A passionate open source developer and advocate from Lithuania',
     url: 'https://ari.lt/uses',
     bluesky: 'ari.lt',
     emoji: '🐈‍⬛',
