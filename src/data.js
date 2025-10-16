@@ -18063,6 +18063,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Ashpex',
+    description: 'Software engineer, Linux enthusiast.',
+    url: 'https://ashpex.net/uses',
+    emoji: '🍃',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Linux',
+      'Hyprland',
+      'Selfhost',
+      'Kitty',
+      'Platform Engineer',
+      'Vim',
+    ],
+  },
+  {
     name: 'Benjamin Mock',
     description: 'coder, runner, reader, maker',
     url: 'https://codesnacks.net/uses/',
