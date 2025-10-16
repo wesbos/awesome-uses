@@ -554,6 +554,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrew Healey](https://healeycodes.com/uses) — Software Engineer, Writer, Learner!
 * [Gyan Prakash Karn](https://karngyan.com/uses/) — Software Engineer, Tinkerer, Absurdist.
 * [Scott Tolinski](https://scotttolinski.com/uses) — Web Developer, Tutorial Maker, Podcaster, Bboy
+* [Zubair Ibn Zamir](https://zubairiz.com/uses) — Full-Stack Developer. Cloud Practitioner. Open source contributor. Localization volunteer.
 * [Tony Lockhart](https://tlockhart.github.io/portfolio/#uses) — Full Stack Developer, Designer, and Instructor
 * [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, Linux and FOSS enthusiast.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.

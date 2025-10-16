@@ -12383,7 +12383,8 @@ module.exports = [
   },
   {
     name: 'Zubair Ibn Zamir',
-    description: 'Full-Stack Developer. Cloud Practitioner. Open source contributor. Localization volunteer.',
+    description:
+      'Full-Stack Developer. Cloud Practitioner. Open source contributor. Localization volunteer.',
     url: 'https://zubairiz.com/uses',
     twitter: '@zubairibnzamir',
     emoji: '🧭',
