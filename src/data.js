@@ -525,12 +525,12 @@ module.exports = [
       'Cryptography',
       'Privacy',
       'Finance',
-      'Political Economy'
+      'Political Economy',
       'Social Science',
       'History',
       'Alt History',
       'LoFi',
-      'Small Web',
+      'Small Web'
     ],
   },
   {
