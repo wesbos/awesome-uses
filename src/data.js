@@ -714,7 +714,7 @@ module.exports = [
     url: 'https://xahidex.com/uses',
     emoji: '🤓',
     bluesky: '@xahidex.com',
-    country: 'BD',
+    country: '🇧🇩',
     computer: 'apple',
     phone: 'iphone',
     tags: [
