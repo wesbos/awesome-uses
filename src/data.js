@@ -1431,6 +1431,36 @@ module.exports = [
       'vscode',
     ],
   },
+    {
+    name: 'Karthik Kadambi',
+    description: 'Full Stack Developer, UX Enthusiast and Aspiring AI Engineer',
+    url: 'https://karthikkadambi.com/uses',
+    country: '🇮🇳',
+    mastodon: '@karthikkadambi@mastodon.social',
+    emoji: '🐻',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Node.js',
+      'Next.js',
+      'GraphQL',
+      'Vs Code',
+      'Figma',
+      'UI/UX',
+      'Full Stack',
+      'GitHub',
+      '11ty',
+      'Accessibility',
+      'SEO',
+      'Cloud',
+      'AI'
+    ]
+  },
   {
     name: 'Damian Cyrus',
     description:
