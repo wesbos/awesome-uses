@@ -18039,7 +18039,9 @@ module.exports = [
     name: 'Ashpex',
     description: 'Software engineer, Linux enthusiast.',
     url: 'https://ashpex.net/uses',
+    bluesky: 'ashpex.net',
     emoji: '🍃',
+    country: '🇻🇳',
     computer: 'linux',
     phone: 'android',
     tags: [
