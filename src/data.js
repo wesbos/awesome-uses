@@ -13491,7 +13491,7 @@ module.exports = [
   {
     name: 'Marco Kamner',
     description: 'Pragmatic DevOps Engineer & Indie Hacker',
-    url: 'https://blog.marco.ninja/uses',
+    url: 'https://marco.ninja/uses',
     mastodon: '@mkamner@mastodon.world',
     emoji: '🚀',
     country: '🇩🇪',
