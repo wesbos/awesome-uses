@@ -24,6 +24,30 @@
  */
 module.exports = [
   {
+    name: 'Phuc Bui',
+    description:
+      'Creative Frontend Engineer. I create things for designers and developers, usually open source.',
+    url: 'https://phucbm.com/uses',
+    emoji: '👽',
+    country: '🇻🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@phucbm_',
+    tags: [
+      'Fullstack',
+      'Frontend',
+      'Web Animation',
+      'GSAP',
+      'Typescript',
+      'React',
+      'NextJS',
+      'UI',
+      'Freelance',
+      'CSS',
+      'JavaScript'
+    ],
+  },
+  {
     name: 'Loic Leray',
     description:
       'Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.',
