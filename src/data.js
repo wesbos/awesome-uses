@@ -294,7 +294,7 @@ module.exports = [
   {
     name: 'bennnto',
     description: 'Student Computer',
-    url: 'https://bennnto.me/uses/',
+    url: 'https://bennnto.me/uses',
     emoji: '👨🏻‍💻',
     country: '🇨🇦',
     computer: 'apple',
