@@ -349,7 +349,7 @@ module.exports = [
     description: 'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
     url: 'https://reillyspitzfaden.com/uses',
     emoji: '💾',
-    country: '🇺🇸'.
+    country: '🇺🇸',
     computer: 'apple',
     phone: 'grapheneos',
     mastodon: '@reillypascal@hachyderm.io',
