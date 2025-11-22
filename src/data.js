@@ -1318,7 +1318,6 @@ module.exports = [
       'Senior',
       'Fullstack',
       'Docker',
-      'Fullstack',
       'IntelliJ IDEA',
       'Java',
       'macOS',
