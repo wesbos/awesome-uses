@@ -11102,7 +11102,7 @@ module.exports = [
     phone: 'iphone',
     tags: ['Manager', 'Blogger', 'Writer'],
   },
-      {
+  {
     name: 'Rasmus P',
     description:
       'I’m a full-stack developer with a passion for building seamless and engaging web experiences.',
@@ -11130,7 +11130,7 @@ module.exports = [
       'TailwindCSS',
       'Node.js',
       'Frontend',
-      'Umbraco'
+      'Umbraco',
     ],
   },
   {

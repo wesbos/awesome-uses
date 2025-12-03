@@ -494,6 +494,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Roberto Vázquez González](https://robertovg.com/uses/) — Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.
 * [Joe Maffei](https://joemaffei.dev/uses/) — Software engineer with a passion for Web Application Development.
 * [Jelle Smeets](https://blog.jellesmeets.nl/uses) — Engineering manager & blogger
+* [Rasmus P](https://rasmusp.com/uses) — I’m a full-stack developer with a passion for building seamless and engaging web experiences.
 * [Lauri Elias](https://indoorsman.ee/uses) — Full stack developer who dreams of only ever working with Django
 * [Rene Gens](https://renegens.com/uses) — android engineer, project manager, teacher, aspiring designer and author
 * [Matthew Scholta](https://mattscholta.com/uses) — Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.
