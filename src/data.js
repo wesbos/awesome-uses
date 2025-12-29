@@ -3069,7 +3069,6 @@ module.exports = [
     description:
       'A passionate open source developer and advocate from Lithuania',
     url: 'https://ari.lt/uses',
-    bluesky: 'ari.lt',
     emoji: '🐈‍⬛',
     country: '🇱🇹',
     computer: 'linux',
