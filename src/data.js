@@ -19791,6 +19791,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Matias Quintana',
+    description: 'Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting',
+    url: 'https://matiasquintana.com/',
+    emoji: '☕️',
+    country: '🇵🇪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Data Science',
+      'Machine Learning',
+      'Scripting',
+      'Python',
+      'R',
+      'macOS',
+    ],
+  },
+  {
     name: 'Hammy Havoc',
     description:
       'Composer for video games and picture. Cypherpunk and open source aficionado.',
