@@ -6958,16 +6958,18 @@ module.exports = [
   },
   {
     name: 'Brian Hamburg',
-    description: 'Web Developer, Designer, and Musician',
+    description: 'Software Engineer, Designer, and Musician',
     url: 'https://burgbits.com/uses',
-    twitter: '@burgbits',
+    bluesky: 'burgbits.bsky.social',
     emoji: '🪕',
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
     tags: [
+      'Software Engineer'
       'Web Developer',
       'Developer',
+      'Front End',
       'HTML',
       'CSS',
       'JavaScript',
