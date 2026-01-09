@@ -6966,7 +6966,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     tags: [
-      'Software Engineer'
+      'Software Engineer',
       'Web Developer',
       'Developer',
       'Front End',
