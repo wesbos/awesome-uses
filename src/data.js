@@ -24,6 +24,31 @@
  */
 module.exports = [
   {
+    name: 'Vlad Savruk',
+    description: 'Product and Graphic Designer',
+    url: 'https://vladsavruk.com/writing/uses',
+    emoji: '✉️',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@vldsvrk',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'Swift',
+      'SwiftUI',
+      'Figma',
+      'Photoshop',
+      'Illustrator',
+      'InDesign',
+      'Raycast',
+      'Obsidian',
+    ],
+  },
+  {
     name: 'Loic Leray',
     description:
       'Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.',
