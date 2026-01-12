@@ -4751,6 +4751,18 @@ module.exports = [
     tags: ['Front End', 'Web Development', 'UI/UX', 'Kirby', 'Eleventy'],
   },
   {
+    name: 'Markus Birth',
+    description: 'IT Geek. From Berlin, Germany. Now in London, UK.',
+    url: 'https://blog.mbirth.uk/uses',
+    mastodon: '@mbirth@mbirth.uk',
+    twitter: '@mbirth',
+    emoji: '🤓',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Hacking', 'Tinkering', 'Linux', 'Python', 'Lua'],
+  },
+  {
     name: 'Manuel Coiai',
     description: 'Creative front-end developer living in Pisa, Italy',
     url: 'https://github.com/viralk/uses',
