@@ -504,6 +504,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Predrag Knezevic',
+    description: 'Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler',
+    url: 'https://peraknezevic.com/uses/',
+    emoji: '🪴',
+    country: '🇷🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'React',
+      'Next.js',
+      'Angular',
+      'Typescript',
+      'JavaScript',
+      'VS Code',
+      'Webstorm',
+      'WordPress',
+      'Tailwind CSS',
+      'CSS',
+      'Figma',
+    ],
+  },
+  {
     name: 'Lubna',
     description:
       'Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate',
