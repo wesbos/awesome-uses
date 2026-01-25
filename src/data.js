@@ -731,6 +731,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Shiveen Pandita',
+    description: 'Engineer. Writer. Hobby Collector. Annoying Coffee Snob.',
+    url: 'https://shiveenp.com/uses',
+    twitter: '@shiveen_p',
+    emoji: '☕️',
+    country: '🇦🇺',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Backend Engineering',
+      'System Architecture',
+      'Kotlin',
+      'TypeScript',
+    ],
+  },
+  {
     name: 'Scott Willsey',
     description: 'Podcaster, Blogger, Mac Nerd',
     url: 'https://scottwillsey.com/uses/',
