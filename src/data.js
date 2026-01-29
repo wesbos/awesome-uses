@@ -1,4 +1,4 @@
-/**
+/Loic Leray**
  * @typedef Person
  * A single contributor with a /uses page.
  * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L70
@@ -54,6 +54,25 @@ module.exports = [
       'Youtube',
     ],
   },
+  {
+    name: 'Guilherme Albert',
+    description: 'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
+    url: 'https://guilhermealbert.com/uses',
+    country: '🇧🇷',
+    emoji: '🤠',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Tech Lead',
+      'Full Stack',
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Node.js',
+      'AI Agents',
+      'Blockchain',
+    ],
+  },  
   {
     name: 'Jared Rigby',
     description: 'Creative technologist and indie game developer.',
