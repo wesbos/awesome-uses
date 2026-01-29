@@ -1,4 +1,4 @@
-/Loic Leray**
+/**
  * @typedef Person
  * A single contributor with a /uses page.
  * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L70
