@@ -596,7 +596,8 @@ module.exports = [
   },
   {
     name: 'Kevin Py',
-    description: 'Craftsman of the web, also Self taught. Freelance Tech Lead, Expert Front-End Developer, and Software Architect.',
+    description:
+      'Craftsman of the web, also Self taught. Freelance Tech Lead, Expert Front-End Developer, and Software Architect.',
     url: 'https://kevinpy.com/uses',
     emoji: '🔭',
     country: '🇫🇷',
@@ -615,7 +616,7 @@ module.exports = [
       'Architect',
       'Frontend',
       'Self taught',
-      'Entrepreneur'
+      'Entrepreneur',
     ],
   },
   {

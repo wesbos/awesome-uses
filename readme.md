@@ -51,6 +51,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Toby Nieboer](https://tcn33.com/uses) — Finding awesome humans for Ferocia. Post-technical.
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [László Tóth](https://tothlp.hu/uses) — Full-Stack Developer
+* [Kevin Py](https://kevinpy.com/uses) — Craftsman of the web, also Self taught. Freelance Tech Lead, Expert Front-End Developer, and Software Architect.
 * [James Harding](https://jameshard.ing/uses) — Airline Pilot and Software Engineer
 * [Luke Davis](https://lukealexdavis.co.uk/uses/) — I'm a technical SEO, music producer, and blogger based in the UK.
 * [Charles Harwood](https://charlesharwood.dev/uses) — Aussie Staff Software Engineer, Dad, World's okayest guitarist
