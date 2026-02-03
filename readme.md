@@ -469,6 +469,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.
 * [Maxence Poutord](https://www.maxpou.fr/uses) — Software engineer, digital nomad, public speaker and remote worker
 * [Johan Hammar](https://www.johanhammar.se/uses) — Software Engineer from Sweden
+* [Leo Ashcraft](https://leoashcraft.com/uses) — Full Stack Software Developer
 * [Kevin Gimbel](https://kevingimbel.de/uses) — DevOps Engineer who loves Rust + web dev
 * [James Peilow](https://jamespeilow.com/uses) — Front-end Developer, Switch owner, coffee and beer drinker
 * [Bob Orchard](https://boborchard.com/uses) — Semi-stack developer with a design background. Woodworker. Maker.
