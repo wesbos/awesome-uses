@@ -1505,7 +1505,7 @@ module.exports = [
     name: 'Abdul-Jabbar Bozdar',
     description: 'Computer Programmer',
     url: 'https://aj.bozdar.im/uses/',
-    bluesky: '@aj.bozdar.im',
+    bluesky: 'aj.bozdar.im',
     emoji: '🤝',
     country: '🇦🇶',
     computer: 'BSD',
