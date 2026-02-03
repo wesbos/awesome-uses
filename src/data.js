@@ -16579,26 +16579,6 @@ module.exports = [
     tags: ['Developer', 'TypeScript', 'React', 'CSS', 'Gatsby', 'Blogger'],
   },
   {
-    name: 'Dieter Stinglhamber',
-    description:
-      'I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.',
-    url: 'https://www.dieter.dev/uses',
-    twitter: '@elhebert',
-    emoji: '🎲',
-    country: '🇧🇪',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Remote',
-      'Backend',
-      'PHP',
-      'Laravel',
-      'TypeScript',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Julio Lozovei',
     description:
       'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
