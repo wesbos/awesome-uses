@@ -735,7 +735,8 @@ module.exports = [
   },
   {
     name: 'Jahidul Islam',
-    description: 'A Digital Marketing & SEO Specialist, passionate about content, web development, design, and languages. Helping brands thrive online. Photography lives at jahidshots.com',
+    description:
+      'A Digital Marketing & SEO Specialist, passionate about content, web development, design, and languages. Helping brands thrive online. Photography lives at jahidshots.com',
     url: 'https://xahidex.com/uses',
     emoji: '🤓',
     bluesky: '@xahidex.com',
