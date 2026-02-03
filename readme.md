@@ -40,6 +40,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
 * [Jeroen van Meerendonk](https://jeroen.wtf/uses) — UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
+* [Alex Koval](https://k0va1.dev/posts/uses) — Full-Stack Developer, Entrepreneur, Ruby on Rails enthusiast
 * [Matthew Javelet](https://javelet.dev/uses) — Full-stack developer and server admin
 * [Iago Bruno](https://iagobruno.dev/uses) — Full-stack developer with ascending in back-end.
 * [matizeta](https://matizeta.com/uses/) — Comunicator and Designer
