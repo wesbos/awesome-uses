@@ -7138,7 +7138,7 @@ module.exports = [
   {
     name: 'Gabriele Girelli',
     description: 'Sr. Bioinformagician',
-    url: 'https://ggirelli.info/uses/',
+    url: 'https://ggirelli.info/uses',
     emoji: '🐿️',
     country: '🇸🇪',
     twitter: '@girelligabriele',
