@@ -82,6 +82,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jon Seager](https://jnsgr.uk/uses) — Husband, father, leader, software engineer, geek
 * [Salomon Valverde](https://salverde.github.io/s13e/uses/) — Software Craftsman. Guitar Developer. Audiophile
 * [earendelmir](https://earendelmir.xyz/uses/) — Computer engineer dreaming of living a hobbit life.
+* [Adam Porkolab](https://adamporkolab.com/uses) — Senior Fullstack Developer (Java/Angular) / Sci-Fi Writer
 * [Sebastian Herrmann](https://herrherrmann.net/uses/) — Web developer, musician, and hobby photographer
 * [Dinesh Haribabu](https://dineshharibabu.in/uses) — Frontend Engineer and tech enthusiast
 * [Krishna Sahu](https://sahu.framer.website/uses) — Frontend Tech Lead
