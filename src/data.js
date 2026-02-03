@@ -745,7 +745,7 @@ module.exports = [
     url: 'https://frankiefab.com/uses',
     twitter: '@frankiefab100',
     bluesky: 'frankiefab.bsky.social',
-    mastodon: 'frankiefab@fosstodon.org',
+    mastodon: '@frankiefab@fosstodon.org',
     emoji: '🧪',
     country: '🇳🇬',
     computer: 'apple',
