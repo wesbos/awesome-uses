@@ -318,7 +318,8 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://www.zlatanstajic.com/uses) — M.Sc. in Computer Science. Working as Software Developer. Creator of libraryfy.com.
 * [Guillaume Briday](https://guillaumebriday.fr/uses) — Senior Full Stack developer and DevOps
-* [Brian Hamburg](https://burgbits.com/uses) — Web Developer, Designer, and Musician
+* [Brian Hamburg](https://burgbits.com/uses) — Software Engineer, Designer, and Musician
+* [Alexey Staroselets](https://alexeystar.com/uses) — Graphic Designer, Visual Artist, Typography Enthusiast
 * [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐
 * [Patrick Lee](https://patricklee.nyc/uses) — Software Engineer, Engineering Manager, and Productivity tool nerd
 * [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer

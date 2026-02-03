@@ -7276,7 +7276,7 @@ module.exports = [
       'vim',
       'GrapheneOS',
     ],
-  },  
+  },
   {
     name: 'Emanuele Bartolesi',
     description: 'Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐',
