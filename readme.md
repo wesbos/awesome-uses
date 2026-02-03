@@ -62,6 +62,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Vrachliotis](https://simonswiss.com/uses) — Designer, developer, learner and teacher. Producing screencasts for Laracasts, Epic Web, Pro Tailwind and more! 
 * [Jahidul Islam](https://xahidex.com/uses) — A Digital Marketing & SEO Specialist, passionate about content, web development, design, and languages. Helping brands thrive online. Photography lives at jahidshots.com
 * [George-Paul Crețu](https://georgepaulcretu.com/uses) — Full-stack developer with ascending in back-end.
+* [Shiveen Pandita](https://shiveenp.com/uses) — Engineer. Writer. Hobby Collector. Annoying Coffee Snob.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
 * [Volodymyr Obrizan](https://first.institute/en/blog/uses/) — Software engineer, manager, founder of First Institute of Reliable Software
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
