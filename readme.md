@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
 * [Jared Rigby](https://jaredrigby.co.uk/uses/) — Creative technologist and indie game developer.
 * [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
@@ -608,7 +609,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tom MacWright](https://macwright.com/uses) — Founder, writer, programmer
 * [Duncan Bain](https://duncanbain.dev/uses/) — Mechanical Engineer learning to code!
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
-* [Marco Kamner](https://blog.marco.ninja/uses) — Pragmatic DevOps Engineer & Indie Hacker
+* [Marco Kamner](https://marco.ninja/uses) — Pragmatic DevOps Engineer & Indie Hacker
 * [Glyn Normington](https://underlap.org/uses) — Retired software developer, ex-visiting lecturer, IETF editor.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Martin Marcucci](https://www.marku.me/page/uses/) — Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.

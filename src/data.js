@@ -44,7 +44,7 @@ module.exports = [
       'UI',
       'Freelance',
       'CSS',
-      'JavaScript'
+      'JavaScript',
     ],
   },
   {
