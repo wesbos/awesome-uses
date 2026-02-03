@@ -817,6 +817,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tomek Buszewski](https://www.buszewski.com/uses/) — Developer and team leader based in Warsaw, Poland.
 * [Przemek Nowak](https://przemeknowak.com/uses/) — Passionate Software Engineer. Big fan of automation and simplicity within the code.
 * [Norbert Chmiel](https://github.com/Norbiox/uses) — Software Craftsman, Pythonista, Linux enthusiast.
+* [Ashpex](https://ashpex.net/uses) — Software engineer, Linux enthusiast.
 * [Benjamin Mock](https://codesnacks.net/uses/) — coder, runner, reader, maker
 * [Fortune Obi](https://www.obifortune.com/uses) — Web developer living in Canada, strangely obsessed with Typescript and React.
 * [Sean Boult](https://boult.me/uses) — Full stack developer who likes ReactJS
