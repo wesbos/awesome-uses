@@ -907,6 +907,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gabriel Garrido](https://garrido.io/uses/) — Curious human being
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Shubham Singh](https://ishubhamsingh.dev/uses) — 30 | M | Software Engineer | Android | React
+* [Matias Quintana](https://matiasquintana.com/uses) — Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting
 * [Hammy Havoc](https://hammyhavoc.com/uses/) — Composer for video games and picture. Cypherpunk and open source aficionado.
 * [Hector Aguilar](https://bitbyte.blog/uses) — A Software Engineer that loves Web development and CLI sofware
 * [Ricardo Quiroz](https://rcrd.space/uses) — Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.

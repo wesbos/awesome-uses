@@ -20288,7 +20288,8 @@ module.exports = [
   },
   {
     name: 'Matias Quintana',
-    description: 'Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting',
+    description:
+      'Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting',
     url: 'https://matiasquintana.com/uses',
     emoji: '☕️',
     country: '🇵🇪',
