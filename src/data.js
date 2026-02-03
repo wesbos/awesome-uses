@@ -20706,7 +20706,7 @@ module.exports = [
     computer: 'linux',
     phone: 'android',
     twitter: '@orxngc',
-    bluesky: '@orangc.net',
+    bluesky: 'orangc.net',
     mastodon: '@orangc@mastodon.social',
     tags: [
       'NixOS',
