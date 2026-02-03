@@ -104,6 +104,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Guilherme Albert',
+    description: 'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
+    url: 'https://guilhermealbert.com/uses',
+    country: '🇧🇷',
+    emoji: '🤠',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Tech Lead',
+      'Full Stack',
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Node.js',
+      'AI Agents',
+      'Blockchain',
+    ],
+  },
+  {
     name: 'Sahil Kapoor',
     description:
       'Founder & product engineer building AI, gaming, sports tech, and consumer products.',
