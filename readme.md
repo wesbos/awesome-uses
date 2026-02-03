@@ -695,7 +695,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jérémy Mouzin](https://jeremymouzin.com/uses) — Software Engineer, Tutorial Maker, Entrepreneur, Blogger
 * [John Cranston](https://pursuitofloot.gg/uses) — Part lead front-ender, Part vidya-streamer, All cat dad.
 * [Thorsten Hans](https://thorsten-hans.com/uses/) — Cloud-Native software developer from Germany.
-* [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend developer and amateur basketball coach.
+* [Iñigo Ochoa](https://inigochoa.me/uses/) — Backend, basketball, music.
 * [Tony Mannino](http://spaghet.me/uses/) — Full-Stack developer
 * [Victor Kropp](https://victor.kropp.name/uses) — Software Engineer, Team Lead, Husband, Father, and Triathlete
 * [Scott Spence](https://scottspence.com/uses) — Developer, Svelte, GraphQL
