@@ -741,7 +741,8 @@ module.exports = [
   },
   {
     name: 'Franklin Ohaegbulam',
-    description: 'Design-driven Software Engineer, Technical Writer, Open Source Contributor',
+    description:
+      'Design-driven Software Engineer, Technical Writer, Open Source Contributor',
     url: 'https://frankiefab.com/uses',
     twitter: '@frankiefab100',
     bluesky: 'frankiefab.bsky.social',
@@ -777,7 +778,7 @@ module.exports = [
       'Vercel',
       'SCSS/SASS',
       'Netlify',
-    ]
+    ],
   },
   {
     name: 'Predrag Knezevic',
