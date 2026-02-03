@@ -466,7 +466,7 @@ module.exports = [
   {
     name: 'Joshua Blais',
     description:
-        'Developer and writer pursuing technological mastery through first principles.',
+      'Developer and writer pursuing technological mastery through first principles.',
     url: 'https://joshblais.com/uses',
     emoji: '✝️',
     country: '🇨🇦',
