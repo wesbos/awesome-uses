@@ -6539,6 +6539,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Mikaleb',
+    description: 'Web developer - Web, TS, Vue',
+    url: 'https://mikaleb.com/uses/',
+    country: '🇫🇷',
+    mastodon: '@Mikaleb',
+    bluesky: 'mikaleb.com',
+    emoji: '🧩',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Javascript', 'Typescript', 'CSS', 'Vue']
+  },
+  {
     name: 'Jeromey Balderrama',
     description: 'Web Developer, Designer, Photographer, Drummer',
     url: 'https://balderromey.com/uses/',
