@@ -222,6 +222,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tom Gooden](https://tomgooden.net/uses) — Born at a very young age. Front-end developer - UX/UI designer. 🐙
 * [Marc-André Bombeck](https://bombeck.io/uses) — IT-Project-Manager, Network-Administrator from Germany
 * [Ben Lau](https://benlau.net/uses/) — Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.
+* [Markus Birth](https://blog.mbirth.uk/uses) — IT Geek. From Berlin, Germany. Now in London, UK.
 * [Manuel Coiai](https://github.com/viralk/uses) — Creative front-end developer living in Pisa, Italy
 * [Tim Leland](https://timleland.com/uses) — Full-Stack developer and Blogger.
 * [Randall Wilk](https://randallwilk.dev/uses) — Full-Stack Laravel Developer.
