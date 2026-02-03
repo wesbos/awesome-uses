@@ -66,6 +66,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [Marius Hauken](https://hauken.no/uses) — Designer building better banking UX & shipping playful pet projects from Norway's west coast
 * [Justin Lam](https://justinmklam.com/uses/) — Software Engineer from Vancouver, Canada
+* [Kaspars Dambis](https://kaspars.net/uses) — Maker with passion for the web, electronics, sustainable living and personal finance.
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
 * [Kenneth Schabrechts](https://www.cybernetks.be/uses/) — A one-person studio where freelance development and indie game projects live side by side

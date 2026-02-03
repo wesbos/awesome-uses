@@ -1018,7 +1018,8 @@ module.exports = [
   },
   {
     name: 'Kaspars Dambis',
-    description: 'Maker with passion for the web, electronics, sustainable living and personal finance.',
+    description:
+      'Maker with passion for the web, electronics, sustainable living and personal finance.',
     url: 'https://kaspars.net/uses',
     twitter: '@konstruktors',
     mastodon: '@kasparsd@mastodon.social',
@@ -1046,7 +1047,7 @@ module.exports = [
       'PHP',
       'Debian',
       'Docker',
-    ]
+    ],
   },
   {
     name: 'K Gopal Krishna',
