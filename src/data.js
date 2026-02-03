@@ -464,6 +464,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Blais',
+    description:
+        'Developer and writer pursuing technological mastery through first principles.',
+    url: 'https://joshblais.com/uses',
+    emoji: '✝️',
+    country: '🇨🇦',
+    computer: 'linux',
+    phone: 'android',
+    twitter: '@realjoshuablais',
+    tags: [
+      'Developer',
+      'Youtuber',
+      'Writer',
+      'Emacs',
+      'Org-mode',
+      'Linux',
+      'NixOS',
+      'Go',
+      'Datastar',
+      'Templ',
+      'Forgejo',
+    ],
+  },
+  {
     name: 'Reilly Spitzfaden',
     description:
       'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
