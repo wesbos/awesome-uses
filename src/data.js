@@ -1874,7 +1874,7 @@ module.exports = [
       'vscode',
     ],
   },
-    {
+  {
     name: 'Karthik Kadambi',
     description: 'Full Stack Developer, UX Enthusiast and Aspiring AI Engineer',
     url: 'https://karthikkadambi.com/uses',
@@ -1901,8 +1901,8 @@ module.exports = [
       'Accessibility',
       'SEO',
       'Cloud',
-      'AI'
-    ]
+      'AI',
+    ],
   },
   {
     name: 'Damian Cyrus',
@@ -20735,7 +20735,7 @@ module.exports = [
       'Markdown',
       'HTML/CSS',
       'VS Code',
-      'Hyprland'
+      'Hyprland',
     ],
   },
   {

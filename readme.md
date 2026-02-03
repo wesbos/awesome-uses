@@ -99,6 +99,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Preshit Deorukhkar](https://nuclearbits.com/uses) — Tech Enthusiast & Consultant
 * [Sudan Chapagain](https://sudanchapagain.com.np/uses) — Student
 * [Tim Benniks](https://timbenniks.dev/uses) — Developer relations, speaker, content creator
+* [Karthik Kadambi](https://karthikkadambi.com/uses) — Full Stack Developer, UX Enthusiast and Aspiring AI Engineer
 * [Damian Cyrus](https://damiancyrus.com/uses) — Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.
 * [Allan Deutsch](https://allandeutsch.com/uses) — Builds things on the internet.
 * [Gaurav Kesh Roushan](https://gauravkesh.github.io/uses/) — Fullstack Developer specializing in web development with experience in backend, frontend, and cloud technologies
@@ -924,6 +925,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rasul Kireev](https://rasulkireev.com/uses) — Software Engineer at Readwise specialising in Django
 * [Ferdinand Linnenberg](https://linnenberg.dev/uses) — Backend Developer and Open Source Enthusiast
 * [JourneyToLunar](https://journeytolunar.com/uses/) — Swift developer, blogger, photographer, and youtuber.
+* [orangc](https://orangc.net/uses) — A student, developer, weeb, and bookworm.
 * [Will Adams](https://willadams.dev/uses) — UK developer and knife maker
 * [Ruben Arakelyan](https://www.wackomenace.co.uk/uses) — Senior Ruby developer
 * [Tim Veletta](https://www.timveletta.com/uses) — Australian full-stack developer and designer
