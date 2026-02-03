@@ -15461,7 +15461,7 @@ module.exports = [
   },
   {
     name: 'Iñigo Ochoa',
-    description: 'Backend developer and amateur basketball coach.',
+    description: 'Backend, basketball, music.',
     url: 'https://inigochoa.me/uses/',
     twitter: '@inigochoa',
     emoji: '🖖',
@@ -15481,7 +15481,7 @@ module.exports = [
       'Linux',
       'VS Code',
       'Ubuntu',
-      'Eleventy',
+      'Astro',
       'Websites',
       'Symfony',
     ],
