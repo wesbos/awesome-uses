@@ -370,7 +370,8 @@ module.exports = [
   },
   {
     name: 'Reilly Spitzfaden',
-    description: 'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
+    description:
+      'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
     url: 'https://reillyspitzfaden.com/uses',
     emoji: '💾',
     country: '🇺🇸',
