@@ -1508,7 +1508,7 @@ module.exports = [
     bluesky: 'aj.bozdar.im',
     emoji: '🤝',
     country: '🇦🇶',
-    computer: 'BSD',
+    computer: 'bsd',
     phone: 'android',
     tags: [
       'Fortran',
