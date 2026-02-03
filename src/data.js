@@ -105,7 +105,8 @@ module.exports = [
   },
   {
     name: 'Guilherme Albert',
-    description: 'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
+    description:
+      'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
     url: 'https://guilhermealbert.com/uses',
     country: '🇧🇷',
     emoji: '🤠',
@@ -5960,10 +5961,9 @@ module.exports = [
       'Full Stack',
     ],
   },
-    {
+  {
     name: 'Anand Reddy Pandikunta',
-    description:
-      'Writer, Blogger & Day dreamer.',
+    description: 'Writer, Blogger & Day dreamer.',
     url: 'https://avilpage.com/uses.html',
     emoji: '🌱',
     country: '🇮🇳',
