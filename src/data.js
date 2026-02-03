@@ -5960,6 +5960,28 @@ module.exports = [
       'Full Stack',
     ],
   },
+    {
+    name: 'Anand Reddy Pandikunta',
+    description:
+      'Writer, Blogger & Day dreamer.',
+    url: 'https://avilpage.com/uses.html',
+    emoji: '🌱',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    bluesky: 'xianhain.com',
+    tags: [
+      'Python',
+      'Web',
+      'macOS',
+      'React',
+      'Writer',
+      'Speaker',
+      'Full Stack',
+      'Open Source',
+      'Open Source Software',
+    ],
+  },
   {
     name: 'Amolith',
     description:
