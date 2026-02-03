@@ -9183,13 +9183,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Backend',
-      'Blogger',
-      'Engineer',
-      'Python',
-      'Rust',
-    ],
+    tags: ['Backend', 'Blogger', 'Engineer', 'Python', 'Rust'],
   },
   {
     name: 'Elijah Rwothoromo',
