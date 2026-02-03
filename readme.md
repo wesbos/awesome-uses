@@ -40,7 +40,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeroen van Meerendonk](https://jeroen.wtf/uses) — UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
 * [Matthew Javelet](https://javelet.dev/uses) — Full-stack developer and server admin
-* [Iago Bruno](https://iagobruno.is-a.dev/uses) — Full-stack developer with ascending in back-end.
+* [Iago Bruno](https://iagobruno.dev/uses) — Full-stack developer with ascending in back-end.
 * [matizeta](https://matizeta.com/uses/) — Comunicator and Designer
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Reilly Spitzfaden](https://reillyspitzfaden.com/uses) — Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.
@@ -672,6 +672,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Mills](https://jamesmills.co.uk/uses) — Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.
 * [Jamie Schembri](https://schembri.me/uses) — Freelance software engineer with a focus on Ruby on Rails and simplicity.
 * [Brian Mitchell](https://brianm.me/uses) — Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.
+* [Eddie Welker](https://eddiewelker.com/uses) — Programmer, Cyclist, Cellist, Photographer, Cook, Woodworker, MD, USA.
 * [Mohammad Dohadwala](https://dohad.dev/blog/uses) — Hi, I am a Full Stack Javascript Web Developer from Dubai.
 * [Manuel Savino](https://manuels.dev/uses) — Frontend Web Developer 
 * [Terry Godier](https://terrygodier.com/uses) — A developer and marketer of fine internet products.
