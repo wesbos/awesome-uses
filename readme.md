@@ -744,7 +744,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Erv Walter](https://ewal.dev/uses) — Father, Husband, Web Developer, Board Game Addict
 * [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
 * [Krzysztof Żuraw](https://krzysztofzuraw.com/uses) — Developer, nerd, co-organizer, chemex lover
-* [Dieter Stinglhamber](https://www.dieter.dev/uses) — I write in PHP, JS, HTML and CSS. I can talk to databases and make servers do stuff.
 * [Julio Lozovei](https://jlozovei.dev/uses) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
 * [Dave Berning](https://daveberning.io/uses/) — Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.
