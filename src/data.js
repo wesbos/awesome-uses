@@ -352,7 +352,7 @@ module.exports = [
       'MySQL',
       'PostgreSQL',
       'TailwindCSS',
-      'Locust'
+      'Locust',
     ],
   },
   {
