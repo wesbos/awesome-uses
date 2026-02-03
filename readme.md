@@ -241,6 +241,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Andrei Hudovich](https://hudovich.dev/uses/) — Freelance Front-end Engineer, Web Enthusiast, Cat Lover.
 * [Andrej Gajdos](https://andrejgajdos.com/uses/) — Startup CTO | Tech Lead | Software Architect | Dev
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
+* [Joseph Jude](https://jjude.com/uses/) — CTO | Podcast Host | Indie Developer | Homeschooling Dad
 * [Mahesh Rijal](https://maheshrijal.com/uses) — Human, Troubleshooter, Amateur Swimmer, Reader
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast
 * [MITSUBOSHI Yuya](https://github.com/MITSUBOSHI/uses) — Software Engineer
