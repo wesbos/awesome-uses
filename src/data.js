@@ -692,7 +692,8 @@ module.exports = [
   },
   {
     name: 'Predrag Knezevic',
-    description: 'Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler',
+    description:
+      'Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler',
     url: 'https://peraknezevic.com/uses/',
     emoji: '🪴',
     country: '🇷🇸',
