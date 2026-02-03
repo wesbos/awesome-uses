@@ -83,7 +83,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
 * [Carlos D. Álvaro](https://cdalvaro.io/uses) — Senior Software Engineer, Apple fan and sports lover
-* [Abdujabbar Bozdar](https://yabozdar.com/uses/) — C Programmer, Systems Engineer
+* [Abdul-Jabbar Bozdar](https://aj.bozdar.im/uses/) — Computer Programmer
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer and Writer
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
