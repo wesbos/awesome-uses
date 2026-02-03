@@ -17908,7 +17908,8 @@ module.exports = [
   },
   {
     name: 'Ivan Bogomolov',
-    description: "Nomadic backend engineer. Distributed systems at scale, AI in production. BASE over ACID.",
+    description:
+      'Nomadic backend engineer. Distributed systems at scale, AI in production. BASE over ACID.',
     url: 'https://bogomolov.work/uses/',
     twitter: '@_irr123',
     emoji: '✨',
@@ -17932,7 +17933,7 @@ module.exports = [
       'ClickHouse',
       'Kafka',
       'NATS',
-    ]
+    ],
   },
   {
     name: 'Vlad Ilie',

@@ -806,6 +806,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Esmit Perez](https://esmit.me/uses) — Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.
 * [Sercan Eraslan](http://sercaneraslan.com/uses) — Front-End Tech Lead
 * [Eren Kucuker](https://erenkucuker.com/uses) — Senior Full Stack Developer
+* [Ivan Bogomolov](https://bogomolov.work/uses/) — Nomadic backend engineer. Distributed systems at scale, AI in production. BASE over ACID.
 * [Vlad Ilie](https://vladilie.ro/uses) — I'm a Software Engineer based in Romania, I love to juggle with technologies and put my soul in every project to get the best of it.
 * [Divjot Singh](https://bogas04.github.io/uses) — Web Developer, Vegan, Sikh.
 * [Navdeep Singh](https://navdeepsingh.in/uses) — Web Developer, Speaker, Sikh.
