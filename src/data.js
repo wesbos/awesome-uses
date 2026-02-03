@@ -8668,10 +8668,9 @@ module.exports = [
       'Python',
     ],
   },
-    {
+  {
     name: 'Courtney/Lucy Gurll',
-    description:
-      'Indie web revival appreciator and pink glitter fairy.',
+    description: 'Indie web revival appreciator and pink glitter fairy.',
     url: 'https://fairytale.magicalgurll.com/about/uses',
     emoji: '💖',
     country: '🇺🇸',
@@ -8697,7 +8696,7 @@ module.exports = [
       'IndieWeb',
       'Self Taught',
       'VSCode',
-      'Content Creator'
+      'Content Creator',
     ],
   },
   {

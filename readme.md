@@ -380,6 +380,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcus Virginia](https://marcusv.me/uses) — Software engineer specializing in web tech, amateur designer, & frequent flyer 🛩️.
 * [sheep](https://sheepdev.xyz/uses) — software engineer from zagreb, croatia
 * [Mario Sanchez Carrion](https://mariosanchez.org/uses/) — Junior Web Developer Based in Miami, FL
+* [Courtney/Lucy Gurll](https://fairytale.magicalgurll.com/about/uses) — Indie web revival appreciator and pink glitter fairy.
 * [Anthony Del Rosario](https://adelrosarioh.me/uses) — Experienced Full Stack Software Engineer & Computers Lover
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer
 * [Christopher Talke](https://talke.dev/uses) — ICT Professional / Fullstack Web Developer and Skateboarder
