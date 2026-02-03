@@ -9177,6 +9177,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Luke Hsiao',
+    url: 'https://luke.hsiao.dev/uses/',
+    description: 'Software engineer and blogger',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Backend',
+      'Blogger',
+      'Engineer',
+      'Python',
+      'Rust',
+    ],
+  },
+  {
     name: 'Elijah Rwothoromo',
     description: 'Software Developer, Poet, code and play!',
     url: 'https://rwothoromo.wordpress.com/2020/05/29/uses/',
