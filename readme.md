@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
+* [Sahil Kapoor](https://sahilkapoor.com/uses) — Founder & product engineer building AI, gaming, sports tech, and consumer products.
 * [Jared Rigby](https://jaredrigby.co.uk/uses/) — Creative technologist and indie game developer.
 * [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
 * [Piers Olenski](https://www.piersolenski.com/uses) — Technical Lead, Front-End Developer and Vim Enthusiast from London.
