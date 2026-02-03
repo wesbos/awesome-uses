@@ -10805,8 +10805,7 @@ module.exports = [
   },
   {
     name: 'Stéphane Lambion',
-    description:
-      'Shaping words.',
+    description: 'Shaping words.',
     url: 'https://stephanelambion.com/uses',
     mastodon: '@stephanelambion@mastodon.social',
     emoji: '🌑',
@@ -10820,7 +10819,7 @@ module.exports = [
       'Open Source',
       'IndieWeb',
       'Typography',
-      'Low-tech'
+      'Low-tech',
     ],
   },
   {
