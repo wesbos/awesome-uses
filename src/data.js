@@ -6548,7 +6548,7 @@ module.exports = [
     emoji: '🧩',
     computer: 'linux',
     phone: 'android',
-    tags: ['Javascript', 'Typescript', 'CSS', 'Vue']
+    tags: ['Javascript', 'Typescript', 'CSS', 'Vue'],
   },
   {
     name: 'Jeromey Balderrama',
