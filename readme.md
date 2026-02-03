@@ -52,6 +52,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tural Asgarov](https://tural.pro/uses) — Software Engineer/Developer Educator/Content Creator
 * [Lubna](https://lubna.dev/uses) — Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate
 * [Toby Nieboer](https://tcn33.com/uses) — Finding awesome humans for Ferocia. Post-technical.
+* [Marco Goetze](https://solariz.de/uses) — IT-Project-Manager, Network Engineer and general Tech-Enthusiast from Germany
 * [Thohirah Husaini](https://thohyr.co/uses) — Software Engineer/Artist
 * [László Tóth](https://tothlp.hu/uses) — Full-Stack Developer
 * [Kevin Py](https://kevinpy.com/uses) — Craftsman of the web, also Self taught. Freelance Tech Lead, Expert Front-End Developer, and Software Architect.
@@ -70,6 +71,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [K Gopal Krishna](https://kayg.org/uses) — Devops and Storage Engineer
 * [Mike Simmonds](https://mike.id/uses) — A UK-based, Front-end Software Engineer.
 * [Kenneth Schabrechts](https://www.cybernetks.be/uses/) — A one-person studio where freelance development and indie game projects live side by side
+* [Bence Fodor](https://fodi.be/uses/) — Millenial web and game developer from Hungary
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
 * [Carlos D. Álvaro](https://cdalvaro.io/uses) — Senior Software Engineer, Apple fan and sports lover
