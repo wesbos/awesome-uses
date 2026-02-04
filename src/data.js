@@ -24,6 +24,26 @@
  */
 module.exports = [
   {
+    name: 'Berat Bozkurt ',
+    description: 'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
+    url: 'https://beratbozkurt.net/en/tools',
+    emoji: '🔵',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@beratbuilds',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'ReactNative',
+      'IndieHacker',
+      'SideProjects'
+    ],
+  },
+  {
     name: 'Vlad Savruk',
     description: 'Product and Graphic Designer',
     url: 'https://vladsavruk.com/writing/uses',
