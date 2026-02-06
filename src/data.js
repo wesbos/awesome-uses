@@ -514,9 +514,9 @@ module.exports = [
   },
   {
     name: 'Sayantan',
-    description: 'I\'m an average TypeScript Engineer.',
-    url: 'https://www.sayantan.work/uses',
-    emoji: '👨🏾‍💻',
+    description: 'An average TypeScript Engineer.',
+    url: 'https://www.anaverage.dev/uses',
+    emoji: '🙃',
     country: '🇮🇳',
     computer: 'apple',
     phone: 'iphone',
