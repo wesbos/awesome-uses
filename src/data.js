@@ -3743,7 +3743,8 @@ module.exports = [
   },
   {
     name: 'Naty S',
-    description: 'Medic, IndieWeb blogger, photographer, home-barista & tech enthusiast',
+    description:
+      'Medic, IndieWeb blogger, photographer, home-barista & tech enthusiast',
     url: 'https://burgeonlab.com/uses/',
     mastodon: '@eclecticpassions@fosstodon.org',
     emoji: '☕',

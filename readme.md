@@ -166,6 +166,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lucas Mancini](https://lucasmancini.au/uses) — Software Development Engineer, specializing in Frontend
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.
+* [Naty S](https://burgeonlab.com/uses/) — Medic, IndieWeb blogger, photographer, home-barista & tech enthusiast
 * [Carretta Riccardo](https://carrettariccardo.dev/uses/) — Software Developer & UX/UI Designer
 * [Christian Babin](https://christianbabin.com/uses) — Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.
 * [Antonio Sarcevic](https://sarcevic.dev/uses) — excited by ui development
