@@ -47,6 +47,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Iago Bruno](https://iagobruno.dev/uses) — Full-stack developer with ascending in back-end.
 * [matizeta](https://matizeta.com/uses/) — Comunicator and Designer
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
+* [Sayantan](https://www.anaverage.dev/uses) — An average TypeScript Engineer.
 * [Joshua Blais](https://joshblais.com/uses) — Developer and writer pursuing technological mastery through first principles.
 * [Reilly Spitzfaden](https://reillyspitzfaden.com/uses) — Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.
 * [Joseph Horace](https://basicutils.com/uses) — Speeding through development with precision.
