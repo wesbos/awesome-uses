@@ -1838,6 +1838,8 @@ module.exports = [
       'Inoreader',
       'Sublime',
       'Proton',
+      'indieweb',
+      'Government Policy'
       'LibreOffice',
       'Waterfox',
       'Gitlab',
