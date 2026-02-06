@@ -518,8 +518,8 @@ module.exports = [
     url: 'https://www.sayantan.work/uses',
     emoji: '👨🏾‍💻',
     country: '🇮🇳',
-    computer: 'iphone',
-    phone: 'apple',
+    computer: 'apple',
+    phone: 'iphone',
     tags: [
       'Developer',
       'Web Development',
