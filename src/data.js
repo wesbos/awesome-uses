@@ -561,6 +561,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Jaenudin',
+    description:
+      'focused on fast, performance-conscious code and thoughtful interaction design.',
+    url: 'https://jaenudin.vercel.app/uses/',
+    emoji: '🐼',
+    country: '🇮🇩',
+    twitter: '',
+    computer: 'dell',
+    phone: 'iphone',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Frontend',
+      'Backend',
+      'Next.js',
+      'Astro',
+      'Node.js',
+      'TailwindCSS',
+      'PostgreSQL',
+      'Fullstack Developer',
+    ],
+  },
+  {
     name: 'Reilly Spitzfaden',
     description:
       'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
