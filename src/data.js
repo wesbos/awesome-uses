@@ -22,6 +22,8 @@
  *
  * Keep this a commonjs export.
  */
+
+
 module.exports = [
   {
     name: 'Vlad Savruk',
@@ -1842,6 +1844,31 @@ module.exports = [
       'Web Development',
       'Wordpress',
       'ZSH',
+    ],
+  },
+  {
+    name: 'Hayo Bethlehem',
+    description: 'Strategic Adviser',
+    url: 'https://hayobethlehem.nl/about/uses',
+    country: '🇳🇱',
+    computer: 'windows',
+    phone: 'android',
+    mastodon: '@kineticdiplomacy',
+    tags: [
+      'CSS',
+      'HTML',
+      'PHP',
+      'Photoshop',
+      'Inoreader',
+      'Sublime',
+      'Proton',
+      'indieweb',
+      'Government Policy'
+      'LibreOffice',
+      'Waterfox',
+      'Gitlab',
+      'Photo',
+      'Open Source'
     ],
   },
   {
