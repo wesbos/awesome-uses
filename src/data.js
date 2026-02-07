@@ -26,7 +26,7 @@ module.exports = [
   {
     name: 'Berat Bozkurt ',
     description: 'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
-    url: 'https://beratbozkurt.net/en/tools',
+    url: 'https://beratbozkurt.net/en/uses',
     emoji: '🔵',
     country: '🇹🇷',
     computer: 'apple',
