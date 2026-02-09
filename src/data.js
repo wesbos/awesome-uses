@@ -1839,7 +1839,7 @@ module.exports = [
       'Sublime',
       'Proton',
       'indieweb',
-      'Government Policy'
+      'Government Policy',
       'LibreOffice',
       'Waterfox',
       'Gitlab',
