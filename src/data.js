@@ -7308,6 +7308,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Dale Mellor',
+    description: 'Back-end developer: maths, science and engineering.',
+    url: 'https://khleedril.org/uses',
+    country: '🇬🇧',
+    tags: [
+      'Developer',
+      'Software Developer',
+      'Back End',
+      'Programmer',
+      'Linux',
+      'Debian',
+      'Guix',
+      'Rust',
+      'Guile',
+      'Nginx',
+      'Web',
+      'Websites',
+      'HTML',
+      'CSS'
+    ],
+  },
+  {
     name: 'Kieran Osgood',
     description: 'Full stack developer. Curiosity in all.',
     url: 'https://osgood.dev/uses/',
