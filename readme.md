@@ -377,6 +377,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alexander Christiaan Jacob](https://alexanderchristiaanjacob.com/uses) — A guy that does things, and thinks that having a reason for doing so is largely overrated.
 * [Ruben Janssen](https://rubenjanssen.me/uses) — Front-end Developer, Gadget G33k, Guild Lead
 * [Nikola Đuza](https://pragmaticpineapple.com/uses) — Nikola helps developers improve their productivity by sharing pragmatic advice & applicable knowledge on JavaScript and Ruby.
+* [Jens Oliver Meiert](https://meiert.com/uses/) — Engineering lead, anti-extractivist, indie publisher
 * [Nihar Samantaray](https://nih.ar/uses/) — Banking Consultant, Software Engineer
 * [Josh Collinsworth](https://joshcollinsworth.com/uses) — Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.
 * [Amodu Kehinde](https://amodukehinde.vercel.app/uses/) — MERN Stack Developer
