@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Vlad Savruk](https://vladsavruk.com/writing/uses) — Product and Graphic Designer
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
@@ -320,6 +321,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Irle](https://johnirle.com/blog/uses) — Graduate Student, Intern Developer at Charter and Go
 * [Prashant Bhapkar](https://github.com/Prashant-Bhapkar/uses) — Developer, Entrepreneur, Content Creator
 * [Diana García](https://dianaeli.netlify.app/uses) — Diana likes to code, to teach and to game
+* [Dale Mellor](https://khleedril.org/uses) — Back-end developer: maths, science and engineering.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
 * [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com

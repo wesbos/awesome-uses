@@ -25,7 +25,8 @@
 module.exports = [
   {
     name: 'Berat Bozkurt ',
-    description: 'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
+    description:
+      'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
     url: 'https://beratbozkurt.net/en/uses',
     emoji: '🔵',
     country: '🇹🇷',
@@ -40,7 +41,7 @@ module.exports = [
       'TailwindCSS',
       'ReactNative',
       'IndieHacker',
-      'SideProjects'
+      'SideProjects',
     ],
   },
   {
@@ -7326,7 +7327,7 @@ module.exports = [
       'Web',
       'Websites',
       'HTML',
-      'CSS'
+      'CSS',
     ],
   },
   {
