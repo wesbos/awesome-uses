@@ -567,7 +567,7 @@ module.exports = [
     url: 'https://jaenudin.vercel.app/uses/',
     emoji: '🐼',
     country: '🇮🇩',
-    twitter: '@i_dont_have_x,
+    twitter: '@idonthavex,
     computer: 'dell',
     phone: 'iphone',
     tags: [
