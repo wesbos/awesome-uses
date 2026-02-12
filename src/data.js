@@ -124,6 +124,31 @@ module.exports = [
       'Youtube',
     ],
   },
+ {
+    name: 'Hayo Bethlehem',
+    description: 'Strategic Adviser',
+    url: 'https://hayobethlehem.nl/about/uses',
+    country: '🇳🇱',
+    computer: 'windows',
+    phone: 'android',
+    mastodon: '@kineticdiplomacy@infosec.exchange',
+    tags: [
+      'CSS',
+      'HTML',
+      'PHP',
+      'Photography',
+      'Inoreader',
+      'Sublime',
+      'Proton',
+      'indieweb',
+      'Government Policy',
+      'LibreOffice',
+      'Waterfox',
+      'Gitlab',
+      'Open Source'
+    ],
+  },
+  
   {
     name: 'Guilherme Albert',
     description:
