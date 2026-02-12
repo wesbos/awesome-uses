@@ -124,7 +124,7 @@ module.exports = [
       'Youtube',
     ],
   },
- {
+  {
     name: 'Hayo Bethlehem',
     description: 'Strategic Adviser',
     url: 'https://hayobethlehem.nl/about/uses',
@@ -145,10 +145,10 @@ module.exports = [
       'LibreOffice',
       'Waterfox',
       'Gitlab',
-      'Open Source'
+      'Open Source',
     ],
   },
-  
+
   {
     name: 'Guilherme Albert',
     description:
