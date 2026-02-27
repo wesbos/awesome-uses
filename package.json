@@ -4,7 +4,7 @@
   "version": "8.0.0",
   "author": "Wes Bos",
   "engines": {
-    "node": ">= 18"
+    "node": ">= 22.12.0"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.6",
