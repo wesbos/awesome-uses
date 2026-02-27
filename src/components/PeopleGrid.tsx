@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Person } from '../lib/types';
 import PersonCard from './PersonCard';
 
@@ -16,6 +16,11 @@ export default function PeopleGrid({
   tagSlugByName,
 }: PeopleGridProps) {
   const [visibleCount, setVisibleCount] = useState(CHUNK_SIZE);
+
+  useEffect(() => {
+    setVisibleCount(CHUNK_SIZE);
+  }, [people]);
+
   const visiblePeople = useMemo(
     () => people.slice(0, visibleCount),
     [people, visibleCount]
