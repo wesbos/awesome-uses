@@ -1,9 +1,13 @@
 import { execFile } from 'node:child_process';
-import { createHash } from 'node:crypto';
 import { promisify } from 'node:util';
 import { setTimeout as delay } from 'node:timers/promises';
 import { buildUniqueSlug } from '../src/lib/slug';
 import { loadPeopleFromDataJs } from './lib/data-file';
+import {
+  buildScrapeRecordFromHtml,
+  sqlValue,
+  type ScrapeRecord,
+} from './lib/scrape';
 import type { PersonRecord } from '../src/lib/types';
 
 const execFileAsync = promisify(execFile);
@@ -16,20 +20,6 @@ type ScrapeOptions = {
   retries: number;
   limit?: number;
   personFilter?: string;
-};
-
-type ScrapeRecord = {
-  personSlug: string;
-  url: string;
-  statusCode: number | null;
-  fetchedAt: string;
-  title: string | null;
-  description: string | null;
-  excerpt: string | null;
-  contentText: string | null;
-  contentHash: string | null;
-  wordCount: number | null;
-  readingMinutes: number | null;
 };
 
 function parseArgs(argv: string[]): ScrapeOptions {
@@ -55,24 +45,6 @@ function parseArgs(argv: string[]): ScrapeOptions {
     limit: limit && Number(limit) > 0 ? Number(limit) : undefined,
     personFilter: readStringFlag('--person'),
   };
-}
-
-function stripHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function extractTagContent(html: string, regex: RegExp): string | null {
-  const match = html.match(regex);
-  return match?.[1]?.trim() || null;
 }
 
 async function fetchWithRetry(url: string, timeoutMs: number, retries: number) {
@@ -110,31 +82,30 @@ async function scrapePage(
     const response = await fetchWithRetry(url, timeoutMs, retries);
     const contentType = response.headers.get('content-type') || '';
     const isHtml = contentType.includes('text/html');
-    const html = isHtml ? await response.text() : '';
-    const text = isHtml ? stripHtml(html) : '';
-    const words = text ? text.split(/\s+/).filter(Boolean).length : 0;
-    const readingMinutes = words > 0 ? Math.max(1, Math.round(words / 220)) : null;
+    if (!isHtml) {
+      return {
+        personSlug,
+        url,
+        statusCode: response.status,
+        fetchedAt,
+        title: null,
+        description: null,
+        excerpt: null,
+        contentText: null,
+        contentHash: null,
+        wordCount: null,
+        readingMinutes: null,
+      };
+    }
 
-    return {
+    const html = await response.text();
+    return buildScrapeRecordFromHtml(
       personSlug,
       url,
-      statusCode: response.status,
-      fetchedAt,
-      title: isHtml ? extractTagContent(html, /<title[^>]*>([\s\S]*?)<\/title>/i) : null,
-      description: isHtml
-        ? extractTagContent(
-            html,
-            /<meta\s+name=["']description["']\s+content=["']([\s\S]*?)["'][^>]*>/i
-          )
-        : null,
-      excerpt: text ? text.slice(0, 600) : null,
-      contentText: text ? text.slice(0, 20_000) : null,
-      contentHash: text
-        ? createHash('sha256').update(text).digest('hex')
-        : null,
-      wordCount: words || null,
-      readingMinutes,
-    };
+      response.status,
+      html,
+      fetchedAt
+    );
   } catch (error) {
     return {
       personSlug,
@@ -150,12 +121,6 @@ async function scrapePage(
       readingMinutes: null,
     };
   }
-}
-
-function sqlValue(value: string | number | null): string {
-  if (value === null || typeof value === 'undefined') return 'NULL';
-  if (typeof value === 'number') return Number.isFinite(value) ? String(value) : 'NULL';
-  return `'${value.replace(/'/g, "''")}'`;
 }
 
 async function execD1(dbName: string, sql: string, remote: boolean): Promise<void> {
