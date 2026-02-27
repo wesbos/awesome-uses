@@ -22,7 +22,7 @@
  *
  * Keep this a commonjs export.
  */
-module.exports = [
+export default [
   {
     name: 'Berat Bozkurt ',
     description:
