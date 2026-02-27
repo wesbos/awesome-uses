@@ -80,3 +80,10 @@ haters/
 
 # Local Netlify folder
 .netlify
+
+# TanStack/Cloudflare outputs
+dist/
+dist-ssr/
+.tanstack/
+.wrangler/
+.vinxi/

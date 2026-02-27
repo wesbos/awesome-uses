@@ -289,3 +289,44 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: 1fr;
   }
 }
+
+.FilterForm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  align-items: end;
+}
+
+.FilterForm label {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.FilterForm input,
+.FilterForm select {
+  width: 100%;
+  border: 1px solid var(--vape);
+  background: var(--blue2);
+  color: var(--vape);
+  padding: 0.8rem;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.FilterActions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.FilterActions button {
+  border: 1px solid var(--yellow);
+  background: var(--yellow);
+  color: var(--blue);
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 0.9rem 1.3rem;
+  cursor: pointer;
+}

@@ -1,24 +1,56 @@
-import { useLoaderData, useParams } from '@remix-run/react';
-import { json, LoaderArgs } from '@remix-run/server-runtime';
-import React, { useContext } from 'react';
-import Topics from '../components/Topics';
+import { createFileRoute } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
-import Person from '../components/Person';
-import { getPeople } from 'src/util/stats';
+import DirectoryFiltersForm from '../components/DirectoryFiltersForm';
+import PersonCard from '../components/PersonCard';
+import TopicLinks from '../components/TopicLinks';
+import { parseDirectorySearch } from '../lib/filters';
+import { getDirectoryData } from '../lib/data';
 
-export async function loader({ params }: LoaderArgs) {
-  const people = getPeople(params.tag);
-  return {people};
-}
+export const Route = createFileRoute('/')({
+  validateSearch: parseDirectorySearch,
+  loaderDeps: ({ search }) => search,
+  loader: ({ deps }) => {
+    return getDirectoryData(deps);
+  },
+  component: IndexPage,
+});
 
-export default function Index() {
-  const { people } = useLoaderData<ReturnType<typeof loader>>();
+function IndexPage() {
+  const data = Route.useLoaderData();
+  const tagSlugByName = data.tags.reduce<Record<string, string>>((acc, tag) => {
+    acc[tag.name] = tag.slug;
+    return acc;
+  }, {});
+
   return (
     <>
-      <Topics />
+      <DirectoryFiltersForm
+        filters={data.filters}
+        tags={data.tags}
+        countries={data.countries}
+        devices={data.devices}
+      />
+
+      <TopicLinks
+        tags={data.tags}
+        countries={data.countries}
+        devices={data.devices}
+        currentFilters={data.filters}
+      />
+
+      <p>
+        Showing <strong>{data.people.length}</strong> of{' '}
+        <strong>{data.totalPeople}</strong> people.
+      </p>
+
       <div className="People">
-        {people.map(person => (
-          <Person key={person.name} person={person} />
+        {data.people.map((person) => (
+          <PersonCard
+            key={person.personSlug}
+            person={person}
+            activeTagName={data.filters.tag ? data.tags.find((tag) => tag.slug === data.filters.tag)?.name : undefined}
+            tagSlugByName={tagSlugByName}
+          />
         ))}
       </div>
       <BackToTop />

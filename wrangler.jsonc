@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "uses-tech",
+  "compatibility_date": "2026-02-27",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "d1_databases": [
+    {
+      "binding": "USES_SCRAPES_DB",
+      "database_name": "uses-tech-scrapes",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
