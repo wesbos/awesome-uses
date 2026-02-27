@@ -1,6 +1,7 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
 import PeopleGrid from '../components/PeopleGrid';
+import TopicLinks from '../components/TopicLinks';
 import { getAllTags, getDirectoryData, getTagBySlug } from '../lib/data';
 
 export const Route = createFileRoute('/tags/$tagSlug')({
@@ -25,6 +26,13 @@ function TagPage() {
 
   return (
     <>
+      <TopicLinks
+        tags={data.tags}
+        countries={data.countries}
+        devices={data.devices}
+        currentFilters={{ tag: data.tag.slug }}
+      />
+
       <h2>
         /tags/{data.tag.slug}
       </h2>

@@ -19,7 +19,7 @@ export default function PersonCard({
     : null;
   const websiteAvatar = `https://unavatar.io/${externalUrl.host}`;
   const avatar = twitterAvatar
-    ? `${twitterAvatar}?fallback=${websiteAvatar}&ttl=28d`
+    ? `${twitterAvatar}?fallback=${websiteAvatar}`
     : websiteAvatar;
 
   return (

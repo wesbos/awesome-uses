@@ -1,6 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
-import DirectoryFiltersForm from '../components/DirectoryFiltersForm';
 import PeopleGrid from '../components/PeopleGrid';
 import TopicLinks from '../components/TopicLinks';
 import { parseDirectorySearch } from '../lib/filters';
@@ -24,13 +23,6 @@ function IndexPage() {
 
   return (
     <>
-      <DirectoryFiltersForm
-        filters={data.filters}
-        tags={data.tags}
-        countries={data.countries}
-        devices={data.devices}
-      />
-
       <TopicLinks
         tags={data.tags}
         countries={data.countries}
