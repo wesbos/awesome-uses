@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { getScrapedProfileBySlug, resolveD1Database } from './d1';
+import {
+  getScrapedProfileBySlug,
+  resolveD1Database,
+  upsertScrapedProfile,
+} from './d1';
 
 type FakeRow = {
   personSlug: string;
@@ -14,6 +18,24 @@ function createFakeDb(row: FakeRow | null) {
         all: async () => ({ results: row ? [row] : [] }),
       }),
     }),
+  };
+}
+
+function createFakeDbForUpsert() {
+  const calls: unknown[][] = [];
+  return {
+    db: {
+      prepare: () => ({
+        bind: (...args: unknown[]) => {
+          calls.push(args);
+          return {
+            first: async () => null,
+            all: async () => ({ results: [] }),
+          };
+        },
+      }),
+    },
+    calls,
   };
 }
 
@@ -39,5 +61,31 @@ describe('d1 helpers', () => {
   it('returns null when D1 binding is unavailable', async () => {
     const data = await getScrapedProfileBySlug('person-1', {});
     expect(data).toBeNull();
+  });
+
+  it('upserts scraped profile rows into D1', async () => {
+    const { db, calls } = createFakeDbForUpsert();
+
+    await upsertScrapedProfile(
+      'person-1',
+      'https://example.com/uses',
+      '2026-01-01T00:00:00.000Z',
+      {
+        statusCode: 200,
+        title: 'Uses',
+        description: 'Setup',
+        excerpt: 'excerpt',
+        contentText: 'full text',
+        contentHash: 'abc123',
+        wordCount: 10,
+        readingMinutes: 1,
+      },
+      { env: { USES_SCRAPES_DB: db } }
+    );
+
+    expect(calls).toHaveLength(1);
+    expect(calls[0][0]).toBe('person-1');
+    expect(calls[0][1]).toBe('https://example.com/uses');
+    expect(calls[0][2]).toBe(200);
   });
 });

@@ -86,8 +86,8 @@ function PersonPage() {
         {loadingScrape && <p>Loading scrape metadata…</p>}
         {!loadingScrape && !scraped && (
           <p>
-            No scrape data found yet. Run the scrape CLI to populate the D1
-            database.
+            No scrape data is available yet. This page attempts an on-demand
+            scrape when loaded.
           </p>
         )}
         {scraped && (
