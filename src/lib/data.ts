@@ -206,6 +206,82 @@ export function getTagSlugByName(tagName: string): string | undefined {
   return TAG_SLUGS.get(canonical);
 }
 
+type LikeTagResolution =
+  | { kind: 'tag'; raw: string; tagName: string }
+  | { kind: 'country'; raw: string }
+  | { kind: 'device'; raw: string; device: Device }
+  | { kind: 'unknown'; raw: string };
+
+export function resolveLikeTag(tagInput: string): LikeTagResolution {
+  const raw = decodeURIComponent(tagInput || '').trim();
+
+  const byExactName = TAGS.find((tag) => tag.name === raw);
+  if (byExactName) {
+    return { kind: 'tag', raw, tagName: byExactName.name };
+  }
+
+  const byCaseInsensitiveName = TAGS.find(
+    (tag) => tag.name.toLowerCase() === raw.toLowerCase()
+  );
+  if (byCaseInsensitiveName) {
+    return { kind: 'tag', raw, tagName: byCaseInsensitiveName.name };
+  }
+
+  const bySlug = TAG_BY_SLUG.get(raw.toLowerCase());
+  if (bySlug) {
+    return { kind: 'tag', raw, tagName: bySlug.name };
+  }
+
+  if (COUNTRIES.some((country) => country.emoji === raw)) {
+    return { kind: 'country', raw };
+  }
+
+  const normalizedDevice = raw.toLowerCase() as Device;
+  if (DEVICES.some((device) => device.name === normalizedDevice)) {
+    return { kind: 'device', raw, device: normalizedDevice };
+  }
+
+  return { kind: 'unknown', raw };
+}
+
+export function getPeopleForLikeTag(tagInput: string): {
+  people: Person[];
+  rawTag: string;
+  activeTagName?: string;
+} {
+  const resolved = resolveLikeTag(tagInput);
+
+  if (resolved.kind === 'tag') {
+    return {
+      people: PEOPLE.filter((person) => person.canonicalTags.includes(resolved.tagName)),
+      rawTag: resolved.raw,
+      activeTagName: resolved.tagName,
+    };
+  }
+
+  if (resolved.kind === 'country') {
+    return {
+      people: PEOPLE.filter((person) => person.country === resolved.raw),
+      rawTag: resolved.raw,
+    };
+  }
+
+  if (resolved.kind === 'device') {
+    return {
+      people: PEOPLE.filter(
+        (person) =>
+          person.computer === resolved.device || person.phone === resolved.device
+      ),
+      rawTag: resolved.raw,
+    };
+  }
+
+  return {
+    people: [],
+    rawTag: resolved.raw,
+  };
+}
+
 function matchesSearch(person: Person, q?: string): boolean {
   if (!q) return true;
   const query = q.trim().toLowerCase();
@@ -242,35 +318,37 @@ export function getDirectoryData(filters: DirectoryFilters): DirectoryData {
   };
 }
 
-export function resolveLegacyTagInput(tagInput: string):
-  | { redirectTo: '/tags/$tagSlug'; params: { tagSlug: string } }
-  | { redirectTo: '/'; search: DirectoryFilters } {
+export function resolveLegacyTagInput(tagInput: string): {
+  redirectTo: '/like/$tag';
+  params: { tag: string };
+} {
   const decoded = decodeURIComponent(tagInput || '').trim();
-  const tagSlug = getTagSlugByName(decoded) || (getTagBySlug(decoded)?.slug ?? undefined);
+  const tagSlug = getTagSlugByName(decoded) || getTagBySlug(decoded)?.slug;
 
   if (tagSlug) {
+    const matchedTag = getTagBySlug(tagSlug);
     return {
-      redirectTo: '/tags/$tagSlug',
-      params: { tagSlug },
+      redirectTo: '/like/$tag',
+      params: { tag: matchedTag?.name || decoded },
     };
   }
 
   if (COUNTRIES.some((country) => country.emoji === decoded)) {
     return {
-      redirectTo: '/',
-      search: { country: decoded },
+      redirectTo: '/like/$tag',
+      params: { tag: decoded },
     };
   }
 
   if (DEVICES.some((device) => device.name === decoded)) {
     return {
-      redirectTo: '/',
-      search: { device: decoded as Device },
+      redirectTo: '/like/$tag',
+      params: { tag: decoded },
     };
   }
 
   return {
-    redirectTo: '/',
-    search: { q: decoded },
+    redirectTo: '/like/$tag',
+    params: { tag: decoded },
   };
 }

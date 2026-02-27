@@ -1,6 +1,6 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { getAllTags, getPersonBySlug } from '../lib/data';
+import { getPersonBySlug } from '../lib/data';
 import type { ScrapedProfileData } from '../lib/types';
 
 export const Route = createFileRoute('/people/$personSlug')({
@@ -18,10 +18,6 @@ function PersonPage() {
   const { person } = Route.useLoaderData();
   const [scraped, setScraped] = useState<ScrapedProfileData | null>(null);
   const [loadingScrape, setLoadingScrape] = useState(true);
-  const tagSlugByName = getAllTags().reduce<Record<string, string>>((acc, tag) => {
-    acc[tag.name] = tag.slug;
-    return acc;
-  }, {});
 
   useEffect(() => {
     let cancelled = false;
@@ -71,9 +67,9 @@ function PersonPage() {
         </p>
 
         <ul className="Tags">
-          {person.canonicalTags.map((tag) => (
+          {person.canonicalTags.slice(0, 10).map((tag) => (
             <li className="Tag small" key={tag}>
-              <Link to="/tags/$tagSlug" params={{ tagSlug: tagSlugByName[tag] || 'unknown' }}>
+              <Link to="/like/$tag" params={{ tag }}>
                 {tag}
               </Link>
             </li>

@@ -31,8 +31,9 @@ describe('data indexing', () => {
     );
   });
 
-  it('redirects legacy /like tags to canonical tag permalink', () => {
+  it('maps legacy /like tags to canonical /like target', () => {
     const result = resolveLegacyTagInput('React.js');
-    expect(result.redirectTo).toBe('/tags/$tagSlug');
+    expect(result.redirectTo).toBe('/like/$tag');
+    expect(result.params.tag).toBe('React');
   });
 });

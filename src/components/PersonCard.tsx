@@ -6,13 +6,11 @@ import type { Person } from '../lib/types';
 type PersonCardProps = {
   person: Person;
   activeTagName?: string;
-  tagSlugByName: Record<string, string>;
 };
 
 export default function PersonCard({
   person,
   activeTagName,
-  tagSlugByName,
 }: PersonCardProps) {
   const externalUrl = new URL(person.url);
   const twitterAvatar = person.twitter
@@ -55,10 +53,7 @@ export default function PersonCard({
               className={`Tag small ${activeTagName === tag ? 'currentTag' : ''}`}
               key={`${person.personSlug}-${tag}`}
             >
-              <Link
-                to="/tags/$tagSlug"
-                params={{ tagSlug: tagSlugByName[tag] || 'unknown' }}
-              >
+              <Link to="/like/$tag" params={{ tag }}>
                 {tag}
               </Link>
             </li>
@@ -81,8 +76,8 @@ export default function PersonCard({
           <span title="Computer: Unknown">—</span>
         )}
         {person.phone ? (
-          <span title={`Phone: ${person.phone}`}>
-            <img height="40" src={iconMap[person.phone]} alt={person.phone} />
+          <span title={`Uses an ${person.phone}`}>
+            <img height="50" src={iconMap[person.phone]} alt={person.phone} />
           </span>
         ) : (
           <span title="Phone: Unknown">—</span>

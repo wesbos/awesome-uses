@@ -1,57 +1,16 @@
-import { Link, createFileRoute, notFound } from '@tanstack/react-router';
-import BackToTop from '../components/BackToTop';
-import PeopleGrid from '../components/PeopleGrid';
-import TopicLinks from '../components/TopicLinks';
-import { getAllTags, getDirectoryData, getTagBySlug } from '../lib/data';
+import { createFileRoute, notFound, redirect } from '@tanstack/react-router';
+import { getTagBySlug } from '../lib/data';
 
 export const Route = createFileRoute('/tags/$tagSlug')({
-  loader: ({ params }) => {
+  beforeLoad: ({ params }) => {
     const tag = getTagBySlug(params.tagSlug);
     if (!tag) {
       throw notFound();
     }
 
-    const data = getDirectoryData({ tag: tag.slug });
-    return { tag, ...data };
+    throw redirect({
+      to: '/like/$tag',
+      params: { tag: tag.name },
+    });
   },
-  component: TagPage,
 });
-
-function TagPage() {
-  const data = Route.useLoaderData();
-  const tagSlugByName = getAllTags().reduce<Record<string, string>>((acc, tag) => {
-    acc[tag.name] = tag.slug;
-    return acc;
-  }, {});
-
-  return (
-    <>
-      <TopicLinks
-        tags={data.tags}
-        countries={data.countries}
-        devices={data.devices}
-        currentFilters={{ tag: data.tag.slug }}
-      />
-
-      <h2>
-        /tags/{data.tag.slug}
-      </h2>
-      <p>
-        <strong>{data.tag.name}</strong> is used by {data.people.length} people.
-      </p>
-      <p>
-        <Link to="/" search={{ tag: data.tag.slug }}>
-          Open this as a homepage filter
-        </Link>
-      </p>
-
-      <PeopleGrid
-        people={data.people}
-        activeTagName={data.tag.name}
-        tagSlugByName={tagSlugByName}
-      />
-
-      <BackToTop />
-    </>
-  );
-}
