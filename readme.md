@@ -7,6 +7,38 @@ Add your own `/uses` page in [data.js](https://github.com/wesbos/awesome-uses/bl
 
 This readme is auto-generated from the data.js file, so please don't PR this file.
 
+## Database (Cloudflare D1)
+
+The project uses a [Cloudflare D1](https://developers.cloudflare.com/d1/) SQLite database (`uses-tech-scrapes`) to store scraped profile page data. The D1 binding is configured in `wrangler.jsonc`.
+
+### Running migrations
+
+```bash
+# Local (SQLite)
+npx wrangler d1 migrations apply uses-tech-scrapes --local
+
+# Remote (production)
+npx wrangler d1 migrations apply uses-tech-scrapes --remote
+```
+
+Migration files live in `db/migrations/`.
+
+### Scraping profiles into D1
+
+```bash
+# Scrape all profiles into local D1
+pnpm scrape
+
+# Scrape into remote/production D1
+pnpm scrape -- --remote
+
+# Scrape a specific person
+pnpm scrape -- --person "Wes Bos"
+
+# Limit to N profiles
+pnpm scrape -- --limit 10
+```
+
 ```
    ▄████████  ▄█     █▄     ▄████████    ▄████████  ▄██████▄    ▄▄▄▄███▄▄▄▄      ▄████████
   ███    ███ ███     ███   ███    ███   ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███

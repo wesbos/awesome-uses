@@ -17,7 +17,8 @@
     {
       "binding": "USES_SCRAPES_DB",
       "database_name": "uses-tech-scrapes",
-      "database_id": "1da3cf03-1db4-418d-99db-b16589a8fe5a"
+      "database_id": "1da3cf03-1db4-418d-99db-b16589a8fe5a",
+      "migrations_dir": "db/migrations"
     }
   ]
 }

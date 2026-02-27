@@ -4,6 +4,7 @@ export type Device = Computer | Phone;
 
 export type PersonRecord = {
   name: string;
+  github?: string;
   description: string;
   url: string;
   country: string;

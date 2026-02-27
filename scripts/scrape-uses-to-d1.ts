@@ -1,5 +1,9 @@
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { writeFile, unlink } from 'node:fs/promises';
+import { join } from 'node:path';
+import { tmpdir } from 'node:os';
+import { randomBytes } from 'node:crypto';
 import { setTimeout as delay } from 'node:timers/promises';
 import { buildUniqueSlug } from '../src/lib/slug';
 import { loadPeopleFromDataJs } from './lib/data-file';
@@ -124,11 +128,17 @@ async function scrapePage(
 }
 
 async function execD1(dbName: string, sql: string, remote: boolean): Promise<void> {
-  const args = ['wrangler', 'd1', 'execute', dbName, '--command', sql, '--json'];
-  if (remote) {
-    args.push('--remote');
+  const tmpFile = join(tmpdir(), `d1-${randomBytes(8).toString('hex')}.sql`);
+  await writeFile(tmpFile, sql, 'utf-8');
+  try {
+    const args = ['wrangler', 'd1', 'execute', dbName, '--file', tmpFile, '--json'];
+    if (remote) {
+      args.push('--remote');
+    }
+    await execFileAsync('npx', args, { cwd: process.cwd() });
+  } finally {
+    await unlink(tmpFile).catch(() => {});
   }
-  await execFileAsync('npx', args, { cwd: process.cwd() });
 }
 
 async function ensureSchema(dbName: string, remote: boolean) {
@@ -237,14 +247,20 @@ async function main() {
 
   await ensureSchema(options.dbName, options.remote);
 
+  // Phase 1: scrape pages concurrently (HTTP only, no DB writes)
   const scraped = await mapConcurrent(people, options.concurrency, async (person, index) => {
     const personSlug = personSlugByUrl.get(person.url) || `person-${index + 1}`;
     const row = await scrapePage(personSlug, person.url, options.timeoutMs, options.retries);
     const statusLabel = row.statusCode ?? 'error';
     console.log(`${String(index + 1).padStart(4, '0')} [${statusLabel}] ${person.url}`);
-    await upsertScrape(options.dbName, options.remote, row);
     return row;
   });
+
+  // Phase 2: write to D1 sequentially to avoid SQLITE_BUSY
+  console.log(`\nWriting ${scraped.length} records to D1...`);
+  for (const row of scraped) {
+    await upsertScrape(options.dbName, options.remote, row);
+  }
 
   const ok = scraped.filter((row) => row.statusCode && row.statusCode < 400).length;
   const bad = scraped.length - ok;
