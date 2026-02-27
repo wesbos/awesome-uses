@@ -1,6 +1,6 @@
 import rawTagAliases from '../generated/tag-aliases.json';
 import rawTagGroups from '../generated/tag-groups.json';
-import * as rawPeopleModule from '../data.js';
+import rawPeople from '../generated/people.json';
 import { buildUniqueSlug, slugify } from './slug';
 import type {
   CountrySummary,
@@ -30,8 +30,7 @@ const TAG_GROUP_BY_TAG = TAG_GROUPS.reduce<Record<string, { slug: string; name: 
   {}
 );
 
-const rawPeopleRecords = ((rawPeopleModule as any).default ||
-  rawPeopleModule) as PersonRecord[];
+const rawPeopleRecords = rawPeople as PersonRecord[];
 
 function cleanToken(value: string): string {
   return value

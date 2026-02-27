@@ -53,3 +53,14 @@ This updates:
 
 - `src/generated/tag-aliases.json`
 - `src/generated/tag-groups.json`
+
+## Sync app snapshot from `src/data.js`
+
+The web app runtime reads `src/generated/people.json` (generated from `src/data.js`).
+Run this manually when editing `src/data.js` directly:
+
+```bash
+npm run sync:data
+```
+
+`dev`, `build`, `test`, and `typecheck` already run this automatically.

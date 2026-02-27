@@ -1,5 +1,10 @@
 import { setTimeout as delay } from 'node:timers/promises';
-import { loadPeopleFromDataJs, writePeopleToDataJs } from './lib/data-file';
+import {
+  getGeneratedPeopleJsonPath,
+  loadPeopleFromDataJs,
+  writePeopleJsonSnapshot,
+  writePeopleToDataJs,
+} from './lib/data-file';
 
 type CullOptions = {
   apply: boolean;
@@ -133,8 +138,13 @@ async function main() {
   }
 
   await writePeopleToDataJs(nextPeople);
+  await writePeopleJsonSnapshot(nextPeople);
   console.log('');
-  console.log(`Updated src/data.js. Removed ${allPeople.length - nextPeople.length} entries.`);
+  console.log(
+    `Updated src/data.js and ${getGeneratedPeopleJsonPath()}. Removed ${
+      allPeople.length - nextPeople.length
+    } entries.`
+  );
 }
 
 void main();

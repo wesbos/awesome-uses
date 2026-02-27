@@ -22,12 +22,13 @@
     "zod": "^4.1.11"
   },
   "scripts": {
-    "dev": "vite dev --port 3000",
-    "build": "vite build",
+    "sync:data": "tsx ./scripts/sync-data-json.ts",
+    "dev": "npm run sync:data && vite dev --port 3000",
+    "build": "npm run sync:data && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
+    "typecheck": "npm run sync:data && tsc --noEmit",
+    "test": "npm run sync:data && vitest run",
     "readme": "node ./scripts/populate-readme.js",
     "cull": "tsx ./scripts/cull-invalid-uses.ts",
     "scrape": "tsx ./scripts/scrape-uses-to-d1.ts",
