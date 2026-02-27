@@ -20245,6 +20245,18 @@ module.exports = [
       'Tailwind CSS',
     ],
   },
+{
+    name: 'Thamara Kandabada',
+    description: 'Generalist.',
+    url: 'https://thamara.co.uk/uses/',
+    twitter: '@thamarablog', // (Double check if this is your handle, or remove this line)
+    emoji: '☕',
+    country: '🇬🇧',
+  computer: 'Mac',
+    phone: 'iphone',
+    tags: [
+      'Tinkering',
+  },  
   {
     name: 'Jerry Shi',
     description:
