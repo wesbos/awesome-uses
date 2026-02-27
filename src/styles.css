@@ -290,17 +290,3 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.PeopleGridActions {
-  display: flex;
-  justify-content: center;
-}
-
-.PeopleGridLoadMore {
-  border: 1px solid var(--yellow);
-  background: transparent;
-  color: var(--yellow);
-  font-family: inherit;
-  border-radius: 3px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-}

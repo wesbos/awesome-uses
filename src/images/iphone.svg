@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="iPhone icon">
+  <rect width="64" height="64" rx="12" fill="#0F172A"/>
+  <rect x="20" y="8" width="24" height="48" rx="6" fill="#E5E7EB"/>
+  <rect x="25" y="14" width="14" height="32" rx="2" fill="#111827"/>
+  <circle cx="32" cy="51" r="2" fill="#6B7280"/>
+</svg>

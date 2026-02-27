@@ -1,5 +1,6 @@
 import { name as countryName } from 'country-emoji';
 import { Link } from '@tanstack/react-router';
+import { iconMap } from '../lib/icons';
 import type { Person } from '../lib/types';
 
 type PersonCardProps = {
@@ -21,6 +22,7 @@ export default function PersonCard({
   const avatar = twitterAvatar
     ? `${twitterAvatar}?fallback=${websiteAvatar}`
     : websiteAvatar;
+  const [, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
 
   return (
     <article className="PersonWrapper">
@@ -48,7 +50,7 @@ export default function PersonCard({
         </header>
         <p>{person.description}</p>
         <ul className="Tags">
-          {person.canonicalTags.map((tag) => (
+          {person.canonicalTags.slice(0, 10).map((tag) => (
             <li
               className={`Tag small ${activeTagName === tag ? 'currentTag' : ''}`}
               key={`${person.personSlug}-${tag}`}
@@ -67,10 +69,63 @@ export default function PersonCard({
         <span className="country" title={countryName(person.country)}>
           {person.country}
         </span>
-        <span title={`Computer: ${person.computer || 'Unknown'}`}>
-          {person.computer || '—'}
-        </span>
-        <span title={`Phone: ${person.phone || 'Unknown'}`}>{person.phone || '—'}</span>
+        {person.computer ? (
+          <span title={`Computer: ${person.computer}`}>
+            <img
+              height="40"
+              src={iconMap[person.computer]}
+              alt={person.computer}
+            />
+          </span>
+        ) : (
+          <span title="Computer: Unknown">—</span>
+        )}
+        {person.phone ? (
+          <span title={`Phone: ${person.phone}`}>
+            <img height="40" src={iconMap[person.phone]} alt={person.phone} />
+          </span>
+        ) : (
+          <span title="Phone: Unknown">—</span>
+        )}
+
+        {person.twitter && (
+          <div className="SocialHandle">
+            <a
+              href={`https://twitter.com/${person.twitter.replace('@', '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="at">@</span>
+              {person.twitter.replace('@', '')}
+            </a>
+          </div>
+        )}
+
+        {person.mastodon && !person.twitter && !person.bluesky && (
+          <div className="SocialHandle">
+            <a
+              href={`https://${mastodonServer}/@${mastodonHandle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="at">@</span>
+              {mastodonHandle}
+            </a>
+          </div>
+        )}
+
+        {person.bluesky && !person.mastodon && !person.twitter && (
+          <div className="SocialHandle">
+            <a
+              href={`https://bsky.app/profile/${person.bluesky.replace('@', '')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="at">@</span>
+              {person.bluesky.replace('@', '')}
+            </a>
+          </div>
+        )}
       </div>
     </article>
   );

@@ -1,4 +1,5 @@
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router';
+import AnimatedFavicon from '../components/AnimatedFavicon';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -39,6 +40,7 @@ function RootDocument() {
       </head>
       <body>
         <main className="Main">
+          <AnimatedFavicon />
           <Header />
           <Outlet />
           <Footer />
