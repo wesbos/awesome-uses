@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
 import DirectoryFiltersForm from '../components/DirectoryFiltersForm';
-import PersonCard from '../components/PersonCard';
+import PeopleGrid from '../components/PeopleGrid';
 import TopicLinks from '../components/TopicLinks';
 import { parseDirectorySearch } from '../lib/filters';
 import { getDirectoryData } from '../lib/data';
@@ -43,16 +43,15 @@ function IndexPage() {
         <strong>{data.totalPeople}</strong> people.
       </p>
 
-      <div className="People">
-        {data.people.map((person) => (
-          <PersonCard
-            key={person.personSlug}
-            person={person}
-            activeTagName={data.filters.tag ? data.tags.find((tag) => tag.slug === data.filters.tag)?.name : undefined}
-            tagSlugByName={tagSlugByName}
-          />
-        ))}
-      </div>
+      <PeopleGrid
+        people={data.people}
+        activeTagName={
+          data.filters.tag
+            ? data.tags.find((tag) => tag.slug === data.filters.tag)?.name
+            : undefined
+        }
+        tagSlugByName={tagSlugByName}
+      />
       <BackToTop />
     </>
   );

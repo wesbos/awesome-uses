@@ -330,3 +330,18 @@ body::-webkit-scrollbar-thumb {
   padding: 0.9rem 1.3rem;
   cursor: pointer;
 }
+
+.PeopleGridActions {
+  display: flex;
+  justify-content: center;
+}
+
+.PeopleGridLoadMore {
+  border: 1px solid var(--yellow);
+  background: transparent;
+  color: var(--yellow);
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}

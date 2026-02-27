@@ -1,6 +1,6 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
-import PersonCard from '../components/PersonCard';
+import PeopleGrid from '../components/PeopleGrid';
 import { getAllTags, getDirectoryData, getTagBySlug } from '../lib/data';
 
 export const Route = createFileRoute('/tags/$tagSlug')({
@@ -37,16 +37,11 @@ function TagPage() {
         </Link>
       </p>
 
-      <div className="People">
-        {data.people.map((person) => (
-          <PersonCard
-            key={person.personSlug}
-            person={person}
-            activeTagName={data.tag.name}
-            tagSlugByName={tagSlugByName}
-          />
-        ))}
-      </div>
+      <PeopleGrid
+        people={data.people}
+        activeTagName={data.tag.name}
+        tagSlugByName={tagSlugByName}
+      />
 
       <BackToTop />
     </>
