@@ -5,13 +5,13 @@
 Dry-run (default):
 
 ```bash
-npm run cull
+pnpm cull
 ```
 
 Apply changes directly to `src/data.js`:
 
 ```bash
-npm run cull -- --apply
+pnpm cull -- --apply
 ```
 
 Useful flags:
@@ -26,13 +26,13 @@ Useful flags:
 Run against local D1:
 
 ```bash
-npm run scrape -- --db uses-tech-scrapes
+pnpm scrape -- --db uses-tech-scrapes
 ```
 
 Run against remote D1:
 
 ```bash
-npm run scrape -- --db uses-tech-scrapes --remote
+pnpm scrape -- --db uses-tech-scrapes --remote
 ```
 
 Useful flags:
@@ -46,7 +46,7 @@ Useful flags:
 ## Generate static tag metadata
 
 ```bash
-npm run generate:tag-metadata
+pnpm generate:tag-metadata
 ```
 
 This updates:
@@ -60,7 +60,7 @@ The web app runtime reads `src/generated/people.json` (generated from `src/data.
 Run this manually when editing `src/data.js` directly:
 
 ```bash
-npm run sync:data
+pnpm sync:data
 ```
 
 `dev`, `build`, `test`, and `typecheck` already run this automatically.
