@@ -5,6 +5,7 @@ import {
   writePeopleJsonSnapshot,
   writePeopleToDataJs,
 } from './lib/data-file';
+import { buildNextPeopleAfterCull } from './lib/cull';
 
 type CullOptions = {
   apply: boolean;
@@ -114,8 +115,10 @@ async function main() {
   });
 
   const failed = checks.filter((entry) => !entry.result.ok);
-  const keepUrls = new Set(checks.filter((entry) => entry.result.ok).map((entry) => entry.person.url));
-  const nextPeople = allPeople.filter((person) => keepUrls.has(person.url));
+  const { nextPeople, removedCount } = buildNextPeopleAfterCull(
+    allPeople,
+    checks.map((entry) => ({ url: entry.person.url, ok: entry.result.ok }))
+  );
 
   console.log('');
   console.log(`Valid URLs: ${checks.length - failed.length}`);
@@ -141,9 +144,7 @@ async function main() {
   await writePeopleJsonSnapshot(nextPeople);
   console.log('');
   console.log(
-    `Updated src/data.js and ${getGeneratedPeopleJsonPath()}. Removed ${
-      allPeople.length - nextPeople.length
-    } entries.`
+    `Updated src/data.js and ${getGeneratedPeopleJsonPath()}. Removed ${removedCount} entries.`
   );
 }
 
