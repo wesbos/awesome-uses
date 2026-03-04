@@ -58,14 +58,25 @@ export type DirectoryData = {
   devices: DeviceSummary[];
 };
 
+export type ScrapeStatusRow = {
+  personSlug: string;
+  url: string;
+  statusCode: number | null;
+  fetchedAt: string;
+  title: string | null;
+};
+
+export type PersonItem = {
+  item: string;
+  tags: string[];
+  detail: string | null;
+};
+
 export type ScrapedProfileData = {
   personSlug: string;
   url: string;
   statusCode: number | null;
   fetchedAt: string;
   title: string | null;
-  description: string | null;
-  excerpt: string | null;
-  wordCount: number | null;
-  readingMinutes: number | null;
+  contentMarkdown: string | null;
 };

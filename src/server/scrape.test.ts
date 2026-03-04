@@ -31,9 +31,6 @@ describe('scrapeUsesPage', () => {
     const result = await scrapeUsesPage('https://example.com/uses');
     expect(result.statusCode).toBe(200);
     expect(result.title).toBe('My Uses');
-    expect(result.description).toBe('Tools and setup');
-    expect(result.wordCount).toBeGreaterThan(0);
-    expect(result.readingMinutes).toBe(1);
     expect(result.contentHash).toMatch(/^[a-f0-9]{64}$/);
   });
 
@@ -51,6 +48,5 @@ describe('scrapeUsesPage', () => {
     const result = await scrapeUsesPage('https://example.com/api');
     expect(result.statusCode).toBe(200);
     expect(result.title).toBeNull();
-    expect(result.wordCount).toBeNull();
   });
 });

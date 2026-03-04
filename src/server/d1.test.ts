@@ -73,12 +73,8 @@ describe('d1 helpers', () => {
       {
         statusCode: 200,
         title: 'Uses',
-        description: 'Setup',
-        excerpt: 'excerpt',
-        contentText: 'full text',
+        contentMarkdown: 'full text',
         contentHash: 'abc123',
-        wordCount: 10,
-        readingMinutes: 1,
       },
       { env: { USES_SCRAPES_DB: db } }
     );

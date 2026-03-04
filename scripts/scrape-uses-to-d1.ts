@@ -93,12 +93,8 @@ async function scrapePage(
         statusCode: response.status,
         fetchedAt,
         title: null,
-        description: null,
-        excerpt: null,
-        contentText: null,
+        contentMarkdown: null,
         contentHash: null,
-        wordCount: null,
-        readingMinutes: null,
       };
     }
 
@@ -117,12 +113,8 @@ async function scrapePage(
       statusCode: null,
       fetchedAt,
       title: null,
-      description: null,
-      excerpt: null,
-      contentText: null,
+      contentMarkdown: null,
       contentHash: null,
-      wordCount: null,
-      readingMinutes: null,
     };
   }
 }
@@ -148,43 +140,31 @@ async function ensureSchema(dbName: string, remote: boolean) {
     status_code INTEGER,
     fetched_at TEXT NOT NULL,
     title TEXT,
-    description TEXT,
-    excerpt TEXT,
-    content_text TEXT,
-    content_hash TEXT,
-    word_count INTEGER,
-    reading_minutes INTEGER
+    content_markdown TEXT,
+    content_hash TEXT
   );`;
   await execD1(dbName, schemaSql, remote);
 }
 
 async function upsertScrape(dbName: string, remote: boolean, row: ScrapeRecord) {
   const sql = `INSERT INTO person_pages (
-    person_slug, url, status_code, fetched_at, title, description, excerpt, content_text, content_hash, word_count, reading_minutes
+    person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
   ) VALUES (
     ${sqlValue(row.personSlug)},
     ${sqlValue(row.url)},
     ${sqlValue(row.statusCode)},
     ${sqlValue(row.fetchedAt)},
     ${sqlValue(row.title)},
-    ${sqlValue(row.description)},
-    ${sqlValue(row.excerpt)},
-    ${sqlValue(row.contentText)},
-    ${sqlValue(row.contentHash)},
-    ${sqlValue(row.wordCount)},
-    ${sqlValue(row.readingMinutes)}
+    ${sqlValue(row.contentMarkdown)},
+    ${sqlValue(row.contentHash)}
   )
   ON CONFLICT(person_slug) DO UPDATE SET
     url=excluded.url,
     status_code=excluded.status_code,
     fetched_at=excluded.fetched_at,
     title=excluded.title,
-    description=excluded.description,
-    excerpt=excluded.excerpt,
-    content_text=excluded.content_text,
-    content_hash=excluded.content_hash,
-    word_count=excluded.word_count,
-    reading_minutes=excluded.reading_minutes;`;
+    content_markdown=excluded.content_markdown,
+    content_hash=excluded.content_hash;`;
 
   await execD1(dbName, sql, remote);
 }

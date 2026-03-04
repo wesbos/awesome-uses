@@ -2,12 +2,12 @@ import { describe, expect, it } from 'vitest';
 import {
   buildScrapeRecordFromHtml,
   extractTagContent,
+  htmlToMarkdown,
   sqlValue,
-  stripHtml,
 } from './scrape';
 
 describe('scrape helpers', () => {
-  it('stripHtml removes tags/scripts/styles and decodes basic entities', () => {
+  it('htmlToMarkdown converts HTML to markdown, stripping scripts and styles', () => {
     const html = `
       <html>
         <head>
@@ -15,13 +15,15 @@ describe('scrape helpers', () => {
           <script>window.alert('x')</script>
         </head>
         <body>
-          <h1>Hello&nbsp;World</h1>
+          <h1>Hello World</h1>
           <p>Fish &amp; Chips &lt;3</p>
         </body>
       </html>
     `;
 
-    expect(stripHtml(html)).toBe('Hello World Fish & Chips <3');
+    const md = htmlToMarkdown(html);
+    expect(md).toContain('# Hello World');
+    expect(md).toContain('Fish & Chips <3');
   });
 
   it('extractTagContent returns null when regex does not match', () => {
@@ -57,9 +59,6 @@ describe('scrape helpers', () => {
     );
 
     expect(record.title).toBe('Uses page');
-    expect(record.description).toBe('My setup');
-    expect(record.wordCount).toBeGreaterThan(0);
-    expect(record.readingMinutes).toBe(1);
     expect(record.contentHash).toMatch(/^[a-f0-9]{64}$/);
   });
 });

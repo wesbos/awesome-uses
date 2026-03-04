@@ -1,5 +1,5 @@
 import { getStartContext } from '@tanstack/start-storage-context';
-import type { ScrapedProfileData } from '../lib/types';
+import type { PersonItem, ScrapedProfileData, ScrapeStatusRow } from '../lib/types';
 import type { ScrapePageResult } from './scrape';
 
 type D1Result<T> = { results: T[] };
@@ -78,7 +78,7 @@ export async function getScrapedProfileBySlug(
 
   const row = await db
     .prepare(
-      `SELECT person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, title, description, excerpt, word_count as wordCount, reading_minutes as readingMinutes
+      `SELECT person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, title, content_markdown as contentMarkdown
        FROM person_pages
        WHERE person_slug = ?
        LIMIT 1`
@@ -87,6 +87,108 @@ export async function getScrapedProfileBySlug(
     .first<ScrapedProfileData>();
 
   return row;
+}
+
+export async function getAllScrapeSummaries(
+  requestContext?: unknown
+): Promise<ScrapeStatusRow[]> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return [];
+
+  const result = await db
+    .prepare(
+      `SELECT person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, title
+       FROM person_pages
+       ORDER BY fetched_at DESC`
+    )
+    .bind()
+    .all<ScrapeStatusRow>();
+
+  return result.results;
+}
+
+type PersonItemRow = {
+  item: string;
+  tags_json: string;
+  detail: string | null;
+};
+
+export async function getPersonItems(
+  personSlug: string,
+  requestContext?: unknown
+): Promise<PersonItem[]> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return [];
+
+  const result = await db
+    .prepare(
+      `SELECT item, tags_json, detail
+       FROM person_items
+       WHERE person_slug = ?
+       ORDER BY item`
+    )
+    .bind(personSlug)
+    .all<PersonItemRow>();
+
+  return result.results.map((row) => ({
+    item: row.item,
+    tags: JSON.parse(row.tags_json),
+    detail: row.detail,
+  }));
+}
+
+type AllItemRow = {
+  item: string;
+  tags_json: string;
+  person_slug: string;
+};
+
+export type TagItemCount = {
+  item: string;
+  count: number;
+};
+
+export type TagSummary = {
+  tag: string;
+  totalItems: number;
+  topItems: TagItemCount[];
+};
+
+export async function getAllTagSummaries(
+  requestContext?: unknown
+): Promise<TagSummary[]> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return [];
+
+  const result = await db
+    .prepare(
+      `SELECT item, tags_json, person_slug
+       FROM person_items
+       ORDER BY item`
+    )
+    .bind()
+    .all<AllItemRow>();
+
+  const tagMap = new Map<string, Map<string, number>>();
+
+  for (const row of result.results) {
+    const tags: string[] = JSON.parse(row.tags_json);
+    for (const tag of tags) {
+      if (!tagMap.has(tag)) tagMap.set(tag, new Map());
+      const items = tagMap.get(tag)!;
+      items.set(row.item, (items.get(row.item) || 0) + 1);
+    }
+  }
+
+  return [...tagMap.entries()]
+    .map(([tag, items]) => {
+      const sorted = [...items.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 20)
+        .map(([item, count]) => ({ item, count }));
+      return { tag, totalItems: items.size, topItems: sorted };
+    })
+    .sort((a, b) => b.totalItems - a.totalItems);
 }
 
 export async function upsertScrapedProfile(
@@ -102,19 +204,15 @@ export async function upsertScrapedProfile(
   await db
     .prepare(
       `INSERT INTO person_pages (
-        person_slug, url, status_code, fetched_at, title, description, excerpt, content_text, content_hash, word_count, reading_minutes
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
+      ) VALUES (?, ?, ?, ?, ?, ?, ?)
       ON CONFLICT(person_slug) DO UPDATE SET
         url=excluded.url,
         status_code=excluded.status_code,
         fetched_at=excluded.fetched_at,
         title=excluded.title,
-        description=excluded.description,
-        excerpt=excluded.excerpt,
-        content_text=excluded.content_text,
-        content_hash=excluded.content_hash,
-        word_count=excluded.word_count,
-        reading_minutes=excluded.reading_minutes`
+        content_markdown=excluded.content_markdown,
+        content_hash=excluded.content_hash`
     )
     .bind(
       personSlug,
@@ -122,12 +220,8 @@ export async function upsertScrapedProfile(
       scraped.statusCode,
       fetchedAt,
       scraped.title,
-      scraped.description,
-      scraped.excerpt,
-      scraped.contentText,
-      scraped.contentHash,
-      scraped.wordCount,
-      scraped.readingMinutes
+      scraped.contentMarkdown,
+      scraped.contentHash
     )
     .all<never>();
 }

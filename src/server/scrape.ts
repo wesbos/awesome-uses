@@ -1,27 +1,22 @@
 import { setTimeout as delay } from 'node:timers/promises';
+import TurndownService from 'turndown';
 
 export type ScrapePageResult = {
   statusCode: number | null;
   title: string | null;
-  description: string | null;
-  excerpt: string | null;
-  contentText: string | null;
+  contentMarkdown: string | null;
   contentHash: string | null;
-  wordCount: number | null;
-  readingMinutes: number | null;
 };
 
-function stripHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/\s+/g, ' ')
-    .trim();
+function htmlToMarkdown(html: string): string {
+  const cleaned = html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<nav[\s\S]*?<\/nav>/gi, '')
+    .replace(/<footer[\s\S]*?<\/footer>/gi, '');
+
+  const td = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced' });
+  return td.turndown(cleaned).trim();
 }
 
 function extractTagContent(html: string, regex: RegExp): string | null {
@@ -68,23 +63,17 @@ export async function scrapeUsesPage(
       return {
         statusCode: response.status,
         title: null,
-        description: null,
-        excerpt: null,
-        contentText: null,
+        contentMarkdown: null,
         contentHash: null,
-        wordCount: null,
-        readingMinutes: null,
       };
     }
 
     const html = await response.text();
-    const text = stripHtml(html);
-    const words = text ? text.split(/\s+/).filter(Boolean).length : 0;
-    const readingMinutes = words > 0 ? Math.max(1, Math.round(words / 220)) : null;
+    const markdown = htmlToMarkdown(html);
 
-    const contentHash = text
+    const contentHash = markdown
       ? await crypto.subtle
-          .digest('SHA-256', new TextEncoder().encode(text))
+          .digest('SHA-256', new TextEncoder().encode(markdown))
           .then((buffer) =>
             Array.from(new Uint8Array(buffer))
               .map((byte) => byte.toString(16).padStart(2, '0'))
@@ -95,26 +84,15 @@ export async function scrapeUsesPage(
     return {
       statusCode: response.status,
       title: extractTagContent(html, /<title[^>]*>([\s\S]*?)<\/title>/i),
-      description: extractTagContent(
-        html,
-        /<meta\s+name=["']description["']\s+content=["']([\s\S]*?)["'][^>]*>/i
-      ),
-      excerpt: text ? text.slice(0, 600) : null,
-      contentText: text ? text.slice(0, 20_000) : null,
+      contentMarkdown: markdown ? markdown.slice(0, 20_000) : null,
       contentHash,
-      wordCount: words || null,
-      readingMinutes,
     };
   } catch {
     return {
       statusCode: null,
       title: null,
-      description: null,
-      excerpt: null,
-      contentText: null,
+      contentMarkdown: null,
       contentHash: null,
-      wordCount: null,
-      readingMinutes: null,
     };
   }
 }

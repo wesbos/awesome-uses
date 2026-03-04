@@ -9,21 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as TagsRouteImport } from './routes/tags'
+import { Route as DashboardRouteImport } from './routes/dashboard'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
 import { Route as LikeTagRouteImport } from './routes/like/$tag'
-import { Route as ApiScrapePersonSlugRouteImport } from './routes/api.scrape.$personSlug'
 
+const TagsRoute = TagsRouteImport.update({
+  id: '/tags',
+  path: '/tags',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardRoute = DashboardRouteImport.update({
+  id: '/dashboard',
+  path: '/dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TagsTagSlugRoute = TagsTagSlugRouteImport.update({
-  id: '/tags/$tagSlug',
-  path: '/tags/$tagSlug',
-  getParentRoute: () => rootRouteImport,
+  id: '/$tagSlug',
+  path: '/$tagSlug',
+  getParentRoute: () => TagsRoute,
 } as any)
 const PeoplePersonSlugRoute = PeoplePersonSlugRouteImport.update({
   id: '/people/$personSlug',
@@ -35,68 +46,83 @@ const LikeTagRoute = LikeTagRouteImport.update({
   path: '/like/$tag',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ApiScrapePersonSlugRoute = ApiScrapePersonSlugRouteImport.update({
-  id: '/api/scrape/$personSlug',
-  path: '/api/scrape/$personSlug',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
+  '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
-  '/api/scrape/$personSlug': typeof ApiScrapePersonSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
+  '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
-  '/api/scrape/$personSlug': typeof ApiScrapePersonSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRoute
+  '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
-  '/api/scrape/$personSlug': typeof ApiScrapePersonSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/dashboard'
+    | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
-    | '/api/scrape/$personSlug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/dashboard'
+    | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
-    | '/api/scrape/$personSlug'
   id:
     | '__root__'
     | '/'
+    | '/dashboard'
+    | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
-    | '/api/scrape/$personSlug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DashboardRoute: typeof DashboardRoute
+  TagsRoute: typeof TagsRouteWithChildren
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
-  TagsTagSlugRoute: typeof TagsTagSlugRoute
-  ApiScrapePersonSlugRoute: typeof ApiScrapePersonSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/tags': {
+      id: '/tags'
+      path: '/tags'
+      fullPath: '/tags'
+      preLoaderRoute: typeof TagsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboard': {
+      id: '/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof DashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -106,10 +132,10 @@ declare module '@tanstack/react-router' {
     }
     '/tags/$tagSlug': {
       id: '/tags/$tagSlug'
-      path: '/tags/$tagSlug'
+      path: '/$tagSlug'
       fullPath: '/tags/$tagSlug'
       preLoaderRoute: typeof TagsTagSlugRouteImport
-      parentRoute: typeof rootRouteImport
+      parentRoute: typeof TagsRoute
     }
     '/people/$personSlug': {
       id: '/people/$personSlug'
@@ -125,22 +151,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LikeTagRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/api/scrape/$personSlug': {
-      id: '/api/scrape/$personSlug'
-      path: '/api/scrape/$personSlug'
-      fullPath: '/api/scrape/$personSlug'
-      preLoaderRoute: typeof ApiScrapePersonSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
+interface TagsRouteChildren {
+  TagsTagSlugRoute: typeof TagsTagSlugRoute
+}
+
+const TagsRouteChildren: TagsRouteChildren = {
+  TagsTagSlugRoute: TagsTagSlugRoute,
+}
+
+const TagsRouteWithChildren = TagsRoute._addFileChildren(TagsRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DashboardRoute: DashboardRoute,
+  TagsRoute: TagsRouteWithChildren,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,
-  TagsTagSlugRoute: TagsTagSlugRoute,
-  ApiScrapePersonSlugRoute: ApiScrapePersonSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

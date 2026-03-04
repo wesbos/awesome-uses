@@ -23,8 +23,29 @@ function useScrollPercent() {
 export default function BackToTop() {
   const percent = useScrollPercent();
   return (
-    <a className={`BackToTopLink ${percent > 0.25 ? 'Show' : ''}`} href="#top">
-      &uarr;
-    </a>
+    <div>
+      <style>{`
+        @scope (.BackToTopLink) {
+          :scope {
+            position: fixed;
+            bottom: 1%;
+            right: 1%;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            border-radius: 3px;
+            padding: 1rem;
+            transition: opacity 0.2s;
+            opacity: 0;
+            text-decoration: none;
+            &.Show { opacity: 1; }
+            @media screen and (max-width: 500px) { display: none; }
+          }
+        }
+      `}</style>
+      <a className={`BackToTopLink ${percent > 0.25 ? 'Show' : ''}`} href="#top">
+        &uarr;
+      </a>
+    </div>
   );
 }

@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import TurndownService from 'turndown';
 
 export type ScrapeRecord = {
   personSlug: string;
@@ -6,25 +7,19 @@ export type ScrapeRecord = {
   statusCode: number | null;
   fetchedAt: string;
   title: string | null;
-  description: string | null;
-  excerpt: string | null;
-  contentText: string | null;
+  contentMarkdown: string | null;
   contentHash: string | null;
-  wordCount: number | null;
-  readingMinutes: number | null;
 };
 
-export function stripHtml(html: string): string {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/gi, ' ')
-    .replace(/&amp;/gi, '&')
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/\s+/g, ' ')
-    .trim();
+export function htmlToMarkdown(html: string): string {
+  const cleaned = html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<nav[\s\S]*?<\/nav>/gi, '')
+    .replace(/<footer[\s\S]*?<\/footer>/gi, '');
+
+  const td = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced' });
+  return td.turndown(cleaned).trim();
 }
 
 export function extractTagContent(html: string, regex: RegExp): string | null {
@@ -45,9 +40,7 @@ export function buildScrapeRecordFromHtml(
   html: string,
   fetchedAt = new Date().toISOString()
 ): ScrapeRecord {
-  const text = stripHtml(html);
-  const words = text ? text.split(/\s+/).filter(Boolean).length : 0;
-  const readingMinutes = words > 0 ? Math.max(1, Math.round(words / 220)) : null;
+  const markdown = htmlToMarkdown(html);
 
   return {
     personSlug,
@@ -55,14 +48,7 @@ export function buildScrapeRecordFromHtml(
     statusCode,
     fetchedAt,
     title: extractTagContent(html, /<title[^>]*>([\s\S]*?)<\/title>/i),
-    description: extractTagContent(
-      html,
-      /<meta\s+name=["']description["']\s+content=["']([\s\S]*?)["'][^>]*>/i
-    ),
-    excerpt: text ? text.slice(0, 600) : null,
-    contentText: text ? text.slice(0, 20_000) : null,
-    contentHash: text ? createHash('sha256').update(text).digest('hex') : null,
-    wordCount: words || null,
-    readingMinutes,
+    contentMarkdown: markdown ? markdown.slice(0, 20_000) : null,
+    contentHash: markdown ? createHash('sha256').update(markdown).digest('hex') : null,
   };
 }

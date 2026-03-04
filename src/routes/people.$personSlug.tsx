@@ -1,7 +1,8 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { getPersonBySlug } from '../lib/data';
-import type { ScrapedProfileData } from '../lib/types';
+import type { PersonItem, ScrapedProfileData } from '../lib/types';
+import { $getScrapedProfile, $getPersonItems } from '../server/functions';
 
 export const Route = createFileRoute('/people/$personSlug')({
   loader: ({ params }) => {
@@ -18,19 +19,15 @@ function PersonPage() {
   const { person } = Route.useLoaderData();
   const [scraped, setScraped] = useState<ScrapedProfileData | null>(null);
   const [loadingScrape, setLoadingScrape] = useState(true);
+  const [items, setItems] = useState<PersonItem[]>([]);
 
   useEffect(() => {
     let cancelled = false;
     async function loadScrape() {
       try {
-        const response = await fetch(`/api/scrape/${person.personSlug}`);
-        if (!response.ok) {
-          if (!cancelled) setScraped(null);
-          return;
-        }
-        const payload = (await response.json()) as { data: ScrapedProfileData | null };
+        const result = await $getScrapedProfile({ data: person.personSlug });
         if (!cancelled) {
-          setScraped(payload.data);
+          setScraped(result.data);
         }
       } catch {
         if (!cancelled) {
@@ -42,7 +39,16 @@ function PersonPage() {
         }
       }
     }
+
+    async function loadItems() {
+      try {
+        const result = await $getPersonItems({ data: person.personSlug });
+        if (!cancelled) setItems(result);
+      } catch { /* ignore */ }
+    }
+
     void loadScrape();
+    void loadItems();
 
     return () => {
       cancelled = true;
@@ -51,6 +57,55 @@ function PersonPage() {
 
   return (
     <article className="PersonWrapper">
+      <style>{/*css*/`
+        @scope (.PersonWrapper) {
+          :scope {
+            border: 1px solid var(--vape);
+            border-radius: 5.34334px;
+            box-shadow: 10px -10px 0 var(--blue2);
+            display: grid;
+            grid-template-rows: 1fr auto auto;
+          }
+          .PersonInner { padding: 2rem; }
+          .Tags {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .Tag {
+            background: var(--pink);
+            margin: 2px;
+            border-radius: 3px;
+            font-size: 1.7rem;
+            text-decoration: none;
+            padding: 5px;
+            color: hsla(0, 100%, 100%, 0.8);
+            transition: background-color 0.2s;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            &.small { font-size: 1.2rem; }
+            &.currentTag {
+              background: var(--yellow);
+              color: hsla(0, 100%, 0%, 0.8);
+            }
+          }
+          textarea {
+            white-space: pre-wrap;
+            max-height: 60vh;
+            overflow: auto;
+            background: #f5f5f5;
+            padding: 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            width: 100%;
+            border: none;
+            color: #333;
+          }
+        }
+      `}</style>
       <div className="PersonInner">
         <p>
           <Link to="/">← Back to directory</Link>
@@ -77,6 +132,13 @@ function PersonPage() {
         </ul>
       </div>
 
+      {items.length > 0 && (
+        <div className="PersonInner">
+          <h3>Extracted Gear & Tools</h3>
+          <ItemsList items={items} />
+        </div>
+      )}
+
       <div className="PersonInner">
         <h3>Scraped /uses snapshot (Cloudflare D1)</h3>
         {loadingScrape && <p>Loading scrape metadata…</p>}
@@ -90,22 +152,54 @@ function PersonPage() {
           <div>
             <p>
               Last fetched: <strong>{new Date(scraped.fetchedAt).toLocaleString()}</strong>
+              {' · '}Status: {scraped.statusCode ?? 'unknown'}
             </p>
             {scraped.title && (
               <p>
                 Title: <strong>{scraped.title}</strong>
               </p>
             )}
-            {scraped.description && <p>{scraped.description}</p>}
-            {scraped.excerpt && <p>{scraped.excerpt}</p>}
-            <p>
-              Status: {scraped.statusCode ?? 'unknown'} · Word count:{' '}
-              {scraped.wordCount ?? 'unknown'} · Read time:{' '}
-              {scraped.readingMinutes ?? 'unknown'} min
-            </p>
+            {scraped.contentMarkdown && (
+              <textarea readOnly>
+                {scraped.contentMarkdown}
+              </textarea>
+            )}
           </div>
         )}
       </div>
     </article>
+  );
+}
+
+function ItemsList({ items }: { items: PersonItem[] }) {
+  return (
+    <ul className="ItemsList">
+      <style>{/*css*/`
+        @scope (.ItemsList) {
+          :scope {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+          }
+          li {
+            border: 1px solid var(--vape, #ddd);
+            border-radius: 4px;
+            padding: 0.4rem 0.75rem;
+          }
+          li span { color: #888; margin-left: 0.4rem; }
+        }
+      `}</style>
+      {items.map((item) => (
+        <li key={item.item} title={item.detail || undefined}>
+          <strong>{item.item}</strong>
+          {item.tags.length > 0 && (
+            <span>{item.tags.join(', ')}</span>
+          )}
+        </li>
+      ))}
+    </ul>
   );
 }
