@@ -8007,6 +8007,31 @@ module.exports = [
     tags: ['Engineer', 'TypeScript', 'Front End', 'React', 'CSS'],
   },
   {
+    name: 'Ritik Sahni',
+    description:
+      'Breaking and building software. Founder, Standout',
+    url: 'https://ritiksahni.com/uses',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@ritiksahni22',
+    tags: [
+      'JavaScript',
+      'Node.js',
+      'TypeScript',
+      'Backend',
+      'Security',
+      'Application Security',
+      'Penetration Testing',
+      'Python',
+      'APIs',
+      'macOS',
+      'Ghostty',
+      'Cursor',
+      'Xcode',
+    ],
+  },
+  {
     name: 'Caro Appleby',
     description:
       'Indie programmer, textile artist, musician, endlessly curious',
