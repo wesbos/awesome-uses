@@ -14,6 +14,7 @@ import { Route as DashboardRouteImport } from './routes/dashboard'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
+import { Route as ItemsItemSlugRouteImport } from './routes/items.$itemSlug'
 import { Route as LikeTagRouteImport } from './routes/like/$tag'
 
 const TagsRoute = TagsRouteImport.update({
@@ -41,6 +42,11 @@ const PeoplePersonSlugRoute = PeoplePersonSlugRouteImport.update({
   path: '/people/$personSlug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
+  id: '/items/$itemSlug',
+  path: '/items/$itemSlug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LikeTagRoute = LikeTagRouteImport.update({
   id: '/like/$tag',
   path: '/like/$tag',
@@ -53,6 +59,7 @@ export interface FileRoutesByFullPath {
   '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRoutesByTo {
@@ -61,6 +68,7 @@ export interface FileRoutesByTo {
   '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRoutesById {
@@ -70,6 +78,7 @@ export interface FileRoutesById {
   '/tags': typeof TagsRouteWithChildren
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRouteTypes {
@@ -80,6 +89,7 @@ export interface FileRouteTypes {
     | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
+    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -88,6 +98,7 @@ export interface FileRouteTypes {
     | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
+    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   id:
     | '__root__'
@@ -96,6 +107,7 @@ export interface FileRouteTypes {
     | '/tags'
     | '/like/$tag'
     | '/people/$personSlug'
+    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   fileRoutesById: FileRoutesById
 }
@@ -105,6 +117,7 @@ export interface RootRouteChildren {
   TagsRoute: typeof TagsRouteWithChildren
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
+  ItemsItemSlugRoute: typeof ItemsItemSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -144,6 +157,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PeoplePersonSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/items/$itemSlug': {
+      id: '/items/$itemSlug'
+      path: '/items/$itemSlug'
+      fullPath: '/items/$itemSlug'
+      preLoaderRoute: typeof ItemsItemSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/like/$tag': {
       id: '/like/$tag'
       path: '/like/$tag'
@@ -170,6 +190,7 @@ const rootRouteChildren: RootRouteChildren = {
   TagsRoute: TagsRouteWithChildren,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,
+  ItemsItemSlugRoute: ItemsItemSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,7 +1,8 @@
+import { Link } from '@tanstack/react-router';
 import { cn } from '@/lib/utils';
 
 type FacePileProps = {
-  faces: { name: string; avatarUrl: string }[];
+  faces: { personSlug: string; name: string; avatarUrl: string }[];
   max?: number;
   size?: 'sm' | 'md';
 };
@@ -18,18 +19,27 @@ export function FacePile({ faces, max = 4, size = 'sm' }: FacePileProps) {
   return (
     <div className="flex items-center">
       {visible.map((face, i) => (
-        <img
-          key={face.name}
-          src={face.avatarUrl}
-          alt={face.name}
+        <Link
+          key={`${face.personSlug}-${i}`}
+          to="/people/$personSlug"
+          params={{ personSlug: face.personSlug }}
           title={face.name}
-          loading="lazy"
+          aria-label={face.name}
           className={cn(
-            'rounded-full border-2 border-background object-cover',
-            sizeClasses[size],
+            'rounded-full border-2 border-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-1',
             i > 0 && '-ml-2',
           )}
-        />
+        >
+          <img
+            src={face.avatarUrl}
+            alt={face.name}
+            loading="lazy"
+            className={cn(
+              'rounded-full object-cover',
+              sizeClasses[size],
+            )}
+          />
+        </Link>
       ))}
       {overflow > 0 && (
         <span

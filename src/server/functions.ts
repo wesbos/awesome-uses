@@ -8,8 +8,14 @@ import {
   getAllScrapeSummaries,
   getPersonItems,
   getAllTagSummaries,
+  getTagDetailBySlug,
+  getItemDetailBySlug,
+  type ItemDetail,
+  type TagDetail,
 } from './d1';
 import { scrapeUsesPage } from './scrape';
+import { searchAmazonProducts, type AmazonProductSearchResult } from './amazon';
+import { writeViewEvent, type ViewEntityType } from './analytics';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -99,15 +105,17 @@ export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
   }
 );
 
-type Face = { name: string; avatarUrl: string };
+type Face = { personSlug: string; name: string; avatarUrl: string };
 
 export type TagItemWithFaces = {
   item: string;
+  itemSlug: string;
   count: number;
   faces: Face[];
 };
 
-export type TagSummaryWithFaces = Omit<TagSummary, 'topItems'> & {
+export type TagSummaryWithFaces = Omit<TagSummary, 'topItems' | 'personSlugs'> & {
+  faces: Face[];
   topItems: TagItemWithFaces[];
 };
 
@@ -125,7 +133,7 @@ function slugToFace(
   const avatarUrl = twitterAvatar
     ? `${twitterAvatar}?fallback=${websiteAvatar}`
     : websiteAvatar;
-  return { name: person.name, avatarUrl };
+  return { personSlug: person.personSlug, name: person.name, avatarUrl };
 }
 
 export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
@@ -136,8 +144,12 @@ export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
 
     return tags.map((tag) => ({
       ...tag,
+      faces: tag.personSlugs
+        .map((slug) => slugToFace(slug, peopleMap))
+        .filter((f): f is Face => f !== null),
       topItems: tag.topItems.map((ti) => ({
         item: ti.item,
+        itemSlug: ti.itemSlug,
         count: ti.count,
         faces: ti.personSlugs
           .map((slug) => slugToFace(slug, peopleMap))
@@ -146,3 +158,116 @@ export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
     }));
   }
 );
+
+export type TagDetailWithFaces = Omit<TagDetail, 'people' | 'items'> & {
+  faces: Face[];
+  items: TagItemWithFaces[];
+};
+
+export const $getTagDetail = createServerFn({ method: 'GET' })
+  .inputValidator((tagSlug: string) => tagSlug)
+  .handler(async ({ data: tagSlug }): Promise<TagDetailWithFaces | null> => {
+    const detail = await getTagDetailBySlug(tagSlug);
+    if (!detail) return null;
+
+    const allPeople = getAllPeople();
+    const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+    return {
+      tag: detail.tag,
+      tagSlug: detail.tagSlug,
+      totalItems: detail.totalItems,
+      totalPeople: detail.totalPeople,
+      faces: detail.people
+        .map((slug) => slugToFace(slug, peopleMap))
+        .filter((f): f is Face => f !== null),
+      items: detail.items.map((item) => ({
+        item: item.item,
+        itemSlug: item.itemSlug,
+        count: item.count,
+        faces: item.personSlugs
+          .map((slug) => slugToFace(slug, peopleMap))
+          .filter((f): f is Face => f !== null),
+      })),
+    };
+  });
+
+type ItemTagRelationWithFaces = {
+  tag: string;
+  tagSlug: string;
+  faces: Face[];
+  relatedItems: TagItemWithFaces[];
+};
+
+export type ItemDetailWithFaces = Omit<ItemDetail, 'people' | 'tagRelations' | 'tags'> & {
+  faces: Face[];
+  tags: Array<{ name: string; slug: string }>;
+  tagRelations: ItemTagRelationWithFaces[];
+  amazon: AmazonProductSearchResult;
+};
+
+function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, 'amazon'> {
+  const allPeople = getAllPeople();
+  const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+  return {
+    item: detail.item,
+    itemSlug: detail.itemSlug,
+    totalPeople: detail.totalPeople,
+    faces: detail.people
+      .map((slug) => slugToFace(slug, peopleMap))
+      .filter((f): f is Face => f !== null),
+    tags: detail.tags.map((name) => {
+      const relation = detail.tagRelations.find((entry) => entry.tag === name);
+      return {
+        name,
+        slug: relation?.tagSlug || name.toLowerCase(),
+      };
+    }),
+    tagRelations: detail.tagRelations.map((relation) => ({
+      tag: relation.tag,
+      tagSlug: relation.tagSlug,
+      faces: relation.people
+        .map((slug) => slugToFace(slug, peopleMap))
+        .filter((f): f is Face => f !== null),
+      relatedItems: relation.relatedItems.map((item) => ({
+        item: item.item,
+        itemSlug: item.itemSlug,
+        count: item.count,
+        faces: item.personSlugs
+          .map((slug) => slugToFace(slug, peopleMap))
+          .filter((f): f is Face => f !== null),
+      })),
+    })),
+  };
+}
+
+export const $getItemDetail = createServerFn({ method: 'GET' })
+  .inputValidator((itemSlug: string) => itemSlug)
+  .handler(async ({ data: itemSlug }): Promise<ItemDetailWithFaces | null> => {
+    const detail = await getItemDetailBySlug(itemSlug);
+    if (!detail) return null;
+
+    const [mappedDetail, amazon] = await Promise.all([
+      Promise.resolve(mapItemDetailWithFaces(detail)),
+      searchAmazonProducts(detail.item),
+    ]);
+
+    return {
+      ...mappedDetail,
+      amazon,
+    };
+  });
+
+type TrackViewInput = {
+  entityType: ViewEntityType;
+  entityKey: string;
+  route: string;
+};
+
+export const $trackView = createServerFn({ method: 'POST' })
+  .inputValidator((input: TrackViewInput) => input)
+  .handler(async ({ data }) => {
+    writeViewEvent(data);
+    return { ok: true };
+  });

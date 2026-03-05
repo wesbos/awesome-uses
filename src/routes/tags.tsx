@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';
 
-type Face = { name: string; avatarUrl: string };
+type Face = { personSlug: string; name: string; avatarUrl: string };
 
 type GroupedItem =
   | { kind: 'single'; item: TagItemWithFaces }
@@ -18,8 +18,8 @@ type GroupedItem =
 function deduplicateFaces(faces: Face[]): Face[] {
   const seen = new Set<string>();
   return faces.filter((f) => {
-    if (seen.has(f.name)) return false;
-    seen.add(f.name);
+    if (seen.has(f.personSlug)) return false;
+    seen.add(f.personSlug);
     return true;
   });
 }
@@ -147,10 +147,24 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
     <Card>
       <CardHeader className="pb-3">
         <div className="flex items-baseline justify-between">
-          <CardTitle className="text-sm">{tag.tag}</CardTitle>
+          <CardTitle className="text-sm">
+            <Link
+              to="/tags/$tagSlug"
+              params={{ tagSlug: tag.tagSlug }}
+              className="hover:underline"
+            >
+              {tag.tag}
+            </Link>
+          </CardTitle>
           <span className="text-xs text-muted-foreground">
             {tag.totalItems} item{tag.totalItems !== 1 ? 's' : ''}
           </span>
+        </div>
+        <div className="flex items-center justify-between gap-2 pt-1">
+          <span className="text-xs text-muted-foreground">
+            {tag.totalPeople} people
+          </span>
+          <FacePile faces={tag.faces} max={6} />
         </div>
       </CardHeader>
       <CardContent>
@@ -162,7 +176,13 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                 className="flex items-center justify-between gap-2"
               >
                 <span className="truncate">
-                  {entry.item.item}{' '}
+                  <Link
+                    to="/items/$itemSlug"
+                    params={{ itemSlug: entry.item.itemSlug }}
+                    className="hover:underline"
+                  >
+                    {entry.item.item}
+                  </Link>{' '}
                   <span className="text-muted-foreground">
                     ({entry.item.count})
                   </span>
@@ -190,8 +210,14 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                       className="flex items-center justify-between gap-2 text-muted-foreground"
                     >
                       <span className="truncate">
-                        {child.item.slice(entry.prefix.length + 1) ||
-                          `${child.item}`}
+                        <Link
+                          to="/items/$itemSlug"
+                          params={{ itemSlug: child.itemSlug }}
+                          className="hover:underline"
+                        >
+                          {child.item.slice(entry.prefix.length + 1) ||
+                            `${child.item}`}
+                        </Link>
                       </span>
                       <span className="text-xs shrink-0">({child.count})</span>
                     </li>

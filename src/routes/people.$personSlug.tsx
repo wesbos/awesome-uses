@@ -2,7 +2,7 @@ import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { getPersonBySlug } from '../lib/data';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
-import { $getScrapedProfile, $getPersonItems } from '../server/functions';
+import { $getScrapedProfile, $getPersonItems, $trackView } from '../server/functions';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -53,6 +53,13 @@ function PersonPage() {
 
     void loadScrape();
     void loadItems();
+    void $trackView({
+      data: {
+        entityType: 'person',
+        entityKey: person.personSlug,
+        route: `/people/${person.personSlug}`,
+      },
+    });
 
     return () => {
       cancelled = true;
@@ -160,12 +167,14 @@ function ItemsList({ items }: { items: PersonItem[] }) {
     <div className="flex flex-wrap gap-2">
       {items.map((item) => (
         <Badge
-          key={item.item}
+          key={item.itemSlug}
           variant="outline"
           className="text-xs"
           title={item.detail || undefined}
         >
-          <strong>{item.item}</strong>
+          <Link to="/items/$itemSlug" params={{ itemSlug: item.itemSlug }}>
+            <strong className="hover:underline">{item.item}</strong>
+          </Link>
           {item.tags.length > 0 && (
             <span className="ml-1 text-muted-foreground">
               {item.tags.join(', ')}

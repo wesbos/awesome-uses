@@ -68,6 +68,7 @@ export type ScrapeStatusRow = {
 
 export type PersonItem = {
   item: string;
+  itemSlug: string;
   tags: string[];
   detail: string | null;
 };

@@ -121,18 +121,35 @@ export async function getPersonItems(
   const db = await resolveD1WithFallback(requestContext);
   if (!db) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT item, tags_json, detail
-       FROM person_items
-       WHERE person_slug = ?
-       ORDER BY item`
-    )
-    .bind(personSlug)
-    .all<PersonItemRow>();
+  const [result, allItemRows] = await Promise.all([
+    db
+      .prepare(
+        `SELECT item, tags_json, detail
+         FROM person_items
+         WHERE person_slug = ?
+         ORDER BY item`
+      )
+      .bind(personSlug)
+      .all<PersonItemRow>(),
+    db
+      .prepare(
+        `SELECT DISTINCT item
+         FROM person_items
+         ORDER BY item`
+      )
+      .bind()
+      .all<{ item: string }>(),
+  ]);
+
+  const usedItemSlugs = new Set<string>();
+  const itemSlugMap = new Map<string, string>();
+  for (const row of allItemRows.results) {
+    itemSlugMap.set(row.item, buildUniqueSlug(row.item, usedItemSlugs, 'item'));
+  }
 
   return result.results.map((row) => ({
     item: row.item,
+    itemSlug: itemSlugMap.get(row.item) || slugify(row.item),
     tags: JSON.parse(row.tags_json),
     detail: row.detail,
   }));
