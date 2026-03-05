@@ -1,6 +1,7 @@
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router';
 import AnimatedFavicon from '../components/AnimatedFavicon';
 import Header from '../components/Header';
+import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ThemeProvider } from '../components/theme-provider';
 
@@ -44,6 +45,7 @@ function RootDocument() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
             <AnimatedFavicon />
             <Header />
+            <Nav />
             <Outlet />
             <Footer />
           </div>
