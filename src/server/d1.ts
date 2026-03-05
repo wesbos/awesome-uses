@@ -146,6 +146,7 @@ type AllItemRow = {
 export type TagItemCount = {
   item: string;
   count: number;
+  personSlugs: string[];
 };
 
 export type TagSummary = {
@@ -169,23 +170,30 @@ export async function getAllTagSummaries(
     .bind()
     .all<AllItemRow>();
 
-  const tagMap = new Map<string, Map<string, number>>();
+  const tagMap = new Map<string, Map<string, { count: number; people: Set<string> }>>();
 
   for (const row of result.results) {
     const tags: string[] = JSON.parse(row.tags_json);
     for (const tag of tags) {
       if (!tagMap.has(tag)) tagMap.set(tag, new Map());
       const items = tagMap.get(tag)!;
-      items.set(row.item, (items.get(row.item) || 0) + 1);
+      const entry = items.get(row.item) ?? { count: 0, people: new Set<string>() };
+      entry.count += 1;
+      entry.people.add(row.person_slug);
+      items.set(row.item, entry);
     }
   }
 
   return [...tagMap.entries()]
     .map(([tag, items]) => {
       const sorted = [...items.entries()]
-        .sort((a, b) => b[1] - a[1])
+        .sort((a, b) => b[1].count - a[1].count)
         .slice(0, 20)
-        .map(([item, count]) => ({ item, count }));
+        .map(([item, { count, people }]) => ({
+          item,
+          count,
+          personSlugs: [...people].slice(0, 10),
+        }));
       return { tag, totalItems: items.size, topItems: sorted };
     })
     .sort((a, b) => b.totalItems - a.totalItems);

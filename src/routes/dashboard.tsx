@@ -6,6 +6,18 @@ import {
   type DashboardRow,
   type DashboardPayload,
 } from '../server/functions';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Badge } from '@/components/ui/badge';
+import { Card, CardContent } from '@/components/ui/card';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
 
 type FilterMode = 'all' | 'scraped' | 'pending' | 'errors';
 
@@ -15,16 +27,18 @@ export const Route = createFileRoute('/dashboard')({
 
 function StatusBadge({ row }: { row: DashboardRow }) {
   if (!row.scraped) {
-    return <span className="status-pending">pending</span>;
+    return <Badge variant="secondary">pending</Badge>;
   }
   if (row.statusCode && row.statusCode >= 200 && row.statusCode < 400) {
-    return <span className="status-ok">{row.statusCode}</span>;
+    return <Badge variant="outline" className="text-green-500 border-green-500/30">{row.statusCode}</Badge>;
   }
-  return <span className="status-error">{row.statusCode ?? 'error'}</span>;
+  return <Badge variant="destructive">{row.statusCode ?? 'error'}</Badge>;
 }
 
 function timeAgo(dateStr: string): string {
-  const seconds = Math.floor((Date.now() - new Date(dateStr).getTime()) / 1000);
+  const seconds = Math.floor(
+    (Date.now() - new Date(dateStr).getTime()) / 1000,
+  );
   if (seconds < 60) return `${seconds}s ago`;
   const minutes = Math.floor(seconds / 60);
   if (minutes < 60) return `${minutes}m ago`;
@@ -38,7 +52,7 @@ const CONCURRENCY = 5;
 
 function useScrapeAll(
   rows: DashboardRow[],
-  onRowUpdate: (slug: string, patch: Partial<DashboardRow>) => void
+  onRowUpdate: (slug: string, patch: Partial<DashboardRow>) => void,
 ) {
   const [scraping, setScraping] = useState(false);
   const [completed, setCompleted] = useState(0);
@@ -61,7 +75,9 @@ function useScrapeAll(
           if (idx >= targetRows.length) break;
           const row = targetRows[idx];
           try {
-            const result = await $getScrapedProfile({ data: row.personSlug });
+            const result = await $getScrapedProfile({
+              data: row.personSlug,
+            });
             if (result.data) {
               onRowUpdate(row.personSlug, {
                 scraped: true,
@@ -70,22 +86,33 @@ function useScrapeAll(
                 title: result.data.title,
               });
             } else {
-              onRowUpdate(row.personSlug, { scraped: true, statusCode: null, fetchedAt: new Date().toISOString() });
+              onRowUpdate(row.personSlug, {
+                scraped: true,
+                statusCode: null,
+                fetchedAt: new Date().toISOString(),
+              });
             }
           } catch {
-            onRowUpdate(row.personSlug, { scraped: true, statusCode: null, fetchedAt: new Date().toISOString() });
+            onRowUpdate(row.personSlug, {
+              scraped: true,
+              statusCode: null,
+              fetchedAt: new Date().toISOString(),
+            });
           }
           setCompleted((c) => c + 1);
         }
       }
 
       void Promise.all(
-        Array.from({ length: Math.min(CONCURRENCY, targetRows.length) }, () => worker())
+        Array.from(
+          { length: Math.min(CONCURRENCY, targetRows.length) },
+          () => worker(),
+        ),
       ).then(() => {
         setScraping(false);
       });
     },
-    [scraping, onRowUpdate]
+    [scraping, onRowUpdate],
   );
 
   const stop = useCallback(() => {
@@ -101,19 +128,26 @@ function DashboardPage() {
   const [filter, setFilter] = useState<FilterMode>('all');
   const [search, setSearch] = useState('');
 
-  const handleRowUpdate = useCallback((slug: string, patch: Partial<DashboardRow>) => {
-    setData((prev) => {
-      if (!prev) return prev;
-      const wasScrapedBefore = prev.rows.find((r) => r.personSlug === slug)?.scraped;
-      const rows = prev.rows.map((r) => (r.personSlug === slug ? { ...r, ...patch } : r));
-      const scrapedDelta = patch.scraped && !wasScrapedBefore ? 1 : 0;
-      return { ...prev, rows, scraped: prev.scraped + scrapedDelta };
-    });
-  }, []);
+  const handleRowUpdate = useCallback(
+    (slug: string, patch: Partial<DashboardRow>) => {
+      setData((prev) => {
+        if (!prev) return prev;
+        const wasScrapedBefore = prev.rows.find(
+          (r) => r.personSlug === slug,
+        )?.scraped;
+        const rows = prev.rows.map((r) =>
+          r.personSlug === slug ? { ...r, ...patch } : r,
+        );
+        const scrapedDelta = patch.scraped && !wasScrapedBefore ? 1 : 0;
+        return { ...prev, rows, scraped: prev.scraped + scrapedDelta };
+      });
+    },
+    [],
+  );
 
   const { scraping, completed, total, start, stop } = useScrapeAll(
     data?.rows ?? [],
-    handleRowUpdate
+    handleRowUpdate,
   );
 
   useEffect(() => {
@@ -127,14 +161,18 @@ function DashboardPage() {
       }
     }
     void load();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  if (loading) return <p>Loading dashboard...</p>;
-  if (!data) return <p>Failed to load scrape status.</p>;
+  if (loading)
+    return <p className="text-muted-foreground">Loading dashboard...</p>;
+  if (!data)
+    return <p className="text-muted-foreground">Failed to load scrape status.</p>;
 
   const errorCount = data.rows.filter(
-    (r) => r.scraped && (!r.statusCode || r.statusCode >= 400)
+    (r) => r.scraped && (!r.statusCode || r.statusCode >= 400),
   ).length;
   const pendingCount = data.total - data.scraped;
 
@@ -146,164 +184,159 @@ function DashboardPage() {
       if (!row.scraped) return false;
       if (row.statusCode && row.statusCode < 400) return false;
     }
-    if (query && !row.name.toLowerCase().includes(query) && !row.url.toLowerCase().includes(query)) {
+    if (
+      query &&
+      !row.name.toLowerCase().includes(query) &&
+      !row.url.toLowerCase().includes(query)
+    ) {
       return false;
     }
     return true;
   });
 
   return (
-    <div className="Dashboard">
-      <style>{/*css*/`
-        @scope (.Dashboard) {
-          :scope { padding: 1rem 0; }
-
-          .stats { display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
-          .stats div div:first-child { font-size: 2rem; font-weight: bold; }
-          .stats div div:last-child { color: #666; }
-          .green { color: #22863a; }
-          .muted { color: #888; }
-          .red { color: #cb2431; }
-
-          .actions { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
-          button {
-            padding: 0.5rem 1.25rem;
-            border: 1px solid var(--vape, #ccc);
-            border-radius: 4px;
-            background: transparent;
-            cursor: pointer;
-            color: inherit;
-            font: inherit;
-          }
-          button.danger { background: #cb2431; color: #fff; border: none; font-weight: bold; }
-          button.primary { background: var(--blue2, #0070f3); color: #fff; border: none; font-weight: bold; }
-          button.primary:disabled { background: #ccc; cursor: default; }
-          progress { flex: 1 1 150px; height: 8px; }
-
-          .filters { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
-          .filters button { padding: 0.35rem 0.75rem; text-transform: capitalize; }
-          .filters button.active { background: var(--blue2, #0070f3); color: #fff; }
-          .filters input {
-            padding: 0.35rem 0.75rem;
-            border: 1px solid var(--vape, #ccc);
-            border-radius: 4px;
-            flex: 1 1 200px;
-            min-width: 200px;
-            background: transparent;
-            color: inherit;
-            font: inherit;
-          }
-
-          table { width: 100%; border-collapse: collapse; }
-          thead tr { border-bottom: 2px solid var(--vape, #ccc); text-align: left; }
-          th { padding: 0.5rem; }
-          tbody tr { border-bottom: 1px solid var(--vape, #eee); }
-          td { padding: 0.4rem 0.5rem; }
-          td.truncate { max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-          td.url { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-          td.nowrap { white-space: nowrap; }
-
-          .status-pending { color: #888; }
-          .status-ok { color: #22863a; }
-          .status-error { color: #cb2431; }
-        }
-      `}</style>
-      <p>
-        <Link to="/">← Back to directory</Link>
-      </p>
-      <h2>Scrape Dashboard</h2>
-
-      <div className="stats">
-        <Stat label="Total" value={data.total} />
-        <Stat label="Scraped" value={data.scraped} colorClass="green" />
-        <Stat label="Pending" value={pendingCount} colorClass="muted" />
-        <Stat label="Errors" value={errorCount} colorClass="red" />
+    <div className="space-y-6">
+      <div>
+        <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          &larr; Back to directory
+        </Link>
       </div>
 
-      <div className="actions">
+      <h2 className="text-xl font-semibold">Scrape Dashboard</h2>
+
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <Stat label="Total" value={data.total} />
+        <Stat label="Scraped" value={data.scraped} className="text-green-500" />
+        <Stat label="Pending" value={pendingCount} className="text-muted-foreground" />
+        <Stat label="Errors" value={errorCount} className="text-destructive" />
+      </div>
+
+      <div className="flex flex-wrap items-center gap-2">
         {scraping ? (
           <>
-            <button className="danger" onClick={stop}>Stop</button>
-            <span>Scraping... {completed} / {total}</span>
-            <progress value={completed} max={total} />
+            <Button variant="destructive" size="sm" onClick={stop}>
+              Stop
+            </Button>
+            <span className="text-sm text-muted-foreground">
+              Scraping... {completed} / {total}
+            </span>
+            <progress
+              value={completed}
+              max={total}
+              className="flex-1 h-2 min-w-[100px]"
+            />
           </>
         ) : (
           <>
-            <button
-              className="primary"
+            <Button
+              size="sm"
               onClick={() => start(data.rows.filter((r) => !r.scraped))}
               disabled={pendingCount === 0}
             >
               Scrape Pending ({pendingCount})
-            </button>
-            <button onClick={() => start(data.rows)}>
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => start(data.rows)}
+            >
               Re-scrape All ({data.total})
-            </button>
+            </Button>
           </>
         )}
       </div>
 
-      <div className="filters">
+      <div className="flex flex-wrap items-center gap-2">
         {(['all', 'scraped', 'pending', 'errors'] as const).map((mode) => (
-          <button
+          <Button
             key={mode}
-            className={filter === mode ? 'active' : ''}
+            variant={filter === mode ? 'default' : 'outline'}
+            size="sm"
             onClick={() => setFilter(mode)}
+            className="capitalize"
           >
             {mode}
-          </button>
+          </Button>
         ))}
-        <input
+        <Input
           type="text"
           placeholder="Search by name or URL..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          className="flex-1 min-w-[200px]"
         />
       </div>
 
-      <p>
+      <p className="text-sm text-muted-foreground">
         Showing {filtered.length} of {data.total}
       </p>
 
-      <div>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Status</th>
-              <th>Title</th>
-              <th>Fetched</th>
-              <th>URL</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.map((row) => (
-              <tr key={row.personSlug}>
-                <td>
-                  <Link to="/people/$personSlug" params={{ personSlug: row.personSlug }}>
-                    {row.name}
-                  </Link>
-                </td>
-                <td><StatusBadge row={row} /></td>
-                <td className="truncate">{row.title ?? '—'}</td>
-                <td className="nowrap">{row.fetchedAt ? timeAgo(row.fetchedAt) : '—'}</td>
-                <td className="url">
-                  <a href={row.url} target="_blank" rel="noreferrer noopener">{row.url}</a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>Name</TableHead>
+            <TableHead>Status</TableHead>
+            <TableHead>Title</TableHead>
+            <TableHead>Fetched</TableHead>
+            <TableHead>URL</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          {filtered.map((row) => (
+            <TableRow key={row.personSlug}>
+              <TableCell>
+                <Link
+                  to="/people/$personSlug"
+                  params={{ personSlug: row.personSlug }}
+                  className="hover:underline"
+                >
+                  {row.name}
+                </Link>
+              </TableCell>
+              <TableCell>
+                <StatusBadge row={row} />
+              </TableCell>
+              <TableCell className="max-w-[250px] truncate">
+                {row.title ?? '—'}
+              </TableCell>
+              <TableCell className="whitespace-nowrap">
+                {row.fetchedAt ? timeAgo(row.fetchedAt) : '—'}
+              </TableCell>
+              <TableCell className="max-w-[300px] truncate">
+                <a
+                  href={row.url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="hover:underline"
+                >
+                  {row.url}
+                </a>
+              </TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
     </div>
   );
 }
 
-function Stat({ label, value, colorClass }: { label: string; value: number; colorClass?: string }) {
+function Stat({
+  label,
+  value,
+  className,
+}: {
+  label: string;
+  value: number;
+  className?: string;
+}) {
   return (
-    <div>
-      <div className={colorClass}>{value.toLocaleString()}</div>
-      <div>{label}</div>
-    </div>
+    <Card>
+      <CardContent className="p-4">
+        <div className={`text-2xl font-bold ${className ?? ''}`}>
+          {value.toLocaleString()}
+        </div>
+        <div className="text-xs text-muted-foreground">{label}</div>
+      </CardContent>
+    </Card>
   );
 }

@@ -15,7 +15,7 @@ function IndexPage() {
   const data = Route.useLoaderData();
 
   return (
-    <>
+    <div className="space-y-6">
       <TopicLinks
         tags={data.tags}
         countries={data.countries}
@@ -23,16 +23,13 @@ function IndexPage() {
         currentTag={undefined}
       />
 
-      <p>
-        Showing <strong>{data.people.length}</strong> of{' '}
-        <strong>{data.totalPeople}</strong> people.
+      <p className="text-sm text-muted-foreground">
+        Showing <strong className="text-foreground">{data.people.length}</strong> of{' '}
+        <strong className="text-foreground">{data.totalPeople}</strong> people.
       </p>
 
-      <PeopleGrid
-        people={data.people}
-        activeTagName={undefined}
-      />
+      <PeopleGrid people={data.people} activeTagName={undefined} />
       <BackToTop />
-    </>
+    </div>
   );
 }

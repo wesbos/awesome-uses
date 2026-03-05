@@ -99,8 +99,50 @@ export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
   }
 );
 
+type Face = { name: string; avatarUrl: string };
+
+export type TagItemWithFaces = {
+  item: string;
+  count: number;
+  faces: Face[];
+};
+
+export type TagSummaryWithFaces = Omit<TagSummary, 'topItems'> & {
+  topItems: TagItemWithFaces[];
+};
+
+function slugToFace(
+  slug: string,
+  peopleMap: Map<string, ReturnType<typeof getAllPeople>[number]>,
+): Face | null {
+  const person = peopleMap.get(slug);
+  if (!person) return null;
+  const url = new URL(person.url);
+  const twitterAvatar = person.twitter
+    ? `https://unavatar.io/x/${person.twitter.replace('@', '')}`
+    : null;
+  const websiteAvatar = `https://unavatar.io/${url.host}`;
+  const avatarUrl = twitterAvatar
+    ? `${twitterAvatar}?fallback=${websiteAvatar}`
+    : websiteAvatar;
+  return { name: person.name, avatarUrl };
+}
+
 export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
-  async (): Promise<TagSummary[]> => {
-    return getAllTagSummaries();
+  async (): Promise<TagSummaryWithFaces[]> => {
+    const tags = await getAllTagSummaries();
+    const allPeople = getAllPeople();
+    const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+    return tags.map((tag) => ({
+      ...tag,
+      topItems: tag.topItems.map((ti) => ({
+        item: ti.item,
+        count: ti.count,
+        faces: ti.personSlugs
+          .map((slug) => slugToFace(slug, peopleMap))
+          .filter((f): f is Face => f !== null),
+      })),
+    }));
   }
 );

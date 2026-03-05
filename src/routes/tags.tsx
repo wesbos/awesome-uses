@@ -1,14 +1,16 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { $getTagSummaries } from '../server/functions';
-import type { TagSummary } from '../server/d1';
+import { $getTagSummaries, type TagSummaryWithFaces } from '../server/functions';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { FacePile } from '@/components/FacePile';
 
 export const Route = createFileRoute('/tags')({
   component: TagsPage,
 });
 
 function TagsPage() {
-  const [tags, setTags] = useState<TagSummary[]>([]);
+  const [tags, setTags] = useState<TagSummaryWithFaces[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
 
@@ -23,50 +25,41 @@ function TagsPage() {
       }
     }
     void load();
-    return () => { cancelled = true; };
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  if (loading) return <p>Loading tags...</p>;
-  if (tags.length === 0) return <p>No extracted items yet. Run the extract pipeline first.</p>;
+  if (loading) return <p className="text-muted-foreground">Loading tags...</p>;
+  if (tags.length === 0)
+    return (
+      <p className="text-muted-foreground">
+        No extracted items yet. Run the extract pipeline first.
+      </p>
+    );
 
   const query = search.toLowerCase();
-  const filtered = query
-    ? tags.filter((t) => t.tag.includes(query))
-    : tags;
+  const filtered = query ? tags.filter((t) => t.tag.includes(query)) : tags;
 
   return (
-    <div className="TagsPage">
-      <style>{/*css*/`
-        @scope (.TagsPage) {
-          :scope { padding: 1rem 0; }
-          input {
-            padding: 0.4rem 0.75rem;
-            border: 1px solid var(--vape, #ccc);
-            width: 100%;
-            max-width: 400px;
-            margin-bottom: 1.5rem;
-            background: transparent;
-            color: inherit;
-            font: inherit;
-          }
-          & > div {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.5rem;
-          }
-        }
-      `}</style>
-      <p>
-        <Link to="/">← Back to directory</Link>
-      </p>
-      <h2>Tags ({tags.length})</h2>
-      <input
+    <div className="space-y-6">
+      <div>
+        <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          &larr; Back to directory
+        </Link>
+      </div>
+
+      <h2 className="text-xl font-semibold">Tags ({tags.length})</h2>
+
+      <Input
         type="text"
         placeholder="Filter tags..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        className="max-w-sm"
       />
-      <div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {filtered.map((tag) => (
           <TagCard key={tag.tag} tag={tag} />
         ))}
@@ -75,43 +68,30 @@ function TagsPage() {
   );
 }
 
-function TagCard({ tag }: { tag: TagSummary }) {
+function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
   return (
-    <div className="TagCard">
-      <style>{/*css*/`
-        @scope (.TagCard) {
-          :scope {
-            border: 1px solid var(--vape, #ddd);
-            border-radius: 6px;
-            padding: 1rem;
-          }
-          header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 0.75rem;
-          }
-          h3 { margin: 0; }
-          header span { color: #666; font-size: 0.9rem; }
-          ol { margin: 0; padding-left: 1.25rem; }
-          li { padding: 0.15rem 0; }
-          li span:last-child { color: #888; margin-left: 0.5rem; }
-        }
-      `}</style>
-      <header>
-        <h3>{tag.tag}</h3>
-        <span>
-          {tag.totalItems} unique item{tag.totalItems !== 1 ? 's' : ''}
-        </span>
-      </header>
-      <ol>
-        {tag.topItems.map(({ item, count }) => (
-          <li key={item}>
-            <span>{item}</span>
-            <span>({count})</span>
-          </li>
-        ))}
-      </ol>
-    </div>
+    <Card>
+      <CardHeader className="pb-3">
+        <div className="flex items-baseline justify-between">
+          <CardTitle className="text-sm">{tag.tag}</CardTitle>
+          <span className="text-xs text-muted-foreground">
+            {tag.totalItems} item{tag.totalItems !== 1 ? 's' : ''}
+          </span>
+        </div>
+      </CardHeader>
+      <CardContent>
+        <ol className="space-y-2 text-sm">
+          {tag.topItems.map(({ item, count, faces }) => (
+            <li key={item} className="flex items-center justify-between gap-2">
+              <span className="truncate">
+                {item}{' '}
+                <span className="text-muted-foreground">({count})</span>
+              </span>
+              <FacePile faces={faces} max={4} />
+            </li>
+          ))}
+        </ol>
+      </CardContent>
+    </Card>
   );
 }

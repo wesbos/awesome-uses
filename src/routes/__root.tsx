@@ -2,9 +2,9 @@ import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-r
 import AnimatedFavicon from '../components/AnimatedFavicon';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { ThemeProvider } from '../components/theme-provider';
 
 import appCss from '../styles.css?url';
-import normalizeCss from 'normalize.css?url';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -18,33 +18,36 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      { rel: 'stylesheet', href: normalizeCss },
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', href: 'https://fav.farm/🖥' },
     ],
   }),
   shellComponent: RootDocument,
   notFoundComponent: () => (
-    <section>
-      <h2>404</h2>
-      <p>Nothing here — try the <a href="/">homepage</a>.</p>
+    <section className="py-20 text-center">
+      <h2 className="text-4xl font-bold">404</h2>
+      <p className="mt-4 text-muted-foreground">
+        Nothing here — try the <a href="/" className="underline">homepage</a>.
+      </p>
     </section>
   ),
 });
 
 function RootDocument() {
   return (
-    <html lang="en">
+    <html lang="en" className="dark" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
       <body>
-        <main className="Main">
-          <AnimatedFavicon />
-          <Header />
-          <Outlet />
-          <Footer />
-        </main>
+        <ThemeProvider defaultTheme="dark">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+            <AnimatedFavicon />
+            <Header />
+            <Outlet />
+            <Footer />
+          </div>
+        </ThemeProvider>
         <Scripts />
       </body>
     </html>

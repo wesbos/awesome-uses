@@ -6,27 +6,10 @@ type PeopleGridProps = {
   activeTagName?: string;
 };
 
-export default function PeopleGrid({
-  people,
-  activeTagName,
-}: PeopleGridProps) {
+export default function PeopleGrid({ people, activeTagName }: PeopleGridProps) {
   return (
-    <div className="People">
-      <style>{/*css*/`
-        @scope (.People) {
-          :scope {
-            display: grid;
-            border-right: .5px solid var(--vape);
-            border-bottom: .5px solid var(--vape);
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            grid-gap: 0;
-            @media all and (max-width: 400px) {
-              grid-template-columns: 1fr;
-            }
-          }
-        }
-      `}</style>
-      {people.map((person) => (
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l">
+      {people.slice(0, 20).map((person) => (
         <PersonCard
           key={person.personSlug}
           person={person}

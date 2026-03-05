@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { getPersonBySlug } from '../lib/data';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
 import { $getScrapedProfile, $getPersonItems } from '../server/functions';
+import { Badge } from '@/components/ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const Route = createFileRoute('/people/$personSlug')({
   loader: ({ params }) => {
@@ -44,7 +46,9 @@ function PersonPage() {
       try {
         const result = await $getPersonItems({ data: person.personSlug });
         if (!cancelled) setItems(result);
-      } catch { /* ignore */ }
+      } catch {
+        /* ignore */
+      }
     }
 
     void loadScrape();
@@ -56,150 +60,119 @@ function PersonPage() {
   }, [person.personSlug]);
 
   return (
-    <article className="PersonWrapper">
-      <style>{/*css*/`
-        @scope (.PersonWrapper) {
-          :scope {
-            border: 1px solid var(--vape);
-            border-radius: 5.34334px;
-            box-shadow: 10px -10px 0 var(--blue2);
-            display: grid;
-            grid-template-rows: 1fr auto auto;
-          }
-          .PersonInner { padding: 2rem; }
-          .Tags {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-          }
-          .Tag {
-            background: var(--pink);
-            margin: 2px;
-            border-radius: 3px;
-            font-size: 1.7rem;
-            text-decoration: none;
-            padding: 5px;
-            color: hsla(0, 100%, 100%, 0.8);
-            transition: background-color 0.2s;
-            display: grid;
-            grid-template-columns: 1fr auto;
-            align-items: center;
-            &.small { font-size: 1.2rem; }
-            &.currentTag {
-              background: var(--yellow);
-              color: hsla(0, 100%, 0%, 0.8);
-            }
-          }
-          textarea {
-            white-space: pre-wrap;
-            max-height: 60vh;
-            overflow: auto;
-            background: #f5f5f5;
-            padding: 1rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            width: 100%;
-            border: none;
-            color: #333;
-          }
-        }
-      `}</style>
-      <div className="PersonInner">
-        <p>
-          <Link to="/">← Back to directory</Link>
-        </p>
-        <h2>
-          {person.name} {person.emoji}
-        </h2>
-        <p>{person.description}</p>
-
-        <p>
-          <a href={person.url} target="_blank" rel="noreferrer noopener">
-            Visit their /uses page
-          </a>
-        </p>
-
-        <ul className="Tags">
-          {person.canonicalTags.slice(0, 10).map((tag) => (
-            <li className="Tag small" key={tag}>
-              <Link to="/like/$tag" params={{ tag }}>
-                {tag}
-              </Link>
-            </li>
-          ))}
-        </ul>
+    <div className="space-y-6">
+      <div>
+        <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          &larr; Back to directory
+        </Link>
       </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>
+            {person.name} {person.emoji}
+          </CardTitle>
+          <p className="text-sm text-muted-foreground">{person.description}</p>
+          <p>
+            <a
+              href={person.url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-sm underline hover:text-foreground transition-colors"
+            >
+              Visit their /uses page
+            </a>
+          </p>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-wrap gap-1">
+            {person.canonicalTags.slice(0, 10).map((tag) => (
+              <Badge key={tag} variant="secondary" className="text-xs">
+                <Link to="/like/$tag" params={{ tag }}>
+                  {tag}
+                </Link>
+              </Badge>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
 
       {items.length > 0 && (
-        <div className="PersonInner">
-          <h3>Extracted Gear & Tools</h3>
-          <ItemsList items={items} />
-        </div>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-base">Extracted Gear & Tools</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ItemsList items={items} />
+          </CardContent>
+        </Card>
       )}
 
-      <div className="PersonInner">
-        <h3>Scraped /uses snapshot (Cloudflare D1)</h3>
-        {loadingScrape && <p>Loading scrape metadata…</p>}
-        {!loadingScrape && !scraped && (
-          <p>
-            No scrape data is available yet. This page attempts an on-demand
-            scrape when loaded.
-          </p>
-        )}
-        {scraped && (
-          <div>
-            <p>
-              Last fetched: <strong>{new Date(scraped.fetchedAt).toLocaleString()}</strong>
-              {' · '}Status: {scraped.statusCode ?? 'unknown'}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">
+            Scraped /uses snapshot (Cloudflare D1)
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          {loadingScrape && (
+            <p className="text-sm text-muted-foreground">
+              Loading scrape metadata...
             </p>
-            {scraped.title && (
-              <p>
-                Title: <strong>{scraped.title}</strong>
+          )}
+          {!loadingScrape && !scraped && (
+            <p className="text-sm text-muted-foreground">
+              No scrape data is available yet. This page attempts an on-demand
+              scrape when loaded.
+            </p>
+          )}
+          {scraped && (
+            <div className="space-y-3">
+              <p className="text-sm">
+                Last fetched:{' '}
+                <strong>
+                  {new Date(scraped.fetchedAt).toLocaleString()}
+                </strong>
+                {' · '}Status: {scraped.statusCode ?? 'unknown'}
               </p>
-            )}
-            {scraped.contentMarkdown && (
-              <textarea readOnly>
-                {scraped.contentMarkdown}
-              </textarea>
-            )}
-          </div>
-        )}
-      </div>
-    </article>
+              {scraped.title && (
+                <p className="text-sm">
+                  Title: <strong>{scraped.title}</strong>
+                </p>
+              )}
+              {scraped.contentMarkdown && (
+                <textarea
+                  readOnly
+                  className="w-full h-[40vh] rounded-md border bg-muted p-3 text-xs font-mono resize-y"
+                  defaultValue={scraped.contentMarkdown}
+                />
+              )}
+            </div>
+          )}
+        </CardContent>
+      </Card>
+    </div>
   );
 }
 
 function ItemsList({ items }: { items: PersonItem[] }) {
   return (
-    <ul className="ItemsList">
-      <style>{/*css*/`
-        @scope (.ItemsList) {
-          :scope {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-          }
-          li {
-            border: 1px solid var(--vape, #ddd);
-            border-radius: 4px;
-            padding: 0.4rem 0.75rem;
-          }
-          li span { color: #888; margin-left: 0.4rem; }
-        }
-      `}</style>
+    <div className="flex flex-wrap gap-2">
       {items.map((item) => (
-        <li key={item.item} title={item.detail || undefined}>
+        <Badge
+          key={item.item}
+          variant="outline"
+          className="text-xs"
+          title={item.detail || undefined}
+        >
           <strong>{item.item}</strong>
           {item.tags.length > 0 && (
-            <span>{item.tags.join(', ')}</span>
+            <span className="ml-1 text-muted-foreground">
+              {item.tags.join(', ')}
+            </span>
           )}
-        </li>
+        </Badge>
       ))}
-    </ul>
+    </div>
   );
 }

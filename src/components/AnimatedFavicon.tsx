@@ -40,7 +40,7 @@ export default function AnimatedFavicon() {
       height={200}
       hidden
       aria-hidden
-      style={{ display: 'none' }}
+      className="hidden"
     />
   );
 }
