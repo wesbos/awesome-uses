@@ -8,6 +8,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';
+import { HIDDEN_TAGS } from '@/lib/constants';
 
 type Face = { personSlug: string; name: string; avatarUrl: string };
 
@@ -24,12 +25,15 @@ function deduplicateFaces(faces: Face[]): Face[] {
   });
 }
 
+const ARTICLES = new Set(['the', 'a', 'an']);
+
 function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
   const prefixCounts = new Map<string, number>();
   for (const { item } of items) {
     const spaceIdx = item.indexOf(' ');
     if (spaceIdx === -1) continue;
     const prefix = item.slice(0, spaceIdx);
+    if (ARTICLES.has(prefix.toLowerCase())) continue;
     prefixCounts.set(prefix, (prefixCounts.get(prefix) ?? 0) + 1);
   }
 
@@ -115,8 +119,9 @@ function TagsPage() {
       </p>
     );
 
+  const visibleTags = tags.filter((t) => !HIDDEN_TAGS.includes(t.tagSlug));
   const query = search.toLowerCase();
-  const filtered = query ? tags.filter((t) => t.tag.includes(query)) : tags;
+  const filtered = query ? visibleTags.filter((t) => t.tag.includes(query)) : visibleTags;
 
   return (
     <div className="space-y-6">
@@ -126,7 +131,7 @@ function TagsPage() {
         </Link>
       </div>
 
-      <h2 className="text-xl font-semibold">Tags ({tags.length})</h2>
+      <h2 className="text-xl font-semibold">Tags ({visibleTags.length})</h2>
 
       <Input
         type="text"
@@ -164,12 +169,6 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
           <span className="text-xs text-muted-foreground">
             {tag.totalItems} item{tag.totalItems !== 1 ? 's' : ''}
           </span>
-        </div>
-        <div className="flex items-center justify-between gap-2 pt-1">
-          <span className="text-xs text-muted-foreground">
-            {tag.totalPeople} people
-          </span>
-          <FacePile faces={tag.faces} max={6} />
         </div>
       </CardHeader>
       <CardContent>
