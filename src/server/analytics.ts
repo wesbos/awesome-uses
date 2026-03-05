@@ -1,4 +1,4 @@
-import { getStartContext } from '@tanstack/start-storage-context';
+import { env as cfEnv } from 'cloudflare:workers';
 
 type AnalyticsDataPoint = {
   indexes?: string[];
@@ -9,8 +9,6 @@ type AnalyticsDataPoint = {
 type AnalyticsBindingLike = {
   writeDataPoint: (point: AnalyticsDataPoint) => void;
 };
-
-type RuntimeEnv = Record<string, unknown>;
 
 type AnalyticsCredentials = {
   accountId: string;
@@ -40,60 +38,25 @@ export type AnalyticsDashboardData = {
   items: AnalyticsTopView[];
 };
 
-function getEnvFromUnknown(source: unknown): RuntimeEnv | null {
-  if (!source || typeof source !== 'object') return null;
-  const candidate = source as RuntimeEnv;
-  if ('USES_ANALYTICS' in candidate || 'CF_ACCOUNT_ID' in candidate) {
-    return candidate;
-  }
-  return null;
-}
-
-function resolveRuntimeEnv(requestContext?: unknown): RuntimeEnv | null {
-  if (requestContext && typeof requestContext === 'object') {
-    const contextRecord = requestContext as Record<string, unknown>;
-    const direct = getEnvFromUnknown(contextRecord);
-    if (direct) return direct;
-
-    const fromEnv = getEnvFromUnknown(contextRecord.env);
-    if (fromEnv) return fromEnv;
-
-    const fromCloudflare = getEnvFromUnknown(
-      (contextRecord.cloudflare as Record<string, unknown> | undefined)?.env
-    );
-    if (fromCloudflare) return fromCloudflare;
-
-    return null;
-  }
-
-  const startContext = getStartContext({ throwIfNotFound: false });
-  if (!startContext) return null;
-  return resolveRuntimeEnv(startContext.contextAfterGlobalMiddlewares);
-}
-
-function resolveAnalyticsBinding(requestContext?: unknown): AnalyticsBindingLike | null {
-  const env = resolveRuntimeEnv(requestContext);
-  const binding = env?.USES_ANALYTICS;
+function resolveAnalyticsBinding(): AnalyticsBindingLike | null {
+  const binding = (cfEnv as Record<string, unknown>).USES_ANALYTICS;
   if (!binding || typeof binding !== 'object') return null;
   if (!('writeDataPoint' in binding)) return null;
   return binding as AnalyticsBindingLike;
 }
 
-function resolveAnalyticsCredentials(requestContext?: unknown): AnalyticsCredentials | null {
-  const env = resolveRuntimeEnv(requestContext);
-  if (!env) return null;
-
-  const accountId = String(env.CF_ACCOUNT_ID || '').trim();
-  const apiToken = String(env.CF_ANALYTICS_API_TOKEN || '').trim();
-  const dataset = String(env.CF_ANALYTICS_DATASET || 'uses_views').trim();
+function resolveAnalyticsCredentials(): AnalyticsCredentials | null {
+  const accountId = (process.env.CF_ACCOUNT_ID || '').trim();
+  const apiToken = (process.env.CF_ANALYTICS_API_TOKEN || '').trim();
+  const dataset = (process.env.CF_ANALYTICS_DATASET || 'uses_views').trim();
   if (!accountId || !apiToken || !dataset) {
     return null;
   }
   return { accountId, apiToken, dataset };
 }
 
-export function writeViewEvent(event: ViewEvent, requestContext?: unknown) {
-  const binding = resolveAnalyticsBinding(requestContext);
+export function writeViewEvent(event: ViewEvent) {
+  const binding = resolveAnalyticsBinding();
   if (!binding) return;
 
   const key = event.entityKey.trim().toLowerCase();
@@ -173,9 +136,8 @@ function normalizeTopViewRows(rows: Array<Record<string, unknown>>): AnalyticsTo
 
 export async function getAnalyticsDashboardData(
   timeframeDays = 7,
-  requestContext?: unknown
 ): Promise<AnalyticsDashboardData> {
-  const credentials = resolveAnalyticsCredentials(requestContext);
+  const credentials = resolveAnalyticsCredentials();
   if (!credentials) {
     return {
       available: false,

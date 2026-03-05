@@ -1,0 +1,59 @@
+import { sqliteTable, text, integer, uniqueIndex, index } from 'drizzle-orm/sqlite-core';
+
+export const personPages = sqliteTable('person_pages', {
+  personSlug: text('person_slug').primaryKey(),
+  url: text('url').notNull(),
+  statusCode: integer('status_code'),
+  fetchedAt: text('fetched_at').notNull(),
+  title: text('title'),
+  contentMarkdown: text('content_markdown'),
+  contentHash: text('content_hash'),
+}, (table) => [
+  index('idx_person_pages_fetched_at').on(table.fetchedAt),
+]);
+
+export const personItems = sqliteTable('person_items', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  personSlug: text('person_slug').notNull(),
+  item: text('item').notNull(),
+  tagsJson: text('tags_json').notNull().default('[]'),
+  detail: text('detail'),
+  extractedAt: text('extracted_at').notNull(),
+}, (table) => [
+  uniqueIndex('person_items_person_slug_item_unique').on(table.personSlug, table.item),
+  index('idx_person_items_person_slug').on(table.personSlug),
+]);
+
+export const personPageEvents = sqliteTable('person_page_events', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  personSlug: text('person_slug').notNull(),
+  url: text('url').notNull(),
+  statusCode: integer('status_code'),
+  fetchedAt: text('fetched_at').notNull(),
+  contentHash: text('content_hash'),
+  changeType: text('change_type').notNull(),
+  title: text('title'),
+}, (table) => [
+  index('idx_person_page_events_person_fetched').on(table.personSlug, table.fetchedAt),
+  index('idx_person_page_events_change_type_fetched').on(table.changeType, table.fetchedAt),
+]);
+
+export const amazonItemCache = sqliteTable('amazon_item_cache', {
+  itemKey: text('item_key').primaryKey(),
+  query: text('query').notNull(),
+  marketplace: text('marketplace').notNull(),
+  payloadJson: text('payload_json').notNull(),
+  fetchedAt: text('fetched_at').notNull(),
+  expiresAt: text('expires_at').notNull(),
+}, (table) => [
+  index('idx_amazon_item_cache_expires_at').on(table.expiresAt),
+]);
+
+export const items = sqliteTable('items', {
+  itemSlug: text('item_slug').primaryKey(),
+  itemName: text('item_name').notNull(),
+  itemType: text('item_type'),
+  description: text('description'),
+  itemUrl: text('item_url'),
+  enrichedAt: text('enriched_at'),
+});

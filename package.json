@@ -20,6 +20,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "country-emoji": "^1.5.6",
+    "drizzle-orm": "^0.45.1",
     "fast-glob": "^3.3.3",
     "joi": "^17.8.1",
     "lucide-react": "^0.577.0",
@@ -50,14 +51,21 @@
     "review": "tsx ./scripts/review-extraction.ts",
     "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
     "merge-dupes": "tsx ./scripts/merge-duplicates.ts",
-    "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts"
+    "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts",
+    "db:studio": "drizzle-kit studio",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "wrangler d1 migrations apply uses-tech-scrapes --local",
+    "db:migrate:remote": "wrangler d1 migrations apply uses-tech-scrapes --remote"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^22.13.10",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@types/turndown": "^5.0.6",
     "@vitejs/plugin-react": "^5.0.4",
+    "better-sqlite3": "^12.6.2",
+    "drizzle-kit": "^0.31.9",
     "eslint": "^8.34.0",
     "eslint-config-wesbos": "^3.2.3",
     "husky": "^8.0.3",
@@ -76,6 +84,12 @@
     "src/data.js": [
       "eslint --fix",
       "git add"
+    ]
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
     ]
   }
 }

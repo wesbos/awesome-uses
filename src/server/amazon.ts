@@ -1,9 +1,6 @@
 import { createHash, createHmac } from 'node:crypto';
-import { getStartContext } from '@tanstack/start-storage-context';
 import { slugify } from '../lib/slug';
 import { getAmazonCacheByItemKey, upsertAmazonCache } from './d1';
-
-type RuntimeEnv = Record<string, unknown>;
 
 type AmazonCredentials = {
   accessKey: string;
@@ -64,47 +61,13 @@ export type AmazonProductSearchResult = {
   error?: string;
 };
 
-function getEnvFromUnknown(source: unknown): RuntimeEnv | null {
-  if (!source || typeof source !== 'object') return null;
-  const candidate = source as RuntimeEnv;
-  if ('AMAZON_PAAPI_ACCESS_KEY' in candidate || 'OPENAI_API_KEY' in candidate) {
-    return candidate;
-  }
-  return null;
-}
-
-function resolveRuntimeEnv(requestContext?: unknown): RuntimeEnv | null {
-  if (requestContext && typeof requestContext === 'object') {
-    const contextRecord = requestContext as Record<string, unknown>;
-    const direct = getEnvFromUnknown(contextRecord);
-    if (direct) return direct;
-
-    const fromEnv = getEnvFromUnknown(contextRecord.env);
-    if (fromEnv) return fromEnv;
-
-    const fromCloudflare = getEnvFromUnknown(
-      (contextRecord.cloudflare as Record<string, unknown> | undefined)?.env
-    );
-    if (fromCloudflare) return fromCloudflare;
-
-    return null;
-  }
-
-  const startContext = getStartContext({ throwIfNotFound: false });
-  if (!startContext) return null;
-  return resolveRuntimeEnv(startContext.contextAfterGlobalMiddlewares);
-}
-
-function resolveAmazonCredentials(requestContext?: unknown): AmazonCredentials | null {
-  const env = resolveRuntimeEnv(requestContext);
-  if (!env) return null;
-
-  const accessKey = String(env.AMAZON_PAAPI_ACCESS_KEY || '').trim();
-  const secretKey = String(env.AMAZON_PAAPI_SECRET_KEY || '').trim();
-  const partnerTag = String(env.AMAZON_PAAPI_PARTNER_TAG || '').trim();
-  const host = String(env.AMAZON_PAAPI_HOST || 'webservices.amazon.com').trim();
-  const region = String(env.AMAZON_PAAPI_REGION || 'us-east-1').trim();
-  const marketplace = String(env.AMAZON_PAAPI_MARKETPLACE || 'www.amazon.com').trim();
+function resolveAmazonCredentials(): AmazonCredentials | null {
+  const accessKey = (process.env.AMAZON_PAAPI_ACCESS_KEY || '').trim();
+  const secretKey = (process.env.AMAZON_PAAPI_SECRET_KEY || '').trim();
+  const partnerTag = (process.env.AMAZON_PAAPI_PARTNER_TAG || '').trim();
+  const host = (process.env.AMAZON_PAAPI_HOST || 'webservices.amazon.com').trim();
+  const region = (process.env.AMAZON_PAAPI_REGION || 'us-east-1').trim();
+  const marketplace = (process.env.AMAZON_PAAPI_MARKETPLACE || 'www.amazon.com').trim();
 
   if (!accessKey || !secretKey || !partnerTag) {
     return null;
@@ -241,11 +204,12 @@ function buildSearchPayload(itemName: string, credentials: AmazonCredentials): s
 
 export async function searchAmazonProducts(
   itemName: string,
-  requestContext?: unknown
 ): Promise<AmazonProductSearchResult> {
   const normalizedQuery = itemName.trim();
-  const credentials = resolveAmazonCredentials(requestContext);
+  const credentials = resolveAmazonCredentials();
   const marketplace = credentials?.marketplace || 'www.amazon.com';
+
+  console.log(`Searching Amazon for ${normalizedQuery} on ${marketplace}`);
 
   if (!credentials) {
     return {
@@ -258,6 +222,7 @@ export async function searchAmazonProducts(
   }
 
   if (!normalizedQuery) {
+    console.log('No normalized query found');
     return {
       configured: true,
       cached: false,
@@ -267,10 +232,12 @@ export async function searchAmazonProducts(
   }
 
   const itemKey = slugify(normalizedQuery) || 'item';
+  console.log(`Item key: ${itemKey}`);
 
   try {
-    const cached = await getAmazonCacheByItemKey(itemKey, marketplace, requestContext);
+    const cached = await getAmazonCacheByItemKey(itemKey, marketplace);
     if (cached) {
+      console.log(`Cached products: ${cached.payloadJson}`);
       const products = JSON.parse(cached.payloadJson) as AmazonProduct[];
       return {
         configured: true,
@@ -281,10 +248,13 @@ export async function searchAmazonProducts(
     }
   } catch {
     // fail-soft when cache table is not available
+    console.log('Failed to get cached products, continuing...');
   }
 
   const payload = buildSearchPayload(normalizedQuery, credentials);
+  console.log(`Payload: ${payload}`);
   const signed = signAmazonRequest(payload, credentials);
+  console.log(`Signed: ${signed.endpoint}`);
 
   try {
     const response = await fetch(signed.endpoint, {
@@ -324,8 +294,7 @@ export async function searchAmazonProducts(
         normalizedQuery,
         marketplace,
         JSON.stringify(products),
-        expiresAt,
-        requestContext
+        expiresAt
       );
     } catch {
       // fail-soft when cache write fails

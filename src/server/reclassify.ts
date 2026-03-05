@@ -1,10 +1,7 @@
-import { getStartContext } from '@tanstack/start-storage-context';
 import OpenAI from 'openai';
 import { z } from 'zod';
 import { zodResponseFormat } from 'openai/helpers/zod';
 import { getExtractedCategories, getReclassifyCandidates } from './d1';
-
-type RuntimeEnv = Record<string, unknown>;
 
 const DEFAULT_MODEL = 'gpt-5-mini';
 
@@ -53,34 +50,8 @@ export type ReclassifyPreviewResult = {
   output: ReclassifyOutput;
 };
 
-function getEnvFromUnknown(source: unknown): RuntimeEnv | null {
-  if (!source || typeof source !== 'object') return null;
-  return source as RuntimeEnv;
-}
-
-function resolveRuntimeEnv(requestContext?: unknown): RuntimeEnv | null {
-  if (requestContext && typeof requestContext === 'object') {
-    const contextRecord = requestContext as Record<string, unknown>;
-    const direct = getEnvFromUnknown(contextRecord);
-    if (direct) return direct;
-
-    const fromEnv = getEnvFromUnknown(contextRecord.env);
-    if (fromEnv) return fromEnv;
-
-    const fromCloudflare = getEnvFromUnknown(
-      (contextRecord.cloudflare as Record<string, unknown> | undefined)?.env
-    );
-    if (fromCloudflare) return fromCloudflare;
-  }
-
-  const startContext = getStartContext({ throwIfNotFound: false });
-  if (!startContext) return null;
-  return resolveRuntimeEnv(startContext.contextAfterGlobalMiddlewares);
-}
-
-function createOpenAIClient(requestContext?: unknown): OpenAI {
-  const env = resolveRuntimeEnv(requestContext);
-  const apiKey = String(env?.OPENAI_API_KEY || '').trim();
+function createOpenAIClient(): OpenAI {
+  const apiKey = (process.env.OPENAI_API_KEY || '').trim();
   if (!apiKey) {
     throw new Error('OPENAI_API_KEY is not configured.');
   }
@@ -89,7 +60,6 @@ function createOpenAIClient(requestContext?: unknown): OpenAI {
 
 export async function previewTagReclassification(
   input: ReclassifyPreviewInput,
-  requestContext?: unknown
 ): Promise<ReclassifyPreviewResult> {
   const category = input.category.trim();
   if (!category) {
@@ -101,8 +71,8 @@ export async function previewTagReclassification(
   const model = input.model?.trim() || DEFAULT_MODEL;
 
   const [candidates, allCategories] = await Promise.all([
-    getReclassifyCandidates(category, minUsers, limit, requestContext),
-    getExtractedCategories(requestContext),
+    getReclassifyCandidates(category, minUsers, limit),
+    getExtractedCategories(),
   ]);
 
   if (candidates.length === 0) {
@@ -115,7 +85,7 @@ export async function previewTagReclassification(
     };
   }
 
-  const client = createOpenAIClient(requestContext);
+  const client = createOpenAIClient();
   const systemPrompt = (input.prompt || DEFAULT_PROMPT).replaceAll('{category}', category);
   const itemList = candidates.map((entry) => `- ${entry.item}`).join('\n');
 

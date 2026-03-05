@@ -1,111 +1,56 @@
-import { getStartContext } from '@tanstack/start-storage-context';
+import { env as cfEnv } from 'cloudflare:workers';
+import { drizzle, type DrizzleD1Database } from 'drizzle-orm/d1';
+import { eq, like, and, gt, sql, desc, asc, inArray } from 'drizzle-orm';
 import type { PersonItem, ScrapedProfileData, ScrapeStatusRow } from '../lib/types';
 import { buildUniqueSlug, slugify } from '../lib/slug';
 import type { ScrapePageResult } from './scrape';
+import * as schema from './schema';
 
-type D1Result<T> = { results: T[] };
+type D1Env = { USES_SCRAPES_DB?: Parameters<typeof drizzle>[0] };
 
-type D1Statement = {
-  bind: (...args: unknown[]) => {
-    all: <T>() => Promise<D1Result<T>>;
-    first: <T>() => Promise<T | null>;
-    run?: () => Promise<unknown>;
-  };
-};
-
-type D1DatabaseLike = {
-  prepare: (sql: string) => D1Statement;
-};
-
-function getDatabaseFromUnknown(source: unknown): D1DatabaseLike | null {
-  if (!source || typeof source !== 'object') return null;
-  const candidate = (source as Record<string, unknown>).USES_SCRAPES_DB;
-  if (candidate && typeof candidate === 'object' && 'prepare' in candidate) {
-    return candidate as D1DatabaseLike;
-  }
-  return null;
-}
-
-function getD1FromRequestContext(requestContext?: unknown): D1DatabaseLike | null {
-  if (!requestContext || typeof requestContext !== 'object') return null;
-
-  const contextRecord = requestContext as Record<string, unknown>;
-  const direct = getDatabaseFromUnknown(contextRecord);
-  if (direct) return direct;
-
-  const env = contextRecord.env;
-  const fromEnv = getDatabaseFromUnknown(env);
-  if (fromEnv) return fromEnv;
-
-  const cloudflareEnv = (contextRecord.cloudflare as Record<string, unknown> | undefined)?.env;
-  const fromCloudflare = getDatabaseFromUnknown(cloudflareEnv);
-  if (fromCloudflare) return fromCloudflare;
-
-  return null;
-}
-
-function getD1FromStartContext(): D1DatabaseLike | null {
-  const startContext = getStartContext({ throwIfNotFound: false });
-  if (!startContext) return null;
-  return getD1FromRequestContext(startContext.contextAfterGlobalMiddlewares);
-}
-
-export function resolveD1Database(requestContext?: unknown): D1DatabaseLike | null {
-  return getD1FromRequestContext(requestContext) || getD1FromStartContext();
-}
-
-async function getD1FromCloudflareWorkerModule(): Promise<D1DatabaseLike | null> {
-  try {
-    const cloudflareWorkersModule = await import('cloudflare:workers');
-    const env = cloudflareWorkersModule.env as unknown;
-    return getDatabaseFromUnknown(env);
-  } catch {
-    return null;
-  }
-}
-
-async function resolveD1WithFallback(
-  requestContext?: unknown
-): Promise<D1DatabaseLike | null> {
-  return resolveD1Database(requestContext) || (await getD1FromCloudflareWorkerModule());
+function resolveDb(): DrizzleD1Database<typeof schema> | null {
+  const d1 = (cfEnv as D1Env).USES_SCRAPES_DB;
+  if (!d1) return null;
+  return drizzle(d1, { schema });
 }
 
 export async function getScrapedProfileBySlug(
   personSlug: string,
-  requestContext?: unknown
 ): Promise<ScrapedProfileData | null> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return null;
 
   const row = await db
-    .prepare(
-      `SELECT person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, title, content_markdown as contentMarkdown
-       FROM person_pages
-       WHERE person_slug = ?
-       LIMIT 1`
-    )
-    .bind(personSlug)
-    .first<ScrapedProfileData>();
+    .select({
+      personSlug: schema.personPages.personSlug,
+      url: schema.personPages.url,
+      statusCode: schema.personPages.statusCode,
+      fetchedAt: schema.personPages.fetchedAt,
+      title: schema.personPages.title,
+      contentMarkdown: schema.personPages.contentMarkdown,
+    })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .limit(1)
+    .then((rows) => rows[0] ?? null);
 
   return row;
 }
 
-export async function getAllScrapeSummaries(
-  requestContext?: unknown
-): Promise<ScrapeStatusRow[]> {
-  const db = await resolveD1WithFallback(requestContext);
+export async function getAllScrapeSummaries(): Promise<ScrapeStatusRow[]> {
+  const db = resolveDb();
   if (!db) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, title
-       FROM person_pages
-       ORDER BY fetched_at DESC`
-    )
-    .bind()
-    .all<ScrapeStatusRow>();
-
-  return result.results;
+  return db
+    .select({
+      personSlug: schema.personPages.personSlug,
+      url: schema.personPages.url,
+      statusCode: schema.personPages.statusCode,
+      fetchedAt: schema.personPages.fetchedAt,
+      title: schema.personPages.title,
+    })
+    .from(schema.personPages)
+    .orderBy(desc(schema.personPages.fetchedAt));
 }
 
 type PersonItemRow = {
@@ -116,38 +61,33 @@ type PersonItemRow = {
 
 export async function getPersonItems(
   personSlug: string,
-  requestContext?: unknown
 ): Promise<PersonItem[]> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return [];
 
   const [result, allItemRows] = await Promise.all([
     db
-      .prepare(
-        `SELECT item, tags_json, detail
-         FROM person_items
-         WHERE person_slug = ?
-         ORDER BY item`
-      )
-      .bind(personSlug)
-      .all<PersonItemRow>(),
+      .select({
+        item: schema.personItems.item,
+        tags_json: schema.personItems.tagsJson,
+        detail: schema.personItems.detail,
+      })
+      .from(schema.personItems)
+      .where(eq(schema.personItems.personSlug, personSlug))
+      .orderBy(asc(schema.personItems.item)),
     db
-      .prepare(
-        `SELECT DISTINCT item
-         FROM person_items
-         ORDER BY item`
-      )
-      .bind()
-      .all<{ item: string }>(),
+      .selectDistinct({ item: schema.personItems.item })
+      .from(schema.personItems)
+      .orderBy(asc(schema.personItems.item)),
   ]);
 
   const usedItemSlugs = new Set<string>();
   const itemSlugMap = new Map<string, string>();
-  for (const row of allItemRows.results) {
+  for (const row of allItemRows) {
     itemSlugMap.set(row.item, buildUniqueSlug(row.item, usedItemSlugs, 'item'));
   }
 
-  return result.results.map((row) => ({
+  return result.map((row) => ({
     item: row.item,
     itemSlug: itemSlugMap.get(row.item) || slugify(row.item),
     tags: JSON.parse(row.tags_json),
@@ -305,32 +245,28 @@ function buildExtractedIndexes(rows: AllItemRow[]): ExtractedIndexes {
   };
 }
 
-async function getAllExtractedRows(
-  requestContext?: unknown
-): Promise<AllItemRow[]> {
-  const db = await resolveD1WithFallback(requestContext);
+async function getAllExtractedRows(): Promise<AllItemRow[]> {
+  const db = resolveDb();
   if (!db) return [];
 
   try {
-    const result = await db
-      .prepare(
-        `SELECT item, tags_json, person_slug
-         FROM person_items
-         ORDER BY item`
-      )
-      .bind()
-      .all<AllItemRow>();
+    const rows = await db
+      .select({
+        item: schema.personItems.item,
+        tags_json: schema.personItems.tagsJson,
+        person_slug: schema.personItems.personSlug,
+      })
+      .from(schema.personItems)
+      .orderBy(asc(schema.personItems.item));
 
-    return result.results;
+    return rows;
   } catch {
     return [];
   }
 }
 
-export async function getAllTagSummaries(
-  requestContext?: unknown
-): Promise<TagSummary[]> {
-  const rows = await getAllExtractedRows(requestContext);
+export async function getAllTagSummaries(): Promise<TagSummary[]> {
+  const rows = await getAllExtractedRows();
   const indexes = buildExtractedIndexes(rows);
 
   return [...indexes.tagToItems.entries()]
@@ -363,9 +299,8 @@ export async function getAllTagSummaries(
 
 export async function getTagDetailBySlug(
   tagSlug: string,
-  requestContext?: unknown
 ): Promise<TagDetail | null> {
-  const rows = await getAllExtractedRows(requestContext);
+  const rows = await getAllExtractedRows();
   const indexes = buildExtractedIndexes(rows);
   const resolvedTag =
     indexes.slugToTag.get(tagSlug) ||
@@ -375,7 +310,7 @@ export async function getTagDetailBySlug(
   const itemMap = indexes.tagToItems.get(resolvedTag);
   if (!itemMap) return null;
 
-  const items = [...itemMap.entries()]
+  const tagItems = [...itemMap.entries()]
     .sort((a, b) => b[1].size - a[1].size)
     .map(([item, people]) => ({
       item,
@@ -391,15 +326,14 @@ export async function getTagDetailBySlug(
     totalItems: itemMap.size,
     totalPeople: people.length,
     people,
-    items,
+    items: tagItems,
   };
 }
 
 export async function getTagDetailByName(
   tagName: string,
-  requestContext?: unknown
 ): Promise<TagDetail | null> {
-  const rows = await getAllExtractedRows(requestContext);
+  const rows = await getAllExtractedRows();
   const indexes = buildExtractedIndexes(rows);
   const normalizedTarget = tagName.trim().toLowerCase();
 
@@ -411,14 +345,13 @@ export async function getTagDetailByName(
 
   const slug = indexes.tagToSlug.get(resolvedTag);
   if (!slug) return null;
-  return getTagDetailBySlug(slug, requestContext);
+  return getTagDetailBySlug(slug);
 }
 
 export async function getItemDetailBySlug(
   itemSlug: string,
-  requestContext?: unknown
 ): Promise<ItemDetail | null> {
-  const rows = await getAllExtractedRows(requestContext);
+  const rows = await getAllExtractedRows();
   const indexes = buildExtractedIndexes(rows);
   const resolvedItem =
     indexes.slugToItem.get(itemSlug) ||
@@ -461,9 +394,8 @@ export async function getItemDetailBySlug(
 
 export async function getItemDetailByName(
   itemName: string,
-  requestContext?: unknown
 ): Promise<ItemDetail | null> {
-  const rows = await getAllExtractedRows(requestContext);
+  const rows = await getAllExtractedRows();
   const indexes = buildExtractedIndexes(rows);
   const normalizedTarget = itemName.trim().toLowerCase();
   const resolvedItem = [...indexes.itemToSlug.keys()].find(
@@ -472,67 +404,56 @@ export async function getItemDetailByName(
   if (!resolvedItem) return null;
   const slug = indexes.itemToSlug.get(resolvedItem);
   if (!slug) return null;
-  return getItemDetailBySlug(slug, requestContext);
+  return getItemDetailBySlug(slug);
 }
 
 export async function searchItems(
   query: string,
-  requestContext?: unknown
 ): Promise<ItemSearchResult[]> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return [];
 
   const trimmed = query.trim();
   if (!trimmed) return [];
 
-  let result: D1Result<{ item: string; count: number }>;
   try {
-    result = await db
-      .prepare(
-        `SELECT item, COUNT(DISTINCT person_slug) as count
-         FROM person_items
-         WHERE item LIKE ?
-         GROUP BY item
-         ORDER BY count DESC, item ASC
-         LIMIT 25`
-      )
-      .bind(`%${trimmed}%`)
-      .all<{ item: string; count: number }>();
+    const rows = await db
+      .select({
+        item: schema.personItems.item,
+        count: sql<number>`COUNT(DISTINCT ${schema.personItems.personSlug})`,
+      })
+      .from(schema.personItems)
+      .where(like(schema.personItems.item, `%${trimmed}%`))
+      .groupBy(schema.personItems.item)
+      .orderBy(sql`count DESC`, asc(schema.personItems.item))
+      .limit(25);
+
+    const usedItemSlugs = new Set<string>();
+    return rows.map((row) => ({
+      item: row.item,
+      itemSlug: buildUniqueSlug(row.item, usedItemSlugs, 'item'),
+      count: row.count,
+    }));
   } catch {
     return [];
   }
-
-  const usedItemSlugs = new Set<string>();
-  return result.results.map((row) => ({
-    item: row.item,
-    itemSlug: buildUniqueSlug(row.item, usedItemSlugs, 'item'),
-    count: row.count,
-  }));
 }
 
-export async function getExtractedCategories(
-  requestContext?: unknown
-): Promise<string[]> {
-  const db = await resolveD1WithFallback(requestContext);
+export async function getExtractedCategories(): Promise<string[]> {
+  const db = resolveDb();
   if (!db) return [];
 
-  let result: D1Result<{ category: string }>;
   try {
-    result = await db
-      .prepare(
-        `SELECT DISTINCT j.value as category
-         FROM person_items, json_each(person_items.tags_json) j
-         ORDER BY category`
-      )
-      .bind()
-      .all<{ category: string }>();
+    const rows = await db.all<{ category: string }>(
+      sql`SELECT DISTINCT j.value as category
+          FROM person_items, json_each(person_items.tags_json) j
+          ORDER BY category`
+    );
+
+    return rows.map((row) => row.category).filter(Boolean);
   } catch {
     return [];
   }
-
-  return result.results
-    .map((row) => row.category)
-    .filter(Boolean);
 }
 
 export type ReclassifyCandidate = {
@@ -545,9 +466,8 @@ export async function getReclassifyCandidates(
   category: string,
   minUsers: number,
   limit: number,
-  requestContext?: unknown
 ): Promise<ReclassifyCandidate[]> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return [];
 
   const safeCategory = category.trim();
@@ -556,32 +476,28 @@ export async function getReclassifyCandidates(
   const safeMinUsers = Math.max(1, minUsers);
   const safeLimit = Math.max(1, Math.min(limit, 500));
 
-  let rows: D1Result<{ item: string; count: number; people: string | null }>;
   try {
-    rows = await db
-      .prepare(
-        `SELECT
-          item,
-          COUNT(DISTINCT person_slug) as count,
-          GROUP_CONCAT(DISTINCT person_slug) as people
-         FROM person_items
-         WHERE tags_json LIKE ?
-         GROUP BY item
-         HAVING count >= ?
-         ORDER BY count DESC, item ASC
-         LIMIT ?`
-      )
-      .bind(`%"${safeCategory}"%`, safeMinUsers, safeLimit)
-      .all<{ item: string; count: number; people: string | null }>();
+    const rows = await db.all<{ item: string; count: number; people: string | null }>(
+      sql`SELECT
+            item,
+            COUNT(DISTINCT person_slug) as count,
+            GROUP_CONCAT(DISTINCT person_slug) as people
+          FROM person_items
+          WHERE tags_json LIKE ${`%"${safeCategory}"%`}
+          GROUP BY item
+          HAVING count >= ${safeMinUsers}
+          ORDER BY count DESC, item ASC
+          LIMIT ${safeLimit}`
+    );
+
+    return rows.map((row) => ({
+      item: row.item,
+      count: row.count,
+      people: row.people ? row.people.split(',').filter(Boolean) : [],
+    }));
   } catch {
     return [];
   }
-
-  return rows.results.map((row) => ({
-    item: row.item,
-    count: row.count,
-    people: row.people ? row.people.split(',').filter(Boolean) : [],
-  }));
 }
 
 export type ReclassifyAssignment = {
@@ -597,9 +513,8 @@ export type ReclassifyApplyResult = {
 export async function applyTagReclassification(
   category: string,
   assignments: ReclassifyAssignment[],
-  requestContext?: unknown
 ): Promise<ReclassifyApplyResult> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return { updatedRows: 0, updatedItems: 0 };
 
   const normalizedCategory = category.trim();
@@ -620,42 +535,38 @@ export async function applyTagReclassification(
     return { updatedRows: 0, updatedItems: 0 };
   }
 
-  let rows: D1Result<{ person_slug: string; item: string; tags_json: string }>;
-  try {
-    rows = await db
-      .prepare(
-        `SELECT person_slug, item, tags_json
-         FROM person_items
-         WHERE tags_json LIKE ?`
-      )
-      .bind(`%"${normalizedCategory}"%`)
-      .all<{ person_slug: string; item: string; tags_json: string }>();
-  } catch {
-    return { updatedRows: 0, updatedItems: 0 };
-  }
+  const rows = await db
+    .select({
+      personSlug: schema.personItems.personSlug,
+      item: schema.personItems.item,
+      tagsJson: schema.personItems.tagsJson,
+    })
+    .from(schema.personItems)
+    .where(like(schema.personItems.tagsJson, `%"${normalizedCategory}"%`));
 
   let updatedRows = 0;
   const touchedItems = new Set<string>();
 
-  for (const row of rows.results) {
+  for (const row of rows) {
     const nextCategories = assignmentMap.get(row.item);
     if (!nextCategories) continue;
 
-    const currentTags = parseTagsJson(row.tags_json);
+    const currentTags = parseTagsJson(row.tagsJson);
     const withoutOld = currentTags.filter((entry) => entry !== normalizedCategory);
     const merged = uniqueSorted([...withoutOld, ...nextCategories]);
     const mergedJson = JSON.stringify(merged);
 
-    if (mergedJson === row.tags_json) continue;
+    if (mergedJson === row.tagsJson) continue;
 
     await db
-      .prepare(
-        `UPDATE person_items
-         SET tags_json = ?
-         WHERE person_slug = ? AND item = ?`
-      )
-      .bind(mergedJson, row.person_slug, row.item)
-      .all<never>();
+      .update(schema.personItems)
+      .set({ tagsJson: mergedJson })
+      .where(
+        and(
+          eq(schema.personItems.personSlug, row.personSlug),
+          eq(schema.personItems.item, row.item),
+        )
+      );
 
     touchedItems.add(row.item);
     updatedRows += 1;
@@ -676,11 +587,11 @@ export type MergeItemsResult = {
 };
 
 type MergeSourceRow = {
-  person_slug: string;
+  personSlug: string;
   item: string;
-  tags_json: string;
+  tagsJson: string;
   detail: string | null;
-  extracted_at: string;
+  extractedAt: string;
 };
 
 function maxIsoDate(values: string[]): string {
@@ -690,9 +601,8 @@ function maxIsoDate(values: string[]): string {
 export async function mergeItemsIntoCanonical(
   canonicalItem: string,
   sourceItems: string[],
-  requestContext?: unknown
 ): Promise<MergeItemsResult> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   const canonical = canonicalItem.trim();
   const dedupedSourceItems = uniqueSorted(
     sourceItems.map((item) => item.trim()).filter((item) => item && item !== canonical)
@@ -709,21 +619,22 @@ export async function mergeItemsIntoCanonical(
   }
 
   const targets = [canonical, ...dedupedSourceItems];
-  const placeholders = targets.map(() => '?').join(', ');
 
   const sourceResult = await db
-    .prepare(
-      `SELECT person_slug, item, tags_json, detail, extracted_at
-       FROM person_items
-       WHERE item IN (${placeholders})`
-    )
-    .bind(...targets)
-    .all<MergeSourceRow>();
+    .select({
+      personSlug: schema.personItems.personSlug,
+      item: schema.personItems.item,
+      tagsJson: schema.personItems.tagsJson,
+      detail: schema.personItems.detail,
+      extractedAt: schema.personItems.extractedAt,
+    })
+    .from(schema.personItems)
+    .where(inArray(schema.personItems.item, targets));
 
   const byPerson = new Map<string, MergeSourceRow[]>();
-  for (const row of sourceResult.results) {
-    if (!byPerson.has(row.person_slug)) byPerson.set(row.person_slug, []);
-    byPerson.get(row.person_slug)?.push(row);
+  for (const row of sourceResult) {
+    if (!byPerson.has(row.personSlug)) byPerson.set(row.personSlug, []);
+    byPerson.get(row.personSlug)?.push(row);
   }
 
   let affectedPeople = 0;
@@ -737,39 +648,40 @@ export async function mergeItemsIntoCanonical(
     affectedPeople += 1;
     const canonicalRow = rows.find((row) => row.item === canonical);
     const mergedTags = uniqueSorted(
-      rows.flatMap((row) => parseTagsJson(row.tags_json))
+      rows.flatMap((row) => parseTagsJson(row.tagsJson))
     );
     const mergedDetail =
       canonicalRow?.detail ?? sourceRows.find((row) => row.detail)?.detail ?? null;
-    const mergedExtractedAt = maxIsoDate(rows.map((row) => row.extracted_at));
+    const mergedExtractedAt = maxIsoDate(rows.map((row) => row.extractedAt));
 
     await db
-      .prepare(
-        `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-         VALUES (?, ?, ?, ?, ?)
-         ON CONFLICT(person_slug, item) DO UPDATE SET
-           tags_json=excluded.tags_json,
-           detail=COALESCE(excluded.detail, person_items.detail),
-           extracted_at=excluded.extracted_at`
-      )
-      .bind(
+      .insert(schema.personItems)
+      .values({
         personSlug,
-        canonical,
-        JSON.stringify(mergedTags),
-        mergedDetail,
-        mergedExtractedAt
-      )
-      .all<never>();
+        item: canonical,
+        tagsJson: JSON.stringify(mergedTags),
+        detail: mergedDetail,
+        extractedAt: mergedExtractedAt,
+      })
+      .onConflictDoUpdate({
+        target: [schema.personItems.personSlug, schema.personItems.item],
+        set: {
+          tagsJson: JSON.stringify(mergedTags),
+          detail: sql`COALESCE(excluded.detail, ${schema.personItems.detail})`,
+          extractedAt: mergedExtractedAt,
+        },
+      });
     upsertedRows += 1;
 
     for (const source of sourceRows) {
       await db
-        .prepare(
-          `DELETE FROM person_items
-           WHERE person_slug = ? AND item = ?`
-        )
-        .bind(personSlug, source.item)
-        .all<never>();
+        .delete(schema.personItems)
+        .where(
+          and(
+            eq(schema.personItems.personSlug, personSlug),
+            eq(schema.personItems.item, source.item),
+          )
+        );
       deletedRows += 1;
     }
   }
@@ -849,33 +761,34 @@ function classifyScrapeChangeType(
 
 export async function getRecentScrapeEvents(
   limit = 100,
-  requestContext?: unknown
 ): Promise<ScrapeEventRow[]> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return [];
 
   const safeLimit = Math.max(1, Math.min(limit, 500));
   try {
-    const result = await db
-      .prepare(
-        `SELECT id, person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, content_hash as contentHash, change_type as changeType, title
-         FROM person_page_events
-         ORDER BY fetched_at DESC
-         LIMIT ?`
-      )
-      .bind(safeLimit)
-      .all<ScrapeEventRow>();
-
-    return result.results;
+    const rows = await db
+      .select({
+        id: schema.personPageEvents.id,
+        personSlug: schema.personPageEvents.personSlug,
+        url: schema.personPageEvents.url,
+        statusCode: schema.personPageEvents.statusCode,
+        fetchedAt: schema.personPageEvents.fetchedAt,
+        contentHash: schema.personPageEvents.contentHash,
+        changeType: schema.personPageEvents.changeType,
+        title: schema.personPageEvents.title,
+      })
+      .from(schema.personPageEvents)
+      .orderBy(desc(schema.personPageEvents.fetchedAt))
+      .limit(safeLimit);
+    return rows as ScrapeEventRow[];
   } catch {
     return [];
   }
 }
 
-export async function getScrapeHistoryStats(
-  requestContext?: unknown
-): Promise<ScrapeHistoryStats> {
-  const db = await resolveD1WithFallback(requestContext);
+export async function getScrapeHistoryStats(): Promise<ScrapeHistoryStats> {
+  const db = resolveDb();
   if (!db) {
     return {
       totalEvents: 0,
@@ -889,23 +802,18 @@ export async function getScrapeHistoryStats(
     };
   }
 
-  let row:
-    | {
-        totalEvents: number | null;
-        initialEvents: number | null;
-        updatedEvents: number | null;
-        unchangedEvents: number | null;
-        errorEvents: number | null;
-        nonHtmlEvents: number | null;
-        peopleUpdated: number | null;
-        lastEventAt: string | null;
-      }
-    | null;
-
   try {
-    row = await db
-      .prepare(
-        `SELECT
+    const row = await db.get<{
+      totalEvents: number | null;
+      initialEvents: number | null;
+      updatedEvents: number | null;
+      unchangedEvents: number | null;
+      errorEvents: number | null;
+      nonHtmlEvents: number | null;
+      peopleUpdated: number | null;
+      lastEventAt: string | null;
+    }>(
+      sql`SELECT
             COUNT(*) as totalEvents,
             SUM(CASE WHEN change_type = 'initial' THEN 1 ELSE 0 END) as initialEvents,
             SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updatedEvents,
@@ -914,58 +822,49 @@ export async function getScrapeHistoryStats(
             SUM(CASE WHEN change_type = 'non_html' THEN 1 ELSE 0 END) as nonHtmlEvents,
             COUNT(DISTINCT CASE WHEN change_type = 'updated' THEN person_slug END) as peopleUpdated,
             MAX(fetched_at) as lastEventAt
-         FROM person_page_events`
-      )
-      .bind()
-      .first<{
-        totalEvents: number | null;
-        initialEvents: number | null;
-        updatedEvents: number | null;
-        unchangedEvents: number | null;
-        errorEvents: number | null;
-        nonHtmlEvents: number | null;
-        peopleUpdated: number | null;
-        lastEventAt: string | null;
-      }>();
-  } catch {
-    row = null;
-  }
+          FROM person_page_events`
+    );
 
-  return {
-    totalEvents: row?.totalEvents ?? 0,
-    initialEvents: row?.initialEvents ?? 0,
-    updatedEvents: row?.updatedEvents ?? 0,
-    unchangedEvents: row?.unchangedEvents ?? 0,
-    errorEvents: row?.errorEvents ?? 0,
-    nonHtmlEvents: row?.nonHtmlEvents ?? 0,
-    peopleUpdated: row?.peopleUpdated ?? 0,
-    lastEventAt: row?.lastEventAt ?? null,
-  };
+    return {
+      totalEvents: row?.totalEvents ?? 0,
+      initialEvents: row?.initialEvents ?? 0,
+      updatedEvents: row?.updatedEvents ?? 0,
+      unchangedEvents: row?.unchangedEvents ?? 0,
+      errorEvents: row?.errorEvents ?? 0,
+      nonHtmlEvents: row?.nonHtmlEvents ?? 0,
+      peopleUpdated: row?.peopleUpdated ?? 0,
+      lastEventAt: row?.lastEventAt ?? null,
+    };
+  } catch {
+    return {
+      totalEvents: 0,
+      initialEvents: 0,
+      updatedEvents: 0,
+      unchangedEvents: 0,
+      errorEvents: 0,
+      nonHtmlEvents: 0,
+      peopleUpdated: 0,
+      lastEventAt: null,
+    };
+  }
 }
 
-export async function getPersonScrapeHistory(
-  requestContext?: unknown
-): Promise<PersonScrapeHistoryRow[]> {
-  const db = await resolveD1WithFallback(requestContext);
+export async function getPersonScrapeHistory(): Promise<PersonScrapeHistoryRow[]> {
+  const db = resolveDb();
   if (!db) return [];
 
   try {
-    const result = await db
-      .prepare(
-        `SELECT
+    return await db.all<PersonScrapeHistoryRow>(
+      sql`SELECT
             person_slug as personSlug,
             COUNT(*) as scrapeCount,
             SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updateCount,
             MAX(fetched_at) as lastScrapedAt,
             MAX(CASE WHEN change_type IN ('initial', 'updated') THEN fetched_at END) as lastUpdatedAt
-         FROM person_page_events
-         GROUP BY person_slug
-         ORDER BY lastScrapedAt DESC`
-      )
-      .bind()
-      .all<PersonScrapeHistoryRow>();
-
-    return result.results;
+          FROM person_page_events
+          GROUP BY person_slug
+          ORDER BY lastScrapedAt DESC`
+    );
   } catch {
     return [];
   }
@@ -983,20 +882,29 @@ export type AmazonCacheRow = {
 export async function getAmazonCacheByItemKey(
   itemKey: string,
   marketplace: string,
-  requestContext?: unknown
 ): Promise<AmazonCacheRow | null> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return null;
 
   const row = await db
-    .prepare(
-      `SELECT item_key as itemKey, query, marketplace, payload_json as payloadJson, fetched_at as fetchedAt, expires_at as expiresAt
-       FROM amazon_item_cache
-       WHERE item_key = ? AND marketplace = ? AND expires_at > ?
-       LIMIT 1`
+    .select({
+      itemKey: schema.amazonItemCache.itemKey,
+      query: schema.amazonItemCache.query,
+      marketplace: schema.amazonItemCache.marketplace,
+      payloadJson: schema.amazonItemCache.payloadJson,
+      fetchedAt: schema.amazonItemCache.fetchedAt,
+      expiresAt: schema.amazonItemCache.expiresAt,
+    })
+    .from(schema.amazonItemCache)
+    .where(
+      and(
+        eq(schema.amazonItemCache.itemKey, itemKey),
+        eq(schema.amazonItemCache.marketplace, marketplace),
+        gt(schema.amazonItemCache.expiresAt, new Date().toISOString()),
+      )
     )
-    .bind(itemKey, marketplace, new Date().toISOString())
-    .first<AmazonCacheRow>();
+    .limit(1)
+    .then((rows) => rows[0] ?? null);
 
   return row;
 }
@@ -1007,25 +915,24 @@ export async function upsertAmazonCache(
   marketplace: string,
   payloadJson: string,
   expiresAt: string,
-  requestContext?: unknown
 ): Promise<void> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return;
 
   const fetchedAt = new Date().toISOString();
   await db
-    .prepare(
-      `INSERT INTO amazon_item_cache (item_key, query, marketplace, payload_json, fetched_at, expires_at)
-       VALUES (?, ?, ?, ?, ?, ?)
-       ON CONFLICT(item_key) DO UPDATE SET
-         query=excluded.query,
-         marketplace=excluded.marketplace,
-         payload_json=excluded.payload_json,
-         fetched_at=excluded.fetched_at,
-         expires_at=excluded.expires_at`
-    )
-    .bind(itemKey, query, marketplace, payloadJson, fetchedAt, expiresAt)
-    .all<never>();
+    .insert(schema.amazonItemCache)
+    .values({ itemKey, query, marketplace, payloadJson, fetchedAt, expiresAt })
+    .onConflictDoUpdate({
+      target: schema.amazonItemCache.itemKey,
+      set: {
+        query,
+        marketplace,
+        payloadJson,
+        fetchedAt,
+        expiresAt,
+      },
+    });
 }
 
 export async function upsertScrapedProfile(
@@ -1033,65 +940,239 @@ export async function upsertScrapedProfile(
   url: string,
   fetchedAt: string,
   scraped: ScrapePageResult,
-  requestContext?: unknown
 ): Promise<void> {
-  const db = await resolveD1WithFallback(requestContext);
+  const db = resolveDb();
   if (!db) return;
 
   const previous = await db
-    .prepare(
-      `SELECT content_hash as contentHash
-       FROM person_pages
-       WHERE person_slug = ?
-       LIMIT 1`
-    )
-    .bind(personSlug)
-    .first<ExistingScrapeSnapshot>();
+    .select({ contentHash: schema.personPages.contentHash })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .limit(1)
+    .then((rows) => rows[0] ?? null);
 
   await db
-    .prepare(
-      `INSERT INTO person_pages (
-        person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
-      ) VALUES (?, ?, ?, ?, ?, ?, ?)
-      ON CONFLICT(person_slug) DO UPDATE SET
-        url=excluded.url,
-        status_code=excluded.status_code,
-        fetched_at=excluded.fetched_at,
-        title=excluded.title,
-        content_markdown=excluded.content_markdown,
-        content_hash=excluded.content_hash`
-    )
-    .bind(
+    .insert(schema.personPages)
+    .values({
       personSlug,
       url,
-      scraped.statusCode,
+      statusCode: scraped.statusCode,
       fetchedAt,
-      scraped.title,
-      scraped.contentMarkdown,
-      scraped.contentHash
-    )
-    .all<never>();
+      title: scraped.title,
+      contentMarkdown: scraped.contentMarkdown,
+      contentHash: scraped.contentHash,
+    })
+    .onConflictDoUpdate({
+      target: schema.personPages.personSlug,
+      set: {
+        url,
+        statusCode: scraped.statusCode,
+        fetchedAt,
+        title: scraped.title,
+        contentMarkdown: scraped.contentMarkdown,
+        contentHash: scraped.contentHash,
+      },
+    });
 
   const changeType = classifyScrapeChangeType(previous, scraped);
 
   try {
     await db
-      .prepare(
-        `INSERT INTO person_page_events (
-          person_slug, url, status_code, fetched_at, content_hash, change_type, title
-        ) VALUES (?, ?, ?, ?, ?, ?, ?)`
-      )
-      .bind(
+      .insert(schema.personPageEvents)
+      .values({
         personSlug,
         url,
-        scraped.statusCode,
+        statusCode: scraped.statusCode,
         fetchedAt,
-        scraped.contentHash,
+        contentHash: scraped.contentHash,
         changeType,
-        scraped.title
-      )
-      .all<never>();
+        title: scraped.title,
+      });
   } catch {
     // no-op: avoid failing scrape writes when migrations are not yet applied
+  }
+}
+
+export async function getErrorPeople(): Promise<Array<{
+  personSlug: string;
+  url: string;
+  statusCode: number | null;
+  fetchedAt: string;
+  title: string | null;
+}>> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  try {
+    return await db
+      .select({
+        personSlug: schema.personPages.personSlug,
+        url: schema.personPages.url,
+        statusCode: schema.personPages.statusCode,
+        fetchedAt: schema.personPages.fetchedAt,
+        title: schema.personPages.title,
+      })
+      .from(schema.personPages)
+      .where(
+        sql`${schema.personPages.statusCode} IS NULL OR ${schema.personPages.statusCode} >= 400`
+      )
+      .orderBy(desc(schema.personPages.fetchedAt));
+  } catch {
+    return [];
+  }
+}
+
+export async function deletePersonItems(personSlug: string): Promise<void> {
+  const db = resolveDb();
+  if (!db) return;
+  await db
+    .delete(schema.personItems)
+    .where(eq(schema.personItems.personSlug, personSlug));
+}
+
+export async function insertPersonItems(
+  rows: Array<{ personSlug: string; item: string; tagsJson: string; detail: string | null; extractedAt: string }>,
+): Promise<void> {
+  const db = resolveDb();
+  if (!db || rows.length === 0) return;
+
+  for (const row of rows) {
+    await db
+      .insert(schema.personItems)
+      .values(row)
+      .onConflictDoUpdate({
+        target: [schema.personItems.personSlug, schema.personItems.item],
+        set: {
+          tagsJson: row.tagsJson,
+          detail: row.detail,
+          extractedAt: row.extractedAt,
+        },
+      });
+  }
+}
+
+export async function getScrapedContent(personSlug: string): Promise<{
+  contentMarkdown: string | null;
+  contentHash: string | null;
+} | null> {
+  const db = resolveDb();
+  if (!db) return null;
+
+  return db
+    .select({
+      contentMarkdown: schema.personPages.contentMarkdown,
+      contentHash: schema.personPages.contentHash,
+    })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .limit(1)
+    .then((rows) => rows[0] ?? null);
+}
+
+export async function getAllUniqueItems(): Promise<Array<{
+  item: string;
+  count: number;
+  tags: string[];
+}>> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  try {
+    const rows = await getAllExtractedRows();
+    const itemToPeople = new Map<string, Set<string>>();
+    const itemToTags = new Map<string, Set<string>>();
+
+    for (const row of rows) {
+      const item = row.item.trim();
+      if (!item) continue;
+      if (!itemToPeople.has(item)) itemToPeople.set(item, new Set());
+      itemToPeople.get(item)!.add(row.person_slug);
+      if (!itemToTags.has(item)) itemToTags.set(item, new Set());
+      for (const tag of parseTagsJson(row.tags_json)) {
+        itemToTags.get(item)!.add(tag.trim());
+      }
+    }
+
+    return [...itemToPeople.entries()]
+      .map(([item, people]) => ({
+        item,
+        count: people.size,
+        tags: uniqueSorted(itemToTags.get(item) ?? []),
+      }))
+      .sort((a, b) => b.count - a.count);
+  } catch {
+    return [];
+  }
+}
+
+export async function getItemEnrichment(itemSlug: string): Promise<{
+  itemType: string | null;
+  description: string | null;
+  itemUrl: string | null;
+  enrichedAt: string | null;
+} | null> {
+  const db = resolveDb();
+  if (!db) return null;
+
+  return db
+    .select({
+      itemType: schema.items.itemType,
+      description: schema.items.description,
+      itemUrl: schema.items.itemUrl,
+      enrichedAt: schema.items.enrichedAt,
+    })
+    .from(schema.items)
+    .where(eq(schema.items.itemSlug, itemSlug))
+    .limit(1)
+    .then((rows) => rows[0] ?? null);
+}
+
+export async function upsertItemEnrichment(
+  itemSlug: string,
+  itemName: string,
+  data: { itemType?: string | null; description?: string | null; itemUrl?: string | null },
+): Promise<void> {
+  const db = resolveDb();
+  if (!db) return;
+
+  await db
+    .insert(schema.items)
+    .values({
+      itemSlug,
+      itemName,
+      itemType: data.itemType ?? null,
+      description: data.description ?? null,
+      itemUrl: data.itemUrl ?? null,
+      enrichedAt: new Date().toISOString(),
+    })
+    .onConflictDoUpdate({
+      target: schema.items.itemSlug,
+      set: {
+        itemName,
+        itemType: data.itemType ?? null,
+        description: data.description ?? null,
+        itemUrl: data.itemUrl ?? null,
+        enrichedAt: new Date().toISOString(),
+      },
+    });
+}
+
+export async function getAllItemEnrichments(): Promise<Array<{
+  itemSlug: string;
+  itemName: string;
+  itemType: string | null;
+  description: string | null;
+  itemUrl: string | null;
+  enrichedAt: string | null;
+}>> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  try {
+    return await db
+      .select()
+      .from(schema.items);
+  } catch {
+    return [];
   }
 }

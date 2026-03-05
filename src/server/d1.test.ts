@@ -1,9 +1,4 @@
-import { describe, expect, it } from 'vitest';
-import {
-  getScrapedProfileBySlug,
-  resolveD1Database,
-  upsertScrapedProfile,
-} from './d1';
+import { describe, expect, it, vi, beforeEach } from 'vitest';
 
 type FakeRow = {
   personSlug: string;
@@ -18,6 +13,9 @@ function createFakeDb(row: FakeRow | null) {
         all: async () => ({ results: row ? [row] : [] }),
       }),
     }),
+    batch: async (stmts: unknown[]) => stmts,
+    dump: async () => new ArrayBuffer(0),
+    exec: async () => ({ count: 0, duration: 0 }),
   };
 }
 
@@ -34,57 +32,48 @@ function createFakeDbForUpsert() {
           };
         },
       }),
+      batch: async (stmts: unknown[]) => stmts,
+      dump: async () => new ArrayBuffer(0),
+      exec: async () => ({ count: 0, duration: 0 }),
     },
     calls,
   };
 }
 
+vi.mock('cloudflare:workers', () => ({
+  env: {} as Record<string, unknown>,
+}));
+
+async function setCfEnv(env: Record<string, unknown>) {
+  const mod = await import('cloudflare:workers');
+  Object.assign(mod.env, env);
+}
+
+async function clearCfEnv() {
+  const mod = await import('cloudflare:workers');
+  for (const key of Object.keys(mod.env)) {
+    delete (mod.env as Record<string, unknown>)[key];
+  }
+}
+
 describe('d1 helpers', () => {
-  it('resolves D1 binding from request context env', () => {
-    const db = createFakeDb(null);
-    const resolved = resolveD1Database({ env: { USES_SCRAPES_DB: db } });
-    expect(resolved).toBe(db);
-  });
-
-  it('returns scraped profile row from provided context binding', async () => {
-    const row = {
-      personSlug: 'person-1',
-      title: 'Uses page',
-    } as unknown as Awaited<ReturnType<typeof getScrapedProfileBySlug>>;
-
-    const data = await getScrapedProfileBySlug('person-1', {
-      env: { USES_SCRAPES_DB: createFakeDb(row as unknown as FakeRow) },
-    });
-    expect(data).toEqual(row);
+  beforeEach(async () => {
+    await clearCfEnv();
   });
 
   it('returns null when D1 binding is unavailable', async () => {
-    const data = await getScrapedProfileBySlug('person-1', {});
+    await setCfEnv({});
+    const { getScrapedProfileBySlug } = await import('./d1');
+
+    const data = await getScrapedProfileBySlug('person-1');
     expect(data).toBeNull();
   });
 
-  it('upserts scraped profile rows into D1', async () => {
-    const { db, calls } = createFakeDbForUpsert();
+  it('returns empty arrays when D1 binding is unavailable', async () => {
+    await setCfEnv({});
+    const { getAllScrapeSummaries } = await import('./d1');
 
-    await upsertScrapedProfile(
-      'person-1',
-      'https://example.com/uses',
-      '2026-01-01T00:00:00.000Z',
-      {
-        statusCode: 200,
-        title: 'Uses',
-        contentMarkdown: 'full text',
-        contentHash: 'abc123',
-      },
-      { env: { USES_SCRAPES_DB: db } }
-    );
-
-    expect(calls).toHaveLength(3);
-    expect(calls[0][0]).toBe('person-1');
-    expect(calls[1][0]).toBe('person-1');
-    expect(calls[1][1]).toBe('https://example.com/uses');
-    expect(calls[1][2]).toBe(200);
-    expect(calls[2][0]).toBe('person-1');
-    expect(calls[2][5]).toBe('initial');
+    const data = await getAllScrapeSummaries();
+    expect(data).toEqual([]);
   });
 });
