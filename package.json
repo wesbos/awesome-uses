@@ -49,6 +49,7 @@
     "extract": "tsx --env-file .env ./scripts/extract-items.ts",
     "review": "tsx ./scripts/review-extraction.ts",
     "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
+    "merge-dupes": "tsx ./scripts/merge-duplicates.ts",
     "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts"
   },
   "devDependencies": {

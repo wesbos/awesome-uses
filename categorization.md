@@ -127,6 +127,10 @@ pnpm reclassify -- --limit 10                   # test with 10 items
 pnpm reclassify -- --apply                      # apply changes to D1
 pnpm reclassify -- --category extension --min 3 # target a different category
 pnpm reclassify -- --prompt "Are any of these actually frameworks or languages?"
+
+# Merge case-duplicates: combine "CalDigit" + "Caldigit", "Logitech BRIO" + "Logitech Brio", etc.
+pnpm merge-dupes                                # dry run — shows what would merge
+pnpm merge-dupes -- --apply                     # apply merges to D1
 ```
 
 ### Reclassify flags
@@ -146,4 +150,5 @@ pnpm reclassify -- --prompt "Are any of these actually frameworks or languages?"
 - `scripts/lib/normalize-items.ts` — post-LLM normalization (name cleanup, category merges, banned category stripping)
 - `scripts/extract-items.ts` — main extraction script (uses `p-limit` for concurrency, default 10)
 - `scripts/reclassify.ts` — reclassify items from one category into better ones via LLM
+- `scripts/merge-duplicates.ts` — merge case-duplicate item names (e.g. "CalDigit" vs "Caldigit")
 - `scripts/review-extraction.ts` — review script for checking extraction quality

@@ -1,9 +1,81 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { $getTagSummaries, type TagSummaryWithFaces } from '../server/functions';
+import {
+  $getTagSummaries,
+  type TagSummaryWithFaces,
+  type TagItemWithFaces,
+} from '../server/functions';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';
+
+type Face = { name: string; avatarUrl: string };
+
+type GroupedItem =
+  | { kind: 'single'; item: TagItemWithFaces }
+  | { kind: 'group'; prefix: string; totalCount: number; children: TagItemWithFaces[] };
+
+function deduplicateFaces(faces: Face[]): Face[] {
+  const seen = new Set<string>();
+  return faces.filter((f) => {
+    if (seen.has(f.name)) return false;
+    seen.add(f.name);
+    return true;
+  });
+}
+
+function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
+  const prefixCounts = new Map<string, number>();
+  for (const { item } of items) {
+    const spaceIdx = item.indexOf(' ');
+    if (spaceIdx === -1) continue;
+    const prefix = item.slice(0, spaceIdx);
+    prefixCounts.set(prefix, (prefixCounts.get(prefix) ?? 0) + 1);
+  }
+
+  const groupPrefixes = new Set(
+    [...prefixCounts.entries()]
+      .filter(([, count]) => count >= 2)
+      .map(([prefix]) => prefix),
+  );
+
+  const result: GroupedItem[] = [];
+  const seen = new Set<string>();
+  const consumed = new Set<string>();
+
+  for (const entry of items) {
+    const spaceIdx = entry.item.indexOf(' ');
+    const prefix = spaceIdx !== -1 ? entry.item.slice(0, spaceIdx) : null;
+
+    if (prefix && groupPrefixes.has(prefix)) {
+      if (seen.has(prefix)) continue;
+      seen.add(prefix);
+
+      const children = items.filter(
+        (i) => i.item === prefix || i.item.startsWith(prefix + ' '),
+      );
+      for (const c of children) consumed.add(c.item);
+      const totalCount = children.reduce((sum, c) => sum + c.count, 0);
+      result.push({ kind: 'group', prefix, totalCount, children });
+    } else if (entry.item === prefix || consumed.has(entry.item)) {
+      continue;
+    } else if (!prefix && groupPrefixes.has(entry.item)) {
+      if (seen.has(entry.item)) continue;
+      seen.add(entry.item);
+
+      const children = items.filter(
+        (i) => i.item === entry.item || i.item.startsWith(entry.item + ' '),
+      );
+      for (const c of children) consumed.add(c.item);
+      const totalCount = children.reduce((sum, c) => sum + c.count, 0);
+      result.push({ kind: 'group', prefix: entry.item, totalCount, children });
+    } else {
+      result.push({ kind: 'single', item: entry });
+    }
+  }
+
+  return result;
+}
 
 export const Route = createFileRoute('/tags')({
   component: TagsPage,
@@ -69,6 +141,8 @@ function TagsPage() {
 }
 
 function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
+  const grouped = groupByBrand(tag.topItems);
+
   return (
     <Card>
       <CardHeader className="pb-3">
@@ -80,16 +154,52 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
         </div>
       </CardHeader>
       <CardContent>
-        <ol className="space-y-2 text-sm">
-          {tag.topItems.map(({ item, count, faces }) => (
-            <li key={item} className="flex items-center justify-between gap-2">
-              <span className="truncate">
-                {item}{' '}
-                <span className="text-muted-foreground">({count})</span>
-              </span>
-              <FacePile faces={faces} max={4} />
-            </li>
-          ))}
+        <ol className="space-y-1.5 text-sm">
+          {grouped.map((entry) =>
+            entry.kind === 'single' ? (
+              <li
+                key={entry.item.item}
+                className="flex items-center justify-between gap-2"
+              >
+                <span className="truncate">
+                  {entry.item.item}{' '}
+                  <span className="text-muted-foreground">
+                    ({entry.item.count})
+                  </span>
+                </span>
+                <FacePile faces={entry.item.faces} max={4} />
+              </li>
+            ) : (
+              <li key={entry.prefix}>
+                <div className="flex items-center justify-between gap-2 font-medium">
+                  <span className="truncate">{entry.prefix}</span>
+                  <div className="flex items-center gap-2 shrink-0">
+                    <FacePile
+                      faces={deduplicateFaces(entry.children.flatMap((c) => c.faces))}
+                      max={4}
+                    />
+                    <span className="text-muted-foreground text-xs">
+                      {entry.totalCount}
+                    </span>
+                  </div>
+                </div>
+                <ol className="pl-3 mt-1 space-y-0.5 border-l border-border">
+                  {entry.children.map((child) => (
+                    <li
+                      key={child.item}
+                      className="flex items-center justify-between gap-2 text-muted-foreground"
+                    >
+                      <span className="truncate">
+                        {child.item.slice(entry.prefix.length + 1) ||
+                          `${child.item}`}
+                      </span>
+                      <span className="text-xs shrink-0">({child.count})</span>
+                    </li>
+                  ))}
+                </ol>
+              </li>
+            ),
+          )}
         </ol>
       </CardContent>
     </Card>
