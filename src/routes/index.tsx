@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { Link, createFileRoute } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
 import Facts from '../components/Facts';
 import PeopleGrid from '../components/PeopleGrid';
@@ -47,9 +47,7 @@ function IndexPage() {
           </p>
           <span className="text-border">|</span>
           <Button asChild size="sm">
-            <a href="https://github.com/wesbos/awesome-uses#adding-yourself">
-              Add yours
-            </a>
+            <Link to="/add">Add yours</Link>
           </Button>
         </div>
       </section>
