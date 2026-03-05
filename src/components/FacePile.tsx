@@ -10,6 +10,7 @@ type FacePileProps = {
 export function FacePile({ faces, max = 4, size = 'sm' }: FacePileProps) {
   const visible = faces.slice(0, max);
   const overflow = faces.length - max;
+  const hidden = faces.slice(max);
 
   const sizeClasses = {
     sm: 'h-6 w-6 text-[9px]',
@@ -23,7 +24,6 @@ export function FacePile({ faces, max = 4, size = 'sm' }: FacePileProps) {
           key={`${face.personSlug}-${i}`}
           to="/people/$personSlug"
           params={{ personSlug: face.personSlug }}
-          title={face.name}
           aria-label={face.name}
           className={cn(
             'rounded-full border-2 border-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-1',
@@ -33,6 +33,7 @@ export function FacePile({ faces, max = 4, size = 'sm' }: FacePileProps) {
           <img
             src={face.avatarUrl}
             alt={face.name}
+            title={face.name}
             loading="lazy"
             className={cn(
               'rounded-full object-cover',
@@ -43,6 +44,7 @@ export function FacePile({ faces, max = 4, size = 'sm' }: FacePileProps) {
       ))}
       {overflow > 0 && (
         <span
+          title={hidden.map((f) => f.name).join(', ')}
           className={cn(
             'flex items-center justify-center rounded-full border-2 border-background bg-muted text-muted-foreground font-medium -ml-2',
             sizeClasses[size],
