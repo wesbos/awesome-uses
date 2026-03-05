@@ -1,3 +1,4 @@
+build/
 # Logs
 logs
 *.log
@@ -54,9 +55,7 @@ typings/
 # dotenv environment variable files
 .env*
 
-# gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
@@ -78,3 +77,6 @@ haters/
 
 .idea/
 .history/
+
+# Local Netlify folder
+.netlify

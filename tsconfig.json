@@ -1,0 +1,19 @@
+{
+  "include": ["remix.env.d.ts", "./**/*", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "esnext",
+    "baseUrl": ".",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "resolveJsonModule": true
+  }
+}
