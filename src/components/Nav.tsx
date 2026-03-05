@@ -4,9 +4,11 @@ import { cn } from '@/lib/utils';
 const NAV_ITEMS = [
   { href: '/', label: 'Home' },
   { href: '/tags', label: 'Tags' },
+  { href: '/uses', label: '/uses uses' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/items-dashboard', label: 'Items' },
   { href: '/wall-of-shame', label: 'Wall of Shame' },
+  { href: '/add', label: 'Add Yours' },
 ];
 
 export default function Nav() {
