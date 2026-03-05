@@ -1,5 +1,5 @@
 import { Link, Outlet, createFileRoute, useLocation } from '@tanstack/react-router';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import {
   $getTagSummaries,
   type TagSummaryWithFaces,
@@ -9,6 +9,8 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';
 import { HIDDEN_TAGS } from '@/lib/constants';
+import { ItemIcon } from '@/components/ItemIcon';
+import { buildMeta, SITE_URL } from '../lib/seo';
 
 type Face = { personSlug: string; name: string; avatarUrl: string };
 
@@ -82,6 +84,18 @@ function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
 }
 
 export const Route = createFileRoute('/tags')({
+  head: ({ loaderData }) => {
+    const count = loaderData?.tags?.length ?? 0;
+    return buildMeta({
+      title: 'Tags',
+      description: `Browse ${count} extracted tags across developer /uses pages.`,
+      canonical: `${SITE_URL}/tags`,
+    });
+  },
+  loader: async () => {
+    const tags = await $getTagSummaries();
+    return { tags };
+  },
   component: TagsPage,
 });
 
@@ -91,27 +105,9 @@ function TagsPage() {
     return <Outlet />;
   }
 
-  const [tags, setTags] = useState<TagSummaryWithFaces[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { tags } = Route.useLoaderData();
   const [search, setSearch] = useState('');
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const result = await $getTagSummaries();
-        if (!cancelled) setTags(result);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading tags...</p>;
   if (tags.length === 0)
     return (
       <p className="text-muted-foreground">
@@ -179,7 +175,8 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                 key={entry.item.item}
                 className="flex items-center justify-between gap-2"
               >
-                <span className="truncate">
+                <span className="truncate inline-flex items-center gap-1">
+                  <ItemIcon itemSlug={entry.item.itemSlug} />
                   <Link
                     to="/items/$itemSlug"
                     params={{ itemSlug: entry.item.itemSlug }}
@@ -213,7 +210,8 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                       key={child.item}
                       className="flex items-center justify-between gap-2 text-muted-foreground"
                     >
-                      <span className="truncate">
+                      <span className="truncate inline-flex items-center gap-1">
+                        <ItemIcon itemSlug={child.itemSlug} />
                         <Link
                           to="/items/$itemSlug"
                           params={{ itemSlug: child.itemSlug }}

@@ -1,12 +1,25 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import { useEffect } from 'react';
 import { FacePile } from '@/components/FacePile';
+import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { getCompanyLogo } from '@/lib/company-logos';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { $getItemDetail, $trackView, type ItemDetailWithFaces } from '../server/functions';
+import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/items/$itemSlug')({
+  head: ({ loaderData }) => {
+    if (!loaderData?.detail) return { meta: [] };
+    const { detail } = loaderData;
+    const desc = detail.description || `${detail.item} — used by ${detail.totalPeople} developers.`;
+    return buildMeta({
+      title: `${detail.item}`,
+      description: desc,
+      ogImage: ogImageUrl({ title: detail.item, subtitle: `Used by ${detail.totalPeople} developers` }),
+      canonical: `${SITE_URL}/items/${detail.itemSlug}`,
+    });
+  },
   loader: async ({ params }) => {
     const detail = await $getItemDetail({ data: params.itemSlug });
     if (!detail) {
@@ -74,7 +87,11 @@ function ItemDetailPage() {
         </CardHeader>
         <CardContent>
           {detail.faces.length > 0 ? (
-            <FacePile faces={detail.faces} max={50} size="md" />
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {detail.faces.map((face) => (
+                <PersonMiniCard key={face.personSlug} face={face} />
+              ))}
+            </div>
           ) : (
             <p className="text-sm text-muted-foreground">No people found.</p>
           )}

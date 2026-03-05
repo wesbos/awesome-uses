@@ -10,8 +10,19 @@ import {
   getPeopleForLikeTag,
 } from '../../lib/data';
 import { $trackView } from '../../server/functions';
+import { buildMeta, SITE_URL, ogImageUrl } from '../../lib/seo';
 
 export const Route = createFileRoute('/like/$tag')({
+  head: ({ loaderData }) => {
+    const tag = loaderData?.activeTagName || loaderData?.rawTag || '';
+    const count = loaderData?.totalPeople ?? 0;
+    return buildMeta({
+      title: `Developers using ${tag}`,
+      description: `${count} developers who use ${tag} in their setup.`,
+      ogImage: ogImageUrl({ title: tag, subtitle: `${count} developers` }),
+      canonical: `${SITE_URL}/like/${encodeURIComponent(tag)}`,
+    });
+  },
   loader: ({ params }) => {
     const { people, rawTag, activeTagName } = getPeopleForLikeTag(params.tag);
     return {

@@ -4,8 +4,18 @@ import { FacePile } from '@/components/FacePile';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getTagBySlug } from '../lib/data';
 import { $getTagDetail, $trackView, type TagDetailWithFaces } from '../server/functions';
+import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/tags/$tagSlug')({
+  head: ({ params }) => {
+    const tagName = params.tagSlug.replace(/-/g, ' ');
+    return buildMeta({
+      title: tagName,
+      description: `Developers and tools tagged with "${tagName}".`,
+      ogImage: ogImageUrl({ title: tagName, subtitle: 'Tag' }),
+      canonical: `${SITE_URL}/tags/${params.tagSlug}`,
+    });
+  },
   component: TagDetailPage,
 });
 
