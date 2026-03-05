@@ -26,6 +26,10 @@ type ScrapeOptions = {
   personFilter?: string;
 };
 
+type ExistingScrapeRow = {
+  contentHash: string | null;
+};
+
 function parseArgs(argv: string[]): ScrapeOptions {
   const readStringFlag = (flag: string): string | undefined => {
     const index = argv.indexOf(flag);
@@ -133,21 +137,92 @@ async function execD1(dbName: string, sql: string, remote: boolean): Promise<voi
   }
 }
 
+async function queryD1<T>(
+  dbName: string,
+  sql: string,
+  remote: boolean
+): Promise<T[]> {
+  const args = ['wrangler', 'd1', 'execute', dbName, '--json', '--command', sql];
+  if (remote) {
+    args.push('--remote');
+  } else {
+    args.push('--local');
+  }
+
+  const { stdout } = await execFileAsync('npx', args, {
+    cwd: process.cwd(),
+    maxBuffer: 50 * 1024 * 1024,
+  });
+
+  const parsed = JSON.parse(stdout);
+  return parsed[0]?.results ?? [];
+}
+
 async function ensureSchema(dbName: string, remote: boolean) {
-  const schemaSql = `CREATE TABLE IF NOT EXISTS person_pages (
-    person_slug TEXT PRIMARY KEY,
-    url TEXT NOT NULL,
-    status_code INTEGER,
-    fetched_at TEXT NOT NULL,
-    title TEXT,
-    content_markdown TEXT,
-    content_hash TEXT
-  );`;
+  const schemaSql = `
+    CREATE TABLE IF NOT EXISTS person_pages (
+      person_slug TEXT PRIMARY KEY,
+      url TEXT NOT NULL,
+      status_code INTEGER,
+      fetched_at TEXT NOT NULL,
+      title TEXT,
+      content_markdown TEXT,
+      content_hash TEXT
+    );
+
+    CREATE TABLE IF NOT EXISTS person_page_events (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      person_slug TEXT NOT NULL,
+      url TEXT NOT NULL,
+      status_code INTEGER,
+      fetched_at TEXT NOT NULL,
+      content_hash TEXT,
+      change_type TEXT NOT NULL,
+      title TEXT
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_person_pages_fetched_at
+      ON person_pages(fetched_at DESC);
+
+    CREATE INDEX IF NOT EXISTS idx_person_page_events_person_fetched
+      ON person_page_events(person_slug, fetched_at DESC);
+
+    CREATE INDEX IF NOT EXISTS idx_person_page_events_change_type_fetched
+      ON person_page_events(change_type, fetched_at DESC);
+  `;
   await execD1(dbName, schemaSql, remote);
 }
 
+function classifyScrapeChangeType(
+  previousContentHash: string | null,
+  row: ScrapeRecord
+): 'initial' | 'updated' | 'unchanged' | 'error' | 'non_html' {
+  if (row.statusCode === null || row.statusCode >= 400) {
+    return 'error';
+  }
+  if (!row.contentMarkdown) {
+    return 'non_html';
+  }
+  if (!previousContentHash) {
+    return 'initial';
+  }
+  if (previousContentHash !== row.contentHash) {
+    return 'updated';
+  }
+  return 'unchanged';
+}
+
 async function upsertScrape(dbName: string, remote: boolean, row: ScrapeRecord) {
-  const sql = `INSERT INTO person_pages (
+  const previousRows = await queryD1<ExistingScrapeRow>(
+    dbName,
+    `SELECT content_hash as contentHash FROM person_pages WHERE person_slug = ${sqlValue(row.personSlug)} LIMIT 1`,
+    remote
+  );
+  const previousContentHash = previousRows[0]?.contentHash ?? null;
+  const changeType = classifyScrapeChangeType(previousContentHash, row);
+
+  const sql = `
+  INSERT INTO person_pages (
     person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
   ) VALUES (
     ${sqlValue(row.personSlug)},
@@ -164,7 +239,20 @@ async function upsertScrape(dbName: string, remote: boolean, row: ScrapeRecord) 
     fetched_at=excluded.fetched_at,
     title=excluded.title,
     content_markdown=excluded.content_markdown,
-    content_hash=excluded.content_hash;`;
+    content_hash=excluded.content_hash;
+
+  INSERT INTO person_page_events (
+    person_slug, url, status_code, fetched_at, content_hash, change_type, title
+  ) VALUES (
+    ${sqlValue(row.personSlug)},
+    ${sqlValue(row.url)},
+    ${sqlValue(row.statusCode)},
+    ${sqlValue(row.fetchedAt)},
+    ${sqlValue(row.contentHash)},
+    ${sqlValue(changeType)},
+    ${sqlValue(row.title)}
+  );
+  `;
 
   await execD1(dbName, sql, remote);
 }

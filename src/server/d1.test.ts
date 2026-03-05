@@ -79,9 +79,12 @@ describe('d1 helpers', () => {
       { env: { USES_SCRAPES_DB: db } }
     );
 
-    expect(calls).toHaveLength(1);
+    expect(calls).toHaveLength(3);
     expect(calls[0][0]).toBe('person-1');
-    expect(calls[0][1]).toBe('https://example.com/uses');
-    expect(calls[0][2]).toBe(200);
+    expect(calls[1][0]).toBe('person-1');
+    expect(calls[1][1]).toBe('https://example.com/uses');
+    expect(calls[1][2]).toBe(200);
+    expect(calls[2][0]).toBe('person-1');
+    expect(calls[2][5]).toBe('initial');
   });
 });
