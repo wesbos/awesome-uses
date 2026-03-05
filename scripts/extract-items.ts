@@ -4,7 +4,9 @@ import { writeFile, unlink } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { randomBytes } from 'node:crypto';
+import pLimit from 'p-limit';
 import { createOpenAIClient, DEFAULT_MODEL, extractItemsFromMarkdown } from './lib/ai';
+import { normalizeItems } from './lib/normalize-items';
 import { sqlValue } from './lib/scrape';
 
 const execFileAsync = promisify(execFile);
@@ -27,7 +29,7 @@ function parseArgs(argv: string[]) {
   };
 
   return {
-    concurrency: readFlag('--concurrency', 5),
+    concurrency: readFlag('--concurrency', 10),
     limit: readFlag('--limit', Infinity),
     model: readStringFlag('--model') || DEFAULT_MODEL,
     remote: argv.includes('--remote'),
@@ -63,6 +65,7 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const client = createOpenAIClient();
   const extractedAt = new Date().toISOString();
+  const limit = pLimit(options.concurrency);
 
   let whereClause = "WHERE content_markdown IS NOT NULL AND content_markdown != ''";
   if (options.person) {
@@ -92,19 +95,17 @@ async function main() {
   let totalItems = 0;
   let processed = 0;
   let errors = 0;
-  let nextIndex = 0;
 
-  async function worker() {
-    while (nextIndex < rows.length) {
-      const idx = nextIndex++;
-      const row = rows[idx];
+  const tasks = rows.map((row, idx) =>
+    limit(async () => {
       try {
         const result = await extractItemsFromMarkdown(client, row.contentMarkdown, options.model);
+        const normalized = normalizeItems(result.items);
 
-        if (result.items.length > 0) {
-          const statements = result.items.map((item) =>
+        if (normalized.length > 0) {
+          const statements = normalized.map((item) =>
             `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-             VALUES (${sqlValue(row.personSlug)}, ${sqlValue(item.item)}, ${sqlValue(JSON.stringify(item.tags))}, ${sqlValue(item.detail)}, ${sqlValue(extractedAt)})
+             VALUES (${sqlValue(row.personSlug)}, ${sqlValue(item.item)}, ${sqlValue(JSON.stringify(item.categories))}, ${sqlValue(item.detail)}, ${sqlValue(extractedAt)})
              ON CONFLICT(person_slug, item) DO UPDATE SET
                tags_json=excluded.tags_json,
                detail=excluded.detail,
@@ -112,12 +113,12 @@ async function main() {
           );
 
           await execD1(options.dbName, statements.join('\n'), options.remote);
-          totalItems += result.items.length;
+          totalItems += normalized.length;
         }
 
         processed++;
         console.log(
-          `${String(idx + 1).padStart(4)} [${result.items.length} items] ${row.personSlug}`
+          `${String(idx + 1).padStart(4)} [${normalized.length} items] ${row.personSlug}`
         );
       } catch (err) {
         errors++;
@@ -125,12 +126,10 @@ async function main() {
           `${String(idx + 1).padStart(4)} [ERROR] ${row.personSlug}: ${err instanceof Error ? err.message : err}`
         );
       }
-    }
-  }
-
-  await Promise.all(
-    Array.from({ length: Math.min(options.concurrency, rows.length) }, () => worker())
+    })
   );
+
+  await Promise.all(tasks);
 
   console.log(`\nDone. Processed: ${processed}, Items extracted: ${totalItems}, Errors: ${errors}`);
 }

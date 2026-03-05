@@ -24,6 +24,7 @@
     "joi": "^17.8.1",
     "lucide-react": "^0.577.0",
     "openai": "^6.25.0",
+    "p-limit": "^7.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwind-merge": "^3.5.0",
@@ -46,6 +47,8 @@
     "discover": "tsx --env-file .env ./scripts/discover-categories.ts",
     "canonicalize": "tsx ./scripts/canonicalize-tags.ts",
     "extract": "tsx --env-file .env ./scripts/extract-items.ts",
+    "review": "tsx ./scripts/review-extraction.ts",
+    "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
     "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts"
   },
   "devDependencies": {
