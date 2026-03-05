@@ -7,6 +7,7 @@ import type {
   DeviceSummary,
   Device,
   DirectoryData,
+  DirectoryFacts,
   DirectoryFilters,
   Person,
   PersonRecord,
@@ -315,6 +316,47 @@ export function getDirectoryData(filters: DirectoryFilters): DirectoryData {
     tags: TAGS,
     countries: COUNTRIES,
     devices: DEVICES,
+  };
+}
+
+export function getDirectoryFacts(): DirectoryFacts {
+  const byNameLength = [...PEOPLE].sort(
+    (a, b) => a.name.trim().length - b.name.trim().length
+  );
+  const shortestName = byNameLength[0];
+  const longestName = byNameLength[byNameLength.length - 1];
+
+  const withDomains = PEOPLE.map((p) => {
+    const host = new URL(p.url).hostname.replace(/^www\./, '');
+    return { domain: host, personSlug: p.personSlug, name: p.name };
+  }).sort((a, b) => a.domain.length - b.domain.length);
+  const shortestDomain = withDomains[0];
+  const longestDomain = withDomains[withDomains.length - 1];
+
+  const tldCounts = new Map<string, number>();
+  for (const p of PEOPLE) {
+    const host = new URL(p.url).hostname;
+    const tld = '.' + host.split('.').pop();
+    tldCounts.set(tld, (tldCounts.get(tld) || 0) + 1);
+  }
+  const sortedTlds = [...tldCounts.entries()]
+    .map(([tld, count]) => ({ tld, count }))
+    .sort((a, b) => b.count - a.count);
+  const topTlds = sortedTlds.slice(0, 5);
+  const bottomTlds = sortedTlds
+    .slice(-5)
+    .reverse();
+
+  const topTags = TAGS.slice(0, 5).map((t) => ({ name: t.name, count: t.count }));
+
+  return {
+    shortestName: { name: shortestName.name, personSlug: shortestName.personSlug },
+    longestName: { name: longestName.name, personSlug: longestName.personSlug },
+    shortestDomain,
+    longestDomain,
+    topTlds,
+    bottomTlds,
+    topTags,
   };
 }
 

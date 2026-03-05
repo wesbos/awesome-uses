@@ -13,7 +13,10 @@ export default function Footer() {
         <a href="https://github.com/wesbos/awesome-uses/" className="underline hover:text-foreground transition-colors">
           GitHub
         </a>
-        . Add yourself!
+        .{' '}
+        <a href="/add" className="underline hover:text-foreground transition-colors">
+          Add yourself!
+        </a>
       </p>
       <p>
         Domain provided by{' '}

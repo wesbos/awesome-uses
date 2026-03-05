@@ -411,32 +411,28 @@ export async function searchItems(
   query: string,
 ): Promise<ItemSearchResult[]> {
   const db = resolveDb();
-  if (!db) return [];
+  if (!db) throw new Error('Database not available (D1 binding missing)');
 
   const trimmed = query.trim();
   if (!trimmed) return [];
 
-  try {
-    const rows = await db
-      .select({
-        item: schema.personItems.item,
-        count: sql<number>`COUNT(DISTINCT ${schema.personItems.personSlug})`,
-      })
-      .from(schema.personItems)
-      .where(like(schema.personItems.item, `%${trimmed}%`))
-      .groupBy(schema.personItems.item)
-      .orderBy(sql`count DESC`, asc(schema.personItems.item))
-      .limit(25);
+  const rows = await db
+    .select({
+      item: schema.personItems.item,
+      count: sql<number>`COUNT(DISTINCT ${schema.personItems.personSlug})`,
+    })
+    .from(schema.personItems)
+    .where(like(schema.personItems.item, `%${trimmed}%`))
+    .groupBy(schema.personItems.item)
+    .orderBy(sql`count DESC`, asc(schema.personItems.item))
+    .limit(25);
 
-    const usedItemSlugs = new Set<string>();
-    return rows.map((row) => ({
-      item: row.item,
-      itemSlug: buildUniqueSlug(row.item, usedItemSlugs, 'item'),
-      count: row.count,
-    }));
-  } catch {
-    return [];
-  }
+  const usedItemSlugs = new Set<string>();
+  return rows.map((row) => ({
+    item: row.item,
+    itemSlug: buildUniqueSlug(row.item, usedItemSlugs, 'item'),
+    count: row.count,
+  }));
 }
 
 export async function getExtractedCategories(): Promise<string[]> {
@@ -603,19 +599,17 @@ export async function mergeItemsIntoCanonical(
   sourceItems: string[],
 ): Promise<MergeItemsResult> {
   const db = resolveDb();
+  if (!db) throw new Error('Database not available (D1 binding missing)');
+
   const canonical = canonicalItem.trim();
+  if (!canonical) throw new Error('Canonical item name is required');
+
   const dedupedSourceItems = uniqueSorted(
     sourceItems.map((item) => item.trim()).filter((item) => item && item !== canonical)
   );
 
-  if (!db || !canonical || dedupedSourceItems.length === 0) {
-    return {
-      canonicalItem: canonical,
-      mergedItems: dedupedSourceItems,
-      affectedPeople: 0,
-      upsertedRows: 0,
-      deletedRows: 0,
-    };
+  if (dedupedSourceItems.length === 0) {
+    throw new Error('At least one source item to merge is required');
   }
 
   const targets = [canonical, ...dedupedSourceItems];

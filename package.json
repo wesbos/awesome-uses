@@ -52,6 +52,7 @@
     "review": "tsx ./scripts/review-extraction.ts",
     "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
     "merge-dupes": "tsx ./scripts/merge-duplicates.ts",
+    "vectorize": "tsx --env-file .env ./scripts/vectorize-profiles.ts",
     "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts",
     "db:studio": "drizzle-kit studio",
     "db:generate": "drizzle-kit generate",

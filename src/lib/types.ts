@@ -81,3 +81,18 @@ export type ScrapedProfileData = {
   title: string | null;
   contentMarkdown: string | null;
 };
+
+export type NameFact = { name: string; personSlug: string };
+export type DomainFact = { domain: string; personSlug: string; name: string };
+export type TldFact = { tld: string; count: number };
+export type TagFact = { name: string; count: number };
+
+export type DirectoryFacts = {
+  shortestName: NameFact;
+  longestName: NameFact;
+  shortestDomain: DomainFact;
+  longestDomain: DomainFact;
+  topTlds: TldFact[];
+  bottomTlds: TldFact[];
+  topTags: TagFact[];
+};

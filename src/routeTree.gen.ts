@@ -10,9 +10,12 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as WallOfShameRouteImport } from './routes/wall-of-shame'
+import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
+import { Route as OgRouteImport } from './routes/og'
 import { Route as ItemsDashboardRouteImport } from './routes/items-dashboard'
 import { Route as DashboardRouteImport } from './routes/dashboard'
+import { Route as AddRouteImport } from './routes/add'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
@@ -24,9 +27,19 @@ const WallOfShameRoute = WallOfShameRouteImport.update({
   path: '/wall-of-shame',
   getParentRoute: () => rootRouteImport,
 } as any)
+const UsesRoute = UsesRouteImport.update({
+  id: '/uses',
+  path: '/uses',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TagsRoute = TagsRouteImport.update({
   id: '/tags',
   path: '/tags',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OgRoute = OgRouteImport.update({
+  id: '/og',
+  path: '/og',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ItemsDashboardRoute = ItemsDashboardRouteImport.update({
@@ -37,6 +50,11 @@ const ItemsDashboardRoute = ItemsDashboardRouteImport.update({
 const DashboardRoute = DashboardRouteImport.update({
   id: '/dashboard',
   path: '/dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AddRoute = AddRouteImport.update({
+  id: '/add',
+  path: '/add',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -67,9 +85,12 @@ const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
   '/items-dashboard': typeof ItemsDashboardRoute
+  '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
+  '/uses': typeof UsesRoute
   '/wall-of-shame': typeof WallOfShameRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
@@ -78,9 +99,12 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
   '/items-dashboard': typeof ItemsDashboardRoute
+  '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
+  '/uses': typeof UsesRoute
   '/wall-of-shame': typeof WallOfShameRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
@@ -90,9 +114,12 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
   '/items-dashboard': typeof ItemsDashboardRoute
+  '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
+  '/uses': typeof UsesRoute
   '/wall-of-shame': typeof WallOfShameRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
@@ -103,9 +130,12 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/add'
     | '/dashboard'
     | '/items-dashboard'
+    | '/og'
     | '/tags'
+    | '/uses'
     | '/wall-of-shame'
     | '/items/$itemSlug'
     | '/like/$tag'
@@ -114,9 +144,12 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/add'
     | '/dashboard'
     | '/items-dashboard'
+    | '/og'
     | '/tags'
+    | '/uses'
     | '/wall-of-shame'
     | '/items/$itemSlug'
     | '/like/$tag'
@@ -125,9 +158,12 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/add'
     | '/dashboard'
     | '/items-dashboard'
+    | '/og'
     | '/tags'
+    | '/uses'
     | '/wall-of-shame'
     | '/items/$itemSlug'
     | '/like/$tag'
@@ -137,9 +173,12 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AddRoute: typeof AddRoute
   DashboardRoute: typeof DashboardRoute
   ItemsDashboardRoute: typeof ItemsDashboardRoute
+  OgRoute: typeof OgRoute
   TagsRoute: typeof TagsRouteWithChildren
+  UsesRoute: typeof UsesRoute
   WallOfShameRoute: typeof WallOfShameRoute
   ItemsItemSlugRoute: typeof ItemsItemSlugRoute
   LikeTagRoute: typeof LikeTagRoute
@@ -155,11 +194,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WallOfShameRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/uses': {
+      id: '/uses'
+      path: '/uses'
+      fullPath: '/uses'
+      preLoaderRoute: typeof UsesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/tags': {
       id: '/tags'
       path: '/tags'
       fullPath: '/tags'
       preLoaderRoute: typeof TagsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/og': {
+      id: '/og'
+      path: '/og'
+      fullPath: '/og'
+      preLoaderRoute: typeof OgRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/items-dashboard': {
@@ -174,6 +227,13 @@ declare module '@tanstack/react-router' {
       path: '/dashboard'
       fullPath: '/dashboard'
       preLoaderRoute: typeof DashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/add': {
+      id: '/add'
+      path: '/add'
+      fullPath: '/add'
+      preLoaderRoute: typeof AddRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -226,9 +286,12 @@ const TagsRouteWithChildren = TagsRoute._addFileChildren(TagsRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AddRoute: AddRoute,
   DashboardRoute: DashboardRoute,
   ItemsDashboardRoute: ItemsDashboardRoute,
+  OgRoute: OgRoute,
   TagsRoute: TagsRouteWithChildren,
+  UsesRoute: UsesRoute,
   WallOfShameRoute: WallOfShameRoute,
   ItemsItemSlugRoute: ItemsItemSlugRoute,
   LikeTagRoute: LikeTagRoute,

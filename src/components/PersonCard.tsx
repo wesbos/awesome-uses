@@ -1,8 +1,11 @@
 import { name as countryName } from 'country-emoji';
 import { Link } from '@tanstack/react-router';
 import { iconMap } from '../lib/icons';
+import { getAvatarUrl } from '../lib/avatar';
 import type { Person } from '../lib/types';
 import { Badge } from '@/components/ui/badge';
+import { Avatar } from '@/components/Avatar';
+import { SocialLinks } from '@/components/SocialLinks';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
 
 type PersonCardProps = {
@@ -12,14 +15,7 @@ type PersonCardProps = {
 
 export default function PersonCard({ person, activeTagName }: PersonCardProps) {
   const externalUrl = new URL(person.url);
-  const twitterAvatar = person.twitter
-    ? `https://unavatar.io/x/${person.twitter.replace('@', '')}`
-    : null;
-  const websiteAvatar = `https://unavatar.io/${externalUrl.host}`;
-  const avatar = twitterAvatar
-    ? `${twitterAvatar}?fallback=${websiteAvatar}`
-    : websiteAvatar;
-  const [, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
+  const avatar = getAvatarUrl(person);
 
   return (
     <Card
@@ -27,14 +23,7 @@ export default function PersonCard({ person, activeTagName }: PersonCardProps) {
     >
       <CardContent className="p-4 space-y-3">
         <header className="flex items-start gap-3">
-          <img
-            width="40"
-            height="40"
-            src={avatar}
-            alt={person.name}
-            loading="lazy"
-            className="rounded-full"
-          />
+          <Avatar src={avatar} alt={person.name} size="sm" />
           <div className="min-w-0 flex-1">
             <h3 className="text-sm font-semibold leading-tight">
               <Link
@@ -103,43 +92,7 @@ export default function PersonCard({ person, activeTagName }: PersonCardProps) {
             />
           )}
 
-          <div>
-            {person.twitter && (
-              <a
-                href={`https://twitter.com/${person.twitter.replace("@", "")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors"
-              >
-                @{person.twitter.replace("@", "")}
-              </a>
-            )}
-
-            {person.mastodon && !person.twitter && !person.bluesky && (
-              <a
-                href={`https://${mastodonServer}/@${mastodonHandle}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors"
-              >
-                @{mastodonHandle}
-              </a>
-            )}
-
-            {person.bluesky && !person.mastodon && !person.twitter && (
-              <a
-                href={`https://bsky.app/profile/${person.bluesky.replace(
-                  "@",
-                  "",
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors"
-              >
-                @{person.bluesky.replace("@", "")}
-              </a>
-            )}
-          </div>
+          <SocialLinks person={person} />
         </div>
       </CardFooter>
     </Card>
