@@ -1,5 +1,5 @@
-import { Link, createFileRoute } from '@tanstack/react-router';
-import { useEffect, useState } from 'react';
+import { Link, createFileRoute, notFound } from '@tanstack/react-router';
+import { useEffect } from 'react';
 import { FacePile } from '@/components/FacePile';
 import { getCompanyLogo } from '@/lib/company-logos';
 import { Badge } from '@/components/ui/badge';
@@ -7,41 +7,28 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { $getItemDetail, $trackView, type ItemDetailWithFaces } from '../server/functions';
 
 export const Route = createFileRoute('/items/$itemSlug')({
+  loader: async ({ params }) => {
+    const detail = await $getItemDetail({ data: params.itemSlug });
+    if (!detail) {
+      throw notFound();
+    }
+    return { detail };
+  },
   component: ItemDetailPage,
+  notFoundComponent: () => (
+    <div className="space-y-4">
+      <Link to="/tags" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+        &larr; Back to extracted tags
+      </Link>
+      <p className="text-muted-foreground">No extracted item found for this slug.</p>
+    </div>
+  ),
 });
 
 function ItemDetailPage() {
-  const { itemSlug } = Route.useParams();
-  const [detail, setDetail] = useState<ItemDetailWithFaces | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const { detail } = Route.useLoaderData();
 
   useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const result = await $getItemDetail({ data: itemSlug });
-        if (!cancelled) {
-          setDetail(result ? (JSON.parse(result) as ItemDetailWithFaces) : null);
-        }
-      } catch (err) {
-        if (!cancelled) {
-          setError(err instanceof Error ? err.message : 'Failed to load item detail.');
-          setDetail(null);
-        }
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-
-    void load();
-    return () => {
-      cancelled = true;
-    };
-  }, [itemSlug]);
-
-  useEffect(() => {
-    if (!detail) return;
     void $trackView({
       data: {
         entityType: 'item',
@@ -49,27 +36,7 @@ function ItemDetailPage() {
         route: `/items/${detail.itemSlug}`,
       },
     });
-  }, [detail]);
-
-  if (loading) {
-    return <p className="text-muted-foreground">Loading item details...</p>;
-  }
-
-  if (!detail) {
-    return (
-      <div className="space-y-4">
-        <Link to="/tags" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-          &larr; Back to extracted tags
-        </Link>
-        {error && (
-          <p className="text-sm text-muted-foreground">
-            {error}
-          </p>
-        )}
-        <p className="text-muted-foreground">No extracted item found for this slug.</p>
-      </div>
-    );
-  }
+  }, [detail.itemSlug]);
 
   return (
     <div className="space-y-6">

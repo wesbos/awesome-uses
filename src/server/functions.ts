@@ -270,7 +270,7 @@ function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, '
 
 export const $getItemDetail = createServerFn({ method: 'GET' })
   .inputValidator((itemSlug: string) => itemSlug)
-  .handler(async ({ data: itemSlug }): Promise<string | null> => {
+  .handler(async ({ data: itemSlug }): Promise<ItemDetailWithFaces | null> => {
     const detail =
       (await getItemDetailBySlug(itemSlug)) ||
       (await getItemDetailByName(itemSlug.replaceAll('-', ' ')));
@@ -283,15 +283,13 @@ export const $getItemDetail = createServerFn({ method: 'GET' })
       getItemEnrichment(itemSlugResolved).catch(() => null),
     ]);
 
-    const payload: ItemDetailWithFaces = {
+    return {
       ...mappedDetail,
       amazon,
       itemType: enrichment?.itemType ?? null,
       description: enrichment?.description ?? null,
       itemUrl: enrichment?.itemUrl ?? null,
     };
-
-    return JSON.stringify(payload);
   });
 
 type TrackViewInput = {
@@ -384,7 +382,12 @@ export const $applyTagReclassify = createServerFn({ method: 'POST' })
 export const $searchItems = createServerFn({ method: 'GET' })
   .inputValidator((query: string) => query)
   .handler(async ({ data }) => {
-    return searchItems(data);
+    try {
+      return await searchItems(data);
+    } catch (error) {
+      console.error('$searchItems error:', error);
+      throw error;
+    }
   });
 
 type MergeItemsInput = {
@@ -395,7 +398,12 @@ type MergeItemsInput = {
 export const $mergeItems = createServerFn({ method: 'POST' })
   .inputValidator((input: MergeItemsInput) => input)
   .handler(async ({ data }) => {
-    return mergeItemsIntoCanonical(data.canonicalItem, data.sourceItems);
+    try {
+      return await mergeItemsIntoCanonical(data.canonicalItem, data.sourceItems);
+    } catch (error) {
+      console.error('$mergeItems error:', error);
+      throw error;
+    }
   });
 
 type ReScrapeAndExtractInput = {
