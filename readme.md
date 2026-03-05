@@ -327,7 +327,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Diana García](https://dianaeli.netlify.app/uses) — Diana likes to code, to teach and to game
 * [Dale Mellor](https://khleedril.org/uses) — Back-end developer: maths, science and engineering.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
-* [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
+* [Adam DeHaven](https://www.adamdehaven.com/uses/) — Senior Staff Engineer. Open-Source. DX & UX. Travel. Louisville, Kentucky is home.
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
 * [Niko Heikkilä](https://nikoheikkila.fi/uses/) — Software Craftsman and Open-Source Advocate at Futurice
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
