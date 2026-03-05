@@ -5,13 +5,14 @@ import { getPersonBySlug } from '../lib/data';
 import { getAvatarUrl } from '../lib/avatar';
 import { extractCompaniesFromText } from '../lib/company-logos';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
-import { $getScrapedProfile, $getPersonItems, $trackView } from '../server/functions';
+import { $getScrapedProfile, $getPersonItems, $getSimilarPeople, $trackView, type SimilarPerson } from '../server/functions';
 import { Badge } from '@/components/ui/badge';
 import { Avatar } from '@/components/Avatar';
 import { SocialLinks } from '@/components/SocialLinks';
 import { UsesUrl } from '@/components/UsesUrl';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ItemIcon } from '@/components/ItemIcon';
+import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/people/$personSlug')({
@@ -32,17 +33,18 @@ export const Route = createFileRoute('/people/$personSlug')({
     if (!person) {
       throw notFound();
     }
-    const [scrapeResult, items] = await Promise.all([
+    const [scrapeResult, items, similarPeople] = await Promise.all([
       $getScrapedProfile({ data: person.personSlug }).catch(() => null),
       $getPersonItems({ data: person.personSlug }).catch(() => [] as PersonItem[]),
+      $getSimilarPeople({ data: person.personSlug }).catch(() => [] as SimilarPerson[]),
     ]);
-    return { person, scraped: scrapeResult?.data ?? null, items };
+    return { person, scraped: scrapeResult?.data ?? null, items, similarPeople };
   },
   component: PersonPage,
 });
 
 function PersonPage() {
-  const { person, scraped, items } = Route.useLoaderData();
+  const { person, scraped, items, similarPeople } = Route.useLoaderData();
   const companies = extractCompaniesFromText(person.description);
   const avatarUrl = getAvatarUrl(person);
   const country = countryName(person.country);
@@ -135,6 +137,21 @@ function PersonPage() {
           </CardHeader>
           <CardContent>
             <ItemsList items={items} />
+          </CardContent>
+        </Card>
+      )}
+
+      {similarPeople.length > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-base">Similar People</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {similarPeople.map((sp) => (
+                <PersonMiniCard key={sp.personSlug} face={sp} />
+              ))}
+            </div>
           </CardContent>
         </Card>
       )}

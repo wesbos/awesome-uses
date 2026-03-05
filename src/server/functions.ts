@@ -560,6 +560,58 @@ export const $getItemsDashboard = createServerFn({ method: 'GET' }).handler(
   }
 );
 
+export type SimilarPerson = Face & { score: number };
+
+type VectorizeMatch = {
+  id: string;
+  score: number;
+  metadata?: Record<string, string> | null;
+};
+
+type VectorizeQueryResult = {
+  count: number;
+  matches: VectorizeMatch[];
+};
+
+type VectorizeIndex = {
+  queryById(
+    id: string,
+    options?: { topK?: number; returnMetadata?: 'none' | 'indexed' | 'all'; returnValues?: boolean },
+  ): Promise<VectorizeQueryResult>;
+};
+
+export const $getSimilarPeople = createServerFn({ method: 'GET' })
+  .inputValidator((personSlug: string) => personSlug)
+  .handler(async ({ data: personSlug }): Promise<SimilarPerson[]> => {
+    const vectorize = (cfEnv as { VECTORIZE?: VectorizeIndex }).VECTORIZE;
+    if (!vectorize) return [];
+
+    try {
+      const results = await vectorize.queryById(personSlug, {
+        topK: 7,
+        returnMetadata: 'none',
+      });
+
+      if (!results?.matches?.length) return [];
+
+      const allPeople = getAllPeople();
+      const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+      return results.matches
+        .filter((m) => m.id !== personSlug && m.score > 0.3)
+        .slice(0, 6)
+        .map((match) => {
+          const face = slugToFace(match.id, peopleMap);
+          if (!face) return null;
+          return { ...face, score: match.score };
+        })
+        .filter((f): f is SimilarPerson => f !== null);
+    } catch (err) {
+      console.error('Vectorize query failed:', err);
+      return [];
+    }
+  });
+
 type EnrichItemsInput = {
   items: Array<{ item: string; tags: string[] }>;
 };
@@ -666,5 +718,44 @@ Do NOT hallucinate URLs. Only provide URLs you are confident are correct.`,
         itemUrl: null,
         error: err instanceof Error ? err.message : 'Enrichment failed',
       }));
+    }
+  });
+
+export type SimilarPerson = Face & { score: number };
+
+export const $getSimilarPeople = createServerFn({ method: 'GET' })
+  .inputValidator((personSlug: string) => personSlug)
+  .handler(async ({ data: personSlug }): Promise<SimilarPerson[]> => {
+    const vectorize = (cfEnv as Record<string, unknown>).VECTORIZE as
+      | { query: (vector: number[], opts: { topK: number; returnValues: boolean }) => Promise<{ matches: Array<{ id: string; score: number }> }>;
+          getByIds: (ids: string[]) => Promise<{ vectors: Array<{ id: string; values: number[] }> }> }
+      | undefined;
+
+    if (!vectorize) return [];
+
+    try {
+      const existing = await vectorize.getByIds([personSlug]);
+      const personVector = existing?.vectors?.[0]?.values;
+      if (!personVector || personVector.length === 0) return [];
+
+      const results = await vectorize.query(personVector, {
+        topK: 11,
+        returnValues: false,
+      });
+
+      const allPeople = getAllPeople();
+      const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+      return results.matches
+        .filter((m) => m.id !== personSlug)
+        .slice(0, 10)
+        .map((match) => {
+          const face = slugToFace(match.id, peopleMap, { includeDescription: true });
+          if (!face) return null;
+          return { ...face, score: match.score };
+        })
+        .filter((f): f is SimilarPerson => f !== null);
+    } catch {
+      return [];
     }
   });
