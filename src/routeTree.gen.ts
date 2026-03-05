@@ -14,8 +14,8 @@ import { Route as DashboardRouteImport } from './routes/dashboard'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
-import { Route as ItemsItemSlugRouteImport } from './routes/items.$itemSlug'
 import { Route as LikeTagRouteImport } from './routes/like/$tag'
+import { Route as ItemsItemSlugRouteImport } from './routes/items.$itemSlug'
 
 const TagsRoute = TagsRouteImport.update({
   id: '/tags',
@@ -42,14 +42,14 @@ const PeoplePersonSlugRoute = PeoplePersonSlugRouteImport.update({
   path: '/people/$personSlug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
-  id: '/items/$itemSlug',
-  path: '/items/$itemSlug',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const LikeTagRoute = LikeTagRouteImport.update({
   id: '/like/$tag',
   path: '/like/$tag',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
+  id: '/items/$itemSlug',
+  path: '/items/$itemSlug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -57,18 +57,18 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/dashboard': typeof DashboardRoute
   '/tags': typeof TagsRouteWithChildren
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
-  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/dashboard': typeof DashboardRoute
   '/tags': typeof TagsRouteWithChildren
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
-  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRoutesById {
@@ -76,9 +76,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/dashboard': typeof DashboardRoute
   '/tags': typeof TagsRouteWithChildren
+  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
-  '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
 }
 export interface FileRouteTypes {
@@ -87,27 +87,27 @@ export interface FileRouteTypes {
     | '/'
     | '/dashboard'
     | '/tags'
+    | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
-    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/dashboard'
     | '/tags'
+    | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
-    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   id:
     | '__root__'
     | '/'
     | '/dashboard'
     | '/tags'
+    | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
-    | '/items/$itemSlug'
     | '/tags/$tagSlug'
   fileRoutesById: FileRoutesById
 }
@@ -115,9 +115,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DashboardRoute: typeof DashboardRoute
   TagsRoute: typeof TagsRouteWithChildren
+  ItemsItemSlugRoute: typeof ItemsItemSlugRoute
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
-  ItemsItemSlugRoute: typeof ItemsItemSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -157,18 +157,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PeoplePersonSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/items/$itemSlug': {
-      id: '/items/$itemSlug'
-      path: '/items/$itemSlug'
-      fullPath: '/items/$itemSlug'
-      preLoaderRoute: typeof ItemsItemSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/like/$tag': {
       id: '/like/$tag'
       path: '/like/$tag'
       fullPath: '/like/$tag'
       preLoaderRoute: typeof LikeTagRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/items/$itemSlug': {
+      id: '/items/$itemSlug'
+      path: '/items/$itemSlug'
+      fullPath: '/items/$itemSlug'
+      preLoaderRoute: typeof ItemsItemSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -188,9 +188,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DashboardRoute: DashboardRoute,
   TagsRoute: TagsRouteWithChildren,
+  ItemsItemSlugRoute: ItemsItemSlugRoute,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,
-  ItemsItemSlugRoute: ItemsItemSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

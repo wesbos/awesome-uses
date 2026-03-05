@@ -1,6 +1,7 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { getPersonBySlug } from '../lib/data';
+import { extractCompaniesFromText } from '../lib/company-logos';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
 import { $getScrapedProfile, $getPersonItems, $trackView } from '../server/functions';
 import { Badge } from '@/components/ui/badge';
@@ -19,6 +20,7 @@ export const Route = createFileRoute('/people/$personSlug')({
 
 function PersonPage() {
   const { person } = Route.useLoaderData();
+  const companies = extractCompaniesFromText(person.description);
   const [scraped, setScraped] = useState<ScrapedProfileData | null>(null);
   const [loadingScrape, setLoadingScrape] = useState(true);
   const [items, setItems] = useState<PersonItem[]>([]);
@@ -80,6 +82,24 @@ function PersonPage() {
             {person.name} {person.emoji}
           </CardTitle>
           <p className="text-sm text-muted-foreground">{person.description}</p>
+          {companies.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {companies.map((company) => (
+                <span
+                  key={company.key}
+                  className="inline-flex items-center gap-1 rounded-md border border-border px-2 py-1 text-xs text-muted-foreground"
+                >
+                  <img
+                    src={company.logoUrl}
+                    alt={company.name}
+                    loading="lazy"
+                    className="h-3.5 w-3.5"
+                  />
+                  {company.name}
+                </span>
+              ))}
+            </div>
+          )}
           <p>
             <a
               href={person.url}

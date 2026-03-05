@@ -1,4 +1,4 @@
-import { Link, createFileRoute } from '@tanstack/react-router';
+import { Link, Outlet, createFileRoute, useLocation } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import {
   $getTagSummaries,
@@ -82,6 +82,11 @@ export const Route = createFileRoute('/tags')({
 });
 
 function TagsPage() {
+  const location = useLocation();
+  if (location.pathname !== '/tags') {
+    return <Outlet />;
+  }
+
   const [tags, setTags] = useState<TagSummaryWithFaces[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');

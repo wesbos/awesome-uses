@@ -10,6 +10,7 @@ import {
   getAllTagSummaries,
   getTagDetailBySlug,
   getItemDetailBySlug,
+  getItemDetailByName,
   getRecentScrapeEvents,
   getScrapeHistoryStats,
   getPersonScrapeHistory,
@@ -257,8 +258,10 @@ function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, '
 
 export const $getItemDetail = createServerFn({ method: 'GET' })
   .inputValidator((itemSlug: string) => itemSlug)
-  .handler(async ({ data: itemSlug }): Promise<ItemDetailWithFaces | null> => {
-    const detail = await getItemDetailBySlug(itemSlug);
+  .handler(async ({ data: itemSlug }): Promise<string | null> => {
+    const detail =
+      (await getItemDetailBySlug(itemSlug)) ||
+      (await getItemDetailByName(itemSlug.replaceAll('-', ' ')));
     if (!detail) return null;
 
     const [mappedDetail, amazon] = await Promise.all([
@@ -266,10 +269,12 @@ export const $getItemDetail = createServerFn({ method: 'GET' })
       searchAmazonProducts(detail.item),
     ]);
 
-    return {
+    const payload = {
       ...mappedDetail,
       amazon,
-    };
+    } as ItemDetailWithFaces;
+
+    return JSON.stringify(payload);
   });
 
 type TrackViewInput = {
@@ -297,11 +302,27 @@ export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
   async (): Promise<AdminDashboardData> => {
     const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, categories] =
       await Promise.all([
-        getScrapeHistoryStats(),
-        getRecentScrapeEvents(80),
-        getPersonScrapeHistory(),
-        getAnalyticsDashboardData(30),
-        getExtractedCategories(),
+        getScrapeHistoryStats().catch(() => ({
+          totalEvents: 0,
+          initialEvents: 0,
+          updatedEvents: 0,
+          unchangedEvents: 0,
+          errorEvents: 0,
+          nonHtmlEvents: 0,
+          peopleUpdated: 0,
+          lastEventAt: null,
+        })),
+        getRecentScrapeEvents(80).catch(() => []),
+        getPersonScrapeHistory().catch(() => []),
+        getAnalyticsDashboardData(30).catch(() => ({
+          available: false,
+          reason: 'Analytics unavailable.',
+          timeframeDays: 30,
+          people: [],
+          tags: [],
+          items: [],
+        })),
+        getExtractedCategories().catch(() => []),
       ]);
 
     return {

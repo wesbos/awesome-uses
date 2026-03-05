@@ -1,6 +1,7 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { FacePile } from '@/components/FacePile';
+import { getCompanyLogo } from '@/lib/company-logos';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { $getItemDetail, $trackView, type ItemDetailWithFaces } from '../server/functions';
@@ -13,13 +14,21 @@ function ItemDetailPage() {
   const { itemSlug } = Route.useParams();
   const [detail, setDetail] = useState<ItemDetailWithFaces | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
     async function load() {
       try {
         const result = await $getItemDetail({ data: itemSlug });
-        if (!cancelled) setDetail(result);
+        if (!cancelled) {
+          setDetail(result ? (JSON.parse(result) as ItemDetailWithFaces) : null);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : 'Failed to load item detail.');
+          setDetail(null);
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -52,6 +61,11 @@ function ItemDetailPage() {
         <Link to="/tags" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
           &larr; Back to extracted tags
         </Link>
+        {error && (
+          <p className="text-sm text-muted-foreground">
+            {error}
+          </p>
+        )}
         <p className="text-muted-foreground">No extracted item found for this slug.</p>
       </div>
     );
@@ -159,33 +173,57 @@ function ItemDetailPage() {
           {detail.amazon.products.length > 0 && (
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {detail.amazon.products.map((product) => (
-                <a
-                  key={product.asin}
-                  href={product.detailPageUrl}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="rounded-md border p-3 hover:bg-muted/40 transition-colors"
-                >
-                  {product.imageUrl ? (
-                    <img
-                      src={product.imageUrl}
-                      alt={product.title}
-                      loading="lazy"
-                      className="h-36 w-full object-contain mb-2"
-                    />
-                  ) : (
-                    <div className="h-36 w-full bg-muted rounded mb-2" />
-                  )}
-                  <p className="text-sm font-medium line-clamp-2">{product.title}</p>
-                  {product.price && (
-                    <p className="text-xs text-muted-foreground mt-1">{product.price}</p>
-                  )}
-                </a>
+                <AmazonProductCard key={product.asin} product={product} />
               ))}
             </div>
           )}
         </CardContent>
       </Card>
     </div>
+  );
+}
+
+function AmazonProductCard({
+  product,
+}: {
+  product: ItemDetailWithFaces['amazon']['products'][number];
+}) {
+  const logo = product.brand ? getCompanyLogo(product.brand) : null;
+
+  return (
+    <a
+      href={product.detailPageUrl}
+      target="_blank"
+      rel="noreferrer noopener"
+      className="rounded-md border p-3 hover:bg-muted/40 transition-colors"
+    >
+      {product.imageUrl ? (
+        <img
+          src={product.imageUrl}
+          alt={product.title}
+          loading="lazy"
+          className="h-36 w-full object-contain mb-2"
+        />
+      ) : (
+        <div className="h-36 w-full bg-muted rounded mb-2" />
+      )}
+      <p className="text-sm font-medium line-clamp-2">{product.title}</p>
+      {product.brand && (
+        <div className="mt-1 flex items-center gap-1 text-xs text-muted-foreground">
+          {logo && (
+            <img
+              src={logo.logoUrl}
+              alt={product.brand}
+              loading="lazy"
+              className="h-3.5 w-3.5"
+            />
+          )}
+          {product.brand}
+        </div>
+      )}
+      {product.price && (
+        <p className="text-xs text-muted-foreground mt-1">{product.price}</p>
+      )}
+    </a>
   );
 }

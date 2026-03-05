@@ -62,6 +62,8 @@ function resolveRuntimeEnv(requestContext?: unknown): RuntimeEnv | null {
       (contextRecord.cloudflare as Record<string, unknown> | undefined)?.env
     );
     if (fromCloudflare) return fromCloudflare;
+
+    return null;
   }
 
   const startContext = getStartContext({ throwIfNotFound: false });

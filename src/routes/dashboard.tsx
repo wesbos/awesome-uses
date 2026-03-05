@@ -180,16 +180,27 @@ function DashboardPage() {
     let cancelled = false;
     async function load() {
       try {
-        const [payload, adminPayload] = await Promise.all([
-          $getScrapeStatus(),
-          $getAdminDashboardData(),
-        ]);
+        const payload = await $getScrapeStatus();
+        if (!cancelled) setData(payload);
+      } catch {
+        if (!cancelled) setData(null);
+      }
+
+      try {
+        const adminPayload = await $getAdminDashboardData();
         if (!cancelled) {
-          setData(payload);
           setAdminData(adminPayload);
           if (adminPayload.categories.length > 0) {
-            setReclassifyCategory(adminPayload.categories[0]);
+            setReclassifyCategory((current) =>
+              adminPayload.categories.includes(current)
+                ? current
+                : adminPayload.categories[0]
+            );
           }
+        }
+      } catch {
+        if (!cancelled) {
+          setAdminData(null);
         }
       } finally {
         if (!cancelled) setLoading(false);
@@ -230,8 +241,12 @@ function DashboardPage() {
   });
 
   async function refreshAdminData() {
-    const payload = await $getAdminDashboardData();
-    setAdminData(payload);
+    try {
+      const payload = await $getAdminDashboardData();
+      setAdminData(payload);
+    } catch {
+      setAdminData(null);
+    }
   }
 
   async function runReclassifyPreview() {

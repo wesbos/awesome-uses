@@ -311,16 +311,20 @@ async function getAllExtractedRows(
   const db = await resolveD1WithFallback(requestContext);
   if (!db) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT item, tags_json, person_slug
-       FROM person_items
-       ORDER BY item`
-    )
-    .bind()
-    .all<AllItemRow>();
+  try {
+    const result = await db
+      .prepare(
+        `SELECT item, tags_json, person_slug
+         FROM person_items
+         ORDER BY item`
+      )
+      .bind()
+      .all<AllItemRow>();
 
-  return result.results;
+    return result.results;
+  } catch {
+    return [];
+  }
 }
 
 export async function getAllTagSummaries(
@@ -363,7 +367,9 @@ export async function getTagDetailBySlug(
 ): Promise<TagDetail | null> {
   const rows = await getAllExtractedRows(requestContext);
   const indexes = buildExtractedIndexes(rows);
-  const resolvedTag = indexes.slugToTag.get(tagSlug);
+  const resolvedTag =
+    indexes.slugToTag.get(tagSlug) ||
+    [...indexes.tagToSlug.keys()].find((tag) => slugify(tag) === tagSlug);
   if (!resolvedTag) return null;
 
   const itemMap = indexes.tagToItems.get(resolvedTag);
@@ -414,7 +420,9 @@ export async function getItemDetailBySlug(
 ): Promise<ItemDetail | null> {
   const rows = await getAllExtractedRows(requestContext);
   const indexes = buildExtractedIndexes(rows);
-  const resolvedItem = indexes.slugToItem.get(itemSlug);
+  const resolvedItem =
+    indexes.slugToItem.get(itemSlug) ||
+    [...indexes.itemToSlug.keys()].find((item) => slugify(item) === itemSlug);
   if (!resolvedItem) return null;
 
   const people = uniqueSorted(indexes.itemToPeople.get(resolvedItem) ?? []);
@@ -477,17 +485,22 @@ export async function searchItems(
   const trimmed = query.trim();
   if (!trimmed) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT item, COUNT(DISTINCT person_slug) as count
-       FROM person_items
-       WHERE item LIKE ?
-       GROUP BY item
-       ORDER BY count DESC, item ASC
-       LIMIT 25`
-    )
-    .bind(`%${trimmed}%`)
-    .all<{ item: string; count: number }>();
+  let result: D1Result<{ item: string; count: number }>;
+  try {
+    result = await db
+      .prepare(
+        `SELECT item, COUNT(DISTINCT person_slug) as count
+         FROM person_items
+         WHERE item LIKE ?
+         GROUP BY item
+         ORDER BY count DESC, item ASC
+         LIMIT 25`
+      )
+      .bind(`%${trimmed}%`)
+      .all<{ item: string; count: number }>();
+  } catch {
+    return [];
+  }
 
   const usedItemSlugs = new Set<string>();
   return result.results.map((row) => ({
@@ -503,14 +516,19 @@ export async function getExtractedCategories(
   const db = await resolveD1WithFallback(requestContext);
   if (!db) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT DISTINCT j.value as category
-       FROM person_items, json_each(person_items.tags_json) j
-       ORDER BY category`
-    )
-    .bind()
-    .all<{ category: string }>();
+  let result: D1Result<{ category: string }>;
+  try {
+    result = await db
+      .prepare(
+        `SELECT DISTINCT j.value as category
+         FROM person_items, json_each(person_items.tags_json) j
+         ORDER BY category`
+      )
+      .bind()
+      .all<{ category: string }>();
+  } catch {
+    return [];
+  }
 
   return result.results
     .map((row) => row.category)
@@ -538,21 +556,26 @@ export async function getReclassifyCandidates(
   const safeMinUsers = Math.max(1, minUsers);
   const safeLimit = Math.max(1, Math.min(limit, 500));
 
-  const rows = await db
-    .prepare(
-      `SELECT
-        item,
-        COUNT(DISTINCT person_slug) as count,
-        GROUP_CONCAT(DISTINCT person_slug) as people
-       FROM person_items
-       WHERE tags_json LIKE ?
-       GROUP BY item
-       HAVING count >= ?
-       ORDER BY count DESC, item ASC
-       LIMIT ?`
-    )
-    .bind(`%"${safeCategory}"%`, safeMinUsers, safeLimit)
-    .all<{ item: string; count: number; people: string | null }>();
+  let rows: D1Result<{ item: string; count: number; people: string | null }>;
+  try {
+    rows = await db
+      .prepare(
+        `SELECT
+          item,
+          COUNT(DISTINCT person_slug) as count,
+          GROUP_CONCAT(DISTINCT person_slug) as people
+         FROM person_items
+         WHERE tags_json LIKE ?
+         GROUP BY item
+         HAVING count >= ?
+         ORDER BY count DESC, item ASC
+         LIMIT ?`
+      )
+      .bind(`%"${safeCategory}"%`, safeMinUsers, safeLimit)
+      .all<{ item: string; count: number; people: string | null }>();
+  } catch {
+    return [];
+  }
 
   return rows.results.map((row) => ({
     item: row.item,
@@ -597,14 +620,19 @@ export async function applyTagReclassification(
     return { updatedRows: 0, updatedItems: 0 };
   }
 
-  const rows = await db
-    .prepare(
-      `SELECT person_slug, item, tags_json
-       FROM person_items
-       WHERE tags_json LIKE ?`
-    )
-    .bind(`%"${normalizedCategory}"%`)
-    .all<{ person_slug: string; item: string; tags_json: string }>();
+  let rows: D1Result<{ person_slug: string; item: string; tags_json: string }>;
+  try {
+    rows = await db
+      .prepare(
+        `SELECT person_slug, item, tags_json
+         FROM person_items
+         WHERE tags_json LIKE ?`
+      )
+      .bind(`%"${normalizedCategory}"%`)
+      .all<{ person_slug: string; item: string; tags_json: string }>();
+  } catch {
+    return { updatedRows: 0, updatedItems: 0 };
+  }
 
   let updatedRows = 0;
   const touchedItems = new Set<string>();
@@ -827,17 +855,21 @@ export async function getRecentScrapeEvents(
   if (!db) return [];
 
   const safeLimit = Math.max(1, Math.min(limit, 500));
-  const result = await db
-    .prepare(
-      `SELECT id, person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, content_hash as contentHash, change_type as changeType, title
-       FROM person_page_events
-       ORDER BY fetched_at DESC
-       LIMIT ?`
-    )
-    .bind(safeLimit)
-    .all<ScrapeEventRow>();
+  try {
+    const result = await db
+      .prepare(
+        `SELECT id, person_slug as personSlug, url, status_code as statusCode, fetched_at as fetchedAt, content_hash as contentHash, change_type as changeType, title
+         FROM person_page_events
+         ORDER BY fetched_at DESC
+         LIMIT ?`
+      )
+      .bind(safeLimit)
+      .all<ScrapeEventRow>();
 
-  return result.results;
+    return result.results;
+  } catch {
+    return [];
+  }
 }
 
 export async function getScrapeHistoryStats(
@@ -857,30 +889,47 @@ export async function getScrapeHistoryStats(
     };
   }
 
-  const row = await db
-    .prepare(
-      `SELECT
-          COUNT(*) as totalEvents,
-          SUM(CASE WHEN change_type = 'initial' THEN 1 ELSE 0 END) as initialEvents,
-          SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updatedEvents,
-          SUM(CASE WHEN change_type = 'unchanged' THEN 1 ELSE 0 END) as unchangedEvents,
-          SUM(CASE WHEN change_type = 'error' THEN 1 ELSE 0 END) as errorEvents,
-          SUM(CASE WHEN change_type = 'non_html' THEN 1 ELSE 0 END) as nonHtmlEvents,
-          COUNT(DISTINCT CASE WHEN change_type = 'updated' THEN person_slug END) as peopleUpdated,
-          MAX(fetched_at) as lastEventAt
-       FROM person_page_events`
-    )
-    .bind()
-    .first<{
-      totalEvents: number | null;
-      initialEvents: number | null;
-      updatedEvents: number | null;
-      unchangedEvents: number | null;
-      errorEvents: number | null;
-      nonHtmlEvents: number | null;
-      peopleUpdated: number | null;
-      lastEventAt: string | null;
-    }>();
+  let row:
+    | {
+        totalEvents: number | null;
+        initialEvents: number | null;
+        updatedEvents: number | null;
+        unchangedEvents: number | null;
+        errorEvents: number | null;
+        nonHtmlEvents: number | null;
+        peopleUpdated: number | null;
+        lastEventAt: string | null;
+      }
+    | null;
+
+  try {
+    row = await db
+      .prepare(
+        `SELECT
+            COUNT(*) as totalEvents,
+            SUM(CASE WHEN change_type = 'initial' THEN 1 ELSE 0 END) as initialEvents,
+            SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updatedEvents,
+            SUM(CASE WHEN change_type = 'unchanged' THEN 1 ELSE 0 END) as unchangedEvents,
+            SUM(CASE WHEN change_type = 'error' THEN 1 ELSE 0 END) as errorEvents,
+            SUM(CASE WHEN change_type = 'non_html' THEN 1 ELSE 0 END) as nonHtmlEvents,
+            COUNT(DISTINCT CASE WHEN change_type = 'updated' THEN person_slug END) as peopleUpdated,
+            MAX(fetched_at) as lastEventAt
+         FROM person_page_events`
+      )
+      .bind()
+      .first<{
+        totalEvents: number | null;
+        initialEvents: number | null;
+        updatedEvents: number | null;
+        unchangedEvents: number | null;
+        errorEvents: number | null;
+        nonHtmlEvents: number | null;
+        peopleUpdated: number | null;
+        lastEventAt: string | null;
+      }>();
+  } catch {
+    row = null;
+  }
 
   return {
     totalEvents: row?.totalEvents ?? 0,
@@ -900,22 +949,26 @@ export async function getPersonScrapeHistory(
   const db = await resolveD1WithFallback(requestContext);
   if (!db) return [];
 
-  const result = await db
-    .prepare(
-      `SELECT
-          person_slug as personSlug,
-          COUNT(*) as scrapeCount,
-          SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updateCount,
-          MAX(fetched_at) as lastScrapedAt,
-          MAX(CASE WHEN change_type IN ('initial', 'updated') THEN fetched_at END) as lastUpdatedAt
-       FROM person_page_events
-       GROUP BY person_slug
-       ORDER BY lastScrapedAt DESC`
-    )
-    .bind()
-    .all<PersonScrapeHistoryRow>();
+  try {
+    const result = await db
+      .prepare(
+        `SELECT
+            person_slug as personSlug,
+            COUNT(*) as scrapeCount,
+            SUM(CASE WHEN change_type = 'updated' THEN 1 ELSE 0 END) as updateCount,
+            MAX(fetched_at) as lastScrapedAt,
+            MAX(CASE WHEN change_type IN ('initial', 'updated') THEN fetched_at END) as lastUpdatedAt
+         FROM person_page_events
+         GROUP BY person_slug
+         ORDER BY lastScrapedAt DESC`
+      )
+      .bind()
+      .all<PersonScrapeHistoryRow>();
 
-  return result.results;
+    return result.results;
+  } catch {
+    return [];
+  }
 }
 
 export type AmazonCacheRow = {
