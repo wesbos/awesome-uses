@@ -7478,7 +7478,8 @@ module.exports = [
   },
   {
     name: 'Adam DeHaven',
-    description: 'Senior Staff Engineer. Open-Source. DX & UX. Travel. Louisville, Kentucky is home.',
+    description:
+      'Senior Staff Engineer. Open-Source. DX & UX. Travel. Louisville, Kentucky is home.',
     url: 'https://www.adamdehaven.com/uses/',
     twitter: '@adamdehaven',
     bluesky: 'adamdehaven.com',
