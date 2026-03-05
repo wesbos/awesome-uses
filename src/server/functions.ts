@@ -1,4 +1,5 @@
 import { createServerFn } from '@tanstack/react-start';
+import { env as cfEnv } from 'cloudflare:workers';
 import { getPersonBySlug, getAllPeople } from '../lib/data';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
 import type { TagSummary } from './d1';
