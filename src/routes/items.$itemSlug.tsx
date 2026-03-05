@@ -77,10 +77,28 @@ function ItemDetailPage() {
         <Link to="/tags" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
           &larr; Back to extracted tags
         </Link>
-        <h2 className="text-2xl font-semibold">{detail.item}</h2>
-        <p className="text-sm text-muted-foreground">
-          Used by {detail.totalPeople} people
-        </p>
+        <div className="flex items-center gap-3">
+          <h2 className="text-2xl font-semibold">{detail.item}</h2>
+          {detail.itemType && (
+            <Badge variant="outline" className="text-xs capitalize">{detail.itemType}</Badge>
+          )}
+        </div>
+        {detail.description && (
+          <p className="text-sm text-muted-foreground">{detail.description}</p>
+        )}
+        <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+          <span>Used by {detail.totalPeople} people</span>
+          {detail.itemUrl && (
+            <a
+              href={detail.itemUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-primary hover:underline"
+            >
+              {(() => { try { return new URL(detail.itemUrl).hostname; } catch { return detail.itemUrl; } })()}
+            </a>
+          )}
+        </div>
       </div>
 
       <Card>
@@ -154,7 +172,7 @@ function ItemDetailPage() {
         </CardContent>
       </Card>
 
-      <Card>
+      {detail.itemType === 'product' && <Card>
         <CardHeader>
           <CardTitle className="text-base">Amazon product matches</CardTitle>
         </CardHeader>
@@ -178,7 +196,7 @@ function ItemDetailPage() {
             </div>
           )}
         </CardContent>
-      </Card>
+      </Card>}
     </div>
   );
 }

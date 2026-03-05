@@ -18,6 +18,14 @@ import {
   mergeItemsIntoCanonical,
   getExtractedCategories,
   applyTagReclassification,
+  getScrapedContent,
+  deletePersonItems,
+  insertPersonItems,
+  getErrorPeople,
+  getAllUniqueItems,
+  getAllItemEnrichments,
+  getItemEnrichment,
+  upsertItemEnrichment,
   type ReclassifyAssignment,
   type ItemDetail,
   type TagDetail,
@@ -30,6 +38,7 @@ import {
   type ViewEntityType,
 } from './analytics';
 import { previewTagReclassification } from './reclassify';
+import { slugify } from '../lib/slug';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -218,9 +227,12 @@ export type ItemDetailWithFaces = Omit<ItemDetail, 'people' | 'tagRelations' | '
   tags: Array<{ name: string; slug: string }>;
   tagRelations: ItemTagRelationWithFaces[];
   amazon: AmazonProductSearchResult;
+  itemType: string | null;
+  description: string | null;
+  itemUrl: string | null;
 };
 
-function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, 'amazon'> {
+function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, 'amazon' | 'itemType' | 'description' | 'itemUrl'> {
   const allPeople = getAllPeople();
   const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
 
@@ -264,15 +276,20 @@ export const $getItemDetail = createServerFn({ method: 'GET' })
       (await getItemDetailByName(itemSlug.replaceAll('-', ' ')));
     if (!detail) return null;
 
-    const [mappedDetail, amazon] = await Promise.all([
+    const itemSlugResolved = slugify(detail.item) || 'item';
+    const [mappedDetail, amazon, enrichment] = await Promise.all([
       Promise.resolve(mapItemDetailWithFaces(detail)),
       searchAmazonProducts(detail.item),
+      getItemEnrichment(itemSlugResolved).catch(() => null),
     ]);
 
-    const payload = {
+    const payload: ItemDetailWithFaces = {
       ...mappedDetail,
       amazon,
-    } as ItemDetailWithFaces;
+      itemType: enrichment?.itemType ?? null,
+      description: enrichment?.description ?? null,
+      itemUrl: enrichment?.itemUrl ?? null,
+    };
 
     return JSON.stringify(payload);
   });
@@ -379,4 +396,264 @@ export const $mergeItems = createServerFn({ method: 'POST' })
   .inputValidator((input: MergeItemsInput) => input)
   .handler(async ({ data }) => {
     return mergeItemsIntoCanonical(data.canonicalItem, data.sourceItems);
+  });
+
+type ReScrapeAndExtractInput = {
+  personSlug: string;
+};
+
+type ReScrapeAndExtractResult = {
+  personSlug: string;
+  scraped: boolean;
+  contentChanged: boolean;
+  extracted: boolean;
+  itemCount: number;
+  error?: string;
+};
+
+export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
+  .inputValidator((input: ReScrapeAndExtractInput) => input)
+  .handler(async ({ data }): Promise<ReScrapeAndExtractResult> => {
+    const person = getPersonBySlug(data.personSlug);
+    if (!person) {
+      return { personSlug: data.personSlug, scraped: false, contentChanged: false, extracted: false, itemCount: 0, error: 'Person not found' };
+    }
+
+    const oldContent = await getScrapedContent(data.personSlug);
+    const fetchedAt = new Date().toISOString();
+    const scraped = await scrapeUsesPage(person.url);
+    await upsertScrapedProfile(person.personSlug, person.url, fetchedAt, scraped);
+
+    const contentChanged = oldContent?.contentHash !== scraped.contentHash;
+
+    if (!contentChanged || !scraped.contentMarkdown) {
+      return { personSlug: data.personSlug, scraped: true, contentChanged, extracted: false, itemCount: 0 };
+    }
+
+    try {
+      const OpenAI = (await import('openai')).default;
+      const { z } = await import('zod');
+      const { zodResponseFormat } = await import('openai/helpers/zod');
+
+      const apiKey = (process.env.OPENAI_API_KEY || '').trim();
+      if (!apiKey) {
+        return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: false, itemCount: 0, error: 'OPENAI_API_KEY not configured' };
+      }
+
+      const client = new OpenAI({ apiKey });
+
+      const ExtractedItem = z.object({
+        item: z.string(),
+        categories: z.array(z.string()),
+        detail: z.string().nullable(),
+      });
+      const ExtractionResult = z.object({ items: z.array(ExtractedItem) });
+
+      const completion = await client.chat.completions.parse({
+        model: 'gpt-5-mini',
+        messages: [
+          { role: 'system', content: 'You extract tools, products, and gear from developer /uses pages. Return item name, categories, and detail.' },
+          { role: 'user', content: scraped.contentMarkdown.slice(0, 15_000) },
+        ],
+        response_format: zodResponseFormat(ExtractionResult, 'extraction'),
+      });
+
+      const parsed = completion.choices[0]?.message?.parsed;
+      if (!parsed || parsed.items.length === 0) {
+        return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: false, itemCount: 0 };
+      }
+
+      await deletePersonItems(data.personSlug);
+
+      const extractedAt = new Date().toISOString();
+      const rows = parsed.items.map((item) => ({
+        personSlug: data.personSlug,
+        item: item.item.trim(),
+        tagsJson: JSON.stringify(item.categories),
+        detail: item.detail,
+        extractedAt,
+      }));
+
+      await insertPersonItems(rows);
+
+      return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: true, itemCount: rows.length };
+    } catch (err) {
+      return {
+        personSlug: data.personSlug,
+        scraped: true,
+        contentChanged: true,
+        extracted: false,
+        itemCount: 0,
+        error: err instanceof Error ? err.message : 'Extraction failed',
+      };
+    }
+  });
+
+export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
+  async () => {
+    const errorRows = await getErrorPeople();
+    const allPeople = getAllPeople();
+    const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
+
+    return errorRows.map((row) => {
+      const person = peopleMap.get(row.personSlug);
+      return {
+        ...row,
+        name: person?.name ?? row.personSlug,
+      };
+    });
+  }
+);
+
+export const $getErrorSlugs = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<string[]> => {
+    const errorRows = await getErrorPeople();
+    return errorRows.map((r) => r.personSlug);
+  }
+);
+
+export type ItemsDashboardRow = {
+  item: string;
+  itemSlug: string;
+  count: number;
+  tags: string[];
+  itemType: string | null;
+  description: string | null;
+  itemUrl: string | null;
+  enrichedAt: string | null;
+};
+
+export const $getItemsDashboard = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<ItemsDashboardRow[]> => {
+    const [uniqueItems, enrichments] = await Promise.all([
+      getAllUniqueItems(),
+      getAllItemEnrichments(),
+    ]);
+
+    const enrichmentMap = new Map(enrichments.map((e) => [e.itemSlug, e]));
+
+    return uniqueItems.map((item) => {
+      const itemSlug = slugify(item.item) || 'item';
+      const enrichment = enrichmentMap.get(itemSlug);
+      return {
+        item: item.item,
+        itemSlug,
+        count: item.count,
+        tags: item.tags,
+        itemType: enrichment?.itemType ?? null,
+        description: enrichment?.description ?? null,
+        itemUrl: enrichment?.itemUrl ?? null,
+        enrichedAt: enrichment?.enrichedAt ?? null,
+      };
+    });
+  }
+);
+
+type EnrichItemsInput = {
+  items: Array<{ item: string; tags: string[] }>;
+};
+
+type EnrichItemResult = {
+  item: string;
+  itemType: string | null;
+  description: string | null;
+  itemUrl: string | null;
+  error?: string;
+};
+
+export const $enrichItems = createServerFn({ method: 'POST' })
+  .inputValidator((input: EnrichItemsInput) => input)
+  .handler(async ({ data }): Promise<EnrichItemResult[]> => {
+    const apiKey = (process.env.OPENAI_API_KEY || '').trim();
+    if (!apiKey) {
+      return data.items.map((i) => ({
+        item: i.item,
+        itemType: null,
+        description: null,
+        itemUrl: null,
+        error: 'OPENAI_API_KEY not configured',
+      }));
+    }
+
+    const OpenAI = (await import('openai')).default;
+    const { z } = await import('zod');
+    const { zodResponseFormat } = await import('openai/helpers/zod');
+
+    const client = new OpenAI({ apiKey });
+
+    const EnrichedItem = z.object({
+      item: z.string(),
+      itemType: z.enum(['product', 'service', 'software', 'other']),
+      description: z.string().describe('A short 1-sentence description of what this item is'),
+      itemUrl: z.string().nullable().describe('The canonical URL where this item can be found. Use null if unsure.'),
+    });
+    const EnrichmentResult = z.object({ items: z.array(EnrichedItem) });
+
+    const itemList = data.items
+      .map((i) => `- ${i.item} (tags: ${i.tags.join(', ')})`)
+      .join('\n');
+
+    try {
+      const completion = await client.chat.completions.parse({
+        model: 'gpt-5-mini',
+        messages: [
+          {
+            role: 'system',
+            content: `You classify and describe developer tools, products, and services.
+
+For each item, provide:
+- itemType: "product" (physical purchasable item), "service" (paid online service), "software" (app, tool, or open source), or "other"
+- description: A concise 1-sentence description
+- itemUrl: The official/canonical URL. Use null if you're not confident about the URL.
+
+Do NOT hallucinate URLs. Only provide URLs you are confident are correct.`,
+          },
+          { role: 'user', content: `Classify and describe these items:\n${itemList}` },
+        ],
+        response_format: zodResponseFormat(EnrichmentResult, 'enrichment'),
+      });
+
+      const parsed = completion.choices[0]?.message?.parsed;
+      if (!parsed) {
+        return data.items.map((i) => ({
+          item: i.item, itemType: null, description: null, itemUrl: null, error: 'Failed to parse response',
+        }));
+      }
+
+      const resultMap = new Map(parsed.items.map((i) => [i.item, i]));
+      const results: EnrichItemResult[] = [];
+
+      for (const input of data.items) {
+        const enriched = resultMap.get(input.item);
+        const itemSlug = slugify(input.item) || 'item';
+
+        if (enriched) {
+          await upsertItemEnrichment(itemSlug, input.item, {
+            itemType: enriched.itemType,
+            description: enriched.description,
+            itemUrl: enriched.itemUrl,
+          });
+          results.push({
+            item: input.item,
+            itemType: enriched.itemType,
+            description: enriched.description,
+            itemUrl: enriched.itemUrl,
+          });
+        } else {
+          results.push({
+            item: input.item, itemType: null, description: null, itemUrl: null, error: 'Item not in response',
+          });
+        }
+      }
+
+      return results;
+    } catch (err) {
+      return data.items.map((i) => ({
+        item: i.item,
+        itemType: null,
+        description: null,
+        itemUrl: null,
+        error: err instanceof Error ? err.message : 'Enrichment failed',
+      }));
+    }
   });
