@@ -1,10 +1,17 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import {
+  $applyTagReclassify,
+  $getAdminDashboardData,
   $getScrapeStatus,
+  $mergeItems,
+  $previewTagReclassify,
+  $searchItems,
+  type AdminDashboardData,
   $getScrapedProfile,
   type DashboardRow,
   type DashboardPayload,
+  type ReclassifyPreviewPayload,
 } from '../server/functions';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -124,9 +131,28 @@ function useScrapeAll(
 
 function DashboardPage() {
   const [data, setData] = useState<DashboardPayload | null>(null);
+  const [adminData, setAdminData] = useState<AdminDashboardData | null>(null);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<FilterMode>('all');
   const [search, setSearch] = useState('');
+  const [reclassifyCategory, setReclassifyCategory] = useState('other');
+  const [reclassifyMinUsers, setReclassifyMinUsers] = useState(2);
+  const [reclassifyLimit, setReclassifyLimit] = useState(80);
+  const [reclassifyPrompt, setReclassifyPrompt] = useState('');
+  const [reclassifyPreview, setReclassifyPreview] =
+    useState<ReclassifyPreviewPayload | null>(null);
+  const [reclassifying, setReclassifying] = useState(false);
+  const [applyingReclassify, setApplyingReclassify] = useState(false);
+  const [reclassifyError, setReclassifyError] = useState<string | null>(null);
+  const [itemSearchQuery, setItemSearchQuery] = useState('');
+  const [itemSearchResults, setItemSearchResults] = useState<
+    Array<{ item: string; itemSlug: string; count: number }>
+  >([]);
+  const [searchingItems, setSearchingItems] = useState(false);
+  const [canonicalItem, setCanonicalItem] = useState('');
+  const [sourceItems, setSourceItems] = useState<string[]>([]);
+  const [mergeBusy, setMergeBusy] = useState(false);
+  const [mergeResult, setMergeResult] = useState<string | null>(null);
 
   const handleRowUpdate = useCallback(
     (slug: string, patch: Partial<DashboardRow>) => {
@@ -154,8 +180,17 @@ function DashboardPage() {
     let cancelled = false;
     async function load() {
       try {
-        const payload = await $getScrapeStatus();
-        if (!cancelled) setData(payload);
+        const [payload, adminPayload] = await Promise.all([
+          $getScrapeStatus(),
+          $getAdminDashboardData(),
+        ]);
+        if (!cancelled) {
+          setData(payload);
+          setAdminData(adminPayload);
+          if (adminPayload.categories.length > 0) {
+            setReclassifyCategory(adminPayload.categories[0]);
+          }
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -193,6 +228,97 @@ function DashboardPage() {
     }
     return true;
   });
+
+  async function refreshAdminData() {
+    const payload = await $getAdminDashboardData();
+    setAdminData(payload);
+  }
+
+  async function runReclassifyPreview() {
+    setReclassifyError(null);
+    setReclassifying(true);
+    setReclassifyPreview(null);
+
+    try {
+      const preview = await $previewTagReclassify({
+        data: {
+          category: reclassifyCategory,
+          minUsers: reclassifyMinUsers,
+          limit: reclassifyLimit,
+          prompt: reclassifyPrompt || undefined,
+        },
+      });
+      setReclassifyPreview(preview);
+    } catch (error) {
+      setReclassifyError(error instanceof Error ? error.message : 'Failed to preview reclassification.');
+    } finally {
+      setReclassifying(false);
+    }
+  }
+
+  async function applyReclassify() {
+    if (!reclassifyPreview) return;
+    const assignments = reclassifyPreview.output.items.map((item) => ({
+      item: item.item,
+      categories: item.categories,
+    }));
+
+    setApplyingReclassify(true);
+    setReclassifyError(null);
+
+    try {
+      const result = await $applyTagReclassify({
+        data: { category: reclassifyPreview.category, assignments },
+      });
+      await refreshAdminData();
+      setReclassifyError(
+        `Applied reclassification: ${result.updatedRows} rows across ${result.updatedItems} items.`
+      );
+    } catch (error) {
+      setReclassifyError(error instanceof Error ? error.message : 'Failed to apply reclassification.');
+    } finally {
+      setApplyingReclassify(false);
+    }
+  }
+
+  async function runItemSearch() {
+    setSearchingItems(true);
+    try {
+      const results = await $searchItems({ data: itemSearchQuery });
+      setItemSearchResults(results);
+    } finally {
+      setSearchingItems(false);
+    }
+  }
+
+  async function applyMerge() {
+    if (!canonicalItem || sourceItems.length === 0) return;
+    setMergeBusy(true);
+    setMergeResult(null);
+    try {
+      const result = await $mergeItems({
+        data: {
+          canonicalItem,
+          sourceItems,
+        },
+      });
+      setMergeResult(
+        `Merged ${result.mergedItems.length} items into "${result.canonicalItem}" (${result.upsertedRows} row updates, ${result.deletedRows} source rows removed).`
+      );
+      await Promise.all([refreshAdminData(), runItemSearch()]);
+      setSourceItems([]);
+    } catch (error) {
+      setMergeResult(error instanceof Error ? error.message : 'Failed to merge items.');
+    } finally {
+      setMergeBusy(false);
+    }
+  }
+
+  function toggleSourceItem(item: string) {
+    setSourceItems((prev) =>
+      prev.includes(item) ? prev.filter((entry) => entry !== item) : [...prev, item]
+    );
+  }
 
   return (
     <div className="space-y-6">
@@ -316,6 +442,228 @@ function DashboardPage() {
           ))}
         </TableBody>
       </Table>
+
+      {adminData && (
+        <>
+          <h3 className="text-lg font-semibold pt-6">Admin Controls</h3>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <Card>
+              <CardContent className="p-4 space-y-3">
+                <h4 className="font-medium">Scrape & Update History</h4>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <div>Total events: <strong>{adminData.scrapeStats.totalEvents}</strong></div>
+                  <div>Updated: <strong>{adminData.scrapeStats.updatedEvents}</strong></div>
+                  <div>Initial: <strong>{adminData.scrapeStats.initialEvents}</strong></div>
+                  <div>Errors: <strong>{adminData.scrapeStats.errorEvents}</strong></div>
+                </div>
+                <p className="text-xs text-muted-foreground">
+                  Last event: {adminData.scrapeStats.lastEventAt ? timeAgo(adminData.scrapeStats.lastEventAt) : '—'}
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-4 space-y-3">
+                <h4 className="font-medium">View Analytics (30d)</h4>
+                {!adminData.analytics.available && (
+                  <p className="text-xs text-muted-foreground">{adminData.analytics.reason}</p>
+                )}
+                {adminData.analytics.available && (
+                  <div className="grid grid-cols-3 gap-3 text-xs">
+                    <TopList title="People" items={adminData.analytics.people} />
+                    <TopList title="Tags" items={adminData.analytics.tags} />
+                    <TopList title="Items" items={adminData.analytics.items} />
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+
+          <Card>
+            <CardContent className="p-4 space-y-4">
+              <h4 className="font-medium">Reclassify tags with prompt</h4>
+              <div className="grid gap-2 md:grid-cols-4">
+                <select
+                  value={reclassifyCategory}
+                  onChange={(e) => setReclassifyCategory(e.target.value)}
+                  className="h-9 rounded-md border border-input bg-transparent px-3 text-sm"
+                >
+                  {adminData.categories.map((category) => (
+                    <option key={category} value={category}>
+                      {category}
+                    </option>
+                  ))}
+                </select>
+                <Input
+                  type="number"
+                  min={1}
+                  value={reclassifyMinUsers}
+                  onChange={(e) => setReclassifyMinUsers(Number(e.target.value) || 1)}
+                  placeholder="Min users"
+                />
+                <Input
+                  type="number"
+                  min={1}
+                  value={reclassifyLimit}
+                  onChange={(e) => setReclassifyLimit(Number(e.target.value) || 1)}
+                  placeholder="Item limit"
+                />
+                <Button onClick={runReclassifyPreview} disabled={reclassifying}>
+                  {reclassifying ? 'Previewing...' : 'Preview'}
+                </Button>
+              </div>
+              <textarea
+                value={reclassifyPrompt}
+                onChange={(e) => setReclassifyPrompt(e.target.value)}
+                placeholder="Optional custom prompt"
+                className="w-full min-h-[90px] rounded-md border border-input bg-transparent px-3 py-2 text-sm"
+              />
+
+              {reclassifyError && (
+                <p className="text-xs text-muted-foreground">{reclassifyError}</p>
+              )}
+
+              {reclassifyPreview && (
+                <div className="space-y-3">
+                  <p className="text-sm text-muted-foreground">
+                    Candidate items: {reclassifyPreview.totalCandidates}
+                  </p>
+                  <div className="max-h-72 overflow-auto rounded-md border p-2 text-sm space-y-1">
+                    {reclassifyPreview.output.items.map((entry) => (
+                      <div key={entry.item} className="flex items-start justify-between gap-3">
+                        <span>{entry.item}</span>
+                        <span className="text-xs text-muted-foreground">
+                          {entry.categories.join(', ')}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                  <Button onClick={applyReclassify} disabled={applyingReclassify}>
+                    {applyingReclassify ? 'Applying...' : 'Apply reclassification'}
+                  </Button>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardContent className="p-4 space-y-3">
+              <h4 className="font-medium">Merge items into one</h4>
+              <div className="flex gap-2">
+                <Input
+                  value={itemSearchQuery}
+                  onChange={(e) => setItemSearchQuery(e.target.value)}
+                  placeholder="Search items..."
+                />
+                <Button onClick={runItemSearch} disabled={searchingItems}>
+                  {searchingItems ? 'Searching...' : 'Search'}
+                </Button>
+              </div>
+              <Input
+                value={canonicalItem}
+                onChange={(e) => setCanonicalItem(e.target.value)}
+                placeholder="Canonical item"
+              />
+              {itemSearchResults.length > 0 && (
+                <div className="max-h-56 overflow-auto rounded-md border p-2 space-y-1">
+                  {itemSearchResults.map((entry) => (
+                    <label key={entry.itemSlug} className="flex items-center justify-between gap-2 text-sm">
+                      <span className="truncate">{entry.item}</span>
+                      <div className="flex items-center gap-2">
+                        <button
+                          type="button"
+                          className="text-xs underline"
+                          onClick={() => setCanonicalItem(entry.item)}
+                        >
+                          set main
+                        </button>
+                        <input
+                          type="checkbox"
+                          checked={sourceItems.includes(entry.item)}
+                          onChange={() => toggleSourceItem(entry.item)}
+                          disabled={canonicalItem === entry.item}
+                        />
+                      </div>
+                    </label>
+                  ))}
+                </div>
+              )}
+              <p className="text-xs text-muted-foreground">
+                Merge sources: {sourceItems.join(', ') || 'none selected'}
+              </p>
+              <Button
+                onClick={applyMerge}
+                disabled={mergeBusy || !canonicalItem || sourceItems.length === 0}
+              >
+                {mergeBusy ? 'Merging...' : 'Merge selected items'}
+              </Button>
+              {mergeResult && <p className="text-xs text-muted-foreground">{mergeResult}</p>}
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardContent className="p-4 space-y-2">
+              <h4 className="font-medium">Recent update events</h4>
+              <div className="max-h-64 overflow-auto rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Person</TableHead>
+                      <TableHead>Change</TableHead>
+                      <TableHead>Status</TableHead>
+                      <TableHead>When</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {adminData.recentScrapeEvents
+                      .filter((event) => event.changeType === 'updated')
+                      .slice(0, 40)
+                      .map((event) => (
+                        <TableRow key={event.id}>
+                          <TableCell>{event.personSlug}</TableCell>
+                          <TableCell>{event.changeType}</TableCell>
+                          <TableCell>{event.statusCode ?? '—'}</TableCell>
+                          <TableCell>{timeAgo(event.fetchedAt)}</TableCell>
+                        </TableRow>
+                      ))}
+                  </TableBody>
+                </Table>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardContent className="p-4 space-y-2">
+              <h4 className="font-medium">Per-person scrape/update history</h4>
+              <div className="max-h-72 overflow-auto rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Person</TableHead>
+                      <TableHead>Scrapes</TableHead>
+                      <TableHead>Updates</TableHead>
+                      <TableHead>Last scraped</TableHead>
+                      <TableHead>Last updated</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {adminData.personScrapeHistory.slice(0, 120).map((row) => (
+                      <TableRow key={row.personSlug}>
+                        <TableCell>{row.personSlug}</TableCell>
+                        <TableCell>{row.scrapeCount}</TableCell>
+                        <TableCell>{row.updateCount}</TableCell>
+                        <TableCell>{row.lastScrapedAt ? timeAgo(row.lastScrapedAt) : '—'}</TableCell>
+                        <TableCell>{row.lastUpdatedAt ? timeAgo(row.lastUpdatedAt) : '—'}</TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </div>
+            </CardContent>
+          </Card>
+        </>
+      )}
     </div>
   );
 }
@@ -338,5 +686,30 @@ function Stat({
         <div className="text-xs text-muted-foreground">{label}</div>
       </CardContent>
     </Card>
+  );
+}
+
+function TopList({
+  title,
+  items,
+}: {
+  title: string;
+  items: Array<{ key: string; views: number }>;
+}) {
+  return (
+    <div>
+      <h5 className="font-medium mb-1">{title}</h5>
+      <ul className="space-y-0.5">
+        {items.slice(0, 5).map((entry) => (
+          <li key={entry.key} className="flex items-center justify-between gap-2">
+            <span className="truncate">{entry.key}</span>
+            <span className="text-muted-foreground">{entry.views}</span>
+          </li>
+        ))}
+        {items.length === 0 && (
+          <li className="text-muted-foreground">No data</li>
+        )}
+      </ul>
+    </div>
   );
 }

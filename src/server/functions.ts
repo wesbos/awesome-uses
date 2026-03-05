@@ -10,12 +10,25 @@ import {
   getAllTagSummaries,
   getTagDetailBySlug,
   getItemDetailBySlug,
+  getRecentScrapeEvents,
+  getScrapeHistoryStats,
+  getPersonScrapeHistory,
+  searchItems,
+  mergeItemsIntoCanonical,
+  getExtractedCategories,
+  applyTagReclassification,
+  type ReclassifyAssignment,
   type ItemDetail,
   type TagDetail,
 } from './d1';
 import { scrapeUsesPage } from './scrape';
 import { searchAmazonProducts, type AmazonProductSearchResult } from './amazon';
-import { writeViewEvent, type ViewEntityType } from './analytics';
+import {
+  getAnalyticsDashboardData,
+  writeViewEvent,
+  type ViewEntityType,
+} from './analytics';
+import { previewTagReclassification } from './reclassify';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -270,4 +283,79 @@ export const $trackView = createServerFn({ method: 'POST' })
   .handler(async ({ data }) => {
     writeViewEvent(data);
     return { ok: true };
+  });
+
+export type AdminDashboardData = {
+  scrapeStats: Awaited<ReturnType<typeof getScrapeHistoryStats>>;
+  recentScrapeEvents: Awaited<ReturnType<typeof getRecentScrapeEvents>>;
+  personScrapeHistory: Awaited<ReturnType<typeof getPersonScrapeHistory>>;
+  analytics: Awaited<ReturnType<typeof getAnalyticsDashboardData>>;
+  categories: string[];
+};
+
+export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<AdminDashboardData> => {
+    const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, categories] =
+      await Promise.all([
+        getScrapeHistoryStats(),
+        getRecentScrapeEvents(80),
+        getPersonScrapeHistory(),
+        getAnalyticsDashboardData(30),
+        getExtractedCategories(),
+      ]);
+
+    return {
+      scrapeStats,
+      recentScrapeEvents,
+      personScrapeHistory,
+      analytics,
+      categories,
+    };
+  }
+);
+
+type ReclassifyPreviewInput = {
+  category: string;
+  minUsers: number;
+  limit: number;
+  prompt?: string;
+  model?: string;
+};
+
+export type ReclassifyPreviewPayload = Awaited<
+  ReturnType<typeof previewTagReclassification>
+>;
+
+export const $previewTagReclassify = createServerFn({ method: 'POST' })
+  .inputValidator((input: ReclassifyPreviewInput) => input)
+  .handler(async ({ data }) => {
+    return previewTagReclassification(data);
+  });
+
+type ApplyReclassifyInput = {
+  category: string;
+  assignments: ReclassifyAssignment[];
+};
+
+export const $applyTagReclassify = createServerFn({ method: 'POST' })
+  .inputValidator((input: ApplyReclassifyInput) => input)
+  .handler(async ({ data }) => {
+    return applyTagReclassification(data.category, data.assignments);
+  });
+
+export const $searchItems = createServerFn({ method: 'GET' })
+  .inputValidator((query: string) => query)
+  .handler(async ({ data }) => {
+    return searchItems(data);
+  });
+
+type MergeItemsInput = {
+  canonicalItem: string;
+  sourceItems: string[];
+};
+
+export const $mergeItems = createServerFn({ method: 'POST' })
+  .inputValidator((input: MergeItemsInput) => input)
+  .handler(async ({ data }) => {
+    return mergeItemsIntoCanonical(data.canonicalItem, data.sourceItems);
   });

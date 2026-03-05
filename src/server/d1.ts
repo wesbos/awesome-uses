@@ -497,6 +497,148 @@ export async function searchItems(
   }));
 }
 
+export async function getExtractedCategories(
+  requestContext?: unknown
+): Promise<string[]> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return [];
+
+  const result = await db
+    .prepare(
+      `SELECT DISTINCT j.value as category
+       FROM person_items, json_each(person_items.tags_json) j
+       ORDER BY category`
+    )
+    .bind()
+    .all<{ category: string }>();
+
+  return result.results
+    .map((row) => row.category)
+    .filter(Boolean);
+}
+
+export type ReclassifyCandidate = {
+  item: string;
+  count: number;
+  people: string[];
+};
+
+export async function getReclassifyCandidates(
+  category: string,
+  minUsers: number,
+  limit: number,
+  requestContext?: unknown
+): Promise<ReclassifyCandidate[]> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return [];
+
+  const safeCategory = category.trim();
+  if (!safeCategory) return [];
+
+  const safeMinUsers = Math.max(1, minUsers);
+  const safeLimit = Math.max(1, Math.min(limit, 500));
+
+  const rows = await db
+    .prepare(
+      `SELECT
+        item,
+        COUNT(DISTINCT person_slug) as count,
+        GROUP_CONCAT(DISTINCT person_slug) as people
+       FROM person_items
+       WHERE tags_json LIKE ?
+       GROUP BY item
+       HAVING count >= ?
+       ORDER BY count DESC, item ASC
+       LIMIT ?`
+    )
+    .bind(`%"${safeCategory}"%`, safeMinUsers, safeLimit)
+    .all<{ item: string; count: number; people: string | null }>();
+
+  return rows.results.map((row) => ({
+    item: row.item,
+    count: row.count,
+    people: row.people ? row.people.split(',').filter(Boolean) : [],
+  }));
+}
+
+export type ReclassifyAssignment = {
+  item: string;
+  categories: string[];
+};
+
+export type ReclassifyApplyResult = {
+  updatedRows: number;
+  updatedItems: number;
+};
+
+export async function applyTagReclassification(
+  category: string,
+  assignments: ReclassifyAssignment[],
+  requestContext?: unknown
+): Promise<ReclassifyApplyResult> {
+  const db = await resolveD1WithFallback(requestContext);
+  if (!db) return { updatedRows: 0, updatedItems: 0 };
+
+  const normalizedCategory = category.trim();
+  if (!normalizedCategory) return { updatedRows: 0, updatedItems: 0 };
+
+  const assignmentMap = new Map<string, string[]>();
+  for (const assignment of assignments) {
+    const item = assignment.item.trim();
+    if (!item) continue;
+    const categories = uniqueSorted(
+      assignment.categories.map((entry) => entry.trim()).filter(Boolean)
+    );
+    if (categories.length === 0) continue;
+    assignmentMap.set(item, categories);
+  }
+
+  if (assignmentMap.size === 0) {
+    return { updatedRows: 0, updatedItems: 0 };
+  }
+
+  const rows = await db
+    .prepare(
+      `SELECT person_slug, item, tags_json
+       FROM person_items
+       WHERE tags_json LIKE ?`
+    )
+    .bind(`%"${normalizedCategory}"%`)
+    .all<{ person_slug: string; item: string; tags_json: string }>();
+
+  let updatedRows = 0;
+  const touchedItems = new Set<string>();
+
+  for (const row of rows.results) {
+    const nextCategories = assignmentMap.get(row.item);
+    if (!nextCategories) continue;
+
+    const currentTags = parseTagsJson(row.tags_json);
+    const withoutOld = currentTags.filter((entry) => entry !== normalizedCategory);
+    const merged = uniqueSorted([...withoutOld, ...nextCategories]);
+    const mergedJson = JSON.stringify(merged);
+
+    if (mergedJson === row.tags_json) continue;
+
+    await db
+      .prepare(
+        `UPDATE person_items
+         SET tags_json = ?
+         WHERE person_slug = ? AND item = ?`
+      )
+      .bind(mergedJson, row.person_slug, row.item)
+      .all<never>();
+
+    touchedItems.add(row.item);
+    updatedRows += 1;
+  }
+
+  return {
+    updatedRows,
+    updatedItems: touchedItems.size,
+  };
+}
+
 export type MergeItemsResult = {
   canonicalItem: string;
   mergedItems: string[];
