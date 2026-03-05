@@ -7,6 +7,7 @@ import {
   $mergeItems,
   $previewTagReclassify,
   $searchItems,
+  $reScrapeAndExtract,
   type AdminDashboardData,
   $getScrapedProfile,
   type DashboardRow,
@@ -153,6 +154,55 @@ function DashboardPage() {
   const [sourceItems, setSourceItems] = useState<string[]>([]);
   const [mergeBusy, setMergeBusy] = useState(false);
   const [mergeResult, setMergeResult] = useState<string | null>(null);
+  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [scrapeSelectedBusy, setScrapeSelectedBusy] = useState(false);
+  const [scrapeSelectedProgress, setScrapeSelectedProgress] = useState({ done: 0, total: 0 });
+
+  function toggleSelected(slug: string) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(slug)) next.delete(slug);
+      else next.add(slug);
+      return next;
+    });
+  }
+
+  function toggleAllFiltered(filteredRows: DashboardRow[]) {
+    setSelected((prev) => {
+      const allSelected = filteredRows.every((r) => prev.has(r.personSlug));
+      if (allSelected) {
+        const next = new Set(prev);
+        for (const r of filteredRows) next.delete(r.personSlug);
+        return next;
+      }
+      const next = new Set(prev);
+      for (const r of filteredRows) next.add(r.personSlug);
+      return next;
+    });
+  }
+
+  async function scrapeSelected() {
+    const slugs = [...selected];
+    if (slugs.length === 0) return;
+    setScrapeSelectedBusy(true);
+    setScrapeSelectedProgress({ done: 0, total: slugs.length });
+
+    for (let i = 0; i < slugs.length; i++) {
+      try {
+        await $reScrapeAndExtract({ data: { personSlug: slugs[i] } });
+      } catch {
+        // continue with next
+      }
+      setScrapeSelectedProgress({ done: i + 1, total: slugs.length });
+    }
+
+    setScrapeSelectedBusy(false);
+    setSelected(new Set());
+    try {
+      const payload = await $getScrapeStatus();
+      setData(payload);
+    } catch { /* ignore */ }
+  }
 
   const handleRowUpdate = useCallback(
     (slug: string, patch: Partial<DashboardRow>) => {
@@ -383,6 +433,18 @@ function DashboardPage() {
             >
               Re-scrape All ({data.total})
             </Button>
+            {selected.size > 0 && (
+              <Button
+                size="sm"
+                variant="secondary"
+                onClick={scrapeSelected}
+                disabled={scrapeSelectedBusy}
+              >
+                {scrapeSelectedBusy
+                  ? `Scraping... ${scrapeSelectedProgress.done}/${scrapeSelectedProgress.total}`
+                  : `Scrape Selected (${selected.size})`}
+              </Button>
+            )}
           </>
         )}
       </div>
@@ -415,6 +477,14 @@ function DashboardPage() {
       <Table>
         <TableHeader>
           <TableRow>
+            <TableHead className="w-8">
+              <input
+                type="checkbox"
+                checked={filtered.length > 0 && filtered.every((r) => selected.has(r.personSlug))}
+                onChange={() => toggleAllFiltered(filtered)}
+                className="accent-primary"
+              />
+            </TableHead>
             <TableHead>Name</TableHead>
             <TableHead>Status</TableHead>
             <TableHead>Title</TableHead>
@@ -425,6 +495,14 @@ function DashboardPage() {
         <TableBody>
           {filtered.map((row) => (
             <TableRow key={row.personSlug}>
+              <TableCell>
+                <input
+                  type="checkbox"
+                  checked={selected.has(row.personSlug)}
+                  onChange={() => toggleSelected(row.personSlug)}
+                  className="accent-primary"
+                />
+              </TableCell>
               <TableCell>
                 <Link
                   to="/people/$personSlug"
