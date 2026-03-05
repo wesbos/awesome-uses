@@ -39,6 +39,7 @@ import {
 } from './analytics';
 import { previewTagReclassification } from './reclassify';
 import { slugify } from '../lib/slug';
+import { getAvatarUrl } from '../lib/avatar';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -128,7 +129,7 @@ export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
   }
 );
 
-type Face = { personSlug: string; name: string; avatarUrl: string };
+export type Face = { personSlug: string; name: string; avatarUrl: string; description?: string };
 
 export type TagItemWithFaces = {
   item: string;
@@ -145,18 +146,19 @@ export type TagSummaryWithFaces = Omit<TagSummary, 'topItems' | 'personSlugs'> &
 function slugToFace(
   slug: string,
   peopleMap: Map<string, ReturnType<typeof getAllPeople>[number]>,
+  { includeDescription = false }: { includeDescription?: boolean } = {},
 ): Face | null {
   const person = peopleMap.get(slug);
   if (!person) return null;
-  const url = new URL(person.url);
-  const twitterAvatar = person.twitter
-    ? `https://unavatar.io/x/${person.twitter.replace('@', '')}`
-    : null;
-  const websiteAvatar = `https://unavatar.io/${url.host}`;
-  const avatarUrl = twitterAvatar
-    ? `${twitterAvatar}?fallback=${websiteAvatar}`
-    : websiteAvatar;
-  return { personSlug: person.personSlug, name: person.name, avatarUrl };
+  const face: Face = {
+    personSlug: person.personSlug,
+    name: person.name,
+    avatarUrl: getAvatarUrl(person),
+  };
+  if (includeDescription) {
+    face.description = person.description;
+  }
+  return face;
 }
 
 export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
@@ -241,7 +243,7 @@ function mapItemDetailWithFaces(detail: ItemDetail): Omit<ItemDetailWithFaces, '
     itemSlug: detail.itemSlug,
     totalPeople: detail.totalPeople,
     faces: detail.people
-      .map((slug) => slugToFace(slug, peopleMap))
+      .map((slug) => slugToFace(slug, peopleMap, { includeDescription: true }))
       .filter((f): f is Face => f !== null),
     tags: detail.tags.map((name) => {
       const relation = detail.tagRelations.find((entry) => entry.tag === name);
