@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import { FacePile } from '@/components/FacePile';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { getTagBySlug } from '../lib/data';
-import { $getTagDetail, $trackView, type TagDetailWithFaces } from '../server/functions';
+import { $getTagDetail, type TagDetailWithFaces } from '../server/fn/tags';
+import { $trackView } from '../server/fn/admin';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/tags/$tagSlug')({

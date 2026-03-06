@@ -63,7 +63,7 @@ describe('d1 helpers', () => {
 
   it('returns null when D1 binding is unavailable', async () => {
     await setCfEnv({});
-    const { getScrapedProfileBySlug } = await import('./d1');
+    const { getScrapedProfileBySlug } = await import('./db/profiles.server');
 
     const data = await getScrapedProfileBySlug('person-1');
     expect(data).toBeNull();
@@ -71,7 +71,7 @@ describe('d1 helpers', () => {
 
   it('returns empty arrays when D1 binding is unavailable', async () => {
     await setCfEnv({});
-    const { getAllScrapeSummaries } = await import('./d1');
+    const { getAllScrapeSummaries } = await import('./db/profiles.server');
 
     const data = await getAllScrapeSummaries();
     expect(data).toEqual([]);

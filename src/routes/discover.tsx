@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { getAvatarUrl } from '../lib/avatar';
 import { getAllPeople } from '../lib/data';
-import { $getGalaxyData, type GalaxyData } from '../server/functions';
+import { $getGalaxyData, type GalaxyData } from '../server/fn/vectorize';
 
 const CLUSTER_COLORS = [
   '#f472b6', '#fb923c', '#facc15', '#4ade80', '#22d3ee', '#818cf8',

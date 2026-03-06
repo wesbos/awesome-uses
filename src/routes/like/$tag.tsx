@@ -9,7 +9,7 @@ import {
   getAllTags,
   getPeopleForLikeTag,
 } from '../../lib/data';
-import { $trackView } from '../../server/functions';
+import { $trackView } from '../../server/fn/admin';
 import { buildMeta, SITE_URL, ogImageUrl } from '../../lib/seo';
 
 export const Route = createFileRoute('/like/$tag')({

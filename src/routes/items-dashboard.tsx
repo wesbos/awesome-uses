@@ -1,10 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import {
-  $getItemsDashboard,
-  $enrichItems,
-  type ItemsDashboardRow,
-} from '../server/functions';
+import { $getItemsDashboard, $enrichItems, type ItemsDashboardRow } from '../server/fn/items';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';

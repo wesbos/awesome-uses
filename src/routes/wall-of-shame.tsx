@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { $getErrorPeople } from '../server/functions';
+import { $getErrorPeople } from '../server/fn/profiles';
 import { Badge } from '@/components/ui/badge';
 import {
   Table,

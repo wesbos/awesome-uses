@@ -5,7 +5,8 @@ import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { getCompanyLogo } from '@/lib/company-logos';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { $getItemDetail, $trackView, type ItemDetailWithFaces } from '../server/functions';
+import { $getItemDetail, type ItemDetailWithFaces } from '../server/fn/items';
+import { $trackView } from '../server/fn/admin';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/items/$itemSlug')({

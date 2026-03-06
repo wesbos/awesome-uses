@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router';
-import type { Face } from '../server/functions';
+import type { Face } from '../server/fn/helpers';
 
 type PersonMiniCardProps = {
   face: Face;

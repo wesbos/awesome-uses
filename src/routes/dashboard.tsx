@@ -1,29 +1,10 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import {
-  $applyTagReclassify,
-  $getAdminDashboardData,
-  $getScrapeStatus,
-  $mergeItems,
-  $previewTagReclassify,
-  $searchItems,
-  $reScrapeAndExtract,
-  $batchExtractItems,
-  $batchVectorize,
-  $findDuplicateItems,
-  $discoverCategories,
-  $getExtractionReview,
-  type AdminDashboardData,
-  $getScrapedProfile,
-  type DashboardRow,
-  type DashboardPayload,
-  type ReclassifyPreviewPayload,
-  type BatchExtractResult,
-  type BatchVectorizeResult,
-  type DuplicateGroup,
-  type DiscoverCategoriesResult,
-  type ExtractionReviewData,
-} from '../server/functions';
+import { $getScrapedProfile, $getScrapeStatus, $reScrapeAndExtract, type DashboardRow, type DashboardPayload } from '../server/fn/profiles';
+import { $applyTagReclassify, $previewTagReclassify, type ReclassifyPreviewPayload } from '../server/fn/tags';
+import { $searchItems, $mergeItems, $findDuplicateItems, $getExtractionReview, type DuplicateGroup, type ExtractionReviewData } from '../server/fn/items';
+import { $getAdminDashboardData, $discoverCategories, type AdminDashboardData, type DiscoverCategoriesResult } from '../server/fn/admin';
+import { $batchExtractItems, $batchVectorize, type BatchExtractResult, type BatchVectorizeResult } from '../server/fn/vectorize';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';

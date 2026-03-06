@@ -1,10 +1,7 @@
 import { Link, Outlet, createFileRoute, useLocation } from '@tanstack/react-router';
 import { useState } from 'react';
-import {
-  $getTagSummaries,
-  type TagSummaryWithFaces,
-  type TagItemWithFaces,
-} from '../server/functions';
+import { $getTagSummaries, type TagSummaryWithFaces } from '../server/fn/tags';
+import type { TagItemWithFaces } from '../server/fn/helpers';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';

@@ -1,6 +1,6 @@
 import { createHash, createHmac } from 'node:crypto';
 import { slugify } from '../lib/slug';
-import { getAmazonCacheByItemKey, upsertAmazonCache } from './d1';
+import { getAmazonCacheByItemKey, upsertAmazonCache } from './db/amazon-cache.server';
 
 type AmazonCredentials = {
   accessKey: string;

@@ -1,7 +1,7 @@
-import OpenAI from 'openai';
 import { z } from 'zod';
 import { zodResponseFormat } from 'openai/helpers/zod';
-import { getExtractedCategories, getReclassifyCandidates } from './d1';
+import { getExtractedCategories, getReclassifyCandidates } from './db/tags.server';
+import { createOpenAIClient } from './extract';
 
 const DEFAULT_MODEL = 'gpt-5-mini';
 
@@ -49,14 +49,6 @@ export type ReclassifyPreviewResult = {
   candidates: Array<{ item: string; count: number }>;
   output: ReclassifyOutput;
 };
-
-function createOpenAIClient(): OpenAI {
-  const apiKey = (process.env.OPENAI_API_KEY || '').trim();
-  if (!apiKey) {
-    throw new Error('OPENAI_API_KEY is not configured.');
-  }
-  return new OpenAI({ apiKey });
-}
 
 export async function previewTagReclassification(
   input: ReclassifyPreviewInput,

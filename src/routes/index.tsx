@@ -4,7 +4,7 @@ import Facts from '../components/Facts';
 import PeopleGrid from '../components/PeopleGrid';
 import TopicLinks from '../components/TopicLinks';
 import { getDirectoryData, getDirectoryFacts } from '../lib/data';
-import { $getErrorSlugs } from '../server/functions';
+import { $getErrorSlugs } from '../server/fn/profiles';
 import { buildMeta, SITE_URL } from '../lib/seo';
 import { Button } from '../components/ui/button';
 
