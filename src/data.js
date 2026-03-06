@@ -10835,7 +10835,7 @@ module.exports = [
   },
   {
     name: 'Assaf Sapir',
-    description: 'Software Developer from Israel',
+    description: 'Software Developer',
     url: 'https://sapir.io/uses/',
     country: '🇮🇱',
     emoji: '👨‍💻',
