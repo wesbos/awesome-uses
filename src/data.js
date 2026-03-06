@@ -7670,6 +7670,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Mads Hartmann',
+    description:
+      'Product Engineer located in Denmark currently working at Ona',
+    url: 'https://www.mads-hartmann.com/uses',
+    emoji: '❤️',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@mads_hartmann',
+    tags: [
+      'Product Engineer',
+      'Ona',
+      'Photography',
+    ],
+  },
+  {
     name: 'Camille Hodoul',
     description: 'Remote fullstack developer, mostly Javascript & PHP',
     url: 'https://camillehdl.dev/uses/',
