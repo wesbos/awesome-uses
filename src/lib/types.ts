@@ -64,6 +64,7 @@ export type ScrapeStatusRow = {
   statusCode: number | null;
   fetchedAt: string;
   title: string | null;
+  vectorizedAt: string | null;
 };
 
 export type PersonItem = {

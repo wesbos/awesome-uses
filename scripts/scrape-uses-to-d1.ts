@@ -1,17 +1,19 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Scrape Pending" / "Re-scrape All" buttons in ScrapeTable and the
+ * "Batch Extract" card provide the same functionality via the app's server
+ * functions, keeping scraping, extraction, and hashing logic in sync.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeFile, unlink } from 'node:fs/promises';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { randomBytes } from 'node:crypto';
-import { setTimeout as delay } from 'node:timers/promises';
-import { buildUniqueSlug } from '../src/lib/slug';
+import { scrapeUsesPage, type ScrapePageResult } from '../src/server/scrape';
 import { loadPeopleFromDataJs } from './lib/data-file';
-import {
-  buildScrapeRecordFromHtml,
-  sqlValue,
-  type ScrapeRecord,
-} from './lib/scrape';
+import { sqlValue } from './lib/scrape';
+import { buildUniqueSlug } from '../src/lib/slug';
 import type { PersonRecord } from '../src/lib/types';
 
 const execFileAsync = promisify(execFile);
@@ -24,10 +26,6 @@ type ScrapeOptions = {
   retries: number;
   limit?: number;
   personFilter?: string;
-};
-
-type ExistingScrapeRow = {
-  contentHash: string | null;
 };
 
 function parseArgs(argv: string[]): ScrapeOptions {
@@ -55,73 +53,9 @@ function parseArgs(argv: string[]): ScrapeOptions {
   };
 }
 
-async function fetchWithRetry(url: string, timeoutMs: number, retries: number) {
-  let lastError: unknown;
-  for (let attempt = 0; attempt <= retries; attempt += 1) {
-    try {
-      const response = await fetch(url, {
-        method: 'GET',
-        redirect: 'follow',
-        signal: AbortSignal.timeout(timeoutMs),
-        headers: {
-          'User-Agent': 'uses.tech-scraper/1.0 (+https://uses.tech)',
-          Accept: 'text/html,*/*',
-        },
-      });
-      return response;
-    } catch (error) {
-      lastError = error;
-      if (attempt < retries) {
-        await delay(Math.min(300 * (attempt + 1), 1_500));
-      }
-    }
-  }
-  throw lastError;
-}
-
-async function scrapePage(
-  personSlug: string,
-  url: string,
-  timeoutMs: number,
-  retries: number
-): Promise<ScrapeRecord> {
-  const fetchedAt = new Date().toISOString();
-  try {
-    const response = await fetchWithRetry(url, timeoutMs, retries);
-    const contentType = response.headers.get('content-type') || '';
-    const isHtml = contentType.includes('text/html');
-    if (!isHtml) {
-      return {
-        personSlug,
-        url,
-        statusCode: response.status,
-        fetchedAt,
-        title: null,
-        contentMarkdown: null,
-        contentHash: null,
-      };
-    }
-
-    const html = await response.text();
-    return buildScrapeRecordFromHtml(
-      personSlug,
-      url,
-      response.status,
-      html,
-      fetchedAt
-    );
-  } catch (error) {
-    return {
-      personSlug,
-      url,
-      statusCode: null,
-      fetchedAt,
-      title: null,
-      contentMarkdown: null,
-      contentHash: null,
-    };
-  }
-}
+// ---------------------------------------------------------------------------
+// D1 helpers (wrangler CLI — only way to reach D1 outside Workers runtime)
+// ---------------------------------------------------------------------------
 
 async function execD1(dbName: string, sql: string, remote: boolean): Promise<void> {
   const tmpFile = join(tmpdir(), `d1-${randomBytes(8).toString('hex')}.sql`);
@@ -158,80 +92,52 @@ async function queryD1<T>(
   return parsed[0]?.results ?? [];
 }
 
-async function ensureSchema(dbName: string, remote: boolean) {
-  const schemaSql = `
-    CREATE TABLE IF NOT EXISTS person_pages (
-      person_slug TEXT PRIMARY KEY,
-      url TEXT NOT NULL,
-      status_code INTEGER,
-      fetched_at TEXT NOT NULL,
-      title TEXT,
-      content_markdown TEXT,
-      content_hash TEXT
-    );
+// ---------------------------------------------------------------------------
+// Change detection + upsert (mirrors src/server/d1.ts logic)
+// ---------------------------------------------------------------------------
 
-    CREATE TABLE IF NOT EXISTS person_page_events (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      person_slug TEXT NOT NULL,
-      url TEXT NOT NULL,
-      status_code INTEGER,
-      fetched_at TEXT NOT NULL,
-      content_hash TEXT,
-      change_type TEXT NOT NULL,
-      title TEXT
-    );
-
-    CREATE INDEX IF NOT EXISTS idx_person_pages_fetched_at
-      ON person_pages(fetched_at DESC);
-
-    CREATE INDEX IF NOT EXISTS idx_person_page_events_person_fetched
-      ON person_page_events(person_slug, fetched_at DESC);
-
-    CREATE INDEX IF NOT EXISTS idx_person_page_events_change_type_fetched
-      ON person_page_events(change_type, fetched_at DESC);
-  `;
-  await execD1(dbName, schemaSql, remote);
-}
+type ExistingScrapeRow = {
+  contentHash: string | null;
+};
 
 function classifyScrapeChangeType(
   previousContentHash: string | null,
-  row: ScrapeRecord
+  scraped: ScrapePageResult
 ): 'initial' | 'updated' | 'unchanged' | 'error' | 'non_html' {
-  if (row.statusCode === null || row.statusCode >= 400) {
-    return 'error';
-  }
-  if (!row.contentMarkdown) {
-    return 'non_html';
-  }
-  if (!previousContentHash) {
-    return 'initial';
-  }
-  if (previousContentHash !== row.contentHash) {
-    return 'updated';
-  }
+  if (scraped.statusCode === null || scraped.statusCode >= 400) return 'error';
+  if (!scraped.contentMarkdown) return 'non_html';
+  if (!previousContentHash) return 'initial';
+  if (previousContentHash !== scraped.contentHash) return 'updated';
   return 'unchanged';
 }
 
-async function upsertScrape(dbName: string, remote: boolean, row: ScrapeRecord) {
+async function upsertScrape(
+  dbName: string,
+  remote: boolean,
+  personSlug: string,
+  url: string,
+  fetchedAt: string,
+  scraped: ScrapePageResult,
+) {
   const previousRows = await queryD1<ExistingScrapeRow>(
     dbName,
-    `SELECT content_hash as contentHash FROM person_pages WHERE person_slug = ${sqlValue(row.personSlug)} LIMIT 1`,
+    `SELECT content_hash as contentHash FROM person_pages WHERE person_slug = ${sqlValue(personSlug)} LIMIT 1`,
     remote
   );
   const previousContentHash = previousRows[0]?.contentHash ?? null;
-  const changeType = classifyScrapeChangeType(previousContentHash, row);
+  const changeType = classifyScrapeChangeType(previousContentHash, scraped);
 
   const sql = `
   INSERT INTO person_pages (
     person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
   ) VALUES (
-    ${sqlValue(row.personSlug)},
-    ${sqlValue(row.url)},
-    ${sqlValue(row.statusCode)},
-    ${sqlValue(row.fetchedAt)},
-    ${sqlValue(row.title)},
-    ${sqlValue(row.contentMarkdown)},
-    ${sqlValue(row.contentHash)}
+    ${sqlValue(personSlug)},
+    ${sqlValue(url)},
+    ${sqlValue(scraped.statusCode)},
+    ${sqlValue(fetchedAt)},
+    ${sqlValue(scraped.title)},
+    ${sqlValue(scraped.contentMarkdown)},
+    ${sqlValue(scraped.contentHash)}
   )
   ON CONFLICT(person_slug) DO UPDATE SET
     url=excluded.url,
@@ -244,18 +150,22 @@ async function upsertScrape(dbName: string, remote: boolean, row: ScrapeRecord) 
   INSERT INTO person_page_events (
     person_slug, url, status_code, fetched_at, content_hash, change_type, title
   ) VALUES (
-    ${sqlValue(row.personSlug)},
-    ${sqlValue(row.url)},
-    ${sqlValue(row.statusCode)},
-    ${sqlValue(row.fetchedAt)},
-    ${sqlValue(row.contentHash)},
+    ${sqlValue(personSlug)},
+    ${sqlValue(url)},
+    ${sqlValue(scraped.statusCode)},
+    ${sqlValue(fetchedAt)},
+    ${sqlValue(scraped.contentHash)},
     ${sqlValue(changeType)},
-    ${sqlValue(row.title)}
+    ${sqlValue(scraped.title)}
   );
   `;
 
   await execD1(dbName, sql, remote);
 }
+
+// ---------------------------------------------------------------------------
+// Concurrency helper
+// ---------------------------------------------------------------------------
 
 async function mapConcurrent<T, R>(
   values: T[],
@@ -276,6 +186,10 @@ async function mapConcurrent<T, R>(
   await Promise.all(Array.from({ length: Math.min(concurrency, values.length) }, worker));
   return results;
 }
+
+// ---------------------------------------------------------------------------
+// Main
+// ---------------------------------------------------------------------------
 
 function buildPersonSlugMap(people: PersonRecord[]): Map<string, string> {
   const used = new Set<string>();
@@ -313,24 +227,26 @@ async function main() {
     `Scraping ${people.length} pages to D1 (${options.remote ? 'remote' : 'local'}) database "${options.dbName}"...`
   );
 
-  await ensureSchema(options.dbName, options.remote);
-
-  // Phase 1: scrape pages concurrently (HTTP only, no DB writes)
+  // Phase 1: scrape pages concurrently using the app's scrapeUsesPage
   const scraped = await mapConcurrent(people, options.concurrency, async (person, index) => {
     const personSlug = personSlugByUrl.get(person.url) || `person-${index + 1}`;
-    const row = await scrapePage(personSlug, person.url, options.timeoutMs, options.retries);
-    const statusLabel = row.statusCode ?? 'error';
+    const result = await scrapeUsesPage(person.url, {
+      timeoutMs: options.timeoutMs,
+      retries: options.retries,
+    });
+    const statusLabel = result.statusCode ?? 'error';
     console.log(`${String(index + 1).padStart(4, '0')} [${statusLabel}] ${person.url}`);
-    return row;
+    return { personSlug, url: person.url, result };
   });
 
   // Phase 2: write to D1 sequentially to avoid SQLITE_BUSY
   console.log(`\nWriting ${scraped.length} records to D1...`);
-  for (const row of scraped) {
-    await upsertScrape(options.dbName, options.remote, row);
+  for (const { personSlug, url, result } of scraped) {
+    const fetchedAt = new Date().toISOString();
+    await upsertScrape(options.dbName, options.remote, personSlug, url, fetchedAt, result);
   }
 
-  const ok = scraped.filter((row) => row.statusCode && row.statusCode < 400).length;
+  const ok = scraped.filter((s) => s.result.statusCode && s.result.statusCode < 400).length;
   const bad = scraped.length - ok;
 
   console.log('');

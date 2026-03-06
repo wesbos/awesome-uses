@@ -48,6 +48,7 @@ export async function getAllScrapeSummaries(): Promise<ScrapeStatusRow[]> {
       statusCode: schema.personPages.statusCode,
       fetchedAt: schema.personPages.fetchedAt,
       title: schema.personPages.title,
+      vectorizedAt: schema.personPages.vectorizedAt,
     })
     .from(schema.personPages)
     .orderBy(desc(schema.personPages.fetchedAt));
@@ -1169,4 +1170,280 @@ export async function getAllItemEnrichments(): Promise<Array<{
   } catch {
     return [];
   }
+}
+
+export async function getAllScrapedPersonSlugs(): Promise<string[]> {
+  const db = resolveDb();
+  if (!db) return [];
+  try {
+    const rows = await db
+      .select({ personSlug: schema.personPages.personSlug })
+      .from(schema.personPages);
+    return rows.map((r) => r.personSlug);
+  } catch {
+    return [];
+  }
+}
+
+export async function markVectorized(personSlug: string): Promise<void> {
+  const db = resolveDb();
+  if (!db) return;
+  await db
+    .update(schema.personPages)
+    .set({ vectorizedAt: new Date().toISOString() })
+    .where(eq(schema.personPages.personSlug, personSlug));
+}
+
+export async function getItemsByPerson(): Promise<Map<string, string[]>> {
+  const rows = await getAllExtractedRows();
+  const map = new Map<string, string[]>();
+  for (const row of rows) {
+    const item = row.item.trim();
+    if (!item) continue;
+    if (!map.has(row.person_slug)) map.set(row.person_slug, []);
+    map.get(row.person_slug)!.push(item);
+  }
+  return map;
+}
+
+// ---------------------------------------------------------------------------
+// Batch extraction helpers
+// ---------------------------------------------------------------------------
+
+export type ScrapedPageForExtraction = {
+  personSlug: string;
+  contentMarkdown: string;
+};
+
+export async function getScrapedPagesForExtraction(
+  options: { skipExisting: boolean; limit: number },
+): Promise<ScrapedPageForExtraction[]> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  const safeLimit = Math.max(1, Math.min(options.limit, 2000));
+
+  try {
+    if (options.skipExisting) {
+      return await db.all<ScrapedPageForExtraction>(
+        sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
+            FROM person_pages
+            WHERE content_markdown IS NOT NULL AND content_markdown != ''
+              AND person_slug NOT IN (SELECT DISTINCT person_slug FROM person_items)
+            ORDER BY person_slug
+            LIMIT ${safeLimit}`,
+      );
+    }
+
+    return await db.all<ScrapedPageForExtraction>(
+      sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
+          FROM person_pages
+          WHERE content_markdown IS NOT NULL AND content_markdown != ''
+          ORDER BY person_slug
+          LIMIT ${safeLimit}`,
+    );
+  } catch {
+    return [];
+  }
+}
+
+export async function getRandomScrapedPages(
+  sampleSize: number,
+): Promise<ScrapedPageForExtraction[]> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  const safeLimit = Math.max(1, Math.min(sampleSize, 500));
+
+  try {
+    return await db.all<ScrapedPageForExtraction>(
+      sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
+          FROM person_pages
+          WHERE content_markdown IS NOT NULL AND content_markdown != ''
+          ORDER BY RANDOM()
+          LIMIT ${safeLimit}`,
+    );
+  } catch {
+    return [];
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Batch vectorize helpers
+// ---------------------------------------------------------------------------
+
+export type ProfileForVectorization = {
+  personSlug: string;
+  contentMarkdown: string;
+};
+
+export async function getProfilesForVectorization(
+  options: { skipExisting: boolean; limit: number },
+): Promise<ProfileForVectorization[]> {
+  const db = resolveDb();
+  if (!db) return [];
+
+  const safeLimit = Math.max(1, Math.min(options.limit, 2000));
+
+  try {
+    if (options.skipExisting) {
+      return await db.all<ProfileForVectorization>(
+        sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
+            FROM person_pages
+            WHERE content_markdown IS NOT NULL AND length(content_markdown) > 100
+              AND vectorized_at IS NULL
+            ORDER BY person_slug
+            LIMIT ${safeLimit}`,
+      );
+    }
+
+    return await db.all<ProfileForVectorization>(
+      sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
+          FROM person_pages
+          WHERE content_markdown IS NOT NULL AND length(content_markdown) > 100
+          ORDER BY person_slug
+          LIMIT ${safeLimit}`,
+    );
+  } catch {
+    return [];
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Duplicate item detection
+// ---------------------------------------------------------------------------
+
+export type DuplicateGroup = {
+  canonical: string;
+  canonicalCount: number;
+  variants: Array<{ item: string; count: number }>;
+};
+
+export async function findDuplicateItems(): Promise<DuplicateGroup[]> {
+  const rows = await getAllExtractedRows();
+
+  const itemCounts = new Map<string, number>();
+  for (const row of rows) {
+    const item = row.item.trim();
+    if (!item) continue;
+    itemCounts.set(item, (itemCounts.get(item) || 0) + 1);
+  }
+
+  const lowerToVariants = new Map<string, Map<string, number>>();
+  for (const [item, count] of itemCounts) {
+    const key = item.toLowerCase().replace(/\s+/g, ' ').trim();
+    if (!lowerToVariants.has(key)) lowerToVariants.set(key, new Map());
+    lowerToVariants.get(key)!.set(item, count);
+  }
+
+  const groups: DuplicateGroup[] = [];
+  for (const variants of lowerToVariants.values()) {
+    if (variants.size < 2) continue;
+
+    const sorted = [...variants.entries()].sort((a, b) => b[1] - a[1]);
+    const [canonical, canonicalCount] = sorted[0];
+
+    groups.push({
+      canonical,
+      canonicalCount,
+      variants: sorted.slice(1).map(([item, count]) => ({ item, count })),
+    });
+  }
+
+  return groups.sort((a, b) => {
+    const totalA = a.canonicalCount + a.variants.reduce((s, v) => s + v.count, 0);
+    const totalB = b.canonicalCount + b.variants.reduce((s, v) => s + v.count, 0);
+    return totalB - totalA;
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Extraction review helpers
+// ---------------------------------------------------------------------------
+
+export type ExtractionReviewData = {
+  totalRows: number;
+  totalCategories: number;
+  categories: Array<{
+    category: string;
+    uniqueItems: number;
+    totalPeople: number;
+    topItems: Array<{ item: string; count: number }>;
+  }>;
+  multiCategoryItems: Array<{ item: string; categories: string[] }>;
+  tinyCategories: Array<{ category: string; items: string[] }>;
+  bannedLeaks: Array<{ category: string; uniqueItems: number }>;
+};
+
+export async function getExtractionReviewData(
+  bannedCategories: string[],
+): Promise<ExtractionReviewData> {
+  const rows = await getAllExtractedRows();
+
+  if (rows.length === 0) {
+    return { totalRows: 0, totalCategories: 0, categories: [], multiCategoryItems: [], tinyCategories: [], bannedLeaks: [] };
+  }
+
+  const categoryItems = new Map<string, Map<string, Set<string>>>();
+  const itemCategories = new Map<string, Set<string>>();
+
+  for (const row of rows) {
+    const item = row.item.trim();
+    if (!item) continue;
+
+    let categories: string[];
+    try {
+      categories = JSON.parse(row.tags_json);
+    } catch {
+      categories = ['unknown'];
+    }
+
+    for (const cat of categories) {
+      if (!categoryItems.has(cat)) categoryItems.set(cat, new Map());
+      const items = categoryItems.get(cat)!;
+      if (!items.has(item)) items.set(item, new Set());
+      items.get(item)!.add(row.person_slug);
+
+      if (!itemCategories.has(item)) itemCategories.set(item, new Set());
+      itemCategories.get(item)!.add(cat);
+    }
+  }
+
+  const sortedCategories = [...categoryItems.entries()]
+    .map(([cat, items]) => {
+      const totalPeople = new Set([...items.values()].flatMap((v) => [...v])).size;
+      const topItems = [...items.entries()]
+        .sort((a, b) => b[1].size - a[1].size)
+        .slice(0, 15)
+        .map(([item, people]) => ({ item, count: people.size }));
+      return { category: cat, uniqueItems: items.size, totalPeople, topItems };
+    })
+    .sort((a, b) => b.uniqueItems - a.uniqueItems);
+
+  const multiCategoryItems = [...itemCategories.entries()]
+    .filter(([, cats]) => cats.size > 2)
+    .sort((a, b) => b[1].size - a[1].size)
+    .slice(0, 30)
+    .map(([item, cats]) => ({ item, categories: [...cats].sort() }));
+
+  const bannedSet = new Set(bannedCategories.map((b) => b.toLowerCase()));
+  const tinyCategories = sortedCategories
+    .filter((c) => c.uniqueItems <= 2)
+    .map((c) => ({
+      category: c.category,
+      items: [...categoryItems.get(c.category)!.keys()],
+    }));
+
+  const bannedLeaks = sortedCategories
+    .filter((c) => bannedSet.has(c.category.toLowerCase()))
+    .map((c) => ({ category: c.category, uniqueItems: c.uniqueItems }));
+
+  return {
+    totalRows: rows.length,
+    totalCategories: sortedCategories.length,
+    categories: sortedCategories,
+    multiCategoryItems,
+    tinyCategories,
+    bannedLeaks,
+  };
 }

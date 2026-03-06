@@ -8,11 +8,21 @@ import {
   $previewTagReclassify,
   $searchItems,
   $reScrapeAndExtract,
+  $batchExtractItems,
+  $batchVectorize,
+  $findDuplicateItems,
+  $discoverCategories,
+  $getExtractionReview,
   type AdminDashboardData,
   $getScrapedProfile,
   type DashboardRow,
   type DashboardPayload,
   type ReclassifyPreviewPayload,
+  type BatchExtractResult,
+  type BatchVectorizeResult,
+  type DuplicateGroup,
+  type DiscoverCategoriesResult,
+  type ExtractionReviewData,
 } from '../server/functions';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -27,7 +37,7 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-type FilterMode = 'all' | 'scraped' | 'pending' | 'errors';
+type FilterMode = 'all' | 'scraped' | 'pending' | 'errors' | 'vectorized' | 'not-vectorized';
 
 export const Route = createFileRoute('/dashboard')({
   component: DashboardPage,
@@ -116,6 +126,18 @@ function DashboardPage() {
 
           <ReclassifyCard categories={adminData.categories} onApplied={refreshAdminData} />
           <MergeItemsCard onMerged={refreshAdminData} />
+
+          <h3 className="text-lg font-semibold pt-6">Batch Operations</h3>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <BatchExtractCard />
+            <BatchVectorizeCard />
+          </div>
+
+          <AutoMergeDupesCard onMerged={refreshAdminData} />
+          <DiscoverCategoriesCard />
+          <ExtractionReviewCard />
+
           <RecentEventsCard events={adminData.recentScrapeEvents} />
           <PersonHistoryCard history={adminData.personScrapeHistory} />
         </>
@@ -219,14 +241,37 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [scrapeSelectedBusy, setScrapeSelectedBusy] = useState(false);
   const [scrapeSelectedProgress, setScrapeSelectedProgress] = useState({ done: 0, total: 0 });
+  const lastClickedIndex = useRef<number | null>(null);
+  const shiftHeld = useRef(false);
 
-  function toggleSelected(slug: string) {
-    setSelected((prev) => {
-      const next = new Set(prev);
-      if (next.has(slug)) next.delete(slug);
-      else next.add(slug);
-      return next;
-    });
+  useEffect(() => {
+    const down = (e: KeyboardEvent) => { if (e.key === 'Shift') shiftHeld.current = true; };
+    const up = (e: KeyboardEvent) => { if (e.key === 'Shift') shiftHeld.current = false; };
+    window.addEventListener('keydown', down);
+    window.addEventListener('keyup', up);
+    return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up); };
+  }, []);
+
+  function handleRowClick(index: number, slug: string, filteredRows: DashboardRow[]) {
+    if (shiftHeld.current && lastClickedIndex.current !== null) {
+      const start = Math.min(lastClickedIndex.current, index);
+      const end = Math.max(lastClickedIndex.current, index);
+      setSelected((prev) => {
+        const next = new Set(prev);
+        for (let i = start; i <= end; i++) {
+          next.add(filteredRows[i].personSlug);
+        }
+        return next;
+      });
+    } else {
+      setSelected((prev) => {
+        const next = new Set(prev);
+        if (next.has(slug)) next.delete(slug);
+        else next.add(slug);
+        return next;
+      });
+    }
+    lastClickedIndex.current = index;
   }
 
   function toggleAllFiltered(filteredRows: DashboardRow[]) {
@@ -249,14 +294,26 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
     setScrapeSelectedBusy(true);
     setScrapeSelectedProgress({ done: 0, total: slugs.length });
 
-    for (let i = 0; i < slugs.length; i++) {
-      try {
-        await $reScrapeAndExtract({ data: { personSlug: slugs[i] } });
-      } catch {
-        // continue with next
+    let nextIndex = 0;
+    let done = 0;
+    const concurrency = 10;
+
+    async function worker() {
+      while (nextIndex < slugs.length) {
+        const idx = nextIndex++;
+        try {
+          await $reScrapeAndExtract({ data: { personSlug: slugs[idx] } });
+        } catch {
+          // continue with next
+        }
+        done++;
+        setScrapeSelectedProgress({ done, total: slugs.length });
       }
-      setScrapeSelectedProgress({ done: i + 1, total: slugs.length });
     }
+
+    await Promise.all(
+      Array.from({ length: Math.min(concurrency, slugs.length) }, () => worker()),
+    );
 
     setScrapeSelectedBusy(false);
     setSelected(new Set());
@@ -300,6 +357,8 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
       if (!row.scraped) return false;
       if (row.statusCode && row.statusCode < 400) return false;
     }
+    if (filter === 'vectorized' && !row.vectorized) return false;
+    if (filter === 'not-vectorized' && row.vectorized) return false;
     if (
       query &&
       !row.name.toLowerCase().includes(query) &&
@@ -312,9 +371,10 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
 
   return (
     <>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
         <Stat label="Total" value={data.total} />
         <Stat label="Scraped" value={data.scraped} className="text-green-500" />
+        <Stat label="Vectorized" value={data.vectorized} className="text-blue-500" />
         <Stat label="Pending" value={pendingCount} className="text-muted-foreground" />
         <Stat label="Errors" value={errorCount} className="text-destructive" />
       </div>
@@ -367,7 +427,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
-        {(['all', 'scraped', 'pending', 'errors'] as const).map((mode) => (
+        {(['all', 'scraped', 'pending', 'errors', 'vectorized', 'not-vectorized'] as const).map((mode) => (
           <Button
             key={mode}
             variant={filter === mode ? 'default' : 'outline'}
@@ -375,7 +435,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
             onClick={() => setFilter(mode)}
             className="capitalize"
           >
-            {mode}
+            {mode === 'not-vectorized' ? 'Not Vectorized' : mode}
           </Button>
         ))}
         <Input
@@ -405,19 +465,20 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
               </TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Status</TableHead>
+              <TableHead>Vector</TableHead>
               <TableHead>Title</TableHead>
               <TableHead>Fetched</TableHead>
               <TableHead>URL</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
-            {filtered.map((row) => (
+            {filtered.map((row, idx) => (
               <TableRow key={row.personSlug}>
                 <TableCell>
                   <input
                     type="checkbox"
                     checked={selected.has(row.personSlug)}
-                    onChange={() => toggleSelected(row.personSlug)}
+                    onChange={() => handleRowClick(idx, row.personSlug, filtered)}
                     className="accent-primary"
                   />
                 </TableCell>
@@ -432,6 +493,11 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
                 </TableCell>
                 <TableCell>
                   <StatusBadge row={row} />
+                </TableCell>
+                <TableCell>
+                  {row.vectorized
+                    ? <Badge variant="outline" className="text-blue-500 border-blue-500/30">yes</Badge>
+                    : <span className="text-muted-foreground text-xs">—</span>}
                 </TableCell>
                 <TableCell className="max-w-[250px] truncate">
                   {row.title ?? '—'}
@@ -716,6 +782,424 @@ function MergeItemsCard({ onMerged }: { onMerged: () => Promise<void> }) {
           <p className={`text-xs ${mergeResult.ok ? 'text-muted-foreground' : 'text-destructive font-medium'}`}>
             {mergeResult.message}
           </p>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// BatchExtractCard — extract items from already-scraped pages
+// ---------------------------------------------------------------------------
+
+function BatchExtractCard() {
+  const [limit, setLimit] = useState(50);
+  const [skipExisting, setSkipExisting] = useState(true);
+  const [busy, setBusy] = useState(false);
+  const [result, setResult] = useState<BatchExtractResult | null>(null);
+
+  async function run() {
+    setBusy(true);
+    setResult(null);
+    try {
+      const res = await $batchExtractItems({ data: { limit, skipExisting } });
+      setResult(res);
+    } catch (err) {
+      setResult({ processed: 0, totalItems: 0, errors: 1, results: [{ personSlug: '', itemCount: 0, error: err instanceof Error ? err.message : 'Failed' }] });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-3">
+        <h4 className="font-medium">Batch Extract Items</h4>
+        <p className="text-xs text-muted-foreground">
+          Run AI extraction on already-scraped pages to populate person_items.
+        </p>
+        <div className="flex items-center gap-2">
+          <Input
+            type="number"
+            min={1}
+            max={500}
+            value={limit}
+            onChange={(e) => setLimit(Number(e.target.value) || 50)}
+            className="w-24"
+          />
+          <label className="flex items-center gap-1.5 text-sm">
+            <input
+              type="checkbox"
+              checked={skipExisting}
+              onChange={(e) => setSkipExisting(e.target.checked)}
+              className="accent-primary"
+            />
+            Skip already-extracted
+          </label>
+          <Button onClick={run} disabled={busy} size="sm">
+            {busy ? 'Extracting...' : 'Run'}
+          </Button>
+        </div>
+        {result && (
+          <div className="text-xs space-y-1">
+            <p>Processed: <strong>{result.processed}</strong> | Items: <strong>{result.totalItems}</strong> | Errors: <strong>{result.errors}</strong></p>
+            {result.results.length > 0 && result.results.length <= 20 && (
+              <div className="max-h-40 overflow-auto rounded-md border p-2 space-y-0.5">
+                {result.results.map((r) => (
+                  <div key={r.personSlug} className="flex justify-between">
+                    <span className="truncate">{r.personSlug}</span>
+                    <span className={r.error ? 'text-destructive' : 'text-muted-foreground'}>
+                      {r.error || `${r.itemCount} items`}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// BatchVectorizeCard — vectorize un-vectorized profiles
+// ---------------------------------------------------------------------------
+
+function BatchVectorizeCard() {
+  const [limit, setLimit] = useState(100);
+  const [skipExisting, setSkipExisting] = useState(true);
+  const [busy, setBusy] = useState(false);
+  const [result, setResult] = useState<BatchVectorizeResult | null>(null);
+
+  async function run() {
+    setBusy(true);
+    setResult(null);
+    try {
+      const res = await $batchVectorize({ data: { limit, skipExisting } });
+      setResult(res);
+    } catch {
+      setResult({ processed: 0, vectorized: 0, errors: 1 });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-3">
+        <h4 className="font-medium">Batch Vectorize</h4>
+        <p className="text-xs text-muted-foreground">
+          Generate embeddings for profiles and upsert into Vectorize.
+        </p>
+        <div className="flex items-center gap-2">
+          <Input
+            type="number"
+            min={1}
+            max={500}
+            value={limit}
+            onChange={(e) => setLimit(Number(e.target.value) || 100)}
+            className="w-24"
+          />
+          <label className="flex items-center gap-1.5 text-sm">
+            <input
+              type="checkbox"
+              checked={skipExisting}
+              onChange={(e) => setSkipExisting(e.target.checked)}
+              className="accent-primary"
+            />
+            Skip already-vectorized
+          </label>
+          <Button onClick={run} disabled={busy} size="sm">
+            {busy ? 'Vectorizing...' : 'Run'}
+          </Button>
+        </div>
+        {result && (
+          <p className="text-xs">
+            Processed: <strong>{result.processed}</strong> | Vectorized: <strong>{result.vectorized}</strong> | Errors: <strong>{result.errors}</strong>
+          </p>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// AutoMergeDupesCard — find and merge case-insensitive duplicates
+// ---------------------------------------------------------------------------
+
+function AutoMergeDupesCard({ onMerged }: { onMerged: () => Promise<void> }) {
+  const [groups, setGroups] = useState<DuplicateGroup[] | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [merging, setMerging] = useState(false);
+  const [mergeResult, setMergeResult] = useState<string | null>(null);
+
+  async function scan() {
+    setLoading(true);
+    setGroups(null);
+    setMergeResult(null);
+    try {
+      const result = await $findDuplicateItems();
+      setGroups(result);
+    } catch {
+      setGroups([]);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function mergeAll() {
+    if (!groups || groups.length === 0) return;
+    setMerging(true);
+    setMergeResult(null);
+    let merged = 0;
+    let errors = 0;
+    for (const group of groups) {
+      try {
+        await $mergeItems({
+          data: {
+            canonicalItem: group.canonical,
+            sourceItems: group.variants.map((v) => v.item),
+          },
+        });
+        merged++;
+      } catch {
+        errors++;
+      }
+    }
+    setMergeResult(`Merged ${merged} groups. Errors: ${errors}.`);
+    setMerging(false);
+    await onMerged();
+    setGroups(null);
+  }
+
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-3">
+        <h4 className="font-medium">Auto-Merge Duplicates</h4>
+        <p className="text-xs text-muted-foreground">
+          Detect items that differ only by case/whitespace and merge them.
+        </p>
+        <div className="flex items-center gap-2">
+          <Button onClick={scan} disabled={loading} size="sm">
+            {loading ? 'Scanning...' : 'Scan for duplicates'}
+          </Button>
+          {groups && groups.length > 0 && (
+            <Button onClick={mergeAll} disabled={merging} size="sm" variant="destructive">
+              {merging ? 'Merging...' : `Merge all ${groups.length} groups`}
+            </Button>
+          )}
+        </div>
+        {mergeResult && <p className="text-xs text-muted-foreground">{mergeResult}</p>}
+        {groups && groups.length === 0 && (
+          <p className="text-xs text-muted-foreground">No duplicates found.</p>
+        )}
+        {groups && groups.length > 0 && (
+          <div className="max-h-64 overflow-auto rounded-md border p-2 text-sm space-y-2">
+            {groups.map((group) => (
+              <div key={group.canonical} className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <span className="font-medium">{group.canonical}</span>
+                <span className="text-muted-foreground text-xs">({group.canonicalCount})</span>
+                <span className="text-muted-foreground text-xs">&larr;</span>
+                {group.variants.map((v) => (
+                  <span key={v.item} className="text-xs">
+                    {v.item} <span className="text-muted-foreground">({v.count})</span>
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// DiscoverCategoriesCard — sample pages and discover category distribution
+// ---------------------------------------------------------------------------
+
+function DiscoverCategoriesCard() {
+  const [sampleSize, setSampleSize] = useState(30);
+  const [busy, setBusy] = useState(false);
+  const [result, setResult] = useState<DiscoverCategoriesResult | null>(null);
+
+  async function run() {
+    setBusy(true);
+    setResult(null);
+    try {
+      const res = await $discoverCategories({ data: { sampleSize } });
+      setResult(res);
+    } catch {
+      setResult(null);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-3">
+        <h4 className="font-medium">Discover Categories</h4>
+        <p className="text-xs text-muted-foreground">
+          Sample random pages, extract items via AI, and see category/item frequency.
+        </p>
+        <div className="flex items-center gap-2">
+          <Input
+            type="number"
+            min={5}
+            max={200}
+            value={sampleSize}
+            onChange={(e) => setSampleSize(Number(e.target.value) || 30)}
+            className="w-24"
+          />
+          <span className="text-xs text-muted-foreground">pages</span>
+          <Button onClick={run} disabled={busy} size="sm">
+            {busy ? 'Discovering...' : 'Run'}
+          </Button>
+        </div>
+        {result && (
+          <div className="text-xs space-y-3">
+            <p>
+              Sampled: <strong>{result.sampledPages}</strong> | Items found: <strong>{result.totalItems}</strong> | Errors: <strong>{result.errors}</strong>
+            </p>
+            <div className="grid gap-4 md:grid-cols-2">
+              <div>
+                <h5 className="font-medium mb-1">Top Categories</h5>
+                <div className="max-h-56 overflow-auto rounded-md border p-2 space-y-0.5">
+                  {result.topCategories.map((c) => (
+                    <div key={c.category} className="flex justify-between">
+                      <span>{c.category}</span>
+                      <span className="text-muted-foreground">{c.count}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h5 className="font-medium mb-1">Top Items</h5>
+                <div className="max-h-56 overflow-auto rounded-md border p-2 space-y-0.5">
+                  {result.topItems.map((i) => (
+                    <div key={i.item} className="flex justify-between">
+                      <span>{i.item}</span>
+                      <span className="text-muted-foreground">{i.count}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// ExtractionReviewCard — read-only extraction quality report
+// ---------------------------------------------------------------------------
+
+function ExtractionReviewCard() {
+  const [data, setData] = useState<ExtractionReviewData | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  async function load() {
+    setLoading(true);
+    try {
+      const res = await $getExtractionReview();
+      setData(res);
+    } catch {
+      setData(null);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardContent className="p-4 space-y-3">
+        <h4 className="font-medium">Extraction Review</h4>
+        <p className="text-xs text-muted-foreground">
+          Quality report on extracted items: category breakdown, duplicates, and issues.
+        </p>
+        <Button onClick={load} disabled={loading} size="sm">
+          {loading ? 'Loading...' : data ? 'Refresh' : 'Load Review'}
+        </Button>
+        {data && (
+          <div className="text-xs space-y-4">
+            <p>
+              Total rows: <strong>{data.totalRows}</strong> | Categories: <strong>{data.totalCategories}</strong>
+            </p>
+
+            <div>
+              <h5 className="font-medium mb-1">Categories ({data.categories.length})</h5>
+              <div className="max-h-56 overflow-auto rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Category</TableHead>
+                      <TableHead>Items</TableHead>
+                      <TableHead>People</TableHead>
+                      <TableHead>Top items</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {data.categories.slice(0, 40).map((c) => (
+                      <TableRow key={c.category}>
+                        <TableCell className="font-medium">{c.category}</TableCell>
+                        <TableCell>{c.uniqueItems}</TableCell>
+                        <TableCell>{c.totalPeople}</TableCell>
+                        <TableCell className="max-w-[300px] truncate text-muted-foreground">
+                          {c.topItems.slice(0, 5).map((i) => i.item).join(', ')}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </div>
+            </div>
+
+            {data.bannedLeaks.length > 0 && (
+              <div>
+                <h5 className="font-medium mb-1 text-destructive">Banned Category Leaks</h5>
+                <div className="rounded-md border p-2 space-y-0.5">
+                  {data.bannedLeaks.map((b) => (
+                    <div key={b.category} className="flex justify-between">
+                      <span>{b.category}</span>
+                      <span className="text-muted-foreground">{b.uniqueItems} items</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {data.multiCategoryItems.length > 0 && (
+              <div>
+                <h5 className="font-medium mb-1">Items in 3+ categories</h5>
+                <div className="max-h-40 overflow-auto rounded-md border p-2 space-y-0.5">
+                  {data.multiCategoryItems.map((m) => (
+                    <div key={m.item} className="flex justify-between gap-2">
+                      <span className="truncate">{m.item}</span>
+                      <span className="text-muted-foreground shrink-0">{m.categories.join(', ')}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {data.tinyCategories.length > 0 && (
+              <div>
+                <h5 className="font-medium mb-1">Tiny categories (&le;2 items)</h5>
+                <div className="max-h-40 overflow-auto rounded-md border p-2 space-y-0.5">
+                  {data.tinyCategories.map((t) => (
+                    <div key={t.category} className="flex justify-between gap-2">
+                      <span>{t.category}</span>
+                      <span className="text-muted-foreground truncate">{t.items.join(', ')}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         )}
       </CardContent>
     </Card>

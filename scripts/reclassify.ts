@@ -1,3 +1,8 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Reclassify tags with prompt" card provides the same preview + apply
+ * flow via $previewTagReclassify and $applyTagReclassify.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeFile, unlink } from 'node:fs/promises';

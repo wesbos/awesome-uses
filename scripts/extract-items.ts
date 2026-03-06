@@ -1,3 +1,8 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Batch Extract Items" card provides the same functionality via
+ * $batchExtractItems, using the shared extraction logic in src/server/extract.ts.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeFile, unlink } from 'node:fs/promises';

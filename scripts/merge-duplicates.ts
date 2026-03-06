@@ -1,3 +1,8 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Auto-Merge Duplicates" card detects and merges case-insensitive
+ * duplicates via $findDuplicateItems and $mergeItems.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeFile, unlink } from 'node:fs/promises';

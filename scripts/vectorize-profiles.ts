@@ -1,12 +1,12 @@
 /**
- * Vectorize all scraped /uses profiles into Cloudflare Vectorize.
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Batch Vectorize" card provides the same functionality via
+ * $batchVectorize, using the app's vectorizeProfile helper.
  *
+ * Original description:
+ * Vectorize all scraped /uses profiles into Cloudflare Vectorize.
  * Reads content_markdown from D1, generates embeddings via OpenAI
  * text-embedding-3-small, and upserts vectors with personSlug as the ID.
- *
- * Usage:
- *   npx tsx scripts/vectorize-profiles.ts --remote
- *   npx tsx scripts/vectorize-profiles.ts --remote --limit 50
  */
 
 import { execFile } from 'node:child_process';

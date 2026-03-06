@@ -4,6 +4,8 @@ import { cn } from '@/lib/utils';
 const NAV_ITEMS = [
   { href: '/', label: 'Home' },
   { href: '/tags', label: 'Tags' },
+  { href: '/galaxy', label: 'Galaxy' },
+  { href: '/discover', label: 'Discover' },
   { href: '/uses', label: '/uses uses' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/items-dashboard', label: 'Items' },

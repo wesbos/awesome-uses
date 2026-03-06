@@ -8,6 +8,7 @@ export const personPages = sqliteTable('person_pages', {
   title: text('title'),
   contentMarkdown: text('content_markdown'),
   contentHash: text('content_hash'),
+  vectorizedAt: text('vectorized_at'),
 }, (table) => [
   index('idx_person_pages_fetched_at').on(table.fetchedAt),
 ]);

@@ -1,3 +1,8 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Extraction Review" card provides the same quality report via
+ * $getExtractionReview.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 

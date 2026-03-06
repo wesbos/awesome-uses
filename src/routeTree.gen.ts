@@ -14,6 +14,8 @@ import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
 import { Route as OgRouteImport } from './routes/og'
 import { Route as ItemsDashboardRouteImport } from './routes/items-dashboard'
+import { Route as GalaxyRouteImport } from './routes/galaxy'
+import { Route as DiscoverRouteImport } from './routes/discover'
 import { Route as DashboardRouteImport } from './routes/dashboard'
 import { Route as AddRouteImport } from './routes/add'
 import { Route as IndexRouteImport } from './routes/index'
@@ -45,6 +47,16 @@ const OgRoute = OgRouteImport.update({
 const ItemsDashboardRoute = ItemsDashboardRouteImport.update({
   id: '/items-dashboard',
   path: '/items-dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalaxyRoute = GalaxyRouteImport.update({
+  id: '/galaxy',
+  path: '/galaxy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DiscoverRoute = DiscoverRouteImport.update({
+  id: '/discover',
+  path: '/discover',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DashboardRoute = DashboardRouteImport.update({
@@ -87,6 +99,8 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
+  '/discover': typeof DiscoverRoute
+  '/galaxy': typeof GalaxyRoute
   '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
@@ -101,6 +115,8 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
+  '/discover': typeof DiscoverRoute
+  '/galaxy': typeof GalaxyRoute
   '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
@@ -116,6 +132,8 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/add': typeof AddRoute
   '/dashboard': typeof DashboardRoute
+  '/discover': typeof DiscoverRoute
+  '/galaxy': typeof GalaxyRoute
   '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
@@ -132,6 +150,8 @@ export interface FileRouteTypes {
     | '/'
     | '/add'
     | '/dashboard'
+    | '/discover'
+    | '/galaxy'
     | '/items-dashboard'
     | '/og'
     | '/tags'
@@ -146,6 +166,8 @@ export interface FileRouteTypes {
     | '/'
     | '/add'
     | '/dashboard'
+    | '/discover'
+    | '/galaxy'
     | '/items-dashboard'
     | '/og'
     | '/tags'
@@ -160,6 +182,8 @@ export interface FileRouteTypes {
     | '/'
     | '/add'
     | '/dashboard'
+    | '/discover'
+    | '/galaxy'
     | '/items-dashboard'
     | '/og'
     | '/tags'
@@ -175,6 +199,8 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AddRoute: typeof AddRoute
   DashboardRoute: typeof DashboardRoute
+  DiscoverRoute: typeof DiscoverRoute
+  GalaxyRoute: typeof GalaxyRoute
   ItemsDashboardRoute: typeof ItemsDashboardRoute
   OgRoute: typeof OgRoute
   TagsRoute: typeof TagsRouteWithChildren
@@ -220,6 +246,20 @@ declare module '@tanstack/react-router' {
       path: '/items-dashboard'
       fullPath: '/items-dashboard'
       preLoaderRoute: typeof ItemsDashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/galaxy': {
+      id: '/galaxy'
+      path: '/galaxy'
+      fullPath: '/galaxy'
+      preLoaderRoute: typeof GalaxyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/discover': {
+      id: '/discover'
+      path: '/discover'
+      fullPath: '/discover'
+      preLoaderRoute: typeof DiscoverRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dashboard': {
@@ -288,6 +328,8 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AddRoute: AddRoute,
   DashboardRoute: DashboardRoute,
+  DiscoverRoute: DiscoverRoute,
+  GalaxyRoute: GalaxyRoute,
   ItemsDashboardRoute: ItemsDashboardRoute,
   OgRoute: OgRoute,
   TagsRoute: TagsRouteWithChildren,

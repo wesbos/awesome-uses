@@ -27,9 +27,19 @@ import {
   getAllItemEnrichments,
   getItemEnrichment,
   upsertItemEnrichment,
+  getAllScrapedPersonSlugs,
+  getItemsByPerson,
+  markVectorized,
+  getScrapedPagesForExtraction,
+  getRandomScrapedPages,
+  getProfilesForVectorization,
+  findDuplicateItems,
+  getExtractionReviewData,
   type ReclassifyAssignment,
   type ItemDetail,
   type TagDetail,
+  type DuplicateGroup,
+  type ExtractionReviewData,
 } from './d1';
 import { scrapeUsesPage } from './scrape';
 import { searchAmazonProducts, type AmazonProductSearchResult } from './amazon';
@@ -39,8 +49,36 @@ import {
   type ViewEntityType,
 } from './analytics';
 import { previewTagReclassification } from './reclassify';
+import {
+  createOpenAIClient,
+  extractItemsFromMarkdown,
+  normalizeItems,
+  BANNED_CATEGORIES,
+} from './extract';
 import { slugify } from '../lib/slug';
 import { getAvatarUrl } from '../lib/avatar';
+
+const BATCH_CONCURRENCY = 10;
+
+async function mapConcurrent<T, R>(
+  values: T[],
+  concurrency: number,
+  mapper: (value: T, index: number) => Promise<R>,
+): Promise<R[]> {
+  const results: R[] = new Array(values.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < values.length) {
+      const current = nextIndex;
+      nextIndex += 1;
+      results[current] = await mapper(values[current], current);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, values.length) }, worker));
+  return results;
+}
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -96,11 +134,13 @@ export type DashboardRow = {
   fetchedAt: string | null;
   title: string | null;
   scraped: boolean;
+  vectorized: boolean;
 };
 
 export type DashboardPayload = {
   total: number;
   scraped: number;
+  vectorized: number;
   rows: DashboardRow[];
 };
 
@@ -113,8 +153,11 @@ export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
 
     const scrapeMap = new Map(scrapes.map((s) => [s.personSlug, s]));
 
+    let vectorizedCount = 0;
     const rows: DashboardRow[] = people.map((person) => {
       const scrape = scrapeMap.get(person.personSlug);
+      const vectorized = !!scrape?.vectorizedAt;
+      if (vectorized) vectorizedCount++;
       return {
         personSlug: person.personSlug,
         name: person.name,
@@ -123,10 +166,11 @@ export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
         fetchedAt: scrape?.fetchedAt ?? null,
         title: scrape?.title ?? null,
         scraped: !!scrape,
+        vectorized,
       };
     });
 
-    return { total: people.length, scraped: scrapes.length, rows };
+    return { total: people.length, scraped: scrapes.length, vectorized: vectorizedCount, rows };
   }
 );
 
@@ -438,46 +482,31 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
     const contentChanged = oldContent?.contentHash !== scraped.contentHash;
 
     if (!contentChanged || !scraped.contentMarkdown) {
+      if (scraped.contentMarkdown) {
+        try {
+          const client = createOpenAIClient();
+          const items = await getPersonItems(data.personSlug);
+          await vectorizeProfile(data.personSlug, scraped.contentMarkdown, items.map((i) => i.item), client);
+        } catch (vecErr) {
+          console.error('Vectorize upsert failed (non-fatal):', vecErr);
+        }
+      }
       return { personSlug: data.personSlug, scraped: true, contentChanged, extracted: false, itemCount: 0 };
     }
 
     try {
-      const OpenAI = (await import('openai')).default;
-      const { z } = await import('zod');
-      const { zodResponseFormat } = await import('openai/helpers/zod');
+      const client = createOpenAIClient();
+      const result = await extractItemsFromMarkdown(client, scraped.contentMarkdown);
+      const normalized = normalizeItems(result.items);
 
-      const apiKey = (process.env.OPENAI_API_KEY || '').trim();
-      if (!apiKey) {
-        return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: false, itemCount: 0, error: 'OPENAI_API_KEY not configured' };
-      }
-
-      const client = new OpenAI({ apiKey });
-
-      const ExtractedItem = z.object({
-        item: z.string(),
-        categories: z.array(z.string()),
-        detail: z.string().nullable(),
-      });
-      const ExtractionResult = z.object({ items: z.array(ExtractedItem) });
-
-      const completion = await client.chat.completions.parse({
-        model: 'gpt-5-mini',
-        messages: [
-          { role: 'system', content: 'You extract tools, products, and gear from developer /uses pages. Return item name, categories, and detail.' },
-          { role: 'user', content: scraped.contentMarkdown.slice(0, 15_000) },
-        ],
-        response_format: zodResponseFormat(ExtractionResult, 'extraction'),
-      });
-
-      const parsed = completion.choices[0]?.message?.parsed;
-      if (!parsed || parsed.items.length === 0) {
+      if (normalized.length === 0) {
         return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: false, itemCount: 0 };
       }
 
       await deletePersonItems(data.personSlug);
 
       const extractedAt = new Date().toISOString();
-      const rows = parsed.items.map((item) => ({
+      const rows = normalized.map((item) => ({
         personSlug: data.personSlug,
         item: item.item.trim(),
         tagsJson: JSON.stringify(item.categories),
@@ -486,6 +515,17 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
       }));
 
       await insertPersonItems(rows);
+
+      try {
+        await vectorizeProfile(
+          data.personSlug,
+          scraped.contentMarkdown,
+          rows.map((r) => r.item),
+          client,
+        );
+      } catch (vecErr) {
+        console.error('Vectorize upsert failed (non-fatal):', vecErr);
+      }
 
       return { personSlug: data.personSlug, scraped: true, contentChanged: true, extracted: true, itemCount: rows.length };
     } catch (err) {
@@ -499,6 +539,234 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
       };
     }
   });
+
+// ---------------------------------------------------------------------------
+// Batch Extract Items
+// ---------------------------------------------------------------------------
+
+type BatchExtractInput = {
+  limit: number;
+  skipExisting: boolean;
+};
+
+export type BatchExtractResult = {
+  processed: number;
+  totalItems: number;
+  errors: number;
+  results: Array<{ personSlug: string; itemCount: number; error?: string }>;
+};
+
+export const $batchExtractItems = createServerFn({ method: 'POST' })
+  .inputValidator((input: BatchExtractInput) => input)
+  .handler(async ({ data }): Promise<BatchExtractResult> => {
+    const pages = await getScrapedPagesForExtraction({
+      skipExisting: data.skipExisting,
+      limit: data.limit,
+    });
+
+    if (pages.length === 0) {
+      return { processed: 0, totalItems: 0, errors: 0, results: [] };
+    }
+
+    let client: InstanceType<typeof import('openai').default>;
+    try {
+      client = createOpenAIClient();
+    } catch {
+      return { processed: 0, totalItems: 0, errors: 0, results: [{ personSlug: '', itemCount: 0, error: 'OPENAI_API_KEY not configured' }] };
+    }
+
+    let totalItems = 0;
+    let errors = 0;
+
+    const results = await mapConcurrent(pages, BATCH_CONCURRENCY, async (page) => {
+      try {
+        const extraction = await extractItemsFromMarkdown(client, page.contentMarkdown);
+        const normalized = normalizeItems(extraction.items);
+
+        if (normalized.length > 0) {
+          await deletePersonItems(page.personSlug);
+          const extractedAt = new Date().toISOString();
+          const rows = normalized.map((item) => ({
+            personSlug: page.personSlug,
+            item: item.item.trim(),
+            tagsJson: JSON.stringify(item.categories),
+            detail: item.detail,
+            extractedAt,
+          }));
+          await insertPersonItems(rows);
+          totalItems += normalized.length;
+        }
+
+        return { personSlug: page.personSlug, itemCount: normalized.length };
+      } catch (err) {
+        errors++;
+        return {
+          personSlug: page.personSlug,
+          itemCount: 0,
+          error: err instanceof Error ? err.message : 'Extraction failed',
+        };
+      }
+    });
+
+    return { processed: pages.length, totalItems, errors, results };
+  });
+
+// ---------------------------------------------------------------------------
+// Batch Vectorize
+// ---------------------------------------------------------------------------
+
+type BatchVectorizeInput = {
+  limit: number;
+  skipExisting: boolean;
+};
+
+export type BatchVectorizeResult = {
+  processed: number;
+  vectorized: number;
+  errors: number;
+};
+
+export const $batchVectorize = createServerFn({ method: 'POST' })
+  .inputValidator((input: BatchVectorizeInput) => input)
+  .handler(async ({ data }): Promise<BatchVectorizeResult> => {
+    const profiles = await getProfilesForVectorization({
+      skipExisting: data.skipExisting,
+      limit: data.limit,
+    });
+
+    if (profiles.length === 0) {
+      return { processed: 0, vectorized: 0, errors: 0 };
+    }
+
+    let client: InstanceType<typeof import('openai').default>;
+    try {
+      client = createOpenAIClient();
+    } catch {
+      return { processed: 0, vectorized: 0, errors: 0 };
+    }
+
+    let vectorized = 0;
+    let errors = 0;
+
+    await mapConcurrent(profiles, BATCH_CONCURRENCY, async (profile) => {
+      try {
+        const items = await getPersonItems(profile.personSlug);
+        await vectorizeProfile(
+          profile.personSlug,
+          profile.contentMarkdown,
+          items.map((i) => i.item),
+          client,
+        );
+        vectorized++;
+      } catch {
+        errors++;
+      }
+    });
+
+    return { processed: profiles.length, vectorized, errors };
+  });
+
+// ---------------------------------------------------------------------------
+// Find Duplicate Items
+// ---------------------------------------------------------------------------
+
+export { type DuplicateGroup };
+
+export const $findDuplicateItems = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<DuplicateGroup[]> => {
+    return findDuplicateItems();
+  },
+);
+
+// ---------------------------------------------------------------------------
+// Discover Categories
+// ---------------------------------------------------------------------------
+
+type DiscoverCategoriesInput = {
+  sampleSize: number;
+};
+
+export type DiscoverCategoriesResult = {
+  sampledPages: number;
+  totalItems: number;
+  topCategories: Array<{ category: string; count: number }>;
+  topItems: Array<{ item: string; count: number }>;
+  errors: number;
+};
+
+export const $discoverCategories = createServerFn({ method: 'POST' })
+  .inputValidator((input: DiscoverCategoriesInput) => input)
+  .handler(async ({ data }): Promise<DiscoverCategoriesResult> => {
+    const pages = await getRandomScrapedPages(data.sampleSize);
+
+    if (pages.length === 0) {
+      return { sampledPages: 0, totalItems: 0, topCategories: [], topItems: [], errors: 0 };
+    }
+
+    let client: InstanceType<typeof import('openai').default>;
+    try {
+      client = createOpenAIClient();
+    } catch {
+      return { sampledPages: 0, totalItems: 0, topCategories: [], topItems: [], errors: 0 };
+    }
+
+    const allItems: Array<{ item: string; categories: string[] }> = [];
+    let errors = 0;
+
+    await mapConcurrent(pages, BATCH_CONCURRENCY, async (page) => {
+      try {
+        const extraction = await extractItemsFromMarkdown(client, page.contentMarkdown);
+        const normalized = normalizeItems(extraction.items);
+        for (const item of normalized) {
+          allItems.push({ item: item.item, categories: item.categories });
+        }
+      } catch {
+        errors++;
+      }
+    });
+
+    const categoryCounts = new Map<string, number>();
+    const itemCounts = new Map<string, number>();
+
+    for (const item of allItems) {
+      const normalizedItem = item.item.toLowerCase().trim();
+      itemCounts.set(normalizedItem, (itemCounts.get(normalizedItem) || 0) + 1);
+      for (const cat of item.categories) {
+        const c = cat.toLowerCase().trim();
+        categoryCounts.set(c, (categoryCounts.get(c) || 0) + 1);
+      }
+    }
+
+    const topCategories = [...categoryCounts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 50)
+      .map(([category, count]) => ({ category, count }));
+
+    const topItems = [...itemCounts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 50)
+      .map(([item, count]) => ({ item, count }));
+
+    return {
+      sampledPages: pages.length,
+      totalItems: allItems.length,
+      topCategories,
+      topItems,
+      errors,
+    };
+  });
+
+// ---------------------------------------------------------------------------
+// Extraction Review
+// ---------------------------------------------------------------------------
+
+export { type ExtractionReviewData };
+
+export const $getExtractionReview = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<ExtractionReviewData> => {
+    return getExtractionReviewData(BANNED_CATEGORIES);
+  },
+);
 
 export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
   async () => {
@@ -573,18 +841,84 @@ type VectorizeQueryResult = {
   matches: VectorizeMatch[];
 };
 
+type VectorizeVector = {
+  id: string;
+  values: number[];
+  metadata?: Record<string, string>;
+};
+
 type VectorizeIndex = {
   queryById(
     id: string,
     options?: { topK?: number; returnMetadata?: 'none' | 'indexed' | 'all'; returnValues?: boolean },
   ): Promise<VectorizeQueryResult>;
+  upsert(vectors: VectorizeVector[]): Promise<{ mutationId: string }>;
+  getByIds(ids: string[]): Promise<VectorizeVector[]>;
+};
+
+function resolveVectorize(): VectorizeIndex | null {
+  return (cfEnv as { VECTORIZE?: VectorizeIndex }).VECTORIZE ?? null;
+}
+
+const EMBEDDING_MODEL = 'text-embedding-3-small';
+
+async function vectorizeProfile(
+  personSlug: string,
+  contentMarkdown: string,
+  itemNames: string[],
+  openaiClient: InstanceType<typeof import('openai').default>,
+): Promise<void> {
+  const vectorize = resolveVectorize();
+  console.log(`[vectorize] ${personSlug}: binding=${!!vectorize}`);
+  if (!vectorize) return;
+
+  const parts = [`Profile: ${personSlug}`];
+  if (itemNames.length > 0) {
+    parts.push(`Tools and gear: ${itemNames.join(', ')}`);
+  }
+  parts.push(`Uses page content:\n${contentMarkdown.slice(0, 6000)}`);
+
+  const input = parts.join('\n\n');
+  console.log(`[vectorize] ${personSlug}: generating embedding (${input.length} chars)`);
+
+  const response = await openaiClient.embeddings.create({
+    model: EMBEDDING_MODEL,
+    input,
+    dimensions: 1536,
+  });
+
+  const values = response.data[0]?.embedding;
+  console.log(`[vectorize] ${personSlug}: embedding dimensions=${values?.length ?? 0}`);
+  if (!values?.length) return;
+
+  const result = await vectorize.upsert([{
+    id: personSlug,
+    values,
+    metadata: { personSlug },
+  }]);
+  console.log(`[vectorize] ${personSlug}: upsert result=`, JSON.stringify(result));
+  await markVectorized(personSlug);
+}
+
+export type VectorizeDebug = {
+  hasBinding: boolean;
+  personSlug: string;
+  rawJson: string;
+  error: string | null;
 };
 
 export const $getSimilarPeople = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
-  .handler(async ({ data: personSlug }): Promise<SimilarPerson[]> => {
-    const vectorize = (cfEnv as { VECTORIZE?: VectorizeIndex }).VECTORIZE;
-    if (!vectorize) return [];
+  .handler(async ({ data: personSlug }): Promise<{ similar: SimilarPerson[]; debug: VectorizeDebug }> => {
+    const vectorize = resolveVectorize();
+    const debug: VectorizeDebug = {
+      hasBinding: !!vectorize,
+      personSlug,
+      rawJson: '{}',
+      error: null,
+    };
+
+    if (!vectorize) return { similar: [], debug };
 
     try {
       const results = await vectorize.queryById(personSlug, {
@@ -592,12 +926,14 @@ export const $getSimilarPeople = createServerFn({ method: 'GET' })
         returnMetadata: 'none',
       });
 
-      if (!results?.matches?.length) return [];
+      debug.rawJson = JSON.stringify(results, null, 2);
+
+      if (!results?.matches?.length) return { similar: [], debug };
 
       const allPeople = getAllPeople();
       const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
 
-      return results.matches
+      const similar = results.matches
         .filter((m) => m.id !== personSlug && m.score > 0.3)
         .slice(0, 6)
         .map((match) => {
@@ -606,9 +942,11 @@ export const $getSimilarPeople = createServerFn({ method: 'GET' })
           return { ...face, score: match.score };
         })
         .filter((f): f is SimilarPerson => f !== null);
+
+      return { similar, debug };
     } catch (err) {
-      console.error('Vectorize query failed:', err);
-      return [];
+      debug.error = err instanceof Error ? err.message : String(err);
+      return { similar: [], debug };
     }
   });
 
@@ -720,3 +1058,103 @@ Do NOT hallucinate URLs. Only provide URLs you are confident are correct.`,
       }));
     }
   });
+
+export type GalaxyPoint = {
+  personSlug: string;
+  x: number;
+  y: number;
+  cluster: number;
+};
+
+export type ClusterInfo = {
+  id: number;
+  label: string;
+  topItems: string[];
+  count: number;
+};
+
+export type GalaxyData = {
+  points: GalaxyPoint[];
+  clusters: ClusterInfo[];
+};
+
+function labelCluster(
+  clusterIdx: number,
+  memberSlugs: string[],
+  itemsByPerson: Map<string, string[]>,
+): { label: string; topItems: string[] } {
+  const itemCounts = new Map<string, number>();
+  for (const slug of memberSlugs) {
+    for (const item of itemsByPerson.get(slug) ?? []) {
+      itemCounts.set(item, (itemCounts.get(item) || 0) + 1);
+    }
+  }
+  const sorted = [...itemCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([item]) => item);
+  const topItems = sorted.slice(0, 8);
+  const label = topItems.slice(0, 3).join(', ') || `Cluster ${clusterIdx + 1}`;
+  return { label, topItems };
+}
+
+export const $getGalaxyData = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<GalaxyData> => {
+    const vectorize = resolveVectorize();
+    if (!vectorize) return { points: [], clusters: [] };
+
+    const scrapedSlugs = await getAllScrapedPersonSlugs();
+    if (scrapedSlugs.length < 5) return { points: [], clusters: [] };
+
+    const batchSize = 20;
+    const allVectors: VectorizeVector[] = [];
+    for (let i = 0; i < scrapedSlugs.length; i += batchSize) {
+      const batch = scrapedSlugs.slice(i, i + batchSize);
+      const vectors = await vectorize.getByIds(batch);
+      allVectors.push(...vectors.filter((v) => v.values?.length > 0));
+    }
+
+    if (allVectors.length < 5) return { points: [], clusters: [] };
+
+    const slugs = allVectors.map((v) => v.id);
+    const embeddings = allVectors.map((v) => v.values);
+
+    const { UMAP } = await import('umap-js');
+    const { kmeans } = await import('ml-kmeans');
+
+    const nNeighbors = Math.max(2, Math.min(15, Math.floor(embeddings.length / 2)));
+    const umap = new UMAP({
+      nComponents: 2,
+      nNeighbors,
+      minDist: 0.1,
+      spread: 1.0,
+    });
+    const positions = umap.fit(embeddings);
+
+    const numClusters = Math.min(12, Math.floor(embeddings.length / 3));
+    const kResult = kmeans(embeddings, Math.max(2, numClusters), { initialization: 'kmeans++' });
+
+    const itemsByPerson = await getItemsByPerson();
+
+    const points: GalaxyPoint[] = slugs.map((slug, i) => ({
+      personSlug: slug,
+      x: positions[i][0],
+      y: positions[i][1],
+      cluster: kResult.clusters[i],
+    }));
+
+    const clusterMembers = new Map<number, string[]>();
+    for (const point of points) {
+      if (!clusterMembers.has(point.cluster)) clusterMembers.set(point.cluster, []);
+      clusterMembers.get(point.cluster)!.push(point.personSlug);
+    }
+
+    const clusters: ClusterInfo[] = [...clusterMembers.entries()]
+      .map(([id, members]) => {
+        const { label, topItems } = labelCluster(id, members, itemsByPerson);
+        return { id, label, topItems, count: members.length };
+      })
+      .sort((a, b) => b.count - a.count);
+
+    return { points, clusters };
+  },
+);

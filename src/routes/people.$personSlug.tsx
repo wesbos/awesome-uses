@@ -5,7 +5,7 @@ import { getPersonBySlug } from '../lib/data';
 import { getAvatarUrl } from '../lib/avatar';
 import { extractCompaniesFromText } from '../lib/company-logos';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
-import { $getScrapedProfile, $getPersonItems, $getSimilarPeople, $trackView, type SimilarPerson } from '../server/functions';
+import { $getScrapedProfile, $getPersonItems, $getSimilarPeople, $trackView, type SimilarPerson, type VectorizeDebug } from '../server/functions';
 import { Badge } from '@/components/ui/badge';
 import { Avatar } from '@/components/Avatar';
 import { SocialLinks } from '@/components/SocialLinks';
@@ -33,18 +33,28 @@ export const Route = createFileRoute('/people/$personSlug')({
     if (!person) {
       throw notFound();
     }
-    const [scrapeResult, items, similarPeople] = await Promise.all([
+    const defaultSimilarResult = {
+      similar: [] as SimilarPerson[],
+      debug: { hasBinding: false, personSlug: person.personSlug, rawJson: '{}', error: 'catch' } as VectorizeDebug,
+    };
+    const [scrapeResult, items, similarResult] = await Promise.all([
       $getScrapedProfile({ data: person.personSlug }).catch(() => null),
       $getPersonItems({ data: person.personSlug }).catch(() => [] as PersonItem[]),
-      $getSimilarPeople({ data: person.personSlug }).catch(() => [] as SimilarPerson[]),
+      $getSimilarPeople({ data: person.personSlug }).catch(() => defaultSimilarResult),
     ]);
-    return { person, scraped: scrapeResult?.data ?? null, items, similarPeople };
+    return {
+      person,
+      scraped: scrapeResult?.data ?? null,
+      items,
+      similarPeople: similarResult.similar,
+      vectorizeDebug: similarResult.debug,
+    };
   },
   component: PersonPage,
 });
 
 function PersonPage() {
-  const { person, scraped, items, similarPeople } = Route.useLoaderData();
+  const { person, scraped, items, similarPeople, vectorizeDebug } = Route.useLoaderData();
   const companies = extractCompaniesFromText(person.description);
   const avatarUrl = getAvatarUrl(person);
   const country = countryName(person.country);
@@ -155,6 +165,22 @@ function PersonPage() {
           </CardContent>
         </Card>
       )}
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Vectorize Debug</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <pre className="text-xs font-mono whitespace-pre-wrap bg-muted rounded-md p-3 overflow-auto max-h-[40vh]">
+{`hasBinding: ${vectorizeDebug.hasBinding}
+personSlug: ${vectorizeDebug.personSlug}
+error: ${vectorizeDebug.error ?? 'none'}
+
+raw response:
+${vectorizeDebug.rawJson}`}
+          </pre>
+        </CardContent>
+      </Card>
 
       <Card>
         <CardHeader>
