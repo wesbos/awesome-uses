@@ -1,10 +1,12 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import BackToTop from '../components/BackToTop';
 import Facts from '../components/Facts';
+import { FeaturedItems } from '../components/FeaturedItems';
 import PeopleGrid from '../components/PeopleGrid';
 import TopicLinks from '../components/TopicLinks';
 import { getDirectoryData, getDirectoryFacts } from '../lib/data';
 import { $getErrorSlugs } from '../server/fn/profiles';
+import { $getFeaturedItems } from '../server/fn/items';
 import { buildMeta, SITE_URL } from '../lib/seo';
 import { Button } from '../components/ui/button';
 
@@ -18,12 +20,13 @@ export const Route = createFileRoute('/')({
     });
   },
   loader: async () => {
-    const [directoryData, errorSlugs] = await Promise.all([
+    const [directoryData, errorSlugs, featured] = await Promise.all([
       getDirectoryData({}),
       $getErrorSlugs().catch(() => [] as string[]),
+      $getFeaturedItems().catch(() => ({ product: [], software: [], service: [] })),
     ]);
     const facts = getDirectoryFacts();
-    return { ...directoryData, facts, errorSlugs: new Set(errorSlugs) };
+    return { ...directoryData, facts, errorSlugs: new Set(errorSlugs), featured };
   },
   component: IndexPage,
 });
@@ -63,6 +66,8 @@ function IndexPage() {
         Showing <strong className="text-foreground">{visiblePeople.length}</strong> of{' '}
         <strong className="text-foreground">{data.totalPeople}</strong> people.
       </p>
+
+      <FeaturedItems featured={data.featured} />
 
       <Facts facts={data.facts} />
 

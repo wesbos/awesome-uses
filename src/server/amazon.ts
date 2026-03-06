@@ -237,7 +237,6 @@ export async function searchAmazonProducts(
   try {
     const cached = await getAmazonCacheByItemKey(itemKey, marketplace);
     if (cached) {
-      console.log(`Cached products: ${cached.payloadJson}`);
       const products = JSON.parse(cached.payloadJson) as AmazonProduct[];
       return {
         configured: true,

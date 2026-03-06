@@ -1,16 +1,6 @@
 import { createServerFn } from '@tanstack/react-start';
 import { getAllPeople } from '../../lib/data';
-import {
-  getPersonItems,
-  getScrapedPagesForExtraction,
-  getProfilesForVectorization,
-  getAllScrapedPersonSlugs,
-  getItemsByPerson,
-  deletePersonItems,
-  insertPersonItems,
-  markVectorized,
-} from '../db';
-import { resolveVectorize, type VectorizeVector } from '../db/vectorize.server';
+import type { VectorizeVector } from '../db/vectorize.server';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
 import { mapConcurrent, BATCH_CONCURRENCY, slugToFace, type Face } from './helpers';
 
@@ -22,6 +12,8 @@ export async function vectorizeProfile(
   itemNames: string[],
   openaiClient: InstanceType<typeof import('openai').default>,
 ): Promise<void> {
+  const { resolveVectorize } = await import('../db/vectorize.server');
+  const { markVectorized } = await import('../db/index.server');
   const vectorize = resolveVectorize();
   console.log(`[vectorize] ${personSlug}: binding=${!!vectorize}`);
   if (!vectorize) return;
@@ -69,6 +61,7 @@ export type BatchExtractResult = {
 export const $batchExtractItems = createServerFn({ method: 'POST' })
   .inputValidator((input: BatchExtractInput) => input)
   .handler(async ({ data }): Promise<BatchExtractResult> => {
+    const { getScrapedPagesForExtraction, deletePersonItems, insertPersonItems } = await import('../db/index.server');
     const pages = await getScrapedPagesForExtraction({
       skipExisting: data.skipExisting,
       limit: data.limit,
@@ -135,6 +128,7 @@ export type BatchVectorizeResult = {
 export const $batchVectorize = createServerFn({ method: 'POST' })
   .inputValidator((input: BatchVectorizeInput) => input)
   .handler(async ({ data }): Promise<BatchVectorizeResult> => {
+    const { getProfilesForVectorization, getPersonItems } = await import('../db/index.server');
     const profiles = await getProfilesForVectorization({
       skipExisting: data.skipExisting,
       limit: data.limit,
@@ -184,6 +178,7 @@ export type VectorizeDebug = {
 export const $getSimilarPeople = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
   .handler(async ({ data: personSlug }): Promise<{ similar: SimilarPerson[]; debug: VectorizeDebug }> => {
+    const { resolveVectorize } = await import('../db/vectorize.server');
     const vectorize = resolveVectorize();
     const debug: VectorizeDebug = {
       hasBinding: !!vectorize,
@@ -264,6 +259,8 @@ function labelCluster(
 
 export const $getGalaxyData = createServerFn({ method: 'GET' }).handler(
   async (): Promise<GalaxyData> => {
+    const { resolveVectorize } = await import('../db/vectorize.server');
+    const { getAllScrapedPersonSlugs, getItemsByPerson } = await import('../db/index.server');
     const vectorize = resolveVectorize();
     if (!vectorize) return { points: [], clusters: [] };
 

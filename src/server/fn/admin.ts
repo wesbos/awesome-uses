@@ -1,13 +1,5 @@
 import { createServerFn } from '@tanstack/react-start';
-import {
-  getScrapeHistoryStats,
-  getRecentScrapeEvents,
-  getPersonScrapeHistory,
-  getExtractedCategories,
-  getRandomScrapedPages,
-  deletePersonItems,
-  insertPersonItems,
-} from '../db';
+import type { ScrapeHistoryStats, ScrapeEventRow, PersonScrapeHistoryRow } from '../db/index.server';
 import { getAnalyticsDashboardData, writeViewEvent, type ViewEntityType } from '../analytics';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
 import { mapConcurrent, BATCH_CONCURRENCY } from './helpers';
@@ -26,15 +18,22 @@ export const $trackView = createServerFn({ method: 'POST' })
   });
 
 export type AdminDashboardData = {
-  scrapeStats: Awaited<ReturnType<typeof getScrapeHistoryStats>>;
-  recentScrapeEvents: Awaited<ReturnType<typeof getRecentScrapeEvents>>;
-  personScrapeHistory: Awaited<ReturnType<typeof getPersonScrapeHistory>>;
+  scrapeStats: ScrapeHistoryStats;
+  recentScrapeEvents: ScrapeEventRow[];
+  personScrapeHistory: PersonScrapeHistoryRow[];
   analytics: Awaited<ReturnType<typeof getAnalyticsDashboardData>>;
   categories: string[];
 };
 
 export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
   async (): Promise<AdminDashboardData> => {
+    const {
+      getScrapeHistoryStats,
+      getRecentScrapeEvents,
+      getPersonScrapeHistory,
+      getExtractedCategories,
+    } = await import('../db/index.server');
+
     const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, categories] =
       await Promise.all([
         getScrapeHistoryStats().catch(() => ({
@@ -85,6 +84,7 @@ export type DiscoverCategoriesResult = {
 export const $discoverCategories = createServerFn({ method: 'POST' })
   .inputValidator((input: DiscoverCategoriesInput) => input)
   .handler(async ({ data }): Promise<DiscoverCategoriesResult> => {
+    const { getRandomScrapedPages } = await import('../db/index.server');
     const pages = await getRandomScrapedPages(data.sampleSize);
 
     if (pages.length === 0) {

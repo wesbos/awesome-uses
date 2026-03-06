@@ -1,7 +1,6 @@
 import { createServerFn } from '@tanstack/react-start';
 import { getAllPeople } from '../../lib/data';
-import type { TagSummary, TagDetail, ReclassifyAssignment } from '../db';
-import { getAllTagSummaries, getTagDetailBySlug, applyTagReclassification } from '../db';
+import type { TagSummary, TagDetail, ReclassifyAssignment } from '../db/index.server';
 import { previewTagReclassification } from '../reclassify';
 import { slugToFace, type Face, type TagItemWithFaces } from './helpers';
 
@@ -12,6 +11,7 @@ export type TagSummaryWithFaces = Omit<TagSummary, 'topItems' | 'personSlugs'> &
 
 export const $getTagSummaries = createServerFn({ method: 'GET' }).handler(
   async (): Promise<TagSummaryWithFaces[]> => {
+    const { getAllTagSummaries } = await import('../db/index.server');
     const tags = await getAllTagSummaries();
     const allPeople = getAllPeople();
     const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
@@ -41,6 +41,7 @@ export type TagDetailWithFaces = Omit<TagDetail, 'people' | 'items'> & {
 export const $getTagDetail = createServerFn({ method: 'GET' })
   .inputValidator((tagSlug: string) => tagSlug)
   .handler(async ({ data: tagSlug }): Promise<TagDetailWithFaces | null> => {
+    const { getTagDetailBySlug } = await import('../db/index.server');
     const detail = await getTagDetailBySlug(tagSlug);
     if (!detail) return null;
 
@@ -92,5 +93,6 @@ type ApplyReclassifyInput = {
 export const $applyTagReclassify = createServerFn({ method: 'POST' })
   .inputValidator((input: ApplyReclassifyInput) => input)
   .handler(async ({ data }) => {
+    const { applyTagReclassification } = await import('../db/index.server');
     return applyTagReclassification(data.category, data.assignments);
   });

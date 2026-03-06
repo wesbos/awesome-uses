@@ -29,10 +29,13 @@ export {
   $getExtractionReview,
   $getItemsDashboard,
   $enrichItems,
+  $getFeaturedItems,
   type ItemDetailWithFaces,
   type ItemsDashboardRow,
   type DuplicateGroup,
   type ExtractionReviewData,
+  type FeaturedItemsByType,
+  type FeaturedItemRow,
 } from './items';
 
 export {

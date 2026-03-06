@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useEffect, useMemo, useRef, useState } from 'react';
 import { $getItemsDashboard, $enrichItems, type ItemsDashboardRow } from '../../server/fn/items';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -12,6 +12,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import { useShiftSelect } from '@/hooks/useShiftSelect';
 
 export const Route = createFileRoute('/admin/items')({
   component: ItemsPage,
@@ -21,12 +22,16 @@ const PAGE_SIZE = 100;
 
 const ItemRow = memo(function ItemRow({
   row,
+  index,
   isSelected,
+  filteredRows,
   onToggle,
 }: {
   row: ItemsDashboardRow;
+  index: number;
   isSelected: boolean;
-  onToggle: (item: string) => void;
+  filteredRows: ItemsDashboardRow[];
+  onToggle: (index: number, row: ItemsDashboardRow, filteredRows: ItemsDashboardRow[]) => void;
 }) {
   return (
     <TableRow>
@@ -34,7 +39,7 @@ const ItemRow = memo(function ItemRow({
         <input
           type="checkbox"
           checked={isSelected}
-          onChange={() => onToggle(row.item)}
+          onChange={() => onToggle(index, row, filteredRows)}
           className="accent-primary"
         />
       </TableCell>
@@ -85,7 +90,7 @@ function ItemsPage() {
   const [items, setItems] = useState<ItemsDashboardRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
-  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const { selected, setSelected, handleRowClick, toggleAll, allSelected, clearSelection } = useShiftSelect<ItemsDashboardRow>((r) => r.item);
   const [enriching, setEnriching] = useState(false);
   const [enrichProgress, setEnrichProgress] = useState({ done: 0, total: 0 });
   const [filterType, setFilterType] = useState<string>('all');
@@ -143,33 +148,6 @@ function ItemsPage() {
     return () => observer.disconnect();
   }, [visibleCount, filtered.length]);
 
-  const toggleSelected = useCallback((itemName: string) => {
-    setSelected((prev) => {
-      const next = new Set(prev);
-      if (next.has(itemName)) next.delete(itemName);
-      else next.add(itemName);
-      return next;
-    });
-  }, []);
-
-  const allFilteredSelected = useMemo(
-    () => filtered.length > 0 && filtered.every((r) => selected.has(r.item)),
-    [filtered, selected],
-  );
-
-  function toggleAllFiltered() {
-    setSelected((prev) => {
-      if (allFilteredSelected) {
-        const next = new Set(prev);
-        for (const r of filtered) next.delete(r.item);
-        return next;
-      }
-      const next = new Set(prev);
-      for (const r of filtered) next.add(r.item);
-      return next;
-    });
-  }
-
   async function enrichSelected() {
     const selectedItems = items.filter((i) => selected.has(i.item));
     if (selectedItems.length === 0) return;
@@ -178,36 +156,49 @@ function ItemsPage() {
     setEnrichProgress({ done: 0, total: selectedItems.length });
 
     const BATCH_SIZE = 20;
+    const CONCURRENCY = 5;
+    const batches: Array<{ item: string; tags: string[] }>[] = [];
     for (let i = 0; i < selectedItems.length; i += BATCH_SIZE) {
-      const batch = selectedItems.slice(i, i + BATCH_SIZE);
-      try {
-        const results = await $enrichItems({
-          data: {
-            items: batch.map((item) => ({ item: item.item, tags: item.tags })),
-          },
-        });
-
-        setItems((prev) =>
-          prev.map((item) => {
-            const result = results.find((r) => r.item === item.item);
-            if (!result || result.error) return item;
-            return {
-              ...item,
-              itemType: result.itemType,
-              description: result.description,
-              itemUrl: result.itemUrl,
-              enrichedAt: new Date().toISOString(),
-            };
-          })
-        );
-      } catch {
-        // continue with next batch
-      }
-      setEnrichProgress({ done: Math.min(i + BATCH_SIZE, selectedItems.length), total: selectedItems.length });
+      batches.push(selectedItems.slice(i, i + BATCH_SIZE).map((it) => ({ item: it.item, tags: it.tags })));
     }
 
+    let nextBatch = 0;
+    let done = 0;
+
+    async function worker() {
+      while (nextBatch < batches.length) {
+        const idx = nextBatch++;
+        const batch = batches[idx];
+        try {
+          const results = await $enrichItems({ data: { items: batch } });
+
+          setItems((prev) =>
+            prev.map((existing) => {
+              const result = results.find((r) => r.item === existing.item);
+              if (!result || result.error) return existing;
+              return {
+                ...existing,
+                itemType: result.itemType,
+                description: result.description,
+                itemUrl: result.itemUrl,
+                enrichedAt: new Date().toISOString(),
+              };
+            }),
+          );
+        } catch {
+          // continue with next batch
+        }
+        done += batch.length;
+        setEnrichProgress({ done: Math.min(done, selectedItems.length), total: selectedItems.length });
+      }
+    }
+
+    await Promise.all(
+      Array.from({ length: Math.min(CONCURRENCY, batches.length) }, () => worker()),
+    );
+
     setEnriching(false);
-    setSelected(new Set());
+    clearSelection();
   }
 
   if (loading) return <p className="text-muted-foreground">Loading items...</p>;
@@ -268,8 +259,8 @@ function ItemsPage() {
             <TableHead className="w-8">
               <input
                 type="checkbox"
-                checked={allFilteredSelected}
-                onChange={toggleAllFiltered}
+                checked={allSelected(filtered)}
+                onChange={() => toggleAll(filtered)}
                 className="accent-primary"
               />
             </TableHead>
@@ -282,12 +273,14 @@ function ItemsPage() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {visibleRows.map((row) => (
+          {visibleRows.map((row, idx) => (
             <ItemRow
               key={row.item}
               row={row}
+              index={idx}
               isSelected={selected.has(row.item)}
-              onToggle={toggleSelected}
+              filteredRows={visibleRows}
+              onToggle={handleRowClick}
             />
           ))}
         </TableBody>

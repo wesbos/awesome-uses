@@ -13,6 +13,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import { useShiftSelect } from '@/hooks/useShiftSelect';
 
 type FilterMode = 'all' | 'scraped' | 'pending' | 'errors' | 'vectorized' | 'not-vectorized';
 
@@ -160,55 +161,9 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
   const [data, setData] = useState(initialData);
   const [filter, setFilter] = useState<FilterMode>('all');
   const [search, setSearch] = useState('');
-  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const { selected, handleRowClick, toggleAll, allSelected, clearSelection } = useShiftSelect<DashboardRow>((r) => r.personSlug);
   const [scrapeSelectedBusy, setScrapeSelectedBusy] = useState(false);
   const [scrapeSelectedProgress, setScrapeSelectedProgress] = useState({ done: 0, total: 0 });
-  const lastClickedIndex = useRef<number | null>(null);
-  const shiftHeld = useRef(false);
-
-  useEffect(() => {
-    const down = (e: KeyboardEvent) => { if (e.key === 'Shift') shiftHeld.current = true; };
-    const up = (e: KeyboardEvent) => { if (e.key === 'Shift') shiftHeld.current = false; };
-    window.addEventListener('keydown', down);
-    window.addEventListener('keyup', up);
-    return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up); };
-  }, []);
-
-  function handleRowClick(index: number, slug: string, filteredRows: DashboardRow[]) {
-    if (shiftHeld.current && lastClickedIndex.current !== null) {
-      const start = Math.min(lastClickedIndex.current, index);
-      const end = Math.max(lastClickedIndex.current, index);
-      setSelected((prev) => {
-        const next = new Set(prev);
-        for (let i = start; i <= end; i++) {
-          next.add(filteredRows[i].personSlug);
-        }
-        return next;
-      });
-    } else {
-      setSelected((prev) => {
-        const next = new Set(prev);
-        if (next.has(slug)) next.delete(slug);
-        else next.add(slug);
-        return next;
-      });
-    }
-    lastClickedIndex.current = index;
-  }
-
-  function toggleAllFiltered(filteredRows: DashboardRow[]) {
-    setSelected((prev) => {
-      const allSelected = filteredRows.every((r) => prev.has(r.personSlug));
-      if (allSelected) {
-        const next = new Set(prev);
-        for (const r of filteredRows) next.delete(r.personSlug);
-        return next;
-      }
-      const next = new Set(prev);
-      for (const r of filteredRows) next.add(r.personSlug);
-      return next;
-    });
-  }
 
   async function scrapeSelected() {
     const slugs = [...selected];
@@ -238,7 +193,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
     );
 
     setScrapeSelectedBusy(false);
-    setSelected(new Set());
+    clearSelection();
     try {
       const payload = await $getScrapeStatus();
       setData(payload);
@@ -380,8 +335,8 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
               <TableHead className="w-8">
                 <input
                   type="checkbox"
-                  checked={filtered.length > 0 && filtered.every((r) => selected.has(r.personSlug))}
-                  onChange={() => toggleAllFiltered(filtered)}
+                  checked={allSelected(filtered)}
+                  onChange={() => toggleAll(filtered)}
                   className="accent-primary"
                 />
               </TableHead>
@@ -400,7 +355,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
                   <input
                     type="checkbox"
                     checked={selected.has(row.personSlug)}
-                    onChange={() => handleRowClick(idx, row.personSlug, filtered)}
+                    onChange={() => handleRowClick(idx, row, filtered)}
                     className="accent-primary"
                   />
                 </TableCell>
