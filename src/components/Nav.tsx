@@ -7,10 +7,8 @@ const NAV_ITEMS = [
   { href: '/galaxy', label: 'Galaxy' },
   { href: '/discover', label: 'Discover' },
   { href: '/uses', label: '/uses uses' },
-  { href: '/dashboard', label: 'Dashboard' },
-  { href: '/items-dashboard', label: 'Items' },
-  { href: '/wall-of-shame', label: 'Wall of Shame' },
   { href: '/add', label: 'Add Yours' },
+  { href: '/admin', label: 'Admin' },
 ];
 
 export default function Nav() {

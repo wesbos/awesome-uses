@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
-import { $getErrorPeople } from '../server/fn/profiles';
+import { $getErrorPeople } from '../../server/fn/profiles';
 import { Badge } from '@/components/ui/badge';
 import {
   Table,
@@ -11,8 +11,8 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-export const Route = createFileRoute('/wall-of-shame')({
-  component: WallOfShamePage,
+export const Route = createFileRoute('/admin/errors')({
+  component: ErrorsPage,
 });
 
 type ErrorPerson = {
@@ -37,7 +37,7 @@ function timeAgo(dateStr: string): string {
   return `${days}d ago`;
 }
 
-function WallOfShamePage() {
+function ErrorsPage() {
   const [people, setPeople] = useState<ErrorPerson[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -58,14 +58,7 @@ function WallOfShamePage() {
   if (loading) return <p className="text-muted-foreground">Loading...</p>;
 
   return (
-    <div className="space-y-6">
-      <div>
-        <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-          &larr; Back to directory
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold">Wall of Shame</h2>
+    <div className="space-y-4">
       <p className="text-sm text-muted-foreground">
         People whose /uses pages are currently returning errors or 404s.
         {people.length > 0 && (

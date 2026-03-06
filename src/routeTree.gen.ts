@@ -9,26 +9,27 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as WallOfShameRouteImport } from './routes/wall-of-shame'
 import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
 import { Route as OgRouteImport } from './routes/og'
-import { Route as ItemsDashboardRouteImport } from './routes/items-dashboard'
 import { Route as GalaxyRouteImport } from './routes/galaxy'
 import { Route as DiscoverRouteImport } from './routes/discover'
-import { Route as DashboardRouteImport } from './routes/dashboard'
+import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AddRouteImport } from './routes/add'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AdminIndexRouteImport } from './routes/admin/index'
 import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
 import { Route as LikeTagRouteImport } from './routes/like/$tag'
 import { Route as ItemsItemSlugRouteImport } from './routes/items.$itemSlug'
+import { Route as AdminTagsRouteImport } from './routes/admin/tags'
+import { Route as AdminScrapeRouteImport } from './routes/admin/scrape'
+import { Route as AdminReviewRouteImport } from './routes/admin/review'
+import { Route as AdminMergeRouteImport } from './routes/admin/merge'
+import { Route as AdminItemsRouteImport } from './routes/admin/items'
+import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
+import { Route as AdminBatchRouteImport } from './routes/admin/batch'
 
-const WallOfShameRoute = WallOfShameRouteImport.update({
-  id: '/wall-of-shame',
-  path: '/wall-of-shame',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const UsesRoute = UsesRouteImport.update({
   id: '/uses',
   path: '/uses',
@@ -44,11 +45,6 @@ const OgRoute = OgRouteImport.update({
   path: '/og',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ItemsDashboardRoute = ItemsDashboardRouteImport.update({
-  id: '/items-dashboard',
-  path: '/items-dashboard',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const GalaxyRoute = GalaxyRouteImport.update({
   id: '/galaxy',
   path: '/galaxy',
@@ -59,9 +55,9 @@ const DiscoverRoute = DiscoverRouteImport.update({
   path: '/discover',
   getParentRoute: () => rootRouteImport,
 } as any)
-const DashboardRoute = DashboardRouteImport.update({
-  id: '/dashboard',
-  path: '/dashboard',
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AddRoute = AddRouteImport.update({
@@ -73,6 +69,11 @@ const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
+} as any)
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AdminRoute,
 } as any)
 const TagsTagSlugRoute = TagsTagSlugRouteImport.update({
   id: '/$tagSlug',
@@ -94,118 +95,185 @@ const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
   path: '/items/$itemSlug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminTagsRoute = AdminTagsRouteImport.update({
+  id: '/tags',
+  path: '/tags',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminScrapeRoute = AdminScrapeRouteImport.update({
+  id: '/scrape',
+  path: '/scrape',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminReviewRoute = AdminReviewRouteImport.update({
+  id: '/review',
+  path: '/review',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminMergeRoute = AdminMergeRouteImport.update({
+  id: '/merge',
+  path: '/merge',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminItemsRoute = AdminItemsRouteImport.update({
+  id: '/items',
+  path: '/items',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminErrorsRoute = AdminErrorsRouteImport.update({
+  id: '/errors',
+  path: '/errors',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminBatchRoute = AdminBatchRouteImport.update({
+  id: '/batch',
+  path: '/batch',
+  getParentRoute: () => AdminRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/add': typeof AddRoute
-  '/dashboard': typeof DashboardRoute
+  '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
-  '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
-  '/wall-of-shame': typeof WallOfShameRoute
+  '/admin/batch': typeof AdminBatchRoute
+  '/admin/errors': typeof AdminErrorsRoute
+  '/admin/items': typeof AdminItemsRoute
+  '/admin/merge': typeof AdminMergeRoute
+  '/admin/review': typeof AdminReviewRoute
+  '/admin/scrape': typeof AdminScrapeRoute
+  '/admin/tags': typeof AdminTagsRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/add': typeof AddRoute
-  '/dashboard': typeof DashboardRoute
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
-  '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
-  '/wall-of-shame': typeof WallOfShameRoute
+  '/admin/batch': typeof AdminBatchRoute
+  '/admin/errors': typeof AdminErrorsRoute
+  '/admin/items': typeof AdminItemsRoute
+  '/admin/merge': typeof AdminMergeRoute
+  '/admin/review': typeof AdminReviewRoute
+  '/admin/scrape': typeof AdminScrapeRoute
+  '/admin/tags': typeof AdminTagsRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
+  '/admin': typeof AdminIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/add': typeof AddRoute
-  '/dashboard': typeof DashboardRoute
+  '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
-  '/items-dashboard': typeof ItemsDashboardRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
-  '/wall-of-shame': typeof WallOfShameRoute
+  '/admin/batch': typeof AdminBatchRoute
+  '/admin/errors': typeof AdminErrorsRoute
+  '/admin/items': typeof AdminItemsRoute
+  '/admin/merge': typeof AdminMergeRoute
+  '/admin/review': typeof AdminReviewRoute
+  '/admin/scrape': typeof AdminScrapeRoute
+  '/admin/tags': typeof AdminTagsRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
     | '/add'
-    | '/dashboard'
+    | '/admin'
     | '/discover'
     | '/galaxy'
-    | '/items-dashboard'
     | '/og'
     | '/tags'
     | '/uses'
-    | '/wall-of-shame'
+    | '/admin/batch'
+    | '/admin/errors'
+    | '/admin/items'
+    | '/admin/merge'
+    | '/admin/review'
+    | '/admin/scrape'
+    | '/admin/tags'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
+    | '/admin/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/add'
-    | '/dashboard'
     | '/discover'
     | '/galaxy'
-    | '/items-dashboard'
     | '/og'
     | '/tags'
     | '/uses'
-    | '/wall-of-shame'
+    | '/admin/batch'
+    | '/admin/errors'
+    | '/admin/items'
+    | '/admin/merge'
+    | '/admin/review'
+    | '/admin/scrape'
+    | '/admin/tags'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
+    | '/admin'
   id:
     | '__root__'
     | '/'
     | '/add'
-    | '/dashboard'
+    | '/admin'
     | '/discover'
     | '/galaxy'
-    | '/items-dashboard'
     | '/og'
     | '/tags'
     | '/uses'
-    | '/wall-of-shame'
+    | '/admin/batch'
+    | '/admin/errors'
+    | '/admin/items'
+    | '/admin/merge'
+    | '/admin/review'
+    | '/admin/scrape'
+    | '/admin/tags'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
     | '/tags/$tagSlug'
+    | '/admin/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AddRoute: typeof AddRoute
-  DashboardRoute: typeof DashboardRoute
+  AdminRoute: typeof AdminRouteWithChildren
   DiscoverRoute: typeof DiscoverRoute
   GalaxyRoute: typeof GalaxyRoute
-  ItemsDashboardRoute: typeof ItemsDashboardRoute
   OgRoute: typeof OgRoute
   TagsRoute: typeof TagsRouteWithChildren
   UsesRoute: typeof UsesRoute
-  WallOfShameRoute: typeof WallOfShameRoute
   ItemsItemSlugRoute: typeof ItemsItemSlugRoute
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
@@ -213,13 +281,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/wall-of-shame': {
-      id: '/wall-of-shame'
-      path: '/wall-of-shame'
-      fullPath: '/wall-of-shame'
-      preLoaderRoute: typeof WallOfShameRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/uses': {
       id: '/uses'
       path: '/uses'
@@ -241,13 +302,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OgRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/items-dashboard': {
-      id: '/items-dashboard'
-      path: '/items-dashboard'
-      fullPath: '/items-dashboard'
-      preLoaderRoute: typeof ItemsDashboardRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/galaxy': {
       id: '/galaxy'
       path: '/galaxy'
@@ -262,11 +316,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DiscoverRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/dashboard': {
-      id: '/dashboard'
-      path: '/dashboard'
-      fullPath: '/dashboard'
-      preLoaderRoute: typeof DashboardRouteImport
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/add': {
@@ -282,6 +336,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/admin/': {
+      id: '/admin/'
+      path: '/'
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
+      parentRoute: typeof AdminRoute
     }
     '/tags/$tagSlug': {
       id: '/tags/$tagSlug'
@@ -311,8 +372,81 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ItemsItemSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin/tags': {
+      id: '/admin/tags'
+      path: '/tags'
+      fullPath: '/admin/tags'
+      preLoaderRoute: typeof AdminTagsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/scrape': {
+      id: '/admin/scrape'
+      path: '/scrape'
+      fullPath: '/admin/scrape'
+      preLoaderRoute: typeof AdminScrapeRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/review': {
+      id: '/admin/review'
+      path: '/review'
+      fullPath: '/admin/review'
+      preLoaderRoute: typeof AdminReviewRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/merge': {
+      id: '/admin/merge'
+      path: '/merge'
+      fullPath: '/admin/merge'
+      preLoaderRoute: typeof AdminMergeRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/items': {
+      id: '/admin/items'
+      path: '/items'
+      fullPath: '/admin/items'
+      preLoaderRoute: typeof AdminItemsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/errors': {
+      id: '/admin/errors'
+      path: '/errors'
+      fullPath: '/admin/errors'
+      preLoaderRoute: typeof AdminErrorsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/batch': {
+      id: '/admin/batch'
+      path: '/batch'
+      fullPath: '/admin/batch'
+      preLoaderRoute: typeof AdminBatchRouteImport
+      parentRoute: typeof AdminRoute
+    }
   }
 }
+
+interface AdminRouteChildren {
+  AdminBatchRoute: typeof AdminBatchRoute
+  AdminErrorsRoute: typeof AdminErrorsRoute
+  AdminItemsRoute: typeof AdminItemsRoute
+  AdminMergeRoute: typeof AdminMergeRoute
+  AdminReviewRoute: typeof AdminReviewRoute
+  AdminScrapeRoute: typeof AdminScrapeRoute
+  AdminTagsRoute: typeof AdminTagsRoute
+  AdminIndexRoute: typeof AdminIndexRoute
+}
+
+const AdminRouteChildren: AdminRouteChildren = {
+  AdminBatchRoute: AdminBatchRoute,
+  AdminErrorsRoute: AdminErrorsRoute,
+  AdminItemsRoute: AdminItemsRoute,
+  AdminMergeRoute: AdminMergeRoute,
+  AdminReviewRoute: AdminReviewRoute,
+  AdminScrapeRoute: AdminScrapeRoute,
+  AdminTagsRoute: AdminTagsRoute,
+  AdminIndexRoute: AdminIndexRoute,
+}
+
+const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
 
 interface TagsRouteChildren {
   TagsTagSlugRoute: typeof TagsTagSlugRoute
@@ -327,14 +461,12 @@ const TagsRouteWithChildren = TagsRoute._addFileChildren(TagsRouteChildren)
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AddRoute: AddRoute,
-  DashboardRoute: DashboardRoute,
+  AdminRoute: AdminRouteWithChildren,
   DiscoverRoute: DiscoverRoute,
   GalaxyRoute: GalaxyRoute,
-  ItemsDashboardRoute: ItemsDashboardRoute,
   OgRoute: OgRoute,
   TagsRoute: TagsRouteWithChildren,
   UsesRoute: UsesRoute,
-  WallOfShameRoute: WallOfShameRoute,
   ItemsItemSlugRoute: ItemsItemSlugRoute,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,

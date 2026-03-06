@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { $getItemsDashboard, $enrichItems, type ItemsDashboardRow } from '../server/fn/items';
+import { $getItemsDashboard, $enrichItems, type ItemsDashboardRow } from '../../server/fn/items';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -13,8 +13,8 @@ import {
   TableRow,
 } from '@/components/ui/table';
 
-export const Route = createFileRoute('/items-dashboard')({
-  component: ItemsDashboardPage,
+export const Route = createFileRoute('/admin/items')({
+  component: ItemsPage,
 });
 
 const PAGE_SIZE = 100;
@@ -81,7 +81,7 @@ const ItemRow = memo(function ItemRow({
   );
 });
 
-function ItemsDashboardPage() {
+function ItemsPage() {
   const [items, setItems] = useState<ItemsDashboardRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
@@ -215,15 +215,7 @@ function ItemsDashboardPage() {
   const enrichedCount = items.filter((i) => i.enrichedAt).length;
 
   return (
-    <div className="space-y-6">
-      <div>
-        <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-          &larr; Back to directory
-        </Link>
-      </div>
-
-      <h2 className="text-xl font-semibold">Items Dashboard</h2>
-
+    <div className="space-y-4">
       <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
         <span>Total: <strong className="text-foreground">{items.length}</strong></span>
         <span>Enriched: <strong className="text-foreground">{enrichedCount}</strong></span>
