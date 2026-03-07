@@ -21,7 +21,8 @@ describe('profileTags tools', () => {
     const list = await executeTool(toolRegistry, fixture.context, 'profileTags.list', {});
     expect(list.ok).toBe(true);
     if (list.ok) {
-      expect(list.result.rows.some((row: { tag: string }) => row.tag === 'Editor')).toBe(true);
+      const payload = list.result as { rows: Array<{ tag: string }> };
+      expect(payload.rows.some((row) => row.tag === 'Editor')).toBe(true);
     }
 
     await fixture.cleanup();

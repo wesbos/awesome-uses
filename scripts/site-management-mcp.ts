@@ -17,7 +17,7 @@ async function main() {
         description: tool.description,
         inputSchema: tool.inputSchema as any,
       },
-      async (input) => {
+      async (input: Record<string, unknown>) => {
         const result = await executeTool(toolRegistry, context, tool.name, input);
         const structuredContent =
           result.ok

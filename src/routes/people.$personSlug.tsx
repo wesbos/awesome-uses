@@ -18,19 +18,18 @@ import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/people/$personSlug')({
-  head: ({ loaderData }) => {
-    if (!loaderData?.person) return { meta: [] };
-    const { person } = loaderData;
-    const desc = person.description || `${person.name}'s developer setup and tools.`;
+  head: ({ params }: { params: { personSlug: string } }) => {
+    const name = params.personSlug.replace(/-/g, ' ');
+    const desc = `${name}'s developer setup and tools.`;
     return buildMeta({
-      title: `${person.name}'s /uses`,
+      title: `${name}'s /uses`,
       description: desc,
-      ogImage: ogImageUrl({ title: person.name, subtitle: desc }),
-      canonical: `${SITE_URL}/people/${person.personSlug}`,
+      ogImage: ogImageUrl({ title: name, subtitle: desc }),
+      canonical: `${SITE_URL}/people/${params.personSlug}`,
       type: 'profile',
     });
   },
-  loader: async ({ params }) => {
+  loader: async ({ params }: { params: { personSlug: string } }) => {
     const person = getPersonBySlug(params.personSlug);
     if (!person) {
       throw notFound();
@@ -53,10 +52,16 @@ export const Route = createFileRoute('/people/$personSlug')({
     };
   },
   component: PersonPage,
-});
+} as any);
 
 function PersonPage() {
-  const { person, scraped, items, similarPeople, vectorizeDebug } = Route.useLoaderData();
+  const { person, scraped, items, similarPeople, vectorizeDebug } = Route.useLoaderData() as {
+    person: NonNullable<ReturnType<typeof getPersonBySlug>>;
+    scraped: ScrapedProfileData | null;
+    items: PersonItem[];
+    similarPeople: SimilarPerson[];
+    vectorizeDebug: VectorizeDebug;
+  };
   const companies = extractCompaniesFromText(person.description);
   const avatarUrl = getAvatarUrl(person);
   const country = countryName(person.country);

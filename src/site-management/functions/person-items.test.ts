@@ -30,7 +30,8 @@ describe('personItems tools', () => {
     });
     expect(fetched.ok).toBe(true);
     if (fetched.ok) {
-      expect(fetched.result.tags).toEqual(['editor', 'productivity']);
+      const payload = fetched.result as { tags: string[] };
+      expect(payload.tags).toEqual(['editor', 'productivity']);
     }
 
     await fixture.cleanup();

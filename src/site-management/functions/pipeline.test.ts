@@ -33,7 +33,8 @@ describe('pipeline tools', () => {
     const status = await executeTool(toolRegistry, fixture.context, 'pipeline.getScrapeStatus', {});
     expect(status.ok).toBe(true);
     if (status.ok) {
-      expect(status.result.scraped).toBeGreaterThan(0);
+      const payload = status.result as { scraped: number };
+      expect(payload.scraped).toBeGreaterThan(0);
     }
 
     await fixture.cleanup();
@@ -52,8 +53,9 @@ describe('pipeline tools', () => {
     const review = await executeTool(toolRegistry, fixture.context, 'pipeline.reviewExtraction', {});
     expect(review.ok).toBe(true);
     if (review.ok) {
-      expect(review.result.totalRows).toBe(2);
-      expect(review.result.totalCategories).toBeGreaterThan(0);
+      const payload = review.result as { totalRows: number; totalCategories: number };
+      expect(payload.totalRows).toBe(2);
+      expect(payload.totalCategories).toBeGreaterThan(0);
     }
 
     await fixture.cleanup();

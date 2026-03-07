@@ -16,7 +16,8 @@ describe('category tools', () => {
     const list = await executeTool(toolRegistry, fixture.context, 'categories.list', {});
     expect(list.ok).toBe(true);
     if (list.ok) {
-      expect(list.result.rows.some((row: { category: string }) => row.category === 'editor')).toBe(true);
+      const payload = list.result as { rows: Array<{ category: string }> };
+      expect(payload.rows.some((row) => row.category === 'editor')).toBe(true);
     }
 
     const rename = await executeTool(toolRegistry, fixture.context, 'categories.rename', {

@@ -10,18 +10,17 @@ import { $trackView } from '../server/fn/admin';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/items/$itemSlug')({
-  head: ({ loaderData }) => {
-    if (!loaderData?.detail) return { meta: [] };
-    const { detail } = loaderData;
-    const desc = detail.description || `${detail.item} — used by ${detail.totalPeople} developers.`;
+  head: ({ params }: { params: { itemSlug: string } }) => {
+    const itemName = params.itemSlug.replace(/-/g, ' ');
+    const desc = `${itemName} — used by developers on uses.tech.`;
     return buildMeta({
-      title: `${detail.item}`,
+      title: itemName,
       description: desc,
-      ogImage: ogImageUrl({ title: detail.item, subtitle: `Used by ${detail.totalPeople} developers` }),
-      canonical: `${SITE_URL}/items/${detail.itemSlug}`,
+      ogImage: ogImageUrl({ title: itemName, subtitle: 'Used by developers' }),
+      canonical: `${SITE_URL}/items/${params.itemSlug}`,
     });
   },
-  loader: async ({ params }) => {
+  loader: async ({ params }: { params: { itemSlug: string } }) => {
     const detail = await $getItemDetail({ data: params.itemSlug });
     if (!detail) {
       throw notFound();
@@ -37,10 +36,21 @@ export const Route = createFileRoute('/items/$itemSlug')({
       <p className="text-muted-foreground">No extracted item found for this slug.</p>
     </div>
   ),
-});
+} as any);
 
 function ItemDetailPage() {
-  const { detail } = Route.useLoaderData();
+  const loaderData = Route.useLoaderData() as { detail?: ItemDetailWithFaces } | undefined;
+  const detail = loaderData?.detail;
+  if (!detail) {
+    return (
+      <div className="space-y-4">
+        <Link to="/tags" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          &larr; Back to extracted tags
+        </Link>
+        <p className="text-muted-foreground">No extracted item found for this slug.</p>
+      </div>
+    );
+  }
 
   useEffect(() => {
     void $trackView({

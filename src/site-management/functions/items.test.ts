@@ -33,7 +33,8 @@ describe('items tools', () => {
     });
     expect(merge.ok).toBe(true);
     if (merge.ok) {
-      expect(merge.result.deletedRows).toBeGreaterThan(0);
+      const payload = merge.result as { deletedRows: number };
+      expect(payload.deletedRows).toBeGreaterThan(0);
     }
 
     await fixture.cleanup();

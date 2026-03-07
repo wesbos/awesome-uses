@@ -25,8 +25,14 @@ describe('people tools', () => {
     if (!listResult.ok) {
       throw new Error('Expected listResult.ok to be true');
     }
-    const created = listResult.result.rows.find((row: { name: string }) => row.name === 'New Person');
+    const payload = listResult.result as {
+      rows: Array<{ name: string; personSlug: string }>;
+    };
+    const created = payload.rows.find((row) => row.name === 'New Person');
     expect(created).toBeTruthy();
+    if (!created) {
+      throw new Error('Expected created person to exist.');
+    }
 
     const updateResult = await executeTool(toolRegistry, fixture.context, 'people.update', {
       personSlug: created.personSlug,
