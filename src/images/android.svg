@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Android icon">
+  <rect width="64" height="64" rx="12" fill="#052E16"/>
+  <rect x="18" y="18" width="28" height="28" rx="8" fill="#22C55E"/>
+  <circle cx="27" cy="28" r="2" fill="#052E16"/>
+  <circle cx="37" cy="28" r="2" fill="#052E16"/>
+  <rect x="14" y="24" width="4" height="16" rx="2" fill="#22C55E"/>
+  <rect x="46" y="24" width="4" height="16" rx="2" fill="#22C55E"/>
+  <rect x="24" y="47" width="5" height="9" rx="2" fill="#22C55E"/>
+  <rect x="35" y="47" width="5" height="9" rx="2" fill="#22C55E"/>
+</svg>

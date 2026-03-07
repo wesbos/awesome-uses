@@ -54,6 +54,7 @@ typings/
 
 # dotenv environment variable files
 .env*
+.env
 
 .cache/
 
@@ -80,3 +81,10 @@ haters/
 
 # Local Netlify folder
 .netlify
+
+# TanStack/Cloudflare outputs
+dist/
+dist-ssr/
+.tanstack/
+.wrangler/
+.vinxi/
