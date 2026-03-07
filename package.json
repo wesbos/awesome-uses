@@ -13,24 +13,33 @@
     "@actions/github": "^5.1.1",
     "@cloudflare/vite-plugin": "^1.25.6",
     "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-popover": "^1.1.15",
     "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tooltip": "^1.2.8",
     "@tailwindcss/vite": "^4.2.1",
     "@tanstack/react-router": "^1.163.2",
     "@tanstack/react-start": "^1.163.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
     "country-emoji": "^1.5.6",
+    "d3": "^7.9.0",
+    "drizzle-orm": "^0.45.1",
     "fast-glob": "^3.3.3",
     "joi": "^17.8.1",
     "lucide-react": "^0.577.0",
+    "ml-kmeans": "^7.0.0",
     "openai": "^6.25.0",
     "p-limit": "^7.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "shaders": "^2.3.75",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.1",
     "turndown": "^7.2.2",
+    "umap-js": "^1.4.0",
     "vite-plugin-killer-instincts": "^1.0.0",
+    "workers-og": "^0.0.27",
     "zod": "^4.1.11"
   },
   "scripts": {
@@ -50,14 +59,23 @@
     "review": "tsx ./scripts/review-extraction.ts",
     "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
     "merge-dupes": "tsx ./scripts/merge-duplicates.ts",
-    "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts"
+    "vectorize": "tsx --env-file .env ./scripts/vectorize-profiles.ts",
+    "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts",
+    "db:studio": "drizzle-kit studio",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "wrangler d1 migrations apply uses-tech-scrapes --local",
+    "db:migrate:remote": "wrangler d1 migrations apply uses-tech-scrapes --remote"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/d3": "^7.4.3",
     "@types/node": "^22.13.10",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@types/turndown": "^5.0.6",
     "@vitejs/plugin-react": "^5.0.4",
+    "better-sqlite3": "^12.6.2",
+    "drizzle-kit": "^0.31.9",
     "eslint": "^8.34.0",
     "eslint-config-wesbos": "^3.2.3",
     "husky": "^8.0.3",
@@ -76,6 +94,12 @@
     "src/data.js": [
       "eslint --fix",
       "git add"
+    ]
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
     ]
   }
 }

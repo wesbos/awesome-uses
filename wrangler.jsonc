@@ -1,24 +1,39 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "uses-tech",
-  "compatibility_date": "2026-02-27",
-  "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry",
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "invocation_logs": true
-    },
-    "traces": {
-      "enabled": true
-    }
-  },
-  "d1_databases": [
-    {
-      "binding": "USES_SCRAPES_DB",
-      "database_name": "uses-tech-scrapes",
-      "database_id": "1da3cf03-1db4-418d-99db-b16589a8fe5a",
-      "migrations_dir": "db/migrations"
-    }
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "uses-tech",
+	"compatibility_date": "2026-02-27",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "@tanstack/react-start/server-entry",
+	"observability": {
+		"logs": {
+			"enabled": true,
+			"invocation_logs": true
+		},
+		"traces": {
+			"enabled": true
+		}
+	},
+	"d1_databases": [
+		{
+			"binding": "USES_SCRAPES_DB",
+			"database_name": "uses-tech-scrapes",
+			"database_id": "1da3cf03-1db4-418d-99db-b16589a8fe5a",
+			"migrations_dir": "db/migrations"
+		}
+	],
+	"analytics_engine_datasets": [
+		{
+			"binding": "USES_ANALYTICS",
+			"dataset": "uses_views"
+		}
+	],
+	"vectorize": [
+		{
+			"binding": "VECTORIZE",
+			"index_name": "uses-similarity",
+			"remote": true
+		}
+	]
 }

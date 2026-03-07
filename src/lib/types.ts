@@ -64,10 +64,12 @@ export type ScrapeStatusRow = {
   statusCode: number | null;
   fetchedAt: string;
   title: string | null;
+  vectorizedAt: string | null;
 };
 
 export type PersonItem = {
   item: string;
+  itemSlug: string;
   tags: string[];
   detail: string | null;
 };
@@ -79,4 +81,19 @@ export type ScrapedProfileData = {
   fetchedAt: string;
   title: string | null;
   contentMarkdown: string | null;
+};
+
+export type NameFact = { name: string; personSlug: string };
+export type DomainFact = { domain: string; personSlug: string; name: string };
+export type TldFact = { tld: string; count: number };
+export type TagFact = { name: string; count: number };
+
+export type DirectoryFacts = {
+  shortestName: NameFact;
+  longestName: NameFact;
+  shortestDomain: DomainFact;
+  longestDomain: DomainFact;
+  topTlds: TldFact[];
+  bottomTlds: TldFact[];
+  topTags: TagFact[];
 };

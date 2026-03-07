@@ -1,3 +1,8 @@
+/**
+ * @deprecated Use the dashboard UI at /dashboard instead.
+ * The "Discover Categories" card provides the same functionality via
+ * $discoverCategories, using the shared extraction logic in src/server/extract.ts.
+ */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeFile } from 'node:fs/promises';

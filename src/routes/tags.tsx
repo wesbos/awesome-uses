@@ -1,15 +1,15 @@
-import { Link, createFileRoute } from '@tanstack/react-router';
-import { useEffect, useState } from 'react';
-import {
-  $getTagSummaries,
-  type TagSummaryWithFaces,
-  type TagItemWithFaces,
-} from '../server/functions';
+import { Link, Outlet, createFileRoute, useLocation } from '@tanstack/react-router';
+import { useState } from 'react';
+import { $getTagSummaries, type TagSummaryWithFaces } from '../server/fn/tags';
+import type { TagItemWithFaces } from '../server/fn/helpers';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FacePile } from '@/components/FacePile';
+import { HIDDEN_TAGS } from '@/lib/constants';
+import { ItemIcon } from '@/components/ItemIcon';
+import { buildMeta, SITE_URL } from '../lib/seo';
 
-type Face = { name: string; avatarUrl: string };
+type Face = { personSlug: string; name: string; avatarUrl: string };
 
 type GroupedItem =
   | { kind: 'single'; item: TagItemWithFaces }
@@ -18,11 +18,13 @@ type GroupedItem =
 function deduplicateFaces(faces: Face[]): Face[] {
   const seen = new Set<string>();
   return faces.filter((f) => {
-    if (seen.has(f.name)) return false;
-    seen.add(f.name);
+    if (seen.has(f.personSlug)) return false;
+    seen.add(f.personSlug);
     return true;
   });
 }
+
+const ARTICLES = new Set(['the', 'a', 'an']);
 
 function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
   const prefixCounts = new Map<string, number>();
@@ -30,6 +32,7 @@ function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
     const spaceIdx = item.indexOf(' ');
     if (spaceIdx === -1) continue;
     const prefix = item.slice(0, spaceIdx);
+    if (ARTICLES.has(prefix.toLowerCase())) continue;
     prefixCounts.set(prefix, (prefixCounts.get(prefix) ?? 0) + 1);
   }
 
@@ -78,31 +81,30 @@ function groupByBrand(items: TagItemWithFaces[]): GroupedItem[] {
 }
 
 export const Route = createFileRoute('/tags')({
+  head: ({ loaderData }) => {
+    const count = loaderData?.tags?.length ?? 0;
+    return buildMeta({
+      title: 'Tags',
+      description: `Browse ${count} extracted tags across developer /uses pages.`,
+      canonical: `${SITE_URL}/tags`,
+    });
+  },
+  loader: async () => {
+    const tags = await $getTagSummaries();
+    return { tags };
+  },
   component: TagsPage,
 });
 
 function TagsPage() {
-  const [tags, setTags] = useState<TagSummaryWithFaces[]>([]);
-  const [loading, setLoading] = useState(true);
+  const location = useLocation();
+  if (location.pathname !== '/tags') {
+    return <Outlet />;
+  }
+
+  const { tags } = Route.useLoaderData();
   const [search, setSearch] = useState('');
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const result = await $getTagSummaries();
-        if (!cancelled) setTags(result);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading tags...</p>;
   if (tags.length === 0)
     return (
       <p className="text-muted-foreground">
@@ -110,8 +112,9 @@ function TagsPage() {
       </p>
     );
 
+  const visibleTags = tags.filter((t) => !HIDDEN_TAGS.includes(t.tagSlug));
   const query = search.toLowerCase();
-  const filtered = query ? tags.filter((t) => t.tag.includes(query)) : tags;
+  const filtered = query ? visibleTags.filter((t) => t.tag.includes(query)) : visibleTags;
 
   return (
     <div className="space-y-6">
@@ -121,7 +124,7 @@ function TagsPage() {
         </Link>
       </div>
 
-      <h2 className="text-xl font-semibold">Tags ({tags.length})</h2>
+      <h2 className="text-xl font-semibold">Tags ({visibleTags.length})</h2>
 
       <Input
         type="text"
@@ -147,7 +150,15 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
     <Card>
       <CardHeader className="pb-3">
         <div className="flex items-baseline justify-between">
-          <CardTitle className="text-sm">{tag.tag}</CardTitle>
+          <CardTitle className="text-sm">
+            <Link
+              to="/tags/$tagSlug"
+              params={{ tagSlug: tag.tagSlug }}
+              className="hover:underline"
+            >
+              {tag.tag}
+            </Link>
+          </CardTitle>
           <span className="text-xs text-muted-foreground">
             {tag.totalItems} item{tag.totalItems !== 1 ? 's' : ''}
           </span>
@@ -161,8 +172,15 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                 key={entry.item.item}
                 className="flex items-center justify-between gap-2"
               >
-                <span className="truncate">
-                  {entry.item.item}{' '}
+                <span className="truncate inline-flex items-center gap-1">
+                  <ItemIcon itemSlug={entry.item.itemSlug} />
+                  <Link
+                    to="/items/$itemSlug"
+                    params={{ itemSlug: entry.item.itemSlug }}
+                    className="hover:underline"
+                  >
+                    {entry.item.item}
+                  </Link>{' '}
                   <span className="text-muted-foreground">
                     ({entry.item.count})
                   </span>
@@ -189,9 +207,16 @@ function TagCard({ tag }: { tag: TagSummaryWithFaces }) {
                       key={child.item}
                       className="flex items-center justify-between gap-2 text-muted-foreground"
                     >
-                      <span className="truncate">
-                        {child.item.slice(entry.prefix.length + 1) ||
-                          `${child.item}`}
+                      <span className="truncate inline-flex items-center gap-1">
+                        <ItemIcon itemSlug={child.itemSlug} />
+                        <Link
+                          to="/items/$itemSlug"
+                          params={{ itemSlug: child.itemSlug }}
+                          className="hover:underline"
+                        >
+                          {child.item.slice(entry.prefix.length + 1) ||
+                            `${child.item}`}
+                        </Link>
                       </span>
                       <span className="text-xs shrink-0">({child.count})</span>
                     </li>

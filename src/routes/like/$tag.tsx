@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useEffect } from 'react';
 import BackToTop from '../../components/BackToTop';
 import PeopleGrid from '../../components/PeopleGrid';
 import TopicLinks from '../../components/TopicLinks';
@@ -8,8 +9,20 @@ import {
   getAllTags,
   getPeopleForLikeTag,
 } from '../../lib/data';
+import { $trackView } from '../../server/fn/admin';
+import { buildMeta, SITE_URL, ogImageUrl } from '../../lib/seo';
 
 export const Route = createFileRoute('/like/$tag')({
+  head: ({ loaderData }) => {
+    const tag = loaderData?.activeTagName || loaderData?.rawTag || '';
+    const count = loaderData?.totalPeople ?? 0;
+    return buildMeta({
+      title: `Developers using ${tag}`,
+      description: `${count} developers who use ${tag} in their setup.`,
+      ogImage: ogImageUrl({ title: tag, subtitle: `${count} developers` }),
+      canonical: `${SITE_URL}/like/${encodeURIComponent(tag)}`,
+    });
+  },
   loader: ({ params }) => {
     const { people, rawTag, activeTagName } = getPeopleForLikeTag(params.tag);
     return {
@@ -27,6 +40,20 @@ export const Route = createFileRoute('/like/$tag')({
 
 function LikeTagPage() {
   const data = Route.useLoaderData();
+
+  useEffect(() => {
+    const key = data.activeTagName || data.rawTag;
+    if (!key) return;
+
+    void $trackView({
+      data: {
+        entityType: 'tag',
+        entityKey: key.toLowerCase(),
+        route: `/like/${encodeURIComponent(data.rawTag)}`,
+      },
+    });
+  }, [data.activeTagName, data.rawTag]);
+
   return (
     <div className="space-y-6">
       <TopicLinks
