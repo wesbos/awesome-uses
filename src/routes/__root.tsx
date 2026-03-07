@@ -1,4 +1,5 @@
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router';
+import { lazy, Suspense } from 'react';
 import AnimatedFavicon from '../components/AnimatedFavicon';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
@@ -7,6 +8,8 @@ import { ThemeProvider } from '../components/theme-provider';
 import { DEFAULT_DESCRIPTION, SITE_URL, ogImageUrl } from '../lib/seo';
 
 import appCss from '../styles.css?url';
+
+const ShaderBackground = lazy(() => import('../components/ShaderBackground'));
 
 export const Route = createRootRoute({
   head: () => ({
@@ -51,7 +54,10 @@ function RootDocument() {
       </head>
       <body>
         <ThemeProvider defaultTheme="dark">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+          <Suspense>
+            <ShaderBackground />
+          </Suspense>
+          <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
             <AnimatedFavicon />
             <Header />
             <Nav />

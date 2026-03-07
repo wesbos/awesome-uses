@@ -1,10 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
+import { Check, ChevronsUpDown } from 'lucide-react';
 import { $previewTagReclassify, $applyTagReclassify, type ReclassifyPreviewPayload } from '../../server/fn/tags';
 import { $getAdminDashboardData } from '../../server/fn/admin';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command';
+import { cn } from '@/lib/utils';
 
 export const Route = createFileRoute('/admin/tags')({
   component: TagsPage,
@@ -98,15 +102,11 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
       <CardContent className="p-4 space-y-4">
         <h4 className="font-medium">Reclassify tags with AI</h4>
         <div className="grid gap-2 md:grid-cols-4">
-          <select
+          <CategoryCombobox
+            categories={categories}
             value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="h-9 rounded-md border border-input bg-transparent px-3 text-sm"
-          >
-            {categories.map((cat) => (
-              <option key={cat} value={cat}>{cat}</option>
-            ))}
-          </select>
+            onChange={setCategory}
+          />
           <Input
             type="number"
             min={1}
@@ -158,5 +158,61 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
         )}
       </CardContent>
     </Card>
+  );
+}
+
+function CategoryCombobox({
+  categories,
+  value,
+  onChange,
+}: {
+  categories: string[];
+  value: string;
+  onChange: (value: string) => void;
+}) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button
+          variant="outline"
+          role="combobox"
+          aria-expanded={open}
+          className="h-9 justify-between"
+        >
+          {value || 'Select category...'}
+          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-[250px] p-0">
+        <Command>
+          <CommandInput placeholder="Filter categories..." />
+          <CommandList>
+            <CommandEmpty>No category found.</CommandEmpty>
+            <CommandGroup>
+              {categories.map((cat) => (
+                <CommandItem
+                  key={cat}
+                  value={cat}
+                  onSelect={(selected) => {
+                    onChange(selected);
+                    setOpen(false);
+                  }}
+                >
+                  <Check
+                    className={cn(
+                      'mr-2 h-4 w-4',
+                      value === cat ? 'opacity-100' : 'opacity-0',
+                    )}
+                  />
+                  {cat}
+                </CommandItem>
+              ))}
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
   );
 }

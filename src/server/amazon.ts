@@ -209,7 +209,6 @@ export async function searchAmazonProducts(
   const credentials = resolveAmazonCredentials();
   const marketplace = credentials?.marketplace || 'www.amazon.com';
 
-  console.log(`Searching Amazon for ${normalizedQuery} on ${marketplace}`);
 
   if (!credentials) {
     return {
@@ -222,7 +221,6 @@ export async function searchAmazonProducts(
   }
 
   if (!normalizedQuery) {
-    console.log('No normalized query found');
     return {
       configured: true,
       cached: false,
@@ -232,7 +230,6 @@ export async function searchAmazonProducts(
   }
 
   const itemKey = slugify(normalizedQuery) || 'item';
-  console.log(`Item key: ${itemKey}`);
 
   try {
     const cached = await getAmazonCacheByItemKey(itemKey, marketplace);
@@ -251,10 +248,7 @@ export async function searchAmazonProducts(
   }
 
   const payload = buildSearchPayload(normalizedQuery, credentials);
-  console.log(`Payload: ${payload}`);
   const signed = signAmazonRequest(payload, credentials);
-  console.log(`Signed: ${signed.endpoint}`);
-
   try {
     const response = await fetch(signed.endpoint, {
       method: 'POST',

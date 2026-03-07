@@ -92,6 +92,7 @@
 }
 
 body {
-  @apply bg-background text-foreground font-mono antialiased;
+  @apply text-foreground font-mono antialiased;
+  background: #06151f;
   font-size: 14px;
 }
