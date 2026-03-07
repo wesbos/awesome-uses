@@ -1,5 +1,17 @@
 # Uses.tech Operations Toolkit
 
+## Unified site-management toolkit (CLI + MCP + REST)
+
+The canonical operations surface is now `src/site-management`, available through:
+
+- CLI: `pnpm site:tools:list`, `pnpm site:tools:call <tool> --input '{...}'`
+- MCP: `pnpm site:tools:mcp`
+- REST API: `pnpm site:tools:api`
+
+Full usage guide:
+
+- `docs/site-management-toolkit.md`
+
 ## Cull invalid /uses pages
 
 Dry-run (default):
