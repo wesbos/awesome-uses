@@ -140,7 +140,7 @@ const STACK: Record<string, StackItem[]> = {
       name: 'OpenAI',
       url: 'https://platform.openai.com',
       description:
-        'GPT models extract structured gear/tool data from scraped /uses pages — item names, categories, and tags.',
+        'GPT models extract structured gear/tool data from scraped /uses pages — item names, tags, and details.',
       tags: ['ai', 'extraction', 'llm'],
     },
     {
@@ -169,7 +169,7 @@ const STACK: Record<string, StackItem[]> = {
   ],
 };
 
-const CATEGORY_ORDER = [
+const SECTION_ORDER = [
   'Framework & Routing',
   'Hosting & Infrastructure',
   'Data & ORM',
@@ -200,11 +200,11 @@ function UsesPage() {
       </div>
 
       <div className="grid gap-6">
-        {CATEGORY_ORDER.map((category) => (
-          <section key={category} className="space-y-3">
-            <h2 className="text-lg font-semibold">{category}</h2>
+        {SECTION_ORDER.map((section) => (
+          <section key={section} className="space-y-3">
+            <h2 className="text-lg font-semibold">{section}</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {STACK[category].map((item) => (
+              {STACK[section].map((item) => (
                 <Card key={item.name} className="flex flex-col">
                   <CardHeader className="pb-2">
                     <CardTitle className="text-sm">

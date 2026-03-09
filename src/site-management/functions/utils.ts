@@ -37,6 +37,6 @@ export async function mapConcurrent<T, R>(
   return results;
 }
 
-export function normalizeCategory(category: string): string {
-  return category.trim().toLowerCase();
+export function normalizeTag(tag: string): string {
+  return tag.trim().toLowerCase();
 }

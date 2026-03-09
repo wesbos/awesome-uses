@@ -1,24 +1,32 @@
+import { eq } from 'drizzle-orm';
 import { describe, expect, it } from 'vitest';
+import * as schema from '../../server/schema';
 import { createSiteManagementFixture } from '../test-utils';
 
-describe('SiteDbStore', () => {
+describe('createSiteDb', () => {
   it('runs and queries SQL statements', async () => {
     const fixture = await createSiteManagementFixture();
-    const { siteDb } = fixture.context;
+    const { db } = fixture.context;
 
-    siteDb.run(
-      `INSERT INTO items (item_slug, item_name, item_type, description, item_url, enriched_at)
-       VALUES (?, ?, ?, ?, ?, ?)`,
-      ['vs-code', 'VS Code', 'software', 'Editor', 'https://code.visualstudio.com', new Date().toISOString()],
-    );
+    db.insert(schema.items)
+      .values({
+        itemSlug: 'vs-code',
+        itemName: 'VS Code',
+        itemType: 'software',
+        description: 'Editor',
+        itemUrl: 'https://code.visualstudio.com',
+        enrichedAt: new Date().toISOString(),
+      })
+      .run();
 
-    const row = siteDb.get<{ item_name: string }>(
-      'SELECT item_name FROM items WHERE item_slug = ?',
-      ['vs-code'],
-    );
-    expect(row?.item_name).toBe('VS Code');
+    const row = db
+      .select({ itemName: schema.items.itemName })
+      .from(schema.items)
+      .where(eq(schema.items.itemSlug, 'vs-code'))
+      .get();
+    expect(row?.itemName).toBe('VS Code');
 
-    const all = siteDb.all<{ item_slug: string }>('SELECT item_slug FROM items');
+    const all = db.select({ itemSlug: schema.items.itemSlug }).from(schema.items).all();
     expect(all).toHaveLength(1);
 
     await fixture.cleanup();

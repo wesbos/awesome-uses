@@ -21,7 +21,7 @@ import {
   type ExtractionReviewData,
 } from '../db/index.server';
 import { createOpenAIClient } from '../extract';
-import { BANNED_CATEGORIES } from '../extract';
+import { BANNED_TAGS } from '../extract';
 import { mapItemDetailWithFaces, slugToFace, type Face, type BaseItemDetail, type TagItemWithFaces } from './helpers';
 
 export type ItemDetailWithFaces = BaseItemDetail & {
@@ -94,7 +94,7 @@ export { type ExtractionReviewData };
 
 export const $getExtractionReview = createServerFn({ method: 'GET' }).handler(
   async (): Promise<ExtractionReviewData> => {
-    return getExtractionReviewData(BANNED_CATEGORIES);
+    return getExtractionReviewData(BANNED_TAGS);
   },
 );
 

@@ -1,4 +1,6 @@
 import { z } from 'zod';
+import { and, eq, like, asc, sql } from 'drizzle-orm';
+import * as schema from '../../server/schema';
 import { defineTool } from '../registry';
 import type { ToolDefinition } from '../types';
 import { maybeArraySchema, nonEmptyStringSchema, optionalTrimmedStringSchema } from '../schemas';
@@ -8,7 +10,7 @@ import { parseTagsJson, uniqueSorted } from './utils';
 const listPersonItemsInputSchema = z.object({
   personSlug: z.string().trim().optional(),
   q: z.string().trim().optional(),
-  limit: z.number().int().positive().max(1000).default(200),
+  limit: z.number().int().positive().max(100).default(10),
   offset: z.number().int().min(0).default(0),
 });
 
@@ -45,23 +47,14 @@ const deletePersonItemsInputSchema = z.object({
   personSlug: nonEmptyStringSchema,
 });
 
-type PersonItemRow = {
-  id: number;
-  person_slug: string;
-  item: string;
-  tags_json: string;
-  detail: string | null;
-  extracted_at: string;
-};
-
-function mapRow(row: PersonItemRow) {
+function mapRow(row: typeof schema.personItems.$inferSelect) {
   return {
     id: row.id,
-    personSlug: row.person_slug,
+    personSlug: row.personSlug,
     item: row.item,
-    tags: parseTagsJson(row.tags_json),
+    tags: parseTagsJson(row.tagsJson),
     detail: row.detail,
-    extractedAt: row.extracted_at,
+    extractedAt: row.extractedAt,
   };
 }
 
@@ -71,22 +64,35 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'List extracted person-item rows.',
     inputSchema: listPersonItemsInputSchema,
-    handler: ({ siteDb }, input) => {
-      const rows = siteDb.all<PersonItemRow>(
-        'SELECT id, person_slug, item, tags_json, detail, extracted_at FROM person_items ORDER BY person_slug, item',
-      );
-      const filtered = rows.filter((row) => {
-        if (input.personSlug && row.person_slug !== input.personSlug) return false;
-        if (input.q) {
-          const haystack = `${row.person_slug} ${row.item} ${row.tags_json} ${row.detail ?? ''}`.toLowerCase();
-          if (!haystack.includes(input.q.toLowerCase())) return false;
-        }
-        return true;
-      });
-      const paged = filtered.slice(input.offset, input.offset + input.limit);
+    handler: async ({ db }, input) => {
+      const conditions = [];
+      if (input.personSlug) {
+        conditions.push(eq(schema.personItems.personSlug, input.personSlug));
+      }
+      if (input.q) {
+        conditions.push(like(schema.personItems.item, `%${input.q}%`));
+      }
+
+      const where = conditions.length > 0 ? and(...conditions) : undefined;
+
+      const total = (await db
+        .select({ count: sql<number>`count(*)` })
+        .from(schema.personItems)
+        .where(where)
+        .get())!.count;
+
+      const rows = await db
+        .select()
+        .from(schema.personItems)
+        .where(where)
+        .orderBy(asc(schema.personItems.personSlug), asc(schema.personItems.item))
+        .limit(input.limit)
+        .offset(input.offset)
+        .all();
+
       return {
-        total: filtered.length,
-        rows: paged.map(mapRow),
+        total,
+        rows: rows.map(mapRow),
       };
     },
   }),
@@ -95,11 +101,16 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'Get one extracted person-item row.',
     inputSchema: getPersonItemInputSchema,
-    handler: ({ siteDb }, input) => {
-      const row = siteDb.get<PersonItemRow>(
-        'SELECT id, person_slug, item, tags_json, detail, extracted_at FROM person_items WHERE person_slug = ? AND item = ?',
-        [input.personSlug, input.item],
-      );
+    handler: async ({ db }, input) => {
+      const row = await db
+        .select()
+        .from(schema.personItems)
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, input.item),
+        ))
+        .get();
+
       if (!row) {
         throw new NotFoundError(
           `Person item (${input.personSlug}, ${input.item}) was not found.`,
@@ -113,29 +124,37 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'Create or upsert an extracted person-item row.',
     inputSchema: createPersonItemInputSchema,
-    handler: ({ siteDb }, input) => {
+    handler: async ({ db }, input) => {
       const extractedAt = input.extractedAt ?? new Date().toISOString();
       const tags = uniqueSorted(input.tags);
-      siteDb.run(
-        `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-         VALUES (?, ?, ?, ?, ?)
-         ON CONFLICT(person_slug, item) DO UPDATE SET
-           tags_json=excluded.tags_json,
-           detail=excluded.detail,
-           extracted_at=excluded.extracted_at`,
-        [
-          input.personSlug,
-          input.item,
-          JSON.stringify(tags),
-          input.detail ?? null,
-          extractedAt,
-        ],
-      );
 
-      const row = siteDb.get<PersonItemRow>(
-        'SELECT id, person_slug, item, tags_json, detail, extracted_at FROM person_items WHERE person_slug = ? AND item = ?',
-        [input.personSlug, input.item],
-      );
+      await db.insert(schema.personItems)
+        .values({
+          personSlug: input.personSlug,
+          item: input.item,
+          tagsJson: JSON.stringify(tags),
+          detail: input.detail ?? null,
+          extractedAt,
+        })
+        .onConflictDoUpdate({
+          target: [schema.personItems.personSlug, schema.personItems.item],
+          set: {
+            tagsJson: JSON.stringify(tags),
+            detail: input.detail ?? null,
+            extractedAt,
+          },
+        })
+        .run();
+
+      const row = await db
+        .select()
+        .from(schema.personItems)
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, input.item),
+        ))
+        .get();
+
       return row ? mapRow(row) : null;
     },
   }),
@@ -144,11 +163,16 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'Update an extracted person-item row.',
     inputSchema: updatePersonItemInputSchema,
-    handler: ({ siteDb }, input) => {
-      const existing = siteDb.get<PersonItemRow>(
-        'SELECT id, person_slug, item, tags_json, detail, extracted_at FROM person_items WHERE person_slug = ? AND item = ?',
-        [input.personSlug, input.item],
-      );
+    handler: async ({ db }, input) => {
+      const existing = await db
+        .select()
+        .from(schema.personItems)
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, input.item),
+        ))
+        .get();
+
       if (!existing) {
         throw new NotFoundError(
           `Person item (${input.personSlug}, ${input.item}) was not found.`,
@@ -158,29 +182,33 @@ export const personItemTools: ToolDefinition[] = [
       const nextItemName = input.patch.nextItemName ?? existing.item;
       const nextTags = input.patch.tags
         ? uniqueSorted(input.patch.tags)
-        : parseTagsJson(existing.tags_json);
+        : parseTagsJson(existing.tagsJson);
       const nextDetail =
         typeof input.patch.detail !== 'undefined' ? input.patch.detail : existing.detail;
-      const nextExtractedAt = input.patch.extractedAt ?? existing.extracted_at;
+      const nextExtractedAt = input.patch.extractedAt ?? existing.extractedAt;
 
-      siteDb.run(
-        `UPDATE person_items
-         SET item = ?, tags_json = ?, detail = ?, extracted_at = ?
-         WHERE person_slug = ? AND item = ?`,
-        [
-          nextItemName,
-          JSON.stringify(nextTags),
-          nextDetail ?? null,
-          nextExtractedAt,
-          input.personSlug,
-          input.item,
-        ],
-      );
+      await db.update(schema.personItems)
+        .set({
+          item: nextItemName,
+          tagsJson: JSON.stringify(nextTags),
+          detail: nextDetail ?? null,
+          extractedAt: nextExtractedAt,
+        })
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, input.item),
+        ))
+        .run();
 
-      const row = siteDb.get<PersonItemRow>(
-        'SELECT id, person_slug, item, tags_json, detail, extracted_at FROM person_items WHERE person_slug = ? AND item = ?',
-        [input.personSlug, nextItemName],
-      );
+      const row = await db
+        .select()
+        .from(schema.personItems)
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, nextItemName),
+        ))
+        .get();
+
       return row ? mapRow(row) : null;
     },
   }),
@@ -189,11 +217,15 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'Delete an extracted person-item row.',
     inputSchema: deletePersonItemInputSchema,
-    handler: ({ siteDb }, input) => {
-      const result = siteDb.run(
-        'DELETE FROM person_items WHERE person_slug = ? AND item = ?',
-        [input.personSlug, input.item],
-      );
+    handler: async ({ db }, input) => {
+      const result = await db
+        .delete(schema.personItems)
+        .where(and(
+          eq(schema.personItems.personSlug, input.personSlug),
+          eq(schema.personItems.item, input.item),
+        ))
+        .run();
+
       return {
         deleted: result.changes,
       };
@@ -204,8 +236,12 @@ export const personItemTools: ToolDefinition[] = [
     scope: 'personItems',
     description: 'Delete all extracted items for one person.',
     inputSchema: deletePersonItemsInputSchema,
-    handler: ({ siteDb }, input) => {
-      const result = siteDb.run('DELETE FROM person_items WHERE person_slug = ?', [input.personSlug]);
+    handler: async ({ db }, input) => {
+      const result = await db
+        .delete(schema.personItems)
+        .where(eq(schema.personItems.personSlug, input.personSlug))
+        .run();
+
       return {
         personSlug: input.personSlug,
         deletedRows: result.changes,

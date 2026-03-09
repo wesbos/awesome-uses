@@ -1,4 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
+import * as schema from '../../server/schema';
 import { executeTool, toolRegistry } from '..';
 import { createSiteManagementFixture } from '../test-utils';
 
@@ -42,20 +43,18 @@ describe('pipeline tools', () => {
 
   it('builds extraction review from existing person_items', async () => {
     const fixture = await createSiteManagementFixture();
-    fixture.context.siteDb.run(
-      `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-       VALUES
-       ('ada-lovelace', 'VS Code', '["editor","productivity"]', null, ?),
-       ('grace-hopper', 'Vim', '["editor"]', null, ?)`,
-      [new Date().toISOString(), new Date().toISOString()],
-    );
+    const extractedAt = new Date().toISOString();
+    fixture.context.db.insert(schema.personItems).values([
+      { personSlug: 'ada-lovelace', item: 'VS Code', tagsJson: '["editor","productivity"]', extractedAt },
+      { personSlug: 'grace-hopper', item: 'Vim', tagsJson: '["editor"]', extractedAt },
+    ]).run();
 
     const review = await executeTool(toolRegistry, fixture.context, 'pipeline.reviewExtraction', {});
     expect(review.ok).toBe(true);
     if (review.ok) {
-      const payload = review.result as { totalRows: number; totalCategories: number };
+      const payload = review.result as { totalRows: number; totalTags: number };
       expect(payload.totalRows).toBe(2);
-      expect(payload.totalCategories).toBeGreaterThan(0);
+      expect(payload.totalTags).toBeGreaterThan(0);
     }
 
     await fixture.cleanup();

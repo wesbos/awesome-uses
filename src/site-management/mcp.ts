@@ -1,7 +1,10 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { WebStandardStreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/webStandardStreamableHttp.js';
-import { allTools } from './tools';
 import { createSiteManagementContext } from './context';
+import { resolveDb } from '../server/db/connection.server';
+import { executeTool } from './executor';
+import { sortedTools, toolRegistry } from './tools';
+import type { SiteDb } from './stores/site-db';
 
 function createMcpServer(): McpServer {
   const mcp = new McpServer(
@@ -9,24 +12,28 @@ function createMcpServer(): McpServer {
     { capabilities: { tools: { listChanged: false } } },
   );
 
-  const context = createSiteManagementContext();
+  const d1 = resolveDb();
+  const context = d1
+    ? createSiteManagementContext({ db: d1 as unknown as SiteDb })
+    : createSiteManagementContext();
 
-  for (const tool of allTools) {
+  for (const tool of sortedTools) {
     mcp.registerTool(tool.name, {
       description: tool.description,
       inputSchema: tool.inputSchema,
     }, async (args) => {
-      try {
-        const result = await tool.handler(context, args);
+      const result = await executeTool(toolRegistry, context, tool.name, args);
+      if (!result.ok) {
         return {
-          content: [{ type: 'text', text: JSON.stringify(result, null, 2) }],
-        };
-      } catch (error) {
-        return {
-          content: [{ type: 'text', text: error instanceof Error ? error.message : String(error) }],
+          content: [{ type: 'text' as const, text: JSON.stringify(result.error, null, 2) }],
           isError: true,
         };
       }
+      const structured =
+        typeof result.result === 'object' && result.result !== null
+          ? (result.result as Record<string, unknown>)
+          : { value: result.result };
+      return { content: [], structuredContent: structured };
     });
   }
 

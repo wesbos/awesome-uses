@@ -2,10 +2,9 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useMutation, useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { Check, ChevronsUpDown } from 'lucide-react';
-import type { ReclassifyPreviewPayload } from '../../server/fn/tags';
 import {
   apiApplyTagReclassify,
-  apiGetCategories,
+  apiGetTags,
   apiPreviewTagReclassify,
 } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
@@ -15,29 +14,37 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command';
 import { cn } from '@/lib/utils';
 
+type ReclassifyPreviewPayload = {
+  tag: string;
+  minUsers: number;
+  totalCandidates: number;
+  candidates: Array<{ item: string; count: number }>;
+  output: { items: Array<{ item: string; tags: string[]; reasoning: string }> };
+};
+
 export const Route = createFileRoute('/admin/tags')({
   component: TagsPage,
 });
 
 function TagsPage() {
-  const { data: categories = [], isLoading } = useQuery({
-    queryKey: ['site-tools', 'categories.list'],
-    queryFn: apiGetCategories,
+  const { data: tags = [], isLoading } = useQuery({
+    queryKey: ['site-tools', 'tags.list'],
+    queryFn: apiGetTags,
     enabled: typeof window !== 'undefined',
   });
 
-  if (isLoading) return <p className="text-muted-foreground">Loading categories...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading tags...</p>;
 
   return (
     <div className="space-y-4">
-      <ReclassifyCard categories={categories} />
+      <ReclassifyCard tags={tags} />
     </div>
   );
 }
 
-function ReclassifyCard({ categories }: { categories: string[] }) {
-  const [category, setCategory] = useState(() =>
-    categories.length > 0 ? categories[0] : 'other'
+function ReclassifyCard({ tags }: { tags: string[] }) {
+  const [tag, setTag] = useState(() =>
+    tags.length > 0 ? tags[0] : 'other'
   );
   const [minUsers, setMinUsers] = useState(2);
   const [limit, setLimit] = useState(80);
@@ -52,18 +59,18 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
 
   useEffect(() => {
-    if (!categories.length) return;
-    if (!categories.includes(category)) {
-      setCategory(categories[0]);
+    if (!tags.length) return;
+    if (!tags.includes(tag)) {
+      setTag(tags[0]);
     }
-  }, [categories, category]);
+  }, [tags, tag]);
 
   async function runPreview() {
     setMessage(null);
     setPreview(null);
     try {
       const result = await previewMutation.mutateAsync({
-        category,
+        tag,
         minUsers,
         limit,
         prompt: prompt || undefined,
@@ -78,12 +85,12 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
     if (!preview) return;
     const assignments = preview.output.items.map((item) => ({
       item: item.item,
-      categories: item.categories,
+      tags: item.tags,
     }));
     setMessage(null);
     try {
       const result = await applyMutation.mutateAsync({
-        category: preview.category,
+        tag: preview.tag,
         assignments,
       });
       setMessage({
@@ -100,10 +107,10 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
       <CardContent className="p-4 space-y-4">
         <h4 className="font-medium">Reclassify tags with AI</h4>
         <div className="grid gap-2 md:grid-cols-4">
-          <CategoryCombobox
-            categories={categories}
-            value={category}
-            onChange={setCategory}
+          <TagCombobox
+            tags={tags}
+            value={tag}
+            onChange={setTag}
           />
           <Input
             type="number"
@@ -144,7 +151,7 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
                 <div key={entry.item} className="flex items-start justify-between gap-3">
                   <span>{entry.item}</span>
                   <span className="text-xs text-muted-foreground">
-                    {entry.categories.join(', ')}
+                    {entry.tags.join(', ')}
                   </span>
                 </div>
               ))}
@@ -159,12 +166,12 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
   );
 }
 
-function CategoryCombobox({
-  categories,
+function TagCombobox({
+  tags,
   value,
   onChange,
 }: {
-  categories: string[];
+  tags: string[];
   value: string;
   onChange: (value: string) => void;
 }) {
@@ -179,20 +186,20 @@ function CategoryCombobox({
           aria-expanded={open}
           className="h-9 justify-between"
         >
-          {value || 'Select category...'}
+          {value || 'Select tag...'}
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[250px] p-0">
         <Command>
-          <CommandInput placeholder="Filter categories..." />
+          <CommandInput placeholder="Filter tags..." />
           <CommandList>
-            <CommandEmpty>No category found.</CommandEmpty>
+            <CommandEmpty>No tag found.</CommandEmpty>
             <CommandGroup>
-              {categories.map((cat) => (
+              {tags.map((t) => (
                 <CommandItem
-                  key={cat}
-                  value={cat}
+                  key={t}
+                  value={t}
                   onSelect={(selected) => {
                     onChange(selected);
                     setOpen(false);
@@ -201,10 +208,10 @@ function CategoryCombobox({
                   <Check
                     className={cn(
                       'mr-2 h-4 w-4',
-                      value === cat ? 'opacity-100' : 'opacity-0',
+                      value === t ? 'opacity-100' : 'opacity-0',
                     )}
                   />
-                  {cat}
+                  {t}
                 </CommandItem>
               ))}
             </CommandGroup>

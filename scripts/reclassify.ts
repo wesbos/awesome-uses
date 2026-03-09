@@ -38,37 +38,37 @@ async function execD1(dbName: string, sql: string): Promise<void> {
   }
 }
 
-async function loadCategoriesFromD1(): Promise<string[]> {
-  const rows = await queryLocalD1<{ category: string }>(`
-    SELECT DISTINCT j.value as category
+async function loadTagsFromD1(): Promise<string[]> {
+  const rows = await queryLocalD1<{ tag: string }>(`
+    SELECT DISTINCT j.value as tag
     FROM person_items, json_each(person_items.tags_json) j
-    ORDER BY category
+    ORDER BY tag
   `);
-  return rows.map((r) => r.category);
+  return rows.map((r) => r.tag);
 }
 
-const DEFAULT_PROMPT = `You are reviewing items that were categorized as "{category}" during extraction from developer /uses pages.
+const DEFAULT_PROMPT = `You are reviewing items that were tagged as "{tag}" during extraction from developer /uses pages.
 
 For each item, decide:
-1. Does it belong in an existing category instead? If so, which one(s)?
-2. Should a NEW category be created for a group of these items? If so, name it.
-3. Should it stay as "{category}"? Only if nothing else fits.
+1. Does it belong in an existing tag instead? If so, which one(s)?
+2. Should a NEW tag be created for a group of these items? If so, name it.
+3. Should it stay as "{tag}"? Only if nothing else fits.
 
-Be specific and consistent. Prefer existing categories. Only propose a new category if 3+ items would belong to it.`;
+Be specific and consistent. Prefer existing tags. Only propose a new tag if 3+ items would belong to it.`;
 
 const ReclassifiedItem = z.object({
   item: z.string().describe('The item name exactly as provided'),
-  categories: z.array(z.string()).describe('The corrected category or categories for this item'),
-  reasoning: z.string().describe('Brief explanation of why this categorization is correct'),
+  tags: z.array(z.string()).describe('The corrected tag or tags for this item'),
+  reasoning: z.string().describe('Brief explanation of why this tagging is correct'),
 });
 
 const ReclassifyResult = z.object({
   items: z.array(ReclassifiedItem),
-  newCategories: z.array(z.object({
-    name: z.string().describe('Proposed new category name (lowercase, hyphenated)'),
-    description: z.string().describe('What items belong in this category'),
+  newTags: z.array(z.object({
+    name: z.string().describe('Proposed new tag name (lowercase, hyphenated)'),
+    description: z.string().describe('What items belong in this tag'),
     examples: z.array(z.string()).describe('Example items from the input that would go here'),
-  })).describe('Any new categories you are proposing (only if 3+ items warrant it)'),
+  })).describe('Any new tags you are proposing (only if 3+ items warrant it)'),
 });
 
 type ItemRow = {
@@ -90,7 +90,7 @@ function parseArgs(argv: string[]) {
   };
 
   return {
-    category: readStringFlag('--category') || 'other',
+    tag: readStringFlag('--tag') || 'other',
     minUsers: readFlag('--min', 2),
     limit: readFlag('--limit', Infinity),
     prompt: readStringFlag('--prompt'),
@@ -107,7 +107,7 @@ async function main() {
   if (!apiKey) throw new Error('OPENAI_API_KEY environment variable is required');
   const client = new OpenAI({ apiKey });
 
-  console.log(`Querying items in "${options.category}" with ${options.minUsers}+ users...\n`);
+  console.log(`Querying items in "${options.tag}" with ${options.minUsers}+ users...\n`);
 
   const limitClause = Number.isFinite(options.limit) ? `LIMIT ${options.limit}` : '';
 
@@ -117,7 +117,7 @@ async function main() {
       COUNT(DISTINCT person_slug) as count,
       GROUP_CONCAT(DISTINCT person_slug) as people
     FROM person_items
-    WHERE tags_json LIKE '%"${options.category}"%'
+    WHERE tags_json LIKE '%"${options.tag}"%'
     GROUP BY item
     HAVING count >= ${options.minUsers}
     ORDER BY count DESC
@@ -125,30 +125,30 @@ async function main() {
   `);
 
   if (rows.length === 0) {
-    console.log(`No items found in "${options.category}" with ${options.minUsers}+ users.`);
+    console.log(`No items found in "${options.tag}" with ${options.minUsers}+ users.`);
     return;
   }
 
   console.log(`Found ${rows.length} items to review.\n`);
 
-  const allCategories = await loadCategoriesFromD1();
-  const otherCategories = allCategories.filter((c) => c !== options.category);
-  console.log(`Loaded ${allCategories.length} existing categories from D1.\n`);
+  const allTags = await loadTagsFromD1();
+  const otherTags = allTags.filter((t) => t !== options.tag);
+  console.log(`Loaded ${allTags.length} existing tags from D1.\n`);
 
-  const systemPrompt = (options.prompt || DEFAULT_PROMPT).replace(/\{category\}/g, options.category);
+  const systemPrompt = (options.prompt || DEFAULT_PROMPT).replace(/\{tag\}/g, options.tag);
 
   const itemList = rows.map((r) => `- ${r.item}`).join('\n');
 
-  const userMessage = `Existing categories: ${otherCategories.join(', ')}
+  const userMessage = `Existing tags: ${otherTags.join(', ')}
 
-Items currently in "${options.category}" (${rows.length} items):
+Items currently in "${options.tag}" (${rows.length} items):
 ${itemList}
 
-For each item, assign the best category or categories. Remember:
-- Prefer existing categories from the list above.
-- Only propose a new category if 3+ items from this list would belong to it.
-- An item can have multiple categories.
-- Use "${options.category}" only as a last resort for items that truly don't fit anywhere.`;
+For each item, assign the best tag or tags. Remember:
+- Prefer existing tags from the list above.
+- Only propose a new tag if 3+ items from this list would belong to it.
+- An item can have multiple tags.
+- Use "${options.tag}" only as a last resort for items that truly don't fit anywhere.`;
 
   console.log(`Sending ${rows.length} items to ${options.model}...\n`);
 
@@ -174,24 +174,24 @@ For each item, assign the best category or categories. Remember:
     return;
   }
 
-  console.log(`LLM returned ${result.items.length} items, ${result.newCategories.length} new categories.\n`);
+  console.log(`LLM returned ${result.items.length} items, ${result.newTags.length} new tags.\n`);
 
   const moved = result.items.filter(
-    (i) => !(i.categories.length === 1 && i.categories[0] === options.category)
+    (i) => !(i.tags.length === 1 && i.tags[0] === options.tag)
   );
   const stayed = result.items.filter(
-    (i) => i.categories.length === 1 && i.categories[0] === options.category
+    (i) => i.tags.length === 1 && i.tags[0] === options.tag
   );
 
   console.log(`${'='.repeat(70)}`);
   console.log(`RECLASSIFICATION RESULTS`);
   console.log(`${'='.repeat(70)}\n`);
 
-  if (result.newCategories.length > 0) {
-    console.log('PROPOSED NEW CATEGORIES:');
-    for (const cat of result.newCategories) {
-      console.log(`  ${cat.name}: ${cat.description}`);
-      console.log(`    examples: ${cat.examples.join(', ')}`);
+  if (result.newTags.length > 0) {
+    console.log('PROPOSED NEW TAGS:');
+    for (const t of result.newTags) {
+      console.log(`  ${t.name}: ${t.description}`);
+      console.log(`    examples: ${t.examples.join(', ')}`);
     }
     console.log();
   }
@@ -201,10 +201,10 @@ For each item, assign the best category or categories. Remember:
     const row = rows.find((r) => r.item === item.item);
     const users = row ? ` (${row.count} users)` : '';
     console.log(`  ${item.item}${users}`);
-    console.log(`    → [${item.categories.join(', ')}]  ${item.reasoning}`);
+    console.log(`    → [${item.tags.join(', ')}]  ${item.reasoning}`);
   }
 
-  console.log(`\nSTAYED IN "${options.category}" (${stayed.length} items):`);
+  console.log(`\nSTAYED IN "${options.tag}" (${stayed.length} items):`);
   for (const item of stayed) {
     const row = rows.find((r) => r.item === item.item);
     const users = row ? ` (${row.count} users)` : '';
@@ -232,26 +232,26 @@ For each item, assign the best category or categories. Remember:
   const inClause = movedDbNames.map((n) => sqlValue(n)).join(', ');
   const allRows = await queryLocalD1<{ person_slug: string; item: string; tags_json: string }>(`
     SELECT person_slug, item, tags_json FROM person_items
-    WHERE item IN (${inClause}) AND tags_json LIKE '%"${options.category}"%'
+    WHERE item IN (${inClause}) AND tags_json LIKE '%"${options.tag}"%'
   `);
 
-  const newCatsByItem = new Map(
+  const newTagsByItem = new Map(
     moved.map((i) => [
       (rowLookup.get(i.item.toLowerCase()) ?? i.item).toLowerCase(),
-      i.categories,
+      i.tags,
     ])
   );
 
   const statements: string[] = [];
   for (const row of allRows) {
-    const newCats = newCatsByItem.get(row.item.toLowerCase());
-    if (!newCats) continue;
+    const newTags = newTagsByItem.get(row.item.toLowerCase());
+    if (!newTags) continue;
 
     let current: string[];
     try { current = JSON.parse(row.tags_json); } catch { continue; }
 
-    const withoutOld = current.filter((c) => c !== options.category);
-    const merged = [...new Set([...withoutOld, ...newCats])];
+    const withoutOld = current.filter((t) => t !== options.tag);
+    const merged = [...new Set([...withoutOld, ...newTags])];
 
     statements.push(
       `UPDATE person_items SET tags_json = ${sqlValue(JSON.stringify(merged))} WHERE person_slug = ${sqlValue(row.person_slug)} AND item = ${sqlValue(row.item)};`
@@ -266,7 +266,7 @@ For each item, assign the best category or categories. Remember:
     const dbName = rowLookup.get(item.item.toLowerCase());
     const count = allRows.filter((r) => r.item.toLowerCase() === item.item.toLowerCase()).length;
     if (dbName && count > 0) {
-      console.log(`  ✓ ${item.item}: ${count} rows → [${item.categories.join(', ')}]`);
+      console.log(`  ✓ ${item.item}: ${count} rows → [${item.tags.join(', ')}]`);
     } else {
       console.log(`  SKIP "${item.item}" — not found in DB`);
     }

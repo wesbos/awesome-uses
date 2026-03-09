@@ -1,7 +1,8 @@
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import { PeopleStore } from './stores/people-store';
-import { SiteDbStore, resolveDefaultLocalDbPath } from './stores/site-db';
+import { createLocalSiteDb, resolveDefaultLocalDbPath, type SiteDb } from './stores/site-db';
+import { ConfigurationError } from './errors';
 
 const require = createRequire(import.meta.url);
 
@@ -14,6 +15,7 @@ export type SiteManagementContextOptions = {
   dataFilePath?: string;
   generatedPeoplePath?: string;
   dbPath?: string;
+  db?: SiteDb;
 };
 
 export type SiteManagementContext = {
@@ -22,7 +24,7 @@ export type SiteManagementContext = {
   generatedPeoplePath: string;
   dbPath: string | null;
   peopleStore: PeopleStore;
-  siteDb: SiteDbStore;
+  db: SiteDb;
 };
 
 function inferRepoRoot(): string {
@@ -47,23 +49,42 @@ export function createSiteManagementContext(
     options.generatedPeoplePath ??
     process.env.SITE_GENERATED_PEOPLE_PATH ??
     path.join(repoRoot, 'src', 'generated', 'people.json');
-  const dbPath =
-    options.dbPath ??
-    process.env.SITE_DB_PATH ??
-    resolveDefaultLocalDbPath(repoRoot);
 
   const peopleStore = new PeopleStore({
     dataFilePath,
     generatedPeoplePath,
   });
-  const siteDb = new SiteDbStore({ dbPath: dbPath || null });
+
+  if (options.db) {
+    return {
+      repoRoot,
+      dataFilePath,
+      generatedPeoplePath,
+      dbPath: options.dbPath ?? null,
+      peopleStore,
+      db: options.db,
+    };
+  }
+
+  const dbPath =
+    options.dbPath ??
+    process.env.SITE_DB_PATH ??
+    resolveDefaultLocalDbPath(repoRoot);
+
+  if (!dbPath) {
+    throw new ConfigurationError(
+      'Database path is not configured. Set SITE_DB_PATH or initialize local D1 state.',
+    );
+  }
+
+  const db = createLocalSiteDb(dbPath);
 
   return {
     repoRoot,
     dataFilePath,
     generatedPeoplePath,
-    dbPath: dbPath || null,
+    dbPath,
     peopleStore,
-    siteDb,
+    db,
   };
 }

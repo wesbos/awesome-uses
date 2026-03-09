@@ -28,7 +28,7 @@ export {
 export {
   getAllTagSummaries,
   getTagDetailBySlug,
-  getExtractedCategories,
+  getExtractedTags,
   getReclassifyCandidates,
   applyTagReclassification,
   type TagItemCount,

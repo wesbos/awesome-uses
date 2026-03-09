@@ -165,7 +165,7 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
       const rows = normalized.map((item) => ({
         personSlug: data.personSlug,
         item: item.item.trim(),
-        tagsJson: JSON.stringify(item.categories),
+        tagsJson: JSON.stringify(item.tags),
         detail: item.detail,
         extractedAt,
       }));

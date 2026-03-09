@@ -58,3 +58,9 @@ export const items = sqliteTable('items', {
   itemUrl: text('item_url'),
   enrichedAt: text('enriched_at'),
 });
+
+export const siteManagementVectors = sqliteTable('site_management_vectors', {
+  personSlug: text('person_slug').primaryKey(),
+  embeddingJson: text('embedding_json').notNull(),
+  updatedAt: text('updated_at').notNull(),
+});

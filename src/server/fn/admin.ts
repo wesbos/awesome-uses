@@ -1,7 +1,7 @@
 import { createServerFn } from '@tanstack/react-start';
 import type OpenAI from 'openai';
 import {
-  getExtractedCategories,
+  getExtractedTags,
   getPersonScrapeHistory,
   getRandomScrapedPages,
   getRecentScrapeEvents,
@@ -32,12 +32,12 @@ export type AdminDashboardData = {
   recentScrapeEvents: ScrapeEventRow[];
   personScrapeHistory: PersonScrapeHistoryRow[];
   analytics: Awaited<ReturnType<typeof getAnalyticsDashboardData>>;
-  categories: string[];
+  tags: string[];
 };
 
 export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
   async (): Promise<AdminDashboardData> => {
-    const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, categories] =
+    const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, tags] =
       await Promise.all([
         getScrapeHistoryStats().catch(() => ({
           totalEvents: 0,
@@ -59,7 +59,7 @@ export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
           tags: [],
           items: [],
         })),
-        getExtractedCategories().catch(() => []),
+        getExtractedTags().catch(() => []),
       ]);
 
     return {
@@ -67,40 +67,40 @@ export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
       recentScrapeEvents,
       personScrapeHistory,
       analytics,
-      categories,
+      tags,
     };
   }
 );
 
-type DiscoverCategoriesInput = {
+type DiscoverTagsInput = {
   sampleSize: number;
 };
 
-export type DiscoverCategoriesResult = {
+export type DiscoverTagsResult = {
   sampledPages: number;
   totalItems: number;
-  topCategories: Array<{ category: string; count: number }>;
+  topTags: Array<{ tag: string; count: number }>;
   topItems: Array<{ item: string; count: number }>;
   errors: number;
 };
 
-export const $discoverCategories = createServerFn({ method: 'POST' })
-  .inputValidator((input: DiscoverCategoriesInput) => input)
-  .handler(async ({ data }): Promise<DiscoverCategoriesResult> => {
+export const $discoverTags = createServerFn({ method: 'POST' })
+  .inputValidator((input: DiscoverTagsInput) => input)
+  .handler(async ({ data }): Promise<DiscoverTagsResult> => {
     const pages = await getRandomScrapedPages(data.sampleSize);
 
     if (pages.length === 0) {
-      return { sampledPages: 0, totalItems: 0, topCategories: [], topItems: [], errors: 0 };
+      return { sampledPages: 0, totalItems: 0, topTags: [], topItems: [], errors: 0 };
     }
 
     let client: OpenAI;
     try {
       client = createOpenAIClient();
     } catch {
-      return { sampledPages: 0, totalItems: 0, topCategories: [], topItems: [], errors: 0 };
+      return { sampledPages: 0, totalItems: 0, topTags: [], topItems: [], errors: 0 };
     }
 
-    const allItems: Array<{ item: string; categories: string[] }> = [];
+    const allItems: Array<{ item: string; tags: string[] }> = [];
     let errors = 0;
 
     await mapConcurrent(pages, BATCH_CONCURRENCY, async (page) => {
@@ -108,29 +108,29 @@ export const $discoverCategories = createServerFn({ method: 'POST' })
         const extraction = await extractItemsFromMarkdown(client, page.contentMarkdown);
         const normalized = normalizeItems(extraction.items);
         for (const item of normalized) {
-          allItems.push({ item: item.item, categories: item.categories });
+          allItems.push({ item: item.item, tags: item.tags });
         }
       } catch {
         errors++;
       }
     });
 
-    const categoryCounts = new Map<string, number>();
+    const tagCounts = new Map<string, number>();
     const itemCounts = new Map<string, number>();
 
     for (const item of allItems) {
       const normalizedItem = item.item.toLowerCase().trim();
       itemCounts.set(normalizedItem, (itemCounts.get(normalizedItem) || 0) + 1);
-      for (const cat of item.categories) {
-        const c = cat.toLowerCase().trim();
-        categoryCounts.set(c, (categoryCounts.get(c) || 0) + 1);
+      for (const tag of item.tags) {
+        const t = tag.toLowerCase().trim();
+        tagCounts.set(t, (tagCounts.get(t) || 0) + 1);
       }
     }
 
-    const topCategories = [...categoryCounts.entries()]
+    const topTags = [...tagCounts.entries()]
       .sort((a, b) => b[1] - a[1])
       .slice(0, 50)
-      .map(([category, count]) => ({ category, count }));
+      .map(([tag, count]) => ({ tag, count }));
 
     const topItems = [...itemCounts.entries()]
       .sort((a, b) => b[1] - a[1])
@@ -140,7 +140,7 @@ export const $discoverCategories = createServerFn({ method: 'POST' })
     return {
       sampledPages: pages.length,
       totalItems: allItems.length,
-      topCategories,
+      topTags,
       topItems,
       errors,
     };

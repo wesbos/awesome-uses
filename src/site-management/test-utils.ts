@@ -45,8 +45,8 @@ export async function createSiteManagementFixture(options?: { people?: FixturePe
   await writeFile(generatedPeoplePath, `${JSON.stringify(people, null, 2)}\n`, 'utf8');
 
   const dbPath = path.join(root, 'site.db');
-  const db = new Database(dbPath);
-  db.exec(`
+  const rawDb = new Database(dbPath);
+  rawDb.exec(`
     CREATE TABLE IF NOT EXISTS person_pages (
       person_slug TEXT PRIMARY KEY,
       url TEXT NOT NULL,
@@ -84,8 +84,13 @@ export async function createSiteManagementFixture(options?: { people?: FixturePe
       item_url TEXT,
       enriched_at TEXT
     );
+    CREATE TABLE IF NOT EXISTS site_management_vectors (
+      person_slug TEXT PRIMARY KEY,
+      embedding_json TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    );
   `);
-  db.close();
+  rawDb.close();
 
   const context = createSiteManagementContext({
     repoRoot: root,
@@ -95,7 +100,6 @@ export async function createSiteManagementFixture(options?: { people?: FixturePe
   });
 
   async function cleanup() {
-    context.siteDb.close();
     await rm(root, { recursive: true, force: true });
   }
 

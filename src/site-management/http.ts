@@ -1,6 +1,13 @@
 import { createSiteManagementContext } from './context';
+import { resolveDb } from '../server/db/connection.server';
 import { executeTool } from './executor';
 import { sortedTools, toolRegistry } from './tools';
+import type { SiteDb } from './stores/site-db';
+
+function resolveServerDb(): SiteDb | null {
+  const db = resolveDb();
+  return db ? (db as unknown as SiteDb) : null;
+}
 
 export type JsonRpcRequest = {
   jsonrpc?: string;
@@ -54,7 +61,10 @@ export async function handleSiteManagementApiRequest(request: Request): Promise<
       );
     }
 
-    const context = createSiteManagementContext();
+    const d1 = resolveServerDb();
+    const context = d1
+      ? createSiteManagementContext({ db: d1 })
+      : createSiteManagementContext();
     const result = await executeTool(toolRegistry, context, body.tool, body.input ?? {});
     return json(result, result.ok ? 200 : 400);
   } catch (error) {
@@ -144,7 +154,10 @@ export async function handleMcpHttpRequest(request: Request): Promise<Response> 
       return rpcError(payload.id, -32602, 'Invalid params: "name" is required.');
     }
 
-    const context = createSiteManagementContext();
+    const d1 = resolveServerDb();
+    const context = d1
+      ? createSiteManagementContext({ db: d1 })
+      : createSiteManagementContext();
     const result = await executeTool(toolRegistry, context, name, args ?? {});
     if (!result.ok) {
       return rpcResult(payload.id, {

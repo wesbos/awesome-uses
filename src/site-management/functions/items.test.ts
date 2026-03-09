@@ -1,18 +1,16 @@
 import { describe, expect, it } from 'vitest';
+import * as schema from '../../server/schema';
 import { executeTool, toolRegistry } from '..';
 import { createSiteManagementFixture } from '../test-utils';
 
 describe('items tools', () => {
   it('upserts enrichments and merges duplicate item variants', async () => {
     const fixture = await createSiteManagementFixture();
-
-    fixture.context.siteDb.run(
-      `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-       VALUES
-       ('ada-lovelace', 'VSCode', '["editor"]', null, ?),
-       ('grace-hopper', 'VS Code', '["editor"]', null, ?)`,
-      [new Date().toISOString(), new Date().toISOString()],
-    );
+    const extractedAt = new Date().toISOString();
+    fixture.context.db.insert(schema.personItems).values([
+      { personSlug: 'ada-lovelace', item: 'VSCode', tagsJson: '["editor"]', extractedAt },
+      { personSlug: 'grace-hopper', item: 'VS Code', tagsJson: '["editor"]', extractedAt },
+    ]).run();
 
     const upsert = await executeTool(toolRegistry, fixture.context, 'items.createOrUpsert', {
       itemName: 'VS Code',

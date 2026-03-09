@@ -1,11 +1,10 @@
 import { readdirSync } from 'node:fs';
 import path from 'node:path';
 import Database from 'better-sqlite3';
-import { ConfigurationError } from '../errors';
+import { drizzle, type BetterSQLite3Database } from 'drizzle-orm/better-sqlite3';
+import * as schema from '../../server/schema';
 
-export type SiteDbStoreOptions = {
-  dbPath: string | null;
-};
+export type SiteDb = BetterSQLite3Database<typeof schema>;
 
 export function resolveDefaultLocalDbPath(repoRoot: string): string | null {
   const d1Dir = path.join(
@@ -27,61 +26,9 @@ export function resolveDefaultLocalDbPath(repoRoot: string): string | null {
   }
 }
 
-export class SiteDbStore {
-  private readonly dbPath: string | null;
-  private db: Database.Database | null = null;
-
-  constructor(options: SiteDbStoreOptions) {
-    this.dbPath = options.dbPath;
-  }
-
-  get configuredPath(): string | null {
-    return this.dbPath;
-  }
-
-  private ensureDb(): Database.Database {
-    if (!this.dbPath) {
-      throw new ConfigurationError(
-        'Database path is not configured. Set SITE_DB_PATH or initialize local D1 state.',
-      );
-    }
-
-    if (!this.db) {
-      this.db = new Database(this.dbPath);
-      this.db.pragma('journal_mode = WAL');
-      this.db.pragma('foreign_keys = ON');
-    }
-    return this.db;
-  }
-
-  all<T = Record<string, unknown>>(sql: string, params: unknown[] = []): T[] {
-    const db = this.ensureDb();
-    const stmt = db.prepare(sql);
-    return stmt.all(...params) as T[];
-  }
-
-  get<T = Record<string, unknown>>(sql: string, params: unknown[] = []): T | undefined {
-    const db = this.ensureDb();
-    const stmt = db.prepare(sql);
-    return stmt.get(...params) as T | undefined;
-  }
-
-  run(sql: string, params: unknown[] = []): Database.RunResult {
-    const db = this.ensureDb();
-    const stmt = db.prepare(sql);
-    return stmt.run(...params);
-  }
-
-  transaction<T>(handler: (db: Database.Database) => T): T {
-    const db = this.ensureDb();
-    const txn = db.transaction(() => handler(db));
-    return txn();
-  }
-
-  close(): void {
-    if (this.db) {
-      this.db.close();
-      this.db = null;
-    }
-  }
+export function createLocalSiteDb(dbPath: string): SiteDb {
+  const sqlite = new Database(dbPath);
+  sqlite.pragma('journal_mode = WAL');
+  sqlite.pragma('foreign_keys = ON');
+  return drizzle(sqlite, { schema });
 }

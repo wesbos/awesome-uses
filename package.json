@@ -55,7 +55,7 @@
     "readme": "node ./scripts/populate-readme.js",
     "cull": "tsx ./scripts/cull-invalid-uses.ts",
     "scrape": "tsx ./scripts/scrape-uses-to-d1.ts",
-    "discover": "tsx --env-file .env ./scripts/discover-categories.ts",
+    "discover": "tsx --env-file .env ./scripts/discover-tags.ts",
     "canonicalize": "tsx ./scripts/canonicalize-tags.ts",
     "extract": "tsx --env-file .env ./scripts/extract-items.ts",
     "review": "tsx ./scripts/review-extraction.ts",

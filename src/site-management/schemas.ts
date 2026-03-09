@@ -21,7 +21,7 @@ export const isoDatetimeSchema = z
   .or(z.string().refine((value) => !Number.isNaN(Date.parse(value)), 'Invalid datetime.'));
 
 export const paginationSchema = z.object({
-  limit: z.number().int().positive().max(500).default(100),
+  limit: z.number().int().positive().max(100).default(10),
   offset: z.number().int().min(0).default(0),
 });
 

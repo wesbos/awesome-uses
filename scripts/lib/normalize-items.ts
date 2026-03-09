@@ -48,7 +48,7 @@ const MODEL_STRIP_PATTERNS: [RegExp, string][] = [
 const YEAR_GEN_PATTERN = /\s*\((?:\d{4}|(?:\d+(?:st|nd|rd|th)\s+generation))[^)]*\)\s*$/i;
 const TRAILING_YEAR = /\s+\d{4}$/;
 
-const CATEGORY_MERGES: Record<string, string | null> = {
+const TAG_MERGES: Record<string, string | null> = {
   'note-taking': 'productivity',
   'note-app': 'productivity',
   'notes': 'productivity',
@@ -83,7 +83,7 @@ const CATEGORY_MERGES: Record<string, string | null> = {
   'stationery': 'office',
   'pen': 'office',
   'stylus': 'office',
-  // Strip vague/contextual categories
+  // Strip vague/contextual tags
   'programming': null,
   'web': null,
   'utility': null,
@@ -148,20 +148,20 @@ export function normalizeItem(item: ExtractedItemType): ExtractedItemType {
     detail = detail ? `${year}, ${detail}` : year;
   }
 
-  // Normalize categories
-  const categories = item.categories
+  // Normalize tags
+  const tags = item.tags
     .map((c) => c.toLowerCase().trim())
     .map((c) => {
-      if (c in CATEGORY_MERGES) return CATEGORY_MERGES[c];
+      if (c in TAG_MERGES) return TAG_MERGES[c];
       return c;
     })
     .filter((c): c is string => c !== null);
 
-  const uniqueCategories = [...new Set(categories)];
+  const uniqueTags = [...new Set(tags)];
 
   return {
     item: name,
-    categories: uniqueCategories.length > 0 ? uniqueCategories : ['other'],
+    tags: uniqueTags.length > 0 ? uniqueTags : ['other'],
     detail,
   };
 }

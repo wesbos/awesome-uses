@@ -41,9 +41,9 @@ export {
 export {
   $trackView,
   $getAdminDashboardData,
-  $discoverCategories,
+  $discoverTags,
   type AdminDashboardData,
-  type DiscoverCategoriesResult,
+  type DiscoverTagsResult,
 } from './admin';
 
 export {

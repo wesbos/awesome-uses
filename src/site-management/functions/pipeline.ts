@@ -1,14 +1,18 @@
 import { z } from 'zod';
+import { eq, and, asc, desc, sql, isNotNull, ne } from 'drizzle-orm';
 import { zodResponseFormat } from 'openai/helpers/zod';
 import { kmeans } from 'ml-kmeans';
 import { UMAP } from 'umap-js';
+import * as schema from '../../server/schema';
 import { defineTool } from '../registry';
 import type { ToolDefinition } from '../types';
+import type { SiteManagementContext } from '../context';
 import { nonEmptyStringSchema } from '../schemas';
 import { ConfigurationError, NotFoundError } from '../errors';
-import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems, BANNED_CATEGORIES } from '../../server/extract';
+import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems, BANNED_TAGS } from '../../server/extract';
 import { scrapeUsesPage, type ScrapePageResult } from '../../server/scrape';
-import { mapConcurrent, normalizeCategory, parseTagsJson, uniqueSorted } from './utils';
+import { mapConcurrent, normalizeTag, parseTagsJson, uniqueSorted } from './utils';
+import type { SiteDb } from '../stores/site-db';
 
 const EMBEDDING_MODEL = 'text-embedding-3-small';
 
@@ -46,7 +50,7 @@ const extractBatchInputSchema = z.object({
   concurrency: z.number().int().positive().max(25).default(8),
 });
 
-const discoverCategoriesInputSchema = z.object({
+const discoverTagsInputSchema = z.object({
   sampleSize: z.number().int().positive().max(500).default(30),
   concurrency: z.number().int().positive().max(25).default(8),
 });
@@ -54,7 +58,7 @@ const discoverCategoriesInputSchema = z.object({
 const reviewExtractionInputSchema = z.object({});
 
 const previewReclassificationInputSchema = z.object({
-  category: nonEmptyStringSchema,
+  tag: nonEmptyStringSchema,
   minUsers: z.number().int().positive().max(100).default(2),
   limit: z.number().int().positive().max(500).default(80),
   model: z.string().trim().min(1).default('gpt-5-mini'),
@@ -62,11 +66,11 @@ const previewReclassificationInputSchema = z.object({
 });
 
 const applyReclassificationInputSchema = z.object({
-  category: nonEmptyStringSchema,
+  tag: nonEmptyStringSchema,
   assignments: z.array(
     z.object({
       item: nonEmptyStringSchema,
-      categories: z.array(nonEmptyStringSchema).min(1),
+      tags: z.array(nonEmptyStringSchema).min(1),
     }),
   ),
 });
@@ -93,13 +97,13 @@ const getGalaxyDataInputSchema = z.object({
 
 const ReclassifiedItemSchema = z.object({
   item: z.string(),
-  categories: z.array(z.string()),
+  tags: z.array(z.string()),
   reasoning: z.string(),
 });
 
 const ReclassifyOutputSchema = z.object({
   items: z.array(ReclassifiedItemSchema),
-  newCategories: z.array(
+  newTags: z.array(
     z.object({
       name: z.string(),
       description: z.string(),
@@ -107,25 +111,6 @@ const ReclassifyOutputSchema = z.object({
     }),
   ),
 });
-
-type ScrapedPageRow = {
-  person_slug: string;
-  url: string;
-  status_code: number | null;
-  fetched_at: string;
-  title: string | null;
-  content_markdown: string | null;
-  content_hash: string | null;
-  vectorized_at: string | null;
-};
-
-type PersonItemRow = {
-  person_slug: string;
-  item: string;
-  tags_json: string;
-  detail: string | null;
-  extracted_at: string;
-};
 
 function classifyScrapeChangeType(
   previousContentHash: string | null,
@@ -136,18 +121,6 @@ function classifyScrapeChangeType(
   if (!previousContentHash) return 'initial';
   if (previousContentHash !== scraped.contentHash) return 'updated';
   return 'unchanged';
-}
-
-function ensureVectorTable(siteDb: {
-  run: (sql: string, params?: unknown[]) => unknown;
-}) {
-  siteDb.run(
-    `CREATE TABLE IF NOT EXISTS site_management_vectors (
-      person_slug TEXT PRIMARY KEY,
-      embedding_json TEXT NOT NULL,
-      updated_at TEXT NOT NULL
-    )`,
-  );
 }
 
 function cosineSimilarity(a: number[], b: number[]): number {
@@ -166,12 +139,12 @@ function cosineSimilarity(a: number[], b: number[]): number {
   return dot / Math.sqrt(normA * normB);
 }
 
-function normalizeReclassifyCategory(category: string): string {
-  return category.trim().toLowerCase().replace(/\s+/g, '-');
+function normalizeReclassifyTag(tag: string): string {
+  return tag.trim().toLowerCase().replace(/\s+/g, '-');
 }
 
 async function scrapeOnePerson(
-  context: Parameters<ToolDefinition['handler']>[0],
+  context: SiteManagementContext,
   personSlug: string,
   options: { timeoutMs: number; retries: number },
 ) {
@@ -181,50 +154,53 @@ async function scrapeOnePerson(
     throw new NotFoundError(`Person "${personSlug}" was not found.`);
   }
 
-  const previous = context.siteDb.get<{ content_hash: string | null }>(
-    'SELECT content_hash FROM person_pages WHERE person_slug = ?',
-    [personSlug],
-  );
+  const previous = await context.db
+    .select({ contentHash: schema.personPages.contentHash })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .get();
 
   const scraped = await scrapeUsesPage(person.url, options);
   const fetchedAt = new Date().toISOString();
-  context.siteDb.run(
-    `INSERT INTO person_pages (
-      person_slug, url, status_code, fetched_at, title, content_markdown, content_hash
-    ) VALUES (?, ?, ?, ?, ?, ?, ?)
-    ON CONFLICT(person_slug) DO UPDATE SET
-      url=excluded.url,
-      status_code=excluded.status_code,
-      fetched_at=excluded.fetched_at,
-      title=excluded.title,
-      content_markdown=excluded.content_markdown,
-      content_hash=excluded.content_hash`,
-    [
-      personSlug,
-      person.url,
-      scraped.statusCode,
-      fetchedAt,
-      scraped.title,
-      scraped.contentMarkdown,
-      scraped.contentHash,
-    ],
-  );
 
-  const changeType = classifyScrapeChangeType(previous?.content_hash ?? null, scraped);
-  context.siteDb.run(
-    `INSERT INTO person_page_events (
-      person_slug, url, status_code, fetched_at, content_hash, change_type, title
-    ) VALUES (?, ?, ?, ?, ?, ?, ?)`,
-    [
+  await context.db
+    .insert(schema.personPages)
+    .values({
       personSlug,
-      person.url,
-      scraped.statusCode,
+      url: person.url,
+      statusCode: scraped.statusCode,
       fetchedAt,
-      scraped.contentHash,
+      title: scraped.title,
+      contentMarkdown: scraped.contentMarkdown,
+      contentHash: scraped.contentHash,
+    })
+    .onConflictDoUpdate({
+      target: schema.personPages.personSlug,
+      set: {
+        url: person.url,
+        statusCode: scraped.statusCode,
+        fetchedAt,
+        title: scraped.title,
+        contentMarkdown: scraped.contentMarkdown,
+        contentHash: scraped.contentHash,
+      },
+    })
+    .run();
+
+  const changeType = classifyScrapeChangeType(previous?.contentHash ?? null, scraped);
+
+  await context.db
+    .insert(schema.personPageEvents)
+    .values({
+      personSlug,
+      url: person.url,
+      statusCode: scraped.statusCode,
+      fetchedAt,
+      contentHash: scraped.contentHash,
       changeType,
-      scraped.title,
-    ],
-  );
+      title: scraped.title,
+    })
+    .run();
 
   return {
     personSlug,
@@ -239,14 +215,16 @@ async function scrapeOnePerson(
 }
 
 async function extractForPerson(
-  context: Parameters<ToolDefinition['handler']>[0],
+  context: SiteManagementContext,
   personSlug: string,
 ): Promise<{ itemCount: number; error?: string }> {
-  const page = context.siteDb.get<{
-    content_markdown: string | null;
-  }>('SELECT content_markdown FROM person_pages WHERE person_slug = ?', [personSlug]);
+  const page = await context.db
+    .select({ contentMarkdown: schema.personPages.contentMarkdown })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .get();
 
-  if (!page?.content_markdown) {
+  if (!page?.contentMarkdown) {
     return { itemCount: 0, error: 'No scraped markdown available.' };
   }
 
@@ -260,45 +238,49 @@ async function extractForPerson(
     };
   }
 
-  const extracted = await extractItemsFromMarkdown(client, page.content_markdown);
+  const extracted = await extractItemsFromMarkdown(client, page.contentMarkdown);
   const normalized = normalizeItems(extracted.items);
   const extractedAt = new Date().toISOString();
 
-  context.siteDb.transaction((db) => {
-    db.prepare('DELETE FROM person_items WHERE person_slug = ?').run(personSlug);
-    if (normalized.length === 0) return;
-    const insertStmt = db.prepare(
-      `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-       VALUES (?, ?, ?, ?, ?)
-       ON CONFLICT(person_slug, item) DO UPDATE SET
-         tags_json=excluded.tags_json,
-         detail=excluded.detail,
-         extracted_at=excluded.extracted_at`,
-    );
-    for (const item of normalized) {
-      insertStmt.run(
+  await context.db.delete(schema.personItems)
+    .where(eq(schema.personItems.personSlug, personSlug))
+    .run();
+
+  for (const item of normalized) {
+    await context.db
+      .insert(schema.personItems)
+      .values({
         personSlug,
-        item.item.trim(),
-        JSON.stringify(uniqueSorted(item.categories.map(normalizeCategory))),
-        item.detail,
+        item: item.item.trim(),
+        tagsJson: JSON.stringify(uniqueSorted(item.tags.map(normalizeTag))),
+        detail: item.detail,
         extractedAt,
-      );
-    }
-  });
+      })
+      .onConflictDoUpdate({
+        target: [schema.personItems.personSlug, schema.personItems.item],
+        set: {
+          tagsJson: JSON.stringify(uniqueSorted(item.tags.map(normalizeTag))),
+          detail: item.detail,
+          extractedAt,
+        },
+      })
+      .run();
+  }
 
   return { itemCount: normalized.length };
 }
 
 async function vectorizePersonEmbedding(
-  context: Parameters<ToolDefinition['handler']>[0],
+  context: SiteManagementContext,
   personSlug: string,
 ): Promise<{ vectorized: boolean; reason?: string; dimensions?: number }> {
-  const page = context.siteDb.get<{ content_markdown: string | null }>(
-    'SELECT content_markdown FROM person_pages WHERE person_slug = ?',
-    [personSlug],
-  );
+  const page = await context.db
+    .select({ contentMarkdown: schema.personPages.contentMarkdown })
+    .from(schema.personPages)
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .get();
 
-  if (!page?.content_markdown || page.content_markdown.length < 20) {
+  if (!page?.contentMarkdown || page.contentMarkdown.length < 20) {
     return { vectorized: false, reason: 'No sufficient scraped content.' };
   }
 
@@ -312,14 +294,17 @@ async function vectorizePersonEmbedding(
     };
   }
 
-  const itemRows = context.siteDb.all<{ item: string }>(
-    'SELECT item FROM person_items WHERE person_slug = ? ORDER BY item',
-    [personSlug],
-  );
+  const itemRows = await context.db
+    .select({ item: schema.personItems.item })
+    .from(schema.personItems)
+    .where(eq(schema.personItems.personSlug, personSlug))
+    .orderBy(asc(schema.personItems.item))
+    .all();
+
   const text = [
     `Profile: ${personSlug}`,
     itemRows.length > 0 ? `Items: ${itemRows.map((entry) => entry.item).join(', ')}` : '',
-    `Uses page content:\n${page.content_markdown.slice(0, 6000)}`,
+    `Uses page content:\n${page.contentMarkdown.slice(0, 6000)}`,
   ]
     .filter(Boolean)
     .join('\n\n');
@@ -334,51 +319,59 @@ async function vectorizePersonEmbedding(
     return { vectorized: false, reason: 'Embedding response was empty.' };
   }
 
-  ensureVectorTable(context.siteDb);
-  context.siteDb.run(
-    `INSERT INTO site_management_vectors (person_slug, embedding_json, updated_at)
-     VALUES (?, ?, ?)
-     ON CONFLICT(person_slug) DO UPDATE SET
-       embedding_json = excluded.embedding_json,
-       updated_at = excluded.updated_at`,
-    [personSlug, JSON.stringify(embedding), new Date().toISOString()],
-  );
-  context.siteDb.run(
-    'UPDATE person_pages SET vectorized_at = ? WHERE person_slug = ?',
-    [new Date().toISOString(), personSlug],
-  );
+  await context.db
+    .insert(schema.siteManagementVectors)
+    .values({
+      personSlug,
+      embeddingJson: JSON.stringify(embedding),
+      updatedAt: new Date().toISOString(),
+    })
+    .onConflictDoUpdate({
+      target: schema.siteManagementVectors.personSlug,
+      set: {
+        embeddingJson: JSON.stringify(embedding),
+        updatedAt: new Date().toISOString(),
+      },
+    })
+    .run();
+
+  await context.db
+    .update(schema.personPages)
+    .set({ vectorizedAt: new Date().toISOString() })
+    .where(eq(schema.personPages.personSlug, personSlug))
+    .run();
 
   return { vectorized: true, dimensions: embedding.length };
 }
 
-function buildExtractionReview(rows: PersonItemRow[]) {
-  const categoryItems = new Map<string, Map<string, Set<string>>>();
-  const itemCategories = new Map<string, Set<string>>();
+function buildExtractionReview(rows: Array<typeof schema.personItems.$inferSelect>) {
+  const tagItems = new Map<string, Map<string, Set<string>>>();
+  const itemTags = new Map<string, Set<string>>();
 
   for (const row of rows) {
     const item = row.item.trim();
     if (!item) continue;
-    const categories = parseTagsJson(row.tags_json).map(normalizeCategory);
-    for (const category of categories) {
-      if (!categoryItems.has(category)) categoryItems.set(category, new Map());
-      const items = categoryItems.get(category)!;
+    const tags = parseTagsJson(row.tagsJson).map(normalizeTag);
+    for (const tag of tags) {
+      if (!tagItems.has(tag)) tagItems.set(tag, new Map());
+      const items = tagItems.get(tag)!;
       if (!items.has(item)) items.set(item, new Set());
-      items.get(item)!.add(row.person_slug);
+      items.get(item)!.add(row.personSlug);
 
-      if (!itemCategories.has(item)) itemCategories.set(item, new Set());
-      itemCategories.get(item)!.add(category);
+      if (!itemTags.has(item)) itemTags.set(item, new Set());
+      itemTags.get(item)!.add(tag);
     }
   }
 
-  const categories = [...categoryItems.entries()]
-    .map(([category, items]) => {
+  const tags = [...tagItems.entries()]
+    .map(([tag, items]) => {
       const totalPeople = new Set([...items.values()].flatMap((people) => [...people])).size;
       const topItems = [...items.entries()]
         .sort((a, b) => b[1].size - a[1].size)
         .slice(0, 15)
         .map(([item, people]) => ({ item, count: people.size }));
       return {
-        category,
+        tag,
         uniqueItems: items.size,
         totalPeople,
         topItems,
@@ -386,32 +379,32 @@ function buildExtractionReview(rows: PersonItemRow[]) {
     })
     .sort((a, b) => b.uniqueItems - a.uniqueItems);
 
-  const multiCategoryItems = [...itemCategories.entries()]
-    .filter(([, tags]) => tags.size > 2)
-    .map(([item, tags]) => ({ item, categories: [...tags].sort() }))
-    .sort((a, b) => b.categories.length - a.categories.length)
+  const multiTagItems = [...itemTags.entries()]
+    .filter(([, t]) => t.size > 2)
+    .map(([item, t]) => ({ item, tags: [...t].sort() }))
+    .sort((a, b) => b.tags.length - a.tags.length)
     .slice(0, 30);
 
-  const tinyCategories = categories
+  const tinyTags = tags
     .filter((entry) => entry.uniqueItems <= 2)
     .map((entry) => ({
-      category: entry.category,
-      items: [...(categoryItems.get(entry.category)?.keys() ?? [])],
+      tag: entry.tag,
+      items: [...(tagItems.get(entry.tag)?.keys() ?? [])],
     }));
 
-  const bannedLeaks = categories
-    .filter((entry) => BANNED_CATEGORIES.includes(entry.category))
+  const bannedLeaks = tags
+    .filter((entry) => BANNED_TAGS.includes(entry.tag))
     .map((entry) => ({
-      category: entry.category,
+      tag: entry.tag,
       uniqueItems: entry.uniqueItems,
     }));
 
   return {
     totalRows: rows.length,
-    totalCategories: categories.length,
-    categories,
-    multiCategoryItems,
-    tinyCategories,
+    totalTags: tags.length,
+    tags,
+    multiTagItems,
+    tinyTags,
     bannedLeaks,
   };
 }
@@ -422,13 +415,14 @@ export const pipelineTools: ToolDefinition[] = [
     scope: 'pipeline',
     description: 'Get scrape and vectorization status for all people.',
     inputSchema: getScrapeStatusInputSchema,
-    handler: async ({ peopleStore, siteDb }) => {
+    handler: async ({ peopleStore, db }) => {
       const people = await peopleStore.listPeopleWithSlugs();
-      const scrapes = siteDb.all<ScrapedPageRow>(
-        `SELECT person_slug, url, status_code, fetched_at, title, content_markdown, content_hash, vectorized_at
-         FROM person_pages`,
-      );
-      const scrapeMap = new Map(scrapes.map((entry) => [entry.person_slug, entry]));
+      const scrapes = await db
+        .select()
+        .from(schema.personPages)
+        .all();
+
+      const scrapeMap = new Map(scrapes.map((entry) => [entry.personSlug, entry]));
       const rows = people.map((person) => {
         const scrape = scrapeMap.get(person.personSlug);
         return {
@@ -436,10 +430,10 @@ export const pipelineTools: ToolDefinition[] = [
           name: person.name,
           url: person.url,
           scraped: !!scrape,
-          statusCode: scrape?.status_code ?? null,
-          fetchedAt: scrape?.fetched_at ?? null,
+          statusCode: scrape?.statusCode ?? null,
+          fetchedAt: scrape?.fetchedAt ?? null,
           title: scrape?.title ?? null,
-          vectorized: !!scrape?.vectorized_at,
+          vectorized: !!scrape?.vectorizedAt,
         };
       });
 
@@ -456,23 +450,26 @@ export const pipelineTools: ToolDefinition[] = [
     scope: 'pipeline',
     description: 'List scraped pages with error status codes.',
     inputSchema: getScrapeErrorsInputSchema,
-    handler: async ({ peopleStore, siteDb }, input) => {
+    handler: async ({ peopleStore, db }, input) => {
       const people = await peopleStore.listPeopleWithSlugs();
       const peopleMap = new Map(people.map((entry) => [entry.personSlug, entry]));
-      const rows = siteDb.all<ScrapedPageRow>(
-        `SELECT person_slug, url, status_code, fetched_at, title, content_markdown, content_hash, vectorized_at
-         FROM person_pages
-         WHERE status_code IS NULL OR status_code >= 400
-         ORDER BY fetched_at DESC
-         LIMIT ?`,
-        [input.limit],
-      );
+
+      const rows = await db
+        .select()
+        .from(schema.personPages)
+        .where(
+          sql`${schema.personPages.statusCode} IS NULL OR ${schema.personPages.statusCode} >= 400`,
+        )
+        .orderBy(desc(schema.personPages.fetchedAt))
+        .limit(input.limit)
+        .all();
+
       return rows.map((row) => ({
-        personSlug: row.person_slug,
-        name: peopleMap.get(row.person_slug)?.name ?? row.person_slug,
+        personSlug: row.personSlug,
+        name: peopleMap.get(row.personSlug)?.name ?? row.personSlug,
         url: row.url,
-        statusCode: row.status_code,
-        fetchedAt: row.fetched_at,
+        statusCode: row.statusCode,
+        fetchedAt: row.fetchedAt,
         title: row.title,
       }));
     },
@@ -480,7 +477,7 @@ export const pipelineTools: ToolDefinition[] = [
   defineTool({
     name: 'pipeline.scrapePerson',
     scope: 'pipeline',
-    description: 'Scrape one person uses page and store it in D1.',
+    description: 'Scrape one person uses page and store it.',
     inputSchema: scrapePersonInputSchema,
     handler: async (context, input) => {
       return scrapeOnePerson(context, input.personSlug, {
@@ -497,9 +494,11 @@ export const pipelineTools: ToolDefinition[] = [
     handler: async (context, input) => {
       const people = await context.peopleStore.listPeopleWithSlugs();
       const existing = new Set(
-        context.siteDb
-          .all<{ person_slug: string }>('SELECT person_slug FROM person_pages')
-          .map((entry) => entry.person_slug),
+        (await context.db
+          .select({ personSlug: schema.personPages.personSlug })
+          .from(schema.personPages)
+          .all())
+          .map((entry) => entry.personSlug),
       );
 
       let targets = people;
@@ -548,16 +547,18 @@ export const pipelineTools: ToolDefinition[] = [
     description: 'Re-scrape one person and re-extract items when content changes.',
     inputSchema: rescrapeAndExtractInputSchema,
     handler: async (context, input) => {
-      const before = context.siteDb.get<{ content_hash: string | null }>(
-        'SELECT content_hash FROM person_pages WHERE person_slug = ?',
-        [input.personSlug],
-      );
+      const before = await context.db
+        .select({ contentHash: schema.personPages.contentHash })
+        .from(schema.personPages)
+        .where(eq(schema.personPages.personSlug, input.personSlug))
+        .get();
+
       const scrape = await scrapeOnePerson(context, input.personSlug, {
         timeoutMs: input.timeoutMs,
         retries: input.retries,
       });
 
-      const contentChanged = before?.content_hash !== scrape.contentHash;
+      const contentChanged = before?.contentHash !== scrape.contentHash;
       if (!input.forceExtract && !contentChanged) {
         return {
           ...scrape,
@@ -584,34 +585,45 @@ export const pipelineTools: ToolDefinition[] = [
     inputSchema: extractBatchInputSchema,
     handler: async (context, input) => {
       const existingExtracted = new Set(
-        context.siteDb
-          .all<{ person_slug: string }>('SELECT DISTINCT person_slug FROM person_items')
-          .map((entry) => entry.person_slug),
+        (await context.db
+          .selectDistinct({ personSlug: schema.personItems.personSlug })
+          .from(schema.personItems)
+          .all())
+          .map((entry) => entry.personSlug),
       );
-      const pages = context.siteDb.all<{ person_slug: string; content_markdown: string | null }>(
-        `SELECT person_slug, content_markdown
-         FROM person_pages
-         WHERE content_markdown IS NOT NULL AND content_markdown != ''
-         ORDER BY person_slug
-         LIMIT ?`,
-        [input.limit],
-      );
+
+      const pages = await context.db
+        .select({
+          personSlug: schema.personPages.personSlug,
+          contentMarkdown: schema.personPages.contentMarkdown,
+        })
+        .from(schema.personPages)
+        .where(
+          and(
+            isNotNull(schema.personPages.contentMarkdown),
+            ne(schema.personPages.contentMarkdown, ''),
+          ),
+        )
+        .orderBy(asc(schema.personPages.personSlug))
+        .limit(input.limit)
+        .all();
+
       const targets = input.skipExisting
-        ? pages.filter((entry) => !existingExtracted.has(entry.person_slug))
+        ? pages.filter((entry) => !existingExtracted.has(entry.personSlug))
         : pages;
 
       const results = await mapConcurrent(targets, input.concurrency, async (entry) => {
         try {
-          const extraction = await extractForPerson(context, entry.person_slug);
+          const extraction = await extractForPerson(context, entry.personSlug);
           return {
-            personSlug: entry.person_slug,
+            personSlug: entry.personSlug,
             ok: !extraction.error,
             itemCount: extraction.itemCount,
             error: extraction.error,
           };
         } catch (error) {
           return {
-            personSlug: entry.person_slug,
+            personSlug: entry.personSlug,
             ok: false,
             itemCount: 0,
             error: error instanceof Error ? error.message : 'Extraction failed.',
@@ -628,19 +640,26 @@ export const pipelineTools: ToolDefinition[] = [
     },
   }),
   defineTool({
-    name: 'pipeline.discoverCategories',
+    name: 'pipeline.discoverTags',
     scope: 'pipeline',
-    description: 'Sample random pages and estimate top categories/items via extraction.',
-    inputSchema: discoverCategoriesInputSchema,
+    description: 'Sample random pages and estimate top tags/items via extraction.',
+    inputSchema: discoverTagsInputSchema,
     handler: async (context, input) => {
-      const pages = context.siteDb.all<{ person_slug: string; content_markdown: string | null }>(
-        `SELECT person_slug, content_markdown
-         FROM person_pages
-         WHERE content_markdown IS NOT NULL AND content_markdown != ''
-         ORDER BY RANDOM()
-         LIMIT ?`,
-        [input.sampleSize],
-      );
+      const pages = await context.db
+        .select({
+          personSlug: schema.personPages.personSlug,
+          contentMarkdown: schema.personPages.contentMarkdown,
+        })
+        .from(schema.personPages)
+        .where(
+          and(
+            isNotNull(schema.personPages.contentMarkdown),
+            ne(schema.personPages.contentMarkdown, ''),
+          ),
+        )
+        .orderBy(sql`RANDOM()`)
+        .limit(input.sampleSize)
+        .all();
 
       let client: ReturnType<typeof createOpenAIClient>;
       try {
@@ -651,17 +670,17 @@ export const pipelineTools: ToolDefinition[] = [
         );
       }
 
-      const extractedItems: Array<{ item: string; categories: string[] }> = [];
+      const extractedItems: Array<{ item: string; tags: string[] }> = [];
       let errors = 0;
       await mapConcurrent(pages, input.concurrency, async (page) => {
         try {
-          if (!page.content_markdown) return;
-          const extraction = await extractItemsFromMarkdown(client, page.content_markdown);
+          if (!page.contentMarkdown) return;
+          const extraction = await extractItemsFromMarkdown(client, page.contentMarkdown);
           const normalized = normalizeItems(extraction.items);
           for (const item of normalized) {
             extractedItems.push({
               item: item.item.toLowerCase().trim(),
-              categories: item.categories.map(normalizeCategory),
+              tags: item.tags.map(normalizeTag),
             });
           }
         } catch {
@@ -669,22 +688,22 @@ export const pipelineTools: ToolDefinition[] = [
         }
       });
 
-      const categoryCounts = new Map<string, number>();
+      const tagCounts = new Map<string, number>();
       const itemCounts = new Map<string, number>();
       for (const item of extractedItems) {
         itemCounts.set(item.item, (itemCounts.get(item.item) || 0) + 1);
-        for (const category of item.categories) {
-          categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
+        for (const tag of item.tags) {
+          tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
         }
       }
 
       return {
         sampledPages: pages.length,
         totalItems: extractedItems.length,
-        topCategories: [...categoryCounts.entries()]
+        topTags: [...tagCounts.entries()]
           .sort((a, b) => b[1] - a[1])
           .slice(0, 50)
-          .map(([category, count]) => ({ category, count })),
+          .map(([tag, count]) => ({ tag, count })),
         topItems: [...itemCounts.entries()]
           .sort((a, b) => b[1] - a[1])
           .slice(0, 50)
@@ -698,19 +717,22 @@ export const pipelineTools: ToolDefinition[] = [
     scope: 'pipeline',
     description: 'Generate extraction quality report from person_items.',
     inputSchema: reviewExtractionInputSchema,
-    handler: ({ siteDb }) => {
-      const rows = siteDb.all<PersonItemRow>(
-        'SELECT person_slug, item, tags_json, detail, extracted_at FROM person_items ORDER BY item',
-      );
+    handler: async ({ db }) => {
+      const rows = await db
+        .select()
+        .from(schema.personItems)
+        .orderBy(asc(schema.personItems.item))
+        .all();
+
       return buildExtractionReview(rows);
     },
   }),
   defineTool({
     name: 'pipeline.previewReclassification',
     scope: 'pipeline',
-    description: 'Preview AI category reclassification for one category.',
+    description: 'Preview AI tag reclassification for one tag.',
     inputSchema: previewReclassificationInputSchema,
-    handler: async ({ siteDb }, input) => {
+    handler: async ({ db }, input) => {
       let client: ReturnType<typeof createOpenAIClient>;
       try {
         client = createOpenAIClient();
@@ -720,20 +742,21 @@ export const pipelineTools: ToolDefinition[] = [
         );
       }
 
-      const targetCategory = normalizeCategory(input.category);
-      const rows = siteDb.all<PersonItemRow>(
-        'SELECT person_slug, item, tags_json, detail, extracted_at FROM person_items',
-      );
+      const targetTag = normalizeTag(input.tag);
+      const rows = await db
+        .select()
+        .from(schema.personItems)
+        .all();
 
-      const allCategories = uniqueSorted(
-        rows.flatMap((row) => parseTagsJson(row.tags_json).map(normalizeCategory)),
+      const allTags = uniqueSorted(
+        rows.flatMap((row) => parseTagsJson(row.tagsJson).map(normalizeTag)),
       );
       const itemPeople = new Map<string, Set<string>>();
       for (const row of rows) {
-        const categories = parseTagsJson(row.tags_json).map(normalizeCategory);
-        if (!categories.includes(targetCategory)) continue;
+        const tags = parseTagsJson(row.tagsJson).map(normalizeTag);
+        if (!tags.includes(targetTag)) continue;
         if (!itemPeople.has(row.item)) itemPeople.set(row.item, new Set());
-        itemPeople.get(row.item)!.add(row.person_slug);
+        itemPeople.get(row.item)!.add(row.personSlug);
       }
 
       const candidates = [...itemPeople.entries()]
@@ -748,14 +771,11 @@ export const pipelineTools: ToolDefinition[] = [
 
       if (candidates.length === 0) {
         return {
-          category: targetCategory,
+          tag: targetTag,
           minUsers: input.minUsers,
           totalCandidates: 0,
           candidates: [],
-          output: {
-            items: [],
-            newCategories: [],
-          },
+          output: { items: [], newTags: [] },
         };
       }
 
@@ -763,32 +783,32 @@ export const pipelineTools: ToolDefinition[] = [
         input.prompt ||
         `You are reviewing extracted item tags from developer /uses pages.
 
-For each item currently tagged as "{category}", decide:
-1. Which category or categories it should belong to.
-2. Whether it should remain in "{category}".
-3. Whether a new category is needed (only if at least 3 items clearly need it).
+For each item currently tagged as "{tag}", decide:
+1. Which tag or tags it should belong to.
+2. Whether it should remain in "{tag}".
+3. Whether a new tag is needed (only if at least 3 items clearly need it).
 
-Prefer existing categories whenever possible. Keep category names short and lowercase-hyphenated.`;
+Prefer existing tags whenever possible. Keep tag names short and lowercase-hyphenated.`;
 
       const completion = await client.chat.completions.parse({
         model: input.model,
         messages: [
           {
             role: 'system',
-            content: prompt.replaceAll('{category}', targetCategory),
+            content: prompt.replaceAll('{tag}', targetTag),
           },
           {
             role: 'user',
-            content: `Existing categories: ${allCategories.filter((entry) => entry !== targetCategory).join(', ')}
+            content: `Existing tags: ${allTags.filter((entry) => entry !== targetTag).join(', ')}
 
-Items currently in "${targetCategory}" (${candidates.length}):
+Items currently in "${targetTag}" (${candidates.length}):
 ${candidates.map((entry) => `- ${entry.item}`).join('\n')}
 
 Rules:
-- Prefer existing categories from the list above.
-- Keep "${targetCategory}" only if still appropriate.
-- You may assign multiple categories.
-- New categories should only be proposed if at least 3 items clearly require one.`,
+- Prefer existing tags from the list above.
+- Keep "${targetTag}" only if still appropriate.
+- You may assign multiple tags.
+- New tags should only be proposed if at least 3 items clearly require one.`,
           },
         ],
         response_format: zodResponseFormat(ReclassifyOutputSchema, 'reclassification'),
@@ -800,7 +820,7 @@ Rules:
       }
 
       return {
-        category: targetCategory,
+        tag: targetTag,
         minUsers: input.minUsers,
         totalCandidates: candidates.length,
         candidates: candidates.map((entry) => ({ item: entry.item, count: entry.count })),
@@ -811,37 +831,45 @@ Rules:
   defineTool({
     name: 'pipeline.applyReclassification',
     scope: 'pipeline',
-    description: 'Apply category reclassification assignments to person_items.',
+    description: 'Apply tag reclassification assignments to person_items.',
     inputSchema: applyReclassificationInputSchema,
-    handler: ({ siteDb }, input) => {
-      const category = normalizeCategory(input.category);
+    handler: async ({ db }, input) => {
+      const tag = normalizeTag(input.tag);
       const assignmentMap = new Map(
         input.assignments.map((entry) => [
           entry.item,
-          uniqueSorted(entry.categories.map(normalizeCategory)),
+          uniqueSorted(entry.tags.map(normalizeTag)),
         ]),
       );
-      const rows = siteDb.all<PersonItemRow>(
-        'SELECT person_slug, item, tags_json, detail, extracted_at FROM person_items',
-      );
+
+      const rows = await db
+        .select()
+        .from(schema.personItems)
+        .all();
+
       let updatedRows = 0;
       const touchedItems = new Set<string>();
       for (const row of rows) {
-        const nextCategories = assignmentMap.get(row.item);
-        if (!nextCategories) continue;
-        const current = parseTagsJson(row.tags_json).map(normalizeCategory);
-        if (!current.includes(category)) continue;
-        const merged = uniqueSorted([...current.filter((entry) => entry !== category), ...nextCategories]);
+        const nextTags = assignmentMap.get(row.item);
+        if (!nextTags) continue;
+        const current = parseTagsJson(row.tagsJson).map(normalizeTag);
+        if (!current.includes(tag)) continue;
+        const merged = uniqueSorted([...current.filter((entry) => entry !== tag), ...nextTags]);
         if (JSON.stringify(merged) === JSON.stringify(uniqueSorted(current))) continue;
-        siteDb.run(
-          'UPDATE person_items SET tags_json = ? WHERE person_slug = ? AND item = ?',
-          [JSON.stringify(merged), row.person_slug, row.item],
-        );
+
+        await db.update(schema.personItems)
+          .set({ tagsJson: JSON.stringify(merged) })
+          .where(and(
+            eq(schema.personItems.personSlug, row.personSlug),
+            eq(schema.personItems.item, row.item),
+          ))
+          .run();
         updatedRows += 1;
         touchedItems.add(row.item);
       }
+
       return {
-        category,
+        tag,
         updatedRows,
         updatedItems: touchedItems.size,
       };
@@ -866,30 +894,41 @@ Rules:
     description: 'Vectorize many profile embeddings in batch.',
     inputSchema: vectorizeBatchInputSchema,
     handler: async (context, input) => {
-      ensureVectorTable(context.siteDb);
       const existing = new Set(
-        context.siteDb
-          .all<{ person_slug: string }>('SELECT person_slug FROM site_management_vectors')
-          .map((entry) => entry.person_slug),
+        (await context.db
+          .select({ personSlug: schema.siteManagementVectors.personSlug })
+          .from(schema.siteManagementVectors)
+          .all())
+          .map((entry) => entry.personSlug),
       );
-      const pages = context.siteDb.all<{ person_slug: string; content_markdown: string | null }>(
-        `SELECT person_slug, content_markdown FROM person_pages
-         WHERE content_markdown IS NOT NULL AND length(content_markdown) > 100
-         ORDER BY person_slug
-         LIMIT ?`,
-        [input.limit],
-      );
+
+      const pages = await context.db
+        .select({
+          personSlug: schema.personPages.personSlug,
+          contentMarkdown: schema.personPages.contentMarkdown,
+        })
+        .from(schema.personPages)
+        .where(
+          and(
+            isNotNull(schema.personPages.contentMarkdown),
+            sql`length(${schema.personPages.contentMarkdown}) > 100`,
+          ),
+        )
+        .orderBy(asc(schema.personPages.personSlug))
+        .limit(input.limit)
+        .all();
+
       const targets = input.skipExisting
-        ? pages.filter((entry) => !existing.has(entry.person_slug))
+        ? pages.filter((entry) => !existing.has(entry.personSlug))
         : pages;
 
       const rows = await mapConcurrent(targets, input.concurrency, async (entry) => {
         try {
-          const result = await vectorizePersonEmbedding(context, entry.person_slug);
-          return { personSlug: entry.person_slug, ok: result.vectorized, ...result };
+          const result = await vectorizePersonEmbedding(context, entry.personSlug);
+          return { personSlug: entry.personSlug, ok: result.vectorized, ...result };
         } catch (error) {
           return {
-            personSlug: entry.person_slug,
+            personSlug: entry.personSlug,
             ok: false,
             vectorized: false,
             reason: error instanceof Error ? error.message : 'Vectorize failed.',
@@ -910,30 +949,38 @@ Rules:
     scope: 'pipeline',
     description: 'Get similar people based on local management vectors.',
     inputSchema: getSimilarPeopleInputSchema,
-    handler: ({ siteDb }, input) => {
-      ensureVectorTable(siteDb);
-      const target = siteDb.get<{ embedding_json: string }>(
-        'SELECT embedding_json FROM site_management_vectors WHERE person_slug = ?',
-        [input.personSlug],
-      );
+    handler: async ({ db }, input) => {
+      const target = await db
+        .select({ embeddingJson: schema.siteManagementVectors.embeddingJson })
+        .from(schema.siteManagementVectors)
+        .where(eq(schema.siteManagementVectors.personSlug, input.personSlug))
+        .get();
+
       if (!target) {
         throw new NotFoundError(
           `No vector found for "${input.personSlug}". Run pipeline.vectorizePerson first.`,
         );
       }
-      const targetVector = JSON.parse(target.embedding_json) as number[];
-      const candidates = siteDb.all<{ person_slug: string; embedding_json: string }>(
-        'SELECT person_slug, embedding_json FROM site_management_vectors WHERE person_slug != ?',
-        [input.personSlug],
-      );
+      const targetVector = JSON.parse(target.embeddingJson) as number[];
+
+      const candidates = await db
+        .select({
+          personSlug: schema.siteManagementVectors.personSlug,
+          embeddingJson: schema.siteManagementVectors.embeddingJson,
+        })
+        .from(schema.siteManagementVectors)
+        .where(ne(schema.siteManagementVectors.personSlug, input.personSlug))
+        .all();
+
       const rows = candidates
         .map((entry) => ({
-          personSlug: entry.person_slug,
-          score: cosineSimilarity(targetVector, JSON.parse(entry.embedding_json) as number[]),
+          personSlug: entry.personSlug,
+          score: cosineSimilarity(targetVector, JSON.parse(entry.embeddingJson) as number[]),
         }))
         .filter((entry) => entry.score >= input.minScore)
         .sort((a, b) => b.score - a.score)
         .slice(0, input.limit);
+
       return {
         personSlug: input.personSlug,
         similar: rows,
@@ -945,16 +992,19 @@ Rules:
     scope: 'pipeline',
     description: 'Generate 2D cluster projection for vectorized people.',
     inputSchema: getGalaxyDataInputSchema,
-    handler: ({ siteDb }, input) => {
-      ensureVectorTable(siteDb);
-      const vectors = siteDb
-        .all<{ person_slug: string; embedding_json: string }>(
-          'SELECT person_slug, embedding_json FROM site_management_vectors ORDER BY person_slug',
-        )
+    handler: async ({ db }, input) => {
+      const vectors = (await db
+        .select({
+          personSlug: schema.siteManagementVectors.personSlug,
+          embeddingJson: schema.siteManagementVectors.embeddingJson,
+        })
+        .from(schema.siteManagementVectors)
+        .orderBy(asc(schema.siteManagementVectors.personSlug))
+        .all())
         .slice(0, input.maxPoints)
         .map((entry) => ({
-          personSlug: entry.person_slug,
-          values: JSON.parse(entry.embedding_json) as number[],
+          personSlug: entry.personSlug,
+          values: JSON.parse(entry.embeddingJson) as number[],
         }))
         .filter((entry) => entry.values.length > 0);
 
@@ -981,12 +1031,18 @@ Rules:
       }));
 
       const itemsByPerson = new Map<string, string[]>();
-      const itemRows = siteDb.all<{ person_slug: string; item: string }>(
-        'SELECT person_slug, item FROM person_items ORDER BY person_slug, item',
-      );
+      const itemRows = await db
+        .select({
+          personSlug: schema.personItems.personSlug,
+          item: schema.personItems.item,
+        })
+        .from(schema.personItems)
+        .orderBy(asc(schema.personItems.personSlug), asc(schema.personItems.item))
+        .all();
+
       for (const row of itemRows) {
-        if (!itemsByPerson.has(row.person_slug)) itemsByPerson.set(row.person_slug, []);
-        itemsByPerson.get(row.person_slug)!.push(row.item);
+        if (!itemsByPerson.has(row.personSlug)) itemsByPerson.set(row.personSlug, []);
+        itemsByPerson.get(row.personSlug)!.push(row.item);
       }
 
       const clusterMembers = new Map<number, string[]>();
@@ -1008,19 +1064,11 @@ Rules:
             .slice(0, 8)
             .map(([item]) => item);
           const label = topItems.slice(0, 3).join(', ') || `Cluster ${id + 1}`;
-          return {
-            id,
-            label,
-            topItems,
-            count: members.length,
-          };
+          return { id, label, topItems, count: members.length };
         })
         .sort((a, b) => b.count - a.count);
 
-      return {
-        points,
-        clusters,
-      };
+      return { points, clusters };
     },
   }),
 ];

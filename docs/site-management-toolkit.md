@@ -12,7 +12,7 @@ All surfaces call the same tool registry in `src/site-management`.
 
 - `people.*`
 - `profileTags.*`
-- `categories.*`
+- `tags.*`
 - `personItems.*`
 - `items.*`
 - `pipeline.*` (scrape/extract/reclassify/vectorize/similarity)
@@ -105,7 +105,7 @@ curl -s -X POST http://127.0.0.1:7535/mcp \
 - scrape single/batch
 - re-scrape + extract single
 - extract batch
-- discover/review/reclassify categories
+- discover/review/reclassify tags
 - vectorize single/batch
 - similarity and galaxy data
 

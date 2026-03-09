@@ -1,8 +1,21 @@
 import type { DashboardPayload, DashboardRow } from '../server/fn/profiles';
 import type { ItemsDashboardRow } from '../server/fn/items';
 import type { ReclassifyPreviewPayload } from '../server/fn/tags';
-import type { DiscoverCategoriesResult } from '../server/fn/admin';
-import type { ExtractionReviewData } from '../server/db/index.server';
+import type { DiscoverTagsResult } from '../server/fn/admin';
+/** Pipeline extraction review response (tag-based structure) */
+export type ExtractionReviewData = {
+  totalRows: number;
+  totalTags: number;
+  tags: Array<{
+    tag: string;
+    uniqueItems: number;
+    totalPeople: number;
+    topItems: Array<{ item: string; count: number }>;
+  }>;
+  multiTagItems: Array<{ item: string; tags: string[] }>;
+  tinyTags: Array<{ tag: string; items: string[] }>;
+  bannedLeaks: Array<{ tag: string; uniqueItems: number }>;
+};
 import type { BatchExtractResult, BatchVectorizeResult } from '../server/fn/vectorize';
 
 type ToolCallEnvelope<T> =
@@ -103,16 +116,16 @@ export async function apiGetErrorPeople(): Promise<
   return callSiteTool('pipeline.getScrapeErrors', { limit: 500 });
 }
 
-export async function apiGetCategories(): Promise<string[]> {
+export async function apiGetTags(): Promise<string[]> {
   const payload = await callSiteTool<{
     total: number;
-    rows: Array<{ category: string }>;
-  }>('categories.list', {});
-  return payload.rows.map((entry) => entry.category);
+    rows: Array<{ tag: string }>;
+  }>('tags.list', {});
+  return payload.rows.map((entry) => entry.tag);
 }
 
 export async function apiPreviewTagReclassify(input: {
-  category: string;
+  tag: string;
   minUsers: number;
   limit: number;
   prompt?: string;
@@ -121,8 +134,8 @@ export async function apiPreviewTagReclassify(input: {
 }
 
 export async function apiApplyTagReclassify(input: {
-  category: string;
-  assignments: Array<{ item: string; categories: string[] }>;
+  tag: string;
+  assignments: Array<{ item: string; tags: string[] }>;
 }): Promise<{ updatedRows: number; updatedItems: number }> {
   return callSiteTool('pipeline.applyReclassification', input);
 }
@@ -131,8 +144,8 @@ export async function apiGetExtractionReview(): Promise<ExtractionReviewData> {
   return callSiteTool('pipeline.reviewExtraction');
 }
 
-export async function apiDiscoverCategories(sampleSize: number): Promise<DiscoverCategoriesResult> {
-  return callSiteTool('pipeline.discoverCategories', { sampleSize });
+export async function apiDiscoverTags(sampleSize: number): Promise<DiscoverTagsResult> {
+  return callSiteTool('pipeline.discoverTags', { sampleSize });
 }
 
 export async function apiGetItemsDashboard(): Promise<ItemsDashboardRow[]> {

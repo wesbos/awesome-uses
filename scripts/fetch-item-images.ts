@@ -12,7 +12,7 @@ const ITEMS_PATH = join(__dirname, '..', 'src', 'generated', 'items.ts');
 type SvglEntry = {
   id: number;
   title: string;
-  category: string | string[];
+  tag: string | string[];
   route: string | { light: string; dark: string };
   url: string;
 };

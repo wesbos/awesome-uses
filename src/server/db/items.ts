@@ -400,87 +400,87 @@ export async function findDuplicateItems(): Promise<DuplicateGroup[]> {
 
 export type ExtractionReviewData = {
   totalRows: number;
-  totalCategories: number;
-  categories: Array<{
-    category: string;
+  totalTags: number;
+  tags: Array<{
+    tag: string;
     uniqueItems: number;
     totalPeople: number;
     topItems: Array<{ item: string; count: number }>;
   }>;
-  multiCategoryItems: Array<{ item: string; categories: string[] }>;
-  tinyCategories: Array<{ category: string; items: string[] }>;
-  bannedLeaks: Array<{ category: string; uniqueItems: number }>;
+  multiTagItems: Array<{ item: string; tags: string[] }>;
+  tinyTags: Array<{ tag: string; items: string[] }>;
+  bannedLeaks: Array<{ tag: string; uniqueItems: number }>;
 };
 
 export async function getExtractionReviewData(
-  bannedCategories: string[],
+  bannedTags: string[],
 ): Promise<ExtractionReviewData> {
   const rows = await getAllExtractedRows();
 
   if (rows.length === 0) {
-    return { totalRows: 0, totalCategories: 0, categories: [], multiCategoryItems: [], tinyCategories: [], bannedLeaks: [] };
+    return { totalRows: 0, totalTags: 0, tags: [], multiTagItems: [], tinyTags: [], bannedLeaks: [] };
   }
 
-  const categoryItems = new Map<string, Map<string, Set<string>>>();
-  const itemCategories = new Map<string, Set<string>>();
+  const tagItems = new Map<string, Map<string, Set<string>>>();
+  const itemTags = new Map<string, Set<string>>();
 
   for (const row of rows) {
     const item = row.item.trim();
     if (!item) continue;
 
-    let categories: string[];
+    let tags: string[];
     try {
-      categories = JSON.parse(row.tags_json);
+      tags = JSON.parse(row.tags_json);
     } catch {
-      categories = ['unknown'];
+      tags = ['unknown'];
     }
 
-    for (const cat of categories) {
-      if (!categoryItems.has(cat)) categoryItems.set(cat, new Map());
-      const items = categoryItems.get(cat)!;
+    for (const cat of tags) {
+      if (!tagItems.has(cat)) tagItems.set(cat, new Map());
+      const items = tagItems.get(cat)!;
       if (!items.has(item)) items.set(item, new Set());
       items.get(item)!.add(row.person_slug);
 
-      if (!itemCategories.has(item)) itemCategories.set(item, new Set());
-      itemCategories.get(item)!.add(cat);
+      if (!itemTags.has(item)) itemTags.set(item, new Set());
+      itemTags.get(item)!.add(cat);
     }
   }
 
-  const sortedCategories = [...categoryItems.entries()]
+  const sortedTags = [...tagItems.entries()]
     .map(([cat, items]) => {
       const totalPeople = new Set([...items.values()].flatMap((v) => [...v])).size;
       const topItems = [...items.entries()]
         .sort((a, b) => b[1].size - a[1].size)
         .slice(0, 15)
         .map(([item, people]) => ({ item, count: people.size }));
-      return { category: cat, uniqueItems: items.size, totalPeople, topItems };
+      return { tag: cat, uniqueItems: items.size, totalPeople, topItems };
     })
     .sort((a, b) => b.uniqueItems - a.uniqueItems);
 
-  const multiCategoryItems = [...itemCategories.entries()]
+  const multiTagItems = [...itemTags.entries()]
     .filter(([, cats]) => cats.size > 2)
     .sort((a, b) => b[1].size - a[1].size)
     .slice(0, 30)
-    .map(([item, cats]) => ({ item, categories: [...cats].sort() }));
+    .map(([item, cats]) => ({ item, tags: [...cats].sort() }));
 
-  const bannedSet = new Set(bannedCategories.map((b) => b.toLowerCase()));
-  const tinyCategories = sortedCategories
+  const bannedSet = new Set(bannedTags.map((b) => b.toLowerCase()));
+  const tinyTags = sortedTags
     .filter((c) => c.uniqueItems <= 2)
     .map((c) => ({
-      category: c.category,
-      items: [...categoryItems.get(c.category)!.keys()],
+      tag: c.tag,
+      items: [...tagItems.get(c.tag)!.keys()],
     }));
 
-  const bannedLeaks = sortedCategories
-    .filter((c) => bannedSet.has(c.category.toLowerCase()))
-    .map((c) => ({ category: c.category, uniqueItems: c.uniqueItems }));
+  const bannedLeaks = sortedTags
+    .filter((c) => bannedSet.has(c.tag.toLowerCase()))
+    .map((c) => ({ tag: c.tag, uniqueItems: c.uniqueItems }));
 
   return {
     totalRows: rows.length,
-    totalCategories: sortedCategories.length,
-    categories: sortedCategories,
-    multiCategoryItems,
-    tinyCategories,
+    totalTags: sortedTags.length,
+    tags: sortedTags,
+    multiTagItems,
+    tinyTags,
     bannedLeaks,
   };
 }

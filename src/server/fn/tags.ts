@@ -73,7 +73,7 @@ export const $getTagDetail = createServerFn({ method: 'GET' })
   });
 
 type ReclassifyPreviewInput = {
-  category: string;
+  tag: string;
   minUsers: number;
   limit: number;
   prompt?: string;
@@ -91,12 +91,12 @@ export const $previewTagReclassify = createServerFn({ method: 'POST' })
   });
 
 type ApplyReclassifyInput = {
-  category: string;
+  tag: string;
   assignments: ReclassifyAssignment[];
 };
 
 export const $applyTagReclassify = createServerFn({ method: 'POST' })
   .inputValidator((input: ApplyReclassifyInput) => input)
   .handler(async ({ data }) => {
-    return applyTagReclassification(data.category, data.assignments);
+    return applyTagReclassification(data.tag, data.assignments);
   });
