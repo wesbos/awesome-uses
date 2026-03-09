@@ -1,6 +1,8 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import { memo, useEffect, useMemo, useRef, useState } from 'react';
-import { $getItemsDashboard, $enrichItems, type ItemsDashboardRow } from '../../server/fn/items';
+import type { ItemsDashboardRow } from '../../server/fn/items';
+import { apiEnrichItems, apiGetItemsDashboard } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -87,8 +89,12 @@ const ItemRow = memo(function ItemRow({
 });
 
 function ItemsPage() {
-  const [items, setItems] = useState<ItemsDashboardRow[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { data: queryItems = [], isLoading } = useQuery<ItemsDashboardRow[]>({
+    queryKey: ['site-tools', 'items.list'],
+    queryFn: apiGetItemsDashboard,
+    enabled: typeof window !== 'undefined',
+  });
+  const [items, setItems] = useState<ItemsDashboardRow[]>(queryItems);
   const [search, setSearch] = useState('');
   const { selected, setSelected, handleRowClick, toggleAll, allSelected, clearSelection } = useShiftSelect<ItemsDashboardRow>((r) => r.item);
   const [enriching, setEnriching] = useState(false);
@@ -97,19 +103,15 @@ function ItemsPage() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
+  const enrichMutation = useMutation({
+    mutationFn: apiEnrichItems,
+  });
+
   useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const result = await $getItemsDashboard();
-        if (!cancelled) setItems(result);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
+    if (queryItems.length > 0) {
+      setItems(queryItems);
     }
-    void load();
-    return () => { cancelled = true; };
-  }, []);
+  }, [queryItems]);
 
   const query = search.toLowerCase();
   const filtered = useMemo(() => {
@@ -170,7 +172,7 @@ function ItemsPage() {
         const idx = nextBatch++;
         const batch = batches[idx];
         try {
-          const results = await $enrichItems({ data: { items: batch } });
+          const results = await enrichMutation.mutateAsync(batch);
 
           setItems((prev) =>
             prev.map((existing) => {
@@ -201,7 +203,7 @@ function ItemsPage() {
     clearSelection();
   }
 
-  if (loading) return <p className="text-muted-foreground">Loading items...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading items...</p>;
 
   const enrichedCount = items.filter((i) => i.enrichedAt).length;
 

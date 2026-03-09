@@ -10,6 +10,7 @@
  */
 
 import { execFile } from 'node:child_process';
+import { unlink, writeFile } from 'node:fs/promises';
 import { promisify } from 'node:util';
 import { setTimeout as delay } from 'node:timers/promises';
 
@@ -105,7 +106,6 @@ async function upsertVectors(
     .join('\n');
 
   const tmpFile = `/tmp/vectorize-${Date.now()}.ndjson`;
-  const { writeFile, unlink } = await import('node:fs/promises');
   await writeFile(tmpFile, ndjson, 'utf-8');
 
   try {

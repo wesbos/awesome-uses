@@ -14,6 +14,7 @@ const ADMIN_NAV = [
   { href: '/admin/batch', label: 'Batch Ops' },
   { href: '/admin/review', label: 'Review' },
   { href: '/admin/errors', label: 'Errors' },
+  { href: '/admin/tools', label: 'Tooling Docs' },
 ];
 
 function AdminLayout() {

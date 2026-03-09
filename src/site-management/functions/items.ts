@@ -1,10 +1,12 @@
 import { z } from 'zod';
+import { zodResponseFormat } from 'openai/helpers/zod';
 import { slugify } from '../../lib/slug';
 import { defineTool } from '../registry';
 import type { ToolDefinition } from '../types';
 import { maybeArraySchema, nonEmptyStringSchema, optionalTrimmedStringSchema } from '../schemas';
 import { NotFoundError } from '../errors';
 import { parseTagsJson, uniqueSorted } from './utils';
+import { createOpenAIClient } from '../../server/extract';
 
 type ItemTableRow = {
   item_slug: string;
@@ -63,6 +65,33 @@ const findDuplicatesInputSchema = z.object({
 const mergeItemsInputSchema = z.object({
   canonicalItem: nonEmptyStringSchema,
   sourceItems: z.array(nonEmptyStringSchema).min(1),
+});
+
+const enrichItemsInputSchema = z.object({
+  items: z
+    .array(
+      z.object({
+        item: nonEmptyStringSchema,
+        tags: z.array(nonEmptyStringSchema).default([]),
+      }),
+    )
+    .min(1),
+});
+
+const EnrichedItemSchema = z.object({
+  item: z.string(),
+  itemType: z.enum(['product', 'service', 'software', 'other']),
+  description: z
+    .string()
+    .describe('A short 1-sentence description of what this item is'),
+  itemUrl: z
+    .string()
+    .nullable()
+    .describe('The canonical URL where this item can be found. Use null if unsure.'),
+});
+
+const EnrichmentResultSchema = z.object({
+  items: z.array(EnrichedItemSchema),
 });
 
 function mapItemRow(row: ItemTableRow) {
@@ -425,6 +454,125 @@ export const itemTools: ToolDefinition[] = [
         upsertedRows,
         deletedRows,
       };
+    },
+  }),
+  defineTool({
+    name: 'items.enrichBatch',
+    scope: 'items',
+    description: 'Use AI to enrich item metadata in batch.',
+    inputSchema: enrichItemsInputSchema,
+    handler: async ({ siteDb }, input) => {
+      let client: ReturnType<typeof createOpenAIClient>;
+      try {
+        client = createOpenAIClient();
+      } catch {
+        return input.items.map((entry) => ({
+          item: entry.item,
+          itemType: null,
+          description: null,
+          itemUrl: null,
+          error: 'OPENAI_API_KEY not configured',
+        }));
+      }
+
+      const itemList = input.items
+        .map((entry) => `- ${entry.item} (tags: ${entry.tags.join(', ')})`)
+        .join('\n');
+
+      try {
+        const completion = await client.chat.completions.parse({
+          model: 'gpt-5-mini',
+          messages: [
+            {
+              role: 'system',
+              content: `You classify and describe developer tools, products, and services.
+
+For each item, provide:
+- itemType: "product" (physical purchasable item), "service" (paid online service), "software" (app, tool, or open source), or "other"
+- description: A concise 1-sentence description
+- itemUrl: The official/canonical URL. Use null if you're not confident about the URL.
+
+Do NOT hallucinate URLs. Only provide URLs you are confident are correct.`,
+            },
+            {
+              role: 'user',
+              content: `Classify and describe these items:\n${itemList}`,
+            },
+          ],
+          response_format: zodResponseFormat(EnrichmentResultSchema, 'enrichment'),
+        });
+
+        const parsed = completion.choices[0]?.message?.parsed;
+        if (!parsed) {
+          return input.items.map((entry) => ({
+            item: entry.item,
+            itemType: null,
+            description: null,
+            itemUrl: null,
+            error: 'Failed to parse response',
+          }));
+        }
+
+        const resultMap = new Map(parsed.items.map((entry) => [entry.item, entry]));
+        const results: Array<{
+          item: string;
+          itemType: string | null;
+          description: string | null;
+          itemUrl: string | null;
+          error?: string;
+        }> = [];
+
+        for (const entry of input.items) {
+          const enriched = resultMap.get(entry.item);
+          const itemSlug = slugify(entry.item) || 'item';
+
+          if (!enriched) {
+            results.push({
+              item: entry.item,
+              itemType: null,
+              description: null,
+              itemUrl: null,
+              error: 'Item not in response',
+            });
+            continue;
+          }
+
+          siteDb.run(
+            `INSERT INTO items (item_slug, item_name, item_type, description, item_url, enriched_at)
+             VALUES (?, ?, ?, ?, ?, ?)
+             ON CONFLICT(item_slug) DO UPDATE SET
+               item_name=excluded.item_name,
+               item_type=excluded.item_type,
+               description=excluded.description,
+               item_url=excluded.item_url,
+               enriched_at=excluded.enriched_at`,
+            [
+              itemSlug,
+              entry.item,
+              enriched.itemType,
+              enriched.description,
+              enriched.itemUrl,
+              new Date().toISOString(),
+            ],
+          );
+          results.push({
+            item: entry.item,
+            itemType: enriched.itemType,
+            description: enriched.description,
+            itemUrl: enriched.itemUrl,
+          });
+        }
+
+        return results;
+      } catch (error) {
+        return input.items.map((entry) => ({
+          item: entry.item,
+          itemType: null,
+          description: null,
+          itemUrl: null,
+          error: error instanceof Error ? error.message : 'Enrichment failed',
+        }));
+      }
     },
   }),
 ];

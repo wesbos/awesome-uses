@@ -1,5 +1,15 @@
 import { createServerFn } from '@tanstack/react-start';
-import type { ScrapeHistoryStats, ScrapeEventRow, PersonScrapeHistoryRow } from '../db/index.server';
+import type OpenAI from 'openai';
+import {
+  getExtractedCategories,
+  getPersonScrapeHistory,
+  getRandomScrapedPages,
+  getRecentScrapeEvents,
+  getScrapeHistoryStats,
+  type ScrapeHistoryStats,
+  type ScrapeEventRow,
+  type PersonScrapeHistoryRow,
+} from '../db/index.server';
 import { getAnalyticsDashboardData, writeViewEvent, type ViewEntityType } from '../analytics';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
 import { mapConcurrent, BATCH_CONCURRENCY } from './helpers';
@@ -27,13 +37,6 @@ export type AdminDashboardData = {
 
 export const $getAdminDashboardData = createServerFn({ method: 'GET' }).handler(
   async (): Promise<AdminDashboardData> => {
-    const {
-      getScrapeHistoryStats,
-      getRecentScrapeEvents,
-      getPersonScrapeHistory,
-      getExtractedCategories,
-    } = await import('../db/index.server');
-
     const [scrapeStats, recentScrapeEvents, personScrapeHistory, analytics, categories] =
       await Promise.all([
         getScrapeHistoryStats().catch(() => ({
@@ -84,14 +87,13 @@ export type DiscoverCategoriesResult = {
 export const $discoverCategories = createServerFn({ method: 'POST' })
   .inputValidator((input: DiscoverCategoriesInput) => input)
   .handler(async ({ data }): Promise<DiscoverCategoriesResult> => {
-    const { getRandomScrapedPages } = await import('../db/index.server');
     const pages = await getRandomScrapedPages(data.sampleSize);
 
     if (pages.length === 0) {
       return { sampledPages: 0, totalItems: 0, topCategories: [], topItems: [], errors: 0 };
     }
 
-    let client: InstanceType<typeof import('openai').default>;
+    let client: OpenAI;
     try {
       client = createOpenAIClient();
     } catch {

@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
-import { useEffect, useState } from 'react';
-import { $getErrorPeople } from '../../server/fn/profiles';
+import { useQuery } from '@tanstack/react-query';
+import { apiGetErrorPeople } from '../../lib/site-management-api';
 import { Badge } from '@/components/ui/badge';
 import {
   Table,
@@ -38,24 +38,13 @@ function timeAgo(dateStr: string): string {
 }
 
 function ErrorsPage() {
-  const [people, setPeople] = useState<ErrorPerson[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { data: people = [], isLoading } = useQuery<ErrorPerson[]>({
+    queryKey: ['site-tools', 'pipeline.getScrapeErrors'],
+    queryFn: apiGetErrorPeople,
+    enabled: typeof window !== 'undefined',
+  });
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const result = await $getErrorPeople();
-        if (!cancelled) setPeople(result);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => { cancelled = true; };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading...</p>;
 
   return (
     <div className="space-y-4">

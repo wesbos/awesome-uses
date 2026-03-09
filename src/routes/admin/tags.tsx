@@ -1,8 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { Check, ChevronsUpDown } from 'lucide-react';
-import { $previewTagReclassify, $applyTagReclassify, type ReclassifyPreviewPayload } from '../../server/fn/tags';
-import { $getAdminDashboardData } from '../../server/fn/admin';
+import type { ReclassifyPreviewPayload } from '../../server/fn/tags';
+import {
+  apiApplyTagReclassify,
+  apiGetCategories,
+  apiPreviewTagReclassify,
+} from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -15,24 +20,13 @@ export const Route = createFileRoute('/admin/tags')({
 });
 
 function TagsPage() {
-  const [categories, setCategories] = useState<string[]>([]);
-  const [loading, setLoading] = useState(true);
+  const { data: categories = [], isLoading } = useQuery({
+    queryKey: ['site-tools', 'categories.list'],
+    queryFn: apiGetCategories,
+    enabled: typeof window !== 'undefined',
+  });
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const data = await $getAdminDashboardData();
-        if (!cancelled) setCategories(data.categories);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => { cancelled = true; };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading categories...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading categories...</p>;
 
   return (
     <div className="space-y-4">
@@ -49,28 +43,34 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
   const [limit, setLimit] = useState(80);
   const [prompt, setPrompt] = useState('');
   const [preview, setPreview] = useState<ReclassifyPreviewPayload | null>(null);
-  const [previewing, setPreviewing] = useState(false);
-  const [applying, setApplying] = useState(false);
+  const previewMutation = useMutation({
+    mutationFn: apiPreviewTagReclassify,
+  });
+  const applyMutation = useMutation({
+    mutationFn: apiApplyTagReclassify,
+  });
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
+
+  useEffect(() => {
+    if (!categories.length) return;
+    if (!categories.includes(category)) {
+      setCategory(categories[0]);
+    }
+  }, [categories, category]);
 
   async function runPreview() {
     setMessage(null);
-    setPreviewing(true);
     setPreview(null);
     try {
-      const result = await $previewTagReclassify({
-        data: {
-          category,
-          minUsers,
-          limit,
-          prompt: prompt || undefined,
-        },
+      const result = await previewMutation.mutateAsync({
+        category,
+        minUsers,
+        limit,
+        prompt: prompt || undefined,
       });
       setPreview(result);
     } catch (error) {
       setMessage({ ok: false, text: error instanceof Error ? error.message : 'Failed to preview reclassification.' });
-    } finally {
-      setPreviewing(false);
     }
   }
 
@@ -80,11 +80,11 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
       item: item.item,
       categories: item.categories,
     }));
-    setApplying(true);
     setMessage(null);
     try {
-      const result = await $applyTagReclassify({
-        data: { category: preview.category, assignments },
+      const result = await applyMutation.mutateAsync({
+        category: preview.category,
+        assignments,
       });
       setMessage({
         ok: true,
@@ -92,8 +92,6 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
       });
     } catch (error) {
       setMessage({ ok: false, text: error instanceof Error ? error.message : 'Failed to apply reclassification.' });
-    } finally {
-      setApplying(false);
     }
   }
 
@@ -121,8 +119,8 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
             onChange={(e) => setLimit(Number(e.target.value) || 1)}
             placeholder="Item limit"
           />
-          <Button onClick={runPreview} disabled={previewing}>
-            {previewing ? 'Previewing...' : 'Preview'}
+          <Button onClick={runPreview} disabled={previewMutation.isPending}>
+            {previewMutation.isPending ? 'Previewing...' : 'Preview'}
           </Button>
         </div>
         <textarea
@@ -151,8 +149,8 @@ function ReclassifyCard({ categories }: { categories: string[] }) {
                 </div>
               ))}
             </div>
-            <Button onClick={apply} disabled={applying}>
-              {applying ? 'Applying...' : 'Apply reclassification'}
+            <Button onClick={apply} disabled={applyMutation.isPending}>
+              {applyMutation.isPending ? 'Applying...' : 'Apply reclassification'}
             </Button>
           </div>
         )}

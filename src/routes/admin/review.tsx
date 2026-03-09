@@ -1,7 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
-import { $getExtractionReview, type ExtractionReviewData } from '../../server/fn/items';
-import { $discoverCategories, type DiscoverCategoriesResult } from '../../server/fn/admin';
+import type { ExtractionReviewData } from '../../server/fn/items';
+import type { DiscoverCategoriesResult } from '../../server/fn/admin';
+import { apiDiscoverCategories, apiGetExtractionReview } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -28,20 +30,13 @@ function ReviewPage() {
 }
 
 function ExtractionReviewCard() {
-  const [data, setData] = useState<ExtractionReviewData | null>(null);
-  const [loading, setLoading] = useState(false);
-
-  async function load() {
-    setLoading(true);
-    try {
-      const res = await $getExtractionReview();
-      setData(res);
-    } catch {
-      setData(null);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [enabled, setEnabled] = useState(false);
+  const { data, isFetching, refetch } = useQuery<ExtractionReviewData | null>({
+    queryKey: ['site-tools', 'pipeline.reviewExtraction'],
+    queryFn: apiGetExtractionReview,
+    enabled,
+    retry: false,
+  });
 
   return (
     <Card>
@@ -50,8 +45,15 @@ function ExtractionReviewCard() {
         <p className="text-xs text-muted-foreground">
           Quality report on extracted items: category breakdown, duplicates, and issues.
         </p>
-        <Button onClick={load} disabled={loading} size="sm">
-          {loading ? 'Loading...' : data ? 'Refresh' : 'Load Review'}
+        <Button
+          onClick={async () => {
+            if (!enabled) setEnabled(true);
+            await refetch();
+          }}
+          disabled={isFetching}
+          size="sm"
+        >
+          {isFetching ? 'Loading...' : data ? 'Refresh' : 'Load Review'}
         </Button>
         {data && (
           <div className="text-xs space-y-4">
@@ -137,19 +139,18 @@ function ExtractionReviewCard() {
 
 function DiscoverCategoriesCard() {
   const [sampleSize, setSampleSize] = useState(30);
-  const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<DiscoverCategoriesResult | null>(null);
+  const discoverMutation = useMutation({
+    mutationFn: (value: number) => apiDiscoverCategories(value),
+  });
 
   async function run() {
-    setBusy(true);
     setResult(null);
     try {
-      const res = await $discoverCategories({ data: { sampleSize } });
+      const res = await discoverMutation.mutateAsync(sampleSize);
       setResult(res);
     } catch {
       setResult(null);
-    } finally {
-      setBusy(false);
     }
   }
 
@@ -170,8 +171,8 @@ function DiscoverCategoriesCard() {
             className="w-24"
           />
           <span className="text-xs text-muted-foreground">pages</span>
-          <Button onClick={run} disabled={busy} size="sm">
-            {busy ? 'Discovering...' : 'Run'}
+          <Button onClick={run} disabled={discoverMutation.isPending} size="sm">
+            {discoverMutation.isPending ? 'Discovering...' : 'Run'}
           </Button>
         </div>
         {result && (

@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useMutation } from '@tanstack/react-query';
 import { useState } from 'react';
-import { $searchItems, $mergeItems } from '../../server/fn/items';
+import { apiMergeItems, apiSearchItems } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -20,13 +21,19 @@ function MergePage() {
   const [sourceItems, setSourceItems] = useState<string[]>([]);
   const [mergeBusy, setMergeBusy] = useState(false);
   const [mergeResult, setMergeResult] = useState<{ ok: boolean; message: string } | null>(null);
+  const searchMutation = useMutation({
+    mutationFn: apiSearchItems,
+  });
+  const mergeMutation = useMutation({
+    mutationFn: apiMergeItems,
+  });
 
   async function runItemSearch() {
     setSearchingItems(true);
     setSearchError(null);
     setItemSearchResults([]);
     try {
-      const results = await $searchItems({ data: itemSearchQuery });
+      const results = await searchMutation.mutateAsync(itemSearchQuery);
       if (!Array.isArray(results)) {
         throw new Error(`Unexpected response from server: ${JSON.stringify(results)}`);
       }
@@ -47,8 +54,9 @@ function MergePage() {
     setMergeBusy(true);
     setMergeResult(null);
     try {
-      const result = await $mergeItems({
-        data: { canonicalItem, sourceItems },
+      const result = await mergeMutation.mutateAsync({
+        canonicalItem,
+        sourceItems,
       });
       setMergeResult({
         ok: true,

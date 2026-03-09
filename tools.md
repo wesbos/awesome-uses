@@ -5,8 +5,8 @@
 The canonical operations surface is now `src/site-management`, available through:
 
 - CLI: `pnpm site:tools:list`, `pnpm site:tools:call <tool> --input '{...}'`
-- MCP: `pnpm site:tools:mcp`
-- REST API: `pnpm site:tools:api`
+- MCP route: `POST /mcp`
+- REST API route: `GET/POST /api/site-management`
 
 Full usage guide:
 

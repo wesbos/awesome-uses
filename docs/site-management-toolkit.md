@@ -3,8 +3,8 @@
 Unified management operations for the site are exposed through three surfaces:
 
 1. **CLI** (agent-friendly JSON)
-2. **MCP server** (tool calling)
-3. **REST API** (HTTP)
+2. **MCP route in app** (tool calling)
+3. **REST route in app** (HTTP)
 
 All surfaces call the same tool registry in `src/site-management`.
 
@@ -58,52 +58,43 @@ Example `merge-input.json`:
 }
 ```
 
-## MCP server
+## REST API route
 
-Run as a stdio MCP server:
+The REST API is served by the TanStack Start app route:
 
-```bash
-pnpm site:tools:mcp
-```
-
-The server exposes all registry tools directly to MCP clients.
-
-## REST API
-
-Start the API server (default `127.0.0.1:8788`):
-
-```bash
-pnpm site:tools:api
-```
-
-Custom port:
-
-```bash
-pnpm site:tools:api --port 8789
-```
+- `GET /api/site-management` (tool metadata)
+- `POST /api/site-management` (tool execution)
 
 ### Endpoints
 
-- `GET /health`
-- `GET /tools`
-- `POST /tools/:name`
+- `GET /api/site-management`
+- `POST /api/site-management`
 
 ### Example calls
 
 ```bash
-curl -s http://127.0.0.1:8788/tools | jq
+curl -s -X POST http://127.0.0.1:7535/api/site-management \
+  -H 'content-type: application/json' \
+  -d '{"tool":"people.list","input":{"limit":10,"offset":0}}' | jq
 ```
 
-```bash
-curl -s -X POST http://127.0.0.1:8788/tools/people.list \
-  -H 'content-type: application/json' \
-  -d '{"input":{"limit":10,"offset":0}}' | jq
-```
+## MCP route
+
+The MCP server is exposed by the TanStack Start app route:
+
+- `GET /mcp` (metadata)
+- `POST /mcp` (JSON-RPC)
+
+Supported JSON-RPC methods:
+
+- `initialize`
+- `tools/list`
+- `tools/call`
 
 ```bash
-curl -s -X POST http://127.0.0.1:8788/tools/pipeline.scrapePerson \
+curl -s -X POST http://127.0.0.1:7535/mcp \
   -H 'content-type: application/json' \
-  -d '{"input":{"personSlug":"wes-bos","timeoutMs":12000,"retries":1}}' | jq
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"pipeline.scrapePerson","arguments":{"personSlug":"wes-bos","timeoutMs":12000,"retries":1}}}' | jq
 ```
 
 ## Pipeline notes

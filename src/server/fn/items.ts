@@ -1,11 +1,25 @@
 import { createServerFn } from '@tanstack/react-start';
 import { z } from 'zod';
 import { zodResponseFormat } from 'openai/helpers/zod';
+import type OpenAI from 'openai';
 import { getAllPeople } from '../../lib/data';
 import { slugify } from '../../lib/slug';
 import type { AmazonProductSearchResult } from '../amazon';
 import { searchAmazonProducts } from '../amazon';
-import type { DuplicateGroup, ExtractionReviewData } from '../db/index.server';
+import {
+  findDuplicateItems,
+  getAllItemEnrichments,
+  getAllUniqueItems,
+  getExtractionReviewData,
+  getItemDetailByName,
+  getItemDetailBySlug,
+  getItemEnrichment,
+  mergeItemsIntoCanonical,
+  searchItems,
+  upsertItemEnrichment,
+  type DuplicateGroup,
+  type ExtractionReviewData,
+} from '../db/index.server';
 import { createOpenAIClient } from '../extract';
 import { BANNED_CATEGORIES } from '../extract';
 import { mapItemDetailWithFaces, slugToFace, type Face, type BaseItemDetail, type TagItemWithFaces } from './helpers';
@@ -20,7 +34,6 @@ export type ItemDetailWithFaces = BaseItemDetail & {
 export const $getItemDetail = createServerFn({ method: 'GET' })
   .inputValidator((itemSlug: string) => itemSlug)
   .handler(async ({ data: itemSlug }): Promise<ItemDetailWithFaces | null> => {
-    const { getItemDetailBySlug, getItemDetailByName, getItemEnrichment } = await import('../db/index.server');
     const detail =
       (await getItemDetailBySlug(itemSlug)) ||
       (await getItemDetailByName(itemSlug.replaceAll('-', ' ')));
@@ -46,7 +59,6 @@ export const $searchItems = createServerFn({ method: 'GET' })
   .inputValidator((query: string) => query)
   .handler(async ({ data }) => {
     try {
-      const { searchItems } = await import('../db/index.server');
       return await searchItems(data);
     } catch (error) {
       console.error('$searchItems error:', error);
@@ -63,7 +75,6 @@ export const $mergeItems = createServerFn({ method: 'POST' })
   .inputValidator((input: MergeItemsInput) => input)
   .handler(async ({ data }) => {
     try {
-      const { mergeItemsIntoCanonical } = await import('../db/index.server');
       return await mergeItemsIntoCanonical(data.canonicalItem, data.sourceItems);
     } catch (error) {
       console.error('$mergeItems error:', error);
@@ -75,7 +86,6 @@ export { type DuplicateGroup };
 
 export const $findDuplicateItems = createServerFn({ method: 'GET' }).handler(
   async (): Promise<DuplicateGroup[]> => {
-    const { findDuplicateItems } = await import('../db/index.server');
     return findDuplicateItems();
   },
 );
@@ -84,7 +94,6 @@ export { type ExtractionReviewData };
 
 export const $getExtractionReview = createServerFn({ method: 'GET' }).handler(
   async (): Promise<ExtractionReviewData> => {
-    const { getExtractionReviewData } = await import('../db/index.server');
     return getExtractionReviewData(BANNED_CATEGORIES);
   },
 );
@@ -102,7 +111,6 @@ export type ItemsDashboardRow = {
 
 export const $getItemsDashboard = createServerFn({ method: 'GET' }).handler(
   async (): Promise<ItemsDashboardRow[]> => {
-    const { getAllUniqueItems, getAllItemEnrichments } = await import('../db/index.server');
     const [uniqueItems, enrichments] = await Promise.all([
       getAllUniqueItems(),
       getAllItemEnrichments(),
@@ -165,7 +173,6 @@ export type FeaturedItemsByType = {
 
 export const $getFeaturedItems = createServerFn({ method: 'GET' }).handler(
   async (): Promise<FeaturedItemsByType> => {
-    const { getAllUniqueItems, getAllItemEnrichments } = await import('../db/index.server');
     const [uniqueItems, enrichments] = await Promise.all([
       getAllUniqueItems(),
       getAllItemEnrichments(),
@@ -218,7 +225,7 @@ export const $getFeaturedItems = createServerFn({ method: 'GET' }).handler(
 export const $enrichItems = createServerFn({ method: 'POST' })
   .inputValidator((input: EnrichItemsInput) => input)
   .handler(async ({ data }): Promise<EnrichItemResult[]> => {
-    let client: InstanceType<typeof import('openai').default>;
+    let client: OpenAI;
     try {
       client = createOpenAIClient();
     } catch {
@@ -265,7 +272,6 @@ Do NOT hallucinate URLs. Only provide URLs you are confident are correct.`,
       const resultMap = new Map(parsed.items.map((i) => [i.item, i]));
       const results: EnrichItemResult[] = [];
 
-      const { upsertItemEnrichment } = await import('../db/index.server');
       for (const input of data.items) {
         const enriched = resultMap.get(input.item);
         const itemSlug = slugify(input.item) || 'item';

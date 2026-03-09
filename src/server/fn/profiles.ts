@@ -1,6 +1,16 @@
 import { createServerFn } from '@tanstack/react-start';
 import { getPersonBySlug, getAllPeople } from '../../lib/data';
 import type { PersonItem, ScrapedProfileData } from '../../lib/types';
+import {
+  deletePersonItems,
+  getAllScrapeSummaries,
+  getErrorPeople,
+  getPersonItems,
+  getScrapedContent,
+  getScrapedProfileBySlug,
+  insertPersonItems,
+  upsertScrapedProfile,
+} from '../db/index.server';
 import { scrapeUsesPage } from '../scrape';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
 import { vectorizeProfile } from './vectorize';
@@ -13,7 +23,6 @@ type ScrapeResult = {
 export const $getScrapedProfile = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
   .handler(async ({ data: personSlug }): Promise<ScrapeResult> => {
-    const { getScrapedProfileBySlug, upsertScrapedProfile } = await import('../db/index.server');
     const existing = await getScrapedProfileBySlug(personSlug);
     if (existing) {
       return { data: existing, mode: 'existing' };
@@ -49,7 +58,6 @@ export const $getScrapedProfile = createServerFn({ method: 'GET' })
 export const $getPersonItems = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
   .handler(async ({ data: personSlug }): Promise<PersonItem[]> => {
-    const { getPersonItems } = await import('../db/index.server');
     return getPersonItems(personSlug);
   });
 
@@ -73,7 +81,6 @@ export type DashboardPayload = {
 
 export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
   async (): Promise<DashboardPayload> => {
-    const { getAllScrapeSummaries } = await import('../db/index.server');
     const [scrapes, people] = await Promise.all([
       getAllScrapeSummaries(),
       Promise.resolve(getAllPeople()),
@@ -118,13 +125,6 @@ type ReScrapeAndExtractResult = {
 export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
   .inputValidator((input: ReScrapeAndExtractInput) => input)
   .handler(async ({ data }): Promise<ReScrapeAndExtractResult> => {
-    const {
-      getScrapedContent,
-      upsertScrapedProfile,
-      getPersonItems,
-      deletePersonItems,
-      insertPersonItems,
-    } = await import('../db/index.server');
     const person = getPersonBySlug(data.personSlug);
     if (!person) {
       return { personSlug: data.personSlug, scraped: false, contentChanged: false, extracted: false, itemCount: 0, error: 'Person not found' };
@@ -198,7 +198,6 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
 
 export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
   async () => {
-    const { getErrorPeople } = await import('../db/index.server');
     const errorRows = await getErrorPeople();
     const allPeople = getAllPeople();
     const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
@@ -215,7 +214,6 @@ export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
 
 export const $getErrorSlugs = createServerFn({ method: 'GET' }).handler(
   async (): Promise<string[]> => {
-    const { getErrorPeople } = await import('../db/index.server');
     const errorRows = await getErrorPeople();
     return errorRows.map((r) => r.personSlug);
   }
