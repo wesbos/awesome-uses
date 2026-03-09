@@ -11,8 +11,6 @@ describe('site-management CLI', () => {
     const env = {
       ...process.env,
       SITE_REPO_ROOT: fixture.root,
-      SITE_DATA_FILE_PATH: fixture.dataFilePath,
-      SITE_GENERATED_PEOPLE_PATH: fixture.generatedPeoplePath,
       SITE_DB_PATH: fixture.dbPath,
     };
 

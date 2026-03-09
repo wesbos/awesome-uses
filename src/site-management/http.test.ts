@@ -6,8 +6,6 @@ describe('site-management HTTP handlers', () => {
   it('lists tools and executes tools through REST handler', async () => {
     const fixture = await createSiteManagementFixture();
     process.env.SITE_REPO_ROOT = fixture.root;
-    process.env.SITE_DATA_FILE_PATH = fixture.dataFilePath;
-    process.env.SITE_GENERATED_PEOPLE_PATH = fixture.generatedPeoplePath;
     process.env.SITE_DB_PATH = fixture.dbPath;
 
     try {
@@ -35,8 +33,6 @@ describe('site-management HTTP handlers', () => {
       expect(callJson.result.rows.length).toBeGreaterThan(0);
     } finally {
       delete process.env.SITE_REPO_ROOT;
-      delete process.env.SITE_DATA_FILE_PATH;
-      delete process.env.SITE_GENERATED_PEOPLE_PATH;
       delete process.env.SITE_DB_PATH;
       await fixture.cleanup();
     }
@@ -45,8 +41,6 @@ describe('site-management HTTP handlers', () => {
   it('supports initialize and tools/call through MCP HTTP handler', async () => {
     const fixture = await createSiteManagementFixture();
     process.env.SITE_REPO_ROOT = fixture.root;
-    process.env.SITE_DATA_FILE_PATH = fixture.dataFilePath;
-    process.env.SITE_GENERATED_PEOPLE_PATH = fixture.generatedPeoplePath;
     process.env.SITE_DB_PATH = fixture.dbPath;
 
     try {
@@ -88,8 +82,6 @@ describe('site-management HTTP handlers', () => {
       expect(callJson.result.structuredContent.rows.length).toBeGreaterThan(0);
     } finally {
       delete process.env.SITE_REPO_ROOT;
-      delete process.env.SITE_DATA_FILE_PATH;
-      delete process.env.SITE_GENERATED_PEOPLE_PATH;
       delete process.env.SITE_DB_PATH;
       await fixture.cleanup();
     }

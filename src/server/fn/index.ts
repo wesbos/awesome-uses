@@ -7,6 +7,7 @@ export {
   $reScrapeAndExtract,
   $getErrorPeople,
   $getErrorSlugs,
+  $getGitHubStats,
   type DashboardRow,
   type DashboardPayload,
 } from './profiles';

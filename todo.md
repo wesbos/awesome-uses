@@ -19,15 +19,16 @@ filtering by country is def worth doing.
 ## Could we somehow get coding data from github?
 
 Contributions Graph
-Languages used
-Repo Count.
-Followers
-following
-Commit count?
-Oldest commit?
-Date signed up for github?
+Languages used (on repos in the last 4 years, or the most recent 50)
+Repo Count
+Follower Count
+following Count
+Commit count
+Oldest commit or Date signed up for github?
 
 Could we show a MegaCard for "noobs" and "Pros"?
+
+Can we use the github data in context for vectorizing?
 
 ## Data we have
 
@@ -54,3 +55,5 @@ tsx ./scripts/sync-data-json.ts
 2. We can import this json anywhere we need it as an esmodule - use import assertions (import xx from xxx with ....)
 3. The data.js file is currently a cjs file. We can swap this easily to an esm module by changing the module.exports to export default
 ```
+
+Is it possible to somehow evaluate which frameworks or runtimes someone uses? Right now I have TypeScript, but I want to know is that Client side? React? Node? Bun? Hono? Don't write code, just tell me.

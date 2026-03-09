@@ -7,11 +7,12 @@ import * as schema from '../../server/schema';
 import { defineTool } from '../registry';
 import type { ToolDefinition } from '../types';
 import type { SiteManagementContext } from '../context';
-import { nonEmptyStringSchema } from '../schemas';
+import { nonEmptyStringSchema, slugSchema } from '../schemas';
 import { ConfigurationError, NotFoundError } from '../errors';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems, BANNED_TAGS } from '../../server/extract';
 import { scrapeUsesPage, type ScrapePageResult } from '../../server/scrape';
-import { mapConcurrent, normalizeTag, parseTagsJson, uniqueSorted } from './utils';
+import { fetchGitHubStats } from '../../server/github';
+import { getAllPeople, mapConcurrent, normalizeTag, parseTagsJson, uniqueSorted } from './utils';
 import type { SiteDb } from '../stores/site-db';
 
 const EMBEDDING_MODEL = 'text-embedding-3-small';
@@ -148,7 +149,7 @@ async function scrapeOnePerson(
   personSlug: string,
   options: { timeoutMs: number; retries: number },
 ) {
-  const people = await context.peopleStore.listPeopleWithSlugs();
+  const people = getAllPeople();
   const person = people.find((entry) => entry.personSlug === personSlug);
   if (!person) {
     throw new NotFoundError(`Person "${personSlug}" was not found.`);
@@ -415,8 +416,8 @@ export const pipelineTools: ToolDefinition[] = [
     scope: 'pipeline',
     description: 'Get scrape and vectorization status for all people.',
     inputSchema: getScrapeStatusInputSchema,
-    handler: async ({ peopleStore, db }) => {
-      const people = await peopleStore.listPeopleWithSlugs();
+    handler: async ({ db }) => {
+      const people = getAllPeople();
       const scrapes = await db
         .select()
         .from(schema.personPages)
@@ -450,8 +451,8 @@ export const pipelineTools: ToolDefinition[] = [
     scope: 'pipeline',
     description: 'List scraped pages with error status codes.',
     inputSchema: getScrapeErrorsInputSchema,
-    handler: async ({ peopleStore, db }, input) => {
-      const people = await peopleStore.listPeopleWithSlugs();
+    handler: async ({ db }, input) => {
+      const people = getAllPeople();
       const peopleMap = new Map(people.map((entry) => [entry.personSlug, entry]));
 
       const rows = await db
@@ -492,7 +493,7 @@ export const pipelineTools: ToolDefinition[] = [
     description: 'Scrape many people uses pages in parallel.',
     inputSchema: scrapeBatchInputSchema,
     handler: async (context, input) => {
-      const people = await context.peopleStore.listPeopleWithSlugs();
+      const people = getAllPeople();
       const existing = new Set(
         (await context.db
           .select({ personSlug: schema.personPages.personSlug })
@@ -881,7 +882,7 @@ Rules:
     description: 'Vectorize one person profile into local management vector store.',
     inputSchema: vectorizePersonInputSchema,
     handler: async (context, input) => {
-      const people = await context.peopleStore.listPeopleWithSlugs();
+      const people = getAllPeople();
       if (!people.find((entry) => entry.personSlug === input.personSlug)) {
         throw new NotFoundError(`Person "${input.personSlug}" was not found.`);
       }
@@ -1069,6 +1070,186 @@ Rules:
         .sort((a, b) => b.count - a.count);
 
       return { points, clusters };
+    },
+  }),
+  defineTool({
+    name: 'pipeline.getGitHubStatus',
+    scope: 'pipeline',
+    description: 'Get GitHub profile fetch status for all people, showing who has cached data and when it expires.',
+    inputSchema: z.object({}),
+    handler: async ({ db }) => {
+      const people = getAllPeople();
+      const cached = await db.select().from(schema.githubProfiles).all();
+      const cacheMap = new Map(cached.map((row) => [row.personSlug, row]));
+
+      const now = new Date();
+      const rows = people
+        .filter((p) => !!p.github)
+        .map((person) => {
+          const cache = cacheMap.get(person.personSlug);
+          return {
+            personSlug: person.personSlug,
+            name: person.name,
+            github: person.github!,
+            fetched: !!cache,
+            fetchedAt: cache?.fetchedAt ?? null,
+            expired: cache ? new Date(cache.expiresAt) <= now : true,
+          };
+        });
+
+      return {
+        total: rows.length,
+        fetched: rows.filter((r) => r.fetched).length,
+        expired: rows.filter((r) => r.expired).length,
+        fresh: rows.filter((r) => r.fetched && !r.expired).length,
+        rows,
+      };
+    },
+  }),
+  defineTool({
+    name: 'pipeline.fetchGitHubProfile',
+    scope: 'pipeline',
+    description: 'Fetch (or refresh) GitHub profile data for one person and cache it for 1 week.',
+    inputSchema: z.object({
+      personSlug: slugSchema,
+      force: z.boolean().default(false).describe('Force refresh even if cached data is still fresh.'),
+    }),
+    handler: async ({ db }, input) => {
+      const people = getAllPeople();
+      const person = people.find((p) => p.personSlug === input.personSlug);
+      if (!person) throw new NotFoundError(`Person "${input.personSlug}" not found.`);
+      if (!person.github) throw new NotFoundError(`Person "${input.personSlug}" has no GitHub username.`);
+
+      if (!input.force) {
+        const cached = await db
+          .select()
+          .from(schema.githubProfiles)
+          .where(eq(schema.githubProfiles.personSlug, input.personSlug))
+          .get();
+        if (cached && new Date(cached.expiresAt) > new Date()) {
+          return {
+            personSlug: input.personSlug,
+            github: person.github,
+            status: 'cached' as const,
+            fetchedAt: cached.fetchedAt,
+            expiresAt: cached.expiresAt,
+          };
+        }
+      }
+
+      const stats = await fetchGitHubStats(person.github);
+      if (!stats) {
+        return {
+          personSlug: input.personSlug,
+          github: person.github,
+          status: 'failed' as const,
+          error: 'GitHub API returned no data. Check GITHUB_TOKEN.',
+        };
+      }
+
+      const now = new Date();
+      const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+      const expiresAt = new Date(now.getTime() + ONE_WEEK_MS).toISOString();
+
+      await db
+        .insert(schema.githubProfiles)
+        .values({
+          personSlug: input.personSlug,
+          githubUsername: person.github,
+          dataJson: JSON.stringify(stats),
+          fetchedAt: now.toISOString(),
+          expiresAt,
+        })
+        .onConflictDoUpdate({
+          target: schema.githubProfiles.personSlug,
+          set: {
+            githubUsername: person.github,
+            dataJson: JSON.stringify(stats),
+            fetchedAt: now.toISOString(),
+            expiresAt,
+          },
+        })
+        .run();
+
+      return {
+        personSlug: input.personSlug,
+        github: person.github,
+        status: 'fetched' as const,
+        fetchedAt: now.toISOString(),
+        expiresAt,
+        stats,
+      };
+    },
+  }),
+  defineTool({
+    name: 'pipeline.fetchGitHubBatch',
+    scope: 'pipeline',
+    description: 'Batch fetch GitHub profiles for people who have a GitHub username. Respects cache.',
+    inputSchema: z.object({
+      limit: z.number().int().positive().max(500).default(50),
+      concurrency: z.number().int().positive().max(10).default(3),
+      pendingOnly: z.boolean().default(true).describe('Only fetch people without fresh cached data.'),
+    }),
+    handler: async (context, input) => {
+      const people = getAllPeople().filter((p) => !!p.github);
+      const cached = await context.db.select().from(schema.githubProfiles).all();
+      const cacheMap = new Map(cached.map((row) => [row.personSlug, row]));
+      const now = new Date();
+
+      let targets = people;
+      if (input.pendingOnly) {
+        targets = targets.filter((p) => {
+          const cache = cacheMap.get(p.personSlug);
+          return !cache || new Date(cache.expiresAt) <= now;
+        });
+      }
+      targets = targets.slice(0, input.limit);
+
+      const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+      const results = await mapConcurrent(targets, input.concurrency, async (person) => {
+        try {
+          const stats = await fetchGitHubStats(person.github!);
+          if (!stats) return { personSlug: person.personSlug, ok: false, error: 'No data returned' };
+
+          const fetchedAt = new Date().toISOString();
+          const expiresAt = new Date(Date.now() + ONE_WEEK_MS).toISOString();
+
+          await context.db
+            .insert(schema.githubProfiles)
+            .values({
+              personSlug: person.personSlug,
+              githubUsername: person.github!,
+              dataJson: JSON.stringify(stats),
+              fetchedAt,
+              expiresAt,
+            })
+            .onConflictDoUpdate({
+              target: schema.githubProfiles.personSlug,
+              set: {
+                githubUsername: person.github!,
+                dataJson: JSON.stringify(stats),
+                fetchedAt,
+                expiresAt,
+              },
+            })
+            .run();
+
+          return { personSlug: person.personSlug, ok: true };
+        } catch (error) {
+          return {
+            personSlug: person.personSlug,
+            ok: false,
+            error: error instanceof Error ? error.message : 'Fetch failed',
+          };
+        }
+      });
+
+      return {
+        processed: targets.length,
+        successes: results.filter((r) => r.ok).length,
+        failures: results.filter((r) => !r.ok).length,
+        rows: results,
+      };
     },
   }),
 ];

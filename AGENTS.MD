@@ -8,3 +8,6 @@
 - always use static imports. Never dynamically import modules
 - Always use Tailwind CSS and ShadCN components. Install existing components over making your own.
 - Do not duplicate or copy/paste functionality across multiple components. Abstract them into utility/lib files or separate components
+- Avoid reading and writing to disk.
+- never use sync APIS when promise versions are available. `await readFile()` over `readFileSync()`
+- never swallow errors or produce silent fallbacks. If you must return null, or catch and do nothing, add a console.log to let the developer know what happened.

@@ -30,6 +30,7 @@ import { Route as AdminScrapeRouteImport } from './routes/admin/scrape'
 import { Route as AdminReviewRouteImport } from './routes/admin/review'
 import { Route as AdminMergeRouteImport } from './routes/admin/merge'
 import { Route as AdminItemsRouteImport } from './routes/admin/items'
+import { Route as AdminGithubRouteImport } from './routes/admin/github'
 import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
 import { Route as AdminBatchRouteImport } from './routes/admin/batch'
 
@@ -138,6 +139,11 @@ const AdminItemsRoute = AdminItemsRouteImport.update({
   path: '/items',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminGithubRoute = AdminGithubRouteImport.update({
+  id: '/github',
+  path: '/github',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminErrorsRoute = AdminErrorsRouteImport.update({
   id: '/errors',
   path: '/errors',
@@ -161,6 +167,7 @@ export interface FileRoutesByFullPath {
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -185,6 +192,7 @@ export interface FileRoutesByTo {
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -211,6 +219,7 @@ export interface FileRoutesById {
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -238,6 +247,7 @@ export interface FileRouteTypes {
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -262,6 +272,7 @@ export interface FileRouteTypes {
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -287,6 +298,7 @@ export interface FileRouteTypes {
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -466,6 +478,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminItemsRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/github': {
+      id: '/admin/github'
+      path: '/github'
+      fullPath: '/admin/github'
+      preLoaderRoute: typeof AdminGithubRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/errors': {
       id: '/admin/errors'
       path: '/errors'
@@ -486,6 +505,7 @@ declare module '@tanstack/react-router' {
 interface AdminRouteChildren {
   AdminBatchRoute: typeof AdminBatchRoute
   AdminErrorsRoute: typeof AdminErrorsRoute
+  AdminGithubRoute: typeof AdminGithubRoute
   AdminItemsRoute: typeof AdminItemsRoute
   AdminMergeRoute: typeof AdminMergeRoute
   AdminReviewRoute: typeof AdminReviewRoute
@@ -498,6 +518,7 @@ interface AdminRouteChildren {
 const AdminRouteChildren: AdminRouteChildren = {
   AdminBatchRoute: AdminBatchRoute,
   AdminErrorsRoute: AdminErrorsRoute,
+  AdminGithubRoute: AdminGithubRoute,
   AdminItemsRoute: AdminItemsRoute,
   AdminMergeRoute: AdminMergeRoute,
   AdminReviewRoute: AdminReviewRoute,

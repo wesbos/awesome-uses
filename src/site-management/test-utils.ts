@@ -1,48 +1,11 @@
-import { mkdtemp, mkdir, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, rm } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import Database from 'better-sqlite3';
 import { createSiteManagementContext } from './context';
 
-type FixturePerson = {
-  name: string;
-  description: string;
-  url: string;
-  country: string;
-  tags: string[];
-  github?: string;
-};
-
-const DEFAULT_PEOPLE: FixturePerson[] = [
-  {
-    name: 'Ada Lovelace',
-    description: 'Mathematician',
-    url: 'https://ada.dev/uses',
-    country: '🇬🇧',
-    tags: ['TypeScript', 'VS Code'],
-    github: 'ada',
-  },
-  {
-    name: 'Grace Hopper',
-    description: 'Engineer',
-    url: 'https://grace.dev/uses',
-    country: '🇺🇸',
-    tags: ['Python', 'Vim'],
-    github: 'grace',
-  },
-];
-
-export async function createSiteManagementFixture(options?: { people?: FixturePerson[] }) {
+export async function createSiteManagementFixture() {
   const root = await mkdtemp(path.join(os.tmpdir(), 'site-management-'));
-  const srcDir = path.join(root, 'src');
-  const generatedDir = path.join(srcDir, 'generated');
-  await mkdir(generatedDir, { recursive: true });
-
-  const people = options?.people ?? DEFAULT_PEOPLE;
-  const dataFilePath = path.join(srcDir, 'data.js');
-  const generatedPeoplePath = path.join(generatedDir, 'people.json');
-  await writeFile(dataFilePath, `module.exports = ${JSON.stringify(people, null, 2)};\n`, 'utf8');
-  await writeFile(generatedPeoplePath, `${JSON.stringify(people, null, 2)}\n`, 'utf8');
 
   const dbPath = path.join(root, 'site.db');
   const rawDb = new Database(dbPath);
@@ -94,8 +57,6 @@ export async function createSiteManagementFixture(options?: { people?: FixturePe
 
   const context = createSiteManagementContext({
     repoRoot: root,
-    dataFilePath,
-    generatedPeoplePath,
     dbPath,
   });
 
@@ -105,8 +66,6 @@ export async function createSiteManagementFixture(options?: { people?: FixturePe
 
   return {
     root,
-    dataFilePath,
-    generatedPeoplePath,
     dbPath,
     context,
     cleanup,

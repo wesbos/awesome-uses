@@ -5,7 +5,9 @@ import { getPersonBySlug } from '../lib/data';
 import { getAvatarUrl } from '../lib/avatar';
 import { extractCompaniesFromText } from '../lib/company-logos';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
-import { $getScrapedProfile, $getPersonItems } from '../server/fn/profiles';
+import { $getScrapedProfile, $getPersonItems, $getGitHubStats } from '../server/fn/profiles';
+import type { GitHubStats } from '../server/github';
+import { GitHubStatsCard } from '../components/GitHubStatsCard';
 import { $getSimilarPeople, type SimilarPerson, type VectorizeDebug } from '../server/fn/vectorize';
 import { $trackView } from '../server/fn/admin';
 import { Badge } from '@/components/ui/badge';
@@ -38,10 +40,11 @@ export const Route = createFileRoute('/people/$personSlug')({
       similar: [] as SimilarPerson[],
       debug: { hasBinding: false, personSlug: person.personSlug, rawJson: '{}', error: 'catch' } as VectorizeDebug,
     };
-    const [scrapeResult, items, similarResult] = await Promise.all([
+    const [scrapeResult, items, similarResult, githubStats] = await Promise.all([
       $getScrapedProfile({ data: person.personSlug }).catch(() => null),
       $getPersonItems({ data: person.personSlug }).catch(() => [] as PersonItem[]),
       $getSimilarPeople({ data: person.personSlug }).catch(() => defaultSimilarResult),
+      $getGitHubStats({ data: person.personSlug }).catch((e) => { console.error('[github] fetch failed', e); return null; }),
     ]);
     return {
       person,
@@ -49,18 +52,20 @@ export const Route = createFileRoute('/people/$personSlug')({
       items,
       similarPeople: similarResult.similar,
       vectorizeDebug: similarResult.debug,
+      githubStats,
     };
   },
   component: PersonPage,
 } as any);
 
 function PersonPage() {
-  const { person, scraped, items, similarPeople, vectorizeDebug } = Route.useLoaderData() as {
+  const { person, scraped, items, similarPeople, vectorizeDebug, githubStats } = Route.useLoaderData() as {
     person: NonNullable<ReturnType<typeof getPersonBySlug>>;
     scraped: ScrapedProfileData | null;
     items: PersonItem[];
     similarPeople: SimilarPerson[];
     vectorizeDebug: VectorizeDebug;
+    githubStats: GitHubStats | null;
   };
   const companies = extractCompaniesFromText(person.description);
   const avatarUrl = getAvatarUrl(person);
@@ -146,6 +151,8 @@ function PersonPage() {
           </div>
         </CardContent>
       </Card>
+
+      {githubStats && <GitHubStatsCard stats={githubStats} />}
 
       {items.length > 0 && (
         <Card>

@@ -14,6 +14,10 @@ import {
 import { scrapeUsesPage } from '../scrape';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
 import { vectorizeProfile } from './vectorize';
+import { fetchGitHubStats, type GitHubStats } from '../github';
+import { eq } from 'drizzle-orm';
+import * as schema from '../schema';
+import { resolveDb } from '../db/connection.server';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -218,3 +222,56 @@ export const $getErrorSlugs = createServerFn({ method: 'GET' }).handler(
     return errorRows.map((r) => r.personSlug);
   }
 );
+
+const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+export const $getGitHubStats = createServerFn({ method: 'GET' })
+  .inputValidator((personSlug: string) => personSlug)
+  .handler(async ({ data: personSlug }): Promise<GitHubStats | null> => {
+    const person = getPersonBySlug(personSlug);
+    if (!person?.github) return null;
+
+    const db = resolveDb();
+    if (db) {
+      const cached = await db
+        .select()
+        .from(schema.githubProfiles)
+        .where(eq(schema.githubProfiles.personSlug, personSlug))
+        .limit(1)
+        .then((rows) => rows[0] ?? null);
+
+      if (cached && new Date(cached.expiresAt) > new Date()) {
+        console.log(`[github] Cache hit for ${personSlug}`);
+        return JSON.parse(cached.dataJson) as GitHubStats;
+      }
+    }
+
+    const stats = await fetchGitHubStats(person.github);
+    if (!stats) return null;
+
+    if (db) {
+      const now = new Date();
+      await db
+        .insert(schema.githubProfiles)
+        .values({
+          personSlug,
+          githubUsername: person.github,
+          dataJson: JSON.stringify(stats),
+          fetchedAt: now.toISOString(),
+          expiresAt: new Date(now.getTime() + ONE_WEEK_MS).toISOString(),
+        })
+        .onConflictDoUpdate({
+          target: schema.githubProfiles.personSlug,
+          set: {
+            githubUsername: person.github,
+            dataJson: JSON.stringify(stats),
+            fetchedAt: now.toISOString(),
+            expiresAt: new Date(now.getTime() + ONE_WEEK_MS).toISOString(),
+          },
+        })
+        .run();
+      console.log(`[github] Cached ${personSlug} until ${new Date(now.getTime() + ONE_WEEK_MS).toISOString()}`);
+    }
+
+    return stats;
+  });

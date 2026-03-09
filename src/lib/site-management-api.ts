@@ -238,6 +238,42 @@ export async function apiFindDuplicateItems(): Promise<
   return result.rows;
 }
 
+export type GitHubStatusRow = {
+  personSlug: string;
+  name: string;
+  github: string;
+  fetched: boolean;
+  fetchedAt: string | null;
+  expired: boolean;
+};
+
+export type GitHubStatusPayload = {
+  total: number;
+  fetched: number;
+  expired: number;
+  fresh: number;
+  rows: GitHubStatusRow[];
+};
+
+export async function apiGetGitHubStatus(): Promise<GitHubStatusPayload> {
+  return callSiteTool<GitHubStatusPayload>('pipeline.getGitHubStatus');
+}
+
+export async function apiFetchGitHubProfile(
+  personSlug: string,
+  force = false,
+): Promise<{ personSlug: string; github: string; status: string; fetchedAt?: string; expiresAt?: string; error?: string }> {
+  return callSiteTool('pipeline.fetchGitHubProfile', { personSlug, force });
+}
+
+export async function apiFetchGitHubBatch(input: {
+  limit?: number;
+  concurrency?: number;
+  pendingOnly?: boolean;
+}): Promise<{ processed: number; successes: number; failures: number }> {
+  return callSiteTool('pipeline.fetchGitHubBatch', input);
+}
+
 export async function apiGetScrapedProfileRow(personSlug: string): Promise<DashboardRow | null> {
   const status = await apiGetScrapeStatus();
   return status.rows.find((row) => row.personSlug === personSlug) ?? null;

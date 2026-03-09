@@ -53,7 +53,6 @@
     "typecheck": "pnpm sync:data && tsc --noEmit",
     "test": "pnpm sync:data && vitest run",
     "readme": "node ./scripts/populate-readme.js",
-    "cull": "tsx ./scripts/cull-invalid-uses.ts",
     "scrape": "tsx ./scripts/scrape-uses-to-d1.ts",
     "discover": "tsx --env-file .env ./scripts/discover-tags.ts",
     "canonicalize": "tsx ./scripts/canonicalize-tags.ts",

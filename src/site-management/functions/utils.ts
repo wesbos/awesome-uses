@@ -1,3 +1,14 @@
+import type { PersonRecord } from '../../lib/types';
+import rawPeople from '../../generated/people.json';
+
+export type PersonWithSlug = PersonRecord & { personSlug: string };
+
+const people = rawPeople as PersonWithSlug[];
+
+export function getAllPeople(): PersonWithSlug[] {
+  return people;
+}
+
 export function parseTagsJson(input: string): string[] {
   try {
     const parsed = JSON.parse(input);
