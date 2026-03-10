@@ -61,6 +61,8 @@ export async function getAllTagSummaries(): Promise<TagSummary[]> {
         topItems,
       };
     })
+    // Only show tags with more than 2 items
+    .filter((tag) => tag.totalItems > 2)
     .sort((a, b) => {
       if (b.totalItems !== a.totalItems) return b.totalItems - a.totalItems;
       return a.tag.localeCompare(b.tag);

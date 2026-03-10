@@ -12,6 +12,7 @@ type TagRow = {
   tag: string;
   itemCount: number;
   personCount: number;
+  items: string[];
 };
 
 const listTagsInputSchema = z.object({
@@ -77,6 +78,7 @@ function listTagRows(
       tag,
       itemCount: tagItems.size,
       personCount: tagToPeople.get(tag)?.size ?? 0,
+      items: [...tagItems],
     }))
     .sort((a, b) => {
       if (b.itemCount !== a.itemCount) return b.itemCount - a.itemCount;
