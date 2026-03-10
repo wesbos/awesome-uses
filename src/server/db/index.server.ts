@@ -80,3 +80,11 @@ export {
   upsertItemEnrichment,
   getAllItemEnrichments,
 } from './enrichments.server';
+
+export {
+  upsertItemVector,
+  getAllItemVectors,
+  getItemVectorCount,
+  getItemVectorSlugs,
+  type ItemVector,
+} from './item-vectors.server';

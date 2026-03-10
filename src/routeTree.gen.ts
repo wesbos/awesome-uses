@@ -11,8 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
+import { Route as ProductsRouteImport } from './routes/products'
 import { Route as OgRouteImport } from './routes/og'
 import { Route as McpRouteImport } from './routes/mcp'
+import { Route as ItemGalaxyRouteImport } from './routes/item-galaxy'
 import { Route as GalaxyRouteImport } from './routes/galaxy'
 import { Route as DiscoverRouteImport } from './routes/discover'
 import { Route as AdminRouteImport } from './routes/admin'
@@ -30,7 +32,6 @@ import { Route as AdminScrapeRouteImport } from './routes/admin/scrape'
 import { Route as AdminReviewRouteImport } from './routes/admin/review'
 import { Route as AdminMergeRouteImport } from './routes/admin/merge'
 import { Route as AdminItemsRouteImport } from './routes/admin/items'
-import { Route as AdminGithubRouteImport } from './routes/admin/github'
 import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
 import { Route as AdminBatchRouteImport } from './routes/admin/batch'
 
@@ -44,6 +45,11 @@ const TagsRoute = TagsRouteImport.update({
   path: '/tags',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ProductsRoute = ProductsRouteImport.update({
+  id: '/products',
+  path: '/products',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OgRoute = OgRouteImport.update({
   id: '/og',
   path: '/og',
@@ -52,6 +58,11 @@ const OgRoute = OgRouteImport.update({
 const McpRoute = McpRouteImport.update({
   id: '/mcp',
   path: '/mcp',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ItemGalaxyRoute = ItemGalaxyRouteImport.update({
+  id: '/item-galaxy',
+  path: '/item-galaxy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GalaxyRoute = GalaxyRouteImport.update({
@@ -139,11 +150,6 @@ const AdminItemsRoute = AdminItemsRouteImport.update({
   path: '/items',
   getParentRoute: () => AdminRoute,
 } as any)
-const AdminGithubRoute = AdminGithubRouteImport.update({
-  id: '/github',
-  path: '/github',
-  getParentRoute: () => AdminRoute,
-} as any)
 const AdminErrorsRoute = AdminErrorsRouteImport.update({
   id: '/errors',
   path: '/errors',
@@ -161,13 +167,14 @@ export interface FileRoutesByFullPath {
   '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/item-galaxy': typeof ItemGalaxyRoute
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
+  '/products': typeof ProductsRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
-  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -186,13 +193,14 @@ export interface FileRoutesByTo {
   '/add': typeof AddRoute
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/item-galaxy': typeof ItemGalaxyRoute
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
+  '/products': typeof ProductsRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
-  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -213,13 +221,14 @@ export interface FileRoutesById {
   '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/item-galaxy': typeof ItemGalaxyRoute
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
+  '/products': typeof ProductsRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
-  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
@@ -241,13 +250,14 @@ export interface FileRouteTypes {
     | '/admin'
     | '/discover'
     | '/galaxy'
+    | '/item-galaxy'
     | '/mcp'
     | '/og'
+    | '/products'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
-    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -266,13 +276,14 @@ export interface FileRouteTypes {
     | '/add'
     | '/discover'
     | '/galaxy'
+    | '/item-galaxy'
     | '/mcp'
     | '/og'
+    | '/products'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
-    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -292,13 +303,14 @@ export interface FileRouteTypes {
     | '/admin'
     | '/discover'
     | '/galaxy'
+    | '/item-galaxy'
     | '/mcp'
     | '/og'
+    | '/products'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
-    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
@@ -319,8 +331,10 @@ export interface RootRouteChildren {
   AdminRoute: typeof AdminRouteWithChildren
   DiscoverRoute: typeof DiscoverRoute
   GalaxyRoute: typeof GalaxyRoute
+  ItemGalaxyRoute: typeof ItemGalaxyRoute
   McpRoute: typeof McpRoute
   OgRoute: typeof OgRoute
+  ProductsRoute: typeof ProductsRoute
   TagsRoute: typeof TagsRouteWithChildren
   UsesRoute: typeof UsesRoute
   ApiSiteManagementRoute: typeof ApiSiteManagementRoute
@@ -345,6 +359,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TagsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/products': {
+      id: '/products'
+      path: '/products'
+      fullPath: '/products'
+      preLoaderRoute: typeof ProductsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/og': {
       id: '/og'
       path: '/og'
@@ -357,6 +378,13 @@ declare module '@tanstack/react-router' {
       path: '/mcp'
       fullPath: '/mcp'
       preLoaderRoute: typeof McpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/item-galaxy': {
+      id: '/item-galaxy'
+      path: '/item-galaxy'
+      fullPath: '/item-galaxy'
+      preLoaderRoute: typeof ItemGalaxyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/galaxy': {
@@ -478,13 +506,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminItemsRouteImport
       parentRoute: typeof AdminRoute
     }
-    '/admin/github': {
-      id: '/admin/github'
-      path: '/github'
-      fullPath: '/admin/github'
-      preLoaderRoute: typeof AdminGithubRouteImport
-      parentRoute: typeof AdminRoute
-    }
     '/admin/errors': {
       id: '/admin/errors'
       path: '/errors'
@@ -505,7 +526,6 @@ declare module '@tanstack/react-router' {
 interface AdminRouteChildren {
   AdminBatchRoute: typeof AdminBatchRoute
   AdminErrorsRoute: typeof AdminErrorsRoute
-  AdminGithubRoute: typeof AdminGithubRoute
   AdminItemsRoute: typeof AdminItemsRoute
   AdminMergeRoute: typeof AdminMergeRoute
   AdminReviewRoute: typeof AdminReviewRoute
@@ -518,7 +538,6 @@ interface AdminRouteChildren {
 const AdminRouteChildren: AdminRouteChildren = {
   AdminBatchRoute: AdminBatchRoute,
   AdminErrorsRoute: AdminErrorsRoute,
-  AdminGithubRoute: AdminGithubRoute,
   AdminItemsRoute: AdminItemsRoute,
   AdminMergeRoute: AdminMergeRoute,
   AdminReviewRoute: AdminReviewRoute,
@@ -546,8 +565,10 @@ const rootRouteChildren: RootRouteChildren = {
   AdminRoute: AdminRouteWithChildren,
   DiscoverRoute: DiscoverRoute,
   GalaxyRoute: GalaxyRoute,
+  ItemGalaxyRoute: ItemGalaxyRoute,
   McpRoute: McpRoute,
   OgRoute: OgRoute,
+  ProductsRoute: ProductsRoute,
   TagsRoute: TagsRouteWithChildren,
   UsesRoute: UsesRoute,
   ApiSiteManagementRoute: ApiSiteManagementRoute,
