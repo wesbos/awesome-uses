@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { handleSiteManagementApiRequest } from '../site-management/http';
+import { handleSiteManagementApiRequest } from '../site-management/http.server';
 
 export const Route = createFileRoute('/api/site-management')({
   server: {

@@ -149,11 +149,22 @@ export async function apiDiscoverTags(sampleSize: number): Promise<DiscoverTagsR
 }
 
 export async function apiGetItemsDashboard(): Promise<ItemsDashboardRow[]> {
-  const payload = await callSiteTool<{
-    total: number;
-    rows: ItemsDashboardRow[];
-  }>('items.list', { limit: 5000, offset: 0 });
-  return payload.rows;
+  const PAGE = 500;
+  let offset = 0;
+  const all: ItemsDashboardRow[] = [];
+
+  // eslint-disable-next-line no-constant-condition
+  while (true) {
+    const payload = await callSiteTool<{
+      total: number;
+      rows: ItemsDashboardRow[];
+    }>('items.list', { limit: PAGE, offset });
+    all.push(...payload.rows);
+    if (all.length >= payload.total || payload.rows.length < PAGE) break;
+    offset += PAGE;
+  }
+
+  return all;
 }
 
 export async function apiEnrichItems(

@@ -10,7 +10,7 @@ import { parseTagsJson, uniqueSorted } from './utils';
 const listPersonItemsInputSchema = z.object({
   personSlug: z.string().trim().optional(),
   q: z.string().trim().optional(),
-  limit: z.number().int().positive().max(100).default(10),
+  limit: z.number().int().positive().max(500).default(50),
   offset: z.number().int().min(0).default(0),
 });
 

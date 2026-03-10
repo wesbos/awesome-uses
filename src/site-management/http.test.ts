@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { createSiteManagementFixture } from './test-utils';
-import { handleMcpHttpRequest, handleSiteManagementApiRequest } from './http';
+import { handleMcpHttpRequest, handleSiteManagementApiRequest } from './http.server';
 
 describe('site-management HTTP handlers', () => {
   it('lists tools and executes tools through REST handler', async () => {

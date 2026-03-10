@@ -1,9 +1,7 @@
 import path from 'node:path';
-import { createRequire } from 'node:module';
+import { readFileSync } from 'node:fs';
 import { createLocalSiteDb, resolveDefaultLocalDbPath, type SiteDb } from './stores/site-db';
 import { ConfigurationError } from './errors';
-
-const require = createRequire(import.meta.url);
 
 type PackageJson = {
   name?: string;
@@ -25,10 +23,11 @@ function inferRepoRoot(): string {
   const cwd = process.cwd();
   const pkgPath = path.join(cwd, 'package.json');
   try {
-    const pkg = require(pkgPath) as PackageJson;
+    const raw = readFileSync(pkgPath, 'utf-8');
+    const pkg = JSON.parse(raw) as PackageJson;
     if (pkg?.name) return cwd;
   } catch {
-    // ignore
+    console.log('[site-management] Could not read package.json at', pkgPath);
   }
   return cwd;
 }
@@ -36,15 +35,15 @@ function inferRepoRoot(): string {
 export function createSiteManagementContext(
   options: SiteManagementContextOptions = {},
 ): SiteManagementContext {
-  const repoRoot = options.repoRoot ?? process.env.SITE_REPO_ROOT ?? inferRepoRoot();
-
   if (options.db) {
     return {
-      repoRoot,
+      repoRoot: options.repoRoot ?? process.env.SITE_REPO_ROOT ?? process.cwd(),
       dbPath: options.dbPath ?? null,
       db: options.db,
     };
   }
+
+  const repoRoot = options.repoRoot ?? process.env.SITE_REPO_ROOT ?? inferRepoRoot();
 
   const dbPath =
     options.dbPath ??

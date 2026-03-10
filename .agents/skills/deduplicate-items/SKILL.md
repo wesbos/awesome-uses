@@ -20,10 +20,10 @@ Find variant spellings / naming inconsistencies for items in the site database a
 Paginate through **all** results — the API returns at most 100 rows per call.
 
 ```bash
-pnpm site:tools:call items.list --input '{"tag": "<TAG>", "limit": 100, "offset": 0}'
+pnpm site:tools:call items.list --input '{"tag": "<TAG>", "limit": 500, "offset": 0}'
 ```
 
-Increment `offset` by 100 until you've fetched all rows (check the `total` field in the first response). Collect every `(item, count)` pair.
+Increment `offset` by 500 until you've fetched all rows (check the `total` field in the first response). Collect every `(item, count)` pair.
 
 ### 2. Run the built-in duplicate detector
 
@@ -37,15 +37,15 @@ This catches **case-only** differences. It does NOT catch abbreviations, missing
 
 Compare the full item list for patterns like:
 
-| Pattern | Example |
-|---------|---------|
-| Brand prefix added/removed | `Apple AirPods Pro` vs `AirPods Pro` |
-| Abbreviation vs full name | `Bose QC35` vs `Bose QuietComfort 35` |
-| Missing/extra hyphens or spaces | `Sennheiser HD25` vs `Sennheiser HD 25` |
-| Trailing descriptor | `Sony WH-1000XM4 Headphones` vs `Sony WH-1000XM4` |
-| Seller prefix | `Linsoul KZ ZS10 Pro` vs `KZ ZS10 Pro` |
-| Typos / transposed letters | `Sony WF-1000MX5` vs `Sony WF-1000XM5` |
-| Case differences | `BeyerDynamic` vs `Beyerdynamic` |
+| Pattern                         | Example                                           |
+| ------------------------------- | ------------------------------------------------- |
+| Brand prefix added/removed      | `Apple AirPods Pro` vs `AirPods Pro`              |
+| Abbreviation vs full name       | `Bose QC35` vs `Bose QuietComfort 35`             |
+| Missing/extra hyphens or spaces | `Sennheiser HD25` vs `Sennheiser HD 25`           |
+| Trailing descriptor             | `Sony WH-1000XM4 Headphones` vs `Sony WH-1000XM4` |
+| Seller prefix                   | `Linsoul KZ ZS10 Pro` vs `KZ ZS10 Pro`            |
+| Typos / transposed letters      | `Sony WF-1000MX5` vs `Sony WF-1000XM5`            |
+| Case differences                | `BeyerDynamic` vs `Beyerdynamic`                  |
 
 ### 4. Present findings and ask for approval
 
@@ -85,10 +85,10 @@ When the most-used name conflicts with official branding, prefer official brandi
 
 ## CLI reference
 
-| Command | Description |
-|---------|-------------|
-| `pnpm site:tools:call items.list --input '{"tag":"<TAG>","limit":100,"offset":0}'` | List items by tag (paginate) |
-| `pnpm site:tools:call items.findDuplicates --input '{}'` | Auto-detect case-only duplicates |
-| `pnpm site:tools:call items.merge --input '{"canonicalItem":"<NAME>","sourceItems":["..."]}'` | Merge variants into canonical |
+| Command                                                                                       | Description                      |
+| --------------------------------------------------------------------------------------------- | -------------------------------- |
+| `pnpm site:tools:call items.list --input '{"tag":"<TAG>","limit":500,"offset":0}'`            | List items by tag (paginate)     |
+| `pnpm site:tools:call items.findDuplicates --input '{}'`                                      | Auto-detect case-only duplicates |
+| `pnpm site:tools:call items.merge --input '{"canonicalItem":"<NAME>","sourceItems":["..."]}'` | Merge variants into canonical    |
 
 Full CLI docs: `docs/site-management-toolkit.md`

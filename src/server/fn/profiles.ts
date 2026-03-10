@@ -13,7 +13,7 @@ import {
 } from '../db/index.server';
 import { scrapeUsesPage } from '../scrape';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
-import { vectorizeProfile } from './vectorize';
+import { vectorizeProfile } from './vectorize.server';
 import { fetchGitHubStats, type GitHubStats } from '../github';
 import { eq } from 'drizzle-orm';
 import * as schema from '../schema';

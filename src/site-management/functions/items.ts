@@ -16,7 +16,7 @@ const listItemsInputSchema = z.object({
   tag: z.string().trim().optional(),
   itemType: z.string().trim().optional(),
   includePeople: z.boolean().default(false).describe('Include the list of personSlugs who use each item.'),
-  limit: z.number().int().positive().max(100).default(10),
+  limit: z.number().int().positive().max(500).default(50),
   offset: z.number().int().min(0).default(0),
 });
 
