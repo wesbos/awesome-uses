@@ -13,17 +13,16 @@ import { $trackView } from '../../server/fn/admin';
 import { buildMeta, SITE_URL, ogImageUrl } from '../../lib/seo';
 
 export const Route = createFileRoute('/like/$tag')({
-  head: ({ loaderData }) => {
-    const tag = loaderData?.activeTagName || loaderData?.rawTag || '';
-    const count = loaderData?.totalPeople ?? 0;
+  head: ({ params }: { params: { tag: string } }) => {
+    const tag = params.tag;
     return buildMeta({
       title: `Developers using ${tag}`,
-      description: `${count} developers who use ${tag} in their setup.`,
-      ogImage: ogImageUrl({ title: tag, subtitle: `${count} developers` }),
+      description: `Developers who use ${tag} in their setup.`,
+      ogImage: ogImageUrl({ title: tag, subtitle: 'Developers' }),
       canonical: `${SITE_URL}/like/${encodeURIComponent(tag)}`,
     });
   },
-  loader: ({ params }) => {
+  loader: ({ params }: { params: { tag: string } }) => {
     const { people, rawTag, activeTagName } = getPeopleForLikeTag(params.tag);
     return {
       people,
@@ -36,10 +35,18 @@ export const Route = createFileRoute('/like/$tag')({
     };
   },
   component: LikeTagPage,
-});
+} as any);
 
 function LikeTagPage() {
-  const data = Route.useLoaderData();
+  const data = Route.useLoaderData() as {
+    people: ReturnType<typeof getPeopleForLikeTag>['people'];
+    totalPeople: number;
+    rawTag: string;
+    activeTagName: string | undefined;
+    tags: ReturnType<typeof getAllTags>;
+    countries: ReturnType<typeof getAllCountries>;
+    devices: ReturnType<typeof getAllDevices>;
+  };
 
   useEffect(() => {
     const key = data.activeTagName || data.rawTag;

@@ -1,7 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
-import { $getExtractionReview, type ExtractionReviewData } from '../../server/fn/items';
-import { $discoverCategories, type DiscoverCategoriesResult } from '../../server/fn/admin';
+import type { ExtractionReviewData } from '../../lib/site-management-api';
+import type { DiscoverTagsResult } from '../../server/fn/admin';
+import { apiDiscoverTags, apiGetExtractionReview } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -22,63 +24,63 @@ function ReviewPage() {
   return (
     <div className="space-y-6">
       <ExtractionReviewCard />
-      <DiscoverCategoriesCard />
+      <DiscoverTagsCard />
     </div>
   );
 }
 
 function ExtractionReviewCard() {
-  const [data, setData] = useState<ExtractionReviewData | null>(null);
-  const [loading, setLoading] = useState(false);
-
-  async function load() {
-    setLoading(true);
-    try {
-      const res = await $getExtractionReview();
-      setData(res);
-    } catch {
-      setData(null);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const [enabled, setEnabled] = useState(false);
+  const { data, isFetching, refetch } = useQuery<ExtractionReviewData | null>({
+    queryKey: ['site-tools', 'pipeline.reviewExtraction'],
+    queryFn: apiGetExtractionReview,
+    enabled,
+    retry: false,
+  });
 
   return (
     <Card>
       <CardContent className="p-4 space-y-3">
         <h4 className="font-medium">Extraction Review</h4>
         <p className="text-xs text-muted-foreground">
-          Quality report on extracted items: category breakdown, duplicates, and issues.
+          Quality report on extracted items: tag breakdown, duplicates, and issues.
         </p>
-        <Button onClick={load} disabled={loading} size="sm">
-          {loading ? 'Loading...' : data ? 'Refresh' : 'Load Review'}
+        <Button
+          onClick={async () => {
+            if (!enabled) setEnabled(true);
+            await refetch();
+          }}
+          disabled={isFetching}
+          size="sm"
+        >
+          {isFetching ? 'Loading...' : data ? 'Refresh' : 'Load Review'}
         </Button>
         {data && (
           <div className="text-xs space-y-4">
             <p>
-              Total rows: <strong>{data.totalRows}</strong> | Categories: <strong>{data.totalCategories}</strong>
+              Total rows: <strong>{data.totalRows}</strong> | Tags: <strong>{data.totalTags}</strong>
             </p>
 
             <div>
-              <h5 className="font-medium mb-1">Categories ({data.categories.length})</h5>
+              <h5 className="font-medium mb-1">Tags ({data.tags.length})</h5>
               <div className="max-h-56 overflow-auto rounded-md border">
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead>Category</TableHead>
+                      <TableHead>Tag</TableHead>
                       <TableHead>Items</TableHead>
                       <TableHead>People</TableHead>
                       <TableHead>Top items</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {data.categories.slice(0, 40).map((c) => (
-                      <TableRow key={c.category}>
-                        <TableCell className="font-medium">{c.category}</TableCell>
+                    {data.tags.slice(0, 40).map((c: ExtractionReviewData['tags'][number]) => (
+                      <TableRow key={c.tag}>
+                        <TableCell className="font-medium">{c.tag}</TableCell>
                         <TableCell>{c.uniqueItems}</TableCell>
                         <TableCell>{c.totalPeople}</TableCell>
                         <TableCell className="max-w-[300px] truncate text-muted-foreground">
-                          {c.topItems.slice(0, 5).map((i) => i.item).join(', ')}
+                          {c.topItems.slice(0, 5).map((i: { item: string; count: number }) => i.item).join(', ')}
                         </TableCell>
                       </TableRow>
                     ))}
@@ -89,11 +91,11 @@ function ExtractionReviewCard() {
 
             {data.bannedLeaks.length > 0 && (
               <div>
-                <h5 className="font-medium mb-1 text-destructive">Banned Category Leaks</h5>
+                <h5 className="font-medium mb-1 text-destructive">Banned Tag Leaks</h5>
                 <div className="rounded-md border p-2 space-y-0.5">
-                  {data.bannedLeaks.map((b) => (
-                    <div key={b.category} className="flex justify-between">
-                      <span>{b.category}</span>
+                  {data.bannedLeaks.map((b: ExtractionReviewData['bannedLeaks'][number]) => (
+                    <div key={b.tag} className="flex justify-between">
+                      <span>{b.tag}</span>
                       <span className="text-muted-foreground">{b.uniqueItems} items</span>
                     </div>
                   ))}
@@ -101,27 +103,27 @@ function ExtractionReviewCard() {
               </div>
             )}
 
-            {data.multiCategoryItems.length > 0 && (
+            {data.multiTagItems.length > 0 && (
               <div>
-                <h5 className="font-medium mb-1">Items in 3+ categories</h5>
+                <h5 className="font-medium mb-1">Items in 3+ tags</h5>
                 <div className="max-h-40 overflow-auto rounded-md border p-2 space-y-0.5">
-                  {data.multiCategoryItems.map((m) => (
+                  {data.multiTagItems.map((m: ExtractionReviewData['multiTagItems'][number]) => (
                     <div key={m.item} className="flex justify-between gap-2">
                       <span className="truncate">{m.item}</span>
-                      <span className="text-muted-foreground shrink-0">{m.categories.join(', ')}</span>
+                      <span className="text-muted-foreground shrink-0">{m.tags.join(', ')}</span>
                     </div>
                   ))}
                 </div>
               </div>
             )}
 
-            {data.tinyCategories.length > 0 && (
+            {data.tinyTags.length > 0 && (
               <div>
-                <h5 className="font-medium mb-1">Tiny categories (&le;2 items)</h5>
+                <h5 className="font-medium mb-1">Tiny tags (&le;2 items)</h5>
                 <div className="max-h-40 overflow-auto rounded-md border p-2 space-y-0.5">
-                  {data.tinyCategories.map((t) => (
-                    <div key={t.category} className="flex justify-between gap-2">
-                      <span>{t.category}</span>
+                  {data.tinyTags.map((t: ExtractionReviewData['tinyTags'][number]) => (
+                    <div key={t.tag} className="flex justify-between gap-2">
+                      <span>{t.tag}</span>
                       <span className="text-muted-foreground truncate">{t.items.join(', ')}</span>
                     </div>
                   ))}
@@ -135,30 +137,29 @@ function ExtractionReviewCard() {
   );
 }
 
-function DiscoverCategoriesCard() {
+function DiscoverTagsCard() {
   const [sampleSize, setSampleSize] = useState(30);
-  const [busy, setBusy] = useState(false);
-  const [result, setResult] = useState<DiscoverCategoriesResult | null>(null);
+  const [result, setResult] = useState<DiscoverTagsResult | null>(null);
+  const discoverMutation = useMutation({
+    mutationFn: (value: number) => apiDiscoverTags(value),
+  });
 
   async function run() {
-    setBusy(true);
     setResult(null);
     try {
-      const res = await $discoverCategories({ data: { sampleSize } });
+      const res = await discoverMutation.mutateAsync(sampleSize);
       setResult(res);
     } catch {
       setResult(null);
-    } finally {
-      setBusy(false);
     }
   }
 
   return (
     <Card>
       <CardContent className="p-4 space-y-3">
-        <h4 className="font-medium">Discover Categories</h4>
+        <h4 className="font-medium">Discover Tags</h4>
         <p className="text-xs text-muted-foreground">
-          Sample random pages, extract items via AI, and see category/item frequency.
+          Sample random pages, extract items via AI, and see tag/item frequency.
         </p>
         <div className="flex items-center gap-2">
           <Input
@@ -170,8 +171,8 @@ function DiscoverCategoriesCard() {
             className="w-24"
           />
           <span className="text-xs text-muted-foreground">pages</span>
-          <Button onClick={run} disabled={busy} size="sm">
-            {busy ? 'Discovering...' : 'Run'}
+          <Button onClick={run} disabled={discoverMutation.isPending} size="sm">
+            {discoverMutation.isPending ? 'Discovering...' : 'Run'}
           </Button>
         </div>
         {result && (
@@ -181,12 +182,12 @@ function DiscoverCategoriesCard() {
             </p>
             <div className="grid gap-4 md:grid-cols-2">
               <div>
-                <h5 className="font-medium mb-1">Top Categories</h5>
+                <h5 className="font-medium mb-1">Top Tags</h5>
                 <div className="max-h-56 overflow-auto rounded-md border p-2 space-y-0.5">
-                  {result.topCategories.map((c) => (
-                    <div key={c.category} className="flex justify-between">
-                      <span>{c.category}</span>
-                      <span className="text-muted-foreground">{c.count}</span>
+                  {result.topTags.map((t) => (
+                    <div key={t.tag} className="flex justify-between">
+                      <span>{t.tag}</span>
+                      <span className="text-muted-foreground">{t.count}</span>
                     </div>
                   ))}
                 </div>

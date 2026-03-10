@@ -1,6 +1,12 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
-import { useCallback, useEffect, useRef, useState } from 'react';
-import { $getScrapedProfile, $getScrapeStatus, $reScrapeAndExtract, type DashboardRow, type DashboardPayload } from '../../server/fn/profiles';
+import { useQuery } from '@tanstack/react-query';
+import { useCallback, useRef, useState } from 'react';
+import type { DashboardRow, DashboardPayload } from '../../server/fn/profiles';
+import {
+  apiGetScrapeStatus,
+  apiRescrapeAndExtract,
+  apiScrapePerson,
+} from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -61,23 +67,13 @@ function useScrapeAll(
           if (idx >= targetRows.length) break;
           const row = targetRows[idx];
           try {
-            const result = await $getScrapedProfile({
-              data: row.personSlug,
+            const result = await apiScrapePerson(row.personSlug);
+            onRowUpdate(row.personSlug, {
+              scraped: true,
+              statusCode: result.statusCode,
+              fetchedAt: result.fetchedAt,
+              title: result.title,
             });
-            if (result.data) {
-              onRowUpdate(row.personSlug, {
-                scraped: true,
-                statusCode: result.data.statusCode,
-                fetchedAt: result.data.fetchedAt,
-                title: result.data.title,
-              });
-            } else {
-              onRowUpdate(row.personSlug, {
-                scraped: true,
-                statusCode: null,
-                fetchedAt: new Date().toISOString(),
-              });
-            }
           } catch {
             onRowUpdate(row.personSlug, {
               scraped: true,
@@ -132,26 +128,14 @@ function Stat({ label, value, className }: { label: string; value: number; class
 }
 
 function ScrapePage() {
-  const [data, setData] = useState<DashboardPayload | null>(null);
-  const [loading, setLoading] = useState(true);
+  const { data, isLoading } = useQuery<DashboardPayload>({
+    queryKey: ['site-tools', 'pipeline.getScrapeStatus'],
+    queryFn: apiGetScrapeStatus,
+    retry: false,
+    enabled: typeof window !== 'undefined',
+  });
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const payload = await $getScrapeStatus();
-        if (!cancelled) setData(payload);
-      } catch {
-        if (!cancelled) setData(null);
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => { cancelled = true; };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading scrape data...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading scrape data...</p>;
   if (!data) return <p className="text-muted-foreground">Failed to load scrape status.</p>;
 
   return <ScrapeTable initialData={data} />;
@@ -179,7 +163,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
       while (nextIndex < slugs.length) {
         const idx = nextIndex++;
         try {
-          await $reScrapeAndExtract({ data: { personSlug: slugs[idx] } });
+          await apiRescrapeAndExtract(slugs[idx]);
         } catch {
           // continue with next
         }
@@ -195,7 +179,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
     setScrapeSelectedBusy(false);
     clearSelection();
     try {
-      const payload = await $getScrapeStatus();
+      const payload = await apiGetScrapeStatus();
       setData(payload);
     } catch { /* ignore */ }
   }

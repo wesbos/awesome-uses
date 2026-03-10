@@ -8,7 +8,7 @@ import { zodResponseFormat } from 'openai/helpers/zod';
 
 export const ExtractedItem = z.object({
   item: z.string().describe('Product or tool name normalized to model level, e.g. "MacBook Pro", "VS Code", "Sony WH-1000XM4"'),
-  categories: z.array(z.string()).describe('What kind of thing this is. e.g. ["editor"], ["keyboard"], ["computer"], ["productivity", "note-taking"]'),
+  tags: z.array(z.string()).describe('What kind of thing this is. e.g. ["editor"], ["keyboard"], ["computer"], ["productivity", "note-taking"]'),
   detail: z.string().nullable().describe('Specifics: size, year, specs, color. e.g. "16-inch, 2019, i9, 64GB RAM"'),
 });
 
@@ -36,7 +36,7 @@ For each distinct item mentioned, return:
     "Visual Studio Code" → item: "VS Code", detail: null
     "Keychron K2 v2 Brown switches" → item: "Keychron K2", detail: "v2, Brown switches"
 
-- categories: lowercase labels describing WHAT KIND OF THING this item is. Pick from this reference list when possible:
+- tags: lowercase labels describing WHAT KIND OF THING this item is. Pick from this reference list when possible:
     editor: VS Code, Neovim, Sublime Text, Cursor, Vim, IntelliJ IDEA, WebStorm
     terminal: iTerm2, Warp, Ghostty, Alacritty, Hyper, Windows Terminal
     shell-tool: Oh My Zsh, tmux, Starship, zoxide, fzf, ripgrep, bat, eza
@@ -79,15 +79,15 @@ For each distinct item mentioned, return:
     vpn: Mullvad, NordVPN, Tailscale, WireGuard
     other: anything that doesn't fit the above
 
-  You may use multiple categories when appropriate (e.g. VS Code → ["editor"], Notion → ["productivity"], Docker → ["dev-tool", "server"]).
-  Invent a new category ONLY if nothing above fits. Keep it short and lowercase.
+  You may use multiple tags when appropriate (e.g. VS Code → ["editor"], Notion → ["productivity"], Docker → ["dev-tool", "server"]).
+  Invent a new tag ONLY if nothing above fits. Keep it short and lowercase.
 
 - detail: brief specifics from the page (size, year, model variant, specs, color), or null if none.
 
 Rules:
 - Only extract items the author actually uses, not items they mention in passing or recommend against.
 - Do NOT extract raw specs as items (e.g. "64GB RAM", "AMD Ryzen 5 3600" are details of a computer, not standalone items).
-- Do NOT use these as categories: "programming", "web", "utility", "apple", "mac", "wireless", "ergonomic", "mobile", "client", "graphics", "google". These describe context, not what the item IS.
+- Do NOT use these as tags: "programming", "web", "utility", "apple", "mac", "wireless", "ergonomic", "mobile", "client", "graphics", "google". These describe context, not what the item IS.
 - If the page has no extractable items, return an empty items array.`;
 
 export const DEFAULT_EXTRACTION_MODEL = 'gpt-5-mini';
@@ -262,7 +262,7 @@ export function normalizeItem(item: ExtractedItemType): ExtractedItemType {
     detail = detail ? `${year}, ${detail}` : year;
   }
 
-  const categories = item.categories
+  const tags = item.tags
     .map((c) => c.toLowerCase().trim())
     .map((c) => {
       if (c in CATEGORY_MERGES) return CATEGORY_MERGES[c];
@@ -270,11 +270,11 @@ export function normalizeItem(item: ExtractedItemType): ExtractedItemType {
     })
     .filter((c): c is string => c !== null);
 
-  const uniqueCategories = [...new Set(categories)];
+  const uniqueTags = [...new Set(tags)];
 
   return {
     item: name,
-    categories: uniqueCategories.length > 0 ? uniqueCategories : ['other'],
+    tags: uniqueTags.length > 0 ? uniqueTags : ['other'],
     detail,
   };
 }
@@ -283,8 +283,8 @@ export function normalizeItems(items: ExtractedItemType[]): ExtractedItemType[] 
   return items.map(normalizeItem);
 }
 
-// Banned categories used for extraction review quality checks
-export const BANNED_CATEGORIES = [
+// Banned tags used for extraction review quality checks
+export const BANNED_TAGS = [
   'programming', 'web', 'utility', 'apple', 'mac', 'wireless',
   'ergonomic', 'mobile', 'client', 'graphics', 'google',
 ];

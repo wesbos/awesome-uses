@@ -5,7 +5,9 @@ import { getPersonBySlug } from '../lib/data';
 import { getAvatarUrl } from '../lib/avatar';
 import { extractCompaniesFromText } from '../lib/company-logos';
 import type { PersonItem, ScrapedProfileData } from '../lib/types';
-import { $getScrapedProfile, $getPersonItems } from '../server/fn/profiles';
+import { $getScrapedProfile, $getPersonItems, $getGitHubStats } from '../server/fn/profiles';
+import type { GitHubStats } from '../server/github';
+import { GitHubStatsCard } from '../components/GitHubStatsCard';
 import { $getSimilarPeople, type SimilarPerson, type VectorizeDebug } from '../server/fn/vectorize';
 import { $trackView } from '../server/fn/admin';
 import { Badge } from '@/components/ui/badge';
@@ -18,19 +20,18 @@ import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
 
 export const Route = createFileRoute('/people/$personSlug')({
-  head: ({ loaderData }) => {
-    if (!loaderData?.person) return { meta: [] };
-    const { person } = loaderData;
-    const desc = person.description || `${person.name}'s developer setup and tools.`;
+  head: ({ params }: { params: { personSlug: string } }) => {
+    const name = params.personSlug.replace(/-/g, ' ');
+    const desc = `${name}'s developer setup and tools.`;
     return buildMeta({
-      title: `${person.name}'s /uses`,
+      title: `${name}'s /uses`,
       description: desc,
-      ogImage: ogImageUrl({ title: person.name, subtitle: desc }),
-      canonical: `${SITE_URL}/people/${person.personSlug}`,
+      ogImage: ogImageUrl({ title: name, subtitle: desc }),
+      canonical: `${SITE_URL}/people/${params.personSlug}`,
       type: 'profile',
     });
   },
-  loader: async ({ params }) => {
+  loader: async ({ params }: { params: { personSlug: string } }) => {
     const person = getPersonBySlug(params.personSlug);
     if (!person) {
       throw notFound();
@@ -39,10 +40,11 @@ export const Route = createFileRoute('/people/$personSlug')({
       similar: [] as SimilarPerson[],
       debug: { hasBinding: false, personSlug: person.personSlug, rawJson: '{}', error: 'catch' } as VectorizeDebug,
     };
-    const [scrapeResult, items, similarResult] = await Promise.all([
+    const [scrapeResult, items, similarResult, githubStats] = await Promise.all([
       $getScrapedProfile({ data: person.personSlug }).catch(() => null),
       $getPersonItems({ data: person.personSlug }).catch(() => [] as PersonItem[]),
       $getSimilarPeople({ data: person.personSlug }).catch(() => defaultSimilarResult),
+      $getGitHubStats({ data: person.personSlug }).catch((e) => { console.error('[github] fetch failed', e); return null; }),
     ]);
     return {
       person,
@@ -50,13 +52,21 @@ export const Route = createFileRoute('/people/$personSlug')({
       items,
       similarPeople: similarResult.similar,
       vectorizeDebug: similarResult.debug,
+      githubStats,
     };
   },
   component: PersonPage,
-});
+} as any);
 
 function PersonPage() {
-  const { person, scraped, items, similarPeople, vectorizeDebug } = Route.useLoaderData();
+  const { person, scraped, items, similarPeople, vectorizeDebug, githubStats } = Route.useLoaderData() as {
+    person: NonNullable<ReturnType<typeof getPersonBySlug>>;
+    scraped: ScrapedProfileData | null;
+    items: PersonItem[];
+    similarPeople: SimilarPerson[];
+    vectorizeDebug: VectorizeDebug;
+    githubStats: GitHubStats | null;
+  };
   const companies = extractCompaniesFromText(person.description);
   const avatarUrl = getAvatarUrl(person);
   const country = countryName(person.country);
@@ -141,6 +151,8 @@ function PersonPage() {
           </div>
         </CardContent>
       </Card>
+
+      {githubStats && <GitHubStatsCard stats={githubStats} />}
 
       {items.length > 0 && (
         <Card>

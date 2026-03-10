@@ -1,4 +1,6 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest';
+import { env } from 'cloudflare:workers';
+import { getAllScrapeSummaries, getScrapedProfileBySlug } from './db/profiles.server';
 
 type FakeRow = {
   personSlug: string;
@@ -45,16 +47,16 @@ vi.mock('cloudflare:workers', () => ({
 }));
 
 async function setCfEnv(env: Record<string, unknown>) {
-  const mod = await import('cloudflare:workers');
-  Object.assign(mod.env, env);
+  Object.assign(envModule, env);
 }
 
 async function clearCfEnv() {
-  const mod = await import('cloudflare:workers');
-  for (const key of Object.keys(mod.env)) {
-    delete (mod.env as Record<string, unknown>)[key];
+  for (const key of Object.keys(envModule)) {
+    delete (envModule as Record<string, unknown>)[key];
   }
 }
+
+const envModule = env as Record<string, unknown>;
 
 describe('d1 helpers', () => {
   beforeEach(async () => {
@@ -63,7 +65,6 @@ describe('d1 helpers', () => {
 
   it('returns null when D1 binding is unavailable', async () => {
     await setCfEnv({});
-    const { getScrapedProfileBySlug } = await import('./db/profiles.server');
 
     const data = await getScrapedProfileBySlug('person-1');
     expect(data).toBeNull();
@@ -71,7 +72,6 @@ describe('d1 helpers', () => {
 
   it('returns empty arrays when D1 binding is unavailable', async () => {
     await setCfEnv({});
-    const { getAllScrapeSummaries } = await import('./db/profiles.server');
 
     const data = await getAllScrapeSummaries();
     expect(data).toEqual([]);

@@ -1,7 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router';
+import { useMutation } from '@tanstack/react-query';
 import { useState } from 'react';
-import { $batchExtractItems, $batchVectorize, type BatchExtractResult, type BatchVectorizeResult } from '../../server/fn/vectorize';
-import { $findDuplicateItems, $mergeItems, type DuplicateGroup } from '../../server/fn/items';
+import type { BatchExtractResult, BatchVectorizeResult } from '../../server/fn/vectorize';
+import type { DuplicateGroup } from '../../server/fn/items';
+import {
+  apiBatchExtractItems,
+  apiBatchVectorize,
+  apiFindDuplicateItems,
+  apiMergeItems,
+} from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
@@ -27,12 +34,15 @@ function BatchExtractCard() {
   const [skipExisting, setSkipExisting] = useState(true);
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<BatchExtractResult | null>(null);
+  const extractMutation = useMutation({
+    mutationFn: apiBatchExtractItems,
+  });
 
   async function run() {
     setBusy(true);
     setResult(null);
     try {
-      const res = await $batchExtractItems({ data: { limit, skipExisting } });
+      const res = await extractMutation.mutateAsync({ limit, skipExisting });
       setResult(res);
     } catch (err) {
       setResult({ processed: 0, totalItems: 0, errors: 1, results: [{ personSlug: '', itemCount: 0, error: err instanceof Error ? err.message : 'Failed' }] });
@@ -97,12 +107,15 @@ function BatchVectorizeCard() {
   const [skipExisting, setSkipExisting] = useState(true);
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<BatchVectorizeResult | null>(null);
+  const vectorizeMutation = useMutation({
+    mutationFn: apiBatchVectorize,
+  });
 
   async function run() {
     setBusy(true);
     setResult(null);
     try {
-      const res = await $batchVectorize({ data: { limit, skipExisting } });
+      const res = await vectorizeMutation.mutateAsync({ limit, skipExisting });
       setResult(res);
     } catch {
       setResult({ processed: 0, vectorized: 0, errors: 1 });
@@ -155,13 +168,19 @@ function AutoMergeDupesCard() {
   const [loading, setLoading] = useState(false);
   const [merging, setMerging] = useState(false);
   const [mergeResult, setMergeResult] = useState<string | null>(null);
+  const duplicatesMutation = useMutation({
+    mutationFn: apiFindDuplicateItems,
+  });
+  const mergeMutation = useMutation({
+    mutationFn: apiMergeItems,
+  });
 
   async function scan() {
     setLoading(true);
     setGroups(null);
     setMergeResult(null);
     try {
-      const result = await $findDuplicateItems();
+      const result = await duplicatesMutation.mutateAsync();
       setGroups(result);
     } catch {
       setGroups([]);
@@ -178,11 +197,9 @@ function AutoMergeDupesCard() {
     let errors = 0;
     for (const group of groups) {
       try {
-        await $mergeItems({
-          data: {
-            canonicalItem: group.canonical,
-            sourceItems: group.variants.map((v) => v.item),
-          },
+        await mergeMutation.mutateAsync({
+          canonicalItem: group.canonical,
+          sourceItems: group.variants.map((v) => v.item),
         });
         merged++;
       } catch {

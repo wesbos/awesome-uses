@@ -20,7 +20,7 @@ This will output hardware model, OS, display info, and installed developer tools
 
 ### Step 2: Interview — Hardware
 
-Ask about each category. Don't ask all at once — go category by category, confirming and expanding on each answer before moving to the next.
+Ask about each section. Don't ask all at once — go section by section, confirming and expanding on each answer before moving to the next.
 
 **Computer**
 - What computer(s) do you use? (e.g. MacBook Pro 16" M4 Max, custom PC build, ThinkPad X1 Carbon)
@@ -85,7 +85,7 @@ After gathering initial answers:
    - "You mentioned VS Code — do you have a specific theme or must-have extensions?"
    - "Any dotfiles or config repos you'd like to link?"
    - "Anything unusual or unique about your setup that people would find interesting?"
-3. Ask if there are categories they want to add:
+3. Ask if there are sections they want to add:
    - Gaming setup
    - Home office lighting/ambiance
    - Self-hosting / homelab
@@ -135,7 +135,7 @@ Ask the user their preferred format, then generate the page:
 - Add a personal touch: what makes YOUR setup unique?
 - Photos of your desk setup are a huge plus (mention this to the user)
 
-## Common Categories from Existing /uses Pages
+## Common Sections from Existing /uses Pages
 
 Based on analysis of hundreds of developer /uses pages, the most common sections are:
 

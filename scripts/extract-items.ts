@@ -110,7 +110,7 @@ async function main() {
         if (normalized.length > 0) {
           const statements = normalized.map((item) =>
             `INSERT INTO person_items (person_slug, item, tags_json, detail, extracted_at)
-             VALUES (${sqlValue(row.personSlug)}, ${sqlValue(item.item)}, ${sqlValue(JSON.stringify(item.categories))}, ${sqlValue(item.detail)}, ${sqlValue(extractedAt)})
+             VALUES (${sqlValue(row.personSlug)}, ${sqlValue(item.item)}, ${sqlValue(JSON.stringify(item.tags))}, ${sqlValue(item.detail)}, ${sqlValue(extractedAt)})
              ON CONFLICT(person_slug, item) DO UPDATE SET
                tags_json=excluded.tags_json,
                detail=excluded.detail,

@@ -100,18 +100,18 @@ export async function getTagDetailBySlug(
   };
 }
 
-export async function getExtractedCategories(): Promise<string[]> {
+export async function getExtractedTags(): Promise<string[]> {
   const db = resolveDb();
   if (!db) return [];
 
   try {
-    const rows = await db.all<{ category: string }>(
-      sql`SELECT DISTINCT j.value as category
+    const rows = await db.all<{ tag: string }>(
+      sql`SELECT DISTINCT j.value as tag
           FROM person_items, json_each(person_items.tags_json) j
-          ORDER BY category`
+          ORDER BY tag`
     );
 
-    return rows.map((row) => row.category).filter(Boolean);
+    return rows.map((row) => row.tag).filter(Boolean);
   } catch {
     return [];
   }
@@ -124,15 +124,15 @@ export type ReclassifyCandidate = {
 };
 
 export async function getReclassifyCandidates(
-  category: string,
+  tag: string,
   minUsers: number,
   limit: number,
 ): Promise<ReclassifyCandidate[]> {
   const db = resolveDb();
   if (!db) return [];
 
-  const safeCategory = category.trim();
-  if (!safeCategory) return [];
+  const safeTag = tag.trim();
+  if (!safeTag) return [];
 
   const safeMinUsers = Math.max(1, minUsers);
   const safeLimit = Math.max(1, Math.min(limit, 500));
@@ -144,7 +144,7 @@ export async function getReclassifyCandidates(
             COUNT(DISTINCT person_slug) as count,
             GROUP_CONCAT(DISTINCT person_slug) as people
           FROM person_items
-          WHERE tags_json LIKE ${`%"${safeCategory}"%`}
+          WHERE tags_json LIKE ${`%"${safeTag}"%`}
           GROUP BY item
           HAVING count >= ${safeMinUsers}
           ORDER BY count DESC, item ASC
@@ -163,7 +163,7 @@ export async function getReclassifyCandidates(
 
 export type ReclassifyAssignment = {
   item: string;
-  categories: string[];
+  tags: string[];
 };
 
 export type ReclassifyApplyResult = {
@@ -172,24 +172,24 @@ export type ReclassifyApplyResult = {
 };
 
 export async function applyTagReclassification(
-  category: string,
+  tag: string,
   assignments: ReclassifyAssignment[],
 ): Promise<ReclassifyApplyResult> {
   const db = resolveDb();
   if (!db) return { updatedRows: 0, updatedItems: 0 };
 
-  const normalizedCategory = category.trim();
-  if (!normalizedCategory) return { updatedRows: 0, updatedItems: 0 };
+  const normalizedTag = tag.trim();
+  if (!normalizedTag) return { updatedRows: 0, updatedItems: 0 };
 
   const assignmentMap = new Map<string, string[]>();
   for (const assignment of assignments) {
     const item = assignment.item.trim();
     if (!item) continue;
-    const categories = uniqueSorted(
-      assignment.categories.map((entry) => entry.trim()).filter(Boolean)
+    const tags = uniqueSorted(
+      assignment.tags.map((entry) => entry.trim()).filter(Boolean)
     );
-    if (categories.length === 0) continue;
-    assignmentMap.set(item, categories);
+    if (tags.length === 0) continue;
+    assignmentMap.set(item, tags);
   }
 
   if (assignmentMap.size === 0) {
@@ -203,18 +203,18 @@ export async function applyTagReclassification(
       tagsJson: schema.personItems.tagsJson,
     })
     .from(schema.personItems)
-    .where(like(schema.personItems.tagsJson, `%"${normalizedCategory}"%`));
+    .where(like(schema.personItems.tagsJson, `%"${normalizedTag}"%`));
 
   let updatedRows = 0;
   const touchedItems = new Set<string>();
 
   for (const row of rows) {
-    const nextCategories = assignmentMap.get(row.item);
-    if (!nextCategories) continue;
+    const nextTags = assignmentMap.get(row.item);
+    if (!nextTags) continue;
 
     const currentTags = parseTagsJson(row.tagsJson);
-    const withoutOld = currentTags.filter((entry) => entry !== normalizedCategory);
-    const merged = uniqueSorted([...withoutOld, ...nextCategories]);
+    const withoutOld = currentTags.filter((entry) => entry !== normalizedTag);
+    const merged = uniqueSorted([...withoutOld, ...nextTags]);
     const mergedJson = JSON.stringify(merged);
 
     if (mergedJson === row.tagsJson) continue;

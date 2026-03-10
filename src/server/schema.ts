@@ -58,3 +58,20 @@ export const items = sqliteTable('items', {
   itemUrl: text('item_url'),
   enrichedAt: text('enriched_at'),
 });
+
+export const githubProfiles = sqliteTable('github_profiles', {
+  personSlug: text('person_slug').primaryKey(),
+  githubUsername: text('github_username').notNull(),
+  dataJson: text('data_json').notNull(),
+  fetchedAt: text('fetched_at').notNull(),
+  expiresAt: text('expires_at').notNull(),
+}, (table) => [
+  index('idx_github_profiles_expires_at').on(table.expiresAt),
+  index('idx_github_profiles_github_username').on(table.githubUsername),
+]);
+
+export const siteManagementVectors = sqliteTable('site_management_vectors', {
+  personSlug: text('person_slug').primaryKey(),
+  embeddingJson: text('embedding_json').notNull(),
+  updatedAt: text('updated_at').notNull(),
+});

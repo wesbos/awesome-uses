@@ -18,7 +18,8 @@
       "ReactNative",
       "IndieHacker",
       "SideProjects"
-    ]
+    ],
+    "personSlug": "berat-bozkurt"
   },
   {
     "name": "Vlad Savruk",
@@ -44,7 +45,8 @@
       "InDesign",
       "Raycast",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "vlad-savruk"
   },
   {
     "name": "Phuc Bui",
@@ -68,7 +70,8 @@
       "Freelance",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "phuc-bui"
   },
   {
     "name": "Loic Leray",
@@ -99,7 +102,8 @@
       "Photo",
       "Video",
       "Youtube"
-    ]
+    ],
+    "personSlug": "loic-leray"
   },
   {
     "name": "Hayo Bethlehem",
@@ -124,7 +128,8 @@
       "Waterfox",
       "Gitlab",
       "Open Source"
-    ]
+    ],
+    "personSlug": "hayo-bethlehem"
   },
   {
     "name": "Guilherme Albert",
@@ -144,7 +149,8 @@
       "Node.js",
       "AI Agents",
       "Blockchain"
-    ]
+    ],
+    "personSlug": "guilherme-albert"
   },
   {
     "name": "Sahil Kapoor",
@@ -173,7 +179,8 @@
       "Blogger",
       "AI",
       "GitHub"
-    ]
+    ],
+    "personSlug": "sahil-kapoor"
   },
   {
     "name": "Jared Rigby",
@@ -200,7 +207,8 @@
       "JavaScript",
       "Full Stack",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "jared-rigby"
   },
   {
     "name": "Daniel Marcinkowski",
@@ -233,7 +241,8 @@
       "Self taught",
       "Marketer",
       "Content Creator"
-    ]
+    ],
+    "personSlug": "daniel-marcinkowski"
   },
   {
     "name": "Piers Olenski",
@@ -267,7 +276,8 @@
       "Neovim",
       "Mentor",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "piers-olenski"
   },
   {
     "name": "Christian Hain",
@@ -325,7 +335,8 @@
       "Software Engineer",
       "Developer Advocate",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "christian-hain"
   },
   {
     "name": "Jeroen van Meerendonk",
@@ -350,7 +361,8 @@
       "Self taught",
       "TailwindCSS",
       "UI/UX"
-    ]
+    ],
+    "personSlug": "jeroen-van-meerendonk"
   },
   {
     "name": "Ivan",
@@ -370,7 +382,8 @@
       "Sport",
       "Keyboard",
       "Videogames"
-    ]
+    ],
+    "personSlug": "ivan"
   },
   {
     "name": "Ilya Glebov",
@@ -400,7 +413,8 @@
       "PostgreSQL",
       "TailwindCSS",
       "Locust"
-    ]
+    ],
+    "personSlug": "ilya-glebov"
   },
   {
     "name": "Alex Koval",
@@ -439,7 +453,8 @@
       "Design",
       "Photo",
       "Video"
-    ]
+    ],
+    "personSlug": "alex-koval"
   },
   {
     "name": "Matthew Javelet",
@@ -459,7 +474,8 @@
       "Backend",
       "Full Stack",
       "SysAdmin"
-    ]
+    ],
+    "personSlug": "matthew-javelet"
   },
   {
     "name": "Iago Bruno",
@@ -487,7 +503,8 @@
       "Laravel",
       "TailwindCSS",
       "CSS"
-    ]
+    ],
+    "personSlug": "iago-bruno"
   },
   {
     "name": "Railly Hugo",
@@ -506,7 +523,8 @@
       "Rust",
       "TailwindCSS",
       "Bun"
-    ]
+    ],
+    "personSlug": "railly-hugo"
   },
   {
     "name": "matizeta",
@@ -533,7 +551,8 @@
       "Websites",
       "Minimalist",
       "Apple"
-    ]
+    ],
+    "personSlug": "matizeta"
   },
   {
     "name": "Rachel Cantor",
@@ -561,7 +580,8 @@
       "Astro",
       "Jest",
       "Node.js"
-    ]
+    ],
+    "personSlug": "rachel-cantor"
   },
   {
     "name": "Sayantan",
@@ -586,7 +606,8 @@
       "TailwindCSS",
       "CSS",
       "GitHub"
-    ]
+    ],
+    "personSlug": "sayantan"
   },
   {
     "name": "Joshua Blais",
@@ -610,7 +631,8 @@
       "Datastar",
       "Templ",
       "Forgejo"
-    ]
+    ],
+    "personSlug": "joshua-blais"
   },
   {
     "name": "Reilly Spitzfaden",
@@ -654,7 +676,8 @@
       "VCV Rack",
       "Fountain pens",
       "Photographer"
-    ]
+    ],
+    "personSlug": "reilly-spitzfaden"
   },
   {
     "name": "Joseph Horace",
@@ -684,7 +707,8 @@
       "Web Development",
       "Cloud Computing",
       "Open Source"
-    ]
+    ],
+    "personSlug": "joseph-horace"
   },
   {
     "name": "John Zanussi",
@@ -716,7 +740,8 @@
       "TailwindCSS",
       "TypeScript",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "john-zanussi"
   },
   {
     "name": "Bhautik Bavadiya AKA yesbhautik",
@@ -738,7 +763,8 @@
       "Founder",
       "DevRel",
       "Growth Manager"
-    ]
+    ],
+    "personSlug": "bhautik-bavadiya-aka-yesbhautik"
   },
   {
     "name": "Peter's Path",
@@ -754,7 +780,8 @@
     "phone": "iphone",
     "tags": [
       "Swift"
-    ]
+    ],
+    "personSlug": "peter-s-path"
   },
   {
     "name": "Mark Schmeiser",
@@ -790,7 +817,8 @@
       "Solutions Architect",
       "Terraform",
       "DevOps"
-    ]
+    ],
+    "personSlug": "mark-schmeiser"
   },
   {
     "name": "Tural Asgarov",
@@ -819,7 +847,8 @@
       "AWS",
       "NeoVIM",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "tural-asgarov"
   },
   {
     "name": "Franklin Ohaegbulam",
@@ -860,7 +889,8 @@
       "Vercel",
       "SCSS/SASS",
       "Netlify"
-    ]
+    ],
+    "personSlug": "franklin-ohaegbulam"
   },
   {
     "name": "Predrag Knezevic",
@@ -883,7 +913,8 @@
       "Tailwind CSS",
       "CSS",
       "Figma"
-    ]
+    ],
+    "personSlug": "predrag-knezevic"
   },
   {
     "name": "Lubna",
@@ -905,7 +936,8 @@
       "Frontend",
       "HTML/CSS",
       "Content Creator"
-    ]
+    ],
+    "personSlug": "lubna"
   },
   {
     "name": "Toby Nieboer",
@@ -929,7 +961,8 @@
       "Blogger",
       "Warp",
       "Speaker"
-    ]
+    ],
+    "personSlug": "toby-nieboer"
   },
   {
     "name": "Marco Goetze",
@@ -950,7 +983,8 @@
       "Linux",
       "Consulting",
       "Bookmarks"
-    ]
+    ],
+    "personSlug": "marco-goetze"
   },
   {
     "name": "Thohirah Husaini",
@@ -978,7 +1012,8 @@
       "AWS",
       "Software Engineer",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "thohirah-husaini"
   },
   {
     "name": "László Tóth",
@@ -998,7 +1033,8 @@
       "Backend",
       "Spring Boot",
       "Jekyll"
-    ]
+    ],
+    "personSlug": "laszlo-toth"
   },
   {
     "name": "Kevin Py",
@@ -1023,7 +1059,8 @@
       "Frontend",
       "Self taught",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "kevin-py"
   },
   {
     "name": "James Harding",
@@ -1049,7 +1086,8 @@
       "Pilot",
       "Airbus A350",
       "Airbus"
-    ]
+    ],
+    "personSlug": "james-harding"
   },
   {
     "name": "Luke Davis",
@@ -1072,7 +1110,8 @@
       "Self taught",
       "Websites",
       "Ableton"
-    ]
+    ],
+    "personSlug": "luke-davis"
   },
   {
     "name": "Charles Harwood",
@@ -1099,7 +1138,8 @@
       "Music producer",
       "ProTools",
       "Self taught"
-    ]
+    ],
+    "personSlug": "charles-harwood"
   },
   {
     "name": "Simon Vrachliotis",
@@ -1138,7 +1178,8 @@
       "Open Source Software",
       "Surfing",
       "Basketball"
-    ]
+    ],
+    "personSlug": "simon-vrachliotis"
   },
   {
     "name": "Jahidul Islam",
@@ -1168,7 +1209,8 @@
       "Writing",
       "Blogging",
       "Design"
-    ]
+    ],
+    "personSlug": "jahidul-islam"
   },
   {
     "name": "George-Paul Crețu",
@@ -1191,7 +1233,8 @@
       "PHP",
       "Laravel",
       "CSS"
-    ]
+    ],
+    "personSlug": "george-paul-cretu"
   },
   {
     "name": "Shiveen Pandita",
@@ -1208,7 +1251,8 @@
       "System Architecture",
       "Kotlin",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "shiveen-pandita"
   },
   {
     "name": "Scott Willsey",
@@ -1237,7 +1281,8 @@
       "Notion",
       "npm",
       "Raycast"
-    ]
+    ],
+    "personSlug": "scott-willsey"
   },
   {
     "name": "Volodymyr Obrizan",
@@ -1261,7 +1306,8 @@
       "Bash",
       "Web",
       "Raycast"
-    ]
+    ],
+    "personSlug": "volodymyr-obrizan"
   },
   {
     "name": "Prinz Piuz",
@@ -1293,7 +1339,8 @@
       "React",
       "ZSH",
       "Web"
-    ]
+    ],
+    "personSlug": "prinz-piuz"
   },
   {
     "name": "Marius Hauken",
@@ -1322,7 +1369,8 @@
       "Writer",
       "UI",
       "Problem Solver"
-    ]
+    ],
+    "personSlug": "marius-hauken"
   },
   {
     "name": "Justin Lam",
@@ -1345,7 +1393,8 @@
       "VS Code",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "justin-lam"
   },
   {
     "name": "Kaspars Dambis",
@@ -1378,7 +1427,8 @@
       "PHP",
       "Debian",
       "Docker"
-    ]
+    ],
+    "personSlug": "kaspars-dambis"
   },
   {
     "name": "K Gopal Krishna",
@@ -1398,7 +1448,8 @@
       "iTerm2",
       "Raycast",
       "Proxmox"
-    ]
+    ],
+    "personSlug": "k-gopal-krishna"
   },
   {
     "name": "Mike Simmonds",
@@ -1428,7 +1479,8 @@
       "Vercel",
       "Self taught",
       "Remote"
-    ]
+    ],
+    "personSlug": "mike-simmonds"
   },
   {
     "name": "Kenneth Schabrechts",
@@ -1485,7 +1537,8 @@
       "Freelancer",
       "Entrepeneur",
       "Content Creator"
-    ]
+    ],
+    "personSlug": "kenneth-schabrechts"
   },
   {
     "name": "Bence Fodor",
@@ -1511,7 +1564,8 @@
       "WordPress",
       "Windows",
       "VS Code"
-    ]
+    ],
+    "personSlug": "bence-fodor"
   },
   {
     "name": "Simon Depelchin",
@@ -1545,7 +1599,8 @@
       "Founder",
       "Entrepreneur",
       "Developer"
-    ]
+    ],
+    "personSlug": "simon-depelchin"
   },
   {
     "name": "Alphan Günaydın",
@@ -1567,7 +1622,8 @@
       "PHP",
       "CSS",
       "HTML"
-    ]
+    ],
+    "personSlug": "alphan-gunayd-n"
   },
   {
     "name": "Carlos D. Álvaro",
@@ -1596,7 +1652,8 @@
       "Ghostty",
       "Physics",
       "Programmer"
-    ]
+    ],
+    "personSlug": "carlos-d-alvaro"
   },
   {
     "name": "Abdul-Jabbar Bozdar",
@@ -1624,7 +1681,8 @@
       "Mathematics",
       "Physics",
       "Blogger"
-    ]
+    ],
+    "personSlug": "abdul-jabbar-bozdar"
   },
   {
     "name": "Jakob Greenfeld",
@@ -1646,7 +1704,8 @@
       "Remote",
       "Founder",
       "Developer"
-    ]
+    ],
+    "personSlug": "jakob-greenfeld"
   },
   {
     "name": "Bino Kochumol Varghese",
@@ -1667,7 +1726,8 @@
       "Back End",
       "SQL",
       "Markdown"
-    ]
+    ],
+    "personSlug": "bino-kochumol-varghese"
   },
   {
     "name": "John Hammond",
@@ -1687,7 +1747,8 @@
       "Markdown",
       "org-mode",
       "VS Code"
-    ]
+    ],
+    "personSlug": "john-hammond"
   },
   {
     "name": "Daniel Rotter",
@@ -1722,7 +1783,8 @@
       "Jekyll",
       "Blogger",
       "Developer"
-    ]
+    ],
+    "personSlug": "daniel-rotter"
   },
   {
     "name": "Adam Chamberlin",
@@ -1742,7 +1804,8 @@
       "Git",
       "GitHub",
       "WordPress"
-    ]
+    ],
+    "personSlug": "adam-chamberlin"
   },
   {
     "name": "Ryan Himmelwright",
@@ -1774,7 +1837,8 @@
       "IndieWeb",
       "Blogger",
       "11ty"
-    ]
+    ],
+    "personSlug": "ryan-himmelwright"
   },
   {
     "name": "Jon Seager",
@@ -1806,7 +1870,8 @@
       "Ubuntu",
       "VS Code",
       "Yubikey"
-    ]
+    ],
+    "personSlug": "jon-seager"
   },
   {
     "name": "Salomon Valverde",
@@ -1839,7 +1904,8 @@
       "Jekyll",
       "Chef Workstation",
       "Javascript"
-    ]
+    ],
+    "personSlug": "salomon-valverde"
   },
   {
     "name": "earendelmir",
@@ -1861,7 +1927,8 @@
       "linux",
       "iOS",
       "blogger"
-    ]
+    ],
+    "personSlug": "earendelmir"
   },
   {
     "name": "Adam Porkolab",
@@ -1892,7 +1959,8 @@
       "Web Development",
       "Wordpress",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "adam-porkolab"
   },
   {
     "name": "Sebastian Herrmann",
@@ -1925,7 +1993,8 @@
       "Web Development",
       "Wordpress",
       "ZSH"
-    ]
+    ],
+    "personSlug": "sebastian-herrmann"
   },
   {
     "name": "Dinesh Haribabu",
@@ -1950,7 +2019,8 @@
       "NoSQL",
       "PostgreSQL",
       "Cypress"
-    ]
+    ],
+    "personSlug": "dinesh-haribabu"
   },
   {
     "name": "Krishna Sahu",
@@ -1972,7 +2042,8 @@
       "Tailwind CSS",
       "AWS",
       "VS Code"
-    ]
+    ],
+    "personSlug": "krishna-sahu"
   },
   {
     "name": "Preshit Deorukhkar",
@@ -1994,7 +2065,8 @@
       "Photographer",
       "Creator",
       "Cinematorgrapher"
-    ]
+    ],
+    "personSlug": "preshit-deorukhkar"
   },
   {
     "name": "Sudan Chapagain",
@@ -2011,7 +2083,8 @@
       "nix",
       "nixos",
       "c"
-    ]
+    ],
+    "personSlug": "sudan-chapagain"
   },
   {
     "name": "Tim Benniks",
@@ -2031,7 +2104,8 @@
       "Vue",
       "GraphQL",
       "vscode"
-    ]
+    ],
+    "personSlug": "tim-benniks"
   },
   {
     "name": "Karthik Kadambi",
@@ -2062,7 +2136,8 @@
       "SEO",
       "Cloud",
       "AI"
-    ]
+    ],
+    "personSlug": "karthik-kadambi"
   },
   {
     "name": "Damian Cyrus",
@@ -2117,7 +2192,8 @@
       "Linux",
       "Manjaro",
       "Adobe CC"
-    ]
+    ],
+    "personSlug": "damian-cyrus"
   },
   {
     "name": "Allan Deutsch",
@@ -2142,7 +2218,8 @@
       "Full Stack",
       "Manager",
       "Remote"
-    ]
+    ],
+    "personSlug": "allan-deutsch"
   },
   {
     "name": "Gaurav Kesh Roushan",
@@ -2176,7 +2253,8 @@
       "Problem-Solving",
       "C++",
       "Java"
-    ]
+    ],
+    "personSlug": "gaurav-kesh-roushan"
   },
   {
     "name": "James Auble",
@@ -2203,7 +2281,8 @@
       "VS Code",
       "Remote",
       "Freelancer"
-    ]
+    ],
+    "personSlug": "james-auble"
   },
   {
     "name": "Andrew Bus",
@@ -2252,7 +2331,8 @@
       "TechLead",
       "Manager",
       "Machine Learning"
-    ]
+    ],
+    "personSlug": "andrew-bus"
   },
   {
     "name": "Ronny Coste",
@@ -2280,7 +2360,8 @@
       "Artist",
       "SEO",
       "Git"
-    ]
+    ],
+    "personSlug": "ronny-coste"
   },
   {
     "name": "Matt Obee",
@@ -2300,7 +2381,8 @@
       "Git",
       "VS Code",
       "Figma"
-    ]
+    ],
+    "personSlug": "matt-obee"
   },
   {
     "name": "Mariusz Szubryt",
@@ -2329,7 +2411,8 @@
       "AWS",
       "Supabase",
       "VS Code"
-    ]
+    ],
+    "personSlug": "mariusz-szubryt"
   },
   {
     "name": "Md Fazley Rabbi",
@@ -2355,7 +2438,8 @@
       "Docker",
       "VS Code",
       "Remote"
-    ]
+    ],
+    "personSlug": "md-fazley-rabbi"
   },
   {
     "name": "Colin Ramsay",
@@ -2374,7 +2458,8 @@
       "Remix",
       "Tailwind CSS",
       "Linux"
-    ]
+    ],
+    "personSlug": "colin-ramsay"
   },
   {
     "name": "Matthieu Bozec",
@@ -2395,7 +2480,8 @@
       "JavaScript",
       "Linux",
       "Remote"
-    ]
+    ],
+    "personSlug": "matthieu-bozec"
   },
   {
     "name": "Frank Adler",
@@ -2434,7 +2520,8 @@
       "Photoshop",
       "PixInsight",
       "GraXpert"
-    ]
+    ],
+    "personSlug": "frank-adler"
   },
   {
     "name": "Chris Funderburg",
@@ -2479,7 +2566,8 @@
       "CI/CD",
       "Ansible",
       "Indieweb"
-    ]
+    ],
+    "personSlug": "chris-funderburg"
   },
   {
     "name": "Dennis Sauvé",
@@ -2504,7 +2592,8 @@
       "Remote",
       "Ruby",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "dennis-sauve"
   },
   {
     "name": "Jana",
@@ -2524,7 +2613,8 @@
       "Next.js",
       "JavaScript",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "jana"
   },
   {
     "name": "Daniel Flanagan",
@@ -2550,7 +2640,8 @@
       "Kubernetes",
       "Developer",
       "Remote"
-    ]
+    ],
+    "personSlug": "daniel-flanagan"
   },
   {
     "name": "Jasper Lai",
@@ -2574,7 +2665,8 @@
       "UI",
       "UX",
       "web"
-    ]
+    ],
+    "personSlug": "jasper-lai"
   },
   {
     "name": "Akif Al Hakim",
@@ -2595,7 +2687,8 @@
       "Serverless",
       "JAMstack",
       "Front End"
-    ]
+    ],
+    "personSlug": "akif-al-hakim"
   },
   {
     "name": "Kalwabed Rizki",
@@ -2622,7 +2715,8 @@
       "Arch Linux",
       "Speaker",
       "Mentor"
-    ]
+    ],
+    "personSlug": "kalwabed-rizki"
   },
   {
     "name": "Eric T Grubaugh",
@@ -2645,7 +2739,8 @@
       "GitLab",
       "Eleventy",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "eric-t-grubaugh"
   },
   {
     "name": "James O'Neill",
@@ -2665,7 +2760,8 @@
       "Next.js",
       "Full Stack",
       "VS Code"
-    ]
+    ],
+    "personSlug": "james-o-neill"
   },
   {
     "name": "Hwee-Boon Yar",
@@ -2693,7 +2789,8 @@
       "Render",
       "Safari",
       "Swift"
-    ]
+    ],
+    "personSlug": "hwee-boon-yar"
   },
   {
     "name": "Jonas Hietala",
@@ -2716,7 +2813,8 @@
       "Blogger",
       "Software Engineer",
       "Lisp"
-    ]
+    ],
+    "personSlug": "jonas-hietala"
   },
   {
     "name": "Marshall Bowers",
@@ -2745,7 +2843,8 @@
       "Alacritty",
       "macOS",
       "Linux"
-    ]
+    ],
+    "personSlug": "marshall-bowers"
   },
   {
     "name": "Simon Gagnon",
@@ -2767,7 +2866,8 @@
       "Remote",
       "macOS",
       "Linux"
-    ]
+    ],
+    "personSlug": "simon-gagnon"
   },
   {
     "name": "Sho Koike",
@@ -2788,7 +2888,8 @@
       "Ubuntu",
       "Vercel",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "sho-koike"
   },
   {
     "name": "Michal Mazur",
@@ -2825,7 +2926,8 @@
       "Remote",
       "Architecture",
       "Software Engineer"
-    ]
+    ],
+    "personSlug": "michal-mazur"
   },
   {
     "name": "Khafizi Noh",
@@ -2855,7 +2957,8 @@
       "Fullstack",
       "Developer",
       "Remote"
-    ]
+    ],
+    "personSlug": "khafizi-noh"
   },
   {
     "name": "Theodoros Ploumis",
@@ -2882,7 +2985,8 @@
       "Developer",
       "Remote",
       "Freelancer"
-    ]
+    ],
+    "personSlug": "theodoros-ploumis"
   },
   {
     "name": "Dietrich Wambach",
@@ -2911,7 +3015,8 @@
       "Joplin",
       "Linux",
       "Arch"
-    ]
+    ],
+    "personSlug": "dietrich-wambach"
   },
   {
     "name": "Angel Cruz",
@@ -2938,7 +3043,8 @@
       "Developer",
       "WordPress",
       "Remote"
-    ]
+    ],
+    "personSlug": "angel-cruz"
   },
   {
     "name": "Mina Markham",
@@ -2962,7 +3068,8 @@
       "CSS",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "mina-markham"
   },
   {
     "name": "Saiful Alam Rakib",
@@ -2984,7 +3091,8 @@
       "React",
       "Frontend",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "saiful-alam-rakib"
   },
   {
     "name": "Sophie Koonin",
@@ -3005,7 +3113,8 @@
       "Eleventy",
       "Musician",
       "Speaker"
-    ]
+    ],
+    "personSlug": "sophie-koonin"
   },
   {
     "name": "Brandon Lim",
@@ -3050,7 +3159,8 @@
       ".NET",
       "Tailwind",
       "Solutions Architect"
-    ]
+    ],
+    "personSlug": "brandon-lim"
   },
   {
     "name": "Tim Bachmann",
@@ -3085,7 +3195,8 @@
       "Vue.js",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "tim-bachmann"
   },
   {
     "name": "Neil Gupta",
@@ -3102,7 +3213,8 @@
       "Full Stack",
       "Remote",
       "Developer"
-    ]
+    ],
+    "personSlug": "neil-gupta"
   },
   {
     "name": "Neil Grogan",
@@ -3130,7 +3242,8 @@
       "Remote",
       "Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "neil-grogan"
   },
   {
     "name": "Jose Munoz",
@@ -3148,7 +3261,8 @@
       "Figma",
       "Markdown",
       "Notion"
-    ]
+    ],
+    "personSlug": "jose-munoz"
   },
   {
     "name": "Ibrahim Nurul Huda",
@@ -3174,7 +3288,8 @@
       "Jamstack",
       "Markdown",
       "Developer"
-    ]
+    ],
+    "personSlug": "ibrahim-nurul-huda"
   },
   {
     "name": "uncenter",
@@ -3191,7 +3306,8 @@
       "SolidJS",
       "Tailwind CSS",
       "Python"
-    ]
+    ],
+    "personSlug": "uncenter"
   },
   {
     "name": "Ignatius Bagus",
@@ -3204,7 +3320,8 @@
       "SvelteKit",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "ignatius-bagus"
   },
   {
     "name": "Bob Reus",
@@ -3229,7 +3346,8 @@
       "CSS",
       "JavaScript",
       "eBooks"
-    ]
+    ],
+    "personSlug": "bob-reus"
   },
   {
     "name": "Alex Stepankov",
@@ -3316,7 +3434,8 @@
       "Web",
       "Windows",
       "Directus"
-    ]
+    ],
+    "personSlug": "alex-stepankov"
   },
   {
     "name": "Donavon West",
@@ -3359,7 +3478,8 @@
       "VS Code",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "donavon-west"
   },
   {
     "name": "Noah",
@@ -3378,7 +3498,8 @@
       "Blogger",
       "macOS",
       "Linux"
-    ]
+    ],
+    "personSlug": "noah"
   },
   {
     "name": "Jesse Idey",
@@ -3402,7 +3523,8 @@
       "Backend",
       "Frontend",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "jesse-idey"
   },
   {
     "name": "Raymond Luong",
@@ -3429,7 +3551,8 @@
       "Accessibility",
       "Developer",
       "Blogger"
-    ]
+    ],
+    "personSlug": "raymond-luong"
   },
   {
     "name": "Luka Harambasic",
@@ -3450,7 +3573,8 @@
       "Svelte",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "luka-harambasic"
   },
   {
     "name": "Justin Mahar",
@@ -3509,7 +3633,8 @@
       "Web Developer",
       "Web Development",
       "YouTuber"
-    ]
+    ],
+    "personSlug": "justin-mahar"
   },
   {
     "name": "Syofyan Zuhad",
@@ -3534,7 +3659,8 @@
       "DevOps",
       "Entrepreneur",
       "SEO"
-    ]
+    ],
+    "personSlug": "syofyan-zuhad"
   },
   {
     "name": "Zach Patrick",
@@ -3559,7 +3685,8 @@
       "React",
       "Svelte",
       "SvelteKit"
-    ]
+    ],
+    "personSlug": "zach-patrick"
   },
   {
     "name": "Adler Medrado",
@@ -3589,7 +3716,8 @@
       "GPG",
       "REST",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "adler-medrado"
   },
   {
     "name": "Zilvinas Kucinskas",
@@ -3617,7 +3745,8 @@
       "Entrepreneur",
       "SEO",
       "Maker"
-    ]
+    ],
+    "personSlug": "zilvinas-kucinskas"
   },
   {
     "name": "Carlos Alexandro Becker",
@@ -3639,7 +3768,8 @@
       "Kubernetes",
       "Linux",
       "Neovim"
-    ]
+    ],
+    "personSlug": "carlos-alexandro-becker"
   },
   {
     "name": "Andy Carolan",
@@ -3660,7 +3790,8 @@
       "Webflow",
       "Designer",
       "Remote"
-    ]
+    ],
+    "personSlug": "andy-carolan"
   },
   {
     "name": "Jeremiah Lee",
@@ -3686,7 +3817,8 @@
       "TypeScript",
       "VS Code",
       "Web Monetization"
-    ]
+    ],
+    "personSlug": "jeremiah-lee"
   },
   {
     "name": "Alex O'Reilly",
@@ -3719,7 +3851,8 @@
       "Student",
       "Self Taught",
       "No CS Degree"
-    ]
+    ],
+    "personSlug": "alex-o-reilly"
   },
   {
     "name": "Martin Bean",
@@ -3746,7 +3879,8 @@
       "scss",
       "sass",
       "remote"
-    ]
+    ],
+    "personSlug": "martin-bean"
   },
   {
     "name": "Arija A.",
@@ -3781,7 +3915,8 @@
       "git",
       "self taught",
       "minimalist"
-    ]
+    ],
+    "personSlug": "arija-a"
   },
   {
     "name": "Jaime Creixems",
@@ -3810,7 +3945,8 @@
       "Advisor",
       "Mentor",
       "VS Code"
-    ]
+    ],
+    "personSlug": "jaime-creixems"
   },
   {
     "name": "Dominic Ruggiero",
@@ -3826,7 +3962,8 @@
       "Node.js",
       "Javascript",
       "Ubuntu"
-    ]
+    ],
+    "personSlug": "dominic-ruggiero"
   },
   {
     "name": "Lucas Mancini",
@@ -3861,7 +3998,8 @@
       "GraphQL",
       "UX",
       "UI"
-    ]
+    ],
+    "personSlug": "lucas-mancini"
   },
   {
     "name": "Lars Magnus Klavenes",
@@ -3892,7 +4030,8 @@
       "Figma",
       "UX",
       "UI"
-    ]
+    ],
+    "personSlug": "lars-magnus-klavenes"
   },
   {
     "name": "Maicol Santos",
@@ -3917,7 +4056,8 @@
       "React Query",
       "GraphQL",
       "Developer"
-    ]
+    ],
+    "personSlug": "maicol-santos"
   },
   {
     "name": "Naty S",
@@ -3950,7 +4090,8 @@
       "Open Source",
       "Problem solver",
       "Self taught"
-    ]
+    ],
+    "personSlug": "naty-s"
   },
   {
     "name": "Carretta Riccardo",
@@ -3981,7 +4122,8 @@
       "UI",
       "Developer",
       "Designer"
-    ]
+    ],
+    "personSlug": "carretta-riccardo"
   },
   {
     "name": "Christian Babin",
@@ -4008,7 +4150,8 @@
       "Sublime Text",
       "Dart",
       "GIMP"
-    ]
+    ],
+    "personSlug": "christian-babin"
   },
   {
     "name": "Antonio Sarcevic",
@@ -4030,7 +4173,8 @@
       "Youtuber",
       "Gamer",
       "Music"
-    ]
+    ],
+    "personSlug": "antonio-sarcevic"
   },
   {
     "name": "Josh Medeski",
@@ -4060,7 +4204,8 @@
       "tmux",
       "TypeScript",
       "Vim"
-    ]
+    ],
+    "personSlug": "josh-medeski"
   },
   {
     "name": "Simon Rogers",
@@ -4087,7 +4232,8 @@
       "Angular",
       "Software Engineer",
       "Solutions Architect"
-    ]
+    ],
+    "personSlug": "simon-rogers"
   },
   {
     "name": "Allan Im",
@@ -4108,7 +4254,8 @@
       "AWS",
       "Software Engineer",
       "Solutions Architect"
-    ]
+    ],
+    "personSlug": "allan-im"
   },
   {
     "name": "Vijay Goswami",
@@ -4136,7 +4283,8 @@
       "Developer",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "vijay-goswami"
   },
   {
     "name": "Edimar Calebe Castanho",
@@ -4163,7 +4311,8 @@
       "DevOps",
       "Software Developer",
       "Embedded software developer"
-    ]
+    ],
+    "personSlug": "edimar-calebe-castanho"
   },
   {
     "name": "Ihtisham Khan",
@@ -4186,7 +4335,8 @@
       "Laravel Livewire",
       "PHP",
       "Developer"
-    ]
+    ],
+    "personSlug": "ihtisham-khan"
   },
   {
     "name": "Robb Knight",
@@ -4207,7 +4357,8 @@
       "Indieweb",
       "Markdown",
       "Developer"
-    ]
+    ],
+    "personSlug": "robb-knight"
   },
   {
     "name": "Riley",
@@ -4225,7 +4376,8 @@
       "ReactJS",
       "Django",
       "Leaflet"
-    ]
+    ],
+    "personSlug": "riley"
   },
   {
     "name": "Ryan Freeman",
@@ -4246,7 +4398,8 @@
       "AWS",
       "Node.js",
       "Next.js"
-    ]
+    ],
+    "personSlug": "ryan-freeman"
   },
   {
     "name": "Ivan Malopinsky",
@@ -4286,7 +4439,8 @@
       "Entrepreneur",
       "Back End",
       "UI"
-    ]
+    ],
+    "personSlug": "ivan-malopinsky"
   },
   {
     "name": "Murendeni Mukwevho",
@@ -4305,7 +4459,8 @@
       "ReactJS",
       "GatsbyJS",
       "Fastify"
-    ]
+    ],
+    "personSlug": "murendeni-mukwevho"
   },
   {
     "name": "Márk Mihályi",
@@ -4331,7 +4486,8 @@
       "MySQL",
       "MongoDB",
       "Linux"
-    ]
+    ],
+    "personSlug": "mark-mihalyi"
   },
   {
     "name": "James Neawedde",
@@ -4355,7 +4511,8 @@
       "Ollama",
       "Python",
       "SearXNG"
-    ]
+    ],
+    "personSlug": "james-neawedde"
   },
   {
     "name": "Vít Baisa",
@@ -4377,7 +4534,8 @@
       "Photographer",
       "Traveler",
       "Blogger"
-    ]
+    ],
+    "personSlug": "vit-baisa"
   },
   {
     "name": "Declan Chidlow",
@@ -4399,7 +4557,8 @@
       "Neovim",
       "Blogger",
       "Designer"
-    ]
+    ],
+    "personSlug": "declan-chidlow"
   },
   {
     "name": "Kendry Grullón",
@@ -4419,7 +4578,8 @@
       "Neovim",
       "VS Code",
       "SQL"
-    ]
+    ],
+    "personSlug": "kendry-grullon"
   },
   {
     "name": "Marko Bajlovic",
@@ -4445,7 +4605,8 @@
       "Developer",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "marko-bajlovic"
   },
   {
     "name": "Michael Amore",
@@ -4464,7 +4625,8 @@
       "Tailwind",
       "AWS",
       "Blogger"
-    ]
+    ],
+    "personSlug": "michael-amore"
   },
   {
     "name": "voitech",
@@ -4486,7 +4648,8 @@
       "Personal Knowledge Management",
       "Privacy",
       "Security"
-    ]
+    ],
+    "personSlug": "voitech"
   },
   {
     "name": "Alex Zee Comedy",
@@ -4515,7 +4678,8 @@
       "Comedy",
       "Github",
       "Inkscape"
-    ]
+    ],
+    "personSlug": "alex-zee-comedy"
   },
   {
     "name": "Seirdy",
@@ -4544,7 +4708,8 @@
       "Go",
       "Tor",
       "FFmpeg"
-    ]
+    ],
+    "personSlug": "seirdy"
   },
   {
     "name": "Ruslan Osipov",
@@ -4575,7 +4740,8 @@
       "FFmpeg",
       "Traveler",
       "Blogger"
-    ]
+    ],
+    "personSlug": "ruslan-osipov"
   },
   {
     "name": "H. Kamran",
@@ -4611,7 +4777,8 @@
       "Netlify",
       "Figma",
       "JSON"
-    ]
+    ],
+    "personSlug": "h-kamran"
   },
   {
     "name": "Catalin Ciubotaru",
@@ -4631,7 +4798,8 @@
       "Typescript",
       "Next",
       "Developer"
-    ]
+    ],
+    "personSlug": "catalin-ciubotaru"
   },
   {
     "name": "Daniel Roe",
@@ -4652,7 +4820,8 @@
       "Nuxt.js",
       "Vue",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "daniel-roe"
   },
   {
     "name": "Alberto Ventafridda",
@@ -4678,7 +4847,8 @@
       "UI/UX",
       "css",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "alberto-ventafridda"
   },
   {
     "name": "Vikash Patel",
@@ -4709,7 +4879,8 @@
       "Developer",
       "linux",
       "bash"
-    ]
+    ],
+    "personSlug": "vikash-patel"
   },
   {
     "name": "Devika Bhapkar",
@@ -4739,7 +4910,8 @@
       "Developer",
       "linux",
       "bash"
-    ]
+    ],
+    "personSlug": "devika-bhapkar"
   },
   {
     "name": "Shariq Raza Qadri",
@@ -4758,7 +4930,8 @@
       "Designer",
       "Python",
       "Javascript"
-    ]
+    ],
+    "personSlug": "shariq-raza-qadri"
   },
   {
     "name": "John Floren",
@@ -4776,7 +4949,8 @@
       "computer engineer",
       "shell",
       "history"
-    ]
+    ],
+    "personSlug": "john-floren"
   },
   {
     "name": "Stijn Elskens",
@@ -4802,7 +4976,8 @@
       "Laravel",
       "Front End",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "stijn-elskens"
   },
   {
     "name": "Rico van Zelst",
@@ -4822,7 +4997,8 @@
       "Developer",
       "AlpineJS",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "rico-van-zelst"
   },
   {
     "name": "Daine Mawer",
@@ -4845,7 +5021,8 @@
       "CSS3",
       "Web Performance",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "daine-mawer"
   },
   {
     "name": "Taras Kliushta",
@@ -4867,7 +5044,8 @@
       "Frontend",
       "CSS",
       "HTML"
-    ]
+    ],
+    "personSlug": "taras-kliushta"
   },
   {
     "name": "Tobias Sjösten",
@@ -4913,7 +5091,8 @@
       "Automation",
       "Infrastructure",
       "Google Cloud Platform"
-    ]
+    ],
+    "personSlug": "tobias-sjosten"
   },
   {
     "name": "Nick Reutlinger",
@@ -4940,7 +5119,8 @@
       "linux",
       "vercel",
       "vite"
-    ]
+    ],
+    "personSlug": "nick-reutlinger"
   },
   {
     "name": "Rebecca Owen",
@@ -4964,7 +5144,8 @@
       "Vim",
       "Git",
       "GitHub"
-    ]
+    ],
+    "personSlug": "rebecca-owen"
   },
   {
     "name": "Gavin Pereira",
@@ -4992,7 +5173,8 @@
       "GSAP",
       "Python",
       "Contentful CMS"
-    ]
+    ],
+    "personSlug": "gavin-pereira"
   },
   {
     "name": "Tim Mouskhelichvili",
@@ -5013,7 +5195,8 @@
       "Git",
       "Node.js",
       "React"
-    ]
+    ],
+    "personSlug": "tim-mouskhelichvili"
   },
   {
     "name": "Jayden Garridan Bridges",
@@ -5033,7 +5216,8 @@
       "Hugo",
       "Android",
       "macOS"
-    ]
+    ],
+    "personSlug": "jayden-garridan-bridges"
   },
   {
     "name": "Vladimir Vo",
@@ -5058,7 +5242,8 @@
       "Vercel",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "vladimir-vo"
   },
   {
     "name": "Joseph Shambrook",
@@ -5093,7 +5278,8 @@
       "Serverless",
       "GitHub",
       "Git"
-    ]
+    ],
+    "personSlug": "joseph-shambrook"
   },
   {
     "name": "Andy Cetnarskyj",
@@ -5119,7 +5305,8 @@
       "Prismic",
       "Netlify",
       "React"
-    ]
+    ],
+    "personSlug": "andy-cetnarskyj"
   },
   {
     "name": "Arvin Zhao",
@@ -5145,7 +5332,8 @@
       "Tailwind CSS",
       "Cloudflare",
       "Vercel"
-    ]
+    ],
+    "personSlug": "arvin-zhao"
   },
   {
     "name": "Akash Rajpurohit",
@@ -5174,7 +5362,8 @@
       "Docker",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "akash-rajpurohit"
   },
   {
     "name": "Lukas Leuba",
@@ -5198,7 +5387,8 @@
       "Bash",
       "kitty",
       "Hugo"
-    ]
+    ],
+    "personSlug": "lukas-leuba"
   },
   {
     "name": "Marko Kaartinen",
@@ -5223,7 +5413,8 @@
       "Web Development",
       "macOS",
       "Gamer"
-    ]
+    ],
+    "personSlug": "marko-kaartinen"
   },
   {
     "name": "Bala Hantsi",
@@ -5250,7 +5441,8 @@
       "SQL",
       "Ubuntu",
       "Nigeria"
-    ]
+    ],
+    "personSlug": "bala-hantsi"
   },
   {
     "name": "Lasha Tatulashvili",
@@ -5275,7 +5467,8 @@
       "Sanity",
       "Webstorm",
       "IntelliJ"
-    ]
+    ],
+    "personSlug": "lasha-tatulashvili"
   },
   {
     "name": "Renan Moura",
@@ -5297,7 +5490,8 @@
       "Databases",
       "Containers",
       "Linux"
-    ]
+    ],
+    "personSlug": "renan-moura"
   },
   {
     "name": "David Vidmar",
@@ -5317,7 +5511,8 @@
       "productivity",
       "slovenia",
       "smarthome"
-    ]
+    ],
+    "personSlug": "david-vidmar"
   },
   {
     "name": "Lazar Miseljic",
@@ -5342,7 +5537,8 @@
       "Firebase",
       "Directus",
       "Netlify"
-    ]
+    ],
+    "personSlug": "lazar-miseljic"
   },
   {
     "name": "Marco Heine",
@@ -5362,7 +5558,8 @@
       "Gatsby",
       "Freelancer",
       "Blogger"
-    ]
+    ],
+    "personSlug": "marco-heine"
   },
   {
     "name": "Eduar Bastidas",
@@ -5390,7 +5587,8 @@
       "Developer",
       "Prestashop",
       "Remote"
-    ]
+    ],
+    "personSlug": "eduar-bastidas"
   },
   {
     "name": "Albert Zhang",
@@ -5413,7 +5611,8 @@
       "VS Code",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "albert-zhang"
   },
   {
     "name": "Bumhan \"B\" Yu",
@@ -5444,7 +5643,8 @@
       "CSS",
       "HTML",
       "Styled-Components"
-    ]
+    ],
+    "personSlug": "bumhan-b-yu"
   },
   {
     "name": "Yassine Bridi",
@@ -5465,7 +5665,8 @@
       "TypeScript",
       "Linux",
       "Writer"
-    ]
+    ],
+    "personSlug": "yassine-bridi"
   },
   {
     "name": "Matt Burns",
@@ -5489,7 +5690,8 @@
       "GraphQL",
       "Node.js",
       "Lego"
-    ]
+    ],
+    "personSlug": "matt-burns"
   },
   {
     "name": "Tom Gooden",
@@ -5520,7 +5722,8 @@
       "Styled-Components",
       "Gamer",
       "SEO"
-    ]
+    ],
+    "personSlug": "tom-gooden"
   },
   {
     "name": "Marc-André Bombeck",
@@ -5541,7 +5744,8 @@
       "Node.js",
       "nextjs",
       "Bookmarks"
-    ]
+    ],
+    "personSlug": "marc-andre-bombeck"
   },
   {
     "name": "Ben Lau",
@@ -5559,7 +5763,8 @@
       "UI/UX",
       "Kirby",
       "Eleventy"
-    ]
+    ],
+    "personSlug": "ben-lau"
   },
   {
     "name": "Markus Birth",
@@ -5578,7 +5783,8 @@
       "Linux",
       "Python",
       "Lua"
-    ]
+    ],
+    "personSlug": "markus-birth"
   },
   {
     "name": "Manuel Coiai",
@@ -5595,7 +5801,8 @@
       "CSS",
       "HTML",
       "SCSS"
-    ]
+    ],
+    "personSlug": "manuel-coiai"
   },
   {
     "name": "Tim Leland",
@@ -5622,7 +5829,8 @@
       "PHP",
       "C#",
       "Go"
-    ]
+    ],
+    "personSlug": "tim-leland"
   },
   {
     "name": "Randall Wilk",
@@ -5648,7 +5856,8 @@
       "Web Developer",
       "macOS",
       "GitHub"
-    ]
+    ],
+    "personSlug": "randall-wilk"
   },
   {
     "name": "Reinhart Previano Koentjoro",
@@ -5722,7 +5931,8 @@
       "Writer",
       "Windows"
     ],
-    "twitter": "@reinhart1010"
+    "twitter": "@reinhart1010",
+    "personSlug": "reinhart-previano-koentjoro"
   },
   {
     "name": "Melanie Kat",
@@ -5738,7 +5948,8 @@
       "JavaScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "melanie-kat"
   },
   {
     "name": "Dale Larroder",
@@ -5761,7 +5972,8 @@
       "Vercel",
       "Firebase",
       "Gamer"
-    ]
+    ],
+    "personSlug": "dale-larroder"
   },
   {
     "name": "Salma Alam-Naylor",
@@ -5780,7 +5992,8 @@
       "Speaker",
       "Streamer",
       "Teacher"
-    ]
+    ],
+    "personSlug": "salma-alam-naylor"
   },
   {
     "name": "Luke Oliff",
@@ -5801,7 +6014,8 @@
       "Open Source Software",
       "React",
       "Next.js"
-    ]
+    ],
+    "personSlug": "luke-oliff"
   },
   {
     "name": "Kevin Lewis",
@@ -5819,7 +6033,8 @@
       "Dad",
       "Open Source Software",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "kevin-lewis"
   },
   {
     "name": "Bill Sullivan",
@@ -5839,7 +6054,8 @@
       "Streamer",
       "Pop!_OS",
       "React"
-    ]
+    ],
+    "personSlug": "bill-sullivan"
   },
   {
     "name": "Amit Dhamu",
@@ -5864,7 +6080,8 @@
       "AWS",
       "JAMStack",
       "Netlify"
-    ]
+    ],
+    "personSlug": "amit-dhamu"
   },
   {
     "name": "Dominik Gallitzendörfer",
@@ -5889,7 +6106,8 @@
       "Next",
       "Tailwind CSS",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "dominik-gallitzendorfer"
   },
   {
     "name": "Andrei Hudovich",
@@ -5920,7 +6138,8 @@
       "Web",
       "VS Code",
       "Software Engineer"
-    ]
+    ],
+    "personSlug": "andrei-hudovich"
   },
   {
     "name": "Andrej Gajdos",
@@ -5950,7 +6169,8 @@
       "PostgreSQL",
       "MongoDB",
       "Next.js"
-    ]
+    ],
+    "personSlug": "andrej-gajdos"
   },
   {
     "name": "Emmanuel Gautier",
@@ -5981,7 +6201,8 @@
       "Architect",
       "Vue.js",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "emmanuel-gautier"
   },
   {
     "name": "Joseph Jude",
@@ -6000,7 +6221,8 @@
       "Golang",
       "SveleteKit",
       "Blogger"
-    ]
+    ],
+    "personSlug": "joseph-jude"
   },
   {
     "name": "Mahesh Rijal",
@@ -6018,7 +6240,8 @@
       "GitHub",
       "Cloud",
       "Blogger"
-    ]
+    ],
+    "personSlug": "mahesh-rijal"
   },
   {
     "name": "Alan Redzepagic",
@@ -6046,7 +6269,8 @@
       "Wordpress",
       "AWS",
       "cPanel WHM"
-    ]
+    ],
+    "personSlug": "alan-redzepagic"
   },
   {
     "name": "MITSUBOSHI Yuya",
@@ -6066,7 +6290,8 @@
       "TypeScript",
       "Rust",
       "Go"
-    ]
+    ],
+    "personSlug": "mitsuboshi-yuya"
   },
   {
     "name": "Vega Deftwing",
@@ -6086,7 +6311,8 @@
       "Engineer",
       "C",
       "Ham"
-    ]
+    ],
+    "personSlug": "vega-deftwing"
   },
   {
     "name": "Oscar Marion",
@@ -6117,7 +6343,8 @@
       "DevOps",
       "GraphQL",
       "React Native"
-    ]
+    ],
+    "personSlug": "oscar-marion"
   },
   {
     "name": "Amr Diab",
@@ -6146,7 +6373,8 @@
       "Photoshop",
       "Wordpress",
       "Remote"
-    ]
+    ],
+    "personSlug": "amr-diab"
   },
   {
     "name": "Thiago Avelino",
@@ -6167,7 +6395,8 @@
       "Emacs",
       "Developer",
       "GitHub Star"
-    ]
+    ],
+    "personSlug": "thiago-avelino"
   },
   {
     "name": "Dean Lofts",
@@ -6202,7 +6431,8 @@
       "TypeScript",
       "Video",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "dean-lofts"
   },
   {
     "name": "Himank Barve",
@@ -6237,7 +6467,8 @@
       "Remote",
       "Prisma",
       "PWA"
-    ]
+    ],
+    "personSlug": "himank-barve"
   },
   {
     "name": "Matthew Tao",
@@ -6261,7 +6492,8 @@
       "Gatsby",
       "Web Developer",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "matthew-tao"
   },
   {
     "name": "William Chin",
@@ -6283,7 +6515,8 @@
       "WordPress",
       "Python",
       "REST"
-    ]
+    ],
+    "personSlug": "william-chin"
   },
   {
     "name": "Marcin Dyguda",
@@ -6299,7 +6532,8 @@
       "Product Manager",
       "Entrepreneur",
       "Productivity"
-    ]
+    ],
+    "personSlug": "marcin-dyguda"
   },
   {
     "name": "Angélique Weger",
@@ -6326,7 +6560,8 @@
       "Teacher",
       "VS Code",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "angelique-weger"
   },
   {
     "name": "Seagyn Davis",
@@ -6343,7 +6578,8 @@
       "React",
       "Kubernetes",
       "Really Full Stack"
-    ]
+    ],
+    "personSlug": "seagyn-davis"
   },
   {
     "name": "Marc-Antoine Dion",
@@ -6361,7 +6597,8 @@
       "C#",
       "Blogger",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "marc-antoine-dion"
   },
   {
     "name": "Simon Smale",
@@ -6383,7 +6620,8 @@
       "Netlify",
       "CircleCI",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "simon-smale"
   },
   {
     "name": "Anand Reddy Pandikunta",
@@ -6405,7 +6643,8 @@
       "Full Stack",
       "Open Source",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "anand-reddy-pandikunta"
   },
   {
     "name": "Amolith",
@@ -6431,7 +6670,8 @@
       "Vim",
       "Emacs",
       "Forgejo"
-    ]
+    ],
+    "personSlug": "amolith"
   },
   {
     "name": "Aleksey Razbakov",
@@ -6458,7 +6698,8 @@
       "Full Stack",
       "PHP",
       "Symfony"
-    ]
+    ],
+    "personSlug": "aleksey-razbakov"
   },
   {
     "name": "Ayush Gupta",
@@ -6488,7 +6729,8 @@
       "Styled Components",
       "Photographer",
       "Netlify"
-    ]
+    ],
+    "personSlug": "ayush-gupta"
   },
   {
     "name": "Alvin Bryan",
@@ -6507,7 +6749,8 @@
       "JavaScript",
       "Writer",
       "Mentor"
-    ]
+    ],
+    "personSlug": "alvin-bryan"
   },
   {
     "name": "S. M. Abdul Aziz",
@@ -6539,7 +6782,8 @@
       "Web Developer",
       "Frontend",
       "Expo"
-    ]
+    ],
+    "personSlug": "s-m-abdul-aziz"
   },
   {
     "name": "Taisuke Mino",
@@ -6560,7 +6804,8 @@
       "Solidity",
       "ReactJS",
       "React Native"
-    ]
+    ],
+    "personSlug": "taisuke-mino"
   },
   {
     "name": "Shawn D'silva",
@@ -6584,7 +6829,8 @@
       "NGINX",
       "Laravel",
       "Remote"
-    ]
+    ],
+    "personSlug": "shawn-d-silva"
   },
   {
     "name": "Sreetam Das",
@@ -6607,7 +6853,8 @@
       "Python",
       "Remote",
       "Netlify"
-    ]
+    ],
+    "personSlug": "sreetam-das"
   },
   {
     "name": "Maxim Villivald",
@@ -6628,7 +6875,8 @@
       "Blogger",
       "Front end",
       "Student"
-    ]
+    ],
+    "personSlug": "maxim-villivald"
   },
   {
     "name": "Matt Holovach",
@@ -6649,7 +6897,8 @@
       "Perch CMS",
       "HTML",
       "Node.js"
-    ]
+    ],
+    "personSlug": "matt-holovach"
   },
   {
     "name": "Bradley Shellnut",
@@ -6668,7 +6917,8 @@
       "JavaScript",
       "Java",
       "Kotlin"
-    ]
+    ],
+    "personSlug": "bradley-shellnut"
   },
   {
     "name": "Justin De Leon",
@@ -6686,7 +6936,8 @@
       "Laravel",
       "JavaScript",
       "CSS"
-    ]
+    ],
+    "personSlug": "justin-de-leon"
   },
   {
     "name": "Sascha Diercks",
@@ -6713,7 +6964,8 @@
       "Designer",
       "Eleventy",
       "PHP"
-    ]
+    ],
+    "personSlug": "sascha-diercks"
   },
   {
     "name": "Jordi Ollé Ballesté",
@@ -6734,7 +6986,8 @@
       "Wasp",
       "Next.js",
       "React"
-    ]
+    ],
+    "personSlug": "jordi-olle-balleste"
   },
   {
     "name": "Joshua Rose",
@@ -6760,7 +7013,8 @@
       "PHP",
       "UI/UX",
       "WordPress"
-    ]
+    ],
+    "personSlug": "joshua-rose"
   },
   {
     "name": "Victor Pierre Alves",
@@ -6784,7 +7038,8 @@
       "PHP",
       "Remote",
       "Keychron"
-    ]
+    ],
+    "personSlug": "victor-pierre-alves"
   },
   {
     "name": "Christian Tietze",
@@ -6803,7 +7058,8 @@
       "PHP",
       "IndieWeb",
       "Watercolor"
-    ]
+    ],
+    "personSlug": "christian-tietze"
   },
   {
     "name": "Diego Costa",
@@ -6834,7 +7090,8 @@
       "Styled-Components",
       "Vite",
       "Tech Lead"
-    ]
+    ],
+    "personSlug": "diego-costa"
   },
   {
     "name": "Jeremiah Boby",
@@ -6852,7 +7109,8 @@
       "Linux",
       "Django",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "jeremiah-boby"
   },
   {
     "name": "Haryel Gillet",
@@ -6874,7 +7132,8 @@
       "Node.js",
       "React Native",
       "Backend"
-    ]
+    ],
+    "personSlug": "haryel-gillet"
   },
   {
     "name": "Stefan Zweifel",
@@ -6899,7 +7158,8 @@
       "Front End",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "stefan-zweifel"
   },
   {
     "name": "Christopher Kruse",
@@ -6923,7 +7183,8 @@
       "Remote",
       "Linux",
       "Vim"
-    ]
+    ],
+    "personSlug": "christopher-kruse"
   },
   {
     "name": "Rowe Morehouse",
@@ -6947,7 +7208,8 @@
       "JavaScript",
       "UX",
       "UI"
-    ]
+    ],
+    "personSlug": "rowe-morehouse"
   },
   {
     "name": "Erik Hedin",
@@ -6968,7 +7230,8 @@
       "React",
       "Drupal",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "erik-hedin"
   },
   {
     "name": "Alyssa Holland",
@@ -6991,7 +7254,8 @@
       "Blogger",
       "Musician",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "alyssa-holland"
   },
   {
     "name": "Andrew Gilliland",
@@ -7012,7 +7276,8 @@
       "Next",
       "Node.js",
       "MongoDB"
-    ]
+    ],
+    "personSlug": "andrew-gilliland"
   },
   {
     "name": "Adi Purnomo",
@@ -7039,7 +7304,8 @@
       "Node.js",
       "Cloud",
       "Open Sources"
-    ]
+    ],
+    "personSlug": "adi-purnomo"
   },
   {
     "name": "Matt James",
@@ -7058,7 +7324,8 @@
       "Drupal",
       "Svelte",
       "React"
-    ]
+    ],
+    "personSlug": "matt-james"
   },
   {
     "name": "Patrik Trefil",
@@ -7078,7 +7345,8 @@
       "Python",
       "Linux",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "patrik-trefil"
   },
   {
     "name": "Marty Romero",
@@ -7098,7 +7366,8 @@
       "CraftCMS",
       "PHP",
       "Python"
-    ]
+    ],
+    "personSlug": "marty-romero"
   },
   {
     "name": "Michael Kitzman",
@@ -7123,7 +7392,8 @@
       "Remote",
       "Astro",
       "Musician"
-    ]
+    ],
+    "personSlug": "michael-kitzman"
   },
   {
     "name": "Philip Boardman",
@@ -7152,7 +7422,8 @@
       "Mentor",
       "Manager",
       "Remote"
-    ]
+    ],
+    "personSlug": "philip-boardman"
   },
   {
     "name": "Martín Morales",
@@ -7173,7 +7444,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "martin-morales"
   },
   {
     "name": "Sheila Leon",
@@ -7194,7 +7466,8 @@
       "Gatsby",
       "MySQL",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "sheila-leon"
   },
   {
     "name": "Bram Smulders",
@@ -7214,7 +7487,8 @@
       "React",
       "Eleventy",
       "Svelte"
-    ]
+    ],
+    "personSlug": "bram-smulders"
   },
   {
     "name": "Rubén Sospedra",
@@ -7238,7 +7512,8 @@
       "Next",
       "Speaker",
       "Blogger"
-    ]
+    ],
+    "personSlug": "ruben-sospedra"
   },
   {
     "name": "Juan Villela",
@@ -7261,7 +7536,8 @@
       "TypeScript",
       "SQL",
       "Go"
-    ]
+    ],
+    "personSlug": "juan-villela"
   },
   {
     "name": "Zack Apiratitham",
@@ -7285,7 +7561,8 @@
       "Photographer",
       "Gamer",
       "Immigrant"
-    ]
+    ],
+    "personSlug": "zack-apiratitham"
   },
   {
     "name": "Mikaleb",
@@ -7303,7 +7580,8 @@
       "Typescript",
       "CSS",
       "Vue"
-    ]
+    ],
+    "personSlug": "mikaleb"
   },
   {
     "name": "Jeromey Balderrama",
@@ -7322,7 +7600,8 @@
       "SQL",
       "WordPress",
       "Photographer"
-    ]
+    ],
+    "personSlug": "jeromey-balderrama"
   },
   {
     "name": "Hamish Williams",
@@ -7345,7 +7624,8 @@
       "CSS",
       "Serverless",
       "AWS"
-    ]
+    ],
+    "personSlug": "hamish-williams"
   },
   {
     "name": "Dennis Mathenge",
@@ -7368,7 +7648,8 @@
       "PHP",
       "Symfony",
       "Magento"
-    ]
+    ],
+    "personSlug": "dennis-mathenge"
   },
   {
     "name": "Jan Lavička",
@@ -7392,7 +7673,8 @@
       "React",
       "Remix",
       "Vite"
-    ]
+    ],
+    "personSlug": "jan-lavicka"
   },
   {
     "name": "Ali Alaa",
@@ -7415,7 +7697,8 @@
       "Blogger",
       "WordPress",
       "Teacher"
-    ]
+    ],
+    "personSlug": "ali-alaa"
   },
   {
     "name": "Devansh Bajaj",
@@ -7440,7 +7723,8 @@
       "React",
       "Next.js",
       "Android"
-    ]
+    ],
+    "personSlug": "devansh-bajaj"
   },
   {
     "name": "Ivan Muratov",
@@ -7460,7 +7744,8 @@
       "Java",
       "Docker",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "ivan-muratov"
   },
   {
     "name": "David V. Kimball",
@@ -7513,7 +7798,8 @@
       "Course Maker",
       "Gamer",
       "Websites"
-    ]
+    ],
+    "personSlug": "david-v-kimball"
   },
   {
     "name": "Carlos Longarela",
@@ -7532,7 +7818,8 @@
       "Front End",
       "Back End",
       "Linux"
-    ]
+    ],
+    "personSlug": "carlos-longarela"
   },
   {
     "name": "Monespiseth Ly",
@@ -7553,7 +7840,8 @@
       "Next",
       "Flutter",
       "Docker"
-    ]
+    ],
+    "personSlug": "monespiseth-ly"
   },
   {
     "name": "Christian Oliff",
@@ -7571,7 +7859,8 @@
       "HTML",
       "Hugo",
       "Websites"
-    ]
+    ],
+    "personSlug": "christian-oliff"
   },
   {
     "name": "Mauro Reis Vieira",
@@ -7592,7 +7881,8 @@
       "Node.js",
       "CSS",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "mauro-reis-vieira"
   },
   {
     "name": "Caneco",
@@ -7616,7 +7906,8 @@
       "AlpineJS",
       "Tailwind CSS",
       "CSS"
-    ]
+    ],
+    "personSlug": "caneco"
   },
   {
     "name": "Thomas Sambruni",
@@ -7635,7 +7926,8 @@
       "ZSH",
       "bash",
       "Linux"
-    ]
+    ],
+    "personSlug": "thomas-sambruni"
   },
   {
     "name": "John Irle",
@@ -7654,7 +7946,8 @@
       "Node.js",
       "Full stack",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "john-irle"
   },
   {
     "name": "Prashant Bhapkar",
@@ -7683,7 +7976,8 @@
       "AWS",
       "SQL",
       "Websites"
-    ]
+    ],
+    "personSlug": "prashant-bhapkar"
   },
   {
     "name": "Diana García",
@@ -7709,7 +8003,8 @@
       "Accessibility",
       "C#",
       ".NET"
-    ]
+    ],
+    "personSlug": "diana-garcia"
   },
   {
     "name": "Dale Mellor",
@@ -7731,7 +8026,8 @@
       "Websites",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "dale-mellor"
   },
   {
     "name": "Kieran Osgood",
@@ -7761,7 +8057,8 @@
       "Typescript",
       "Web",
       "Websites"
-    ]
+    ],
+    "personSlug": "kieran-osgood"
   },
   {
     "name": "Adam DeHaven",
@@ -7786,7 +8083,8 @@
       "Laravel",
       "WordPress",
       "SQL"
-    ]
+    ],
+    "personSlug": "adam-dehaven"
   },
   {
     "name": "Nicolas M. Pardo",
@@ -7807,7 +8105,8 @@
       "Designer",
       "Devsigner",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "nicolas-m-pardo"
   },
   {
     "name": "Niko Heikkilä",
@@ -7826,7 +8125,8 @@
       "DevOps",
       "Team Leadership",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "niko-heikkila"
   },
   {
     "name": "Satyam Lachhwani",
@@ -7863,7 +8163,8 @@
       "SCSS",
       "AWS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "satyam-lachhwani"
   },
   {
     "name": "Matt Gregg",
@@ -7892,7 +8193,8 @@
       "Firebase",
       "Elixir",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "matt-gregg"
   },
   {
     "name": "François Vantomme",
@@ -7919,7 +8221,8 @@
       "Tailwind CSS",
       "Vim",
       "ZSH"
-    ]
+    ],
+    "personSlug": "francois-vantomme"
   },
   {
     "name": "Gabriele Girelli",
@@ -7954,7 +8257,8 @@
       "Radicle",
       "ZSH",
       "Bash"
-    ]
+    ],
+    "personSlug": "gabriele-girelli"
   },
   {
     "name": "Camille Hodoul",
@@ -7974,7 +8278,8 @@
       "Books",
       "Web Development",
       "Computer Science"
-    ]
+    ],
+    "personSlug": "camille-hodoul"
   },
   {
     "name": "Diogo Ferreira",
@@ -7992,7 +8297,8 @@
       "Docker",
       "Linux",
       "Sysadmin"
-    ]
+    ],
+    "personSlug": "diogo-ferreira"
   },
   {
     "name": "Swapnil Agarwal",
@@ -8022,7 +8328,8 @@
       "Java",
       "UX",
       "UI"
-    ]
+    ],
+    "personSlug": "swapnil-agarwal"
   },
   {
     "name": "Zlatan Stajic",
@@ -8056,7 +8363,8 @@
       "Full Stack",
       "Web Developer",
       "Software Developer"
-    ]
+    ],
+    "personSlug": "zlatan-stajic"
   },
   {
     "name": "Guillaume Briday",
@@ -8078,7 +8386,8 @@
       "Docker",
       "Web Development",
       "DevOps"
-    ]
+    ],
+    "personSlug": "guillaume-briday"
   },
   {
     "name": "Brian Hamburg",
@@ -8102,7 +8411,8 @@
       "CMS",
       "Designer",
       "Musician"
-    ]
+    ],
+    "personSlug": "brian-hamburg"
   },
   {
     "name": "Alexey Staroselets",
@@ -8126,7 +8436,8 @@
       "HTML/CSS",
       "vim",
       "GrapheneOS"
-    ]
+    ],
+    "personSlug": "alexey-staroselets"
   },
   {
     "name": "Emanuele Bartolesi",
@@ -8146,7 +8457,8 @@
       "Microsoft365",
       "GitHub",
       "Speakers"
-    ]
+    ],
+    "personSlug": "emanuele-bartolesi"
   },
   {
     "name": "Patrick Lee",
@@ -8162,7 +8474,8 @@
       "Engineering Manager",
       "Productivity tools",
       "Frontend Developer"
-    ]
+    ],
+    "personSlug": "patrick-lee"
   },
   {
     "name": "Ajmal Afif",
@@ -8185,7 +8498,8 @@
       "React",
       "Shopify",
       "Websites"
-    ]
+    ],
+    "personSlug": "ajmal-afif"
   },
   {
     "name": "Erik Kroes",
@@ -8207,7 +8521,8 @@
       "Speakers",
       "Teacher",
       "Websites"
-    ]
+    ],
+    "personSlug": "erik-kroes"
   },
   {
     "name": "Ben Myers",
@@ -8232,7 +8547,8 @@
       "Blogger",
       "Speaker",
       "Netlify"
-    ]
+    ],
+    "personSlug": "ben-myers"
   },
   {
     "name": "Christian Goben",
@@ -8251,7 +8567,8 @@
       "Next.js",
       "Java",
       "MySQL"
-    ]
+    ],
+    "personSlug": "christian-goben"
   },
   {
     "name": "Alex Duval",
@@ -8273,7 +8590,8 @@
       "JavaScript",
       "Tailwind CSS",
       "Vuetify"
-    ]
+    ],
+    "personSlug": "alex-duval"
   },
   {
     "name": "Dave Redfern",
@@ -8295,7 +8613,8 @@
       "JavaScript",
       "Front End",
       "CSS"
-    ]
+    ],
+    "personSlug": "dave-redfern"
   },
   {
     "name": "Michael DeMarco",
@@ -8313,7 +8632,8 @@
       "Front End",
       "React",
       "CSS"
-    ]
+    ],
+    "personSlug": "michael-demarco"
   },
   {
     "name": "Caro Appleby",
@@ -8334,7 +8654,8 @@
       "Musician",
       "VS Code",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "caro-appleby"
   },
   {
     "name": "Trevor Morris",
@@ -8356,7 +8677,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "trevor-morris"
   },
   {
     "name": "Nick Morris",
@@ -8378,7 +8700,8 @@
       "Python",
       "React",
       "AWS"
-    ]
+    ],
+    "personSlug": "nick-morris"
   },
   {
     "name": "Gianluca Fabrizi",
@@ -8398,7 +8721,8 @@
       "DIY",
       "IOT",
       "AWS"
-    ]
+    ],
+    "personSlug": "gianluca-fabrizi"
   },
   {
     "name": "Dylan Sheffer",
@@ -8422,7 +8746,8 @@
       "Styled-Components",
       "Speaker",
       "Freelancer"
-    ]
+    ],
+    "personSlug": "dylan-sheffer"
   },
   {
     "name": "Matías Hernández",
@@ -8447,7 +8772,8 @@
       "JavaScript",
       "Engineer",
       "Calisthenics"
-    ]
+    ],
+    "personSlug": "matias-hernandez"
   },
   {
     "name": "Sean Coker",
@@ -8477,7 +8803,8 @@
       "Kotlin",
       "iOS",
       "Android"
-    ]
+    ],
+    "personSlug": "sean-coker"
   },
   {
     "name": "Michael Bonner",
@@ -8504,7 +8831,8 @@
       "Tailwind CSS",
       "AWS",
       "Ionic"
-    ]
+    ],
+    "personSlug": "michael-bonner"
   },
   {
     "name": "Mark Nenadov",
@@ -8537,7 +8865,8 @@
       "Apache",
       "Tomcat",
       "AWS"
-    ]
+    ],
+    "personSlug": "mark-nenadov"
   },
   {
     "name": "Filip Kalousek",
@@ -8561,7 +8890,8 @@
       "Fresh",
       "Figma",
       "MongoDB"
-    ]
+    ],
+    "personSlug": "filip-kalousek"
   },
   {
     "name": "Roger Li",
@@ -8599,7 +8929,8 @@
       "Web Developer",
       "Websites",
       "VirtualBox"
-    ]
+    ],
+    "personSlug": "roger-li"
   },
   {
     "name": "Agu Valeriani",
@@ -8626,7 +8957,8 @@
       "SQL",
       "Docker",
       "Cloud"
-    ]
+    ],
+    "personSlug": "agu-valeriani"
   },
   {
     "name": "R74n",
@@ -8650,7 +8982,8 @@
       "HTML5",
       "Websites",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "r74n"
   },
   {
     "name": "Dennis Muensterer",
@@ -8676,7 +9009,8 @@
       "Maker",
       "Music",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "dennis-muensterer"
   },
   {
     "name": "Yash Singh",
@@ -8703,7 +9037,8 @@
       "Websites",
       "ES6",
       "MDX"
-    ]
+    ],
+    "personSlug": "yash-singh"
   },
   {
     "name": "Celso Palmeira Neto",
@@ -8723,7 +9058,8 @@
       "Node.JS",
       "Next.JS",
       "React"
-    ]
+    ],
+    "personSlug": "celso-palmeira-neto"
   },
   {
     "name": "Gabor Gyure",
@@ -8752,7 +9088,8 @@
       "Laravel",
       "Statamic",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "gabor-gyure"
   },
   {
     "name": "Ben Brougher",
@@ -8780,7 +9117,8 @@
       "Docker",
       "Node.js",
       "PowerShell"
-    ]
+    ],
+    "personSlug": "ben-brougher"
   },
   {
     "name": "Diogo Moreira",
@@ -8807,7 +9145,8 @@
       "NextJS",
       "Backend",
       "Testing"
-    ]
+    ],
+    "personSlug": "diogo-moreira"
   },
   {
     "name": "Philip Van Raalte",
@@ -8827,7 +9166,8 @@
       "Astro",
       "Rust",
       "Ubuntu"
-    ]
+    ],
+    "personSlug": "philip-van-raalte"
   },
   {
     "name": "Vincent Lejtzén",
@@ -8876,7 +9216,8 @@
       "WordPress",
       "macOS",
       "npm"
-    ]
+    ],
+    "personSlug": "vincent-lejtzen"
   },
   {
     "name": "Jakub Soboczyński",
@@ -8904,7 +9245,8 @@
       "VS Code",
       "Nuxt",
       "Astro"
-    ]
+    ],
+    "personSlug": "jakub-soboczynski"
   },
   {
     "name": "Ian Emnace",
@@ -8928,7 +9270,8 @@
       "Vue.js",
       "Node.js",
       "MongoDB"
-    ]
+    ],
+    "personSlug": "ian-emnace"
   },
   {
     "name": "Yves Engetschwiler",
@@ -8949,7 +9292,8 @@
       "Developer",
       "laravel",
       "Livewire"
-    ]
+    ],
+    "personSlug": "yves-engetschwiler"
   },
   {
     "name": "Sapan Bodiwala",
@@ -8974,7 +9318,8 @@
       "MongoDB",
       "VS Code",
       "Hyper"
-    ]
+    ],
+    "personSlug": "sapan-bodiwala"
   },
   {
     "name": "Neil Italia",
@@ -8993,7 +9338,8 @@
       "Developer",
       "UI/UX",
       "Designer"
-    ]
+    ],
+    "personSlug": "neil-italia"
   },
   {
     "name": "Felix Yeboah Jefferson",
@@ -9016,7 +9362,8 @@
       "Tailwind CSS",
       "Chakra-UI",
       "UI Designer"
-    ]
+    ],
+    "personSlug": "felix-yeboah-jefferson"
   },
   {
     "name": "Anubhav Srivastava",
@@ -9036,7 +9383,8 @@
       "CSS",
       "JavaScript",
       "npm"
-    ]
+    ],
+    "personSlug": "anubhav-srivastava"
   },
   {
     "name": "Alexander Christiaan Jacob",
@@ -9058,7 +9406,8 @@
       "Sass",
       "npm",
       "php"
-    ]
+    ],
+    "personSlug": "alexander-christiaan-jacob"
   },
   {
     "name": "Ruben Janssen",
@@ -9080,7 +9429,8 @@
       "Vue.js",
       "DevOps",
       "Motorcycle"
-    ]
+    ],
+    "personSlug": "ruben-janssen"
   },
   {
     "name": "Nikola Đuza",
@@ -9109,7 +9459,8 @@
       "Blogger",
       "Teacher",
       "Motorcycle"
-    ]
+    ],
+    "personSlug": "nikola-uza"
   },
   {
     "name": "Jens Oliver Meiert",
@@ -9130,7 +9481,8 @@
       "CSS",
       "Minimalist",
       "Xoogler"
-    ]
+    ],
+    "personSlug": "jens-oliver-meiert"
   },
   {
     "name": "Nihar Samantaray",
@@ -9156,7 +9508,8 @@
       "SVN",
       "ZSH",
       "Web"
-    ]
+    ],
+    "personSlug": "nihar-samantaray"
   },
   {
     "name": "Josh Collinsworth",
@@ -9183,7 +9536,8 @@
       "Ruby",
       "Blogger",
       "Teacher"
-    ]
+    ],
+    "personSlug": "josh-collinsworth"
   },
   {
     "name": "Amodu Kehinde",
@@ -9215,7 +9569,8 @@
       "Open sourcer",
       "Singer",
       "Music"
-    ]
+    ],
+    "personSlug": "amodu-kehinde"
   },
   {
     "name": "Manassarn \"Noom\" Manoonchai",
@@ -9235,7 +9590,8 @@
       "Testing",
       "VS Code",
       "Web"
-    ]
+    ],
+    "personSlug": "manassarn-noom-manoonchai"
   },
   {
     "name": "Ayoub Sousali",
@@ -9255,7 +9611,8 @@
       "Software Developer",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "ayoub-sousali"
   },
   {
     "name": "Jordan Haines",
@@ -9279,7 +9636,8 @@
       "Wordpress",
       "Laravel",
       "Docker"
-    ]
+    ],
+    "personSlug": "jordan-haines"
   },
   {
     "name": "Josh Corbett",
@@ -9302,7 +9660,8 @@
       "VSCode",
       "SvelteKit",
       "Tailwind"
-    ]
+    ],
+    "personSlug": "josh-corbett"
   },
   {
     "name": "Jay Tyrrell",
@@ -9321,7 +9680,8 @@
       "Javascript",
       "Laravel",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "jay-tyrrell"
   },
   {
     "name": "Eva Dee",
@@ -9343,7 +9703,8 @@
       "Remote",
       "Blogger",
       "Teacher"
-    ]
+    ],
+    "personSlug": "eva-dee"
   },
   {
     "name": "Nikita Karamov",
@@ -9363,7 +9724,8 @@
       "Django",
       "JavaScript",
       "Svelte"
-    ]
+    ],
+    "personSlug": "nikita-karamov"
   },
   {
     "name": "Elio Struyf",
@@ -9386,7 +9748,8 @@
       "Speaker",
       "Freelancer",
       "Microsoft"
-    ]
+    ],
+    "personSlug": "elio-struyf"
   },
   {
     "name": "Matteo Scarpa alias Fundor333",
@@ -9410,7 +9773,8 @@
       "VSCode",
       "PostgreSQL",
       "Linux"
-    ]
+    ],
+    "personSlug": "matteo-scarpa-alias-fundor333"
   },
   {
     "name": "Jakub T. Jankiewicz",
@@ -9442,7 +9806,8 @@
       "Emacs",
       "Linux",
       "Eleventy"
-    ]
+    ],
+    "personSlug": "jakub-t-jankiewicz"
   },
   {
     "name": "Lucas Schumacher",
@@ -9462,7 +9827,8 @@
       "TypeScript",
       "JavaScript",
       "C#"
-    ]
+    ],
+    "personSlug": "lucas-schumacher"
   },
   {
     "name": "Christian Lohr",
@@ -9495,7 +9861,8 @@
       "Rust",
       "Software Engineer",
       "Vim"
-    ]
+    ],
+    "personSlug": "christian-lohr"
   },
   {
     "name": "Kristof Zerbe",
@@ -9521,7 +9888,8 @@
       "Hexo",
       "Blogging",
       "Photography"
-    ]
+    ],
+    "personSlug": "kristof-zerbe"
   },
   {
     "name": "Jonas Jore",
@@ -9542,7 +9910,8 @@
       "Rust",
       "React",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "jonas-jore"
   },
   {
     "name": "Marko Haberl",
@@ -9565,7 +9934,8 @@
       "Java",
       "Spring Framework",
       "Vim"
-    ]
+    ],
+    "personSlug": "marko-haberl"
   },
   {
     "name": "Marcus Virginia",
@@ -9589,7 +9959,8 @@
       "Docker",
       "Figma",
       "Traveler"
-    ]
+    ],
+    "personSlug": "marcus-virginia"
   },
   {
     "name": "sheep",
@@ -9606,7 +9977,8 @@
       "Linux",
       "Docker",
       "BASH"
-    ]
+    ],
+    "personSlug": "sheep"
   },
   {
     "name": "Mario Sanchez Carrion",
@@ -9627,7 +9999,8 @@
       "React",
       "Node.js",
       "Python"
-    ]
+    ],
+    "personSlug": "mario-sanchez-carrion"
   },
   {
     "name": "Courtney/Lucy Gurll",
@@ -9659,7 +10032,8 @@
       "Self Taught",
       "VSCode",
       "Content Creator"
-    ]
+    ],
+    "personSlug": "courtney-lucy-gurll"
   },
   {
     "name": "Anthony Del Rosario",
@@ -9687,7 +10061,8 @@
       "Angular",
       "Flask",
       "Express.js"
-    ]
+    ],
+    "personSlug": "anthony-del-rosario"
   },
   {
     "name": "Sythe Veenje",
@@ -9710,7 +10085,8 @@
       "Laravel",
       "Wordpress",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "sythe-veenje"
   },
   {
     "name": "Christopher Talke",
@@ -9731,7 +10107,8 @@
       "Node.js",
       "JavaScript",
       "React"
-    ]
+    ],
+    "personSlug": "christopher-talke"
   },
   {
     "name": "Ammar Alakkad",
@@ -9754,7 +10131,8 @@
       "CSS",
       "Vim",
       "GitLab"
-    ]
+    ],
+    "personSlug": "ammar-alakkad"
   },
   {
     "name": "Marko Denic",
@@ -9780,7 +10158,8 @@
       "PHP",
       "Laravel",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "marko-denic"
   },
   {
     "name": "Oleg Perchyk",
@@ -9805,7 +10184,8 @@
       "Remote",
       "a11y",
       "Vim"
-    ]
+    ],
+    "personSlug": "oleg-perchyk"
   },
   {
     "name": "Dhananjay Porwal",
@@ -9828,7 +10208,8 @@
       "John the Rippe",
       "Javascript",
       "Front End"
-    ]
+    ],
+    "personSlug": "dhananjay-porwal"
   },
   {
     "name": "Robert Michalski",
@@ -9850,7 +10231,8 @@
       "MySQL",
       "Cloudflare",
       "Serverless"
-    ]
+    ],
+    "personSlug": "robert-michalski"
   },
   {
     "name": "First Kanisorn Sutham",
@@ -9871,7 +10253,8 @@
       "Tailwind CSS",
       "Web",
       "Django"
-    ]
+    ],
+    "personSlug": "first-kanisorn-sutham"
   },
   {
     "name": "Henrik Nyh",
@@ -9889,7 +10272,8 @@
       "Ruby",
       "Elixir",
       "Vim"
-    ]
+    ],
+    "personSlug": "henrik-nyh"
   },
   {
     "name": "Manoj Barman",
@@ -9907,7 +10291,8 @@
       "Angular",
       "HTML/CSS",
       "Node.js"
-    ]
+    ],
+    "personSlug": "manoj-barman"
   },
   {
     "name": "Monica Powell",
@@ -9930,7 +10315,8 @@
       "Node.js",
       "Remote",
       "VS Code"
-    ]
+    ],
+    "personSlug": "monica-powell"
   },
   {
     "name": "Hideki Jinnai",
@@ -9947,7 +10333,8 @@
       "Ink",
       "Pencil",
       "Brush"
-    ]
+    ],
+    "personSlug": "hideki-jinnai"
   },
   {
     "name": "NaveenSingh",
@@ -9969,7 +10356,8 @@
       "Git",
       "JavaScript",
       "Styled Components"
-    ]
+    ],
+    "personSlug": "naveensingh"
   },
   {
     "name": "Raul Melo",
@@ -9994,7 +10382,8 @@
       "Web Developer",
       "Windows",
       "Writer"
-    ]
+    ],
+    "personSlug": "raul-melo"
   },
   {
     "name": "Ryan Harris",
@@ -10015,7 +10404,8 @@
       "Developer",
       "Streamer",
       "Writer"
-    ]
+    ],
+    "personSlug": "ryan-harris"
   },
   {
     "name": "Axel Larsson",
@@ -10035,7 +10425,8 @@
       "Node.js",
       "IBM i",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "axel-larsson"
   },
   {
     "name": "Laura Zumbakyte",
@@ -10060,7 +10451,8 @@
       "GraphQL",
       "UX",
       "Canva"
-    ]
+    ],
+    "personSlug": "laura-zumbakyte"
   },
   {
     "name": "Chris Hufnagel",
@@ -10082,7 +10474,8 @@
       "Wordpress",
       "Blogger",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "chris-hufnagel"
   },
   {
     "name": "Jeff Szuc",
@@ -10102,7 +10495,8 @@
       "Developer",
       "UX",
       "Accessibility"
-    ]
+    ],
+    "personSlug": "jeff-szuc"
   },
   {
     "name": "Maxim Zubarev",
@@ -10129,7 +10523,8 @@
       "Flutter",
       "TypeScript",
       "Machine Learning"
-    ]
+    ],
+    "personSlug": "maxim-zubarev"
   },
   {
     "name": "Andrew Nguyen Vo",
@@ -10148,7 +10543,8 @@
       "Front End",
       "Angular",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "andrew-nguyen-vo"
   },
   {
     "name": "Jitendra Nirnejak",
@@ -10168,7 +10564,8 @@
       "React",
       "Vue.js",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "jitendra-nirnejak"
   },
   {
     "name": "Luke Hsiao",
@@ -10184,7 +10581,8 @@
       "Engineer",
       "Python",
       "Rust"
-    ]
+    ],
+    "personSlug": "luke-hsiao"
   },
   {
     "name": "Elijah Rwothoromo",
@@ -10209,7 +10607,8 @@
       "JavaScript",
       "React",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "elijah-rwothoromo"
   },
   {
     "name": "davidak",
@@ -10227,7 +10626,8 @@
       "Minimalist",
       "Gamer",
       "Activist"
-    ]
+    ],
+    "personSlug": "davidak"
   },
   {
     "name": "Sudhanshu Bajaj",
@@ -10250,7 +10650,8 @@
       "JavaScript",
       "Drupal",
       "Laravel"
-    ]
+    ],
+    "personSlug": "sudhanshu-bajaj"
   },
   {
     "name": "Jack Jackson",
@@ -10269,7 +10670,8 @@
       "Kubernetes",
       "VS Code",
       "Docker"
-    ]
+    ],
+    "personSlug": "jack-jackson"
   },
   {
     "name": "Enea Xharja",
@@ -10287,7 +10689,8 @@
       "JavaScript",
       "React",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "enea-xharja"
   },
   {
     "name": "Dhanish Gajjar",
@@ -10302,7 +10705,8 @@
     "tags": [
       "Developer",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "dhanish-gajjar"
   },
   {
     "name": "Ricardo Morais",
@@ -10324,7 +10728,8 @@
       "Bun",
       "Software Engineer",
       "Front-end"
-    ]
+    ],
+    "personSlug": "ricardo-morais"
   },
   {
     "name": "Aditya Thebe",
@@ -10348,7 +10753,8 @@
       "React",
       "Angular",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "aditya-thebe"
   },
   {
     "name": "Travis Luong",
@@ -10369,7 +10775,8 @@
       "DevOps",
       "Docker",
       "SQL"
-    ]
+    ],
+    "personSlug": "travis-luong"
   },
   {
     "name": "Michal Kolacek",
@@ -10387,7 +10794,8 @@
       "SQL",
       "Python",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "michal-kolacek"
   },
   {
     "name": "Alex Zmn",
@@ -10403,7 +10811,8 @@
       "Figma",
       "React",
       "Developer"
-    ]
+    ],
+    "personSlug": "alex-zmn"
   },
   {
     "name": "Anh Thang Bui",
@@ -10429,7 +10838,8 @@
       "Fastify",
       "Full Stack",
       "Software Engineer"
-    ]
+    ],
+    "personSlug": "anh-thang-bui"
   },
   {
     "name": "Habib Hinn",
@@ -10456,7 +10866,8 @@
       "Prisma",
       "Python",
       "Cypress"
-    ]
+    ],
+    "personSlug": "habib-hinn"
   },
   {
     "name": "Jibin Thomas",
@@ -10477,7 +10888,8 @@
       "React",
       "Sass",
       "Next"
-    ]
+    ],
+    "personSlug": "jibin-thomas"
   },
   {
     "name": "Michael Rolfsen",
@@ -10499,7 +10911,8 @@
       "Less",
       "CSS",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "michael-rolfsen"
   },
   {
     "name": "Michael Read",
@@ -10523,7 +10936,8 @@
       "Back End",
       "WordPress",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "michael-read"
   },
   {
     "name": "Simon Aronsson",
@@ -10546,7 +10960,8 @@
       "Cloud",
       "DevOps",
       "Agile"
-    ]
+    ],
+    "personSlug": "simon-aronsson"
   },
   {
     "name": "João Pescada",
@@ -10574,7 +10989,8 @@
       "PHP",
       "Laravel",
       "Remote"
-    ]
+    ],
+    "personSlug": "joao-pescada"
   },
   {
     "name": "Tetri Mesquita",
@@ -10606,7 +11022,8 @@
       "Communication",
       "Problem Solving",
       "Software Development"
-    ]
+    ],
+    "personSlug": "tetri-mesquita"
   },
   {
     "name": "Saurabh Sharma",
@@ -10631,7 +11048,8 @@
       "Shopify",
       "VS Code",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "saurabh-sharma"
   },
   {
     "name": "Wes Bos",
@@ -10653,7 +11071,8 @@
       "React",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "wes-bos"
   },
   {
     "name": "Frugence Fidel",
@@ -10677,7 +11096,8 @@
       "CSS",
       "Tailwind CSS",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "frugence-fidel"
   },
   {
     "name": "Aaron Conway",
@@ -10699,7 +11119,8 @@
       "Figma",
       "Gatsby",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "aaron-conway"
   },
   {
     "name": "Gonçalo Rodrigues",
@@ -10719,7 +11140,8 @@
       "React",
       "TailwindCSS",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "goncalo-rodrigues"
   },
   {
     "name": "Matt Stein",
@@ -10742,7 +11164,8 @@
       "Astro",
       "Eleventy",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "matt-stein"
   },
   {
     "name": "Mohammed Sohail",
@@ -10767,7 +11190,8 @@
       "AlpineJS",
       "Next",
       "Front End"
-    ]
+    ],
+    "personSlug": "mohammed-sohail"
   },
   {
     "name": "Ximena Vila Ferral",
@@ -10792,7 +11216,8 @@
       "PHP",
       "Sketchnoter",
       "Accessibility"
-    ]
+    ],
+    "personSlug": "ximena-vila-ferral"
   },
   {
     "name": "Daryl Sun",
@@ -10812,7 +11237,8 @@
       "Firefox",
       "Open Source",
       "Indieweb"
-    ]
+    ],
+    "personSlug": "daryl-sun"
   },
   {
     "name": "Helen Chong",
@@ -10837,7 +11263,8 @@
       "Eleventy",
       "Git",
       "Caddy"
-    ]
+    ],
+    "personSlug": "helen-chong"
   },
   {
     "name": "Julian Stark",
@@ -10859,7 +11286,8 @@
       "Web Developer",
       "Performance",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "julian-stark"
   },
   {
     "name": "Aris Ripandi",
@@ -10883,7 +11311,8 @@
       "Tailwind CSS",
       "PostgreSQL",
       "Metabase"
-    ]
+    ],
+    "personSlug": "aris-ripandi"
   },
   {
     "name": "Edgaras Benediktavicius",
@@ -10906,7 +11335,8 @@
       "Framer Motion",
       "PostgreSQL",
       "Supabase"
-    ]
+    ],
+    "personSlug": "edgaras-benediktavicius"
   },
   {
     "name": "Teo Ruiz",
@@ -10937,7 +11367,8 @@
       "Kindle",
       "AirPods Pro",
       "Apple Watch"
-    ]
+    ],
+    "personSlug": "teo-ruiz"
   },
   {
     "name": "Shubham Battoo",
@@ -10961,7 +11392,8 @@
       "NextJs",
       "JAMStack",
       "Web"
-    ]
+    ],
+    "personSlug": "shubham-battoo"
   },
   {
     "name": "Chris Smith",
@@ -10980,7 +11412,8 @@
       "Web",
       "Linux",
       "Remote"
-    ]
+    ],
+    "personSlug": "chris-smith"
   },
   {
     "name": "Mykolas Krupauskas",
@@ -11003,7 +11436,8 @@
       "C#",
       ".NET",
       "Blogger"
-    ]
+    ],
+    "personSlug": "mykolas-krupauskas"
   },
   {
     "name": "João Vitor Zaniolo",
@@ -11021,7 +11455,8 @@
       "react",
       "javascript",
       "typescript"
-    ]
+    ],
+    "personSlug": "joao-vitor-zaniolo"
   },
   {
     "name": "Arturo De la Garza",
@@ -11045,7 +11480,8 @@
       "GraphQL",
       "Node.js",
       "SQL"
-    ]
+    ],
+    "personSlug": "arturo-de-la-garza"
   },
   {
     "name": "Ali Şen",
@@ -11063,7 +11499,8 @@
       "JavaScript",
       "PHP",
       "SQL"
-    ]
+    ],
+    "personSlug": "ali-sen"
   },
   {
     "name": "James Atkinson",
@@ -11088,7 +11525,8 @@
       "Vercel",
       "Design Systems",
       "Figma"
-    ]
+    ],
+    "personSlug": "james-atkinson"
   },
   {
     "name": "Danny Solivan",
@@ -11108,7 +11546,8 @@
       "Python",
       "SQL",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "danny-solivan"
   },
   {
     "name": "Aaron Uurman",
@@ -11133,7 +11572,8 @@
       "C#",
       "Testing",
       "Azure"
-    ]
+    ],
+    "personSlug": "aaron-uurman"
   },
   {
     "name": "Steve Della Valentina",
@@ -11154,7 +11594,8 @@
       "Photoshop",
       "Engineer",
       "Writer"
-    ]
+    ],
+    "personSlug": "steve-della-valentina"
   },
   {
     "name": "Joanna Hosking",
@@ -11178,7 +11619,8 @@
       "Web Developer",
       "Web Development",
       "WordPress"
-    ]
+    ],
+    "personSlug": "joanna-hosking"
   },
   {
     "name": "Alex Pamphilon",
@@ -11199,7 +11641,8 @@
       "SCSS",
       "Web Developer",
       "Mobile Developer"
-    ]
+    ],
+    "personSlug": "alex-pamphilon"
   },
   {
     "name": "Andrew Byrd",
@@ -11218,7 +11661,8 @@
       "React",
       "Node.js",
       "Python"
-    ]
+    ],
+    "personSlug": "andrew-byrd"
   },
   {
     "name": "Jeffrey Paul",
@@ -11241,7 +11685,8 @@
       "Manager",
       "IndieWeb",
       "Firefox"
-    ]
+    ],
+    "personSlug": "jeffrey-paul"
   },
   {
     "name": "Devin Sharpe",
@@ -11262,7 +11707,8 @@
       "PostgreSQL",
       "Node.js",
       "Zed"
-    ]
+    ],
+    "personSlug": "devin-sharpe"
   },
   {
     "name": "Zachary Kai",
@@ -11286,7 +11732,8 @@
       "Artist",
       "Minimalist",
       "Indieweb"
-    ]
+    ],
+    "personSlug": "zachary-kai"
   },
   {
     "name": "Prakhil TP",
@@ -11308,7 +11755,8 @@
       "DevOps",
       "AWS",
       "Blogger"
-    ]
+    ],
+    "personSlug": "prakhil-tp"
   },
   {
     "name": "Scott Evans",
@@ -11337,7 +11785,8 @@
       "Indieweb",
       "Figma",
       "Web"
-    ]
+    ],
+    "personSlug": "scott-evans"
   },
   {
     "name": "Ryan Filler",
@@ -11362,7 +11811,8 @@
       "Testing",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "ryan-filler"
   },
   {
     "name": "Maxence Poutord",
@@ -11385,7 +11835,8 @@
       "Vue.js",
       "Testing",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "maxence-poutord"
   },
   {
     "name": "Johan Hammar",
@@ -11408,7 +11859,8 @@
       "DevOps",
       "Agile",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "johan-hammar"
   },
   {
     "name": "Leo Ashcraft",
@@ -11429,7 +11881,8 @@
       "VS Code",
       "Docker",
       "AWS"
-    ]
+    ],
+    "personSlug": "leo-ashcraft"
   },
   {
     "name": "Kevin Gimbel",
@@ -11449,7 +11902,8 @@
       "Kubernetes",
       "Container",
       "Security"
-    ]
+    ],
+    "personSlug": "kevin-gimbel"
   },
   {
     "name": "James Peilow",
@@ -11469,7 +11923,8 @@
       "SCSS",
       "Nuxt",
       "Shopify"
-    ]
+    ],
+    "personSlug": "james-peilow"
   },
   {
     "name": "Bob Orchard",
@@ -11489,7 +11944,8 @@
       "React",
       "WordPress",
       "Ruby on Rails"
-    ]
+    ],
+    "personSlug": "bob-orchard"
   },
   {
     "name": "Tim Eaton",
@@ -11509,7 +11965,8 @@
       "JavaScript",
       "React",
       "Python"
-    ]
+    ],
+    "personSlug": "tim-eaton"
   },
   {
     "name": "Lucas Becker",
@@ -11528,7 +11985,8 @@
       "Markdown",
       "CAD",
       "BIM"
-    ]
+    ],
+    "personSlug": "lucas-becker"
   },
   {
     "name": "Martín M.",
@@ -11557,7 +12015,8 @@
       "MongoDB",
       "FaunaDB",
       "Electron"
-    ]
+    ],
+    "personSlug": "martin-m"
   },
   {
     "name": "Jamie Bowman",
@@ -11605,7 +12064,8 @@
       "ParrotOS",
       "Kali",
       "Terraform"
-    ]
+    ],
+    "personSlug": "jamie-bowman"
   },
   {
     "name": "William Rodriguez",
@@ -11639,7 +12099,8 @@
       "Musician",
       "VS Code",
       "TALL Stack"
-    ]
+    ],
+    "personSlug": "william-rodriguez"
   },
   {
     "name": "Nathanaël Cherrier",
@@ -11672,7 +12133,8 @@
       "Docker",
       "Kubernetes",
       "DevOps"
-    ]
+    ],
+    "personSlug": "nathanael-cherrier"
   },
   {
     "name": "Keith Donegan",
@@ -11689,7 +12151,8 @@
       "Developer",
       "CSS",
       "Front End"
-    ]
+    ],
+    "personSlug": "keith-donegan"
   },
   {
     "name": "Jang Rush",
@@ -11708,7 +12171,8 @@
       "Go",
       "Python",
       "ReScript"
-    ]
+    ],
+    "personSlug": "jang-rush"
   },
   {
     "name": "John SJ Anderson",
@@ -11729,7 +12193,8 @@
       "Perl",
       "Node.js",
       "Emacs"
-    ]
+    ],
+    "personSlug": "john-sj-anderson"
   },
   {
     "name": "Makon Cline",
@@ -11753,7 +12218,8 @@
       "PostgreSQL",
       "GraphQL",
       "AWS"
-    ]
+    ],
+    "personSlug": "makon-cline"
   },
   {
     "name": "Nich Secord",
@@ -11779,7 +12245,8 @@
       "Sass",
       "Styled Components",
       "Node.js"
-    ]
+    ],
+    "personSlug": "nich-secord"
   },
   {
     "name": "Sebastien Elet",
@@ -11800,7 +12267,8 @@
       "Typescript",
       "Node.js",
       "Back End"
-    ]
+    ],
+    "personSlug": "sebastien-elet"
   },
   {
     "name": "Marcel Hauri",
@@ -11828,7 +12296,8 @@
       "Next",
       "Gatsby",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "marcel-hauri"
   },
   {
     "name": "Nathan Arthur",
@@ -11856,7 +12325,8 @@
       "Cloudflare",
       "Vercel",
       "Hono"
-    ]
+    ],
+    "personSlug": "nathan-arthur"
   },
   {
     "name": "Mitchell Hanberg",
@@ -11877,7 +12347,8 @@
       "Ruby",
       "Ruby on Rails",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "mitchell-hanberg"
   },
   {
     "name": "Drake Bott",
@@ -11901,7 +12372,8 @@
       "Gamer",
       "React",
       "Svelte"
-    ]
+    ],
+    "personSlug": "drake-bott"
   },
   {
     "name": "Michael Herman",
@@ -11924,7 +12396,8 @@
       "AWS",
       "Testing",
       "Teacher"
-    ]
+    ],
+    "personSlug": "michael-herman"
   },
   {
     "name": "Daniel Flege",
@@ -11953,7 +12426,8 @@
       "Ruby on Rails",
       "Tailwind CSS",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "daniel-flege"
   },
   {
     "name": "Alok Prateek",
@@ -11978,7 +12452,8 @@
       "react",
       "JavaScript",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "alok-prateek"
   },
   {
     "name": "Dwayne Harris",
@@ -12008,7 +12483,8 @@
       "macOS",
       "Windows",
       "Linux"
-    ]
+    ],
+    "personSlug": "dwayne-harris"
   },
   {
     "name": "Guru Das Srinagesh",
@@ -12037,7 +12513,8 @@
       "mutt",
       "tmux",
       "git"
-    ]
+    ],
+    "personSlug": "guru-das-srinagesh"
   },
   {
     "name": "Michael Burkhardt",
@@ -12058,7 +12535,8 @@
       "Traveler",
       "Photographer",
       "HTML/CSS"
-    ]
+    ],
+    "personSlug": "michael-burkhardt"
   },
   {
     "name": "Cory Dramsfeldt",
@@ -12079,7 +12557,8 @@
       "HTML",
       "CSS",
       "Node.js"
-    ]
+    ],
+    "personSlug": "cory-dramsfeldt"
   },
   {
     "name": "Kendall Morgan",
@@ -12104,7 +12583,8 @@
       "Python",
       "Linux",
       "Cloud"
-    ]
+    ],
+    "personSlug": "kendall-morgan"
   },
   {
     "name": "Kenny Robinson",
@@ -12131,7 +12611,8 @@
       "CSS",
       "YouTuber",
       "Automation"
-    ]
+    ],
+    "personSlug": "kenny-robinson"
   },
   {
     "name": "Manuel Fernandez",
@@ -12147,7 +12628,8 @@
       "Malware",
       "Go",
       "Cloud"
-    ]
+    ],
+    "personSlug": "manuel-fernandez"
   },
   {
     "name": "Bojan Bedrač",
@@ -12170,7 +12652,8 @@
       "PHP",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "bojan-bedrac"
   },
   {
     "name": "Yannick Le Roux",
@@ -12192,7 +12675,8 @@
       "Redux",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "yannick-le-roux"
   },
   {
     "name": "Stéphane Lambion",
@@ -12212,7 +12696,8 @@
       "IndieWeb",
       "Typography",
       "Low-tech"
-    ]
+    ],
+    "personSlug": "stephane-lambion"
   },
   {
     "name": "Eric Raslich",
@@ -12235,7 +12720,8 @@
       "CSS",
       "Tailwind CSS",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "eric-raslich"
   },
   {
     "name": "Sagar Soni",
@@ -12258,7 +12744,8 @@
       "PHP",
       "Full Stack",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "sagar-soni"
   },
   {
     "name": "Paulo Regina",
@@ -12279,7 +12766,8 @@
       "Ubuntu Server",
       "Developer",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "paulo-regina"
   },
   {
     "name": "Alex Mufatti",
@@ -12304,7 +12792,8 @@
       "Linux",
       "Blogger",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "alex-mufatti"
   },
   {
     "name": "Varatep Buranintu",
@@ -12332,7 +12821,8 @@
       "Web Developer",
       "Front End",
       "🇺🇸"
-    ]
+    ],
+    "personSlug": "varatep-buranintu"
   },
   {
     "name": "Anwar Hussain",
@@ -12358,7 +12848,8 @@
       "Entrepreneur",
       "No Code",
       "Maker"
-    ]
+    ],
+    "personSlug": "anwar-hussain"
   },
   {
     "name": "Matt Litzinger",
@@ -12377,7 +12868,8 @@
       "JavaScript",
       "Vue.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "matt-litzinger"
   },
   {
     "name": "Nathan Knowler",
@@ -12397,7 +12889,8 @@
       "Web Components",
       "Deno",
       "Neovim"
-    ]
+    ],
+    "personSlug": "nathan-knowler"
   },
   {
     "name": "Jarema",
@@ -12424,7 +12917,8 @@
       "WordPress",
       "VS Code",
       "Fedora"
-    ]
+    ],
+    "personSlug": "jarema"
   },
   {
     "name": "Asur Bernardo",
@@ -12447,7 +12941,8 @@
       "Node.js",
       "Open Source Software",
       "FOSS"
-    ]
+    ],
+    "personSlug": "asur-bernardo"
   },
   {
     "name": "Lazar Nikolov",
@@ -12471,7 +12966,8 @@
       "Developer Advocate",
       "Open Source Software",
       "Streamer"
-    ]
+    ],
+    "personSlug": "lazar-nikolov"
   },
   {
     "name": "Vinoth Chellamuthu",
@@ -12491,7 +12987,8 @@
       "Software Engineer",
       "SQL",
       "DevOps"
-    ]
+    ],
+    "personSlug": "vinoth-chellamuthu"
   },
   {
     "name": "Joff Tiquez",
@@ -12511,7 +13008,8 @@
       "Nuxt.js",
       "Quasar Framework",
       "OSSPH"
-    ]
+    ],
+    "personSlug": "joff-tiquez"
   },
   {
     "name": "Roberto Vázquez González",
@@ -12536,7 +13034,8 @@
       "Node.js",
       "CSS",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "roberto-vazquez-gonzalez"
   },
   {
     "name": "Joe Maffei",
@@ -12560,7 +13059,8 @@
       "Accessibility",
       "Mentor",
       "Musician"
-    ]
+    ],
+    "personSlug": "joe-maffei"
   },
   {
     "name": "Jelle Smeets",
@@ -12576,7 +13076,8 @@
       "Manager",
       "Blogger",
       "Writer"
-    ]
+    ],
+    "personSlug": "jelle-smeets"
   },
   {
     "name": "Rasmus P",
@@ -12607,7 +13108,8 @@
       "Node.js",
       "Frontend",
       "Umbraco"
-    ]
+    ],
+    "personSlug": "rasmus-p"
   },
   {
     "name": "Lauri Elias",
@@ -12637,7 +13139,8 @@
       "Bootstrap",
       "Gamer",
       "CI/CD"
-    ]
+    ],
+    "personSlug": "lauri-elias"
   },
   {
     "name": "Rene Gens",
@@ -12658,7 +13161,8 @@
       "Gatsby",
       "React",
       "CSS"
-    ]
+    ],
+    "personSlug": "rene-gens"
   },
   {
     "name": "Matthew Scholta",
@@ -12689,7 +13193,8 @@
       "TailwindCSS",
       "Typescript",
       "Vercel"
-    ]
+    ],
+    "personSlug": "matthew-scholta"
   },
   {
     "name": "John Smith",
@@ -12712,7 +13217,8 @@
       "Developer",
       "Backend",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "john-smith"
   },
   {
     "name": "Chris Collins",
@@ -12733,7 +13239,8 @@
       "React",
       "Sass",
       "Photographer"
-    ]
+    ],
+    "personSlug": "chris-collins"
   },
   {
     "name": "Rostyslav Ugryniuk",
@@ -12757,7 +13264,8 @@
       "React",
       "Sass",
       "Styled-Components"
-    ]
+    ],
+    "personSlug": "rostyslav-ugryniuk"
   },
   {
     "name": "Alexis Janvier",
@@ -12782,7 +13290,8 @@
       "Remote",
       "Speaker",
       "Vim"
-    ]
+    ],
+    "personSlug": "alexis-janvier"
   },
   {
     "name": "Sumanth",
@@ -12800,7 +13309,8 @@
       "JavaScript",
       "CSS",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "sumanth"
   },
   {
     "name": "Christian Leo-Pernold",
@@ -12822,7 +13332,8 @@
       "Alpine.js",
       "Javacript",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "christian-leo-pernold"
   },
   {
     "name": "Danilo Barion Nogueira",
@@ -12841,7 +13352,8 @@
       "Ruby on Rails",
       "JavaScript",
       "React"
-    ]
+    ],
+    "personSlug": "danilo-barion-nogueira"
   },
   {
     "name": "Chris Otto",
@@ -12863,7 +13375,8 @@
       "Testing",
       "Gatsby",
       "DevOps"
-    ]
+    ],
+    "personSlug": "chris-otto"
   },
   {
     "name": "James Quick",
@@ -12885,7 +13398,8 @@
       "JavaScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "james-quick"
   },
   {
     "name": "Vishwasa Navada K",
@@ -12905,7 +13419,8 @@
       "Serverless",
       "Blogger",
       "Traveler"
-    ]
+    ],
+    "personSlug": "vishwasa-navada-k"
   },
   {
     "name": "Silvestar Bistrović",
@@ -12928,7 +13443,8 @@
       "Developer",
       "Front End",
       "Remote"
-    ]
+    ],
+    "personSlug": "silvestar-bistrovic"
   },
   {
     "name": "Adam Schwartz",
@@ -12949,7 +13465,8 @@
       "Front End",
       "JavaScript",
       "Musician"
-    ]
+    ],
+    "personSlug": "adam-schwartz"
   },
   {
     "name": "Daryn St. Pierre",
@@ -12973,7 +13490,8 @@
       "Full Stack",
       "Node.js",
       "Remote"
-    ]
+    ],
+    "personSlug": "daryn-st-pierre"
   },
   {
     "name": "Chris Lagasse",
@@ -12995,7 +13513,8 @@
       "Eleventy",
       "Vue.js",
       "Remote"
-    ]
+    ],
+    "personSlug": "chris-lagasse"
   },
   {
     "name": "Christoph Miksche",
@@ -13023,7 +13542,8 @@
       "Linux",
       "Remote",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "christoph-miksche"
   },
   {
     "name": "Toon Claes",
@@ -13046,7 +13566,8 @@
       "Remote",
       "Ruby",
       "webdev"
-    ]
+    ],
+    "personSlug": "toon-claes"
   },
   {
     "name": "Sergey Lysenko",
@@ -13072,7 +13593,8 @@
       "CSS",
       "HTML",
       "Performance"
-    ]
+    ],
+    "personSlug": "sergey-lysenko"
   },
   {
     "name": "Shreyas Minocha",
@@ -13090,7 +13612,8 @@
       "TypeScript",
       "JavaScript",
       "Python"
-    ]
+    ],
+    "personSlug": "shreyas-minocha"
   },
   {
     "name": "Andrei Racasan",
@@ -13112,7 +13635,8 @@
       "Express",
       "MongoDB",
       "MERN"
-    ]
+    ],
+    "personSlug": "andrei-racasan"
   },
   {
     "name": "Sergey Panteleev",
@@ -13135,7 +13659,8 @@
       "PhpStorm",
       "macOS",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "sergey-panteleev"
   },
   {
     "name": "Shajan Jacob",
@@ -13154,7 +13679,8 @@
       "JavaScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "shajan-jacob"
   },
   {
     "name": "Alexandre Ferreira",
@@ -13173,7 +13699,8 @@
       "TypeScript",
       "React",
       "Vue"
-    ]
+    ],
+    "personSlug": "alexandre-ferreira"
   },
   {
     "name": "Thomas Eckert",
@@ -13193,7 +13720,8 @@
       "Svelte",
       "Homelab",
       "Watercolor"
-    ]
+    ],
+    "personSlug": "thomas-eckert"
   },
   {
     "name": "Marco Poletto",
@@ -13212,7 +13740,8 @@
       "ReactJS",
       "GraphQL",
       "Front End"
-    ]
+    ],
+    "personSlug": "marco-poletto"
   },
   {
     "name": "Tim Teege",
@@ -13234,7 +13763,8 @@
       "JavaScript",
       "PHP",
       "MySQL"
-    ]
+    ],
+    "personSlug": "tim-teege"
   },
   {
     "name": "Mark Horsell",
@@ -13261,7 +13791,8 @@
       "Dart",
       "C#",
       "SQL"
-    ]
+    ],
+    "personSlug": "mark-horsell"
   },
   {
     "name": "Timo Furrer",
@@ -13284,7 +13815,8 @@
       "Kubernetes",
       "Coffee",
       "Barista"
-    ]
+    ],
+    "personSlug": "timo-furrer"
   },
   {
     "name": "Elmar Klausmeier",
@@ -13307,7 +13839,8 @@
       "JavaScript",
       "Lua",
       "COBOL"
-    ]
+    ],
+    "personSlug": "elmar-klausmeier"
   },
   {
     "name": "Joel M. Turner",
@@ -13331,7 +13864,8 @@
       "SCSS",
       "Web Developer",
       "Front End"
-    ]
+    ],
+    "personSlug": "joel-m-turner"
   },
   {
     "name": "Matt Jennings",
@@ -13349,7 +13883,8 @@
       "JavaScript",
       "React",
       "Hockey"
-    ]
+    ],
+    "personSlug": "matt-jennings"
   },
   {
     "name": "Jake Jarvis",
@@ -13371,7 +13906,8 @@
       "Infosec",
       "Blogger",
       "Teacher"
-    ]
+    ],
+    "personSlug": "jake-jarvis"
   },
   {
     "name": "Ángel Guerra",
@@ -13391,7 +13927,8 @@
       "CakePHP",
       "Ruby",
       "Ruby On Rails"
-    ]
+    ],
+    "personSlug": "angel-guerra"
   },
   {
     "name": "Robin Bakker",
@@ -13414,7 +13951,8 @@
       "C#",
       ".NET",
       "Eleventy"
-    ]
+    ],
+    "personSlug": "robin-bakker"
   },
   {
     "name": "Alessia Bellisario",
@@ -13434,7 +13972,8 @@
       "WebAssembly",
       "Gatsby",
       "Blogger"
-    ]
+    ],
+    "personSlug": "alessia-bellisario"
   },
   {
     "name": "AriaieBOY",
@@ -13458,7 +13997,8 @@
       "AlpineJS",
       "TALL Stack",
       "Livewire"
-    ]
+    ],
+    "personSlug": "ariaieboy"
   },
   {
     "name": "Russell McWhae",
@@ -13478,7 +14018,8 @@
       ".NET",
       "Ruby",
       "Ruby on Rails"
-    ]
+    ],
+    "personSlug": "russell-mcwhae"
   },
   {
     "name": "David McGurrin",
@@ -13506,7 +14047,8 @@
       "Shopify",
       "Blogger",
       "Traveler"
-    ]
+    ],
+    "personSlug": "david-mcgurrin"
   },
   {
     "name": "Karl Koch",
@@ -13532,7 +14074,8 @@
       "Cosmic.js",
       "Accessibility",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "karl-koch"
   },
   {
     "name": "Praveen Kumar Purushothaman",
@@ -13555,7 +14098,8 @@
       "React",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "praveen-kumar-purushothaman"
   },
   {
     "name": "Gaya Kessler",
@@ -13578,7 +14122,8 @@
       "Freelance",
       "Freelancer",
       "Metalhead"
-    ]
+    ],
+    "personSlug": "gaya-kessler"
   },
   {
     "name": "Eivind Lindbråten",
@@ -13600,7 +14145,8 @@
       "SwiftUI",
       "ComosableArchitecture",
       "Design-oriented"
-    ]
+    ],
+    "personSlug": "eivind-lindbraten"
   },
   {
     "name": "Matthew Ernisse",
@@ -13620,7 +14166,8 @@
       "vi",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "matthew-ernisse"
   },
   {
     "name": "Diego López",
@@ -13641,7 +14188,8 @@
       "Vue.js",
       "Writer",
       "Nuxt"
-    ]
+    ],
+    "personSlug": "diego-lopez"
   },
   {
     "name": "Dave Mullen Jnr",
@@ -13661,7 +14209,8 @@
       "React",
       "Gatsby",
       "CSS"
-    ]
+    ],
+    "personSlug": "dave-mullen-jnr"
   },
   {
     "name": "Tiffany White",
@@ -13682,7 +14231,8 @@
       "Web Developer",
       "Writer",
       "Podcaster"
-    ]
+    ],
+    "personSlug": "tiffany-white"
   },
   {
     "name": "Kent C. Dodds",
@@ -13703,7 +14253,8 @@
       "React",
       "Speaker",
       "Blogger"
-    ]
+    ],
+    "personSlug": "kent-c-dodds"
   },
   {
     "name": "Riley Shaw",
@@ -13734,7 +14285,8 @@
       "tmux",
       "Firefox",
       "Bug developer"
-    ]
+    ],
+    "personSlug": "riley-shaw"
   },
   {
     "name": "Nathan Smith",
@@ -13750,7 +14302,8 @@
       "ASP.Net Core",
       "React",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "nathan-smith"
   },
   {
     "name": "Thê (Alexander) Quach",
@@ -13771,7 +14324,8 @@
       "R",
       "VSCode",
       "IntelliJ"
-    ]
+    ],
+    "personSlug": "the-alexander-quach"
   },
   {
     "name": "Joshua Ryan Velasquez",
@@ -13796,7 +14350,8 @@
       "Vim",
       "Entrepreneur",
       "Calisthenics"
-    ]
+    ],
+    "personSlug": "joshua-ryan-velasquez"
   },
   {
     "name": "Glenn Reyes",
@@ -13817,7 +14372,8 @@
       "GraphQL",
       "TypeScript",
       "Speaker"
-    ]
+    ],
+    "personSlug": "glenn-reyes"
   },
   {
     "name": "Jean Tinland",
@@ -13840,7 +14396,8 @@
       "React",
       "Next.js",
       "Accessibility"
-    ]
+    ],
+    "personSlug": "jean-tinland"
   },
   {
     "name": "Yash Dave",
@@ -13862,7 +14419,8 @@
       "Python",
       ".NET Core",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "yash-dave"
   },
   {
     "name": "Adam Jahnke",
@@ -13878,7 +14436,8 @@
       "Full Stack",
       "JavaScript",
       "Ruby"
-    ]
+    ],
+    "personSlug": "adam-jahnke"
   },
   {
     "name": "Andrew Healey",
@@ -13894,7 +14453,8 @@
       "JavaScript",
       "Python",
       "Writer"
-    ]
+    ],
+    "personSlug": "andrew-healey"
   },
   {
     "name": "Gyan Prakash Karn",
@@ -13916,7 +14476,8 @@
       "Designer",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "gyan-prakash-karn"
   },
   {
     "name": "Scott Tolinski",
@@ -13938,7 +14499,8 @@
       "CSS",
       "TypeScript",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "scott-tolinski"
   },
   {
     "name": "Zubair Ibn Zamir",
@@ -13965,7 +14527,8 @@
       "tmux",
       "Vite",
       "WSL"
-    ]
+    ],
+    "personSlug": "zubair-ibn-zamir"
   },
   {
     "name": "Tony Lockhart",
@@ -13994,7 +14557,8 @@
       "React",
       "TypeScript",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "tony-lockhart"
   },
   {
     "name": "Wojciech M. Wnuk",
@@ -14021,7 +14585,8 @@
       "Emacs",
       "Lisp",
       "Clojure"
-    ]
+    ],
+    "personSlug": "wojciech-m-wnuk"
   },
   {
     "name": "Leonardo Melo",
@@ -14042,7 +14607,8 @@
       "JavaScript",
       "React",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "leonardo-melo"
   },
   {
     "name": "Leonardo Rifeli",
@@ -14072,7 +14638,8 @@
       "Big Data",
       "SRE",
       "Scalability"
-    ]
+    ],
+    "personSlug": "leonardo-rifeli"
   },
   {
     "name": "Gabriel Wilkes",
@@ -14095,7 +14662,8 @@
       "Serverless",
       "AWS",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "gabriel-wilkes"
   },
   {
     "name": "Rémi Weng",
@@ -14126,7 +14694,8 @@
       "NestJS",
       "Express.js",
       "Redux"
-    ]
+    ],
+    "personSlug": "remi-weng"
   },
   {
     "name": "Sal Ferrarello",
@@ -14148,7 +14717,8 @@
       "NeoVim",
       "tmux",
       "zsh"
-    ]
+    ],
+    "personSlug": "sal-ferrarello"
   },
   {
     "name": "Brian Morrison II",
@@ -14171,7 +14741,8 @@
       "Node.js",
       "C#",
       "CSS"
-    ]
+    ],
+    "personSlug": "brian-morrison-ii"
   },
   {
     "name": "Tim Downey",
@@ -14200,7 +14771,8 @@
       "Full Stack",
       "TDD",
       "Scheme"
-    ]
+    ],
+    "personSlug": "tim-downey"
   },
   {
     "name": "Sayak Mukhopadhyay",
@@ -14233,7 +14805,8 @@
       "AI",
       "GitHub",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "sayak-mukhopadhyay"
   },
   {
     "name": "Josiah Wiebe",
@@ -14250,7 +14823,8 @@
       "Python",
       "JavaScript",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "josiah-wiebe"
   },
   {
     "name": "Muhammad Oka",
@@ -14271,7 +14845,8 @@
       "C",
       "Vercel",
       "Next"
-    ]
+    ],
+    "personSlug": "muhammad-oka"
   },
   {
     "name": "Benjamin Lannon",
@@ -14289,7 +14864,8 @@
       "Teacher",
       "JavaScript",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "benjamin-lannon"
   },
   {
     "name": "Dmytro Litvinov",
@@ -14307,7 +14883,8 @@
       "Full Stack",
       "Python",
       "Django"
-    ]
+    ],
+    "personSlug": "dmytro-litvinov"
   },
   {
     "name": "Braden Watkins",
@@ -14324,7 +14901,8 @@
       "JavaScript",
       "Python",
       "Go"
-    ]
+    ],
+    "personSlug": "braden-watkins"
   },
   {
     "name": "Jed Fonner",
@@ -14345,7 +14923,8 @@
       "Enterprise Software",
       "Father",
       "Manager"
-    ]
+    ],
+    "personSlug": "jed-fonner"
   },
   {
     "name": "Steve Abraham",
@@ -14371,7 +14950,8 @@
       "Eleventy",
       "Craft CMS",
       "Web Developer"
-    ]
+    ],
+    "personSlug": "steve-abraham"
   },
   {
     "name": "Salisa Cheawcharnthong",
@@ -14395,7 +14975,8 @@
       "Full Stack",
       "Node.js",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "salisa-cheawcharnthong"
   },
   {
     "name": "Tom (ttntm)",
@@ -14414,7 +14995,8 @@
       "Blogger",
       "Preact",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "tom-ttntm"
   },
   {
     "name": "Vincent Ollivier",
@@ -14445,7 +15027,8 @@
       "SQL",
       "Vim",
       "Git"
-    ]
+    ],
+    "personSlug": "vincent-ollivier"
   },
   {
     "name": "Achhunna Mali",
@@ -14464,7 +15047,8 @@
       "Front End",
       "Musician",
       "Surfer"
-    ]
+    ],
+    "personSlug": "achhunna-mali"
   },
   {
     "name": "Jorge Baumann",
@@ -14484,7 +15068,8 @@
       "Vue.js",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "jorge-baumann"
   },
   {
     "name": "Moncef AOUDIA",
@@ -14513,7 +15098,8 @@
       "Reactor",
       "Speaker",
       "Spring Boot"
-    ]
+    ],
+    "personSlug": "moncef-aoudia"
   },
   {
     "name": "Adrian Marin",
@@ -14530,7 +15116,8 @@
       "Entrepreneur",
       "Ruby on Rails",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "adrian-marin"
   },
   {
     "name": "Iain Schmitt",
@@ -14547,7 +15134,8 @@
       "React",
       "Preact",
       "F#"
-    ]
+    ],
+    "personSlug": "iain-schmitt"
   },
   {
     "name": "Jahir Fiquitiva",
@@ -14569,7 +15157,8 @@
       "Engineer",
       "Frontend",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "jahir-fiquitiva"
   },
   {
     "name": "José Hernández",
@@ -14595,7 +15184,8 @@
       "Front End",
       "TailWindCSS",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "jose-hernandez"
   },
   {
     "name": "Christophe Querton",
@@ -14617,7 +15207,8 @@
       "TypeScript",
       "NestJS",
       "CSS"
-    ]
+    ],
+    "personSlug": "christophe-querton"
   },
   {
     "name": "Adil Haddaoui",
@@ -14647,7 +15238,8 @@
       "Gatsby",
       "SQL",
       "MERN Stack"
-    ]
+    ],
+    "personSlug": "adil-haddaoui"
   },
   {
     "name": "Vlad Holubiev",
@@ -14672,7 +15264,8 @@
       "Serverless",
       "Python",
       "Blogger"
-    ]
+    ],
+    "personSlug": "vlad-holubiev"
   },
   {
     "name": "Jorge Ruvalcaba",
@@ -14702,7 +15295,8 @@
       "UX",
       "UI",
       "Next.js"
-    ]
+    ],
+    "personSlug": "jorge-ruvalcaba"
   },
   {
     "name": "Michael Knepprath",
@@ -14721,7 +15315,8 @@
       "JavaScript",
       "React",
       "Bots"
-    ]
+    ],
+    "personSlug": "michael-knepprath"
   },
   {
     "name": "Matt TK Taylor",
@@ -14737,7 +15332,8 @@
       "Node.js",
       "Javascript",
       "Vercel"
-    ]
+    ],
+    "personSlug": "matt-tk-taylor"
   },
   {
     "name": "Nico Bachner",
@@ -14766,7 +15362,8 @@
       "VS Code",
       "GitHub",
       "Vercel"
-    ]
+    ],
+    "personSlug": "nico-bachner"
   },
   {
     "name": "Brad Garropy",
@@ -14793,7 +15390,8 @@
       "Remix",
       "Tailwind",
       "Compressed.fm"
-    ]
+    ],
+    "personSlug": "brad-garropy"
   },
   {
     "name": "Jeff Mair",
@@ -14810,7 +15408,8 @@
       "JavaScript",
       "C#",
       "Node.js"
-    ]
+    ],
+    "personSlug": "jeff-mair"
   },
   {
     "name": "Jeremy Collins",
@@ -14832,7 +15431,8 @@
       "Node.js",
       "Angular",
       "Swift"
-    ]
+    ],
+    "personSlug": "jeremy-collins"
   },
   {
     "name": "Michael Kutz",
@@ -14858,7 +15458,8 @@
       "Node.js",
       "Serverless",
       "AWS"
-    ]
+    ],
+    "personSlug": "michael-kutz"
   },
   {
     "name": "Bruno Brito",
@@ -14879,7 +15480,8 @@
       "React",
       "Gatsby",
       "CSS"
-    ]
+    ],
+    "personSlug": "bruno-brito"
   },
   {
     "name": "Roy Tang",
@@ -14900,7 +15502,8 @@
       "HTML",
       "CSS",
       "SQL"
-    ]
+    ],
+    "personSlug": "roy-tang"
   },
   {
     "name": "Sahilpreet Singh",
@@ -14930,7 +15533,8 @@
       "Web",
       "VS Code",
       "Software Engineer"
-    ]
+    ],
+    "personSlug": "sahilpreet-singh"
   },
   {
     "name": "Thomas Jensen",
@@ -14950,7 +15554,8 @@
       "Arch Linux",
       "Ubuntu",
       "Homelab"
-    ]
+    ],
+    "personSlug": "thomas-jensen"
   },
   {
     "name": "David Perkins",
@@ -14969,7 +15574,8 @@
       "CSS",
       "Gatsby",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "david-perkins"
   },
   {
     "name": "Aaron Dunphy",
@@ -14987,7 +15593,8 @@
       "Laravel",
       "PHP",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "aaron-dunphy"
   },
   {
     "name": "Jan Durkaj",
@@ -15017,7 +15624,8 @@
       "GWT",
       "UX",
       "UI"
-    ]
+    ],
+    "personSlug": "jan-durkaj"
   },
   {
     "name": "Cory Forsythe",
@@ -15041,7 +15649,8 @@
       "Python",
       "AWS",
       "GCP"
-    ]
+    ],
+    "personSlug": "cory-forsythe"
   },
   {
     "name": "Tom MacWright",
@@ -15058,7 +15667,8 @@
       "Developer",
       "React",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "tom-macwright"
   },
   {
     "name": "Duncan Bain",
@@ -15078,7 +15688,8 @@
       "JAMstack",
       "Engineer",
       "CSS"
-    ]
+    ],
+    "personSlug": "duncan-bain"
   },
   {
     "name": "Jason Raimondi",
@@ -15101,7 +15712,8 @@
       "Ruby",
       "Go",
       "Docker"
-    ]
+    ],
+    "personSlug": "jason-raimondi"
   },
   {
     "name": "Marco Kamner",
@@ -15124,7 +15736,8 @@
       "GitLab",
       "MacOS",
       "Django"
-    ]
+    ],
+    "personSlug": "marco-kamner"
   },
   {
     "name": "Glyn Normington",
@@ -15148,7 +15761,8 @@
       "git",
       "Linux",
       "Arch Linux"
-    ]
+    ],
+    "personSlug": "glyn-normington"
   },
   {
     "name": "Thomas Hunter II",
@@ -15167,7 +15781,8 @@
       "Writer",
       "JavaScript",
       "Node.js"
-    ]
+    ],
+    "personSlug": "thomas-hunter-ii"
   },
   {
     "name": "Martin Marcucci",
@@ -15187,7 +15802,8 @@
       "TypeScript",
       "Kubernetes",
       "Devops"
-    ]
+    ],
+    "personSlug": "martin-marcucci"
   },
   {
     "name": "Andrew McCombe",
@@ -15209,7 +15825,8 @@
       "LAMP",
       "ElasticSearch",
       "AWS"
-    ]
+    ],
+    "personSlug": "andrew-mccombe"
   },
   {
     "name": "Smakosh",
@@ -15226,7 +15843,8 @@
       "Entrepreneur",
       "Blogger",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "smakosh"
   },
   {
     "name": "Eihab Khan",
@@ -15247,7 +15865,8 @@
       "Next.js",
       "JavaScript",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "eihab-khan"
   },
   {
     "name": "Mahmoud Ashraf",
@@ -15266,7 +15885,8 @@
       "Node.js",
       "GraphQl",
       "Svelte"
-    ]
+    ],
+    "personSlug": "mahmoud-ashraf"
   },
   {
     "name": "Charlie Say",
@@ -15289,7 +15909,8 @@
       "Next",
       "Netlify",
       "Java"
-    ]
+    ],
+    "personSlug": "charlie-say"
   },
   {
     "name": "Pouria Ezzati",
@@ -15309,7 +15930,8 @@
       "TypeScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "pouria-ezzati"
   },
   {
     "name": "Simeon Griggs",
@@ -15330,7 +15952,8 @@
       "Gatsby",
       "NextJS",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "simeon-griggs"
   },
   {
     "name": "Stuart McColl",
@@ -15349,7 +15972,8 @@
       "Front End",
       "Software Developer",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "stuart-mccoll"
   },
   {
     "name": "Jonathan Suh",
@@ -15367,7 +15991,8 @@
       "Front End",
       "JavaScript",
       "React"
-    ]
+    ],
+    "personSlug": "jonathan-suh"
   },
   {
     "name": "George Campbell",
@@ -15403,7 +16028,8 @@
       "Svelte",
       "TypeScript",
       "VS Code"
-    ]
+    ],
+    "personSlug": "george-campbell"
   },
   {
     "name": "Sowren Sen",
@@ -15430,7 +16056,8 @@
       "devops",
       "docker",
       "github"
-    ]
+    ],
+    "personSlug": "sowren-sen"
   },
   {
     "name": "Keith Wagner",
@@ -15451,7 +16078,8 @@
       "CSS",
       "C#",
       ".NET"
-    ]
+    ],
+    "personSlug": "keith-wagner"
   },
   {
     "name": "Sebastian Remm",
@@ -15490,7 +16118,8 @@
       "TypeScript",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "sebastian-remm"
   },
   {
     "name": "Stephen Bunn",
@@ -15522,7 +16151,8 @@
       "Web Development",
       "Full Stack",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "stephen-bunn"
   },
   {
     "name": "Chuck Munson",
@@ -15540,7 +16170,8 @@
       "Blogger",
       "Web Developer",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "chuck-munson"
   },
   {
     "name": "David O'Trakoun",
@@ -15554,7 +16185,8 @@
     "phone": "android",
     "tags": [
       "Developer"
-    ]
+    ],
+    "personSlug": "david-o-trakoun"
   },
   {
     "name": "Dean Harris",
@@ -15573,7 +16205,8 @@
       "React",
       "Node.js",
       "PHP"
-    ]
+    ],
+    "personSlug": "dean-harris"
   },
   {
     "name": "Michael Hoffmann",
@@ -15593,7 +16226,8 @@
       "JavaScript",
       "Full Stack",
       "Front End"
-    ]
+    ],
+    "personSlug": "michael-hoffmann"
   },
   {
     "name": "Mike Hart",
@@ -15614,7 +16248,8 @@
       "Express",
       "MongoDB",
       "WCAG"
-    ]
+    ],
+    "personSlug": "mike-hart"
   },
   {
     "name": "Jeremy Ross",
@@ -15634,7 +16269,8 @@
       "Tech Lead",
       "VS Code",
       "Remote"
-    ]
+    ],
+    "personSlug": "jeremy-ross"
   },
   {
     "name": "Colin Morris",
@@ -15654,7 +16290,8 @@
       "JavaScript",
       "Back End",
       "Go"
-    ]
+    ],
+    "personSlug": "colin-morris"
   },
   {
     "name": "Austin Gil",
@@ -15676,7 +16313,8 @@
       "Node.js",
       "GraphQL",
       "CSS"
-    ]
+    ],
+    "personSlug": "austin-gil"
   },
   {
     "name": "Michael Le",
@@ -15698,7 +16336,8 @@
       "React",
       "Node.js",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "michael-le"
   },
   {
     "name": "Imran Nazar",
@@ -15715,7 +16354,8 @@
       "JavaScript",
       "PHP",
       "C64"
-    ]
+    ],
+    "personSlug": "imran-nazar"
   },
   {
     "name": "Kilian Valkhof",
@@ -15739,7 +16379,8 @@
       "Electron",
       "Polypane",
       "Devtools"
-    ]
+    ],
+    "personSlug": "kilian-valkhof"
   },
   {
     "name": "Spencer Aung",
@@ -15763,7 +16404,8 @@
       "GraphQL",
       "Gatsby",
       "Next"
-    ]
+    ],
+    "personSlug": "spencer-aung"
   },
   {
     "name": "Dale French",
@@ -15785,7 +16427,8 @@
       "React Native",
       "Node.js",
       "Remote"
-    ]
+    ],
+    "personSlug": "dale-french"
   },
   {
     "name": "Jordan Elver",
@@ -15807,7 +16450,8 @@
       "Rust",
       "JavaScript",
       "Vim"
-    ]
+    ],
+    "personSlug": "jordan-elver"
   },
   {
     "name": "Russell John",
@@ -15832,7 +16476,8 @@
       "HTML",
       "CSS",
       "Photographer"
-    ]
+    ],
+    "personSlug": "russell-john"
   },
   {
     "name": "Liam Richardson",
@@ -15854,7 +16499,8 @@
       "Design Systems",
       "Sass",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "liam-richardson"
   },
   {
     "name": "Serghei Cebotari",
@@ -15876,7 +16522,8 @@
       "macOS",
       "Webstorm",
       "Neovim"
-    ]
+    ],
+    "personSlug": "serghei-cebotari"
   },
   {
     "name": "Timothy Miller",
@@ -15899,7 +16546,8 @@
       "CSS",
       "PHP",
       "Blogger"
-    ]
+    ],
+    "personSlug": "timothy-miller"
   },
   {
     "name": "Caleb Ukle",
@@ -15918,7 +16566,8 @@
       "Angular",
       "TypeScript",
       "Blogger"
-    ]
+    ],
+    "personSlug": "caleb-ukle"
   },
   {
     "name": "Ricardo Boss",
@@ -15945,7 +16594,8 @@
       "Docker",
       "DevOps",
       "Self taught"
-    ]
+    ],
+    "personSlug": "ricardo-boss"
   },
   {
     "name": "Vincent Ramdhanie",
@@ -15969,7 +16619,8 @@
       "Gatsby",
       "Machine Learning",
       "Python"
-    ]
+    ],
+    "personSlug": "vincent-ramdhanie"
   },
   {
     "name": "Christopher Mortimer",
@@ -15996,7 +16647,8 @@
       "PowerShell",
       "Windows",
       "Linux"
-    ]
+    ],
+    "personSlug": "christopher-mortimer"
   },
   {
     "name": "Amir R Muntasser",
@@ -16017,7 +16669,8 @@
       "Vue.js",
       "React",
       "Developer"
-    ]
+    ],
+    "personSlug": "amir-r-muntasser"
   },
   {
     "name": "Pavel Melnik",
@@ -16038,7 +16691,8 @@
       "SQL",
       "Accessibility",
       "Performance"
-    ]
+    ],
+    "personSlug": "pavel-melnik"
   },
   {
     "name": "Miguel Ángel Durán",
@@ -16066,7 +16720,8 @@
       "Speaker",
       "Podcaster",
       "Blogger"
-    ]
+    ],
+    "personSlug": "miguel-angel-duran"
   },
   {
     "name": "David Llop",
@@ -16090,7 +16745,8 @@
       "Chatbots",
       "API",
       "Blogger"
-    ]
+    ],
+    "personSlug": "david-llop"
   },
   {
     "name": "Alba Silvente",
@@ -16113,7 +16769,8 @@
       "PWA",
       "Remote",
       "Zeplin"
-    ]
+    ],
+    "personSlug": "alba-silvente"
   },
   {
     "name": "Karel De Smet",
@@ -16133,7 +16790,8 @@
       "React",
       "Node.js",
       "Express"
-    ]
+    ],
+    "personSlug": "karel-de-smet"
   },
   {
     "name": "Alberto Fortes",
@@ -16158,7 +16816,8 @@
       "GraphQL",
       "Remote",
       "Zeplin"
-    ]
+    ],
+    "personSlug": "alberto-fortes"
   },
   {
     "name": "Josh Manders",
@@ -16180,7 +16839,8 @@
       "GraphQL",
       "Kubernetes",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "josh-manders"
   },
   {
     "name": "Laurie Barth",
@@ -16198,7 +16858,8 @@
       "Front End",
       "JavaScript",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "laurie-barth"
   },
   {
     "name": "Joe Previte",
@@ -16223,7 +16884,8 @@
       "Gatsby",
       "Rust",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "joe-previte"
   },
   {
     "name": "Harry Wolff",
@@ -16240,7 +16902,8 @@
       "YouTuber",
       "Blogger",
       "Front End"
-    ]
+    ],
+    "personSlug": "harry-wolff"
   },
   {
     "name": "Amir Ghaffari",
@@ -16261,7 +16924,8 @@
       "Laravel",
       "Lumen",
       "TDD"
-    ]
+    ],
+    "personSlug": "amir-ghaffari"
   },
   {
     "name": "James Mills",
@@ -16280,7 +16944,8 @@
       "PHP",
       "Laravel",
       "Treeware"
-    ]
+    ],
+    "personSlug": "james-mills"
   },
   {
     "name": "Jamie Schembri",
@@ -16300,7 +16965,8 @@
       "Rails",
       "Complexity",
       "Simplicity"
-    ]
+    ],
+    "personSlug": "jamie-schembri"
   },
   {
     "name": "Brian Mitchell",
@@ -16323,7 +16989,8 @@
       "TypeScript",
       "React",
       "Speaker"
-    ]
+    ],
+    "personSlug": "brian-mitchell"
   },
   {
     "name": "Eddie Welker",
@@ -16350,7 +17017,8 @@
       "Cycling",
       "Cellist",
       "Cook"
-    ]
+    ],
+    "personSlug": "eddie-welker"
   },
   {
     "name": "Mohammad Dohadwala",
@@ -16372,7 +17040,8 @@
       "Full Stack",
       "Serverless",
       "AWS"
-    ]
+    ],
+    "personSlug": "mohammad-dohadwala"
   },
   {
     "name": "Manuel Savino",
@@ -16399,7 +17068,8 @@
       "GraphQL",
       "Tailwind CSS",
       "Styled-Components"
-    ]
+    ],
+    "personSlug": "manuel-savino"
   },
   {
     "name": "Terry Godier",
@@ -16417,7 +17087,8 @@
       "Writer",
       "PHP",
       "Laravel"
-    ]
+    ],
+    "personSlug": "terry-godier"
   },
   {
     "name": "Erno Salo",
@@ -16439,7 +17110,8 @@
       "Accessibility",
       "SQL",
       "Docker"
-    ]
+    ],
+    "personSlug": "erno-salo"
   },
   {
     "name": "James Brooks",
@@ -16464,7 +17136,8 @@
       "Tailwind CSS",
       "Remote",
       "Sublime Text"
-    ]
+    ],
+    "personSlug": "james-brooks"
   },
   {
     "name": "Eugene Oliveros",
@@ -16491,7 +17164,8 @@
       "Flask",
       "Gatsby",
       "ReactJS"
-    ]
+    ],
+    "personSlug": "eugene-oliveros"
   },
   {
     "name": "Mike Barkmin",
@@ -16514,7 +17188,8 @@
       "JavaScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "mike-barkmin"
   },
   {
     "name": "Hugo Di Francesco",
@@ -16540,7 +17215,8 @@
       "React",
       "Vue.js",
       "Node.js"
-    ]
+    ],
+    "personSlug": "hugo-di-francesco"
   },
   {
     "name": "Steve Heyes",
@@ -16560,7 +17236,8 @@
       "JavaScript",
       "React",
       "React Native"
-    ]
+    ],
+    "personSlug": "steve-heyes"
   },
   {
     "name": "Earl Siachongco",
@@ -16575,7 +17252,8 @@
       "Python",
       "Django",
       "Linux"
-    ]
+    ],
+    "personSlug": "earl-siachongco"
   },
   {
     "name": "Galen Cuthbertson",
@@ -16596,7 +17274,8 @@
       "AI",
       "VSCode",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "galen-cuthbertson"
   },
   {
     "name": "Chris Jones",
@@ -16615,7 +17294,8 @@
       "CSS",
       "JavaScript",
       "PHP"
-    ]
+    ],
+    "personSlug": "chris-jones"
   },
   {
     "name": "Diego Vazquez",
@@ -16635,7 +17315,8 @@
       "React",
       "Node.js",
       "Mongo DB"
-    ]
+    ],
+    "personSlug": "diego-vazquez"
   },
   {
     "name": "Rafael Quintanilha",
@@ -16655,7 +17336,8 @@
       "React",
       "Node.js",
       "Blogger"
-    ]
+    ],
+    "personSlug": "rafael-quintanilha"
   },
   {
     "name": "Jenna Pederson",
@@ -16678,7 +17360,8 @@
       "Node.js",
       "Blogger",
       "Speaker"
-    ]
+    ],
+    "personSlug": "jenna-pederson"
   },
   {
     "name": "Ben Leivian",
@@ -16700,7 +17383,8 @@
       "Vue.js",
       "Node.js",
       "Docker"
-    ]
+    ],
+    "personSlug": "ben-leivian"
   },
   {
     "name": "Danny de Vries",
@@ -16720,7 +17404,8 @@
       "JavaScript",
       "Lecturer",
       "Teaching"
-    ]
+    ],
+    "personSlug": "danny-de-vries"
   },
   {
     "name": "David Petringa",
@@ -16744,7 +17429,8 @@
       "Vue.js",
       "MySQL",
       "Entrepreneur"
-    ]
+    ],
+    "personSlug": "david-petringa"
   },
   {
     "name": "Stephen Senkomago Musoke",
@@ -16764,7 +17450,8 @@
       "OpenMRS",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "stephen-senkomago-musoke"
   },
   {
     "name": "Jérémy Mouzin",
@@ -16785,7 +17472,8 @@
       "Blogger",
       "JavaScript",
       "Node.js"
-    ]
+    ],
+    "personSlug": "jeremy-mouzin"
   },
   {
     "name": "John Cranston",
@@ -16804,7 +17492,8 @@
       "Gamer",
       "Streamer",
       "Blogger"
-    ]
+    ],
+    "personSlug": "john-cranston"
   },
   {
     "name": "Thorsten Hans",
@@ -16824,7 +17513,8 @@
       "Terraform",
       "Azure",
       "aspnetcore"
-    ]
+    ],
+    "personSlug": "thorsten-hans"
   },
   {
     "name": "Iñigo Ochoa",
@@ -16852,7 +17542,8 @@
       "Astro",
       "Websites",
       "Symfony"
-    ]
+    ],
+    "personSlug": "inigo-ochoa"
   },
   {
     "name": "Tony Mannino",
@@ -16874,7 +17565,8 @@
       "Glitch",
       "Music",
       "Cooking"
-    ]
+    ],
+    "personSlug": "tony-mannino"
   },
   {
     "name": "Victor Kropp",
@@ -16894,7 +17586,8 @@
       "Rust",
       "Speaker",
       "PlayStation"
-    ]
+    ],
+    "personSlug": "victor-kropp"
   },
   {
     "name": "Scott Spence",
@@ -16915,7 +17608,8 @@
       "Sloths",
       "Blogger",
       "Speaker"
-    ]
+    ],
+    "personSlug": "scott-spence"
   },
   {
     "name": "Marc Littlemore",
@@ -16937,7 +17631,8 @@
       "YouTuber",
       "Blogger",
       "Speaker"
-    ]
+    ],
+    "personSlug": "marc-littlemore"
   },
   {
     "name": "Danielle Mayabb",
@@ -16966,7 +17661,8 @@
       "Accessibility",
       "a11y",
       "Bootstrap"
-    ]
+    ],
+    "personSlug": "danielle-mayabb"
   },
   {
     "name": "Georgi Yanev",
@@ -16991,7 +17687,8 @@
       "Python",
       "FPVtips",
       "Developer"
-    ]
+    ],
+    "personSlug": "georgi-yanev"
   },
   {
     "name": "Varun Raj Manoharan",
@@ -17014,7 +17711,8 @@
       "NextJS",
       "GDE",
       "Firebase"
-    ]
+    ],
+    "personSlug": "varun-raj-manoharan"
   },
   {
     "name": "Jason Scheirer",
@@ -17037,7 +17735,8 @@
       "React",
       "SolidJS",
       "PostgreSQL"
-    ]
+    ],
+    "personSlug": "jason-scheirer"
   },
   {
     "name": "Frédéric Harper",
@@ -17056,7 +17755,8 @@
       "JavaScript",
       "Node.js",
       "Cats"
-    ]
+    ],
+    "personSlug": "frederic-harper"
   },
   {
     "name": "Mark Tse",
@@ -17083,7 +17783,8 @@
       "Serverless",
       "SQL",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "mark-tse"
   },
   {
     "name": "Karl Horky",
@@ -17110,7 +17811,8 @@
       "CSS",
       "HTML",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "karl-horky"
   },
   {
     "name": "Zoran Panev",
@@ -17132,7 +17834,8 @@
       "JavaScript",
       "React",
       "Kali Linux"
-    ]
+    ],
+    "personSlug": "zoran-panev"
   },
   {
     "name": "Marcos Mendes",
@@ -17158,7 +17861,8 @@
       "MongoDB",
       "Linux",
       "Ubuntu"
-    ]
+    ],
+    "personSlug": "marcos-mendes"
   },
   {
     "name": "Steven van Loef",
@@ -17183,7 +17887,8 @@
       "Back End",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "steven-van-loef"
   },
   {
     "name": "Brendon van Zanten",
@@ -17205,7 +17910,8 @@
       "Nuxt.js",
       "Node.js",
       "Freelancer"
-    ]
+    ],
+    "personSlug": "brendon-van-zanten"
   },
   {
     "name": "Richard Zilahi",
@@ -17228,7 +17934,8 @@
       "React",
       "GraphQL",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "richard-zilahi"
   },
   {
     "name": "Duncan McClean",
@@ -17255,7 +17962,8 @@
       "Open Source Software",
       "macOS",
       "Statamic"
-    ]
+    ],
+    "personSlug": "duncan-mcclean"
   },
   {
     "name": "Matthew Rebehn",
@@ -17276,7 +17984,8 @@
       "React",
       "Gatsby",
       "Svelte"
-    ]
+    ],
+    "personSlug": "matthew-rebehn"
   },
   {
     "name": "Terry Dontje",
@@ -17302,7 +18011,8 @@
       "Python",
       "PostgreSQL",
       "HTML"
-    ]
+    ],
+    "personSlug": "terry-dontje"
   },
   {
     "name": "Isaac Weber",
@@ -17324,7 +18034,8 @@
       "JavaScript",
       "Vue.js",
       "Node.js"
-    ]
+    ],
+    "personSlug": "isaac-weber"
   },
   {
     "name": "Jim Fang",
@@ -17358,7 +18069,8 @@
       "CircleCI",
       "Sentry",
       "Google Cloud Platform"
-    ]
+    ],
+    "personSlug": "jim-fang"
   },
   {
     "name": "Abyan Raditya",
@@ -17379,7 +18091,8 @@
       "Redux",
       "Frontend",
       "Next.js"
-    ]
+    ],
+    "personSlug": "abyan-raditya"
   },
   {
     "name": "Isaac Wyatt",
@@ -17420,7 +18133,8 @@
       "Motorcycles",
       "Video Games",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "isaac-wyatt"
   },
   {
     "name": "Andrew Zeller",
@@ -17445,7 +18159,8 @@
       "CSS",
       "Gatsby",
       "Next"
-    ]
+    ],
+    "personSlug": "andrew-zeller"
   },
   {
     "name": "Thomas Tuvignon",
@@ -17469,7 +18184,8 @@
       "Next",
       "Eleventy",
       "Shopify"
-    ]
+    ],
+    "personSlug": "thomas-tuvignon"
   },
   {
     "name": "MG Santos",
@@ -17492,7 +18208,8 @@
       "Next.js",
       "MongoDB",
       "Postgres"
-    ]
+    ],
+    "personSlug": "mg-santos"
   },
   {
     "name": "Daniel Van Cuylenburg",
@@ -17511,7 +18228,8 @@
       "JavaScript",
       "React",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "daniel-van-cuylenburg"
   },
   {
     "name": "Jorge Cortés",
@@ -17536,7 +18254,8 @@
       "PHP",
       "Laravel",
       "Forge"
-    ]
+    ],
+    "personSlug": "jorge-cortes"
   },
   {
     "name": "Chiamaka Ikeanyi",
@@ -17554,7 +18273,8 @@
       "JavaScript",
       "Accessibility",
       "Performance"
-    ]
+    ],
+    "personSlug": "chiamaka-ikeanyi"
   },
   {
     "name": "Francis Sunday",
@@ -17575,7 +18295,8 @@
       "React",
       "Node.js",
       "Go"
-    ]
+    ],
+    "personSlug": "francis-sunday"
   },
   {
     "name": "Jared Clifton-Lee",
@@ -17598,7 +18319,8 @@
       "JavaScript",
       "React",
       "Node.js"
-    ]
+    ],
+    "personSlug": "jared-clifton-lee"
   },
   {
     "name": "James Kemp",
@@ -17617,7 +18339,8 @@
       "Ruby on Rails",
       "JavaScript",
       "Node.js"
-    ]
+    ],
+    "personSlug": "james-kemp"
   },
   {
     "name": "Fanis Hatzidakis",
@@ -17635,7 +18358,8 @@
       "PHP",
       "PHPStorm",
       "API"
-    ]
+    ],
+    "personSlug": "fanis-hatzidakis"
   },
   {
     "name": "Hugh He",
@@ -17653,7 +18377,8 @@
       "TypeScript",
       "Go",
       "Rust"
-    ]
+    ],
+    "personSlug": "hugh-he"
   },
   {
     "name": "Tom Hazledine",
@@ -17672,7 +18397,8 @@
       "Node.js",
       "CSS",
       "Podcaster"
-    ]
+    ],
+    "personSlug": "tom-hazledine"
   },
   {
     "name": "Jeremy Lanssiers",
@@ -17710,7 +18436,8 @@
       "Lighthouse",
       "Sublime Text Editor",
       "Visual Studio Code"
-    ]
+    ],
+    "personSlug": "jeremy-lanssiers"
   },
   {
     "name": "Jacopo DP.",
@@ -17735,7 +18462,8 @@
       "Ethical Hacker",
       "Git",
       "Linux"
-    ]
+    ],
+    "personSlug": "jacopo-dp"
   },
   {
     "name": "Dávid Lévai",
@@ -17764,7 +18492,8 @@
       "YouTuber",
       "Blitz.js",
       "Nextjs"
-    ]
+    ],
+    "personSlug": "david-levai"
   },
   {
     "name": "Tom VanAntwerp",
@@ -17788,7 +18517,8 @@
       "Front End",
       "Designer",
       "DevOps"
-    ]
+    ],
+    "personSlug": "tom-vanantwerp"
   },
   {
     "name": "Nick Janetakis",
@@ -17809,7 +18539,8 @@
       "Phoenix",
       "Docker",
       "DevOps"
-    ]
+    ],
+    "personSlug": "nick-janetakis"
   },
   {
     "name": "Stefan Judis",
@@ -17829,7 +18560,8 @@
       "Accessibility",
       "Blogger",
       "Speaker"
-    ]
+    ],
+    "personSlug": "stefan-judis"
   },
   {
     "name": "Kaleigh Scruggs",
@@ -17855,7 +18587,8 @@
       "React",
       "SCSS",
       "WordPress"
-    ]
+    ],
+    "personSlug": "kaleigh-scruggs"
   },
   {
     "name": "Ste Grainer",
@@ -17876,7 +18609,8 @@
       "Blogger",
       "Design Systems",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "ste-grainer"
   },
   {
     "name": "Jorge Calle",
@@ -17896,7 +18630,8 @@
       "React",
       "Firebase",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "jorge-calle"
   },
   {
     "name": "Camilo Romero",
@@ -17917,7 +18652,8 @@
       "CSS",
       "NoSql",
       "Firebase"
-    ]
+    ],
+    "personSlug": "camilo-romero"
   },
   {
     "name": "Rhys Botfield",
@@ -17976,7 +18712,8 @@
       "Web Developer",
       "WordPress",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "rhys-botfield"
   },
   {
     "name": "Quentin Laffont",
@@ -18000,7 +18737,8 @@
       "Angular",
       "CSS",
       "SCSS"
-    ]
+    ],
+    "personSlug": "quentin-laffont"
   },
   {
     "name": "Quan Tong",
@@ -18018,7 +18756,8 @@
       "Python",
       "Go",
       "Rust"
-    ]
+    ],
+    "personSlug": "quan-tong"
   },
   {
     "name": "Adrián Alcorta Puente",
@@ -18038,7 +18777,8 @@
       "Gatsby",
       "JAMstack",
       "NextJS"
-    ]
+    ],
+    "personSlug": "adrian-alcorta-puente"
   },
   {
     "name": "Erv Walter",
@@ -18057,7 +18797,8 @@
       "C#",
       ".NET",
       "Azure"
-    ]
+    ],
+    "personSlug": "erv-walter"
   },
   {
     "name": "Juanito Fatas",
@@ -18071,7 +18812,8 @@
     "tags": [
       "Think",
       "Apply"
-    ]
+    ],
+    "personSlug": "juanito-fatas"
   },
   {
     "name": "Krzysztof Żuraw",
@@ -18090,7 +18832,8 @@
       "CSS",
       "Gatsby",
       "Blogger"
-    ]
+    ],
+    "personSlug": "krzysztof-zuraw"
   },
   {
     "name": "Julio Lozovei",
@@ -18114,7 +18857,8 @@
       "Speaker",
       "Performance",
       "Accessibility"
-    ]
+    ],
+    "personSlug": "julio-lozovei"
   },
   {
     "name": "David Leuliette",
@@ -18138,7 +18882,8 @@
       "React",
       "CSS",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "david-leuliette"
   },
   {
     "name": "Dave Berning",
@@ -18158,7 +18903,8 @@
       "Vue.js",
       "Developer",
       "Writer"
-    ]
+    ],
+    "personSlug": "dave-berning"
   },
   {
     "name": "Jan-Lukas Else",
@@ -18175,7 +18921,8 @@
       "Backend",
       "Java",
       "Go"
-    ]
+    ],
+    "personSlug": "jan-lukas-else"
   },
   {
     "name": "Doce Fernandes",
@@ -18197,7 +18944,8 @@
       "Svelte",
       "TypeScript",
       "Sass"
-    ]
+    ],
+    "personSlug": "doce-fernandes"
   },
   {
     "name": "Justin Poehnelt",
@@ -18226,7 +18974,8 @@
       "Firebase",
       "Google Cloud Platform",
       "Netlify"
-    ]
+    ],
+    "personSlug": "justin-poehnelt"
   },
   {
     "name": "Jovylle B",
@@ -18266,7 +19015,8 @@
       "Developer",
       "WordPress",
       "Remote"
-    ]
+    ],
+    "personSlug": "jovylle-b"
   },
   {
     "name": "Will Presley",
@@ -18286,7 +19036,8 @@
       "PHP",
       "CSS",
       "SCSS"
-    ]
+    ],
+    "personSlug": "will-presley"
   },
   {
     "name": "Silvestre Vivo",
@@ -18310,7 +19061,8 @@
       "Rust",
       "GraphQL",
       "CSS"
-    ]
+    ],
+    "personSlug": "silvestre-vivo"
   },
   {
     "name": "Kyle Platt",
@@ -18330,7 +19082,8 @@
       "Startups",
       "Writer",
       "Mentor"
-    ]
+    ],
+    "personSlug": "kyle-platt"
   },
   {
     "name": "Eric Oyanadel",
@@ -18349,7 +19102,8 @@
       "Design",
       "Full Stack",
       "Writer"
-    ]
+    ],
+    "personSlug": "eric-oyanadel"
   },
   {
     "name": "Abdessalam Benharira",
@@ -18369,7 +19123,8 @@
       "Design",
       "JAMstack",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "abdessalam-benharira"
   },
   {
     "name": "David Dias",
@@ -18400,7 +19155,8 @@
       "VS Code",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "david-dias"
   },
   {
     "name": "Thomas Large",
@@ -18423,7 +19179,8 @@
       "DevOps",
       "Node.js",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "thomas-large"
   },
   {
     "name": "Mike Walsh",
@@ -18454,7 +19211,8 @@
       "Remote",
       "Cloudflare",
       "Minimalist"
-    ]
+    ],
+    "personSlug": "mike-walsh"
   },
   {
     "name": "Amit Merchant",
@@ -18476,7 +19234,8 @@
       "PHP",
       "Laravel",
       "CSS"
-    ]
+    ],
+    "personSlug": "amit-merchant"
   },
   {
     "name": "Yurui Zhang",
@@ -18498,7 +19257,8 @@
       "CSS",
       "Ruby",
       "Testing"
-    ]
+    ],
+    "personSlug": "yurui-zhang"
   },
   {
     "name": "Eduardo Reveles",
@@ -18517,7 +19277,8 @@
       "JavaScript",
       "Laravel",
       "React"
-    ]
+    ],
+    "personSlug": "eduardo-reveles"
   },
   {
     "name": "Philip Theobald",
@@ -18534,7 +19295,8 @@
       "Laravel",
       "Vue.js",
       "WordPress"
-    ]
+    ],
+    "personSlug": "philip-theobald"
   },
   {
     "name": "Wes Baker",
@@ -18555,7 +19317,8 @@
       "React",
       "JavaScript",
       "Serverless"
-    ]
+    ],
+    "personSlug": "wes-baker"
   },
   {
     "name": "Dominik Matis",
@@ -18578,7 +19341,8 @@
       "Back End",
       "HTML",
       "Node.js"
-    ]
+    ],
+    "personSlug": "dominik-matis"
   },
   {
     "name": "Rubén Rodríguez",
@@ -18601,7 +19365,8 @@
       "Vue.js",
       "SASS",
       "CSS"
-    ]
+    ],
+    "personSlug": "ruben-rodriguez"
   },
   {
     "name": "Roland Szabo",
@@ -18623,7 +19388,8 @@
       "Tensorflow",
       "Spark",
       "Blogger"
-    ]
+    ],
+    "personSlug": "roland-szabo"
   },
   {
     "name": "Rodrigo Antunes",
@@ -18656,7 +19422,8 @@
       "Vue.js",
       "Web",
       "Windows"
-    ]
+    ],
+    "personSlug": "rodrigo-antunes"
   },
   {
     "name": "Frank Bültge",
@@ -18677,7 +19444,8 @@
       "PHP",
       "HTML",
       "Web Development"
-    ]
+    ],
+    "personSlug": "frank-bultge"
   },
   {
     "name": "Marcus Obst",
@@ -18695,7 +19463,8 @@
       "JavaScript",
       "CSS",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "marcus-obst"
   },
   {
     "name": "Pawel Grzybek",
@@ -18717,7 +19486,8 @@
       "Back End",
       "Full Stack",
       "Blogger"
-    ]
+    ],
+    "personSlug": "pawel-grzybek"
   },
   {
     "name": "Ryan Senn",
@@ -18737,7 +19507,8 @@
       "Elm",
       "Elixir",
       "Haskell"
-    ]
+    ],
+    "personSlug": "ryan-senn"
   },
   {
     "name": "Michael Beckwith",
@@ -18754,7 +19525,8 @@
       "Blogger",
       "WordPress",
       "PHP"
-    ]
+    ],
+    "personSlug": "michael-beckwith"
   },
   {
     "name": "Eric McCormick",
@@ -18776,7 +19548,8 @@
       "Vue.js",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "eric-mccormick"
   },
   {
     "name": "Swastik Baranwal",
@@ -18801,7 +19574,8 @@
       "Postgres",
       "Redis",
       "Svelte"
-    ]
+    ],
+    "personSlug": "swastik-baranwal"
   },
   {
     "name": "Ben Congdon",
@@ -18822,7 +19596,8 @@
       "Python",
       "JavaScript",
       "React"
-    ]
+    ],
+    "personSlug": "ben-congdon"
   },
   {
     "name": "Nik Spyratos",
@@ -18846,7 +19621,8 @@
       "Athens",
       "Freelancer",
       "Remote"
-    ]
+    ],
+    "personSlug": "nik-spyratos"
   },
   {
     "name": "Jacob Herper",
@@ -18868,7 +19644,8 @@
       "Performance",
       "GraphQL",
       "Redux"
-    ]
+    ],
+    "personSlug": "jacob-herper"
   },
   {
     "name": "Albin Groen",
@@ -18893,7 +19670,8 @@
       "Entrepreneur",
       "Community",
       "Design"
-    ]
+    ],
+    "personSlug": "albin-groen"
   },
   {
     "name": "Ajay Karwal",
@@ -18915,7 +19693,8 @@
       "CSS",
       "HTML",
       "Front End"
-    ]
+    ],
+    "personSlug": "ajay-karwal"
   },
   {
     "name": "Raúl Negrón",
@@ -18935,7 +19714,8 @@
       "Node.js",
       "TypeScript",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "raul-negron"
   },
   {
     "name": "David A. Vives R.",
@@ -18961,7 +19741,8 @@
       ".NET Core",
       ".NET",
       "Python"
-    ]
+    ],
+    "personSlug": "david-a-vives-r"
   },
   {
     "name": "Ryan Warner",
@@ -18982,7 +19763,8 @@
       "Firebase",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "ryan-warner"
   },
   {
     "name": "Nicky Meuleman",
@@ -19002,7 +19784,8 @@
       "Gatsby",
       "Developer",
       "Blogger"
-    ]
+    ],
+    "personSlug": "nicky-meuleman"
   },
   {
     "name": "George Daneke",
@@ -19035,7 +19818,8 @@
       "Entrepreneur",
       "SCSS",
       "Nuxt"
-    ]
+    ],
+    "personSlug": "george-daneke"
   },
   {
     "name": "Rob Warner",
@@ -19056,7 +19840,8 @@
       "JavaScript",
       "Rust",
       "Writer"
-    ]
+    ],
+    "personSlug": "rob-warner"
   },
   {
     "name": "Den Talalá",
@@ -19076,7 +19861,8 @@
       "Writer",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "den-talala"
   },
   {
     "name": "Jesse Dyck",
@@ -19095,7 +19881,8 @@
       "Full Stack",
       "Developer",
       "Docker"
-    ]
+    ],
+    "personSlug": "jesse-dyck"
   },
   {
     "name": "TaeHee Kim",
@@ -19118,7 +19905,8 @@
       "Python",
       "Serverless",
       "Musician"
-    ]
+    ],
+    "personSlug": "taehee-kim"
   },
   {
     "name": "Hong",
@@ -19143,7 +19931,8 @@
       "Web Developer",
       "macOS",
       "Web Development"
-    ]
+    ],
+    "personSlug": "hong"
   },
   {
     "name": "Moisés Ñañez",
@@ -19159,7 +19948,8 @@
       "JavaScript",
       "Ruby",
       "CSS"
-    ]
+    ],
+    "personSlug": "moises-nanez"
   },
   {
     "name": "Maria Altyeva Schuessler ",
@@ -19180,7 +19970,8 @@
       "React",
       "Writer",
       "Ruby on Rails"
-    ]
+    ],
+    "personSlug": "maria-altyeva-schuessler"
   },
   {
     "name": "Paul Esch-Laurent",
@@ -19201,7 +19992,8 @@
       "Accessibility",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "paul-esch-laurent"
   },
   {
     "name": "John Slipper",
@@ -19223,7 +20015,8 @@
       "React",
       "AngularJS",
       "UI"
-    ]
+    ],
+    "personSlug": "john-slipper"
   },
   {
     "name": "Gijs Nelissen",
@@ -19246,7 +20039,8 @@
       "Design",
       "Developer",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "gijs-nelissen"
   },
   {
     "name": "Arturo Campos",
@@ -19268,7 +20062,8 @@
       "Angular",
       "Vue.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "arturo-campos"
   },
   {
     "name": "Esmit Perez",
@@ -19289,7 +20084,8 @@
       "Kotlin",
       "Flutter",
       "SQL"
-    ]
+    ],
+    "personSlug": "esmit-perez"
   },
   {
     "name": "Sercan Eraslan",
@@ -19310,7 +20106,8 @@
       "Vue.js",
       "Angular",
       "Svelte"
-    ]
+    ],
+    "personSlug": "sercan-eraslan"
   },
   {
     "name": "Eren Kucuker",
@@ -19339,7 +20136,8 @@
       "CrewAI",
       "GraphQL",
       "REST"
-    ]
+    ],
+    "personSlug": "eren-kucuker"
   },
   {
     "name": "Ivan Bogomolov",
@@ -19368,7 +20166,8 @@
       "ClickHouse",
       "Kafka",
       "NATS"
-    ]
+    ],
+    "personSlug": "ivan-bogomolov"
   },
   {
     "name": "Vlad Ilie",
@@ -19407,7 +20206,8 @@
       "Vercel",
       "VS Code",
       "WordPress"
-    ]
+    ],
+    "personSlug": "vlad-ilie"
   },
   {
     "name": "Divjot Singh",
@@ -19427,7 +20227,8 @@
       "JavaScript",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "divjot-singh"
   },
   {
     "name": "Navdeep Singh",
@@ -19448,7 +20249,8 @@
       "JavaScript",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "navdeep-singh"
   },
   {
     "name": "Rohit Gohri",
@@ -19469,7 +20271,8 @@
       "GraphQL",
       "DevOps",
       "Gatsby"
-    ]
+    ],
+    "personSlug": "rohit-gohri"
   },
   {
     "name": "Andrea Prus",
@@ -19489,7 +20292,8 @@
       "Vue.js",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "andrea-prus"
   },
   {
     "name": "Andrés Ignacio Torres",
@@ -19512,7 +20316,8 @@
       "Django",
       "Literature",
       "Open Source"
-    ]
+    ],
+    "personSlug": "andres-ignacio-torres"
   },
   {
     "name": "Bamuleseyo Gideon",
@@ -19535,7 +20340,8 @@
       "Django",
       "CSS",
       "DevC"
-    ]
+    ],
+    "personSlug": "bamuleseyo-gideon"
   },
   {
     "name": "David Anguita",
@@ -19556,7 +20362,8 @@
       "Elixir",
       "JavaScript",
       "Vim"
-    ]
+    ],
+    "personSlug": "david-anguita"
   },
   {
     "name": "Nick Taylor",
@@ -19576,7 +20383,8 @@
       "TypeScript",
       "Node.js",
       "CSS"
-    ]
+    ],
+    "personSlug": "nick-taylor"
   },
   {
     "name": "Trezy",
@@ -19603,7 +20411,8 @@
       "Firebase",
       "React",
       "Next.js"
-    ]
+    ],
+    "personSlug": "trezy"
   },
   {
     "name": "Ben Shi",
@@ -19624,7 +20433,8 @@
       "API",
       "Performance",
       "Architecture"
-    ]
+    ],
+    "personSlug": "ben-shi"
   },
   {
     "name": "Peter Tasker",
@@ -19644,7 +20454,8 @@
       "Go",
       "Full Stack",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "peter-tasker"
   },
   {
     "name": "Jason Ross",
@@ -19688,7 +20499,8 @@
       "Ubuntu",
       "VS Code",
       "Web Development"
-    ]
+    ],
+    "personSlug": "jason-ross"
   },
   {
     "name": "Anthony Morris",
@@ -19709,7 +20521,8 @@
       "Full Stack",
       "GraphQL",
       "Next.js"
-    ]
+    ],
+    "personSlug": "anthony-morris"
   },
   {
     "name": "alp1n3",
@@ -19728,7 +20541,8 @@
       "Developer",
       "Go",
       "C#"
-    ]
+    ],
+    "personSlug": "alp1n3"
   },
   {
     "name": "Justin Conway",
@@ -19751,7 +20565,8 @@
       "Laravel",
       "WordPress",
       "Performance"
-    ]
+    ],
+    "personSlug": "justin-conway"
   },
   {
     "name": "Gabriel Kanev",
@@ -19777,7 +20592,8 @@
       "Teacher",
       "SEO",
       "Go"
-    ]
+    ],
+    "personSlug": "gabriel-kanev"
   },
   {
     "name": "Dan Vega",
@@ -19803,7 +20619,8 @@
       "Teacher",
       "Go",
       "Java"
-    ]
+    ],
+    "personSlug": "dan-vega"
   },
   {
     "name": "Dick Wyn Yong",
@@ -19829,7 +20646,8 @@
       "Blogger",
       "Youtuber",
       "Traveler"
-    ]
+    ],
+    "personSlug": "dick-wyn-yong"
   },
   {
     "name": "Logan Blangenois",
@@ -19852,7 +20670,8 @@
       "CSS",
       "Sass",
       "Performance"
-    ]
+    ],
+    "personSlug": "logan-blangenois"
   },
   {
     "name": "Lucas Queiroz",
@@ -19872,7 +20691,8 @@
       "Ruby on Rails",
       "Kotlin",
       "Java"
-    ]
+    ],
+    "personSlug": "lucas-queiroz"
   },
   {
     "name": "Muhammad Umair",
@@ -19893,7 +20713,8 @@
       "Node.js",
       "CSS",
       "Electron"
-    ]
+    ],
+    "personSlug": "muhammad-umair"
   },
   {
     "name": "Tomek Buszewski",
@@ -19918,7 +20739,8 @@
       "Django",
       "Flask",
       "WordPress"
-    ]
+    ],
+    "personSlug": "tomek-buszewski"
   },
   {
     "name": "Przemek Nowak",
@@ -19946,7 +20768,8 @@
       "ArgoCD",
       "GitOps",
       "Java"
-    ]
+    ],
+    "personSlug": "przemek-nowak"
   },
   {
     "name": "Norbert Chmiel",
@@ -19980,7 +20803,8 @@
       "Bash",
       "GitLab",
       "Minimalist"
-    ]
+    ],
+    "personSlug": "norbert-chmiel"
   },
   {
     "name": "Ashpex",
@@ -20000,7 +20824,8 @@
       "Kitty",
       "Platform Engineer",
       "Vim"
-    ]
+    ],
+    "personSlug": "ashpex"
   },
   {
     "name": "Benjamin Mock",
@@ -20023,7 +20848,8 @@
       "React",
       "Gatsby",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "benjamin-mock"
   },
   {
     "name": "Fortune Obi",
@@ -20057,7 +20883,8 @@
       "Express",
       "Vite",
       "Mantine"
-    ]
+    ],
+    "personSlug": "fortune-obi"
   },
   {
     "name": "Sean Boult",
@@ -20075,7 +20902,8 @@
       "Typescript",
       "Node.js",
       "Hacking"
-    ]
+    ],
+    "personSlug": "sean-boult"
   },
   {
     "name": "Michal Slepko",
@@ -20106,7 +20934,8 @@
       "Mac",
       "Problem Solver",
       "Streamer"
-    ]
+    ],
+    "personSlug": "michal-slepko"
   },
   {
     "name": "Michał Miszczyszyn",
@@ -20131,7 +20960,8 @@
       "TypeScript",
       "Rust",
       "ReasonML"
-    ]
+    ],
+    "personSlug": "micha-miszczyszyn"
   },
   {
     "name": "Derek Mohr",
@@ -20161,7 +20991,8 @@
       "Traveler",
       "Twig",
       "CraftCMS"
-    ]
+    ],
+    "personSlug": "derek-mohr"
   },
   {
     "name": "Haseeb Majid",
@@ -20179,7 +21010,8 @@
       "Python",
       "Docker",
       "Golang"
-    ]
+    ],
+    "personSlug": "haseeb-majid"
   },
   {
     "name": "Łukasz Rybka",
@@ -20209,7 +21041,8 @@
       "DevOps",
       "Architect",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "ukasz-rybka"
   },
   {
     "name": "Antonio Piras",
@@ -20233,7 +21066,8 @@
       "Jamstack",
       "Netlify",
       "Blogger"
-    ]
+    ],
+    "personSlug": "antonio-piras"
   },
   {
     "name": "Matt Hughes",
@@ -20255,7 +21089,8 @@
       "Python",
       "Django",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "matt-hughes"
   },
   {
     "name": "Christian Ek",
@@ -20275,7 +21110,8 @@
       "Node.js",
       "HTML",
       "CSS"
-    ]
+    ],
+    "personSlug": "christian-ek"
   },
   {
     "name": "Rail Hamdeew",
@@ -20294,7 +21130,8 @@
       "Python",
       "JavaScript",
       "Vue.js"
-    ]
+    ],
+    "personSlug": "rail-hamdeew"
   },
   {
     "name": "Eugene Andrienko",
@@ -20323,7 +21160,8 @@
       "Jekyll",
       "Homelab",
       "BSD"
-    ]
+    ],
+    "personSlug": "eugene-andrienko"
   },
   {
     "name": "Armno Prommarak",
@@ -20345,7 +21183,8 @@
       "TypeScript",
       "Blogger",
       "Performance"
-    ]
+    ],
+    "personSlug": "armno-prommarak"
   },
   {
     "name": "Fernando Paredes",
@@ -20368,7 +21207,8 @@
       "TypeScript",
       "Ruby",
       "CSS"
-    ]
+    ],
+    "personSlug": "fernando-paredes"
   },
   {
     "name": "Piyush Mehta",
@@ -20388,7 +21228,8 @@
       "CSS",
       "SpringBoot",
       "Node.js"
-    ]
+    ],
+    "personSlug": "piyush-mehta"
   },
   {
     "name": "Duncan McDougall",
@@ -20408,7 +21249,8 @@
       "CSS",
       "Performance",
       "Remote"
-    ]
+    ],
+    "personSlug": "duncan-mcdougall"
   },
   {
     "name": "Mijndert Stuij",
@@ -20427,7 +21269,8 @@
       "Engineer",
       "Developer",
       "DevOps"
-    ]
+    ],
+    "personSlug": "mijndert-stuij"
   },
   {
     "name": "Niels Gouman",
@@ -20447,7 +21290,8 @@
       "Problem Solver",
       "Lifehacker",
       "Product Manager"
-    ]
+    ],
+    "personSlug": "niels-gouman"
   },
   {
     "name": "Iván Olivares",
@@ -20476,7 +21320,8 @@
       "Blogger",
       "Entrepreneur",
       "Photographer"
-    ]
+    ],
+    "personSlug": "ivan-olivares"
   },
   {
     "name": "Juan Fernandes",
@@ -20497,7 +21342,8 @@
       "11ty",
       "Jamstack",
       "Freelance"
-    ]
+    ],
+    "personSlug": "juan-fernandes"
   },
   {
     "name": "Neil Merton",
@@ -20527,7 +21373,8 @@
       "Figma",
       "TypeScript",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "neil-merton"
   },
   {
     "name": "Kevin Simkanič",
@@ -20552,7 +21399,8 @@
       "Performance",
       "WordPress",
       "Sass"
-    ]
+    ],
+    "personSlug": "kevin-simkanic"
   },
   {
     "name": "Lakshmipriya Mukundan",
@@ -20572,7 +21420,8 @@
       "React",
       "Elasticsearch",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "lakshmipriya-mukundan"
   },
   {
     "name": "Matt Layman",
@@ -20589,7 +21438,8 @@
       "Django",
       "webdev",
       "Twitch"
-    ]
+    ],
+    "personSlug": "matt-layman"
   },
   {
     "name": "Jeremy Bunting",
@@ -20612,7 +21462,8 @@
       "Node.js",
       "GraphQL",
       "Accessibility"
-    ]
+    ],
+    "personSlug": "jeremy-bunting"
   },
   {
     "name": "Chris Wiegman",
@@ -20637,7 +21488,8 @@
       "Open Source Software",
       "Writer",
       "Docker"
-    ]
+    ],
+    "personSlug": "chris-wiegman"
   },
   {
     "name": "Stan Lo",
@@ -20655,7 +21507,8 @@
       "Ruby",
       "Ruby on Rails",
       "Goby"
-    ]
+    ],
+    "personSlug": "stan-lo"
   },
   {
     "name": "Bassem Allani",
@@ -20684,7 +21537,8 @@
       "Instructor",
       "Teacher",
       "Course Maker"
-    ]
+    ],
+    "personSlug": "bassem-allani"
   },
   {
     "name": "Jérémie Bertrand",
@@ -20705,7 +21559,8 @@
       ".NET",
       "JavaScript",
       "Open Source Software"
-    ]
+    ],
+    "personSlug": "jeremie-bertrand"
   },
   {
     "name": "Lee Robinson",
@@ -20734,7 +21589,8 @@
       "Course Maker",
       "Blogger",
       "Speaker"
-    ]
+    ],
+    "personSlug": "lee-robinson"
   },
   {
     "name": "Felix Kirmaier",
@@ -20766,7 +21622,8 @@
       "Eleventy",
       "Netlify",
       "JAMstack"
-    ]
+    ],
+    "personSlug": "felix-kirmaier"
   },
   {
     "name": "Jordan Hofker",
@@ -20789,7 +21646,8 @@
       "CSS",
       ".NET Core",
       "Eleventy"
-    ]
+    ],
+    "personSlug": "jordan-hofker"
   },
   {
     "name": "Matt Busche",
@@ -20808,7 +21666,8 @@
       "Web Performance",
       "Speaker",
       "Blogger"
-    ]
+    ],
+    "personSlug": "matt-busche"
   },
   {
     "name": "Nikhil Anand",
@@ -20837,7 +21696,8 @@
       "SolidJS",
       "SQLite",
       "TypeScript"
-    ]
+    ],
+    "personSlug": "nikhil-anand"
   },
   {
     "name": "Zura Gabievi",
@@ -20860,7 +21720,8 @@
       "JavaScript",
       "TypeScript",
       "SCSS"
-    ]
+    ],
+    "personSlug": "zura-gabievi"
   },
   {
     "name": "Jace Hensley",
@@ -20877,7 +21738,8 @@
       "Remix",
       "Vanilla Extract",
       "SCSS"
-    ]
+    ],
+    "personSlug": "jace-hensley"
   },
   {
     "name": "Preston Lamb",
@@ -20901,7 +21763,8 @@
       "Teacher",
       "Course Maker",
       "Blogger"
-    ]
+    ],
+    "personSlug": "preston-lamb"
   },
   {
     "name": "Marek Maras",
@@ -20926,7 +21789,8 @@
       "Front End",
       "Shopify",
       "Magento"
-    ]
+    ],
+    "personSlug": "marek-maras"
   },
   {
     "name": "Seshal Jain",
@@ -20946,7 +21810,8 @@
       "Python",
       "Emacs",
       "Blogger"
-    ]
+    ],
+    "personSlug": "seshal-jain"
   },
   {
     "name": "Vic Demuzere",
@@ -20965,7 +21830,8 @@
       "Vim",
       "Linux",
       "Gamer"
-    ]
+    ],
+    "personSlug": "vic-demuzere"
   },
   {
     "name": "Ivan Santos",
@@ -20984,7 +21850,8 @@
       "Typescript",
       "Terraform",
       "Kubernetes"
-    ]
+    ],
+    "personSlug": "ivan-santos"
   },
   {
     "name": "Kristina Groeger",
@@ -21033,7 +21900,8 @@
       "Design",
       "UI",
       "UX"
-    ]
+    ],
+    "personSlug": "kristina-groeger"
   },
   {
     "name": "Phillip Osterwald",
@@ -21063,7 +21931,8 @@
       "Gulp",
       "Linux",
       "Docker"
-    ]
+    ],
+    "personSlug": "phillip-osterwald"
   },
   {
     "name": "James Dewes",
@@ -21098,7 +21967,8 @@
       "VS Code",
       "Bootstrap",
       "Bulma"
-    ]
+    ],
+    "personSlug": "james-dewes"
   },
   {
     "name": "Mladen Milesic",
@@ -21132,7 +22002,8 @@
       "MSSQL",
       "Unit Testing",
       "Python"
-    ]
+    ],
+    "personSlug": "mladen-milesic"
   },
   {
     "name": "Paul Mowat",
@@ -21156,7 +22027,8 @@
       "Windows",
       "AWS",
       "DevOps"
-    ]
+    ],
+    "personSlug": "paul-mowat"
   },
   {
     "name": "Luigi Cruz",
@@ -21178,7 +22050,8 @@
       "InertiaJS",
       "Tailwind CSS",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "luigi-cruz"
   },
   {
     "name": "Felix Macaspac",
@@ -21200,7 +22073,8 @@
       "Next.js",
       "HubSpot CMS",
       "Tailwind CSS"
-    ]
+    ],
+    "personSlug": "felix-macaspac"
   },
   {
     "name": "Jerry Shi",
@@ -21220,7 +22094,8 @@
       "Rust",
       "Full Stack",
       "GraphQL"
-    ]
+    ],
+    "personSlug": "jerry-shi"
   },
   {
     "name": "Carol Gilabert",
@@ -21242,7 +22117,8 @@
       "React",
       "Node.js",
       "IndieWeb"
-    ]
+    ],
+    "personSlug": "carol-gilabert"
   },
   {
     "name": "Nic Lake",
@@ -21266,7 +22142,8 @@
       "CSS",
       "GraphQL",
       "Remote"
-    ]
+    ],
+    "personSlug": "nic-lake"
   },
   {
     "name": "Francisco Valloire",
@@ -21286,7 +22163,8 @@
       "CSS",
       "HTML",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "francisco-valloire"
   },
   {
     "name": "Raúl Piracés",
@@ -21314,7 +22192,8 @@
       "HTML",
       "JavaScript",
       "DevOps"
-    ]
+    ],
+    "personSlug": "raul-piraces"
   },
   {
     "name": "Filip Pacurar",
@@ -21337,7 +22216,8 @@
       "REST",
       "PHP",
       "MySQL"
-    ]
+    ],
+    "personSlug": "filip-pacurar"
   },
   {
     "name": "Wuttinan Sukpoon",
@@ -21362,7 +22242,8 @@
       "MongoDB",
       "NestJS",
       "Express"
-    ]
+    ],
+    "personSlug": "wuttinan-sukpoon"
   },
   {
     "name": "Michael Mior",
@@ -21377,7 +22258,8 @@
     "tags": [
       "Developer",
       "Teacher"
-    ]
+    ],
+    "personSlug": "michael-mior"
   },
   {
     "name": "Kai Devrim",
@@ -21406,7 +22288,8 @@
       "Server",
       "Ansible",
       "Engineer"
-    ]
+    ],
+    "personSlug": "kai-devrim"
   },
   {
     "name": "Josh Beard",
@@ -21432,7 +22315,8 @@
       "Sysadmin",
       "Terraform",
       "ZSH"
-    ]
+    ],
+    "personSlug": "josh-beard"
   },
   {
     "name": "Kevin Renskers",
@@ -21461,7 +22345,8 @@
       "macOS",
       "Debian",
       "Music"
-    ]
+    ],
+    "personSlug": "kevin-renskers"
   },
   {
     "name": "Thanh Doan",
@@ -21481,7 +22366,8 @@
       "Architect",
       "System Design",
       "Software Tinkerer"
-    ]
+    ],
+    "personSlug": "thanh-doan"
   },
   {
     "name": "Peter Forret",
@@ -21505,7 +22391,8 @@
       "PHP",
       "SaaS",
       "Wordpress"
-    ]
+    ],
+    "personSlug": "peter-forret"
   },
   {
     "name": "Scott Zirkel",
@@ -21537,7 +22424,8 @@
       "Artist",
       "Traveler",
       "Adventurer"
-    ]
+    ],
+    "personSlug": "scott-zirkel"
   },
   {
     "name": "Andreas Nedbal",
@@ -21563,7 +22451,8 @@
       "C#",
       "Sass",
       "Writing"
-    ]
+    ],
+    "personSlug": "andreas-nedbal"
   },
   {
     "name": "Nick Ali",
@@ -21588,7 +22477,8 @@
       "Design Systems",
       "Consulting",
       "REST"
-    ]
+    ],
+    "personSlug": "nick-ali"
   },
   {
     "name": "Jesús Leganés-Combarro \"piranna\"",
@@ -21651,7 +22541,8 @@
       "VS Code",
       "Web",
       "Web Development"
-    ]
+    ],
+    "personSlug": "jesus-leganes-combarro-piranna"
   },
   {
     "name": "Pascal Poredda",
@@ -21679,7 +22570,8 @@
       "CSS",
       "PostgresSQL",
       "SQL"
-    ]
+    ],
+    "personSlug": "pascal-poredda"
   },
   {
     "name": "Daniel Cefram Ramirez",
@@ -21708,7 +22600,8 @@
       "CSS",
       "MongoDB",
       "SQL"
-    ]
+    ],
+    "personSlug": "daniel-cefram-ramirez"
   },
   {
     "name": "Simon Lee",
@@ -21734,7 +22627,8 @@
       "Node.js",
       "MongoDB",
       "UI"
-    ]
+    ],
+    "personSlug": "simon-lee"
   },
   {
     "name": "Jaydeep Rawat",
@@ -21760,7 +22654,8 @@
       "Git",
       "Developer",
       "Problem Solving"
-    ]
+    ],
+    "personSlug": "jaydeep-rawat"
   },
   {
     "name": "James Mathias",
@@ -21782,7 +22677,8 @@
       "HTML",
       "CSS",
       "JavaScript"
-    ]
+    ],
+    "personSlug": "james-mathias"
   },
   {
     "name": "Aaron Pham",
@@ -21799,7 +22695,8 @@
       "neovim",
       "Ableton",
       "Golang"
-    ]
+    ],
+    "personSlug": "aaron-pham"
   },
   {
     "name": "Gabriel Garrido",
@@ -21818,7 +22715,8 @@
       "Tailscale",
       "Firefox",
       "Ableton"
-    ]
+    ],
+    "personSlug": "gabriel-garrido"
   },
   {
     "name": "Matt Walsh",
@@ -21841,7 +22739,8 @@
       "Linux",
       "Problem Solver",
       "Musician"
-    ]
+    ],
+    "personSlug": "matt-walsh"
   },
   {
     "name": "Shubham Singh",
@@ -21862,7 +22761,8 @@
       "TypeScript",
       "macOS",
       "Vercel"
-    ]
+    ],
+    "personSlug": "shubham-singh"
   },
   {
     "name": "Matias Quintana",
@@ -21883,7 +22783,8 @@
       "VS Code",
       "macOS",
       "Open Source"
-    ]
+    ],
+    "personSlug": "matias-quintana"
   },
   {
     "name": "Hammy Havoc",
@@ -21909,7 +22810,8 @@
       "Windows",
       "Linux",
       "Problem Solver"
-    ]
+    ],
+    "personSlug": "hammy-havoc"
   },
   {
     "name": "Hector Aguilar",
@@ -21929,7 +22831,8 @@
       "CSS",
       "Next.js",
       "FullStack"
-    ]
+    ],
+    "personSlug": "hector-aguilar"
   },
   {
     "name": "Ricardo Quiroz",
@@ -21957,7 +22860,8 @@
       "Vercel",
       "Fly.io",
       "Heroku"
-    ]
+    ],
+    "personSlug": "ricardo-quiroz"
   },
   {
     "name": "Rasul Kireev",
@@ -21979,7 +22883,8 @@
       "Postgres",
       "TailwindCSS",
       "Full Stack"
-    ]
+    ],
+    "personSlug": "rasul-kireev"
   },
   {
     "name": "Ferdinand Linnenberg",
@@ -22003,7 +22908,8 @@
       "CI/CD",
       "ARM",
       "Raspberry Pi"
-    ]
+    ],
+    "personSlug": "ferdinand-linnenberg"
   },
   {
     "name": "JourneyToLunar",
@@ -22022,7 +22928,8 @@
       "Blogger",
       "YouTuber",
       "Photograph"
-    ]
+    ],
+    "personSlug": "journeytolunar"
   },
   {
     "name": "orangc",
@@ -22064,7 +22971,8 @@
       "HTML/CSS",
       "VS Code",
       "Hyprland"
-    ]
+    ],
+    "personSlug": "orangc"
   },
   {
     "name": "Will Adams",
@@ -22098,7 +23006,8 @@
       "Inkscape",
       "Blender",
       "TailWindCSS"
-    ]
+    ],
+    "personSlug": "will-adams"
   },
   {
     "name": "Ruben Arakelyan",
@@ -22115,7 +23024,8 @@
       "Ruby on Rails",
       "JavaScript",
       "Astro"
-    ]
+    ],
+    "personSlug": "ruben-arakelyan"
   },
   {
     "name": "Tim Veletta",
@@ -22139,7 +23049,8 @@
       "Developer",
       "Full Stack",
       "Designer"
-    ]
+    ],
+    "personSlug": "tim-veletta"
   },
   {
     "name": "That MLOps Guy",
@@ -22166,7 +23077,8 @@
       "Firefox",
       "Machine Learning",
       "MLOps"
-    ]
+    ],
+    "personSlug": "that-mlops-guy"
   },
   {
     "name": "Hiran Venugopalan",
@@ -22187,7 +23099,8 @@
       "Product",
       "UI/UX",
       "Obsidian"
-    ]
+    ],
+    "personSlug": "hiran-venugopalan"
   },
   {
     "name": "Ryan Daley",
@@ -22217,7 +23130,8 @@
       "VS Code",
       "Web Developer",
       "Web Development"
-    ]
+    ],
+    "personSlug": "ryan-daley"
   },
   {
     "name": "Vivian Guillen",
@@ -22242,7 +23156,8 @@
       "Vue",
       "Alpine",
       "TailwindCSS"
-    ]
+    ],
+    "personSlug": "vivian-guillen"
   },
   {
     "name": "Abul Khoyer",
@@ -22263,7 +23178,8 @@
       "Node.js",
       "GraphQL",
       "REST"
-    ]
+    ],
+    "personSlug": "abul-khoyer"
   },
   {
     "name": "Alberto Gallego",
@@ -22287,7 +23203,8 @@
       "Frontend",
       "Writer",
       "Photographer"
-    ]
+    ],
+    "personSlug": "alberto-gallego"
   },
   {
     "name": "Manthan Ank",
@@ -22316,7 +23233,8 @@
       "PostgreSQL",
       "Nestjs",
       "Docker"
-    ]
+    ],
+    "personSlug": "manthan-ank"
   },
   {
     "name": "Catalin Pit",
@@ -22343,7 +23261,8 @@
       "PostgreSQL",
       "Writer",
       "Fullstack Developer"
-    ]
+    ],
+    "personSlug": "catalin-pit"
   },
   {
     "name": "Martin de Lima",
@@ -22362,7 +23281,8 @@
       "HTML",
       "CSS",
       "Figma"
-    ]
+    ],
+    "personSlug": "martin-de-lima"
   },
   {
     "name": "Thu Le",
@@ -22383,6 +23303,7 @@
       "HTML",
       "CSS",
       "Figma"
-    ]
+    ],
+    "personSlug": "thu-le"
   }
 ]

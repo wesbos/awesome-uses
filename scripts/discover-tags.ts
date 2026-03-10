@@ -1,7 +1,7 @@
 /**
  * @deprecated Use the dashboard UI at /dashboard instead.
- * The "Discover Categories" card provides the same functionality via
- * $discoverCategories, using the shared extraction logic in src/server/extract.ts.
+ * The "Discover Tags" card provides the same functionality via
+ * $discoverTags, using the shared extraction logic in src/server/extract.ts.
  */
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -48,7 +48,7 @@ async function main() {
   const client = createOpenAIClient();
   const limit = pLimit(options.concurrency);
 
-  console.log(`Sampling ${options.sample} pages for category discovery (model: ${options.model}, concurrency: ${options.concurrency})...`);
+  console.log(`Sampling ${options.sample} pages for tag discovery (model: ${options.model}, concurrency: ${options.concurrency})...`);
 
   const rows = await queryLocalD1(
     `SELECT person_slug as personSlug, content_markdown as contentMarkdown
@@ -81,29 +81,29 @@ async function main() {
 
   await Promise.all(tasks);
 
-  const categoryCounts = new Map<string, number>();
+  const tagCounts = new Map<string, number>();
   const itemCounts = new Map<string, number>();
 
   for (const item of allItems) {
     const normalizedItem = item.item.toLowerCase().trim();
     itemCounts.set(normalizedItem, (itemCounts.get(normalizedItem) || 0) + 1);
 
-    for (const cat of item.categories) {
-      const c = cat.toLowerCase().trim();
-      categoryCounts.set(c, (categoryCounts.get(c) || 0) + 1);
+    for (const tag of item.tags) {
+      const t = tag.toLowerCase().trim();
+      tagCounts.set(t, (tagCounts.get(t) || 0) + 1);
     }
   }
 
-  const sortedCategories = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const sortedTags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
   const sortedItems = [...itemCounts.entries()].sort((a, b) => b[1] - a[1]);
 
   console.log(`\n${'='.repeat(60)}`);
   console.log(`DISCOVERY RESULTS (${allItems.length} items from ${rows.length} pages)`);
   console.log(`${'='.repeat(60)}\n`);
 
-  console.log('TOP 50 CATEGORIES:');
-  for (const [cat, count] of sortedCategories.slice(0, 50)) {
-    console.log(`  ${cat.padEnd(25)} ${count}`);
+  console.log('TOP 50 TAGS:');
+  for (const [tag, count] of sortedTags.slice(0, 50)) {
+    console.log(`  ${tag.padEnd(25)} ${count}`);
   }
 
   console.log(`\nTOP 50 ITEMS:`);
@@ -118,7 +118,7 @@ async function main() {
       model: options.model,
       generatedAt: new Date().toISOString(),
     },
-    topCategories: Object.fromEntries(sortedCategories.slice(0, 100)),
+    topTags: Object.fromEntries(sortedTags.slice(0, 100)),
     topItems: Object.fromEntries(sortedItems.slice(0, 100)),
     allExtractedItems: allItems,
   };

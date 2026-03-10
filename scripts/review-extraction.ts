@@ -35,20 +35,20 @@ async function main() {
     return;
   }
 
-  // Group by category
-  const categoryItems = new Map<string, Map<string, { count: number; people: Set<string> }>>();
+  // Group by tag
+  const tagItems = new Map<string, Map<string, { count: number; people: Set<string> }>>();
 
   for (const row of rows) {
-    let categories: string[];
+    let tags: string[];
     try {
-      categories = JSON.parse(row.tags_json);
+      tags = JSON.parse(row.tags_json);
     } catch {
-      categories = ['unknown'];
+      tags = ['unknown'];
     }
 
-    for (const cat of categories) {
-      if (!categoryItems.has(cat)) categoryItems.set(cat, new Map());
-      const items = categoryItems.get(cat)!;
+    for (const tag of tags) {
+      if (!tagItems.has(tag)) tagItems.set(tag, new Map());
+      const items = tagItems.get(tag)!;
       const entry = items.get(row.item) ?? { count: 0, people: new Set() };
       entry.count++;
       entry.people.add(row.person_slug);
@@ -56,24 +56,24 @@ async function main() {
     }
   }
 
-  // Sort categories by total item count
-  const sortedCategories = [...categoryItems.entries()]
-    .map(([cat, items]) => {
+  // Sort tags by total item count
+  const sortedTags = [...tagItems.entries()]
+    .map(([tag, items]) => {
       const totalPeople = new Set([...items.values()].flatMap((v) => [...v.people])).size;
-      return { cat, items, uniqueItems: items.size, totalPeople };
+      return { tag, items, uniqueItems: items.size, totalPeople };
     })
     .sort((a, b) => b.uniqueItems - a.uniqueItems);
 
   console.log(`${'='.repeat(70)}`);
-  console.log(`EXTRACTION REVIEW: ${rows.length} total rows, ${sortedCategories.length} categories`);
+  console.log(`EXTRACTION REVIEW: ${rows.length} total rows, ${sortedTags.length} tags`);
   console.log(`${'='.repeat(70)}\n`);
 
-  for (const { cat, items, uniqueItems, totalPeople } of sortedCategories) {
+  for (const { tag, items, uniqueItems, totalPeople } of sortedTags) {
     const topItems = [...items.entries()]
       .sort((a, b) => b[1].count - a[1].count)
       .slice(0, 15);
 
-    console.log(`\n${cat} (${uniqueItems} unique items, ${totalPeople} people)`);
+    console.log(`\n${tag} (${uniqueItems} unique items, ${totalPeople} people)`);
     console.log(`${'─'.repeat(50)}`);
     for (const [item, { count }] of topItems) {
       console.log(`  ${item.padEnd(40)} ${count}`);
@@ -85,43 +85,43 @@ async function main() {
   console.log('POTENTIAL ISSUES');
   console.log(`${'='.repeat(70)}\n`);
 
-  // Items that appear in many categories
-  const itemCategories = new Map<string, Set<string>>();
-  for (const [cat, items] of categoryItems) {
+  // Items that appear in many tags
+  const itemTags = new Map<string, Set<string>>();
+  for (const [tag, items] of tagItems) {
     for (const item of items.keys()) {
-      if (!itemCategories.has(item)) itemCategories.set(item, new Set());
-      itemCategories.get(item)!.add(cat);
+      if (!itemTags.has(item)) itemTags.set(item, new Set());
+      itemTags.get(item)!.add(tag);
     }
   }
 
-  const multiCatItems = [...itemCategories.entries()]
-    .filter(([, cats]) => cats.size > 2)
+  const multiTagItems = [...itemTags.entries()]
+    .filter(([, tags]) => tags.size > 2)
     .sort((a, b) => b[1].size - a[1].size);
 
-  if (multiCatItems.length > 0) {
-    console.log('Items in 3+ categories (may indicate vague categorization):');
-    for (const [item, cats] of multiCatItems.slice(0, 20)) {
-      console.log(`  ${item.padEnd(35)} [${[...cats].join(', ')}]`);
+  if (multiTagItems.length > 0) {
+    console.log('Items in 3+ tags (may indicate vague tagging):');
+    for (const [item, tags] of multiTagItems.slice(0, 20)) {
+      console.log(`  ${item.padEnd(35)} [${[...tags].join(', ')}]`);
     }
   }
 
-  // Categories with very few items (might be noise)
-  const tinyCats = sortedCategories.filter((c) => c.uniqueItems <= 2);
-  if (tinyCats.length > 0) {
-    console.log(`\nTiny categories (<=2 items, might be noise):`);
-    for (const { cat, uniqueItems } of tinyCats) {
-      const items = [...categoryItems.get(cat)!.keys()].join(', ');
-      console.log(`  ${cat.padEnd(25)} ${uniqueItems} items: ${items}`);
+  // Tags with very few items (might be noise)
+  const tinyTags = sortedTags.filter((t) => t.uniqueItems <= 2);
+  if (tinyTags.length > 0) {
+    console.log(`\nTiny tags (<=2 items, might be noise):`);
+    for (const { tag, uniqueItems } of tinyTags) {
+      const items = [...tagItems.get(tag)!.keys()].join(', ');
+      console.log(`  ${tag.padEnd(25)} ${uniqueItems} items: ${items}`);
     }
   }
 
-  // Banned categories that slipped through
+  // Banned tags that slipped through
   const banned = ['programming', 'web', 'utility', 'apple', 'mac', 'wireless', 'ergonomic', 'mobile', 'client', 'graphics', 'google'];
-  const leaks = sortedCategories.filter((c) => banned.includes(c.cat));
+  const leaks = sortedTags.filter((t) => banned.includes(t.tag));
   if (leaks.length > 0) {
-    console.log(`\nBanned categories that leaked through:`);
-    for (const { cat, uniqueItems } of leaks) {
-      console.log(`  ${cat.padEnd(25)} ${uniqueItems} items`);
+    console.log(`\nBanned tags that leaked through:`);
+    for (const { tag, uniqueItems } of leaks) {
+      console.log(`  ${tag.padEnd(25)} ${uniqueItems} items`);
     }
   }
 }

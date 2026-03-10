@@ -1,4 +1,4 @@
-# AI Item Extraction & Categorization
+# AI Item Extraction & Tagging
 
 Scraped /uses pages are processed with an LLM (`gpt-5-mini`) to extract structured data per item. Results go into the `person_items` D1 table.
 
@@ -9,7 +9,7 @@ Requires `OPENAI_API_KEY` in `.env`.
 Each extracted item has three fields:
 
 - **item** — product/tool name normalized to the *model level* (specifics go in `detail`)
-- **categories** — lowercase labels describing *what kind of thing* this is (an item can have multiple)
+- **tags** — lowercase labels describing *what kind of thing* this is (an item can have multiple)
 - **detail** — optional specifics: size, year, specs, color, variant
 
 ## Item Normalization Rules
@@ -32,11 +32,11 @@ Post-LLM normalization in `scripts/lib/normalize-items.ts` handles:
 - **Model stripping**: MacBook Pro 16-inch 2019 -> MacBook Pro (extras -> detail). Covers MacBook, iPhone, iPad, AirPods, HomePod, Pixel, Samsung Galaxy, Surface variants.
 - **Year/generation suffixes**: "(2019)" or trailing "2019" stripped from name -> detail.
 
-## Category Reference List
+## Tag Reference List
 
-The LLM picks from these categories. Multiple categories per item are allowed when appropriate.
+The LLM picks from these tags. Multiple tags per item are allowed when appropriate.
 
-| Category | Examples |
+| Tag | Examples |
 |---|---|
 | editor | VS Code, Neovim, Sublime Text, Cursor, Vim, IntelliJ IDEA, WebStorm |
 | terminal | iTerm2, Warp, Ghostty, Alacritty, Hyper, Windows Terminal |
@@ -80,15 +80,15 @@ The LLM picks from these categories. Multiple categories per item are allowed wh
 | vpn | Mullvad, NordVPN, Tailscale, WireGuard |
 | other | anything that doesn't fit the above |
 
-New categories can be invented if nothing fits, but existing ones are strongly preferred.
+New tags can be invented if nothing fits, but existing ones are strongly preferred.
 
-## Banned Categories
+## Banned Tags
 
 These describe *context* or *attributes*, not what an item is. They are stripped during post-processing:
 
 `programming`, `web`, `utility`, `apple`, `mac`, `wireless`, `ergonomic`, `mobile`, `client`, `graphics`, `google`, `service`, `config`, `development`, `frontend`, `backend`, `open-source`, `linux`, `windows`, `macos`, `mechanical`, `noise-cancelling`, `4k`, `usb-c`, `thunderbolt`, `bluetooth`
 
-## Category Merges
+## Tag Merges
 
 Synonyms and aliases are merged during post-processing:
 
@@ -118,14 +118,14 @@ pnpm extract -- --person wes-bos --force        # re-extract one person
 pnpm extract -- --limit 100 --concurrency 10    # batch with concurrency
 pnpm extract -- --force                         # re-extract everything
 
-# Review: dump category/item summary for human review
+# Review: dump tag/item summary for human review
 pnpm review
 
-# Reclassify: review items in a category and move them via LLM
-pnpm reclassify                                 # dry run, "other" category, 2+ users
+# Reclassify: review items in a tag and move them via LLM
+pnpm reclassify                                 # dry run, "other" tag, 2+ users
 pnpm reclassify -- --limit 10                   # test with 10 items
 pnpm reclassify -- --apply                      # apply changes to D1
-pnpm reclassify -- --category extension --min 3 # target a different category
+pnpm reclassify -- --tag extension --min 3      # target a different tag
 pnpm reclassify -- --prompt "Are any of these actually frameworks or languages?"
 
 # Merge case-duplicates: combine "CalDigit" + "Caldigit", "Logitech BRIO" + "Logitech Brio", etc.
@@ -137,18 +137,18 @@ pnpm merge-dupes -- --apply                     # apply merges to D1
 
 | Flag | Default | Description |
 |---|---|---|
-| `--category` | `other` | Which category to review |
+| `--tag` | `other` | Which tag to review |
 | `--min` | `2` | Minimum user count to include an item |
 | `--limit` | all | Max items to send to the LLM |
-| `--prompt` | (built-in) | Custom system prompt (`{category}` is replaced) |
+| `--prompt` | (built-in) | Custom system prompt (`{tag}` is replaced) |
 | `--model` | `gpt-5-mini` | LLM model |
 | `--apply` | off | Actually write changes to D1 (without this, dry run) |
 
 ## Key Files
 
 - `scripts/lib/ai.ts` — LLM system prompt, Zod schema, OpenAI client
-- `scripts/lib/normalize-items.ts` — post-LLM normalization (name cleanup, category merges, banned category stripping)
+- `scripts/lib/normalize-items.ts` — post-LLM normalization (name cleanup, tag merges, banned tag stripping)
 - `scripts/extract-items.ts` — main extraction script (uses `p-limit` for concurrency, default 10)
-- `scripts/reclassify.ts` — reclassify items from one category into better ones via LLM
+- `scripts/reclassify.ts` — reclassify items from one tag into better ones via LLM
 - `scripts/merge-duplicates.ts` — merge case-duplicate item names (e.g. "CalDigit" vs "Caldigit")
 - `scripts/review-extraction.ts` — review script for checking extraction quality

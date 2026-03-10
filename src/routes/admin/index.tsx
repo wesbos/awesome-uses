@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useEffect, useState } from 'react';
-import { $getAdminDashboardData, type AdminDashboardData } from '../../server/fn/admin';
-import { $getScrapeStatus, type DashboardPayload } from '../../server/fn/profiles';
+import { Link } from '@tanstack/react-router';
+import { useQuery } from '@tanstack/react-query';
+import { apiGetScrapeStatus } from '../../lib/site-management-api';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Table,
@@ -30,64 +30,46 @@ function timeAgo(dateStr: string): string {
 }
 
 function AdminOverviewPage() {
-  const [scrapeData, setScrapeData] = useState<DashboardPayload | null>(null);
-  const [adminData, setAdminData] = useState<AdminDashboardData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const { data: scrapeData, isLoading } = useQuery({
+    queryKey: ['site-tools', 'pipeline.getScrapeStatus'],
+    queryFn: apiGetScrapeStatus,
+    enabled: typeof window !== 'undefined',
+  });
 
-  useEffect(() => {
-    let cancelled = false;
-    async function load() {
-      try {
-        const [scrape, admin] = await Promise.all([
-          $getScrapeStatus(),
-          $getAdminDashboardData(),
-        ]);
-        if (!cancelled) {
-          setScrapeData(scrape);
-          setAdminData(admin);
-        }
-      } catch {
-        // partial data is fine
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
-    }
-    void load();
-    return () => { cancelled = true; };
-  }, []);
-
-  if (loading) return <p className="text-muted-foreground">Loading overview...</p>;
+  if (isLoading) return <p className="text-muted-foreground">Loading overview...</p>;
+  if (!scrapeData) return <p className="text-muted-foreground">Unable to load overview data.</p>;
 
   const errorCount = scrapeData
-    ? scrapeData.rows.filter((r) => r.scraped && (!r.statusCode || r.statusCode >= 400)).length
-    : 0;
-  const pendingCount = scrapeData ? scrapeData.total - scrapeData.scraped : 0;
+    .rows.filter((r) => r.scraped && (!r.statusCode || r.statusCode >= 400)).length;
+  const pendingCount = scrapeData.total - scrapeData.scraped;
+  const recent = scrapeData.rows
+    .filter((entry) => entry.fetchedAt)
+    .sort((a, b) => (b.fetchedAt ?? '').localeCompare(a.fetchedAt ?? ''))
+    .slice(0, 40);
 
   return (
     <div className="space-y-6">
-      {scrapeData && (
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
-          <Stat label="Total People" value={scrapeData.total} />
-          <Stat label="Scraped" value={scrapeData.scraped} className="text-green-500" />
-          <Stat label="Vectorized" value={scrapeData.vectorized} className="text-blue-500" />
-          <Stat label="Pending" value={pendingCount} className="text-muted-foreground" />
-          <Stat label="Errors" value={errorCount} className="text-destructive" />
-        </div>
-      )}
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+        <Stat label="Total People" value={scrapeData.total} />
+        <Stat label="Scraped" value={scrapeData.scraped} className="text-green-500" />
+        <Stat label="Vectorized" value={scrapeData.vectorized} className="text-blue-500" />
+        <Stat label="Pending" value={pendingCount} className="text-muted-foreground" />
+        <Stat label="Errors" value={errorCount} className="text-destructive" />
+      </div>
 
-      {adminData && (
-        <div className="grid gap-4 md:grid-cols-2">
-          <ScrapeStatsCard stats={adminData.scrapeStats} />
-          <AnalyticsCard analytics={adminData.analytics} />
-        </div>
-      )}
+      <Card>
+        <CardContent className="p-4 space-y-2">
+          <h4 className="font-medium">Unified admin tooling</h4>
+          <p className="text-sm text-muted-foreground">
+            All admin operations now run through the shared site-management REST/MCP APIs.
+          </p>
+          <Link to="/admin/tools" className="text-sm underline">
+            Open tooling docs
+          </Link>
+        </CardContent>
+      </Card>
 
-      {adminData && (
-        <div className="grid gap-4 md:grid-cols-2">
-          <RecentEventsCard events={adminData.recentScrapeEvents} />
-          <PersonHistoryCard history={adminData.personScrapeHistory} />
-        </div>
-      )}
+      <RecentRowsCard rows={recent} />
     </div>
   );
 }
@@ -105,102 +87,38 @@ function Stat({ label, value, className }: { label: string; value: number; class
   );
 }
 
-function ScrapeStatsCard({ stats }: { stats: AdminDashboardData['scrapeStats'] }) {
-  return (
-    <Card>
-      <CardContent className="p-4 space-y-3">
-        <h4 className="font-medium">Scrape & Update History</h4>
-        <div className="grid grid-cols-2 gap-2 text-sm">
-          <div>Total events: <strong>{stats.totalEvents}</strong></div>
-          <div>Updated: <strong>{stats.updatedEvents}</strong></div>
-          <div>Initial: <strong>{stats.initialEvents}</strong></div>
-          <div>Errors: <strong>{stats.errorEvents}</strong></div>
-        </div>
-        <p className="text-xs text-muted-foreground">
-          Last event: {stats.lastEventAt ? timeAgo(stats.lastEventAt) : '—'}
-        </p>
-      </CardContent>
-    </Card>
-  );
-}
-
-function AnalyticsCard({ analytics }: { analytics: AdminDashboardData['analytics'] }) {
-  return (
-    <Card>
-      <CardContent className="p-4 space-y-3">
-        <h4 className="font-medium">View Analytics (30d)</h4>
-        {!analytics.available && (
-          <p className="text-xs text-muted-foreground">{analytics.reason}</p>
-        )}
-        {analytics.available && (
-          <div className="grid grid-cols-3 gap-3 text-xs">
-            <TopList title="People" items={analytics.people} />
-            <TopList title="Tags" items={analytics.tags} />
-            <TopList title="Items" items={analytics.items} />
-          </div>
-        )}
-      </CardContent>
-    </Card>
-  );
-}
-
-function RecentEventsCard({ events }: { events: AdminDashboardData['recentScrapeEvents'] }) {
-  const updated = events.filter((e) => e.changeType === 'updated').slice(0, 40);
+function RecentRowsCard({
+  rows,
+}: {
+  rows: Array<{
+    personSlug: string;
+    name: string;
+    fetchedAt: string | null;
+    statusCode: number | null;
+    vectorized: boolean;
+  }>;
+}) {
   return (
     <Card>
       <CardContent className="p-4 space-y-2">
-        <h4 className="font-medium">Recent update events</h4>
+        <h4 className="font-medium">Recently scraped profiles</h4>
         <div className="max-h-64 overflow-auto rounded-md border">
           <Table>
             <TableHeader>
               <TableRow>
                 <TableHead>Person</TableHead>
-                <TableHead>Change</TableHead>
                 <TableHead>Status</TableHead>
+                <TableHead>Vectorized</TableHead>
                 <TableHead>When</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
-              {updated.map((event) => (
-                <TableRow key={event.id}>
-                  <TableCell>{event.personSlug}</TableCell>
-                  <TableCell>{event.changeType}</TableCell>
-                  <TableCell>{event.statusCode ?? '—'}</TableCell>
-                  <TableCell>{timeAgo(event.fetchedAt)}</TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
-      </CardContent>
-    </Card>
-  );
-}
-
-function PersonHistoryCard({ history }: { history: AdminDashboardData['personScrapeHistory'] }) {
-  return (
-    <Card>
-      <CardContent className="p-4 space-y-2">
-        <h4 className="font-medium">Per-person scrape/update history</h4>
-        <div className="max-h-72 overflow-auto rounded-md border">
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Person</TableHead>
-                <TableHead>Scrapes</TableHead>
-                <TableHead>Updates</TableHead>
-                <TableHead>Last scraped</TableHead>
-                <TableHead>Last updated</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {history.slice(0, 120).map((row) => (
+              {rows.map((row) => (
                 <TableRow key={row.personSlug}>
-                  <TableCell>{row.personSlug}</TableCell>
-                  <TableCell>{row.scrapeCount}</TableCell>
-                  <TableCell>{row.updateCount}</TableCell>
-                  <TableCell>{row.lastScrapedAt ? timeAgo(row.lastScrapedAt) : '—'}</TableCell>
-                  <TableCell>{row.lastUpdatedAt ? timeAgo(row.lastUpdatedAt) : '—'}</TableCell>
+                  <TableCell>{row.name}</TableCell>
+                  <TableCell>{row.statusCode ?? '—'}</TableCell>
+                  <TableCell>{row.vectorized ? 'yes' : '—'}</TableCell>
+                  <TableCell>{row.fetchedAt ? timeAgo(row.fetchedAt) : '—'}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
@@ -208,24 +126,5 @@ function PersonHistoryCard({ history }: { history: AdminDashboardData['personScr
         </div>
       </CardContent>
     </Card>
-  );
-}
-
-function TopList({ title, items }: { title: string; items: Array<{ key: string; views: number }> }) {
-  return (
-    <div>
-      <h5 className="font-medium mb-1">{title}</h5>
-      <ul className="space-y-0.5">
-        {items.slice(0, 5).map((entry) => (
-          <li key={entry.key} className="flex items-center justify-between gap-2">
-            <span className="truncate">{entry.key}</span>
-            <span className="text-muted-foreground">{entry.views}</span>
-          </li>
-        ))}
-        {items.length === 0 && (
-          <li className="text-muted-foreground">No data</li>
-        )}
-      </ul>
-    </div>
   );
 }

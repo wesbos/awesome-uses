@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
 import { Route as OgRouteImport } from './routes/og'
+import { Route as McpRouteImport } from './routes/mcp'
 import { Route as GalaxyRouteImport } from './routes/galaxy'
 import { Route as DiscoverRouteImport } from './routes/discover'
 import { Route as AdminRouteImport } from './routes/admin'
@@ -22,11 +23,14 @@ import { Route as TagsTagSlugRouteImport } from './routes/tags.$tagSlug'
 import { Route as PeoplePersonSlugRouteImport } from './routes/people.$personSlug'
 import { Route as LikeTagRouteImport } from './routes/like/$tag'
 import { Route as ItemsItemSlugRouteImport } from './routes/items.$itemSlug'
+import { Route as ApiSiteManagementRouteImport } from './routes/api.site-management'
+import { Route as AdminToolsRouteImport } from './routes/admin/tools'
 import { Route as AdminTagsRouteImport } from './routes/admin/tags'
 import { Route as AdminScrapeRouteImport } from './routes/admin/scrape'
 import { Route as AdminReviewRouteImport } from './routes/admin/review'
 import { Route as AdminMergeRouteImport } from './routes/admin/merge'
 import { Route as AdminItemsRouteImport } from './routes/admin/items'
+import { Route as AdminGithubRouteImport } from './routes/admin/github'
 import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
 import { Route as AdminBatchRouteImport } from './routes/admin/batch'
 
@@ -43,6 +47,11 @@ const TagsRoute = TagsRouteImport.update({
 const OgRoute = OgRouteImport.update({
   id: '/og',
   path: '/og',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const McpRoute = McpRouteImport.update({
+  id: '/mcp',
+  path: '/mcp',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GalaxyRoute = GalaxyRouteImport.update({
@@ -95,6 +104,16 @@ const ItemsItemSlugRoute = ItemsItemSlugRouteImport.update({
   path: '/items/$itemSlug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiSiteManagementRoute = ApiSiteManagementRouteImport.update({
+  id: '/api/site-management',
+  path: '/api/site-management',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminToolsRoute = AdminToolsRouteImport.update({
+  id: '/tools',
+  path: '/tools',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminTagsRoute = AdminTagsRouteImport.update({
   id: '/tags',
   path: '/tags',
@@ -120,6 +139,11 @@ const AdminItemsRoute = AdminItemsRouteImport.update({
   path: '/items',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminGithubRoute = AdminGithubRouteImport.update({
+  id: '/github',
+  path: '/github',
+  getParentRoute: () => AdminRoute,
+} as any)
 const AdminErrorsRoute = AdminErrorsRouteImport.update({
   id: '/errors',
   path: '/errors',
@@ -137,16 +161,20 @@ export interface FileRoutesByFullPath {
   '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
   '/admin/scrape': typeof AdminScrapeRoute
   '/admin/tags': typeof AdminTagsRoute
+  '/admin/tools': typeof AdminToolsRoute
+  '/api/site-management': typeof ApiSiteManagementRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
@@ -158,16 +186,20 @@ export interface FileRoutesByTo {
   '/add': typeof AddRoute
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
   '/admin/scrape': typeof AdminScrapeRoute
   '/admin/tags': typeof AdminTagsRoute
+  '/admin/tools': typeof AdminToolsRoute
+  '/api/site-management': typeof ApiSiteManagementRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
@@ -181,16 +213,20 @@ export interface FileRoutesById {
   '/admin': typeof AdminRouteWithChildren
   '/discover': typeof DiscoverRoute
   '/galaxy': typeof GalaxyRoute
+  '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
+  '/admin/github': typeof AdminGithubRoute
   '/admin/items': typeof AdminItemsRoute
   '/admin/merge': typeof AdminMergeRoute
   '/admin/review': typeof AdminReviewRoute
   '/admin/scrape': typeof AdminScrapeRoute
   '/admin/tags': typeof AdminTagsRoute
+  '/admin/tools': typeof AdminToolsRoute
+  '/api/site-management': typeof ApiSiteManagementRoute
   '/items/$itemSlug': typeof ItemsItemSlugRoute
   '/like/$tag': typeof LikeTagRoute
   '/people/$personSlug': typeof PeoplePersonSlugRoute
@@ -205,16 +241,20 @@ export interface FileRouteTypes {
     | '/admin'
     | '/discover'
     | '/galaxy'
+    | '/mcp'
     | '/og'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
     | '/admin/scrape'
     | '/admin/tags'
+    | '/admin/tools'
+    | '/api/site-management'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
@@ -226,16 +266,20 @@ export interface FileRouteTypes {
     | '/add'
     | '/discover'
     | '/galaxy'
+    | '/mcp'
     | '/og'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
     | '/admin/scrape'
     | '/admin/tags'
+    | '/admin/tools'
+    | '/api/site-management'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
@@ -248,16 +292,20 @@ export interface FileRouteTypes {
     | '/admin'
     | '/discover'
     | '/galaxy'
+    | '/mcp'
     | '/og'
     | '/tags'
     | '/uses'
     | '/admin/batch'
     | '/admin/errors'
+    | '/admin/github'
     | '/admin/items'
     | '/admin/merge'
     | '/admin/review'
     | '/admin/scrape'
     | '/admin/tags'
+    | '/admin/tools'
+    | '/api/site-management'
     | '/items/$itemSlug'
     | '/like/$tag'
     | '/people/$personSlug'
@@ -271,9 +319,11 @@ export interface RootRouteChildren {
   AdminRoute: typeof AdminRouteWithChildren
   DiscoverRoute: typeof DiscoverRoute
   GalaxyRoute: typeof GalaxyRoute
+  McpRoute: typeof McpRoute
   OgRoute: typeof OgRoute
   TagsRoute: typeof TagsRouteWithChildren
   UsesRoute: typeof UsesRoute
+  ApiSiteManagementRoute: typeof ApiSiteManagementRoute
   ItemsItemSlugRoute: typeof ItemsItemSlugRoute
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
@@ -300,6 +350,13 @@ declare module '@tanstack/react-router' {
       path: '/og'
       fullPath: '/og'
       preLoaderRoute: typeof OgRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mcp': {
+      id: '/mcp'
+      path: '/mcp'
+      fullPath: '/mcp'
+      preLoaderRoute: typeof McpRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/galaxy': {
@@ -372,6 +429,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ItemsItemSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/site-management': {
+      id: '/api/site-management'
+      path: '/api/site-management'
+      fullPath: '/api/site-management'
+      preLoaderRoute: typeof ApiSiteManagementRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/tools': {
+      id: '/admin/tools'
+      path: '/tools'
+      fullPath: '/admin/tools'
+      preLoaderRoute: typeof AdminToolsRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/tags': {
       id: '/admin/tags'
       path: '/tags'
@@ -407,6 +478,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminItemsRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/github': {
+      id: '/admin/github'
+      path: '/github'
+      fullPath: '/admin/github'
+      preLoaderRoute: typeof AdminGithubRouteImport
+      parentRoute: typeof AdminRoute
+    }
     '/admin/errors': {
       id: '/admin/errors'
       path: '/errors'
@@ -427,22 +505,26 @@ declare module '@tanstack/react-router' {
 interface AdminRouteChildren {
   AdminBatchRoute: typeof AdminBatchRoute
   AdminErrorsRoute: typeof AdminErrorsRoute
+  AdminGithubRoute: typeof AdminGithubRoute
   AdminItemsRoute: typeof AdminItemsRoute
   AdminMergeRoute: typeof AdminMergeRoute
   AdminReviewRoute: typeof AdminReviewRoute
   AdminScrapeRoute: typeof AdminScrapeRoute
   AdminTagsRoute: typeof AdminTagsRoute
+  AdminToolsRoute: typeof AdminToolsRoute
   AdminIndexRoute: typeof AdminIndexRoute
 }
 
 const AdminRouteChildren: AdminRouteChildren = {
   AdminBatchRoute: AdminBatchRoute,
   AdminErrorsRoute: AdminErrorsRoute,
+  AdminGithubRoute: AdminGithubRoute,
   AdminItemsRoute: AdminItemsRoute,
   AdminMergeRoute: AdminMergeRoute,
   AdminReviewRoute: AdminReviewRoute,
   AdminScrapeRoute: AdminScrapeRoute,
   AdminTagsRoute: AdminTagsRoute,
+  AdminToolsRoute: AdminToolsRoute,
   AdminIndexRoute: AdminIndexRoute,
 }
 
@@ -464,9 +546,11 @@ const rootRouteChildren: RootRouteChildren = {
   AdminRoute: AdminRouteWithChildren,
   DiscoverRoute: DiscoverRoute,
   GalaxyRoute: GalaxyRoute,
+  McpRoute: McpRoute,
   OgRoute: OgRoute,
   TagsRoute: TagsRouteWithChildren,
   UsesRoute: UsesRoute,
+  ApiSiteManagementRoute: ApiSiteManagementRoute,
   ItemsItemSlugRoute: ItemsItemSlugRoute,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,

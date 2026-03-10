@@ -7,6 +7,7 @@ export {
   $reScrapeAndExtract,
   $getErrorPeople,
   $getErrorSlugs,
+  $getGitHubStats,
   type DashboardRow,
   type DashboardPayload,
 } from './profiles';
@@ -41,9 +42,9 @@ export {
 export {
   $trackView,
   $getAdminDashboardData,
-  $discoverCategories,
+  $discoverTags,
   type AdminDashboardData,
-  type DiscoverCategoriesResult,
+  type DiscoverTagsResult,
 } from './admin';
 
 export {

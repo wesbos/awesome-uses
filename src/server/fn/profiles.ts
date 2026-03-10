@@ -1,9 +1,23 @@
 import { createServerFn } from '@tanstack/react-start';
 import { getPersonBySlug, getAllPeople } from '../../lib/data';
 import type { PersonItem, ScrapedProfileData } from '../../lib/types';
+import {
+  deletePersonItems,
+  getAllScrapeSummaries,
+  getErrorPeople,
+  getPersonItems,
+  getScrapedContent,
+  getScrapedProfileBySlug,
+  insertPersonItems,
+  upsertScrapedProfile,
+} from '../db/index.server';
 import { scrapeUsesPage } from '../scrape';
 import { createOpenAIClient, extractItemsFromMarkdown, normalizeItems } from '../extract';
-import { vectorizeProfile } from './vectorize';
+import { vectorizeProfile } from './vectorize.server';
+import { fetchGitHubStats, type GitHubStats } from '../github';
+import { eq } from 'drizzle-orm';
+import * as schema from '../schema';
+import { resolveDb } from '../db/connection.server';
 
 type ScrapeResult = {
   data: ScrapedProfileData | null;
@@ -13,7 +27,6 @@ type ScrapeResult = {
 export const $getScrapedProfile = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
   .handler(async ({ data: personSlug }): Promise<ScrapeResult> => {
-    const { getScrapedProfileBySlug, upsertScrapedProfile } = await import('../db/index.server');
     const existing = await getScrapedProfileBySlug(personSlug);
     if (existing) {
       return { data: existing, mode: 'existing' };
@@ -49,7 +62,6 @@ export const $getScrapedProfile = createServerFn({ method: 'GET' })
 export const $getPersonItems = createServerFn({ method: 'GET' })
   .inputValidator((personSlug: string) => personSlug)
   .handler(async ({ data: personSlug }): Promise<PersonItem[]> => {
-    const { getPersonItems } = await import('../db/index.server');
     return getPersonItems(personSlug);
   });
 
@@ -73,7 +85,6 @@ export type DashboardPayload = {
 
 export const $getScrapeStatus = createServerFn({ method: 'GET' }).handler(
   async (): Promise<DashboardPayload> => {
-    const { getAllScrapeSummaries } = await import('../db/index.server');
     const [scrapes, people] = await Promise.all([
       getAllScrapeSummaries(),
       Promise.resolve(getAllPeople()),
@@ -118,13 +129,6 @@ type ReScrapeAndExtractResult = {
 export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
   .inputValidator((input: ReScrapeAndExtractInput) => input)
   .handler(async ({ data }): Promise<ReScrapeAndExtractResult> => {
-    const {
-      getScrapedContent,
-      upsertScrapedProfile,
-      getPersonItems,
-      deletePersonItems,
-      insertPersonItems,
-    } = await import('../db/index.server');
     const person = getPersonBySlug(data.personSlug);
     if (!person) {
       return { personSlug: data.personSlug, scraped: false, contentChanged: false, extracted: false, itemCount: 0, error: 'Person not found' };
@@ -165,7 +169,7 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
       const rows = normalized.map((item) => ({
         personSlug: data.personSlug,
         item: item.item.trim(),
-        tagsJson: JSON.stringify(item.categories),
+        tagsJson: JSON.stringify(item.tags),
         detail: item.detail,
         extractedAt,
       }));
@@ -198,7 +202,6 @@ export const $reScrapeAndExtract = createServerFn({ method: 'POST' })
 
 export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
   async () => {
-    const { getErrorPeople } = await import('../db/index.server');
     const errorRows = await getErrorPeople();
     const allPeople = getAllPeople();
     const peopleMap = new Map(allPeople.map((p) => [p.personSlug, p]));
@@ -215,8 +218,60 @@ export const $getErrorPeople = createServerFn({ method: 'GET' }).handler(
 
 export const $getErrorSlugs = createServerFn({ method: 'GET' }).handler(
   async (): Promise<string[]> => {
-    const { getErrorPeople } = await import('../db/index.server');
     const errorRows = await getErrorPeople();
     return errorRows.map((r) => r.personSlug);
   }
 );
+
+const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
+export const $getGitHubStats = createServerFn({ method: 'GET' })
+  .inputValidator((personSlug: string) => personSlug)
+  .handler(async ({ data: personSlug }): Promise<GitHubStats | null> => {
+    const person = getPersonBySlug(personSlug);
+    if (!person?.github) return null;
+
+    const db = resolveDb();
+    if (db) {
+      const cached = await db
+        .select()
+        .from(schema.githubProfiles)
+        .where(eq(schema.githubProfiles.personSlug, personSlug))
+        .limit(1)
+        .then((rows) => rows[0] ?? null);
+
+      if (cached && new Date(cached.expiresAt) > new Date()) {
+        console.log(`[github] Cache hit for ${personSlug}`);
+        return JSON.parse(cached.dataJson) as GitHubStats;
+      }
+    }
+
+    const stats = await fetchGitHubStats(person.github);
+    if (!stats) return null;
+
+    if (db) {
+      const now = new Date();
+      await db
+        .insert(schema.githubProfiles)
+        .values({
+          personSlug,
+          githubUsername: person.github,
+          dataJson: JSON.stringify(stats),
+          fetchedAt: now.toISOString(),
+          expiresAt: new Date(now.getTime() + ONE_WEEK_MS).toISOString(),
+        })
+        .onConflictDoUpdate({
+          target: schema.githubProfiles.personSlug,
+          set: {
+            githubUsername: person.github,
+            dataJson: JSON.stringify(stats),
+            fetchedAt: now.toISOString(),
+            expiresAt: new Date(now.getTime() + ONE_WEEK_MS).toISOString(),
+          },
+        })
+        .run();
+      console.log(`[github] Cached ${personSlug} until ${new Date(now.getTime() + ONE_WEEK_MS).toISOString()}`);
+    }
+
+    return stats;
+  });
