@@ -40,7 +40,7 @@
     "tailwindcss": "^4.2.1",
     "turndown": "^7.2.2",
     "umap-js": "^1.4.0",
-    "vite-plugin-killer-instincts": "^1.0.0",
+    "vite-plugin-killer-instincts": "^1.1.0",
     "workers-og": "^0.0.27",
     "zod": "^4.1.11"
   },

@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as UsesRouteImport } from './routes/uses'
 import { Route as TagsRouteImport } from './routes/tags'
+import { Route as TagGalaxyRouteImport } from './routes/tag-galaxy'
 import { Route as ProductsRouteImport } from './routes/products'
 import { Route as OgRouteImport } from './routes/og'
 import { Route as McpRouteImport } from './routes/mcp'
@@ -43,6 +44,11 @@ const UsesRoute = UsesRouteImport.update({
 const TagsRoute = TagsRouteImport.update({
   id: '/tags',
   path: '/tags',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TagGalaxyRoute = TagGalaxyRouteImport.update({
+  id: '/tag-galaxy',
+  path: '/tag-galaxy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ProductsRoute = ProductsRouteImport.update({
@@ -171,6 +177,7 @@ export interface FileRoutesByFullPath {
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/products': typeof ProductsRoute
+  '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
@@ -197,6 +204,7 @@ export interface FileRoutesByTo {
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/products': typeof ProductsRoute
+  '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
@@ -225,6 +233,7 @@ export interface FileRoutesById {
   '/mcp': typeof McpRoute
   '/og': typeof OgRoute
   '/products': typeof ProductsRoute
+  '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
   '/admin/batch': typeof AdminBatchRoute
@@ -254,6 +263,7 @@ export interface FileRouteTypes {
     | '/mcp'
     | '/og'
     | '/products'
+    | '/tag-galaxy'
     | '/tags'
     | '/uses'
     | '/admin/batch'
@@ -280,6 +290,7 @@ export interface FileRouteTypes {
     | '/mcp'
     | '/og'
     | '/products'
+    | '/tag-galaxy'
     | '/tags'
     | '/uses'
     | '/admin/batch'
@@ -307,6 +318,7 @@ export interface FileRouteTypes {
     | '/mcp'
     | '/og'
     | '/products'
+    | '/tag-galaxy'
     | '/tags'
     | '/uses'
     | '/admin/batch'
@@ -335,6 +347,7 @@ export interface RootRouteChildren {
   McpRoute: typeof McpRoute
   OgRoute: typeof OgRoute
   ProductsRoute: typeof ProductsRoute
+  TagGalaxyRoute: typeof TagGalaxyRoute
   TagsRoute: typeof TagsRouteWithChildren
   UsesRoute: typeof UsesRoute
   ApiSiteManagementRoute: typeof ApiSiteManagementRoute
@@ -357,6 +370,13 @@ declare module '@tanstack/react-router' {
       path: '/tags'
       fullPath: '/tags'
       preLoaderRoute: typeof TagsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tag-galaxy': {
+      id: '/tag-galaxy'
+      path: '/tag-galaxy'
+      fullPath: '/tag-galaxy'
+      preLoaderRoute: typeof TagGalaxyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/products': {
@@ -569,6 +589,7 @@ const rootRouteChildren: RootRouteChildren = {
   McpRoute: McpRoute,
   OgRoute: OgRoute,
   ProductsRoute: ProductsRoute,
+  TagGalaxyRoute: TagGalaxyRoute,
   TagsRoute: TagsRouteWithChildren,
   UsesRoute: UsesRoute,
   ApiSiteManagementRoute: ApiSiteManagementRoute,

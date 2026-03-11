@@ -75,3 +75,17 @@ export const siteManagementVectors = sqliteTable('site_management_vectors', {
   embeddingJson: text('embedding_json').notNull(),
   updatedAt: text('updated_at').notNull(),
 });
+
+export const itemVectors = sqliteTable('item_vectors', {
+  itemSlug: text('item_slug').primaryKey(),
+  itemName: text('item_name').notNull(),
+  embedding: text('embedding').notNull(),
+  embeddedAt: text('embedded_at').notNull(),
+});
+
+export const tagVectors = sqliteTable('tag_vectors', {
+  tagSlug: text('tag_slug').primaryKey(),
+  tagName: text('tag_name').notNull(),
+  embedding: text('embedding').notNull(),
+  embeddedAt: text('embedded_at').notNull(),
+});

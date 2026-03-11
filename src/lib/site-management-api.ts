@@ -278,6 +278,7 @@ export async function apiFetchGitHubProfile(
 }
 
 export async function apiFetchGitHubBatch(input: {
+  personSlugs?: string[];
   limit?: number;
   concurrency?: number;
   pendingOnly?: boolean;

@@ -1186,6 +1186,7 @@ Rules:
     scope: 'pipeline',
     description: 'Batch fetch GitHub profiles for people who have a GitHub username. Respects cache.',
     inputSchema: z.object({
+      personSlugs: z.array(nonEmptyStringSchema).optional().describe('Specific person slugs to fetch. If omitted, fetches all with GitHub usernames.'),
       limit: z.number().int().positive().max(500).default(50),
       concurrency: z.number().int().positive().max(10).default(3),
       pendingOnly: z.boolean().default(true).describe('Only fetch people without fresh cached data.'),
@@ -1197,6 +1198,10 @@ Rules:
       const now = new Date();
 
       let targets = people;
+      if (input.personSlugs && input.personSlugs.length > 0) {
+        const wanted = new Set(input.personSlugs);
+        targets = targets.filter((p) => wanted.has(p.personSlug));
+      }
       if (input.pendingOnly) {
         targets = targets.filter((p) => {
           const cache = cacheMap.get(p.personSlug);

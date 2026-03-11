@@ -152,3 +152,34 @@ pnpm merge-dupes -- --apply                     # apply merges to D1
 - `scripts/reclassify.ts` — reclassify items from one tag into better ones via LLM
 - `scripts/merge-duplicates.ts` — merge case-duplicate item names (e.g. "CalDigit" vs "Caldigit")
 - `scripts/review-extraction.ts` — review script for checking extraction quality
+
+---
+
+## Item Galaxy (Embedding-based Clustering)
+
+**Commit:** `6ec43c26` on `the-big-boy` — revert this commit to remove all item-galaxy work.
+
+Vectorizes the top 1000 most popular items using OpenAI `text-embedding-3-small` (1536 dims), stores embeddings in D1 `item_vectors` table, and displays a clustered scatter plot at `/item-galaxy` using UMAP + K-means.
+
+### How it works
+- **UMAP** projects 1536-dim embeddings to 2D for the scatter plot layout
+- **K-means** assigns items to clusters (toggle between clustering on full embeddings vs UMAP 2D positions)
+- Tunable knobs via URL search params: clusters, neighbors, minDist, spread
+
+### Known limitations
+- Embeddings group by **brand/ecosystem** more than by **product type** — e.g. all Apple products cluster together rather than "all keyboards" grouping across brands
+- Large "developer tools" bucket doesn't split languages from editors from frameworks without high cluster counts
+- Both UMAP and K-means are non-deterministic (no fixed seed), so clusters differ on every load
+
+### Alternative approaches to try
+1. **More clusters** (30-50) to get finer splits within broad groups
+2. **Hierarchical clustering** — broad pass first, then sub-cluster within each group
+3. **Co-occurrence embeddings** — embed based on which items appear together on /uses pages instead of item metadata
+4. **Tag-based grouping** — skip embeddings, group by existing tags (keyboard, headphone, editor, language)
+
+### Item Galaxy files
+- `db/migrations/0010_item_vectors.sql` — D1 table for cached embeddings
+- `src/server/db/item-vectors.server.ts` — DB access layer (upsert, getAll, getCount, getSlugs)
+- `src/server/fn/items.ts` — `$batchVectorizeItems`, `$getItemGalaxyData` server functions
+- `src/routes/item-galaxy.tsx` — visualization page with D3 scatter plot
+- `src/server/db/index.server.ts` — re-exports for item vector functions

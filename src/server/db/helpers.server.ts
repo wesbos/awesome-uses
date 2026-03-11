@@ -52,7 +52,7 @@ export function buildExtractedIndexes(rows: AllItemRow[]): ExtractedIndexes {
     if (!itemToTags.has(item)) itemToTags.set(item, new Set());
 
     for (const tag of rowTags) {
-      const normalizedTag = tag.trim();
+      const normalizedTag = tag.trim().toLowerCase();
       if (!normalizedTag) continue;
 
       itemToTags.get(item)?.add(normalizedTag);

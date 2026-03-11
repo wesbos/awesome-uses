@@ -293,7 +293,8 @@ export const $enrichItems = createServerFn({ method: 'POST' })
     let client: OpenAI;
     try {
       client = createOpenAIClient();
-    } catch {
+    } catch (err) {
+      console.log('[enrichItems] Failed to create OpenAI client:', err);
       return data.items.map((i) => ({
         item: i.item,
         itemType: null,
@@ -427,7 +428,8 @@ export const $batchVectorizeItems = createServerFn({ method: 'POST' })
     let client: OpenAI;
     try {
       client = createOpenAIClient();
-    } catch {
+    } catch (err) {
+      console.log('[batchVectorizeItems] Failed to create OpenAI client:', err);
       return { processed: 0, vectorized: 0, errors: 0 };
     }
 
@@ -465,7 +467,8 @@ export const $batchVectorizeItems = createServerFn({ method: 'POST' })
             errors++;
           }
         }
-      } catch {
+      } catch (err) {
+        console.log('[batchVectorizeItems] Batch embedding failed:', err);
         errors += batch.length;
       }
     }
@@ -582,4 +585,96 @@ export const $getItemGalaxyData = createServerFn({ method: 'GET' })
       .sort((a, b) => b.count - a.count);
 
     return { points, clusters, vectorCount };
+  });
+
+// ---------------------------------------------------------------------------
+// Semantic Item Search
+// ---------------------------------------------------------------------------
+
+function cosineSimilarity(a: number[], b: number[]): number {
+  let dot = 0;
+  let normA = 0;
+  let normB = 0;
+  for (let i = 0; i < a.length; i++) {
+    dot += a[i] * b[i];
+    normA += a[i] * a[i];
+    normB += b[i] * b[i];
+  }
+  return dot / (Math.sqrt(normA) * Math.sqrt(normB));
+}
+
+export type SemanticSearchResult = {
+  itemSlug: string;
+  itemName: string;
+  score: number;
+  count: number;
+  itemType: string | null;
+  description: string | null;
+  tags: string[];
+};
+
+export const $semanticItemSearch = createServerFn({ method: 'GET' })
+  .inputValidator((query: string) => query)
+  .handler(async ({ data: query }): Promise<SemanticSearchResult[]> => {
+    const trimmed = query.trim();
+    if (!trimmed) return [];
+
+    let client;
+    try {
+      client = createOpenAIClient();
+    } catch (err) {
+      console.log('[semanticItemSearch] Failed to create OpenAI client:', err);
+      return [];
+    }
+
+    const vectors = await getAllItemVectors();
+    if (vectors.length === 0) {
+      console.log('[semanticItemSearch] No item vectors found');
+      return [];
+    }
+
+    // Embed the query
+    const response = await client.embeddings.create({
+      model: EMBEDDING_MODEL,
+      input: trimmed,
+      dimensions: 1536,
+    });
+
+    const queryEmbedding = response.data[0]?.embedding;
+    if (!queryEmbedding?.length) {
+      console.log('[semanticItemSearch] Failed to generate query embedding');
+      return [];
+    }
+
+    // Score all items by cosine similarity
+    const scored = vectors.map((v) => ({
+      ...v,
+      score: cosineSimilarity(queryEmbedding, v.embedding),
+    }));
+
+    scored.sort((a, b) => b.score - a.score);
+    const top = scored.slice(0, 20);
+
+    // Enrich with metadata
+    const [uniqueItems, enrichments] = await Promise.all([
+      getAllUniqueItems(),
+      getAllItemEnrichments(),
+    ]);
+
+    const countMap = new Map(uniqueItems.map((u) => [slugify(u.item) || 'item', { count: u.count, tags: u.tags }]));
+    const enrichmentMap = new Map(enrichments.map((e) => [e.itemSlug, e]));
+
+    return top.map((item) => {
+      const meta = countMap.get(item.itemSlug);
+      const enrichment = enrichmentMap.get(item.itemSlug);
+      return {
+        itemSlug: item.itemSlug,
+        itemName: item.itemName,
+        score: Math.round(item.score * 1000) / 1000,
+        count: meta?.count ?? 0,
+        itemType: enrichment?.itemType ?? null,
+        description: enrichment?.description ?? null,
+        tags: meta?.tags ?? [],
+      };
+    });
   });

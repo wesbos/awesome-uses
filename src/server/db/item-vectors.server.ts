@@ -1,4 +1,5 @@
-import { sql } from 'drizzle-orm';
+import { eq, sql } from 'drizzle-orm';
+import * as schema from '../schema';
 import { resolveDb } from './connection.server';
 
 export type ItemVector = {
@@ -15,14 +16,23 @@ export async function upsertItemVector(
   const db = resolveDb();
   if (!db) return;
 
-  await db.run(sql`
-    INSERT INTO item_vectors (item_slug, item_name, embedding, embedded_at)
-    VALUES (${itemSlug}, ${itemName}, ${JSON.stringify(embedding)}, ${new Date().toISOString()})
-    ON CONFLICT(item_slug) DO UPDATE SET
-      item_name = ${itemName},
-      embedding = ${JSON.stringify(embedding)},
-      embedded_at = ${new Date().toISOString()}
-  `);
+  const now = new Date().toISOString();
+  await db
+    .insert(schema.itemVectors)
+    .values({
+      itemSlug,
+      itemName,
+      embedding: JSON.stringify(embedding),
+      embeddedAt: now,
+    })
+    .onConflictDoUpdate({
+      target: schema.itemVectors.itemSlug,
+      set: {
+        itemName,
+        embedding: JSON.stringify(embedding),
+        embeddedAt: now,
+      },
+    });
 }
 
 export async function getAllItemVectors(): Promise<ItemVector[]> {
@@ -30,15 +40,21 @@ export async function getAllItemVectors(): Promise<ItemVector[]> {
   if (!db) return [];
 
   try {
-    const rows = await db.all<{ item_slug: string; item_name: string; embedding: string }>(
-      sql`SELECT item_slug, item_name, embedding FROM item_vectors`,
-    );
+    const rows = await db
+      .select({
+        itemSlug: schema.itemVectors.itemSlug,
+        itemName: schema.itemVectors.itemName,
+        embedding: schema.itemVectors.embedding,
+      })
+      .from(schema.itemVectors);
+
     return rows.map((row) => ({
-      itemSlug: row.item_slug,
-      itemName: row.item_name,
+      itemSlug: row.itemSlug,
+      itemName: row.itemName,
       embedding: JSON.parse(row.embedding) as number[],
     }));
-  } catch {
+  } catch (err) {
+    console.log('[itemVectors] query failed:', err);
     return [];
   }
 }
@@ -48,11 +64,12 @@ export async function getItemVectorCount(): Promise<number> {
   if (!db) return 0;
 
   try {
-    const rows = await db.all<{ count: number }>(
-      sql`SELECT COUNT(*) as count FROM item_vectors`,
-    );
+    const rows = await db
+      .select({ count: sql<number>`COUNT(*)` })
+      .from(schema.itemVectors);
     return rows[0]?.count ?? 0;
-  } catch {
+  } catch (err) {
+    console.log('[itemVectors] count query failed:', err);
     return 0;
   }
 }
@@ -62,11 +79,12 @@ export async function getItemVectorSlugs(): Promise<Set<string>> {
   if (!db) return new Set();
 
   try {
-    const rows = await db.all<{ item_slug: string }>(
-      sql`SELECT item_slug FROM item_vectors`,
-    );
-    return new Set(rows.map((r) => r.item_slug));
-  } catch {
+    const rows = await db
+      .select({ itemSlug: schema.itemVectors.itemSlug })
+      .from(schema.itemVectors);
+    return new Set(rows.map((r) => r.itemSlug));
+  } catch (err) {
+    console.log('[itemVectors] slugs query failed:', err);
     return new Set();
   }
 }

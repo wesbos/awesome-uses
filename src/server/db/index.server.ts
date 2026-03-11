@@ -88,3 +88,10 @@ export {
   getItemVectorSlugs,
   type ItemVector,
 } from './item-vectors.server';
+
+export {
+  upsertTagVector,
+  getAllTagVectors,
+  getTagVectorSlugs,
+  type TagVector,
+} from './tag-vectors.server';

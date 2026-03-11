@@ -1,11 +1,15 @@
 import { Link, createFileRoute } from '@tanstack/react-router';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { useCallback, useRef, useState } from 'react';
 import type { DashboardRow, DashboardPayload } from '../../server/fn/profiles';
 import {
   apiGetScrapeStatus,
   apiRescrapeAndExtract,
   apiScrapePerson,
+  apiGetGitHubStatus,
+  apiFetchGitHubProfile,
+  apiFetchGitHubBatch,
+  type GitHubStatusRow,
 } from '../../lib/site-management-api';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,8 +24,9 @@ import {
   TableRow,
 } from '@/components/ui/table';
 import { useShiftSelect } from '@/hooks/useShiftSelect';
+import { Github } from 'lucide-react';
 
-type FilterMode = 'all' | 'scraped' | 'pending' | 'errors' | 'vectorized' | 'not-vectorized';
+type FilterMode = 'all' | 'scraped' | 'pending' | 'errors' | 'vectorized' | 'not-vectorized' | 'gh-fresh' | 'gh-expired' | 'gh-pending';
 
 export const Route = createFileRoute('/admin/scrape')({
   component: ScrapePage,
@@ -114,7 +119,7 @@ function StatusBadge({ row }: { row: DashboardRow }) {
   return <Badge variant="destructive">{row.statusCode ?? 'error'}</Badge>;
 }
 
-function Stat({ label, value, className }: { label: string; value: number; className?: string }) {
+function Stat({ label, value, className }: { label: React.ReactNode; value: number; className?: string }) {
   return (
     <Card>
       <CardContent className="p-4">
@@ -135,19 +140,45 @@ function ScrapePage() {
     enabled: typeof window !== 'undefined',
   });
 
+  const { data: ghData } = useQuery({
+    queryKey: ['site-tools', 'pipeline.getGitHubStatus'],
+    queryFn: apiGetGitHubStatus,
+    retry: false,
+    enabled: typeof window !== 'undefined',
+  });
+
   if (isLoading) return <p className="text-muted-foreground">Loading scrape data...</p>;
   if (!data) return <p className="text-muted-foreground">Failed to load scrape status.</p>;
 
-  return <ScrapeTable initialData={data} />;
+  const ghMap = new Map<string, GitHubStatusRow>();
+  if (ghData) {
+    for (const row of ghData.rows) {
+      ghMap.set(row.personSlug, row);
+    }
+  }
+
+  return <ScrapeTable initialData={data} ghMap={ghMap} ghSummary={ghData ?? null} />;
 }
 
-function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
+type GitHubSummary = { total: number; fetched: number; fresh: number; expired: number };
+
+function ScrapeTable({ initialData, ghMap, ghSummary }: { initialData: DashboardPayload; ghMap: Map<string, GitHubStatusRow>; ghSummary: GitHubSummary | null }) {
+  const queryClient = useQueryClient();
   const [data, setData] = useState(initialData);
   const [filter, setFilter] = useState<FilterMode>('all');
   const [search, setSearch] = useState('');
   const { selected, handleRowClick, toggleAll, allSelected, clearSelection } = useShiftSelect<DashboardRow>((r) => r.personSlug);
   const [scrapeSelectedBusy, setScrapeSelectedBusy] = useState(false);
   const [scrapeSelectedProgress, setScrapeSelectedProgress] = useState({ done: 0, total: 0 });
+  const [ghFetchingSlug, setGhFetchingSlug] = useState<string | null>(null);
+
+  const ghBatchMutation = useMutation({
+    mutationFn: (input: { limit?: number; concurrency?: number; pendingOnly?: boolean }) =>
+      apiFetchGitHubBatch(input),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['site-tools', 'pipeline.getGitHubStatus'] });
+    },
+  });
 
   async function scrapeSelected() {
     const slugs = [...selected];
@@ -220,6 +251,16 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
     }
     if (filter === 'vectorized' && !row.vectorized) return false;
     if (filter === 'not-vectorized' && row.vectorized) return false;
+    if (filter === 'gh-fresh' || filter === 'gh-expired' || filter === 'gh-pending') {
+      const gh = ghMap.get(row.personSlug);
+      if (filter === 'gh-fresh' && !(gh?.fetched && !gh.expired)) return false;
+      if (filter === 'gh-expired' && !(gh?.fetched && gh.expired)) return false;
+      if (filter === 'gh-pending' && (gh?.fetched || !ghMap.has(row.personSlug))) {
+        // gh-pending: has github username but not fetched
+        if (!ghMap.has(row.personSlug)) return false;
+        if (gh?.fetched) return false;
+      }
+    }
     if (
       query &&
       !row.name.toLowerCase().includes(query) &&
@@ -232,12 +273,19 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
         <Stat label="Total" value={data.total} />
         <Stat label="Scraped" value={data.scraped} className="text-green-500" />
         <Stat label="Vectorized" value={data.vectorized} className="text-blue-500" />
         <Stat label="Pending" value={pendingCount} className="text-muted-foreground" />
         <Stat label="Errors" value={errorCount} className="text-destructive" />
+        {ghSummary && (
+          <>
+            <Stat label={<span className="inline-flex items-center gap-1"><Github className="h-3 w-3" /> Fresh</span>} value={ghSummary.fresh} className="text-green-500" />
+            <Stat label={<span className="inline-flex items-center gap-1"><Github className="h-3 w-3" /> Expired</span>} value={ghSummary.expired} className="text-yellow-500" />
+            <Stat label={<span className="inline-flex items-center gap-1"><Github className="h-3 w-3" /> Pending</span>} value={ghSummary.total - ghSummary.fetched} className="text-muted-foreground" />
+          </>
+        )}
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
@@ -272,33 +320,74 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
               Re-scrape All ({data.total})
             </Button>
             {selected.size > 0 && (
+              <>
+                <Button
+                  size="sm"
+                  variant="secondary"
+                  onClick={scrapeSelected}
+                  disabled={scrapeSelectedBusy}
+                >
+                  {scrapeSelectedBusy
+                    ? `Scraping... ${scrapeSelectedProgress.done}/${scrapeSelectedProgress.total}`
+                    : `Scrape Selected (${selected.size})`}
+                </Button>
+                {ghSummary && (
+                  <Button
+                    size="sm"
+                    variant="secondary"
+                    disabled={ghBatchMutation.isPending}
+                    onClick={() => ghBatchMutation.mutate({ personSlugs: [...selected], concurrency: 3, pendingOnly: false })}
+                    className="inline-flex items-center gap-1"
+                  >
+                    <Github className="h-3.5 w-3.5" />
+                    {ghBatchMutation.isPending ? 'Fetching...' : `Fetch Selected (${selected.size})`}
+                  </Button>
+                )}
+              </>
+            )}
+            {ghSummary && !selected.size && (
               <Button
                 size="sm"
-                variant="secondary"
-                onClick={scrapeSelected}
-                disabled={scrapeSelectedBusy}
+                variant="outline"
+                disabled={ghBatchMutation.isPending || (ghSummary.total - ghSummary.fetched) === 0}
+                onClick={() => ghBatchMutation.mutate({ limit: 500, concurrency: 3, pendingOnly: true })}
+                className="inline-flex items-center gap-1"
               >
-                {scrapeSelectedBusy
-                  ? `Scraping... ${scrapeSelectedProgress.done}/${scrapeSelectedProgress.total}`
-                  : `Scrape Selected (${selected.size})`}
+                <Github className="h-3.5 w-3.5" />
+                {ghBatchMutation.isPending ? 'Fetching...' : `Fetch Pending (${ghSummary.total - ghSummary.fetched})`}
               </Button>
+            )}
+            {ghBatchMutation.data && (
+              <span className="text-sm text-muted-foreground">
+                <Github className="h-3 w-3 inline" /> {ghBatchMutation.data.successes} fetched, {ghBatchMutation.data.failures} failed
+              </span>
             )}
           </>
         )}
       </div>
 
       <div className="flex flex-wrap items-center gap-2">
-        {(['all', 'scraped', 'pending', 'errors', 'vectorized', 'not-vectorized'] as const).map((mode) => (
-          <Button
-            key={mode}
-            variant={filter === mode ? 'default' : 'outline'}
-            size="sm"
-            onClick={() => setFilter(mode)}
-            className="capitalize"
-          >
-            {mode === 'not-vectorized' ? 'Not Vectorized' : mode}
-          </Button>
-        ))}
+        {(['all', 'scraped', 'pending', 'errors', 'vectorized', 'not-vectorized', 'gh-fresh', 'gh-expired', 'gh-pending'] as const).map((mode) => {
+          const ghIcon = mode.startsWith('gh-');
+          const labels: Record<string, string> = {
+            'not-vectorized': 'Not Vectorized',
+            'gh-fresh': 'Fresh',
+            'gh-expired': 'Expired',
+            'gh-pending': 'Pending',
+          };
+          return (
+            <Button
+              key={mode}
+              variant={filter === mode ? 'default' : 'outline'}
+              size="sm"
+              onClick={() => setFilter(mode)}
+              className="capitalize inline-flex items-center gap-1"
+            >
+              {ghIcon && <Github className="h-3 w-3" />}
+              {labels[mode] ?? mode}
+            </Button>
+          );
+        })}
         <Input
           type="text"
           placeholder="Search by name or URL..."
@@ -327,6 +416,7 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
               <TableHead>Name</TableHead>
               <TableHead>Status</TableHead>
               <TableHead>Vector</TableHead>
+              <TableHead><Github className="h-3.5 w-3.5 inline" /></TableHead>
               <TableHead>Title</TableHead>
               <TableHead>Fetched</TableHead>
               <TableHead>URL</TableHead>
@@ -360,6 +450,21 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
                     ? <Badge variant="outline" className="text-blue-500 border-blue-500/30">yes</Badge>
                     : <span className="text-muted-foreground text-xs">—</span>}
                 </TableCell>
+                <TableCell>
+                  <GitHubCell
+                    row={row}
+                    gh={ghMap.get(row.personSlug) ?? null}
+                    isFetching={ghFetchingSlug === row.personSlug}
+                    onFetch={async (force) => {
+                      setGhFetchingSlug(row.personSlug);
+                      try {
+                        await apiFetchGitHubProfile(row.personSlug, force);
+                        queryClient.invalidateQueries({ queryKey: ['site-tools', 'pipeline.getGitHubStatus'] });
+                      } catch { /* ignore */ }
+                      setGhFetchingSlug(null);
+                    }}
+                  />
+                </TableCell>
                 <TableCell className="max-w-[250px] truncate">
                   {row.title ?? '—'}
                 </TableCell>
@@ -382,5 +487,60 @@ function ScrapeTable({ initialData }: { initialData: DashboardPayload }) {
         </Table>
       </div>
     </div>
+  );
+}
+
+function GitHubCell({
+  row,
+  gh,
+  isFetching,
+  onFetch,
+}: {
+  row: DashboardRow;
+  gh: GitHubStatusRow | null;
+  isFetching: boolean;
+  onFetch: (force: boolean) => void;
+}) {
+  if (!gh) {
+    // Person has no github username
+    return <span className="text-muted-foreground text-xs">—</span>;
+  }
+
+  if (isFetching) {
+    return <span className="text-xs text-muted-foreground">...</span>;
+  }
+
+  if (!gh.fetched) {
+    return (
+      <button
+        onClick={() => onFetch(false)}
+        className="text-xs text-muted-foreground hover:text-foreground underline"
+      >
+        fetch
+      </button>
+    );
+  }
+
+  if (gh.expired) {
+    return (
+      <button
+        onClick={() => onFetch(true)}
+        className="text-xs"
+      >
+        <Badge variant="outline" className="text-yellow-600 border-yellow-600/30 cursor-pointer">expired</Badge>
+      </button>
+    );
+  }
+
+  return (
+    <button
+      onClick={() => onFetch(true)}
+      className="text-xs"
+      title={gh.fetchedAt ? `Fetched ${timeAgo(gh.fetchedAt)}` : undefined}
+    >
+      <Badge variant="outline" className="text-green-500 border-green-500/30 cursor-pointer">
+        {gh.fetchedAt ? timeAgo(gh.fetchedAt) : 'yes'}
+      </Badge>
+    </button>
   );
 }
