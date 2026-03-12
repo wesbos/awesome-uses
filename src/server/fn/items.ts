@@ -28,6 +28,8 @@ import {
 } from '../db/index.server';
 import { createOpenAIClient } from '../extract';
 import { BANNED_TAGS } from '../extract';
+import { resolveDb } from '../db/connection.server';
+import { githubProfiles } from '../schema';
 import { mapItemDetailWithFaces, slugToFace, mapConcurrent, type Face, type BaseItemDetail, type TagItemWithFaces } from './helpers';
 
 export type ItemDetailWithFaces = BaseItemDetail & {
@@ -171,6 +173,12 @@ export type FeaturedItemRow = {
   faces: Face[];
 };
 
+export type PopularLanguage = {
+  name: string;
+  color: string;
+  devCount: number;
+};
+
 export type FeaturedItemsByType = {
   product: FeaturedItemRow[];
   software: FeaturedItemRow[];
@@ -225,6 +233,44 @@ export const $getFeaturedItems = createServerFn({ method: 'GET' }).handler(
       software: topByType('software'),
       service: topByType('service'),
     };
+  },
+);
+
+export const $getPopularLanguages = createServerFn({ method: 'GET' }).handler(
+  async (): Promise<PopularLanguage[]> => {
+    const db = resolveDb();
+    if (!db) return [];
+
+    const rows = await db
+      .select({ dataJson: githubProfiles.dataJson })
+      .from(githubProfiles);
+
+    const langMap = new Map<string, { color: string; devCount: number }>();
+
+    for (const row of rows) {
+      try {
+        const stats = JSON.parse(row.dataJson) as { languages?: { name: string; color: string }[] };
+        if (!stats.languages) continue;
+        const seen = new Set<string>();
+        for (const lang of stats.languages) {
+          if (seen.has(lang.name)) continue;
+          seen.add(lang.name);
+          const existing = langMap.get(lang.name);
+          if (existing) {
+            existing.devCount++;
+          } else {
+            langMap.set(lang.name, { color: lang.color || '#888', devCount: 1 });
+          }
+        }
+      } catch {
+        console.log(`[languages] Failed to parse dataJson for a github profile`);
+      }
+    }
+
+    return Array.from(langMap.entries())
+      .map(([name, data]) => ({ name, ...data }))
+      .sort((a, b) => b.devCount - a.devCount)
+      .slice(0, 12);
   },
 );
 

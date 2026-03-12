@@ -1,7 +1,6 @@
 import { HeadContent, Outlet, Scripts, createRootRoute } from '@tanstack/react-router';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import AnimatedFavicon from '../components/AnimatedFavicon';
-import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ThemeProvider } from '../components/theme-provider';
@@ -31,6 +30,10 @@ export const Route = createRootRoute({
       { name: 'twitter:image', content: ogImageUrl({ title: '/uses', subtitle: DEFAULT_DESCRIPTION }) },
     ],
     links: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&display=swap',
+      },
       { rel: 'stylesheet', href: appCss },
       { rel: 'icon', href: 'https://fav.farm/🖥' },
       { rel: 'canonical', href: SITE_URL },
@@ -59,7 +62,6 @@ function RootDocument() {
             <ShaderBackground />
             <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 space-y-8">
               <AnimatedFavicon />
-              <Header />
               <Nav />
               <Outlet />
               <Footer />
