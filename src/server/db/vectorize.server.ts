@@ -24,6 +24,7 @@ export type VectorizeIndex = {
   ): Promise<VectorizeQueryResult>;
   upsert(vectors: VectorizeVector[]): Promise<{ mutationId: string }>;
   getByIds(ids: string[]): Promise<VectorizeVector[]>;
+  deleteByIds(ids: string[]): Promise<{ mutationId: string }>;
 };
 
 export function resolveVectorize(): VectorizeIndex | null {

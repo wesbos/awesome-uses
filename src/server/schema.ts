@@ -89,3 +89,11 @@ export const tagVectors = sqliteTable('tag_vectors', {
   embedding: text('embedding').notNull(),
   embeddedAt: text('embedded_at').notNull(),
 });
+
+export const awards = sqliteTable('awards', {
+  awardKey: text('award_key').primaryKey(),
+  title: text('title').notNull(),
+  description: text('description'),
+  dataJson: text('data_json').notNull(),
+  calculatedAt: text('calculated_at').notNull(),
+});

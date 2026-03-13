@@ -35,6 +35,7 @@ import { Route as AdminMergeRouteImport } from './routes/admin/merge'
 import { Route as AdminItemsRouteImport } from './routes/admin/items'
 import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
 import { Route as AdminBatchRouteImport } from './routes/admin/batch'
+import { Route as AdminAwardsRouteImport } from './routes/admin/awards'
 
 const UsesRoute = UsesRouteImport.update({
   id: '/uses',
@@ -166,6 +167,11 @@ const AdminBatchRoute = AdminBatchRouteImport.update({
   path: '/batch',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminAwardsRoute = AdminAwardsRouteImport.update({
+  id: '/awards',
+  path: '/awards',
+  getParentRoute: () => AdminRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -180,6 +186,7 @@ export interface FileRoutesByFullPath {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
   '/admin/items': typeof AdminItemsRoute
@@ -207,6 +214,7 @@ export interface FileRoutesByTo {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
   '/admin/items': typeof AdminItemsRoute
@@ -236,6 +244,7 @@ export interface FileRoutesById {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
   '/admin/items': typeof AdminItemsRoute
@@ -266,6 +275,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
     | '/admin/items'
@@ -293,6 +303,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
     | '/admin/items'
@@ -321,6 +332,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
     | '/admin/items'
@@ -540,10 +552,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminBatchRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/awards': {
+      id: '/admin/awards'
+      path: '/awards'
+      fullPath: '/admin/awards'
+      preLoaderRoute: typeof AdminAwardsRouteImport
+      parentRoute: typeof AdminRoute
+    }
   }
 }
 
 interface AdminRouteChildren {
+  AdminAwardsRoute: typeof AdminAwardsRoute
   AdminBatchRoute: typeof AdminBatchRoute
   AdminErrorsRoute: typeof AdminErrorsRoute
   AdminItemsRoute: typeof AdminItemsRoute
@@ -556,6 +576,7 @@ interface AdminRouteChildren {
 }
 
 const AdminRouteChildren: AdminRouteChildren = {
+  AdminAwardsRoute: AdminAwardsRoute,
   AdminBatchRoute: AdminBatchRoute,
   AdminErrorsRoute: AdminErrorsRoute,
   AdminItemsRoute: AdminItemsRoute,

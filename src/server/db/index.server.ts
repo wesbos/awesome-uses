@@ -16,6 +16,8 @@ export {
   getScrapedContent,
   getErrorPeople,
   getAllScrapedPersonSlugs,
+  getHealthyScrapedPersonSlugs,
+  getErrorPersonSlugs,
   markVectorized,
   getScrapedPagesForExtraction,
   getRandomScrapedPages,
@@ -95,3 +97,9 @@ export {
   getTagVectorSlugs,
   type TagVector,
 } from './tag-vectors.server';
+
+export {
+  getAllAwards,
+  getAwardByKey,
+  upsertAward,
+} from './awards.server';

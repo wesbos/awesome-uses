@@ -1,8 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router';
 import DirectoryLayout from '../components/DirectoryLayout';
-import { getDirectoryData, getDirectoryFacts } from '../lib/data';
+import { getDirectoryData } from '../lib/data';
 import { $getErrorSlugs } from '../server/fn/profiles';
 import { $getFeaturedItems, $getPopularLanguages } from '../server/fn/items';
+import { $getAwards } from '../server/fn/awards';
 import { buildMeta, SITE_URL } from '../lib/seo';
 
 export const Route = createFileRoute('/')({
@@ -15,14 +16,14 @@ export const Route = createFileRoute('/')({
     });
   },
   loader: async () => {
-    const [directoryData, errorSlugs, featured, languages] = await Promise.all([
+    const [directoryData, errorSlugs, featured, languages, awards] = await Promise.all([
       getDirectoryData({}),
       $getErrorSlugs().catch(() => [] as string[]),
       $getFeaturedItems().catch(() => ({ product: [], software: [], service: [] })),
       $getPopularLanguages().catch(() => []),
+      $getAwards().catch(() => []),
     ]);
-    const facts = getDirectoryFacts();
-    return { ...directoryData, facts, errorSlugs: new Set(errorSlugs), featured, languages };
+    return { ...directoryData, awards, errorSlugs: new Set(errorSlugs), featured, languages };
   },
   component: IndexPage,
 });
@@ -40,7 +41,7 @@ function IndexPage() {
       devices={[]}
       featured={data.featured}
       languages={data.languages}
-      facts={data.facts}
+      awards={data.awards}
     />
   );
 }

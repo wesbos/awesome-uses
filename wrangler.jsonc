@@ -5,7 +5,7 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
-	"main": "@tanstack/react-start/server-entry",
+	"main": "src/server-entry.ts",
 	"observability": {
 		"logs": {
 			"enabled": true,
@@ -35,5 +35,15 @@
 			"index_name": "uses-similarity",
 			"remote": true
 		}
-	]
+	],
+	"workflows": [
+		{
+			"name": "awards-workflow",
+			"binding": "AWARDS_WORKFLOW",
+			"class_name": "AwardsWorkflow"
+		}
+	],
+	"triggers": {
+		"crons": ["0 4 * * *"]
+	}
 }

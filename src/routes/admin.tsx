@@ -10,6 +10,7 @@ const ADMIN_NAV = [
   { href: '/admin/scrape', label: 'Scrape' },
   { href: '/admin/items', label: 'Items' },
   { href: '/admin/tags', label: 'Tags' },
+  { href: '/admin/awards', label: 'Awards' },
   { href: '/admin/merge', label: 'Merge' },
   { href: '/admin/batch', label: 'Batch Ops' },
   { href: '/admin/review', label: 'Review' },

@@ -11,6 +11,7 @@ import {
   apiFetchGitHubBatch,
   type GitHubStatusRow,
 } from '../../lib/site-management-api';
+import { $cleanupErrorVectors } from '../../server/fn/vectorize';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -178,6 +179,10 @@ function ScrapeTable({ initialData, ghMap, ghSummary }: { initialData: Dashboard
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['site-tools', 'pipeline.getGitHubStatus'] });
     },
+  });
+
+  const cleanupVectorsMutation = useMutation({
+    mutationFn: () => $cleanupErrorVectors(),
   });
 
   async function scrapeSelected() {
@@ -360,6 +365,22 @@ function ScrapeTable({ initialData, ghMap, ghSummary }: { initialData: Dashboard
             {ghBatchMutation.data && (
               <span className="text-sm text-muted-foreground">
                 <Github className="h-3 w-3 inline" /> {ghBatchMutation.data.successes} fetched, {ghBatchMutation.data.failures} failed
+              </span>
+            )}
+            <Button
+              size="sm"
+              variant="outline"
+              className="text-destructive border-destructive/30"
+              disabled={cleanupVectorsMutation.isPending}
+              onClick={() => cleanupVectorsMutation.mutate()}
+            >
+              {cleanupVectorsMutation.isPending ? 'Cleaning...' : 'Purge Error Vectors'}
+            </Button>
+            {cleanupVectorsMutation.data && (
+              <span className={`text-sm ${cleanupVectorsMutation.data.error ? 'text-destructive' : 'text-muted-foreground'}`}>
+                {cleanupVectorsMutation.data.error
+                  ? cleanupVectorsMutation.data.error
+                  : `Deleted ${cleanupVectorsMutation.data.deleted} vectors from ${cleanupVectorsMutation.data.errorSlugs} error pages`}
               </span>
             )}
           </>

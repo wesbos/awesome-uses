@@ -6,6 +6,7 @@ import { getAllPeople } from '../../lib/data';
 import {
   deletePersonItems,
   getAllScrapedPersonSlugs,
+  getErrorPersonSlugs,
   getItemsByPerson,
   getPersonItems,
   getProfilesForVectorization,
@@ -281,5 +282,44 @@ export const $getGalaxyData = createServerFn({ method: 'GET' }).handler(
       .sort((a, b) => b.count - a.count);
 
     return { points, clusters };
+  },
+);
+
+export type CleanupErrorVectorsResult = {
+  errorSlugs: number;
+  deleted: number;
+  error: string | null;
+};
+
+export const $cleanupErrorVectors = createServerFn({ method: 'POST' }).handler(
+  async (): Promise<CleanupErrorVectorsResult> => {
+    const vectorize = resolveVectorize();
+    if (!vectorize) {
+      return { errorSlugs: 0, deleted: 0, error: 'No Vectorize binding available' };
+    }
+
+    const errorSlugs = await getErrorPersonSlugs();
+    console.log(`[cleanup-vectors] Found ${errorSlugs.length} error page slugs to remove`);
+
+    if (errorSlugs.length === 0) {
+      return { errorSlugs: 0, deleted: 0, error: null };
+    }
+
+    try {
+      const batchSize = 20;
+      let deleted = 0;
+      for (let i = 0; i < errorSlugs.length; i += batchSize) {
+        const batch = errorSlugs.slice(i, i + batchSize);
+        console.log(`[cleanup-vectors] Deleting batch ${Math.floor(i / batchSize) + 1}: ${batch.length} vectors`);
+        await vectorize.deleteByIds(batch);
+        deleted += batch.length;
+      }
+      console.log(`[cleanup-vectors] Done — deleted ${deleted} vectors`);
+      return { errorSlugs: errorSlugs.length, deleted, error: null };
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.log(`[cleanup-vectors] Failed:`, msg);
+      return { errorSlugs: errorSlugs.length, deleted: 0, error: msg };
+    }
   },
 );

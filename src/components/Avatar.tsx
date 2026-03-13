@@ -19,7 +19,7 @@ export function Avatar({ src, alt, size = 'md', className }: AvatarProps) {
       src={src}
       alt={alt}
       loading="lazy"
-      className={cn('rounded-full object-cover', sizeClasses[size], className)}
+      className={cn('object-cover', sizeClasses[size], className)}
     />
   );
 }

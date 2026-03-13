@@ -28,6 +28,10 @@ export type GitHubStats = {
   createdAt: string;
   /** Top languages across recent repos, sorted by usage */
   languages: { name: string; color: string; count: number }[];
+  /** Top repos by star count */
+  topRepos: { name: string; stars: number; url: string }[];
+  /** Total stars across all fetched repos */
+  totalStars: number;
   /** Weekly contribution data for rendering a contribution graph */
   contributionWeeks: ContributionWeek[];
   bio: string | null;
@@ -69,6 +73,9 @@ query UserStats($login: String!) {
     ) {
       totalCount
       nodes {
+        name
+        url
+        stargazerCount
         pushedAt
         languages(first: 5, orderBy: { field: SIZE, direction: DESC }) {
           edges {
@@ -159,6 +166,14 @@ export async function fetchGitHubStats(
 
   const calendar = user.contributionsCollection.contributionCalendar;
 
+  const repoNodes = user.repositories.nodes ?? [];
+  const topRepos = repoNodes
+    .filter((r: any) => r.stargazerCount > 0)
+    .sort((a: any, b: any) => b.stargazerCount - a.stargazerCount)
+    .slice(0, 10)
+    .map((r: any) => ({ name: r.name, stars: r.stargazerCount, url: r.url }));
+  const totalStars = repoNodes.reduce((sum: number, r: any) => sum + (r.stargazerCount ?? 0), 0);
+
   return {
     repoCount: user.repositories.totalCount,
     followerCount: user.followers.totalCount,
@@ -166,6 +181,8 @@ export async function fetchGitHubStats(
     contributionCount: calendar.totalContributions,
     createdAt: user.createdAt,
     languages,
+    topRepos,
+    totalStars,
     // contributionWeeks: calendar.weeks,
     contributionWeeks: [],
     bio: user.bio ?? null,

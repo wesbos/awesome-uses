@@ -196,6 +196,33 @@ export async function getAllScrapedPersonSlugs(): Promise<string[]> {
   }
 }
 
+export async function getHealthyScrapedPersonSlugs(): Promise<string[]> {
+  const db = resolveDb();
+  if (!db) return [];
+  try {
+    const rows = await db.all<{ personSlug: string }>(
+      sql`SELECT person_slug AS personSlug FROM person_pages WHERE status_code = 200`,
+    );
+    return rows.map((r) => r.personSlug);
+  } catch {
+    return [];
+  }
+}
+
+export async function getErrorPersonSlugs(): Promise<string[]> {
+  const db = resolveDb();
+  if (!db) return [];
+  try {
+    const rows = await db.all<{ personSlug: string }>(
+      sql`SELECT person_slug AS personSlug FROM person_pages
+          WHERE status_code IS NULL OR status_code >= 400`,
+    );
+    return rows.map((r) => r.personSlug);
+  } catch {
+    return [];
+  }
+}
+
 export async function markVectorized(personSlug: string): Promise<void> {
   const db = resolveDb();
   if (!db) return;
@@ -282,6 +309,7 @@ export async function getProfilesForVectorization(
         sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
             FROM person_pages
             WHERE content_markdown IS NOT NULL AND length(content_markdown) > 100
+              AND status_code = 200
               AND vectorized_at IS NULL
             ORDER BY person_slug
             LIMIT ${safeLimit}`,
@@ -292,6 +320,7 @@ export async function getProfilesForVectorization(
       sql`SELECT person_slug AS personSlug, content_markdown AS contentMarkdown
           FROM person_pages
           WHERE content_markdown IS NOT NULL AND length(content_markdown) > 100
+            AND status_code = 200
           ORDER BY person_slug
           LIMIT ${safeLimit}`,
     );

@@ -187,7 +187,7 @@ function TagCombobox({
           className="h-9 justify-between"
         >
           {value || 'Select tag...'}
-          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-70" />
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-[250px] p-0">

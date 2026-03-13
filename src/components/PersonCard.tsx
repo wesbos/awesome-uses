@@ -1,12 +1,12 @@
-import { name as countryName } from 'country-emoji';
-import { Link } from '@tanstack/react-router';
-import { iconMap } from '../lib/icons';
-import { getAvatarUrl } from '../lib/avatar';
-import type { Person } from '../lib/types';
-import { Badge } from '@/components/ui/badge';
-import { Avatar } from '@/components/Avatar';
-import { SocialLinks } from '@/components/SocialLinks';
-import { Card, CardContent, CardFooter } from '@/components/ui/card';
+import { name as countryName } from "country-emoji";
+import { Link } from "@tanstack/react-router";
+import { iconMap } from "../lib/icons";
+import { getAvatarUrl } from "../lib/avatar";
+import type { Person } from "../lib/types";
+import { Badge } from "@/components/ui/badge";
+import { Avatar } from "@/components/Avatar";
+import { SocialLinks } from "@/components/SocialLinks";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 
 type PersonCardProps = {
   person: Person;
@@ -18,9 +18,7 @@ export default function PersonCard({ person, activeTagName }: PersonCardProps) {
   const avatar = getAvatarUrl(person);
 
   return (
-    <Card
-      className="rounded-[4px] [corner-shape:bevel] border-[0.5px]"
-    >
+    <Card className="rounded-[4px] [corner-shape:bevel] border-[0.5px]">
       <CardContent className="p-4 space-y-3">
         <header className="flex items-start gap-3">
           <Avatar src={avatar} alt={person.name} size="sm" />

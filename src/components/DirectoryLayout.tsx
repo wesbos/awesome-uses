@@ -2,9 +2,9 @@ import BackToTop from './BackToTop';
 import PeopleGrid from './PeopleGrid';
 import TopicLinks from './TopicLinks';
 import { FeaturedItems } from './FeaturedItems';
-import Facts from './Facts';
+import Awards from './Awards';
 import type { Person, TagSummary, CountrySummary, DeviceSummary } from '../lib/types';
-import type { DirectoryFacts } from '../lib/types';
+import type { AnyAward } from '../server/awards/types';
 import type { FeaturedItemsByType, PopularLanguage } from '../server/fn/items';
 
 type DirectoryLayoutProps = {
@@ -17,7 +17,7 @@ type DirectoryLayoutProps = {
   activeTagName?: string;
   featured?: FeaturedItemsByType;
   languages?: PopularLanguage[];
-  facts?: DirectoryFacts;
+  awards?: AnyAward[];
 };
 
 export default function DirectoryLayout({
@@ -30,7 +30,7 @@ export default function DirectoryLayout({
   activeTagName,
   featured,
   languages,
-  facts,
+  awards,
 }: DirectoryLayoutProps) {
   return (
     <div className="space-y-6">
@@ -50,7 +50,7 @@ export default function DirectoryLayout({
 
       {featured && <FeaturedItems featured={featured} languages={languages} />}
 
-      {facts && <Facts facts={facts} />}
+      {awards && awards.length > 0 && <Awards awards={awards} />}
 
       <PeopleGrid people={people} activeTagName={activeTagName} />
       <BackToTop />
