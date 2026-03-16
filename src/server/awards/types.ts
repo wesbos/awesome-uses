@@ -1,6 +1,7 @@
 export type PersonRef = {
   personSlug: string;
   name: string;
+  avatarUrl: string;
 };
 
 export type AwardDataMap = {

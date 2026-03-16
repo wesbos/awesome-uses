@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { z } from 'zod';
 import { createSiteManagementFixture } from './test-utils';
 import { createToolRegistry, defineTool } from './registry';

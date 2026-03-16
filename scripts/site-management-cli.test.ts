@@ -1,6 +1,6 @@
 import { promisify } from 'node:util';
 import { execFile } from 'node:child_process';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { createSiteManagementFixture } from '../src/site-management/test-utils';
 
 const execFileAsync = promisify(execFile);

@@ -1,21 +1,24 @@
 import type { AwardDataMap } from '../../server/awards/types';
-import { Stat } from './primitives';
+import { RankedRow } from './primitives';
 
 export function MostPopularLanguageAward({ data }: { data: AwardDataMap['most-popular-language'] }) {
+  const all = [
+    { language: data.language, color: data.color, devCount: data.devCount },
+    ...data.runnersUp,
+  ];
+
   return (
-    <div>
-      <Stat>{data.language}</Stat>
-      <span className="text-muted-foreground"> ({data.devCount} devs)</span>
-      {data.runnersUp.length > 0 && (
-        <div className="mt-1 space-y-0.5">
-          {data.runnersUp.map((r) => (
-            <div key={r.language} className="flex justify-between max-w-48">
-              <span className="text-muted-foreground">{r.language}</span>
-              <span className="text-muted-foreground">{r.devCount}</span>
-            </div>
-          ))}
-        </div>
-      )}
+    <div className="space-y-1.5">
+      {all.map((lang, i) => (
+        <RankedRow key={lang.language} place={i}>
+          <span
+            className="h-3 w-3 rounded-full shrink-0"
+            style={{ backgroundColor: lang.color }}
+          />
+          <span className={i === 0 ? 'font-semibold' : ''}>{lang.language}</span>
+          <span className="text-muted-foreground ml-auto tabular-nums">{lang.devCount} devs</span>
+        </RankedRow>
+      ))}
     </div>
   );
 }

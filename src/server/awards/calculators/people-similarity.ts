@@ -4,6 +4,7 @@ import { getAllPeople } from '../../../lib/data';
 import { getHealthyScrapedPersonSlugs } from '../../db/index.server';
 import { resolveVectorize, type VectorizeVector } from '../../db/vectorize.server';
 import type { AwardDataMap, PersonRef } from '../types';
+import { toPersonRef, EMPTY_PERSON_REF } from './person-ref';
 
 function cosineSimilarity(a: number[], b: number[]): number {
   let dot = 0;
@@ -93,16 +94,16 @@ function scorePairs(
     const personA = peopleMap.get(a.id);
     const personB = peopleMap.get(b.id);
     return {
-      personA: { personSlug: a.id, name: personA?.name ?? a.id },
-      personB: { personSlug: b.id, name: personB?.name ?? b.id },
+      personA: personA ? toPersonRef(personA) : { ...EMPTY_PERSON_REF, personSlug: a.id, name: a.id },
+      personB: personB ? toPersonRef(personB) : { ...EMPTY_PERSON_REF, personSlug: b.id, name: b.id },
       score: Math.round(p.score * 1000) / 1000,
     };
   });
 }
 
 const EMPTY_RESULT = {
-  personA: { personSlug: '', name: '' },
-  personB: { personSlug: '', name: '' },
+  personA: EMPTY_PERSON_REF,
+  personB: EMPTY_PERSON_REF,
   score: 0,
   runnersUp: [],
 };

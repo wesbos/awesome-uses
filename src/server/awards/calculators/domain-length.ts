@@ -2,11 +2,12 @@ import type { DrizzleD1Database } from 'drizzle-orm/d1';
 import type * as schemaImport from '../../schema';
 import { getAllPeople } from '../../../lib/data';
 import type { AwardDataMap } from '../types';
+import { toPersonRef, EMPTY_PERSON_REF } from './person-ref';
 
 function getPeopleWithDomains() {
   return getAllPeople().map((p) => {
     const host = new URL(p.url).hostname.replace(/^www\./, '');
-    return { domain: host, personSlug: p.personSlug, name: p.name };
+    return { domain: host, person: toPersonRef(p) };
   });
 }
 
@@ -18,12 +19,12 @@ export async function calculateLongestDomain(
   );
   const winner = withDomains[0];
   if (!winner) {
-    return { domain: '', length: 0, person: { personSlug: '', name: '' } };
+    return { domain: '', length: 0, person: EMPTY_PERSON_REF };
   }
   return {
     domain: winner.domain,
     length: winner.domain.length,
-    person: { personSlug: winner.personSlug, name: winner.name },
+    person: winner.person,
   };
 }
 
@@ -35,11 +36,11 @@ export async function calculateShortestDomain(
   );
   const winner = withDomains[0];
   if (!winner) {
-    return { domain: '', length: 0, person: { personSlug: '', name: '' } };
+    return { domain: '', length: 0, person: EMPTY_PERSON_REF };
   }
   return {
     domain: winner.domain,
     length: winner.domain.length,
-    person: { personSlug: winner.personSlug, name: winner.name },
+    person: winner.person,
   };
 }

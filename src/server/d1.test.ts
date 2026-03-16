@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, beforeEach } from 'vitest';
+import { describe, expect, it, vi, beforeEach } from 'vite-plus/test';
 import { env } from 'cloudflare:workers';
 import { getAllScrapeSummaries, getScrapedProfileBySlug } from './db/profiles.server';
 

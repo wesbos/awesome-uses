@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test';
 import * as schema from '../../server/schema';
 import { executeTool, toolRegistry } from '..';
 import { createSiteManagementFixture } from '../test-utils';

@@ -2,6 +2,7 @@ import type { DrizzleD1Database } from 'drizzle-orm/d1';
 import type * as schemaImport from '../../schema';
 import { getAllPeople } from '../../../lib/data';
 import type { AwardDataMap } from '../types';
+import { toPersonRef, EMPTY_PERSON_REF } from './person-ref';
 
 export async function calculateLongestName(
   _db: DrizzleD1Database<typeof schemaImport>,
@@ -11,10 +12,10 @@ export async function calculateLongestName(
   );
   const winner = sorted[0];
   if (!winner) {
-    return { person: { personSlug: '', name: '' }, length: 0 };
+    return { person: EMPTY_PERSON_REF, length: 0 };
   }
   return {
-    person: { personSlug: winner.personSlug, name: winner.name },
+    person: toPersonRef(winner),
     length: winner.name.trim().length,
   };
 }
@@ -27,10 +28,10 @@ export async function calculateShortestName(
   );
   const winner = sorted[0];
   if (!winner) {
-    return { person: { personSlug: '', name: '' }, length: 0 };
+    return { person: EMPTY_PERSON_REF, length: 0 };
   }
   return {
-    person: { personSlug: winner.personSlug, name: winner.name },
+    person: toPersonRef(winner),
     length: winner.name.trim().length,
   };
 }

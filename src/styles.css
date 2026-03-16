@@ -1,19 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@font-face {
-  font-family: "Fira Mono";
-  font-weight: 400;
-  font-style: normal;
-  src: url("./fonts/fira_mono-regular-webfont.woff2") format("woff2"),
-    url("./fonts/fira_mono-regular-webfont.woff") format("woff");
-  font-display: swap;
-}
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-mono: "Fira Mono", ui-monospace, monospace;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
   --font-heading: "Unbounded", sans-serif;
 
   --text-sm: 15px;
