@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import killerInstincts from 'vite-plugin-killer-instincts';
 
-export default /* defineConfig( */{
-  // staged: {
-  //   '*': 'vp check --fix',
-  // },
+export default defineConfig({
+  staged: {
+    '*': 'echo "staged"',
+  },
   // fmt: {},
   lint: { options: { typeAware: true, typeCheck: true } },
   server: {
@@ -25,4 +25,4 @@ export default /* defineConfig( */{
     react(),
     killerInstincts({ autoKill: true }),
   ],
-} /* ) */;
+});
