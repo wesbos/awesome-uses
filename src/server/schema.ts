@@ -90,6 +90,18 @@ export const tagVectors = sqliteTable('tag_vectors', {
   embeddedAt: text('embedded_at').notNull(),
 });
 
+export const generatedAvatars = sqliteTable('generated_avatars', {
+  personSlug: text('person_slug').primaryKey(),
+  status: text('status').notNull().default('pending'), // pending | processing | completed | failed | skipped_no_source
+  batchId: text('batch_id'),
+  gridPosition: integer('grid_position'), // 0-8 position in 3x3 grid
+  generatedAt: text('generated_at'),
+  error: text('error'),
+}, (table) => [
+  index('idx_generated_avatars_status').on(table.status),
+  index('idx_generated_avatars_batch_id').on(table.batchId),
+]);
+
 export const awards = sqliteTable('awards', {
   awardKey: text('award_key').primaryKey(),
   title: text('title').notNull(),

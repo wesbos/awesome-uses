@@ -43,3 +43,11 @@ export function getAvatarUrl(
     fallback ? `${source}?fallback=${encodeURIComponent(fallback)}` : source,
   );
 }
+
+/**
+ * Returns the URL for a person's stippled avatar (served via the API route).
+ * Falls back to unavatar.io if no generated avatar exists.
+ */
+export function getStippledAvatarUrl(personSlug: string): string {
+  return `/api/avatar/${personSlug}`;
+}

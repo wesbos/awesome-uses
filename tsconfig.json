@@ -1,11 +1,5 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.d.ts",
-    "vite.config.mts",
-    "eslint.config.js"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts", "vite.config.ts"],
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",

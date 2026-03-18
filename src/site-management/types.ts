@@ -1,7 +1,7 @@
 import type { z } from 'zod';
 import type { SiteManagementContext } from './context';
 
-export type ToolScope = 'people' | 'profileTags' | 'tags' | 'personItems' | 'items' | 'pipeline';
+export type ToolScope = 'people' | 'profileTags' | 'tags' | 'personItems' | 'items' | 'pipeline' | 'avatars';
 
 export type ToolDefinition<
   TSchema extends z.ZodTypeAny = z.ZodTypeAny,

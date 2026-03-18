@@ -21,7 +21,7 @@ export default function PersonCard({ person, activeTagName }: PersonCardProps) {
     <Card className="rounded-[4px] [corner-shape:bevel] border-[0.5px]">
       <CardContent className="p-4 space-y-3">
         <header className="flex items-start gap-3">
-          <Avatar src={avatar} alt={person.name} size="sm" />
+          <Avatar src={avatar} alt={person.name} size="sm" personSlug={person.personSlug} />
           <div className="min-w-0 flex-1">
             <h3 className="text-sm font-semibold leading-tight">
               <Link

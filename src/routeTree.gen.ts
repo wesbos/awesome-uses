@@ -36,6 +36,9 @@ import { Route as AdminItemsRouteImport } from './routes/admin/items'
 import { Route as AdminErrorsRouteImport } from './routes/admin/errors'
 import { Route as AdminBatchRouteImport } from './routes/admin/batch'
 import { Route as AdminAwardsRouteImport } from './routes/admin/awards'
+import { Route as AdminAvatarsRouteImport } from './routes/admin/avatars'
+import { Route as ApiAvatarSlugRouteImport } from './routes/api.avatar.$slug'
+import { Route as ApiAvatarDebugSplatRouteImport } from './routes/api.avatar-debug.$'
 
 const UsesRoute = UsesRouteImport.update({
   id: '/uses',
@@ -172,6 +175,21 @@ const AdminAwardsRoute = AdminAwardsRouteImport.update({
   path: '/awards',
   getParentRoute: () => AdminRoute,
 } as any)
+const AdminAvatarsRoute = AdminAvatarsRouteImport.update({
+  id: '/avatars',
+  path: '/avatars',
+  getParentRoute: () => AdminRoute,
+} as any)
+const ApiAvatarSlugRoute = ApiAvatarSlugRouteImport.update({
+  id: '/api/avatar/$slug',
+  path: '/api/avatar/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAvatarDebugSplatRoute = ApiAvatarDebugSplatRouteImport.update({
+  id: '/api/avatar-debug/$',
+  path: '/api/avatar-debug/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -186,6 +204,7 @@ export interface FileRoutesByFullPath {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/avatars': typeof AdminAvatarsRoute
   '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
@@ -201,6 +220,8 @@ export interface FileRoutesByFullPath {
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
   '/admin/': typeof AdminIndexRoute
+  '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
+  '/api/avatar/$slug': typeof ApiAvatarSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -214,6 +235,7 @@ export interface FileRoutesByTo {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/avatars': typeof AdminAvatarsRoute
   '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
@@ -229,6 +251,8 @@ export interface FileRoutesByTo {
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
   '/admin': typeof AdminIndexRoute
+  '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
+  '/api/avatar/$slug': typeof ApiAvatarSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -244,6 +268,7 @@ export interface FileRoutesById {
   '/tag-galaxy': typeof TagGalaxyRoute
   '/tags': typeof TagsRouteWithChildren
   '/uses': typeof UsesRoute
+  '/admin/avatars': typeof AdminAvatarsRoute
   '/admin/awards': typeof AdminAwardsRoute
   '/admin/batch': typeof AdminBatchRoute
   '/admin/errors': typeof AdminErrorsRoute
@@ -259,6 +284,8 @@ export interface FileRoutesById {
   '/people/$personSlug': typeof PeoplePersonSlugRoute
   '/tags/$tagSlug': typeof TagsTagSlugRoute
   '/admin/': typeof AdminIndexRoute
+  '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
+  '/api/avatar/$slug': typeof ApiAvatarSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -275,6 +302,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/avatars'
     | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
@@ -290,6 +318,8 @@ export interface FileRouteTypes {
     | '/people/$personSlug'
     | '/tags/$tagSlug'
     | '/admin/'
+    | '/api/avatar-debug/$'
+    | '/api/avatar/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -303,6 +333,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/avatars'
     | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
@@ -318,6 +349,8 @@ export interface FileRouteTypes {
     | '/people/$personSlug'
     | '/tags/$tagSlug'
     | '/admin'
+    | '/api/avatar-debug/$'
+    | '/api/avatar/$slug'
   id:
     | '__root__'
     | '/'
@@ -332,6 +365,7 @@ export interface FileRouteTypes {
     | '/tag-galaxy'
     | '/tags'
     | '/uses'
+    | '/admin/avatars'
     | '/admin/awards'
     | '/admin/batch'
     | '/admin/errors'
@@ -347,6 +381,8 @@ export interface FileRouteTypes {
     | '/people/$personSlug'
     | '/tags/$tagSlug'
     | '/admin/'
+    | '/api/avatar-debug/$'
+    | '/api/avatar/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -366,6 +402,8 @@ export interface RootRouteChildren {
   ItemsItemSlugRoute: typeof ItemsItemSlugRoute
   LikeTagRoute: typeof LikeTagRoute
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
+  ApiAvatarDebugSplatRoute: typeof ApiAvatarDebugSplatRoute
+  ApiAvatarSlugRoute: typeof ApiAvatarSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -559,10 +597,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminAwardsRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/admin/avatars': {
+      id: '/admin/avatars'
+      path: '/avatars'
+      fullPath: '/admin/avatars'
+      preLoaderRoute: typeof AdminAvatarsRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/api/avatar/$slug': {
+      id: '/api/avatar/$slug'
+      path: '/api/avatar/$slug'
+      fullPath: '/api/avatar/$slug'
+      preLoaderRoute: typeof ApiAvatarSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/avatar-debug/$': {
+      id: '/api/avatar-debug/$'
+      path: '/api/avatar-debug/$'
+      fullPath: '/api/avatar-debug/$'
+      preLoaderRoute: typeof ApiAvatarDebugSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 interface AdminRouteChildren {
+  AdminAvatarsRoute: typeof AdminAvatarsRoute
   AdminAwardsRoute: typeof AdminAwardsRoute
   AdminBatchRoute: typeof AdminBatchRoute
   AdminErrorsRoute: typeof AdminErrorsRoute
@@ -576,6 +636,7 @@ interface AdminRouteChildren {
 }
 
 const AdminRouteChildren: AdminRouteChildren = {
+  AdminAvatarsRoute: AdminAvatarsRoute,
   AdminAwardsRoute: AdminAwardsRoute,
   AdminBatchRoute: AdminBatchRoute,
   AdminErrorsRoute: AdminErrorsRoute,
@@ -617,6 +678,8 @@ const rootRouteChildren: RootRouteChildren = {
   ItemsItemSlugRoute: ItemsItemSlugRoute,
   LikeTagRoute: LikeTagRoute,
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,
+  ApiAvatarDebugSplatRoute: ApiAvatarDebugSplatRoute,
+  ApiAvatarSlugRoute: ApiAvatarSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

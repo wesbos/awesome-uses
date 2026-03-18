@@ -23,6 +23,12 @@
 			"migrations_dir": "db/migrations"
 		}
 	],
+	"r2_buckets": [
+		{
+			"binding": "AVATARS_BUCKET",
+			"bucket_name": "uses-avatars"
+		}
+	],
 	"analytics_engine_datasets": [
 		{
 			"binding": "USES_ANALYTICS",

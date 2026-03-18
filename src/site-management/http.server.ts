@@ -62,12 +62,27 @@ export async function handleSiteManagementApiRequest(request: Request): Promise<
     }
 
     const d1 = resolveServerDb();
+    if (body.tool.startsWith('avatars.')) {
+      console.log('[site-management] avatars tool request', {
+        tool: body.tool,
+        hasD1: Boolean(d1),
+      });
+    }
     const context = d1
       ? createSiteManagementContext({ db: d1 })
       : createSiteManagementContext();
     const result = await executeTool(toolRegistry, context, body.tool, body.input ?? {});
+    if (!result.ok && body.tool.startsWith('avatars.')) {
+      console.log('[site-management] avatars tool error', {
+        tool: body.tool,
+        code: result.error.code,
+        message: result.error.message,
+        details: result.error.details,
+      });
+    }
     return json(result, result.ok ? 200 : 400);
   } catch (error) {
+    console.log('[site-management] POST internal error', error);
     return json(
       {
         ok: false,

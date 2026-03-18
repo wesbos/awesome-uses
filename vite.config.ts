@@ -4,26 +4,25 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import killerInstincts from 'vite-plugin-killer-instincts';
-import tsconfigPaths from 'vite-tsconfig-paths';
 
-export default defineConfig({
-  fmt: {},
-  staged: {
-    "src/data.js": [
-      "eslint --fix",
-      "git add"
-    ]
-  },
+export default /* defineConfig( */{
+  // staged: {
+  //   '*': 'vp check --fix',
+  // },
+  // fmt: {},
+  lint: { options: { typeAware: true, typeCheck: true } },
   server: {
     port: 7535,
     strictPort: true,
   },
+  resolve: {
+    tsconfigPaths: true,
+  },
   plugins: [
     cloudflare({ viteEnvironment: { name: 'ssr' } }),
-    tsconfigPaths(),
     tailwindcss(),
     tanstackStart(),
     react(),
     killerInstincts({ autoKill: true }),
   ],
-});
+} /* ) */;

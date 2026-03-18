@@ -92,7 +92,7 @@ function PersonPage() {
       <Card>
         <CardHeader>
           <div className="flex items-start gap-4">
-            <Avatar src={avatarUrl} alt={person.name} size="lg" />
+            <Avatar src={avatarUrl} alt={person.name} size="lg" personSlug={person.personSlug} />
             <div className="min-w-0 flex-1 space-y-1.5">
               <CardTitle className="text-lg">
                 {person.name} {person.emoji}

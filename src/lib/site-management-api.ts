@@ -64,9 +64,37 @@ export async function callSiteTool<T>(tool: string, input: unknown = {}): Promis
     body: JSON.stringify({ tool, input }),
   });
 
-  const payload = await parseJson<ToolCallEnvelope<T>>(response);
+  const rawText = await response.text();
+  let payload: ToolCallEnvelope<T>;
+  try {
+    payload = JSON.parse(rawText) as ToolCallEnvelope<T>;
+  } catch {
+    console.log('[site-management-api] non-JSON response', {
+      tool,
+      status: response.status,
+      snippet: rawText.slice(0, 500),
+    });
+    throw new Error(`Site tool ${tool} returned invalid JSON (HTTP ${response.status}).`);
+  }
+
+  if (!response.ok) {
+    console.log('[site-management-api] HTTP error', {
+      tool,
+      status: response.status,
+      body: payload,
+    });
+  }
+
   if (!payload.ok) {
-    throw new Error(payload.error.message);
+    console.log('[site-management-api] tool failed', {
+      tool,
+      error: payload.error,
+    });
+    const detail =
+      payload.error.details != null
+        ? ` ${typeof payload.error.details === 'object' ? JSON.stringify(payload.error.details) : String(payload.error.details)}`
+        : '';
+    throw new Error(`${payload.error.message}${detail}`);
   }
   return payload.result;
 }
@@ -284,6 +312,74 @@ export async function apiFetchGitHubBatch(input: {
   pendingOnly?: boolean;
 }): Promise<{ processed: number; successes: number; failures: number }> {
   return callSiteTool('pipeline.fetchGitHubBatch', input);
+}
+
+// ── Avatar tools ───────────────────────────────────────────────────
+
+export type AvatarStatusRow = {
+  personSlug: string;
+  name: string;
+  status: string;
+  generatedAt: string | null;
+  error: string | null;
+  /** Unavatar chain URL (original photo) for hover compare */
+  sourceAvatarUrl: string;
+};
+
+export type AvatarStatusPayload = {
+  total: number;
+  completed: number;
+  pending: number;
+  processing: number;
+  failed: number;
+  skipped: number;
+  rows: AvatarStatusRow[];
+};
+
+export async function apiGetAvatarStatus(): Promise<AvatarStatusPayload> {
+  return callSiteTool<AvatarStatusPayload>('avatars.getStatus');
+}
+
+export async function apiGenerateAvatarBatch(input: {
+  count?: number;
+  /** Skip this many candidates to avoid overlap with parallel batches */
+  offset?: number;
+  /** Only regenerate people currently marked failed */
+  failedOnly?: boolean;
+}): Promise<{
+  batchId: string | null;
+  /** Successfully uploaded to R2 */
+  processed: number;
+  message: string;
+}> {
+  return callSiteTool('avatars.generateBatch', input);
+}
+
+export async function apiFlagMissingAvatarsInR2(): Promise<{ flagged: number; message: string }> {
+  return callSiteTool('avatars.flagMissingFromR2');
+}
+
+export async function apiRetryFailedAvatars(): Promise<{ reset: number }> {
+  return callSiteTool('avatars.retryFailed');
+}
+
+export async function apiClearFailedAvatars(): Promise<{ deleted: number; message: string }> {
+  return callSiteTool('avatars.clearFailed');
+}
+
+export async function apiMarkAvatarPersonFailed(personSlug: string): Promise<{
+  personSlug: string;
+  name: string;
+  message: string;
+}> {
+  return callSiteTool('avatars.markPersonFailed', { personSlug });
+}
+
+export async function apiMarkPendingAvatarsFailed(): Promise<{
+  updated: number;
+  message: string;
+}> {
+  return callSiteTool('avatars.markPendingFailed');
 }
 
 export async function apiGetScrapedProfileRow(personSlug: string): Promise<DashboardRow | null> {
