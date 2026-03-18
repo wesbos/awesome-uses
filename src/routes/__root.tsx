@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import { ThemeProvider } from '../components/theme-provider';
 import { DEFAULT_DESCRIPTION, SITE_URL, ogImageUrl } from '../lib/seo';
 import ShaderBackground from '../components/ShaderBackground';
+import { Toaster } from '@/components/ui/sonner';
 
 import appCss from '../styles.css?url';
 
@@ -70,6 +71,7 @@ function RootDocument() {
             </div>
           </ThemeProvider>
         </QueryClientProvider>
+        <Toaster />
         <Scripts />
       </body>
     </html>

@@ -7,13 +7,14 @@ import killerInstincts from 'vite-plugin-killer-instincts';
 
 export default defineConfig({
   staged: {
-    '*': 'echo "staged"',
+    // '*': 'vp check --fix',
+    '*': 'echo "staged waiting on oxlint 0.56 to add checks back in"',
   },
   // fmt: {},
   lint: { options: { typeAware: true, typeCheck: true } },
   server: {
     port: 7535,
-    strictPort: true,
+    strictPort: false,
   },
   resolve: {
     tsconfigPaths: true,

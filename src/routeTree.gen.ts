@@ -39,6 +39,7 @@ import { Route as AdminAwardsRouteImport } from './routes/admin/awards'
 import { Route as AdminAvatarsRouteImport } from './routes/admin/avatars'
 import { Route as ApiAvatarSlugRouteImport } from './routes/api.avatar.$slug'
 import { Route as ApiAvatarDebugSplatRouteImport } from './routes/api.avatar-debug.$'
+import { Route as ApiUnavatarServiceIdentifierRouteImport } from './routes/api.unavatar.$service.$identifier'
 
 const UsesRoute = UsesRouteImport.update({
   id: '/uses',
@@ -190,6 +191,12 @@ const ApiAvatarDebugSplatRoute = ApiAvatarDebugSplatRouteImport.update({
   path: '/api/avatar-debug/$',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiUnavatarServiceIdentifierRoute =
+  ApiUnavatarServiceIdentifierRouteImport.update({
+    id: '/api/unavatar/$service/$identifier',
+    path: '/api/unavatar/$service/$identifier',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -222,6 +229,7 @@ export interface FileRoutesByFullPath {
   '/admin/': typeof AdminIndexRoute
   '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
   '/api/avatar/$slug': typeof ApiAvatarSlugRoute
+  '/api/unavatar/$service/$identifier': typeof ApiUnavatarServiceIdentifierRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -253,6 +261,7 @@ export interface FileRoutesByTo {
   '/admin': typeof AdminIndexRoute
   '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
   '/api/avatar/$slug': typeof ApiAvatarSlugRoute
+  '/api/unavatar/$service/$identifier': typeof ApiUnavatarServiceIdentifierRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -286,6 +295,7 @@ export interface FileRoutesById {
   '/admin/': typeof AdminIndexRoute
   '/api/avatar-debug/$': typeof ApiAvatarDebugSplatRoute
   '/api/avatar/$slug': typeof ApiAvatarSlugRoute
+  '/api/unavatar/$service/$identifier': typeof ApiUnavatarServiceIdentifierRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -320,6 +330,7 @@ export interface FileRouteTypes {
     | '/admin/'
     | '/api/avatar-debug/$'
     | '/api/avatar/$slug'
+    | '/api/unavatar/$service/$identifier'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -351,6 +362,7 @@ export interface FileRouteTypes {
     | '/admin'
     | '/api/avatar-debug/$'
     | '/api/avatar/$slug'
+    | '/api/unavatar/$service/$identifier'
   id:
     | '__root__'
     | '/'
@@ -383,6 +395,7 @@ export interface FileRouteTypes {
     | '/admin/'
     | '/api/avatar-debug/$'
     | '/api/avatar/$slug'
+    | '/api/unavatar/$service/$identifier'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -404,6 +417,7 @@ export interface RootRouteChildren {
   PeoplePersonSlugRoute: typeof PeoplePersonSlugRoute
   ApiAvatarDebugSplatRoute: typeof ApiAvatarDebugSplatRoute
   ApiAvatarSlugRoute: typeof ApiAvatarSlugRoute
+  ApiUnavatarServiceIdentifierRoute: typeof ApiUnavatarServiceIdentifierRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -618,6 +632,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiAvatarDebugSplatRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/unavatar/$service/$identifier': {
+      id: '/api/unavatar/$service/$identifier'
+      path: '/api/unavatar/$service/$identifier'
+      fullPath: '/api/unavatar/$service/$identifier'
+      preLoaderRoute: typeof ApiUnavatarServiceIdentifierRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -680,6 +701,7 @@ const rootRouteChildren: RootRouteChildren = {
   PeoplePersonSlugRoute: PeoplePersonSlugRoute,
   ApiAvatarDebugSplatRoute: ApiAvatarDebugSplatRoute,
   ApiAvatarSlugRoute: ApiAvatarSlugRoute,
+  ApiUnavatarServiceIdentifierRoute: ApiUnavatarServiceIdentifierRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

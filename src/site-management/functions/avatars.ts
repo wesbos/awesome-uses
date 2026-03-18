@@ -5,7 +5,7 @@ import OpenAI from 'openai';
 import * as schema from '../../server/schema';
 import { defineTool } from '../registry';
 import type { ToolDefinition } from '../types';
-import { getAvatarUrl } from '../../lib/avatar';
+import { getAvatarUrl, getDirectAvatarUrl } from '../../lib/avatar';
 import { resolveAvatarsBucket } from '../../server/avatars-bucket.server';
 import { getAllPeople, type PersonWithSlug } from './utils';
 
@@ -246,7 +246,7 @@ const generateBatchTool = defineTool({
     for (const person of pool) {
       if (batch.length >= targetCount) break;
 
-      const url = getAvatarUrl(person);
+      const url = getDirectAvatarUrl(person);
       const shortUrl = url.length > 120 ? `${url.slice(0, 117)}…` : url;
 
       try {
@@ -792,6 +792,15 @@ const markPersonFailedTool = defineTool({
         },
       })
       .run();
+
+    const bucket = resolveAvatarsBucket();
+    if (bucket) {
+      try {
+        await bucket.delete(`${input.personSlug}.png`);
+      } catch (err) {
+        console.log(`[avatars.markPersonFailed] R2 delete failed for ${input.personSlug}:`, err);
+      }
+    }
 
     return {
       personSlug: input.personSlug,

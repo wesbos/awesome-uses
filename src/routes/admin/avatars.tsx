@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { toast } from 'sonner';
 import {
   apiGetAvatarStatus,
   apiGenerateAvatarBatch,
@@ -29,7 +30,6 @@ function AvatarsPage() {
   const [flaggingMissing, setFlaggingMissing] = useState(false);
   const [markingSlug, setMarkingSlug] = useState<string | null>(null);
   const [markingPendingFailed, setMarkingPendingFailed] = useState(false);
-  const [message, setMessage] = useState<string | null>(null);
 
   async function loadStatus() {
     setLoading(true);
@@ -49,16 +49,12 @@ function AvatarsPage() {
 
   async function handleGenerate() {
     setGenerating(true);
-    setMessage(null);
-    console.log('[avatars UI] Generate batch clicked');
     try {
       const result = await apiGenerateAvatarBatch({ count: 9 });
-      console.log('[avatars UI] Generate success', result);
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      console.log('[avatars UI] Generate failed', err);
-      setMessage(err instanceof Error ? err.message : 'Generation failed.');
+      toast.error(err instanceof Error ? err.message : 'Generation failed.');
     } finally {
       setGenerating(false);
     }
@@ -66,13 +62,12 @@ function AvatarsPage() {
 
   async function handleRetry() {
     setRetrying(true);
-    setMessage(null);
     try {
       const result = await apiRetryFailedAvatars();
-      setMessage(`Reset ${result.reset} failed/skipped row(s) to pending (they’ll be picked first on the next batch).`);
+      toast.success(`Reset ${result.reset} failed/skipped row(s) to pending (they’ll be picked first on the next batch).`);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Retry failed.');
+      toast.error(err instanceof Error ? err.message : 'Retry failed.');
     } finally {
       setRetrying(false);
     }
@@ -80,13 +75,12 @@ function AvatarsPage() {
 
   async function handleRegenerateFailed() {
     setRegenFailedBusy(true);
-    setMessage(null);
     try {
       const result = await apiGenerateAvatarBatch({ count: 9, failedOnly: true });
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Regenerate failed.');
+      toast.error(err instanceof Error ? err.message : 'Regenerate failed.');
     } finally {
       setRegenFailedBusy(false);
     }
@@ -95,13 +89,12 @@ function AvatarsPage() {
   async function handleClearFailed() {
     if (!status?.failed && !status?.skipped) return;
     setClearingFailed(true);
-    setMessage(null);
     try {
       const result = await apiClearFailedAvatars();
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Clear failed.');
+      toast.error(err instanceof Error ? err.message : 'Clear failed.');
     } finally {
       setClearingFailed(false);
     }
@@ -109,13 +102,12 @@ function AvatarsPage() {
 
   async function handleFlagMissingFromR2() {
     setFlaggingMissing(true);
-    setMessage(null);
     try {
       const result = await apiFlagMissingAvatarsInR2();
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Flag missing failed.');
+      toast.error(err instanceof Error ? err.message : 'Flag missing failed.');
     } finally {
       setFlaggingMissing(false);
     }
@@ -123,13 +115,12 @@ function AvatarsPage() {
 
   async function handleMarkSingleFailed(personSlug: string) {
     setMarkingSlug(personSlug);
-    setMessage(null);
     try {
       const result = await apiMarkAvatarPersonFailed(personSlug);
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Could not mark failed.');
+      toast.error(err instanceof Error ? err.message : 'Could not mark failed.');
     } finally {
       setMarkingSlug(null);
     }
@@ -137,13 +128,12 @@ function AvatarsPage() {
 
   async function handleMarkPendingFailed() {
     setMarkingPendingFailed(true);
-    setMessage(null);
     try {
       const result = await apiMarkPendingAvatarsFailed();
-      setMessage(result.message);
+      toast.success(result.message);
       await loadStatus();
     } catch (err) {
-      setMessage(err instanceof Error ? err.message : 'Could not mark pending as failed.');
+      toast.error(err instanceof Error ? err.message : 'Could not mark pending as failed.');
     } finally {
       setMarkingPendingFailed(false);
     }
@@ -223,8 +213,6 @@ function AvatarsPage() {
         <strong>Mark failed → pending</strong> / <strong>Clear failed</strong> work as before.
       </p>
 
-      {message && <p className="text-sm text-muted-foreground">{message}</p>}
-
       {/* Avatar gallery */}
       {status && (
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
@@ -294,13 +282,31 @@ function AvatarCard({
 
   const cacheBust = row.generatedAt ? `?v=${new Date(row.generatedAt).getTime()}` : '';
   const stippledSrc = `/api/avatar/${row.personSlug}${cacheBust}`;
+  const containerRef = useRef<HTMLDivElement>(null);
+  const stippledRef = useRef<HTMLImageElement>(null);
+
+  const handleMouseMove = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const el = containerRef.current;
+    if (!el || !stippledRef.current) return;
+    const rect = el.getBoundingClientRect();
+    const pct = ((e.clientX - rect.left) / rect.width) * 100;
+    stippledRef.current.style.clipPath = `inset(0 0 0 ${pct}%)`;
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    if (stippledRef.current) {
+      stippledRef.current.style.clipPath = 'inset(0 0 0 50%)';
+    }
+  }, []);
 
   return (
     <Card>
       <CardContent className="p-3 space-y-2">
         <div
-          className="group relative aspect-square overflow-hidden rounded bg-muted"
-          title="Hover to see original photo"
+          ref={containerRef}
+          className="relative aspect-square overflow-hidden rounded bg-muted"
+          onMouseMove={row.status === 'completed' ? handleMouseMove : undefined}
+          onMouseLeave={row.status === 'completed' ? handleMouseLeave : undefined}
         >
           {row.status === 'completed' ? (
             <>
@@ -308,18 +314,21 @@ function AvatarCard({
                 src={row.sourceAvatarUrl}
                 alt=""
                 loading="lazy"
-                className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover opacity-0 transition-opacity duration-200 ease-out group-hover:opacity-100"
+                className="pointer-events-none absolute inset-0 h-full w-full object-cover"
                 aria-hidden
               />
               <img
+                ref={stippledRef}
                 src={stippledSrc}
                 alt={row.name}
                 loading="lazy"
-                className="absolute inset-0 z-10 h-full w-full object-cover transition-opacity duration-200 ease-out group-hover:opacity-0"
+                className="absolute inset-0 h-full w-full object-cover"
+                style={{ clipPath: 'inset(0 0 0 50%)' }}
               />
-              <span className="pointer-events-none absolute bottom-1 left-1 right-1 z-20 rounded bg-background/80 px-1.5 py-0.5 text-center text-[10px] font-medium text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100">
-                Original
-              </span>
+              <div className="pointer-events-none absolute inset-0 flex items-end justify-between px-1.5 pb-1 text-[10px] font-medium text-muted-foreground">
+                <span className="rounded bg-background/80 px-1 py-0.5">Original</span>
+                <span className="rounded bg-background/80 px-1 py-0.5">Stippled</span>
+              </div>
             </>
           ) : (
             <div className="flex h-full items-center justify-center text-xs text-muted-foreground">

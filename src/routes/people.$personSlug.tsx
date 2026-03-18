@@ -18,6 +18,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ItemIcon } from '@/components/ItemIcon';
 import { PersonMiniCard } from '@/components/PersonMiniCard';
 import { buildMeta, SITE_URL, ogImageUrl } from '../lib/seo';
+import { AvatarDebug } from '@/components/AvatarDebug';
 
 export const Route = createFileRoute('/people/$personSlug')({
   head: ({ params }: { params: { personSlug: string } }) => {
@@ -68,7 +69,7 @@ function PersonPage() {
     githubStats: GitHubStats | null;
   };
   const companies = extractCompaniesFromText(person.description);
-  const avatarUrl = getAvatarUrl(person);
+  const avatarUrl = getAvatarUrl(person, githubStats?.socialAccounts);
   const country = countryName(person.country);
 
   useEffect(() => {
@@ -93,6 +94,12 @@ function PersonPage() {
         <CardHeader>
           <div className="flex items-start gap-4">
             <Avatar src={avatarUrl} alt={person.name} size="lg" personSlug={person.personSlug} />
+            <img
+              src={avatarUrl}
+              alt={`${person.name} original`}
+              className="h-20 w-20 shrink-0 object-cover border border-border"
+              loading="lazy"
+            />
             <div className="min-w-0 flex-1 space-y-1.5">
               <CardTitle className="text-lg">
                 {person.name} {person.emoji}
@@ -153,6 +160,8 @@ function PersonPage() {
       </Card>
 
       {githubStats && <GitHubStatsCard stats={githubStats} />}
+
+      <AvatarDebug person={person} githubSocials={githubStats?.socialAccounts} />
 
       {items.length > 0 && (
         <Card>

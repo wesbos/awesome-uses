@@ -6,6 +6,7 @@ export type AvatarsR2Bucket = {
     value: ArrayBuffer | ReadableStream,
     options?: { httpMetadata?: { contentType?: string } },
   ): Promise<unknown>;
+  delete(key: string): Promise<void>;
 };
 
 /** Set per-request in `server-entry.ts` from the Worker `env` (includes `AVATARS_BUCKET`). */
