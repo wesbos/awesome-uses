@@ -2174,6 +2174,29 @@ module.exports = [
     ],
   },
   {
+    name: "Valery Tropin",
+    description: "Museum researcher using code daily to build tools, automate tasks, and create Telegram bots for tourism",
+    url: "https://tropin.one/setup",
+    country: "🇷🇺",
+    bluesky: "tropin.one",
+    emoji: "🏛️",
+    computer: "apple",
+    phone: "android",
+    tags: [
+      "VScode",
+      "Zed",
+      "Python",
+      "zsh",
+      "WSL",
+      "Notion",
+      "Zotero",
+      "11ty",
+      "aiogram",
+      "Telegram",
+      "Lecturer"
+    ]
+  },
+  {
     name: 'Andrew Bus',
     description: 'Senior Lead Software Engineer',
     url: 'https://andrewbus.com/uses',
