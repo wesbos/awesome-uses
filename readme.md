@@ -130,7 +130,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jonas Hietala](https://www.jonashietala.se/uses/) — Writer, developer and wannabe code monkey.
 * [Marshall Bowers](https://maxdeviant.com/uses/) — Conjurer of code. Devourer of art. Pursuer of æsthetics.
 * [Simon Gagnon](https://simoncrypta.dev/uses/) — Makes software and coffee
-* [Sho Koike](https://putcut.net/uses) — Software Engineer, Gamer, Podcaster
+* [Sho Koike](https://putcut.dev/uses) — Software Engineer, Gamer, Podcaster
 * [Michal Mazur](https://cybershu.eu/uses.html) — Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist
 * [Khafizi Noh](https://mkfizi.dev/uses) — Full-stack web developer based in Cyberjaya, Malaysia.
 * [Theodoros Ploumis](https://www.theodorosploumis.com/en/uses) — Full-stack Drupal developer and open-source evangelist based on Greece
@@ -151,7 +151,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alex Stepankov](https://xeurun.dev/uses/) — Team Lead • Senior Developer • Creator
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Noah](https://mazepin.ch/uses) — Swiss + Sysamdin
-* [Jesse Stilwell](https://stilwell.dev/uses) — DevOps Engineer and Hobbyist Web Developer
+* [Jesse Idey](https://jesse.id/uses) — DevOps Engineer and Full Stack Developer
 * [Raymond Luong](https://www.raymondluong.com/uses/) — Front End Platform + Design Systems Engineer
 * [Luka Harambasic](https://harambasic.de/uses) — German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.
 * [Justin Mahar](https://justinmahar.com/uses/) — Extremely bald Software Architect & Content Creator
@@ -315,6 +315,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ali Alaa](https://www.alialaa.dev/uses) — Front-end web developer & online learning content creator.
 * [Devansh Bajaj](https://devanshbajaj.dev/uses) — 21 | M | Front End | Web Developer | Freelancer | Android enthusiast
 * [Ivan Muratov](https://binakot.github.io/resume/uses) — SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.
+* [David V. Kimball](https://davidvkimball.com/uses) — Digital marketing professional. Loves technology and communication, especially together.
 * [Carlos Longarela](https://github.com/CarlosLongarela/uses/) — I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast
 * [Monespiseth Ly](https://pisethx.com/uses) — Frontend Developer, JavaScript Enthusiast
 * [Christian Oliff](https://christianoliff.com/uses/) — Front-end web developer person.
@@ -326,7 +327,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Diana García](https://dianaeli.netlify.app/uses) — Diana likes to code, to teach and to game
 * [Dale Mellor](https://khleedril.org/uses) — Back-end developer: maths, science and engineering.
 * [Kieran Osgood](https://osgood.dev/uses/) — Full stack developer. Curiosity in all.
-* [Adam DeHaven](https://www.adamdehaven.com/uses/) — Full-Stack Software Engineer, UX Designer, runner, and cyclist based in Louisville, KY
+* [Adam DeHaven](https://www.adamdehaven.com/uses/) — Senior Staff Engineer. Open-Source. DX & UX. Travel. Louisville, Kentucky is home.
 * [Nicolas M. Pardo](https://nikodermus.media/uses) — JavaScript Developer and teacher at debakatas.com
 * [Niko Heikkilä](https://nikoheikkila.fi/uses/) — Software Craftsman and Open-Source Advocate at Futurice
 * [Satyam Lachhwani](https://portfolio-satyam.now.sh/uses) — Web developer - Exploring ways to find out what's good for me.
@@ -913,6 +914,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Mior](https://michael.mior.ca/uses/) — Assistant Professor and Director of the Data Unity Lab at RIT
 * [Kai Devrim](https://devrim.tech/uses/) — IT/Programming Student & Really Bad Hacker
 * [Josh Beard](https://joshbeard.me/uses/) — Sysadmin, DevOps, Hobbyist
+* [Kevin Renskers](https://www.loopwerk.io/articles/2026/what-i-use/) — Freelance software developer with a passion for good usability and great design.
 * [Thanh Doan](https://doantranminhthanh.com/uses) — Full-stack Engineer building impactful software and contributing to open source
 * [Peter Forret](https://blog.forret.com/uses/) — Photographer, tinkerer, software architect
 * [Scott Zirkel](https://scottzirkel.com/uses) — Making stuff up since 1977
