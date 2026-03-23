@@ -12960,12 +12960,7 @@ module.exports = [
     country: '🇬🇧',
     computer: 'windows',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Android',
-      'Mobile',
-      'Kotlin',
-    ],
+    tags: ['Developer', 'Android', 'Mobile', 'Kotlin'],
   },
   {
     name: 'Ángel Guerra',
