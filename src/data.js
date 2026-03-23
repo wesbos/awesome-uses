@@ -12297,6 +12297,26 @@ module.exports = [
       'Photographer',
     ],
   },
+    {
+    name: 'Hasan Harun Kilimci',
+    description:
+      'Software Engineer. iot enthusiast. Galatasaray ',
+    url: 'https://app.azrapps.com/uses',
+    emoji: '🦁',
+    country: '🇹🇷',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@biyenikullanici',
+    tags: [
+      '.NET',
+      'JavaScript',
+      'Flutter',
+      'SQL Server',
+      'PostgreSQL',
+      'MongoDB',
+      'Railway',
+    ],
+  },
   {
     name: 'Rostyslav Ugryniuk',
     description: 'Front-end Developer, Snowboarder, and Traveler.',
