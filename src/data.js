@@ -170,6 +170,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Nishil Kapadia',
+    description: 'Software Engineer -- building compilers and backend tools.',
+    url: 'https://www.nish7.io/uses',
+    twitter: '@iam_nish7',
+    emoji: '7️⃣',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Zig',
+      'Go',
+      'cpp',
+      'neovim',
+      'Compiler',
+    ],
+  },
+  {
     name: 'Sahil Kapoor',
     description:
       'Founder & product engineer building AI, gaming, sports tech, and consumer products.',
