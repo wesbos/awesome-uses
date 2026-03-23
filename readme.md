@@ -52,6 +52,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Sayantan](https://www.anaverage.dev/uses) — An average TypeScript Engineer.
 * [Joshua Blais](https://joshblais.com/uses) — Developer and writer pursuing technological mastery through first principles.
+* [Jaenudin](https://jaenudin.vercel.app/uses/) — focused on fast, performance-conscious code and thoughtful interaction design.
 * [Reilly Spitzfaden](https://reillyspitzfaden.com/uses) — Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.
 * [Joseph Horace](https://basicutils.com/uses) — Speeding through development with precision.
 * [John Zanussi](https://johnzanussi.com/uses) — Frontend engineer turned engineering manager with 20+ years of experience.
