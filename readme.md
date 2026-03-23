@@ -541,6 +541,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matthew Scholta](https://mattscholta.com/uses) — Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.
 * [John Smith](https://solrevdev.com/uses/) — full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com
 * [Chris Collins](https://chriscollins.me/uses) — I design and build digital products, hike and take photos.
+* [Hasan Harun Kilimci](https://app.azrapps.com/uses) — Software Engineer. iot enthusiast. Galatasaray 
 * [Rostyslav Ugryniuk](https://ugross.dev/uses) — Front-end Developer, Snowboarder, and Traveler.
 * [Alexis Janvier](https://alexisjanvier.net/uses/) — Web Developer, Open Source Contributor, Community Organizer, Proud Dad, Grateful Lover.
 * [Sumanth](https://mynameissumanth.netlify.app/uses.html) — Student. Learning web development

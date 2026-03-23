@@ -12297,10 +12297,9 @@ module.exports = [
       'Photographer',
     ],
   },
-    {
+  {
     name: 'Hasan Harun Kilimci',
-    description:
-      'Software Engineer. iot enthusiast. Galatasaray ',
+    description: 'Software Engineer. iot enthusiast. Galatasaray ',
     url: 'https://app.azrapps.com/uses',
     emoji: '🦁',
     country: '🇹🇷',
