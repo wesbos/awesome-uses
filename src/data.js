@@ -178,13 +178,7 @@ module.exports = [
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Zig',
-      'Go',
-      'cpp',
-      'neovim',
-      'Compiler',
-    ],
+    tags: ['Zig', 'Go', 'cpp', 'neovim', 'Compiler'],
   },
   {
     name: 'Sahil Kapoor',
