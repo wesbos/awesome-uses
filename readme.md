@@ -480,6 +480,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jeffrey Paul](https://www.jeffpaul.com/uses/) — Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.
 * [Devin Sharpe](https://devsharpe.io/uses) — Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad
 * [Zachary Kai](https://zacharykai.net/uses) — Offbeat, queer, 20-something, curiosity enthusiast, and traveler.
+* [FlohGro](https://flohgro.com/uses/) — Software developer from South Germany, building tools and automations for Apple platforms
 * [Prakhil TP](https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c) — Team lead, Experienced full-stack engineer & non-stop learner.  :wq
 * [Scott Evans](https://scott.ee/uses/) — Open tech and sustainability advocate. Designer of web things.
 * [Ryan Filler](https://ryanfiller.com/uses) — Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.

@@ -10889,7 +10889,8 @@ module.exports = [
   },
   {
     name: 'FlohGro',
-    description: 'Software developer from South Germany, building tools and automations for Apple platforms',
+    description:
+      'Software developer from South Germany, building tools and automations for Apple platforms',
     url: 'https://flohgro.com/uses/',
     country: '🇩🇪',
     mastodon: '@flohgro@social.lol',
