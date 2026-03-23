@@ -8740,7 +8740,7 @@ module.exports = [
       'D3',
       'Three.js',
       'GLSL',
-    ]
+    ],
   },
   {
     name: 'Felix Yeboah Jefferson',
