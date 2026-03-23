@@ -12952,6 +12952,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Jake Lee',
+    description: 'Principal Android Engineer @ Startups',
+    url: 'https://notes.jakelee.co.uk/uses',
+    twitter: '@jakeleeuk',
+    emoji: '🤖',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Android',
+      'Mobile',
+      'Kotlin',
+    ],
+  },
+  {
     name: 'Ángel Guerra',
     description: 'Father. Partner. Human. Kickboxer. Ninja.',
     url: 'https://angelguerra.me/uses/',
