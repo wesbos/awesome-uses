@@ -8057,8 +8057,7 @@ module.exports = [
   },
   {
     name: 'Ritik Sahni',
-    description:
-      'Breaking and building software. Founder, Standout',
+    description: 'Breaking and building software. Founder, Standout',
     url: 'https://ritiksahni.com/uses',
     country: '🇮🇳',
     computer: 'apple',
