@@ -134,6 +134,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James O'Neill](https://www.jamesoneill.eu/uses/) — Full Stack Developer.
 * [Hwee-Boon Yar](https://hboon.com/uses/) — iOS/macOS app Developer.
 * [Jonas Hietala](https://www.jonashietala.se/uses/) — Writer, developer and wannabe code monkey.
+* [Andrew Ward](https://rubenwardy.com/uses/) — Open source maintainer, senior software engineer, dabbling in electronics and 3d printing
 * [Marshall Bowers](https://maxdeviant.com/uses/) — Conjurer of code. Devourer of art. Pursuer of æsthetics.
 * [Simon Gagnon](https://simoncrypta.dev/uses/) — Makes software and coffee
 * [Sho Koike](https://putcut.dev/uses) — Software Engineer, Gamer, Podcaster

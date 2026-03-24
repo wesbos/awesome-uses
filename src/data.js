@@ -2802,7 +2802,8 @@ module.exports = [
   },
   {
     name: 'Andrew Ward',
-    description: 'Open source maintainer, senior software engineer, dabbling in electronics and 3d printing',
+    description:
+      'Open source maintainer, senior software engineer, dabbling in electronics and 3d printing',
     url: 'https://rubenwardy.com/uses/',
     emoji: '🏳️‍🌈',
     country: '🇬🇧',
@@ -2836,7 +2837,7 @@ module.exports = [
       'Firefox',
       'Maker',
       'FOSS',
-      'Android'
+      'Android',
     ],
   },
   {
