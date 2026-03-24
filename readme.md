@@ -319,6 +319,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Zack Apiratitham](https://vatthikorn.com/uses) — Software developer, nerd, unapologetically Asian, 🇹🇭 “alien” living in 🇺🇸. My name is actually not Zack.
 * [Mikaleb](https://mikaleb.com/uses/) — Web developer - Web, TS, Vue
 * [Jeromey Balderrama](https://balderromey.com/uses/) — Web Developer, Designer, Photographer, Drummer
+* [Zakhary Kaplan](https://zakhary.dev/uses) — Computer engineer • Rust developer • Game Boy enthusiast
 * [Hamish Williams](https://hamishw.com/uses) — Multidisciplinary designer + developer.
 * [Dennis Mathenge](https://creativehubspace.com/uses) — Web Developer
 * [Jan Lavička](https://janlavicka.com/uses) — Creator, full-stack software developer, and indie hacker.

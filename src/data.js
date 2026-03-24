@@ -7330,15 +7330,7 @@ module.exports = [
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Linux',
-      'Rust',
-      'C',
-      'Python',
-      'Swift',
-      'HTML',
-      'CSS',
-    ],
+    tags: ['Linux', 'Rust', 'C', 'Python', 'Swift', 'HTML', 'CSS'],
   },
   {
     name: 'Hamish Williams',
