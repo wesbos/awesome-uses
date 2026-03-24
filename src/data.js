@@ -175,7 +175,7 @@ module.exports = [
     description:
       'Generalist & Tinkerer. Internet person.',
     url: 'https://thamara.co.uk/uses',
-    country: 'GB',
+    country: '🇬🇧',
     emoji: '☕',
     computer: 'apple',
     phone: 'iphone',
