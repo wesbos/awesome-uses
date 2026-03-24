@@ -535,6 +535,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Nurs Asanov',
+    description:
+      'Frontend engineer, serial side-project starter, professional tab hoarder, permanent dark mode resident.',
+    url: 'https://nurs.asanov.dev/posts/uses',
+    emoji: '🦁',
+    country: '🇰🇬',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Fullstack',
+      'Frontend',
+      'Web Development',
+      'Typescript',
+      'React',
+      'Next.js',
+      'UI',
+      'Freelance',
+      'CSS',
+      'JavaScript',
+	  'TailwindCSS'
+    ],
+  },
+  {
     name: 'matizeta',
     description: 'Comunicator and Designer',
     url: 'https://matizeta.com/uses/',
