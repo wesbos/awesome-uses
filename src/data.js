@@ -323,6 +323,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Glenn Kimble Jr',
+    description: 'Software engineer by day, pro wrestling super nerd by night.',
+    url: 'https://glennkimble.me/uses/',
+    twitter: '@glennkimblejr',
+    emoji: '🤖',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'PHP',
+      'Laravel',
+      'JavaScript',
+      'React',
+      'TailwindCSS',
+      'MySQL',
+      'TDD',
+    ],
+  },
+  {
     name: 'Christian Hain',
     description:
       'Internet power-user and creator specializing in browser-based experiences.',
