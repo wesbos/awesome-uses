@@ -17155,7 +17155,7 @@ module.exports = [
   {
     name: 'Fanis Hatzidakis',
     description: 'Head of Technology based in Cyprus',
-    url: 'https://fanis.hatzidakis.org/uses',
+    url: 'https://fanis.dev/about/uses/',
     emoji: '😎',
     twitter: '@fanishatzidakis',
     country: '🇨🇾',
