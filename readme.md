@@ -79,6 +79,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [George-Paul Crețu](https://georgepaulcretu.com/uses) — Full-stack developer with ascending in back-end.
 * [Shiveen Pandita](https://shiveenp.com/uses) — Engineer. Writer. Hobby Collector. Annoying Coffee Snob.
 * [Scott Willsey](https://scottwillsey.com/uses/) — Podcaster, Blogger, Mac Nerd
+* [Ben Robertson](https://ben.robertson.is/uses) — Solo founder of ColorBliss. Building with AI, Laravel, and Next.js.
 * [Volodymyr Obrizan](https://first.institute/en/blog/uses/) — Software engineer, manager, founder of First Institute of Reliable Software
 * [Prinz Piuz](https://prinzpiuz.in/uses/) — Nerd, Web Developer, Software Engineer
 * [Marius Hauken](https://hauken.no/uses) — Designer building better banking UX & shipping playful pet projects from Norway's west coast
