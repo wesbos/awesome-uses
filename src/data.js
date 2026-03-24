@@ -1318,6 +1318,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Ben Robertson',
+    description:
+      'Solo founder of ColorBliss. Building with AI, Laravel, and Next.js.',
+    url: 'https://ben.robertson.is/uses',
+    twitter: '@benrobertsonio',
+    emoji: '🖍️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Cursor',
+      'Ghostty',
+      'Supabase',
+      'Laravel',
+      'Next.js',
+      'Astro',
+      'WordPress',
+      'Replicate',
+      'OpenAI',
+      'Netlify',
+      'Stripe',
+      'Obsidian',
+      'Linear',
+      'Raycast',
+    ],
+  },
+  {
     name: 'Volodymyr Obrizan',
     description:
       'Software engineer, manager, founder of First Institute of Reliable Software',
