@@ -49,6 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matthew Javelet](https://javelet.dev/uses) — Full-stack developer and server admin
 * [Iago Bruno](https://iagobruno.dev/uses) — Full-stack developer with ascending in back-end.
 * [Railly Hugo](https://railly.dev/uses) — AI Software Engineer @ Clerk. Founder of Crafter Station.
+* [Nurs Asanov](https://nurs.asanov.dev/posts/uses) — Frontend engineer, serial side-project starter, professional tab hoarder, permanent dark mode resident.
 * [matizeta](https://matizeta.com/uses/) — Comunicator and Designer
 * [Rachel Cantor](https://rachel.fyi/uses) — Hiya! I am a Trusted Tester and Frontend Engineer.
 * [Sayantan](https://www.anaverage.dev/uses) — An average TypeScript Engineer.

@@ -554,7 +554,7 @@ module.exports = [
       'Freelance',
       'CSS',
       'JavaScript',
-	  'TailwindCSS'
+      'TailwindCSS',
     ],
   },
   {
