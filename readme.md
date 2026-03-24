@@ -338,6 +338,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Gregg](https://codegregg.com/uses) — Front end software engineer. Baker. Woodworker. Musician. Nerd.
 * [François Vantomme](https://code.strigo.cc/uses/) — Software craftsman
 * [Gabriele Girelli](https://ggirelli.info/uses) — Sr. Bioinformagician
+* [Mads Hartmann](https://www.mads-hartmann.com/uses) — Product Engineer located in Denmark currently working at Ona
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
