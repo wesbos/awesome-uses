@@ -169,6 +169,29 @@ module.exports = [
       'Blockchain',
     ],
   },
+  
+  {
+    name: 'Thamara Kandabada',
+    description:
+      'Generalist & Tinkerer. Internet person.',
+    url: 'https://thamara.co.uk/uses',
+    country: '🇬🇧',
+    emoji: '☕',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'HTML',
+      'CSS',
+      'Wordpress',
+      'Lovable',
+      'Hobbyist',
+      'Physical Media Collector',
+      'Film Buff',
+      'Bedroom Guitarist',
+    ],
+  },
+  
+  
   {
     name: 'Nishil Kapadia',
     description: 'Software Engineer -- building compilers and backend tools.',
