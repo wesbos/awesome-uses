@@ -169,11 +169,10 @@ module.exports = [
       'Blockchain',
     ],
   },
-  
+
   {
     name: 'Thamara Kandabada',
-    description:
-      'Generalist & Tinkerer. Internet person.',
+    description: 'Generalist & Tinkerer. Internet person.',
     url: 'https://thamara.co.uk/uses',
     country: '🇬🇧',
     emoji: '☕',
@@ -190,8 +189,7 @@ module.exports = [
       'Bedroom Guitarist',
     ],
   },
-  
-  
+
   {
     name: 'Nishil Kapadia',
     description: 'Software Engineer -- building compilers and backend tools.',
