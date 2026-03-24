@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Windows phone icon">
+  <rect width="64" height="64" rx="12" fill="#0C4A6E"/>
+  <rect x="20" y="8" width="24" height="48" rx="6" fill="#E0F2FE"/>
+  <g fill="#0284C7">
+    <rect x="25" y="16" width="6" height="6"/>
+    <rect x="33" y="16" width="6" height="6"/>
+    <rect x="25" y="24" width="14" height="14"/>
+  </g>
+  <circle cx="32" cy="51" r="2" fill="#0369A1"/>
+</svg>
