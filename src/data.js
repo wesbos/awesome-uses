@@ -6054,7 +6054,7 @@ module.exports = [
       'observability',
       'monitoring',
       'cli',
-      'productivity'
+      'productivity',
     ],
   },
   {

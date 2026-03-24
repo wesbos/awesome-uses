@@ -261,6 +261,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [MITSUBOSHI Yuya](https://github.com/MITSUBOSHI/uses) — Software Engineer
 * [Vega Deftwing](https://opguides.info/posts/uses/) — Furry forging firmware from frustration
 * [Oscar Marion](https://www.oscarmarion.dev/uses) — French front-end engineer based in Brussels.
+* [Stuart Blackler](https://codewithstu.tv/uses) — Principal Software Engineer based out of London, UK.
 * [Amr Diab](https://www.amrdiab.dev/uses) — Web Developer, open-source enthusiast, gamer, and lifelong learner.
 * [Thiago Avelino](https://avelino.run/uses) — 🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ
 * [Dean Lofts](https://loftwah.github.io/uses) — Loftwah The Beatsmiff, Hip Hop Producer, Graphics, Socials, Video and Web
