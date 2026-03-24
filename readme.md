@@ -184,6 +184,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Vijay Goswami](https://vijaygoswami.com/uses) — Full Stack Developer from Agra, Uttar Pradesh
 * [Edimar Calebe Castanho](https://blog.calebe.dev.br/uses.html) — A passionate embedded systems developer from Brazil
 * [Ihtisham Khan](https://iihtisham.com/uses.html) — Full-Stack Web Developer | Tech Enthusiast
+* [Paweł Cisło](https://pawelcislo.com/uses/) — MLOps Engineer & PKM freak
 * [Robb Knight](https://rknight.me/uses) — Developer, Podcaster, Lego Builder, Cat Owner
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
 * [Ryan Freeman](https://ryanfreeman.dev/uses) — Full-stack software engineer from Dublin, Ireland
