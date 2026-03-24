@@ -17918,7 +17918,7 @@ module.exports = [
     description: 'Backend software engineer in The Land.',
     url: 'https://thedadams.com/uses',
     twitter: '@thedadams',
-    bluesky: '@thedadams.com',
+    bluesky: 'thedadams.com',
     mastodon: '@thedadams@techhub.social',
     emoji: '🏀',
     country: '🇺🇸',
