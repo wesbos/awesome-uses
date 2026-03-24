@@ -5162,7 +5162,8 @@ module.exports = [
   },
   {
     name: 'Robert Hopman',
-    description: 'Practical guides on syntax, patterns, upgrades, and software development best practices',
+    description:
+      'Practical guides on syntax, patterns, upgrades, and software development best practices',
     url: 'https://roberthopman.com/uses',
     country: '🇳🇱',
     computer: 'apple',

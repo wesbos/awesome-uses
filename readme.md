@@ -225,6 +225,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joseph Shambrook](https://josephshambrook.dev/uses) — Front-end developer based in Edinburgh, UK
 * [Andy Cetnarskyj](https://www.just-andy.uk/uses) — Design Systems Designer from Edinburgh, UK
 * [Arvin Zhao](https://isarvin.com/uses) — An introverted geek with great passion.
+* [Robert Hopman](https://roberthopman.com/uses) — Practical guides on syntax, patterns, upgrades, and software development best practices
 * [Akash Rajpurohit](https://akashrajpurohit.com/uses) — Software Engineer
 * [Lukas Leuba](https://lukasleuba.ch/uses/) — IT-Guy
 * [Marko Kaartinen](https://markok.dev/uses) — Web developer / entrepreneur / geek from Kuopio Finland who makes pizza and burgers at freetime. Also some gaming and well of course personal projects.
