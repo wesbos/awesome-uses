@@ -3873,7 +3873,7 @@ module.exports = [
     url: 'https://qevalon.com/uses',
     twitter: '@qevalon',
     emoji: '⚽',
-    country: '🇦🇹🇽🇰',
+    country: '🇽🇰',
     computer: 'apple',
     phone: 'iphone',
     tags: [
