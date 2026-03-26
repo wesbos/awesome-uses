@@ -17968,6 +17968,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Donnie Adams',
+    description: 'Backend software engineer in The Land.',
+    url: 'https://thedadams.com/uses',
+    twitter: '@thedadams',
+    bluesky: 'thedadams.com',
+    mastodon: '@thedadams@techhub.social',
+    emoji: '🏀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Mac',
+      'Developer',
+      'Blogger',
+      'Go',
+      'Gleam',
+      'Zed',
+      'MCP',
+      'Basketball Coach',
+    ],
+  },
+  {
     name: 'Silvestre Vivo',
     description:
       'Full Stack developer, before architect and flamenco guitar player.',

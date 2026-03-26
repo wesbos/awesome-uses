@@ -42,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jared Rigby](https://jaredrigby.co.uk/uses/) — Creative technologist and indie game developer.
 * [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
 * [Piers Olenski](https://www.piersolenski.com/uses) — Technical Lead, Front-End Developer and Vim Enthusiast from London.
+* [Glenn Kimble Jr](https://glennkimble.me/uses/) — Software engineer by day, pro wrestling super nerd by night.
 * [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
 * [Jeroen van Meerendonk](https://jeroen.wtf/uses) — UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
@@ -800,6 +801,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Justin Poehnelt](https://justin.poehnelt.com/uses) — Software Engineer. Developer Relations. Ultrarunner.
 * [Jovylle B](https://jovylle.com/uses) — A Web Developer from the Philippines.
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
+* [Donnie Adams](https://thedadams.com/uses) — Backend software engineer in The Land.
 * [Silvestre Vivo](https://silvestrevivo.github.io/uses) — Full Stack developer, before architect and flamenco guitar player.
 * [Kyle Platt](https://kyleplatt.com/uses) — Senior Software Engineer, Multi Startup Founder, Building Projects in Public
 * [Eric Oyanadel](https://www.oyanadel.com/uses/) — Artist - Developer - Musician
