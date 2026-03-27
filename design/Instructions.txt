@@ -1,0 +1,27 @@
+NOTE: For the action to work, History States must be set to more than 10 (Preferences ﹥ Performance ﹥ History States)
+
+
+1) Move the SprayMap.psd file to your desired location
+
+2) Drag the Texturelabs_SprayAnything.atn file into Photoshop
+
+3) Create a temp throwaway layer
+
+4) In your Actions Panel, open the details of the Spray Anything action
+
+5) Double click on the first item - “Open”
+
+6) Point Photoshop to the SprayMap.psd file
+
+7) Close the SprayMap.psd file
+
+8) In the action details, scroll down about halfway to the Displace step of the action
+
+9) Double click on each instance of Displace (used six times)
+
+10) Leave all values as they appear, click OK, then point Photoshop to the SprayMap.psd file.
+
+11) Optional - double click on the Action and assign a keyboard shortcut
+
+12) All set! Apply the action to any layer.
+

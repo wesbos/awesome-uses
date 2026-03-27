@@ -3,6 +3,7 @@
  * A single contributor with a /uses page.
  * Data is validated against the following schema https://github.com/wesbos/awesome-uses/blob/master/scripts/utils.js#L53-L70
  * @property {string} name - contributor's name
+ * @property {string} [github] - optional GitHub username (without `@`)
  * @property {string} description - tagline for contributor
  * @property {string} url - link to contributor's /uses page
  * @property {string} country - flag emoji for contributor's country
@@ -25,6 +26,7 @@
 module.exports = [
   {
     name: 'Berat Bozkurt ',
+    github: 'berat',
     description:
       'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
     url: 'https://beratbozkurt.net/en/uses',
@@ -46,6 +48,7 @@ module.exports = [
   },
   {
     name: 'Vlad Savruk',
+    github: 'nic3rafs',
     description: 'Product and Graphic Designer',
     url: 'https://vladsavruk.com/writing/uses',
     emoji: '✉️',
@@ -71,6 +74,7 @@ module.exports = [
   },
   {
     name: 'Phuc Bui',
+    github: 'phucbm',
     description:
       'Creative Frontend Engineer. I create things for designers and developers, usually open source.',
     url: 'https://phucbm.com/uses',
@@ -95,6 +99,7 @@ module.exports = [
   },
   {
     name: 'Loic Leray',
+    github: 'loicleray',
     description:
       'Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.',
     url: 'https://www.loicleray.com/uses',
@@ -126,6 +131,7 @@ module.exports = [
   },
   {
     name: 'Hayo Bethlehem',
+    github: 'hayo',
     description: 'Strategic Adviser',
     url: 'https://hayobethlehem.nl/about/uses',
     country: '🇳🇱',
@@ -151,6 +157,7 @@ module.exports = [
 
   {
     name: 'Guilherme Albert',
+    github: 'GuilhermeAlbert',
     description:
       'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
     url: 'https://guilhermealbert.com/uses',
@@ -203,6 +210,7 @@ module.exports = [
   },
   {
     name: 'Sahil Kapoor',
+    github: 'kapoorsahil',
     description:
       'Founder & product engineer building AI, gaming, sports tech, and consumer products.',
     url: 'https://sahilkapoor.com/uses',
@@ -232,6 +240,7 @@ module.exports = [
   },
   {
     name: 'Jared Rigby',
+    github: 'jazibobs',
     description: 'Creative technologist and indie game developer.',
     url: 'https://jaredrigby.co.uk/uses/',
     emoji: '🎮',
@@ -258,6 +267,7 @@ module.exports = [
   },
   {
     name: 'Daniel Marcinkowski',
+    github: 'meetdanielme',
     description: 'A multi-disciplinary tech professional.',
     url: 'https://meetdaniel.me/uses/',
     emoji: '😅',
@@ -290,6 +300,7 @@ module.exports = [
   },
   {
     name: 'Piers Olenski',
+    github: 'piersolenski',
     description:
       'Technical Lead, Front-End Developer and Vim Enthusiast from London.',
     url: 'https://www.piersolenski.com/uses',
@@ -344,6 +355,7 @@ module.exports = [
   },
   {
     name: 'Christian Hain',
+    github: 'XianHain',
     description:
       'Internet power-user and creator specializing in browser-based experiences.',
     url: 'https://www.christianhain.com/uses/',
@@ -402,6 +414,7 @@ module.exports = [
   },
   {
     name: 'Jeroen van Meerendonk',
+    github: 'jeroenwtf',
     description:
       'UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.',
     url: 'https://jeroen.wtf/uses',
@@ -427,6 +440,7 @@ module.exports = [
   },
   {
     name: 'Ivan',
+    github: 'ivndbt',
     description: 'Full time mechanical engineer, spare time maker.',
     url: 'https://ivndbt.com/uses',
     emoji: '🙃',
@@ -446,6 +460,7 @@ module.exports = [
   },
   {
     name: 'Ilya Glebov',
+    github: 'glebovdev',
     description: 'Software Engineer building backends and infrastructure.',
     url: 'https://ilyaglebov.dev/uses',
     country: '🇸🇪',
@@ -475,6 +490,7 @@ module.exports = [
   },
   {
     name: 'Alex Koval',
+    github: 'k0va1',
     description: 'Full-Stack Developer, Entrepreneur, Ruby on Rails enthusiast',
     url: 'https://k0va1.dev/posts/uses',
     emoji: '🚀',
@@ -513,6 +529,7 @@ module.exports = [
   },
   {
     name: 'Matthew Javelet',
+    github: '0xMatt',
     description: 'Full-stack developer and server admin',
     url: 'https://javelet.dev/uses',
     emoji: '☕️',
@@ -532,6 +549,7 @@ module.exports = [
   },
   {
     name: 'Iago Bruno',
+    github: 'iagobruno',
     description: 'Full-stack developer with ascending in back-end.',
     url: 'https://iagobruno.dev/uses',
     twitter: '@iagotico',
@@ -559,6 +577,7 @@ module.exports = [
   },
   {
     name: 'Railly Hugo',
+    github: 'Railly',
     description: 'AI Software Engineer @ Clerk. Founder of Crafter Station.',
     url: 'https://railly.dev/uses',
     country: '🇵🇪',
@@ -600,6 +619,7 @@ module.exports = [
   },
   {
     name: 'matizeta',
+    github: 'yeite',
     description: 'Comunicator and Designer',
     url: 'https://matizeta.com/uses/',
     emoji: '🧉',
@@ -626,6 +646,7 @@ module.exports = [
   },
   {
     name: 'Rachel Cantor',
+    github: 'rachelslurs',
     description: 'Hiya! I am a Trusted Tester and Frontend Engineer.',
     url: 'https://rachel.fyi/uses',
     emoji: '🙌',
@@ -653,6 +674,7 @@ module.exports = [
   },
   {
     name: 'Sayantan',
+    github: 'web-dev-sayantan',
     description: 'An average TypeScript Engineer.',
     url: 'https://www.anaverage.dev/uses',
     emoji: '🙃',
@@ -677,6 +699,7 @@ module.exports = [
   },
   {
     name: 'Joshua Blais',
+    github: 'joshuablais',
     description:
       'Developer and writer pursuing technological mastery through first principles.',
     url: 'https://joshblais.com/uses',
@@ -725,6 +748,7 @@ module.exports = [
   },
   {
     name: 'Reilly Spitzfaden',
+    github: 'reillypascal',
     description:
       'Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.',
     url: 'https://reillyspitzfaden.com/uses',
@@ -769,6 +793,7 @@ module.exports = [
   },
   {
     name: 'Joseph Horace',
+    github: 'jhoracekaratu',
     description: 'Speeding through development with precision.',
     url: 'https://basicutils.com/uses',
     emoji: '👨‍💻',
@@ -798,6 +823,7 @@ module.exports = [
   },
   {
     name: 'John Zanussi',
+    github: 'johnzanussi',
     description:
       'Frontend engineer turned engineering manager with 20+ years of experience.',
     url: 'https://johnzanussi.com/uses',
@@ -830,6 +856,7 @@ module.exports = [
   },
   {
     name: 'Bhautik Bavadiya AKA yesbhautik',
+    github: 'yesbhautik',
     description: 'Crafting the future, Today.',
     url: 'https://yesbhautik.co.in/uses',
     emoji: '🍀',
@@ -851,6 +878,7 @@ module.exports = [
   },
   {
     name: "Peter's Path",
+    github: 'peterspath',
     description:
       'Software developer, mostly using Swift; Writing a blog; Photography; Hiking',
     url: 'https://peterspath.net/uses/',
@@ -865,6 +893,7 @@ module.exports = [
   },
   {
     name: 'Mark Schmeiser',
+    github: 'Mark-Schmeiser',
     description: 'Software architect, web developer and engineer',
     url: 'https://yadl.info/en/uses',
     emoji: '🙌',
@@ -900,6 +929,7 @@ module.exports = [
   },
   {
     name: 'Tural Asgarov',
+    github: 'TuralAsgar',
     description: 'Software Engineer/Developer Educator/Content Creator',
     url: 'https://tural.pro/uses',
     twitter: '@TuralAsgar',
@@ -928,6 +958,7 @@ module.exports = [
   },
   {
     name: 'Franklin Ohaegbulam',
+    github: 'frankiefab100',
     description:
       'Design-driven Software Engineer, Technical Writer, Open Source Contributor',
     url: 'https://frankiefab.com/uses',
@@ -969,6 +1000,7 @@ module.exports = [
   },
   {
     name: 'Predrag Knezevic',
+    github: 'peraknezevic',
     description:
       'Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler',
     url: 'https://peraknezevic.com/uses/',
@@ -992,6 +1024,7 @@ module.exports = [
   },
   {
     name: 'Lubna',
+    github: 'lubna',
     description:
       'Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate',
     url: 'https://lubna.dev/uses',
@@ -1014,6 +1047,7 @@ module.exports = [
   },
   {
     name: 'Toby Nieboer',
+    github: 'tcn33',
     description: 'Finding awesome humans for Ferocia. Post-technical.',
     url: 'https://tcn33.com/uses',
     mastodon: '@tcn33@mastodon.social',
@@ -1037,6 +1071,7 @@ module.exports = [
   },
   {
     name: 'Marco Goetze',
+    github: 'solariz',
     description:
       'IT-Project-Manager, Network Engineer and general Tech-Enthusiast from Germany',
     url: 'https://solariz.de/uses',
@@ -1058,6 +1093,7 @@ module.exports = [
   },
   {
     name: 'Thohirah Husaini',
+    github: 'Thoritie',
     description: 'Software Engineer/Artist',
     url: 'https://thohyr.co/uses',
     twitter: '@thoritie',
@@ -1085,6 +1121,7 @@ module.exports = [
   },
   {
     name: 'László Tóth',
+    github: 'tothlp',
     description: 'Full-Stack Developer',
     url: 'https://tothlp.hu/uses',
     bluesky: 'tothlp.hu',
@@ -1104,6 +1141,7 @@ module.exports = [
   },
   {
     name: 'Kevin Py',
+    github: 'KevinPy',
     description:
       'Craftsman of the web, also Self taught. Freelance Tech Lead, Expert Front-End Developer, and Software Architect.',
     url: 'https://kevinpy.com/uses',
@@ -1129,6 +1167,7 @@ module.exports = [
   },
   {
     name: 'James Harding',
+    github: 'jamesharding',
     description: 'Airline Pilot and Software Engineer',
     url: 'https://jameshard.ing/uses',
     twitter: '@jdhardng',
@@ -1154,6 +1193,7 @@ module.exports = [
   },
   {
     name: 'Luke Davis',
+    github: 'starchildluke',
     description:
       "I'm a technical SEO, music producer, and blogger based in the UK.",
     url: 'https://lukealexdavis.co.uk/uses/',
@@ -1177,6 +1217,7 @@ module.exports = [
   },
   {
     name: 'Charles Harwood',
+    github: 'charles4221',
     description:
       "Aussie Staff Software Engineer, Dad, World's okayest guitarist",
     url: 'https://charlesharwood.dev/uses',
@@ -1204,6 +1245,7 @@ module.exports = [
   },
   {
     name: 'Simon Vrachliotis',
+    github: 'simonswiss',
     description:
       'Designer, developer, learner and teacher. Producing screencasts for Laracasts, Epic Web, Pro Tailwind and more! ',
     url: 'https://simonswiss.com/uses',
@@ -1243,6 +1285,7 @@ module.exports = [
   },
   {
     name: 'Jahidul Islam',
+    github: 'XahidEx',
     description:
       'A Digital Marketing & SEO Specialist, passionate about content, web development, design, and languages. Helping brands thrive online. Photography lives at jahidshots.com',
     url: 'https://xahidex.com/uses',
@@ -1273,6 +1316,7 @@ module.exports = [
   },
   {
     name: 'George-Paul Crețu',
+    github: 'necroob',
     description: 'Full-stack developer with ascending in back-end.',
     url: 'https://georgepaulcretu.com/uses',
     twitter: '@necroob',
@@ -1295,6 +1339,7 @@ module.exports = [
   },
   {
     name: 'Shiveen Pandita',
+    github: 'shiveenp',
     description: 'Engineer. Writer. Hobby Collector. Annoying Coffee Snob.',
     url: 'https://shiveenp.com/uses',
     twitter: '@shiveen_p',
@@ -1311,6 +1356,7 @@ module.exports = [
   },
   {
     name: 'Scott Willsey',
+    github: 'scottaw66',
     description: 'Podcaster, Blogger, Mac Nerd',
     url: 'https://scottwillsey.com/uses/',
     emoji: '🐱',
@@ -1366,6 +1412,7 @@ module.exports = [
   },
   {
     name: 'Volodymyr Obrizan',
+    github: 'obrizan',
     description:
       'Software engineer, manager, founder of First Institute of Reliable Software',
     url: 'https://first.institute/en/blog/uses/',
@@ -1390,6 +1437,7 @@ module.exports = [
   },
   {
     name: 'Prinz Piuz',
+    github: 'prinzpiuz',
     description: 'Nerd, Web Developer, Software Engineer',
     url: 'https://prinzpiuz.in/uses/',
     emoji: '🧔',
@@ -1421,6 +1469,7 @@ module.exports = [
   },
   {
     name: 'Marius Hauken',
+    github: 'mhauken',
     description:
       "Designer building better banking UX & shipping playful pet projects from Norway's west coast",
     url: 'https://hauken.no/uses',
@@ -1450,6 +1499,7 @@ module.exports = [
   },
   {
     name: 'Justin Lam',
+    github: 'justinmklam',
     description: 'Software Engineer from Vancouver, Canada',
     url: 'https://justinmklam.com/uses/',
     country: '🇨🇦',
@@ -1472,6 +1522,7 @@ module.exports = [
   },
   {
     name: 'Kaspars Dambis',
+    github: 'kasparsd',
     description:
       'Maker with passion for the web, electronics, sustainable living and personal finance.',
     url: 'https://kaspars.net/uses',
@@ -1505,6 +1556,7 @@ module.exports = [
   },
   {
     name: 'K Gopal Krishna',
+    github: 'kaygdotorg',
     description: 'Devops and Storage Engineer',
     url: 'https://kayg.org/uses',
     emoji: '🩷',
@@ -1524,6 +1576,7 @@ module.exports = [
   },
   {
     name: 'Mike Simmonds',
+    github: 'simmo',
     description: 'A UK-based, Front-end Software Engineer.',
     url: 'https://mike.id/uses',
     emoji: '😺',
@@ -1553,6 +1606,7 @@ module.exports = [
   },
   {
     name: 'Kenneth Schabrechts',
+    github: 'Cybernetks',
     description:
       'A one-person studio where freelance development and indie game projects live side by side',
     url: 'https://www.cybernetks.be/uses/',
@@ -1610,6 +1664,7 @@ module.exports = [
   },
   {
     name: 'Bence Fodor',
+    github: 'fodi',
     description: 'Millenial web and game developer from Hungary',
     url: 'https://fodi.be/uses/',
     emoji: '🤙',
@@ -1635,6 +1690,7 @@ module.exports = [
   },
   {
     name: 'Simon Depelchin',
+    github: 'depsimon',
     description: 'Freelance PHP/JS developer.',
     url: 'https://simondepelchin.be/uses',
     emoji: '🧑‍💻',
@@ -1668,6 +1724,7 @@ module.exports = [
   },
   {
     name: 'Alphan Günaydın',
+    github: 'ialphan',
     description: 'Principal Developer',
     url: 'https://ialphan.com/uses',
     twitter: '@ialphan',
@@ -1689,6 +1746,7 @@ module.exports = [
   },
   {
     name: 'Carlos D. Álvaro',
+    github: 'cdalvaro',
     description: 'Senior Software Engineer, Apple fan and sports lover',
     url: 'https://cdalvaro.io/uses',
     mastodon: '@cdalvaro@fosstodon.org',
@@ -1717,6 +1775,7 @@ module.exports = [
   },
   {
     name: 'Abdul-Jabbar Bozdar',
+    github: 'ajbozdar',
     description: 'Computer Programmer',
     url: 'https://aj.bozdar.im/uses/',
     bluesky: 'aj.bozdar.im',
@@ -1744,6 +1803,7 @@ module.exports = [
   },
   {
     name: 'Jakob Greenfeld',
+    github: 'jakobgreenfeld',
     description: 'Founder',
     url: 'https://jakobgreenfeld.com/uses',
     emoji: '🏓',
@@ -1765,6 +1825,7 @@ module.exports = [
   },
   {
     name: 'Bino Kochumol Varghese',
+    github: 'binokochumolvarghese',
     description: 'Developer and Writer',
     url: 'https://binovarghese.com/uses/',
     twitter: '@binovarghese_',
@@ -1785,6 +1846,7 @@ module.exports = [
   },
   {
     name: 'John Hammond',
+    github: 'jmhammond',
     description: 'Teaching Professor and Nerd',
     url: 'https://mathsquirrel.com/posts/2024/01/uses/',
     emoji: '🐿️',
@@ -1804,6 +1866,7 @@ module.exports = [
   },
   {
     name: 'Daniel Rotter',
+    github: 'danrot',
     description:
       'Senior Fullstack Developer at Yummy Publishing and organizer of the VlbgWebDev Meetup',
     url: 'https://danielrotter.at/uses',
@@ -1859,6 +1922,7 @@ module.exports = [
   },
   {
     name: 'Ryan Himmelwright',
+    github: 'himmAllRight',
     description: 'Dad, husband, and all-around nerd',
     url: 'https://ryan.himmelwright.net/uses/',
     mastodon: '@himmallright@mastodon.social',
@@ -1890,6 +1954,7 @@ module.exports = [
   },
   {
     name: 'Jon Seager',
+    github: 'jnsgruk',
     description: 'Husband, father, leader, software engineer, geek',
     url: 'https://jnsgr.uk/uses',
     mastodon: '@jnsgruk@hachyderm.io',
@@ -1921,6 +1986,7 @@ module.exports = [
   },
   {
     name: 'Salomon Valverde',
+    github: 'salverde',
     description: 'Software Craftsman. Guitar Developer. Audiophile',
     url: 'https://salverde.github.io/s13e/uses/',
     emoji: '⚡',
@@ -1953,6 +2019,7 @@ module.exports = [
   },
   {
     name: 'earendelmir',
+    github: 'earendelmir',
     description: 'Computer engineer dreaming of living a hobbit life.',
     url: 'https://earendelmir.xyz/uses/',
     emoji: '🙈',
@@ -1974,6 +2041,7 @@ module.exports = [
   },
   {
     name: 'Adam Porkolab',
+    github: 'aporkolab',
     description: 'Senior Fullstack Developer (Java/Angular) / Sci-Fi Writer',
     url: 'https://adamporkolab.com/uses',
     twitter: '@adam_porkolab',
@@ -2004,6 +2072,7 @@ module.exports = [
   },
   {
     name: 'Sebastian Herrmann',
+    github: 'herrherrmann',
     description: 'Web developer, musician, and hobby photographer',
     url: 'https://herrherrmann.net/uses/',
     twitter: '@herrherrmann',
@@ -2036,6 +2105,7 @@ module.exports = [
   },
   {
     name: 'Dinesh Haribabu',
+    github: 'dinesh-se',
     description: 'Frontend Engineer and tech enthusiast',
     url: 'https://dineshharibabu.in/uses',
     twitter: '@dinesh_haribabu',
@@ -2060,6 +2130,7 @@ module.exports = [
   },
   {
     name: 'Krishna Sahu',
+    github: 'dvlprkrishna',
     description: 'Frontend Tech Lead',
     url: 'https://sahu.framer.website/uses',
     emoji: '💫',
@@ -2081,6 +2152,7 @@ module.exports = [
   },
   {
     name: 'Preshit Deorukhkar',
+    github: 'preshit',
     description: 'Tech Enthusiast & Consultant',
     url: 'https://nuclearbits.com/uses',
     emoji: '📍',
@@ -2102,6 +2174,7 @@ module.exports = [
   },
   {
     name: 'Sudan Chapagain',
+    github: 'sudanchapagain',
     description: 'Student',
     url: 'https://sudanchapagain.com.np/uses',
     twitter: '@sudanchapagain',
@@ -2113,6 +2186,7 @@ module.exports = [
   },
   {
     name: 'Tim Benniks',
+    github: 'timbenniks',
     description: 'Developer relations, speaker, content creator',
     url: 'https://timbenniks.dev/uses',
     country: '🇷🇴',
@@ -2132,6 +2206,7 @@ module.exports = [
   },
   {
     name: 'Karthik Kadambi',
+    github: 'KarthikKadambi',
     description: 'Full Stack Developer, UX Enthusiast and Aspiring AI Engineer',
     url: 'https://karthikkadambi.com/uses',
     country: '🇮🇳',
@@ -2162,6 +2237,7 @@ module.exports = [
   },
   {
     name: 'Damian Cyrus',
+    github: 'cyrdam',
     description:
       'Full Stack Developer, Front-end Software Engineer, Tech Lead, DevDad.',
     url: 'https://damiancyrus.com/uses',
@@ -2217,6 +2293,7 @@ module.exports = [
   },
   {
     name: 'Allan Deutsch',
+    github: 'Masstronaut',
     description: 'Builds things on the internet.',
     url: 'https://allandeutsch.com/uses',
     emoji: '🐻‍❄️',
@@ -2241,6 +2318,7 @@ module.exports = [
   },
   {
     name: 'Gaurav Kesh Roushan',
+    github: 'GauravKesh',
     description:
       'Fullstack Developer specializing in web development with experience in backend, frontend, and cloud technologies',
     url: 'https://gauravkesh.github.io/uses/',
@@ -2275,6 +2353,7 @@ module.exports = [
   },
   {
     name: 'James Auble',
+    github: 'james0r',
     description: 'Full Stack Developer',
     url: 'https://jamesauble.com/uses',
     emoji: '🤙',
@@ -2325,6 +2404,7 @@ module.exports = [
   },
   {
     name: 'Andrew Bus',
+    github: 'iAndrewCA',
     description: 'Senior Lead Software Engineer',
     url: 'https://andrewbus.com/uses',
     twitter: '@AndrewPaulBus',
@@ -2373,6 +2453,7 @@ module.exports = [
   },
   {
     name: 'Ronny Coste',
+    github: 'lertsoft',
     description:
       'Creative Developer, Photographer, Homelab Admin, and Ham Radio enthusiast',
     url: 'https://ronnycoste.com/uses',
@@ -2401,6 +2482,7 @@ module.exports = [
   },
   {
     name: 'Matt Obee',
+    github: 'mattobee',
     description: 'Design technologist specialising in accessibility.',
     url: 'https://mattobee.com/uses',
     emoji: '🚀',
@@ -2420,6 +2502,7 @@ module.exports = [
   },
   {
     name: 'Mariusz Szubryt',
+    github: 'mariuszubryt',
     description: 'Frontend-oriented Product Engineer',
     url: 'https://szubryt.net/uses',
     emoji: '💎',
@@ -2448,6 +2531,7 @@ module.exports = [
   },
   {
     name: 'Md Fazley Rabbi',
+    github: 'fazleyrabby',
     description: 'Web Developer based on bangladesh who loves tech and gadgets',
     url: 'https://fazleyrabbi.xyz/uses/',
     emoji: '🤔',
@@ -2473,6 +2557,7 @@ module.exports = [
   },
   {
     name: 'Colin Ramsay',
+    github: 'colinramsay',
     description: 'Director and software developer at Go Tripod in Cornwall',
     url: 'https://colinramsay.co.uk/uses',
     twitter: '@colinramsay',
@@ -2491,6 +2576,7 @@ module.exports = [
   },
   {
     name: 'Matthieu Bozec',
+    github: 'krachot',
     description: 'Full Stack developer at 4h04',
     url: 'https://matthieu.bozec.org/uses',
     twitter: '@krachot',
@@ -2511,6 +2597,7 @@ module.exports = [
   },
   {
     name: 'Frank Adler',
+    github: 'ice8lue',
     description: 'Father, Astrophotographer, Frontend Engineer',
     url: 'https://adfr.io/uses',
     mastodon: '@adfr@mastodon.social',
@@ -2549,6 +2636,7 @@ module.exports = [
   },
   {
     name: 'Chris Funderburg',
+    github: 'bocan',
     description:
       'Consultant Platform / DevSecOps Engineer. A Texan living in England.',
     url: 'https://chris.funderburg.me/uses',
@@ -2594,6 +2682,7 @@ module.exports = [
   },
   {
     name: 'Dennis Sauvé',
+    github: 'dengsauve',
     description: 'DevOps Engineer w/Dev roots in the Pacific North West!',
     url: 'https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98',
     twitter: '@dengsauve',
@@ -2618,6 +2707,7 @@ module.exports = [
   },
   {
     name: 'Jana',
+    github: 'JanaSundar',
     description: 'Full Stack Developer & Javascript Enthusiast',
     url: 'https://janasundar.dev/uses',
     twitter: '@jana__sundar',
@@ -2637,6 +2727,7 @@ module.exports = [
   },
   {
     name: 'Daniel Flanagan',
+    github: 'lytedev',
     description: 'Developer, platform engineer, and homelab administrator',
     url: 'https://lyte.dev/uses',
     twitter: '@lytedev',
@@ -2662,6 +2753,7 @@ module.exports = [
   },
   {
     name: 'Jasper Lai',
+    github: 'jaskfla',
     description:
       'Design engineer, explorer of rabbit holes and all-around nuisance',
     url: 'https://lai.nz/uses',
@@ -2686,6 +2778,7 @@ module.exports = [
   },
   {
     name: 'Akif Al Hakim',
+    github: 'wztd',
     description: 'Frontend Developer.',
     url: 'https://akif.my.id/uses',
     emoji: '🥔',
@@ -2706,6 +2799,7 @@ module.exports = [
   },
   {
     name: 'Kalwabed Rizki',
+    github: 'kalwabed',
     description: 'Fullstack engineer, speaker, instructor.',
     url: 'https://www.kalwabed.com/uses/',
     emoji: '🪐',
@@ -2732,6 +2826,7 @@ module.exports = [
   },
   {
     name: 'Eric T Grubaugh',
+    github: 'GRUBES',
     description: 'SuiteScript Coach',
     url: 'https://stoic.software/uses',
     emoji: '❤️',
@@ -2754,6 +2849,7 @@ module.exports = [
   },
   {
     name: "James O'Neill",
+    github: 'James-ONeill',
     description: 'Full Stack Developer.',
     url: 'https://www.jamesoneill.eu/uses/',
     emoji: '🖖',
@@ -2773,6 +2869,7 @@ module.exports = [
   },
   {
     name: 'Hwee-Boon Yar',
+    github: 'hboon',
     description: 'iOS/macOS app Developer.',
     url: 'https://hboon.com/uses/',
     emoji: '😱',
@@ -2800,6 +2897,7 @@ module.exports = [
   },
   {
     name: 'Jonas Hietala',
+    github: 'treeman',
     description: 'Writer, developer and wannabe code monkey.',
     url: 'https://www.jonashietala.se/uses/',
     emoji: '👀',
@@ -2862,6 +2960,7 @@ module.exports = [
   },
   {
     name: 'Marshall Bowers',
+    github: 'maxdeviant',
     description: 'Conjurer of code. Devourer of art. Pursuer of æsthetics.',
     url: 'https://maxdeviant.com/uses/',
     emoji: '🦚',
@@ -2890,6 +2989,7 @@ module.exports = [
   },
   {
     name: 'Simon Gagnon',
+    github: 'simoncrypta',
     description: 'Makes software and coffee',
     url: 'https://simoncrypta.dev/uses/',
     emoji: '☕️',
@@ -2932,6 +3032,7 @@ module.exports = [
   },
   {
     name: 'Michal Mazur',
+    github: 'michmzr',
     description:
       'Backend Software Engineer, Blogger, Digital Nomad, Technical Generalist',
     url: 'https://cybershu.eu/uses.html',
@@ -2969,6 +3070,7 @@ module.exports = [
   },
   {
     name: 'Khafizi Noh',
+    github: 'mkfizi',
     description: 'Full-stack web developer based in Cyberjaya, Malaysia.',
     url: 'https://mkfizi.dev/uses',
     twitter: '@mkfizi',
@@ -2998,6 +3100,7 @@ module.exports = [
   },
   {
     name: 'Theodoros Ploumis',
+    github: 'theodorosploumis',
     description:
       'Full-stack Drupal developer and open-source evangelist based on Greece',
     url: 'https://www.theodorosploumis.com/en/uses',
@@ -3025,6 +3128,7 @@ module.exports = [
   },
   {
     name: 'Dietrich Wambach',
+    github: 'wamsachel',
     description: 'Full Stack, Embedded, SRE, Python, Linux, Runner, Yoyoer',
     url: 'https://dietrichw.gitlab.io/blogfolio/uses',
     emoji: '🦖',
@@ -3053,6 +3157,7 @@ module.exports = [
   },
   {
     name: 'Angel Cruz',
+    github: 'abr4xas',
     description: 'SR Backend (PHP / Laravel / WordPress) developer.',
     url: 'https://angelcruz.dev/uses',
     twitter: '@abr4xas',
@@ -3079,6 +3184,7 @@ module.exports = [
   },
   {
     name: 'Mina Markham',
+    github: 'minamarkham',
     description: 'Engineer, designer, and design systems enthusiast.',
     url: 'https://mina.codes/uses',
     twitter: '@minamarkham',
@@ -3102,6 +3208,7 @@ module.exports = [
   },
   {
     name: 'Saiful Alam Rakib',
+    github: '4msar',
     description: 'Laravel and React developer and Technology enthusiast',
     url: 'https://msar.me/uses',
     country: '🇧🇩',
@@ -3123,6 +3230,7 @@ module.exports = [
   },
   {
     name: 'Sophie Koonin',
+    github: 'sophiekoonin',
     description: 'Web developer, conference speaker, dog botherer',
     url: 'https://localghost.dev/uses',
     country: '🇬🇧',
@@ -3143,6 +3251,7 @@ module.exports = [
   },
   {
     name: 'Brandon Lim',
+    github: 'JustBrandonLim',
     description: 'Software Engineer based in Singapore',
     url: 'https://justbrandonlim.com/uses',
     twitter: '@JustBrandonLim',
@@ -3187,6 +3296,7 @@ module.exports = [
   },
   {
     name: 'Tim Bachmann',
+    github: 'Tiim',
     description:
       'Software Engineer from Switzerland, currently working on one of my way too many side projects.',
     url: 'https://tiim.ch/pages/uses',
@@ -3222,6 +3332,7 @@ module.exports = [
   },
   {
     name: 'Neil Gupta',
+    github: 'neilgupta',
     description:
       'Designed in California. Assembled in Chicago. I like to build things.',
     url: 'https://www.neil.gg/uses',
@@ -3233,6 +3344,7 @@ module.exports = [
   },
   {
     name: 'Neil Grogan',
+    github: 'dueyfinster',
     description:
       'Software Engineering Manager in Telco Domain - based in middle of Ireland!',
     url: 'https://www.neilgrogan.com/uses',
@@ -3261,6 +3373,7 @@ module.exports = [
   },
   {
     name: 'Jose Munoz',
+    github: 'josemunozmatos',
     description: 'Product Designer from Puerto Rico',
     url: 'https://www.josemunozmatos.com/uses',
     emoji: '🫶',
@@ -3278,6 +3391,7 @@ module.exports = [
   },
   {
     name: 'Ibrahim Nurul Huda',
+    github: 'herbras',
     description:
       'creates visual narratives on web development, design, and Sharia studies.',
     url: 'https://www.sarbeh.com/uses',
@@ -3322,6 +3436,7 @@ module.exports = [
   },
   {
     name: 'Ignatius Bagus',
+    github: 'ignatiusmb',
     description: 'Software Alchemist',
     url: 'https://mauss.dev/uses',
     country: '🇮🇩',
@@ -3329,6 +3444,7 @@ module.exports = [
   },
   {
     name: 'Bob Reus',
+    github: 'bob-reus',
     description: 'DevOps Engineer, eBook producer, Freediver, Buddhist',
     url: 'https://bobre.us/uses',
     twitter: '@bobreusNL',
@@ -3353,6 +3469,7 @@ module.exports = [
   },
   {
     name: 'Alex Stepankov',
+    github: 'xeurun',
     description: 'Team Lead • Senior Developer • Creator',
     url: 'https://xeurun.dev/uses/',
     twitter: '@xeurun',
@@ -3445,6 +3562,7 @@ module.exports = [
   },
   {
     name: 'Donavon West',
+    github: 'donavon',
     description: 'Spread Love {...❤️}',
     url: 'https://donavon.com/uses',
     twitter: '@donavon',
@@ -3487,6 +3605,7 @@ module.exports = [
   },
   {
     name: 'Noah',
+    github: 'NG0O',
     description: 'Swiss + Sysamdin',
     url: 'https://mazepin.ch/uses',
     emoji: '🙀',
@@ -3497,6 +3616,7 @@ module.exports = [
   },
   {
     name: 'Jesse Idey',
+    github: 'jesse-dot-id',
     description: 'DevOps Engineer and Full Stack Developer',
     url: 'https://jesse.id/uses',
     emoji: '🤓',
@@ -3520,6 +3640,7 @@ module.exports = [
   },
   {
     name: 'Raymond Luong',
+    github: 'raymondluong',
     description: 'Front End Platform + Design Systems Engineer',
     url: 'https://www.raymondluong.com/uses/',
     twitter: '@luongraymond',
@@ -3546,6 +3667,7 @@ module.exports = [
   },
   {
     name: 'Luka Harambasic',
+    github: 'LukaHarambasic',
     description:
       'German/Croatian product manager from Copenhagen (Denmark) with a deep interest in web development.',
     url: 'https://harambasic.de/uses',
@@ -3626,6 +3748,7 @@ module.exports = [
   },
   {
     name: 'Syofyan Zuhad',
+    github: 'syofyanzuhad',
     description: 'Full Stack Software Engineer 🇮🇩',
     url: 'https://syofyan-profile.vercel.app/uses/',
     twitter: '@syofyan_zuhad',
@@ -3650,6 +3773,7 @@ module.exports = [
   },
   {
     name: 'Zach Patrick',
+    github: 'zpthree',
     description: 'JavaScript and PHP developer',
     url: 'https://zachpatrick.com/uses',
     twitter: '@zpthree',
@@ -3674,6 +3798,7 @@ module.exports = [
   },
   {
     name: 'Adler Medrado',
+    github: 'spacexnu',
     description:
       'Computer Programmer - Programming is not only a skill but my passion.',
     url: 'https://adlermedrado.com.br/uses/',
@@ -3704,6 +3829,7 @@ module.exports = [
   },
   {
     name: 'Zilvinas Kucinskas',
+    github: 'ZilvinasKucinskas',
     description: 'Full Stack Ruby on Rails Engineer and Entrepreneur',
     url: 'https://www.ziku.dev/uses/',
     twitter: '@zilkucinskas',
@@ -3731,6 +3857,7 @@ module.exports = [
   },
   {
     name: 'Carlos Alexandro Becker',
+    github: 'caarlos0',
     description: 'A site reliability engineer, from Brazil',
     url: 'https://carlosbecker.com/uses',
     twitter: '@caarlos0',
@@ -3752,6 +3879,7 @@ module.exports = [
   },
   {
     name: 'Andy Carolan',
+    github: 'AndyCarolan',
     description: 'Illustrator, Graphic Designer, No Code, Remote',
     url: 'https://www.andycarolan.com/uses/',
     twitter: '@AndyCarolan',
@@ -3772,6 +3900,7 @@ module.exports = [
   },
   {
     name: 'Jeremiah Lee',
+    github: 'jeremiahlee',
     description: 'Web Developer, Digital Rights Activist, Macro-optimist',
     url: 'https://www.jeremiahlee.com/uses/',
     twitter: '@JeremiahLee',
@@ -3797,6 +3926,7 @@ module.exports = [
   },
   {
     name: "Alex O'Reilly",
+    github: 'alekzandriia',
     description: 'Scientist turned Web developer from the Great White North.',
     url: 'https://alekzandriia.com/uses/',
     twitter: '@alekzandriia',
@@ -3830,6 +3960,7 @@ module.exports = [
   },
   {
     name: 'Martin Bean',
+    github: 'martinbean',
     description: 'Web developer and software engineer.',
     url: 'https://martinbean.dev/uses',
     twitter: '@martinbean',
@@ -3856,6 +3987,7 @@ module.exports = [
   },
   {
     name: 'Arija A.',
+    github: 'ar1ja',
     description:
       'A passionate open source developer and advocate from Lithuania',
     url: 'https://ari.lt/uses',
@@ -3891,6 +4023,7 @@ module.exports = [
   },
   {
     name: 'Jaime Creixems',
+    github: 'creixems',
     description: 'Design Leader, Advisor and Mentor.',
     url: 'https://webjac.com/uses',
     mastodon: '@webjac@mastodon.social',
@@ -3919,6 +4052,7 @@ module.exports = [
   },
   {
     name: 'Dominic Ruggiero',
+    github: 'lucas-mancini',
     description: 'Student and idiot',
     url: 'https://userexe.me/uses',
     twitter: '@user____exe',
@@ -3929,6 +4063,7 @@ module.exports = [
   },
   {
     name: 'Lucas Mancini',
+    github: 'lucas-mancini',
     description: 'Software Development Engineer, specializing in Frontend',
     url: 'https://lucasmancini.au/uses',
     twitter: '@lucasmancini',
@@ -3963,6 +4098,7 @@ module.exports = [
   },
   {
     name: 'Lars Magnus Klavenes',
+    github: 'larsmagnus',
     description:
       'Frontend engineer, designer and manager supercharging the web',
     url: 'https://larsmagnus.co/uses',
@@ -3994,6 +4130,7 @@ module.exports = [
   },
   {
     name: 'Maicol Santos',
+    github: 'maicolsantos',
     description: 'Front End Developer.',
     url: 'https://maicolsantos.github.io/#/uses',
     emoji: '🤘🏻',
@@ -4018,6 +4155,7 @@ module.exports = [
   },
   {
     name: 'Naty S',
+    github: 'eclecticpassions',
     description:
       'Medic, IndieWeb blogger, photographer, home-barista & tech enthusiast',
     url: 'https://burgeonlab.com/uses/',
@@ -4051,6 +4189,7 @@ module.exports = [
   },
   {
     name: 'Carretta Riccardo',
+    github: 'CarrettaRiccardo',
     description: 'Software Developer & UX/UI Designer',
     url: 'https://carrettariccardo.dev/uses/',
     twitter: '@_not_sure_rick',
@@ -4081,6 +4220,7 @@ module.exports = [
   },
   {
     name: 'Christian Babin',
+    github: 'babincc',
     description:
       'Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.',
     url: 'https://christianbabin.com/uses',
@@ -4108,6 +4248,7 @@ module.exports = [
   },
   {
     name: 'Antonio Sarcevic',
+    github: 'SarcevicAntonio',
     description: 'excited by ui development',
     url: 'https://sarcevic.dev/uses',
     twitter: '@SarcevicAntonio',
@@ -4129,6 +4270,7 @@ module.exports = [
   },
   {
     name: 'Josh Medeski',
+    github: 'joshmedeski',
     description: 'Full-stack developer and content creator.',
     url: 'https://www.joshmedeski.com/uses/',
     twitter: '@joshmedeski',
@@ -4158,6 +4300,7 @@ module.exports = [
   },
   {
     name: 'Simon Rogers',
+    github: 'joshmedeski',
     description: 'Software Engineer',
     url: 'https://midnite.uk/uses',
     country: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
@@ -4184,6 +4327,7 @@ module.exports = [
   },
   {
     name: 'Allan Im',
+    github: 'allanim',
     description: 'Software Engineer',
     url: 'https://allanim.com/uses',
     country: '🇰🇷',
@@ -4204,6 +4348,7 @@ module.exports = [
   },
   {
     name: 'Vijay Goswami',
+    github: 'hexpit',
     description: 'Full Stack Developer from Agra, Uttar Pradesh',
     url: 'https://vijaygoswami.com/uses',
     emoji: '🚀',
@@ -4231,6 +4376,7 @@ module.exports = [
   },
   {
     name: 'Edimar Calebe Castanho',
+    github: 'calebe94',
     description: 'A passionate embedded systems developer from Brazil',
     url: 'https://blog.calebe.dev.br/uses.html',
     emoji: '⚒️',
@@ -4257,6 +4403,7 @@ module.exports = [
   },
   {
     name: 'Ihtisham Khan',
+    github: 'jcubic',
     description: 'Full-Stack Web Developer | Tech Enthusiast',
     url: 'https://iihtisham.com/uses.html',
     emoji: '🤦‍♂️',
@@ -4304,6 +4451,7 @@ module.exports = [
   },
   {
     name: 'Robb Knight',
+    github: 'rknightuk',
     description: 'Developer, Podcaster, Lego Builder, Cat Owner',
     url: 'https://rknight.me/uses',
     emoji: '🫠',
@@ -4324,6 +4472,7 @@ module.exports = [
   },
   {
     name: 'Riley',
+    github: 'Riley-5',
     description: 'Software Developer',
     url: 'https://riley-uses.netlify.app/',
     country: '🇿🇦',
@@ -4334,6 +4483,7 @@ module.exports = [
   },
   {
     name: 'Ryan Freeman',
+    github: 'r-freeman',
     description: 'Full-stack software engineer from Dublin, Ireland',
     url: 'https://ryanfreeman.dev/uses',
     twitter: '@ryanfreeman_dev',
@@ -4354,6 +4504,7 @@ module.exports = [
   },
   {
     name: 'Ivan Malopinsky',
+    github: 'imsky',
     description: 'Entrepreneur, engineer',
     url: 'https://imsky.co/uses',
     twitter: '@imskyco',
@@ -4393,6 +4544,7 @@ module.exports = [
   },
   {
     name: 'Murendeni Mukwevho',
+    github: 'mukwevhom',
     description: 'Software Developer breaking the bias in South Africa',
     url: 'https://mukwevhom.xyz/uses',
     twitter: '@iammurendeni',
@@ -4411,6 +4563,7 @@ module.exports = [
   },
   {
     name: 'Márk Mihályi',
+    github: 'markmihalyi',
     description: 'Full-Stack Engineer from Hungary',
     url: 'https://markmihalyi.hu/uses',
     twitter: '@_markmihalyi',
@@ -4436,6 +4589,7 @@ module.exports = [
   },
   {
     name: 'James Neawedde',
+    github: 'QwertyMcQwertz',
     description: 'Systems Engineer, Developer, Generalist',
     url: 'https://jamesneawedde.com/uses/',
     emoji: '🏴',
@@ -4459,6 +4613,7 @@ module.exports = [
   },
   {
     name: 'Vít Baisa',
+    github: 'vitbaisa',
     description: 'Software engineer who likes removing code',
     url: 'https://vit.baisa.cz/uses',
     twitter: '@vitbaisa',
@@ -4480,6 +4635,7 @@ module.exports = [
   },
   {
     name: 'Declan Chidlow',
+    github: 'DeclanChidlow',
     description:
       'Frontend developer, designer, dabbler, and user of the information superhighway.',
     url: 'https://vale.rocks/uses',
@@ -4502,6 +4658,7 @@ module.exports = [
   },
   {
     name: 'Kendry Grullón',
+    github: 'kengru',
     description: 'Software engineer interested in art',
     url: 'https://kengru.do/uses',
     twitter: '@kxngru',
@@ -4521,6 +4678,7 @@ module.exports = [
   },
   {
     name: 'Marko Bajlovic',
+    github: 'arbitrarily',
     description: 'Multidisciplinary creative and developer; forever learning.',
     url: 'https://marko.tech/uses',
     twitter: '@desmosthenes',
@@ -4546,6 +4704,7 @@ module.exports = [
   },
   {
     name: 'Michael Amore',
+    github: 'mjamore',
     description:
       'Technologist, software creator, wannabe hacker. Father. Dog Lover.',
     url: 'https://codewithlove.blog/uses',
@@ -4558,6 +4717,7 @@ module.exports = [
   },
   {
     name: 'voitech',
+    github: 'voi-tech',
     description:
       'English teacher, IT specialist, programming instructor, cyber security educator, personal knowledge management consultant',
     url: 'https://voitech.lol/uses/',
@@ -4580,6 +4740,7 @@ module.exports = [
   },
   {
     name: 'Alex Zee Comedy',
+    github: 'alexzeecomedy',
     description:
       'Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.',
     url: 'https://alexzeecomedy.com/pages/uses',
@@ -4609,6 +4770,7 @@ module.exports = [
   },
   {
     name: 'Seirdy',
+    github: 'Seirdy',
     description: 'I write about and develop software to promote user autonomy.',
     url: 'https://seirdy.one/about/uses/',
     country: '🇺🇸',
@@ -4637,6 +4799,7 @@ module.exports = [
   },
   {
     name: 'Ruslan Osipov',
+    github: 'Rusya13',
     description:
       'Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group',
     url: 'https://ruslan.rocks/uses',
@@ -4668,6 +4831,7 @@ module.exports = [
   },
   {
     name: 'H. Kamran',
+    github: 'hkamran80',
     description:
       "Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!",
     url: 'https://hkamran.com/uses',
@@ -4704,6 +4868,7 @@ module.exports = [
   },
   {
     name: 'Catalin Ciubotaru',
+    github: 'FunnyGhost',
     description: 'Frontend Developer, writes stuff, sometimes makes sense.',
     url: 'https://catalincodes.com/uses',
     twitter: '@c5n_c8u',
@@ -4723,6 +4888,7 @@ module.exports = [
   },
   {
     name: 'Daniel Roe',
+    github: 'danielroe',
     description: 'Nuxt architect and open source lover',
     url: 'https://roe.dev/uses',
     country: '🇬🇧',
@@ -4743,6 +4909,7 @@ module.exports = [
   },
   {
     name: 'Alberto Ventafridda',
+    github: 'robalb',
     description:
       'Developer, hacker. Passionate about cyber security, web development and distributed systems.',
     url: 'https://halb.it/uses/',
@@ -4769,6 +4936,7 @@ module.exports = [
   },
   {
     name: 'Vikash Patel',
+    github: 'vk4s',
     description: 'Engineer, Programmer, Web Developer',
     url: 'https://vk4s.github.io/uses/',
     emoji: '👨‍💻',
@@ -4799,6 +4967,7 @@ module.exports = [
   },
   {
     name: 'Devika Bhapkar',
+    github: 'devikabhapkar',
     description: 'Student,Content creator',
     url: 'https://github.com/devikabhapkar/uses',
     emoji: '👨‍💻',
@@ -4828,6 +4997,7 @@ module.exports = [
   },
   {
     name: 'Shariq Raza Qadri',
+    github: 'cosmicqbit',
     description: 'DevOps & Cloud Engineer',
     url: 'https://cosmicqbit.dev/uses',
     emoji: '👨‍💻',
@@ -4846,6 +5016,7 @@ module.exports = [
   },
   {
     name: 'John Floren',
+    github: 'floren',
     description:
       'Programmer and hobbyist electronics designer interested in computing history.',
     url: 'https://jfloren.net/uses',
@@ -4864,6 +5035,7 @@ module.exports = [
   },
   {
     name: 'Stijn Elskens',
+    github: 'stijnelskens',
     description: 'Frontend Web Developer based in Leuven, BE.',
     url: 'https://www.stijnelskens.com/uses',
     twitter: '@chevywood_',
@@ -4889,6 +5061,7 @@ module.exports = [
   },
   {
     name: 'Rico van Zelst',
+    github: 'rico-vz',
     description:
       'Full Stack Developer passionate about creating innovative web solutions.',
     url: 'https://rico.sh/uses',
@@ -4909,6 +5082,7 @@ module.exports = [
   },
   {
     name: 'Daine Mawer',
+    github: 'dainemawer',
     description:
       'Experienced Front-end Developer based in Cape Town, South Africa.',
     url: 'https://www.dainemawer.com/uses',
@@ -4932,6 +5106,7 @@ module.exports = [
   },
   {
     name: 'Taras Kliushta',
+    github: 'ktv18',
     description: 'Staff Software Engineer – Front End',
     url: 'https://www.taraskliushta.dev/uses',
     emoji: '​🌲​',
@@ -4953,6 +5128,7 @@ module.exports = [
   },
   {
     name: 'Tobias Sjösten',
+    github: 'tobiassjosten',
     description: 'Jack of most software trades, master of a few',
     url: 'https://www.seastone.io/uses/',
     twitter: '@tobiassjosten',
@@ -4998,6 +5174,7 @@ module.exports = [
   },
   {
     name: 'Nick Reutlinger',
+    github: 'NickRTR',
     description: 'Web Developer with Javascript and SvelteKit',
     url: 'https://nickreutlinger.de/uses',
     emoji: '🎯',
@@ -5024,6 +5201,7 @@ module.exports = [
   },
   {
     name: 'Rebecca Owen',
+    github: 'rebecca-owen',
     description:
       'Indie iOS developer, software engineer, cat Mum, human Mum. Rarely in that order!',
     url: 'https://beccais.online/uses/',
@@ -5048,6 +5226,7 @@ module.exports = [
   },
   {
     name: 'Gavin Pereira',
+    github: 'pexeixv',
     description: 'Graphic designer & frontend developer from Goa, India',
     url: 'https://gavinpereira.in/uses',
     twitter: '@pexeixv',
@@ -5075,6 +5254,7 @@ module.exports = [
   },
   {
     name: 'Tim Mouskhelichvili',
+    github: 'TimMouskhelichvili',
     description: 'Freelance Developer & Consultant from Montreal, Canada',
     url: 'https://timmousk.com/uses/',
     twitter: '@tim_mousk',
@@ -5095,6 +5275,7 @@ module.exports = [
   },
   {
     name: 'Jayden Garridan Bridges',
+    github: 'jackeyjack1',
     description: 'Teacher. Web Developer.',
     url: 'https://foreverliketh.is/docs/assortments/uses/',
     emoji: '🌱',
@@ -5114,6 +5295,7 @@ module.exports = [
   },
   {
     name: 'Vladimir Vo',
+    github: 'v1in',
     description: 'Frontend developer with passion for great product design',
     url: 'https://vldmr.website/uses',
     twitter: '@v1in_',
@@ -5138,6 +5320,7 @@ module.exports = [
   },
   {
     name: 'Joseph Shambrook',
+    github: 'josephshambrook',
     description: 'Front-end developer based in Edinburgh, UK',
     url: 'https://josephshambrook.dev/uses',
     emoji: '👋',
@@ -5172,6 +5355,7 @@ module.exports = [
   },
   {
     name: 'Andy Cetnarskyj',
+    github: 'just-andy',
     description: 'Design Systems Designer from Edinburgh, UK',
     url: 'https://www.just-andy.uk/uses',
     twitter: '@justandydesign1',
@@ -5197,6 +5381,7 @@ module.exports = [
   },
   {
     name: 'Arvin Zhao',
+    github: 'ArvinZJC',
     description: 'An introverted geek with great passion.',
     url: 'https://isarvin.com/uses',
     twitter: '@arvinzjc',
@@ -5241,6 +5426,7 @@ module.exports = [
   },
   {
     name: 'Akash Rajpurohit',
+    github: 'AkashRajpurohit',
     description: 'Software Engineer',
     url: 'https://akashrajpurohit.com/uses',
     twitter: '@AkashWhoCodes',
@@ -5269,6 +5455,7 @@ module.exports = [
   },
   {
     name: 'Lukas Leuba',
+    github: 'lkslba',
     description: 'IT-Guy',
     url: 'https://lukasleuba.ch/uses/',
     emoji: '🔥',
@@ -5292,6 +5479,7 @@ module.exports = [
   },
   {
     name: 'Marko Kaartinen',
+    github: 'MarkoKaartinen',
     description:
       'Web developer / entrepreneur / geek from Kuopio Finland who makes pizza and burgers at freetime. Also some gaming and well of course personal projects.',
     url: 'https://markok.dev/uses',
@@ -5317,6 +5505,7 @@ module.exports = [
   },
   {
     name: 'Bala Hantsi',
+    github: 'bhantsi',
     description:
       'Software developer, full stack developer (in training), lately focused on frontend. Enjoy traveling and gaming.',
     url: 'https://github.com/bhantsi/uses',
@@ -5344,6 +5533,7 @@ module.exports = [
   },
   {
     name: 'Lasha Tatulashvili',
+    github: 'lashatatu',
     description: 'Frontend DEV from Tbilisi, Georgia',
     url: 'https://lashatatu.dev/uses',
     twitter: '@lashatatu',
@@ -5368,6 +5558,7 @@ module.exports = [
   },
   {
     name: 'Renan Moura',
+    github: 'renanmouraf',
     description:
       'Posts for anyone looking to go deeper into Python and find practical ways to apply it in the fields of Web Development, Data Science and Machine Learning',
     url: 'https://renanmf.com/uses',
@@ -5390,6 +5581,7 @@ module.exports = [
   },
   {
     name: 'David Vidmar',
+    github: 'davidvidmar',
     description:
       'Technology realist obsessed with digital challenges. IT manager, developer, software architect, technology evangelist and marketing manager.',
     url: 'https://vidmar.net/uses',
@@ -5410,6 +5602,7 @@ module.exports = [
   },
   {
     name: 'Lazar Miseljic',
+    github: 'fuzzylogicltd',
     description: "Front end, but doesn't mind taking a look round the back",
     url: 'https://fuzzylogic.ltd/uses',
     emoji: '🌵',
@@ -5455,6 +5648,7 @@ module.exports = [
   },
   {
     name: 'Eduar Bastidas',
+    github: 'mreduar',
     description: 'Full Stack Web Developer',
     url: 'https://mreduar.dev/uses/',
     twitter: '@mreduar',
@@ -5482,6 +5676,7 @@ module.exports = [
   },
   {
     name: 'Albert Zhang',
+    github: 'AlbertAZ1992',
     description: 'Developer, Designer, Artist, Podcaster, Sports enthusiast.',
     url: 'https://www.albertaz.com/uses',
     twitter: '@Az1992Albert',
@@ -5504,6 +5699,7 @@ module.exports = [
   },
   {
     name: 'Bumhan "B" Yu',
+    github: 'baadaa',
     description:
       '"B" as in bald. Designer who writes code—with backgrounds in psychology and linguistics',
     url: 'https://bald.design/uses',
@@ -5535,6 +5731,7 @@ module.exports = [
   },
   {
     name: 'Yassine Bridi',
+    github: 'yassinebridi',
     description: 'Developer, Designer, Creator',
     url: 'https://yasbr.com/uses',
     twitter: '@yassinebridi',
@@ -5555,6 +5752,7 @@ module.exports = [
   },
   {
     name: 'Matt Burns',
+    github: 'iammattburns',
     description: 'Full Stack Developer, Lego Builder, Beer Drinker, UK',
     url: 'https://iammattburns.dev/uses',
     twitter: '@iammattburns',
@@ -5578,6 +5776,7 @@ module.exports = [
   },
   {
     name: 'Tom Gooden',
+    github: 'good3n',
     description:
       'Born at a very young age. Front-end developer - UX/UI designer. 🐙',
     url: 'https://tomgooden.net/uses',
@@ -5609,6 +5808,7 @@ module.exports = [
   },
   {
     name: 'Marc-André Bombeck',
+    github: 'MBombeck',
     description: 'IT-Project-Manager, Network-Administrator from Germany',
     url: 'https://bombeck.io/uses',
     twitter: '@mbombeck',
@@ -5629,6 +5829,7 @@ module.exports = [
   },
   {
     name: 'Ben Lau',
+    github: 'bensanlau',
     description:
       'Frontend web developer. From Melbourne, Australia. Now in Berlin, Germany.',
     url: 'https://benlau.net/uses/',
@@ -5641,6 +5842,7 @@ module.exports = [
   },
   {
     name: 'Markus Birth',
+    github: 'mbirth',
     description: 'IT Geek. From Berlin, Germany. Now in London, UK.',
     url: 'https://blog.mbirth.uk/uses',
     mastodon: '@mbirth@mbirth.uk',
@@ -5653,6 +5855,7 @@ module.exports = [
   },
   {
     name: 'Manuel Coiai',
+    github: 'viralk',
     description: 'Creative front-end developer living in Pisa, Italy',
     url: 'https://github.com/viralk/uses',
     emoji: '🔥',
@@ -5663,6 +5866,7 @@ module.exports = [
   },
   {
     name: 'Tim Leland',
+    github: 'timleland',
     description: 'Full-Stack developer and Blogger.',
     url: 'https://timleland.com/uses',
     twitter: '@timleland',
@@ -5689,6 +5893,7 @@ module.exports = [
   },
   {
     name: 'Randall Wilk',
+    github: 'rawilk',
     description: 'Full-Stack Laravel Developer.',
     url: 'https://randallwilk.dev/uses',
     twitter: '@wilkrandall',
@@ -5714,6 +5919,7 @@ module.exports = [
   },
   {
     name: 'Reinhart Previano Koentjoro',
+    github: 'reinhart1010',
     description:
       'The first "IT superhero" in Indonesia who transformed to Shift this world.',
     url: 'https://reinhart1010.id/uses',
@@ -5788,6 +5994,7 @@ module.exports = [
   },
   {
     name: 'Melanie Kat',
+    github: 'ZicklePop',
     description: 'Silly front-end engineer (she/her)',
     url: 'https://melkat.blog/p/uses',
     twitter: '@zicklepop',
@@ -5799,6 +6006,7 @@ module.exports = [
   },
   {
     name: 'Dale Larroder',
+    github: 'dlarroder',
     description:
       'Software Engineer, React, TypeScript and Mechanical Keyboards!',
     url: 'https://www.dalelarroder.com/uses',
@@ -5822,6 +6030,7 @@ module.exports = [
   },
   {
     name: 'Salma Alam-Naylor',
+    github: 'whitep4nth3r',
     description: 'I write code for your entertainment.',
     url: 'https://whitep4nth3r.com/uses',
     bluesky: 'whitep4nth3r.com',
@@ -5840,6 +6049,7 @@ module.exports = [
   },
   {
     name: 'Luke Oliff',
+    github: 'lukeocodes',
     description:
       'I am a seasoned Developer Experience Engineer with a rich background in Software Development.',
     url: 'https://lukeocodes.dev/uses',
@@ -5861,6 +6071,7 @@ module.exports = [
   },
   {
     name: 'Kevin Lewis',
+    github: 'phazonoverload',
     description:
       'I am a developer relations person who loves community and education. Brit in Germany.',
     url: 'https://lws.io/blog/uses',
@@ -5879,6 +6090,7 @@ module.exports = [
   },
   {
     name: 'Bill Sullivan',
+    github: 'enkrates',
     description:
       'Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur',
     url: 'https://billsullivan.name/uses/',
@@ -5899,6 +6111,7 @@ module.exports = [
   },
   {
     name: 'Amit Dhamu',
+    github: 'adhamu',
     description:
       'Software Engineer, Formula 1 Addict, Tech Junkie, Hip-Hop Head',
     url: 'https://amitd.co/uses',
@@ -5924,6 +6137,7 @@ module.exports = [
   },
   {
     name: 'Dominik Gallitzendörfer',
+    github: 'Nharox',
     description:
       'Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.',
     url: 'https://nharox.com/uses',
@@ -5949,6 +6163,7 @@ module.exports = [
   },
   {
     name: 'Andrei Hudovich',
+    github: 'ahudovich',
     description: 'Freelance Front-end Engineer, Web Enthusiast, Cat Lover.',
     url: 'https://hudovich.dev/uses/',
     twitter: '@andrei_hudovich',
@@ -5979,6 +6194,7 @@ module.exports = [
   },
   {
     name: 'Andrej Gajdos',
+    github: 'AndrejGajdos',
     description: 'Startup CTO | Tech Lead | Software Architect | Dev',
     url: 'https://andrejgajdos.com/uses/',
     twitter: '@Andrej_Gajdos',
@@ -6008,6 +6224,7 @@ module.exports = [
   },
   {
     name: 'Emmanuel Gautier',
+    github: 'emmanuelgautier',
     description:
       'Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.',
     url: 'https://www.emmanuelgautier.com/uses',
@@ -6039,6 +6256,7 @@ module.exports = [
   },
   {
     name: 'Joseph Jude',
+    github: 'jjude',
     description: 'CTO | Podcast Host | Indie Developer | Homeschooling Dad',
     url: 'https://jjude.com/uses/',
     twitter: '@jjude',
@@ -6057,6 +6275,7 @@ module.exports = [
   },
   {
     name: 'Mahesh Rijal',
+    github: 'maheshrijal',
     description: 'Human, Troubleshooter, Amateur Swimmer, Reader',
     url: 'https://maheshrijal.com/uses',
     emoji: '🚀',
@@ -6067,6 +6286,7 @@ module.exports = [
   },
   {
     name: 'Alan Redzepagic',
+    github: 'eskimm',
     description: 'Front-end development, web native, tech enthusiast',
     url: 'https://alanred.me/uses',
     twitter: '@allanred',
@@ -6094,6 +6314,7 @@ module.exports = [
   },
   {
     name: 'MITSUBOSHI Yuya',
+    github: 'MITSUBOSHI',
     description: 'Software Engineer',
     url: 'https://github.com/MITSUBOSHI/uses',
     emoji: '⭐',
@@ -6113,6 +6334,7 @@ module.exports = [
   },
   {
     name: 'Vega Deftwing',
+    github: 'VegaDeftwing',
     description: 'Furry forging firmware from frustration',
     url: 'https://opguides.info/posts/uses/',
     twitter: '@Vega_DW',
@@ -6132,6 +6354,7 @@ module.exports = [
   },
   {
     name: 'Oscar Marion',
+    github: '0scrm',
     description: 'French front-end engineer based in Brussels.',
     url: 'https://www.oscarmarion.dev/uses',
     twitter: '@OscarMarion',
@@ -6211,6 +6434,7 @@ module.exports = [
   },
   {
     name: 'Amr Diab',
+    github: 'amrhdiab',
     description:
       'Web Developer, open-source enthusiast, gamer, and lifelong learner.',
     url: 'https://www.amrdiab.dev/uses',
@@ -6240,6 +6464,7 @@ module.exports = [
   },
   {
     name: 'Thiago Avelino',
+    github: 'avelino',
     description:
       '🧙‍♂️ Open Source Engineer at prestd, GitHub  Star - 🏊‍♂️🚴‍♂️🏃‍♂️ Triathlete (IRONMAN distance) - 🌱 ᴘʟᴀɴᴛ-ʙᴀsᴇᴅ',
     url: 'https://avelino.run/uses',
@@ -6297,6 +6522,7 @@ module.exports = [
   },
   {
     name: 'Himank Barve',
+    github: 'hbarve1',
     description: 'Full Stack JavaScript Developer, Open Source Enthusiast',
     url: 'https://hbarve1.com/uses',
     twitter: '@hbarve1',
@@ -6331,6 +6557,7 @@ module.exports = [
   },
   {
     name: 'Matthew Tao',
+    github: 'matthewyingtao',
     description:
       'Computer Science student who loves CSS. Focuses on the little things that make a website delightful.',
     url: 'https://www.matthewtao.com/uses',
@@ -6355,6 +6582,7 @@ module.exports = [
   },
   {
     name: 'William Chin',
+    github: 'WilliamCF',
     description:
       'Web Developer, Product Manager, Digital Marketer, always trying to learn more.',
     url: 'https://yourdigitalaid.com/uses/',
@@ -6377,6 +6605,7 @@ module.exports = [
   },
   {
     name: 'Marcin Dyguda',
+    github: 'marcindyguda',
     description:
       'Head of Engineering, Entrepreneur-wannabe, product leader and team builder at heart',
     url: 'https://www.dyguda.com/uses/',
@@ -6389,6 +6618,7 @@ module.exports = [
   },
   {
     name: 'Angélique Weger',
+    github: 'angeliquejw',
     description: 'engineering manager :: adjunct prof :: always learning',
     url: 'https://angeliqueweger.com/uses',
     twitter: '@messypixels',
@@ -6415,6 +6645,7 @@ module.exports = [
   },
   {
     name: 'Seagyn Davis',
+    github: 'seagyn',
     description: 'Full stack human. Hobby runner. Mainly a husband and dad.',
     url: 'https://www.seagyndavis.com/uses',
     twitter: '@seagyn',
@@ -6438,6 +6669,7 @@ module.exports = [
   },
   {
     name: 'Simon Smale',
+    github: 'SSmale',
     description: 'Full Stack Developer and beginner digital gardener',
     url: 'https://github.com/SSmale/uses',
     twitter: '@iamsimonsmale',
@@ -6459,6 +6691,7 @@ module.exports = [
   },
   {
     name: 'Anand Reddy Pandikunta',
+    github: 'ChillarAnand',
     description: 'Writer, Blogger & Day dreamer.',
     url: 'https://avilpage.com/uses.html',
     emoji: '🌱',
@@ -6480,6 +6713,7 @@ module.exports = [
   },
   {
     name: 'Amolith',
+    github: 'Amolith',
     description:
       'Musician, developer, sysadmin, co-host of the Linux Lads, small business owner, and founder of not-for-profit NixNet',
     url: 'https://secluded.site/uses/',
@@ -6506,6 +6740,7 @@ module.exports = [
   },
   {
     name: 'Aleksey Razbakov',
+    github: 'razbakov',
     description: 'Indie Hacker. Web Developer. Salsa Dancer.',
     url: 'https://razbakov.com/uses/',
     twitter: '@razbakov',
@@ -6532,6 +6767,7 @@ module.exports = [
   },
   {
     name: 'Ayush Gupta',
+    github: 'gupta-ji6',
     description:
       'React & React Native developer, passionate photographer, technical writer and occasionaly designer.',
     url: 'https://ayushgupta.tech/uses/',
@@ -6562,6 +6798,7 @@ module.exports = [
   },
   {
     name: 'Alvin Bryan',
+    github: 'alvinometric',
     description: 'Loves coding maps, graphics and games.',
     url: 'https://alvin.codes/uses',
     twitter: '@alvinometric',
@@ -6573,6 +6810,7 @@ module.exports = [
   },
   {
     name: 'S. M. Abdul Aziz',
+    github: 'sayemon10',
     description: 'designer <=> developer',
     url: 'https://www.sayemon10.com/uses',
     country: '🇧🇩',
@@ -6604,6 +6842,7 @@ module.exports = [
   },
   {
     name: 'Taisuke Mino',
+    github: 'taisukemino',
     description: 'Crypto Entrepreneur',
     url: 'https://taisukemino.com/uses/',
     emoji: '☀️',
@@ -6624,6 +6863,7 @@ module.exports = [
   },
   {
     name: "Shawn D'silva",
+    github: 'shawn-dsilva',
     description:
       'Full Stack Web Developer, Designer and Embedded Systems enthusiast',
     url: 'https://www.shawndsilva.com/uses',
@@ -6648,6 +6888,7 @@ module.exports = [
   },
   {
     name: 'Sreetam Das',
+    github: 'sreetamdas',
     description:
       'Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!',
     url: 'https://sreetamdas.com/uses',
@@ -6671,6 +6912,7 @@ module.exports = [
   },
   {
     name: 'Maxim Villivald',
+    github: 'villivald',
     description:
       'Web Developer, IT Student 👨‍💻, Blogger & part time Tram Driver 🚃.',
     url: 'https://villivald.com/uses',
@@ -6692,6 +6934,7 @@ module.exports = [
   },
   {
     name: 'Matt Holovach',
+    github: 'seoMattH',
     description: 'Loves SEO, improving coding skills and good food',
     url: 'https://www.coloradoseodesign.com/uses.php',
     emoji: '✝',
@@ -6712,6 +6955,7 @@ module.exports = [
   },
   {
     name: 'Bradley Shellnut',
+    github: 'BradNut',
     description:
       'Fullstack software engineer who loves learning new things. Also music 🎶, hiking ⛰️, and cocktails 🍸.',
     url: 'https://bradleyshellnut.com/uses',
@@ -6731,6 +6975,7 @@ module.exports = [
   },
   {
     name: 'Justin De Leon',
+    github: 'jusdeleon',
     description: 'Coding, video games, and pizza 🍕',
     url: 'https://jusdeleon.vercel.app/uses',
     emoji: '🤓',
@@ -6741,6 +6986,7 @@ module.exports = [
   },
   {
     name: 'Sascha Diercks',
+    github: 'saschadiercks',
     description:
       'Building Solutions as Lead Frontend Developer • Designer & Maker of useful Things too • Into Design-Systems and Web-Performance',
     url: 'https://saschadiercks.de/uses/',
@@ -6768,6 +7014,7 @@ module.exports = [
   },
   {
     name: 'Jordi Ollé Ballesté',
+    github: 'jolle11',
     description: 'Full Stack Dev, mountain lover, minimalism embracer',
     url: 'https://jordi-olle.com/uses',
     twitter: '@jordi0lle',
@@ -6788,6 +7035,7 @@ module.exports = [
   },
   {
     name: 'Joshua Rose',
+    github: 'Joshua-rose',
     description:
       'Loves Christ, loves family, loves programming, full stack dev',
     url: 'https://jrgiant.tech/uses',
@@ -6814,6 +7062,7 @@ module.exports = [
   },
   {
     name: 'Victor Pierre Alves',
+    github: 'victorpierredev',
     description:
       'Senior Software Engineer. I mostly code in Go these days. I live in Canada.',
     url: 'https://victorpierre.dev/uses',
@@ -6838,6 +7087,7 @@ module.exports = [
   },
   {
     name: 'Christian Tietze',
+    github: 'DivineDominion',
     description: 'Mac app dev, Zettelkasten zealot, tinkerer and writer',
     url: 'https://christiantietze.de/uses',
     twitter: '@ctietze',
@@ -6849,6 +7099,7 @@ module.exports = [
   },
   {
     name: 'Diego Costa',
+    github: 'diegocoxta',
     description: 'Engineering Manager and Full-stack software engineer',
     url: 'https://diegocosta.me/uses',
     twitter: '@diegocoxta',
@@ -6879,6 +7130,7 @@ module.exports = [
   },
   {
     name: 'Jeremiah Boby',
+    github: 'jerbob',
     description: 'Python developer specialising in web tech',
     url: 'https://jerbob.me/uses',
     twitter: '@jerbob17',
@@ -6890,6 +7142,7 @@ module.exports = [
   },
   {
     name: 'Haryel Gillet',
+    github: 'jcubic',
     description: 'FullStack Developer focused on Backend',
     url: 'https://peaceful-leavitt-25b1d3.netlify.app/uses',
     twitter: '@haryel_dev',
@@ -6911,6 +7164,7 @@ module.exports = [
   },
   {
     name: 'Stefan Zweifel',
+    github: 'stefanzweifel',
     description:
       'Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.',
     url: 'https://stefanzweifel.dev/uses/',
@@ -6936,6 +7190,7 @@ module.exports = [
   },
   {
     name: 'Christopher Kruse',
+    github: 'ballpointcarrot',
     description:
       'lifelong tech nerd, DevOps and Tools builder, dad, and choral singer',
     url: 'https://www.ballpointcarrot.net/uses/',
@@ -6960,6 +7215,7 @@ module.exports = [
   },
   {
     name: 'Rowe Morehouse',
+    github: 'rowe-morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
     url: 'https://rowe-morehouse.github.io/resume/uses/',
@@ -6984,6 +7240,7 @@ module.exports = [
   },
   {
     name: 'Erik Hedin',
+    github: 'erikhedin',
     description: 'Full-stack Web Developer',
     url: 'https://www.erikhedin.com/uses/',
     twitter: '@erikhedin',
@@ -7004,6 +7261,7 @@ module.exports = [
   },
   {
     name: 'Alyssa Holland',
+    github: 'Cool-Runningz',
     description:
       'Frontend developer with a passion for learning! Writes about programming and productivity tips.',
     url: 'https://www.alyssaholland.com/uses/',
@@ -7027,6 +7285,7 @@ module.exports = [
   },
   {
     name: 'Andrew Gilliland',
+    github: 'andrewgilliland',
     description:
       'Web Developer, Co-Organizer Pensacola Devs, Certified Personal Trainer, Yacht Rocker, and Brand Ambassador for Blockbuster Video',
     url: 'https://www.andrewgilliland.dev/uses/',
@@ -7048,6 +7307,7 @@ module.exports = [
   },
   {
     name: 'Adi Purnomo',
+    github: 'medival',
     description: 'Front End Developer x Network Engineer',
     url: 'https://github.com/medival/uses/',
     twitter: '@lemillionee',
@@ -7093,6 +7353,7 @@ module.exports = [
   },
   {
     name: 'Patrik Trefil',
+    github: 'PatrikTrefil',
     description: 'Developer from Europe, Linux and open-source fan',
     url: 'https://patriktrefil.com/uses/',
     twitter: '@PatrikTrefil',
@@ -7132,6 +7393,7 @@ module.exports = [
   },
   {
     name: 'Michael Kitzman',
+    github: 'mkitzman',
     description:
       'Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.',
     url: 'https://www.michaelkitzman.com/uses',
@@ -7157,6 +7419,7 @@ module.exports = [
   },
   {
     name: 'Philip Boardman',
+    github: 'pbrdmn',
     description: 'Software Engineering Manager, Full Stack Developer',
     url: 'https://brd.mn/uses/',
     twitter: '@pbrdmn',
@@ -7185,6 +7448,7 @@ module.exports = [
   },
   {
     name: 'Martín Morales',
+    github: 'martinmoralesg',
     description: 'Android Mobile Developer, Mechatronic Engineer',
     url: 'https://mrtnmrls.com/uses/',
     twitter: '@isthemartin',
@@ -7205,6 +7469,7 @@ module.exports = [
   },
   {
     name: 'Sheila Leon',
+    github: 'sheilaleon',
     description: 'Self-taught Front-end Dev, Designer & Product Manager',
     url: 'https://sheilaleon.tech/uses/',
     twitter: '@kan',
@@ -7245,6 +7510,7 @@ module.exports = [
   },
   {
     name: 'Rubén Sospedra',
+    github: 'sospedra',
     description: 'JavaScript Software Engineer, speaker, and trainer',
     url: 'https://sospedra.me/uses',
     emoji: '💊',
@@ -7268,6 +7534,7 @@ module.exports = [
   },
   {
     name: 'Juan Villela',
+    github: 'fourjuaneight',
     description: 'I like websites. Occasionally, I make them.',
     url: 'https://cleverlaziness.xyz/uses/',
     twitter: '@fourjuaneight',
@@ -7290,6 +7557,7 @@ module.exports = [
   },
   {
     name: 'Zack Apiratitham',
+    github: 'vatthikorn',
     description:
       'Software developer, nerd, unapologetically Asian, 🇹🇭 “alien” living in 🇺🇸. My name is actually not Zack.',
     url: 'https://vatthikorn.com/uses',
@@ -7314,6 +7582,7 @@ module.exports = [
   },
   {
     name: 'Mikaleb',
+    github: 'Mikaleb',
     description: 'Web developer - Web, TS, Vue',
     url: 'https://mikaleb.com/uses/',
     country: '🇫🇷',
@@ -7326,6 +7595,7 @@ module.exports = [
   },
   {
     name: 'Jeromey Balderrama',
+    github: 'romeyinfc',
     description: 'Web Developer, Designer, Photographer, Drummer',
     url: 'https://balderromey.com/uses/',
     emoji: '🥁',
@@ -7377,6 +7647,7 @@ module.exports = [
   },
   {
     name: 'Dennis Mathenge',
+    github: 'creativehubspace',
     description: 'Web Developer',
     url: 'https://creativehubspace.com/uses',
     twitter: '@_dennisnm',
@@ -7423,6 +7694,7 @@ module.exports = [
   },
   {
     name: 'Ali Alaa',
+    github: 'alialaa',
     description: 'Front-end web developer & online learning content creator.',
     url: 'https://www.alialaa.dev/uses',
     twitter: '@alialaa',
@@ -7445,6 +7717,7 @@ module.exports = [
   },
   {
     name: 'Devansh Bajaj',
+    github: 'DevanshBajaj',
     description:
       '21 | M | Front End | Web Developer | Freelancer | Android enthusiast',
     url: 'https://devanshbajaj.dev/uses',
@@ -7470,6 +7743,7 @@ module.exports = [
   },
   {
     name: 'Ivan Muratov',
+    github: 'binakot',
     description:
       'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
     url: 'https://binakot.github.io/resume/uses',
@@ -7490,6 +7764,7 @@ module.exports = [
   },
   {
     name: 'David V. Kimball',
+    github: 'davidvkimball',
     description:
       'Digital marketing professional. Loves technology and communication, especially together.',
     url: 'https://davidvkimball.com/uses',
@@ -7544,6 +7819,7 @@ module.exports = [
   },
   {
     name: 'Carlos Longarela',
+    github: 'CarlosLongarela',
     description:
       'I enjoy solving problems and creating new stuff. WordPress lover and developer. Standards enthusiast',
     url: 'https://github.com/CarlosLongarela/uses/',
@@ -7563,6 +7839,7 @@ module.exports = [
   },
   {
     name: 'Monespiseth Ly',
+    github: 'pisethx',
     description: 'Frontend Developer, JavaScript Enthusiast',
     url: 'https://pisethx.com/uses',
     twitter: '@pisethx',
@@ -7583,6 +7860,7 @@ module.exports = [
   },
   {
     name: 'Christian Oliff',
+    github: 'coliff',
     description: 'Front-end web developer person.',
     url: 'https://christianoliff.com/uses/',
     twitter: '@christianoliff',
@@ -7594,6 +7872,7 @@ module.exports = [
   },
   {
     name: 'Mauro Reis Vieira',
+    github: 'mauroreisvieira',
     description:
       'Front End Developer, fully focused on JavaScript, React and Tailwind CSS',
     url: 'https://mauroreisvieira.com/uses/',
@@ -7615,6 +7894,7 @@ module.exports = [
   },
   {
     name: 'Caneco',
+    github: 'caneco',
     description: 'Fullstack Developer at #Medicare',
     url: 'https://caneco.dev/uses',
     twitter: '@caneco',
@@ -7638,6 +7918,7 @@ module.exports = [
   },
   {
     name: 'Thomas Sambruni',
+    github: 'tsambruni',
     description: 'Cloud Data Engineer',
     url: 'https://www.tsambruni.dev/uses',
     emoji: '🫡',
@@ -7656,6 +7937,7 @@ module.exports = [
   },
   {
     name: 'John Irle',
+    github: 'JohnIrle',
     description: 'Graduate Student, Intern Developer at Charter and Go',
     url: 'https://johnirle.com/blog/uses',
     twitter: '@IrleJohn',
@@ -7667,6 +7949,7 @@ module.exports = [
   },
   {
     name: 'Prashant Bhapkar',
+    github: 'Prashant-Bhapkar',
     description: 'Developer, Entrepreneur, Content Creator',
     url: 'https://github.com/Prashant-Bhapkar/uses',
     twitter: '@PBBhapkar',
@@ -7695,6 +7978,7 @@ module.exports = [
   },
   {
     name: 'Diana García',
+    github: 'dianaeligg',
     description: 'Diana likes to code, to teach and to game',
     url: 'https://dianaeli.netlify.app/uses',
     twitter: '@dianaeligg',
@@ -7772,6 +8056,7 @@ module.exports = [
   },
   {
     name: 'Adam DeHaven',
+    github: 'adamdehaven',
     description:
       'Senior Staff Engineer. Open-Source. DX & UX. Travel. Louisville, Kentucky is home.',
     url: 'https://www.adamdehaven.com/uses/',
@@ -7799,6 +8084,7 @@ module.exports = [
   },
   {
     name: 'Nicolas M. Pardo',
+    github: 'Nikodermus',
     description: 'JavaScript Developer and teacher at debakatas.com',
     url: 'https://nikodermus.media/uses',
     twitter: '@ndermus',
@@ -7838,6 +8124,7 @@ module.exports = [
   },
   {
     name: 'Satyam Lachhwani',
+    github: 'Satyam1203',
     description:
       "Web developer - Exploring ways to find out what's good for me.",
     url: 'https://portfolio-satyam.now.sh/uses',
@@ -7875,6 +8162,7 @@ module.exports = [
   },
   {
     name: 'Matt Gregg',
+    github: 'itwasmattgregg',
     description:
       'Front end software engineer. Baker. Woodworker. Musician. Nerd.',
     url: 'https://codegregg.com/uses',
@@ -7931,6 +8219,7 @@ module.exports = [
   },
   {
     name: 'Gabriele Girelli',
+    github: 'ggirelli',
     description: 'Sr. Bioinformagician',
     url: 'https://ggirelli.info/uses',
     emoji: '🐿️',
@@ -7976,6 +8265,7 @@ module.exports = [
   },
   {
     name: 'Camille Hodoul',
+    github: 'camille-hdl',
     description: 'Remote fullstack developer, mostly Javascript & PHP',
     url: 'https://camillehdl.dev/uses/',
     twitter: '@camille_hdl',
@@ -7995,6 +8285,7 @@ module.exports = [
   },
   {
     name: 'Diogo Ferreira',
+    github: 'uzantonomon',
     description:
       'Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.',
     url: 'https://diogoferreira.pt/uses',
@@ -8007,6 +8298,7 @@ module.exports = [
   },
   {
     name: 'Swapnil Agarwal',
+    github: 'swapagarwal',
     description:
       'Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader',
     url: 'https://swapnil.net/uses/',
@@ -8037,6 +8329,7 @@ module.exports = [
   },
   {
     name: 'Zlatan Stajic',
+    github: 'zlatanstajic',
     description:
       'M.Sc. in Computer Science. Working as Software Developer. Creator of libraryfy.com.',
     url: 'https://www.zlatanstajic.com/uses',
@@ -8071,6 +8364,7 @@ module.exports = [
   },
   {
     name: 'Guillaume Briday',
+    github: 'guillaumebriday',
     description: 'Senior Full Stack developer and DevOps',
     url: 'https://guillaumebriday.fr/uses',
     twitter: '@guillaumebriday',
@@ -8092,6 +8386,7 @@ module.exports = [
   },
   {
     name: 'Brian Hamburg',
+    github: 'bhamburg',
     description: 'Software Engineer, Designer, and Musician',
     url: 'https://burgbits.com/uses',
     bluesky: 'burgbits.bsky.social',
@@ -8115,6 +8410,7 @@ module.exports = [
   },
   {
     name: 'Alexey Staroselets',
+    github: 'kalliostro',
     description: 'Graphic Designer, Visual Artist, Typography Enthusiast',
     url: 'https://alexeystar.com/uses',
     mastodon: '@alexeystar@mas.to',
@@ -8138,6 +8434,7 @@ module.exports = [
   },
   {
     name: 'Emanuele Bartolesi',
+    github: 'kasuken',
     description: 'Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐',
     url: 'https://www.emanuelebartolesi.com/uses',
     twitter: '@kasuken',
@@ -8157,6 +8454,7 @@ module.exports = [
   },
   {
     name: 'Patrick Lee',
+    github: 'patleeman',
     description:
       'Software Engineer, Engineering Manager, and Productivity tool nerd',
     url: 'https://patricklee.nyc/uses',
@@ -8173,6 +8471,7 @@ module.exports = [
   },
   {
     name: 'Ajmal Afif',
+    github: 'ajmalafif',
     description: 'Digital designer',
     url: 'https://ajmalafif.com/uses',
     twitter: '@ajmalafif',
@@ -8195,6 +8494,7 @@ module.exports = [
   },
   {
     name: 'Erik Kroes',
+    github: 'erikkroes',
     description: 'Photographer and creative in the world of accessibility',
     url: 'https://www.erikkroes.nl/uses',
     twitter: '@erikkroes',
@@ -8216,6 +8516,7 @@ module.exports = [
   },
   {
     name: 'Ben Myers',
+    github: 'BenDMyers',
     description: 'Web developer. Accessibility advocate. Human T-rex.',
     url: 'https://benmyers.dev/uses/',
     twitter: '@BenDMyers',
@@ -8240,6 +8541,7 @@ module.exports = [
   },
   {
     name: 'Christian Goben',
+    github: 'christiangoben',
     description:
       'Software engineer, problem solver, automation sorcerer. On an endless pursuit for good coffee.',
     url: 'https://christiangoben.com/uses',
@@ -8259,6 +8561,7 @@ module.exports = [
   },
   {
     name: 'Alex Duval',
+    github: 'xlanex6',
     description: 'Fullstack Dev, Teacher, Freeride skier',
     url: 'https://www.alexduval.fr/uses',
     twitter: '@xlanex6',
@@ -8280,6 +8583,7 @@ module.exports = [
   },
   {
     name: 'Dave Redfern',
+    github: 'daveredfern',
     description:
       'I design and develop user‑centered experiences that deliver measurable returns.',
     url: 'https://daveredfern.com/uses',
@@ -8302,6 +8606,7 @@ module.exports = [
   },
   {
     name: 'Michael DeMarco',
+    github: 'michaelfromyeg',
     description: 'Toolmaker, tinkerer, and teacher.',
     url: 'https://www.michaeldemar.co/uses',
     twitter: '@michaelfromyeg',
@@ -8337,6 +8642,7 @@ module.exports = [
   },
   {
     name: 'Caro Appleby',
+    github: 'caro401',
     description:
       'Indie programmer, textile artist, musician, endlessly curious',
     url: 'https://caro.fyi/uses',
@@ -8358,6 +8664,7 @@ module.exports = [
   },
   {
     name: 'Trevor Morris',
+    github: 'jcubic',
     description:
       'I am a movie-loving, mountain-bike-riding web developer from the UK.',
     url: 'https://www.trovster.com/about/uses',
@@ -8380,6 +8687,7 @@ module.exports = [
   },
   {
     name: 'Nick Morris',
+    github: 'nickmorri',
     description:
       'I am a music-loving, dog having, skiing, software engineer from California living in NYC.',
     url: 'http://nickmorris.name/uses',
@@ -8402,6 +8710,7 @@ module.exports = [
   },
   {
     name: 'Gianluca Fabrizi',
+    github: 'gfabrizi',
     description: 'Fullstack Developer, DevOps, maker/tinkerer',
     url: 'https://gianlucafabrizi.dev/uses/',
     emoji: '👨‍🚀',
@@ -8445,6 +8754,7 @@ module.exports = [
   },
   {
     name: 'Matías Hernández',
+    github: 'matiasfh',
     description: 'Frontend Engineer, Podcaster, Father, Calisthenic Athlete',
     url: 'https://github.com/matiasfh/uses',
     twitter: '@matiasfha',
@@ -8469,6 +8779,7 @@ module.exports = [
   },
   {
     name: 'Sean Coker',
+    github: 'okcoker',
     description: 'Creator & Thinker. Sometimes simultaneously.',
     url: 'https://sean.is/using',
     twitter: '@okcoker',
@@ -8498,6 +8809,7 @@ module.exports = [
   },
   {
     name: 'Michael Bonner',
+    github: 'michaelbonner',
     description:
       'Full stack JavaScript and PHP developer in Salt Lake City, USA',
     url: 'https://michaelbonner.dev/uses',
@@ -8525,6 +8837,7 @@ module.exports = [
   },
   {
     name: 'Mark Nenadov',
+    github: 'MarkNenadov',
     description:
       'Full stack developer in the deep south of Canada (LaSalle, Ontario)',
     url: 'https://github.com/MarkNenadov/uses',
@@ -8558,6 +8871,7 @@ module.exports = [
   },
   {
     name: 'Filip Kalousek',
+    github: 'kaldaf',
     description: 'Frontend Developer & Idea Maker',
     url: 'https://blog.filipkalousek.cz/uses/setup',
     country: '🇨🇿',
@@ -8581,6 +8895,7 @@ module.exports = [
   },
   {
     name: 'Roger Li',
+    github: 'maptile',
     description:
       'A husband, a father, a software developer, a linux user, a cat lover',
     url: 'https://heihuatong.com/uses/',
@@ -8619,6 +8934,7 @@ module.exports = [
   },
   {
     name: 'Agu Valeriani',
+    github: 'avaleriani',
     description:
       'Software developer, previously more full stack, lately focused on frontend. Enjoy traveling and gaming.',
     url: 'https://agustinvaleriani.com/uses',
@@ -8646,6 +8962,7 @@ module.exports = [
   },
   {
     name: 'R74n',
+    github: 'slweeb',
     description: 'Web developer with many elaborate projects',
     url: 'https://r74n.com/uses',
     twitter: '@R74nCom',
@@ -8669,6 +8986,7 @@ module.exports = [
   },
   {
     name: 'Dennis Muensterer',
+    github: 'dnnsmnstrr',
     description: 'Inherently lazy and striving to do less.',
     url: 'https://muensterer.tech/uses',
     twitter: '@dnnsmnstrr',
@@ -8694,6 +9012,7 @@ module.exports = [
   },
   {
     name: 'Yash Singh',
+    github: 'Yash-Singh1',
     description: 'Fullstack web software developer',
     url: 'https://www.yashsingh.us/uses',
     country: '🇺🇸',
@@ -8720,6 +9039,7 @@ module.exports = [
   },
   {
     name: 'Celso Palmeira Neto',
+    github: 'celsopalmeiraneto',
     description: 'Software Engineer focused on Backend development',
     url: 'https://celsoneto.com.br/uses',
     country: '🇵🇹',
@@ -8739,6 +9059,7 @@ module.exports = [
   },
   {
     name: 'Gabor Gyure',
+    github: 'gabikasb',
     description:
       'Fullstack developer with lots of love for industry and engineering in Europe. In love with boardsports, the semantic and accessible web',
     url: 'https://www.gaborgyure.com/uses',
@@ -8768,6 +9089,7 @@ module.exports = [
   },
   {
     name: 'Ben Brougher',
+    github: 'moutansos',
     description:
       'Full stack enterprise web devloper from the Pacific Northwest.',
     url: 'https://benbrougher.tech/uses',
@@ -8796,6 +9118,7 @@ module.exports = [
   },
   {
     name: 'Diogo Moreira',
+    github: 'diogomoreira',
     description: 'Professor, Software Engineer and Researcher.',
     url: 'https://diogomoreira.dev/uses',
     twitter: '@diogodmoreira',
@@ -8822,6 +9145,7 @@ module.exports = [
   },
   {
     name: 'Philip Van Raalte',
+    github: 'FIL1994',
     description: 'Full Stack Developer that loves music',
     url: 'https://philvr.ca/uses',
     twitter: '@FIL1994',
@@ -8834,6 +9158,7 @@ module.exports = [
   },
   {
     name: 'Vincent Lejtzén',
+    github: 'lejtzen',
     description:
       'Front end developer with love for design, user experience and SEO.',
     url: 'https://lejtzendesign.se/uses',
@@ -8883,6 +9208,7 @@ module.exports = [
   },
   {
     name: 'Jakub Soboczyński',
+    github: 'teziovsky',
     description:
       'Frontend Developer, who actively explores other technologies and paths, including backend development, and contributes to open-source projects like Raycast, while also having a passion for automation and electronic music, particularly dark techno.',
     url: 'https://jakubsoboczynski.pl/uses',
@@ -8911,6 +9237,7 @@ module.exports = [
   },
   {
     name: 'Ian Emnace',
+    github: 'igemnace',
     description: 'Web developer. Unix citizen.',
     url: 'https://ig.emnace.org/uses.html',
     country: '🇵🇭',
@@ -8934,6 +9261,7 @@ module.exports = [
   },
   {
     name: 'Yves Engetschwiler',
+    github: 'bee-interactive',
     description:
       'Developer, cms enthusiast, bicycle traveler, content creator, Independent at Bee Interactive',
     url: 'http://bee-interactive.ch/uses',
@@ -8955,6 +9283,7 @@ module.exports = [
   },
   {
     name: 'Sapan Bodiwala',
+    github: 'sbodi10',
     description: 'Full Stack Software Engineer',
     url: 'https://sapanbodiwala.com/uses',
     twitter: '@sbodi10',
@@ -8979,6 +9308,7 @@ module.exports = [
   },
   {
     name: 'Neil Italia',
+    github: 'neilitalia',
     description: 'UI/UX Designer + Front-End Developer Unicorn Combo',
     url: 'https://blog.neilitalia.dev/uses/',
     emoji: '✨',
@@ -9024,6 +9354,7 @@ module.exports = [
   },
   {
     name: 'Felix Yeboah Jefferson',
+    github: 'jaeyholic',
     description: 'Fullstack Developer, UI Designer & a Nomad',
     url: 'https://jeffson.netlify.app/uses',
     twitter: '@jaeyholic',
@@ -9046,6 +9377,7 @@ module.exports = [
   },
   {
     name: 'Anubhav Srivastava',
+    github: 'anubhavmeet',
     description:
       'Web Developer. Occasional blogger. Part time open source contributor',
     url: 'https://theanubhav.com/uses',
@@ -9066,6 +9398,7 @@ module.exports = [
   },
   {
     name: 'Alexander Christiaan Jacob',
+    github: 'acjbizar',
     description:
       'A guy that does things, and thinks that having a reason for doing so is largely overrated.',
     url: 'https://alexanderchristiaanjacob.com/uses',
@@ -9088,6 +9421,7 @@ module.exports = [
   },
   {
     name: 'Ruben Janssen',
+    github: 'RubenJnl',
     description: 'Front-end Developer, Gadget G33k, Guild Lead',
     url: 'https://rubenjanssen.me/uses',
     twitter: '@RubenJ',
@@ -9109,6 +9443,7 @@ module.exports = [
   },
   {
     name: 'Nikola Đuza',
+    github: 'nikolalsvk',
     description:
       'Nikola helps developers improve their productivity by sharing pragmatic advice & applicable knowledge on JavaScript and Ruby.',
     url: 'https://pragmaticpineapple.com/uses',
@@ -9138,6 +9473,7 @@ module.exports = [
   },
   {
     name: 'Jens Oliver Meiert',
+    github: 'j9t',
     description: 'Engineering lead, anti-extractivist, indie publisher',
     url: 'https://meiert.com/uses/',
     mastodon: '@j9t@mas.to',
@@ -9158,6 +9494,7 @@ module.exports = [
   },
   {
     name: 'Nihar Samantaray',
+    github: 'niharokz',
     description: 'Banking Consultant, Software Engineer',
     url: 'https://nih.ar/uses/',
     emoji: '😂',
@@ -9183,6 +9520,7 @@ module.exports = [
   },
   {
     name: 'Josh Collinsworth',
+    github: 'josh-collinsworth',
     description:
       'Front end dev in love with all things Vue, Svelte, CSS, and WordPress. Works in Ruby on Rails.',
     url: 'https://joshcollinsworth.com/uses',
@@ -9210,6 +9548,7 @@ module.exports = [
   },
   {
     name: 'Amodu Kehinde',
+    github: 'iamkennis',
     description: 'MERN Stack Developer',
     url: 'https://amodukehinde.vercel.app/uses/',
     twitter: '@iamKennis_',
@@ -9241,6 +9580,7 @@ module.exports = [
   },
   {
     name: 'Manassarn "Noom" Manoonchai',
+    github: 'narze',
     description: 'Coding, Productivity, Technologies, macOS, Keyboard',
     url: 'https://garden.narze.live/uses',
     twitter: '@narze',
@@ -9260,6 +9600,7 @@ module.exports = [
   },
   {
     name: 'Ayoub Sousali',
+    github: 'ayoubsousali',
     description: 'Software Developer',
     url: 'https://www.sousali.com/blog/uses/',
     twitter: '@ayoubsousali1',
@@ -9279,6 +9620,7 @@ module.exports = [
   },
   {
     name: 'Jordan Haines',
+    github: 'Jordanairwave',
     description: 'Full Stack Web Developer',
     url: 'https://jordanairwave.co.uk/uses.html',
     twitter: '@jordanairwave',
@@ -9302,6 +9644,7 @@ module.exports = [
   },
   {
     name: 'Josh Corbett',
+    github: 'joshistoast',
     description: 'Developer by day, gamer by night.',
     url: 'https://toastyblog.com/uses',
     twitter: '@joshistoast',
@@ -9324,6 +9667,7 @@ module.exports = [
   },
   {
     name: 'Jay Tyrrell',
+    github: 'jaytyrrell13',
     description: 'Full Stack Developer',
     url: 'https://jaytyrrell.co/uses/',
     twitter: '@jaytyrrell13',
@@ -9335,6 +9679,7 @@ module.exports = [
   },
   {
     name: 'Eva Dee',
+    github: 'edieblu',
     description: 'Web Developer. Note-taker. Trying to Do Good.',
     url: 'https://includejs.dev/uses',
     twitter: '@GirlsCodeMK',
@@ -9356,6 +9701,7 @@ module.exports = [
   },
   {
     name: 'Nikita Karamov',
+    github: 'kytta',
     description:
       'A π-shaped Python & JavaScript developer who loves minimalism and linguistics',
     url: 'https://www.kytta.dev/uses',
@@ -9376,6 +9722,7 @@ module.exports = [
   },
   {
     name: 'Elio Struyf',
+    github: 'estruyf',
     description: 'Engineering Lead / Office Development MVP / Public Speaker',
     url: 'https://www.eliostruyf.com/uses',
     twitter: '@eliostruyf',
@@ -9398,6 +9745,7 @@ module.exports = [
   },
   {
     name: 'Matteo Scarpa alias Fundor333',
+    github: 'fundor333',
     description: 'Backend Pythonista with a Photocamera and a cup of tea',
     url: 'https://fundor333.com/uses',
     twitter: '@fundor333',
@@ -9421,6 +9769,7 @@ module.exports = [
   },
   {
     name: 'Jakub T. Jankiewicz',
+    github: 'jcubic',
     description:
       'Front-End Developer, Blogger, Teacher, Mentor, and Open Source programmer',
     url: 'https://jakub.jankiewicz.org/uses/',
@@ -9453,6 +9802,7 @@ module.exports = [
   },
   {
     name: 'Lucas Schumacher',
+    github: 'Aceto1',
     description: 'Fullstack Developer, IoT & DIY Enthusiast',
     url: 'https://aceto.dev/uses',
     twitter: '@aceto_ls',
@@ -9472,6 +9822,7 @@ module.exports = [
   },
   {
     name: 'Christian Lohr',
+    github: 'byte-bandit',
     description: 'Passionate Software Engineer & Life Long Learner',
     url: 'https://blog.bytewerk.io/uses/',
     mastodon: '@clohr@mastodon.social',
@@ -9531,6 +9882,7 @@ module.exports = [
   },
   {
     name: 'Jonas Jore',
+    github: 'JonasJore',
     description:
       'Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!',
     url: 'https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md',
@@ -9552,6 +9904,7 @@ module.exports = [
   },
   {
     name: 'Marko Haberl',
+    github: 'mhaberl',
     description: 'Fullstack Developer',
     url: 'https://marko-haberl.com/uses',
     twitter: '@marko_haberl',
@@ -9574,6 +9927,7 @@ module.exports = [
   },
   {
     name: 'Marcus Virginia',
+    github: 'MarcusVirg',
     description:
       'Software engineer specializing in web tech, amateur designer, & frequent flyer 🛩️.',
     url: 'https://marcusv.me/uses',
@@ -9598,6 +9952,7 @@ module.exports = [
   },
   {
     name: 'sheep',
+    github: 'jakiisheep',
     description: 'software engineer from zagreb, croatia',
     url: 'https://sheepdev.xyz/uses',
     emoji: '🐏',
@@ -9608,6 +9963,7 @@ module.exports = [
   },
   {
     name: 'Mario Sanchez Carrion',
+    github: 'mariobox',
     description: 'Junior Web Developer Based in Miami, FL',
     url: 'https://mariosanchez.org/uses/',
     twitter: '@mariobox',
@@ -9628,6 +9984,7 @@ module.exports = [
   },
   {
     name: 'Courtney/Lucy Gurll',
+    github: 'nidorina',
     description: 'Indie web revival appreciator and pink glitter fairy.',
     url: 'https://fairytale.magicalgurll.com/about/uses',
     emoji: '💖',
@@ -9659,6 +10016,7 @@ module.exports = [
   },
   {
     name: 'Anthony Del Rosario',
+    github: 'ADelRosarioH',
     description: 'Experienced Full Stack Software Engineer & Computers Lover',
     url: 'https://adelrosarioh.me/uses',
     twitter: '@adelrosarioh',
@@ -9686,6 +10044,7 @@ module.exports = [
   },
   {
     name: 'Sythe Veenje',
+    github: 'sytheveenje',
     description: 'Freelance Developer & Designer',
     url: 'https://sythe.nl/uses',
     twitter: '@sytheveenje',
@@ -9708,6 +10067,7 @@ module.exports = [
   },
   {
     name: 'Christopher Talke',
+    github: 'christopher-talke',
     description: 'ICT Professional / Fullstack Web Developer and Skateboarder',
     url: 'https://talke.dev/uses',
     twitter: '@cbtalke',
@@ -9728,6 +10088,7 @@ module.exports = [
   },
   {
     name: 'Ammar Alakkad',
+    github: 'AmmarCodes',
     description: 'Sr. Frontend Engineer',
     url: 'https://ammar.codes/uses/',
     twitter: '@AmmarCodes',
@@ -9750,6 +10111,7 @@ module.exports = [
   },
   {
     name: 'Marko Denic',
+    github: 'markodenic',
     description: 'Web Developer',
     url: 'https://markodenic.com/uses/',
     twitter: '@denicmarko',
@@ -9775,6 +10137,7 @@ module.exports = [
   },
   {
     name: 'Oleg Perchyk',
+    github: 'himynameisoleg',
     description: 'Web developer - also ride bmx and cook alot. :wq',
     url: 'https://himynameisoleg.com/uses',
     twitter: '@himynameisoleg',
@@ -9799,6 +10162,7 @@ module.exports = [
   },
   {
     name: 'Dhananjay Porwal',
+    github: 'DhananjayPorwal',
     description:
       'Self taught Cyber Security Analyst, Graphic Designer and Front-end Developer',
     url: 'https://github.com/DhananjayPorwal/Grey-Test/blob/gh-pages/dhananjayporwal_uses.md',
@@ -9822,6 +10186,7 @@ module.exports = [
   },
   {
     name: 'Robert Michalski',
+    github: 'robman87',
     description: 'Full Stack Developer going serverless',
     url: 'https://robert-michalski.com/uses/',
     emoji: '👨🏻‍💻',
@@ -9843,6 +10208,7 @@ module.exports = [
   },
   {
     name: 'First Kanisorn Sutham',
+    github: 'heyfirst',
     description: 'Full Stack Software Engineer, Runner, Coffeeholic',
     url: 'https://heyfirst.co/uses',
     twitter: '@heyfirst_',
@@ -9863,6 +10229,7 @@ module.exports = [
   },
   {
     name: 'Henrik Nyh',
+    github: 'henrik',
     description: 'Swedish web developer in Yorkshire, UK.',
     url: 'https://henrik.nyh.se/uses',
     twitter: '@henrik',
@@ -9874,6 +10241,7 @@ module.exports = [
   },
   {
     name: 'Manoj Barman',
+    github: 'itsmanojb',
     description: 'Working hardly, or Hardly working..',
     url: 'https://manojbarman.in/uses',
     twitter: '@itsmanojb',
@@ -9885,6 +10253,7 @@ module.exports = [
   },
   {
     name: 'Monica Powell',
+    github: 'M0nica',
     description:
       "Hi! I'm a product engineer who is passionate about making open-source more accessible and community building",
     url: 'https://www.aboutmonica.com/uses/',
@@ -9908,6 +10277,7 @@ module.exports = [
   },
   {
     name: 'Hideki Jinnai',
+    github: 'dekisr',
     description: 'Lifelong Learner',
     url: 'https://github.com/dekisr/uses',
     emoji: '🧟',
@@ -9918,6 +10288,7 @@ module.exports = [
   },
   {
     name: 'NaveenSingh',
+    github: 'dnaveensingh',
     description: 'Full Stack Developer from India, Coimbatore 🇮🇳',
     url: 'https://naveensingh.dev/uses/',
     twitter: '@NaveensinghMtp',
@@ -9965,6 +10336,7 @@ module.exports = [
   },
   {
     name: 'Ryan Harris',
+    github: 'ryancharris',
     description:
       'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
     url: 'https://ryanharris.dev/uses',
@@ -9986,6 +10358,7 @@ module.exports = [
   },
   {
     name: 'Axel Larsson',
+    github: 'MrTeapot',
     description: 'Full-stack developer',
     url: 'https://axellarsson.com/blog/what-i-use/',
     twitter: '@Axellarsson93',
@@ -10005,6 +10378,7 @@ module.exports = [
   },
   {
     name: 'Laura Zumbakyte',
+    github: 'desinni',
     description: 'Front-end engineer, and a healthy lifestyle enthusiast.',
     url: 'https://desinni.dev/uses',
     twitter: '@desinni',
@@ -10029,6 +10403,7 @@ module.exports = [
   },
   {
     name: 'Chris Hufnagel',
+    github: 'chrishufnagel',
     description: 'Front End Developer & Designer',
     url: 'https://chrishufnagel.com/uses/',
     twitter: '@ChrisHufnagel',
@@ -10050,6 +10425,7 @@ module.exports = [
   },
   {
     name: 'Jeff Szuc',
+    github: 'szuc',
     description: 'UX Designer, Frontend Developer, Lifelong Learner.',
     url: 'https://jeffszuc.com/uses',
     twitter: '@szuc',
@@ -10069,6 +10445,7 @@ module.exports = [
   },
   {
     name: 'Maxim Zubarev',
+    github: 'mxmzb',
     description:
       'Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.',
     url: 'https://maximzubarev.com/uses',
@@ -10096,6 +10473,7 @@ module.exports = [
   },
   {
     name: 'Andrew Nguyen Vo',
+    github: 'awnguy01',
     description: 'Lover of code, coffee, and karaoke',
     url: 'https://awnvo.com/uses',
     twitter: '@TheNgooyun',
@@ -10114,6 +10492,7 @@ module.exports = [
   },
   {
     name: 'Jitendra Nirnejak',
+    github: 'nirnejak',
     description: 'Developer, Designer and Blogger',
     url: 'https://nirnejak.com/uses',
     twitter: '@jeetnirnejak',
@@ -10133,6 +10512,7 @@ module.exports = [
   },
   {
     name: 'Luke Hsiao',
+    github: 'lukehsiao',
     url: 'https://luke.hsiao.dev/uses/',
     description: 'Software engineer and blogger',
     country: '🇺🇸',
@@ -10142,6 +10522,7 @@ module.exports = [
   },
   {
     name: 'Elijah Rwothoromo',
+    github: 'Rwothoromo',
     description: 'Software Developer, Poet, code and play!',
     url: 'https://rwothoromo.wordpress.com/2020/05/29/uses/',
     twitter: '@rwothoromo',
@@ -10166,6 +10547,7 @@ module.exports = [
   },
   {
     name: 'davidak',
+    github: 'davidak',
     description: 'Creating Free Software, with a focus on QA.',
     url: 'https://davidak.de/uses/',
     twitter: '@davidak',
@@ -10183,6 +10565,7 @@ module.exports = [
   },
   {
     name: 'Sudhanshu Bajaj',
+    github: 'sudhanshu-bajaj',
     description: 'Code. Travel. Sleep. Repeat. Magento Developer',
     url: 'https://www.sudhanshubajaj.com/uses/',
     twitter: '@sudhanshubajaj',
@@ -10205,6 +10588,7 @@ module.exports = [
   },
   {
     name: 'Jack Jackson',
+    github: 'scubbo',
     description: 'I make things to help people do things',
     url: 'https://blog.scubbo.org/uses/',
     mastodon: '@scubbo@fosstodon.org',
@@ -10216,6 +10600,7 @@ module.exports = [
   },
   {
     name: 'Enea Xharja',
+    github: 'eneax',
     description: 'Web Developer',
     url: 'https://eneaxharja.com/uses',
     twitter: '@eneaxharja',
@@ -10227,6 +10612,7 @@ module.exports = [
   },
   {
     name: 'Dhanish Gajjar',
+    github: 'dhanishgajjar',
     description: 'Developer',
     url: 'https://dhanishgajjar.com/uses',
     twitter: '@dhanishgajjar',
@@ -10238,6 +10624,7 @@ module.exports = [
   },
   {
     name: 'Ricardo Morais',
+    github: 'RicardoMoraisPOR',
     description: 'Senior Front-end Developer, Software Engineer @ Nextbitt',
     url: 'https://ricardomorais.dev/uses',
     emoji: '🎨',
@@ -10259,6 +10646,7 @@ module.exports = [
   },
   {
     name: 'Aditya Thebe',
+    github: 'adityathebe',
     description:
       '💻 Full Stack Developer with an interest in bitcoins and blockchain.',
     url: 'https://www.adityathebe.com/uses',
@@ -10283,6 +10671,7 @@ module.exports = [
   },
   {
     name: 'Travis Luong',
+    github: 'travisluong',
     description: 'Full Stack Developer',
     url: 'https://www.travisluong.com/uses',
     twitter: '@TravisLuong',
@@ -10303,6 +10692,7 @@ module.exports = [
   },
   {
     name: 'Michal Kolacek',
+    github: 'one-data-cookie',
     description: 'Analytics Engineer',
     url: 'https://michalkolacek.xyz/uses',
     twitter: '@kolacek_m',
@@ -10314,6 +10704,7 @@ module.exports = [
   },
   {
     name: 'Alex Zmn',
+    github: 'alxjpzmn',
     description:
       'Product Owner by day, dabbling in JavaScript, Rust and self-hosting by night.',
     url: 'https://www.monolog.dev/uses/',
@@ -10324,6 +10715,7 @@ module.exports = [
   },
   {
     name: 'Anh Thang Bui',
+    github: 'anhthang',
     description:
       'Software Engineer who passionate about building web applications and sites using Node & JS frameworks.',
     url: 'https://anhthang.org/uses/',
@@ -10350,6 +10742,7 @@ module.exports = [
   },
   {
     name: 'Habib Hinn',
+    github: 'HinnHabib',
     description: 'Pricipal Engineer & Senior Frontend Engineer',
     url: 'https://habibhinn.com/uses',
     twitter: '@Hinn_Habib',
@@ -10376,6 +10769,7 @@ module.exports = [
   },
   {
     name: 'Jibin Thomas',
+    github: 'jibin2706',
     description:
       'Front-End Developer & Casual Blogger. CSS, Javascript & React',
     url: 'https://jibin.tech/uses',
@@ -10397,6 +10791,7 @@ module.exports = [
   },
   {
     name: 'Michael Rolfsen',
+    github: 'mrolfsen',
     description: 'Designer and Front-of-the-Front-End Dev. I suck at guitar.',
     url: 'https://boldandfriendly.de/uses',
     twitter: '@michaelsupdates',
@@ -10418,6 +10813,7 @@ module.exports = [
   },
   {
     name: 'Michael Read',
+    github: 'mread1208',
     description: 'Full Stack Web Developer.',
     url: 'https://www.michaelcread.com/uses',
     twitter: '@MichaelCRead',
@@ -10441,6 +10837,7 @@ module.exports = [
   },
   {
     name: 'Simon Aronsson',
+    github: 'simskij',
     description:
       'Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer',
     url: 'https://simme.dev/uses',
@@ -10464,6 +10861,7 @@ module.exports = [
   },
   {
     name: 'João Pescada',
+    github: 'jpescada',
     description: 'Technologist and Consultant for web apps',
     url: 'https://joaopescada.com/uses',
     twitter: '@jpscd',
@@ -10491,6 +10889,7 @@ module.exports = [
   },
   {
     name: 'Tetri Mesquita',
+    github: 'tetri',
     description:
       'Software Architect, specialist in Full Stack C#, innovator in Technology for Agribusiness',
     url: 'https://tetri.net/uses',
@@ -10523,6 +10922,7 @@ module.exports = [
   },
   {
     name: 'Saurabh Sharma',
+    github: 'itsjzt',
     description: 'Full stack web developer making e-commerce websites and SaaS',
     url: 'https://itsjzt.com/uses',
     twitter: '@itsjzt',
@@ -10547,6 +10947,7 @@ module.exports = [
   },
   {
     name: 'Wes Bos',
+    github: 'wesbos',
     description:
       'Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover',
     url: 'https://wesbos.com/uses',
@@ -10569,6 +10970,7 @@ module.exports = [
   },
   {
     name: 'Frugence Fidel',
+    github: 'FrugenceFidel',
     description: "I'm 🇹🇿 React Developer",
     url: 'https://frugencefidel.com/uses',
     twitter: '@FrugenceFidel',
@@ -10592,6 +10994,7 @@ module.exports = [
   },
   {
     name: 'Aaron Conway',
+    github: 'aaronconway7',
     description:
       'Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)',
     url: 'https://aaronconway.co.uk/uses',
@@ -10635,6 +11038,7 @@ module.exports = [
   },
   {
     name: 'Matt Stein',
+    github: 'mattstein',
     description: 'Middle-end web designer-developer-writer.',
     url: 'https://mattstein.com/uses',
     emoji: '🫠',
@@ -10657,6 +11061,7 @@ module.exports = [
   },
   {
     name: 'Mohammed Sohail',
+    github: 'thecrazybob',
     description:
       'A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.',
     url: 'https://www.msohail.dev/uses',
@@ -10682,6 +11087,7 @@ module.exports = [
   },
   {
     name: 'Ximena Vila Ferral',
+    github: 'ximenavf92',
     description: '💻 🎨 A Mexican born, Texas based designer and developer.',
     url: 'https://ximenavf.com/uses/',
     twitter: '@ximenavf92',
@@ -10706,6 +11112,7 @@ module.exports = [
   },
   {
     name: 'Daryl Sun',
+    github: 'DarylSum',
     description:
       'I play with software and videogames. Sometimes I write things.',
     url: 'https://blog.darylsun.page/uses',
@@ -10726,6 +11133,7 @@ module.exports = [
   },
   {
     name: 'Helen Chong',
+    github: 'helenclx',
     description: 'Graphic designer turned web developer based in Malaysia.',
     url: 'https://helenchong.dev/uses',
     emoji: '💜',
@@ -10750,6 +11158,7 @@ module.exports = [
   },
   {
     name: 'Julian Stark',
+    github: 'julian-stark',
     description: 'WordPress Web Developer & Entrepreneur',
     url: 'https://julianstark.de/uses',
     twitter: '@julianstark_de',
@@ -10771,6 +11180,7 @@ module.exports = [
   },
   {
     name: 'Aris Ripandi',
+    github: 'BlakeCampbells',
     description: 'Software engineer & educator. Open Source enthusiast.',
     url: 'https://ripandis.com/uses',
     twitter: '@riipandi',
@@ -10794,6 +11204,7 @@ module.exports = [
   },
   {
     name: 'Edgaras Benediktavicius',
+    github: 'edgarasben',
     description: 'Hyper curious maker for the Web. Designer and Developer.',
     url: 'https://edgaras.com/uses',
     twitter: '@edgarasben',
@@ -10816,6 +11227,7 @@ module.exports = [
   },
   {
     name: 'Teo Ruiz',
+    github: 'teoruiz',
     description: '20 years an engineer. CTO. Entrepreneur.',
     url: 'https://teoruiz.com/uses/',
     twitter: '@teoruiz',
@@ -10846,6 +11258,7 @@ module.exports = [
   },
   {
     name: 'Shubham Battoo',
+    github: 'shubhambattoo',
     description: 'Software Engineer focused on Web Technologies from India.',
     url: 'https://shubhambattoo.in/uses',
     twitter: '@Shubham_batt',
@@ -10869,6 +11282,7 @@ module.exports = [
   },
   {
     name: 'Chris Smith',
+    github: 'csmith',
     description: 'Software engineer, tinkerer, and yak shaver.',
     url: 'https://chameth.com/uses',
     bluesky: 'chameth.com',
@@ -10880,6 +11294,7 @@ module.exports = [
   },
   {
     name: 'Mykolas Krupauskas',
+    github: 'MKrupauskas',
     description:
       'A passionate software developer that helps people create value with technology.',
     url: 'https://mkrup.com/uses',
@@ -10903,6 +11318,7 @@ module.exports = [
   },
   {
     name: 'João Vitor Zaniolo',
+    github: 'jvzaniolo',
     description: 'Front-end developer, gamer and tech enthusiast.',
     url: 'https://jvzaniolo.vercel.app/uses/',
     twitter: '@jvzaniolo',
@@ -10914,6 +11330,7 @@ module.exports = [
   },
   {
     name: 'Arturo De la Garza',
+    github: 'agzertuche',
     description:
       'Full-stack web developer, avid learner, loves to play video games and board games',
     url: 'https://arturodelagarza.com/uses',
@@ -10938,6 +11355,7 @@ module.exports = [
   },
   {
     name: 'Ali Şen',
+    github: 'alikdb',
     description: 'Full Stack Developer',
     url: 'https://alisen.me/uses',
     twitter: '@alisen_js',
@@ -10949,6 +11367,7 @@ module.exports = [
   },
   {
     name: 'James Atkinson',
+    github: 'JamesAtkinson',
     description: 'Designer and front-end developer, based in the UK.',
     url: 'https://www.jamesatkinson.me/uses',
     emoji: '🚀',
@@ -10973,6 +11392,7 @@ module.exports = [
   },
   {
     name: 'Danny Solivan',
+    github: 'nightconcept',
     description: 'Test engineer. Web developer on the side.',
     url: 'https://solivan.dev/blog/uses',
     emoji: '🎉',
@@ -10992,6 +11412,7 @@ module.exports = [
   },
   {
     name: 'Aaron Uurman',
+    github: 'aaronuurman',
     description:
       'Back end developer who likes to develop front end on free time 🤷‍♂️. And I also blog.',
     url: 'https://aaronuurman.com/uses',
@@ -11017,6 +11438,7 @@ module.exports = [
   },
   {
     name: 'Steve Della Valentina',
+    github: 'sdvim',
     description: 'Frontend engineer into blogging and digital gardening.',
     url: 'https://sdv.im/uses',
     twitter: '@sdvim',
@@ -11037,6 +11459,7 @@ module.exports = [
   },
   {
     name: 'Joanna Hosking',
+    github: 'joannahosking',
     description: 'Web developer, dog mom, football fanatic living in UK',
     url: 'https://joannahosking.com/uses',
     emoji: '⚽',
@@ -11101,6 +11524,7 @@ module.exports = [
   },
   {
     name: 'Jeffrey Paul',
+    github: 'jeffpaul',
     description:
       'Building the open web with WordPress and community. Big on clarity, creativity, and coaching kids’ sports.',
     url: 'https://www.jeffpaul.com/uses/',
@@ -11124,6 +11548,7 @@ module.exports = [
   },
   {
     name: 'Devin Sharpe',
+    github: 'devinsharpe',
     description:
       'Full Stack Web Developer, Typescript Enthusiast & Proud Cat Dad',
     url: 'https://devsharpe.io/uses',
@@ -11145,6 +11570,7 @@ module.exports = [
   },
   {
     name: 'Zachary Kai',
+    github: 'zk-codes',
     description:
       'Offbeat, queer, 20-something, curiosity enthusiast, and traveler.',
     url: 'https://zacharykai.net/uses',
@@ -11180,6 +11606,7 @@ module.exports = [
   },
   {
     name: 'Prakhil TP',
+    github: 'Prakhil-tp',
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
     url: 'https://www.notion.so/Things-Prakhil-uses-e995e61834c242f1b739be9f8819fb0c',
@@ -11202,6 +11629,7 @@ module.exports = [
   },
   {
     name: 'Scott Evans',
+    github: 'scottsweb',
     description:
       'Open tech and sustainability advocate. Designer of web things.',
     url: 'https://scott.ee/uses/',
@@ -11231,6 +11659,7 @@ module.exports = [
   },
   {
     name: 'Ryan Filler',
+    github: 'ryanfiller',
     description:
       'Front-End Developer & Designer. Interested in performance, privacy, accessibility, and sustainability.',
     url: 'https://ryanfiller.com/uses',
@@ -11256,6 +11685,7 @@ module.exports = [
   },
   {
     name: 'Maxence Poutord',
+    github: 'maxpou',
     description:
       'Software engineer, digital nomad, public speaker and remote worker',
     url: 'https://www.maxpou.fr/uses',
@@ -11279,6 +11709,7 @@ module.exports = [
   },
   {
     name: 'Johan Hammar',
+    github: 'johanhammar',
     description: 'Software Engineer from Sweden',
     url: 'https://www.johanhammar.se/uses',
     twitter: '@johanh',
@@ -11301,6 +11732,7 @@ module.exports = [
   },
   {
     name: 'Leo Ashcraft',
+    github: 'parkerdevleo',
     description: 'Full Stack Software Developer',
     url: 'https://leoashcraft.com/uses',
     country: '🇺🇸',
@@ -11321,6 +11753,7 @@ module.exports = [
   },
   {
     name: 'Kevin Gimbel',
+    github: 'KevinGimbel',
     description: 'DevOps Engineer who loves Rust + web dev',
     url: 'https://kevingimbel.de/uses',
     emoji: '🐦‍⬛',
@@ -11340,6 +11773,7 @@ module.exports = [
   },
   {
     name: 'James Peilow',
+    github: 'jamespeilow',
     description: 'Front-end Developer, Switch owner, coffee and beer drinker',
     url: 'https://jamespeilow.com/uses',
     twitter: '@theastronautjay',
@@ -11359,6 +11793,7 @@ module.exports = [
   },
   {
     name: 'Bob Orchard',
+    github: 'boborchard',
     description:
       'Semi-stack developer with a design background. Woodworker. Maker.',
     url: 'https://boborchard.com/uses',
@@ -11399,6 +11834,7 @@ module.exports = [
   },
   {
     name: 'Lucas Becker',
+    github: 'runxel',
     description: 'Real architect who also happens to write code.',
     url: 'https://github.com/runxel/uses',
     twitter: '@runxel',
@@ -11410,6 +11846,7 @@ module.exports = [
   },
   {
     name: 'Martín M.',
+    github: 'skydiver',
     description: 'Dad & Developer (former skydiver)',
     url: 'https://uses.skydiver.dev/',
     emoji: '👨‍💻',
@@ -11438,6 +11875,7 @@ module.exports = [
   },
   {
     name: 'Jamie Bowman',
+    github: 'mrjamiebowman',
     description:
       'Full Stack Developer, DevOps, Infrastructure as Code, Penetration Testing, Blogger',
     url: 'https://www.mrjamiebowman.com/uses',
@@ -11486,6 +11924,7 @@ module.exports = [
   },
   {
     name: 'William Rodriguez',
+    github: 'will-rodriguez',
     description: 'Full-Stack Developer. TALL Stack Advocate. Less is more.',
     url: 'https://williamrodriguez.com/uses',
     twitter: '@WillRodRican',
@@ -11519,6 +11958,7 @@ module.exports = [
   },
   {
     name: 'Nathanaël Cherrier',
+    github: 'mindsers',
     description:
       'Full Stack JavaScript and Swift Developer, Software Caftsman, from Reunion Island based in Lyon, France',
     twitter: '@mindserscodes',
@@ -11552,6 +11992,7 @@ module.exports = [
   },
   {
     name: 'Keith Donegan',
+    github: 'MadebyToast',
     description: 'Irish WordPress developer, based in London, UK.',
     url: 'https://www.keithdonegan.com/uses/',
     twitter: '@eirestudio',
@@ -11563,6 +12004,7 @@ module.exports = [
   },
   {
     name: 'Jang Rush',
+    github: 'weakish',
     description:
       'markdown aficionado who suffers from unix porn addiction (*/*)',
     url: 'https://mmap.page/uses/',
@@ -11575,6 +12017,7 @@ module.exports = [
   },
   {
     name: 'John SJ Anderson',
+    github: 'genehack',
     description:
       'information technology executive, conference speaker, and Open Source software developer and community organizer from Salem, Oregon, USA.',
     url: 'https://genehack.org/uses',
@@ -11596,6 +12039,7 @@ module.exports = [
   },
   {
     name: 'Makon Cline',
+    github: 'makoncline',
     description:
       'Engineer, Developer, Home Cook. I like to make useful things and share them with others.',
     url: 'https://makoncline.com/uses',
@@ -11620,6 +12064,7 @@ module.exports = [
   },
   {
     name: 'Nich Secord',
+    github: 'mmcxii',
     description:
       'Full Stack Developer from the Redmond, WA area. Best skier on the mountain. Pretty good in general.',
     url: 'https://secord.io/uses',
@@ -11646,6 +12091,7 @@ module.exports = [
   },
   {
     name: 'Sebastien Elet',
+    github: 'SebastienElet',
     description:
       'Full stack javascript developer which also loves ops and automation',
     url: 'https://www.notion.so/Dev-environment-ec11cb5bd0594c16a3c6338e6aa4f5b9',
@@ -11667,6 +12113,7 @@ module.exports = [
   },
   {
     name: 'Marcel Hauri',
+    github: 'mhauri',
     description:
       'Father, husband, software developer and lecturer in application development.',
     url: 'http://marcelhauri.ch/uses/',
@@ -11695,6 +12142,7 @@ module.exports = [
   },
   {
     name: 'Nathan Arthur',
+    github: 'narthur',
     description:
       'Full-stack web developer building tools for productivity when productivity is hard',
     url: 'https://www.nathanarthur.com/uses',
@@ -11723,6 +12171,7 @@ module.exports = [
   },
   {
     name: 'Mitchell Hanberg',
+    github: 'mhanberg',
     description:
       'Full Stack Developer who loves working with Elixir, Ruby and JS.',
     url: 'https://mitchellhanberg.com/uses',
@@ -11744,6 +12193,7 @@ module.exports = [
   },
   {
     name: 'Drake Bott',
+    github: 'bottd-bot',
     description: 'Web Developer from Colorado',
     url: 'https://drake.dev/uses',
     twitter: '@bottd_',
@@ -11767,6 +12217,7 @@ module.exports = [
   },
   {
     name: 'Michael Herman',
+    github: 'mjhea0',
     description:
       'Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.',
     url: 'https://mherman.org/about#uses',
@@ -11790,6 +12241,7 @@ module.exports = [
   },
   {
     name: 'Daniel Flege',
+    github: 'Quentara',
     description:
       'Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧',
     url: 'https://danielflege.com/uses/',
@@ -11819,6 +12271,7 @@ module.exports = [
   },
   {
     name: 'Alok Prateek',
+    github: 'theWhiteWulfy',
     description:
       'Alok Prateek is a multi-talented human with over 11+ years of experiences in wide range of design disciplines.',
     url: 'https://alokprateek.in/uses',
@@ -11844,6 +12297,7 @@ module.exports = [
   },
   {
     name: 'Dwayne Harris',
+    github: 'ArcaTech',
     description:
       'Freelance web and app developer in NYC with over 15 years of professional experience.',
     url: 'https://dwayne.xyz/uses',
@@ -11874,6 +12328,7 @@ module.exports = [
   },
   {
     name: 'Guru Das Srinagesh',
+    github: 'guru-das-s',
     description: 'Linux kernel developer',
     url: 'https://gurudas.dev/uses/',
     emoji: '🐥',
@@ -11902,6 +12357,7 @@ module.exports = [
   },
   {
     name: 'Michael Burkhardt',
+    github: 'mihobu',
     description:
       'cloud data architect, part-time university professor, tinkerer and hobbyist',
     url: 'https://mihobu.lol/uses',
@@ -11945,6 +12401,7 @@ module.exports = [
   },
   {
     name: 'Kendall Morgan',
+    github: 'kendallm',
     description:
       'Software engineer by day. Hip-hop, coffee, and street photography aficionado by night.',
     url: 'https://kendallmorgan.com/uses',
@@ -11970,6 +12427,7 @@ module.exports = [
   },
   {
     name: 'Kenny Robinson',
+    github: 'almostengr',
     description:
       'Web developer that builds software to improve business processes',
     url: 'https://thealmostengineer.com/uses',
@@ -11997,6 +12455,7 @@ module.exports = [
   },
   {
     name: 'Manuel Fernandez',
+    github: 'teamhanded',
     description: 'Security Engineer',
     url: 'https://github.com/teamhanded/uses',
     emoji: '🍃',
@@ -12007,6 +12466,7 @@ module.exports = [
   },
   {
     name: 'Bojan Bedrač',
+    github: 'xbojch',
     description: 'Coding the future, one line of code at a time.',
     url: 'https://www.improvebadcode.com/uses',
     twitter: '@xbojch',
@@ -12029,6 +12489,7 @@ module.exports = [
   },
   {
     name: 'Yannick Le Roux',
+    github: 'YannickLeRoux',
     description:
       'Second career web dev, French living in San Diego, retired DJ.',
     url: 'https://yannickleroux.com/uses',
@@ -12051,6 +12512,7 @@ module.exports = [
   },
   {
     name: 'Stéphane Lambion',
+    github: 'stephanelambion',
     description: 'Shaping words.',
     url: 'https://stephanelambion.com/uses',
     mastodon: '@stephanelambion@mastodon.social',
@@ -12070,6 +12532,7 @@ module.exports = [
   },
   {
     name: 'Eric Raslich',
+    github: 'rasliche',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
     url: 'https://ericraslich.com/uses',
@@ -12093,6 +12556,7 @@ module.exports = [
   },
   {
     name: 'Sagar Soni',
+    github: 'sagarsoni7',
     description:
       'Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night',
     url: 'https://sagarsoni.dev/uses/',
@@ -12116,6 +12580,7 @@ module.exports = [
   },
   {
     name: 'Paulo Regina',
+    github: 'pauloregina',
     description: 'Full Stack Web Developer',
     url: 'https://pauloregina.com/uses.html',
     emoji: '💻',
@@ -12136,6 +12601,7 @@ module.exports = [
   },
   {
     name: 'Alex Mufatti',
+    github: 'alexmufatti',
     description: 'Code and Run',
     url: 'https://codeandrun.it/uses',
     twitter: '@alexmufatti',
@@ -12160,6 +12626,7 @@ module.exports = [
   },
   {
     name: 'Varatep Buranintu',
+    github: 'varatep',
     description:
       'Full Stack Software Engineer, IBM Edge UI Lead, Bridging the gap between humans and computers with beautiful experiences.',
     url: 'https://www.varatech.io/uses/',
@@ -12188,6 +12655,7 @@ module.exports = [
   },
   {
     name: 'Anwar Hussain',
+    github: 'getanwar',
     description: 'Web Developer and No-Code Maker',
     url: 'https://gist.github.com/getanwar/daa9cb57428fd56255b1759fef2754f0',
     twitter: '@getanwar',
@@ -12232,6 +12700,7 @@ module.exports = [
   },
   {
     name: 'Nathan Knowler',
+    github: 'knowler',
     description:
       'Developer focused on making the Web accessible, beautiful, and fun.',
     url: 'https://knowler.dev/uses',
@@ -12252,6 +12721,7 @@ module.exports = [
   },
   {
     name: 'Jarema',
+    github: 'jartf',
     description: 'Undergraduate student, developer, and activist.',
     url: 'https://jarema.me/uses',
     emoji: '🎋',
@@ -12278,6 +12748,7 @@ module.exports = [
   },
   {
     name: 'Asur Bernardo',
+    github: 'asurcodes',
     description:
       'Back end developer with no aesthetic sense. Full stack with reservations. Open-source enthusiast. Continuous learner!',
     url: 'https://asur.dev/uses/',
@@ -12301,6 +12772,7 @@ module.exports = [
   },
   {
     name: 'Lazar Nikolov',
+    github: 'nikolovlazar',
     description:
       'Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.',
     url: 'https://nikolovlazar.com/uses',
@@ -12325,6 +12797,7 @@ module.exports = [
   },
   {
     name: 'Vinoth Chellamuthu',
+    github: 'ecevinoth',
     description: 'Data Engineer',
     url: 'https://ecevinoth.github.io/#uses',
     twitter: '@ecevinoth',
@@ -12344,6 +12817,7 @@ module.exports = [
   },
   {
     name: 'Joff Tiquez',
+    github: 'jofftiquez',
     description: 'Web Developer',
     url: 'https://jofftiquez.dev/uses',
     twitter: '@jrtiquez',
@@ -12363,6 +12837,7 @@ module.exports = [
   },
   {
     name: 'Roberto Vázquez González',
+    github: 'robertovg',
     description:
       'Javascript Engineer (10+ years experience) && CorkerSpace Co-founder, 💛js (^es6),🏄‍🧘‍🎸.',
     url: 'https://robertovg.com/uses/',
@@ -12413,6 +12888,7 @@ module.exports = [
   },
   {
     name: 'Jelle Smeets',
+    github: 'smeetsmeister',
     description: 'Engineering manager & blogger',
     url: 'https://blog.jellesmeets.nl/uses',
     twitter: '@smeetsmeister',
@@ -12424,6 +12900,7 @@ module.exports = [
   },
   {
     name: 'Rasmus P',
+    github: 'djrasmusp',
     description:
       'I’m a full-stack developer with a passion for building seamless and engaging web experiences.',
     url: 'https://rasmusp.com/uses',
@@ -12455,6 +12932,7 @@ module.exports = [
   },
   {
     name: 'Lauri Elias',
+    github: 'Lauriy',
     description:
       'Full stack developer who dreams of only ever working with Django',
     url: 'https://indoorsman.ee/uses',
@@ -12485,6 +12963,7 @@ module.exports = [
   },
   {
     name: 'Rene Gens',
+    github: 'renegens',
     description:
       'android engineer, project manager, teacher, aspiring designer and author',
     url: 'https://renegens.com/uses',
@@ -12506,6 +12985,7 @@ module.exports = [
   },
   {
     name: 'Matthew Scholta',
+    github: 'jcubic',
     description: `Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.`,
     url: 'https://mattscholta.com/uses',
     twitter: '@visormatt',
@@ -12536,6 +13016,7 @@ module.exports = [
   },
   {
     name: 'John Smith',
+    github: 'solrevdev',
     description:
       'full-time carer formally head of infrastructure and operations, senior full-stack #dotnetcore #aspnetcore #vuejs developer and software engineer https://solrevdev.com',
     url: 'https://solrevdev.com/uses/',
@@ -12559,6 +13040,7 @@ module.exports = [
   },
   {
     name: 'Chris Collins',
+    github: 'chrissy-dev',
     description: 'I design and build digital products, hike and take photos.',
     url: 'https://chriscollins.me/uses',
     twitter: '@scottishstoater',
@@ -12598,6 +13080,7 @@ module.exports = [
   },
   {
     name: 'Rostyslav Ugryniuk',
+    github: 'UgRoss',
     description: 'Front-end Developer, Snowboarder, and Traveler.',
     url: 'https://ugross.dev/uses',
     twitter: '@ug_ross',
@@ -12621,6 +13104,7 @@ module.exports = [
   },
   {
     name: 'Alexis Janvier',
+    github: 'alexisjanvier',
     description:
       'Web Developer, Open Source Contributor, Community Organizer, Proud Dad, Grateful Lover.',
     url: 'https://alexisjanvier.net/uses/',
@@ -12646,6 +13130,7 @@ module.exports = [
   },
   {
     name: 'Sumanth',
+    github: 'enigmacoder-bot',
     description: 'Student. Learning web development',
     url: 'https://mynameissumanth.netlify.app/uses.html',
     country: '🇮🇳',
@@ -12663,6 +13148,7 @@ module.exports = [
   },
   {
     name: 'Christian Leo-Pernold',
+    github: 'mazedlx',
     description: 'Dad. Husband. BBQ Enthusiast. Full-Stack-Developer.',
     url: 'https://mazedlx.net/uses',
     twitter: '@mazedlx',
@@ -12704,6 +13190,7 @@ module.exports = [
   },
   {
     name: 'Chris Otto',
+    github: 'chrisotto6',
     description: 'Software engineer. I enjoy JavaScript, DevOps and Testing.',
     url: 'https://chrisotto.dev/uses/',
     twitter: '@wisco_cmo',
@@ -12725,6 +13212,7 @@ module.exports = [
   },
   {
     name: 'James Quick',
+    github: 'jamesqquick',
     description: 'Developer Advocate Engineer at @auth0 and content creator',
     url: 'https://jamesqquick.com/uses',
     twitter: '@jamesqquick',
@@ -12746,6 +13234,7 @@ module.exports = [
   },
   {
     name: 'Vishwasa Navada K',
+    github: 'vishwasnavadak',
     description:
       'Geek. Open source Enthusiast. Occasional blogger, photographer and traveler.',
     url: 'https://vishwas.tech/uses',
@@ -12766,6 +13255,7 @@ module.exports = [
   },
   {
     name: 'Silvestar Bistrović',
+    github: 'maliMirkec',
     description:
       'Fearless web engineer, CSS developer, JAMstack enthusiast, and WordPress theme specialist.',
     url: 'https://www.silvestar.codes/uses/',
@@ -12789,6 +13279,7 @@ module.exports = [
   },
   {
     name: 'Adam Schwartz',
+    github: 'adamschwartz',
     description: 'Software developer, designer, film music composer',
     url: 'https://adamschwartz.co/uses/',
     twitter: '@adamfschwartz',
@@ -12834,6 +13325,7 @@ module.exports = [
   },
   {
     name: 'Chris Lagasse',
+    github: 'Soben',
     description:
       'Diversified programmer with emphasis in PHP, Javascript, Node.js, Vue, API integrations... cyclist, dad, lover of craft beer.',
     url: 'https://chrislagasse.com/uses',
@@ -12856,6 +13348,7 @@ module.exports = [
   },
   {
     name: 'Christoph Miksche',
+    github: 'CMiksche',
     description:
       'Startup Founder and Full-Stack-Developer with a passion for finance.',
     url: 'https://blog.m5e.de/uses/',
@@ -12884,6 +13377,7 @@ module.exports = [
   },
   {
     name: 'Toon Claes',
+    github: 'To1ne',
     description: 'Class developer with passion for Git and Emacs',
     url: 'https://iotcl.com/uses/',
     emoji: '⌨',
@@ -12906,6 +13400,7 @@ module.exports = [
   },
   {
     name: 'Sergey Lysenko',
+    github: 'soul-wish',
     description:
       'Front-end developer, guitar player, MTB rider, snowboarder, runner.',
     url: 'https://soulwish.info/uses/',
@@ -12932,6 +13427,7 @@ module.exports = [
   },
   {
     name: 'Shreyas Minocha',
+    github: 'shreyasminocha',
     description: 'web. foss. privacy. archival. accessibility.',
     url: 'https://shreyasminocha.me/uses',
     emoji: '📈',
@@ -12949,6 +13445,7 @@ module.exports = [
   },
   {
     name: 'Andrei Racasan',
+    github: '0xAMR',
     description:
       'Full Stack Developer with a passion for finding pragmatic solutions to technical challenges.',
     url: 'https://www.andreiracasan.com/setup',
@@ -12971,6 +13468,7 @@ module.exports = [
   },
   {
     name: 'Sergey Panteleev',
+    github: 'saundefined',
     description: 'PHP 8.2 Release Manager',
     url: 'https://sergeypanteleev.com/en/uses',
     twitter: '@s_panteleev',
@@ -12993,6 +13491,7 @@ module.exports = [
   },
   {
     name: 'Shajan Jacob',
+    github: 'shajanjp',
     description:
       'Software Engineer, extroverted introvert, storyteller and a maker.',
     url: 'https://shajanjacob.com/uses',
@@ -13012,6 +13511,7 @@ module.exports = [
   },
   {
     name: 'Alexandre Ferreira',
+    github: 'alexjorgef',
     description: 'Full-stack developer, open-source enthusiast',
     url: 'https://www.alexjorgef.com/about/uses',
     twitter: '@alekksf',
@@ -13023,6 +13523,7 @@ module.exports = [
   },
   {
     name: 'Thomas Eckert',
+    github: 't-eckert',
     description: 'Homelabber, Backend Professional, Frontend Enthusiast',
     url: 'https://thomaseckert.dev/uses',
     emoji: '👨🏻‍🎨',
@@ -13042,6 +13543,7 @@ module.exports = [
   },
   {
     name: 'Marco Poletto',
+    github: 'polettoweb',
     description:
       'Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor',
     url: 'https://poletto.dev/uses/',
@@ -13061,6 +13563,7 @@ module.exports = [
   },
   {
     name: 'Tim Teege',
+    github: 'teesche',
     description: 'Web Studio CEO, Former Frontend Dev, Blogger, Ultrarunner',
     url: 'https://www.teesche.com/uses/',
     twitter: '@teesche',
@@ -13082,6 +13585,7 @@ module.exports = [
   },
   {
     name: 'Mark Horsell',
+    github: 'markhorsell',
     description:
       'Software Developer - Front-end mostly, back-end and native sometimes.',
     url: 'https://markhorsell.com/uses',
@@ -13109,6 +13613,7 @@ module.exports = [
   },
   {
     name: 'Timo Furrer',
+    github: 'timofurrer',
     description: 'Open Source enthusiast. Linux, Vim and coffee lover',
     url: 'https://furrer.life/~timo/uses.html',
     emoji: '⌨',
@@ -13131,6 +13636,7 @@ module.exports = [
   },
   {
     name: 'Elmar Klausmeier',
+    github: 'eklausme',
     description: 'Developer and blogger, data center management',
     url: 'https://eklausmeier.goip.de/aux/uses',
     twitter: '@eklausmeier',
@@ -13153,6 +13659,7 @@ module.exports = [
   },
   {
     name: 'Joel M. Turner',
+    github: 'joelmturner',
     description: 'Mostly Front-End Dev, some back end',
     url: 'https://joelmturner.com/uses',
     twitter: '@joelmturner',
@@ -13176,6 +13683,7 @@ module.exports = [
   },
   {
     name: 'Matt Jennings',
+    github: 'mattjennings',
     description: 'web dev, hockey | tradebreaker.io',
     url: 'https://mattjennings.io/uses',
     twitter: '@mattjennings44',
@@ -13187,6 +13695,7 @@ module.exports = [
   },
   {
     name: 'Jake Jarvis',
+    github: 'jakejarvis',
     description:
       'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
     url: 'https://jarv.is/uses/',
@@ -13220,6 +13729,7 @@ module.exports = [
   },
   {
     name: 'Ángel Guerra',
+    github: 'AngelGuerra',
     description: 'Father. Partner. Human. Kickboxer. Ninja.',
     url: 'https://angelguerra.me/uses/',
     emoji: '👹️',
@@ -13239,6 +13749,7 @@ module.exports = [
   },
   {
     name: 'Robin Bakker',
+    github: 'robinbakker',
     description: 'Web Developer',
     url: 'https://robinbakker.nl/uses',
     twitter: '@robinbakker',
@@ -13261,6 +13772,7 @@ module.exports = [
   },
   {
     name: 'Alessia Bellisario',
+    github: 'ariaieboy',
     description:
       'Web engineer, mechanical keyboard builder, plotter art maker.',
     url: 'https://aless.co/uses',
@@ -13281,6 +13793,7 @@ module.exports = [
   },
   {
     name: 'AriaieBOY',
+    github: 'ariaieboy',
     description: 'Web Developer that loves creating and sharing',
     url: 'https://ariaieboy.ir/uses/',
     twitter: '@ariaieboy_ir',
@@ -13304,6 +13817,7 @@ module.exports = [
   },
   {
     name: 'Russell McWhae',
+    github: 'rmcwhae',
     description:
       'Backcountry skier, photographer, designer, and web developer from Canada',
     url: 'https://russellmcwhae.ca/uses',
@@ -13353,6 +13867,7 @@ module.exports = [
   },
   {
     name: 'Karl Koch',
+    github: 'kemiljk',
     description:
       'Product designer, frontend developer and musician. Building HomeHero and making other things.',
     url: 'https://www.kejk.tech/uses',
@@ -13379,6 +13894,7 @@ module.exports = [
   },
   {
     name: 'Praveen Kumar Purushothaman',
+    github: 'praveenscience',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
     url: 'https://blog.praveen.science/my-personal-development-environment/',
@@ -13402,6 +13918,7 @@ module.exports = [
   },
   {
     name: 'Gaya Kessler',
+    github: 'Gaya',
     description: 'Freelance web developer specialising in JavaScript',
     url: 'https://theclevernode.com/uses',
     twitter: '@GayaKessler',
@@ -13424,6 +13941,7 @@ module.exports = [
   },
   {
     name: 'Eivind Lindbråten',
+    github: 'eivindml',
     description: 'One-man studio handcrafting apps and websites',
     url: 'https://madebymist.com/uses',
     twitter: '@eivindml',
@@ -13445,6 +13963,7 @@ module.exports = [
   },
   {
     name: 'Matthew Ernisse',
+    github: 'mernisse',
     description: 'Recovering Systems Engineer now Solutions Engineer.',
     url: 'https://www.going-flying.com/~mernisse/uses/',
     country: '🇺🇸',
@@ -13464,6 +13983,7 @@ module.exports = [
   },
   {
     name: 'Diego López',
+    github: 'diegologs',
     description:
       'Frontend developer making thins with Vue & Nuxt. Gamer and beer lover',
     url: 'https://codingpotions.com/uses',
@@ -13485,6 +14005,7 @@ module.exports = [
   },
   {
     name: 'Dave Mullen Jnr',
+    github: 'davemullenjnr',
     description:
       'Designer, photographer, developer, multi-instrumentalist, chess player, aspiring minimalist, environmentally friendly.',
     url: 'https://davemullenjnr.co.uk/uses',
@@ -13505,6 +14026,7 @@ module.exports = [
   },
   {
     name: 'Tiffany White',
+    github: 'twhite96',
     description: 'Frontend dev, blogger, podcaster, herder of cats',
     url: 'https://tiffanywhite.dev/uses/',
     twitter: '@tiffanywhitedev',
@@ -13546,6 +14068,7 @@ module.exports = [
   },
   {
     name: 'Riley Shaw',
+    github: 'rileyjshaw',
     description: 'Programmer, interface designer, noisemaker, mender.',
     url: 'https://rileyjshaw.com/uses',
     country: '🇨🇦',
@@ -13576,6 +14099,7 @@ module.exports = [
   },
   {
     name: 'Nathan Smith',
+    github: 'nathonius',
     description: 'Full stack dev, cat dad, dungeon master.',
     url: 'https://nathan-smith.org/uses',
     emoji: '😬',
@@ -13586,6 +14110,7 @@ module.exports = [
   },
   {
     name: 'Thê (Alexander) Quach',
+    github: 'theqquach',
     description:
       'An aspiring financial data analyst, seeking new projects and opportunities',
     url: 'https://the-quach.com/uses/',
@@ -13607,6 +14132,7 @@ module.exports = [
   },
   {
     name: 'Joshua Ryan Velasquez',
+    github: 'joshua-afk',
     description:
       'Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.',
     url: 'https://joshua-afk.github.io/uses',
@@ -13654,6 +14180,7 @@ module.exports = [
   },
   {
     name: 'Jean Tinland',
+    github: 'Jean-Tinland',
     description:
       'Front-end developer. Working with CSS, React, Next.js. I implement responsive, accessible, backward-compatible interfaces.',
     url: 'https://www.jeantinland.com/en/uses/',
@@ -13677,6 +14204,7 @@ module.exports = [
   },
   {
     name: 'Yash Dave',
+    github: 'Amorpheuz',
     description:
       'Web Developer who ❤s Gatsby & React. Ocassional blogger & Open Source Contributor!',
     url: 'https://amorpheuz.dev/uses/',
@@ -13721,6 +14249,7 @@ module.exports = [
   },
   {
     name: 'Gyan Prakash Karn',
+    github: 'karngyan',
     description: 'Software Engineer, Tinkerer, Absurdist.',
     url: 'https://karngyan.com/uses/',
     twitter: '@gyankarn',
@@ -13764,6 +14293,7 @@ module.exports = [
   },
   {
     name: 'Zubair Ibn Zamir',
+    github: '2u841r',
     description:
       'Full-Stack Developer. Cloud Practitioner. Open source contributor. Localization volunteer.',
     url: 'https://zubairiz.com/uses',
@@ -13791,6 +14321,7 @@ module.exports = [
   },
   {
     name: 'Tony Lockhart',
+    github: 'tlockhart',
     description: 'Full Stack Developer, Designer, and Instructor',
     url: 'https://tlockhart.github.io/portfolio/#uses',
     emoji: '👽',
@@ -13819,6 +14350,7 @@ module.exports = [
   },
   {
     name: 'Wojciech M. Wnuk',
+    github: 'wmwnuk',
     description: 'Magento developer, Linux and FOSS enthusiast.',
     url: 'https://lanius.dev/uses',
     emoji: '🐓',
@@ -13845,6 +14377,7 @@ module.exports = [
   },
   {
     name: 'Leonardo Melo',
+    github: 'leomeloxp',
     description:
       'Full stack web developer. Typescript lover, always learning new stuff.',
     url: 'https://www.leomeloxp.dev/uses',
@@ -13866,6 +14399,7 @@ module.exports = [
   },
   {
     name: 'Leonardo Rifeli',
+    github: 'leonardorifeli',
     description:
       'Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.',
     url: 'https://rifeli.dev/uses/',
@@ -13896,6 +14430,7 @@ module.exports = [
   },
   {
     name: 'Gabriel Wilkes',
+    github: 'gabriel-wilkes',
     description:
       'Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US',
     url: 'https://azul.technology/uses/',
@@ -13919,6 +14454,7 @@ module.exports = [
   },
   {
     name: 'Rémi Weng',
+    github: 'ixartz',
     description:
       'A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.',
     url: 'https://creativedesignsguru.com/uses/',
@@ -13950,6 +14486,7 @@ module.exports = [
   },
   {
     name: 'Sal Ferrarello',
+    github: 'salcode',
     description:
       'Web Developer specializing in WordPress. Loves Git and Neovim. Good at metaphors and asking dumb questions.',
     url: 'https://salferrarello.com/uses/',
@@ -13972,6 +14509,7 @@ module.exports = [
   },
   {
     name: 'Brian Morrison II',
+    github: 'bmorrisondev',
     description:
       'Full stack developer, content creator, husband, father of 3 boys, lifter of weights, Destiny 2/Stadia gamer',
     url: 'https://brianmorrison.me/uses/',
@@ -13995,6 +14533,7 @@ module.exports = [
   },
   {
     name: 'Tim Downey',
+    github: 'tcdowney',
     description:
       'Software Engineer - Distributed Systems, Cloud Platforms, and Web 🙃',
     url: 'https://downey.io/uses/',
@@ -14024,6 +14563,7 @@ module.exports = [
   },
   {
     name: 'Sayak Mukhopadhyay',
+    github: 'SayakMukhopadhyay',
     description: 'Software Developer, Platform Engineer',
     url: 'https://sayakm.me/uses/',
     twitter: '@defineSayak',
@@ -14112,6 +14652,7 @@ module.exports = [
   },
   {
     name: 'Dmytro Litvinov',
+    github: 'DmytroLitvinov',
     description: 'Full Stack Python developer from 🇺🇦',
     url: 'https://dmytrolitvinov.com/uses/',
     twitter: '@DmytroLitvinov',
@@ -14140,6 +14681,7 @@ module.exports = [
   },
   {
     name: 'Jed Fonner',
+    github: 'jedfonner',
     description:
       'Engineering VP and father who still manages to crank out a couple side projects each year. Loves Svelte and Javascript.',
     url: 'https://jedfonner.com/uses',
@@ -14161,6 +14703,7 @@ module.exports = [
   },
   {
     name: 'Steve Abraham',
+    github: 'steveabraham',
     description: 'IT guy, previously full stack web developer',
     url: 'https://steveabraham.com/uses',
     emoji: '👨🏻‍💻',
@@ -14186,6 +14729,7 @@ module.exports = [
   },
   {
     name: 'Salisa Cheawcharnthong',
+    github: 'sgennrw',
     description: 'Software Engineer',
     url: 'https://www.sgennrw.xyz/uses',
     twitter: '@sgennrw',
@@ -14209,6 +14753,7 @@ module.exports = [
   },
   {
     name: 'Tom (ttntm)',
+    github: 'ttntm',
     description: 'Web developer from Austria',
     url: 'https://ttntm.me/uses',
     emoji: '🚀',
@@ -14227,6 +14772,7 @@ module.exports = [
   },
   {
     name: 'Vincent Ollivier',
+    github: 'vinc',
     description: 'Remote Full Stack Developer',
     url: 'https://vinc.cc/uses',
     mastodon: '@vinc@mastodon.social',
@@ -14257,6 +14803,7 @@ module.exports = [
   },
   {
     name: 'Achhunna Mali',
+    github: 'achhunna',
     description: 'Software engineer and aspiring surfer',
     url: 'https://achhunna.com/uses',
     emoji: '🏄‍♂️',
@@ -14275,6 +14822,7 @@ module.exports = [
   },
   {
     name: 'Jorge Baumann',
+    github: 'baumannzone',
     description: 'JavaScript FullStack Developer - Content Creator',
     url: 'https://baumannzone.dev/uses',
     twitter: '@baumannzone',
@@ -14294,6 +14842,7 @@ module.exports = [
   },
   {
     name: 'Moncef AOUDIA',
+    github: 'aoudiamoncef',
     description: 'Software developer - Open-source enthusiast/maintainer',
     url: 'https://www.maoudia.com/uses',
     twitter: '@aoudiamoncef',
@@ -14340,6 +14889,7 @@ module.exports = [
   },
   {
     name: 'Iain Schmitt',
+    github: 'eoncarlyle',
     description:
       'Minneapolis based software engineer and Apache ZooKeeper apologist who owns too many keyboards',
     url: 'https://iainschmitt.com/uses',
@@ -14351,6 +14901,7 @@ module.exports = [
   },
   {
     name: 'Jahir Fiquitiva',
+    github: 'jahirfiquitiva',
     description: 'Passionate and Creative Software Engineer',
     url: 'https://jahir.dev/uses',
     twitter: '@jahirfiquitiva',
@@ -14372,6 +14923,7 @@ module.exports = [
   },
   {
     name: 'José Hernández',
+    github: 'josehernandezv',
     description: 'Mobile and Web Developer',
     url: 'https://josehernandez.tech/uses',
     twitter: '@josedevjourney',
@@ -14397,6 +14949,7 @@ module.exports = [
   },
   {
     name: 'Christophe Querton',
+    github: 'kertof',
     description:
       'Software Engineer, xoogler, co-founder of @accelery. Full-stack, technical debt collector. Lover of the Outdoors, BBQ, sailing.',
     url: 'https://kertof.com/what-i-use',
@@ -14419,6 +14972,7 @@ module.exports = [
   },
   {
     name: 'Adil Haddaoui',
+    github: 'adilhaddaoui',
     description: 'Full stack Developer',
     url: 'https://adilhaddaoui.com/uses',
     twitter: '@ADiLHADDAOUI',
@@ -14448,6 +15002,7 @@ module.exports = [
   },
   {
     name: 'Vlad Holubiev',
+    github: 'vladgolubev',
     description: 'Sr. Director of Technology at Shelf',
     url: 'https://vladholubiev.com/uses',
     twitter: '@vladholubiev',
@@ -14472,6 +15027,7 @@ module.exports = [
   },
   {
     name: 'Jorge Ruvalcaba',
+    github: 'jorgearuv',
     description:
       'Software Engineer & Aspiring Entrepreneur who does things. Frontend at Vest',
     url: 'https://jorgearuv.dev/uses',
@@ -14550,6 +15106,7 @@ module.exports = [
   },
   {
     name: 'Michael Knepprath',
+    github: 'mknepprath',
     description:
       'Pokémon-obsessed Software Engineer & Designer. Twitter bots are my jam.',
     url: 'https://mknepprath.com/uses',
@@ -14562,6 +15119,7 @@ module.exports = [
   },
   {
     name: 'Matt TK Taylor',
+    github: 'MattieTK',
     description: 'Product Manager in news & media',
     url: 'https://tk.gg/uses',
     twitter: '@MattieTK',
@@ -14573,6 +15131,7 @@ module.exports = [
   {
     // required tags
     name: 'Nico Bachner',
+    github: 'nico-bachner',
     description: 'Student. Developer. Entrepreneur.',
     url: 'https://nicobachner.com/uses',
     country: '🇱🇺',
@@ -14606,6 +15165,7 @@ module.exports = [
   },
   {
     name: 'Brad Garropy',
+    github: 'bradgarropy',
     description:
       'Senior Frontend Developer at Stripe, into lifting and country music.',
     url: 'https://bradgarropy.com/uses',
@@ -14633,6 +15193,7 @@ module.exports = [
   },
   {
     name: 'Jeff Mair',
+    github: 'jeffwmair',
     description:
       'Contract/Freelance Web Developer, .NET Programmer, Dad, Korean Learner',
     url: 'https://jeffmair.net/uses',
@@ -14645,6 +15206,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Collins',
+    github: 'jdodsoncollins',
     description:
       'Full-stack developer always seeking to learn more. Web and mobile technology enthusiast.',
     url: 'https://jeremycollins.net/uses',
@@ -14694,6 +15256,7 @@ module.exports = [
   },
   {
     name: 'Bruno Brito',
+    github: 'brunofbrito',
     description:
       'Freelance Web Developer, Content Creator, Digital Marketing teacher',
     url: 'https://brunobrito.pt/uses',
@@ -14715,6 +15278,7 @@ module.exports = [
   },
   {
     name: 'Roy Tang',
+    github: 'roytang',
     description:
       'Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.',
     url: 'https://roytang.net/about/uses/',
@@ -14736,6 +15300,7 @@ module.exports = [
   },
   {
     name: 'Sahilpreet Singh',
+    github: 'preetsahil',
     description: 'MERN stack developer, Leaning Devops, Web Enthusiast.',
     url: 'https://github.com/preetsahil/uses',
     twitter: '@sahil21_7',
@@ -14765,6 +15330,7 @@ module.exports = [
   },
   {
     name: 'Thomas Jensen',
+    github: 'thomasjsn',
     description:
       'I like electronics and computers — and my wife and three kids.',
     url: 'https://blog.cavelab.dev/uses/',
@@ -14785,6 +15351,7 @@ module.exports = [
   },
   {
     name: 'David Perkins',
+    github: 'Prkns',
     description: 'Dad, Designer, Developer, Dave, Keyboard enthusiast',
     url: 'https://prkns.me/uses',
     twitter: '@perki',
@@ -14814,6 +15381,7 @@ module.exports = [
   },
   {
     name: 'Jan Durkaj',
+    github: 'plevik',
     description: 'Web developer, adventurer, and amateur photographer',
     url: 'https://jandurkaj.dev/uses',
     country: '🇸🇰',
@@ -14843,6 +15411,7 @@ module.exports = [
   },
   {
     name: 'Cory Forsythe',
+    github: 'coryforsytheold',
     description: 'Software Manager, Cloud Architect, Python and JS guy',
     url: 'https://coryforsythe.com/uses',
     country: '🇺🇸',
@@ -14866,6 +15435,7 @@ module.exports = [
   },
   {
     name: 'Tom MacWright',
+    github: 'tmcw',
     description: 'Founder, writer, programmer',
     url: 'https://macwright.com/uses',
     emoji: '🔰',
@@ -14897,6 +15467,7 @@ module.exports = [
   },
   {
     name: 'Jason Raimondi',
+    github: 'jasonraimondi',
     description: 'Full Stack Developer',
     url: 'https://jasonraimondi.com/uses',
     twitter: '@jsonmamondi',
@@ -14919,6 +15490,7 @@ module.exports = [
   },
   {
     name: 'Marco Kamner',
+    github: 'ProfessorLogout',
     description: 'Pragmatic DevOps Engineer & Indie Hacker',
     url: 'https://marco.ninja/uses',
     mastodon: '@mkamner@mastodon.world',
@@ -14941,6 +15513,7 @@ module.exports = [
   },
   {
     name: 'Glyn Normington',
+    github: 'glyn',
     description:
       'Retired software developer, ex-visiting lecturer, IETF editor.',
     url: 'https://underlap.org/uses',
@@ -14965,6 +15538,7 @@ module.exports = [
   },
   {
     name: 'Thomas Hunter II',
+    github: 'tlhunter',
     description:
       'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
     url: 'https://thomashunter.name/uses',
@@ -14984,6 +15558,7 @@ module.exports = [
   },
   {
     name: 'Martin Marcucci',
+    github: 'rmarku',
     description:
       'Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.',
     url: 'https://www.marku.me/page/uses/',
@@ -15038,6 +15613,7 @@ module.exports = [
   },
   {
     name: 'Eihab Khan',
+    github: 'eihabkhan',
     description: 'Front End Engineer & UI/UX Designer',
     url: 'https://eihabkhan.com/uses',
     twitter: '@eihab_khan',
@@ -15058,6 +15634,7 @@ module.exports = [
   },
   {
     name: 'Mahmoud Ashraf',
+    github: '22mahmoud',
     description: 'Front-End Developer, sometimes do backend stuff.',
     url: 'http://mahmoudashraf.dev/uses',
     twitter: '@_22mahmoud',
@@ -15092,6 +15669,7 @@ module.exports = [
   },
   {
     name: 'Pouria Ezzati',
+    github: 'NourSofanati',
     description: 'Web developer. Digs music, football and a e s t h e t i c s',
     url: 'https://pouria.dev/uses',
     twitter: '@poeti8',
@@ -15111,6 +15689,7 @@ module.exports = [
   },
   {
     name: 'Simeon Griggs',
+    github: 'SimeonGriggs',
     description:
       'Full stack developer and part time Cyclist in Newcastle upon Tyne, UK',
     url: 'https://www.simeongriggs.dev/uses',
@@ -15132,6 +15711,7 @@ module.exports = [
   },
   {
     name: 'Stuart McColl',
+    github: 'stuartmccoll',
     description: 'Software developer, DevOps enthusiast.',
     url: 'https://stuartmccoll.github.io/uses/',
     twitter: '@itstuartmccoll',
@@ -15150,6 +15730,7 @@ module.exports = [
   },
   {
     name: 'Jonathan Suh',
+    github: 'jonsuh',
     description: 'Designer, Developer, Sneakerhead',
     url: 'https://jonsuh.com/uses',
     twitter: '@jonsuh',
@@ -15161,6 +15742,7 @@ module.exports = [
   },
   {
     name: 'George Campbell',
+    github: 'abersnaze',
     description: 'Full stack engineer at Netflix',
     url: 'https://gibr.net/uses',
     twitter: '@gilko',
@@ -15196,6 +15778,7 @@ module.exports = [
   },
   {
     name: 'Sowren Sen',
+    github: 'nemoitis',
     description: 'Software Engineer',
     url: 'https://sowrensen.dev/uses',
     twitter: '@sowrensen',
@@ -15222,6 +15805,7 @@ module.exports = [
   },
   {
     name: 'Keith Wagner',
+    github: 'kpwags',
     description:
       'Experienced full stack developer. Always trying to learn new and better ways of doing things.',
     url: 'https://kpwags.com/uses',
@@ -15243,6 +15827,7 @@ module.exports = [
   },
   {
     name: 'Sebastian Remm',
+    github: 'SebiBasti',
     description: 'Coding at 04am in the morning',
     url: 'https://www.sebibasti.dev/uses',
     emoji: '😴',
@@ -15281,6 +15866,7 @@ module.exports = [
   },
   {
     name: 'Stephen Bunn',
+    github: 'stephen-bunn',
     description:
       'Software engineer, coffee drinker, amateur photographer, occasional blogger',
     url: 'https://bunn.io/uses/',
@@ -15332,6 +15918,7 @@ module.exports = [
   },
   {
     name: "David O'Trakoun",
+    github: 'davidosomething',
     description: 'Software Engineer',
     url: 'https://www.davidosomething.com/uses/',
     twitter: '@davidosomething',
@@ -15343,6 +15930,7 @@ module.exports = [
   },
   {
     name: 'Dean Harris',
+    github: 'deanacus',
     description:
       'Front End Developer. Husband. Skateboarder. Occasional blogger',
     url: 'https://deanacus.com/uses/',
@@ -15355,6 +15943,7 @@ module.exports = [
   },
   {
     name: 'Michael Hoffmann',
+    github: 'Mokkapps',
     description: 'Freelance Software Engineer',
     url: 'https://www.mokkapps.de/uses',
     twitter: '@mokkapps',
@@ -15374,6 +15963,7 @@ module.exports = [
   },
   {
     name: 'Mike Hart',
+    github: 'boilemmashem',
     description:
       'Front-end dev with a design background, IoT, tabletop RPGs, painting, and mixing them together.',
     url: 'https://gist.github.com/boilemmashem/4764c911726d8c1599e2c39a4003626a',
@@ -15395,6 +15985,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Ross',
+    github: 'jeremyrwross',
     description:
       'Nova Scotia-based WordPress Developer who enjoys tech a bit too much',
     url: 'https://jereross.com/uses/',
@@ -15415,6 +16006,7 @@ module.exports = [
   },
   {
     name: 'Colin Morris',
+    github: 'colinmo',
     description:
       'Steampunker, solution architect and web developer. Mad science works for all cases.',
     url: 'https://vonexplaino.com/blog/posts/page/uses.html',
@@ -15458,6 +16050,7 @@ module.exports = [
   },
   {
     name: 'Michael Le',
+    github: 'mike1e',
     description: 'Software Engineer',
     url: 'https://www.michael1e.com/uses/',
     twitter: '@michaelnle',
@@ -15479,6 +16072,7 @@ module.exports = [
   },
   {
     name: 'Imran Nazar',
+    github: 'Two9A',
     description:
       'Frontend developer with an eye for retrocomputing, author of Coffeepot Control Protocol for Teapots (RFC 7168)',
     url: 'https://imrannazar.com/uses',
@@ -15489,6 +16083,7 @@ module.exports = [
   },
   {
     name: 'Kilian Valkhof',
+    github: 'Kilian',
     description: 'User experience developer',
     url: 'https://kilianvalkhof.com/using/',
     twitter: '@kilianvalkhof',
@@ -15512,6 +16107,7 @@ module.exports = [
   },
   {
     name: 'Spencer Aung',
+    github: 'SpencerAung',
     description:
       'Frontend Developer from Myanmar. Live in Seoul. Love cats and octopuses',
     url: 'https://spenceraung.me/blog/uses',
@@ -15536,6 +16132,7 @@ module.exports = [
   },
   {
     name: 'Dale French',
+    github: 'dale-french',
     description:
       'Full Stack Developer from South Africa. Skateboarder. Front End Enthusiast.',
     url: 'https://dalefrench.dev/uses',
@@ -15558,6 +16155,7 @@ module.exports = [
   },
   {
     name: 'Jordan Elver',
+    github: 'jordelver',
     description: 'Full Stack developer who loves Ruby, Elixir, and Rust.',
     url: 'https://elver.me/uses/',
     twitter: '@jordelver',
@@ -15579,6 +16177,7 @@ module.exports = [
   },
   {
     name: 'Russell John',
+    github: 'russelljohn',
     description:
       'Professional Linux system administrator and highly experienced webmaster.',
     url: 'https://russelljohn.net/uses/',
@@ -15604,6 +16203,7 @@ module.exports = [
   },
   {
     name: 'Liam Richardson',
+    github: 'discoliam',
     description:
       'User Interface developer focusing on Performance, A11y and CSS',
     url: 'https://discoliam.com/uses/',
@@ -15626,6 +16226,7 @@ module.exports = [
   },
   {
     name: 'Serghei Cebotari',
+    github: 'scebotari66',
     description:
       'Software Developer specializing in building highly interactive web applications',
     url: 'https://sergheicebotari.com/uses',
@@ -15648,6 +16249,7 @@ module.exports = [
   },
   {
     name: 'Timothy Miller',
+    github: 'WebInspectInc',
     description: 'Web Designer/Developer for hire. Wears lots of hats.',
     url: 'https://timothymiller.dev/uses',
     twitter: '@WebInspectInc',
@@ -15670,6 +16272,7 @@ module.exports = [
   },
   {
     name: 'Caleb Ukle',
+    github: 'barbados-clemens',
     description:
       "I'm a software developer, technology enthusiast, and simply enjoy learning new things.",
     url: 'https://calebukle.com/uses',
@@ -15682,6 +16285,7 @@ module.exports = [
   },
   {
     name: 'Ricardo Boss',
+    github: 'ricardoboss',
     description: 'Web native, born to code.',
     url: 'https://ricardoboss.de/uses',
     twitter: '@_ricardoboss',
@@ -15708,6 +16312,7 @@ module.exports = [
   },
   {
     name: 'Vincent Ramdhanie',
+    github: 'vramdhanie',
     description: 'Software Developer, Lecturer, Technical Writer and Mentor',
     url: 'https://vincentramdhanie.com/uses',
     emoji: '🦖',
@@ -15731,6 +16336,7 @@ module.exports = [
   },
   {
     name: 'Christopher Mortimer',
+    github: 'mortie23',
     description: 'Data Engineer, Web Developer, and Australian Footy Fan',
     url: 'https://mortimer.xyz/uses/',
     emoji: '🏏',
@@ -15757,6 +16363,7 @@ module.exports = [
   },
   {
     name: 'Amir R Muntasser',
+    github: 'arkmuntasser',
     description:
       "Web Developer, #vuenicorn wizard, Oxford comma enthusiast, and inventor of the ol' razzle dazzle.",
     url: 'https://arkm.xyz/uses/',
@@ -15778,6 +16385,7 @@ module.exports = [
   },
   {
     name: 'Pavel Melnik',
+    github: 'theopract',
     description:
       'Web developer, Technology enthusiast, Energy Management System expert',
     url: 'https://theopract.gitlab.io/pavel-dev/uses/',
@@ -15799,6 +16407,7 @@ module.exports = [
   },
   {
     name: 'Miguel Ángel Durán',
+    github: 'midudev',
     description:
       'Front end passionate, Web Performance freak, casual speaker, <WTFront! /> podcast host, and gamer.',
     url: 'https://midu.dev/uses',
@@ -15827,6 +16436,7 @@ module.exports = [
   },
   {
     name: 'David Llop',
+    github: 'Lloople',
     description:
       'Full stack developer from Girona. Open Source contributor. Always Learning.',
     url: 'https://davidllop.com/uses',
@@ -15851,6 +16461,7 @@ module.exports = [
   },
   {
     name: 'Alba Silvente',
+    github: 'Dawntraoz',
     description:
       'Front-end developer, Vue & Tailwind CSS lover. Hip Hop & Afro house dancer.',
     url: 'https://dawntraoz.com/uses',
@@ -15874,6 +16485,7 @@ module.exports = [
   },
   {
     name: 'Karel De Smet',
+    github: 'carlos-ds',
     description:
       'Lecturer in web development. Loves building and maintaining software.',
     url: 'https://kareldesmet.be/uses',
@@ -15894,6 +16506,7 @@ module.exports = [
   },
   {
     name: 'Alberto Fortes',
+    github: 'albertofortes',
     description:
       'Senior Front-end developer with strong aesthetic sense. Building cool websites and apps as Front-end Team lead at Avallain.',
     url: 'https://albertofortes.com/uses/',
@@ -15919,6 +16532,7 @@ module.exports = [
   },
   {
     name: 'Josh Manders',
+    github: 'NourSofanati',
     description: 'Indie Maker & Entrepreneur',
     url: 'https://joshmanders.com/uses/',
     twitter: '@joshmanders',
@@ -15958,6 +16572,7 @@ module.exports = [
   },
   {
     name: 'Joe Previte',
+    github: 'jsjoeio',
     description: 'Developer Advocate on the Open Source Team at Facebook',
     url: 'https://joeprevite.com/uses',
     twitter: '@jsjoeio',
@@ -15982,6 +16597,7 @@ module.exports = [
   },
   {
     name: 'Harry Wolff',
+    github: 'NourSofanati',
     description: 'Front-end engineer and YouTuber ',
     url: 'https://hswolff.com/uses/',
     twitter: '@hswolff',
@@ -15993,6 +16609,7 @@ module.exports = [
   },
   {
     name: 'Amir Ghaffari',
+    github: 'eamirgh',
     description: 'full-stack web developer',
     url: 'https://amirghaffari.com/uses/',
     twitter: '@eamirgh',
@@ -16013,6 +16630,7 @@ module.exports = [
   },
   {
     name: 'James Mills',
+    github: 'NourSofanati',
     description:
       'Work with PHP & Laravel at @clicksco in Dubai. Pleased to be part of the Laravel community.',
     url: 'https://jamesmills.co.uk/uses',
@@ -16025,6 +16643,7 @@ module.exports = [
   },
   {
     name: 'Jamie Schembri',
+    github: 'shkm',
     description:
       'Freelance software engineer with a focus on Ruby on Rails and simplicity.',
     url: 'https://schembri.me/uses',
@@ -16045,6 +16664,7 @@ module.exports = [
   },
   {
     name: 'Brian Mitchell',
+    github: 'BrianMitchL',
     description:
       'Frontend software engineer and co-organizer of JavaScriptMN. Occasionally a lighting designer.',
     url: 'https://brianm.me/uses',
@@ -16068,6 +16688,7 @@ module.exports = [
   },
   {
     name: 'Eddie Welker',
+    github: 'edwelker',
     description:
       'Programmer, Cyclist, Cellist, Photographer, Cook, Woodworker, MD, USA.',
     url: 'https://eddiewelker.com/uses',
@@ -16095,6 +16716,7 @@ module.exports = [
   },
   {
     name: 'Mohammad Dohadwala',
+    github: 'Gr8z',
     description: 'Hi, I am a Full Stack Javascript Web Developer from Dubai.',
     url: 'https://dohad.dev/blog/uses',
     twitter: '@mohammaddohad',
@@ -16116,6 +16738,7 @@ module.exports = [
   },
   {
     name: 'Manuel Savino',
+    github: 'manuelsavino',
     description: 'Frontend Web Developer ',
     url: 'https://manuels.dev/uses',
     twitter: '@mansav17',
@@ -16142,6 +16765,7 @@ module.exports = [
   },
   {
     name: 'Terry Godier',
+    github: 'NourSofanati',
     description: 'A developer and marketer of fine internet products.',
     url: 'https://terrygodier.com/uses',
     twitter: '@terrygodier',
@@ -16153,6 +16777,7 @@ module.exports = [
   },
   {
     name: 'Erno Salo',
+    github: 'NourSofanati',
     description: 'Full Stack Developer and Open Source Contributor',
     url: 'https://endormi.io/uses/',
     twitter: '@_endormi',
@@ -16174,6 +16799,7 @@ module.exports = [
   },
   {
     name: 'James Brooks',
+    github: 'NourSofanati',
     description: 'Software Developer at Laravel and Podcaster',
     url: 'https://james.brooks.page/uses/',
     twitter: '@jbrooksuk',
@@ -16225,6 +16851,7 @@ module.exports = [
   },
   {
     name: 'Mike Barkmin',
+    github: 'mikebarkmin',
     description:
       "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
     url: 'https://www.barkmin.eu/uses/',
@@ -16248,6 +16875,7 @@ module.exports = [
   },
   {
     name: 'Hugo Di Francesco',
+    github: 'HugoDF',
     description:
       "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
     url: 'https://codewithhugo.com/uses',
@@ -16274,6 +16902,7 @@ module.exports = [
   },
   {
     name: 'Steve Heyes',
+    github: 'mrsteveheyes',
     description:
       'I like to use tech to build awesome things that makes peoples lives better',
     url: 'https://steveheyes.co.uk/uses',
@@ -16294,6 +16923,7 @@ module.exports = [
   },
   {
     name: 'Earl Siachongco',
+    github: 'elpachongco',
     description: 'Building websites',
     url: 'https://elpachongco.github.io/uses',
     emoji: '🎰',
@@ -16304,6 +16934,7 @@ module.exports = [
   },
   {
     name: 'Galen Cuthbertson',
+    github: 'gcuth',
     description: 'I build tools & tools to help understand human culture.',
     url: 'https://galen.me/uses',
     emoji: '💯',
@@ -16344,6 +16975,7 @@ module.exports = [
   },
   {
     name: 'Diego Vazquez',
+    github: 'diurivj',
     description:
       'Young guy who loves code. Full Stack Web Developer. Lead Teacher @ Ironhack',
     url: 'https://gist.github.com/diurivj/78ca931c4b20dca1e1e13982fa9c309d',
@@ -16364,6 +16996,7 @@ module.exports = [
   },
   {
     name: 'Rafael Quintanilha',
+    github: 'rafaelquintanilha',
     description:
       'Software Engineer. Blogs about Web Development, Front-end, React, UI/UX, Accessibility.',
     url: 'https://rafaelquintanilha.com/about#uses',
@@ -16384,6 +17017,7 @@ module.exports = [
   },
   {
     name: 'Jenna Pederson',
+    github: 'jennapederson',
     description:
       'Technical entrepreneur with a passion for community and equity-building',
     url: 'https://jennapederson.com/uses',
@@ -16407,6 +17041,7 @@ module.exports = [
   },
   {
     name: 'Ben Leivian',
+    github: 'benleivian',
     description: 'A “seasoned” full-stack developer & visual designer 🍔',
     url: 'https://benleivian.com/uses',
     twitter: '@benleivian',
@@ -16428,6 +17063,7 @@ module.exports = [
   },
   {
     name: 'Danny de Vries',
+    github: 'dandevri',
     description:
       'Indie maker building products for the web and lecturer @CMDamsterdam',
     url: 'https://dandevri.es/uses',
@@ -16448,6 +17084,7 @@ module.exports = [
   },
   {
     name: 'David Petringa',
+    github: 'dukesnuz',
     description:
       'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
     url: 'https://david.dukesnuz.com/uses',
@@ -16472,6 +17109,7 @@ module.exports = [
   },
   {
     name: 'Stephen Senkomago Musoke',
+    github: 'ssmusoke',
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
     url: 'https://ssmusoke.com/uses',
@@ -16484,6 +17122,7 @@ module.exports = [
   },
   {
     name: 'Jérémy Mouzin',
+    github: 'jeremymouzin',
     description: 'Software Engineer, Tutorial Maker, Entrepreneur, Blogger',
     url: 'https://jeremymouzin.com/uses',
     twitter: '@jeremymouzin',
@@ -16504,6 +17143,7 @@ module.exports = [
   },
   {
     name: 'John Cranston',
+    github: 'pursuitofloot',
     description: 'Part lead front-ender, Part vidya-streamer, All cat dad.',
     url: 'https://pursuitofloot.gg/uses',
     twitter: '@pursuitofloot',
@@ -16515,6 +17155,7 @@ module.exports = [
   },
   {
     name: 'Thorsten Hans',
+    github: 'ThorstenHans',
     description: 'Cloud-Native software developer from Germany.',
     url: 'https://thorsten-hans.com/uses/',
     twitter: '@ThorstenHans',
@@ -16534,6 +17175,7 @@ module.exports = [
   },
   {
     name: 'Iñigo Ochoa',
+    github: 'inigochoa',
     description: 'Backend, basketball, music.',
     url: 'https://inigochoa.me/uses/',
     twitter: '@inigochoa',
@@ -16561,6 +17203,7 @@ module.exports = [
   },
   {
     name: 'Tony Mannino',
+    github: 'immannino',
     description: 'Full-Stack developer',
     url: 'http://spaghet.me/uses/',
     twitter: '@immannino',
@@ -16582,6 +17225,7 @@ module.exports = [
   },
   {
     name: 'Victor Kropp',
+    github: 'kropp',
     description:
       'Software Engineer, Team Lead, Husband, Father, and Triathlete',
     url: 'https://victor.kropp.name/uses',
@@ -16602,6 +17246,7 @@ module.exports = [
   },
   {
     name: 'Scott Spence',
+    github: 'spences10',
     description: 'Developer, Svelte, GraphQL',
     url: 'https://scottspence.com/uses',
     twitter: '@spences10',
@@ -16622,6 +17267,7 @@ module.exports = [
   },
   {
     name: 'Marc Littlemore',
+    github: 'MarcL',
     description:
       'Senior Engineering Manager @ Netlify, Node.js fan, course creator, entrepreneur, ex-videogame developer, public speaker, and sepsis survivor.',
     url: 'https://marclittlemore.com/uses/',
@@ -16644,6 +17290,7 @@ module.exports = [
   },
   {
     name: 'Danielle Mayabb',
+    github: 'dmtrek14',
     description:
       'Full-stack developer, Accessibility Engineer, Information Architect, Generalist',
     url: 'https://danielle-m.dev/uses',
@@ -16673,6 +17320,7 @@ module.exports = [
   },
   {
     name: 'Georgi Yanev',
+    github: 'jumpalottahigh',
     description: 'Software Engineer, FPV Drone Pilot, Blogger, YouTuber',
     url: 'https://gyanev.com/uses/',
     twitter: '@jumpalottahigh',
@@ -16697,6 +17345,7 @@ module.exports = [
   },
   {
     name: 'Varun Raj Manoharan',
+    github: 'varun-raj',
     description:
       'Co Founder - Skcript, Typescript Ninja, I cook web apps, Google Developer Expert - Firebase',
     url: 'https://varunraj.in/uses/',
@@ -16720,6 +17369,7 @@ module.exports = [
   },
   {
     name: 'Jason Scheirer',
+    github: 'jasonbot',
     description:
       'Software Engineer, Systems Enthusiast. I can probably solve that problem quickly.',
     url: 'https://jasonscheirer.com/uses/',
@@ -16743,6 +17393,7 @@ module.exports = [
   },
   {
     name: 'Frédéric Harper',
+    github: 'fharper',
     description:
       'Developer Advocate with a knack for public speaking & making videos',
     url: 'https://fred.dev/uses',
@@ -16762,6 +17413,7 @@ module.exports = [
   },
   {
     name: 'Mark Tse',
+    github: 'neverendingqs',
     description: 'A back-end developer who likes to dabble in the front-end.',
     url: 'https://neverendingqs.com/uses/',
     twitter: '@neverendingqs',
@@ -16788,6 +17440,7 @@ module.exports = [
   },
   {
     name: 'Karl Horky',
+    github: 'karlhorky',
     description: 'Founder, Teacher at https://upleveled.io',
     url: 'https://github.com/karlhorky/uses/blob/master/readme.md',
     twitter: '@karlhorky',
@@ -16814,6 +17467,7 @@ module.exports = [
   },
   {
     name: 'Zoran Panev',
+    github: 'ZokiPokiDev',
     description: 'Web developer',
     url: 'https://gist.github.com/8f08557764711afbf82b75ac0ce61e79.git',
     twitter: '@Zoran_Panev',
@@ -16835,6 +17489,7 @@ module.exports = [
   },
   {
     name: 'Marcos Mendes',
+    github: 'MarcosMe',
     description:
       'Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker',
     url: 'https://marcosmendes.eu:2053/uses',
@@ -16886,6 +17541,7 @@ module.exports = [
   },
   {
     name: 'Brendon van Zanten',
+    github: 'brendonvz',
     description: 'Web Developer',
     url: 'https://brendonvanzanten.com/uses',
     twitter: '@brendon_vz',
@@ -16958,6 +17614,7 @@ module.exports = [
   },
   {
     name: 'Matthew Rebehn',
+    github: 'Cipher-Coder',
     description: 'Proud Dad and Developer',
     url: 'https://mattaz.com/uses',
     twitter: '@MRebehn',
@@ -16978,6 +17635,7 @@ module.exports = [
   },
   {
     name: 'Terry Dontje',
+    github: 'tddontje',
     description:
       'Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.',
     url: 'https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54',
@@ -17004,6 +17662,7 @@ module.exports = [
   },
   {
     name: 'Isaac Weber',
+    github: 'webdevike',
     description: 'Full stack, GraphQL enthusiast',
     url: 'https://www.webdevike.com/uses',
     twitter: '@webdevike',
@@ -17025,6 +17684,7 @@ module.exports = [
   },
   {
     name: 'Jim Fang',
+    github: 'jimfangx',
     description: 'Developer, Tech enthusiast, Student.',
     url: 'https://airfusion.dev/uses',
     twitter: '@airfusionjfa',
@@ -17058,6 +17718,7 @@ module.exports = [
   },
   {
     name: 'Abyan Raditya',
+    github: 'byanrkh',
     description: 'Hey! I am a Frontend web developer.',
     url: 'https://www.byanrkh.my.id/writings/uses',
     emoji: '🙌',
@@ -17078,6 +17739,7 @@ module.exports = [
   },
   {
     name: 'Isaac Wyatt',
+    github: 'iwyatt',
     description:
       'Built Growth Systems @ Google, HashiCorp, New Relic etc. | Strat & Ops + Code',
     url: 'https://isaacwyatt.com/uses',
@@ -17120,6 +17782,7 @@ module.exports = [
   },
   {
     name: 'Andrew Zeller',
+    github: 'ajzeller',
     description:
       'Frontend engineer and designer | SF Bay Area | Drone enthusiast',
     url: 'https://zeller.io/uses',
@@ -17145,6 +17808,7 @@ module.exports = [
   },
   {
     name: 'Thomas Tuvignon',
+    github: 'tomtuv',
     description: 'Front-end developer and occasional designer.',
     url: 'https://thomastuvignon.com/en/uses',
     twitter: '@tomtuv',
@@ -17212,6 +17876,7 @@ module.exports = [
   },
   {
     name: 'Jorge Cortés',
+    github: 'jorgecortesdev',
     description:
       'An easygoing web developer, full-stack web developer tutor, and musician from Hermosillo, Sonora, México.',
     url: 'https://jorgecortes.dev/uses',
@@ -17318,6 +17983,7 @@ module.exports = [
   },
   {
     name: 'Fanis Hatzidakis',
+    github: 'netsmart-fanis',
     description: 'Head of Technology based in Cyprus',
     url: 'https://fanis.dev/about/uses/',
     emoji: '😎',
@@ -17329,6 +17995,7 @@ module.exports = [
   },
   {
     name: 'Hugh He',
+    github: 'plushugh',
     description: 'FOSS Developer, Student',
     url: 'https://plushugh.com/uses',
     twitter: '@plushugh',
@@ -17359,6 +18026,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Lanssiers',
+    github: 'jlanssie',
     description:
       'Full-stack developer-thinker-tinkerer. Preacher for the GNU/Linux Church.',
     url: 'https://www.jeremylanssiers.com/uses/',
@@ -17397,6 +18065,7 @@ module.exports = [
   },
   {
     name: 'Jacopo DP.',
+    github: 'ShiSHcat',
     description:
       'Student and PHP, Javascript developer. Learning cybersecurity',
     url: 'https://shish.cat/uses/',
@@ -17422,6 +18091,7 @@ module.exports = [
   },
   {
     name: 'Dávid Lévai',
+    github: 'thedevdavid',
     description:
       'Building production-ready apps, Freelancing as a Software Dev',
     url: 'https://davidlevai.com/uses',
@@ -17451,6 +18121,7 @@ module.exports = [
   },
   {
     name: 'Tom VanAntwerp',
+    github: 'tvanantwerp',
     description: 'Professional web developer, hobbyist fermenter',
     url: 'https://tomvanantwerp.com/uses',
     twitter: '@tvanantwerp',
@@ -17496,6 +18167,7 @@ module.exports = [
   },
   {
     name: 'Stefan Judis',
+    github: 'stefanjudis',
     description: 'Web Developer, writer and speaker',
     url: 'https://www.stefanjudis.com/uses',
     twitter: '@stefanjudis',
@@ -17515,6 +18187,7 @@ module.exports = [
   },
   {
     name: 'Kaleigh Scruggs',
+    github: 'klgh',
     description:
       'Software Engineer who loves her senior dogs, baking, being outside and reading. Probably doing all those at once.',
     url: 'https://klgh.dev/uses',
@@ -17562,6 +18235,7 @@ module.exports = [
   },
   {
     name: 'Jorge Calle',
+    github: 'jorcalle11',
     description:
       'Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)',
     url: 'https://jorgecalle.co/uses',
@@ -17582,6 +18256,7 @@ module.exports = [
   },
   {
     name: 'Camilo Romero',
+    github: 'kmorope',
     description:
       'Full Snack Web Developer (Yeah...snack) that uses Javascript almost everywhere.',
     url: 'https://camiloromero.dev/uses',
@@ -17603,6 +18278,7 @@ module.exports = [
   },
   {
     name: 'Rhys Botfield',
+    github: 'RBotfield',
     description:
       'Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor',
     url: 'https://rhysbotfield.co.uk/uses',
@@ -17662,6 +18338,7 @@ module.exports = [
   },
   {
     name: 'Quentin Laffont',
+    github: 'qlaffont',
     description:
       'Full Stack JS Developer, Tournament Organiser, Video-Game lover',
     url: 'https://uses.qlaffont.com',
@@ -17686,6 +18363,7 @@ module.exports = [
   },
   {
     name: 'Quan Tong',
+    github: 'quantonganh',
     description:
       'Software Engineer, DevOps Engineer, Traveller, Street photography lover',
     url: 'https://quantonganh.com/uses',
@@ -17698,6 +18376,7 @@ module.exports = [
   },
   {
     name: 'Adrián Alcorta Puente',
+    github: 'ardillan',
     description:
       'Frontend developer. I love mountains, Game Boys and Post-rock music.',
     url: 'https://ardi.land/uses',
@@ -17748,6 +18427,7 @@ module.exports = [
   },
   {
     name: 'Krzysztof Żuraw',
+    github: 'krzysztofzuraw',
     description: 'Developer, nerd, co-organizer, chemex lover',
     url: 'https://krzysztofzuraw.com/uses',
     twitter: '@krzysztof_zuraw',
@@ -17759,6 +18439,7 @@ module.exports = [
   },
   {
     name: 'Julio Lozovei',
+    github: 'jlozovei',
     description:
       'Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘',
     url: 'https://jlozovei.dev/uses',
@@ -17783,6 +18464,7 @@ module.exports = [
   },
   {
     name: 'David Leuliette',
+    github: 'flexbox',
     description:
       'Freelance React Native developer and bootcamp instructor specializing in cross-platform application.',
     url: 'https://davidl.fr/uses',
@@ -17807,6 +18489,7 @@ module.exports = [
   },
   {
     name: 'Dave Berning',
+    github: 'daveberning',
     description:
       'Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.',
     url: 'https://daveberning.io/uses/',
@@ -17827,6 +18510,7 @@ module.exports = [
   },
   {
     name: 'Jan-Lukas Else',
+    github: 'jlelse',
     description: 'Software Developer & Blogger',
     url: 'https://jlelse.blog/uses/',
     emoji: '🤓',
@@ -17837,6 +18521,7 @@ module.exports = [
   },
   {
     name: 'Doce Fernandes',
+    github: 'doceazedo',
     description:
       'Fullstack developer focused on frontend, Svelte evangelist and live coder',
     url: 'https://doceazedo.com/uses',
@@ -17859,6 +18544,7 @@ module.exports = [
   },
   {
     name: 'Justin Poehnelt',
+    github: 'jpoehnelt',
     description: 'Software Engineer. Developer Relations. Ultrarunner.',
     url: 'https://justin.poehnelt.com/uses',
     twitter: '@jpoehnelt',
@@ -17887,6 +18573,7 @@ module.exports = [
   },
   {
     name: 'Jovylle B',
+    github: 'jovylle',
     description: 'A Web Developer from the Philippines.',
     url: 'https://jovylle.com/uses',
     twitter: '@jov404',
@@ -17926,6 +18613,7 @@ module.exports = [
   },
   {
     name: 'Will Presley',
+    github: 'WillPresley',
     description: 'Professional Web Dev & SysAdmin from Ohio, USA',
     url: 'https://willpresley.com/uses/',
     twitter: '@cryptecks',
@@ -17967,6 +18655,7 @@ module.exports = [
   },
   {
     name: 'Silvestre Vivo',
+    github: 'silvestrevivo',
     description:
       'Full Stack developer, before architect and flamenco guitar player.',
     url: 'https://silvestrevivo.github.io/uses',
@@ -17991,6 +18680,7 @@ module.exports = [
   },
   {
     name: 'Kyle Platt',
+    github: 'platky',
     description:
       'Senior Software Engineer, Multi Startup Founder, Building Projects in Public',
     url: 'https://kyleplatt.com/uses',
@@ -18011,6 +18701,7 @@ module.exports = [
   },
   {
     name: 'Eric Oyanadel',
+    github: 'Aereli',
     description: 'Artist - Developer - Musician',
     url: 'https://www.oyanadel.com/uses/',
     twitter: '@EricOyanadel',
@@ -18042,6 +18733,7 @@ module.exports = [
   },
   {
     name: 'David Dias',
+    github: 'thedaviddias',
     description:
       'Front-End Developer, UX/UI enthusiast, podcaster and content creator!',
     url: 'https://thedaviddias.com/uses/',
@@ -18073,6 +18765,7 @@ module.exports = [
   },
   {
     name: 'Thomas Large',
+    github: 'ThomasLarge',
     description: 'My name is Tom! I write code',
     url: 'https://tomlarge.dev/uses',
     emoji: '👨‍💻',
@@ -18095,6 +18788,7 @@ module.exports = [
   },
   {
     name: 'Mike Walsh',
+    github: 'elmikewalsh',
     description:
       'Front-End Designer, Developer &amp; Translator in Villarrica, Chile',
     url: 'https://www.elmikewalsh.com/uses/',
@@ -18126,6 +18820,7 @@ module.exports = [
   },
   {
     name: 'Amit Merchant',
+    github: 'amitmerchant1990',
     description: 'Maker of things. Open-source enthusiast. Blogger. ',
     url: 'https://www.amitmerchant.com/uses',
     twitter: '@amit_merchant',
@@ -18147,6 +18842,7 @@ module.exports = [
   },
   {
     name: 'Yurui Zhang',
+    github: 'pallymore',
     description:
       'Full-stack developer. Dark mode enthusiast. Quality software devotee.',
     url: 'https://gist.github.com/pallymore/6e12133b5c2fa2856a8a6b288e579c01',
@@ -18169,6 +18865,7 @@ module.exports = [
   },
   {
     name: 'Eduardo Reveles',
+    github: 'osiux',
     description: 'Web Engineer, Husband, Gamer.',
     url: 'https://www.osiux.ws/about/uses',
     twitter: '@osiux',
@@ -18180,6 +18877,7 @@ module.exports = [
   },
   {
     name: 'Philip Theobald',
+    github: 'fylzero',
     description: 'Guitar player, motorcyclist, software engineer, entreprenuer',
     url: 'https://www.philiptheobald.com/uses/',
     twitter: '@fylzero',
@@ -18191,6 +18889,7 @@ module.exports = [
   },
   {
     name: 'Wes Baker',
+    github: 'wesbaker',
     description:
       'Team Lead, Software Engineer, Board/Miniature/RPG Gamer, Miniature Painter, 3D Printer, Disney fanatic',
     url: 'https://wesbaker.com/uses',
@@ -18212,6 +18911,7 @@ module.exports = [
   },
   {
     name: 'Dominik Matis',
+    github: 'dmatis2',
     description: 'React dev 👻 Gatsby & Vue.js learner 👨‍💻 Syntax lover ❤️',
     url: 'https://dmatis.gitlab.io/uses',
     twitter: '@Dominik82855196',
@@ -18234,6 +18934,7 @@ module.exports = [
   },
   {
     name: 'Rubén Rodríguez',
+    github: 'rubenRP',
     description:
       'Madrid based. Front-End developer. Javascript enthusiast, SASS, Bootstrap lover. Magento 2 Certified',
     url: 'https://www.rubenr.dev/uses',
@@ -18257,6 +18958,7 @@ module.exports = [
   },
   {
     name: 'Roland Szabo',
+    github: 'rolisz',
     description: 'Team Lead, ML Engineer,  Board Gamer',
     url: 'https://rolisz.ro/uses',
     twitter: '@rolisz',
@@ -18278,6 +18980,7 @@ module.exports = [
   },
   {
     name: 'Rodrigo Antunes',
+    github: 'rodrigoant',
     description: 'Frontend Engineer and Open Source enthusiast',
     url: 'https://rodrigoantunes.me/uses/',
     emoji: '🌋',
@@ -18310,6 +19013,7 @@ module.exports = [
   },
   {
     name: 'Frank Bültge',
+    github: 'bueltge',
     description:
       'Alpinist, Cyclist, Optimist. I develop, support solutions, primarily with SAP at ZEISS Group and I make WordPress-based solutions at the Inpsyde',
     url: 'https://bueltge.de/uses/',
@@ -18331,6 +19035,7 @@ module.exports = [
   },
   {
     name: 'Marcus Obst',
+    github: 'marcus-at-localhost',
     description: 'Webdeveloper, Music Lover',
     url: 'https://marcus-obst.de/uses',
     emoji: '🍊',
@@ -18341,6 +19046,7 @@ module.exports = [
   },
   {
     name: 'Pawel Grzybek',
+    github: 'pawelgrzybek',
     description: 'Software Engineer',
     url: 'https://pawelgrzybek.com/uses/',
     twitter: '@pawelgrzybek',
@@ -18362,6 +19068,7 @@ module.exports = [
   },
   {
     name: 'Ryan Senn',
+    github: 'ryan-senn',
     description:
       'Software engineer turned business owner. Loves functional porgramming.',
     url: 'https://ryansenn.dev/uses',
@@ -18382,6 +19089,7 @@ module.exports = [
   },
   {
     name: 'Michael Beckwith',
+    github: 'tw2113',
     description:
       'PHP and WordPress developer/support, coffee consumer, gym monkey',
     url: 'https://apiratelifefor.me/uses/',
@@ -18394,6 +19102,7 @@ module.exports = [
   },
   {
     name: 'Eric McCormick',
+    github: 'edm00se',
     description:
       'Software Developer, IBM Champion, coffee lover, dabbler in all things technology, hobbyist 3d design and printing',
     url: 'https://edm00se.codes/uses/',
@@ -18416,6 +19125,7 @@ module.exports = [
   },
   {
     name: 'Swastik Baranwal',
+    github: 'Delta456',
     description: 'Open Source Developer',
     url: 'https://swastik.is-a.dev/uses/',
     twitter: '@Delta2315',
@@ -18440,6 +19150,7 @@ module.exports = [
   },
   {
     name: 'Ben Congdon',
+    github: 'bcongdon',
     description: 'Golang, Python, Rust. Runs in the Cloud.',
     url: 'https://benjamincongdon.me/uses',
     twitter: '@BenRCongdon',
@@ -18460,6 +19171,7 @@ module.exports = [
   },
   {
     name: 'Nik Spyratos',
+    github: 'nikspyratos',
     description: 'Laravel Freelancer EMEA, Laravel Cape Town organiser',
     url: 'https://nik.software/uses',
     emoji: '🦉',
@@ -18483,6 +19195,7 @@ module.exports = [
   },
   {
     name: 'Jacob Herper',
+    github: 'jakeherp',
     description:
       'Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.',
     url: 'https://jacobherper.com/uses',
@@ -18505,6 +19218,7 @@ module.exports = [
   },
   {
     name: 'Albin Groen',
+    github: 'albingroen',
     description:
       "Young self taught fullstack JavaScript developer that's really interested in the web, open source, and design.",
     url: 'https://albingroen.com/uses/',
@@ -18530,6 +19244,7 @@ module.exports = [
   },
   {
     name: 'Ajay Karwal',
+    github: 'ajaykarwal',
     description: 'A designer, developer and UX guy from Buckingham, UK.',
     url: 'https://ajaykarwal.com/uses/',
     twitter: '@ajaykarwal',
@@ -18551,6 +19266,7 @@ module.exports = [
   },
   {
     name: 'Raúl Negrón',
+    github: 'rnegron',
     description: 'Software Developer from Puerto Rico',
     url: 'https://raulnegron.me/uses/',
     twitter: '@rucury',
@@ -18570,6 +19286,7 @@ module.exports = [
   },
   {
     name: 'David A. Vives R.',
+    github: 'davr59',
     description:
       'software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.',
     url: 'https://dispuestoaaprender.com/en/uses',
@@ -18596,6 +19313,7 @@ module.exports = [
   },
   {
     name: 'Ryan Warner',
+    github: 'RyanWarner',
     description: 'Software Engineer and Interface Designer. Leader and Mentor.',
     url: 'https://ryan.warner.codes/uses',
     emoji: '😄',
@@ -18616,6 +19334,7 @@ module.exports = [
   },
   {
     name: 'Nicky Meuleman',
+    github: 'NickyMeuleman',
     description: 'Web developer, F1 fan.',
     url: 'https://nickymeuleman.netlify.app/uses',
     twitter: '@NMeuleman',
@@ -18635,6 +19354,7 @@ module.exports = [
   },
   {
     name: 'George Daneke',
+    github: 'Flatroy',
     description: 'Web developer, freelancer, creator of things',
     url: 'https://daneke.ge/uses/',
     twitter: '@flatroy',
@@ -18667,6 +19387,7 @@ module.exports = [
   },
   {
     name: 'Rob Warner',
+    github: 'hoop33',
     description: 'Software Architect, Developer, Father.',
     url: 'https://grailbox.com/uses/',
     emoji: '🏈',
@@ -18687,6 +19408,7 @@ module.exports = [
   },
   {
     name: 'Den Talalá',
+    github: 'dentalala',
     description: 'Experienced digital designer, podcaster, and photographer',
     url: 'https://talala.info/uses',
     twitter: '@r3s3t',
@@ -18706,6 +19428,7 @@ module.exports = [
   },
   {
     name: 'Jesse Dyck',
+    github: 'jessedyck',
     description: 'Web Developer and sometimes SysAdmin.',
     url: 'https://jessedyck.me/uses',
     twitter: '@jessedyck',
@@ -18717,6 +19440,7 @@ module.exports = [
   },
   {
     name: 'TaeHee Kim',
+    github: 'rotoshine',
     description: 'Front-end Engineer, Bassist, Cat lover.',
     url: 'https://roto.dev/uses',
     twitter: '@winterwolf0412',
@@ -18739,6 +19463,7 @@ module.exports = [
   },
   {
     name: 'Hong',
+    github: 'nelsonlaidev',
     description: 'Full Stack Developer',
     url: 'https://honghong.me/uses',
     twitter: '@tszhong0411',
@@ -18763,6 +19488,7 @@ module.exports = [
   },
   {
     name: 'Moisés Ñañez',
+    github: 'moisesnandres',
     description: 'Programmer and musician',
     url: 'https://gist.github.com/moisesnandres/f6ec9277c379d2bf33893cda02cebfaa',
     twitter: '@moisesnandres',
@@ -18774,6 +19500,7 @@ module.exports = [
   },
   {
     name: 'Maria Altyeva Schuessler ',
+    github: 'maltyeva',
     description:
       'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
     url: 'http://mariacodes.io/uses',
@@ -18795,6 +19522,7 @@ module.exports = [
   },
   {
     name: 'Paul Esch-Laurent',
+    github: 'Pinjasaur',
     description: 'Software Engineer',
     url: 'https://paul.af/uses',
     emoji: '🤌',
@@ -18815,6 +19543,7 @@ module.exports = [
   },
   {
     name: 'John Slipper',
+    github: 'johnslipper',
     description:
       'Web Developer, mountain biker, drone enthusiast, Minecraft nerd',
     url: 'https://www.johnslipper.com/uses/',
@@ -18837,6 +19566,7 @@ module.exports = [
   },
   {
     name: 'Gijs Nelissen',
+    github: 'digitalbase',
     description: 'Founder of @prezly. Focussed on Product Management',
     url: 'https://lifelog.be/uses',
     twitter: '@digitalbase',
@@ -18859,6 +19589,7 @@ module.exports = [
   },
   {
     name: 'Arturo Campos',
+    github: 'arturocr',
     description: 'Web Developer, dad, mountain biker, meat lover',
     url: 'https://arturocampos.dev/uses',
     twitter: '@arturocr',
@@ -18880,6 +19611,7 @@ module.exports = [
   },
   {
     name: 'Esmit Perez',
+    github: 'esmitperez',
     description:
       'Software Developer, every day ☕️, sometimes 💡. Pura Vida 🇨🇷.',
     url: 'https://esmit.me/uses',
@@ -18901,6 +19633,7 @@ module.exports = [
   },
   {
     name: 'Sercan Eraslan',
+    github: 'sercaneraslan',
     description: 'Front-End Tech Lead',
     url: 'http://sercaneraslan.com/uses',
     twitter: '@sercan_eraslan',
@@ -18921,6 +19654,7 @@ module.exports = [
   },
   {
     name: 'Eren Kucuker',
+    github: 'erenkucuker',
     description: 'Senior Full Stack Developer',
     url: 'https://erenkucuker.com/uses',
     twitter: '@yerenkucuker',
@@ -18949,6 +19683,7 @@ module.exports = [
   },
   {
     name: 'Ivan Bogomolov',
+    github: 'irr123',
     description:
       'Nomadic backend engineer. Distributed systems at scale, AI in production. BASE over ACID.',
     url: 'https://bogomolov.work/uses/',
@@ -18978,6 +19713,7 @@ module.exports = [
   },
   {
     name: 'Vlad Ilie',
+    github: 'vladutilie',
     description:
       "I'm a Software Engineer based in Romania, I love to juggle with technologies and put my soul in every project to get the best of it.",
     url: 'https://vladilie.ro/uses',
@@ -19017,6 +19753,7 @@ module.exports = [
   },
   {
     name: 'Divjot Singh',
+    github: 'bogas04',
     description: 'Web Developer, Vegan, Sikh.',
     url: 'https://bogas04.github.io/uses',
     twitter: '@bogas04',
@@ -19036,6 +19773,7 @@ module.exports = [
   },
   {
     name: 'Navdeep Singh',
+    github: 'navdeepsingh',
     description: 'Web Developer, Speaker, Sikh.',
     url: 'https://navdeepsingh.in/uses',
     twitter: '@nswebstudio',
@@ -19056,6 +19794,7 @@ module.exports = [
   },
   {
     name: 'Rohit Gohri',
+    github: 'rohit-gohri',
     description: 'Full Stack Developer dabbling in DevOps, CI/CD',
     url: 'https://rohit.page/uses',
     twitter: '@rohit_gohri',
@@ -19076,6 +19815,7 @@ module.exports = [
   },
   {
     name: 'Andrea Prus',
+    github: 'avo7',
     description: 'Full stack developer, blogger',
     url: 'https://avris.it/uses',
     twitter: '@AvrisIT',
@@ -19095,6 +19835,7 @@ module.exports = [
   },
   {
     name: 'Andrés Ignacio Torres',
+    github: 'aitorres',
     description:
       'Venezuelan Software Engineer and writer based in Canada. Open Source ❤️',
     url: 'https://aitorres.com/uses',
@@ -19118,6 +19859,7 @@ module.exports = [
   },
   {
     name: 'Bamuleseyo Gideon',
+    github: 'lytes20',
     description:
       'Software Engineer, Facebook Developer Cirle Kamapala Lead. Front-end ❤️',
     url: 'https://medium.com/developer-circle-kampala/what-i-use-my-tools-of-trade-552655db4b8d',
@@ -19141,6 +19883,7 @@ module.exports = [
   },
   {
     name: 'David Anguita',
+    github: 'danguita',
     description: 'Software developer & consultant. Maker. Gamer by night. :wq',
     url: 'https://davidanguita.name/uses/',
     twitter: '@danguita',
@@ -19161,6 +19904,7 @@ module.exports = [
   },
   {
     name: 'Nick Taylor',
+    github: 'nickytonline',
     description: 'Just some dev from Montreal, Quebec, Canada',
     url: 'https://www.iamdeveloper.com/uses/',
     twitter: '@nickytonline',
@@ -19180,6 +19924,7 @@ module.exports = [
   },
   {
     name: 'Trezy',
+    github: 'trezy',
     description:
       'Software engineer, JavaScript livestreamer, and a wannabe cyborg.',
     url: 'https://trezy.com/uses',
@@ -19207,6 +19952,7 @@ module.exports = [
   },
   {
     name: 'Ben Shi',
+    github: 'hbish',
     description:
       'Full Stack. Engineering Leader. Believer of taking the time to learn and taking the time to teach.',
     url: 'https://hbish.com/uses/',
@@ -19228,6 +19974,7 @@ module.exports = [
   },
   {
     name: 'Peter Tasker',
+    github: 'ptasker',
     description: 'Programmer/developer/dad in Ottawa Ontario, Canada',
     url: 'https://petetasker.com/uses/',
     twitter: '@petetasker',
@@ -19247,6 +19994,7 @@ module.exports = [
   },
   {
     name: 'Jason Ross',
+    github: 'big-jr',
     description:
       'Developer/Architect creating software in Calgary, Alberta, Canada',
     url: 'https://softwarepragmatism.com/uses/',
@@ -19291,6 +20039,7 @@ module.exports = [
   },
   {
     name: 'Anthony Morris',
+    github: 'amorriscode',
     description: 'Builder, JavaScript wrangler, and wannabe stoic.',
     url: 'https://anthonymorris.dev/uses/',
     twitter: '@amorriscode',
@@ -19311,6 +20060,7 @@ module.exports = [
   },
   {
     name: 'alp1n3',
+    github: 'alp1n3-dev',
     description:
       'Application security, penetration testing, and secure code review.',
     url: 'https://alp1n3.dev/links/uses/',
@@ -19330,6 +20080,7 @@ module.exports = [
   },
   {
     name: 'Justin Conway',
+    github: 'MrGKanev',
     description:
       'Chicago-based front-end developer passionate about the web and pork.',
     url: 'https://conwaydev.com/uses/',
@@ -19353,6 +20104,7 @@ module.exports = [
   },
   {
     name: 'Gabriel Kanev',
+    github: 'MrGKanev',
     description: 'Enteprenuer, Product Manager, Minimalist',
     url: 'https://gkanev.com/uses/',
     twitter: '@mrgkanev',
@@ -19378,6 +20130,7 @@ module.exports = [
   },
   {
     name: 'Dan Vega',
+    github: 'danvega',
     description:
       'Full-Stack, Curriculum Developer. I am passionate about learning new things and teaching them to others.',
     url: 'https://www.danvega.dev/uses/',
@@ -19404,6 +20157,7 @@ module.exports = [
   },
   {
     name: 'Dick Wyn Yong',
+    github: 'dickwyn',
     description:
       'Software Engineer, Content Creator and Sustainability Enthusiast',
     url: 'https://dickwyn.xyz/uses',
@@ -19430,6 +20184,7 @@ module.exports = [
   },
   {
     name: 'Logan Blangenois',
+    github: 'MKlblangenois',
     description:
       'Front-end developer passionate about eco-friendly (web)app and React.',
     url: 'https://logan-blangenois.be/uses/',
@@ -19473,6 +20228,7 @@ module.exports = [
   },
   {
     name: 'Muhammad Umair',
+    github: 'mumairofficial',
     description:
       'Fullstack front-end developer and designer, passionate in everything #JavaScript',
     url: 'https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc',
@@ -19494,6 +20250,7 @@ module.exports = [
   },
   {
     name: 'Tomek Buszewski',
+    github: 'tomekbuszewski',
     description: 'Developer and team leader based in Warsaw, Poland.',
     url: 'https://www.buszewski.com/uses/',
     twitter: '@tomekbuszewski',
@@ -19518,6 +20275,7 @@ module.exports = [
   },
   {
     name: 'Przemek Nowak',
+    github: 'pnowy',
     description:
       'Passionate Software Engineer. Big fan of automation and simplicity within the code.',
     url: 'https://przemeknowak.com/uses/',
@@ -19546,6 +20304,7 @@ module.exports = [
   },
   {
     name: 'Norbert Chmiel',
+    github: 'Norbiox',
     description: 'Software Craftsman, Pythonista, Linux enthusiast.',
     url: 'https://github.com/Norbiox/uses',
     emoji: '🤠🪕',
@@ -19579,6 +20338,7 @@ module.exports = [
   },
   {
     name: 'Ashpex',
+    github: 'Ashpex',
     description: 'Software engineer, Linux enthusiast.',
     url: 'https://ashpex.net/uses',
     bluesky: 'ashpex.net',
@@ -19598,6 +20358,7 @@ module.exports = [
   },
   {
     name: 'Benjamin Mock',
+    github: 'benjaminmock',
     description: 'coder, runner, reader, maker',
     url: 'https://codesnacks.net/uses/',
     twitter: '@benjaminmock',
@@ -19620,6 +20381,7 @@ module.exports = [
   },
   {
     name: 'Fortune Obi',
+    github: 'ickynavigator',
     description:
       'Web developer living in Canada, strangely obsessed with Typescript and React.',
     url: 'https://www.obifortune.com/uses',
@@ -19654,6 +20416,7 @@ module.exports = [
   },
   {
     name: 'Sean Boult',
+    github: 'Hacksore',
     description: 'Full stack developer who likes ReactJS',
     url: 'https://boult.me/uses',
     twitter: '@Hacksore',
@@ -19665,6 +20428,7 @@ module.exports = [
   },
   {
     name: 'Michal Slepko',
+    github: 'mslepko',
     description:
       'Senior web developer learning iOS development. Live coding streamer on Twitch',
     url: 'https://michalslepko.dev/uses',
@@ -19722,6 +20486,7 @@ module.exports = [
   },
   {
     name: 'Derek Mohr',
+    github: 'OneMohrTime',
     description:
       'Front-end development by interest, full stack development by trade',
     url: 'https://onemohrti.me/about/uses/',
@@ -19752,6 +20517,7 @@ module.exports = [
   },
   {
     name: 'Haseeb Majid',
+    github: 'hmajid2301',
     description:
       'Backend software engineer 💻, Linux enthusiast 🐧 and village cricketer 🏏',
     url: 'https://haseebmajid.dev/uses/',
@@ -19763,6 +20529,7 @@ module.exports = [
   },
   {
     name: 'Łukasz Rybka',
+    github: 'Smoczysko',
     description:
       'Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.',
     url: 'https://www.dragonia.org.pl/uses/',
@@ -19793,6 +20560,7 @@ module.exports = [
   },
   {
     name: 'Antonio Piras',
+    github: 'antoBit',
     description:
       'Web developer from Italy, madly in love with Javascript and everything web related.',
     url: 'https://www.antopiras.dev/uses',
@@ -19817,6 +20585,7 @@ module.exports = [
   },
   {
     name: 'Matt Hughes',
+    github: 'zeepk',
     description: 'Full Stack Web Developer',
     url: 'https://matthughes.dev/uses',
     twitter: '@matthughes2112',
@@ -19858,6 +20627,7 @@ module.exports = [
   },
   {
     name: 'Rail Hamdeew',
+    github: 'rhamdeew',
     description: 'Full Stack. Open to new technologies',
     url: 'https://hmdw.me/uses/',
     twitter: '@rhamdeew',
@@ -19869,6 +20639,7 @@ module.exports = [
   },
   {
     name: 'Eugene Andrienko',
+    github: 'eugeneandrienko',
     description: 'Open Source and retrocomputing enthusiast',
     url: 'https://eugene-andrienko.com/uses',
     emoji: '🐍',
@@ -19897,6 +20668,7 @@ module.exports = [
   },
   {
     name: 'Armno Prommarak',
+    github: 'armno',
     description: 'Frontend developer, blogger, cyclist.',
     url: 'https://armno.in.th/uses',
     twitter: '@armno',
@@ -19918,6 +20690,7 @@ module.exports = [
   },
   {
     name: 'Fernando Paredes',
+    github: 'nanoxd',
     description: 'iOS/macOS developer, serial hobbyist, language nerd.',
     url: 'https://fdp.io/about/uses',
     twitter: '@nanoxd',
@@ -19940,6 +20713,7 @@ module.exports = [
   },
   {
     name: 'Piyush Mehta',
+    github: 'piyush97',
     description: 'Full Stack Developer Based in INDIA',
     url: 'http://www.piyushmehta.com/uses/',
     twitter: '@CoderWhoKnows',
@@ -19959,6 +20733,7 @@ module.exports = [
   },
   {
     name: 'Duncan McDougall',
+    github: 'duncanmcdougall',
     description:
       'Web developer, contractor, remotely working from the South of Scotland',
     url: 'https://www.belter.io/uses/',
@@ -19979,6 +20754,7 @@ module.exports = [
   },
   {
     name: 'Mijndert Stuij',
+    github: 'mijndert',
     description: 'Engineer. Hacker. Minimalist.',
     url: 'https://mijndertstuij.nl/uses/',
     twitter: '@mijndert',
@@ -19990,6 +20766,7 @@ module.exports = [
   },
   {
     name: 'Niels Gouman',
+    github: 'Nizzlay',
     description: 'Tech. Start-ups. SaaS.',
     url: 'https://nizzlay.com/uses/',
     emoji: '🧐',
@@ -20009,6 +20786,7 @@ module.exports = [
   },
   {
     name: 'Iván Olivares',
+    github: 'ivolivares',
     description: 'Building web experiences since 2006. Javascript Lover ❤️.',
     url: 'https://iolivares.com/uses',
     twitter: '@ivolivares',
@@ -20037,6 +20815,7 @@ module.exports = [
   },
   {
     name: 'Juan Fernandes',
+    github: 'juanfernandes',
     description: 'Freelance Front-end Developer',
     url: 'https://www.juanfernandes.uk/uses/',
     twitter: '@juanfernandes',
@@ -20057,6 +20836,7 @@ module.exports = [
   },
   {
     name: 'Neil Merton',
+    github: 'neilmerton',
     description:
       'Front-end developer: SaaS, product-focused UI problem solver.',
     url: 'https://neil.merton.dev/about/uses',
@@ -20112,6 +20892,7 @@ module.exports = [
   },
   {
     name: 'Lakshmipriya Mukundan',
+    github: 'lakshmipriyamukundan',
     description:
       'Javascript lover, FullStack enthusiast, React Learner (current), Pet lover',
     url: 'https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67',
@@ -20132,6 +20913,7 @@ module.exports = [
   },
   {
     name: 'Matt Layman',
+    github: 'mblayman',
     description: 'A Python developer focused on Django',
     url: 'https://www.mattlayman.com/uses/',
     twitter: '@mblayman',
@@ -20143,6 +20925,7 @@ module.exports = [
   },
   {
     name: 'Jeremy Bunting',
+    github: 'qbunt',
     description: 'Web 🤖 working remotely from the Connecticut burbs',
     url: 'https://qbunt.com/uses',
     twitter: '@qbunt',
@@ -20165,6 +20948,7 @@ module.exports = [
   },
   {
     name: 'Chris Wiegman',
+    github: 'ChrisWiegman',
     description:
       'VP of Engineering, developer, teacher, and blogger building teams and products focused on humane and sustainable technology.',
     url: 'https://chriswiegman.com/uses',
@@ -20190,6 +20974,7 @@ module.exports = [
   },
   {
     name: 'Stan Lo',
+    github: 'st0012',
     description: 'Developer at Ticketsolve, creator of Goby',
     url: 'https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf',
     twitter: '@_st0012',
@@ -20201,6 +20986,7 @@ module.exports = [
   },
   {
     name: 'Bassem Allani',
+    github: 'nextglabs',
     description: 'Senior Fullstack Engineer & Commercial Airline Pilot',
     url: 'https://nextglabs.com/uses/',
     emoji: '🚀',
@@ -20229,6 +21015,7 @@ module.exports = [
   },
   {
     name: 'Jérémie Bertrand',
+    github: 'laedit',
     description: 'Developer, occasional blogger',
     url: 'https://laedit.net/uses/',
     twitter: '@laedit',
@@ -20249,6 +21036,7 @@ module.exports = [
   },
   {
     name: 'Lee Robinson',
+    github: 'leerob',
     description: 'Developer, writer, creator. Solutions Architect @ Vercel.',
     url: 'https://leerob.io/uses',
     twitter: '@leeerob',
@@ -20277,6 +21065,7 @@ module.exports = [
   },
   {
     name: 'Felix Kirmaier',
+    github: 'felixk76',
     description:
       'Frontend Developer from Unterhaching near Munich in Germany, doing mostly web performance, HTML, SCSS, JS, automated testing and TYPO3 for a living',
     url: 'https://www.kirmaier.net/uses/',
@@ -20309,6 +21098,7 @@ module.exports = [
   },
   {
     name: 'Jordan Hofker',
+    github: 'jhofker',
     description:
       'Husband, father, engineer, and sometimes I take pictures. From Nebraska. Hobby collector.',
     url: 'https://jordan.hofker.org/uses/',
@@ -20332,6 +21122,7 @@ module.exports = [
   },
   {
     name: 'Matt Busche',
+    github: 'mrbusche',
     description:
       'Full Stack developer from Des Moines, Iowa, web performance enthusiast',
     url: 'https://matthewbusche.com/uses/',
@@ -20351,6 +21142,7 @@ module.exports = [
   },
   {
     name: 'Nikhil Anand',
+    github: 'afreeorange',
     description: 'Fullstack Engineer',
     url: 'https://nikhil.io/uses/',
     emoji: '🐙',
@@ -20379,6 +21171,7 @@ module.exports = [
   },
   {
     name: 'Zura Gabievi',
+    github: 'zgabievi',
     description: 'Front-end Team Lead.',
     url: 'https://gist.github.com/zgabievi/60e81da327c1c80cdca3f65b39baa23d',
     twitter: '@zgabievi',
@@ -20401,6 +21194,7 @@ module.exports = [
   },
   {
     name: 'Jace Hensley',
+    github: 'JaceHensley',
     description: 'Fullstack Engineer',
     url: 'https://jacehensley.dev/uses',
     emoji: '🚀',
@@ -20411,6 +21205,7 @@ module.exports = [
   },
   {
     name: 'Preston Lamb',
+    github: 'pjlamb12',
     description: 'Full Stack JavaScript Developer and Thinkster.io Author',
     url: 'https://www.prestonlamb.com/uses',
     twitter: '@prestonjlamb',
@@ -20434,6 +21229,7 @@ module.exports = [
   },
   {
     name: 'Marek Maras',
+    github: 'MarekMaras',
     description:
       'Self-taught Frontend developer from Hattingen, Germany with a focus on React/Gatsby. Oh and Craft Beer is Life!',
     url: 'https://www.marek-maras.de/uses',
@@ -20459,6 +21255,7 @@ module.exports = [
   },
   {
     name: 'Seshal Jain',
+    github: 'seshaljain',
     description:
       'Emacs rookie passionate about aesthetic design and a beautiful, free web',
     url: 'https://archgaelix.vercel.app/uses',
@@ -20479,6 +21276,7 @@ module.exports = [
   },
   {
     name: 'Vic Demuzere',
+    github: 'sorcix',
     description:
       'Go developer and Linux enthousiast at home, system administrator at work.',
     url: 'https://vic.demuzere.be/uses/',
@@ -20489,6 +21287,7 @@ module.exports = [
   },
   {
     name: 'Ivan Santos',
+    github: 'pragmaticivan',
     description:
       '🍺 🤠 Node.js, Go, Terraform and Kubernetes. Distributed Systems FTW.',
     url: 'https://ivansantos.me/uses',
@@ -20501,6 +21300,7 @@ module.exports = [
   },
   {
     name: 'Kristina Groeger',
+    github: 'kr1st1nagr03g3r',
     description:
       '💻 👻 Over ten years of front-end development and UI / UX development and design.',
     url: 'https://github.com/kr1st1nagr03g3r/uses',
@@ -20550,6 +21350,7 @@ module.exports = [
   },
   {
     name: 'Phillip Osterwald',
+    github: 'brave00123',
     description:
       'Experienced full-stack developer with a solid online-marketing background on top. Lover of fancy hipster beer.',
     url: 'https://www.p-osterwald.top/uses',
@@ -20580,6 +21381,7 @@ module.exports = [
   },
   {
     name: 'James Dewes',
+    github: 'james-dewes',
     description:
       'Full-stack developer, software and data engineer, Yorkshire, UK.',
     url: 'https://jamesdewes.com/uses/',
@@ -20615,6 +21417,7 @@ module.exports = [
   },
   {
     name: 'Mladen Milesic',
+    github: 'mledan',
     description:
       'Passionate Electrical Engineer gone Software. I relish the art of crafting and tinkering with both digital and physical creations.',
     url: 'https://www.mladenmilesic.com/uses/',
@@ -20649,6 +21452,7 @@ module.exports = [
   },
   {
     name: 'Paul Mowat',
+    github: 'paulmowat',
     description:
       'A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced',
     url: 'https://www.paulmowat.co.uk/uses/',
@@ -20673,6 +21477,7 @@ module.exports = [
   },
   {
     name: 'Luigi Cruz',
+    github: 'luigircruz',
     description: 'Software developer with a focus on the Web.',
     url: 'https://luigicruz.dev/uses',
     twitter: '@luigircruz',
@@ -20694,6 +21499,7 @@ module.exports = [
   },
   {
     name: 'Felix Macaspac',
+    github: 'felixmacaspac',
     description:
       'Self-taught Frontend developer from the Philippines, and a CS student.',
     url: 'https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e',
@@ -20716,6 +21522,7 @@ module.exports = [
   },
   {
     name: 'Jerry Shi',
+    github: 'szy0syz',
     description:
       'Full Stack, Motivated full-stack developer not afraid to use any technology.',
     url: 'https://github.com/szy0syz/uses',
@@ -20736,6 +21543,7 @@ module.exports = [
   },
   {
     name: 'Carol Gilabert',
+    github: 'carolgilabert',
     description: 'Web developer and community organiser.',
     url: 'http://carol.gg/uses/',
     twitter: '@CarolSaysThings',
@@ -20757,6 +21565,7 @@ module.exports = [
   },
   {
     name: 'Nic Lake',
+    github: 'niclake',
     description: 'Full Stack Engineer & Bulbasaur stan',
     url: 'https://niclake.me/uses',
     mastodon: '@niclake@mastodon.social',
@@ -20780,6 +21589,7 @@ module.exports = [
   },
   {
     name: 'Francisco Valloire',
+    github: 'frajova',
     description:
       'Frontend developer, self-taught, enthusiastic and passionate about new technologies.',
     url: 'https://github.com/frajova/what-i-use',
@@ -20800,6 +21610,7 @@ module.exports = [
   },
   {
     name: 'Raúl Piracés',
+    github: 'piraces',
     description: 'Full Stack and passionate Software Engineer.',
     url: 'https://piraces.dev/uses',
     twitter: '@piraces_',
@@ -20827,6 +21638,7 @@ module.exports = [
   },
   {
     name: 'Filip Pacurar',
+    github: 'filipac',
     description:
       'Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO',
     url: 'https://pacurar.dev/uses/',
@@ -20850,6 +21662,7 @@ module.exports = [
   },
   {
     name: 'Wuttinan Sukpoon',
+    github: 'mewxz029',
     description: 'FullStack Developer',
     url: 'https://github.com/mewxz029/uses',
     emoji: '🤔',
@@ -20874,6 +21687,7 @@ module.exports = [
   },
   {
     name: 'Michael Mior',
+    github: 'michaelmior',
     description:
       'Assistant Professor and Director of the Data Unity Lab at RIT',
     url: 'https://michael.mior.ca/uses/',
@@ -20886,6 +21700,7 @@ module.exports = [
   },
   {
     name: 'Kai Devrim',
+    github: 'KaiDevrim',
     description: 'IT/Programming Student & Really Bad Hacker',
     url: 'https://devrim.tech/uses/',
     twitter: '@DevrimKai',
@@ -20914,6 +21729,7 @@ module.exports = [
   },
   {
     name: 'Josh Beard',
+    github: 'joshbeard',
     description: 'Sysadmin, DevOps, Hobbyist',
     url: 'https://joshbeard.me/uses/',
     emoji: '👽',
@@ -20939,6 +21755,7 @@ module.exports = [
   },
   {
     name: 'Kevin Renskers',
+    github: 'kevinrenskers',
     description:
       'Freelance software developer with a passion for good usability and great design.',
     url: 'https://www.loopwerk.io/articles/2026/what-i-use/',
@@ -20968,6 +21785,7 @@ module.exports = [
   },
   {
     name: 'Thanh Doan',
+    github: 'mnismt',
     description:
       'Full-stack Engineer building impactful software and contributing to open source',
     url: 'https://doantranminhthanh.com/uses',
@@ -20988,6 +21806,7 @@ module.exports = [
   },
   {
     name: 'Peter Forret',
+    github: 'pforret',
     description: 'Photographer, tinkerer, software architect',
     url: 'https://blog.forret.com/uses/',
     twitter: '@pforret',
@@ -21011,6 +21830,7 @@ module.exports = [
   },
   {
     name: 'Scott Zirkel',
+    github: 'scottzirkel',
     description: 'Making stuff up since 1977',
     url: 'https://scottzirkel.com/uses',
     emoji: '🗺',
@@ -21042,6 +21862,7 @@ module.exports = [
   },
   {
     name: 'Andreas Nedbal',
+    github: 'pixeldesu',
     description:
       'Full-Stack Developer from Germany with a focus on frontend and build processes/tooling.',
     url: 'https://pixelde.su/uses',
@@ -21068,6 +21889,7 @@ module.exports = [
   },
   {
     name: 'Nick Ali',
+    github: 'nickali',
     description: 'Marketer who used to be a software architect.',
     url: 'https://nali.org/uses',
     emoji: '☕',
@@ -21092,6 +21914,7 @@ module.exports = [
   },
   {
     name: 'Jesús Leganés-Combarro "piranna"',
+    github: 'piranna',
     description:
       'Passionate computers engineer and ex-PhD. candidate in Computers Engineering. Proud advocate of Open Source, standards, specifications, and best practices.',
     url: 'https://piranna.github.io/uses',
@@ -21155,6 +21978,7 @@ module.exports = [
   },
   {
     name: 'Pascal Poredda',
+    github: 'pascalporedda',
     description:
       'Freelancer from Cologne, Germany. Running an agency called poredda.digital',
     url: 'https://pascal-poredda.de/uses/',
@@ -21183,6 +22007,7 @@ module.exports = [
   },
   {
     name: 'Daniel Cefram Ramirez',
+    github: 'dcefram',
     description:
       'I build things through code. I make short sentences to multiple paragraphs.',
     url: 'https://rmrz.ph/uses/',
@@ -21212,6 +22037,7 @@ module.exports = [
   },
   {
     name: 'Simon Lee',
+    github: 'simonhlee97',
     description: 'Front end developer. Indiana Hoosier.',
     url: 'https://simonhlee97.github.io/uses/',
     twitter: '@simonhlee97',
@@ -21237,6 +22063,7 @@ module.exports = [
   },
   {
     name: 'Jaydeep Rawat',
+    github: 'Jaydeeprawat17',
     description: 'Hiya! I am a Student and Software Engineer.',
     url: 'https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b',
     country: '🇮🇳',
@@ -21262,6 +22089,7 @@ module.exports = [
   },
   {
     name: 'James Mathias',
+    github: 'BlakeCampbells',
     description: 'Artist, Writer, & Outlaw',
     url: 'https://artisticoutlaw.com/outlaw/uses',
     twitter: '@jmathias',
@@ -21283,6 +22111,7 @@ module.exports = [
   },
   {
     name: 'Aaron Pham',
+    github: 'aarnphm',
     description: 'distributed and ml system.',
     url: 'https://aarnphm.xyz/uses',
     emoji: '🤗',
@@ -21294,6 +22123,7 @@ module.exports = [
   },
   {
     name: 'Gabriel Garrido',
+    github: 'Ggpsv',
     description: 'Curious human being',
     url: 'https://garrido.io/uses/',
     country: '🇨🇷',
@@ -21312,6 +22142,7 @@ module.exports = [
   },
   {
     name: 'Matt Walsh',
+    github: 'mattwalshdev',
     description: 'Python programmer with love for data and automation',
     url: 'https://mattwalsh.dev/uses/',
     emoji: '🐋',
@@ -21334,6 +22165,7 @@ module.exports = [
   },
   {
     name: 'Shubham Singh',
+    github: 'ishubhamsingh',
     description: '30 | M | Software Engineer | Android | React',
     url: 'https://ishubhamsingh.dev/uses',
     twitter: '@ishubhamsingh',
@@ -21354,6 +22186,7 @@ module.exports = [
   },
   {
     name: 'Matias Quintana',
+    github: 'matqr',
     description:
       'Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting',
     url: 'https://matiasquintana.com/uses',
@@ -21375,6 +22208,7 @@ module.exports = [
   },
   {
     name: 'Hammy Havoc',
+    github: 'HammyHavoc',
     description:
       'Composer for video games and picture. Cypherpunk and open source aficionado.',
     url: 'https://hammyhavoc.com/uses/',
@@ -21401,6 +22235,7 @@ module.exports = [
   },
   {
     name: 'Hector Aguilar',
+    github: 'hectoraldairah',
     description:
       'A Software Engineer that loves Web development and CLI sofware',
     url: 'https://bitbyte.blog/uses',
@@ -21421,6 +22256,7 @@ module.exports = [
   },
   {
     name: 'Ricardo Quiroz',
+    github: 'rqbazan',
     description:
       "Software Developer mostly with Node.js 💚 I love to write clean beautiful code even when it's unnecessary.",
     url: 'https://rcrd.space/uses',
@@ -21449,6 +22285,7 @@ module.exports = [
   },
   {
     name: 'Rasul Kireev',
+    github: 'rasulkireev',
     description: 'Software Engineer at Readwise specialising in Django',
     url: 'https://rasulkireev.com/uses',
     country: '🇷🇺',
@@ -21470,6 +22307,7 @@ module.exports = [
   },
   {
     name: 'Ferdinand Linnenberg',
+    github: 'Scarjit',
     description: 'Backend Developer and Open Source Enthusiast',
     url: 'https://linnenberg.dev/uses',
     country: '🇩🇪',
@@ -21505,6 +22343,7 @@ module.exports = [
   },
   {
     name: 'orangc',
+    github: 'orangci',
     description: 'A student, developer, weeb, and bookworm.',
     url: 'https://orangc.net/uses',
     emoji: '🐐',
@@ -21546,6 +22385,7 @@ module.exports = [
   },
   {
     name: 'Will Adams',
+    github: 'bushblade',
     twitter: '@bushblade',
     description: 'UK developer and knife maker',
     url: 'https://willadams.dev/uses',
@@ -21579,6 +22419,7 @@ module.exports = [
   },
   {
     name: 'Ruben Arakelyan',
+    github: 'rubenarakelyan',
     twitter: '@wackomenace_',
     description: 'Senior Ruby developer',
     url: 'https://www.wackomenace.co.uk/uses',
@@ -21590,6 +22431,7 @@ module.exports = [
   },
   {
     name: 'Tim Veletta',
+    github: 'timveletta',
     description: 'Australian full-stack developer and designer',
     url: 'https://www.timveletta.com/uses',
     emoji: '🎲',
@@ -21613,6 +22455,7 @@ module.exports = [
   },
   {
     name: 'That MLOps Guy',
+    github: 'thatmlopsguy',
     description: 'Portuguese machine learning engineer',
     url: 'https://thatmlopsguy.github.io/uses/',
     emoji: '🧐',
@@ -21639,6 +22482,7 @@ module.exports = [
   },
   {
     name: 'Hiran Venugopalan',
+    github: 'hfactor',
     description:
       'A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. ',
     url: 'https://hiran.in/uses',
@@ -21660,6 +22504,7 @@ module.exports = [
   },
   {
     name: 'Ryan Daley',
+    github: 'ryanpdaley',
     description:
       'Software Engineer | ex-Shopify, ex-BellMedia, ex-Apple, ex-Kobo, ex-RIM',
     url: 'https://www.rpdaley.com/uses/',
@@ -21690,6 +22535,7 @@ module.exports = [
   },
   {
     name: 'Vivian Guillen',
+    github: 'vivgui',
     description: 'Full Stack Developer and Writer',
     url: 'https://codequeen.io/uses/',
     twitter: '@vivgui',
@@ -21714,6 +22560,7 @@ module.exports = [
   },
   {
     name: 'Abul Khoyer',
+    github: 'hellokhoyer',
     description: 'Writes code, hunts bugs, and breathes perfume.',
     url: 'https://abulkhoyer.com/uses/',
     twitter: '@hellokhoyer',
@@ -21734,6 +22581,7 @@ module.exports = [
   },
   {
     name: 'Alberto Gallego',
+    github: 'albertogalca',
     description: 'I make software, write, and take photos..',
     url: 'https://albertogalca.com/uses',
     twitter: '@albertogalca',
@@ -21757,6 +22605,7 @@ module.exports = [
   },
   {
     name: 'Manthan Ank',
+    github: 'manthanank',
     description:
       "I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
     url: 'https://manthanank.github.io/uses',
@@ -21786,6 +22635,7 @@ module.exports = [
   },
   {
     name: 'Catalin Pit',
+    github: 'catalinpit',
     description:
       'Software developer building on the web with TypeScript, React, Node.js, and more. Writer, YouTuber, and lifelong learner who enjoys sharing knowledge with others.',
     url: 'https://catalins.tech/uses/',
@@ -21813,6 +22663,7 @@ module.exports = [
   },
   {
     name: 'Martin de Lima',
+    github: 'martindelima',
     description: 'Lapsed developer, relapsed designer',
     url: 'https://mmmart.in/uses',
     emoji: '💬',
@@ -21823,6 +22674,7 @@ module.exports = [
   },
   {
     name: 'Thu Le',
+    github: 'le-thu',
     description: 'Product & Experience Designer working in B2B SaaS.',
     url: 'https://thu-le.com/uses',
     twitter: '@_tple',

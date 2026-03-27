@@ -1,66 +1,111 @@
 {
   "name": "uses",
-  "description": "What do you uses",
-  "version": "7.7.7",
+  "description": "What do you use",
+  "type": "module",
+  "version": "8.0.0",
+  "packageManager": "pnpm@10.11.1",
   "author": "Wes Bos",
-  "eslintConfig": {
-    "extends": [
-      "wesbos/typescript"
-    ]
-  },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 22.12.0"
   },
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@actions/exec": "^1.1.1",
-    "@actions/github": "^5.1.1",
-    "@babel/core": "^7.21.0",
-    "@babel/preset-react": "^7.18.6",
-    "@netlify/edge-functions": "^2.0.0",
-    "@netlify/functions": "^1.4.0",
-    "@netlify/remix-edge-adapter": "^1.0.0",
-    "@remix-run/dev": "^1.13.0",
-    "@remix-run/netlify": "^1.13.0",
-    "@remix-run/node": "^1.13.0",
-    "@remix-run/react": "^1.13.0",
-    "@remix-run/serve": "^1.13.0",
-    "@remix-run/server-runtime": "^1.13.0",
-    "@types/node": "^18.14.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
+    "@actions/core": "^3.0.0",
+    "@actions/exec": "^3.0.0",
+    "@actions/github": "^9.0.0",
+    "@cloudflare/vite-plugin": "^1.29.1",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@tailwindcss/vite": "^4.2.1",
+    "@tanstack/react-query": "^5.91.0",
+    "@tanstack/react-router": "^1.167.4",
+    "@tanstack/react-start": "^1.166.16",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
     "country-emoji": "^1.5.6",
-    "isbot": "^3.6.6",
-    "joi": "^17.8.1",
-    "netlify-cli": "^13.0.0",
-    "normalize.css": "^8.0.1",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-is": "^18.2.0",
-    "styled-components": "5.3.6",
-    "typescript": "^4.9.5"
+    "d3": "^7.9.0",
+    "drizzle-orm": "^0.45.1",
+    "fast-glob": "^3.3.3",
+    "jimp": "^1.6.0",
+    "joi": "^18.0.2",
+    "lucide-react": "^0.577.0",
+    "ml-kmeans": "^7.0.0",
+    "next-themes": "^0.4.6",
+    "openai": "^6.32.0",
+    "p-limit": "^7.3.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "shaders": "^2.4.77",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.1",
+    "turndown": "^7.2.2",
+    "umap-js": "^1.4.0",
+    "vite-plugin-killer-instincts": "^1.1.0",
+    "workers-og": "^0.0.27",
+    "zod": "^4.3.6"
   },
   "scripts": {
-    "build": "netlify build",
-    "dev": "NODE_ENV=development netlify dev",
-    "readme": "node ./scripts/populate-readme.js"
+    "sync:data": "tsx ./scripts/sync-data-json.ts",
+    "dev": "pnpm sync:data && vp dev",
+    "build": "pnpm sync:data && vp build",
+    "preview": "vp preview",
+    "deploy": "pnpm build && wrangler deploy",
+    "typecheck": "pnpm sync:data && tsc --noEmit",
+    "test": "pnpm sync:data && vp test run",
+    "readme": "node ./scripts/populate-readme.js",
+    "scrape": "tsx ./scripts/scrape-uses-to-d1.ts",
+    "discover": "tsx --env-file .env ./scripts/discover-tags.ts",
+    "canonicalize": "tsx ./scripts/canonicalize-tags.ts",
+    "extract": "tsx --env-file .env ./scripts/extract-items.ts",
+    "review": "tsx ./scripts/review-extraction.ts",
+    "reclassify": "tsx --env-file .env ./scripts/reclassify.ts",
+    "merge-dupes": "tsx ./scripts/merge-duplicates.ts",
+    "vectorize": "tsx --env-file .env ./scripts/vectorize-profiles.ts",
+    "site:tools:list": "tsx ./scripts/site-management-cli.ts list",
+    "site:tools:call": "tsx ./scripts/site-management-cli.ts call",
+    "generate:tag-metadata": "tsx ./scripts/generate-tag-metadata.ts",
+    "db:studio": "drizzle-kit studio",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "wrangler d1 migrations apply uses-tech-scrapes --local",
+    "db:migrate:remote": "wrangler d1 migrations apply uses-tech-scrapes --remote",
+    "prepare": "vp config"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26",
-    "eslint": "^8.34.0",
-    "eslint-config-wesbos": "^3.2.3",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.2",
-    "postcss": "^8.4.21",
-    "postcss-nesting": "^11.2.1",
-    "prettier": "^2.8.4"
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/turndown": "^5.0.6",
+    "@vitejs/plugin-react": "^6.0.1",
+    "better-sqlite3": "^12.8.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "^5.9.3",
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vite-plus": "latest",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
+    "wrangler": "^4.75.0"
   },
-  "lint-staged": {
-    "src/data.js": [
-      "eslint --fix",
-      "git add"
-    ]
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild"
+    ],
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+      "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    },
+    "peerDependencyRules": {
+      "allowAny": [
+        "vite",
+        "vitest"
+      ]
+    }
   }
 }
