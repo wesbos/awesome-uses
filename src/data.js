@@ -24,6 +24,27 @@
  */
 module.exports = [
   {
+    name: 'David M. Coleman',
+    description:
+      'Writer & blogger based outside Austin, TX.',
+    url: 'https://www.nookwerks.com/uses',
+    emoji: '🌲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    mastodon: 'https://mstdn.games/@cross',
+    bluesky: '@nookwerks.com',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'Writer',
+      'Blogger',
+    ],
+  },
+  {
     name: 'Berat Bozkurt ',
     description:
       'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
