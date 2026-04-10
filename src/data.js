@@ -24,6 +24,27 @@
  */
 module.exports = [
   {
+    name: 'Adam Greenough',
+    description:
+      'Freelance web designer, developer & WordPress expert from the UK',
+    url: 'http://adamgreenough.net/uses/',
+    emoji: '🧑🏼‍💻',
+    country: '🇬🇧',
+    computer: 'windows',
+    phone: 'iphone',
+    twitter: '@adam_greenough',
+    tags: [
+      'WordPress',
+      'Developer',
+      'Web Developer',
+      'Designer',
+      'PHP',
+      'Blogger',
+      'Performance',
+      'SEO',
+    ],
+  },
+  {
     name: 'Berat Bozkurt ',
     description:
       'Frontend developer living in Turkey. Currently building mobile apps, indie hacker',
