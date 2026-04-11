@@ -45,6 +45,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Hussain Abbas',
+    description:
+      'Director of Engineering and Solutions Architect. Enthusiastic about Platform Engineering, Developer Tooling, System Design, and User Centricity.',
+    url: 'https://hussainweb.me/uses',
+    emoji: '👨‍💻',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@hussainweb',
+    tags: [
+      'PHP',
+      'Python',
+      'Docker',
+      'Platform Engineering',
+      'System Design',
+      'VS Code',
+      'Ghostty',
+      'Raycast',
+    ],
+  },
+  {
     name: 'Vlad Savruk',
     description: 'Product and Graphic Designer',
     url: 'https://vladsavruk.com/writing/uses',
