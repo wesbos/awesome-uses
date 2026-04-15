@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
+* [Hussain Abbas](https://hussainweb.me/uses) — Director of Engineering and Solutions Architect. Enthusiastic about Platform Engineering, Developer Tooling, System Design, and User Centricity.
 * [Vlad Savruk](https://vladsavruk.com/writing/uses) — Product and Graphic Designer
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
