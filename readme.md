@@ -215,6 +215,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [John Floren](https://jfloren.net/uses) — Programmer and hobbyist electronics designer interested in computing history.
 * [Stijn Elskens](https://www.stijnelskens.com/uses) — Frontend Web Developer based in Leuven, BE.
 * [Rico van Zelst](https://rico.sh/uses) — Full Stack Developer passionate about creating innovative web solutions.
+* [Jouke Siekman](https://siekman.io/uses) — Infrastructure engineer & indie hacker. MikroTik, Kubernetes, self-hosted and web projects from the Netherlands.
 * [Daine Mawer](https://www.dainemawer.com/uses) — Experienced Front-end Developer based in Cape Town, South Africa.
 * [Taras Kliushta](https://www.taraskliushta.dev/uses) — Staff Software Engineer – Front End
 * [Tobias Sjösten](https://www.seastone.io/uses/) — Jack of most software trades, master of a few
@@ -929,6 +930,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nic Lake](https://niclake.me/uses) — Full Stack Engineer & Bulbasaur stan
 * [Francisco Valloire](https://github.com/frajova/what-i-use) — Frontend developer, self-taught, enthusiastic and passionate about new technologies.
 * [Raúl Piracés](https://piraces.dev/uses) — Full Stack and passionate Software Engineer.
+* [João Palmeiro](https://joao.town/uses/) — A mix of data visualization practitioner, researcher, and software engineer.
 * [Filip Pacurar](https://pacurar.dev/uses/) — Loving husband, father of Joshua and Caleb, proud christian and enthusiast senior software developer, former CTO
 * [Wuttinan Sukpoon](https://github.com/mewxz029/uses) — FullStack Developer
 * [Michael Mior](https://michael.mior.ca/uses/) — Assistant Professor and Director of the Data Unity Lab at RIT

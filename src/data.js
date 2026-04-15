@@ -4910,7 +4910,7 @@ module.exports = [
       'Web Developer',
     ],
   },
- {
+  {
     name: 'Jouke Siekman',
     description:
       'Infrastructure engineer & indie hacker. MikroTik, Kubernetes, self-hosted and web projects from the Netherlands.',
@@ -20853,7 +20853,8 @@ module.exports = [
   },
   {
     name: 'João Palmeiro',
-    description: 'A mix of data visualization practitioner, researcher, and software engineer.',
+    description:
+      'A mix of data visualization practitioner, researcher, and software engineer.',
     url: 'https://joao.town/uses/',
     country: '🇵🇹',
     mastodon: '@joaopalmeiro@ciberlandia.pt',
