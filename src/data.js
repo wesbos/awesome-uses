@@ -21365,8 +21365,7 @@ module.exports = [
   },
   {
     name: 'Ryan McGovern',
-    description:
-      'Full-stack engineer building tools people actually use.',
+    description: 'Full-stack engineer building tools people actually use.',
     url: 'https://ryanmcgovern.dev/uses',
     emoji: '⚙️',
     country: '🇺🇸',

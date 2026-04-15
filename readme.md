@@ -950,6 +950,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [James Mathias](https://artisticoutlaw.com/outlaw/uses) — Artist, Writer, & Outlaw
 * [Aaron Pham](https://aarnphm.xyz/uses) — distributed and ml system.
 * [Gabriel Garrido](https://garrido.io/uses/) — Curious human being
+* [Ryan McGovern](https://ryanmcgovern.dev/uses) — Full-stack engineer building tools people actually use.
 * [Matt Walsh](https://mattwalsh.dev/uses/) — Python programmer with love for data and automation
 * [Shubham Singh](https://ishubhamsingh.dev/uses) — 30 | M | Software Engineer | Android | React
 * [Matias Quintana](https://matiasquintana.com/uses) — Engineer and scientist. Casual gamer with a passion for machine learning, coffee, running, and weight lifting
