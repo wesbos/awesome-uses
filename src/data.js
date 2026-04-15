@@ -10963,6 +10963,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Oz Gultekin',
+    description: 'Designer of things',
+    url: 'https://ozgur.ca/uses',
+    emoji: '🦅',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    bluesky: 'ozgur.ca',
+    tags: ['Design', 'macOS', 'Astro', 'TailwindCSS', 'React', 'TypeScript', 'Vercel', 'Alfred', 'Obsidian', 'Figma', 'Affinity', 'Adobe CC', 'Framer', 'Rive', 'DaVinci Resolve', 'CleanShot X', 'Eagle', 'ColorSlurp', 'Typeface', 'Upscayl', 'Permute', 'Docker', 'Podman', 'Ghostty', 'iTerm2', 'TablePlus', 'SwiftBar', 'DevUtils', 'MonoLisa', 'Homebrew', 'BetterTouchTool', 'Keyboard Maestro', 'Hazel', 'Rectangle Pro', 'Raindrop', 'CotEditor', 'Forklift', 'Keka', 'Renamer', 'DaisyDisk', 'Carbon Copy Cloner', 'Pearcleaner', 'Little Snitch', 'Mullvad VPN', 'Mullvad Browser', 'Firefox', 'Control D', 'Pareto Security', 'IINA', 'TIDAL', 'Sonos'],
+  },
+  {
     name: 'Ali Şen',
     description: 'Full Stack Developer',
     url: 'https://alisen.me/uses',
