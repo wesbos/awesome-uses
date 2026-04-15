@@ -4910,6 +4910,29 @@ module.exports = [
       'Web Developer',
     ],
   },
+ {
+    name: 'Jouke Siekman',
+    description:
+      'Infrastructure engineer & indie hacker. MikroTik, Kubernetes, self-hosted and web projects from the Netherlands.',
+    url: 'https://siekman.io/uses',
+    emoji: '🐀',
+    country: '🇳🇱',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Infrastructure',
+      'Kubernetes',
+      'Self-hosted',
+      'MikroTik',
+      'Arch Linux',
+      'PHP',
+      'Homelab',
+      'Networking',
+      'BGP',
+      'Indie Hacker',
+      'FOSS',
+    ],
+  },
   {
     name: 'Daine Mawer',
     description:
