@@ -21364,6 +21364,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Ryan McGovern',
+    description:
+      'Full-stack engineer building tools people actually use.',
+    url: 'https://ryanmcgovern.dev/uses',
+    emoji: '⚙️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Astro',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'TailwindCSS',
+      'Golang',
+      'Three.js',
+      'SideProjects',
+    ],
+  },
+  {
     name: 'Matt Walsh',
     description: 'Python programmer with love for data and automation',
     url: 'https://mattwalsh.dev/uses/',
