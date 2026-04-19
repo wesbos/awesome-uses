@@ -11310,6 +11310,24 @@ module.exports = [
     tags: ['iOS', 'macOS', 'Automation', 'Productivity', 'Swift', 'Blogger'],
   },
   {
+    name: 'Aleksey Gladysh',
+    description: 'Software Engineer working with Ruby on Rails and React',
+    url: 'https://bjornen.me/uses/',
+    emoji: '🐻',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Ruby',
+      'Rails',
+      'JavaScript',
+      'React',
+      'Bootstrap',
+      'Tailwind',
+      'Software Engineer',
+    ],
+  },
+  {
     name: 'Prakhil TP',
     description:
       'Team lead, Experienced full-stack engineer & non-stop learner.  :wq',
