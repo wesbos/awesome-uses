@@ -66,6 +66,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Thxie',
+    description: 'AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!',
+    url: 'https://thxie.com/about#uses',
+    emoji: '🍻',
+    country: '🇨🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@ThxieX',
+    tags: [
+      'Developer',
+      'AI',
+      'Java',
+      'Golang',
+      'Obsidian',
+      'Raycast',
+      'Kitty',
+      'Neovim',
+      'Vercel',
+      'DevOps',
+    ],
+  },
+  {
     name: 'Hussain Abbas',
     description:
       'Director of Engineering and Solutions Architect. Enthusiastic about Platform Engineering, Developer Tooling, System Design, and User Centricity.',
