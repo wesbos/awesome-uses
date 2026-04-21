@@ -2345,6 +2345,34 @@ module.exports = [
     ],
   },
   {
+    "name": "luna",
+    "description": "Software Engineer",
+    "url": "https://imlunahey.com/uses",
+    "emoji": "🌙",
+    "twitter": "@imlunahey",
+    "country": "🇬🇧",
+    "computer": "apple",
+    "phone": "apple",
+    "tags": [
+      "Frontend",
+      "Backend",
+      "TypeScript",
+      "React",
+      "TanStack Start",
+      "Tailwind CSS",
+      "Node.js",
+      "Bun",
+      "Cloudflare Workers",
+      "AT Protocol",
+      "Bluesky",
+      "Drizzle",
+      "PostgreSQL",
+      "React Native",
+      "VS Code",
+      "Remote"
+    ]
+  },
+  {
     name: 'Valery Tropin',
     description:
       'Museum researcher using code daily to build tools, automate tasks, and create Telegram bots for tourism',
