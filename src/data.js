@@ -21933,6 +21933,27 @@ module.exports = [
     ],
   },
   {
+    name: 'LkSvn',
+    description: 'Old days WebMaster, now learning some 🐍 Python and the new FrontEnd Stacks',
+    url: 'https://lksvn.com.br',
+    twitter: '@lksvn',
+    emoji: '🐿️',
+    country: '🇧🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+        'Frontend',
+        'CSS',
+        'TailwindCSS',
+        'Visual Studio Code',
+        'PHP',
+        'JavaScript',
+        'Vue.js',
+        'Python',
+        'Windows'
+    ]
+  },
+  {
     name: 'Manthan Ank',
     description:
       "I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
