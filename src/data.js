@@ -8224,6 +8224,19 @@ module.exports = [
     ],
   },
   {
+    name: 'lzon',
+    description: 'Programmer, IT Expert, Writer',
+    url: 'https://lzon.ca/uses',
+    emoji: '🐧',
+    country: '🇨🇦',
+    computer: 'linux',
+    phone: 'android',
+    mastodon: '@lzon@mastodon.social',
+    bluesky: 'ca-lzon.bsky.social',
+    twitter: '@lzon_ca',
+    tags: ['Linux', 'C++', 'Fish', 'Obsidian', 'tmux', 'Firefox', 'Ghostty', 'VSCodium'],
+  },
+  {
     name: 'Patrick Lee',
     description:
       'Software Engineer, Engineering Manager, and Productivity tool nerd',
