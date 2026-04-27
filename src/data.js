@@ -105,7 +105,7 @@ module.exports = [
       'Figma',
       'Node / Express',
       'Arc Browser',
-      'Cloudflare'
+      'Cloudflare',
       'Vercel'
     ],
   },
