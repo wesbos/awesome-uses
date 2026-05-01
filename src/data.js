@@ -202,7 +202,7 @@ module.exports = [
     name: 'Tony Dehnke 🇨🇦',
     description:
       'Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display',
-    url: 'https://tonydehnke.com/uses',
+    url: 'https://tonydehnke.com/uses/',
     country: '🇨🇦',
     computer: 'apple',
     phone: 'iphone',
