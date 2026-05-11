@@ -21291,7 +21291,7 @@ module.exports = [
   {
     name: 'LkSvn',
     description: 'Old days WebMaster, now learning some 🐍 Python and the new FrontEnd Stacks',
-    url: 'https://lksvn.com.br',
+    url: 'https://lksvn.com.br#uses',
     twitter: '@lksvn',
     emoji: '🐿️',
     country: '🇧🇷',
