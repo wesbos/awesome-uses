@@ -44,6 +44,25 @@ module.exports = [
       'SEO',
     ],
   },
+    {
+    name: 'Hasse Ramlev Wilson',
+    description: 'Code - run - sleep ... Coffee',
+    url: 'https://notes.ramlev.com/uses/',
+    emoji: '🧑🏼‍💻',
+    country: '🇩🇰',
+    computer: 'macos',
+    phone: 'iphone',
+    twitter: '@hassewilson',
+    tags: [
+      'Developer',
+      'Architect',
+      'PHP',
+      'Drupal',
+      'Symfony',
+      'Fullstack',
+      'SideProjects',
+    ],
+  },
   {
     name: 'Berat Bozkurt ',
     description:
