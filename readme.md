@@ -965,7 +965,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [JourneyToLunar](https://journeytolunar.com/uses/) — Swift developer, blogger, photographer, and youtuber.
 * [orangc](https://orangc.net/uses) — A student, developer, weeb, and bookworm.
 * [Will Adams](https://willadams.dev/uses) — UK developer and knife maker
-* [Ruben Arakelyan](https://www.wackomenace.co.uk/uses) — Senior Ruby developer
 * [Tim Veletta](https://www.timveletta.com/uses) — Australian full-stack developer and designer
 * [That MLOps Guy](https://thatmlopsguy.github.io/uses/) — Portuguese machine learning engineer
 * [Hiran Venugopalan](https://hiran.in/uses) — A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. 
