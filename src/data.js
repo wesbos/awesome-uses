@@ -190,7 +190,6 @@ module.exports = [
       'Open Source',
     ],
   },
-
   {
     name: 'Guilherme Albert',
     description:
@@ -211,7 +210,29 @@ module.exports = [
       'Blockchain',
     ],
   },
-
+  {
+    name: 'Chris B MN',
+    description: 'Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies',
+    url: 'https://chrisbmn.com/uses',
+    country: '🇺🇸',
+    emoji: '🧙🏽‍♂️',
+    computer: 'windows',
+    phone: 'iphone',
+    bluesky: 'chrisbmn.com',
+    tags: [
+      'PHP',
+      'HTML',
+      'CSS',
+      'Linux',
+      'MacOS',
+      'Self-Hosted',
+      'Infrastructure',
+      'Custom PC Builder',
+      'Gaming',
+      'Plex',
+      'Windows',
+    ],
+  },
   {
     name: 'Thamara Kandabada',
     description: 'Generalist & Tinkerer. Internet person.',
