@@ -190,7 +190,24 @@ module.exports = [
       'Open Source',
     ],
   },
-
+  {
+    name: 'Sachin Kukreja',
+    description:
+      'Full-stack engineer learning, applying and transforming softwares',
+    url: 'https://sachinkukreja.dev/uses',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Developer',
+      'Data Platform',
+      'Automation',
+      'Web Development',
+      'Python',
+      'Next.js',
+    ],
+  },
   {
     name: 'Guilherme Albert',
     description:
