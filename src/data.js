@@ -273,6 +273,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Shreya Sawardekar',
+    description:
+      'Technical Lead, Front-End Developer from Goa.',
+    url: 'https://shreya-sawardekar.github.io/uses/',
+    emoji: '☕',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Remote',
+      'Developer',
+      'JavaScript',
+      'TypeScript',
+      'UI',
+      'CSS',
+      'Angular',
+      'React',
+      'Node.js',
+      'GitHub',
+      'Obsidian',
+
+    ],
+  },
+  {
     name: 'Jared Rigby',
     description: 'Creative technologist and indie game developer.',
     url: 'https://jaredrigby.co.uk/uses/',
