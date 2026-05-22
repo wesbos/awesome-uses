@@ -211,6 +211,28 @@ module.exports = [
       'Blockchain',
     ],
   },
+  {
+    name: 'Djamel Bougouffa',
+    description:
+      'Full-Stack Software Engineer specializing in TypeScript, Rust, RAG and agentic AI workflows',
+    url: 'https://djamel-bougouffa.com/uses',
+    emoji: '🦀',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@strawbang',
+    tags: [
+      'TypeScript',
+      'Rust',
+      'React',
+      'Node.js',
+      'MCP',
+      'RAG',
+      'AI',
+      'DevOps',
+      'Full Stack',
+    ],
+  },
 
   {
     name: 'Thamara Kandabada',
