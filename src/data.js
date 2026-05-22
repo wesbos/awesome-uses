@@ -17959,10 +17959,10 @@ module.exports = [
   {
     name: 'Jan-Lukas Else',
     description: 'Software Developer & Blogger',
-    url: 'https://jlelse.blog/uses/',
+    url: 'https://janlukas.blog/uses',
     emoji: '🤓',
     country: '🇩🇪',
-    computer: 'windows',
+    computer: 'linux',
     phone: 'android',
     tags: ['Developer', 'Blogger', 'Backend', 'Java', 'Go'],
   },
