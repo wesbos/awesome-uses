@@ -11451,6 +11451,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Mart Traagel',
+    description:
+      'Data platform engineer in Estonia. Builds devops tools and writes about infrastructure at mart.traagel.dev.',
+    url: 'https://mart.traagel.dev/uses',
+    emoji: '🧑‍💻',
+    country: '🇪🇪',
+    computer: 'linux',
+    tags: [
+      'Arch Linux',
+      'Hyprland',
+      'Neovim',
+      'tmux',
+      'Ghostty',
+      'fish',
+      'TypeScript',
+      'DevOps',
+    ],
+  },
+  {
     name: 'Kevin Gimbel',
     description: 'DevOps Engineer who loves Rust + web dev',
     url: 'https://kevingimbel.de/uses',
