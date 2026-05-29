@@ -389,7 +389,7 @@ module.exports = [
     description: 'Consultant CTO, software architect, and developer to startups and small firms.',
     url: 'https://www.kryogenix.org/uses/',
     mastodon: '@sil@mastodon.social',
-    bluesky: 'sil.kryogenix.org'
+    bluesky: 'sil.kryogenix.org',
     emoji: '👨‍🦰',
     country: '🇬🇧',
     computer: 'linux',
