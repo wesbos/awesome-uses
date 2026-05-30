@@ -229,8 +229,8 @@ module.exports = [
       'Digital sovereignty',
       'Policy',
       'Indieweb',
-    ]
-  }
+    ],
+  },
 
   {
     name: 'Thamara Kandabada',
