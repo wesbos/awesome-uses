@@ -213,6 +213,26 @@ module.exports = [
   },
 
   {
+    name: 'Ethan Plant',
+    description: 
+      'Software engineer working on cloud infrastructure. Writing about digital ownership.',
+    url: 'https://ethanplant.ca/uses',
+    country: '🇨🇦',
+    emoji: '🛠️',
+    mastodon: '@ethanplant@mastodon.social',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Zed',
+      'Rust',
+      'Free software',
+      'Digital sovereignty',
+      'Policy',
+      'Indieweb',
+    ],
+  },
+
+  {
     name: 'Thamara Kandabada',
     description: 'Generalist & Tinkerer. Internet person.',
     url: 'https://thamara.co.uk/uses',
