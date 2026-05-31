@@ -1763,8 +1763,8 @@ module.exports = [
   {
     name: 'Abdul-Jabbar Bozdar',
     description: 'Computer Programmer',
-    url: 'https://aj.bozdar.im/uses/',
-    bluesky: 'aj.bozdar.im',
+    url: 'https://ajbozdar.github.io/uses/',
+    bluesky: 'ajbozdar',
     emoji: '🤝',
     country: '🇦🇶',
     computer: 'bsd',
@@ -1783,8 +1783,6 @@ module.exports = [
       'Backend',
       'Programmer',
       'Mathematics',
-      'Physics',
-      'Blogger',
     ],
   },
   {
