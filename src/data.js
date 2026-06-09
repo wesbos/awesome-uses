@@ -17931,26 +17931,6 @@ module.exports = [
     tags: ['Back End', 'DevOps', 'Python', 'Go', 'Rust'],
   },
   {
-    name: 'Adrián Alcorta Puente',
-    description:
-      'Frontend developer. I love mountains, Game Boys and Post-rock music.',
-    url: 'https://ardi.land/uses',
-    twitter: '@ardillan_',
-    emoji: '🍋',
-    country: '🇪🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'React',
-      'TypeScript',
-      'CSS',
-      'Gatsby',
-      'JAMstack',
-      'NextJS',
-    ],
-  },
-  {
     name: 'Erv Walter',
     description: 'Father, Husband, Web Developer, Board Game Addict',
     url: 'https://ewal.dev/uses',
