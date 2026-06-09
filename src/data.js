@@ -10093,27 +10093,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Ryan Harris',
-    description:
-      'dev @ fauna. organizer @ reactadelphia. streamer @ twitch.tv/ryan_c_harris. member of @thelivecoders.',
-    url: 'https://ryanharris.dev/uses',
-    twitter: '@ryan_c_harris',
-    emoji: '🔥',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'React',
-      'JavaScript',
-      'Gatsby',
-      'Node.js',
-      'Serverless',
-      'Developer',
-      'Streamer',
-      'Writer',
-    ],
-  },
-  {
     name: 'Laura Zumbakyte',
     description: 'Front-end engineer, and a healthy lifestyle enthusiast.',
     url: 'https://desinni.dev/uses',
