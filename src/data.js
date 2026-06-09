@@ -7014,30 +7014,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Christopher Kruse',
-    description:
-      'lifelong tech nerd, DevOps and Tools builder, dad, and choral singer',
-    url: 'https://www.ballpointcarrot.net/uses/',
-    emoji: '🙈',
-    country: '🇺🇸',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'AWS',
-      'Developer',
-      'DevOps',
-      'GitHub',
-      'TypeScript',
-      'Rust',
-      'Clojure',
-      'CDK',
-      'Backend',
-      'Remote',
-      'Linux',
-      'Vim',
-    ],
-  },
-  {
     name: 'Rowe Morehouse',
     description:
       'Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales',
