@@ -19007,27 +19007,6 @@ module.exports = [
     tags: ['JavaScript', 'Ruby', 'CSS'],
   },
   {
-    name: 'Maria Altyeva Schuessler ',
-    description:
-      'Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China',
-    url: 'http://mariacodes.io/uses',
-    twitter: '@mariaschuessler',
-    emoji: '🥑',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'Full Stack',
-      'JavaScript',
-      'Blogger',
-      'React',
-      'Writer',
-      'Ruby on Rails',
-    ],
-  },
-  {
     name: 'Paul Esch-Laurent',
     description: 'Software Engineer',
     url: 'https://paul.af/uses',
