@@ -9991,17 +9991,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Henrik Nyh',
-    description: 'Swedish web developer in Yorkshire, UK.',
-    url: 'https://henrik.nyh.se/uses',
-    twitter: '@henrik',
-    emoji: '🦆',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Developer', 'Blogger', 'Ruby', 'Elixir', 'Vim'],
-  },
-  {
     name: 'Manoj Barman',
     description: 'Working hardly, or Hardly working..',
     url: 'https://manojbarman.in/uses',
