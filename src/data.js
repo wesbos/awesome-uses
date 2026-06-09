@@ -11042,30 +11042,6 @@ module.exports = [
     tags: ['front-end', 'developer', 'react', 'javascript', 'typescript'],
   },
   {
-    name: 'Arturo De la Garza',
-    description:
-      'Full-stack web developer, avid learner, loves to play video games and board games',
-    url: 'https://arturodelagarza.com/uses',
-    twitter: '@agzertuche',
-    emoji: '🚀',
-    country: '🇲🇽',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'Gatsby',
-      'Next',
-      'CSS',
-      'GraphQL',
-      'Node.js',
-      'SQL',
-    ],
-  },
-  {
     name: 'Renan Winter Spatin',
     description:
       'Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.',
