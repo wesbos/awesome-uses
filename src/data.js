@@ -12284,25 +12284,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Stéphane Lambion',
-    description: 'Shaping words.',
-    url: 'https://stephanelambion.com/uses',
-    mastodon: '@stephanelambion@mastodon.social',
-    emoji: '🌑',
-    country: '🇪🇺',
-    computer: 'linux',
-    tags: [
-      'Writer',
-      'Artist',
-      'Designer',
-      'HTML/CSS',
-      'Open Source',
-      'IndieWeb',
-      'Typography',
-      'Low-tech',
-    ],
-  },
-  {
     name: 'Eric Raslich',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
