@@ -16681,30 +16681,6 @@ module.exports = [
     ],
   },
   {
-    name: 'David Petringa',
-    description:
-      'A web developer who very much likes working with Laravel and Vuejs. My side Hustle is blogging.',
-    url: 'https://david.dukesnuz.com/uses',
-    twitter: '@dukesnuz',
-    emoji: '🤙',
-    country: '🇺🇸',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Front End',
-      'Back End',
-      'HTML',
-      'CSS',
-      'PHP',
-      'Laravel',
-      'JavaScript',
-      'Vue.js',
-      'MySQL',
-      'Entrepreneur',
-    ],
-  },
-  {
     name: 'Stephen Senkomago Musoke',
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
