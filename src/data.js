@@ -213,6 +213,34 @@ module.exports = [
   },
 
   {
+    name: 'Mara Masaeva',
+    description:
+      'AI engineer, electronic music producer & writer. Building production AI systems, MCP servers, and generative sound.',
+    url: 'https://messier-systems.vercel.app/uses',
+    emoji: '🌌',
+    country: '🇧🇪',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@rssmrm',
+    tags: [
+      'Python',
+      'TypeScript',
+      'FastAPI',
+      'Next.js',
+      'React',
+      'PyTorch',
+      'Docker',
+      'Azure',
+      'MCP Protocol',
+      'AI Engineer',
+      'Ableton Live',
+      'SuperCollider',
+      'Claude Code',
+      'Cursor',
+    ],
+  },
+
+  {
     name: 'Thamara Kandabada',
     description: 'Generalist & Tinkerer. Internet person.',
     url: 'https://thamara.co.uk/uses',
