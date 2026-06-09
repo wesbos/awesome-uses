@@ -18255,26 +18255,6 @@ module.exports = [
     tags: ['JavaScript', 'React', 'Node.js', 'Design', 'Full Stack', 'Writer'],
   },
   {
-    name: 'Abdessalam Benharira',
-    description: 'JavaScript developer, UX/UI design and tech enthusiast',
-    url: 'https://abdessalam-benharira.me/uses',
-    twitter: '@abdessalam_b98',
-    emoji: '🤔',
-    country: '🇫🇷',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Blogger',
-      'Full Stack',
-      'JavaScript',
-      'Node.js',
-      'Design',
-      'JAMstack',
-      'GraphQL',
-    ],
-  },
-  {
     name: 'David Dias',
     description:
       'Front-End Developer, UX/UI enthusiast, podcaster and content creator!',
