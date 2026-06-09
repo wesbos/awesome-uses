@@ -10720,28 +10720,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Aaron Conway',
-    description:
-      'Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)',
-    url: 'https://aaronconway.co.uk/uses',
-    twitter: '@aaronconway7',
-    emoji: '⚽',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Web Developer',
-      'Front End',
-      'Designer',
-      'Podcaster',
-      'JavaScript',
-      'React',
-      'Figma',
-      'Gatsby',
-      'Tailwind CSS',
-    ],
-  },
-  {
     name: 'Gonçalo Rodrigues',
     description:
       'Software developer, currently focused on Java and JavaScript.',
