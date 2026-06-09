@@ -15691,27 +15691,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Michael Le',
-    description: 'Software Engineer',
-    url: 'https://www.michael1e.com/uses/',
-    twitter: '@michaelnle',
-    emoji: '🤣',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Engineer',
-      'Developer',
-      'Full Stack',
-      'Front End',
-      'Entrepreneur',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'Vue.js',
-    ],
-  },
-  {
     name: 'Imran Nazar',
     description:
       'Frontend developer with an eye for retrocomputing, author of Coffeepot Control Protocol for Teapots (RFC 7168)',
