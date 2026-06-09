@@ -20365,17 +20365,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Matt Layman',
-    description: 'A Python developer focused on Django',
-    url: 'https://www.mattlayman.com/uses/',
-    twitter: '@mblayman',
-    emoji: '🧐',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Python', 'Django', 'webdev', 'Twitch'],
-  },
-  {
     name: 'Jeremy Bunting',
     description: 'Web 🤖 working remotely from the Connecticut burbs',
     url: 'https://qbunt.com/uses',
