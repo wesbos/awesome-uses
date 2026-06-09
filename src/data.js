@@ -16661,26 +16661,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Danny de Vries',
-    description:
-      'Indie maker building products for the web and lecturer @CMDamsterdam',
-    url: 'https://dandevri.es/uses',
-    twitter: '@dandevri',
-    emoji: '👨🏼‍💻',
-    country: '🇳🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Designer',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Lecturer',
-      'Teaching',
-    ],
-  },
-  {
     name: 'Stephen Senkomago Musoke',
     description:
       'Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker',
