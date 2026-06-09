@@ -20906,27 +20906,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Luigi Cruz',
-    description: 'Software developer with a focus on the Web.',
-    url: 'https://luigicruz.dev/uses',
-    twitter: '@luigircruz',
-    emoji: '🍻',
-    country: '🇵🇭',
-    computer: 'apple',
-    phone: 'android',
-    tags: [
-      'Web Development',
-      'JavaScript',
-      'TypeScript',
-      'React',
-      'Next.js',
-      'Laravel',
-      'InertiaJS',
-      'Tailwind CSS',
-      'GraphQL',
-    ],
-  },
-  {
     name: 'Felix Macaspac',
     description:
       'Self-taught Frontend developer from the Philippines, and a CS student.',
