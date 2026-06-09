@@ -67,7 +67,8 @@ module.exports = [
   },
   {
     name: 'Thxie',
-    description: 'AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!',
+    description:
+      'AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!',
     url: 'https://thxie.com/about#uses',
     emoji: '🍻',
     country: '🇨🇳',
