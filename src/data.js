@@ -17795,26 +17795,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Jorge Calle',
-    description:
-      'Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)',
-    url: 'https://jorgecalle.co/uses',
-    twitter: '@jorcalle11',
-    emoji: '👨‍💻',
-    country: '🇨🇴',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'JavaScript',
-      'Full Stack',
-      'Node.js',
-      'React',
-      'Firebase',
-      'GraphQL',
-    ],
-  },
-  {
     name: 'Rhys Botfield',
     description:
       'Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor',
