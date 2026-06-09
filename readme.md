@@ -323,6 +323,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Patrik Trefil](https://patriktrefil.com/uses/) — Developer from Europe, Linux and open-source fan
 * [Marty Romero](http://martyromero.me/uses/) — Front-end UI developer
 * [Michael Kitzman](https://www.michaelkitzman.com/uses) — Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.
+* [Nirwansyah Ramdhani](https://www.nirwan.work/uses/) — Full Stack Developer + WordPress Enthusiast
 * [Philip Boardman](https://brd.mn/uses/) — Software Engineering Manager, Full Stack Developer
 * [Martín Morales](https://mrtnmrls.com/uses/) — Android Mobile Developer, Mechatronic Engineer
 * [Sheila Leon](https://sheilaleon.tech/uses/) — Self-taught Front-end Dev, Designer & Product Manager
