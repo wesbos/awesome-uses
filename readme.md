@@ -178,6 +178,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Arija A.](https://ari.lt/uses) — A passionate open source developer and advocate from Lithuania
 * [Jaime Creixems](https://webjac.com/uses) — Design Leader, Advisor and Mentor.
 * [Dominic Ruggiero](https://userexe.me/uses) — Student and idiot
+* [Valon Cengaj](https://qevalon.com/uses) — Full-Stack Web Developer based in Vienna, building with Vue, Nuxt, TypeScript and WordPress.
 * [Lucas Mancini](https://lucasmancini.au/uses) — Software Development Engineer, specializing in Frontend
 * [Lars Magnus Klavenes](https://larsmagnus.co/uses) — Frontend engineer, designer and manager supercharging the web
 * [Maicol Santos](https://maicolsantos.github.io/#/uses) — Front End Developer.

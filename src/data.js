@@ -4002,7 +4002,8 @@ module.exports = [
   },
   {
     name: 'Valon Cengaj',
-    description: 'Full-Stack Web Developer based in Vienna, building with Vue, Nuxt, TypeScript and WordPress.',
+    description:
+      'Full-Stack Web Developer based in Vienna, building with Vue, Nuxt, TypeScript and WordPress.',
     url: 'https://qevalon.com/uses',
     twitter: '@qevalon',
     emoji: '⚽',
