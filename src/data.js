@@ -8366,7 +8366,16 @@ module.exports = [
     mastodon: '@lzon@mastodon.social',
     bluesky: 'ca-lzon.bsky.social',
     twitter: '@lzon_ca',
-    tags: ['Linux', 'C++', 'Fish', 'Obsidian', 'tmux', 'Firefox', 'Ghostty', 'VSCodium'],
+    tags: [
+      'Linux',
+      'C++',
+      'Fish',
+      'Obsidian',
+      'tmux',
+      'Firefox',
+      'Ghostty',
+      'VSCodium',
+    ],
   },
   {
     name: 'Patrick Lee',

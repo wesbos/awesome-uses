@@ -363,6 +363,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Brian Hamburg](https://burgbits.com/uses) — Software Engineer, Designer, and Musician
 * [Alexey Staroselets](https://alexeystar.com/uses) — Graphic Designer, Visual Artist, Typography Enthusiast
 * [Emanuele Bartolesi](https://www.emanuelebartolesi.com/uses) — Microsoft 365 Architect. Microsoft MVP & GitHub Star ⭐
+* [lzon](https://lzon.ca/uses) — Programmer, IT Expert, Writer
 * [Patrick Lee](https://patricklee.nyc/uses) — Software Engineer, Engineering Manager, and Productivity tool nerd
 * [Ajmal Afif](https://ajmalafif.com/uses) — Digital designer
 * [Erik Kroes](https://www.erikkroes.nl/uses) — Photographer and creative in the world of accessibility
