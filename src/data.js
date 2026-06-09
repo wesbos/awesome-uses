@@ -7576,26 +7576,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Ivan Muratov',
-    description:
-      'SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.',
-    url: 'https://binakot.github.io/resume/uses',
-    twitter: '@binakot',
-    emoji: '🛰️',
-    country: '🇷🇺',
-    computer: 'linux',
-    phone: 'iphone',
-    tags: [
-      'Chief Technical Officer',
-      'Technical Team Leader',
-      'Software Developer',
-      'IoT',
-      'Java',
-      'Docker',
-      'PostgreSQL',
-    ],
-  },
-  {
     name: 'David V. Kimball',
     description:
       'Digital marketing professional. Loves technology and communication, especially together.',
