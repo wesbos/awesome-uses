@@ -13586,32 +13586,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Karl Koch',
-    description:
-      'Product designer, frontend developer and musician. Building HomeHero and making other things.',
-    url: 'https://www.kejk.tech/uses',
-    twitter: '@_kejk',
-    emoji: '🧘🏻‍♂️',
-    country: '🇬🇧',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Designer',
-      'Developer',
-      'Design Systems',
-      'Frontend',
-      'UX',
-      'UI',
-      'HTML',
-      'CSS',
-      'Vue.js',
-      'Nuxt.js',
-      'Cosmic.js',
-      'Accessibility',
-      'Entrepreneur',
-    ],
-  },
-  {
     name: 'Praveen Kumar Purushothaman',
     description:
       'Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.',
