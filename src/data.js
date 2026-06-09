@@ -18244,17 +18244,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Eric Oyanadel',
-    description: 'Artist - Developer - Musician',
-    url: 'https://www.oyanadel.com/uses/',
-    twitter: '@EricOyanadel',
-    emoji: '🌻',
-    country: '🇨🇱',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['JavaScript', 'React', 'Node.js', 'Design', 'Full Stack', 'Writer'],
-  },
-  {
     name: 'David Dias',
     description:
       'Front-End Developer, UX/UI enthusiast, podcaster and content creator!',
