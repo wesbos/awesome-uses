@@ -4613,28 +4613,6 @@ module.exports = [
     tags: ['TypeScript', 'Node.js', 'Next.js', 'Tailwind', 'AWS', 'Blogger'],
   },
   {
-    name: 'voitech',
-    description:
-      'English teacher, IT specialist, programming instructor, cyber security educator, personal knowledge management consultant',
-    url: 'https://voitech.lol/uses/',
-    country: '🇵🇱',
-    mastodon: `@voitech@social.lol`,
-    emoji: '💻',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Apple',
-      'MacOS',
-      'Linux',
-      'Fedora',
-      'ObsidianMD',
-      'Markdown',
-      'Personal Knowledge Management',
-      'Privacy',
-      'Security',
-    ],
-  },
-  {
     name: 'Alex Zee Comedy',
     description:
       'Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.',
