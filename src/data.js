@@ -10344,17 +10344,6 @@ module.exports = [
     tags: ['SRE', 'Developer', 'Python', 'Kubernetes', 'VS Code', 'Docker'],
   },
   {
-    name: 'Enea Xharja',
-    description: 'Web Developer',
-    url: 'https://eneaxharja.com/uses',
-    twitter: '@eneaxharja',
-    emoji: '👓',
-    country: '🇮🇹',
-    computer: 'apple',
-    phone: 'android',
-    tags: ['Web', 'Developer', 'JavaScript', 'React', 'Gatsby'],
-  },
-  {
     name: 'Dhanish Gajjar',
     description: 'Developer',
     url: 'https://dhanishgajjar.com/uses',
