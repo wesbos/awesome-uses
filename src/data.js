@@ -12718,27 +12718,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Rene Gens',
-    description:
-      'android engineer, project manager, teacher, aspiring designer and author',
-    url: 'https://renegens.com/uses',
-    twitter: '@renegens',
-    emoji: '🤷‍',
-    country: '🇬🇷',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Android',
-      'Entrepreneur',
-      'Teacher',
-      'Kotlin',
-      'Gatsby',
-      'React',
-      'CSS',
-    ],
-  },
-  {
     name: 'Matthew Scholta',
     description: `Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.`,
     url: 'https://mattscholta.com/uses',
