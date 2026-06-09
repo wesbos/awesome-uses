@@ -4601,18 +4601,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Michael Amore',
-    description:
-      'Technologist, software creator, wannabe hacker. Father. Dog Lover.',
-    url: 'https://codewithlove.blog/uses',
-    twitter: '@amore_codes',
-    emoji: '👨‍💻',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['TypeScript', 'Node.js', 'Next.js', 'Tailwind', 'AWS', 'Blogger'],
-  },
-  {
     name: 'Alex Zee Comedy',
     description:
       'Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.',
