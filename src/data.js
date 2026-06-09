@@ -13819,27 +13819,6 @@ module.exports = [
     tags: ['TypeScript', 'ASP.Net Core', 'React', 'Full Stack'],
   },
   {
-    name: 'Thê (Alexander) Quach',
-    description:
-      'An aspiring financial data analyst, seeking new projects and opportunities',
-    url: 'https://the-quach.com/uses/',
-    emoji: '🔮',
-    country: '🇨🇦',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'Student',
-      'Gamer',
-      'Python',
-      'GitHub',
-      'Java',
-      'Julia',
-      'R',
-      'VSCode',
-      'IntelliJ',
-    ],
-  },
-  {
     name: 'Joshua Ryan Velasquez',
     description:
       'Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.',
