@@ -7190,26 +7190,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Marty Romero',
-    description: 'Front-end UI developer',
-    url: 'http://martyromero.me/uses/',
-    twitter: '@martyromero',
-    emoji: '💾',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'CSS',
-      'Front End',
-      'HTML',
-      'JavaScript',
-      'Drupal',
-      'CraftCMS',
-      'PHP',
-      'Python',
-    ],
-  },
-  {
     name: 'Michael Kitzman',
     description:
       'Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.',
