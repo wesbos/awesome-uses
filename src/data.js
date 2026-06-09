@@ -16458,29 +16458,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Mike Barkmin',
-    description:
-      "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
-    url: 'https://www.barkmin.eu/uses/',
-    twitter: '@mikebarkmin',
-    emoji: '🐧',
-    country: '🇩🇪',
-    computer: 'linux',
-    phone: 'android',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'Researcher',
-      'Teacher',
-      'Python',
-      'Flask',
-      'Docker',
-      'JavaScript',
-      'React',
-      'Node.js',
-    ],
-  },
-  {
     name: 'Hugo Di Francesco',
     description:
       "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
