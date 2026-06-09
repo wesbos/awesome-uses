@@ -193,6 +193,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Christian Babin](https://christianbabin.com/uses) — Flutter developer, tech enthusiast, and web manager creating elegant digital solutions.
 * [Antonio Sarcevic](https://sarcevic.dev/uses) — excited by ui development
 * [Josh Medeski](https://www.joshmedeski.com/uses/) — Full-stack developer and content creator.
+* [Iain Simmons](https://iainsimmons.com/uses/) — Web Dev and terminal enthusiast
 * [Simon Rogers](https://midnite.uk/uses) — Software Engineer
 * [Allan Im](https://allanim.com/uses) — Software Engineer
 * [Vijay Goswami](https://vijaygoswami.com/uses) — Full Stack Developer from Agra, Uttar Pradesh
