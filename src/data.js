@@ -6702,30 +6702,6 @@ module.exports = [
     ],
   },
   {
-    name: "Shawn D'silva",
-    description:
-      'Full Stack Web Developer, Designer and Embedded Systems enthusiast',
-    url: 'https://www.shawndsilva.com/uses',
-    twitter: '@shawndsilva97',
-    emoji: '✝️',
-    country: '🇮🇳',
-    computer: 'windows',
-    phone: 'iphone',
-    tags: [
-      'Developer',
-      'Full Stack',
-      'JavaScript',
-      'React',
-      'Node.js',
-      'SQL',
-      'PHP',
-      'Docker',
-      'NGINX',
-      'Laravel',
-      'Remote',
-    ],
-  },
-  {
     name: 'Sreetam Das',
     description:
       'Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!',
