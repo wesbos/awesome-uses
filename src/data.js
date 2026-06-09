@@ -371,8 +371,7 @@ module.exports = [
   },
   {
     name: 'Shreya Sawardekar',
-    description:
-      'Technical Lead, Front-End Developer from Goa.',
+    description: 'Technical Lead, Front-End Developer from Goa.',
     url: 'https://shreya-sawardekar.github.io/uses/',
     emoji: '☕',
     country: '🇮🇳',
@@ -390,7 +389,6 @@ module.exports = [
       'Node.js',
       'GitHub',
       'Obsidian',
-
     ],
   },
   {
