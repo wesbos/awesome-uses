@@ -132,6 +132,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Chris Funderburg](https://chris.funderburg.me/uses) — Consultant Platform / DevSecOps Engineer. A Texan living in England.
 * [Dennis Sauvé](https://gist.github.com/dengsauve/e344ef7d8bd0d194b602e8b2d4490f98) — DevOps Engineer w/Dev roots in the Pacific North West!
 * [Jana](https://janasundar.dev/uses) — Full Stack Developer & Javascript Enthusiast
+* [Mounis Bhat](https://mounis.net/uses) — Full-stack developer focused on TypeScript, Go, Linux, and fast tools.
 * [Daniel Flanagan](https://lyte.dev/uses) — Developer, platform engineer, and homelab administrator
 * [Jasper Lai](https://lai.nz/uses) — Design engineer, explorer of rabbit holes and all-around nuisance
 * [Akif Al Hakim](https://akif.my.id/uses) — Frontend Developer.
