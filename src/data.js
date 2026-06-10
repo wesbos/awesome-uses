@@ -8815,6 +8815,17 @@ module.exports = [
     ],
   },
   {
+    name: 'Bhargav Kowshik',
+    description: 'Engineer learning neuroscience and machine learning.',
+    url: 'https://bkowshik.in/uses/',
+    country: '🇮🇳',
+    emoji: '🧠',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@bkowshik',
+    tags: ['Python', 'NeuroAI', 'BCI'],
+  },
+  {
     name: 'Sean Coker',
     description: 'Creator & Thinker. Sometimes simultaneously.',
     url: 'https://sean.is/using',
