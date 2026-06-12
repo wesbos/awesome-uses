@@ -11075,6 +11075,27 @@ module.exports = [
     ],
   },
   {
+    name: 'yugene',
+    description: 'mid climber, bitcoin maxi, developer wannabe.',
+    url: 'https://yugene.xyz/uses/',
+    emoji: '🧗‍♂️',
+    country: '🇸🇬',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Blogger'
+      'Traveler',
+      'Astro',
+      'JAMstack',
+      'HTML',
+      'CSS',
+      'Markdown',
+      'Self Taught',
+      'Minimalist'
+    ],
+  },
+  {
     name: 'Lucas Becker',
     description: 'Real architect who also happens to write code.',
     url: 'https://github.com/runxel/uses',
