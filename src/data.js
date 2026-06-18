@@ -391,7 +391,7 @@ module.exports = [
       'Cloudflare',
       'Tailscale',
       'TailwindCSS',
-    ]
+    ],
   },
   {
     name: 'Shreya Sawardekar',
