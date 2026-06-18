@@ -20645,7 +20645,8 @@ module.exports = [
   },
   {
     name: 'LkSvn',
-    description: 'Old days WebMaster, now learning some 🐍 Python and the new FrontEnd Stacks',
+    description:
+      'Old days WebMaster, now learning some 🐍 Python and the new FrontEnd Stacks',
     url: 'https://lksvn.com.br#uses',
     twitter: '@lksvn',
     emoji: '🐿️',
@@ -20653,16 +20654,16 @@ module.exports = [
     computer: 'windows',
     phone: 'android',
     tags: [
-        'Frontend',
-        'CSS',
-        'TailwindCSS',
-        'Visual Studio Code',
-        'PHP',
-        'JavaScript',
-        'Vue.js',
-        'Python',
-        'Windows'
-    ]
+      'Frontend',
+      'CSS',
+      'TailwindCSS',
+      'Visual Studio Code',
+      'PHP',
+      'JavaScript',
+      'Vue.js',
+      'Python',
+      'Windows',
+    ],
   },
   {
     name: 'Manthan Ank',
