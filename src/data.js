@@ -24,6 +24,26 @@
  */
 module.exports = [
   {
+    name: 'Luke Haas',
+    description: 'Software developer, tinkerer',
+    url: 'https://lukeshaas.me/uses',
+    emoji: '🎩',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@lukeshaas',
+    bluesky: 'lukeshaas.bsky.social',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'IndieHacker',
+      'SideProjects'
+    ]
+  },
+  {
     name: 'Adam Greenough',
     description:
       'Freelance web designer, developer & WordPress expert from the UK',
