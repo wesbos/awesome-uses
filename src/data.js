@@ -185,13 +185,13 @@ module.exports = [
   {
     name: 'Luke Haas',
     description: 'Software developer, tinkerer',
-    url: 'https://lukeshaas.me/uses',
+    url: 'https://lukehaas.me/uses',
     emoji: '🎩',
     country: '🇬🇧',
     computer: 'apple',
     phone: 'iphone',
-    twitter: '@lukeshaas',
-    bluesky: 'lukeshaas.bsky.social',
+    twitter: '@lukehaas',
+    bluesky: 'lukehaas.bsky.social',
     tags: [
       'JavaScript',
       'TypeScript',
