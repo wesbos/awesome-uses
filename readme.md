@@ -38,6 +38,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Adis Klobodanovic](https://adiss.dev/uses) — Full-stack developer fokusiran na Next.js, React i SaaS proizvode
 * [Vlad Savruk](https://vladsavruk.com/writing/uses) — Product and Graphic Designer
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
+* [Luke Haas](https://lukehaas.me/uses) — Software developer, tinkerer
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
 * [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic Adviser
 * [Guilherme Albert](https://guilhermealbert.com/uses) — Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.

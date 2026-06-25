@@ -219,8 +219,8 @@ module.exports = [
       'Next.js',
       'Node.js',
       'IndieHacker',
-      'SideProjects'
-    ]
+      'SideProjects',
+    ],
   },
   {
     name: 'Loic Leray',
