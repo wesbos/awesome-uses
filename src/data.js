@@ -203,6 +203,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Luke Haas',
+    description: 'Software developer, tinkerer',
+    url: 'https://lukehaas.me/uses',
+    emoji: '🎩',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@lukehaas',
+    bluesky: 'lukehaas.bsky.social',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'IndieHacker',
+      'SideProjects'
+    ]
+  },
+  {
     name: 'Loic Leray',
     description:
       'Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.',
