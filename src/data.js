@@ -33,7 +33,7 @@ module.exports = [
     computer: 'apple',
     phone: 'iphone',
     mastodon: '@david@nookwerks.com',
-    bluesky: '@nookwerks.com',
+    bluesky: 'nookwerks.com',
     tags: [
       'JavaScript',
       'TypeScript',
