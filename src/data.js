@@ -25,8 +25,7 @@
 module.exports = [
   {
     name: 'David M. Coleman',
-    description:
-      'Writer & blogger based outside Austin, TX.',
+    description: 'Writer & blogger based outside Austin, TX.',
     url: 'https://www.nookwerks.com/uses',
     emoji: '🌲',
     country: '🇺🇸',
@@ -42,7 +41,7 @@ module.exports = [
       'TailwindCSS',
       'Writer',
       'Blogger',
-    ]
+    ],
   },
   {
     name: 'Adam Greenough',

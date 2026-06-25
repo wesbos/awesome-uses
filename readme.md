@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Thxie](https://thxie.com/about#uses) — AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!
