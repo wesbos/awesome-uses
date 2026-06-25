@@ -32,7 +32,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'iphone',
-    mastodon: 'https://mstdn.games/@cross',
+    mastodon: '@david@nookwerks.com',
     bluesky: '@nookwerks.com',
     tags: [
       'JavaScript',
