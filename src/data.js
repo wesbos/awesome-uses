@@ -410,6 +410,31 @@ module.exports = [
     ],
   },
   {
+    name: 'MD. Shibbir Ahmed',
+    description:
+      'Senior Full Stack Engineer building web applications, homelab infrastructure, and developer tools.',
+    url: 'https://shibbir.me/uses',
+    twitter: '@shibbirweb',
+    github: 'shibbirweb',
+    emoji: '🚀',
+    country: '🇧🇩',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Full Stack',
+      'Laravel',
+      'Next.js',
+      'TypeScript',
+      'Docker',
+      'Proxmox',
+      'Homelab',
+      'Self Hosting',
+      'DevOps',
+      'AI',
+      'Open Source',
+    ],
+  },
+  {
     name: 'Tony Dehnke 🇨🇦',
     description:
       'Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display',
