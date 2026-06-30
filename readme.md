@@ -74,6 +74,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mark Schmeiser](https://yadl.info/en/uses) — Software architect, web developer and engineer
 * [Tural Asgarov](https://tural.pro/uses) — Software Engineer/Developer Educator/Content Creator
 * [Franklin Ohaegbulam](https://frankiefab.com/uses) — Design-driven Software Engineer, Technical Writer, Open Source Contributor
+* [Samir Paudel](https://samirpaudel.me/uses/) — AI/ML Developer from Nepal
 * [Predrag Knezevic](https://peraknezevic.com/uses/) — Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler
 * [Lubna](https://lubna.dev/uses) — Front-end Developer, Technical Lead, CSS Connoisseur, Design Systems Advocate
 * [Toby Nieboer](https://tcn33.com/uses) — Finding awesome humans for Ferocia. Post-technical.
