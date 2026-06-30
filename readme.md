@@ -761,7 +761,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Julio Lozovei](https://jlozovei.dev/uses) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
 * [Dave Berning](https://daveberning.io/uses/) — Developer, author, rocker, Nintendo enthusiast. I also co-organize the CodePen Cincinnati Meetups.
-* [Jan-Lukas Else](https://jlelse.blog/uses/) — Software Developer & Blogger
+* [Jan-Lukas Else](https://janlukas.blog/uses) — Software Developer & Blogger
 * [Doce Fernandes](https://doceazedo.com/uses) — Fullstack developer focused on frontend, Svelte evangelist and live coder
 * [Jovylle B](https://jovylle.com/uses) — A Web Developer from the Philippines.
 * [Will Presley](https://willpresley.com/uses/) — Professional Web Dev & SysAdmin from Ohio, USA
