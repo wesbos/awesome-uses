@@ -463,6 +463,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [João Vitor Zaniolo](https://jvzaniolo.vercel.app/uses/) — Front-end developer, gamer and tech enthusiast.
 * [Renan Winter Spatin](https://renanspatin.com/uses) — Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.
+* [Mustafa Erbay](https://mustafaerbay.com.tr/uses) — System architect and infrastructure engineer from Türkiye writing about networks, security, and operations
 * [Oz Gultekin](https://ozgur.ca/uses) — Designer of things
 * [Ali Şen](https://alisen.me/uses) — Full Stack Developer
 * [James Atkinson](https://www.jamesatkinson.me/uses) — Designer and front-end developer, based in the UK.
