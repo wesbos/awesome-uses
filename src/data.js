@@ -24,7 +24,27 @@
  */
 module.exports = [
   {
-    name: "Adam Greenough",
+    name: 'David M. Coleman',
+    description: 'Writer & blogger based outside Austin, TX.',
+    url: 'https://www.nookwerks.com/uses',
+    emoji: '🌲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    mastodon: '@david@nookwerks.com',
+    bluesky: 'nookwerks.com',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'Writer',
+      'Blogger',
+    ],
+  },
+  {
+    name: 'Adam Greenough',
     description:
       "Freelance web designer, developer & WordPress expert from the UK",
     url: "http://adamgreenough.net/uses/",
@@ -202,7 +222,31 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Loic Leray",
+=======
+    name: 'Luke Haas',
+    description: 'Software developer, tinkerer',
+    url: 'https://lukehaas.me/uses',
+    emoji: '🎩',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@lukehaas',
+    bluesky: 'lukehaas.bsky.social',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'IndieHacker',
+      'SideProjects',
+    ],
+  },
+  {
+    name: 'Loic Leray',
+>>>>>>> wesbos/master
     description:
       "Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.",
     url: "https://www.loicleray.com/uses",
@@ -389,6 +433,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Shreya Sawardekar",
     description: "Technical Lead, Front-End Developer from Goa.",
     url: "https://shreya-sawardekar.github.io/uses/",
@@ -396,6 +441,39 @@ module.exports = [
     country: "🇮🇳",
     computer: "windows",
     phone: "android",
+=======
+    name: 'Tony Dehnke 🇨🇦',
+    description:
+      'Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display',
+    url: 'https://tonydehnke.com/uses/',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@tonydehnke',
+    mastodon: '@tonydehnke@mastodon.social',
+    bluesky: 'tonydehnke.bsky.social',
+    tags: [
+      'Claude Code',
+      'Astro',
+      'Ruby on Rails',
+      'Apple Vision Pro',
+      'Zed',
+      'Raycast',
+      'Hetzner',
+      'Cloudflare',
+      'Tailscale',
+      'TailwindCSS',
+    ],
+  },
+  {
+    name: 'Shreya Sawardekar',
+    description: 'Technical Lead, Front-End Developer from Goa.',
+    url: 'https://shreya-sawardekar.github.io/uses/',
+    emoji: '☕',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Remote",
       "Developer",
@@ -692,6 +770,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Matthew Javelet",
     description: "Full-stack developer and server admin",
     url: "https://javelet.dev/uses",
@@ -719,6 +798,16 @@ module.exports = [
     country: "🇧🇷",
     computer: "linux",
     phone: "iphone",
+=======
+    name: 'Iago Bruno',
+    description: 'Full-stack developer with ascending in back-end.',
+    url: 'https://iagobruno.dev/uses',
+    twitter: '@iagotico',
+    emoji: '🏳️‍🌈',
+    country: '🇧🇷',
+    computer: 'linux',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "TypeScript",
       "JavaScript",
@@ -1148,7 +1237,34 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Predrag Knezevic",
+=======
+    name: 'Samir Paudel',
+    description: 'AI/ML Developer from Nepal',
+    url: 'https://samirpaudel.me/uses/',
+    emoji: '🧑‍💻',
+    country: '🇳🇵',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Python',
+      'PyTorch',
+      'LangChain',
+      'FastAPI',
+      'Streamlit',
+      'Next.js',
+      'TypeScript',
+      'Linux',
+      'Hyprland',
+      'VS Code',
+      'Docker',
+      'AWS',
+    ],
+  },
+  {
+    name: 'Predrag Knezevic',
+>>>>>>> wesbos/master
     description:
       "Web Developer, Plant Lover, Vinyl/Blu-Ray Collector, Traveler",
     url: "https://peraknezevic.com/uses/",
@@ -1237,6 +1353,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Thohirah Husaini",
     description: "Software Engineer/Artist",
     url: "https://thohyr.co/uses",
@@ -1272,6 +1389,16 @@ module.exports = [
     country: "🇭🇺",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'László Tóth',
+    description: 'Full-Stack Developer',
+    url: 'https://tothlp.hu/uses',
+    bluesky: 'tothlp.hu',
+    emoji: '😱',
+    country: '🇭🇺',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Kotlin",
@@ -1899,6 +2026,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Abdul-Jabbar Bozdar",
     description: "Computer Programmer",
     url: "https://aj.bozdar.im/uses/",
@@ -1934,6 +2062,16 @@ module.exports = [
     country: "🇩🇰",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Jakob Greenfeld',
+    description: 'Founder',
+    url: 'https://jakobgreenfeld.com/uses',
+    emoji: '🏓',
+    twitter: '@jakobgreenfeld',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Python",
       "Flask",
@@ -2457,6 +2595,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "James Auble",
     description: "Full Stack Developer",
     url: "https://jamesauble.com/uses",
@@ -2491,6 +2630,16 @@ module.exports = [
     country: "🇬🇧",
     computer: "apple",
     phone: "apple",
+=======
+    name: 'luna',
+    description: 'Software Engineer',
+    url: 'https://imlunahey.com/uses',
+    emoji: '🌙',
+    twitter: '@imlunahey',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'apple',
+>>>>>>> wesbos/master
     tags: [
       "Frontend",
       "Backend",
@@ -2630,6 +2779,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Mariusz Szubryt",
     description: "Frontend-oriented Product Engineer",
     url: "https://szubryt.net/uses",
@@ -2666,6 +2816,16 @@ module.exports = [
     country: "🇧🇩",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Md Fazley Rabbi',
+    description: 'Web Developer based on bangladesh who loves tech and gadgets',
+    url: 'https://fazleyrabbi.xyz/uses/',
+    emoji: '🤔',
+    twitter: '@fazley111',
+    country: '🇧🇩',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Software Engineer",
       "Backend",
@@ -2701,6 +2861,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Matthieu Bozec",
     description: "Full Stack developer at 4h04",
     url: "https://matthieu.bozec.org/uses",
@@ -2729,6 +2890,16 @@ module.exports = [
     country: "🇩🇪",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Frank Adler',
+    description: 'Father, Astrophotographer, Frontend Engineer',
+    url: 'https://adfr.io/uses',
+    mastodon: '@adfr@mastodon.social',
+    emoji: '🤩',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Front End",
@@ -2967,6 +3138,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Eric T Grubaugh",
     description: "SuiteScript Coach",
     url: "https://stoic.software/uses",
@@ -2989,6 +3161,8 @@ module.exports = [
     ],
   },
   {
+=======
+>>>>>>> wesbos/master
     name: "James O'Neill",
     description: "Full Stack Developer.",
     url: "https://www.jamesoneill.eu/uses/",
@@ -4523,6 +4697,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Edimar Calebe Castanho",
     description: "A passionate embedded systems developer from Brazil",
     url: "https://blog.calebe.dev.br/uses.html",
@@ -4556,6 +4731,15 @@ module.exports = [
     country: "🇵🇰",
     computer: "windows",
     phone: "iphone",
+=======
+    name: 'Ihtisham Khan',
+    description: 'Full-Stack Web Developer | Tech Enthusiast',
+    url: 'https://iihtisham.com/uses.html',
+    emoji: '🤦‍♂️',
+    country: '🇵🇰',
+    computer: 'windows',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "JavaScript",
       "Node.js",
@@ -4728,6 +4912,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "James Neawedde",
     description: "Systems Engineer, Developer, Generalist",
     url: "https://jamesneawedde.com/uses/",
@@ -4759,6 +4944,16 @@ module.exports = [
     country: "🇨🇿",
     computer: "linux",
     phone: "iphone",
+=======
+    name: 'Vít Baisa',
+    description: 'Software engineer who likes removing code',
+    url: 'https://vit.baisa.cz/uses',
+    twitter: '@vitbaisa',
+    emoji: '🎼',
+    country: '🇨🇿',
+    computer: 'linux',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Software Engineer",
       "Vim",
@@ -4838,6 +5033,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Michael Amore",
     description:
       "Technologist, software creator, wannabe hacker. Father. Dog Lover.",
@@ -4873,6 +5069,9 @@ module.exports = [
   },
   {
     name: "Alex Zee Comedy",
+=======
+    name: 'Alex Zee Comedy',
+>>>>>>> wesbos/master
     description:
       "Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.",
     url: "https://alexzeecomedy.com/pages/uses",
@@ -6264,6 +6463,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Andrei Hudovich",
     description: "Freelance Front-end Engineer, Web Enthusiast, Cat Lover.",
     url: "https://hudovich.dev/uses/",
@@ -6302,6 +6502,16 @@ module.exports = [
     country: "🇪🇺",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Andrej Gajdos',
+    description: 'Startup CTO | Tech Lead | Software Architect | Dev',
+    url: 'https://andrejgajdos.com/uses/',
+    twitter: '@Andrej_Gajdos',
+    emoji: '🏄‍♂️',
+    country: '🇪🇺',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Fractional CTO",
       "Maker",
@@ -6741,6 +6951,7 @@ module.exports = [
     tags: ["Laravel", "React", "Kubernetes", "Really Full Stack"],
   },
   {
+<<<<<<< HEAD
     name: "Marc-Antoine Dion",
     description:
       "Full Stack. Rookie cyclist. Part time blogger at @thewannabeceo.",
@@ -6761,6 +6972,16 @@ module.exports = [
     country: "🇬🇧",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Simon Smale',
+    description: 'Full Stack Developer and beginner digital gardener',
+    url: 'https://github.com/SSmale/uses',
+    twitter: '@iamsimonsmale',
+    emoji: '🌱',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Typescript",
       "Angular",
@@ -6821,6 +7042,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Aleksey Razbakov",
     description: "Indie Hacker. Web Developer. Salsa Dancer.",
     url: "https://razbakov.com/uses/",
@@ -6848,6 +7070,9 @@ module.exports = [
   },
   {
     name: "Ayush Gupta",
+=======
+    name: 'Ayush Gupta',
+>>>>>>> wesbos/master
     description:
       "React & React Native developer, passionate photographer, technical writer and occasionaly designer.",
     url: "https://ayushgupta.tech/uses/",
@@ -6939,6 +7164,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Shawn D'silva",
     description:
       "Full Stack Web Developer, Designer and Embedded Systems enthusiast",
@@ -6964,6 +7190,9 @@ module.exports = [
   },
   {
     name: "Sreetam Das",
+=======
+    name: 'Sreetam Das',
+>>>>>>> wesbos/master
     description:
       "Software Developer from India. 💜 React, TypeScript and Mechanical Keyboards!",
     url: "https://sreetamdas.com/uses",
@@ -7251,6 +7480,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Christopher Kruse",
     description:
       "lifelong tech nerd, DevOps and Tools builder, dad, and choral singer",
@@ -7276,6 +7506,9 @@ module.exports = [
   },
   {
     name: "Rowe Morehouse",
+=======
+    name: 'Rowe Morehouse',
+>>>>>>> wesbos/master
     description:
       "Growth · Product · Software Project Management · Frontend Dev · Design · Technical Writing · Sales",
     url: "https://rowe-morehouse.github.io/resume/uses/",
@@ -7427,6 +7660,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Marty Romero",
     description: "Front-end UI developer",
     url: "http://martyromero.me/uses/",
@@ -7448,6 +7682,9 @@ module.exports = [
   },
   {
     name: "Michael Kitzman",
+=======
+    name: 'Michael Kitzman',
+>>>>>>> wesbos/master
     description:
       "Frontend Engineer who loves sports 🏈 🏀 ⚽ , music 🎸, design 🎨 and hot sauce ❤️‍🔥.",
     url: "https://www.michaelkitzman.com/uses",
@@ -7813,6 +8050,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Ivan Muratov",
     description:
       "SOFTWARE DEVELOPER. TECHNICAL TEAM LEADER. CHIEF TECHNICAL OFFICER.",
@@ -7834,6 +8072,9 @@ module.exports = [
   },
   {
     name: "David V. Kimball",
+=======
+    name: 'David V. Kimball',
+>>>>>>> wesbos/master
     description:
       "Digital marketing professional. Loves technology and communication, especially together.",
     url: "https://davidvkimball.com/uses",
@@ -7906,6 +8147,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Monespiseth Ly",
     description: "Frontend Developer, JavaScript Enthusiast",
     url: "https://pisethx.com/uses",
@@ -7935,6 +8177,17 @@ module.exports = [
     computer: "windows",
     phone: "iphone",
     tags: ["CSS", "Front End", "HTML", "Hugo", "Websites"],
+=======
+    name: 'Christian Oliff',
+    description: 'Front-end web developer person.',
+    url: 'https://christianoliff.com/uses/',
+    twitter: '@christianoliff',
+    emoji: '👨‍💻',
+    country: '🇯🇵',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['CSS', 'Front End', 'HTML', 'Hugo', 'Websites'],
+>>>>>>> wesbos/master
   },
   {
     name: "Mauro Reis Vieira",
@@ -7981,6 +8234,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Thomas Sambruni",
     description: "Cloud Data Engineer",
     url: "https://www.tsambruni.dev/uses",
@@ -8008,6 +8262,17 @@ module.exports = [
     computer: "apple",
     phone: "android",
     tags: ["React", "MongoDB", "Express.js", "Node.js", "Full stack", "Gatsby"],
+=======
+    name: 'John Irle',
+    description: 'Graduate Student, Intern Developer at Charter and Go',
+    url: 'https://johnirle.com/blog/uses',
+    twitter: '@IrleJohn',
+    emoji: '👀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['React', 'MongoDB', 'Express.js', 'Node.js', 'Full stack', 'Gatsby'],
+>>>>>>> wesbos/master
   },
   {
     name: "Prashant Bhapkar",
@@ -8923,6 +9188,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Filip Kalousek",
     description: "Frontend Developer & Idea Maker",
     url: "https://blog.filipkalousek.cz/uses/setup",
@@ -8947,6 +9213,9 @@ module.exports = [
   },
   {
     name: "Roger Li",
+=======
+    name: 'Roger Li',
+>>>>>>> wesbos/master
     description:
       "A husband, a father, a software developer, a linux user, a cat lover",
     url: "https://heihuatong.com/uses/",
@@ -9344,6 +9613,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Neil Italia",
     description: "UI/UX Designer + Front-End Developer Unicorn Combo",
     url: "https://blog.neilitalia.dev/uses/",
@@ -9369,6 +9639,15 @@ module.exports = [
     computer: "apple",
     phone: "iphone",
     twitter: "@jpyepezartist",
+=======
+    name: 'JP Yepez',
+    description: 'Full-stack Engineer and Frontend Specialist',
+    url: 'https://jpyepez.com/uses',
+    country: '🇳🇿',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@jpyepezartist',
+>>>>>>> wesbos/master
     tags: [
       "React",
       "Next.js",
@@ -9575,6 +9854,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Amodu Kehinde",
     description: "MERN Stack Developer",
     url: "https://amodukehinde.vercel.app/uses/",
@@ -9606,6 +9886,8 @@ module.exports = [
     ],
   },
   {
+=======
+>>>>>>> wesbos/master
     name: 'Manassarn "Noom" Manoonchai',
     description: "Coding, Productivity, Technologies, macOS, Keyboard",
     url: "https://garden.narze.live/uses",
@@ -9667,6 +9949,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Josh Corbett",
     description: "Developer by day, gamer by night.",
     url: "https://toastyblog.com/uses",
@@ -9698,6 +9981,17 @@ module.exports = [
     computer: "apple",
     phone: "iphone",
     tags: ["Developer", "Full Stack", "PHP", "Javascript", "Laravel", "Vue.js"],
+=======
+    name: 'Jay Tyrrell',
+    description: 'Full Stack Developer',
+    url: 'https://jaytyrrell.co/uses/',
+    twitter: '@jaytyrrell13',
+    emoji: '🤷‍♂️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'Full Stack', 'PHP', 'Javascript', 'Laravel', 'Vue.js'],
+>>>>>>> wesbos/master
   },
   {
     name: "Eva Dee",
@@ -9963,6 +10257,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "sheep",
     description: "software engineer from zagreb, croatia",
     url: "https://sheepdev.xyz/uses",
@@ -9981,6 +10276,16 @@ module.exports = [
     country: "🇺🇸",
     computer: "linux",
     phone: "iphone",
+=======
+    name: 'Mario Sanchez Carrion',
+    description: 'Junior Web Developer Based in Miami, FL',
+    url: 'https://mariosanchez.org/uses/',
+    twitter: '@mariobox',
+    emoji: '🚴',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Web",
@@ -10228,6 +10533,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Henrik Nyh",
     description: "Swedish web developer in Yorkshire, UK.",
     url: "https://henrik.nyh.se/uses",
@@ -10248,6 +10554,17 @@ module.exports = [
     computer: "linux",
     phone: "iphone",
     tags: ["Web Developer", "React", "Angular", "HTML/CSS", "Node.js"],
+=======
+    name: 'Manoj Barman',
+    description: 'Working hardly, or Hardly working..',
+    url: 'https://manojbarman.in/uses',
+    twitter: '@itsmanojb',
+    emoji: '🎧',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: ['Web Developer', 'React', 'Angular', 'HTML/CSS', 'Node.js'],
+>>>>>>> wesbos/master
   },
   {
     name: "Monica Powell",
@@ -10304,6 +10621,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Raul Melo",
     description:
       "Developer, writer in my spare time, open-source contributor. Believes the only way to transform lives is through education.",
@@ -10378,6 +10696,16 @@ module.exports = [
     country: "🇱🇹",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Laura Zumbakyte',
+    description: 'Front-end engineer, and a healthy lifestyle enthusiast.',
+    url: 'https://desinni.dev/uses',
+    twitter: '@desinni',
+    emoji: '✨',
+    country: '🇱🇹',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Web",
@@ -10394,6 +10722,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Chris Hufnagel",
     description: "Front End Developer & Designer",
     url: "https://chrishufnagel.com/uses/",
@@ -10423,6 +10752,16 @@ module.exports = [
     country: "🇨🇦",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Jeff Szuc',
+    description: 'UX Designer, Frontend Developer, Lifelong Learner.',
+    url: 'https://jeffszuc.com/uses',
+    twitter: '@szuc',
+    emoji: '😆',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "CSS",
       "JavaScript",
@@ -10581,6 +10920,7 @@ module.exports = [
     tags: ["SRE", "Developer", "Python", "Kubernetes", "VS Code", "Docker"],
   },
   {
+<<<<<<< HEAD
     name: "Enea Xharja",
     description: "Web Developer",
     url: "https://eneaxharja.com/uses",
@@ -10601,6 +10941,17 @@ module.exports = [
     computer: "apple",
     phone: "iphone",
     tags: ["Developer", "JavaScript"],
+=======
+    name: 'Dhanish Gajjar',
+    description: 'Developer',
+    url: 'https://dhanishgajjar.com/uses',
+    twitter: '@dhanishgajjar',
+    emoji: '😇',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['Developer', 'JavaScript'],
+>>>>>>> wesbos/master
   },
   {
     name: "Ricardo Morais",
@@ -10806,6 +11157,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Simon Aronsson",
     description:
       "Developer Advocate, Cloud and DevOps Aficionado, Full-stack Developer",
@@ -10837,6 +11189,16 @@ module.exports = [
     country: "🇵🇹",
     computer: "apple",
     phone: "android",
+=======
+    name: 'João Pescada',
+    description: 'Technologist and Consultant for web apps',
+    url: 'https://joaopescada.com/uses',
+    twitter: '@jpscd',
+    emoji: '✅',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Full Stack",
@@ -10957,6 +11319,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Aaron Conway",
     description:
       "Developer who can design. A designer who can develop. One or the other! (also a podcaster @ thethirdwheel.fm)",
@@ -10980,6 +11343,9 @@ module.exports = [
   },
   {
     name: "Gonçalo Rodrigues",
+=======
+    name: 'Gonçalo Rodrigues',
+>>>>>>> wesbos/master
     description:
       "Software developer, currently focused on Java and JavaScript.",
     url: "https://goncalorodrigues.com/uses",
@@ -11022,6 +11388,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Mohammed Sohail",
     description:
       "A full stack web developer developing web applications in Laravel/PHP alongside Next.js, Livewire and Inertia.",
@@ -11055,6 +11422,16 @@ module.exports = [
     country: "🇲🇽",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Ximena Vila Ferral',
+    description: '💻 🎨 A Mexican born, Texas based designer and developer.',
+    url: 'https://ximenavf.com/uses/',
+    twitter: '@ximenavf92',
+    emoji: '💃',
+    country: '🇲🇽',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Web Developer",
       "Front End",
@@ -11159,6 +11536,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Edgaras Benediktavicius",
     description: "Hyper curious maker for the Web. Designer and Developer.",
     url: "https://edgaras.com/uses",
@@ -11189,6 +11567,16 @@ module.exports = [
     country: "ES",
     computer: "macos",
     phone: "iphone",
+=======
+    name: 'Teo Ruiz',
+    description: '20 years an engineer. CTO. Entrepreneur.',
+    url: 'https://teoruiz.com/uses/',
+    twitter: '@teoruiz',
+    emoji: '📷',
+    country: 'ES',
+    computer: 'macos',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Python",
@@ -11279,6 +11667,7 @@ module.exports = [
     tags: ["front-end", "developer", "react", "javascript", "typescript"],
   },
   {
+<<<<<<< HEAD
     name: "Arturo De la Garza",
     description:
       "Full-stack web developer, avid learner, loves to play video games and board games",
@@ -11304,6 +11693,9 @@ module.exports = [
   },
   {
     name: "Renan Winter Spatin",
+=======
+    name: 'Renan Winter Spatin',
+>>>>>>> wesbos/master
     description:
       "Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.",
     url: "https://renanspatin.com/uses",
@@ -11327,6 +11719,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Oz Gultekin",
     description: "Designer of things",
     url: "https://ozgur.ca/uses",
@@ -11335,6 +11728,40 @@ module.exports = [
     computer: "apple",
     phone: "iphone",
     bluesky: "ozgur.ca",
+=======
+    name: 'Mustafa Erbay',
+    description:
+      'System architect and infrastructure engineer from Türkiye writing about networks, security, and operations',
+    url: 'https://mustafaerbay.com.tr/uses',
+    emoji: '🛠️',
+    country: '🇹🇷',
+    computer: 'apple',
+    twitter: '@merbay86',
+    bluesky: 'mustafaerbay.bsky.social',
+    tags: [
+      'System Architect',
+      'Network',
+      'DevOps',
+      'Linux',
+      'Security',
+      'Astro',
+      'Node.js',
+      'SQLite',
+      'Nginx',
+      'Cloudflare',
+      'AI Automation',
+    ],
+  },
+  {
+    name: 'Oz Gultekin',
+    description: 'Designer of things',
+    url: 'https://ozgur.ca/uses',
+    emoji: '🦅',
+    country: '🇨🇦',
+    computer: 'apple',
+    phone: 'iphone',
+    bluesky: 'ozgur.ca',
+>>>>>>> wesbos/master
     tags: [
       "Design",
       "macOS",
@@ -12521,6 +12948,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Stéphane Lambion",
     description: "Shaping words.",
     url: "https://stephanelambion.com/uses",
@@ -12541,6 +12969,9 @@ module.exports = [
   },
   {
     name: "Eric Raslich",
+=======
+    name: 'Eric Raslich',
+>>>>>>> wesbos/master
     description:
       "Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.",
     url: "https://ericraslich.com/uses",
@@ -12771,6 +13202,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Lazar Nikolov",
     description:
       "Full-Stack Engineer, DevRel, Live Streamer, Course Creator, Open Source Advocate. P.S. Check out nikolovlazar.com/gear to see the hardware that I use.",
@@ -12803,6 +13235,16 @@ module.exports = [
     country: "🇮🇳",
     computer: "windows",
     phone: "android",
+=======
+    name: 'Vinoth Chellamuthu',
+    description: 'Data Engineer',
+    url: 'https://ecevinoth.github.io/#uses',
+    twitter: '@ecevinoth',
+    emoji: '👨🏼‍💻',
+    country: '🇮🇳',
+    computer: 'windows',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Engineer",
@@ -12955,6 +13397,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Rene Gens",
     description:
       "android engineer, project manager, teacher, aspiring designer and author",
@@ -12977,6 +13420,9 @@ module.exports = [
   },
   {
     name: "Matthew Scholta",
+=======
+    name: 'Matthew Scholta',
+>>>>>>> wesbos/master
     description: `Passionate about quality code written for humans, unlocking developer productivity, and creating a delightful user experience.`,
     url: "https://mattscholta.com/uses",
     twitter: "@visormatt",
@@ -13068,6 +13514,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Rostyslav Ugryniuk",
     description: "Front-end Developer, Snowboarder, and Traveler.",
     url: "https://ugross.dev/uses",
@@ -13092,6 +13539,9 @@ module.exports = [
   },
   {
     name: "Alexis Janvier",
+=======
+    name: 'Alexis Janvier',
+>>>>>>> wesbos/master
     description:
       "Web Developer, Open Source Contributor, Community Organizer, Proud Dad, Grateful Lover.",
     url: "https://alexisjanvier.net/uses/",
@@ -13493,6 +13943,7 @@ module.exports = [
     tags: ["Go", "Python", "JavaScript", "TypeScript", "React", "Vue"],
   },
   {
+<<<<<<< HEAD
     name: "Thomas Eckert",
     description: "Homelabber, Backend Professional, Frontend Enthusiast",
     url: "https://thomaseckert.dev/uses",
@@ -13513,6 +13964,9 @@ module.exports = [
   },
   {
     name: "Marco Poletto",
+=======
+    name: 'Marco Poletto',
+>>>>>>> wesbos/master
     description:
       "Engineering Manager @ Laiye, Frontend Developer, UI engineer, Mentor",
     url: "https://poletto.dev/uses/",
@@ -13823,6 +14277,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Karl Koch",
     description:
       "Product designer, frontend developer and musician. Building HomeHero and making other things.",
@@ -13850,6 +14305,9 @@ module.exports = [
   },
   {
     name: "Praveen Kumar Purushothaman",
+=======
+    name: 'Praveen Kumar Purushothaman',
+>>>>>>> wesbos/master
     description:
       "Cook, Cat Lover, Front End Architect, Full Stack Web Developer Evangelist & Cloud Computing Consultant.",
     url: "https://blog.praveen.science/my-personal-development-environment/",
@@ -14056,6 +14514,7 @@ module.exports = [
     tags: ["TypeScript", "ASP.Net Core", "React", "Full Stack"],
   },
   {
+<<<<<<< HEAD
     name: "Thê (Alexander) Quach",
     description:
       "An aspiring financial data analyst, seeking new projects and opportunities",
@@ -14078,6 +14537,9 @@ module.exports = [
   },
   {
     name: "Joshua Ryan Velasquez",
+=======
+    name: 'Joshua Ryan Velasquez',
+>>>>>>> wesbos/master
     description:
       "Web Developer, Designer, Vimmer, Typist, Calisthenics, Mortal.",
     url: "https://joshua-afk.github.io/uses",
@@ -14842,6 +15304,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "José Hernández",
     description: "Mobile and Web Developer",
     url: "https://josehernandez.tech/uses",
@@ -14850,6 +15313,40 @@ module.exports = [
     country: "🇨🇷",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Reynaldi Arya Bavista',
+    description: 'Creative worker and Fullstack Developer from Indonesia.',
+    url: 'https://reynaldiab.com/uses',
+    emoji: '👨‍💻',
+    country: '🇮🇩',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'PHP',
+      'Laravel',
+      'Python',
+      'TailwindCSS',
+      'Frontend',
+      'Web Developer',
+      'UI Design',
+      'Networking',
+      'VS Code',
+      'Git',
+      'GitHub',
+      'Docker',
+      'Figma',
+    ],
+  },
+  {
+    name: 'José Hernández',
+    description: 'Mobile and Web Developer',
+    url: 'https://josehernandez.tech/uses',
+    twitter: '@josedevjourney',
+    emoji: '🥋',
+    country: '🇨🇷',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Youtuber",
@@ -14889,6 +15386,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Adil Haddaoui",
     description: "Full stack Developer",
     url: "https://adilhaddaoui.com/uses",
@@ -14926,6 +15424,16 @@ module.exports = [
     country: "🇺🇦",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Vlad Holubiev',
+    description: 'Sr. Director of Technology at Shelf',
+    url: 'https://vladholubiev.com/uses',
+    twitter: '@vladholubiev',
+    emoji: '🥁',
+    country: '🇺🇦',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "TypeScript",
@@ -15928,6 +16436,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Michael Le",
     description: "Software Engineer",
     url: "https://www.michael1e.com/uses/",
@@ -15950,6 +16459,9 @@ module.exports = [
   },
   {
     name: "Imran Nazar",
+=======
+    name: 'Imran Nazar',
+>>>>>>> wesbos/master
     description:
       "Frontend developer with an eye for retrocomputing, author of Coffeepot Control Protocol for Teapots (RFC 7168)",
     url: "https://imrannazar.com/uses",
@@ -16389,6 +16901,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Josh Manders",
     description: "Indie Maker & Entrepreneur",
     url: "https://joshmanders.com/uses/",
@@ -16418,6 +16931,16 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Laurie Barth',
+    description: 'Software Engineer and Educator',
+    url: 'https://laurieontech.com/uses/',
+    twitter: '@laurieontech',
+    emoji: '🧩',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Blogger",
@@ -16623,6 +17146,7 @@ module.exports = [
     tags: ["Developer", "Marketer", "Writer", "PHP", "Laravel"],
   },
   {
+<<<<<<< HEAD
     name: "Erno Salo",
     description: "Full Stack Developer and Open Source Contributor",
     url: "https://endormi.io/uses/",
@@ -16652,6 +17176,16 @@ module.exports = [
     country: "🇬🇧",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'James Brooks',
+    description: 'Software Developer at Laravel and Podcaster',
+    url: 'https://james.brooks.page/uses/',
+    twitter: '@jbrooksuk',
+    emoji: '👨🏻‍🚀',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Back End",
@@ -16695,6 +17229,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Mike Barkmin",
     description:
       "I'm a passionate developer and researcher at the University of Duisburg-Essen at the chair of Computer Science Education.",
@@ -16719,6 +17254,9 @@ module.exports = [
   },
   {
     name: "Hugo Di Francesco",
+=======
+    name: 'Hugo Di Francesco',
+>>>>>>> wesbos/master
     description:
       "JavaScript developer, blogger at codewithhugo.com, co-author of 'Professional JavaScript' with Packt.",
     url: "https://codewithhugo.com/uses",
@@ -16898,6 +17436,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Danny de Vries",
     description:
       "Indie maker building products for the web and lecturer @CMDamsterdam",
@@ -16943,6 +17482,9 @@ module.exports = [
   },
   {
     name: "Stephen Senkomago Musoke",
+=======
+    name: 'Stephen Senkomago Musoke',
+>>>>>>> wesbos/master
     description:
       "Software Engineer, eHealth Technologist, PHP Lover by night, Muganda, Goat Meat for Life, Coffee Drinker",
     url: "https://ssmusoke.com/uses",
@@ -16954,6 +17496,7 @@ module.exports = [
     tags: ["Developer", "Engineer", "PHP", "Java", "OpenMRS", "HTML", "CSS"],
   },
   {
+<<<<<<< HEAD
     name: "Jérémy Mouzin",
     description: "Software Engineer, Tutorial Maker, Entrepreneur, Blogger",
     url: "https://jeremymouzin.com/uses",
@@ -16993,6 +17536,16 @@ module.exports = [
     country: "🇩🇪",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Thorsten Hans',
+    description: 'Cloud-Native software developer from Germany.',
+    url: 'https://thorsten-hans.com/uses/',
+    twitter: '@ThorstenHans',
+    emoji: '🐳',
+    country: '🇩🇪',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Angular",
       ".NET Core",
@@ -17474,6 +18027,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Isaac Weber",
     description: "Full stack, GraphQL enthusiast",
     url: "https://www.webdevike.com/uses",
@@ -17503,6 +18057,16 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Jim Fang',
+    description: 'Developer, Tech enthusiast, Student.',
+    url: 'https://airfusion.dev/uses',
+    twitter: '@airfusionjfa',
+    emoji: '🚀',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "JavaScript",
@@ -17528,6 +18092,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Abyan Raditya",
     description: "Hey! I am a Frontend web developer.",
     url: "https://www.byanrkh.my.id/writings/uses",
@@ -17549,6 +18114,9 @@ module.exports = [
   },
   {
     name: "Isaac Wyatt",
+=======
+    name: 'Isaac Wyatt',
+>>>>>>> wesbos/master
     description:
       "Built Growth Systems @ Google, HashiCorp, New Relic etc. | Strat & Ops + Code",
     url: "https://isaacwyatt.com/uses",
@@ -18032,6 +18600,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Jorge Calle",
     description:
       "Hello world! I am a Software Engineer and a Javascript developer from Sahagún (CO)",
@@ -18074,6 +18643,9 @@ module.exports = [
   },
   {
     name: "Rhys Botfield",
+=======
+    name: 'Rhys Botfield',
+>>>>>>> wesbos/master
     description:
       "Full-stack PHP, JS, and DevOps developer, agency director, and open-source contributor",
     url: "https://rhysbotfield.co.uk/uses",
@@ -18168,6 +18740,7 @@ module.exports = [
     tags: ["Back End", "DevOps", "Python", "Go", "Rust"],
   },
   {
+<<<<<<< HEAD
     name: "Adrián Alcorta Puente",
     description:
       "Frontend developer. I love mountains, Game Boys and Post-rock music.",
@@ -18196,6 +18769,16 @@ module.exports = [
     country: "🇺🇸",
     computer: "windows",
     phone: "iphone",
+=======
+    name: 'Erv Walter',
+    description: 'Father, Husband, Web Developer, Board Game Addict',
+    url: 'https://ewal.dev/uses',
+    twitter: '@ervwalter',
+    emoji: '🎲',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Full Stack",
@@ -18297,6 +18880,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Jan-Lukas Else",
     description: "Software Developer & Blogger",
     url: "https://jlelse.blog/uses/",
@@ -18305,6 +18889,16 @@ module.exports = [
     computer: "windows",
     phone: "android",
     tags: ["Developer", "Blogger", "Backend", "Java", "Go"],
+=======
+    name: 'Jan-Lukas Else',
+    description: 'Software Developer & Blogger',
+    url: 'https://janlukas.blog/uses',
+    emoji: '🤓',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: ['Developer', 'Blogger', 'Backend', 'Java', 'Go'],
+>>>>>>> wesbos/master
   },
   {
     name: "Doce Fernandes",
@@ -18329,6 +18923,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Justin Poehnelt",
     description: "Software Engineer. Developer Relations. Ultrarunner.",
     url: "https://justin.poehnelt.com/uses",
@@ -18365,6 +18960,16 @@ module.exports = [
     country: "🇵🇭",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Jovylle B',
+    description: 'A Web Developer from the Philippines.',
+    url: 'https://jovylle.com/uses',
+    twitter: '@jov404',
+    emoji: '🏃‍♂️',
+    country: '🇵🇭',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "PHP",
       "Vue.js",
@@ -18481,6 +19086,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Eric Oyanadel",
     description: "Artist - Developer - Musician",
     url: "https://www.oyanadel.com/uses/",
@@ -18513,6 +19119,9 @@ module.exports = [
   },
   {
     name: "David Dias",
+=======
+    name: 'David Dias',
+>>>>>>> wesbos/master
     description:
       "Front-End Developer, UX/UI enthusiast, podcaster and content creator!",
     url: "https://thedaviddias.com/uses/",
@@ -18930,6 +19539,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Nik Spyratos",
     description: "Laravel Freelancer EMEA, Laravel Cape Town organiser",
     url: "https://nik.software/uses",
@@ -18954,6 +19564,9 @@ module.exports = [
   },
   {
     name: "Jacob Herper",
+=======
+    name: 'Jacob Herper',
+>>>>>>> wesbos/master
     description:
       "Senior Front-End Engineer with a passion for all things digital. I create amazing web apps to make the internet a better place.",
     url: "https://jacobherper.com/uses",
@@ -19040,6 +19653,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "David A. Vives R.",
     description:
       "software engineer, web developer, chess player, comics reader, loves reading, learning new things, sushi, bbq sauce and aioli.",
@@ -19073,6 +19687,15 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Ryan Warner',
+    description: 'Software Engineer and Interface Designer. Leader and Mentor.',
+    url: 'https://ryan.warner.codes/uses',
+    emoji: '😄',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Engineer",
       "Designer",
@@ -19244,6 +19867,7 @@ module.exports = [
     tags: ["JavaScript", "Ruby", "CSS"],
   },
   {
+<<<<<<< HEAD
     name: "Maria Altyeva Schuessler ",
     description:
       "Nacho Cheese Lover and Senior Full-Stack Developer, Project Manager, and Writer based out of Shanghai, China",
@@ -19272,6 +19896,15 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Paul Esch-Laurent',
+    description: 'Software Engineer',
+    url: 'https://paul.af/uses',
+    emoji: '🤌',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Front End",
@@ -19487,6 +20120,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Divjot Singh",
     description: "Web Developer, Vegan, Sikh.",
     url: "https://bogas04.github.io/uses",
@@ -19514,6 +20148,16 @@ module.exports = [
     country: "🇮🇳",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Navdeep Singh',
+    description: 'Web Developer, Speaker, Sikh.',
+    url: 'https://navdeepsingh.in/uses',
+    twitter: '@nswebstudio',
+    emoji: '🏃',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Full Stack",
@@ -19923,6 +20567,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Lucas Queiroz",
     description: "Backend Engineer working remotely.",
     url: "https://lucasqueiroz.dev/uses.html",
@@ -19944,6 +20589,9 @@ module.exports = [
   },
   {
     name: "Muhammad Umair",
+=======
+    name: 'Muhammad Umair',
+>>>>>>> wesbos/master
     description:
       "Fullstack front-end developer and designer, passionate in everything #JavaScript",
     url: "https://gist.github.com/mumairofficial/0d97ed3dca1ba25d9f01b8db8aed42dc",
@@ -19964,6 +20612,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Tomek Buszewski",
     description: "Developer and team leader based in Warsaw, Poland.",
     url: "https://www.buszewski.com/uses/",
@@ -19989,6 +20638,9 @@ module.exports = [
   },
   {
     name: "Przemek Nowak",
+=======
+    name: 'Przemek Nowak',
+>>>>>>> wesbos/master
     description:
       "Passionate Software Engineer. Big fan of automation and simplicity within the code.",
     url: "https://przemeknowak.com/uses/",
@@ -20233,6 +20885,7 @@ module.exports = [
     tags: ["Backend", "Neovim", "Tmux", "Python", "Docker", "Golang"],
   },
   {
+<<<<<<< HEAD
     name: "Łukasz Rybka",
     description:
       "Full Stack Developer from Poland. Public speaker, bootcamp trainer and consultant. Legacy code and CI/CD enthusiast.",
@@ -20264,6 +20917,9 @@ module.exports = [
   },
   {
     name: "Antonio Piras",
+=======
+    name: 'Antonio Piras',
+>>>>>>> wesbos/master
     description:
       "Web developer from Italy, madly in love with Javascript and everything web related.",
     url: "https://www.antopiras.dev/uses",
@@ -20339,6 +20995,7 @@ module.exports = [
     tags: ["Full Stack", "Ruby", "PHP", "Python", "JavaScript", "Vue.js"],
   },
   {
+<<<<<<< HEAD
     name: "Eugene Andrienko",
     description: "Open Source and retrocomputing enthusiast",
     url: "https://eugene-andrienko.com/uses",
@@ -20375,6 +21032,16 @@ module.exports = [
     country: "🇹🇭",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Armno Prommarak',
+    description: 'Frontend developer, blogger, cyclist.',
+    url: 'https://armno.in.th/uses',
+    twitter: '@armno',
+    emoji: '🔥',
+    country: '🇹🇭',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Front End",
@@ -20602,6 +21269,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Matt Layman",
     description: "A Python developer focused on Django",
     url: "https://www.mattlayman.com/uses/",
@@ -20621,6 +21289,16 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "android",
+=======
+    name: 'Jeremy Bunting',
+    description: 'Web 🤖 working remotely from the Connecticut burbs',
+    url: 'https://qbunt.com/uses',
+    twitter: '@qbunt',
+    emoji: '🌲',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+>>>>>>> wesbos/master
     tags: [
       "Developer",
       "Full Stack",
@@ -21020,6 +21698,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Phillip Osterwald",
     description:
       "Experienced full-stack developer with a solid online-marketing background on top. Lover of fancy hipster beer.",
@@ -21051,6 +21730,9 @@ module.exports = [
   },
   {
     name: "James Dewes",
+=======
+    name: 'James Dewes',
+>>>>>>> wesbos/master
     description:
       "Full-stack developer, software and data engineer, Yorkshire, UK.",
     url: "https://jamesdewes.com/uses/",
@@ -21085,6 +21767,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Mladen Milesic",
     description:
       "Passionate Electrical Engineer gone Software. I relish the art of crafting and tinkering with both digital and physical creations.",
@@ -21120,6 +21803,9 @@ module.exports = [
   },
   {
     name: "Paul Mowat",
+=======
+    name: 'Paul Mowat',
+>>>>>>> wesbos/master
     description:
       "A passionate developer who likes learning new technologies. Currently Principal DevOps Architect @ Advanced",
     url: "https://www.paulmowat.co.uk/uses/",
@@ -21143,6 +21829,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Luigi Cruz",
     description: "Software developer with a focus on the Web.",
     url: "https://luigicruz.dev/uses",
@@ -21165,6 +21852,9 @@ module.exports = [
   },
   {
     name: "Felix Macaspac",
+=======
+    name: 'Felix Macaspac',
+>>>>>>> wesbos/master
     description:
       "Self-taught Frontend developer from the Philippines, and a CS student.",
     url: "https://gist.github.com/felixmacaspac/8ede14ecaeaec3790701b2ed8ea6374e",
@@ -21652,6 +22342,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Pascal Poredda",
     description:
       "Freelancer from Cologne, Germany. Running an agency called poredda.digital",
@@ -21681,6 +22372,9 @@ module.exports = [
   },
   {
     name: "Daniel Cefram Ramirez",
+=======
+    name: 'Daniel Cefram Ramirez',
+>>>>>>> wesbos/master
     description:
       "I build things through code. I make short sentences to multiple paragraphs.",
     url: "https://rmrz.ph/uses/",
@@ -21791,6 +22485,7 @@ module.exports = [
     tags: ["Python", "neovim", "Ableton", "Golang"],
   },
   {
+<<<<<<< HEAD
     name: "Gabriel Garrido",
     description: "Curious human being",
     url: "https://garrido.io/uses/",
@@ -21816,6 +22511,15 @@ module.exports = [
     country: "🇺🇸",
     computer: "apple",
     phone: "iphone",
+=======
+    name: 'Ryan McGovern',
+    description: 'Full-stack engineer building tools people actually use.',
+    url: 'https://ryanmcgovern.dev/uses',
+    emoji: '⚙️',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+>>>>>>> wesbos/master
     tags: [
       "Astro",
       "JavaScript",
@@ -22009,6 +22713,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "JourneyToLunar",
     description: "Swift developer, blogger, photographer, and youtuber.",
     url: "https://journeytolunar.com/uses/",
@@ -22031,6 +22736,18 @@ module.exports = [
     twitter: "@orxngc",
     bluesky: "orangc.net",
     mastodon: "@orangc@mastodon.social",
+=======
+    name: 'orangc',
+    description: 'A student, developer, weeb, and bookworm.',
+    url: 'https://orangc.net/uses',
+    emoji: '🐐',
+    country: '🇸🇦',
+    computer: 'linux',
+    phone: 'android',
+    twitter: '@orxngc',
+    bluesky: 'orangc.net',
+    mastodon: '@orangc@mastodon.social',
+>>>>>>> wesbos/master
     tags: [
       "NixOS",
       "Git",
@@ -22095,6 +22812,7 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Tim Veletta",
     description: "Australian full-stack developer and designer",
     url: "https://www.timveletta.com/uses",
@@ -22125,6 +22843,15 @@ module.exports = [
     country: "🇵🇹",
     computer: "linux",
     phone: "flipphone",
+=======
+    name: 'That MLOps Guy',
+    description: 'Portuguese machine learning engineer',
+    url: 'https://thatmlopsguy.github.io/uses/',
+    emoji: '🧐',
+    country: '🇵🇹',
+    computer: 'linux',
+    phone: 'flipphone',
+>>>>>>> wesbos/master
     tags: [
       "AWS",
       "Azure",
@@ -22262,7 +22989,33 @@ module.exports = [
     ],
   },
   {
+<<<<<<< HEAD
     name: "Manthan Ank",
+=======
+    name: 'LkSvn',
+    description:
+      'Old days WebMaster, now learning some 🐍 Python and the new FrontEnd Stacks',
+    url: 'https://lksvn.com.br#uses',
+    twitter: '@lksvn',
+    emoji: '🐿️',
+    country: '🇧🇷',
+    computer: 'windows',
+    phone: 'android',
+    tags: [
+      'Frontend',
+      'CSS',
+      'TailwindCSS',
+      'Visual Studio Code',
+      'PHP',
+      'JavaScript',
+      'Vue.js',
+      'Python',
+      'Windows',
+    ],
+  },
+  {
+    name: 'Manthan Ank',
+>>>>>>> wesbos/master
     description:
       "I'm Software Developer, Intermediate Learner, Also as a hobby I write blogs related to Web Development.",
     url: "https://manthanank.github.io/uses",
