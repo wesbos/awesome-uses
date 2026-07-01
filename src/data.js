@@ -81,6 +81,7 @@ module.exports = [
       "Symfony",
       "Fullstack",
       "SideProjects",
+      "Web Developer",
     ],
   },
   {
