@@ -130,6 +130,27 @@ module.exports = [
     ],
   },
   {
+    name: 'J Lopes',
+    description: 'Web Developer & Designer, creative problem-solver.',
+    url: 'https://jlopes.eu/uses/',
+    emoji: '🍰',
+    country: '🇵🇹',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'TypeScript',
+      'React',
+      'Astro',
+      'Vue',
+      'WordPress',
+      'Docker',
+      'Figma',
+      'Netlify',
+      'Web Developer',
+      'Designer',
+    ],
+  },
+  {
     name: 'Adis Klobodanovic',
     description:
       'Full-stack developer fokusiran na Next.js, React i SaaS proizvode',
