@@ -23,6 +23,24 @@
  * Keep this a commonjs export.
  */
 module.exports = [
+    {
+    name: 'Annabelle Feiler',
+    description:
+      'Artist and freelance designer',
+    url: 'https://sparks-of-joy.neocities.org/uses',
+    emoji: '🐊',
+    country: '🇩🇪',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Artist',
+      'Open Source',
+      'Web Developer',
+      'Designer',
+      'A11y',
+      'UI/UX'
+    ],
+  },
   {
     name: 'David M. Coleman',
     description: 'Writer & blogger based outside Austin, TX.',
