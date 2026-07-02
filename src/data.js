@@ -44,9 +44,9 @@ module.exports = [
       'JavaScript',
       'Ableton Live',
       'Serato',
-      'Open Source Hardware'
+      'Open Source Hardware',
       'Blogger',
-      'Designer'
+      'Designer',
       'Photographer',
       'Dad'
     ],
