@@ -11583,6 +11583,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Tushar Nain',
+    description:
+      'Software Engineer | Backend Developer | Building scalable applications',
+    url: 'https://tusharnain.in/uses',
+    twitter: '@tusharnain_dev',
+    emoji: '🔧',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'Backend Developer',
+      'Typescript',
+      'Php',
+      'Laravel',
+      'Postgres',
+      'Linux',
+      'REST API',
+      'Open Source',
+      'Freelancer',
+      'System Design'
+    ],
+  },
+  {
     name: 'Drake Bott',
     description: 'Web Developer from Colorado',
     url: 'https://drake.dev/uses',
