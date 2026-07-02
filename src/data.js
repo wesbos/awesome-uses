@@ -1922,7 +1922,8 @@ module.exports = [
   },
   {
     name: 'Genís Matutes',
-    description: 'Father. Product before code. Remote hooligan. No booze. No coffee.',
+    description:
+      'Father. Product before code. Remote hooligan. No booze. No coffee.',
     url: 'https://eclecticprogrammer.dev/uses/',
     bluesky: 'itsgenis.bsky.social',
     emoji: '🎋',
