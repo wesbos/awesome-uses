@@ -24,6 +24,34 @@
  */
 module.exports = [
   {
+    name: 'David M. Schulman',
+    description: 'Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.',
+    url: 'https://dmschulman.com/uses',
+    emoji: '🥨',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'android',
+    bluesky: 'schul.dev',
+    tags: [
+      'Design Systems',
+      'Frontend',
+      'Accessibility',
+      'HTML',
+      'CSS',
+      'PHP',
+      'Astro',
+      'React',
+      'JavaScript',
+      'Ableton Live',
+      'Serato',
+      'Open Source Hardware'
+      'Blogger',
+      'Designer'
+      'Photographer',
+      'Dad'
+    ],
+  },
+  {
     name: 'David M. Coleman',
     description: 'Writer & blogger based outside Austin, TX.',
     url: 'https://www.nookwerks.com/uses',
