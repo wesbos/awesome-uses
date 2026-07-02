@@ -568,6 +568,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Stuart Langridge',
+    description: 'Consultant CTO, software architect, and developer to startups and small firms.',
+    url: 'https://www.kryogenix.org/uses/',
+    mastodon: '@sil@mastodon.social',
+    bluesky: 'sil.kryogenix.org',
+    emoji: '👨‍🦰',
+    country: '🇬🇧',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Sublime Text',
+      'Xubuntu',
+      'Obsidian',
+      'JavaScript',
+      'Python',
+      'pass',
+      'Vivaldi'
+    ],
+  },
+  {
     name: 'Christian Hain',
     description:
       'Internet power-user and creator specializing in browser-based experiences.',
