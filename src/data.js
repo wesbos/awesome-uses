@@ -20308,6 +20308,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Annika Backstrom',
+    description: 'Software Engineer, Small Web Enjoyer',
+    url: 'https://sixohthree.com/uses',
+    country: '🇮🇪',
+    mastodon: '@annika@xoxo.zone',
+    emoji: '😅',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'PHP',
+      'Eleventy',
+      'Neovim',
+      'Ubuntu',
+      'Full Stack',
+    ],
+  },
+  {
     name: 'Jaydeep Rawat',
     description: 'Hiya! I am a Student and Software Engineer.',
     url: 'https://gist.github.com/Jaydeeprawat17/c0600f2903549649b0cc9b0e8318297b',
