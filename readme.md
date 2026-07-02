@@ -102,6 +102,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Simon Depelchin](https://simondepelchin.be/uses) — Freelance PHP/JS developer.
 * [Alphan Günaydın](https://ialphan.com/uses) — Principal Developer
 * [Carlos D. Álvaro](https://cdalvaro.io/uses) — Senior Software Engineer, Apple fan and sports lover
+* [Genís Matutes](https://eclecticprogrammer.dev/uses/) — Father. Product before code. Remote hooligan. No booze. No coffee.
 * [Jakob Greenfeld](https://jakobgreenfeld.com/uses) — Founder
 * [Bino Kochumol Varghese](https://binovarghese.com/uses/) — Developer and Writer
 * [John Hammond](https://mathsquirrel.com/posts/2024/01/uses/) — Teaching Professor and Nerd
@@ -452,6 +453,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Frugence Fidel](https://frugencefidel.com/uses) — I'm 🇹🇿 React Developer
 * [Gonçalo Rodrigues](https://goncalorodrigues.com/uses) — Software developer, currently focused on Java and JavaScript.
+* [Alex Korbonits](https://korbonits.com/uses/) — Principal ML engineer at Disney. AI, embeddings, and production inference at scale.
 * [Matt Stein](https://mattstein.com/uses) — Middle-end web designer-developer-writer.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Daryl Sun](https://blog.darylsun.page/uses) — I play with software and videogames. Sometimes I write things.
