@@ -9906,6 +9906,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Matt Buresh',
+    description: 'Twin Cities based developer with a nice cat.',
+    url: 'https://matt.bure.sh/uses',
+    emoji: '🖖',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'PHP',
+      'Developer',
+      'Full Stack',
+      'Linux',
+      'Eleventy'
+    ]
+  },
+  {
     name: 'Andrew Nguyen Vo',
     description: 'Lover of code, coffee, and karaoke',
     url: 'https://awnvo.com/uses',
