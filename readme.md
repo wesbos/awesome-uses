@@ -42,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
 * [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic Adviser
 * [Guilherme Albert](https://guilhermealbert.com/uses) — Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.
+* [Chris B MN](https://chrisbmn.com/uses) — Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies
 * [Djamel Bougouffa](https://djamel-bougouffa.com/uses) — Full-Stack Software Engineer specializing in TypeScript, Rust, RAG and agentic AI workflows
 * [Mara Masaeva](https://messier-systems.vercel.app/uses) — AI engineer, electronic music producer & writer. Building production AI systems, MCP servers, and generative sound.
 * [Thamara Kandabada](https://thamara.co.uk/uses) — Generalist & Tinkerer. Internet person.

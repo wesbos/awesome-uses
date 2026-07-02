@@ -299,7 +299,8 @@ module.exports = [
   },
   {
     name: 'Chris B MN',
-    description: 'Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies',
+    description:
+      'Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies',
     url: 'https://chrisbmn.com/uses',
     country: '🇺🇸',
     emoji: '🧙🏽‍♂️',
