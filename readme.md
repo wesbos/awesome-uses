@@ -30,11 +30,13 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Hasse Ramlev Wilson](https://notes.ramlev.com/uses/) — Code - run - sleep ... Coffee
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Thxie](https://thxie.com/about#uses) — AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!
 * [Hussain Abbas](https://hussainweb.me/uses) — Director of Engineering and Solutions Architect. Enthusiastic about Platform Engineering, Developer Tooling, System Design, and User Centricity.
+* [J Lopes](https://jlopes.eu/uses/) — Web Developer & Designer, creative problem-solver.
 * [Adis Klobodanovic](https://adiss.dev/uses) — Full-stack developer fokusiran na Next.js, React i SaaS proizvode
 * [Vlad Savruk](https://vladsavruk.com/writing/uses) — Product and Graphic Designer
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
@@ -45,15 +47,18 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Chris B MN](https://chrisbmn.com/uses) — Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies
 * [Djamel Bougouffa](https://djamel-bougouffa.com/uses) — Full-Stack Software Engineer specializing in TypeScript, Rust, RAG and agentic AI workflows
 * [Mara Masaeva](https://messier-systems.vercel.app/uses) — AI engineer, electronic music producer & writer. Building production AI systems, MCP servers, and generative sound.
+* [Ethan Plant](https://ethanplant.ca/uses) — Software engineer working on cloud infrastructure. Writing about digital ownership.
 * [Thamara Kandabada](https://thamara.co.uk/uses) — Generalist & Tinkerer. Internet person.
 * [Nishil Kapadia](https://www.nish7.io/uses) — Software Engineer -- building compilers and backend tools.
 * [Sahil Kapoor](https://sahilkapoor.com/uses) — Founder & product engineer building AI, gaming, sports tech, and consumer products.
+* [MD. Shibbir Ahmed](https://shibbir.me/uses) — Senior Full Stack Engineer building web applications, homelab infrastructure, and developer tools.
 * [Tony Dehnke 🇨🇦](https://tonydehnke.com/uses/) — Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display
 * [Shreya Sawardekar](https://shreya-sawardekar.github.io/uses/) — Technical Lead, Front-End Developer from Goa.
 * [Jared Rigby](https://jaredrigby.co.uk/uses/) — Creative technologist and indie game developer.
 * [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
 * [Piers Olenski](https://www.piersolenski.com/uses) — Technical Lead, Front-End Developer and Vim Enthusiast from London.
 * [Glenn Kimble Jr](https://glennkimble.me/uses/) — Software engineer by day, pro wrestling super nerd by night.
+* [Stuart Langridge](https://www.kryogenix.org/uses/) — Consultant CTO, software architect, and developer to startups and small firms.
 * [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
 * [Jeroen van Meerendonk](https://jeroen.wtf/uses) — UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
@@ -283,6 +288,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcin Dyguda](https://www.dyguda.com/uses/) — Head of Engineering, Entrepreneur-wannabe, product leader and team builder at heart
 * [Angélique Weger](https://angeliqueweger.com/uses) — engineering manager :: adjunct prof :: always learning
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
+* [Hayden Kowalchuk](https://haydenkowalchuk.github.io/blog/#/uses) — Dreamcast and PSP enthusiast and gamedev.
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
 * [Anand Reddy Pandikunta](https://avilpage.com/uses.html) — Writer, Blogger & Day dreamer.
 * [Amolith](https://secluded.site/uses/) — Musician, developer, sysadmin, co-host of the Linux Lads, small business owner, and founder of not-for-profit NixNet
@@ -430,6 +436,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Laura Zumbakyte](https://desinni.dev/uses) — Front-end engineer, and a healthy lifestyle enthusiast.
 * [Jeff Szuc](https://jeffszuc.com/uses) — UX Designer, Frontend Developer, Lifelong Learner.
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
+* [Matt Buresh](https://matt.bure.sh/uses) — Twin Cities based developer with a nice cat.
 * [Andrew Nguyen Vo](https://awnvo.com/uses) — Lover of code, coffee, and karaoke
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Luke Hsiao](https://luke.hsiao.dev/uses/) — Software engineer and blogger
@@ -469,6 +476,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Renan Winter Spatin](https://renanspatin.com/uses) — Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.
 * [Mustafa Erbay](https://mustafaerbay.com.tr/uses) — System architect and infrastructure engineer from Türkiye writing about networks, security, and operations
 * [Sithika Fernando](https://sithika.site/uses) — Engineer and builder shipping software, hardware and creative tools end-to-end.
+* [Curtis Timson](https://www.curtiscode.dev/uses) — Senior Software Engineer • Tech Lead • Based in the UK
 * [Oz Gultekin](https://ozgur.ca/uses) — Designer of things
 * [Ali Şen](https://alisen.me/uses) — Full Stack Developer
 * [James Atkinson](https://www.jamesatkinson.me/uses) — Designer and front-end developer, based in the UK.
@@ -861,6 +869,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Chris Wiegman](https://chriswiegman.com/uses) — VP of Engineering, developer, teacher, and blogger building teams and products focused on humane and sustainable technology.
+* [Sérgio Santos](https://s3rgiosan.com/uses) — Lead Engineer. AI, WordPress, PHP, JavaScript, TypeScript.
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Bassem Allani](https://nextglabs.com/uses/) — Senior Fullstack Engineer & Commercial Airline Pilot
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer, occasional blogger
