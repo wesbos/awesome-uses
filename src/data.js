@@ -2107,6 +2107,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Abdul-Jabbar Bozdar',
+    description: 'Computer Programmer',
+    url: 'https://ajbozdar.github.io/uses/',
+    bluesky: 'ajbozdar.bsky.social',
+    emoji: '🤝',
+    country: '🇦🇶',
+    computer: 'bsd',
+    phone: 'android',
+    tags: [
+      'Fortran',
+      'C',
+      'C++',
+      'Ruby',
+      'C#',
+      'Rust',
+      'JavaScript',
+      'Unix',
+      'Bash',
+      'KDE',
+      'Backend',
+      'Programmer',
+      'Mathematics',
+    ]
+  },
+  {
     name: 'Genís Matutes',
     description:
       'Father. Product before code. Remote hooligan. No booze. No coffee.',
