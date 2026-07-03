@@ -322,6 +322,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Nirwansyah Ramdhani](https://www.nirwan.work/uses/) — Full Stack Developer + WordPress Enthusiast
 * [Philip Boardman](https://brd.mn/uses/) — Software Engineering Manager, Full Stack Developer
 * [Martín Morales](https://mrtnmrls.com/uses/) — Android Mobile Developer, Mechatronic Engineer
+* [Ankan Talukdar](https://ankantalukdar.com/uses) — Software Developer
 * [Sheila Leon](https://sheilaleon.tech/uses/) — Self-taught Front-end Dev, Designer & Product Manager
 * [Bram Smulders](https://bram.is/using) — Front-end UI developer
 * [Rubén Sospedra](https://sospedra.me/uses) — JavaScript Software Engineer, speaker, and trainer
