@@ -6636,6 +6636,16 @@ module.exports = [
     tags: ['Laravel', 'React', 'Kubernetes', 'Really Full Stack'],
   },
   {
+    name: 'Hayden Kowalchuk',
+    description: 'Dreamcast and PSP enthusiast and gamedev.',
+    url: 'https://haydenkowalchuk.github.io/blog/#/uses',
+    emoji: '🐨',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'android',
+    tags: ['c', 'gamedev', 'Dreamcast', 'Zed', 'Open Source Software', 'Open Source'],
+  },
+  {
     name: 'Simon Smale',
     description: 'Full Stack Developer and beginner digital gardener',
     url: 'https://github.com/SSmale/uses',
