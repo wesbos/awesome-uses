@@ -152,6 +152,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Maxime Blaise',
+    description: 'AI Native Product Designer',
+    url: 'https://maximeblaise.fr/uses',
+    twitter: '@n0unours',
+    emoji: '🧑‍🎨',
+    country: '🇫🇷',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Designer',
+      'Product Design',
+      'AI',
+      'Figma',
+      'Cursor',
+    ],
+  },
+  {
     name: 'Thxie',
     description:
       'AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!',
