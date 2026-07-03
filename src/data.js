@@ -415,7 +415,6 @@ module.exports = [
       'Senior Full Stack Engineer building web applications, homelab infrastructure, and developer tools.',
     url: 'https://shibbir.me/uses',
     twitter: '@shibbirweb',
-    github: 'shibbirweb',
     emoji: '🚀',
     country: '🇧🇩',
     computer: 'linux',
