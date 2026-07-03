@@ -23,24 +23,24 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-    {
-    name: "Hasse Ramlev Wilson",
-    description: "Code - run - sleep ... Coffee",
-    url: "https://notes.ramlev.com/uses/",
-    emoji: "🧑🏼‍💻",
-    country: "🇩🇰",
-    computer: "apple",
-    phone: "iphone",
-    twitter: "@hassewilson",
+  {
+    name: 'Hasse Ramlev Wilson',
+    description: 'Code - run - sleep ... Coffee',
+    url: 'https://notes.ramlev.com/uses/',
+    emoji: '🧑🏼‍💻',
+    country: '🇩🇰',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@hassewilson',
     tags: [
-      "Developer",
-      "Architect",
-      "PHP",
-      "Drupal",
-      "Symfony",
-      "Fullstack",
-      "SideProjects",
-      "Web Developer",
+      'Developer',
+      'Architect',
+      'PHP',
+      'Drupal',
+      'Symfony',
+      'Fullstack',
+      'SideProjects',
+      'Web Developer',
     ],
   },
   {
