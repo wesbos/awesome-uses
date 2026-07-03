@@ -394,7 +394,7 @@ module.exports = [
   },
   {
     name: 'Ethan Plant',
-    description: 
+    description:
       'Software engineer working on cloud infrastructure. Writing about digital ownership.',
     url: 'https://ethanplant.ca/uses',
     country: '🇨🇦',
