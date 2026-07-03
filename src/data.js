@@ -160,13 +160,7 @@ module.exports = [
     country: '🇫🇷',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Designer',
-      'Product Design',
-      'AI',
-      'Figma',
-      'Cursor',
-    ],
+    tags: ['Designer', 'Product Design', 'AI', 'Figma', 'Cursor'],
   },
   {
     name: 'Thxie',
