@@ -436,6 +436,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Laura Zumbakyte](https://desinni.dev/uses) — Front-end engineer, and a healthy lifestyle enthusiast.
 * [Jeff Szuc](https://jeffszuc.com/uses) — UX Designer, Frontend Developer, Lifelong Learner.
 * [Maxim Zubarev](https://maximzubarev.com/uses) — Enthusiast with an opinion. I use things, press buttons, and sometimes go to places.
+* [Matt Buresh](https://matt.bure.sh/uses) — Twin Cities based developer with a nice cat.
 * [Andrew Nguyen Vo](https://awnvo.com/uses) — Lover of code, coffee, and karaoke
 * [Jitendra Nirnejak](https://nirnejak.com/uses) — Developer, Designer and Blogger
 * [Luke Hsiao](https://luke.hsiao.dev/uses/) — Software engineer and blogger

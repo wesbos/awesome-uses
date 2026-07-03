@@ -10059,13 +10059,7 @@ module.exports = [
     country: '🇺🇸',
     computer: 'linux',
     phone: 'iphone',
-    tags: [
-      'PHP',
-      'Developer',
-      'Full Stack',
-      'Linux',
-      'Eleventy'
-    ]
+    tags: ['PHP', 'Developer', 'Full Stack', 'Linux', 'Eleventy'],
   },
   {
     name: 'Andrew Nguyen Vo',
