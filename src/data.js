@@ -10668,7 +10668,8 @@ module.exports = [
   },
   {
     name: 'Michael Vivirito',
-    description: 'SRE and homelab tinkerer running FreeBSD, NixOS, and Proxmox. Self-hosted everything, local LLMs on a GPU-passthrough VM, and a Telegram-driven Obsidian second brain.',
+    description:
+      'SRE and homelab tinkerer running FreeBSD, NixOS, and Proxmox. Self-hosted everything, local LLMs on a GPU-passthrough VM, and a Telegram-driven Obsidian second brain.',
     url: 'https://michaelvivirito.com/uses',
     emoji: '❄️',
     country: '🇺🇸',

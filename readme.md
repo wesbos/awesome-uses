@@ -466,6 +466,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Matt Stein](https://mattstein.com/uses) — Middle-end web designer-developer-writer.
 * [Ximena Vila Ferral](https://ximenavf.com/uses/) — 💻 🎨 A Mexican born, Texas based designer and developer.
 * [Daryl Sun](https://blog.darylsun.page/uses) — I play with software and videogames. Sometimes I write things.
+* [Michael Vivirito](https://michaelvivirito.com/uses) — SRE and homelab tinkerer running FreeBSD, NixOS, and Proxmox. Self-hosted everything, local LLMs on a GPU-passthrough VM, and a Telegram-driven Obsidian second brain.
 * [Helen Chong](https://helenchong.dev/uses) — Graphic designer turned web developer based in Malaysia.
 * [Julian Stark](https://julianstark.de/uses) — WordPress Web Developer & Entrepreneur
 * [Aris Ripandi](https://ripandis.com/uses) — Software engineer & educator. Open Source enthusiast.
