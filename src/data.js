@@ -23,10 +23,9 @@
  * Keep this a commonjs export.
  */
 module.exports = [
-    {
+  {
     name: 'Annabelle Feiler',
-    description:
-      'Artist and freelance designer',
+    description: 'Artist and freelance designer',
     url: 'https://sparks-of-joy.neocities.org/uses',
     emoji: '🐊',
     country: '🇩🇪',
@@ -38,7 +37,7 @@ module.exports = [
       'Web Developer',
       'Designer',
       'A11y',
-      'UI/UX'
+      'UI/UX',
     ],
   },
   {
