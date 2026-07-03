@@ -11931,7 +11931,7 @@ module.exports = [
       'REST API',
       'Open Source',
       'Freelancer',
-      'System Design'
+      'System Design',
     ],
   },
   {

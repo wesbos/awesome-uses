@@ -521,6 +521,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcel Hauri](http://marcelhauri.ch/uses/) — Father, husband, software developer and lecturer in application development.
 * [Nathan Arthur](https://www.nathanarthur.com/uses) — Full-stack web developer building tools for productivity when productivity is hard
 * [Mitchell Hanberg](https://mitchellhanberg.com/uses) — Full Stack Developer who loves working with Elixir, Ruby and JS.
+* [Tushar Nain](https://tusharnain.in/uses) — Software Engineer | Backend Developer | Building scalable applications
 * [Drake Bott](https://drake.dev/uses) — Web Developer from Colorado
 * [Michael Herman](https://mherman.org/about#uses) — Full-stack web developer. Software architect. Educator. Entrepreneur. Lover of Docker, Radiohead, running, and reading well-crafted project READMEs.
 * [Daniel Flege](https://danielflege.com/uses/) — Web Developer & Podcaster 🖥🎙 Loves Rails and Front End Stuff. My three girls are the {CSS} to my <html> 👨‍👩‍👧‍👧
