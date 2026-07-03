@@ -6643,7 +6643,14 @@ module.exports = [
     country: '🇺🇸',
     computer: 'apple',
     phone: 'android',
-    tags: ['c', 'gamedev', 'Dreamcast', 'Zed', 'Open Source Software', 'Open Source'],
+    tags: [
+      'c',
+      'gamedev',
+      'Dreamcast',
+      'Zed',
+      'Open Source Software',
+      'Open Source',
+    ],
   },
   {
     name: 'Simon Smale',
