@@ -25,7 +25,8 @@
 module.exports = [
   {
     name: 'David M. Schulman',
-    description: 'Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.',
+    description:
+      'Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.',
     url: 'https://dmschulman.com/uses',
     emoji: '🥨',
     country: '🇺🇸',
@@ -48,8 +49,8 @@ module.exports = [
       'Blogger',
       'Designer',
       'Photographer',
-      'Dad'
-    ]
+      'Dad',
+    ],
   },
   {
     name: 'Hasse Ramlev Wilson',

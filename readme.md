@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [David M. Schulman](https://dmschulman.com/uses) — Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.
 * [Hasse Ramlev Wilson](https://notes.ramlev.com/uses/) — Code - run - sleep ... Coffee
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
