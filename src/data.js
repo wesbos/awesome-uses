@@ -29,7 +29,7 @@ module.exports = [
     url: "https://notes.ramlev.com/uses/",
     emoji: "🧑🏼‍💻",
     country: "🇩🇰",
-    computer: "macos",
+    computer: "apple",
     phone: "iphone",
     twitter: "@hassewilson",
     tags: [
