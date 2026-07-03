@@ -220,6 +220,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marko Bajlovic](https://marko.tech/uses) — Multidisciplinary creative and developer; forever learning.
 * [Alex Zee Comedy](https://alexzeecomedy.com/pages/uses) — Stand-up comedian, artist, video editor, FOSS/privacy enthusiast.
 * [Seirdy](https://seirdy.one/about/uses/) — I write about and develop software to promote user autonomy.
+* [Dane Stevens](https://dsmedia.ca/uses) — Entrepreneurial Full Stack Developer from Canada
 * [Ruslan Osipov](https://ruslan.rocks/uses) — Full Stack Developer, SEO Enthusiast, Entrepreneur, work @ REA Group
 * [H. Kamran](https://hkamran.com/uses) — Hello world! I'm a developer who writes articles on things that interest me or I find useful, and takes photos!
 * [Catalin Ciubotaru](https://catalincodes.com/uses) — Frontend Developer, writes stuff, sometimes makes sense.

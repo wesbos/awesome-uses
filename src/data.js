@@ -5008,7 +5008,7 @@ module.exports = [
   },
   {
     name: 'Dane Stevens',
-    description: "Entrepreneurial Full Stack Developer from Canada",
+    description: 'Entrepreneurial Full Stack Developer from Canada',
     url: 'https://dsmedia.ca/uses',
     country: '🇨🇦',
     computer: 'linux',
