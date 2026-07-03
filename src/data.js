@@ -612,7 +612,8 @@ module.exports = [
   },
   {
     name: 'Stuart Langridge',
-    description: 'Consultant CTO, software architect, and developer to startups and small firms.',
+    description:
+      'Consultant CTO, software architect, and developer to startups and small firms.',
     url: 'https://www.kryogenix.org/uses/',
     mastodon: '@sil@mastodon.social',
     bluesky: 'sil.kryogenix.org',
@@ -627,7 +628,7 @@ module.exports = [
       'JavaScript',
       'Python',
       'pass',
-      'Vivaldi'
+      'Vivaldi',
     ],
   },
   {
