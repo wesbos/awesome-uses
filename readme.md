@@ -862,6 +862,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Lakshmipriya Mukundan](https://gist.github.com/lakshmipriyamukundan/ddd224306ce962f4f159f1065f0f0c67) — Javascript lover, FullStack enthusiast, React Learner (current), Pet lover
 * [Jeremy Bunting](https://qbunt.com/uses) — Web 🤖 working remotely from the Connecticut burbs
 * [Chris Wiegman](https://chriswiegman.com/uses) — VP of Engineering, developer, teacher, and blogger building teams and products focused on humane and sustainable technology.
+* [Sérgio Santos](https://s3rgiosan.com/uses) — Lead Engineer. AI, WordPress, PHP, JavaScript, TypeScript.
 * [Stan Lo](https://gist.github.com/st0012/7b018463dd041d2a4401d9fa5044bedf) — Developer at Ticketsolve, creator of Goby
 * [Bassem Allani](https://nextglabs.com/uses/) — Senior Fullstack Engineer & Commercial Airline Pilot
 * [Jérémie Bertrand](https://laedit.net/uses/) — Developer, occasional blogger
