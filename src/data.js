@@ -2110,7 +2110,7 @@ module.exports = [
     name: 'Abdul-Jabbar Bozdar',
     description: 'Computer Programmer',
     url: 'https://ajbozdar.github.io/uses/',
-    bluesky: 'ajbozdar',
+    bluesky: 'ajbozdar.bsky.social',
     emoji: '🤝',
     country: '🇦🇶',
     computer: 'bsd',
