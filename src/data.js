@@ -20706,13 +20706,7 @@ module.exports = [
     emoji: '😅',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'PHP',
-      'Eleventy',
-      'Neovim',
-      'Ubuntu',
-      'Full Stack',
-    ],
+    tags: ['PHP', 'Eleventy', 'Neovim', 'Ubuntu', 'Full Stack'],
   },
   {
     name: 'Jaydeep Rawat',
