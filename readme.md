@@ -54,6 +54,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Thamara Kandabada](https://thamara.co.uk/uses) — Generalist & Tinkerer. Internet person.
 * [Nishil Kapadia](https://www.nish7.io/uses) — Software Engineer -- building compilers and backend tools.
 * [Sahil Kapoor](https://sahilkapoor.com/uses) — Founder & product engineer building AI, gaming, sports tech, and consumer products.
+* [Prince Sinha](https://theprincevishal.in/uses) — Engineering leader building AI-native security systems, agents, and infrastructure.
 * [MD. Shibbir Ahmed](https://shibbir.me/uses) — Senior Full Stack Engineer building web applications, homelab infrastructure, and developer tools.
 * [Tony Dehnke 🇨🇦](https://tonydehnke.com/uses/) — Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display
 * [Shreya Sawardekar](https://shreya-sawardekar.github.io/uses/) — Technical Lead, Front-End Developer from Goa.

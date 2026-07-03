@@ -574,7 +574,7 @@ module.exports = [
       'Obsidian',
       'Ghostty',
       'Raycast',
-    ]
+    ],
   },
   {
     name: 'MD. Shibbir Ahmed',
