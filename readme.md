@@ -36,6 +36,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Thxie](https://thxie.com/about#uses) — AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!
 * [Hussain Abbas](https://hussainweb.me/uses) — Director of Engineering and Solutions Architect. Enthusiastic about Platform Engineering, Developer Tooling, System Design, and User Centricity.
+* [J Lopes](https://jlopes.eu/uses/) — Web Developer & Designer, creative problem-solver.
 * [Adis Klobodanovic](https://adiss.dev/uses) — Full-stack developer fokusiran na Next.js, React i SaaS proizvode
 * [Vlad Savruk](https://vladsavruk.com/writing/uses) — Product and Graphic Designer
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
