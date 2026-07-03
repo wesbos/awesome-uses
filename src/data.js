@@ -2129,7 +2129,7 @@ module.exports = [
       'Backend',
       'Programmer',
       'Mathematics',
-    ]
+    ],
   },
   {
     name: 'Genís Matutes',
