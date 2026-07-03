@@ -551,6 +551,32 @@ module.exports = [
     ],
   },
   {
+    name: 'Prince Sinha',
+    description:
+      'Engineering leader building AI-native security systems, agents, and infrastructure.',
+    url: 'https://theprincevishal.in/uses',
+    emoji: '🛡️',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'AI',
+      'Agents',
+      'Cybersecurity',
+      'SecOps',
+      'Infrastructure',
+      'TypeScript',
+      'Next.js',
+      'Kubernetes',
+      'ClickHouse',
+      'Claude Code',
+      'Codex',
+      'Obsidian',
+      'Ghostty',
+      'Raycast',
+    ]
+  },
+  {
     name: 'MD. Shibbir Ahmed',
     description:
       'Senior Full Stack Engineer building web applications, homelab infrastructure, and developer tools.',
