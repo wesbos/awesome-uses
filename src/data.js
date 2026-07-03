@@ -1187,7 +1187,8 @@ module.exports = [
   },
   {
     name: 'Kishore K Sharma',
-    description: 'Lead Full Stack Engineer from Noida, India. Ships end-to-end across telecom, fintech, govtech, and edtech.',
+    description:
+      'Lead Full Stack Engineer from Noida, India. Ships end-to-end across telecom, fintech, govtech, and edtech.',
     url: 'https://kishorek.dev/uses',
     emoji: '🧑🏽‍💻',
     country: '🇮🇳',

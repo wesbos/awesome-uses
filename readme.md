@@ -77,6 +77,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joshua Blais](https://joshblais.com/uses) — Developer and writer pursuing technological mastery through first principles.
 * [Jaenudin](https://jaenudin.vercel.app/uses/) — focused on fast, performance-conscious code and thoughtful interaction design.
 * [Reilly Spitzfaden](https://reillyspitzfaden.com/uses) — Composer and audio developer who likes noise, obsolete media, electronics, and nostalgia.
+* [Kishore K Sharma](https://kishorek.dev/uses) — Lead Full Stack Engineer from Noida, India. Ships end-to-end across telecom, fintech, govtech, and edtech.
 * [Joseph Horace](https://basicutils.com/uses) — Speeding through development with precision.
 * [John Zanussi](https://johnzanussi.com/uses) — Frontend engineer turned engineering manager with 20+ years of experience.
 * [Bhautik Bavadiya AKA yesbhautik](https://yesbhautik.co.in/uses) — Crafting the future, Today.
