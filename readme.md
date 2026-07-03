@@ -380,6 +380,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Gianluca Fabrizi](https://gianlucafabrizi.dev/uses/) — Fullstack Developer, DevOps, maker/tinkerer
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
+* [Bhargav Kowshik](https://bkowshik.in/uses/) — Engineer learning neuroscience and machine learning.
 * [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
 * [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)
