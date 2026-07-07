@@ -856,6 +856,32 @@ module.exports = [
     ],
   },
   {
+    name: "Andrew Benbow",
+    description:
+      'Drupal developer, blogger, writer. Maintains Drupal for NixOS. Enthusiast of experimental literature.',
+    url: 'https://abmurrow.com/uses',
+    emoji: '🪕',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'NixOS',
+      'Drupal',
+      'Web Development',
+      'Literature',
+      'Linux',
+      'Poetry',
+      'Writer',
+      'HTML/CSS',
+      'Git',
+      'React',
+      'Open Source',
+      'Blogger',
+      'Music',
+      'Folk Music'
+    ]
+  },
+  {
     name: 'Jeroen van Meerendonk',
     description:
       'UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.',
