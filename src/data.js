@@ -856,7 +856,7 @@ module.exports = [
     ],
   },
   {
-    name: "Andrew Benbow",
+    name: 'Andrew Benbow',
     description:
       'Drupal developer, blogger, writer. Maintains Drupal for NixOS. Enthusiast of experimental literature.',
     url: 'https://abmurrow.com/uses',
@@ -878,8 +878,8 @@ module.exports = [
       'Open Source',
       'Blogger',
       'Music',
-      'Folk Music'
-    ]
+      'Folk Music',
+    ],
   },
   {
     name: 'Jeroen van Meerendonk',

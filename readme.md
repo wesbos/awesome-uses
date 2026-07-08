@@ -65,6 +65,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Glenn Kimble Jr](https://glennkimble.me/uses/) — Software engineer by day, pro wrestling super nerd by night.
 * [Stuart Langridge](https://www.kryogenix.org/uses/) — Consultant CTO, software architect, and developer to startups and small firms.
 * [Christian Hain](https://www.christianhain.com/uses/) — Internet power-user and creator specializing in browser-based experiences.
+* [Andrew Benbow](https://abmurrow.com/uses) — Drupal developer, blogger, writer. Maintains Drupal for NixOS. Enthusiast of experimental literature.
 * [Jeroen van Meerendonk](https://jeroen.wtf/uses) — UX Engineer. Design systems, Ruby on Rails and mechanical keyboards.
 * [Ivan](https://ivndbt.com/uses) — Full time mechanical engineer, spare time maker.
 * [Ilya Glebov](https://ilyaglebov.dev/uses) — Software Engineer building backends and infrastructure.
