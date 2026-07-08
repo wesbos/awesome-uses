@@ -48,6 +48,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic Adviser
 * [Sachin Kukreja](https://sachinkukreja.dev/uses) — Full-stack engineer learning, applying and transforming softwares
 * [Guilherme Albert](https://guilhermealbert.com/uses) — Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.
+* [Omid Farhang](https://omid.dev/uses/) — Frontend Architect & Engineering Lead
 * [Chris B MN](https://chrisbmn.com/uses) — Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies
 * [Djamel Bougouffa](https://djamel-bougouffa.com/uses) — Full-Stack Software Engineer specializing in TypeScript, Rust, RAG and agentic AI workflows
 * [Mara Masaeva](https://messier-systems.vercel.app/uses) — AI engineer, electronic music producer & writer. Building production AI systems, MCP servers, and generative sound.
