@@ -414,6 +414,19 @@ module.exports = [
     ],
   },
   {
+    name: 'Omid Farhang',
+    description: 'Frontend Architect & Engineering Lead',
+    url: 'https://omid.dev/uses/',
+    emoji: '🧔',
+    country: '🇮🇷',
+    computer: 'linux',
+    phone: 'android',
+    twitter: '@OmidFarhangEn',
+    mastodon: '@omidfarhang@mastodon.social',
+    bluesky: 'omid.dev',
+    tags: ['Angular', 'Manjaro', 'Linux', 'Frontend', 'NX', 'Dad'],
+  },
+  {
     name: 'Chris B MN',
     description:
       'Lead Infrastructure Engineer with a /colophon page and deeply questionable hobbies',
