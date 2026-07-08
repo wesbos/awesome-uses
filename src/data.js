@@ -10734,6 +10734,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Olakunlevpn',
+    description:
+      'Web Developer. Laravel, PHP, JavaScript and AWS. Helping others become developers too.',
+    url: 'https://olakunlevpn.github.io/uses',
+    emoji: '💻',
+    country: '🇳🇬',
+    computer: 'apple',
+    twitter: '@oxkunle',
+    tags: [
+      'Web Developer',
+      'Laravel',
+      'PHP',
+      'JavaScript',
+      'Vue',
+      'React',
+      'Node',
+      'AWS',
+      'Cloud',
+      'Open Source',
+    ],
+  },
+  {
     name: 'Gonçalo Rodrigues',
     description:
       'Software developer, currently focused on Java and JavaScript.',
