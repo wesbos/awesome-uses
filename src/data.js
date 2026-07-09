@@ -41,6 +41,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Angad Singh',
+    description:
+      'Lead Software Engineer specializing in Android Development',
+    url: 'https://singhangad.in/uses',
+    emoji: '📱',
+    country: '🇮🇳',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@singhangadin',
+    tags: [
+      'Android',
+      'Java',
+      'Kotlin'
+    ],
+  },
+  {
     name: 'David M. Schulman',
     description:
       'Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.',
