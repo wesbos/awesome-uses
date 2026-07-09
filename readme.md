@@ -472,6 +472,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Saurabh Sharma](https://itsjzt.com/uses) — Full stack web developer making e-commerce websites and SaaS
 * [Wes Bos](https://wesbos.com/uses) — Maker of this site. Web Developer, Tutorial Maker, Syntax.fm Podcaster, BBQ Lover
 * [Frugence Fidel](https://frugencefidel.com/uses) — I'm 🇹🇿 React Developer
+* [Olakunlevpn](https://olakunlevpn.github.io/uses) — Web Developer. Laravel, PHP, JavaScript and AWS. Helping others become developers too.
 * [Gonçalo Rodrigues](https://goncalorodrigues.com/uses) — Software developer, currently focused on Java and JavaScript.
 * [Alex Korbonits](https://korbonits.com/uses/) — Principal ML engineer at Disney. AI, embeddings, and production inference at scale.
 * [Matt Stein](https://mattstein.com/uses) — Middle-end web designer-developer-writer.
