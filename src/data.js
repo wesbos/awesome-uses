@@ -421,7 +421,7 @@ module.exports = [
     country: '🇮🇷',
     computer: 'linux',
     phone: 'android',
-    twitter: '@OmidFarhangEn',
+    twitter: '@OmidFarhang',
     mastodon: '@omidfarhang@mastodon.social',
     bluesky: 'omid.dev',
     tags: ['Angular', 'Manjaro', 'Linux', 'Frontend', 'NX', 'Dad'],
