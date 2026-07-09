@@ -31,6 +31,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 # Awesome Uses ![Awesome][awesome-badge]
 
 * [Annabelle Feiler](https://sparks-of-joy.neocities.org/uses) — Artist and freelance designer
+* [Angad Singh](https://singhangad.in/uses) — Lead Software Engineer specializing in Android Development
 * [David M. Schulman](https://dmschulman.com/uses) — Frontend developer & sometimes electronic musician focused on building tidy design ecosystems, based in Philadelphia, PA.
 * [Hasse Ramlev Wilson](https://notes.ramlev.com/uses/) — Code - run - sleep ... Coffee
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
