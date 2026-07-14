@@ -10518,6 +10518,16 @@ module.exports = [
     ],
   },
   {
+    name: 'Andrew Minga',
+    description: 'IT leader building free browser tools and AI automation for MSP operations',
+    url: 'https://andrewminga.com/uses',
+    country: '🇺🇸',
+    twitter: '@DrewMinga',
+    emoji: '🛠️',
+    computer: 'windows',
+    tags: ['Engineer', 'Cloud', 'Azure', 'DevOps', 'Security', 'PowerShell', 'Automation', 'Sysadmin'],
+  },
+  {
     name: 'Michal Kolacek',
     description: 'Analytics Engineer',
     url: 'https://michalkolacek.xyz/uses',
