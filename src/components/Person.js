@@ -10,8 +10,8 @@ export default function Person({ person }) {
     ? `https://unavatar.io/x/${person.twitter.replace('@', '')}`
     : null;
   const website = `https://unavatar.io/${url.host}`;
-  const unavatar = person.twitter
-    ? `${twitter}?fallback=${website}&ttl=28d`
+  const unavatar = twitter
+    ? `${website}?fallback=${twitter}&ttl=28d`
     : website;
   const [_, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
   const { tag: currentTag } = useParams();
