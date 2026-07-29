@@ -317,7 +317,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Joshua Rose](https://jrgiant.tech/uses) — Loves Christ, loves family, loves programming, full stack dev
 * [Victor Pierre Alves](https://victorpierre.dev/uses) — Senior Software Engineer. I mostly code in Go these days. I live in Canada.
 * [Christian Tietze](https://christiantietze.de/uses) — Mac app dev, Zettelkasten zealot, tinkerer and writer
-* [Diego Costa](https://diegocosta.me/uses) — Engineering Manager and Full-stack software engineer
+* [Diego Costa](https://diegocosta.com.br/uses) — Engineering Manager passionate about turning technology into real impact. I have over 10 years of experience in software engineering, working across large companies and fast-growing startups.
 * [Jeremiah Boby](https://jerbob.me/uses) — Python developer specialising in web tech
 * [Haryel Gillet](https://peaceful-leavitt-25b1d3.netlify.app/uses) — FullStack Developer focused on Backend
 * [Stefan Zweifel](https://stefanzweifel.dev/uses/) — Full Stack Developer trying to make the web a better place. Working mostly with Laravel and Tailwind CSS.

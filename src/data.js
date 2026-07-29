@@ -7290,7 +7290,8 @@ module.exports = [
   },
   {
     name: 'Diego Costa',
-    description: 'Engineering Manager passionate about turning technology into real impact. I have over 10 years of experience in software engineering, working across large companies and fast-growing startups.',
+    description:
+      'Engineering Manager passionate about turning technology into real impact. I have over 10 years of experience in software engineering, working across large companies and fast-growing startups.',
     url: 'https://diegocosta.com.br/uses',
     twitter: '@diegocoxta',
     emoji: '👨‍💻',
@@ -7313,7 +7314,7 @@ module.exports = [
       'Styled Components',
       'Next.js',
       'Tech Lead',
-      'Software Developer'
+      'Software Developer',
     ],
   },
   {
