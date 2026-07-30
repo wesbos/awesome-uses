@@ -9999,6 +9999,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Ben Dixon',
+    description:
+      'Tests how often AI assistants get things wrong, and publishes the receipts.',
+    url: 'https://dixon.ai/uses/',
+    bluesky: 'dixon.ai',
+    mastodon: '@dixonai@mastodon.social',
+    emoji: '🧾',
+    country: '🇬🇧',
+    computer: 'windows',
+    tags: [
+      'AI',
+      'Astro',
+      'Claude Code',
+      'Cloudflare Pages',
+      'Beehiiv',
+      'PowerShell',
+      'Markdown',
+      'Plain CSS',
+    ],
+  },
+  {
     name: 'Sythe Veenje',
     description: 'Freelance Developer & Designer',
     url: 'https://sythe.nl/uses',
