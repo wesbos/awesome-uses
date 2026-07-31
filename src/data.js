@@ -11234,7 +11234,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Felix Bessler',
+    name: 'Felix Beßler',
     description: "I'm a Full-Stack Developer from Germany",
     url: 'https://www.felix-bessler.de/uses',
     emoji: '🦄',
