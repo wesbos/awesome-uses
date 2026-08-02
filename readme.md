@@ -434,6 +434,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mario Sanchez Carrion](https://mariosanchez.org/uses/) — Junior Web Developer Based in Miami, FL
 * [Courtney/Lucy Gurll](https://fairytale.magicalgurll.com/about/uses) — Indie web revival appreciator and pink glitter fairy.
 * [Anthony Del Rosario](https://adelrosarioh.me/uses) — Experienced Full Stack Software Engineer & Computers Lover
+* [Ben Dixon](https://dixon.ai/uses/) — Tests how often AI assistants get things wrong, and publishes the receipts.
 * [Sythe Veenje](https://sythe.nl/uses) — Freelance Developer & Designer
 * [Christopher Talke](https://talke.dev/uses) — ICT Professional / Fullstack Web Developer and Skateboarder
 * [Ammar Alakkad](https://ammar.codes/uses/) — Sr. Frontend Engineer
