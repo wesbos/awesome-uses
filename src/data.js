@@ -25,7 +25,8 @@
 module.exports = [
   {
     name: 'Steven W. Buehler',
-    description: 'Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.',
+    description:
+      'Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.',
     url: 'https://swb72.us/uses',
     country: '🇺🇸',
     emoji: '🤪',
@@ -41,8 +42,8 @@ module.exports = [
       'Geocacher',
       'Python',
       'Google Gemini',
-      'Christian'
-    ]
+      'Christian',
+    ],
   },
   {
     name: 'Annabelle Feiler',
