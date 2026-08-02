@@ -494,6 +494,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mustafa Erbay](https://mustafaerbay.com.tr/uses) — System architect and infrastructure engineer with 20+ years in networks, security, DevOps, and self-hosted systems. Building burncpu in Türkiye.
 * [Sithika Fernando](https://sithika.site/uses) — Engineer and builder shipping software, hardware and creative tools end-to-end.
 * [Curtis Timson](https://www.curtiscode.dev/uses) — Senior Software Engineer • Tech Lead • Based in the UK
+* [Felix Beßler](https://www.felix-bessler.de/uses) — I'm a Full-Stack Developer from Germany
 * [Oz Gultekin](https://ozgur.ca/uses) — Designer of things
 * [Ali Şen](https://alisen.me/uses) — Full Stack Developer
 * [James Atkinson](https://www.jamesatkinson.me/uses) — Designer and front-end developer, based in the UK.
