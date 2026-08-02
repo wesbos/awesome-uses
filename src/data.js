@@ -24,6 +24,27 @@
  */
 module.exports = [
   {
+    name: 'Steven W. Buehler',
+    description: 'Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.',
+    url: 'https://swb72.us/uses',
+    country: '🇺🇸',
+    emoji: '🤪',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Musician',
+      'Autistic',
+      'Reporting Administrator',
+      'Reporting Developer',
+      'SSRS',
+      'Toad Data Point',
+      'Geocacher',
+      'Python',
+      'Google Gemini',
+      'Christian'
+    ]
+  },
+  {
     name: 'Annabelle Feiler',
     description: 'Artist and freelance designer',
     url: 'https://sparks-of-joy.neocities.org/uses',
