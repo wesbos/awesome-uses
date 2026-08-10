@@ -598,6 +598,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Elmar Klausmeier](https://eklausmeier.goip.de/aux/uses) — Developer and blogger, data center management
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
+* [Syed Fazil](https://syedfazil.dev/uses) — Software / InfoSec Engineer from Bengaluru, India
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
 * [Jake Lee](https://notes.jakelee.co.uk/uses) — Principal Android Engineer @ Startups
 * [Ángel Guerra](https://angelguerra.me/uses/) — Father. Partner. Human. Kickboxer. Ninja.
