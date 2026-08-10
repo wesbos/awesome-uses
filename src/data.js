@@ -11274,7 +11274,7 @@ module.exports = [
     ],
   },
   {
-    name: 'Curtis Timson',
+    name: 'Curtis Lane',
     description: 'Senior Software Engineer • Tech Lead • Based in the UK',
     url: 'https://www.curtiscode.dev/uses',
     emoji: '🚀',
