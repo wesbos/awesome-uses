@@ -13619,6 +13619,24 @@ module.exports = [
     tags: ['Developer', 'Full Stack', 'JavaScript', 'React', 'Hockey'],
   },
   {
+    name: "Syed Fazil",
+    description: "Software / InfoSec Engineer from Bengaluru, India",
+    url: "https://syedfazil.dev/uses",
+    emoji: "👨🏼‍🔧",
+    country: "🇮🇳",
+    computer: "apple",
+    phone: "android",
+    tags: [
+      "Developer",
+      "Software Engineer",
+      "Full Stack",
+      "Blogger",
+      "Self Hosting",
+      "Obsidian",
+      "Syncthing",
+    ],
+  },
+  {
     name: 'Jake Jarvis',
     description:
       'Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄',
