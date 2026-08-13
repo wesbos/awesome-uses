@@ -494,6 +494,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [João Vitor Zaniolo](https://jvzaniolo.vercel.app/uses/) — Front-end developer, gamer and tech enthusiast.
 * [Renan Winter Spatin](https://renanspatin.com/uses) — Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.
 * [Mustafa Erbay](https://mustafaerbay.com.tr/uses) — System architect and infrastructure engineer with 20+ years in networks, security, DevOps, and self-hosted systems. Building burncpu in Türkiye.
+* [Melih Arık](https://meliharik.dev/uses) — Software engineer in Tallinn, Estonia. Mobile apps, backends and small developer tools.
 * [Sithika Fernando](https://sithika.site/uses) — Engineer and builder shipping software, hardware and creative tools end-to-end.
 * [Curtis Lane](https://www.curtiscode.dev/uses) — Senior Software Engineer • Tech Lead • Based in the UK
 * [Felix Beßler](https://www.felix-bessler.de/uses) — I'm a Full-Stack Developer from Germany
