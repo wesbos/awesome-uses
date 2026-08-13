@@ -11246,6 +11246,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Melih Arık',
+    description:
+      'Software engineer in Tallinn, Estonia. Mobile apps, backends and small developer tools.',
+    url: 'https://meliharik.dev/uses',
+    country: '🇪🇪',
+    twitter: '@melihify',
+    emoji: '📱',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Swift',
+      'SwiftUI',
+      'Xcode',
+      'Flutter',
+      'Dart',
+      'Kotlin',
+      'TypeScript',
+      'Next.js',
+      'Tailwind',
+      'NestJS',
+      'Go',
+    ],
+  },
+  {
     name: 'Sithika Fernando',
     description:
       'Engineer and builder shipping software, hardware and creative tools end-to-end.',
