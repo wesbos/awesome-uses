@@ -629,6 +629,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Zubair Ibn Zamir](https://zubairiz.com/uses) — Full-Stack Developer. Cloud Practitioner. Open source contributor. Localization volunteer.
 * [Tony Lockhart](https://tlockhart.github.io/portfolio/#uses) — Full Stack Developer, Designer, and Instructor
 * [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, Linux and FOSS enthusiast.
+* [Joshua Baker](https://www.joshuabaker.com/uses) — Software engineer, designer, and entrepreneur.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
 * [Leonardo Rifeli](https://rifeli.dev/uses/) — Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
