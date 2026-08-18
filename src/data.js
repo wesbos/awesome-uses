@@ -14272,6 +14272,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Baker',
+    description: 'Software engineer, designer, and entrepreneur.',
+    url: 'https://www.joshuabaker.com/uses',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Software Engineer',
+      'Designer',
+      'Entrepreneur',
+      'TypeScript',
+      'AI',
+      'Claude Code',
+    ],
+  },
+  {
     name: 'Leonardo Melo',
     description:
       'Full stack web developer. Typescript lover, always learning new stuff.',
