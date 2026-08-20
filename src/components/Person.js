@@ -11,7 +11,7 @@ export default function Person({ person }) {
     : null;
   const website = `https://unavatar.io/${url.host}`;
   const unavatar = person.twitter
-    ? `${twitter}?fallback=${website}&ttl=28d`
+    ? `${twitter}?fallback=${website}`
     : website;
   const [_, mastodonHandle, mastodonServer] = person.mastodon?.split('@') || [];
   const { tag: currentTag } = useParams();
