@@ -8444,8 +8444,7 @@ module.exports = [
   },
   {
     name: 'Zlatan Stajic',
-    description:
-      'Senior Backend Engineer PHP & Laravel',
+    description: 'Senior Backend Engineer PHP & Laravel',
     url: 'https://zlatanstajic.com/uses',
     twitter: '@zlatanshere',
     emoji: '⚡️',
