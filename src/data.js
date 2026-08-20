@@ -21709,6 +21709,16 @@ module.exports = [
       'Figma',
     ],
   },
+  {
+    name: 'Toprak Kilic',
+    description: 'Electrical engineering student, figuring out life.',
+    url: 'https://toprakkilic.com/subs/uses.html',
+    emoji: '🐺',
+    country: '🇹🇷',
+    computer: 'thinkpad',
+    phone: 'iphone',
+    tags: ['HTML', 'CSS', 'Cybersecurity', 'Homelabbing', 'Engineering'],
+  },
   // 🚨 OH Hey! DO NOT ADD YOURSELF TO THE END OF THE ARRAY 🚨
   // 🚨 Add yourself somewhere random. This makes merging you much easier and avoids conflicts. 🚨
   // Thx, luv ya - wes
