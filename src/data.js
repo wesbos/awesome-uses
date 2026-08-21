@@ -21554,6 +21554,22 @@ module.exports = [
     ],
   },
   {
+    name: 'Evan Travers',
+    description: 'Writes code, hunts bugs, and breathes perfume.',
+    url: 'https://evantravers.com/uses/',
+    twitter: '@evantravers',
+    emoji: '🙏',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'apple',
+    tags: [
+      'Developer',
+      'UX',
+      'Neovim',
+      'Elixir'
+    ],
+  },
+  {
     name: 'Alberto Gallego',
     description: 'I make software, write, and take photos..',
     url: 'https://albertogalca.com/uses',
