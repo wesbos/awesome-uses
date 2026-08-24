@@ -14308,6 +14308,33 @@ module.exports = [
     ],
   },
   {
+    name: 'Neal Wang',
+    description:
+      'Aspiring distributed systems engineer',
+    url: 'https://nealwang.dev/uses',
+    emoji: '🐬',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'iphone',
+    tags: [
+      'Engineer',
+      'Educator',
+      'YouTuber',
+      'Distributed Systems',
+      'Machine Learning',
+      'Golang',
+      'Zig',
+      'Haskell',
+      'NixOS',
+      'niri',
+      'Catppuccin',
+      'Ghostty',
+      'Fish',
+      'Neovim',
+      'Homelab',
+    ],
+  },
+  {
     name: 'Leonardo Rifeli',
     description:
       'Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.',
