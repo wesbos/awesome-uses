@@ -24,6 +24,26 @@
  */
 module.exports = [
   {
+    name: 'Dzubayyan Ahmad',
+    description:
+      'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
+    url: 'https://masdzub.com/uses',
+    country: '🇮🇩',
+    emoji: '👨‍💻',
+    computer: 'apple',
+    phone: 'android',
+    twitter: '@masdzub',
+    tags: [
+      'SysAdmin',
+      'DevOps',
+      'Technical Support',
+      'Webhosting',
+      'Freelancer',
+      'Linux',
+      'Infrastructure',
+    ],
+  },
+  {
     name: 'Steven W. Buehler',
     description:
       'Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.',
