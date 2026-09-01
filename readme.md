@@ -302,6 +302,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Seagyn Davis](https://www.seagyndavis.com/uses) — Full stack human. Hobby runner. Mainly a husband and dad.
 * [Hayden Kowalchuk](https://haydenkowalchuk.github.io/blog/#/uses) — Dreamcast and PSP enthusiast and gamedev.
 * [Simon Smale](https://github.com/SSmale/uses) — Full Stack Developer and beginner digital gardener
+* [Jonathan Conway](https://conwy.co/uses) — Full stack developer and designer. Broad interests. Always learning and growing
 * [Anand Reddy Pandikunta](https://avilpage.com/uses.html) — Writer, Blogger & Day dreamer.
 * [Amolith](https://secluded.site/uses/) — Musician, developer, sysadmin, co-host of the Linux Lads, small business owner, and founder of not-for-profit NixNet
 * [Ayush Gupta](https://ayushgupta.tech/uses/) — React & React Native developer, passionate photographer, technical writer and occasionaly designer.

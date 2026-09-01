@@ -6972,7 +6972,8 @@ module.exports = [
   },
   {
     name: 'Jonathan Conway',
-    description: 'Full stack developer and designer. Broad interests. Always learning and growing',
+    description:
+      'Full stack developer and designer. Broad interests. Always learning and growing',
     url: 'https://conwy.co/uses',
     twitter: '@conw_y',
     emoji: '😎',
