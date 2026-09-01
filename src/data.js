@@ -14309,8 +14309,7 @@ module.exports = [
   },
   {
     name: 'Neal Wang',
-    description:
-      'Aspiring distributed systems engineer',
+    description: 'Aspiring distributed systems engineer',
     url: 'https://nealwang.dev/uses',
     emoji: '🐬',
     country: '🇺🇸',

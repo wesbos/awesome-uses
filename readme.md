@@ -631,6 +631,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Wojciech M. Wnuk](https://lanius.dev/uses) — Magento developer, Linux and FOSS enthusiast.
 * [Joshua Baker](https://www.joshuabaker.com/uses) — Software engineer, designer, and entrepreneur.
 * [Leonardo Melo](https://www.leomeloxp.dev/uses) — Full stack web developer. Typescript lover, always learning new stuff.
+* [Neal Wang](https://nealwang.dev/uses) — Aspiring distributed systems engineer
 * [Leonardo Rifeli](https://rifeli.dev/uses/) — Software Developer & Data Engineer specializing in scalable data pipelines, cloud infrastructure, and AI-driven solutions. Passionate about resilient systems and empowering teams.
 * [Gabriel Wilkes](https://azul.technology/uses/) — Full-stack developer who loves learning new things, American 10 years in Japan, soon back to the US
 * [Rémi Weng](https://creativedesignsguru.com/uses/) — A Full Stack JS developer using React, Next JS and Tailwind CSS. Netlify, Serverless and AWS for the backend.
