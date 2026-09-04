@@ -49,6 +49,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
 * [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic Adviser
 * [Sachin Kukreja](https://sachinkukreja.dev/uses) — Full-stack engineer learning, applying and transforming softwares
+* [Sameer Bajaj](https://sameerbajaj.com/uses) — Staff / Principal Product Manager & Software Engineer building developer tooling, AI agent systems, and productivity workflows.
 * [Guilherme Albert](https://guilhermealbert.com/uses) — Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.
 * [tekphloyd](https://tekphloyd.com/uses) — MuleSoft Integration Architect
 * [Omid Farhang](https://omid.dev/uses/) — Frontend Architect & Engineering Lead
