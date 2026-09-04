@@ -471,7 +471,7 @@ module.exports = [
       'API-as-a-Product',
       'API Management',
       'API Gateway',
-      'Anypoint Platform'
+      'Anypoint Platform',
     ],
   },
   {
