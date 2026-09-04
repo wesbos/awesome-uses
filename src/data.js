@@ -427,6 +427,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Sameer Bajaj',
+    description:
+      'Staff / Principal Product Manager & Software Engineer building developer tooling, AI agent systems, and productivity workflows.',
+    url: 'https://sameerbajaj.com/uses',
+    country: '🇺🇸',
+    twitter: '@sameerbajaj',
+    emoji: '⚡',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Product Manager',
+      'Software Engineer',
+      'AI Agents',
+      'macOS',
+      'Claude',
+      'TypeScript',
+      'Python',
+      'Jekyll',
+      'SwiftUI',
+      'Notion',
+    ],
+  },
+  {
     name: 'Guilherme Albert',
     description:
       'Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.',
