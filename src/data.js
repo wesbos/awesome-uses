@@ -9864,9 +9864,9 @@ module.exports = [
   {
     name: 'Ryan Winkler',
     description:
-      'I use Linux, work with AI, and run a fair bit of my own software.',
+      'Product Manager in Dublin, Ireland. I use Linux, work with AI, and run a fair bit of my own software.',
     url: 'https://ryanw.eu/uses/',
-    emoji: '🐧',
+    emoji: '⚡',
     country: '🇮🇪',
     computer: 'linux',
     phone: 'android',
@@ -9874,6 +9874,7 @@ module.exports = [
     mastodon: '@ryanw@ryanw.eu',
     bluesky: 'ryanw.eu',
     tags: [
+      'Product Manager',
       'AI',
       'Claude Code',
       'Linux',
@@ -9881,7 +9882,7 @@ module.exports = [
       'Self-Hosted',
       'Home Assistant',
       'Automation',
-      'Product',
+      'Obsidian',
       'VS Code',
       'Open Source',
     ],
