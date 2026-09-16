@@ -21797,7 +21797,7 @@ module.exports = [
   },
   {
     name: 'Evan Travers',
-    description: 'Writes code, hunts bugs, and breathes perfume.',
+    description: "I'm a grace-saved sinner that types a lot. I like to tell stories and make tools.",
     url: 'https://evantravers.com/uses/',
     twitter: '@evantravers',
     emoji: '🙏',
