@@ -282,6 +282,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Melanie Kat](https://melkat.blog/p/uses) — Silly front-end engineer (she/her)
 * [Dale Larroder](https://www.dalelarroder.com/uses) — Software Engineer, React, TypeScript and Mechanical Keyboards!
 * [Salma Alam-Naylor](https://whitep4nth3r.com/uses) — I write code for your entertainment.
+* [Jed Arden](https://jedarden.com/uses/) — Bare-metal dev box reached only over Tailscale, agent fleets in tmux, and GitOps on spot-priced Kubernetes.
 * [Luke Oliff](https://lukeocodes.dev/uses) — I am a seasoned Developer Experience Engineer with a rich background in Software Development.
 * [Kevin Lewis](https://lws.io/blog/uses) — I am a developer relations person who loves community and education. Brit in Germany.
 * [Bill Sullivan](https://billsullivan.name/uses/) — Engineering Manager, Senior Engineer, Novice Streamer, and Occasional Entrepreneur
