@@ -653,6 +653,30 @@ module.exports = [
       'Indieweb',
     ],
   },
+  {
+    name: 'Alex Polonsky',
+    description:
+      'Builder and product marketer interested in technology and culture.',
+    url: 'https://alexpolonsky.com/uses/',
+    country: '🇮🇱',
+    emoji: '🛠️',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@alexpo',
+    tags: [
+      'Builder',
+      'Product Marketing',
+      'AI',
+      'Automation',
+      'Astro',
+      'Cloudflare',
+      'Obsidian',
+      'Raycast',
+      'Ghostty',
+      'Self Hosting',
+      'Music',
+    ],
+  },
 
   {
     name: 'Thamara Kandabada',
