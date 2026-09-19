@@ -59,6 +59,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Djamel Bougouffa](https://djamel-bougouffa.com/uses) — Full-Stack Software Engineer specializing in TypeScript, Rust, RAG and agentic AI workflows
 * [Mara Masaeva](https://messier-systems.vercel.app/uses) — AI engineer, electronic music producer & writer. Building production AI systems, MCP servers, and generative sound.
 * [Ethan Plant](https://ethanplant.ca/uses) — Software engineer working on cloud infrastructure. Writing about digital ownership.
+* [Alex Polonsky](https://alexpolonsky.com/uses/) — Builder and product marketer interested in technology and culture.
 * [Thamara Kandabada](https://thamara.co.uk/uses) — Generalist & Tinkerer. Internet person.
 * [Nishil Kapadia](https://www.nish7.io/uses) — Software Engineer -- building compilers and backend tools.
 * [Sahil Kapoor](https://sahilkapoor.com/uses) — Founder & product engineer building AI, gaming, sports tech, and consumer products.
