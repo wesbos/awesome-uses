@@ -6489,6 +6489,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Jed Arden',
+    description:
+      'Bare-metal dev box reached only over Tailscale, agent fleets in tmux, and GitOps on spot-priced Kubernetes.',
+    url: 'https://jedarden.com/uses/',
+    country: '🇺🇸',
+    emoji: '🤖',
+    computer: 'windows',
+    phone: 'android',
+    twitter: '@jedardencodes',
+    tags: [
+      'Agent Fleets',
+      'Rust',
+      'Kubernetes',
+      'GitOps',
+      'Tailscale',
+      'Self-Hosting',
+      'tmux',
+      'Claude Code',
+      'ArgoCD',
+      'Forgejo',
+      'Astro',
+    ],
+  },
+  {
     name: 'Luke Oliff',
     description:
       'I am a seasoned Developer Experience Engineer with a rich background in Software Development.',
