@@ -10016,6 +10016,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Hoang Nguyen',
+    description:
+      'YAML Engineer. Functional programming and self-hosting enthusiast.',
+    url: 'https://www.folliehiyuki.com/misc/uses',
+    emoji: '🐬',
+    country: '🇻🇳',
+    mastodon: '@folliehiyuki@fosstodon.org',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'SRE',
+      'DevOps',
+      'Sysadmin',
+      'OpenStack',
+      'Kubernetes',
+      'PostgreSQL',
+      'Open Source',
+      'Bazel',
+      'Deno',
+      'Nix',
+      'a11y',
+    ],
+  },
+  {
     name: 'Kristof Zerbe',
     description:
       'Passionate software developer for almost 30 years and currently a tech-savvy IT manager',
