@@ -435,6 +435,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jakub T. Jankiewicz](https://jakub.jankiewicz.org/uses/) — Front-End Developer, Blogger, Teacher, Mentor, and Open Source programmer
 * [Lucas Schumacher](https://aceto.dev/uses) — Fullstack Developer, IoT & DIY Enthusiast
 * [Christian Lohr](https://blog.bytewerk.io/uses/) — Passionate Software Engineer & Life Long Learner
+* [Hoang Nguyen](https://www.folliehiyuki.com/misc/uses) — YAML Engineer. Functional programming and self-hosting enthusiast.
 * [Kristof Zerbe](https://kiko.io/uses) — Passionate software developer for almost 30 years and currently a tech-savvy IT manager
 * [Jonas Jore](https://github.com/JonasJore/dotfiles/blob/master/uses-tech.md) — Fullstack Developer, Problemsolving, coffee and fancy terminaltricks!
 * [Marko Haberl](https://marko-haberl.com/uses) — Fullstack Developer
