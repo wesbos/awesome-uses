@@ -12103,15 +12103,7 @@ module.exports = [
     country: '🇪🇺',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'DevOps',
-      '11ty',
-      'Rust',
-      'SRE',
-      'CSS',
-      'Kubernetes',
-      'Security',
-    ],
+    tags: ['DevOps', '11ty', 'Rust', 'SRE', 'CSS', 'Kubernetes', 'Security'],
   },
   {
     name: 'James Peilow',
