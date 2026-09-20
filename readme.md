@@ -776,7 +776,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Marcos Mendes](https://marcosmendes.eu:2053/uses) — Technical Support Engineer, Systems Administrator, Fullstack Developer, Raspberry Pi tinker
 * [Steven van Loef](https://steven.vanloef.com/uses) — Web Developer, App Developer
 * [Brendon van Zanten](https://brendonvanzanten.com/uses) — Web Developer
-* [Richard Zilahi](https://gist.github.com/zilahir/4aaf5907999ea53711b2d554d22b0f3f) — Full stack developer, pug enthusiast, dying for pizza
 * [Duncan McClean](https://duncanmcclean.com/uses) — Web Developer from Glasgow, Scotland. Laravel, Statamic & Tailwind CSS
 * [Matthew Rebehn](https://mattaz.com/uses) — Proud Dad and Developer
 * [Terry Dontje](https://gist.github.com/tddontje/50e88b03eb56cbe5705ed2c7354d8f54) — Backend developer with a HPC parallel computing background. BBQ Lover and homebrewer.
