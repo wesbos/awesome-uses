@@ -310,6 +310,15 @@ module.exports = [
     ],
   },
   {
+    name: 'sundei',
+    description: 'clicking circles, running osu! tournaments, and breaking my own website.',
+    url: 'https://sundei.ee/uses',
+    country: '🇪🇪',
+    emoji: '⭕',
+    computer: 'windows',
+    tags: ['osu!', 'Svelte', 'SvelteKit', 'TypeScript', 'Tailwind CSS', 'Vercel', 'MySQL'],
+  },
+  {
     name: 'Adis Klobodanovic',
     description:
       'Full-stack developer fokusiran na Next.js, React i SaaS proizvode',
