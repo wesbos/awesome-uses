@@ -6710,7 +6710,7 @@ module.exports = [
     description:
       'Australian-Japanese software engineer and blogger',
     url: 'https://www.emgoto.com/uses/',
-    bluesky: 'https://bsky.app/profile/emmago.to',
+    bluesky: 'emmago.to',
     emoji: '🗻',
     country: '🇯🇵',
     computer: 'mac',
