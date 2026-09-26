@@ -6713,7 +6713,7 @@ module.exports = [
     bluesky: 'emmago.to',
     emoji: '🗻',
     country: '🇯🇵',
-    computer: 'mac',
+    computer: 'apple',
     phone: 'apple',
     tags: [
       'Blogger',
