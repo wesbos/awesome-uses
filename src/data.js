@@ -18167,17 +18167,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Juanito Fatas',
-    description: 'Program Tinker 🧙🏼‍♂️',
-    url: 'https://juanitofatas.com/uses',
-    twitter: '@juanitofatas',
-    emoji: '🐻',
-    country: '🇯🇵',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: ['Think', 'Apply'],
-  },
-  {
     name: 'Krzysztof Żuraw',
     description: 'Developer, nerd, co-organizer, chemex lover',
     url: 'https://krzysztofzuraw.com/uses',
