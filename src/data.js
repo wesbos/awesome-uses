@@ -6706,6 +6706,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Emma Goto',
+    description:
+      'Australian-Japanese software engineer and blogger',
+    url: 'https://www.emgoto.com/uses/',
+    bluesky: 'https://bsky.app/profile/emmago.to',
+    emoji: '🗻',
+    country: '🇯🇵',
+    computer: 'mac',
+    phone: 'apple',
+    tags: [
+      'Blogger',
+      'Frontend',
+      'React',
+      'Astro'
+    ],
+  },
+  {
     name: 'Joseph Jude',
     description: 'CTO | Podcast Host | Indie Developer | Homeschooling Dad',
     url: 'https://jjude.com/uses/',
