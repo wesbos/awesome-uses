@@ -805,7 +805,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Quentin Laffont](https://uses.qlaffont.com) — Full Stack JS Developer, Tournament Organiser, Video-Game lover
 * [Quan Tong](https://quantonganh.com/uses) — Software Engineer, DevOps Engineer, Traveller, Street photography lover
 * [Erv Walter](https://ewal.dev/uses) — Father, Husband, Web Developer, Board Game Addict
-* [Juanito Fatas](https://juanitofatas.com/uses) — Program Tinker 🧙🏼‍♂️
 * [Krzysztof Żuraw](https://krzysztofzuraw.com/uses) — Developer, nerd, co-organizer, chemex lover
 * [Julio Lozovei](https://jlozovei.dev/uses) — Front-end bugs developer, writer/speaker and amateur musician from Brazil 🤘
 * [David Leuliette](https://davidl.fr/uses) — Freelance React Native developer and bootcamp instructor specializing in cross-platform application.
