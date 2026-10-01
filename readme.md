@@ -292,6 +292,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dominik Gallitzendörfer](https://nharox.com/uses) — Front‑end developer with a focus on UI/UX. Loves CSS and is addicted to Tetris.
 * [Andrej Gajdos](https://andrejgajdos.com/uses/) — Startup CTO | Tech Lead | Software Architect | Dev
 * [Emmanuel Gautier](https://www.emmanuelgautier.com/uses) — Solution Architect & Fullstack Developer living in France. Tech enthusiast and Data Lover.
+* [Emma Goto](https://www.emgoto.com/uses/) — Australian-Japanese software engineer and blogger
 * [Joseph Jude](https://jjude.com/uses/) — CTO | Podcast Host | Indie Developer | Homeschooling Dad
 * [Mahesh Rijal](https://maheshrijal.com/uses) — Human, Troubleshooter, Amateur Swimmer, Reader
 * [Alan Redzepagic](https://alanred.me/uses) — Front-end development, web native, tech enthusiast

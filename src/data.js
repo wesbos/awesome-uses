@@ -6725,20 +6725,14 @@ module.exports = [
   },
   {
     name: 'Emma Goto',
-    description:
-      'Australian-Japanese software engineer and blogger',
+    description: 'Australian-Japanese software engineer and blogger',
     url: 'https://www.emgoto.com/uses/',
     bluesky: 'emmago.to',
     emoji: '🗻',
     country: '🇯🇵',
     computer: 'apple',
     phone: 'iphone',
-    tags: [
-      'Blogger',
-      'Frontend',
-      'React',
-      'Astro'
-    ],
+    tags: ['Blogger', 'Frontend', 'React', 'Astro'],
   },
   {
     name: 'Joseph Jude',
