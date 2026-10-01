@@ -13442,7 +13442,7 @@ module.exports = [
   {
     name: 'Marco Casini',
     description:
-      'DevOps|Cloud|SRE engineer with a strong passion for opensource and digital rights.Cinema, Reading, Motorbike',
+      'DevOps|Cloud|SRE engineer with a strong passion for opensource, digital rights, cinema, reading and adventures',
     url: 'https://www.casinesque.me/uses',
     country: '🇮🇹',
     emoji: '🕶️🧑‍💻📚🏍️🎶',
