@@ -10808,26 +10808,6 @@ module.exports = [
     ],
   },
   {
-    name: 'Travis Luong',
-    description: 'Full Stack Developer',
-    url: 'https://www.travisluong.com/uses',
-    twitter: '@TravisLuong',
-    emoji: '🤖',
-    country: '🇺🇸',
-    computer: 'apple',
-    phone: 'iphone',
-    tags: [
-      'JavaScript',
-      'Developer',
-      'React',
-      'Full Stack',
-      'Node.js',
-      'DevOps',
-      'Docker',
-      'SQL',
-    ],
-  },
-  {
     name: 'Hunter Weitzman',
     description:
       'Builder, founder, writer. Runs HunterMorris. Publishes Almost Something',
