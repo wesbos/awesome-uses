@@ -10044,7 +10044,7 @@ module.exports = [
   {
     name: 'Rajveer Singh',
     description:
-      'Software engineer in New Delhi building AI products end to end, from the interface to the infra.',
+      'Software engineer building AI products end to end. Live voice rooms, Stripe billing, agents, and a site you can fish in with your phone.',
     url: 'https://rajveers.com/uses',
     twitter: '@RajveeerrSingh',
     emoji: '🎣',
@@ -10059,7 +10059,7 @@ module.exports = [
       'React',
       'Next.js',
       'Node.js',
-      'WebGL',
+      'AI',
       'WebRTC',
       'AWS',
     ],
