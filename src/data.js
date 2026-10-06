@@ -13467,6 +13467,29 @@ module.exports = [
     ],
   },
   {
+    name: 'Marco Casini',
+    description:
+      'DevOps|Cloud|SRE engineer with a strong passion for opensource, digital rights, cinema, reading and adventures',
+    url: 'https://www.casinesque.me/uses',
+    country: '🇮🇹',
+    emoji: '🕶️🧑‍💻📚🏍️🎶',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'DevOps',
+      'Linux',
+      'Infrastructure',
+      'Kubernetes',
+      'Proxmox',
+      'Cloud',
+      'Helm',
+      'Gitlab',
+      'Terraform',
+      'Opensource',
+      'Selfhosting'
+    ],
+  },
+  {
     name: 'Danilo Barion Nogueira',
     description:
       'Father, developer, blog writer, classical guitar player and searching for the meaning of life!',
