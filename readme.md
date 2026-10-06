@@ -484,6 +484,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jibin Thomas](https://jibin.tech/uses) — Front-End Developer & Casual Blogger. CSS, Javascript & React
 * [Michael Rolfsen](https://boldandfriendly.de/uses) — Designer and Front-of-the-Front-End Dev. I suck at guitar.
 * [Michael Read](https://www.michaelcread.com/uses) — Full Stack Web Developer.
+* [Max Bonnefin](https://bonnef.in/uses) — Senior back-end software engineer in Chesterfield, England.
 * [João Pescada](https://joaopescada.com/uses) — Technologist and Consultant for web apps
 * [Tetri Mesquita](https://tetri.net/uses) — Software Architect, specialist in Full Stack C#, innovator in Technology for Agribusiness
 * [Pedro Filho](https://pedroapfilho.com/uses) — Product engineer. Usually working in crypto, but always learning something new.

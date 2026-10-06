@@ -11010,8 +11010,7 @@ module.exports = [
   },
   {
     name: 'Max Bonnefin',
-    description:
-      'Senior back-end software engineer in Chesterfield, England.',
+    description: 'Senior back-end software engineer in Chesterfield, England.',
     url: 'https://bonnef.in/uses',
     country: '🇬🇧',
     emoji: '🤘',
