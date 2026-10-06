@@ -205,6 +205,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Manish Gole Tamang',
+    description:
+      'Full Stack Web Developer from Nepal',
+    url: 'https://manishtamang.com/uses',
+    emoji: '🤙',
+    country: '🇳🇵',
+    computer: 'windows',
+    phone: 'android',
+    twitter: '@Manishtamangxyz',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'TailwindCSS',
+      'Rust',
+      'Freelancer',
+      'AI',
+    ],
+  },
+  {
     name: 'Maxime Blaise',
     description: 'AI Native Product Designer',
     url: 'https://maximeblaise.fr/uses',
