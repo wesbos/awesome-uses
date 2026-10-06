@@ -474,7 +474,6 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dhanish Gajjar](https://dhanishgajjar.com/uses) — Developer
 * [Ricardo Morais](https://ricardomorais.dev/uses) — Senior Front-end Developer, Software Engineer @ Nextbitt
 * [Aditya Thebe](https://www.adityathebe.com/uses) — 💻 Full Stack Developer with an interest in bitcoins and blockchain.
-* [Travis Luong](https://www.travisluong.com/uses) — Full Stack Developer
 * [Hunter Weitzman](https://hunterweitzman.com/uses) — Builder, founder, writer. Runs HunterMorris. Publishes Almost Something
 * [Andrew Minga](https://andrewminga.com/uses) — IT leader building free browser tools and AI automation for MSP operations
 * [Michal Kolacek](https://michalkolacek.xyz/uses) — Analytics Engineer
