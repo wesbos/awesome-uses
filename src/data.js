@@ -206,8 +206,7 @@ module.exports = [
   },
   {
     name: 'Manish Gole Tamang',
-    description:
-      'Full Stack Web Developer from Nepal',
+    description: 'Full Stack Web Developer from Nepal',
     url: 'https://manishtamang.com/uses',
     emoji: '🤙',
     country: '🇳🇵',

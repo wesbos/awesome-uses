@@ -39,6 +39,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
+* [Manish Gole Tamang](https://manishtamang.com/uses) — Full Stack Web Developer from Nepal
 * [Maxime Blaise](https://maximeblaise.fr/uses) — AI Native Product Designer
 * [Raúl Jiménez Ortega](https://www.rauljimenez.info/uses) — Helping developers and communities share geospatial technology, open knowledge, and useful tools in public.
 * [Thxie](https://thxie.com/about#uses) — AI Enthusiast | Minimalist | Post-Language Programmer, 🤩 Just for fun!
