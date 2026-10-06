@@ -13446,7 +13446,7 @@ module.exports = [
     url: 'https://www.casinesque.me/uses',
     country: '🇮🇹',
     emoji: '🕶️🧑‍💻📚🏍️🎶',
-    computer: 'Linux',
+    computer: 'linux',
     phone: 'android',
     tags: [
       'DevOps',
@@ -13458,8 +13458,8 @@ module.exports = [
       'Helm',
       'Gitlab',
       'Terraform',
-      'opensource',
-      'selfhosting'
+      'Opensource',
+      'Selfhosting'
     ],
   },
   {
