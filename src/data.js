@@ -13486,7 +13486,7 @@ module.exports = [
       'Gitlab',
       'Terraform',
       'Opensource',
-      'Selfhosting'
+      'Selfhosting',
     ],
   },
   {

@@ -590,6 +590,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Alexis Janvier](https://alexisjanvier.net/uses/) — Web Developer, Open Source Contributor, Community Organizer, Proud Dad, Grateful Lover.
 * [Sumanth](https://mynameissumanth.netlify.app/uses.html) — Student. Learning web development
 * [Christian Leo-Pernold](https://mazedlx.net/uses) — Dad. Husband. BBQ Enthusiast. Full-Stack-Developer.
+* [Marco Casini](https://www.casinesque.me/uses) — DevOps|Cloud|SRE engineer with a strong passion for opensource, digital rights, cinema, reading and adventures
 * [Danilo Barion Nogueira](https://danilobarion1986.github.io/uses) — Father, developer, blog writer, classical guitar player and searching for the meaning of life!
 * [Chris Otto](https://chrisotto.dev/uses/) — Software engineer. I enjoy JavaScript, DevOps and Testing.
 * [James Quick](https://jamesqquick.com/uses) — Developer Advocate Engineer at @auth0 and content creator
