@@ -223,6 +223,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Paweł Cisło](https://pawelcislo.com/uses/) — MLOps Engineer & PKM freak
 * [Robb Knight](https://rknight.me/uses) — Developer, Podcaster, Lego Builder, Cat Owner
 * [Riley](https://riley-uses.netlify.app/) — Software Developer
+* [Phillip Lovelace](https://pixelflips.com/uses) — Senior UX Developer focused on design systems, UX engineering, and UI design.
 * [Ryan Freeman](https://ryanfreeman.dev/uses) — Full-stack software engineer from Dublin, Ireland
 * [Ivan Malopinsky](https://imsky.co/uses) — Entrepreneur, engineer
 * [Murendeni Mukwevho](https://mukwevhom.xyz/uses) — Software Developer breaking the bias in South Africa
