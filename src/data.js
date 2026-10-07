@@ -24,6 +24,30 @@
  */
 module.exports = [
   {
+    name: 'Sai Charan Munur',
+    description:
+      'I am a student developer learning backend systems. I build tools and apps to solve my own problems, love contributing to open source, have a keen eye for detail, and love cooking.',
+    url: 'https://charanmunur.com/uses',
+    twitter: '@CharanMunur',
+    emoji: '♾️',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Spring Boot',
+      'Go',
+      'React',
+      'Next.js',
+      'TypeScript',
+      'Zed',
+      'Bun',
+      'Tailwind',
+      'Ubuntu',
+      'Linux',
+      'Fullstack',
+    ],
+  },
+  {
     name: 'Dzubayyan Ahmad',
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
