@@ -47,8 +47,8 @@ module.exports = [
   name: 'Built By Pete',
   description: 'Tech, Networking, Smart Home, DIY & Maker project enthusiast',
   url: 'https://builtbypete.net/uses',
-  country: 'GB',
-  computer: 'windows, linux',
+  country: '🇬🇧',
+  computer: 'windows',
   tags: [
     'Developer',
     'maker',
