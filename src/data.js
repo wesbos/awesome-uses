@@ -44,6 +44,22 @@ module.exports = [
     ],
   },
   {
+  name: 'Built By Pete',
+  description: 'Tech, Networking, Smart Home, DIY & Maker project enthusiast',
+  url: 'https://builtbypete.net/uses',
+  country: '🇬🇧',
+  computer: 'windows',
+  tags: [
+    'Developer',
+    'maker',
+    'youtube',
+    'hardware',
+    'smart home',
+    'solar',
+    'DIY enthusiast',
+  ],
+},
+  {
     name: 'Steven W. Buehler',
     description:
       'Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.',
