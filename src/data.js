@@ -4147,6 +4147,21 @@ module.exports = [
     ],
   },
   {
+    name: 'Nour Agha',
+    description: 'Computer engineer and software developer',
+    url: 'https://agha.dev/uses',
+    mastodon: '@Nour@fosstodon.org',
+    bluesky: 'agha.dev',
+    emoji: '👨🏻‍💻',
+    country: '🇱🇧',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Developer',
+      'Engineer',
+    ],
+  },
+  {
     name: 'Donavon West',
     description: 'Spread Love {...❤️}',
     url: 'https://donavon.com/uses',
