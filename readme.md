@@ -52,7 +52,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Phuc Bui](https://phucbm.com/uses) — Creative Frontend Engineer. I create things for designers and developers, usually open source.
 * [Luke Haas](https://lukehaas.me/uses) — Software developer, tinkerer
 * [Loic Leray](https://www.loicleray.com/uses) — Veterinarian turned CRUD-monkey and tech sales guy. Extreme sports enthusiast.
-* [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic Adviser
+* [Hayo Bethlehem](https://hayobethlehem.nl/about/uses) — Strategic adviser on digital government in the Netherlands.
 * [Sachin Kukreja](https://sachinkukreja.dev/uses) — Full-stack engineer learning, applying and transforming softwares
 * [Sameer Bajaj](https://sameerbajaj.com/uses) — Staff / Principal Product Manager & Software Engineer building developer tooling, AI agent systems, and productivity workflows.
 * [Guilherme Albert](https://guilhermealbert.com/uses) — Tech Lead & Full Stack Engineer. Product-minded, hands-on, and entrepreneur.
