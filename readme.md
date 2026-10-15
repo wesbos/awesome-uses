@@ -615,6 +615,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Timo Furrer](https://furrer.life/~timo/uses.html) — Open Source enthusiast. Linux, Vim and coffee lover
 * [Elmar Klausmeier](https://eklausmeier.goip.de/aux/uses) — Developer and blogger, data center management
 * [Joel M. Turner](https://joelmturner.com/uses) — Mostly Front-End Dev, some back end
+* [Darryl Hein](https://www.darrylhein.com/uses) — Web developer in Calgary, building Symfony apps and Craft CMS sites.
 * [Matt Jennings](https://mattjennings.io/uses) — web dev, hockey | tradebreaker.io
 * [Syed Fazil](https://syedfazil.dev/uses) — Software / InfoSec Engineer from Bengaluru, India
 * [Jake Jarvis](https://jarv.is/uses/) — Front-End Web Developer, Teacher, Cat Dad, World Wide Web Surfer 🏄
