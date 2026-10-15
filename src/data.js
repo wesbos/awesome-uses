@@ -15834,6 +15834,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Nick George',
+    description:
+      'AI agents, workflow automation and MCP servers for owner-run businesses. Building fieldtwin, open-source twins of the Jobber and QuickBooks APIs.',
+    url: 'https://nickgeorgeai.com/uses',
+    country: '🇺🇸',
+    computer: 'apple',
+    tags: [
+      'TypeScript',
+      'Next.js',
+      'React',
+      'Node.js',
+      'Hono',
+      'Python',
+      'MCP',
+      'AI Agents',
+      'Tailwind CSS',
+      'GitHub Actions',
+      'Google Cloud',
+      'Docker',
+    ],
+  },
+  {
     name: 'Thomas Hunter II',
     description:
       'Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.',
