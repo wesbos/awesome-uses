@@ -15840,6 +15840,7 @@ module.exports = [
     url: 'https://nickgeorgeai.com/uses',
     country: '🇺🇸',
     computer: 'apple',
+    twitter: '@NickgeorgeSEO',
     tags: [
       'TypeScript',
       'Next.js',
