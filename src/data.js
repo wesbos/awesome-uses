@@ -21860,6 +21860,31 @@ module.exports = [
     ],
   },
   {
+    name: 'Simon Erkelens',
+    description:
+      'Software Engineer, Autist, Tinkerer. All kinds of things.',
+    url: 'https://firesphere.dev/uses',
+    country: '🇳🇿',
+    emoji: '🐮',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software',
+      'Autistic',
+      'Arch Linux',
+      'Atheist',
+      'Python',
+      'Linux',
+      'Firefox',
+      'Docker',
+      'Raspberry Pi',
+      'Open Source',
+      'KDE',
+      'Retrogames',
+      'Playstation'
+    ],
+  },
+  {
     name: 'Will Adams',
     twitter: '@bushblade',
     description: 'UK developer and knife maker',
