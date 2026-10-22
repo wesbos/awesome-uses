@@ -919,7 +919,7 @@ module.exports = [
       'PostgreSQL',
       'Testing',
       'CI/CD',
-      'Zsh'
+      'Zsh',
     ],
   },
   {
