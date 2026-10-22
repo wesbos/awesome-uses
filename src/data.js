@@ -899,6 +899,30 @@ module.exports = [
     ],
   },
   {
+    name: 'Luca Lischetti',
+    description:
+      "Ciao! I'm another fellow developer, cook, hiker, dungeon crawler, and maker of things.",
+    url: 'https://sirlisko.com/uses',
+    country: '🇮🇹',
+    emoji: '👹',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'TypeScript',
+      'Node.js',
+      'React',
+      'Next.js',
+      'Astro',
+      'Full Stack',
+      'Accessibility',
+      'IndieWeb',
+      'PostgreSQL',
+      'Testing',
+      'CI/CD',
+      'Zsh'
+    ],
+  },
+  {
     name: 'Jared Rigby',
     description: 'Creative technologist and indie game developer.',
     url: 'https://jaredrigby.co.uk/uses/',
