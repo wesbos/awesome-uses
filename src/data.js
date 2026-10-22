@@ -4166,10 +4166,7 @@ module.exports = [
     country: '🇱🇧',
     computer: 'linux',
     phone: 'android',
-    tags: [
-      'Developer',
-      'Engineer',
-    ],
+    tags: ['Developer', 'Engineer'],
   },
   {
     name: 'Donavon West',

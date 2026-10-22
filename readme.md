@@ -190,6 +190,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ignatius Bagus](https://mauss.dev/uses) — Software Alchemist
 * [Bob Reus](https://bobre.us/uses) — DevOps Engineer, eBook producer, Freediver, Buddhist
 * [Alex Stepankov](https://xeurun.dev/uses/) — Team Lead • Senior Developer • Creator
+* [Nour Agha](https://agha.dev/uses) — Computer engineer and software developer
 * [Donavon West](https://donavon.com/uses) — Spread Love {...❤️}
 * [Noah](https://mazepin.ch/uses) — Swiss + Sysamdin
 * [Jesse Idey](https://jesse.id/uses) — DevOps Engineer and Full Stack Developer
