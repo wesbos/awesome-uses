@@ -718,6 +718,27 @@ module.exports = [
     ],
   },
   {
+    name: 'Benbxyz',
+    description:
+      'Software engineer for 20+ years, now mostly managing a team of AI agents. Outdoors and 80s synth enthusiast.',
+    url: 'https://benbxyz.com/uses',
+    country: '🇬🇧',
+    emoji: '💽',
+    computer: 'linux',
+    phone: 'iphone',
+    twitter: '@benbxyz',
+    tags: [
+      'Software Engineer',
+      'Full Stack',
+      'TypeScript',
+      'AI',
+      'Machine Learning',
+      'Automation',
+      'Linux',
+      'Maker',
+    ],
+  },
+  {
     name: 'Alex Polonsky',
     description:
       'Builder and product marketer interested in technology and culture.',
