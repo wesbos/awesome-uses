@@ -12979,6 +12979,26 @@ module.exports = [
     ],
   },
   {
+    name: 'Zubin Khavarian',
+    description:
+      'Software engineer building learning apps and 3D games for the web and iOS.',
+    url: 'https://zubin.dev/uses/',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@zkmake',
+    tags: [
+      'TypeScript',
+      'React',
+      'three.js',
+      'SwiftUI',
+      'Astro',
+      'Bun',
+      'Claude Code',
+      'WebStorm',
+    ],
+  },
+  {
     name: 'Eric Raslich',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
