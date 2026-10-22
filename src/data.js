@@ -24,6 +24,27 @@
  */
 module.exports = [
   {
+    name: 'Benbxyz',
+    description:
+      'Software engineer for 20+ years, now mostly managing a team of AI agents. Outdoors and 80s synth enthusiast.',
+    url: 'https://benbxyz.com/uses',
+    country: '🇬🇧',
+    emoji: '💽',
+    computer: 'linux',
+    phone: 'iphone',
+    twitter: '@benbxyz',
+    tags: [
+      'Software Engineer',
+      'Full Stack',
+      'TypeScript',
+      'AI',
+      'Machine Learning',
+      'Automation',
+      'Linux',
+      'Maker'
+    ],
+  },
+  {
     name: 'Dzubayyan Ahmad',
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
