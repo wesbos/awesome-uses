@@ -41,7 +41,7 @@ module.exports = [
       'Machine Learning',
       'Automation',
       'Linux',
-      'Maker'
+      'Maker',
     ],
   },
   {
