@@ -701,6 +701,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Jason Raimondi](https://jasonraimondi.com/uses) — Full Stack Developer
 * [Marco Kamner](https://marco.ninja/uses) — Pragmatic DevOps Engineer & Indie Hacker
 * [Glyn Normington](https://underlap.org/uses) — Retired software developer, ex-visiting lecturer, IETF editor.
+* [Nick George](https://nickgeorgeai.com/uses) — AI agents, workflow automation and MCP servers for owner-run businesses. Building fieldtwin, open-source twins of the Jobber and QuickBooks APIs.
 * [Thomas Hunter II](https://thomashunter.name/uses) — Node.js developer with a thing for distributed systems. Co-organizer of NodeSchool SF. Game developer.
 * [Martin Marcucci](https://www.marku.me/page/uses/) — Computer Engineer, Professor. Full-stack Go/React, Kubernetes homelaber. Less gamer and more dad 👪.
 * [Andrew McCombe](https://www.euperia.com/uses) — Experienced full stack web developer with a passion for testing.
