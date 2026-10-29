@@ -9231,6 +9231,15 @@ module.exports = [
     tags: ['Python', 'NeuroAI', 'BCI'],
   },
   {
+    name: 'Konrad Wright',
+    description: 'Senior DevOps engineer making specialized tools for people with problems, then scaling them to many users.',
+    url: 'https://wrightfunctions.com/uses',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: ['DevOps', 'Go', 'Swift', 'TypeScript', 'Hugo', 'Cloudflare', 'AWS', 'Neovim', 'Ghostty', 'Claude'],
+  },
+  {
     name: 'Sean Coker',
     description: 'Creator & Thinker. Sometimes simultaneously.',
     url: 'https://sean.is/using',
