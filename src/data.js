@@ -24,6 +24,28 @@
  */
 module.exports = [
   {
+    name: 'Emiliano White',
+    description: 'Builder of small web products. My setup, one pick per slot, each rated 1–3.',
+    url: 'https://thebestinslot.com/setup',
+    twitter: '@emilianooo',
+    emoji: '🎮',
+    country: '🇺🇸',
+    computer: 'windows',
+    phone: 'iphone',
+    tags: ['Developer', 'Entrepreneur', 'Next.js'],
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
     name: 'Dzubayyan Ahmad',
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
