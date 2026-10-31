@@ -11580,6 +11580,26 @@ module.exports = [
     tags: ['Developer', 'Golang', 'Blogger', 'Web', 'Linux', 'Remote'],
   },
   {
+    name: 'Rob Gill',
+    description: 'Designer, design leader and co-founder of Provius.',
+    url: 'https://rob-gill.co.uk/uses',
+    twitter: '@rob_gill_',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Product Design',
+      'Design Leadership',
+      'UX',
+      'UI',
+      'Figma',
+      'Cursor',
+      'Claude',
+      'Astro',
+    ],
+  },
+  {
     name: 'Mykolas Krupauskas',
     description:
       'A passionate software developer that helps people create value with technology.',
