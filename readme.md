@@ -969,6 +969,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Ferdinand Linnenberg](https://linnenberg.dev/uses) — Backend Developer and Open Source Enthusiast
 * [orangc](https://orangc.net/uses) — A student, developer, weeb, and bookworm.
 * [lohtei](https://lohtei.nekoweb.org/uses) — Actually your cat
+* [Simon Erkelens](https://firesphere.dev/uses) — Software Engineer, Autist, Tinkerer. All kinds of things.
 * [Will Adams](https://willadams.dev/uses) — UK developer and knife maker
 * [That MLOps Guy](https://thatmlopsguy.github.io/uses/) — Portuguese machine learning engineer
 * [Hiran Venugopalan](https://hiran.in/uses) — A tinkerer who loves building things. Product Designer. Into PKM and Digital Garden. 

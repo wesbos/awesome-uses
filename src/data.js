@@ -21884,8 +21884,7 @@ module.exports = [
   },
   {
     name: 'Simon Erkelens',
-    description:
-      'Software Engineer, Autist, Tinkerer. All kinds of things.',
+    description: 'Software Engineer, Autist, Tinkerer. All kinds of things.',
     url: 'https://firesphere.dev/uses',
     country: '🇳🇿',
     emoji: '🐮',
@@ -21904,7 +21903,7 @@ module.exports = [
       'Open Source',
       'KDE',
       'Retrogames',
-      'Playstation'
+      'Playstation',
     ],
   },
   {
