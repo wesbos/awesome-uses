@@ -24,6 +24,26 @@
  */
 module.exports = [
   {
+    name: 'Yorben Vander Sleyen',
+    description:
+      'Native macOS and Swift engineer building minimalist HUD systems, productivity tools, and typographic UI.',
+    url: 'https://yorben.me/uses.html',
+    country: '🇧🇪',
+    emoji: '⚡️',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@Yvsleyen00941',
+    tags: [
+      'macOS',
+      'Swift',
+      'SwiftUI',
+      'Xcode',
+      'Raycast',
+      'Figma',
+      'Homebrew',
+    ],
+  },
+  {
     name: 'Dzubayyan Ahmad',
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
