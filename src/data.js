@@ -45,7 +45,6 @@ module.exports = [
   },
   {
     name: 'Dzubayyan Ahmad',
-
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
     url: 'https://masdzub.com/uses',
