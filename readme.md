@@ -383,6 +383,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mads Hartmann](https://www.mads-hartmann.com/uses) — Product Engineer located in Denmark currently working at Ona
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
+* [Afaq Rashid](https://www.afaqrashid.com/uses) — Full-stack developer building for the web with Next.js, React and TypeScript.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://zlatanstajic.com/uses) — Senior Backend Engineer PHP & Laravel
 * [Guillaume Briday](https://guillaumebriday.fr/uses) — Senior Full Stack developer and DevOps
