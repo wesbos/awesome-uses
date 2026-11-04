@@ -8758,6 +8758,26 @@ module.exports = [
     tags: ['Ansible', 'DevOps', 'Docker', 'Linux', 'Sysadmin'],
   },
   {
+    name: 'Afaq Rashid',
+    description:
+      'Full-stack developer building for the web with Next.js, React and TypeScript.',
+    url: 'https://www.afaqrashid.com/uses',
+    country: '🇵🇰',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'GraphQL',
+      'Full Stack',
+      'Developer',
+      'VS Code',
+    ],
+  },
+  {
     name: 'Swapnil Agarwal',
     description:
       'Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader',
