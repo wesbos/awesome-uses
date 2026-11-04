@@ -30,6 +30,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 # Awesome Uses ![Awesome][awesome-badge]
 
+* [Yorben Vander Sleyen](https://yorben.me/uses.html) — Native macOS and Swift engineer building minimalist HUD systems, productivity tools, and typographic UI.
 * [Dzubayyan Ahmad](https://masdzub.com/uses) — Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.
 * [Built By Pete](https://builtbypete.net/uses) — Tech, Networking, Smart Home, DIY & Maker project enthusiast
 * [Steven W. Buehler](https://swb72.us/uses) — Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.
