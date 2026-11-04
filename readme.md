@@ -510,6 +510,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Teo Ruiz](https://teoruiz.com/uses/) — 20 years an engineer. CTO. Entrepreneur.
 * [Shubham Battoo](https://shubhambattoo.in/uses) — Software Engineer focused on Web Technologies from India.
 * [Chris Smith](https://chameth.com/uses) — Software engineer, tinkerer, and yak shaver.
+* [Rob Gill](https://rob-gill.co.uk/uses) — Designer, design leader and co-founder of Provius.
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [João Vitor Zaniolo](https://jvzaniolo.vercel.app/uses/) — Front-end developer, gamer and tech enthusiast.
 * [Renan Winter Spatin](https://renanspatin.com/uses) — Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.
