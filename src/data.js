@@ -34,17 +34,26 @@ module.exports = [
     phone: 'iphone',
     tags: ['Developer', 'Entrepreneur', 'Next.js'],
   },
-
-
-
-
-
-
-
-
-
-
-
+  {
+    name: 'Yorben Vander Sleyen',
+    description:
+      'Native macOS and Swift engineer building minimalist HUD systems, productivity tools, and typographic UI.',
+    url: 'https://yorben.me/uses.html',
+    country: '🇧🇪',
+    emoji: '⚡️',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@Yvsleyen00941',
+    tags: [
+      'macOS',
+      'Swift',
+      'SwiftUI',
+      'Xcode',
+      'Raycast',
+      'Figma',
+      'Homebrew',
+    ],
+  },
   {
     name: 'Dzubayyan Ahmad',
     description:
@@ -737,6 +746,27 @@ module.exports = [
       'Digital sovereignty',
       'Policy',
       'Indieweb',
+    ],
+  },
+  {
+    name: 'Benbxyz',
+    description:
+      'Software engineer for 20+ years, now mostly managing a team of AI agents. Outdoors and 80s synth enthusiast.',
+    url: 'https://benbxyz.com/uses',
+    country: '🇬🇧',
+    emoji: '💽',
+    computer: 'linux',
+    phone: 'iphone',
+    twitter: '@benbxyz',
+    tags: [
+      'Software Engineer',
+      'Full Stack',
+      'TypeScript',
+      'AI',
+      'Machine Learning',
+      'Automation',
+      'Linux',
+      'Maker',
     ],
   },
   {
@@ -8759,6 +8789,26 @@ module.exports = [
     tags: ['Ansible', 'DevOps', 'Docker', 'Linux', 'Sysadmin'],
   },
   {
+    name: 'Afaq Rashid',
+    description:
+      'Full-stack developer building for the web with Next.js, React and TypeScript.',
+    url: 'https://www.afaqrashid.com/uses',
+    country: '🇵🇰',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Node.js',
+      'GraphQL',
+      'Full Stack',
+      'Developer',
+      'VS Code',
+    ],
+  },
+  {
     name: 'Swapnil Agarwal',
     description:
       'Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader',
@@ -9251,6 +9301,27 @@ module.exports = [
     phone: 'iphone',
     twitter: '@bkowshik',
     tags: ['Python', 'NeuroAI', 'BCI'],
+  },
+  {
+    name: 'Konrad Wright',
+    description:
+      'Senior DevOps engineer making specialized tools for people with problems, then scaling them to many users.',
+    url: 'https://wrightfunctions.com/uses',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'DevOps',
+      'Go',
+      'Swift',
+      'TypeScript',
+      'Hugo',
+      'Cloudflare',
+      'AWS',
+      'Neovim',
+      'Ghostty',
+      'Claude',
+    ],
   },
   {
     name: 'Sean Coker',
@@ -11581,6 +11652,26 @@ module.exports = [
     tags: ['Developer', 'Golang', 'Blogger', 'Web', 'Linux', 'Remote'],
   },
   {
+    name: 'Rob Gill',
+    description: 'Designer, design leader and co-founder of Provius.',
+    url: 'https://rob-gill.co.uk/uses',
+    twitter: '@rob_gill_',
+    country: '🇬🇧',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Designer',
+      'Product Design',
+      'Design Leadership',
+      'UX',
+      'UI',
+      'Figma',
+      'Cursor',
+      'Claude',
+      'Astro',
+    ],
+  },
+  {
     name: 'Mykolas Krupauskas',
     description:
       'A passionate software developer that helps people create value with technology.',
@@ -13022,6 +13113,26 @@ module.exports = [
       'Redux',
       'HTML',
       'CSS',
+    ],
+  },
+  {
+    name: 'Zubin Khavarian',
+    description:
+      'Software engineer building learning apps and 3D games for the web and iOS.',
+    url: 'https://zubin.dev/uses/',
+    country: '🇺🇸',
+    computer: 'apple',
+    phone: 'iphone',
+    twitter: '@zkmake',
+    tags: [
+      'TypeScript',
+      'React',
+      'three.js',
+      'SwiftUI',
+      'Astro',
+      'Bun',
+      'Claude Code',
+      'WebStorm',
     ],
   },
   {
@@ -21902,6 +22013,30 @@ module.exports = [
       'Self taught',
       'VSCodium',
       'Zsh',
+    ],
+  },
+  {
+    name: 'Simon Erkelens',
+    description: 'Software Engineer, Autist, Tinkerer. All kinds of things.',
+    url: 'https://firesphere.dev/uses',
+    country: '🇳🇿',
+    emoji: '🐮',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Software',
+      'Autistic',
+      'Arch Linux',
+      'Atheist',
+      'Python',
+      'Linux',
+      'Firefox',
+      'Docker',
+      'Raspberry Pi',
+      'Open Source',
+      'KDE',
+      'Retrogames',
+      'Playstation',
     ],
   },
   {
