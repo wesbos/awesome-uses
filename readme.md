@@ -41,6 +41,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hasse Ramlev Wilson](https://notes.ramlev.com/uses/) — Code - run - sleep ... Coffee
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
+* [Kamal Hosen](https://kamalhosen.com/uses/) — Full-stack developer and product builder working across SaaS, web applications, WordPress, and developer tools.
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Manish Gole Tamang](https://manishtamang.com/uses) — Full Stack Web Developer from Nepal
 * [Maxime Blaise](https://maximeblaise.fr/uses) — AI Native Product Designer
