@@ -25,7 +25,8 @@
 module.exports = [
   {
     name: 'Emiliano White',
-    description: 'Builder of small web products. My setup, one pick per slot, each rated 1–3.',
+    description:
+      'Builder of small web products. My setup, one pick per slot, each rated 1–3.',
     url: 'https://thebestinslot.com/setup',
     twitter: '@emilianooo',
     emoji: '🎮',
