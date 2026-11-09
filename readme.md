@@ -29,7 +29,10 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 ```
 
 # Awesome Uses ![Awesome][awesome-badge]
+- [Yorben Vandersleyen](https://yorben.me/#needle) - Indie macOS software developer building Tape and Needle.
 
+* [Emiliano White](https://thebestinslot.com/setup) — Builder of small web products. My setup, one pick per slot, each rated 1–3.
+* [Yorben Vander Sleyen](https://yorben.me/uses.html) — Native macOS and Swift engineer building minimalist HUD systems, productivity tools, and typographic UI.
 * [Dzubayyan Ahmad](https://masdzub.com/uses) — Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.
 * [Built By Pete](https://builtbypete.net/uses) — Tech, Networking, Smart Home, DIY & Maker project enthusiast
 * [Steven W. Buehler](https://swb72.us/uses) — Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.
@@ -39,6 +42,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Hasse Ramlev Wilson](https://notes.ramlev.com/uses/) — Code - run - sleep ... Coffee
 * [David M. Coleman](https://www.nookwerks.com/uses) — Writer & blogger based outside Austin, TX.
 * [Adam Greenough](http://adamgreenough.net/uses/) — Freelance web designer, developer & WordPress expert from the UK
+* [Kamal Hosen](https://kamalhosen.com/uses/) — Full-stack developer and product builder working across SaaS, web applications, WordPress, and developer tools.
 * [Berat Bozkurt ](https://beratbozkurt.net/en/uses) — Frontend developer living in Turkey. Currently building mobile apps, indie hacker
 * [Manish Gole Tamang](https://manishtamang.com/uses) — Full Stack Web Developer from Nepal
 * [Maxime Blaise](https://maximeblaise.fr/uses) — AI Native Product Designer
@@ -383,6 +387,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Mads Hartmann](https://www.mads-hartmann.com/uses) — Product Engineer located in Denmark currently working at Ona
 * [Camille Hodoul](https://camillehdl.dev/uses/) — Remote fullstack developer, mostly Javascript & PHP
 * [Diogo Ferreira](https://diogoferreira.pt/uses) — Linux System Administrator and DevOps aficionado. Sometimes I write on the internet.
+* [Afaq Rashid](https://www.afaqrashid.com/uses) — Full-stack developer building for the web with Next.js, React and TypeScript.
 * [Swapnil Agarwal](https://swapnil.net/uses/) — Software Developer turned Product Manager turned Product Designer | INFP | Avid Reader
 * [Zlatan Stajic](https://zlatanstajic.com/uses) — Senior Backend Engineer PHP & Laravel
 * [Guillaume Briday](https://guillaumebriday.fr/uses) — Senior Full Stack developer and DevOps
@@ -406,6 +411,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dylan Sheffer](https://www.dylansheffer.com/posts/uses/) — Web Developer. A11y Advocate. Tea Enthusiast.
 * [Matías Hernández](https://github.com/matiasfh/uses) — Frontend Engineer, Podcaster, Father, Calisthenic Athlete
 * [Bhargav Kowshik](https://bkowshik.in/uses/) — Engineer learning neuroscience and machine learning.
+* [Konrad Wright](https://wrightfunctions.com/uses) — Senior DevOps engineer making specialized tools for people with problems, then scaling them to many users.
 * [Sean Coker](https://sean.is/using) — Creator & Thinker. Sometimes simultaneously.
 * [Michael Bonner](https://michaelbonner.dev/uses) — Full stack JavaScript and PHP developer in Salt Lake City, USA
 * [Mark Nenadov](https://github.com/MarkNenadov/uses) — Full stack developer in the deep south of Canada (LaSalle, Ontario)
@@ -509,6 +515,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Teo Ruiz](https://teoruiz.com/uses/) — 20 years an engineer. CTO. Entrepreneur.
 * [Shubham Battoo](https://shubhambattoo.in/uses) — Software Engineer focused on Web Technologies from India.
 * [Chris Smith](https://chameth.com/uses) — Software engineer, tinkerer, and yak shaver.
+* [Rob Gill](https://rob-gill.co.uk/uses) — Designer, design leader and co-founder of Provius.
 * [Mykolas Krupauskas](https://mkrup.com/uses) — A passionate software developer that helps people create value with technology.
 * [João Vitor Zaniolo](https://jvzaniolo.vercel.app/uses/) — Front-end developer, gamer and tech enthusiast.
 * [Renan Winter Spatin](https://renanspatin.com/uses) — Senior Software Engineer and Tech Lead building distributed financial systems on .NET and cloud. Transfero, ex-BTG Pactual, ex-Thomson Reuters. BJJ blue belt, cat dad, biochip carrier. Instagram @rwspatin · photography @rwinterlens.
