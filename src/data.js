@@ -16332,7 +16332,7 @@ module.exports = [
   },
     {
     name: 'Sam Rose',
-    description: 'Desginer & Engineer',
+    description: 'Designer & Engineer',
     url: 'https://samrose.me/uses',
     twitter: '@sam_b_rose',
     bluesky: 'sam-b-rose.bsky.social',
