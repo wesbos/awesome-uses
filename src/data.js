@@ -1011,6 +1011,14 @@ module.exports = [
     ],
   },
   {
+    name: 'Joshua Morris',
+    description: 'Software engineer, writer, and open-web enthusiast.',
+    url: 'https://joshuamorris.info/uses/',
+    country: '🇺🇸',
+    computer: 'apple',
+    tags: ['React', 'Next.js', 'Tailwind CSS', 'Node.js', 'Zed', 'Vim'],
+  },
+  {
     name: 'Jared Rigby',
     description: 'Creative technologist and indie game developer.',
     url: 'https://jaredrigby.co.uk/uses/',
