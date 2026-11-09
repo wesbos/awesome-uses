@@ -75,6 +75,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Tony Dehnke 🇨🇦](https://tonydehnke.com/uses/) — Digital nomad & non-technical founder running a business from a backpack with Apple Vision Pro as a virtual display
 * [Shreya Sawardekar](https://shreya-sawardekar.github.io/uses/) — Technical Lead, Front-End Developer from Goa.
 * [Luca Lischetti](https://sirlisko.com/uses) — Ciao! I'm another fellow developer, cook, hiker, dungeon crawler, and maker of things.
+* [Joshua Morris](https://joshuamorris.info/uses/) — Software engineer, writer, and open-web enthusiast.
 * [Jared Rigby](https://jaredrigby.co.uk/uses/) — Creative technologist and indie game developer.
 * [Daniel Marcinkowski](https://meetdaniel.me/uses/) — A multi-disciplinary tech professional.
 * [Piers Olenski](https://www.piersolenski.com/uses) — Technical Lead, Front-End Developer and Vim Enthusiast from London.
