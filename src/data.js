@@ -2606,7 +2606,7 @@ module.exports = [
       'Remote',
     ],
   },
-    {
+  {
     name: 'Ed Stuurman',
     description:
       'Infrastructure & Reliability Engineer in Tokyo, Japan. Single-box Proxmox VE homelab with native ZFS, split-horizon DNS, WireGuard cloud bridge, and self-hosted stack.',
