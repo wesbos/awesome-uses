@@ -16330,7 +16330,7 @@ module.exports = [
       'VS Code',
     ],
   },
-    {
+  {
     name: 'Sam Rose',
     description: 'Designer & Engineer',
     url: 'https://samrose.me/uses',
