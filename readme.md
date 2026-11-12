@@ -185,7 +185,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Dietrich Wambach](https://dietrichw.gitlab.io/blogfolio/uses) — Full Stack, Embedded, SRE, Python, Linux, Runner, Yoyoer
 * [Angel Cruz](https://angelcruz.dev/uses) — SR Backend (PHP / Laravel / WordPress) developer.
 * [Mina Markham](https://mina.codes/uses) — Engineer, designer, and design systems enthusiast.
-* [Saiful Alam Rakib](https://msar.me/uses) — Laravel and React developer and Technology enthusiast
+* [Saiful Alam Rakib](https://msar.me/uses) — Senior Software Engineer & Builder (FDE)
 * [Sophie Koonin](https://localghost.dev/uses) — Web developer, conference speaker, dog botherer
 * [Brandon Lim](https://justbrandonlim.com/uses) — Software Engineer based in Singapore
 * [Tim Bachmann](https://tiim.ch/pages/uses) — Software Engineer from Switzerland, currently working on one of my way too many side projects.
