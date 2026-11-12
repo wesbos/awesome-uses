@@ -3965,7 +3965,7 @@ module.exports = [
   },
   {
     name: 'Saiful Alam Rakib',
-    description: 'Laravel and React developer and Technology enthusiast',
+    description: 'Senior Software Engineer & Builder (FDE)',
     url: 'https://msar.me/uses',
     country: '🇧🇩',
     twitter: '@4msar',
@@ -3977,7 +3977,8 @@ module.exports = [
       'Laravel',
       'Typescript',
       'NodeJs',
-      'Backend',
+      'FDE',
+      'SSE',
       'Next.js',
       'React',
       'Frontend',
