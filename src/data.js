@@ -8732,6 +8732,33 @@ module.exports = [
     ],
   },
   {
+    name: "Alain Di Chiappari",
+    description:
+      "Software Engineer, aka alainrk on the web. I do software, bread, food, books, bugs.",
+    url: "https://alaindichiappari.dev/uses",
+    twitter: "@_alainrk_",
+    emoji: "💾",
+    country: "🇮🇹",
+    computer: "apple",
+    phone: "pixel",
+    tags: [
+      "Software Engineer",
+      "Backend",
+      "DevX",
+      "Distributed Architectures",
+      "Go",
+      "C",
+      "TypeScript",
+      "Python",
+      "Neovim",
+      "tmux",
+      "Ghostty",
+      "Kubernetes",
+      "Split Keyboard",
+      "Notwerking",
+    ],
+  },
+  {
     name: 'Matt Gregg',
     description:
       'Front end software engineer. Baker. Woodworker. Musician. Nerd.',
