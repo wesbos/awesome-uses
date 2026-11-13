@@ -8740,7 +8740,7 @@ module.exports = [
     emoji: "💾",
     country: "🇮🇹",
     computer: "apple",
-    phone: "pixel",
+    phone: "android",
     tags: [
       "Software Engineer",
       "Backend",
