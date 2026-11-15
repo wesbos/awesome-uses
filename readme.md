@@ -32,6 +32,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 
 * [Emiliano White](https://thebestinslot.com/setup) — Builder of small web products. My setup, one pick per slot, each rated 1–3.
 * [Yorben Vander Sleyen](https://yorben.me/uses.html) — Native macOS and Swift engineer building minimalist HUD systems, productivity tools, and typographic UI.
+* [Dou](https://educatedkanak.de/uses/) — Writing about migration and discrimination in Germany. Free, open-source and self-hostable tools behind the blog.
 * [Dzubayyan Ahmad](https://masdzub.com/uses) — Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.
 * [Built By Pete](https://builtbypete.net/uses) — Tech, Networking, Smart Home, DIY & Maker project enthusiast
 * [Steven W. Buehler](https://swb72.us/uses) — Gloriously awkward 50-something. Reporting Administrator/Developer. Musician. Disney World Junkie.

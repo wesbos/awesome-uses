@@ -65,7 +65,15 @@ module.exports = [
     emoji: '✍️',
     country: '🇩🇪',
     computer: 'linux',
-    tags: ['Ghost', 'Nextcloud', 'Joplin', 'Zotero', 'Firefox', 'Linux Mint', 'FOSS'],
+    tags: [
+      'Ghost',
+      'Nextcloud',
+      'Joplin',
+      'Zotero',
+      'Firefox',
+      'Linux Mint',
+      'FOSS',
+    ],
   },
   {
     name: 'Dzubayyan Ahmad',
