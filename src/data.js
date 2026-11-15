@@ -11007,6 +11007,7 @@ module.exports = [
     description:
       'Backend-focused software engineer with 3+ years of experience building web applications, APIs, and automation systems.',
     url: 'https://arifislam.me/uses',
+    twitter: '@arifislam_me',
     country: '🇧🇩',
     computer: 'linux',
     tags: [
