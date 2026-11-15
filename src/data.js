@@ -7305,6 +7305,28 @@ module.exports = [
     ],
   },
   {
+    name: 'Arif Islam',
+    description:
+      'Backend-focused software engineer with 3+ years of experience building web applications, APIs, and automation systems.',
+    url: 'https://arifislam.me/uses',
+    twitter: '@arifislam_me',
+    country: '🇧🇩',
+    computer: 'linux',
+    tags: [
+      'Developer',
+      'Backend',
+      'Linux',
+      'Ubuntu',
+      'VS Code',
+      'Zed',
+      'Claude Code',
+      'Codex',
+      'Obsidian',
+      'Docker',
+      'Git',
+    ],
+  },
+  {
     name: 'Marcin Dyguda',
     description:
       'Head of Engineering, Entrepreneur-wannabe, product leader and team builder at heart',
