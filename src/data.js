@@ -56,6 +56,18 @@ module.exports = [
     ],
   },
   {
+    name: 'Dou',
+    description:
+      'Writing about migration and discrimination in Germany. Free, open-source and self-hostable tools behind the blog.',
+    url: 'https://educatedkanak.de/uses/',
+    mastodon: '@douuuu@mastodon.social',
+    bluesky: 'doguu.bsky.social',
+    emoji: '✍️',
+    country: '🇩🇪',
+    computer: 'linux',
+    tags: ['Ghost', 'Nextcloud', 'Joplin', 'Zotero', 'Firefox', 'Linux Mint', 'FOSS'],
+  },
+  {
     name: 'Dzubayyan Ahmad',
     description:
       'Building reliable, scalable infrastructure and solving complex technical challenges with automation and monitoring.',
