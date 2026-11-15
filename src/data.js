@@ -11003,6 +11003,27 @@ module.exports = [
     tags: ['Backend', 'Blogger', 'Engineer', 'Python', 'Rust'],
   },
   {
+    name: 'Arif Islam',
+    description:
+      'Backend-focused software engineer with 3+ years of experience building web applications, APIs, and automation systems.',
+    url: 'https://arifislam.me/uses',
+    country: '🇧🇩',
+    computer: 'linux',
+    tags: [
+      'Developer',
+      'Backend',
+      'Linux',
+      'Ubuntu',
+      'VS Code',
+      'Zed',
+      'Claude Code',
+      'Codex',
+      'Obsidian',
+      'Docker',
+      'Git',
+    ],
+  },
+  {
     name: 'Elijah Rwothoromo',
     description: 'Software Developer, Poet, code and play!',
     url: 'https://rwothoromo.wordpress.com/2020/05/29/uses/',
