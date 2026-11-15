@@ -27,7 +27,7 @@ module.exports = [
     name: 'Sai Charan Munur',
     description:
       'I am a student developer learning backend systems. I build tools and apps to solve my own problems, love contributing to open source, have a keen eye for detail, and love cooking.',
-    url: 'https://charanmunur.com/uses',
+    url: 'https://charanmunur.in/uses',
     twitter: '@CharanMunur',
     emoji: '♾️',
     country: '🇮🇳',
