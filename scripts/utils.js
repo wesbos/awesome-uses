@@ -1,54 +1,91 @@
-const exec = require('@actions/exec');
+/* eslint-disable @typescript-eslint/no-var-requires */
 const core = require('@actions/core');
-const github = require('@actions/github');
 const Joi = require('joi');
+const fs = require('fs');
 const http = require('http');
 const https = require('https');
+const path = require('path');
+const ts = require('typescript');
 const flags = require('./flags.js');
 
-async function getCurrentBranchName() {
-  let myOutput = '';
-  let myError = '';
-
-  const options = {
-    silent: true,
-    listeners: {
-      stdout: (data) => (myOutput += data.toString()),
-      stderr: (data) => (myError += data.toString()),
-    },
-  };
-
-  await exec.exec('git rev-parse --abbrev-ref HEAD', [], options);
-  return myOutput.trim();
-}
-
-/** on master branch will return an empty array */
-module.exports.getMasterData = async function () {
-  const options = { silent: true };
-  const curentBranchName = await getCurrentBranchName();
-  // when on a branch/PR different from master
-  // will populate scripts/masterData.js with src/data.js from master
-  if (curentBranchName !== 'master') {
-    core.info('Executing action on branch different from master');
-    await exec.exec('mv src/data.js src/tmpData.js', [], options);
-    await exec.exec('git fetch origin master', [], options);
-    await exec.exec('git restore --source=FETCH_HEAD src/data.js', [], options);
-    await exec.exec('mv src/data.js scripts/masterData.js', [], options);
-    await exec.exec('mv src/tmpData.js src/data.js', [], options);
-  } else {
-    core.info('Executing action on master branch');
+/* eslint-disable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
+module.exports.parseDataSource = function (source) {
+  const file = ts.createSourceFile(
+    'data.js',
+    source,
+    ts.ScriptTarget.Latest,
+    true,
+    ts.ScriptKind.JS
+  );
+  if (file.parseDiagnostics.length || file.statements.length !== 1) {
+    throw new Error(
+      'Contributor data must contain one module.exports assignment'
+    );
   }
 
-  // eslint-disable-next-line global-require
-  const masterData = require('./masterData.js');
-
-  // restore `scripts/masterData.js` after was loaded
-  if (curentBranchName !== 'master') {
-    await exec.exec('git restore scripts/masterData.js', [], options);
+  const statement = file.statements[0];
+  const assignment = statement.expression;
+  if (
+    !ts.isExpressionStatement(statement) ||
+    !ts.isBinaryExpression(assignment) ||
+    assignment.operatorToken.kind !== ts.SyntaxKind.EqualsToken ||
+    !ts.isPropertyAccessExpression(assignment.left) ||
+    !ts.isIdentifier(assignment.left.expression) ||
+    assignment.left.expression.text !== 'module' ||
+    assignment.left.name.text !== 'exports'
+  ) {
+    throw new Error('Contributor data must assign an array to module.exports');
   }
 
-  return masterData;
+  function literal(node) {
+    if (ts.isStringLiteral(node) || ts.isNoSubstitutionTemplateLiteral(node))
+      return node.text;
+    if (ts.isNumericLiteral(node)) return Number(node.text);
+    if (node.kind === ts.SyntaxKind.TrueKeyword) return true;
+    if (node.kind === ts.SyntaxKind.FalseKeyword) return false;
+    if (node.kind === ts.SyntaxKind.NullKeyword) return null;
+    if (ts.isArrayLiteralExpression(node)) return node.elements.map(literal);
+    if (ts.isObjectLiteralExpression(node)) {
+      const value = Object.create(null);
+      for (const property of node.properties) {
+        if (
+          !ts.isPropertyAssignment(property) ||
+          (!ts.isIdentifier(property.name) &&
+            !ts.isStringLiteral(property.name))
+        ) {
+          throw new Error(
+            'Contributor data may contain only literal properties'
+          );
+        }
+        value[property.name.text] = literal(property.initializer);
+      }
+      return value;
+    }
+    throw new Error('Contributor data may contain only literal values');
+  }
+
+  const data = literal(assignment.right);
+  if (!Array.isArray(data))
+    throw new Error('Contributor data must be an array');
+  return data;
 };
+
+module.exports.getMasterData = function () {
+  return module.exports.parseDataSource(fs.readFileSync('src/data.js', 'utf8'));
+};
+
+module.exports.readCandidateData = function (filePath) {
+  if (
+    fs.realpathSync(filePath) !== path.resolve(filePath) ||
+    !fs.lstatSync(filePath).isFile()
+  ) {
+    throw new Error(
+      'Contributor data must be a regular file without symlinked parents'
+    );
+  }
+  return module.exports.parseDataSource(fs.readFileSync(filePath, 'utf8'));
+};
+/* eslint-enable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
 
 module.exports.Schema = Joi.object({
   name: Joi.string().required(),
@@ -98,8 +135,6 @@ module.exports.getStatusCode = function (url) {
   });
 };
 
-// If there are errors, will fail the action & add a comment detailing the issues
-// If there are no errors, will leave an "all-clear" comment with relevant URLs (to ease a potential manual check)
 module.exports.communicateValidationOutcome = async function (
   errors,
   failedUrls,
@@ -123,21 +158,5 @@ module.exports.communicateValidationOutcome = async function (
     ].join('\n');
   }
 
-  const { GITHUB_TOKEN } = process.env;
-  const { context } = github;
-  if (!GITHUB_TOKEN || !context.payload.pull_request) {
-    core.error(
-      'Cannot add a comment if GITHUB_TOKEN or context.payload.pull_request is not set'
-    );
-    core.info(`Comment contents:\n${comment}`);
-  }
-  // TODO: Re-enable a way to comment on PRs that tests passed.
-  // const pullRequestNumber = context.payload.pull_request.number;
-
-  // const octokit = new github.getOctokit(GITHUB_TOKEN);
-  // await octokit.rest.pulls.createReviewComment({
-  //   ...context.repo,
-  //   pullRequestNumber,
-  //   body: comment,
-  // });
+  core.info(`Validation results:\n${comment}`);
 };
