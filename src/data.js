@@ -16003,6 +16003,27 @@ module.exports = [
     tags: ['Designer', 'Front End', 'Sass', 'CSS', 'Gatsby', 'JavaScript'],
   },
   {
+    name: 'Laura Esteves',
+    description:
+      'Staff Backend Engineer and Tech Lead from Brazil. Go, TypeScript, AWS and LLM products. Writer and cat lover.',
+    url: 'https://lauraesteves.com/uses',
+    twitter: '@lauralesteves',
+    emoji: '🐈',
+    country: '🇧🇷',
+    computer: 'apple',
+    phone: 'iphone',
+    tags: [
+      'Backend',
+      'Go',
+      'TypeScript',
+      'Node.js',
+      'AWS',
+      'LLM',
+      'Hugo',
+      'Claude Code',
+    ],
+  },
+  {
     name: 'Aaron Dunphy',
     description: 'Full Stack Developer, Coffee Lover and Photo Taker',
     url: 'https://aarondunphy.com/uses',
