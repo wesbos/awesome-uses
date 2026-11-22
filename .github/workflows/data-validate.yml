@@ -1,7 +1,7 @@
 name: Validate data.js
 
 on:
-  pull_request_target:
+  pull_request:
     paths: src/data.js
 
 permissions:
