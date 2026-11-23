@@ -707,6 +707,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Sahilpreet Singh](https://github.com/preetsahil/uses) — MERN stack developer, Leaning Devops, Web Enthusiast.
 * [Thomas Jensen](https://blog.cavelab.dev/uses/) — I like electronics and computers — and my wife and three kids.
 * [David Perkins](https://prkns.me/uses) — Dad, Designer, Developer, Dave, Keyboard enthusiast
+* [Laura Esteves](https://lauraesteves.com/uses) — Staff Backend Engineer and Tech Lead from Brazil. Go, TypeScript, AWS and LLM products. Writer and cat lover.
 * [Aaron Dunphy](https://aarondunphy.com/uses) — Full Stack Developer, Coffee Lover and Photo Taker
 * [Jan Durkaj](https://jandurkaj.dev/uses) — Web developer, adventurer, and amateur photographer
 * [Cory Forsythe](https://coryforsythe.com/uses) — Software Manager, Cloud Architect, Python and JS guy
