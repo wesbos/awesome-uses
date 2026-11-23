@@ -11734,6 +11734,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Mathieu Mari',
+    description:
+      'Freelance web developer in Isère, France: custom software, AI agents and websites for small businesses.',
+    url: 'https://www.mathieumari.com/uses',
+    twitter: '@MathieuMariWeb',
+    country: '🇫🇷',
+    computer: 'windows',
+    tags: [
+      'Developer',
+      'Freelancer',
+      'AI',
+      'Claude Code',
+      'VS Code',
+      'Cursor',
+      'GitHub',
+    ],
+  },
+  {
     name: 'Aris Ripandi',
     description: 'Software engineer & educator. Open Source enthusiast.',
     url: 'https://ripandis.com/uses',
