@@ -585,6 +585,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Bojan Bedrač](https://www.improvebadcode.com/uses) — Coding the future, one line of code at a time.
 * [Yannick Le Roux](https://yannickleroux.com/uses) — Second career web dev, French living in San Diego, retired DJ.
 * [Zubin Khavarian](https://zubin.dev/uses/) — Software engineer building learning apps and 3D games for the web and iOS.
+* [Jacob Winters](https://jacobwinters.com/uses) — Obscure programming language enthusiast. Web dev trying to remove more lines than I add. I blog in handwritten XHTML and you can't stop me.
 * [Eric Raslich](https://ericraslich.com/uses) — Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.
 * [Sagar Soni](https://sagarsoni.dev/uses/) — Full Stack JS, PHP and WordPress Developer in day. Android & Linux enthusiast by night
 * [Paulo Regina](https://pauloregina.com/uses.html) — Full Stack Web Developer
