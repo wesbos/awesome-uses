@@ -13323,6 +13323,24 @@ module.exports = [
     ],
   },
   {
+    name: 'Jacob Winters',
+    description:
+      "Obscure programming language enthusiast. Web dev trying to remove more lines than I add. I blog in handwritten XHTML and you can't stop me.",
+    url: 'https://jacobwinters.com/uses',
+    emoji: '⍩',
+    country: '🇺🇸',
+    computer: 'linux',
+    phone: 'android',
+    tags: [
+      'Web Developer',
+      'Blogger',
+      'NixOS',
+      'Firefox',
+      'Remote',
+      'Minimalist',
+    ],
+  },
+  {
     name: 'Eric Raslich',
     description:
       'Boat captain, web developer, marine biologist, solving science and communication problems with web technologies.',
