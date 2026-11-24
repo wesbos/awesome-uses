@@ -516,6 +516,7 @@ This readme is auto-generated from the data.js file, so please don't PR this fil
 * [Michael Vivirito](https://michaelvivirito.com/uses) — SRE and homelab tinkerer running FreeBSD, NixOS, and Proxmox. Self-hosted everything, local LLMs on a GPU-passthrough VM, and a Telegram-driven Obsidian second brain.
 * [Helen Chong](https://helenchong.dev/uses) — Graphic designer turned web and software developer based in Malaysia.
 * [Julian Stark](https://julianstark.de/uses) — WordPress Web Developer & Entrepreneur
+* [Mathieu Mari](https://www.mathieumari.com/uses) — Freelance web developer in Isère, France: custom software, AI agents and websites for small businesses.
 * [Aris Ripandi](https://ripandis.com/uses) — Software engineer & educator. Open Source enthusiast.
 * [Teo Ruiz](https://teoruiz.com/uses/) — 20 years an engineer. CTO. Entrepreneur.
 * [Shubham Battoo](https://shubhambattoo.in/uses) — Software Engineer focused on Web Technologies from India.
