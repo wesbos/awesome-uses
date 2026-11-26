@@ -15051,6 +15051,25 @@ module.exports = [
     ],
   },
   {
+    name: 'Akhyar Amarullah',
+    description:
+      'Software Engineer based in Yogyakarta, Indonesia. Working on infrastructure, developer tooling, and systems.',
+    url: 'https://akhy.dev/uses',
+    country: '🇮🇩',
+    emoji: '🐔',
+    twitter: '@akhy',
+    mastodon: '@akhy@mstdn.io',
+    computer: 'apple',
+    phone: 'android',
+    tags: [
+      'Software Engineer',
+      'DevOps',
+      'Backend',
+      'Linux',
+      'Go',
+    ],
+  },
+  {
     name: 'Joshua Baker',
     description: 'Software engineer, designer, and entrepreneur.',
     url: 'https://www.joshuabaker.com/uses',
