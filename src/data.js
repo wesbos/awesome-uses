@@ -15061,13 +15061,7 @@ module.exports = [
     mastodon: '@akhy@mstdn.io',
     computer: 'apple',
     phone: 'android',
-    tags: [
-      'Software Engineer',
-      'DevOps',
-      'Backend',
-      'Linux',
-      'Go',
-    ],
+    tags: ['Software Engineer', 'DevOps', 'Backend', 'Linux', 'Go'],
   },
   {
     name: 'Joshua Baker',
