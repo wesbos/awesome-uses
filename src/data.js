@@ -1512,6 +1512,23 @@ module.exports = [
     ],
   },
   {
+    name: 'Dilip',
+    description: 'Developer, Tinkerer and Learner',
+    url: 'https://idlip.in/uses/',
+    emoji: '🧭',
+    country: '🇮🇳',
+    computer: 'linux',
+    phone: 'android',
+    mastodon: '@idlip@fosstodon.org',
+    tags: [
+      'Developer',
+      'Emacs',
+      'Org-mode',
+      'NixOS',
+      'Software Engineer',
+    ],
+  },
+  {
     name: 'Joshua Blais',
     description:
       'Developer and writer pursuing technological mastery through first principles.',
