@@ -1520,13 +1520,7 @@ module.exports = [
     computer: 'linux',
     phone: 'android',
     mastodon: '@idlip@fosstodon.org',
-    tags: [
-      'Developer',
-      'Emacs',
-      'Org-mode',
-      'NixOS',
-      'Software Engineer',
-    ],
+    tags: ['Developer', 'Emacs', 'Org-mode', 'NixOS', 'Software Engineer'],
   },
   {
     name: 'Joshua Blais',
